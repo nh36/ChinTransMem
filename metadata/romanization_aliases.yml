@@ -1,0 +1,26 @@
+[
+  {
+    "entity_type": "work",
+    "entity_id": "lunyu",
+    "alias": "Lunyu",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "lunyu",
+    "alias": "Analects",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-01-xueer",
+    "alias": "Hsio R.",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-01-xueer",
+    "alias": "Xue Er",
+    "romanization_system": "pinyin"
+  }
+]

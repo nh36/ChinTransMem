@@ -1,0 +1,20 @@
+[
+  {
+    "person_id": "confucius-disciples",
+    "display_name": "孔子的弟子與再傳弟子",
+    "romanized_name": "Confucius's students and subsequent transmitters",
+    "roles": [
+      "compiler"
+    ],
+    "notes": "Authority string follows the Chinese Wikisource attribution for 論語."
+  },
+  {
+    "person_id": "james-legge",
+    "display_name": "James Legge",
+    "romanized_name": "James Legge",
+    "roles": [
+      "translator"
+    ],
+    "notes": "Translator of The Chinese Classics, Volume 1."
+  }
+]

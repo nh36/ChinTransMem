@@ -1,0 +1,12 @@
+[
+  {
+    "rights_id": "public_domain",
+    "label": "Public domain",
+    "description": "Source text can be stored and redistributed in full."
+  },
+  {
+    "rights_id": "metadata_only",
+    "label": "Metadata only",
+    "description": "Only bibliographic metadata may be stored until rights are cleared."
+  }
+]

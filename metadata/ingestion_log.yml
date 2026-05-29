@@ -1,0 +1,13 @@
+[
+  {
+    "run_id": "pilot-bootstrap-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-01-xueer",
+    "status": "planned",
+    "source_ids": [
+      "zhwikisource-20260529",
+      "legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap pilot for the first Lunyu plus Legge slice, including a section-level many-to-many alignment example."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "source_id": "zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-01-xueer",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語／學而第一, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/學而第一",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-01-xueer__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-01-xueer__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export on 2026-05-29."
+  },
+  {
+    "source_id": "legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-01-xueer",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book I, 1861 edition reprinted 1893, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/I",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-01-xueer__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-01-xueer__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for Legge's Book I section."
+  }
+]

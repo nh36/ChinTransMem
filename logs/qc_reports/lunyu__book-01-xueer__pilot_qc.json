@@ -1,0 +1,30 @@
+{
+  "section_id": "book-01-xueer",
+  "counts": {
+    "works": 1,
+    "sections": 1,
+    "persons": 2,
+    "sources": 2,
+    "segments": 32,
+    "alignments": 17
+  },
+  "many_to_many_alignment_ids": [
+    "lunyu__book-01-xueer__section-group__zhwikisource-20260529__legge-cc-v1-1893"
+  ],
+  "unmatched_chinese_segment_ids": [],
+  "unmatched_translation_segment_ids": [],
+  "checksums": {
+    "corpus/raw/wikisource/lunyu__book-01-xueer__legge-cc-v1-1893__raw.wikitext": "2e9461f3aeaa26e125e352e27eda86d4d03d23143b9552a99dda8f55b097b620",
+    "corpus/processed/translations/lunyu__book-01-xueer__legge-cc-v1-1893__segments.jsonl": "a6aa6db40eb79689129f55ca080e2a2a792609738b917563e2aece9b392bee9b",
+    "corpus/raw/wikisource/lunyu__book-01-xueer__zhwikisource-20260529__raw.wikitext": "04bf4a9cb30d141e6573427e043991dfe698102958899db4ae47a140476b1f35",
+    "corpus/processed/chinese_base_texts/lunyu__book-01-xueer__zhwikisource-20260529__segments.jsonl": "745f2ca1fbcea3ad424716358081f6a210488e7233405ee88b9acbab9edcf2ad",
+    "corpus/processed/alignments/lunyu__book-01-xueer__zhwikisource-20260529__legge-cc-v1-1893__alignments.jsonl": "04fe0d507186fe57b3644db36852d1e920f6aa247c557e0192fbb8173feefb4f",
+    "corpus/processed/chinese_base_texts/lunyu__book-01-xueer__zhwikisource-20260529__base.txt": "4d0c26fe87bd18bc6fb31006d6512bc0f78966a5713abf4a03b5b3ab91a30d9e",
+    "corpus/processed/translations/lunyu__book-01-xueer__legge-cc-v1-1893__translation.txt": "e5e5f4598821637eb060eab6c14dc54fdf1370bac31b06abea2e69725adc7a7e",
+    "corpus/exports/jsonl/lunyu__book-01-xueer__aligned_passages.jsonl": "da1f1a99c4f074985e8e2c29a50c04a14b96d180fb13ae3ec88b6eb98f5d8011",
+    "corpus/exports/csv/lunyu__book-01-xueer__aligned_passages.csv": "26e8a590ad63fb223a09573e11151b65d68abdda825b9eba58157dfb089864aa",
+    "corpus/exports/tmx/lunyu__book-01-xueer__aligned_passages.tmx": "bd26b3594695bcfbb439129f9d587eddafda463aa6fd3e1a7e314cf46465de67",
+    "logs/qc_reports/lunyu__book-01-xueer__tmx_validation.json": "8e56136272d32a13ac81fbe20833ba793fa8fea06478bab022cebca99b5795b5"
+  },
+  "status": "pass"
+}
