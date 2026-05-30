@@ -430,5 +430,41 @@
     "entity_id": "book-14-jinxin-xia",
     "alias": "Jin Xin II",
     "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shijing",
+    "alias": "Shijing",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shijing",
+    "alias": "Shi Jing",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shijing",
+    "alias": "Classic of Poetry",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shijing",
+    "alias": "Book of Poetry",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhounan-001-guanju",
+    "alias": "Guan ju",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhounan-001-guanju",
+    "alias": "Guan Ju",
+    "romanization_system": "pinyin"
   }
 ]

@@ -372,5 +372,16 @@
       "book-14-jinxin-xia__legge-cc-v2-1895"
     ],
     "notes": "Bootstrap corpus generation for 盡心下 with 38 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhounan-001-guanju-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-001-guanju",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-001-guanju__zhwikisource-20260530",
+      "guofeng-zhounan-001-guanju__legge-sheking-1871"
+    ],
+    "notes": "Bootstrap Shijing pilot generation for 關雎 with 5 exact stanza alignments."
   }
 ]

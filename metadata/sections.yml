@@ -304,5 +304,14 @@
     "canonical_ref": "孟子 7B",
     "sort_key": 14,
     "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "guofeng-zhounan-001-guanju",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "關雎",
+    "canonical_ref": "詩經·國風·周南·001",
+    "sort_key": 1,
+    "notes": "Shijing pilot poem aligned at stanza-level while preserving 國風 / 周南 / poem hierarchy in metadata."
   }
 ]

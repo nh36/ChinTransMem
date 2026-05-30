@@ -123,6 +123,20 @@ def bootstrap_work(work_id: str, *, skip_fetch: bool = False) -> dict[str, Any]:
             "aliases": list(manifest.get("romanization_aliases", [])),
             "ingestion_log": list(manifest.get("ingestion_log", [])),
         }
+    if work_id == "shijing":
+        from bootstrap_shijing_corpus import bootstrap_corpus as bootstrap_shijing_corpus
+
+        summary = bootstrap_shijing_corpus(skip_fetch=skip_fetch)
+        manifest = load_work_manifest(work_id)
+        return {
+            "work_id": work_id,
+            "summary": summary,
+            "manifest": manifest,
+            "sections": _manifest_sections(manifest),
+            "sources": list(manifest.get("sources", [])),
+            "aliases": list(manifest.get("romanization_aliases", [])),
+            "ingestion_log": list(manifest.get("ingestion_log", [])),
+        }
 
     return {
         "work_id": work_id,

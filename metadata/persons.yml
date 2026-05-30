@@ -25,5 +25,14 @@
       "compiler"
     ],
     "notes": "Authority string for 孟子 follows standard traditional attribution used by Chinese Wikisource."
+  },
+  {
+    "person_id": "shijing-anthologists",
+    "display_name": "《詩經》傳世編者",
+    "romanized_name": "Transmitters of the Classic of Poetry",
+    "roles": [
+      "compiler"
+    ],
+    "notes": "Authority string for 詩經 captures the transmitted anthology rather than a single named modern editor."
   }
 ]

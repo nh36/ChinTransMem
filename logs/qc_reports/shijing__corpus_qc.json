@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "work_id": "shijing",
+  "manifest_summary": {
+    "section_count": 1,
+    "complete_sections": 1,
+    "metadata_only_sections": 0,
+    "sections_needing_alignment": 0,
+    "sections_needing_qc": 0,
+    "exact_alignment_count": 5
+  },
+  "counts": {
+    "works": 1,
+    "sections": 1,
+    "persons": 4,
+    "sources": 2,
+    "segments": 10,
+    "alignments": 6
+  },
+  "sections": [
+    {
+      "section_id": "guofeng-zhounan-001-guanju",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "status": "pass",
+      "expected_exact_alignment_count": 5,
+      "exact_alignment_count": 5,
+      "grouped_alignment_count": 1,
+      "unmatched_chinese_segment_ids": [],
+      "unmatched_translation_segment_ids": []
+    }
+  ],
+  "checksums": {
+    "metadata/sections.yml": "d0d4191d08e8c137249c69f9179a996afc3c43e64105f72c24548445637d7bce",
+    "metadata/sources.yml": "b99001cea3f1042268bdddf7300b0aad7d256defa058977601f9c460c07d5d6b",
+    "metadata/manifests/shijing.yml": "c7af30181f164bed1552754f02ca0399d0d1f3790eda7178bb0c53564d9a9554",
+    "corpus/exports/jsonl/shijing__guofeng-zhounan-001-guanju__aligned_passages.jsonl": "ad5153289016ff9ceeb39320194c59b532e6278fddedd7f00550ae280199dc22",
+    "corpus/exports/csv/shijing__guofeng-zhounan-001-guanju__aligned_passages.csv": "7016421ed3828bf9e779bdf984b0d52cb5abe52ce1378108084a8fc6bb1ae8f6",
+    "corpus/exports/tmx/shijing__guofeng-zhounan-001-guanju__aligned_passages.tmx": "2f685f8b896d1027842edd4f354c5043982c180f6246b7353eb10eaf2a31ce86",
+    "logs/qc_reports/shijing__guofeng-zhounan-001-guanju__tmx_validation.json": "89d641c456c5eaa8b40c376661210b12b1f8f73a10cac7d67cb08c29a8d156fb",
+    "corpus/exports/jsonl/shijing__all__aligned_passages.jsonl": "ad5153289016ff9ceeb39320194c59b532e6278fddedd7f00550ae280199dc22",
+    "corpus/exports/csv/shijing__all__aligned_passages.csv": "7016421ed3828bf9e779bdf984b0d52cb5abe52ce1378108084a8fc6bb1ae8f6",
+    "corpus/exports/tmx/shijing__all__aligned_passages.tmx": "2f685f8b896d1027842edd4f354c5043982c180f6246b7353eb10eaf2a31ce86",
+    "logs/qc_reports/shijing__corpus_tmx_validation.json": "62cb498e458c979b4a17b6635a04aac27802af6fefebb20ab02257713ded2a41"
+  }
+}

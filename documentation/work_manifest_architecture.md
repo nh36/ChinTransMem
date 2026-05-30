@@ -11,8 +11,8 @@ The repository now treats **Lunyu as the default work** inside a broader multi-w
 
 ## Bootstrap model
 
-- `scripts/bootstrap_lunyu_corpus.py` still owns the implemented Lunyu parsing and alignment logic.
-- `scripts/bootstrap_work_corpus.py` is the manifest-aware coordinator. It loads all work manifests, runs concrete work bootstraps such as Lunyu and Mengzi, preserves any metadata-only manifests that may be added later, and rewrites the aggregate metadata files.
+- `scripts/bootstrap_lunyu_corpus.py`, `scripts/bootstrap_mengzi_corpus.py`, and `scripts/bootstrap_shijing_corpus.py` own the implemented work-specific parsing and alignment logic.
+- `scripts/bootstrap_work_corpus.py` is the manifest-aware coordinator. It loads all work manifests, runs concrete work bootstraps such as Lunyu, Mengzi, and Shijing, preserves any metadata-only manifests that may be added later, and rewrites the aggregate metadata files.
 - `make bootstrap-corpus` now runs the manifest-aware bootstrap while preserving the existing Lunyu output paths.
 
 ## Shared workflow expectations
@@ -31,4 +31,4 @@ The repository now treats **Lunyu as the default work** inside a broader multi-w
 
 ## Current constraint
 
-The generic layer is intentionally conservative: it supports multiple work manifests now, but only Lunyu currently has a full raw-to-alignment bootstrap implementation. New works should enter as metadata-first manifests until their public-domain witnesses and segmentation rules are ready.
+The generic layer is intentionally conservative: it supports multiple work manifests now, with complete raw-to-alignment bootstraps for Lunyu and Mengzi plus a controlled Shijing pilot (`關雎`) aligned at stanza level. New works should still enter as metadata-first manifests until their public-domain witnesses and segmentation rules are ready.

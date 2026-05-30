@@ -1086,5 +1086,37 @@
       "james-legge"
     ],
     "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "guofeng-zhounan-001-guanju__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-001-guanju",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/關雎, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/詩經/關雎",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-001-guanju__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-001-guanju__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and, when needed, splits larger Chinese stanza blocks into two-line units to match the public-domain English witness."
+  },
+  {
+    "source_id": "guofeng-zhounan-001-guanju__legge-sheking-1871",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-001-guanju",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'Guan ju', English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/Guan_ju",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-001-guanju__legge-sheking-1871__raw.wikitext",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-001-guanju__legge-sheking-1871__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Processed segmentation preserves the stanza blocks printed on Legge's standalone poem page."
   }
 ]

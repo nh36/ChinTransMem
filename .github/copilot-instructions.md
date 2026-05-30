@@ -3,12 +3,13 @@
 ## Current repository state
 
 - The source of truth is `chinese_classics_translation_memory_readme.md`.
-- The repository now includes working public-domain **Lunyu** and **Mengzi** corpora bootstrapped against James Legge's translations, within a multi-work manifest structure. Use the spec document for broader roadmap context, but prefer the implemented files under `corpus/`, `metadata/`, `db/`, `scripts/`, `web/api/`, and `tests/` when changing the current system.
+- The repository now includes working public-domain **Lunyu** and **Mengzi** corpora plus a controlled **Shijing** pilot (`關雎`) within a multi-work manifest structure. Use the spec document for broader roadmap context, but prefer the implemented files under `corpus/`, `metadata/`, `db/`, `scripts/`, `web/api/`, and `tests/` when changing the current system.
 
 ## Build, test, and lint commands
 
 - `make bootstrap-corpus` regenerates metadata and processed files for all configured work manifests while preserving the current Lunyu outputs.
 - `make bootstrap-lunyu` runs the Lunyu-specific bootstrap implementation directly.
+- `make bootstrap-shijing` runs the Shijing pilot bootstrap directly.
 - `make corpus` runs the end-to-end workflow for the default work (`lunyu`): initialize the SQLite database, import aggregate metadata, export aligned passages, validate TMX, and write the QC report.
 - `make corpus-work WORK=lunyu` runs the same workflow for a specific work manifest.
 - `make init-db`, `make import-corpus`, `make export-corpus`, `make validate-tmx`, and `make qc-corpus` run the workflow stages individually.
@@ -17,7 +18,7 @@
 - `make serve-api` starts the read-only corpus API for the SQLite database.
 - `make test` runs the Python `unittest` suite.
 - `make single-test` runs one test method; override `TEST`, for example `make single-test TEST=tests.test_corpus_workflow.CorpusWorkflowTest.test_lunyu_workflow_counts_and_qc`.
-- Direct Python equivalents are `python3 scripts/bootstrap_work_corpus.py --skip-fetch`, `python3 scripts/bootstrap_lunyu_corpus.py --skip-fetch`, `python3 scripts/corpus_workflow.py --work-id lunyu`, `python3 scripts/init_db.py`, `python3 scripts/import_corpus.py`, `python3 scripts/export_corpus.py --work-id lunyu`, `python3 scripts/validate_tmx.py --work-id lunyu`, `python3 scripts/qc_corpus.py --work-id lunyu`, `python3 scripts/install_git_hooks.py`, `python3 web/api/corpus_api.py`, and `python3 -m unittest discover -s tests -p 'test_*.py'`.
+- Direct Python equivalents are `python3 scripts/bootstrap_work_corpus.py --skip-fetch`, `python3 scripts/bootstrap_lunyu_corpus.py --skip-fetch`, `python3 scripts/bootstrap_shijing_corpus.py --skip-fetch`, `python3 scripts/corpus_workflow.py --work-id lunyu`, `python3 scripts/init_db.py`, `python3 scripts/import_corpus.py`, `python3 scripts/export_corpus.py --work-id lunyu`, `python3 scripts/validate_tmx.py --work-id lunyu`, `python3 scripts/qc_corpus.py --work-id lunyu`, `python3 scripts/install_git_hooks.py`, `python3 web/api/corpus_api.py`, and `python3 -m unittest discover -s tests -p 'test_*.py'`.
 
 ## High-level architecture
 
@@ -36,7 +37,7 @@
 - `metadata/manifests/{work_id}.yml` is the per-work source of truth for status, URLs, expected alignment counts, and source IDs; `metadata/corpus_manifest.yml` remains the Lunyu compatibility mirror.
 - The implemented processing pipeline is **capture raw Wikisource text -> create cleaned segment files and alignments per section -> import into SQLite -> export per-section and per-work aligned passages/TMX -> validate TMX -> generate corpus QC**.
 - The core schema is `works`, `sections`, `persons`, `sources`, `segments`, `alignments`, and `agent_runs`.
-- The current corpus imports all 20 Lunyu books plus all 14 traditional Mengzi sections, with 501 Lunyu exact alignments and 260 Mengzi exact passage alignments.
+- The current corpus imports all 20 Lunyu books, all 14 traditional Mengzi sections, and a Shijing pilot for `關雎`, with 501 Lunyu exact alignments, 260 Mengzi exact passage alignments, and 5 Shijing exact stanza alignments.
 
 ## Key conventions
 
