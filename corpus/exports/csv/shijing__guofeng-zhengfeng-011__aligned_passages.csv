@@ -1,0 +1,9 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhengfeng-011__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄭風·011.1,蘀兮蘀兮，風其吹女。叔兮伯兮，倡予和女。,蘀兮.1,"Ye withered leaves! Ye withered leaves!
+How the wind is blowing you away!
+O ye uncles,
+Give us the first note, and we will join in with you."
+shijing__guofeng-zhengfeng-011__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄭風·011.2,蘀兮蘀兮，風其漂女。叔兮伯兮，倡予要女。,蘀兮.2,"Ye withered leaves! Ye withered leaves!
+How the wind is carrying you away!
+O ye uncles,
+Give us the first note, and we will complete the song."

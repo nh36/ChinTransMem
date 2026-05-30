@@ -1,0 +1,18 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-weifeng-state-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-state-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·魏風·004.1,陟彼岵兮，瞻望父兮。父曰：「嗟予子！行役夙夜無已。上慎旃哉，猶來無止！」,陟岵.1,"I ascend that tree-clad hill,
+And look towards the residence of my father.
+Morning and night never rests.
+May he be careful,
+That he may come back, and not remain there!"
+shijing__guofeng-weifeng-state-004__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-state-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·魏風·004.2,陟彼屺兮，瞻望母兮。母曰：「嗟予季！行役夙夜無寐。上慎旃哉！猶來無棄！」,陟岵.2,"I ascend that bare hill,
+And look towards the residence of my mother.
+Morning and night has no sleep.
+May he be careful,
+That he may come back, and not leave his body there!"
+shijing__guofeng-weifeng-state-004__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-state-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·魏風·004.3,陟彼岡兮，瞻望兄兮。兄曰：「嗟予弟！行役夙夜必偕。上慎旃哉！猶來無死！」,陟岵.3,"I ascend that ridge,
+And look towards the residence of my elder brother.
+My brother is saying, Alas! my younger brother, abroad on
+the public service,
+Morning and night must consort with his comrades.
+May he be careful,
+That he may come back, and not die!?"

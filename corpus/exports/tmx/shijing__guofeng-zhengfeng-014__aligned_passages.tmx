@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhengfeng-014__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-014</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·014.1</prop>
+      <prop type="x-translation-ref">丰.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>子之丰兮，俟我乎巷兮。悔予不送兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Full and good looking was the gentleman,
+Who waited for me in the lane !
+I repent that I did not go with him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhengfeng-014__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-014</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·014.2</prop>
+      <prop type="x-translation-ref">丰.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>子之昌兮，俟我乎堂兮。悔予不將兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A splendid gentleman was he,
+Who waited for me in the hall !
+I regret that I did not accompany him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhengfeng-014__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-014</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·014.3</prop>
+      <prop type="x-translation-ref">丰.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>衣錦褧衣，裳錦褧裳。叔兮伯兮，駕予與行。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Over my embroidered upper robe, I have put on a plain
+single garment ;
+Over my embroidered lower robe, I have done the same.
+O Sir, O Sir,
+Have your carriage ready for me to go with you.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhengfeng-014__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-014</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·014.4</prop>
+      <prop type="x-translation-ref">丰.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>裳錦褧裳，衣錦褧衣。叔兮伯兮，駕予與歸。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Over my embroidered lower robe, I have put on a plain
+single garment ;
+Over my embroidered upper robe, I have done the same.
+O Sir, 0 Sir,
+Have your carriage ready to take me home with you.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

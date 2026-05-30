@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhengfeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·002.1</prop>
+      <prop type="x-translation-ref">將仲子.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>將仲子兮，無踰我里，無折我樹杞。豈敢愛之？畏我父母。仲可懷也，父母之言，亦可畏也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I pray you, Mr. Chung,
+Do not come leaping into my hamlet;
+Do not break my willow trees.
+Do I care for them?
+But I fear my parents.
+You, 0 Chung, are to be loved,
+But the words of my parents
+Are also to be feared.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhengfeng-002__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·002.2</prop>
+      <prop type="x-translation-ref">將仲子.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>將仲子兮，無踰我牆，無折我樹桑。豈敢愛之？畏我諸兄。仲可懷也，諸兄之言，亦可畏也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I pray you, Mr. Chung,
+Do not come leaping over my wall;
+Do not break my mulberry trees.
+Do I care for them?
+But I fear the words of my brothers.
+You, 0 Chung, are to be loved,
+But the words of m}r brothers
+Are also to be feared.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhengfeng-002__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·002.3</prop>
+      <prop type="x-translation-ref">將仲子.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>將仲子兮，無踰我園，無折我樹檀。豈敢愛之？畏人之多言。仲可懷也，人之多言，亦可畏也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I pray you, Mr. Chung,
+Do not come leaping into my garden;
+Do not break my sandal trees.
+Do I care for them?
+But I dread the talk of people.
+You, 0 Chung, are to be loved,
+But the talk of people
+Is also to be feared.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

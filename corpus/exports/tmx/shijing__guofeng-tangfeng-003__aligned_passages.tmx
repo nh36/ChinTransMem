@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-tangfeng-003__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-tangfeng-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·003.1</prop>
+      <prop type="x-translation-ref">揚之水.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>揚之水，不流束薪。彼其之子，不與我戍申。懷哉懷哉！曷月予還歸哉！
+揚之水，不流束楚。彼其之子，不與我戍甫。懷哉懷哉！曷月予還歸哉！
+揚之水，不流束蒲。彼其之子，不與我戍許。懷哉懷哉！曷月予還歸哉！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Amidst the fretted waters,
+The white rocks stand up grandly.
+Bringing a robe of white silk, with a vermilion collar,
+We will follow you to Yuh.
+When we have seen the princely lord,
+Shall we not rejoice?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-tangfeng-003__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-tangfeng-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·003.2</prop>
+      <prop type="x-translation-ref">揚之水.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>揚之水，不流束楚，終鮮兄弟，維予與女，無信人之言，人實迋女。
+揚之水，不流束薪，終鮮兄弟，維予二人，無信人之言，人實不信！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Amidst the fretted waters,
+The white rocks stand glistening.
+Bringing a robe of white silk, with a vermilion collar, and
+We will follow you to Ivaou.
+When we have seen the princel}r lord,
+What sorrow will remain to us?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-tangfeng-003__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-tangfeng-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·003.3</prop>
+      <prop type="x-translation-ref">揚之水.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>揚之水，白石鑿鑿，素衣朱襮，從子于沃，既見君子，云何不樂。
+揚之水，白石皓皓，素衣朱繡，從子于鵠，既見君子，云何其憂。
+揚之水，白石粼粼，我聞有命，不敢以告人！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Amidst the fretted waters,
+The white rocks clearly show.
+We have heard your orders,
+And will not dare to inform any one of them.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-weifeng-state-004__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-state-004</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·魏風·004.1</prop>
+      <prop type="x-translation-ref">陟岵.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>陟彼岵兮，瞻望父兮。父曰：「嗟予子！行役夙夜無已。上慎旃哉，猶來無止！」</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I ascend that tree-clad hill,
+And look towards the residence of my father.
+Morning and night never rests.
+May he be careful,
+That he may come back, and not remain there!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-weifeng-state-004__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-state-004</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·魏風·004.2</prop>
+      <prop type="x-translation-ref">陟岵.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>陟彼屺兮，瞻望母兮。母曰：「嗟予季！行役夙夜無寐。上慎旃哉！猶來無棄！」</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I ascend that bare hill,
+And look towards the residence of my mother.
+Morning and night has no sleep.
+May he be careful,
+That he may come back, and not leave his body there!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-weifeng-state-004__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-state-004</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·魏風·004.3</prop>
+      <prop type="x-translation-ref">陟岵.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>陟彼岡兮，瞻望兄兮。兄曰：「嗟予弟！行役夙夜必偕。上慎旃哉！猶來無死！」</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I ascend that ridge,
+And look towards the residence of my elder brother.
+My brother is saying, Alas! my younger brother, abroad on
+the public service,
+Morning and night must consort with his comrades.
+May he be careful,
+That he may come back, and not die!?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -2128,16 +2128,16 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
                 [
                     "O you, with the blue collar,",
                     "Prolonged is the anxiety of my heart.",
-                    "Although I do not go [to you],",
-                    "Why do you not continue your messages [to me]?",
+                    "Although I do not go to you,",
+                    "Why do you not continue your messages to me?",
                 ]
             ),
             "\n".join(
                 [
-                    "O you with the blue [strings to your] girdle-gems,",
+                    "O you with the blue strings to your girdle-gems,",
                     "Long, long do I think of you.",
-                    "Although I do not go [to you],",
-                    "Why do you not come [to me]?",
+                    "Although I do not go to you,",
+                    "Why do you not come to me?",
                 ]
             ),
             "\n".join(
@@ -2371,6 +2371,84 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
                 ]
             ),
         ],
+    },
+}
+
+AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
+    77: {
+        "line_replacements": {
+            "Are^ there indeed none feasting?": "Are there indeed none feasting?",
+        },
+    },
+    78: {
+        "line_replacements": {
+            "The reins are in his ^rasp like ribbons,": "The reins are in his grasp like ribbons,",
+            "And with bared arms he seizes a ti^er,": "And with bared arms he seizes a tiger,",
+            "O Shuh7 try not such sport again ;": "O Shuh, try not such sport again;",
+            "Shun has gone hunting,": "Shuh has gone hunting,",
+            "Shull has gone hunting.": "Shuh has gone hunting.",
+            "His two insides have tlieir heads in a line,": "His two insides have their heads in a line,",
+        },
+    },
+    79: {
+        "line_replacements": {
+            "The men of Tscing are in P^ang;": "The men of Tscing are in P'ang;",
+        },
+    },
+    89: {
+        "keep_blocks": [0, 1],
+        "review_note": (
+            "Reviewed the part-1 hOCR witness directly and trimmed the following 風雨 carry-over blocks so only 東門之墠 "
+            "remains in the exportable text."
+        ),
+    },
+    96: {
+        "line_replacements": {
+            "Bat it was not the east that was bright; —": "But it was not the east that was bright; —",
+        },
+        "review_note": "Reviewed the part-1 hOCR witness directly and corrected the one obvious court-line OCR slip in the middle stanza.",
+    },
+    104: {
+        "review_note": "Reviewed the part-1 hOCR witness directly and dropped the trailing subdivision heading after the final verse stanza.",
+    },
+    113: {
+        "drop_lines": ["rul 'ds"],
+        "review_note": "Reviewed the part-1 hOCR witness directly and removed the stray non-verse OCR fragment between the opening and later stanzas.",
+    },
+    114: {
+        "line_replacements": {
+            "Let us fii^st think of the griefs that may arise;": "Let us first think of the griefs that may arise;",
+        },
+        "review_note": "Reviewed the part-1 hOCR witness directly and corrected the single obvious OCR corruption in the closing stanza.",
+    },
+    110: {
+        "line_replacements": {
+            "My brother is saying, (Alas! my younger brother, abroad on": "My brother is saying, Alas! my younger brother, abroad on",
+        },
+    },
+    111: {
+        "line_replacements": {
+            "Come, says one to another, 4I will go away with you.1": "Come, says one to another, I will go away with you.",
+            "Come, says one to another, I will return with you.": "Come, says one to another, I will return with you.",
+        },
+    },
+    116: {
+        "review_note": "Reviewed the part-1 hOCR witness directly and removed the trailing ODES OF T‘ANG heading after the final stanza.",
+    },
+    105: {
+        "line_replacements": {
+            "AVith its screen of bamboos woven in squares, and its vermilion-": "With its screen of bamboos woven in squares, and its vermilion-",
+            "And the daughter of Ts^ started on it in the evening.": "And the daughter of Ts'e started on it in the evening.",
+            "And the daughter of Ts^e moves on with unconcern.": "And the daughter of Ts'e moves on with unconcern.",
+            "And the daughter of Ts^e proceeds at her ease,": "And the daughter of Ts'e proceeds at her ease,",
+        },
+    },
+    120: {
+        "line_replacements": {
+            "LamVs fur and leopard^ cuffs,": "Lamb's fur and leopard's cuffs,",
+            "Yon use us with cruel unkindness.": "You use us with cruel unkindness.",
+        },
+        "review_note": "Reviewed the part-1 hOCR witness directly and corrected the obvious OCR damage in the repeated opening lines.",
     },
 }
 
@@ -2745,7 +2823,13 @@ def map_sbe_page_title(title: str, chinese_catalog: list[dict[str, Any]]) -> dic
     raise ValueError(f"Could not map SBE page title: {title}")
 
 
-def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witness: str) -> dict[str, Any]:
+def build_section_seed(
+    poem: dict[str, Any],
+    *,
+    en_page_title: str,
+    english_witness: str,
+    verification_entry: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     witness_meta = shijing_witness_metadata(english_witness)
     if poem["sort_key"] == 1 and english_witness == "standalone_sheking":
         return dict(SECTION_CATALOG[0])
@@ -2777,7 +2861,9 @@ def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witn
         }
     if english_witness == "legge_ocr_reviewed":
         witness = legge_ocr_witness_for_entry(poem)
-        reviewed = REVIEWED_LEGGE_OCR_POEM_BLOCKS[poem["sort_key"]]
+        reviewed = REVIEWED_LEGGE_OCR_POEM_BLOCKS.get(poem["sort_key"])
+        if reviewed is None:
+            reviewed = build_auto_reviewed_hocr_entry(poem, verification_entry)
         translation_ref_label = reviewed.get("translation_ref_label") or poem["label"]
         return {
             "section_id": section_id_for_catalog_entry(poem),
@@ -2876,11 +2962,20 @@ def build_section_catalog(
             or poem["sort_key"] in EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS
         ):
             continue
-        english_witness = "legge_ocr_reviewed" if poem["sort_key"] in REVIEWED_LEGGE_OCR_POEM_BLOCKS else "legge_hocr"
+        verification_entry = verification_index[section_id_for_catalog_entry(poem)] if verification_index is not None else None
+        english_witness = (
+            "legge_ocr_reviewed"
+            if (
+                poem["sort_key"] in REVIEWED_LEGGE_OCR_POEM_BLOCKS
+                or (verification_entry and verification_entry.get("verification_status") == "human_verified_ocr")
+            )
+            else "legge_hocr"
+        )
         section_seed = build_section_seed(
             poem,
             en_page_title="James Legge, The She King (1871 hOCR fallback)",
             english_witness=english_witness,
+            verification_entry=verification_entry,
         )
         if verification_index is not None and not verification_entry_is_exportable(verification_index[section_seed["section_id"]]):
             seen_sort_keys.add(poem["sort_key"])
@@ -3619,6 +3714,63 @@ def extract_hocr_poem_blocks(section: dict[str, Any]) -> tuple[list[str], str]:
                     fallback_lines.append(text)
         cleaned = ["\n".join(fallback_lines)] if fallback_lines else [section["label"]]
     return cleaned, hocr_section["legge_section_alias"]
+
+
+def sanitize_reviewed_hocr_line(text: str) -> str:
+    cleaned = normalize_english_line(text)
+    cleaned = re.sub(r"^\d+[.)]?\s*", "", cleaned)
+    cleaned = re.sub(r"^[cC4]+\s*(?=[A-Z])", "", cleaned)
+    cleaned = re.sub(r"^0(?=\s+[A-Z])", "O", cleaned)
+    cleaned = re.sub(r"^1(?=\s+[a-z])", "I", cleaned)
+    cleaned = re.sub(r"([!?])\d+$", r"\1", cleaned)
+    cleaned = cleaned.replace("；", ";").replace("，", ",")
+    cleaned = cleaned.replace("[", "").replace("]", "")
+    cleaned = cleaned.replace("‘", "").replace("’", "").replace("“", "").replace("”", "")
+    cleaned = cleaned.replace("/", "")
+    cleaned = cleaned.rstrip("*•")
+    return cleaned.strip(" \"'“”‘’")
+
+
+def build_auto_reviewed_hocr_entry(
+    poem: dict[str, Any],
+    verification_entry: dict[str, Any] | None,
+) -> dict[str, Any]:
+    blocks, legge_alias = extract_hocr_poem_blocks(poem)
+    override = AUTO_REVIEWED_LEGGE_OCR_OVERRIDES.get(poem["sort_key"], {})
+    keep_blocks = override.get("keep_blocks")
+    if keep_blocks:
+        blocks = [blocks[index] for index in keep_blocks if index < len(blocks)]
+    drop_lines = set(override.get("drop_lines", []))
+    line_replacements = override.get("line_replacements", {})
+    cleaned_blocks: list[str] = []
+    for block in blocks:
+        cleaned_lines: list[str] = []
+        for line in block.splitlines():
+            cleaned = sanitize_reviewed_hocr_line(line)
+            for before, after in line_replacements.items():
+                cleaned = cleaned.replace(before, after)
+            if not cleaned or cleaned in drop_lines:
+                continue
+            if re.match(r"^(?:ODES OF|PART I\.|FART I\.)", cleaned):
+                continue
+            cleaned_lines.append(cleaned)
+        if cleaned_lines:
+            cleaned_blocks.append("\n".join(cleaned_lines))
+    if not cleaned_blocks:
+        cleaned_blocks = [poem["label"]]
+    return {
+        "legge_section_alias": legge_alias,
+        "translation_ref_label": poem["label"],
+        "review_note": (
+            override.get("review_note")
+            or "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export."
+        ),
+        "force_poem_alignment": override.get(
+            "force_poem_alignment",
+            (verification_entry or {}).get("alignment_granularity") != "stanza",
+        ),
+        "english_blocks": cleaned_blocks,
+    }
 
 
 def extract_rendered_text_lines(rendered_html: str) -> list[str]:

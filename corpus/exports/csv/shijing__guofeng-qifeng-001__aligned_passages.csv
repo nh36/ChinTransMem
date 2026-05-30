@@ -1,0 +1,12 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-qifeng-001__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qifeng-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·齊風·001.1,雞既鳴矣，朝既盈矣。匪雞則鳴，蒼蠅之聲。,雞鳴.1,"The cock has crowed;
+The court is full
+But it was not the cock that was crowing;
+It was the sound of the blue flies."
+shijing__guofeng-qifeng-001__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qifeng-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·齊風·001.2,東方明矣，朝既昌矣。匪東方則明，月出之光。,雞鳴.2,"The east is bright;
+The court is crowded
+But it was not the east that was bright; —
+It was the light of the moon coming forth."
+shijing__guofeng-qifeng-001__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qifeng-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·齊風·001.3,蟲飛薨薨，甘與子同夢。會且歸矣，無庶予子憎！,雞鳴.3,"The insects are flying in buzzing crowds;
+It would be sweet to lie by you and dream,
+Let them not hate both me and you"

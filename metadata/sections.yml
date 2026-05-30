@@ -987,7 +987,7 @@
     "label": "將仲子",
     "canonical_ref": "詩經·國風·鄭風·002",
     "sort_key": 76,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-zhengfeng-003",
@@ -996,7 +996,7 @@
     "label": "叔于田",
     "canonical_ref": "詩經·國風·鄭風·003",
     "sort_key": 77,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhengfeng-004",
@@ -1005,7 +1005,7 @@
     "label": "大叔于田",
     "canonical_ref": "詩經·國風·鄭風·004",
     "sort_key": 78,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhengfeng-005",
@@ -1014,7 +1014,7 @@
     "label": "清人",
     "canonical_ref": "詩經·國風·鄭風·005",
     "sort_key": 79,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-zhengfeng-006",
@@ -1023,7 +1023,7 @@
     "label": "羔裘",
     "canonical_ref": "詩經·國風·鄭風·006",
     "sort_key": 80,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhengfeng-007",
@@ -1032,7 +1032,7 @@
     "label": "遵大路",
     "canonical_ref": "詩經·國風·鄭風·007",
     "sort_key": 81,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-zhengfeng-008",
@@ -1068,7 +1068,7 @@
     "label": "蘀兮",
     "canonical_ref": "詩經·國風·鄭風·011",
     "sort_key": 85,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-zhengfeng-012",
@@ -1077,7 +1077,7 @@
     "label": "狡童",
     "canonical_ref": "詩經·國風·鄭風·012",
     "sort_key": 86,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhengfeng-013",
@@ -1086,7 +1086,7 @@
     "label": "褰裳",
     "canonical_ref": "詩經·國風·鄭風·013",
     "sort_key": 87,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhengfeng-014",
@@ -1095,7 +1095,7 @@
     "label": "丰",
     "canonical_ref": "詩經·國風·鄭風·014",
     "sort_key": 88,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-zhengfeng-015",
@@ -1104,7 +1104,7 @@
     "label": "東門之墠",
     "canonical_ref": "詩經·國風·鄭風·015",
     "sort_key": 89,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-zhengfeng-016",
@@ -1122,7 +1122,7 @@
     "label": "子衿",
     "canonical_ref": "詩經·國風·鄭風·017",
     "sort_key": 91,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhengfeng-018",
@@ -1140,7 +1140,7 @@
     "label": "出其東門",
     "canonical_ref": "詩經·國風·鄭風·019",
     "sort_key": 93,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhengfeng-020",
@@ -1149,7 +1149,7 @@
     "label": "野有蔓草",
     "canonical_ref": "詩經·國風·鄭風·020",
     "sort_key": 94,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-zhengfeng-021",
@@ -1167,7 +1167,7 @@
     "label": "雞鳴",
     "canonical_ref": "詩經·國風·齊風·001",
     "sort_key": 96,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-qifeng-002",
@@ -1194,7 +1194,7 @@
     "label": "東方之日",
     "canonical_ref": "詩經·國風·齊風·004",
     "sort_key": 99,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-qifeng-005",
@@ -1203,7 +1203,7 @@
     "label": "東方未明",
     "canonical_ref": "詩經·國風·齊風·005",
     "sort_key": 100,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-qifeng-006",
@@ -1212,7 +1212,7 @@
     "label": "南山",
     "canonical_ref": "詩經·國風·齊風·006",
     "sort_key": 101,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-qifeng-007",
@@ -1221,7 +1221,7 @@
     "label": "甫田",
     "canonical_ref": "詩經·國風·齊風·007",
     "sort_key": 102,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
   },
   {
     "section_id": "guofeng-qifeng-008",
@@ -1230,7 +1230,7 @@
     "label": "盧令",
     "canonical_ref": "詩經·國風·齊風·008",
     "sort_key": 103,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-qifeng-009",
@@ -1239,7 +1239,7 @@
     "label": "敝笱",
     "canonical_ref": "詩經·國風·齊風·009",
     "sort_key": 104,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-qifeng-010",
@@ -1248,7 +1248,7 @@
     "label": "載驅",
     "canonical_ref": "詩經·國風·齊風·010",
     "sort_key": 105,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-qifeng-011",
@@ -1257,7 +1257,7 @@
     "label": "猗嗟",
     "canonical_ref": "詩經·國風·齊風·011",
     "sort_key": 106,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-weifeng-state-001",
@@ -1266,7 +1266,7 @@
     "label": "葛屨",
     "canonical_ref": "詩經·國風·魏風·001",
     "sort_key": 107,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-weifeng-state-002",
@@ -1293,7 +1293,7 @@
     "label": "陟岵",
     "canonical_ref": "詩經·國風·魏風·004",
     "sort_key": 110,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-weifeng-state-005",
@@ -1302,7 +1302,7 @@
     "label": "十畝之間",
     "canonical_ref": "詩經·國風·魏風·005",
     "sort_key": 111,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-weifeng-state-006",
@@ -1320,7 +1320,7 @@
     "label": "碩鼠",
     "canonical_ref": "詩經·國風·魏風·007",
     "sort_key": 113,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-tangfeng-001",
@@ -1329,7 +1329,7 @@
     "label": "蟋蟀",
     "canonical_ref": "詩經·國風·唐風·001",
     "sort_key": 114,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-tangfeng-002",
@@ -1347,7 +1347,7 @@
     "label": "揚之水",
     "canonical_ref": "詩經·國風·唐風·003",
     "sort_key": 116,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "guofeng-tangfeng-004",
@@ -1356,7 +1356,7 @@
     "label": "椒聊",
     "canonical_ref": "詩經·國風·唐風·004",
     "sort_key": 117,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-tangfeng-005",
@@ -1365,7 +1365,7 @@
     "label": "綢繆",
     "canonical_ref": "詩經·國風·唐風·005",
     "sort_key": 118,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-tangfeng-006",
@@ -1383,7 +1383,7 @@
     "label": "羔裘",
     "canonical_ref": "詩經·國風·唐風·007",
     "sort_key": 120,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-tangfeng-008",
@@ -1410,7 +1410,7 @@
     "label": "有杕之杜",
     "canonical_ref": "詩經·國風·唐風·010",
     "sort_key": 123,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-tangfeng-011",
@@ -1428,7 +1428,7 @@
     "label": "采苓",
     "canonical_ref": "詩經·國風·唐風·012",
     "sort_key": 125,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-qinfeng-001",

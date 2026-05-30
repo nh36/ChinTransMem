@@ -1,0 +1,16 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-tangfeng-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-tangfeng-004,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·唐風·004.1,"椒聊之實，蕃衍盈升。彼其之子，碩大無朋。椒聊且！遠條且！
+椒聊之實，蕃衍盈匊。彼其之子，碩大且篤。椒聊且！遠條且！",椒聊.1,"The clusters of the pepper plant,
+Large and luxuriant, would fill a pint.
+That hero there
+Is large and peerless.
+
+the pepper plant!
+How its shoots extend!
+
+The clusters of the pepper plant,
+Large and luxuriant, would fill both your hands.
+That hero there
+Is large and generous.
+O the pepper plant!
+How its shoots extend;"

@@ -1,0 +1,13 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhengfeng-020__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-020,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄭風·020.1,野有蔓草，零露漙兮。有美一人，清揚婉兮。邂逅相遇，適我願兮。,野有蔓草.1,"On the moor is the creeping grass,
+And how heavily is it loaded with dew !
+There was a beautiful man,
+Lovely, with clear eyes and fine forehead !
+We met together accidentally,
+And so my desire was satisfied."
+shijing__guofeng-zhengfeng-020__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-020,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄭風·020.2,野有蔓草，零露瀼瀼。有美一人，婉如清揚。邂逅相遇，與子偕臧。,野有蔓草.2,"On the moor is the creeping grass,
+Heavily covered with dew.
+There was a beautiful man,
+Lovely, with clear eyes and fine forehead !
+We met together accidentally,
+And he and I were happy together."

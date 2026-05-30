@@ -34,6 +34,10 @@ DETAILED_QUEUE_SUBDIVISIONS: tuple[tuple[str, str], ...] = (
     ("國風", "鄘風"),
     ("國風", "衛風"),
     ("國風", "王風"),
+    ("國風", "鄭風"),
+    ("國風", "齊風"),
+    ("國風", "魏風"),
+    ("國風", "唐風"),
 )
 GENERIC_UNVERIFIED_NOTE = "Public-domain witness located, but the English text is not yet verified clean enough for export."
 

@@ -1,0 +1,7 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-qifeng-008__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qifeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·齊風·008.1,盧令令，其人美且仁。,盧令.1,"Lin-lin go the hounds; —
+Their master is admirable and kind."
+shijing__guofeng-qifeng-008__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qifeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·齊風·008.2,盧重環，其人美且鬈。,盧令.2,"There go the hounds with there double rings; —
+Their master is admirable and good."
+shijing__guofeng-qifeng-008__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qifeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·齊風·008.3,盧重鋂，其人美且偲。,盧令.3,"There go the hounds with there triple rings; —
+Their master is admirable and able."

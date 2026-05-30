@@ -1,0 +1,14 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhengfeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄭風·005.1,清人在彭，駟介旁旁。二矛重英，河上乎翱翔。,清人.1,"The men of Tscing are in P'ang;
+The chariot with its team in mail ever moves about;
+The two spears in it, with their ornaments, rising, one above
+the other.
+So do they roam about the Ho."
+shijing__guofeng-zhengfeng-005__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄭風·005.2,清人在消，駟介麃麃。二矛重喬，河上乎逍遙。,清人.2,"The men of Ts4ing are in Seaou;
+The chariot with its team in mail looks martial,
+So do they saunter about by the Ho."
+shijing__guofeng-zhengfeng-005__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·鄭風·005.3,清人在軸，駟介陶陶。左旋右抽，中軍作好。,清人.3,"The men of Tsing are in Cho'v;
+The mailed team of the chariot prance proudly.
+The driver on the left wheels it about, and the spearman
+on the right brandishes his weapon,
+While the general in the middle looks pleased."

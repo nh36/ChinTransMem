@@ -1,0 +1,17 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-tangfeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-tangfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·唐風·005.1,綢繆束薪，三星在天。今夕何夕？見此良人！子兮子兮！如此良人何！,綢繆.1,"Round and round the firewood is bound;
+And the Three Stars appear in the sky.
+This evening is what evening,
+That I see this good man?
+That I should get a good man like this!"
+shijing__guofeng-tangfeng-005__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-tangfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·唐風·005.2,綢繆束芻，三星在隅。今夕何夕？見此邂逅！子兮子兮！如此邂逅何！,綢繆.2,"Round and round the grass is bound;
+And the Three Stars are seen from the corner.
+This evening is what evening,
+That we have this unexpected meeting?
+Happy pair! Happy pair!
+That we should have this unexpected meeting!"
+shijing__guofeng-tangfeng-005__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-tangfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·唐風·005.3,綢繆束楚，三星在戶。今夕何夕？見此粲者！子兮子兮！如此粲者何！,綢繆.3,"Round and round the thorns are bound;
+And the Three Stars are seen from the door.
+This evening is what evening,
+That I see this beauty?
+That I should see a beauty like this !"

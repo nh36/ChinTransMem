@@ -374,8 +374,9 @@ class CorpusWorkflowTest(unittest.TestCase):
         self.assertEqual(quality_report["summary"]["complete_sections"], manifest["summary"]["complete_sections"])
         self.assertEqual(quality_report["summary"]["metadata_only_sections"], manifest["summary"]["metadata_only_sections"])
         self.assertEqual(quality_report["summary"]["exact_alignment_count"], manifest["summary"]["exact_alignment_count"])
-        self.assertGreaterEqual(quality_report["summary"]["complete_sections"], 123)
-        self.assertGreaterEqual(quality_report["summary"]["exact_alignment_count"], 270)
+        self.assertGreaterEqual(quality_report["summary"]["complete_sections"], 163)
+        self.assertGreaterEqual(quality_report["summary"]["exact_alignment_count"], 392)
+        self.assertGreaterEqual(quality_report["progress"]["all_human_verified_ocr_sections"], 60)
         self.assertEqual(quality_report["hard_failure_count"], 0)
         self.assertEqual(quality_report["summary"]["sections_needing_human_text_review"], 0)
         self.assertEqual(quality_report["summary"]["sections_with_possible_commentary_leakage"], 0)
@@ -411,7 +412,17 @@ class CorpusWorkflowTest(unittest.TestCase):
             {batch["repair_batch"] for batch in quality_report["progress"]["human_verified_batches"]},
         )
         priority_remaining = quality_report["progress"]["remaining_priority_subdivisions"]
-        for subdivision_key in ("國風 / 召南", "國風 / 邶風", "國風 / 鄘風", "國風 / 衛風", "國風 / 王風"):
+        for subdivision_key in (
+            "國風 / 召南",
+            "國風 / 邶風",
+            "國風 / 鄘風",
+            "國風 / 衛風",
+            "國風 / 王風",
+            "國風 / 鄭風",
+            "國風 / 齊風",
+            "國風 / 魏風",
+            "國風 / 唐風",
+        ):
             self.assertIn(subdivision_key, priority_remaining)
             self.assertTrue(
                 all(section["review_note"] for section in priority_remaining[subdivision_key])
@@ -429,6 +440,15 @@ class CorpusWorkflowTest(unittest.TestCase):
         )
         skipped_section_ids = {section["section_id"] for section in skipped_current_witness_sections}
         self.assertTrue({"guofeng-weifeng-006", "guofeng-wangfeng-005", "guofeng-wangfeng-010"} <= skipped_section_ids)
+        self.assertTrue(
+            {
+                "guofeng-zhengfeng-001",
+                "guofeng-qifeng-002",
+                "guofeng-weifeng-state-002",
+                "guofeng-tangfeng-002",
+            }
+            <= skipped_section_ids
+        )
         self.assertFalse(any(section["english_word_count"] == 0 for section in quality_report["sections"]))
         self.assertFalse(
             any(

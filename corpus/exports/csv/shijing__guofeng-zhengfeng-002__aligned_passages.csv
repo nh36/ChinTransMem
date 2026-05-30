@@ -1,0 +1,25 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhengfeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄭風·002.1,將仲子兮，無踰我里，無折我樹杞。豈敢愛之？畏我父母。仲可懷也，父母之言，亦可畏也。,將仲子.1,"I pray you, Mr. Chung,
+Do not come leaping into my hamlet;
+Do not break my willow trees.
+Do I care for them?
+But I fear my parents.
+You, 0 Chung, are to be loved,
+But the words of my parents
+Are also to be feared."
+shijing__guofeng-zhengfeng-002__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄭風·002.2,將仲子兮，無踰我牆，無折我樹桑。豈敢愛之？畏我諸兄。仲可懷也，諸兄之言，亦可畏也。,將仲子.2,"I pray you, Mr. Chung,
+Do not come leaping over my wall;
+Do not break my mulberry trees.
+Do I care for them?
+But I fear the words of my brothers.
+You, 0 Chung, are to be loved,
+But the words of m}r brothers
+Are also to be feared."
+shijing__guofeng-zhengfeng-002__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·鄭風·002.3,將仲子兮，無踰我園，無折我樹檀。豈敢愛之？畏人之多言。仲可懷也，人之多言，亦可畏也。,將仲子.3,"I pray you, Mr. Chung,
+Do not come leaping into my garden;
+Do not break my sandal trees.
+Do I care for them?
+But I dread the talk of people.
+You, 0 Chung, are to be loved,
+But the talk of people
+Is also to be feared."

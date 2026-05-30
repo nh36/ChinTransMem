@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-qifeng-006__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qifeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·齊風·006.1</prop>
+      <prop type="x-translation-ref">南山.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>南山崔崔，雄狐綏綏。魯道有蕩，齊子由歸。既曰歸止，曷又懷止！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>High and large is the south hill,
+And a male fox is on it, solitary and suspicious.
+The way to Loo is easy and plain,
+And the daughter of Ts(e went by it to her husbands.
+Since she went to her husbands,
+Why do you further think of her ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-qifeng-006__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qifeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·齊風·006.2</prop>
+      <prop type="x-translation-ref">南山.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>葛屨五兩，冠緌雙止。魯道有蕩，齊子庸止。既曰庸止，曷又從止！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The five kinds of dolichos shoes are made in pairs,
+And the string-ends of a cap are made to match;
+The way to Loo is easy and plain,
+And the daughter of Ts4e travelled it.
+Since she travelled it,
+Why do you still follow her?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-qifeng-006__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qifeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·齊風·006.3</prop>
+      <prop type="x-translation-ref">南山.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蓺麻如之何？衡從其畝。取妻如之何？必告父母，既曰告止，曷又鞠止！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How do we proceed in planting hemp?
+The acres must be dressed lengthwise and crosswise.
+How do we proceed in taking a wife ?
+Announcement must first be made to our parents.
+Since such announcement was made,
+Why do you still indulge her desires?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-qifeng-006__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qifeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·齊風·006.4</prop>
+      <prop type="x-translation-ref">南山.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>析薪如之何？匪斧不克。取妻如之何？匪媒不得，既曰得止，曷又極止！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How do we proceed in splitting firewood ?
+Without an axe it cannot be done.
+How do we proceed in taking a wife?
+Without a go-between it cannot be done.
+Since this was done,
+Why do you still allow her to go to this extreme ?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
