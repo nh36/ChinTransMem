@@ -274,6 +274,7 @@ def build_shijing_quality_context(
                 "raw_source_path": verification["raw_source_path"],
                 "processed_translation_path": verification["processed_translation_path"],
                 "extraction_method": verification["extraction_method"],
+                "review_date": verification.get("review_date"),
                 "remaining_warnings": verification["remaining_warnings"],
                 "exact_alignment_count": len(rows),
                 "alignment_granularity_values": granularity_values,
@@ -463,9 +464,38 @@ def build_shijing_quality_context(
             section["verification_status"], 0
         ) + 1
 
+    remaining_by_subdivision: dict[str, int] = {}
+    for section in non_exportable_extant_sections:
+        subdivision_key = f"{section['major_division']} / {section['subdivision']}"
+        remaining_by_subdivision[subdivision_key] = remaining_by_subdivision.get(subdivision_key, 0) + 1
+    latest_review_date = max(
+        (
+            section["review_date"]
+            for section in section_records
+            if section.get("review_date") and section["verification_status"] in {"human_verified_ocr", "human_verified_fulltext"}
+        ),
+        default=None,
+    )
+    latest_repaired_sections = [
+        {
+            "section_id": section["section_id"],
+            "title": section["title"],
+            "canonical_ref": section["canonical_ref"],
+            "verification_status": section["verification_status"],
+            "review_date": section["review_date"],
+        }
+        for section in sorted(section_records, key=lambda section: section["canonical_ref"])
+        if latest_review_date and section.get("review_date") == latest_review_date
+    ]
+
     return {
         "work_id": WORK_ID,
         "summary": {
+            "section_count": manifest.get("summary", {}).get("section_count", len(manifest["sections"])),
+            "extant_poem_count": manifest.get("summary", {}).get(
+                "extant_poem_count",
+                len(section_records) + len(non_exportable_extant_sections),
+            ),
             "complete_sections": len(section_records),
             "metadata_only_sections": len(metadata_only_sections),
             "non_exportable_extant_sections": len(non_exportable_extant_sections),
@@ -489,6 +519,18 @@ def build_shijing_quality_context(
             "hard_failure_count": len(hard_failures),
             "warning_count": warning_count,
             "sections_with_hard_failures": sum(1 for section in section_records if section["has_hard_failure"]),
+        },
+        "progress": {
+            "total_extant_poems": manifest.get("summary", {}).get(
+                "extant_poem_count",
+                len(section_records) + len(non_exportable_extant_sections),
+            ),
+            "verified_exportable_poems": len(section_records),
+            "non_exportable_repair_queue_remaining": len(non_exportable_extant_sections),
+            "latest_review_date": latest_review_date,
+            "newly_repaired_in_latest_tranche": len(latest_repaired_sections),
+            "latest_repaired_sections": latest_repaired_sections,
+            "remaining_by_subdivision": remaining_by_subdivision,
         },
         "thresholds": {
             "english_word_short_threshold": word_short_threshold,
@@ -532,6 +574,7 @@ def serializable_quality_report(context: dict[str, Any]) -> dict[str, Any]:
     return {
         "work_id": context["work_id"],
         "summary": context["summary"],
+        "progress": context["progress"],
         "thresholds": context["thresholds"],
         "hard_failure_count": context["summary"]["hard_failure_count"],
         "warning_count": context["summary"]["warning_count"],
@@ -544,6 +587,7 @@ def serializable_quality_report(context: dict[str, Any]) -> dict[str, Any]:
 
 def quality_markdown(context: dict[str, Any]) -> str:
     summary = context["summary"]
+    progress = context["progress"]
     sections = context["sections"]
     worst_ratio_sections = sorted(
         sections,
@@ -578,11 +622,58 @@ def quality_markdown(context: dict[str, Any]) -> str:
         f"| hard_failure_count | {summary['hard_failure_count']} |",
         f"| warning_count | {summary['warning_count']} |",
         "",
+        "## Progress",
+        "",
+        "| Metric | Count |",
+        "| --- | ---: |",
+        f"| total_extant_poems | {progress['total_extant_poems']} |",
+        f"| verified_exportable_poems | {progress['verified_exportable_poems']} |",
+        f"| non_exportable_repair_queue_remaining | {progress['non_exportable_repair_queue_remaining']} |",
+        f"| newly_repaired_in_this_tranche | {progress['newly_repaired_in_latest_tranche']} |",
+        "",
+        "## Latest repaired tranche",
+        "",
+        f"Latest review date: {progress['latest_review_date'] or '—'}",
+        "",
+        "| Section | Title | Canonical ref | Verification status |",
+        "| --- | --- | --- | --- |",
+    ]
+    for section in progress["latest_repaired_sections"]:
+        lines.append(
+            "| {section_id} | {title} | {canonical_ref} | {verification_status} |".format(
+                section_id=section["section_id"],
+                title=section["title"],
+                canonical_ref=section["canonical_ref"],
+                verification_status=section["verification_status"],
+            )
+        )
+    if not progress["latest_repaired_sections"]:
+        lines.append("| — | — | — | — |")
+    lines.extend(
+        [
+            "",
+            "## Remaining repair queue by subdivision",
+            "",
+            "| Subdivision | Remaining poems |",
+            "| --- | ---: |",
+        ]
+    )
+    for subdivision, count in sorted(
+        progress["remaining_by_subdivision"].items(),
+        key=lambda item: (-item[1], item[0]),
+    ):
+        lines.append(f"| {subdivision} | {count} |")
+    if not progress["remaining_by_subdivision"]:
+        lines.append("| — | 0 |")
+    lines.extend(
+        [
+            "",
         "## Witness mix",
         "",
         "| Witness type | Complete sections |",
         "| --- | ---: |",
-    ]
+        ]
+    )
     for witness_type, count in sorted(summary["complete_sections_by_witness_type"].items()):
         lines.append(f"| {witness_type} | {count} |")
     lines.extend(

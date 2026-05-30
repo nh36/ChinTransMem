@@ -547,6 +547,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-003",
+    "alias": "Ts'aou ch'ung",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-zhaonan-004",
     "alias": "The Zhâi Pin",
     "romanization_system": "Legge-title"
@@ -556,6 +562,54 @@
     "entity_id": "guofeng-zhaonan-004",
     "alias": "Cǎi Pín",
     "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-005",
+    "alias": "Kan t'ang",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-007",
+    "alias": "Kaou yang",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-008",
+    "alias": "Yin k'e luy",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-009",
+    "alias": "P'eaou yew mei",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-010",
+    "alias": "Seaou sing",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-011",
+    "alias": "Keang yew sze",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-012",
+    "alias": "Yay yew szekeun",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-013",
+    "alias": "Ho pe nung",
+    "romanization_system": "Legge-title"
   },
   {
     "entity_type": "section",

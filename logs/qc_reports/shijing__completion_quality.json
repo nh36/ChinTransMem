@@ -1,74 +1,143 @@
 {
   "work_id": "shijing",
   "summary": {
-    "complete_sections": 123,
-    "metadata_only_sections": 188,
-    "non_exportable_extant_sections": 182,
-    "exact_alignment_count": 270,
+    "section_count": 311,
+    "extant_poem_count": 305,
+    "complete_sections": 132,
+    "metadata_only_sections": 179,
+    "non_exportable_extant_sections": 173,
+    "exact_alignment_count": 296,
     "complete_sections_by_witness_type": {
       "standalone Wikisource": 1,
-      "OCR-derived witness": 20,
+      "OCR-derived witness": 29,
       "SBE transcluded page": 102
     },
     "complete_sections_by_verification_status": {
       "verified_transcribed_text": 103,
-      "human_verified_ocr": 20
+      "human_verified_ocr": 29
     },
-    "ocr_or_fulltext_derived_sections": 20,
+    "ocr_or_fulltext_derived_sections": 29,
     "sections_needing_human_text_review": 0,
     "sections_with_coarse_alignment": 48,
     "sections_with_single_poem_alignment": 48,
     "sections_with_extreme_length_ratio": 0,
     "sections_with_possible_commentary_leakage": 0,
     "hard_failure_count": 0,
-    "warning_count": 21,
+    "warning_count": 22,
     "sections_with_hard_failures": 0
   },
+  "progress": {
+    "total_extant_poems": 305,
+    "verified_exportable_poems": 132,
+    "non_exportable_repair_queue_remaining": 173,
+    "latest_review_date": "2026-05-30",
+    "newly_repaired_in_latest_tranche": 9,
+    "latest_repaired_sections": [
+      {
+        "section_id": "guofeng-zhaonan-003",
+        "title": "草蟲",
+        "canonical_ref": "詩經·國風·召南·003",
+        "verification_status": "human_verified_ocr",
+        "review_date": "2026-05-30"
+      },
+      {
+        "section_id": "guofeng-zhaonan-005",
+        "title": "甘棠",
+        "canonical_ref": "詩經·國風·召南·005",
+        "verification_status": "human_verified_ocr",
+        "review_date": "2026-05-30"
+      },
+      {
+        "section_id": "guofeng-zhaonan-007",
+        "title": "羔羊",
+        "canonical_ref": "詩經·國風·召南·007",
+        "verification_status": "human_verified_ocr",
+        "review_date": "2026-05-30"
+      },
+      {
+        "section_id": "guofeng-zhaonan-008",
+        "title": "殷其靁",
+        "canonical_ref": "詩經·國風·召南·008",
+        "verification_status": "human_verified_ocr",
+        "review_date": "2026-05-30"
+      },
+      {
+        "section_id": "guofeng-zhaonan-009",
+        "title": "摽有梅",
+        "canonical_ref": "詩經·國風·召南·009",
+        "verification_status": "human_verified_ocr",
+        "review_date": "2026-05-30"
+      },
+      {
+        "section_id": "guofeng-zhaonan-010",
+        "title": "小星",
+        "canonical_ref": "詩經·國風·召南·010",
+        "verification_status": "human_verified_ocr",
+        "review_date": "2026-05-30"
+      },
+      {
+        "section_id": "guofeng-zhaonan-011",
+        "title": "江有汜",
+        "canonical_ref": "詩經·國風·召南·011",
+        "verification_status": "human_verified_ocr",
+        "review_date": "2026-05-30"
+      },
+      {
+        "section_id": "guofeng-zhaonan-012",
+        "title": "野有死麕",
+        "canonical_ref": "詩經·國風·召南·012",
+        "verification_status": "human_verified_ocr",
+        "review_date": "2026-05-30"
+      },
+      {
+        "section_id": "guofeng-zhaonan-013",
+        "title": "何彼穠矣",
+        "canonical_ref": "詩經·國風·召南·013",
+        "verification_status": "human_verified_ocr",
+        "review_date": "2026-05-30"
+      }
+    ],
+    "remaining_by_subdivision": {
+      "國風 / 召南": 1,
+      "國風 / 邶風": 17,
+      "國風 / 鄘風": 7,
+      "國風 / 衛風": 8,
+      "國風 / 王風": 8,
+      "國風 / 鄭風": 19,
+      "國風 / 齊風": 11,
+      "國風 / 魏風": 7,
+      "國風 / 唐風": 9,
+      "國風 / 秦風": 9,
+      "國風 / 陳風": 10,
+      "國風 / 檜風": 3,
+      "國風 / 曹風": 4,
+      "國風 / 豳風": 5,
+      "小雅 / 鹿鳴之什": 6,
+      "小雅 / 南有嘉魚之什": 9,
+      "小雅 / 鴻鴈之什": 8,
+      "小雅 / 節南山之什": 1,
+      "小雅 / 谷風之什": 6,
+      "小雅 / 甫田之什": 6,
+      "小雅 / 魚藻之什": 13,
+      "大雅 / 文王之什": 1,
+      "大雅 / 生民之什": 2,
+      "大雅 / 蕩之什": 1,
+      "頌 / 魯頌": 2
+    }
+  },
   "thresholds": {
-    "english_word_short_threshold": 40,
-    "english_word_long_threshold": 426,
+    "english_word_short_threshold": 41,
+    "english_word_long_threshold": 395,
     "english_to_chinese_ratio_low_threshold": 1.4125,
-    "english_to_chinese_ratio_high_threshold": 8.089285714285714,
+    "english_to_chinese_ratio_high_threshold": 8.08,
     "hard_english_word_minimum": 10,
     "hard_english_to_chinese_ratio_high_threshold": 20.0
   },
   "hard_failure_count": 0,
-  "warning_count": 21,
+  "warning_count": 22,
   "hard_failures": [],
   "row_warnings": [],
   "metadata_only_sections": [
-    {
-      "section_id": "guofeng-zhaonan-003",
-      "title": "草蟲",
-      "canonical_ref": "詩經·國風·召南·003",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8D%89%E8%9F%B2",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
-      "section_id": "guofeng-zhaonan-005",
-      "title": "甘棠",
-      "canonical_ref": "詩經·國風·召南·005",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%98%E6%A3%A0",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
     {
       "section_id": "guofeng-zhaonan-006",
       "title": "行露",
@@ -80,118 +149,6 @@
       "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%A1%8C%E9%9C%B2",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
-      "section_id": "guofeng-zhaonan-007",
-      "title": "羔羊",
-      "canonical_ref": "詩經·國風·召南·007",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%BE%94%E7%BE%8A",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
-      "section_id": "guofeng-zhaonan-008",
-      "title": "殷其靁",
-      "canonical_ref": "詩經·國風·召南·008",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%AE%B7%E5%85%B6%E9%9D%81",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
-      "section_id": "guofeng-zhaonan-009",
-      "title": "摽有梅",
-      "canonical_ref": "詩經·國風·召南·009",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%91%BD%E6%9C%89%E6%A2%85",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
-      "section_id": "guofeng-zhaonan-010",
-      "title": "小星",
-      "canonical_ref": "詩經·國風·召南·010",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B0%8F%E6%98%9F",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
-      "section_id": "guofeng-zhaonan-011",
-      "title": "江有汜",
-      "canonical_ref": "詩經·國風·召南·011",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B1%9F%E6%9C%89%E6%B1%9C",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
-      "section_id": "guofeng-zhaonan-012",
-      "title": "野有死麕",
-      "canonical_ref": "詩經·國風·召南·012",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%8E%E6%9C%89%E6%AD%BB%E9%BA%95",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
-      "section_id": "guofeng-zhaonan-013",
-      "title": "何彼穠矣",
-      "canonical_ref": "詩經·國風·召南·013",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BD%95%E5%BD%BC%E8%A5%9B%E7%9F%A3",
         "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
         "https://archive.org/download/theshihking09394gut/7shih10.txt",
         "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
@@ -3049,6 +3006,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-001-guanju__legge-sheking-1871__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-001-guanju__legge-sheking-1871__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 5,
       "alignment_granularity_values": [
@@ -3103,6 +3061,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-002__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3159,6 +3118,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-003__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3215,6 +3175,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-004__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3271,6 +3232,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-005__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3327,6 +3289,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-006__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3383,6 +3346,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-007__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3439,6 +3403,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-008__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3495,6 +3460,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-009__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3551,6 +3517,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-010__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3607,6 +3574,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhounan-011__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3663,6 +3631,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-001__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3719,6 +3688,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-zhaonan-002__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-002__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3753,6 +3723,63 @@
       "warnings": []
     },
     {
+      "section_id": "guofeng-zhaonan-003",
+      "title": "草蟲",
+      "canonical_ref": "詩經·國風·召南·003",
+      "major_division": "國風",
+      "subdivision": "召南",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p. 225 lines 12-23; p. 226 lines 3-11",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-003__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-30",
+      "remaining_warnings": [],
+      "exact_alignment_count": 3,
+      "alignment_granularity_values": [
+        "stanza"
+      ],
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
+      "chinese_character_count": 105,
+      "english_character_count": 502,
+      "english_word_count": 123,
+      "chinese_stanza_count": 3,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 4.780952380952381,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered three stanza blocks by checking the Legge hOCR witness across the page break at part-1 page 225 lines 12-23 and page 226 lines 3-11.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8D%89%E8%9F%B2",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
       "section_id": "guofeng-zhaonan-004",
       "title": "采蘋",
       "canonical_ref": "詩經·國風·召南·004",
@@ -3772,6 +3799,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-zhaonan-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 3,
       "alignment_granularity_values": [
@@ -3806,6 +3834,462 @@
       "warnings": []
     },
     {
+      "section_id": "guofeng-zhaonan-005",
+      "title": "甘棠",
+      "canonical_ref": "詩經·國風·召南·005",
+      "major_division": "國風",
+      "subdivision": "召南",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p. 228 lines 11-19",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-005__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-30",
+      "remaining_warnings": [],
+      "exact_alignment_count": 3,
+      "alignment_granularity_values": [
+        "stanza"
+      ],
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
+      "chinese_character_count": 45,
+      "english_character_count": 255,
+      "english_word_count": 58,
+      "chinese_stanza_count": 3,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 5.666666666666667,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the three verse stanzas from part-1 hOCR page 228 lines 11-19 and excluded the following Xing Lu carry-over at page 229 lines 3-4.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%98%E6%A3%A0",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
+      "section_id": "guofeng-zhaonan-007",
+      "title": "羔羊",
+      "canonical_ref": "詩經·國風·召南·007",
+      "major_division": "國風",
+      "subdivision": "召南",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p. 230 lines 14-21; p. 231 lines 5-8",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-007__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-30",
+      "remaining_warnings": [],
+      "exact_alignment_count": 3,
+      "alignment_granularity_values": [
+        "stanza"
+      ],
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
+      "chinese_character_count": 60,
+      "english_character_count": 431,
+      "english_word_count": 82,
+      "chinese_stanza_count": 3,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 7.183333333333334,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the three stanza blocks from part-1 hOCR page 230 lines 14-21 and page 231 lines 5-8, skipping the commentary and running header between them.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%BE%94%E7%BE%8A",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
+      "section_id": "guofeng-zhaonan-008",
+      "title": "殷其靁",
+      "canonical_ref": "詩經·國風·召南·008",
+      "major_division": "國風",
+      "subdivision": "召南",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p. 231 lines 14-22; p. 232 lines 7-15",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-008__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-30",
+      "remaining_warnings": [],
+      "exact_alignment_count": 3,
+      "alignment_granularity_values": [
+        "stanza"
+      ],
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
+      "chinese_character_count": 90,
+      "english_character_count": 424,
+      "english_word_count": 104,
+      "chinese_stanza_count": 3,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 4.711111111111111,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the three verse stanzas from part-1 hOCR page 231 lines 14-22 and page 232 lines 7-15 after removing the intervening commentary block.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%AE%B7%E5%85%B6%E9%9D%81",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
+      "section_id": "guofeng-zhaonan-009",
+      "title": "摽有梅",
+      "canonical_ref": "詩經·國風·召南·009",
+      "major_division": "國風",
+      "subdivision": "召南",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p. 232 lines 20-27; p. 233 lines 5-8",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-009__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-30",
+      "remaining_warnings": [],
+      "exact_alignment_count": 3,
+      "alignment_granularity_values": [
+        "stanza"
+      ],
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
+      "chinese_character_count": 57,
+      "english_character_count": 349,
+      "english_word_count": 76,
+      "chinese_stanza_count": 3,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 6.12280701754386,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the three verse stanzas from part-1 hOCR page 232 lines 20-27 and page 233 lines 5-8, excluding the Ode 8 commentary that interrupts the page break.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%91%BD%E6%9C%89%E6%A2%85",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
+      "section_id": "guofeng-zhaonan-010",
+      "title": "小星",
+      "canonical_ref": "詩經·國風·召南·010",
+      "major_division": "國風",
+      "subdivision": "召南",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p. 233 lines 14-18; p. 234 lines 9-13",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-010__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-30",
+      "remaining_warnings": [],
+      "exact_alignment_count": 2,
+      "alignment_granularity_values": [
+        "stanza"
+      ],
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
+      "chinese_character_count": 50,
+      "english_character_count": 241,
+      "english_word_count": 59,
+      "chinese_stanza_count": 2,
+      "english_stanza_block_count": 2,
+      "english_to_chinese_length_ratio": 4.82,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the two verse stanzas from part-1 hOCR page 233 lines 14-18 and page 234 lines 9-13 after excluding the preceding Plum-tree commentary.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B0%8F%E6%98%9F",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
+      "section_id": "guofeng-zhaonan-011",
+      "title": "江有汜",
+      "canonical_ref": "詩經·國風·召南·011",
+      "major_division": "國風",
+      "subdivision": "召南",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p. 234 lines 17-21; p. 235 lines 7-16",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-011__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-30",
+      "remaining_warnings": [],
+      "exact_alignment_count": 3,
+      "alignment_granularity_values": [
+        "stanza"
+      ],
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
+      "chinese_character_count": 63,
+      "english_character_count": 392,
+      "english_word_count": 93,
+      "chinese_stanza_count": 3,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 6.222222222222222,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the three stanza blocks from part-1 hOCR page 234 lines 17-21 and page 235 lines 7-16, skipping the intervening Seaou Sing commentary.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B1%9F%E6%9C%89%E6%B1%9C",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
+      "section_id": "guofeng-zhaonan-012",
+      "title": "野有死麕",
+      "canonical_ref": "詩經·國風·召南·012",
+      "major_division": "國風",
+      "subdivision": "召南",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p. 236 lines 10-20",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-012__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-30",
+      "remaining_warnings": [],
+      "exact_alignment_count": 3,
+      "alignment_granularity_values": [
+        "stanza"
+      ],
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
+      "chinese_character_count": 58,
+      "english_character_count": 343,
+      "english_word_count": 85,
+      "chinese_stanza_count": 3,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 5.913793103448276,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the three stanza blocks from part-1 hOCR page 236 lines 10-20 and excluded the Ho pe nung carry-over on the following page.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%8E%E6%9C%89%E6%AD%BB%E9%BA%95",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
+      "section_id": "guofeng-zhaonan-013",
+      "title": "何彼穠矣",
+      "canonical_ref": "詩經·國風·召南·013",
+      "major_division": "國風",
+      "subdivision": "召南",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p. 237 lines 3-10; p. 238 lines 59-62",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-013__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-30",
+      "remaining_warnings": [],
+      "exact_alignment_count": 3,
+      "alignment_granularity_values": [
+        "stanza"
+      ],
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
+      "chinese_character_count": 336,
+      "english_character_count": 394,
+      "english_word_count": 76,
+      "chinese_stanza_count": 3,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 1.1726190476190477,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Aligned at stanza level by splitting the Chinese text into 5-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the first two stanzas from part-1 hOCR page 237 lines 3-10 and the closing stanza from page 238 lines 59-62 after skipping the Tsow-yu page header and commentary.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BD%95%E5%BD%BC%E8%A5%9B%E7%9F%A3",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
       "section_id": "guofeng-zhaonan-014",
       "title": "騶虞",
       "canonical_ref": "詩經·國風·召南·014",
@@ -3825,6 +4309,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-014__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3881,6 +4366,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-beifeng-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-beifeng-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3934,6 +4420,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-beifeng-015__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-beifeng-015__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -3987,6 +4474,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-yongfeng-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-yongfeng-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -4040,6 +4528,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-yongfeng-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-yongfeng-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4047,12 +4536,12 @@
       ],
       "has_coarse_alignment": false,
       "is_single_poem_alignment": false,
-      "chinese_character_count": 81,
+      "chinese_character_count": 125,
       "english_character_count": 234,
       "english_word_count": 50,
       "chinese_stanza_count": 1,
       "english_stanza_block_count": 1,
-      "english_to_chinese_length_ratio": 2.888888888888889,
+      "english_to_chinese_length_ratio": 1.872,
       "possible_commentary_leakage_markers": [],
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
@@ -4093,6 +4582,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-yongfeng-006__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-yongfeng-006__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4146,6 +4636,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-weifeng-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-weifeng-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -4199,6 +4690,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-weifeng-007__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4255,6 +4747,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-wangfeng-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-wangfeng-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4308,6 +4801,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-wangfeng-009__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-wangfeng-009__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4361,6 +4855,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-016__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4417,6 +4912,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-018__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4477,6 +4973,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-tangfeng-008__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-tangfeng-008__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4530,6 +5027,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-tangfeng-009__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4590,6 +5088,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-tangfeng-011__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-tangfeng-011__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 5,
       "alignment_granularity_values": [
@@ -4643,6 +5142,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-qinfeng-006__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-qinfeng-006__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4696,6 +5196,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-kuaifeng-004__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4752,6 +5253,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__guofeng-binfeng-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-binfeng-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4805,6 +5307,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-binfeng-005__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4861,6 +5364,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-luming-005__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-005__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -4914,6 +5418,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-luming-006__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-006__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 6,
       "alignment_granularity_values": [
@@ -4967,6 +5472,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-luming-009__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-009__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5020,6 +5526,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-010__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5076,6 +5583,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-001__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5132,6 +5640,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-hongyan-009__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-hongyan-009__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5189,6 +5698,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-hongyan-010__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-hongyan-010__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5242,6 +5752,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-jienanshan-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-jienanshan-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 10,
       "alignment_granularity_values": [
@@ -5299,6 +5810,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-jienanshan-002__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-jienanshan-002__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 3,
       "alignment_granularity_values": [
@@ -5352,6 +5864,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-jienanshan-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-jienanshan-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5409,6 +5922,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-jienanshan-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-jienanshan-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5462,6 +5976,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-jienanshan-005__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-jienanshan-005__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 3,
       "alignment_granularity_values": [
@@ -5515,6 +6030,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-jienanshan-006__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-jienanshan-006__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5572,6 +6088,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-jienanshan-007__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-jienanshan-007__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -5625,6 +6142,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-jienanshan-008__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-jienanshan-008__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5678,6 +6196,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-jienanshan-010__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-jienanshan-010__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -5731,6 +6250,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-gufeng-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-gufeng-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5788,6 +6308,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-gufeng-007__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-gufeng-007__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 3,
       "alignment_granularity_values": [
@@ -5841,6 +6362,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-gufeng-009__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-gufeng-009__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -5894,6 +6416,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-gufeng-010__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-gufeng-010__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 6,
       "alignment_granularity_values": [
@@ -5947,6 +6470,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-futian-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 4,
       "alignment_granularity_values": [
@@ -6000,6 +6524,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-futian-002__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-002__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -6057,6 +6582,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-futian-005__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-005__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -6110,6 +6636,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-futian-010__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-010__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -6163,6 +6690,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__xiaoya-yuzao-009__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-yuzao-009__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -6216,6 +6744,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-wenwang-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-wenwang-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 7,
       "alignment_granularity_values": [
@@ -6240,14 +6769,18 @@
         "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/The_Major_Odes_of_the_Kingdom/Decade_1/Ode_1"
       ],
       "suspiciously_short_english_text": false,
-      "suspiciously_long_english_text": false,
+      "suspiciously_long_english_text": true,
       "suspiciously_extreme_length_ratio": false,
       "possible_stanza_split": false,
-      "warning_codes": [],
+      "warning_codes": [
+        "suspiciously_long_english_text"
+      ],
       "overridden_warning_codes": [],
       "hard_failure_codes": [],
       "has_hard_failure": false,
-      "warnings": []
+      "warnings": [
+        "suspiciously long English text"
+      ]
     },
     {
       "section_id": "daya-wenwang-002",
@@ -6269,6 +6802,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-wenwang-002__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-wenwang-002__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 8,
       "alignment_granularity_values": [
@@ -6322,6 +6856,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-wenwang-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-wenwang-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -6375,6 +6910,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-wenwang-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-wenwang-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -6428,6 +6964,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-wenwang-005__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-wenwang-005__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 6,
       "alignment_granularity_values": [
@@ -6481,6 +7018,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-wenwang-006__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-wenwang-006__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 5,
       "alignment_granularity_values": [
@@ -6534,6 +7072,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-wenwang-007__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-wenwang-007__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 8,
       "alignment_granularity_values": [
@@ -6591,6 +7130,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-wenwang-009__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-wenwang-009__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 6,
       "alignment_granularity_values": [
@@ -6644,6 +7184,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-wenwang-010__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-wenwang-010__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -6697,6 +7238,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-shengmin-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-shengmin-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -6754,6 +7296,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-shengmin-002__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-shengmin-002__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 4,
       "alignment_granularity_values": [
@@ -6807,6 +7350,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-shengmin-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-shengmin-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 8,
       "alignment_granularity_values": [
@@ -6860,6 +7404,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-shengmin-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-shengmin-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 5,
       "alignment_granularity_values": [
@@ -6913,6 +7458,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-shengmin-005__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-shengmin-005__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -6966,6 +7512,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-shengmin-008__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-shengmin-008__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7019,6 +7566,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-shengmin-009__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-shengmin-009__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7072,6 +7620,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-shengmin-010__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-shengmin-010__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7129,6 +7678,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-dang-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-dang-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 8,
       "alignment_granularity_values": [
@@ -7186,6 +7736,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-dang-002__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-dang-002__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7245,6 +7796,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-dang-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-dang-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 5,
       "alignment_granularity_values": [
@@ -7298,6 +7850,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-dang-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-dang-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 8,
       "alignment_granularity_values": [
@@ -7355,6 +7908,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-dang-005__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-dang-005__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 3,
       "alignment_granularity_values": [
@@ -7408,6 +7962,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-dang-006__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-dang-006__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -7461,6 +8016,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-dang-007__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-dang-007__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7514,6 +8070,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-dang-008__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-dang-008__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -7567,6 +8124,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-dang-010__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-dang-010__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 4,
       "alignment_granularity_values": [
@@ -7620,6 +8178,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__daya-dang-011__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__daya-dang-011__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7677,6 +8236,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-qingmiao-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-qingmiao-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7730,6 +8290,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-qingmiao-002__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-qingmiao-002__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -7783,6 +8344,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-qingmiao-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-qingmiao-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7806,7 +8368,7 @@
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%B6%AD%E6%B8%85",
         "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Odes_of_the_Temple_and_the_Altar/The_Sacrificial_Odes_of_K%C3%A2u/Decade_1/Ode_3"
       ],
-      "suspiciously_short_english_text": false,
+      "suspiciously_short_english_text": true,
       "suspiciously_long_english_text": false,
       "suspiciously_extreme_length_ratio": false,
       "possible_stanza_split": false,
@@ -7836,6 +8398,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-qingmiao-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-qingmiao-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7889,6 +8452,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-qingmiao-005__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-qingmiao-005__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7942,6 +8506,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-qingmiao-006__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-qingmiao-006__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -7995,6 +8560,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-qingmiao-007__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-qingmiao-007__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8048,6 +8614,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-qingmiao-008__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-qingmiao-008__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8101,6 +8668,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-qingmiao-009__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-qingmiao-009__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8154,6 +8722,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-qingmiao-010__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-qingmiao-010__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8207,6 +8776,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-chengong-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-chengong-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -8260,6 +8830,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-chengong-002__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-chengong-002__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8313,6 +8884,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-chengong-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-chengong-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -8366,6 +8938,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-chengong-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-chengong-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8419,6 +8992,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-chengong-005__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-chengong-005__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8472,6 +9046,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-chengong-006__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-chengong-006__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8525,6 +9100,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-chengong-007__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-chengong-007__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 3,
       "alignment_granularity_values": [
@@ -8578,6 +9154,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-chengong-008__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-chengong-008__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8631,6 +9208,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-chengong-009__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-chengong-009__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 3,
       "alignment_granularity_values": [
@@ -8684,6 +9262,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-chengong-010__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-chengong-010__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8737,6 +9316,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8790,6 +9370,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-002__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-002__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8843,6 +9424,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -8896,6 +9478,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -8949,6 +9532,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-005__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-005__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -9002,6 +9586,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-006__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-006__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 2,
       "alignment_granularity_values": [
@@ -9055,6 +9640,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-007__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-007__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -9108,6 +9694,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-008__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-008__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -9161,6 +9748,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-009__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-009__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -9214,6 +9802,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-010__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-010__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -9267,6 +9856,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-minyuxiaozi-011__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-minyuxiaozi-011__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -9320,6 +9910,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-lusong-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-lusong-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 8,
       "alignment_granularity_values": [
@@ -9377,6 +9968,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-lusong-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-lusong-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -9436,6 +10028,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-shangsong-001__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-shangsong-001__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -9493,6 +10086,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-shangsong-002__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-shangsong-002__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 4,
       "alignment_granularity_values": [
@@ -9546,6 +10140,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-shangsong-003__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-shangsong-003__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 5,
       "alignment_granularity_values": [
@@ -9599,6 +10194,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-shangsong-004__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-shangsong-004__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 1,
       "alignment_granularity_values": [
@@ -9656,6 +10252,7 @@
       "raw_source_path": "corpus/raw/wikisource/shijing__song-shangsong-005__legge-sbe-v3-1879__raw.wikitext",
       "processed_translation_path": "corpus/processed/translations/shijing__song-shangsong-005__legge-sbe-v3-1879__segments.jsonl",
       "extraction_method": "wikisource_transcription",
+      "review_date": null,
       "remaining_warnings": [],
       "exact_alignment_count": 6,
       "alignment_granularity_values": [

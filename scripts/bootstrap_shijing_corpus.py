@@ -519,6 +519,320 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
             ),
         ],
     },
+    14: {
+        "legge_section_alias": "Ts'aou ch'ung",
+        "review_note": (
+            "Recovered three stanza blocks by checking the Legge hOCR witness across the page break at part-1 "
+            "page 225 lines 12-23 and page 226 lines 3-11."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Yaou-yaou went the grass-insects,",
+                    "And the hoppers sprang about.",
+                    "While I do not see my lord,",
+                    "My sorrowful heart is agitated.",
+                    "Let me have seen him,",
+                    "Let me have met him,",
+                    "And my heart will then be stilled.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I ascended that hill in the south,",
+                    "And gathered the turtle-foot ferns.",
+                    "While I do not see my lord,",
+                    "My sorrowful heart is very sad.",
+                    "Let me have seen him,",
+                    "Let me have met him,",
+                    "And my heart will then be pleased.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I ascended that hill in the south,",
+                    "And gathered the thorn-ferns.",
+                    "While I do not see my lord,",
+                    "My sorrowful heart is wounded with grief.",
+                    "Let me have seen him,",
+                    "Let me have met him,",
+                    "And my heart will then be at peace.",
+                ]
+            ),
+        ],
+    },
+    16: {
+        "legge_section_alias": "Kan t'ang",
+        "review_note": (
+            "Recovered the three verse stanzas from part-1 hOCR page 228 lines 11-19 and excluded the following "
+            "Xing Lu carry-over at page 229 lines 3-4."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "[This] umbrageous sweet pear-tree",
+                    "Clip it not, hew it not down.",
+                    "Under it the chief of Shaou lodged.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "[This] umbrageous sweet pear-tree",
+                    "Clip it not, break not a twig of it.",
+                    "Under it the chief of Shaou rested.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "[This] umbrageous sweet pear-tree",
+                    "Clip it not, bend not a twig of it.",
+                    "Under it the chief of Shaou halted.",
+                ]
+            ),
+        ],
+    },
+    18: {
+        "legge_section_alias": "Kaou yang",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR page 230 lines 14-21 and page 231 lines 5-8, "
+            "skipping the commentary and running header between them."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "[Those] lamb-skins and sheep-skins,",
+                    "With their five braidings of white silk!",
+                    "They have retired from the court to take their meal;",
+                    "Easy are they and self-possessed.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "[Those] lamb-skins and sheep-skins,",
+                    "With their five seams wrought with white silk!",
+                    "Easy are they and self-possessed;",
+                    "They have retired from the court to take their meal.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The seams of [those] lamb-skins and sheep-skins,",
+                    "The five joinings wrought with white silk!",
+                    "Easy are they and self-possessed;",
+                    "They have retired to take their meal from the court.",
+                ]
+            ),
+        ],
+    },
+    19: {
+        "legge_section_alias": "Yin k'e luy",
+        "review_note": (
+            "Recovered the three verse stanzas from part-1 hOCR page 231 lines 14-22 and page 232 lines 7-15 "
+            "after removing the intervening commentary block."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Grandly rolls the thunder,",
+                    "On the south of the southern hill !",
+                    "How was it he went away from this,",
+                    "Not daring to take a little rest?",
+                    "My noble lord !",
+                    "May he return ! May he return !",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Grandly rolls the thunder,",
+                    "About the sides of the southern hill !",
+                    "How was it he went away from this,",
+                    "Not daring to take a little rest?",
+                    "My noble lord !",
+                    "May he return ! May he return !",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Grandly rolls the thunder,",
+                    "At the foot of the southern hill !",
+                    "How was it he went away from this,",
+                    "Not remaining a little at rest?",
+                    "My noble lord !",
+                    "May he return ! May he return !",
+                ]
+            ),
+        ],
+    },
+    20: {
+        "legge_section_alias": "P'eaou yew mei",
+        "review_note": (
+            "Recovered the three verse stanzas from part-1 hOCR page 232 lines 20-27 and page 233 lines 5-8, "
+            "excluding the Ode 8 commentary that interrupts the page break."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Dropping are the fruits from the plum-tree;",
+                    "There are [but] seven [tenths] of them left !",
+                    "For the gentlemen who seek me,",
+                    "This is the fortunate time !",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Dropping are the fruits from the plum-tree ;",
+                    "There are [but] three [tenths] of them left !",
+                    "For the gentlemen who seek me,",
+                    "Now is the time.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Dropt are the fruits from the plum-tree ;",
+                    "In my shallow basket I have collected them.",
+                    "Would the gentlemen who seek me",
+                    "[Only] speak about it !",
+                ]
+            ),
+        ],
+    },
+    21: {
+        "legge_section_alias": "Seaou sing",
+        "review_note": (
+            "Recovered the two verse stanzas from part-1 hOCR page 233 lines 14-18 and page 234 lines 9-13 "
+            "after excluding the preceding Plum-tree commentary."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Small are those starlets,",
+                    "Three or five of them in the east.",
+                    "Swiftly by night we go ;",
+                    "In the early dawn we are with the prince.",
+                    "Our lot is not like hers.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Small are those starlets,",
+                    "And there are Orion and the Pleiades.",
+                    "Swiftly by night we go,",
+                    "Carrying our coverlets and sheets.",
+                    "Our lot is not as hers.",
+                ]
+            ),
+        ],
+    },
+    22: {
+        "legge_section_alias": "Keang yew sze",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR page 234 lines 17-21 and page 235 lines 7-16, "
+            "skipping the intervening Seaou Sing commentary."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The Keang has its branches, led from it and returning to it.",
+                    "Our lady, when she was married,",
+                    "Would not employ us.",
+                    "She would not employ us;",
+                    "But afterwards she repented.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The Keang has its islets.",
+                    "Our lady, when she was married,",
+                    "Would not let us be with her.",
+                    "She would not let us be with her;",
+                    "But afterwards she repressed [such feelings].",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The Keang has the T'o.",
+                    "Our lady, when she was married,",
+                    "Would not come near us.",
+                    "She would not come near us;",
+                    "But she blew that feeling away, and sang.",
+                ]
+            ),
+        ],
+    },
+    23: {
+        "legge_section_alias": "Yay yew szekeun",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR page 236 lines 10-20 and excluded the Ho pe nung "
+            "carry-over on the following page."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "In the wild there is a dead antelope,",
+                    "And it is wrapped up with the white grass.",
+                    "There is a young lady with thoughts natural to the spring,",
+                    "And a fine gentleman would lead her astray.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "In the forest there are the scrubby oaks ;",
+                    "In the wild there is a dead deer,",
+                    "And it is bound round with the white grass.",
+                    "There is a young lady like a gem.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "[She says], Slowly, gently, gently;",
+                    "Do not move my handkerchief;",
+                    "Do not make my dog bark.",
+                ]
+            ),
+        ],
+    },
+    24: {
+        "legge_section_alias": "Ho pe nung",
+        "review_note": (
+            "Recovered the first two stanzas from part-1 hOCR page 237 lines 3-10 and the closing stanza from "
+            "page 238 lines 59-62 after skipping the Tsow-yu page header and commentary."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "How great is that luxuriance,",
+                    "Those flowers of the sparrow-plum!",
+                    "Are they not expressive of reverence and harmony, —",
+                    "The carriages of the king's daughter?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How great is that luxuriance,",
+                    "The flowers like those of the peach-tree or the plum!",
+                    "[See] the grand-daughter of the tranquillizing king,",
+                    "And the son of the reverent marquis!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "What are used in angling?",
+                    "Silk threads formed into lines.",
+                    "The son of the reverent marquis,",
+                    "And the grand-daughter of the tranquillizing king!",
+                ]
+            ),
+        ],
+    },
     25: {
         "legge_section_alias": "Tsow-yu",
         "review_note": (
@@ -1341,12 +1655,16 @@ def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witn
             "candidate_en_backup_page_url": witness["candidate_en_backup_page_url"],
             "candidate_en_backup_source_id": witness["candidate_en_backup_source_id"],
             "reviewed_english_blocks": reviewed["english_blocks"],
-            "force_poem_alignment": True,
+            "force_poem_alignment": reviewed.get("force_poem_alignment", True),
             "review_note": reviewed.get("review_note"),
             "reviewed_ocr_notes": (
-                "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; "
-                "stanza breaks are preserved in the cleaned translation text, but the alignment stays "
-                "at poem scope until stanza-level OCR cleanup is safer."
+                "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment."
+                if not reviewed.get("force_poem_alignment", True)
+                else (
+                    "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; "
+                    "stanza breaks are preserved in the cleaned translation text, but the alignment stays "
+                    "at poem scope until stanza-level OCR cleanup is safer."
+                )
             ),
         }
     section_id = (
@@ -1596,6 +1914,24 @@ def extract_chinese_poem_blocks(raw_text: str, section: dict[str, Any]) -> list[
     if current_block:
         blocks.append(current_block)
     cleaned_blocks = ["\n".join(block) for block in blocks if block]
+    glossary_block_re = re.compile(r"^[\u3400-\u9fff]{1,8}[：:].+")
+    glossary_marker_tokens = ("《", "》", "「", "」", "『", "』", "註", "注")
+
+    def is_glossary_block(block: str) -> bool:
+        lines = [line.strip() for line in block.splitlines() if line.strip()]
+        if not lines or not all(glossary_block_re.match(line) for line in lines):
+            return False
+        if any(token in block for token in glossary_marker_tokens):
+            return True
+        prefixes = {re.split(r"[：:]", line, maxsplit=1)[0] for line in lines}
+        return len(lines) >= 2 and len(prefixes) > 1
+
+    filtered_blocks = [
+        block
+        for block in cleaned_blocks
+        if not is_glossary_block(block)
+    ]
+    cleaned_blocks = filtered_blocks or cleaned_blocks
     if not cleaned_blocks:
         fallback_lines = []
         for raw_line in section_text.splitlines():

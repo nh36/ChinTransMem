@@ -269,8 +269,8 @@ class CorpusWorkflowTest(unittest.TestCase):
             self.assertEqual(expected_exact_alignment_counts["mengzi"], 260)
             self.assertEqual(expected_section_counts["shijing"], 311)
             self.assertEqual(manifests["shijing"]["summary"]["extant_poem_count"], 305)
-            self.assertGreater(expected_complete_section_counts["shijing"], 0)
-            self.assertGreater(expected_exact_alignment_counts["shijing"], 0)
+            self.assertGreaterEqual(expected_complete_section_counts["shijing"], 123)
+            self.assertGreaterEqual(expected_exact_alignment_counts["shijing"], 270)
             self.assertEqual(
                 manifests["shijing"]["summary"]["metadata_only_sections"] + expected_complete_section_counts["shijing"],
                 expected_section_counts["shijing"],
@@ -374,9 +374,23 @@ class CorpusWorkflowTest(unittest.TestCase):
         self.assertEqual(quality_report["summary"]["complete_sections"], manifest["summary"]["complete_sections"])
         self.assertEqual(quality_report["summary"]["metadata_only_sections"], manifest["summary"]["metadata_only_sections"])
         self.assertEqual(quality_report["summary"]["exact_alignment_count"], manifest["summary"]["exact_alignment_count"])
+        self.assertGreaterEqual(quality_report["summary"]["complete_sections"], 123)
+        self.assertGreaterEqual(quality_report["summary"]["exact_alignment_count"], 270)
         self.assertEqual(quality_report["hard_failure_count"], 0)
+        self.assertEqual(quality_report["summary"]["sections_needing_human_text_review"], 0)
+        self.assertEqual(quality_report["summary"]["sections_with_possible_commentary_leakage"], 0)
+        self.assertEqual(quality_report["summary"]["sections_with_extreme_length_ratio"], 0)
         self.assertTrue(spotcheck_packet.exists())
         self.assertEqual(len(verification_ledger["entries"]), manifest["summary"]["section_count"])
+        self.assertEqual(quality_report["progress"]["total_extant_poems"], 305)
+        self.assertEqual(
+            quality_report["progress"]["verified_exportable_poems"],
+            quality_report["summary"]["complete_sections"],
+        )
+        self.assertEqual(
+            quality_report["progress"]["non_exportable_repair_queue_remaining"],
+            quality_report["summary"]["non_exportable_extant_sections"],
+        )
         self.assertFalse(any(section["english_word_count"] == 0 for section in quality_report["sections"]))
         self.assertFalse(
             any(

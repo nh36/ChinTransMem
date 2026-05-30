@@ -565,6 +565,84 @@ She employs it,
 In the temple of our prince.</seg>
       </tuv>
     </tu>
+    <tu tuid="shijing__guofeng-zhaonan-003__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·003.1</prop>
+      <prop type="x-translation-ref">Ts'aou ch'ung.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>喓喓草蟲，趯趯阜螽，未見君子，憂心忡忡，亦既見止，亦既覯止，我心則降。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Yaou-yaou went the grass-insects,
+And the hoppers sprang about.
+While I do not see my lord,
+My sorrowful heart is agitated.
+Let me have seen him,
+Let me have met him,
+And my heart will then be stilled.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-003__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·003.2</prop>
+      <prop type="x-translation-ref">Ts'aou ch'ung.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>陟彼南山，言采其蕨，未見君子，憂心惙惙，亦既見止，亦既覯止，我心則說。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I ascended that hill in the south,
+And gathered the turtle-foot ferns.
+While I do not see my lord,
+My sorrowful heart is very sad.
+Let me have seen him,
+Let me have met him,
+And my heart will then be pleased.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-003__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·003.3</prop>
+      <prop type="x-translation-ref">Ts'aou ch'ung.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>陟彼南山，言采其薇，未見君子，我心傷悲，亦既見止，亦既覯止，我心則夷。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I ascended that hill in the south,
+And gathered the thorn-ferns.
+While I do not see my lord,
+My sorrowful heart is wounded with grief.
+Let me have seen him,
+Let me have met him,
+And my heart will then be at peace.</seg>
+      </tuv>
+    </tu>
     <tu tuid="shijing__guofeng-zhaonan-004__001__zhwikisource-20260530__legge-sbe-v3-1879">
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-zhaonan-004</prop>
@@ -632,6 +710,554 @@ In her tripods and pans.</seg>
 Under the window in the ancestral chamber.
 Who superintends the business?
 It is (this) reverent young lady.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-005__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·005.1</prop>
+      <prop type="x-translation-ref">Kan t'ang.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蔽芾甘棠，勿翦勿伐，召伯所茇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[This] umbrageous sweet pear-tree
+Clip it not, hew it not down.
+Under it the chief of Shaou lodged.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-005__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·005.2</prop>
+      <prop type="x-translation-ref">Kan t'ang.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蔽芾甘棠，勿翦勿敗，召伯所憇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[This] umbrageous sweet pear-tree
+Clip it not, break not a twig of it.
+Under it the chief of Shaou rested.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-005__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·005.3</prop>
+      <prop type="x-translation-ref">Kan t'ang.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蔽芾甘棠，勿翦勿拜，召伯所說。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[This] umbrageous sweet pear-tree
+Clip it not, bend not a twig of it.
+Under it the chief of Shaou halted.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-007__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·007.1</prop>
+      <prop type="x-translation-ref">Kaou yang.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>羔羊之皮，素絲五紽，退食自公，委蛇委蛇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[Those] lamb-skins and sheep-skins,
+With their five braidings of white silk!
+They have retired from the court to take their meal;
+Easy are they and self-possessed.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-007__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·007.2</prop>
+      <prop type="x-translation-ref">Kaou yang.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>羔羊之革，素絲五緎，委蛇委蛇，自公退食。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[Those] lamb-skins and sheep-skins,
+With their five seams wrought with white silk!
+Easy are they and self-possessed;
+They have retired from the court to take their meal.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-007__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·007.3</prop>
+      <prop type="x-translation-ref">Kaou yang.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>羔羊之縫，素絲五緫，委蛇委蛇，退食自公。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The seams of [those] lamb-skins and sheep-skins,
+The five joinings wrought with white silk!
+Easy are they and self-possessed;
+They have retired to take their meal from the court.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-008__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·008.1</prop>
+      <prop type="x-translation-ref">Yin k'e luy.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>殷其靁，在南山之陽，何斯違斯，莫敢或遑，振振君子，歸哉歸哉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Grandly rolls the thunder,
+On the south of the southern hill !
+How was it he went away from this,
+Not daring to take a little rest?
+My noble lord !
+May he return ! May he return !</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-008__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·008.2</prop>
+      <prop type="x-translation-ref">Yin k'e luy.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>殷其靁，在南山之側，何斯違斯，莫敢遑息，振振君子，歸哉歸哉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Grandly rolls the thunder,
+About the sides of the southern hill !
+How was it he went away from this,
+Not daring to take a little rest?
+My noble lord !
+May he return ! May he return !</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-008__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·008.3</prop>
+      <prop type="x-translation-ref">Yin k'e luy.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>殷其靁，在南山之下，何斯違斯，莫或遑處，振振君子，歸哉歸哉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Grandly rolls the thunder,
+At the foot of the southern hill !
+How was it he went away from this,
+Not remaining a little at rest?
+My noble lord !
+May he return ! May he return !</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-009__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·009.1</prop>
+      <prop type="x-translation-ref">P'eaou yew mei.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>摽有梅，其實七兮，求我庶士，迨其吉兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Dropping are the fruits from the plum-tree;
+There are [but] seven [tenths] of them left !
+For the gentlemen who seek me,
+This is the fortunate time !</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-009__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·009.2</prop>
+      <prop type="x-translation-ref">P'eaou yew mei.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>摽有梅，其實三兮，求我庶士，迨其今兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Dropping are the fruits from the plum-tree ;
+There are [but] three [tenths] of them left !
+For the gentlemen who seek me,
+Now is the time.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-009__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·009.3</prop>
+      <prop type="x-translation-ref">P'eaou yew mei.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>摽有梅，頃筐塈之，求我庶士，迨其謂之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Dropt are the fruits from the plum-tree ;
+In my shallow basket I have collected them.
+Would the gentlemen who seek me
+[Only] speak about it !</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-010__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-010</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·010.1</prop>
+      <prop type="x-translation-ref">Seaou sing.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>嘒彼小星，三五在東，肅肅宵征，夙夜在公，寔命不同。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Small are those starlets,
+Three or five of them in the east.
+Swiftly by night we go ;
+In the early dawn we are with the prince.
+Our lot is not like hers.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-010__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-010</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·010.2</prop>
+      <prop type="x-translation-ref">Seaou sing.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>嘒彼小星，維參與昴，肅肅宵征，抱衾與裯，寔命不猶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Small are those starlets,
+And there are Orion and the Pleiades.
+Swiftly by night we go,
+Carrying our coverlets and sheets.
+Our lot is not as hers.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-011__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-011</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·011.1</prop>
+      <prop type="x-translation-ref">Keang yew sze.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>江有汜，之子歸，不我以，不我以，其後也悔。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Keang has its branches, led from it and returning to it.
+Our lady, when she was married,
+Would not employ us.
+She would not employ us;
+But afterwards she repented.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-011__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-011</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·011.2</prop>
+      <prop type="x-translation-ref">Keang yew sze.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>江有渚，之子歸，不我與，不我與，其後也處。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Keang has its islets.
+Our lady, when she was married,
+Would not let us be with her.
+She would not let us be with her;
+But afterwards she repressed [such feelings].</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-011__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-011</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·011.3</prop>
+      <prop type="x-translation-ref">Keang yew sze.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>江有沱，之子歸，不我過，不我過，其嘯也歌。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Keang has the T'o.
+Our lady, when she was married,
+Would not come near us.
+She would not come near us;
+But she blew that feeling away, and sang.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-012__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-012</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·012.1</prop>
+      <prop type="x-translation-ref">Yay yew szekeun.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>野有死麕，白茅包之，有女懷春，吉士誘之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the wild there is a dead antelope,
+And it is wrapped up with the white grass.
+There is a young lady with thoughts natural to the spring,
+And a fine gentleman would lead her astray.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-012__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-012</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·012.2</prop>
+      <prop type="x-translation-ref">Yay yew szekeun.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>林有樸樕，野有死鹿，白茅純束，有女如玉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the forest there are the scrubby oaks ;
+In the wild there is a dead deer,
+And it is bound round with the white grass.
+There is a young lady like a gem.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-012__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-012</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·012.3</prop>
+      <prop type="x-translation-ref">Yay yew szekeun.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>舒而脫脫兮，無感我帨兮，無使尨也吠。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[She says], Slowly, gently, gently;
+Do not move my handkerchief;
+Do not make my dog bark.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-013__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·013.1</prop>
+      <prop type="x-translation-ref">Ho pe nung.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>何彼穠矣，唐棣之華，曷不肅雝，王姬之車。
+何彼穠矣，華如桃李，平王之孫，齊侯之子。
+其釣維何，維絲伊緡，齊侯之子，平王之孫。
+何：驚歎詞。何其。
+穠：猶戎戎也。（《羣經治要》卷三）或作襛、茙。戎戎，形容大。此處作形容詞形容後面的唐棣之華。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How great is that luxuriance,
+Those flowers of the sparrow-plum!
+Are they not expressive of reverence and harmony, —
+The carriages of the king's daughter?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-013__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·013.2</prop>
+      <prop type="x-translation-ref">Ho pe nung.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>唐棣：栘也。（《羣經治要》卷三），一名常棣、棠棣、鬱李。今名鬱李。
+華：花。
+肅，敬也。（《羣經治要》卷三）
+雝，和也。（《羣經治要》卷三）
+曷，何也。（《羣經治要》卷三）</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How great is that luxuriance,
+The flowers like those of the peach-tree or the plum!
+[See] the grand-daughter of the tranquillizing king,
+And the son of the reverent marquis!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-013__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·013.3</prop>
+      <prop type="x-translation-ref">Ho pe nung.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>車：按王先謙考證，此天子、大夫嫁娶時留車反馬之禮。女方嫁至男方時所乘之車，到達後歸屬於男方家庭，但所用之馬則要退還給女方。
+華如桃李：比喻鬱李的華茂盛如桃李一般。
+平：按鄭玄《毛詩傳》；平，正也。正王，正統的君主。此處非周平王。
+伊：同維。維、伊皆語詞，無意義。
+緡：魚線。釣魚用的線。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What are used in angling?
+Silk threads formed into lines.
+The son of the reverent marquis,
+And the grand-daughter of the tranquillizing king!</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__guofeng-zhaonan-014__001__zhwikisource-20260530__legge-sheking-1871-ocr">
@@ -802,7 +1428,9 @@ Why will you not understand me?</seg>
       <prop type="x-chinese-ref">詩經·國風·鄘風·003.1</prop>
       <prop type="x-translation-ref">君子偕老.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>呂氏曰：「首章之末云『子之不淑，云如之何』，責之也；二章之末云『胡然而天也，胡然而帝也』，問之也；三章之末云『展如之人兮，邦之媛也』，惜之也。辭益惋而意益深矣。」</seg>
+        <seg>君子偕老，副笄六珈，委委佗佗，如山如河，象服是宜，子之不淑，云如之何。
+玼兮玼兮，其之翟也，鬒髮如雲，不屑髢也，玉之瑱也，象之揥也，揚且之晳也，胡然而天也，胡然而帝也。
+瑳兮瑳兮，其之展也，蒙彼縐絺，是紲袢也，子之清揚，揚且之顏也，展如之人兮，邦之媛也。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>How rich and splendid
