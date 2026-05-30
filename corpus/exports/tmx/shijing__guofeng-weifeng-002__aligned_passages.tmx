@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-weifeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·衛風·002.1</prop>
+      <prop type="x-translation-ref">考槃.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>考槃在澗，碩人之寬，獨寐寤言，永矢弗諼。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He has reared his hut by the stream in the valley,
+That large man, so much at his ease.
+Alone he sleeps, and wakes, and talks.
+He swears he will never forget his true joy.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-weifeng-002__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·衛風·002.2</prop>
+      <prop type="x-translation-ref">考槃.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>考槃在阿，碩人之薖，獨寐寤歌，永矢弗過。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He has reared his hut in the bend of the mound,
+That large man, with such an air of indifference.
+Alone, he sleeps and wakes, and sings.
+He swears he will never pass from this spot.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-weifeng-002__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·衛風·002.3</prop>
+      <prop type="x-translation-ref">考槃.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>考槃在陸，碩人之軸，獨寐寤宿，永矢弗告。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He has reared his hut on the level height,
+That large man, so self-collected.
+Alone, he sleeps and wakes, and sleeps again.
+He swears he will never tell of his delight.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

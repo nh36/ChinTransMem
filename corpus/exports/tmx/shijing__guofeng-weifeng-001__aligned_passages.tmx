@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-weifeng-001__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·衛風·001.1</prop>
+      <prop type="x-translation-ref">淇奧.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>瞻彼淇奧，綠竹猗猗，有匪君子，如切如磋，如琢如磨，瑟兮僩兮，赫兮咺兮，有匪君子，終不可諼兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Look at those recesses in the banks of the K'e,
+With their green bamboos, so fresh and luxuriant!
+There is our elegant and accomplished prince, —
+As from the knife and the file,
+As from the chisel and the polisher!
+How grave is he and dignified!
+How commanding and distinguished!
+Never can he be forgotten!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-weifeng-001__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·衛風·001.2</prop>
+      <prop type="x-translation-ref">淇奧.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>瞻彼淇奧，綠竹青青，有匪君子，充耳琇瑩，會弁如星，瑟兮僩兮，赫兮咺兮，有匪君子，終不可諼兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Look at those recesses in the banks of the K'e,
+With their green bamboos, so strong and luxuriant!
+There is our elegant and accomplished prince, —
+With his ear-stoppers of beautiful pebbles,
+And his cap glittering as with stars between the seams!
+How grave is he and dignified!
+How commanding and distinguished!
+Our elegant and accomplished prince —
+Never can he be forgotten!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-weifeng-001__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·衛風·001.3</prop>
+      <prop type="x-translation-ref">淇奧.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>瞻彼淇奧，綠竹如簀，有匪君子，如金如錫，如圭如璧，寬兮綽兮，倚重較兮，善戲謔兮，不為虐兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Look at those recesses in the banks of the K'e,
+With their green bamboos, so dense together!
+There is our elegant and accomplished prince, —
+Pure as gold or as tin,
+Soft and rich as a sceptre of jade!
+How magnanimous is he and gentle!
+There he is in his chariot with its two high sides!
+Skilful is he at quips and jokes,
+But how does he keep from rudeness in them!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

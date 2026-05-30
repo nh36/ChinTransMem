@@ -814,6 +814,17 @@
     "notes": "Bootstrap Shijing generation for 柏舟 with 2 exact stanza alignments."
   },
   {
+    "run_id": "bootstrap-guofeng-yongfeng-002-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-yongfeng-002",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-yongfeng-002__zhwikisource-20260530",
+      "guofeng-yongfeng-002__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 牆有茨 with 3 exact stanza alignments."
+  },
+  {
     "run_id": "bootstrap-guofeng-yongfeng-003-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-yongfeng-003",
@@ -823,6 +834,28 @@
       "guofeng-yongfeng-003__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 君子偕老 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-yongfeng-004-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-yongfeng-004",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-yongfeng-004__zhwikisource-20260530",
+      "guofeng-yongfeng-004__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 桑中 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-yongfeng-005-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-yongfeng-005",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-yongfeng-005__zhwikisource-20260530",
+      "guofeng-yongfeng-005__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 鶉之奔奔 with 2 exact stanza alignments."
   },
   {
     "run_id": "bootstrap-guofeng-yongfeng-006-20260530",
@@ -836,6 +869,72 @@
     "notes": "Bootstrap Shijing generation for 定之方中 with 1 exact poem alignments."
   },
   {
+    "run_id": "bootstrap-guofeng-yongfeng-007-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-yongfeng-007",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-yongfeng-007__zhwikisource-20260530",
+      "guofeng-yongfeng-007__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 蝃蝀 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-yongfeng-009-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-yongfeng-009",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-yongfeng-009__zhwikisource-20260530",
+      "guofeng-yongfeng-009__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 干旄 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-yongfeng-010-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-yongfeng-010",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-yongfeng-010__zhwikisource-20260530",
+      "guofeng-yongfeng-010__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 載馳 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-weifeng-001-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-weifeng-001",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-weifeng-001__zhwikisource-20260530",
+      "guofeng-weifeng-001__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 淇奧 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-weifeng-002-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-weifeng-002",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-weifeng-002__zhwikisource-20260530",
+      "guofeng-weifeng-002__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 考槃 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-weifeng-003-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-weifeng-003",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-weifeng-003__zhwikisource-20260530",
+      "guofeng-weifeng-003__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 碩人 with 4 exact stanza alignments."
+  },
+  {
     "run_id": "bootstrap-guofeng-weifeng-004-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-weifeng-004",
@@ -847,6 +946,17 @@
     "notes": "Bootstrap Shijing generation for 氓 with 2 exact stanza alignments."
   },
   {
+    "run_id": "bootstrap-guofeng-weifeng-005-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-weifeng-005",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-weifeng-005__zhwikisource-20260530",
+      "guofeng-weifeng-005__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 竹竿 with 4 exact stanza alignments."
+  },
+  {
     "run_id": "bootstrap-guofeng-weifeng-007-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-weifeng-007",
@@ -855,7 +965,29 @@
       "guofeng-weifeng-007__zhwikisource-20260530",
       "guofeng-weifeng-007__legge-sheking-1871-ocr"
     ],
-    "notes": "Bootstrap Shijing generation for 河廣 with 1 exact poem alignments."
+    "notes": "Bootstrap Shijing generation for 河廣 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-weifeng-008-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-weifeng-008",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-weifeng-008__zhwikisource-20260530",
+      "guofeng-weifeng-008__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 伯兮 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-weifeng-009-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-weifeng-009",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-weifeng-009__zhwikisource-20260530",
+      "guofeng-weifeng-009__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 有狐 with 3 exact stanza alignments."
   },
   {
     "run_id": "bootstrap-guofeng-wangfeng-001-20260530",
@@ -867,6 +999,72 @@
       "guofeng-wangfeng-001__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 黍離 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-wangfeng-002-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-wangfeng-002",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-wangfeng-002__zhwikisource-20260530",
+      "guofeng-wangfeng-002__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 君子于役 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-wangfeng-003-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-wangfeng-003",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-wangfeng-003__zhwikisource-20260530",
+      "guofeng-wangfeng-003__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 君子陽陽 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-wangfeng-004-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-wangfeng-004",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-wangfeng-004__zhwikisource-20260530",
+      "guofeng-wangfeng-004__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 揚之水 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-wangfeng-006-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-wangfeng-006",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-wangfeng-006__zhwikisource-20260530",
+      "guofeng-wangfeng-006__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 兔爰 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-wangfeng-007-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-wangfeng-007",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-wangfeng-007__zhwikisource-20260530",
+      "guofeng-wangfeng-007__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 葛藟 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-wangfeng-008-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-wangfeng-008",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-wangfeng-008__zhwikisource-20260530",
+      "guofeng-wangfeng-008__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 采葛 with 3 exact stanza alignments."
   },
   {
     "run_id": "bootstrap-guofeng-wangfeng-009-20260530",

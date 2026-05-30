@@ -391,12 +391,44 @@ class CorpusWorkflowTest(unittest.TestCase):
             quality_report["progress"]["non_exportable_repair_queue_remaining"],
             quality_report["summary"]["non_exportable_extant_sections"],
         )
+        self.assertEqual(
+            quality_report["progress"]["all_human_verified_ocr_sections"],
+            sum(1 for section in quality_report["sections"] if section["verification_status"] == "human_verified_ocr"),
+        )
+        self.assertEqual(
+            quality_report["progress"]["newly_repaired_in_latest_tranche"],
+            len(quality_report["progress"]["latest_repaired_sections"]),
+        )
+        self.assertIsNotNone(quality_report["progress"]["latest_repair_batch"])
+        self.assertTrue(
+            all(
+                section["repair_batch"] == quality_report["progress"]["latest_repair_batch"]
+                for section in quality_report["progress"]["latest_repaired_sections"]
+            )
+        )
+        self.assertIn(
+            quality_report["progress"]["latest_repair_batch"],
+            {batch["repair_batch"] for batch in quality_report["progress"]["human_verified_batches"]},
+        )
         priority_remaining = quality_report["progress"]["remaining_priority_subdivisions"]
-        for subdivision_key in ("國風 / 召南", "國風 / 邶風", "國風 / 鄘風"):
+        for subdivision_key in ("國風 / 召南", "國風 / 邶風", "國風 / 鄘風", "國風 / 衛風", "國風 / 王風"):
             self.assertIn(subdivision_key, priority_remaining)
             self.assertTrue(
                 all(section["review_note"] for section in priority_remaining[subdivision_key])
             )
+        skipped_current_witness_sections = quality_report["progress"]["skipped_current_witness_sections"]
+        self.assertTrue(skipped_current_witness_sections)
+        self.assertTrue(
+            all(section["review_note"] for section in skipped_current_witness_sections)
+        )
+        self.assertTrue(
+            all(
+                section["review_note"] != "Public-domain witness located, but the English text is not yet verified clean enough for export."
+                for section in skipped_current_witness_sections
+            )
+        )
+        skipped_section_ids = {section["section_id"] for section in skipped_current_witness_sections}
+        self.assertTrue({"guofeng-weifeng-006", "guofeng-wangfeng-005", "guofeng-wangfeng-010"} <= skipped_section_ids)
         self.assertFalse(any(section["english_word_count"] == 0 for section in quality_report["sections"]))
         self.assertFalse(
             any(

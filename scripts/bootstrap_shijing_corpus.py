@@ -1616,17 +1616,100 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
             ),
         ],
     },
+    55: {
+        "legge_section_alias": "Ke aou",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR pages 290-291 after removing running-title "
+            "fragments and rejoining page-break lines."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Look at those recesses in the banks of the K'e,",
+                    "With their green bamboos, so fresh and luxuriant!",
+                    "There is our elegant and accomplished prince, —",
+                    "As from the knife and the file,",
+                    "As from the chisel and the polisher!",
+                    "How grave is he and dignified!",
+                    "How commanding and distinguished!",
+                    "Never can he be forgotten!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Look at those recesses in the banks of the K'e,",
+                    "With their green bamboos, so strong and luxuriant!",
+                    "There is our elegant and accomplished prince, —",
+                    "With his ear-stoppers of beautiful pebbles,",
+                    "And his cap glittering as with stars between the seams!",
+                    "How grave is he and dignified!",
+                    "How commanding and distinguished!",
+                    "Our elegant and accomplished prince —",
+                    "Never can he be forgotten!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Look at those recesses in the banks of the K'e,",
+                    "With their green bamboos, so dense together!",
+                    "There is our elegant and accomplished prince, —",
+                    "Pure as gold or as tin,",
+                    "Soft and rich as a sceptre of jade!",
+                    "How magnanimous is he and gentle!",
+                    "There he is in his chariot with its two high sides!",
+                    "Skilful is he at quips and jokes,",
+                    "But how does he keep from rudeness in them!",
+                ]
+            ),
+        ],
+    },
+    56: {
+        "legge_section_alias": "Kaou pan",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR pages 295-297 by rejoining the stanza blocks "
+            "split across the section boundary with 碩人."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "He has reared his hut by the stream in the valley,",
+                    "That large man, so much at his ease.",
+                    "Alone he sleeps, and wakes, and talks.",
+                    "He swears he will never forget his true joy.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "He has reared his hut in the bend of the mound,",
+                    "That large man, with such an air of indifference.",
+                    "Alone, he sleeps and wakes, and sings.",
+                    "He swears he will never pass from this spot.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "He has reared his hut on the level height,",
+                    "That large man, so self-collected.",
+                    "Alone, he sleeps and wakes, and sleeps again.",
+                    "He swears he will never tell of his delight.",
+                ]
+            ),
+        ],
+    },
     57: {
         "legge_section_alias": "Shih jin",
         "review_note": (
-            "Recovered reviewed poem text from inspected Legge hOCR lines after the automatic section boundary "
-            "bled in the preceding poem; kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+            "Recovered the four stanza blocks from part-1 hOCR pages 297-301 after trimming the preceding 考槃 "
+            "carry-over lines and preserving only the 碩人 verse text."
         ),
+        "force_poem_alignment": False,
         "english_blocks": [
             "\n".join(
                 [
                     "Large was she and tall,",
-                    "In her embroidered robe, with a [plain] single garment over it: —",
+                    "In her embroidered robe, with a single garment over it: —",
                     "The daughter of the marquis of Ts'e,",
                     "The wife of the marquis of Wei,",
                     "The sister of the heir-son of Ts'e,",
@@ -1640,9 +1723,10 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
                     "Her skin was like congealed ointment;",
                     "Her neck was like the tree-grub;",
                     "Her teeth were like melon seeds;",
-                    "Her forehead cicada-like; her eyebrows like [the antennae of]",
-                    "the silkworm moth;",
+                    "Her forehead cicada-like; her eyebrows like the silkworm moth;",
                     "What dimples, as she artfully smiled!",
+                    "How beautiful were her clear black eyes!",
+                    "O beautiful woman, so large and tall!",
                 ]
             ),
             "\n".join(
@@ -1670,12 +1754,55 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
             ),
         ],
     },
+    59: {
+        "legge_section_alias": "Chuh kan",
+        "review_note": (
+            "Recovered the four stanza blocks from part-1 hOCR pages 303-304 after rejoining the final stanza "
+            "lines split across the page break."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "With your long and tapering bamboo rods,",
+                    "You angle in the K'e.",
+                    "Do I not think of you?",
+                    "But I am far away, and cannot get to you.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The Ts'euen-yuen is on the left,",
+                    "And the waters of the K'e are on the right.",
+                    "But when a young lady goes away,",
+                    "She leaves her brothers and parents.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The waters of the K'e are on the right,",
+                    "And the Ts'euen-yuen is on the left.",
+                    "How shine the white teeth through the artful smiles!",
+                    "How the girdle gems move to the measured steps!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The waters of the K'e flow smoothly:",
+                    "There are the oars of cedar",
+                    "And the boats of pine.",
+                    "Might I but go there in my carriage and ramble,",
+                    "To dissipate my sorrow!",
+                ]
+            ),
+        ],
+    },
     61: {
         "legge_section_alias": "Ho kwang",
         "review_note": (
-            "Recovered reviewed poem text from inspected Legge hOCR page-head lines; "
-            "kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+            "Recovered the two stanza blocks from part-1 hOCR pages 305-306 after removing page-head lines."
         ),
+        "force_poem_alignment": False,
         "english_blocks": [
             "\n".join(
                 [
@@ -1691,6 +1818,268 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
                     "Yet it may be passed in a boat.",
                     "That Song is far off,",
                     "Yet it may be reached by fording.",
+                ]
+            ),
+        ],
+    },
+    62: {
+        "legge_section_alias": "Pih he",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR pages 306-307 after removing page-head debris "
+            "and preserving only the verse translation."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Our chief's qualities are gentle and kind,",
+                    "And his cap is well fitted by the seam.",
+                    "He is to the king's service,",
+                    "And I can find no means to cherish my hair.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How can I get the herb for forgetfulness?",
+                    "I would plant it on the north of my hall.",
+                    "Would it then make me forget?",
+                    "My heart is wounded with sadness.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How is my chief so to be remembered,",
+                    "While there is no year in which I see him?",
+                    "How is my chief so to be remembered,",
+                    "While there is no day in which I see him?",
+                ]
+            ),
+        ],
+    },
+    63: {
+        "legge_section_alias": "Yew hoo",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR pages 308-309 by rejoining the stanza that "
+            "continues across the page boundary."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "There is a fox, solitary and suspicious,",
+                    "At that deep ford of the K'e.",
+                    "My heart is sad; —",
+                    "That man has no lower garment.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "There is a fox, solitary and suspicious,",
+                    "At that deep ford of the K'e.",
+                    "My heart is sad; —",
+                    "That man has no girdle.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "There is a fox, solitary and suspicious,",
+                    "By the side there of the K'e.",
+                    "My heart is sad; —",
+                    "That man has no clothes.",
+                ]
+            ),
+        ],
+    },
+    66: {
+        "legge_section_alias": "Keun tsze yu yih",
+        "review_note": (
+            "Recovered the two stanza blocks from part-1 hOCR pages 314-315 after removing the intervening "
+            "running-title line."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "My husband is away on service,",
+                    "Not knowing the day of his return.",
+                    "When the sheep and oxen come down from the hill,",
+                    "How can I not think of him?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "My husband is away on service,",
+                    "Not knowing the day of his return.",
+                    "When the fowls roost in the evening,",
+                    "How can I not think of him?",
+                ]
+            ),
+        ],
+    },
+    67: {
+        "legge_section_alias": "Keun tsze yang yang",
+        "review_note": "Recovered the two stanza blocks from part-1 hOCR page 315 after removing page furniture.",
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "My husband is complacent and self-satisfied,",
+                    "Moving about with his left hand occupied.",
+                    "Complacent and self-satisfied is my husband,",
+                    "And right is his heart.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "My husband is complacent and self-satisfied,",
+                    "Moving about with his left hand occupied.",
+                    "Complacent and self-satisfied is my husband,",
+                    "And happy is his heart.",
+                ]
+            ),
+        ],
+    },
+    68: {
+        "legge_section_alias": "Yang che shwuy",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR pages 316-318 after trimming the trailing "
+            "stanza that belongs to the following poem 中谷有蓷."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The torrent carries bundles of thorns;",
+                    "That person will not come to me.",
+                    "He will not come to me,",
+                    "And I languish, and am grieved.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The torrent carries bundles of briers;",
+                    "That person will not collect me.",
+                    "He will not collect me,",
+                    "And I languish, and am grieved.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The torrent carries bundles of faggots;",
+                    "That person will not comfort me.",
+                    "He will not comfort me,",
+                    "And I languish, and am grieved.",
+                ]
+            ),
+        ],
+    },
+    70: {
+        "legge_section_alias": "T'hoo yuen",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR pages 319-320 after removing catchword debris "
+            "and preserving the verse blocks only."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "There is the hare! that which leads it is the snare.",
+                    "When my king has no proper business,",
+                    "Why should he reduce us all to such extremity?",
+                    "He who called us to it, — from him shall come no good.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "There is the hare! in the midst of the snare.",
+                    "When my king has no proper business,",
+                    "Why should he reduce us all to such extremity?",
+                    "He who called us to it, — from him shall come no blessing.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "There is the hare! on the side of the snare.",
+                    "When my king has no proper business,",
+                    "Why should he reduce us all to such extremity?",
+                    "He who called us to it, — from him shall come no end.",
+                ]
+            ),
+        ],
+    },
+    71: {
+        "legge_section_alias": "Ko leih",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR pages 321-322 after removing running-title "
+            "fragments and preserving only the poem translation."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The dolichos grows luxuriant",
+                    "On the branches of the jujube trees.",
+                    "My brothers are all in a distant quarter,",
+                    "And none of them will have me any more.",
+                    "People of whom I ask, all say,",
+                    "They are dead or gone away.",
+                    "How can it be otherwise than that my heart should ache?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The dolichos grows luxuriant",
+                    "On the branches of the thorn trees.",
+                    "My brothers are all in a distant quarter,",
+                    "And there is no one of them in whom I can confide.",
+                    "People of whom I ask, all say,",
+                    "They are dead or gone away.",
+                    "How can it be otherwise than that my heart should be grieved?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The dolichos grows luxuriant",
+                    "On the branches of the sour plum trees.",
+                    "My brothers are all in a distant quarter,",
+                    "And none of them will attend to me.",
+                    "People of whom I ask, all say,",
+                    "They are dead or gone away.",
+                    "How can it be otherwise than that I should sigh?",
+                ]
+            ),
+        ],
+    },
+    72: {
+        "legge_section_alias": "Tsae koh",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR pages 322-323 after trimming page-head debris "
+            "and preserving the verse lines only."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "One day gone by, when absent from you,",
+                    "Seems like three months.",
+                    "I gather and dress the dolichos; —",
+                    "When shall I see you again?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "One day gone by, when absent from you,",
+                    "Seems like three autumns.",
+                    "I gather and dress the mugwort; —",
+                    "When shall I see you again?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "One day gone by, when absent from you,",
+                    "Seems like three years.",
+                    "I gather and dress the lespedeza; —",
+                    "When shall I see you again?",
                 ]
             ),
         ],

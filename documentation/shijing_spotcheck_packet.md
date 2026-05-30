@@ -7,10 +7,10 @@ This packet is a human-review sample built from the current Shijing corpus state
 | Category | Entries |
 | --- | ---: |
 | All Zhou Nan poems | 11 |
-| All poem-level/coarse alignments | 49 |
-| All title-only lost-text metadata entries | 166 |
-| Every repaired section | 42 |
-| Every section moved back to metadata-only | 160 |
+| All poem-level/coarse alignments | 50 |
+| All title-only lost-text metadata entries | 148 |
+| Every repaired section | 60 |
+| Every section moved back to metadata-only | 142 |
 | Subdivision example: 國風 / 召南 | 1 |
 | Subdivision example: 國風 / 周南 | 1 |
 | Subdivision example: 國風 / 唐風 | 1 |
@@ -3111,162 +3111,6 @@ _No extant Chinese poem text; title-only canonical entry._
 _No exportable English text; entry remains metadata-only._
 ```
 
-### guofeng-wangfeng-002 — 君子于役
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-wangfeng-002`
-- canonical_ref: `詩經·國風·王風·002`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%90%9B%E5%AD%90%E4%BA%8E%E5%BD%B9
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-wangfeng-002 — 君子于役
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-wangfeng-002`
-- canonical_ref: `詩經·國風·王風·002`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%90%9B%E5%AD%90%E4%BA%8E%E5%BD%B9
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-wangfeng-003 — 君子陽陽
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-wangfeng-003`
-- canonical_ref: `詩經·國風·王風·003`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%90%9B%E5%AD%90%E9%99%BD%E9%99%BD
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-wangfeng-003 — 君子陽陽
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-wangfeng-003`
-- canonical_ref: `詩經·國風·王風·003`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%90%9B%E5%AD%90%E9%99%BD%E9%99%BD
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-wangfeng-004 — 揚之水
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-wangfeng-004`
-- canonical_ref: `詩經·國風·王風·004`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%8F%9A%E4%B9%8B%E6%B0%B4
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-wangfeng-004 — 揚之水
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-wangfeng-004`
-- canonical_ref: `詩經·國風·王風·004`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%8F%9A%E4%B9%8B%E6%B0%B4
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
 ### guofeng-wangfeng-005 — 中谷有蓷
 
 - Categories: Every section moved back to metadata-only
@@ -3303,162 +3147,6 @@ _Export withdrawn; section remains metadata-only pending better witness recovery
 - notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%B8%AD%E8%B0%B7%E6%9C%89%E8%93%B7
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-wangfeng-006 — 兔爰
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-wangfeng-006`
-- canonical_ref: `詩經·國風·王風·006`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%85%94%E7%88%B0
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-wangfeng-006 — 兔爰
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-wangfeng-006`
-- canonical_ref: `詩經·國風·王風·006`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%85%94%E7%88%B0
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-wangfeng-007 — 葛藟
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-wangfeng-007`
-- canonical_ref: `詩經·國風·王風·007`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%91%9B%E8%97%9F
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-wangfeng-007 — 葛藟
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-wangfeng-007`
-- canonical_ref: `詩經·國風·王風·007`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%91%9B%E8%97%9F
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-wangfeng-008 — 采葛
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-wangfeng-008`
-- canonical_ref: `詩經·國風·王風·008`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E8%91%9B
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-wangfeng-008 — 采葛
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-wangfeng-008`
-- canonical_ref: `詩經·國風·王風·008`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E8%91%9B
   - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
   - https://archive.org/download/theshihking09394gut/7shih10.txt
   - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
@@ -3527,214 +3215,6 @@ _No extant Chinese poem text; title-only canonical entry._
 _No exportable English text; entry remains metadata-only._
 ```
 
-### guofeng-weifeng-001 — 淇奧
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-weifeng-001`
-- canonical_ref: `詩經·國風·衛風·001`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B7%87%E5%A5%A7
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-weifeng-001 — 淇奧
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-weifeng-001`
-- canonical_ref: `詩經·國風·衛風·001`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B7%87%E5%A5%A7
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-weifeng-002 — 考槃
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-weifeng-002`
-- canonical_ref: `詩經·國風·衛風·002`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%80%83%E6%A7%83
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-weifeng-002 — 考槃
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-weifeng-002`
-- canonical_ref: `詩經·國風·衛風·002`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%80%83%E6%A7%83
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-weifeng-003 — 碩人
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-weifeng-003`
-- canonical_ref: `詩經·國風·衛風·003`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%A2%A9%E4%BA%BA
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-weifeng-003 — 碩人
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-weifeng-003`
-- canonical_ref: `詩經·國風·衛風·003`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%A2%A9%E4%BA%BA
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-weifeng-005 — 竹竿
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-weifeng-005`
-- canonical_ref: `詩經·國風·衛風·005`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%AB%B9%E7%AB%BF
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-weifeng-005 — 竹竿
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-weifeng-005`
-- canonical_ref: `詩經·國風·衛風·005`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%AB%B9%E7%AB%BF
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
 ### guofeng-weifeng-006 — 芄蘭
 
 - Categories: Every section moved back to metadata-only
@@ -3771,110 +3251,6 @@ _Export withdrawn; section remains metadata-only pending better witness recovery
 - notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8A%84%E8%98%AD
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-weifeng-008 — 伯兮
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-weifeng-008`
-- canonical_ref: `詩經·國風·衛風·008`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BC%AF%E5%85%AE
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-weifeng-008 — 伯兮
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-weifeng-008`
-- canonical_ref: `詩經·國風·衛風·008`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BC%AF%E5%85%AE
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-weifeng-009 — 有狐
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-weifeng-009`
-- canonical_ref: `詩經·國風·衛風·009`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9C%89%E7%8B%90
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-weifeng-009 — 有狐
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-weifeng-009`
-- canonical_ref: `詩經·國風·衛風·009`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9C%89%E7%8B%90
   - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
   - https://archive.org/download/theshihking09394gut/7shih10.txt
   - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
@@ -4307,214 +3683,6 @@ _No extant Chinese poem text; title-only canonical entry._
 _No exportable English text; entry remains metadata-only._
 ```
 
-### guofeng-yongfeng-002 — 牆有茨
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-yongfeng-002`
-- canonical_ref: `詩經·國風·鄘風·002`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%89%86%E6%9C%89%E8%8C%A8
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-yongfeng-002 — 牆有茨
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-yongfeng-002`
-- canonical_ref: `詩經·國風·鄘風·002`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%89%86%E6%9C%89%E8%8C%A8
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-yongfeng-004 — 桑中
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-yongfeng-004`
-- canonical_ref: `詩經·國風·鄘風·004`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A1%91%E4%B8%AD
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-yongfeng-004 — 桑中
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-yongfeng-004`
-- canonical_ref: `詩經·國風·鄘風·004`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A1%91%E4%B8%AD
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-yongfeng-005 — 鶉之奔奔
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-yongfeng-005`
-- canonical_ref: `詩經·國風·鄘風·005`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B6%89%E4%B9%8B%E5%A5%94%E5%A5%94
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-yongfeng-005 — 鶉之奔奔
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-yongfeng-005`
-- canonical_ref: `詩經·國風·鄘風·005`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B6%89%E4%B9%8B%E5%A5%94%E5%A5%94
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-yongfeng-007 — 蝃蝀
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-yongfeng-007`
-- canonical_ref: `詩經·國風·鄘風·007`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%9D%83%E8%9D%80
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-yongfeng-007 — 蝃蝀
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-yongfeng-007`
-- canonical_ref: `詩經·國風·鄘風·007`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%9D%83%E8%9D%80
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
 ### guofeng-yongfeng-008 — 相鼠
 
 - Categories: Every section moved back to metadata-only
@@ -4551,110 +3719,6 @@ _Export withdrawn; section remains metadata-only pending better witness recovery
 - notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%9B%B8%E9%BC%A0
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-yongfeng-009 — 干旄
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-yongfeng-009`
-- canonical_ref: `詩經·國風·鄘風·009`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B9%B2%E6%97%84
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-yongfeng-009 — 干旄
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-yongfeng-009`
-- canonical_ref: `詩經·國風·鄘風·009`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B9%B2%E6%97%84
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No extant Chinese poem text; title-only canonical entry._
-```
-
-#### English text
-
-```text
-_No exportable English text; entry remains metadata-only._
-```
-
-### guofeng-yongfeng-010 — 載馳
-
-- Categories: Every section moved back to metadata-only
-- section_id: `guofeng-yongfeng-010`
-- canonical_ref: `詩經·國風·鄘風·010`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BC%89%E9%A6%B3
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-_No exportable Chinese/English alignment after review._
-```
-
-#### English text
-
-```text
-_Export withdrawn; section remains metadata-only pending better witness recovery._
-```
-
-### guofeng-yongfeng-010 — 載馳
-
-- Categories: All title-only lost-text metadata entries
-- section_id: `guofeng-yongfeng-010`
-- canonical_ref: `詩經·國風·鄘風·010`
-- alignment_granularity: `metadata_only`
-- is_coarse_alignment: `false`
-- notes: Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BC%89%E9%A6%B3
   - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
   - https://archive.org/download/theshihking09394gut/7shih10.txt
   - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
@@ -9082,7 +8146,7 @@ He went forth, and lodged for the night in Tû.
 
 ### daya-dang-011 — 召旻
 
-- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
+- Categories: All poem-level/coarse alignments
 - section_id: `daya-dang-011`
 - canonical_ref: `詩經·大雅·蕩之什·011`
 - alignment_granularity: `poem`
@@ -9467,82 +8531,6 @@ And harmoniously the notes resound.
 
 ### daya-shengmin-010 — 板
 
-- Categories: Ten longest exported English segments
-- section_id: `daya-shengmin-010`
-- canonical_ref: `詩經·大雅·生民之什·010`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `true`
-- notes: Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9D%BF
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/The_Major_Odes_of_the_Kingdom/Decade_2/Ode_10
-
-#### Chinese text
-
-```text
-上帝板板，下民卒癉。出話不然，為猶不遠。
-靡聖管管，不實於亶。猶之未遠，是用大諫。
-
-天之方難，無然憲憲。天之方蹶，無然泄泄。
-辭之輯矣，民之洽矣。辭之懌矣，民之莫矣。
-
-我雖異事，及爾同寮。我即爾謀，聽我嚻嚻。
-我言維服，勿以為笑。先民有言，詢于芻蕘。
-
-天之方虐，無然謔謔。老夫灌灌，小子蹻蹻。
-匪我言耄，爾用憂謔。多將熇熇，不可救藥。
-
-天之方懠，無為夸毗。威儀卒迷，善人載尸。
-民之方殿屎，則莫我敢葵。喪亂蔑資，曾莫惠我師。
-
-天之牖民，如壎如篪。如璋如圭，如取如攜。
-攜無曰益，牖民孔易。民之多辟，無自立辟。
-
-价人維藩，大師維垣。大邦維屏，大宗維翰。
-懷德維寧，宗子維城。無俾城壞，無獨斯畏。
-
-敬天之怒，無敢戲豫。敬天之渝，無敢馳驅。
-昊天曰明，及爾出王。昊天曰旦，及爾游衍。
-```
-
-#### English text
-
-```text
-God has reversed (his usual course of procedure),
-And the lower people are full of distress.
-The words which you utter are not right;
-The plans which you form are not far-reaching.
-As there are not sages, you think you have no guidance;—
-You
-have no real sincerity.
-(Thus) your plans do not reach far,
-And I therefore strongly admonish you.
-
-Heaven is now sending down calamities;—
-Do
-not be so complacent.
-Heaven is now producing such movements;—
-Do
-not be so indifferent.
-If your words were harmonious,
-The people would become united.
-If your words were gentle and kind,
-The people would be settled.
-
-Though my duties are different from yours,
-I am your fellow-servant.
-I come to advise with you,
-And you hear me with contemptuous indifference,
-My words are about the (present urgent) affairs;—
-Do
-not think them matter for laughter.
-The ancients had a saying:—
-'Consult
-the gatherers of grass and firewood.'
-```
-
-### daya-shengmin-010 — 板
-
 - Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `daya-shengmin-010`
 - canonical_ref: `詩經·大雅·生民之什·010`
@@ -9723,6 +8711,108 @@ The doings of high Heaven
 Have neither sound nor ​smell.
 Take your pattern from king Wăn,
 And the myriad regions will repose confidence in you.
+```
+
+### daya-wenwang-002 — 大明
+
+- Categories: Top 20 remaining warnings
+- section_id: `daya-wenwang-002`
+- canonical_ref: `詩經·大雅·文王之什·002`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Verified against clean public-domain Wikisource transcription. suspiciously long English text
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%A4%A7%E6%98%8E
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/The_Major_Odes_of_the_Kingdom/Decade_1/Ode_2
+
+#### Chinese text
+
+```text
+明明在下，赫赫在上。天難忱斯，不易維王。天位殷適，使不挾四方。
+
+摯仲氏任，自彼殷商，來嫁于周。曰嬪于京，乃及王季，維德之行。大任有身，生此文王。
+
+維此文王，小心翼翼。昭事上帝，聿懷多福。厥德不回，以受方國。
+
+天監在下，有命既集。文王初載，天作之合。在洽之陽，在渭之涘。文王嘉止，大邦有子。
+
+大邦有子，俔天之妹。文定厥祥，親迎于渭。造舟為梁，不顯其光。
+
+有命自天，命此文王。于周于京，纘女維莘。長子維行，篤生武王。保右命爾，燮伐大商。
+
+殷商之旅，其會如林。矢于牧野，維予侯興。上帝臨女，無貳爾心。
+
+牧野洋洋，檀車煌煌，駟騵彭彭。維師尚父，時維鷹揚。涼彼武王，肆伐大商。會朝清明。
+```
+
+#### English text
+
+```text
+The illustration of illustrious (virtue) is required below,
+And the dread majesty is on high.
+Heaven is not readily to be relied on;
+It is not easy to be king.
+Yin's rightful heir to the heavenly seat
+Was not permitted to possess the kingdom.
+
+Zăn, the second of the princesses of Kih,
+From (the domain of) Yin-shang,
+Came to be married to (the prince of) Kâu,
+And became his wife in his
+​capital.
+Both she and king Kî
+Were entirely virtuous.
+(Then) Thâi-zăn became pregnant,
+And gave birth to our king Wăn.
+
+This king Wăn,
+Watchfully and reverently,
+With entire intelligence served God,
+And so secured the great blessing.
+His virtue was without deflection;
+And in consequence he received (the allegiance of) the states from all quarters.
+
+Heaven surveyed this lower world;
+And its appointment lighted (on king Wăn).
+In his early years,
+It made for him a mate;—
+On
+the north of the Hsiâ,
+On the banks of the Wei.
+When king Wăn would marry,
+There was the lady in a large state.
+
+In a large state was the lady,
+Like a fair denizen of heaven.
+The ceremonies determined the auspiciousness (of the union),
+And in person he met her on the Wei.
+Over it he made a bridge of boats;
+The glory (of the occasion) was illustrious.
+
+The favouring appointment was from Heaven,
+Giving the throne to our king Wăn,
+In the capital of Kâu.
+The lady-successor was from Hsin,
+Its eldest daughter, who came to marry him.
+She was blessed to give birth to king Wû,
+Who was preserved, and helped, and received (also) the appoint​ment,
+And in accordance with it smote the great Shang.
+
+The troops of Yin-shang
+Were collected like a forest,
+And marshalled in the wilderness of Mû.
+We rose (to the crisis);
+'God is with you,' (said Shang-fû to the king),
+'Have no doubts in your heart.'
+
+The wilderness of Mû spread out extensive;
+Bright shone the chariots of sandal;
+The teams of bays, black-maned and white-bellied, galloped along;
+The Grand-Master Shang-fû
+Was like an eagle on the wing,
+Assisting king Wû,
+Who at one onset smote the great Shang.
+That morning's encounter was followed by a clear, bright (day).
 ```
 
 ### daya-wenwang-003 — 緜
@@ -11116,6 +10206,270 @@ O thou distant and azure Heaven!
 By what man was this (brought about)?
 ```
 
+### guofeng-wangfeng-002 — 君子于役
+
+- Categories: Every repaired section
+- section_id: `guofeng-wangfeng-002`
+- canonical_ref: `詩經·國風·王風·002`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the two stanza blocks from part-1 hOCR pages 314-315 after removing the intervening running-title line. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%90%9B%E5%AD%90%E4%BA%8E%E5%BD%B9
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+君子于役，不知其期。曷至哉？雞棲于塒，日之夕矣，羊牛下來。君子于役，如之何勿思！
+
+君子于役，不日不月。曷其有佸？雞棲于桀，日之夕矣，羊牛下括。君子于役，苟無飢渴。
+```
+
+#### English text
+
+```text
+My husband is away on service,
+Not knowing the day of his return.
+When the sheep and oxen come down from the hill,
+How can I not think of him?
+
+My husband is away on service,
+Not knowing the day of his return.
+When the fowls roost in the evening,
+How can I not think of him?
+```
+
+### guofeng-wangfeng-003 — 君子陽陽
+
+- Categories: Every repaired section
+- section_id: `guofeng-wangfeng-003`
+- canonical_ref: `詩經·國風·王風·003`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the two stanza blocks from part-1 hOCR page 315 after removing page furniture. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%90%9B%E5%AD%90%E9%99%BD%E9%99%BD
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+君子陽陽，左執簧，右招我由房。其樂只且。
+
+君子陶陶，左執翿，右招我由敖。其樂只且。
+```
+
+#### English text
+
+```text
+My husband is complacent and self-satisfied,
+Moving about with his left hand occupied.
+Complacent and self-satisfied is my husband,
+And right is his heart.
+
+My husband is complacent and self-satisfied,
+Moving about with his left hand occupied.
+Complacent and self-satisfied is my husband,
+And happy is his heart.
+```
+
+### guofeng-wangfeng-004 — 揚之水
+
+- Categories: Every repaired section
+- section_id: `guofeng-wangfeng-004`
+- canonical_ref: `詩經·國風·王風·004`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 316-318 after trimming the trailing stanza that belongs to the following poem 中谷有蓷. Aligned stanza by stanza from matching Chinese and English poem blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%8F%9A%E4%B9%8B%E6%B0%B4
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+揚之水，不流束薪。彼其之子，不與我戍申。懷哉懷哉！曷月予還歸哉！
+揚之水，不流束楚。彼其之子，不與我戍甫。懷哉懷哉！曷月予還歸哉！
+揚之水，不流束蒲。彼其之子，不與我戍許。懷哉懷哉！曷月予還歸哉！
+
+揚之水，不流束楚，終鮮兄弟，維予與女，無信人之言，人實迋女。
+揚之水，不流束薪，終鮮兄弟，維予二人，無信人之言，人實不信！
+
+揚之水，白石鑿鑿，素衣朱襮，從子于沃，既見君子，云何不樂。
+揚之水，白石皓皓，素衣朱繡，從子于鵠，既見君子，云何其憂。
+揚之水，白石粼粼，我聞有命，不敢以告人！
+```
+
+#### English text
+
+```text
+The torrent carries bundles of thorns;
+That person will not come to me.
+He will not come to me,
+And I languish, and am grieved.
+
+The torrent carries bundles of briers;
+That person will not collect me.
+He will not collect me,
+And I languish, and am grieved.
+
+The torrent carries bundles of faggots;
+That person will not comfort me.
+He will not comfort me,
+And I languish, and am grieved.
+```
+
+### guofeng-wangfeng-006 — 兔爰
+
+- Categories: Every repaired section
+- section_id: `guofeng-wangfeng-006`
+- canonical_ref: `詩經·國風·王風·006`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 319-320 after removing catchword debris and preserving the verse blocks only. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%85%94%E7%88%B0
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+有兔爰爰，雉離于羅。我生之初，尚無為。我生之後，逢此百罹，尚寐無吪？
+
+有兔爰爰，雉離于罦。我生之初，尚無造。我生之後，逢此百憂，尚寐無覺？
+
+有兔爰爰，雉離于罿。我生之初，尚無庸。我生之後，逢此百凶，尚寐無聦！
+```
+
+#### English text
+
+```text
+There is the hare! that which leads it is the snare.
+When my king has no proper business,
+Why should he reduce us all to such extremity?
+He who called us to it, — from him shall come no good.
+
+There is the hare! in the midst of the snare.
+When my king has no proper business,
+Why should he reduce us all to such extremity?
+He who called us to it, — from him shall come no blessing.
+
+There is the hare! on the side of the snare.
+When my king has no proper business,
+Why should he reduce us all to such extremity?
+He who called us to it, — from him shall come no end.
+```
+
+### guofeng-wangfeng-007 — 葛藟
+
+- Categories: Every repaired section
+- section_id: `guofeng-wangfeng-007`
+- canonical_ref: `詩經·國風·王風·007`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 321-322 after removing running-title fragments and preserving only the poem translation. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%91%9B%E8%97%9F
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+緜緜葛藟，在河之滸。終遠兄弟，謂他人父。謂他人父，亦莫我顧。
+
+緜緜葛藟，在河之涘。終遠兄弟，謂他人母。謂他人母，亦莫我有。
+
+緜緜葛藟，在河之漘。終遠兄弟，謂他人昆。謂他人昆，亦莫我聞。
+```
+
+#### English text
+
+```text
+The dolichos grows luxuriant
+On the branches of the jujube trees.
+My brothers are all in a distant quarter,
+And none of them will have me any more.
+People of whom I ask, all say,
+They are dead or gone away.
+How can it be otherwise than that my heart should ache?
+
+The dolichos grows luxuriant
+On the branches of the thorn trees.
+My brothers are all in a distant quarter,
+And there is no one of them in whom I can confide.
+People of whom I ask, all say,
+They are dead or gone away.
+How can it be otherwise than that my heart should be grieved?
+
+The dolichos grows luxuriant
+On the branches of the sour plum trees.
+My brothers are all in a distant quarter,
+And none of them will attend to me.
+People of whom I ask, all say,
+They are dead or gone away.
+How can it be otherwise than that I should sigh?
+```
+
+### guofeng-wangfeng-008 — 采葛
+
+- Categories: Every repaired section
+- section_id: `guofeng-wangfeng-008`
+- canonical_ref: `詩經·國風·王風·008`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 322-323 after trimming page-head debris and preserving the verse lines only. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E8%91%9B
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+彼采葛兮，一日不見，如三月兮。
+
+彼采蕭兮，一日不見，如三秋兮。
+
+彼采艾兮，一日不見，如三歲兮。
+```
+
+#### English text
+
+```text
+One day gone by, when absent from you,
+Seems like three months.
+I gather and dress the dolichos; —
+When shall I see you again?
+
+One day gone by, when absent from you,
+Seems like three autumns.
+I gather and dress the mugwort; —
+When shall I see you again?
+
+One day gone by, when absent from you,
+Seems like three years.
+I gather and dress the lespedeza; —
+When shall I see you again?
+```
+
 ### guofeng-wangfeng-009 — 大車
 
 - Categories: All poem-level/coarse alignments
@@ -11150,66 +10504,233 @@ If you say that I am not sincere,
 By the bright sun I swear that I am.
 ```
 
-### guofeng-weifeng-004 — 氓
+### guofeng-weifeng-001 — 淇奧
 
-- Categories: Subdivision example: 國風 / 衛風
-- section_id: `guofeng-weifeng-004`
-- canonical_ref: `詩經·國風·衛風·004`
+- Categories: Every repaired section, Subdivision example: 國風 / 衛風
+- section_id: `guofeng-weifeng-001`
+- canonical_ref: `詩經·國風·衛風·001`
 - alignment_granularity: `stanza`
 - is_coarse_alignment: `false`
-- notes: Verified against clean public-domain Wikisource transcription. Aligned at stanza level by splitting the Chinese text into 3-line units to match Legge's printed stanza blocks.
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 290-291 after removing running-title fragments and rejoining page-break lines. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
 - source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B0%93
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Lessons_from_the_States/Book_5/Ode_4
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B7%87%E5%A5%A7
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
 
 #### Chinese text
 
 ```text
-氓之蚩蚩，抱布貿絲。匪來貿絲，來即我謀。送子涉淇，至于頓丘。匪我愆期，子無良媒。將子無怒，秋以為期。
-乘彼垝垣，以望復關。不見復關，泣涕漣漣。既見復關，載笑載言。爾卜爾筮，體無咎言。以爾車來，以我賄遷。
-桑之未落，其葉沃若。于嗟鳩兮，無食桑葚。于嗟女兮，無與士耽。士之耽兮，猶可說也。女之耽兮，不可說也。
+瞻彼淇奧，綠竹猗猗，有匪君子，如切如磋，如琢如磨，瑟兮僩兮，赫兮咺兮，有匪君子，終不可諼兮。
 
-桑之落矣，其黃而隕。自我徂爾，三歲食貧。淇水湯湯，漸車帷裳。女也不爽，士貳其行。士也罔極，二三其德。
-三歲為婦，靡室勞矣。夙興夜寐，靡有朝矣。言既遂矣，至于暴矣。兄弟不知，咥其笑矣。靜言思之，躬自悼矣。
-及爾偕老，老使我怨。淇則有岸，隰則有泮。總角之宴，言笑晏晏。信誓旦旦，不思其反。反是不思，亦已焉哉。
+瞻彼淇奧，綠竹青青，有匪君子，充耳琇瑩，會弁如星，瑟兮僩兮，赫兮咺兮，有匪君子，終不可諼兮。
+
+瞻彼淇奧，綠竹如簀，有匪君子，如金如錫，如圭如璧，寬兮綽兮，倚重較兮，善戲謔兮，不為虐兮。
 ```
 
 #### English text
 
 ```text
-A simple-looking lad you were,
-Carrying cloth
-​to exchange it for silk.
-(But) you came not so to purchase silk;—
-You
-came to make proposals to me.
-I convoyed you through the Khî,
-As far as Tun-khiû,
-'It is not I,' (I said), 'who would protract the time;
-But you have had no good go-between.
-I pray you be not angry,
-And let autumn be the time.'
+Look at those recesses in the banks of the K'e,
+With their green bamboos, so fresh and luxuriant!
+There is our elegant and accomplished prince, —
+As from the knife and the file,
+As from the chisel and the polisher!
+How grave is he and dignified!
+How commanding and distinguished!
+Never can he be forgotten!
 
-I ascended that ruinous wall,
-To look towards Fû-kwan;
-And when I saw (you) not (coming from) it,
-My tears flowed in streams.
-When I did see (you coming from) Fû-kwan,
-I laughed and I spoke.
-You had consulted, (you said), the tortoise-shell and the divining stalks,
-And there was nothing unfavourable in their response.
-'Then come,' (I said), 'with your carriage,
-And I will remove with my goods.'
+Look at those recesses in the banks of the K'e,
+With their green bamboos, so strong and luxuriant!
+There is our elegant and accomplished prince, —
+With his ear-stoppers of beautiful pebbles,
+And his cap glittering as with stars between the seams!
+How grave is he and dignified!
+How commanding and distinguished!
+Our elegant and accomplished prince —
+Never can he be forgotten!
+
+Look at those recesses in the banks of the K'e,
+With their green bamboos, so dense together!
+There is our elegant and accomplished prince, —
+Pure as gold or as tin,
+Soft and rich as a sceptre of jade!
+How magnanimous is he and gentle!
+There he is in his chariot with its two high sides!
+Skilful is he at quips and jokes,
+But how does he keep from rudeness in them!
+```
+
+### guofeng-weifeng-002 — 考槃
+
+- Categories: Every repaired section
+- section_id: `guofeng-weifeng-002`
+- canonical_ref: `詩經·國風·衛風·002`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 295-297 by rejoining the stanza blocks split across the section boundary with 碩人. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%80%83%E6%A7%83
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+考槃在澗，碩人之寬，獨寐寤言，永矢弗諼。
+
+考槃在阿，碩人之薖，獨寐寤歌，永矢弗過。
+
+考槃在陸，碩人之軸，獨寐寤宿，永矢弗告。
+```
+
+#### English text
+
+```text
+He has reared his hut by the stream in the valley,
+That large man, so much at his ease.
+Alone he sleeps, and wakes, and talks.
+He swears he will never forget his true joy.
+
+He has reared his hut in the bend of the mound,
+That large man, with such an air of indifference.
+Alone, he sleeps and wakes, and sings.
+He swears he will never pass from this spot.
+
+He has reared his hut on the level height,
+That large man, so self-collected.
+Alone, he sleeps and wakes, and sleeps again.
+He swears he will never tell of his delight.
+```
+
+### guofeng-weifeng-003 — 碩人
+
+- Categories: Every repaired section
+- section_id: `guofeng-weifeng-003`
+- canonical_ref: `詩經·國風·衛風·003`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the four stanza blocks from part-1 hOCR pages 297-301 after trimming the preceding 考槃 carry-over lines and preserving only the 碩人 verse text. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%A2%A9%E4%BA%BA
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+碩人其頎，衣錦褧衣，齊侯之子，衛侯之妻，東宮之妹，邢侯之姨，譚公維私。
+
+手如柔荑，膚如凝脂，領如蝤蠐，齒如瓠犀，螓首蛾眉，巧笑倩兮，美目盻兮。
+
+碩人敖敖，說于農郊，四牡有驕，朱幩鑣鑣，翟茀以朝，大夫夙退，無使君勞。
+
+河水洋洋，北流活活，施罛濊濊，鱣鮪發發，葭菼揭揭，庶姜孽孽，庶士有朅。
+```
+
+#### English text
+
+```text
+Large was she and tall,
+In her embroidered robe, with a single garment over it: —
+The daughter of the marquis of Ts'e,
+The wife of the marquis of Wei,
+The sister of the heir-son of Ts'e,
+The sister-in-law of the marquis of Hing,
+The viscount of Tan also her brother-in-law.
+
+Her fingers were like the blades of the young white-grass;
+Her skin was like congealed ointment;
+Her neck was like the tree-grub;
+Her teeth were like melon seeds;
+Her forehead cicada-like; her eyebrows like the silkworm moth;
+What dimples, as she artfully smiled!
+How beautiful were her clear black eyes!
+O beautiful woman, so large and tall!
+
+Large was she and tall,
+When she halted in the cultivated suburbs.
+Strong looked her four horses,
+With the red ornaments so rich about their bits.
+Thus in her carriage, with its screens of pheasant feathers,
+she proceeded to our court.
+Early retire, ye great officers,
+And do not make the marquis fatigued!
+
+The waters of the Ho, wide and deep,
+Flow northwards in majestic course.
+The nets are dropt into them with a plashing sound,
+Among shoals of sturgeon, large and small,
+While the rushes and sedges are rank about.
+Splendidly adorned were her sister ladies;
+Martial looked the attendant officers.
+```
+
+### guofeng-weifeng-005 — 竹竿
+
+- Categories: Every repaired section
+- section_id: `guofeng-weifeng-005`
+- canonical_ref: `詩經·國風·衛風·005`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the four stanza blocks from part-1 hOCR pages 303-304 after rejoining the final stanza lines split across the page break. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%AB%B9%E7%AB%BF
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+籊籊竹竿，以釣于淇，豈不爾思，遠莫致之。
+
+泉源在左，淇水在右，女子有行，遠兄弟父母。
+
+淇水在右，泉源在左，巧笑之瑳，佩玉之儺。
+
+淇水滺滺，檜楫松舟，駕言出遊，以寫我憂。
+```
+
+#### English text
+
+```text
+With your long and tapering bamboo rods,
+You angle in the K'e.
+Do I not think of you?
+But I am far away, and cannot get to you.
+
+The Ts'euen-yuen is on the left,
+And the waters of the K'e are on the right.
+But when a young lady goes away,
+She leaves her brothers and parents.
+
+The waters of the K'e are on the right,
+And the Ts'euen-yuen is on the left.
+How shine the white teeth through the artful smiles!
+How the girdle gems move to the measured steps!
+
+The waters of the K'e flow smoothly:
+There are the oars of cedar
+And the boats of pine.
+Might I but go there in my carriage and ramble,
+To dissipate my sorrow!
 ```
 
 ### guofeng-weifeng-007 — 河廣
 
-- Categories: All poem-level/coarse alignments, Every repaired section
+- Categories: Every repaired section
 - section_id: `guofeng-weifeng-007`
 - canonical_ref: `詩經·國風·衛風·007`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `true`
-- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines; kept poem-level alignment until stanza-safe OCR segmentation is reworked. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the two stanza blocks from part-1 hOCR pages 305-306 after removing page-head lines. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B2%B3%E5%BB%A3
   - https://archive.org/details/chineseclassics41legg
@@ -11221,6 +10742,7 @@ And I will remove with my goods.'
 
 ```text
 誰謂河廣，一葦杭之，誰謂宋遠，跂予望之。
+
 誰謂河廣，曾不容刀，誰謂宋遠，曾不崇朝。
 ```
 
@@ -11236,6 +10758,93 @@ How wide is the Ho!
 Yet it may be passed in a boat.
 That Song is far off,
 Yet it may be reached by fording.
+```
+
+### guofeng-weifeng-008 — 伯兮
+
+- Categories: All poem-level/coarse alignments, Every repaired section
+- section_id: `guofeng-weifeng-008`
+- canonical_ref: `詩經·國風·衛風·008`
+- alignment_granularity: `poem`
+- is_coarse_alignment: `true`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 306-307 after removing page-head debris and preserving only the verse translation. Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BC%AF%E5%85%AE
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+伯兮朅兮，邦之桀兮。伯也執殳，爲王前驅。
+自伯之東，首如飛蓬。豈無膏沐？誰適爲容！
+其雨其雨，杲杲出日。願言思伯，甘心首疾。
+焉得諼草？言樹之背。願言思伯。使我心痗。
+```
+
+#### English text
+
+```text
+Our chief's qualities are gentle and kind,
+And his cap is well fitted by the seam.
+He is to the king's service,
+And I can find no means to cherish my hair.
+
+How can I get the herb for forgetfulness?
+I would plant it on the north of my hall.
+Would it then make me forget?
+My heart is wounded with sadness.
+
+How is my chief so to be remembered,
+While there is no year in which I see him?
+How is my chief so to be remembered,
+While there is no day in which I see him?
+```
+
+### guofeng-weifeng-009 — 有狐
+
+- Categories: Every repaired section
+- section_id: `guofeng-weifeng-009`
+- canonical_ref: `詩經·國風·衛風·009`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 308-309 by rejoining the stanza that continues across the page boundary. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9C%89%E7%8B%90
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+有狐綏綏，在彼淇梁，心之憂矣，之子無裳。
+
+有狐綏綏，在彼淇厲，心之憂矣，之子無帶。
+
+有狐綏綏，在彼淇側，心之憂矣，之子無服。
+```
+
+#### English text
+
+```text
+There is a fox, solitary and suspicious,
+At that deep ford of the K'e.
+My heart is sad; —
+That man has no lower garment.
+
+There is a fox, solitary and suspicious,
+At that deep ford of the K'e.
+My heart is sad; —
+That man has no girdle.
+
+There is a fox, solitary and suspicious,
+By the side there of the K'e.
+My heart is sad; —
+That man has no clothes.
 ```
 
 ### guofeng-yongfeng-001 — 柏舟
@@ -11278,6 +10887,146 @@ O mother, O Heaven,
 Why will you not understand me?
 ```
 
+### guofeng-yongfeng-002 — 牆有茨
+
+- Categories: Every repaired section
+- section_id: `guofeng-yongfeng-002`
+- canonical_ref: `詩經·國風·鄘風·002`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 276-277 lines 17-22 and 277:8-19. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%89%86%E6%9C%89%E8%8C%A8
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+牆有茨，不可埽也，中冓之言，不可道也，所可道也，言之醜也。
+
+牆有茨，不可襄也，中冓之言，不可詳也，所可詳也，言之長也。
+
+牆有茨，不可束也，中冓之言，不可讀也，所可讀也，言之辱也。
+```
+
+#### English text
+
+```text
+The tribulus grows on the wall,
+And cannot be brushed away.
+The story of the inner chamber
+Cannot be told.
+What would have to be told
+Would be the vilest of recitals.
+
+The tribulus grows on the wall,
+And cannot be removed.
+The story of the inner chamber
+Cannot be particularly related.
+What might be particularly related
+Would be a long story.
+
+The tribulus grows on the wall,
+And cannot be bound together and taken away.
+The story of the inner chamber
+Cannot be recited.
+What might be recited
+Would be the most disgraceful of things.
+```
+
+### guofeng-yongfeng-004 — 桑中
+
+- Categories: Every repaired section
+- section_id: `guofeng-yongfeng-004`
+- canonical_ref: `詩經·國風·鄘風·004`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 280-282 lines 13-19, 281:12-18, and 282:5-7. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A1%91%E4%B8%AD
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+爰采唐矣，沬之鄉矣，云誰之思，美孟姜矣，期我乎桑中，要我乎上宮，送我乎淇之上矣。
+
+爰采麥矣，沬之北矣，云誰之思，美孟弋矣，期我乎桑中，要我乎上宮，送我乎淇之上矣。
+
+爰采葑矣，沬之東矣，云誰之思，美孟庸矣，期我乎桑中，要我乎上宮，送我乎淇之上矣。
+```
+
+#### English text
+
+```text
+I am going to gather the dodder,
+In the fields of Mei.
+But of whom are my thoughts?
+Of that beauty, the eldest of the Keang.
+She made an appointment with me in Sang-chung;
+She will meet me in Shang-kung;
+She will accompany me to K'e-shang.
+
+I am going to gather the wheat,
+In the north of Mei.
+But of whom are my thoughts?
+Of that beauty, the eldest of the Yih.
+She made an appointment with me in Sang-chung;
+She will meet me in Shang-kung;
+She will accompany me to K'e-shang.
+
+I am going to gather the mustard plant,
+In the east of Mei.
+But of whom are my thoughts?
+Of that beauty, the eldest of the Yung.
+She made an appointment with me in Sang-chung;
+She will meet me in Shang-kung;
+She will accompany me to K'e-shang.
+```
+
+### guofeng-yongfeng-005 — 鶉之奔奔
+
+- Categories: Every repaired section
+- section_id: `guofeng-yongfeng-005`
+- canonical_ref: `詩經·國風·鄘風·005`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the two stanza blocks from part-1 hOCR page 282 lines 13-20. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B6%89%E4%B9%8B%E5%A5%94%E5%A5%94
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+鶉之奔奔，鵲之彊彊，人之無良，我以為兄。
+
+鵲之彊彊，鶉之奔奔，人之無良，我以為君。
+```
+
+#### English text
+
+```text
+Boldly faithful in their pairings are quails;
+Vigorously so are magpies.
+This man is all vicious,
+And I consider him my brother!
+
+Vigorously faithful in their pairings are magpies;
+Boldly so are quails.
+This woman is all vicious,
+And I regard her as marchioness!
+```
+
 ### guofeng-yongfeng-006 — 定之方中
 
 - Categories: All poem-level/coarse alignments
@@ -11317,6 +11066,222 @@ With the lofty hills and high elevations about.
 He descended and examined the mulberry trees.
 He then divined by the tortoise-shell, and got a favourable response;
 And thus the issue has been truly good.
+```
+
+### guofeng-yongfeng-007 — 蝃蝀
+
+- Categories: Every repaired section
+- section_id: `guofeng-yongfeng-007`
+- canonical_ref: `詩經·國風·鄘風·007`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 285-286 lines 13-16 and 286:7-14. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%9D%83%E8%9D%80
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+蝃蝀在東，莫之敢指，女子有行，遠父母兄弟。
+
+朝隮于西，崇朝其雨，女子有行，遠兄弟父母。
+
+乃如之人也，懷昏姻也，大無信也，不知命也。
+```
+
+#### English text
+
+```text
+There is a rainbow in the east,
+And no one dares to point to it.
+When a girl goes away from her home,
+She separates from her parents and brothers.
+
+In the morning a rainbow rises in the west,
+And only during the morning is there rain.
+When a girl goes away from her home,
+She separates from her brothers and parents.
+
+This person
+Has her heart only on being married.
+Greatly is she untrue to herself,
+And does not recognize the law of her lot.
+```
+
+### guofeng-yongfeng-009 — 干旄
+
+- Categories: Every repaired section
+- section_id: `guofeng-yongfeng-009`
+- canonical_ref: `詩經·國風·鄘風·009`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the three stanza blocks from part-1 hOCR pages 287-288 lines 6-11 and 288:27-38. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B9%B2%E6%97%84
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+孑孑干旄，在浚之郊，素絲紕之，良馬四之，彼姝者子，何以畀之。
+
+孑孑干旟，在浚之都，素絲組之，良馬五之，彼姝者子，何以予之。
+
+孑孑干旌，在浚之城，素絲祝之，良馬六之，彼姝者子，何以告之。
+```
+
+#### English text
+
+```text
+Conspicuously rise the staffs with their ox-tails,
+In the distant suburbs of Tseun,
+Ornamented with the white silk bands;
+There are four carriages with their good horses;
+That admirable gentleman, —
+What will he give them for this?
+
+Conspicuously rise the staffs with their falcon-banners,
+In the nearer suburbs of Tseun,
+Ornamented with the white silk ribbons;
+There are five carriages with their good horses.
+That admirable gentleman, —
+What will he give them for this?
+
+Conspicuously rise the staffs with their feathered streamers,
+At the walls of Tseun,
+Bound with the white silk cords.
+There are six carriages with their good horses;
+That admirable gentleman, —
+What will he tell them for this?
+```
+
+### guofeng-yongfeng-010 — 載馳
+
+- Categories: Ten longest exported English segments
+- section_id: `guofeng-yongfeng-010`
+- canonical_ref: `詩經·國風·鄘風·010`
+- alignment_granularity: `poem`
+- is_coarse_alignment: `true`
+- notes: Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BC%89%E9%A6%B3
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+載馳載驅，歸唁衞侯，驅馬悠悠，言至于漕，大夫跋涉，我心則憂。
+既不我嘉，不能旋反，視爾不臧，我思不遠。
+既不我嘉，不能旋濟，視爾不臧，我思不閟。
+陟彼阿丘，言采其蝱，女子善懷，亦各有行，許人尤之，衆穉且狂。
+我行其野，芃芃其麥，控于大邦，誰因誰極，大夫君子，無我有尤，百爾所思，不如我所之。
+```
+
+#### English text
+
+```text
+I would have galloped my horses and whipt them,
+Returning to condole with the marquis of Wei.
+I would have urged them all the long way,
+Till I arrived at Tsaou.
+A great officer has gone, over the hills and through the rivers;
+But my heart is full of sorrow.
+
+You disapproved of my proposal,
+And I cannot return to Wei;
+But I regard you as in the wrong,
+And cannot forget my purpose.
+You disapproved of my purpose,
+And I cannot return across the streams;
+But I regard you as in the wrong,
+And cannot shut out my thoughts.
+
+I will ascend that mound with the steep side,
+And gather the mother-of-pearl lilies.
+I might, as a woman, have many thoughts,
+But every one of them was practicable.
+The people of Heu blame me,
+But they are all childish and hasty in their conclusions.
+
+I would have gone through the country,
+Amidst the wheat so luxuriant.
+I would have carried the case before the great State.
+On whom should I have relied? Who would come to the help of Wei?
+Ye great officers and gentlemen,
+Do not condemn me.
+The hundred plans you think of
+Are not equal to the course I was going to take.
+```
+
+### guofeng-yongfeng-010 — 載馳
+
+- Categories: All poem-level/coarse alignments, Every repaired section
+- section_id: `guofeng-yongfeng-010`
+- canonical_ref: `詩經·國風·鄘風·010`
+- alignment_granularity: `poem`
+- is_coarse_alignment: `true`
+- notes: Recovered the four stanza blocks from part-1 hOCR pages 289-291 lines 12-17, 290:8-21, and 291:3-10. Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BC%89%E9%A6%B3
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+載馳載驅，歸唁衞侯，驅馬悠悠，言至于漕，大夫跋涉，我心則憂。
+既不我嘉，不能旋反，視爾不臧，我思不遠。
+既不我嘉，不能旋濟，視爾不臧，我思不閟。
+陟彼阿丘，言采其蝱，女子善懷，亦各有行，許人尤之，衆穉且狂。
+我行其野，芃芃其麥，控于大邦，誰因誰極，大夫君子，無我有尤，百爾所思，不如我所之。
+```
+
+#### English text
+
+```text
+I would have galloped my horses and whipt them,
+Returning to condole with the marquis of Wei.
+I would have urged them all the long way,
+Till I arrived at Tsaou.
+A great officer has gone, over the hills and through the rivers;
+But my heart is full of sorrow.
+
+You disapproved of my proposal,
+And I cannot return to Wei;
+But I regard you as in the wrong,
+And cannot forget my purpose.
+You disapproved of my purpose,
+And I cannot return across the streams;
+But I regard you as in the wrong,
+And cannot shut out my thoughts.
+
+I will ascend that mound with the steep side,
+And gather the mother-of-pearl lilies.
+I might, as a woman, have many thoughts,
+But every one of them was practicable.
+The people of Heu blame me,
+But they are all childish and hasty in their conclusions.
+
+I would have gone through the country,
+Amidst the wheat so luxuriant.
+I would have carried the case before the great State.
+On whom should I have relied? Who would come to the help of Wei?
+Ye great officers and gentlemen,
+Do not condemn me.
+The hundred plans you think of
+Are not equal to the course I was going to take.
 ```
 
 ### guofeng-zhaonan-001 — 鵲巢

@@ -28,6 +28,14 @@ QUALITY_JSON_PATH = QC_REPORTS_DIR / "shijing__completion_quality.json"
 QUALITY_MARKDOWN_PATH = DOCUMENTATION_DIR / "shijing_completion_quality.md"
 SPOTCHECK_PACKET_PATH = DOCUMENTATION_DIR / "shijing_spotcheck_packet.md"
 QUALITY_OVERRIDES_PATH = REPO_ROOT / "metadata" / "shijing_quality_overrides.yml"
+DETAILED_QUEUE_SUBDIVISIONS: tuple[tuple[str, str], ...] = (
+    ("國風", "召南"),
+    ("國風", "邶風"),
+    ("國風", "鄘風"),
+    ("國風", "衛風"),
+    ("國風", "王風"),
+)
+GENERIC_UNVERIFIED_NOTE = "Public-domain witness located, but the English text is not yet verified clean enough for export."
 
 ENGLISH_WORD_RE = re.compile(r"[A-Za-z]+(?:['’-][A-Za-z]+)?")
 CJK_RE = re.compile(r"[\u3400-\u9fff]")
@@ -275,6 +283,7 @@ def build_shijing_quality_context(
                 "processed_translation_path": verification["processed_translation_path"],
                 "extraction_method": verification["extraction_method"],
                 "review_date": verification.get("review_date"),
+                "repair_batch": verification.get("repair_batch"),
                 "remaining_warnings": verification["remaining_warnings"],
                 "exact_alignment_count": len(rows),
                 "alignment_granularity_values": granularity_values,
@@ -469,7 +478,7 @@ def build_shijing_quality_context(
         subdivision_key = f"{section['major_division']} / {section['subdivision']}"
         remaining_by_subdivision[subdivision_key] = remaining_by_subdivision.get(subdivision_key, 0) + 1
     remaining_priority_subdivisions: dict[str, list[dict[str, str]]] = {}
-    for major_division, subdivision in (("國風", "召南"), ("國風", "邶風"), ("國風", "鄘風")):
+    for major_division, subdivision in DETAILED_QUEUE_SUBDIVISIONS:
         subdivision_key = f"{major_division} / {subdivision}"
         remaining_priority_subdivisions[subdivision_key] = [
             {
@@ -489,12 +498,33 @@ def build_shijing_quality_context(
             )
             if section["major_division"] == major_division and section["subdivision"] == subdivision
         ]
-    latest_review_date = max(
-        (
-            section["review_date"]
-            for section in section_records
-            if section.get("review_date") and section["verification_status"] in {"human_verified_ocr", "human_verified_fulltext"}
-        ),
+    human_verified_sections = [
+        section
+        for section in section_records
+        if section["verification_status"] in {"human_verified_ocr", "human_verified_fulltext"}
+    ]
+    human_verified_ocr_sections = [
+        section for section in section_records if section["verification_status"] == "human_verified_ocr"
+    ]
+    human_verified_batches: dict[str, dict[str, Any]] = {}
+    for section in human_verified_sections:
+        batch_key = section.get("repair_batch") or "pre-batch verified"
+        batch_record = human_verified_batches.setdefault(
+            batch_key,
+            {
+                "repair_batch": batch_key,
+                "section_count": 0,
+                "human_verified_ocr_count": 0,
+                "human_verified_fulltext_count": 0,
+            },
+        )
+        batch_record["section_count"] += 1
+        if section["verification_status"] == "human_verified_ocr":
+            batch_record["human_verified_ocr_count"] += 1
+        elif section["verification_status"] == "human_verified_fulltext":
+            batch_record["human_verified_fulltext_count"] += 1
+    latest_repair_batch = max(
+        (section["repair_batch"] for section in human_verified_sections if section.get("repair_batch")),
         default=None,
     )
     latest_repaired_sections = [
@@ -504,9 +534,48 @@ def build_shijing_quality_context(
             "canonical_ref": section["canonical_ref"],
             "verification_status": section["verification_status"],
             "review_date": section["review_date"],
+            "repair_batch": section.get("repair_batch"),
         }
         for section in sorted(section_records, key=lambda section: section["canonical_ref"])
-        if latest_review_date and section.get("review_date") == latest_review_date
+        if latest_repair_batch and section.get("repair_batch") == latest_repair_batch
+    ]
+    latest_review_date = max(
+        (section["review_date"] for section in latest_repaired_sections if section.get("review_date")),
+        default=None,
+    )
+    if not latest_repaired_sections:
+        latest_review_date = max(
+            (
+                section["review_date"]
+                for section in human_verified_sections
+                if section.get("review_date")
+            ),
+            default=None,
+        )
+        latest_repaired_sections = [
+            {
+                "section_id": section["section_id"],
+                "title": section["title"],
+                "canonical_ref": section["canonical_ref"],
+                "verification_status": section["verification_status"],
+                "review_date": section["review_date"],
+                "repair_batch": section.get("repair_batch"),
+            }
+            for section in sorted(section_records, key=lambda section: section["canonical_ref"])
+            if latest_review_date and section.get("review_date") == latest_review_date
+        ]
+    skipped_current_witness_sections = [
+        {
+            "section_id": section["section_id"],
+            "title": section["label"],
+            "canonical_ref": section["canonical_ref"],
+            "subdivision": f"{section['major_division']} / {section['subdivision']}",
+            "review_note": verification_index.get(section["section_id"], {}).get("reviewer_note") or "—",
+        }
+        for section in sorted(non_exportable_extant_sections, key=lambda item: item["canonical_ref"])
+        if (section["major_division"], section["subdivision"]) in DETAILED_QUEUE_SUBDIVISIONS
+        and (verification_index.get(section["section_id"], {}).get("reviewer_note") or "").strip()
+        and (verification_index.get(section["section_id"], {}).get("reviewer_note") or "").strip() != GENERIC_UNVERIFIED_NOTE
     ]
 
     return {
@@ -547,12 +616,19 @@ def build_shijing_quality_context(
                 len(section_records) + len(non_exportable_extant_sections),
             ),
             "verified_exportable_poems": len(section_records),
+            "all_human_verified_ocr_sections": len(human_verified_ocr_sections),
             "non_exportable_repair_queue_remaining": len(non_exportable_extant_sections),
+            "latest_repair_batch": latest_repair_batch,
             "latest_review_date": latest_review_date,
             "newly_repaired_in_latest_tranche": len(latest_repaired_sections),
             "latest_repaired_sections": latest_repaired_sections,
+            "human_verified_batches": sorted(
+                human_verified_batches.values(),
+                key=lambda batch: batch["repair_batch"],
+            ),
             "remaining_by_subdivision": remaining_by_subdivision,
             "remaining_priority_subdivisions": remaining_priority_subdivisions,
+            "skipped_current_witness_sections": skipped_current_witness_sections,
         },
         "thresholds": {
             "english_word_short_threshold": word_short_threshold,
@@ -651,10 +727,14 @@ def quality_markdown(context: dict[str, Any]) -> str:
         "| --- | ---: |",
         f"| total_extant_poems | {progress['total_extant_poems']} |",
         f"| verified_exportable_poems | {progress['verified_exportable_poems']} |",
+        f"| all_human_verified_ocr_sections | {progress['all_human_verified_ocr_sections']} |",
         f"| non_exportable_repair_queue_remaining | {progress['non_exportable_repair_queue_remaining']} |",
-        f"| newly_repaired_in_this_tranche | {progress['newly_repaired_in_latest_tranche']} |",
+        f"| current_repair_batch | {progress['latest_repair_batch'] or '—'} |",
+        f"| newly_repaired_in_current_batch | {progress['newly_repaired_in_latest_tranche']} |",
         "",
         "## Latest repaired tranche",
+        "",
+        f"Latest repair batch: {progress['latest_repair_batch'] or '—'}",
         "",
         f"Latest review date: {progress['latest_review_date'] or '—'}",
         "",
@@ -675,6 +755,26 @@ def quality_markdown(context: dict[str, Any]) -> str:
     lines.extend(
         [
             "",
+            "## Human-verified OCR by batch",
+            "",
+            "| Repair batch | Section count | human_verified_ocr | human_verified_fulltext |",
+            "| --- | ---: | ---: | ---: |",
+        ]
+    )
+    for batch in progress["human_verified_batches"]:
+        lines.append(
+            "| {repair_batch} | {section_count} | {human_verified_ocr_count} | {human_verified_fulltext_count} |".format(
+                repair_batch=batch["repair_batch"],
+                section_count=batch["section_count"],
+                human_verified_ocr_count=batch["human_verified_ocr_count"],
+                human_verified_fulltext_count=batch["human_verified_fulltext_count"],
+            )
+        )
+    if not progress["human_verified_batches"]:
+        lines.append("| — | 0 | 0 | 0 |")
+    lines.extend(
+        [
+            "",
             "## Remaining repair queue by subdivision",
             "",
             "| Subdivision | Remaining poems |",
@@ -691,11 +791,11 @@ def quality_markdown(context: dict[str, Any]) -> str:
     lines.extend(
         [
             "",
-            "## Remaining unrepaired in priority subdivisions",
+            "## Detailed remaining queue in current subdivisions",
             "",
         ]
     )
-    for subdivision_key in ("國風 / 召南", "國風 / 邶風", "國風 / 鄘風"):
+    for subdivision_key in ("國風 / 召南", "國風 / 邶風", "國風 / 鄘風", "國風 / 衛風", "國風 / 王風"):
         lines.extend(
             [
                 f"### {subdivision_key}",
@@ -718,6 +818,27 @@ def quality_markdown(context: dict[str, Any]) -> str:
         else:
             lines.append("| — | — | — | — |")
         lines.append("")
+    lines.extend(
+        [
+            "## Skipped or unrecoverable in current witness",
+            "",
+            "| Section | Title | Subdivision | Canonical ref | Reason |",
+            "| --- | --- | --- | --- | --- |",
+        ]
+    )
+    for section in progress["skipped_current_witness_sections"]:
+        lines.append(
+            "| {section_id} | {title} | {subdivision} | {canonical_ref} | {review_note} |".format(
+                section_id=section["section_id"],
+                title=section["title"],
+                subdivision=section["subdivision"],
+                canonical_ref=section["canonical_ref"],
+                review_note=section["review_note"].replace("\n", " "),
+            )
+        )
+    if not progress["skipped_current_witness_sections"]:
+        lines.append("| — | — | — | — | — |")
+    lines.append("")
     lines.extend(
         [
             "",

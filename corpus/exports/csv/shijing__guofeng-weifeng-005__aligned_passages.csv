@@ -1,0 +1,18 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-weifeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·衛風·005.1,籊籊竹竿，以釣于淇，豈不爾思，遠莫致之。,竹竿.1,"With your long and tapering bamboo rods,
+You angle in the K'e.
+Do I not think of you?
+But I am far away, and cannot get to you."
+shijing__guofeng-weifeng-005__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·衛風·005.2,泉源在左，淇水在右，女子有行，遠兄弟父母。,竹竿.2,"The Ts'euen-yuen is on the left,
+And the waters of the K'e are on the right.
+But when a young lady goes away,
+She leaves her brothers and parents."
+shijing__guofeng-weifeng-005__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·衛風·005.3,淇水在右，泉源在左，巧笑之瑳，佩玉之儺。,竹竿.3,"The waters of the K'e are on the right,
+And the Ts'euen-yuen is on the left.
+How shine the white teeth through the artful smiles!
+How the girdle gems move to the measured steps!"
+shijing__guofeng-weifeng-005__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·國風·衛風·005.4,淇水滺滺，檜楫松舟，駕言出遊，以寫我憂。,竹竿.4,"The waters of the K'e flow smoothly:
+There are the oars of cedar
+And the boats of pine.
+Might I but go there in my carriage and ramble,
+To dissipate my sorrow!"
