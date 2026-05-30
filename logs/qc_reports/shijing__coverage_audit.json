@@ -12,82 +12,22 @@
     "canonical_entry_count": 311,
     "extant_poem_count": 305,
     "missing_chinese_source_sections": 6,
-    "complete_sections": 103,
-    "metadata_only_sections": 208,
-    "sections_needing_alignment": 202,
-    "sections_needing_qc": 202,
-    "exact_alignment_count": 250,
-    "source_count": 206
+    "complete_sections": 113,
+    "metadata_only_sections": 198,
+    "sections_needing_alignment": 192,
+    "sections_needing_qc": 192,
+    "exact_alignment_count": 260,
+    "source_count": 226
   },
   "total_canonical_poems": 311,
   "poems_represented_as_sections": 311,
   "poems_with_chinese_source": 305,
   "poems_with_english_public_domain_witness": 305,
-  "poems_with_verified_public_domain_english_source": 103,
-  "poems_with_at_least_one_exact_alignment": 103,
-  "complete_sections_with_all_repo_files": 103,
+  "poems_with_verified_public_domain_english_source": 113,
+  "poems_with_at_least_one_exact_alignment": 113,
+  "complete_sections_with_all_repo_files": 113,
   "missing_from_repo": [],
   "metadata_only_sections": [
-    {
-      "section_id": "guofeng-zhounan-002",
-      "label": "葛覃",
-      "status": "needs_alignment",
-      "coverage_status": "public_domain_text_witness_available"
-    },
-    {
-      "section_id": "guofeng-zhounan-003",
-      "label": "卷耳",
-      "status": "needs_alignment",
-      "coverage_status": "public_domain_text_witness_available"
-    },
-    {
-      "section_id": "guofeng-zhounan-004",
-      "label": "樛木",
-      "status": "needs_alignment",
-      "coverage_status": "public_domain_text_witness_available"
-    },
-    {
-      "section_id": "guofeng-zhounan-005",
-      "label": "螽斯",
-      "status": "needs_alignment",
-      "coverage_status": "public_domain_text_witness_available"
-    },
-    {
-      "section_id": "guofeng-zhounan-006",
-      "label": "桃夭",
-      "status": "needs_alignment",
-      "coverage_status": "public_domain_text_witness_available"
-    },
-    {
-      "section_id": "guofeng-zhounan-007",
-      "label": "兔罝",
-      "status": "needs_alignment",
-      "coverage_status": "public_domain_text_witness_available"
-    },
-    {
-      "section_id": "guofeng-zhounan-008",
-      "label": "芣苢",
-      "status": "needs_alignment",
-      "coverage_status": "public_domain_text_witness_available"
-    },
-    {
-      "section_id": "guofeng-zhounan-009",
-      "label": "漢廣",
-      "status": "needs_alignment",
-      "coverage_status": "public_domain_text_witness_available"
-    },
-    {
-      "section_id": "guofeng-zhounan-010",
-      "label": "汝墳",
-      "status": "needs_alignment",
-      "coverage_status": "public_domain_text_witness_available"
-    },
-    {
-      "section_id": "guofeng-zhounan-011",
-      "label": "麟之趾",
-      "status": "needs_alignment",
-      "coverage_status": "public_domain_text_witness_available"
-    },
     {
       "section_id": "guofeng-zhaonan-001",
       "label": "鵲巢",
@@ -1279,6 +1219,56 @@
   ],
   "missing_public_domain_translation": [],
   "coarse_or_unusual_complete_sections": [
+    {
+      "section_id": "guofeng-zhounan-002",
+      "label": "葛覃",
+      "exact_alignment_count": 1
+    },
+    {
+      "section_id": "guofeng-zhounan-003",
+      "label": "卷耳",
+      "exact_alignment_count": 1
+    },
+    {
+      "section_id": "guofeng-zhounan-004",
+      "label": "樛木",
+      "exact_alignment_count": 1
+    },
+    {
+      "section_id": "guofeng-zhounan-005",
+      "label": "螽斯",
+      "exact_alignment_count": 1
+    },
+    {
+      "section_id": "guofeng-zhounan-006",
+      "label": "桃夭",
+      "exact_alignment_count": 1
+    },
+    {
+      "section_id": "guofeng-zhounan-007",
+      "label": "兔罝",
+      "exact_alignment_count": 1
+    },
+    {
+      "section_id": "guofeng-zhounan-008",
+      "label": "芣苢",
+      "exact_alignment_count": 1
+    },
+    {
+      "section_id": "guofeng-zhounan-009",
+      "label": "漢廣",
+      "exact_alignment_count": 1
+    },
+    {
+      "section_id": "guofeng-zhounan-010",
+      "label": "汝墳",
+      "exact_alignment_count": 1
+    },
+    {
+      "section_id": "guofeng-zhounan-011",
+      "label": "麟之趾",
+      "exact_alignment_count": 1
+    },
     {
       "section_id": "guofeng-zhaonan-002",
       "label": "采蘩",

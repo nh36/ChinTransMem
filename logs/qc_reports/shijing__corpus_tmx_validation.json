@@ -1,7 +1,7 @@
 {
   "status": "pass",
   "work_id": "shijing",
-  "section_count": 103,
+  "section_count": 113,
   "sections": [
     {
       "status": "pass",
@@ -9,6 +9,96 @@
       "work_id": "shijing",
       "section_id": "guofeng-zhounan-001-guanju",
       "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-zhounan-002__aligned_passages.tmx",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-002",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-zhounan-003__aligned_passages.tmx",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-003",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-zhounan-004__aligned_passages.tmx",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-004",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-zhounan-005__aligned_passages.tmx",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-005",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-zhounan-006__aligned_passages.tmx",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-006",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-zhounan-007__aligned_passages.tmx",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-007",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-zhounan-008__aligned_passages.tmx",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-008",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-zhounan-009__aligned_passages.tmx",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-009",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-zhounan-010__aligned_passages.tmx",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-010",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-zhounan-011__aligned_passages.tmx",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-011",
+      "tu_count": 1,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -936,7 +1026,7 @@
     "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__all__aligned_passages.tmx",
     "work_id": "shijing",
     "section_id": null,
-    "tu_count": 250,
+    "tu_count": 260,
     "source_language": "zh-Hant",
     "target_language": "en"
   }

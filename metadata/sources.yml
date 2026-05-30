@@ -1120,6 +1120,326 @@
     "notes": "Processed segmentation preserves the stanza blocks printed on Legge's standalone She King page."
   },
   {
+    "source_id": "guofeng-zhounan-002__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-002",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/葛覃, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%91%9B%E8%A6%83",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-002__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-002__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page."
+  },
+  {
+    "source_id": "guofeng-zhounan-002__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-002",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'Koh t'an', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics41legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-002__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+  },
+  {
+    "source_id": "guofeng-zhounan-003__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-003",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/卷耳, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%B7%E8%80%B3",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-003__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-003__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page."
+  },
+  {
+    "source_id": "guofeng-zhounan-003__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-003",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'Keuen-urh', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics41legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-003__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+  },
+  {
+    "source_id": "guofeng-zhounan-004__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-004",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/樛木, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A8%9B%E6%9C%A8",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-004__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-004__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page."
+  },
+  {
+    "source_id": "guofeng-zhounan-004__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-004",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'K'ew muh', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics41legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-004__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+  },
+  {
+    "source_id": "guofeng-zhounan-005__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-005",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/螽斯, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%9E%BD%E6%96%AF",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-005__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-005__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page."
+  },
+  {
+    "source_id": "guofeng-zhounan-005__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-005",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'Chung-sze', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics41legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-005__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+  },
+  {
+    "source_id": "guofeng-zhounan-006__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-006",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/桃夭, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A1%83%E5%A4%AD",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-006__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-006__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page."
+  },
+  {
+    "source_id": "guofeng-zhounan-006__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-006",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'T'aou yaou', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics41legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-006__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+  },
+  {
+    "source_id": "guofeng-zhounan-007__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-007",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/兔罝, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%85%94%E7%BD%9D",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-007__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-007__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page."
+  },
+  {
+    "source_id": "guofeng-zhounan-007__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-007",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'T'oo tseu', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics41legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-007__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+  },
+  {
+    "source_id": "guofeng-zhounan-008__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-008",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/芣苢, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8A%A3%E8%8B%A2",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-008__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-008__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page."
+  },
+  {
+    "source_id": "guofeng-zhounan-008__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-008",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'Fow-e', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics41legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-008__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+  },
+  {
+    "source_id": "guofeng-zhounan-009__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-009",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/漢廣, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%BC%A2%E5%BB%A3",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-009__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-009__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page."
+  },
+  {
+    "source_id": "guofeng-zhounan-009__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-009",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'Han kwang', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics41legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-009__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+  },
+  {
+    "source_id": "guofeng-zhounan-010__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-010",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/汝墳, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B1%9D%E5%A2%B3",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-010__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-010__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page."
+  },
+  {
+    "source_id": "guofeng-zhounan-010__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-010",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'Joo fun', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics41legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-010__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+  },
+  {
+    "source_id": "guofeng-zhounan-011__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-011",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/麟之趾, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%BA%9F%E4%B9%8B%E8%B6%BE",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhounan-011__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhounan-011__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page."
+  },
+  {
+    "source_id": "guofeng-zhounan-011__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-011",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, 'Lin che che', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics41legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-011__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+  },
+  {
     "source_id": "guofeng-zhaonan-002__zhwikisource-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-zhaonan-002",

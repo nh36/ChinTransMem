@@ -3,11 +3,11 @@
 - Canonical index entries: 311
 - Manifest sections: 311
 - Chinese extant/sourceable entries: 305
-- Public-domain English witnesses: 305 (103 verified transcribed, 202 still awaiting section-level extraction)
-- Sections with at least one exact alignment: 103
-- Metadata-only sections: 208
+- Public-domain English witnesses: 305 (113 verified transcribed, 192 still awaiting section-level extraction)
+- Sections with at least one exact alignment: 113
+- Metadata-only sections: 198
 - Title-only missing-text entries: 6
-- Coarse complete sections: 28
+- Coarse complete sections: 38
 
 ## Coverage status
 

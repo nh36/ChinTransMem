@@ -34,6 +34,7 @@ ACCESS_DATE = "2026-05-30"
 SOURCE_SUFFIX = "zhwikisource-20260530"
 STANDALONE_TARGET_SOURCE_SUFFIX = "legge-sheking-1871"
 SBE_TARGET_SOURCE_SUFFIX = "legge-sbe-v3-1879"
+OCR_TARGET_SOURCE_SUFFIX = "legge-sheking-1871-ocr"
 LEGGE_SHEKING_1871_PART_1_ITEM_URL = "https://archive.org/details/chineseclassics41legg"
 LEGGE_SHEKING_1871_PART_1_OCR_URL = (
     "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
@@ -121,6 +122,318 @@ SECTION_CATALOG: list[dict[str, Any]] = [
         "english_witness": "standalone_sheking",
     }
 ]
+
+ZHOUNAN_OCR_PILOT_SORT_KEYS = set(range(2, 12))
+REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
+    2: {
+        "legge_section_alias": "Koh t'an",
+        "english_blocks": [
+            "\n".join(
+                [
+                    "How the dolichos spreads out,",
+                    "And extends over the valley.",
+                    "The yellow birds fly about,",
+                    "And collect on the thick foliage.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I cut it and I boiled it,",
+                    "And made both fine cloth and coarse,",
+                    "Which I will wear without getting tired of it.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I have told the matron,",
+                    "Who will announce that I am going to see my parents.",
+                    "I will wash my private clothes clean,",
+                    "And I will rinse my robes.",
+                    "Which need to be rinsed, and which do not?",
+                    "I am going back to visit my parents.",
+                ]
+            ),
+        ],
+    },
+    3: {
+        "legge_section_alias": "Keuen-urh",
+        "english_blocks": [
+            "\n".join(
+                [
+                    "I was gathering and gathering the mouse-ear,",
+                    "But could not fill my shallow basket.",
+                    "With a sigh for the man of my heart,",
+                    "I placed it on the high road.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I was ascending that rock-covered height,",
+                    "But my horses were too tired to breast it.",
+                    "I will now pour a cup from that gilded vase,",
+                    "Hoping I may not have to think of him long.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I was ascending that lofty ridge,",
+                    "But my horses turned of a dark yellow.",
+                    "I will now take a cup from that rhinoceros-horn cup,",
+                    "Hoping I may not have long to sorrow.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I was ascending that flat-topped height,",
+                    "But my horses became quite disabled,",
+                    "And my servants were also disabled.",
+                    "Oh! how great is my sorrow!",
+                ]
+            ),
+        ],
+    },
+    4: {
+        "legge_section_alias": "K'ew muh",
+        "english_blocks": [
+            "\n".join(
+                [
+                    "In the south are the trees with curved drooping branches,",
+                    "With the dolichos creepers clinging to them.",
+                    "To be rejoiced in is our princely lady:",
+                    "May she repose in her happiness and dignity!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "In the south are the trees with curved drooping branches,",
+                    "Covered by the dolichos creepers.",
+                    "To be rejoiced in is our princely lady:",
+                    "May she be great in her happiness and dignity!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "In the south are the trees with curved drooping branches,",
+                    "Round which the dolichos creepers twine.",
+                    "To be rejoiced in is our princely lady:",
+                    "May she be complete in her happiness and dignity!",
+                ]
+            ),
+        ],
+    },
+    5: {
+        "legge_section_alias": "Chung-sze",
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Ye locusts, winged tribes,",
+                    "How harmoniously you collect together!",
+                    "Right is it that your descendants",
+                    "Should be multitudinous!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Ye locusts, winged tribes,",
+                    "How sound your wings in flight!",
+                    "Right is it that your descendants",
+                    "Should be as in unbroken strings!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Ye locusts, winged tribes,",
+                    "How you cluster together!",
+                    "Right is it that your descendants",
+                    "Should be in swarms!",
+                ]
+            ),
+        ],
+    },
+    6: {
+        "legge_section_alias": "T'aou yaou",
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The peach tree is young and elegant;",
+                    "Brilliant are its flowers.",
+                    "This young lady is going to her future home,",
+                    "And will order well her chamber and house.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The peach tree is young and elegant;",
+                    "Abundant will be its fruit.",
+                    "This young lady is going to her future home,",
+                    "And will order well her house and chamber.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The peach tree is young and elegant;",
+                    "Luxuriant are its leaves.",
+                    "This young lady is going to her future home,",
+                    "And will order well her family.",
+                ]
+            ),
+        ],
+    },
+    7: {
+        "legge_section_alias": "T'oo tseu",
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Carefully adjusted are the rabbit nets;",
+                    "Clang clang go the blows on the pegs.",
+                    "That stalwart, martial man",
+                    "Might be shield and wall to his prince.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Carefully adjusted are the rabbit nets,",
+                    "And placed where many ways meet.",
+                    "That stalwart, martial man",
+                    "Would be a good companion for his prince.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Carefully adjusted are the rabbit nets,",
+                    "And placed in the midst of the forest.",
+                    "That stalwart, martial man",
+                    "Might be head and heart to his prince.",
+                ]
+            ),
+        ],
+    },
+    8: {
+        "legge_section_alias": "Fow-e",
+        "english_blocks": [
+            "\n".join(
+                [
+                    "We gather and gather the plantains;",
+                    "Now we may gather them.",
+                    "We gather and gather the plantains;",
+                    "Now we have got them.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "We gather and gather the plantains;",
+                    "Now we pluck their ears.",
+                    "We gather and gather the plantains;",
+                    "Now we seize them in our hands.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "We gather and gather the plantains;",
+                    "Now we lap them in our skirts.",
+                    "We gather and gather the plantains;",
+                    "Now we tuck them in our girdles.",
+                ]
+            ),
+        ],
+    },
+    9: {
+        "legge_section_alias": "Han kwang",
+        "english_blocks": [
+            "\n".join(
+                [
+                    "In the south rise the trees without branches,",
+                    "Affording no shelter.",
+                    "By the Han are girls rambling about,",
+                    "But it is vain to solicit them.",
+                    "The breadth of the Han",
+                    "Cannot be dived across;",
+                    "The length of the Keang",
+                    "Cannot be navigated with a raft.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Many are the bundles of firewood;",
+                    "I would cut down the thorns to form more.",
+                    "Those girls that are going to their future home,",
+                    "I would feed their horses.",
+                    "The breadth of the Han",
+                    "Cannot be dived across;",
+                    "The length of the Keang",
+                    "Cannot be navigated with a raft.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Many are the bundles of firewood;",
+                    "I would cut down the southernwood to form more.",
+                    "Those girls that are going to their future home,",
+                    "I would feed their colts.",
+                    "The breadth of the Han",
+                    "Cannot be dived across;",
+                    "The length of the Keang",
+                    "Cannot be navigated with a raft.",
+                ]
+            ),
+        ],
+    },
+    10: {
+        "legge_section_alias": "Joo fun",
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Along those raised banks of the Joo,",
+                    "I cut down the branches and slender stems.",
+                    "While I could not see my lord,",
+                    "I felt as it were pangs of great hunger.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Along those raised banks of the Joo,",
+                    "I cut down the branches and fresh twigs.",
+                    "I have seen my lord;",
+                    "He has not cast me away.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The bream is showing its tail all red;",
+                    "The royal House is like a blazing fire.",
+                    "Though it be like a blazing fire,",
+                    "Your parents are very near.",
+                ]
+            ),
+        ],
+    },
+    11: {
+        "legge_section_alias": "Lin che che",
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The feet of the lin:—",
+                    "The noble sons of our prince,",
+                    "Ah! they are the lin!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The forehead of the lin:—",
+                    "The noble grandsons of our prince,",
+                    "Ah! they are the lin!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The horn of the lin:—",
+                    "The noble kindred of our prince,",
+                    "Ah! they are the lin!",
+                ]
+            ),
+        ],
+    },
+}
 
 
 class BlockCenterExtractor(HTMLParser):
@@ -230,7 +543,11 @@ def section_paths(section: dict[str, Any]) -> dict[str, Path]:
     target_suffix = section["target_source_suffix"]
     paths = {
         "zh_raw": RAW_DIR / f"{base_name}__{SOURCE_SUFFIX}__raw.wikitext",
-        "en_raw": RAW_DIR / f"{base_name}__{target_suffix}__raw.wikitext",
+        "en_raw": (
+            REPO_ROOT / Path(section["candidate_en_raw_path"])
+            if section["english_witness"] == "legge_ocr_reviewed"
+            else RAW_DIR / f"{base_name}__{target_suffix}__raw.wikitext"
+        ),
         "zh_base": CHINESE_DIR / f"{base_name}__{SOURCE_SUFFIX}__base.txt",
         "zh_segments": CHINESE_DIR / f"{base_name}__{SOURCE_SUFFIX}__segments.jsonl",
         "en_text": TRANSLATION_DIR / f"{base_name}__{target_suffix}__translation.txt",
@@ -425,6 +742,39 @@ def map_sbe_page_title(title: str, chinese_catalog: list[dict[str, Any]]) -> dic
 def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witness: str) -> dict[str, Any]:
     if poem["sort_key"] == 1 and english_witness == "standalone_sheking":
         return dict(SECTION_CATALOG[0])
+    if english_witness == "legge_ocr_reviewed":
+        witness = legge_ocr_witness_for_entry(poem)
+        reviewed = REVIEWED_LEGGE_OCR_POEM_BLOCKS[poem["sort_key"]]
+        return {
+            "section_id": section_id_for_catalog_entry(poem),
+            "label": poem["label"],
+            "canonical_ref": poem["canonical_ref"],
+            "sort_key": poem["sort_key"],
+            "major_division": poem["major_division"],
+            "subdivision": poem["subdivision"],
+            "poem_number": poem["local_index"],
+            "legge_section_alias": reviewed["legge_section_alias"],
+            "zh_page_url": poem["page_url"],
+            "zh_section_heading": poem["zh_section_heading"],
+            "en_page_url": witness["candidate_en_backup_page_url"],
+            "en_page_title": en_page_title,
+            "target_source_suffix": OCR_TARGET_SOURCE_SUFFIX,
+            "english_witness": english_witness,
+            "candidate_en_page_url": witness["candidate_en_page_url"],
+            "candidate_en_text_url": witness["candidate_en_text_url"],
+            "candidate_en_ocr_url": witness["candidate_en_ocr_url"],
+            "candidate_en_raw_path": witness["candidate_en_raw_path"],
+            "candidate_en_source_id": witness["candidate_en_source_id"],
+            "candidate_en_backup_page_url": witness["candidate_en_backup_page_url"],
+            "candidate_en_backup_source_id": witness["candidate_en_backup_source_id"],
+            "reviewed_english_blocks": reviewed["english_blocks"],
+            "force_poem_alignment": True,
+            "reviewed_ocr_notes": (
+                "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; "
+                "stanza breaks are preserved in the cleaned translation text, but the alignment stays "
+                "at poem scope until stanza-level OCR cleanup is safer."
+            ),
+        }
     section_id = (
         f"{MAJOR_DIVISION_CODES[poem['major_division']]}-"
         f"{SUBDIVISION_CODES[poem['subdivision']]}-"
@@ -463,6 +813,17 @@ def build_section_catalog(*, skip_fetch: bool) -> list[dict[str, Any]]:
         if poem["sort_key"] in seen_sort_keys:
             continue
         mapped_sections.append(build_section_seed(poem, en_page_title=page_title, english_witness="sbe_shih"))
+        seen_sort_keys.add(poem["sort_key"])
+    for poem in chinese_catalog:
+        if poem["sort_key"] in seen_sort_keys or poem["sort_key"] not in ZHOUNAN_OCR_PILOT_SORT_KEYS:
+            continue
+        mapped_sections.append(
+            build_section_seed(
+                poem,
+                en_page_title="James Legge, The She King (1871 OCR fallback)",
+                english_witness="legge_ocr_reviewed",
+            )
+        )
         seen_sort_keys.add(poem["sort_key"])
     mapped_sections.sort(key=lambda section: section["sort_key"])
     return mapped_sections
@@ -664,6 +1025,8 @@ def extract_english_poem_blocks(
 ) -> tuple[list[str], str, str | None, str | None]:
     if section["english_witness"] == "standalone_sheking":
         return extract_english_poem_blocks_from_raw(raw_text), section["legge_section_alias"], section.get("pinyin_alias"), None
+    if section["english_witness"] == "legge_ocr_reviewed":
+        return list(section["reviewed_english_blocks"]), section["legge_section_alias"], section.get("pinyin_alias"), None
     if rendered_html is None:
         raise ValueError(f"Missing rendered HTML for SBE witness {section['section_id']}")
     lines = extract_rendered_text_lines(rendered_html)
@@ -736,7 +1099,13 @@ def build_segments_and_alignments(
     chinese_blocks: list[str],
     english_blocks: list[str],
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], int, str, str]:
-    if len(chinese_blocks) == len(english_blocks):
+    force_poem_alignment = bool(section.get("force_poem_alignment"))
+    if force_poem_alignment:
+        segment_type = "poem"
+        chinese_segments_text = ["\n\n".join(chinese_blocks)]
+        english_segments_text = ["\n\n".join(english_blocks)]
+        section_note = section["reviewed_ocr_notes"]
+    elif len(chinese_blocks) == len(english_blocks):
         segment_type = "stanza"
         chinese_segments_text = chinese_blocks
         english_segments_text = english_blocks
@@ -860,8 +1229,13 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
         "Processed segmentation preserves the stanza blocks printed on Legge's standalone She King page."
         if section["english_witness"] == "standalone_sheking"
         else (
+            "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while "
+            "keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
+            if section["english_witness"] == "legge_ocr_reviewed"
+            else (
             "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached "
             "rendered HTML because the raw wikitext is only a <pages> transclusion."
+            )
         )
     )
     if section.get("stanza_selection"):
@@ -894,8 +1268,15 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
                 f"James Legge, The She King, '{section['legge_section_alias']}', English Wikisource, accessed {ACCESS_DATE}."
                 if section["english_witness"] == "standalone_sheking"
                 else (
-                    f"James Legge, The Shih, Sacred Books of the East, Vol. III, '{section['legge_section_alias']}', "
-                    f"English Wikisource, accessed {ACCESS_DATE}."
+                    (
+                        f"James Legge, The She King, '{section['legge_section_alias']}', Chinese Classics, Vol. IV "
+                        f"(1871), Internet Archive OCR witness, accessed {LEGGE_SHEKING_1871_OCR_ACCESS_DATE}."
+                    )
+                    if section["english_witness"] == "legge_ocr_reviewed"
+                    else (
+                        f"James Legge, The Shih, Sacred Books of the East, Vol. III, '{section['legge_section_alias']}', "
+                        f"English Wikisource, accessed {ACCESS_DATE}."
+                    )
                 )
             ),
             "source_url": section["en_page_url"],
@@ -918,8 +1299,11 @@ def write_section_files(section: dict[str, Any], *, skip_fetch: bool) -> dict[st
     section["zh_page_url"] = resolved_zh_page_url
     paths["zh_raw"].write_text(zh_raw, encoding="utf-8")
 
-    en_raw = fetch_cached_text(page_to_raw_url(section["en_page_url"]), paths["en_raw"], skip_fetch=skip_fetch)
-    paths["en_raw"].write_text(en_raw, encoding="utf-8")
+    if section["english_witness"] == "legge_ocr_reviewed":
+        en_raw = fetch_cached_text(section["candidate_en_ocr_url"], paths["en_raw"], skip_fetch=skip_fetch)
+    else:
+        en_raw = fetch_cached_text(page_to_raw_url(section["en_page_url"]), paths["en_raw"], skip_fetch=skip_fetch)
+        paths["en_raw"].write_text(en_raw, encoding="utf-8")
 
     rendered_html = None
     if section["english_witness"] == "sbe_shih":

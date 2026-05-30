@@ -385,6 +385,116 @@
     "notes": "Bootstrap Shijing generation for 關雎 with 5 exact stanza alignments."
   },
   {
+    "run_id": "bootstrap-guofeng-zhounan-002-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-002",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-002__zhwikisource-20260530",
+      "guofeng-zhounan-002__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 葛覃 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhounan-003-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-003",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-003__zhwikisource-20260530",
+      "guofeng-zhounan-003__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 卷耳 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhounan-004-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-004",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-004__zhwikisource-20260530",
+      "guofeng-zhounan-004__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 樛木 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhounan-005-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-005",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-005__zhwikisource-20260530",
+      "guofeng-zhounan-005__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 螽斯 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhounan-006-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-006",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-006__zhwikisource-20260530",
+      "guofeng-zhounan-006__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 桃夭 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhounan-007-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-007",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-007__zhwikisource-20260530",
+      "guofeng-zhounan-007__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 兔罝 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhounan-008-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-008",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-008__zhwikisource-20260530",
+      "guofeng-zhounan-008__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 芣苢 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhounan-009-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-009",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-009__zhwikisource-20260530",
+      "guofeng-zhounan-009__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 漢廣 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhounan-010-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-010",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-010__zhwikisource-20260530",
+      "guofeng-zhounan-010__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 汝墳 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhounan-011-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhounan-011",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhounan-011__zhwikisource-20260530",
+      "guofeng-zhounan-011__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 麟之趾 with 1 exact poem alignments."
+  },
+  {
     "run_id": "bootstrap-guofeng-zhaonan-002-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-zhaonan-002",
