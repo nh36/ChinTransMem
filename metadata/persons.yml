@@ -15,6 +15,15 @@
     "roles": [
       "translator"
     ],
-    "notes": "Translator of The Chinese Classics, Volume 1."
+    "notes": "Translator of The Chinese Classics, Volumes 1 and 2 used for Lunyu and Mengzi."
+  },
+  {
+    "person_id": "mengzi-disciples",
+    "display_name": "孟子及其弟子",
+    "romanized_name": "Mencius and his transmitters",
+    "roles": [
+      "compiler"
+    ],
+    "notes": "Authority string for 孟子 follows standard traditional attribution used by Chinese Wikisource."
   }
 ]

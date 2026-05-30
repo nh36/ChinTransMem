@@ -186,6 +186,123 @@
     "label": "梁惠王上",
     "canonical_ref": "孟子 1A",
     "sort_key": 1,
-    "notes": "Metadata-only proof of concept for the first Mengzi section. Planned Chinese base text witness: Chinese Wikisource 孟子/梁惠王上 with URL and access date recorded before any content ingestion."
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-02-lianghuiwang-xia",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "梁惠王下",
+    "canonical_ref": "孟子 1B",
+    "sort_key": 2,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-03-gongsunchou-shang",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "公孫丑上",
+    "canonical_ref": "孟子 2A",
+    "sort_key": 3,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-04-gongsunchou-xia",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "公孫丑下",
+    "canonical_ref": "孟子 2B",
+    "sort_key": 4,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-05-tengwengong-shang",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "滕文公上",
+    "canonical_ref": "孟子 3A",
+    "sort_key": 5,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-06-tengwengong-xia",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "滕文公下",
+    "canonical_ref": "孟子 3B",
+    "sort_key": 6,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-07-lilou-shang",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "離婁上",
+    "canonical_ref": "孟子 4A",
+    "sort_key": 7,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-08-lilou-xia",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "離婁下",
+    "canonical_ref": "孟子 4B",
+    "sort_key": 8,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-09-wanzhang-shang",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "萬章上",
+    "canonical_ref": "孟子 5A",
+    "sort_key": 9,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-10-wanzhang-xia",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "萬章下",
+    "canonical_ref": "孟子 5B",
+    "sort_key": 10,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-11-gaozi-shang",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "告子上",
+    "canonical_ref": "孟子 6A",
+    "sort_key": 11,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-12-gaozi-xia",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "告子下",
+    "canonical_ref": "孟子 6B",
+    "sort_key": 12,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-13-jinxin-shang",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "盡心上",
+    "canonical_ref": "孟子 7A",
+    "sort_key": 13,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
+  },
+  {
+    "section_id": "book-14-jinxin-xia",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "盡心下",
+    "canonical_ref": "孟子 7B",
+    "sort_key": 14,
+    "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
   }
 ]

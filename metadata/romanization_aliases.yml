@@ -266,13 +266,169 @@
   {
     "entity_type": "section",
     "entity_id": "book-01-lianghuiwang-shang",
+    "alias": "Lianghuiwang Shang",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-01-lianghuiwang-shang",
     "alias": "Liang Hui Wang I",
     "romanization_system": "Legge-Wade-Giles"
   },
   {
     "entity_type": "section",
-    "entity_id": "book-01-lianghuiwang-shang",
-    "alias": "Lianghuiwang Shang",
+    "entity_id": "book-02-lianghuiwang-xia",
+    "alias": "Lianghuiwang Xia",
     "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-02-lianghuiwang-xia",
+    "alias": "Liang Hui Wang II",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-03-gongsunchou-shang",
+    "alias": "Gongsunchou Shang",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-03-gongsunchou-shang",
+    "alias": "Gong Sun Chou I",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-04-gongsunchou-xia",
+    "alias": "Gongsunchou Xia",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-04-gongsunchou-xia",
+    "alias": "Gong Sun Chou II",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-05-tengwengong-shang",
+    "alias": "Tengwengong Shang",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-05-tengwengong-shang",
+    "alias": "Teng Wen Gong I",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-06-tengwengong-xia",
+    "alias": "Tengwengong Xia",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-06-tengwengong-xia",
+    "alias": "Teng Wen Gong II",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-07-lilou-shang",
+    "alias": "Lilou Shang",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-07-lilou-shang",
+    "alias": "Li Lou I",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-08-lilou-xia",
+    "alias": "Lilou Xia",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-08-lilou-xia",
+    "alias": "Li Lou II",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-09-wanzhang-shang",
+    "alias": "Wanzhang Shang",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-09-wanzhang-shang",
+    "alias": "Wan Zhang I",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-10-wanzhang-xia",
+    "alias": "Wanzhang Xia",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-10-wanzhang-xia",
+    "alias": "Wan Zhang II",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-11-gaozi-shang",
+    "alias": "Gaozi Shang",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-11-gaozi-shang",
+    "alias": "Gao Zi I",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-12-gaozi-xia",
+    "alias": "Gaozi Xia",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-12-gaozi-xia",
+    "alias": "Gao Zi II",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-13-jinxin-shang",
+    "alias": "Jinxin Shang",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-13-jinxin-shang",
+    "alias": "Jin Xin I",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-14-jinxin-xia",
+    "alias": "Jinxin Xia",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-14-jinxin-xia",
+    "alias": "Jin Xin II",
+    "romanization_system": "Legge-Wade-Giles"
   }
 ]

@@ -220,11 +220,157 @@
     "notes": "Bootstrap corpus generation for 堯曰第二十 with 3 exact alignments and alignment status complete."
   },
   {
-    "run_id": "metadata-skeleton-book-01-lianghuiwang-shang-20260530",
+    "run_id": "bootstrap-book-01-lianghuiwang-shang-20260530",
     "work_id": "mengzi",
     "section_id": "book-01-lianghuiwang-shang",
-    "status": "metadata_only",
-    "source_ids": [],
-    "notes": "Metadata-only Mengzi pilot stub for 梁惠王上; raw capture, segmentation, and alignment are intentionally deferred until the generalized multi-work pipeline is settled."
+    "status": "complete",
+    "source_ids": [
+      "book-01-lianghuiwang-shang__zhwikisource-20260530",
+      "book-01-lianghuiwang-shang__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 梁惠王上 with 7 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-02-lianghuiwang-xia-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-02-lianghuiwang-xia",
+    "status": "complete",
+    "source_ids": [
+      "book-02-lianghuiwang-xia__zhwikisource-20260530",
+      "book-02-lianghuiwang-xia__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 梁惠王下 with 16 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-03-gongsunchou-shang-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-03-gongsunchou-shang",
+    "status": "complete",
+    "source_ids": [
+      "book-03-gongsunchou-shang__zhwikisource-20260530",
+      "book-03-gongsunchou-shang__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 公孫丑上 with 9 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-04-gongsunchou-xia-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-04-gongsunchou-xia",
+    "status": "complete",
+    "source_ids": [
+      "book-04-gongsunchou-xia__zhwikisource-20260530",
+      "book-04-gongsunchou-xia__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 公孫丑下 with 14 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-05-tengwengong-shang-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-05-tengwengong-shang",
+    "status": "complete",
+    "source_ids": [
+      "book-05-tengwengong-shang__zhwikisource-20260530",
+      "book-05-tengwengong-shang__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 滕文公上 with 5 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-06-tengwengong-xia-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-06-tengwengong-xia",
+    "status": "complete",
+    "source_ids": [
+      "book-06-tengwengong-xia__zhwikisource-20260530",
+      "book-06-tengwengong-xia__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 滕文公下 with 10 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-07-lilou-shang-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-07-lilou-shang",
+    "status": "complete",
+    "source_ids": [
+      "book-07-lilou-shang__zhwikisource-20260530",
+      "book-07-lilou-shang__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 離婁上 with 28 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-08-lilou-xia-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-08-lilou-xia",
+    "status": "complete",
+    "source_ids": [
+      "book-08-lilou-xia__zhwikisource-20260530",
+      "book-08-lilou-xia__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 離婁下 with 33 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-09-wanzhang-shang-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-09-wanzhang-shang",
+    "status": "complete",
+    "source_ids": [
+      "book-09-wanzhang-shang__zhwikisource-20260530",
+      "book-09-wanzhang-shang__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 萬章上 with 9 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-10-wanzhang-xia-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-10-wanzhang-xia",
+    "status": "complete",
+    "source_ids": [
+      "book-10-wanzhang-xia__zhwikisource-20260530",
+      "book-10-wanzhang-xia__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 萬章下 with 9 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-11-gaozi-shang-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-11-gaozi-shang",
+    "status": "complete",
+    "source_ids": [
+      "book-11-gaozi-shang__zhwikisource-20260530",
+      "book-11-gaozi-shang__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 告子上 with 20 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-12-gaozi-xia-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-12-gaozi-xia",
+    "status": "complete",
+    "source_ids": [
+      "book-12-gaozi-xia__zhwikisource-20260530",
+      "book-12-gaozi-xia__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 告子下 with 16 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-13-jinxin-shang-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-13-jinxin-shang",
+    "status": "complete",
+    "source_ids": [
+      "book-13-jinxin-shang__zhwikisource-20260530",
+      "book-13-jinxin-shang__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 盡心上 with 46 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-14-jinxin-xia-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-14-jinxin-xia",
+    "status": "complete",
+    "source_ids": [
+      "book-14-jinxin-xia__zhwikisource-20260530",
+      "book-14-jinxin-xia__legge-cc-v2-1895"
+    ],
+    "notes": "Bootstrap corpus generation for 盡心下 with 38 exact alignments and alignment status complete."
   }
 ]

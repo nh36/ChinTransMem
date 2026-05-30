@@ -638,5 +638,453 @@
       "james-legge"
     ],
     "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-01-lianghuiwang-shang__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-01-lianghuiwang-shang",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/梁惠王上, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/梁惠王上",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-01-lianghuiwang-shang__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-01-lianghuiwang-shang__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-01-lianghuiwang-shang__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-01-lianghuiwang-shang",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Liang Hui Wang I, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter01",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-01-lianghuiwang-shang__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-01-lianghuiwang-shang__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-02-lianghuiwang-xia__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-02-lianghuiwang-xia",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/梁惠王下, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/梁惠王下",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-02-lianghuiwang-xia__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-02-lianghuiwang-xia__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-02-lianghuiwang-xia__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-02-lianghuiwang-xia",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Liang Hui Wang II, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter02",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-02-lianghuiwang-xia__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-02-lianghuiwang-xia__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-03-gongsunchou-shang__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-03-gongsunchou-shang",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/公孫丑上, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/公孫丑上",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-03-gongsunchou-shang__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-03-gongsunchou-shang__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-03-gongsunchou-shang__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-03-gongsunchou-shang",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Gong Sun Chou I, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter03",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-03-gongsunchou-shang__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-03-gongsunchou-shang__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-04-gongsunchou-xia__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-04-gongsunchou-xia",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/公孫丑下, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/公孫丑下",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-04-gongsunchou-xia__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-04-gongsunchou-xia__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-04-gongsunchou-xia__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-04-gongsunchou-xia",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Gong Sun Chou II, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter04",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-04-gongsunchou-xia__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-04-gongsunchou-xia__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-05-tengwengong-shang__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-05-tengwengong-shang",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/滕文公上, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/滕文公上",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-05-tengwengong-shang__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-05-tengwengong-shang__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-05-tengwengong-shang__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-05-tengwengong-shang",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Teng Wen Gong I, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter05",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-05-tengwengong-shang__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-05-tengwengong-shang__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-06-tengwengong-xia__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-06-tengwengong-xia",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/滕文公下, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/滕文公下",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-06-tengwengong-xia__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-06-tengwengong-xia__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-06-tengwengong-xia__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-06-tengwengong-xia",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Teng Wen Gong II, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter06",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-06-tengwengong-xia__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-06-tengwengong-xia__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-07-lilou-shang__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-07-lilou-shang",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/離婁上, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/離婁上",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-07-lilou-shang__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-07-lilou-shang__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-07-lilou-shang__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-07-lilou-shang",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Li Lou I, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter07",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-07-lilou-shang__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-07-lilou-shang__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-08-lilou-xia__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-08-lilou-xia",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/離婁下, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/離婁下",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-08-lilou-xia__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-08-lilou-xia__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-08-lilou-xia__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-08-lilou-xia",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Li Lou II, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter08",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-08-lilou-xia__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-08-lilou-xia__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-09-wanzhang-shang__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-09-wanzhang-shang",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/萬章上, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/萬章上",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-09-wanzhang-shang__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-09-wanzhang-shang__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-09-wanzhang-shang__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-09-wanzhang-shang",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Wan Zhang I, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter09",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-09-wanzhang-shang__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-09-wanzhang-shang__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-10-wanzhang-xia__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-10-wanzhang-xia",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/萬章下, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/萬章下",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-10-wanzhang-xia__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-10-wanzhang-xia__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-10-wanzhang-xia__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-10-wanzhang-xia",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Wan Zhang II, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter10",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-10-wanzhang-xia__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-10-wanzhang-xia__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-11-gaozi-shang__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-11-gaozi-shang",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/告子上, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/告子上",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-11-gaozi-shang__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-11-gaozi-shang__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-11-gaozi-shang__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-11-gaozi-shang",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Gao Zi I, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter11",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-11-gaozi-shang__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-11-gaozi-shang__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-12-gaozi-xia__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-12-gaozi-xia",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/告子下, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/告子下",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-12-gaozi-xia__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-12-gaozi-xia__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-12-gaozi-xia__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-12-gaozi-xia",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Gao Zi II, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter12",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-12-gaozi-xia__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-12-gaozi-xia__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-13-jinxin-shang__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-13-jinxin-shang",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/盡心上, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/盡心上",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-13-jinxin-shang__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-13-jinxin-shang__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-13-jinxin-shang__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-13-jinxin-shang",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Jin Xin I, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter13",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-13-jinxin-shang__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-13-jinxin-shang__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
+  },
+  {
+    "source_id": "book-14-jinxin-xia__zhwikisource-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-14-jinxin-xia",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "孟子/盡心下, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/孟子/盡心下",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-14-jinxin-xia__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/mengzi__book-14-jinxin-xia__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "mengzi-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation follows Chinese Wikisource top-level numbered passages."
+  },
+  {
+    "source_id": "book-14-jinxin-xia__legge-cc-v2-1895",
+    "work_id": "mengzi",
+    "section_id": "book-14-jinxin-xia",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 2: The Works of Mencius, Jin Xin II, English Wikisource, accessed 2026-05-30.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_2/The_Works_of_Mencius/chapter14",
+    "raw_path": "corpus/raw/wikisource/mengzi__book-14-jinxin-xia__legge-cc-v2-1895__raw.wikitext",
+    "processed_path": "corpus/processed/translations/mengzi__book-14-jinxin-xia__legge-cc-v2-1895__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Passage grouping follows Legge's embedded Chinese quotation blocks and retains witness wording in the exported English segments."
   }
 ]

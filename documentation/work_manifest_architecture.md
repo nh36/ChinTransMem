@@ -12,7 +12,7 @@ The repository now treats **Lunyu as the default work** inside a broader multi-w
 ## Bootstrap model
 
 - `scripts/bootstrap_lunyu_corpus.py` still owns the implemented Lunyu parsing and alignment logic.
-- `scripts/bootstrap_work_corpus.py` is the manifest-aware coordinator. It loads all work manifests, runs the concrete Lunyu bootstrap, preserves metadata-only manifests such as Mengzi, and rewrites the aggregate metadata files.
+- `scripts/bootstrap_work_corpus.py` is the manifest-aware coordinator. It loads all work manifests, runs concrete work bootstraps such as Lunyu and Mengzi, preserves any metadata-only manifests that may be added later, and rewrites the aggregate metadata files.
 - `make bootstrap-corpus` now runs the manifest-aware bootstrap while preserving the existing Lunyu output paths.
 
 ## Shared workflow expectations

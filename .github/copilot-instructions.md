@@ -3,7 +3,7 @@
 ## Current repository state
 
 - The source of truth is `chinese_classics_translation_memory_readme.md`.
-- The repository now includes a working **whole-Lunyu** public-domain corpus bootstrapped against James Legge's translation, plus a metadata-first multi-work structure for future pilots such as *Mengzi*. Use the spec document for broader roadmap context, but prefer the implemented files under `corpus/`, `metadata/`, `db/`, `scripts/`, `web/api/`, and `tests/` when changing the current system.
+- The repository now includes working public-domain **Lunyu** and **Mengzi** corpora bootstrapped against James Legge's translations, within a multi-work manifest structure. Use the spec document for broader roadmap context, but prefer the implemented files under `corpus/`, `metadata/`, `db/`, `scripts/`, `web/api/`, and `tests/` when changing the current system.
 
 ## Build, test, and lint commands
 
@@ -36,7 +36,7 @@
 - `metadata/manifests/{work_id}.yml` is the per-work source of truth for status, URLs, expected alignment counts, and source IDs; `metadata/corpus_manifest.yml` remains the Lunyu compatibility mirror.
 - The implemented processing pipeline is **capture raw Wikisource text -> create cleaned segment files and alignments per section -> import into SQLite -> export per-section and per-work aligned passages/TMX -> validate TMX -> generate corpus QC**.
 - The core schema is `works`, `sections`, `persons`, `sources`, `segments`, `alignments`, and `agent_runs`.
-- The current corpus imports all 20 Lunyu books and now carries 501 exact saying-level or short-paragraph-level alignments/TMX units across the full work.
+- The current corpus imports all 20 Lunyu books plus all 14 traditional Mengzi sections, with 501 Lunyu exact alignments and 260 Mengzi exact passage alignments.
 
 ## Key conventions
 
@@ -49,10 +49,10 @@
 - **Use JSON-compatible YAML metadata.** `metadata/*.yml` is currently written as JSON-compatible YAML so the bootstrap scripts can load it with the Python standard library instead of adding a YAML dependency.
 - **Per-work manifests drive scale-up.** Add or change work sections in `metadata/manifests/{work_id}.yml`, then regenerate derived metadata and processed files with `make bootstrap-corpus`.
 - **Exact alignment is the current Lunyu baseline.** `alignment_status` and `tmx_status` in `metadata/manifests/lunyu.yml` should stay `complete` for committed Lunyu sections; any future mismatch should fail review or be handled with an explicit parser/alignment fix rather than leaving long-term heterogeneous grouped-only coverage.
-- **Source IDs are section-scoped.** `sources.source_id` must be unique across the whole database, so each Lunyu book prefixes the shared source witness (`book-XX-...__zhwikisource-20260529`, `book-XX-...__legge-cc-v1-1893`).
+- **Source IDs are section-scoped.** `sources.source_id` must be unique across the whole database, so each section prefixes the shared source witness (`book-XX-...__zhwikisource-20260529`, `book-XX-...__legge-cc-v1-1893`, `book-XX-...__zhwikisource-20260530`, `book-XX-...__legge-cc-v2-1895`).
 - **Segment files are the import boundary.** The importer reads curated `segments.jsonl` and `alignments.jsonl` files, not the raw Wikisource captures directly.
 - **Normalized text is explicit.** Keep source-faithful wording in `text_original`; put cleanup such as spacing or restored punctuation in `text_normalized`, and use notes when a normalization repairs a source formatting issue.
-- **Every committed Lunyu book exports independently.** `scripts/export_corpus.py` writes JSONL, CSV, and TMX for each section as well as combined per-work exports.
+- **Every committed work exports independently.** `scripts/export_corpus.py` writes JSONL, CSV, and TMX for each section as well as combined per-work exports.
 - **TMX exports are first-class outputs.** `scripts/validate_tmx.py` must stay green against both per-section and combined SQLite-backed exports.
 - **Regression runs must exercise the full corpus.** Local pre-commit checks and CI should run `make regression`, not just `make test`, so import, export, TMX validation, and QC all run on every change.
 - **Treat rights status as a first-class field.** Keep public-domain, open, licensed-private, permission-pending, and metadata-only materials clearly separated from the start.

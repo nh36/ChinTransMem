@@ -1,8 +1,12 @@
 from __future__ import annotations
 
+import html
 import hashlib
 import json
+import re
 import sqlite3
+import urllib.parse
+import urllib.request
 from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
@@ -44,6 +48,169 @@ def connect_db(db_path: Path | str) -> Iterator[sqlite3.Connection]:
 
 def load_json_compatible_yaml(path: Path | str) -> Any:
     return json.loads(Path(path).read_text(encoding="utf-8"))
+
+
+def page_to_raw_url(page_url: str) -> str:
+    parsed = urllib.parse.urlparse(page_url)
+    title = urllib.parse.unquote(parsed.path.removeprefix("/wiki/"))
+    return urllib.parse.urlunparse(
+        (
+            parsed.scheme,
+            parsed.netloc,
+            "/w/index.php",
+            "",
+            urllib.parse.urlencode({"title": title, "action": "raw"}),
+            "",
+        )
+    )
+
+
+def fetch_text(url: str) -> str:
+    request = urllib.request.Request(url, headers={"User-Agent": "ChinTransMem bootstrap"})
+    with urllib.request.urlopen(request) as response:
+        return response.read().decode("utf-8")
+
+
+def split_template_args(body: str) -> list[str]:
+    args: list[str] = []
+    current: list[str] = []
+    braces = 0
+    brackets = 0
+    index = 0
+    while index < len(body):
+        if body[index : index + 2] == "{{":
+            braces += 1
+            current.append("{{")
+            index += 2
+            continue
+        if body[index : index + 2] == "}}" and braces > 0:
+            braces -= 1
+            current.append("}}")
+            index += 2
+            continue
+        if body[index : index + 2] == "[[":
+            brackets += 1
+            current.append("[[")
+            index += 2
+            continue
+        if body[index : index + 2] == "]]" and brackets > 0:
+            brackets -= 1
+            current.append("]]")
+            index += 2
+            continue
+        if body[index] == "|" and braces == 0 and brackets == 0:
+            args.append("".join(current))
+            current = []
+            index += 1
+            continue
+        current.append(body[index])
+        index += 1
+    args.append("".join(current))
+    return args
+
+
+def replace_template(body: str) -> str:
+    parts = split_template_args(body)
+    name = parts[0].strip().lower()
+    args = [part.strip() for part in parts[1:]]
+    if name.startswith("另") or name in {"補字", "僞字", "僞字？"}:
+        return args[0] if args else ""
+    if name in {"small", "smaller", "sc", "lang", "nowrap", "center", "right", "left"}:
+        return args[-1] if args else ""
+    if name == "ruby":
+        return args[0] if args else ""
+    if name.startswith("*") or name in {"·", "-"}:
+        return "".join(args)
+    if name in {"efn", "note", "refn", "sfn"}:
+        return ""
+    return args[-1] if args else ""
+
+
+def expand_templates(text: str) -> str:
+    pattern = re.compile(r"\{\{([^{}]*)\}\}")
+    while True:
+        updated = pattern.sub(lambda match: replace_template(match.group(1)), text)
+        if updated == text:
+            return text
+        text = updated
+
+
+def normalize_variant_markup(text: str) -> str:
+    def variant_choice(match: re.Match[str]) -> str:
+        body = match.group(1)
+        if ";" in body:
+            options = [item.strip() for item in body.split(";") if item.strip()]
+            for option in options:
+                if ":" in option and "hant" in option.lower():
+                    return option.split(":", 1)[1].strip()
+            first = options[0]
+            return first.split(":", 1)[1].strip() if ":" in first else first
+        return body
+
+    return re.sub(r"-\{([^{}]+)\}-", variant_choice, text)
+
+
+def clean_wikitext(text: str) -> str:
+    text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
+    text = normalize_variant_markup(text)
+    text = expand_templates(text)
+    text = re.sub(r"\[\[(?:[^|\]]+\|)?([^\]]+)\]\]", r"\1", text)
+    text = re.sub(r"\[https?://[^\s\]]+\s+([^\]]+)\]", r"\1", text)
+    text = re.sub(r"<ref[^>]*>.*?</ref>", "", text, flags=re.S)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = text.replace("'''", "").replace("''", "")
+    text = html.unescape(text)
+    text = text.replace("\u3000", " ").replace("&nbsp;", " ")
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{2,}", "\n", text)
+    return text.strip()
+
+
+def clean_chinese_text(text: str) -> str:
+    cleaned = clean_wikitext(text)
+    cleaned = cleaned.replace("\n", "")
+    cleaned = re.sub(r"\s+", "", cleaned)
+    return cleaned.strip(" ")
+
+
+def clean_english_text(text: str) -> str:
+    cleaned = clean_wikitext(text)
+    paragraphs = [paragraph.strip() for paragraph in cleaned.split("\n") if paragraph.strip()]
+    normalized_paragraphs = [re.sub(r"^\d+\.\s*", "", paragraph) for paragraph in paragraphs]
+    return re.sub(r"\s+", " ", " ".join(normalized_paragraphs)).strip()
+
+
+def title_from_url(page_url: str) -> str:
+    return urllib.parse.unquote(urllib.parse.urlparse(page_url).path.removeprefix("/wiki/"))
+
+
+def page_url_from_title(example_page_url: str, title: str) -> str:
+    parsed = urllib.parse.urlparse(example_page_url)
+    return urllib.parse.urlunparse(
+        (
+            parsed.scheme,
+            parsed.netloc,
+            f"/wiki/{urllib.parse.quote(title, safe='/')}",
+            "",
+            "",
+            "",
+        )
+    )
+
+
+def redirect_target_title(raw_text: str) -> str | None:
+    match = re.match(r"#(?:重定向|redirect)\s*\[\[([^|\]#]+)", raw_text.strip(), flags=re.I)
+    if not match:
+        return None
+    return match.group(1).strip()
+
+
+def resolve_redirect_raw(page_url: str, raw_text: str) -> tuple[str, str]:
+    redirect_title = redirect_target_title(raw_text)
+    if redirect_title is None:
+        return page_url, raw_text
+    resolved_page_url = page_url_from_title(page_url, redirect_title)
+    return resolved_page_url, fetch_text(page_to_raw_url(resolved_page_url))
 
 
 def _normalize_manifest(manifest: dict[str, Any]) -> dict[str, Any]:

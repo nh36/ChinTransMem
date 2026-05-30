@@ -2,7 +2,7 @@ PYTHON ?= python3
 TEST ?= tests.test_corpus_workflow.CorpusWorkflowTest.test_lunyu_workflow_counts_and_qc
 WORK ?= lunyu
 
-.PHONY: bootstrap-corpus bootstrap-work bootstrap-lunyu corpus corpus-work pilot init-db import-corpus import-pilot export-corpus export-pilot validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
+.PHONY: bootstrap-corpus bootstrap-work bootstrap-lunyu bootstrap-mengzi corpus corpus-work pilot init-db import-corpus import-pilot export-corpus export-pilot validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
 
 bootstrap-corpus:
 	$(PYTHON) scripts/bootstrap_work_corpus.py --skip-fetch
@@ -12,6 +12,9 @@ bootstrap-work:
 
 bootstrap-lunyu:
 	$(PYTHON) scripts/bootstrap_lunyu_corpus.py --skip-fetch
+
+bootstrap-mengzi:
+	$(PYTHON) scripts/bootstrap_mengzi_corpus.py --skip-fetch
 
 corpus:
 	$(PYTHON) scripts/corpus_workflow.py --work-id lunyu

@@ -1,0 +1,142 @@
+{
+  "status": "pass",
+  "work_id": "mengzi",
+  "section_count": 14,
+  "sections": [
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-01-lianghuiwang-shang__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-01-lianghuiwang-shang",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-02-lianghuiwang-xia__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-02-lianghuiwang-xia",
+      "tu_count": 16,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-03-gongsunchou-shang__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-03-gongsunchou-shang",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-04-gongsunchou-xia__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-04-gongsunchou-xia",
+      "tu_count": 14,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-05-tengwengong-shang__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-05-tengwengong-shang",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-06-tengwengong-xia__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-06-tengwengong-xia",
+      "tu_count": 10,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-07-lilou-shang__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-07-lilou-shang",
+      "tu_count": 28,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-08-lilou-xia__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-08-lilou-xia",
+      "tu_count": 33,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-09-wanzhang-shang__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-09-wanzhang-shang",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-10-wanzhang-xia__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-10-wanzhang-xia",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-11-gaozi-shang__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-11-gaozi-shang",
+      "tu_count": 20,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-12-gaozi-xia__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-12-gaozi-xia",
+      "tu_count": 16,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-13-jinxin-shang__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-13-jinxin-shang",
+      "tu_count": 46,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__book-14-jinxin-xia__aligned_passages.tmx",
+      "work_id": "mengzi",
+      "section_id": "book-14-jinxin-xia",
+      "tu_count": 38,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    }
+  ],
+  "corpus": {
+    "status": "pass",
+    "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mengzi__all__aligned_passages.tmx",
+    "work_id": "mengzi",
+    "section_id": null,
+    "tu_count": 260,
+    "source_language": "zh-Hant",
+    "target_language": "en"
+  }
+}

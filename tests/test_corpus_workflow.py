@@ -23,47 +23,86 @@ from validate_tmx import validate_tmx_file
 
 class CorpusWorkflowTest(unittest.TestCase):
     def test_lunyu_workflow_counts_and_qc(self) -> None:
-        manifest = load_work_manifest(DEFAULT_WORK_ID)
+        manifests = {
+            DEFAULT_WORK_ID: load_work_manifest(DEFAULT_WORK_ID),
+            "mengzi": load_work_manifest("mengzi"),
+        }
         works = load_json_compatible_yaml(METADATA_DIR / "works.yml")
         sections = load_json_compatible_yaml(METADATA_DIR / "sections.yml")
         sources = load_json_compatible_yaml(METADATA_DIR / "sources.yml")
-        expected_lunyu_segment_count = sum(
-            len(read_jsonl(REPO_ROOT / source["processed_path"]))
-            for source in sources
-            if source["work_id"] == DEFAULT_WORK_ID and str(source["processed_path"]).endswith(".jsonl")
+        expected_segment_counts = {
+            work_id: sum(
+                len(read_jsonl(REPO_ROOT / source["processed_path"]))
+                for source in sources
+                if source["work_id"] == work_id and str(source["processed_path"]).endswith(".jsonl")
+            )
+            for work_id in manifests
+        }
+        expected_section_counts = {
+            work_id: manifests[work_id]["summary"]["section_count"] for work_id in manifests
+        }
+        expected_exact_alignment_counts = {
+            work_id: manifests[work_id]["summary"]["exact_alignment_count"] for work_id in manifests
+        }
+        expected_total_segments = sum(expected_segment_counts.values())
+        expected_total_alignments = sum(
+            expected_exact_alignment_counts[work_id] + expected_section_counts[work_id]
+            for work_id in manifests
         )
-        expected_lunyu_section_count = manifest["summary"]["section_count"]
-        expected_exact_alignment_count = manifest["summary"]["exact_alignment_count"]
 
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_path = Path(temp_dir)
             db_path = temp_path / "corpus.sqlite3"
-            qc_output = temp_path / "qc.json"
             corpus_tmx = temp_path / "lunyu__all__aligned_passages.tmx"
+            mengzi_tmx = temp_path / "mengzi__all__aligned_passages.tmx"
             tmx_validation_output = temp_path / "lunyu__corpus_tmx_validation.json"
+            mengzi_tmx_validation_output = temp_path / "mengzi__corpus_tmx_validation.json"
+            qc_output = temp_path / "lunyu__qc.json"
+            mengzi_qc_output = temp_path / "mengzi__qc.json"
 
             initialize_database(db_path)
             import_summary = import_corpus(db_path)
             corpus_rows = load_exact_alignment_rows(db_path, DEFAULT_WORK_ID)
+            mengzi_rows = load_exact_alignment_rows(db_path, "mengzi")
             write_tmx(corpus_rows, corpus_tmx, work_id=DEFAULT_WORK_ID)
+            write_tmx(mengzi_rows, mengzi_tmx, work_id="mengzi")
             tmx_validation_summary = validate_tmx_file(
                 db_path,
                 corpus_tmx,
                 tmx_validation_output,
                 work_id=DEFAULT_WORK_ID,
             )
+            mengzi_tmx_validation_summary = validate_tmx_file(
+                db_path,
+                mengzi_tmx,
+                mengzi_tmx_validation_output,
+                work_id="mengzi",
+            )
             qc_summary = run_qc(db_path, qc_output, work_id=DEFAULT_WORK_ID)
+            mengzi_qc_summary = run_qc(db_path, mengzi_qc_output, work_id="mengzi")
 
             self.assertEqual(import_summary["work_count"], len(works))
             self.assertEqual(import_summary["section_count"], len(sections))
-            self.assertEqual(import_summary["segments"], expected_lunyu_segment_count)
-            self.assertEqual(import_summary["alignments"], expected_exact_alignment_count + expected_lunyu_section_count)
-            self.assertEqual(import_summary["work_summaries"][DEFAULT_WORK_ID]["section_count"], expected_lunyu_section_count)
-            self.assertEqual(len(corpus_rows), expected_exact_alignment_count)
+            self.assertEqual(import_summary["segments"], expected_total_segments)
+            self.assertEqual(import_summary["alignments"], expected_total_alignments)
+            self.assertEqual(
+                import_summary["work_summaries"][DEFAULT_WORK_ID]["section_count"],
+                expected_section_counts[DEFAULT_WORK_ID],
+            )
+            self.assertEqual(
+                import_summary["work_summaries"]["mengzi"]["section_count"],
+                expected_section_counts["mengzi"],
+            )
+            self.assertEqual(len(corpus_rows), expected_exact_alignment_counts[DEFAULT_WORK_ID])
+            self.assertEqual(len(mengzi_rows), expected_exact_alignment_counts["mengzi"])
             self.assertEqual(tmx_validation_summary["status"], "pass")
+            self.assertEqual(mengzi_tmx_validation_summary["status"], "pass")
             self.assertEqual(qc_summary["status"], "pass")
-            self.assertEqual(len(qc_summary["sections"]), expected_lunyu_section_count)
-            self.assertEqual(qc_summary["manifest_summary"]["complete_sections"], expected_lunyu_section_count)
+            self.assertEqual(mengzi_qc_summary["status"], "pass")
+            self.assertEqual(len(qc_summary["sections"]), expected_section_counts[DEFAULT_WORK_ID])
+            self.assertEqual(len(mengzi_qc_summary["sections"]), expected_section_counts["mengzi"])
+            self.assertEqual(qc_summary["manifest_summary"]["complete_sections"], expected_section_counts[DEFAULT_WORK_ID])
+            self.assertEqual(mengzi_qc_summary["manifest_summary"]["complete_sections"], expected_section_counts["mengzi"])
 
             with closing(sqlite3.connect(db_path)) as connection:
                 total_work_count = connection.execute("SELECT COUNT(*) FROM works").fetchone()[0]
@@ -72,9 +111,17 @@ class CorpusWorkflowTest(unittest.TestCase):
                     "SELECT COUNT(*) FROM sections WHERE work_id = ?",
                     (DEFAULT_WORK_ID,),
                 ).fetchone()[0]
+                mengzi_section_count = connection.execute(
+                    "SELECT COUNT(*) FROM sections WHERE work_id = ?",
+                    ("mengzi",),
+                ).fetchone()[0]
                 lunyu_segment_count = connection.execute(
                     "SELECT COUNT(*) FROM segments WHERE work_id = ?",
                     (DEFAULT_WORK_ID,),
+                ).fetchone()[0]
+                mengzi_segment_count = connection.execute(
+                    "SELECT COUNT(*) FROM segments WHERE work_id = ?",
+                    ("mengzi",),
                 ).fetchone()[0]
                 exact_alignment_count = connection.execute(
                     """
@@ -92,20 +139,60 @@ class CorpusWorkflowTest(unittest.TestCase):
                     """,
                     (DEFAULT_WORK_ID,),
                 ).fetchone()[0]
+                mengzi_exact_alignment_count = connection.execute(
+                    """
+                    SELECT COUNT(*)
+                    FROM alignments
+                    WHERE work_id = ? AND alignment_type = 'exact_or_near_exact'
+                    """,
+                    ("mengzi",),
+                ).fetchone()[0]
+                mengzi_grouped_alignment_count = connection.execute(
+                    """
+                    SELECT COUNT(*)
+                    FROM alignments
+                    WHERE work_id = ? AND alignment_type = 'section_group'
+                    """,
+                    ("mengzi",),
+                ).fetchone()[0]
+                book_01_work_count = connection.execute(
+                    "SELECT COUNT(DISTINCT work_id) FROM sections WHERE section_id LIKE 'book-01-%'"
+                ).fetchone()[0]
 
             self.assertEqual(total_work_count, len(works))
             self.assertEqual(total_section_count, len(sections))
-            self.assertEqual(lunyu_section_count, expected_lunyu_section_count)
-            self.assertEqual(lunyu_segment_count, expected_lunyu_segment_count)
-            self.assertEqual(exact_alignment_count, expected_exact_alignment_count)
-            self.assertEqual(grouped_alignment_count, expected_lunyu_section_count)
-            self.assertTrue(all(section["alignment_status"] == "complete" for section in manifest["sections"]))
+            self.assertEqual(lunyu_section_count, expected_section_counts[DEFAULT_WORK_ID])
+            self.assertEqual(mengzi_section_count, expected_section_counts["mengzi"])
+            self.assertEqual(lunyu_segment_count, expected_segment_counts[DEFAULT_WORK_ID])
+            self.assertEqual(mengzi_segment_count, expected_segment_counts["mengzi"])
+            self.assertEqual(exact_alignment_count, expected_exact_alignment_counts[DEFAULT_WORK_ID])
+            self.assertEqual(grouped_alignment_count, expected_section_counts[DEFAULT_WORK_ID])
+            self.assertEqual(mengzi_exact_alignment_count, expected_exact_alignment_counts["mengzi"])
+            self.assertEqual(mengzi_grouped_alignment_count, expected_section_counts["mengzi"])
+            self.assertEqual(book_01_work_count, 2)
+            self.assertTrue(
+                all(section["alignment_status"] == "complete" for section in manifests[DEFAULT_WORK_ID]["sections"])
+            )
+            self.assertTrue(all(section["alignment_status"] == "complete" for section in manifests["mengzi"]["sections"]))
+            self.assertEqual(expected_exact_alignment_counts[DEFAULT_WORK_ID], 501)
+            self.assertEqual(expected_exact_alignment_counts["mengzi"], 260)
 
-            last_section_id = manifest["sections"][-1]["section_id"]
+            last_section_id = manifests[DEFAULT_WORK_ID]["sections"][-1]["section_id"]
             last_rows = load_exact_alignment_rows(db_path, DEFAULT_WORK_ID, last_section_id)
-            self.assertEqual(len(last_rows), manifest["sections"][-1]["expected_exact_alignment_count"])
+            self.assertEqual(
+                len(last_rows),
+                manifests[DEFAULT_WORK_ID]["sections"][-1]["expected_exact_alignment_count"],
+            )
+            first_mengzi_section_id = manifests["mengzi"]["sections"][0]["section_id"]
+            first_mengzi_rows = load_exact_alignment_rows(db_path, "mengzi", first_mengzi_section_id)
+            self.assertEqual(
+                len(first_mengzi_rows),
+                manifests["mengzi"]["sections"][0]["expected_exact_alignment_count"],
+            )
             body = ET.parse(corpus_tmx).getroot().find("./body")
+            mengzi_body = ET.parse(mengzi_tmx).getroot().find("./body")
             self.assertIsNotNone(body)
+            self.assertIsNotNone(mengzi_body)
 
     def test_source_ids_are_globally_unique(self) -> None:
         sources = load_json_compatible_yaml(METADATA_DIR / "sources.yml")
