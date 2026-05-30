@@ -1,0 +1,46 @@
+{
+  "work_id": "{work_id}",
+  "work_status": "proposal",
+  "source_pair_defaults": {
+    "source_id": "",
+    "target_source_id": "",
+    "source_language": "zh-Hant",
+    "target_language": "en"
+  },
+  "summary": {
+    "section_count": 0,
+    "complete_sections": 0,
+    "metadata_only_sections": 0,
+    "sections_needing_alignment": 0,
+    "sections_needing_qc": 0,
+    "exact_alignment_count": 0
+  },
+  "ingestion_policy": {
+    "inventory_required": true,
+    "inventory_path": "metadata/{work_id}_inventory.yml",
+    "inventory_unit_key": "units",
+    "ingestion_plan_required": true,
+    "ingestion_plan_path": "documentation/{work_id}_ingestion_plan.md",
+    "source_audit_required": true,
+    "source_audit_path": "documentation/{work_id}_ingestion_plan.md",
+    "granularity_policy_required": true,
+    "granularity_policy_path": "documentation/alignment_granularity_policy.md",
+    "section_unit": "",
+    "preferred_segment_unit": "",
+    "minimum_required_alignment_scope": "",
+    "maximum_exact_alignment_scope": "",
+    "allowed_segment_units": [],
+    "coarse_alignment_units": [],
+    "granularity_order": [],
+    "metadata_only_allowed": true,
+    "missing_text_policy": "retain_metadata_only_sections_until_clean_public_domain_witnesses_exist",
+    "commentary_policy": "exclude_commentary_and_notes_from_exact_alignments_and_tmx",
+    "rights_policy": "public_domain_only_for_export",
+    "allowed_export_rights_statuses": [
+      "public_domain"
+    ],
+    "section_group_export_policy": "forbidden",
+    "completion_definition": ""
+  },
+  "sections": []
+}

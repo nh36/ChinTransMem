@@ -22,6 +22,7 @@ from common import (
 
 WORK_ID = "mengzi"
 MANIFEST_PATH = MANIFESTS_DIR / f"{WORK_ID}.yml"
+INVENTORY_PATH = MANIFESTS_DIR.parent / f"{WORK_ID}_inventory.yml"
 RAW_DIR = REPO_ROOT / "corpus" / "raw" / "wikisource"
 CHINESE_DIR = REPO_ROOT / "corpus" / "processed" / "chinese_base_texts"
 TRANSLATION_DIR = REPO_ROOT / "corpus" / "processed" / "translations"
@@ -30,6 +31,57 @@ ACCESS_DATE = "2026-05-30"
 SOURCE_SUFFIX = "zhwikisource-20260530"
 TARGET_SOURCE_SUFFIX = "legge-cc-v2-1895"
 MIN_ALIGNMENT_SIMILARITY = 0.9
+
+
+def build_ingestion_policy() -> dict[str, Any]:
+    return {
+        "inventory_required": True,
+        "inventory_path": "metadata/mengzi_inventory.yml",
+        "inventory_unit_key": "units",
+        "inventory_derivation": "derived_from_manifest_sections",
+        "ingestion_plan_required": True,
+        "ingestion_plan_path": "documentation/mengzi_ingestion_plan.md",
+        "source_audit_required": True,
+        "source_audit_path": "documentation/mengzi_ingestion_plan.md",
+        "granularity_policy_required": True,
+        "granularity_policy_path": "documentation/alignment_granularity_policy.md",
+        "section_unit": "section",
+        "preferred_segment_unit": "passage",
+        "minimum_required_alignment_scope": "passage",
+        "maximum_exact_alignment_scope": "passage",
+        "allowed_segment_units": ["passage"],
+        "coarse_alignment_units": [],
+        "granularity_order": ["passage", "section"],
+        "metadata_only_allowed": True,
+        "missing_text_policy": "retain_metadata_only_sections_until_clean_public_domain_witnesses_exist",
+        "commentary_policy": "exclude_commentary_and_notes_from_exact_alignments_and_tmx",
+        "rights_policy": "public_domain_only_for_export",
+        "allowed_export_rights_statuses": ["public_domain"],
+        "section_group_export_policy": "forbidden",
+        "completion_definition": (
+            "A Mengzi section is complete only when both the Chinese Wikisource witness and the Legge public-domain "
+            "translation are captured, segmented into passage-level units, and exported as exact TMX alignments."
+        ),
+    }
+
+
+def build_inventory_units(processed_sections: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [
+        {
+            "global_sort_key": section["sort_key"],
+            "canonical_unit_type": "section",
+            "text_status": "extant",
+            "title": section["label"],
+            "canonical_ref": section["canonical_ref"],
+            "section_id": section["section_id"],
+            "zh_page_url": section["zh_page_url"],
+            "en_page_url": section["en_page_url"],
+            "status": section.get("status", "complete"),
+            "coverage_status": section.get("coverage_status", "complete"),
+            "english_witness_status": "verified_transcribed_text_available",
+        }
+        for section in processed_sections
+    ]
 
 SECTION_CATALOG: list[dict[str, Any]] = [
     {
@@ -620,11 +672,22 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
             "sections_needing_qc": sections_needing_qc,
             "exact_alignment_count": total_exact_alignments,
         },
+        "ingestion_policy": build_ingestion_policy(),
         "romanization_aliases": romanization_aliases,
         "ingestion_log": ingestion_log,
         "sources": all_sources,
         "sections": processed_sections,
     }
+    inventory_payload = {
+        "work_id": WORK_ID,
+        "title": "Canonical Mengzi section inventory",
+        "count_basis": {
+            "canonical_unit_count": len(processed_sections),
+            "basis_note": "Derived from the manifest-backed 14-section Mengzi structure already used by the corpus bootstrap.",
+        },
+        "units": build_inventory_units(processed_sections),
+    }
+    write_json(INVENTORY_PATH, inventory_payload)
     write_json(MANIFEST_PATH, manifest)
     return manifest["summary"]
 

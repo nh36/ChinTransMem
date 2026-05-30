@@ -13,13 +13,21 @@ SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
-from common import DEFAULT_WORK_ID, METADATA_DIR, load_work_manifest, load_json_compatible_yaml, read_jsonl
-from audit_shijing_coverage import audit_shijing_coverage
+from common import (
+    DEFAULT_WORK_ID,
+    METADATA_DIR,
+    corpus_export_paths,
+    load_work_manifest,
+    load_json_compatible_yaml,
+    read_jsonl,
+)
+from audit_work_coverage import audit_work_coverage
 from export_corpus import load_exact_alignment_rows, write_tmx
 from import_corpus import import_corpus
 from init_db import initialize_database
 from qc_corpus import run_qc
-from validate_alignment_granularity import validate_alignment_granularity
+from validate_alignment_granularity import validate_work_alignment_granularity
+from validate_ingestion_policy import validate_ingestion_policy
 from validate_tmx import validate_tmx_file
 
 
@@ -100,11 +108,15 @@ class CorpusWorkflowTest(unittest.TestCase):
             qc_summary = run_qc(db_path, qc_output, work_id=DEFAULT_WORK_ID)
             mengzi_qc_summary = run_qc(db_path, mengzi_qc_output, work_id="mengzi")
             shijing_qc_summary = run_qc(db_path, shijing_qc_output, work_id="shijing")
-            shijing_coverage_summary = audit_shijing_coverage(shijing_coverage_output, shijing_coverage_markdown)
-            shijing_granularity_summary = validate_alignment_granularity(
-                db_path,
-                shijing_granularity_output,
-                work_id="shijing",
+            policy_reports = {work_id: validate_ingestion_policy(work_id) for work_id in work_ids}
+            shijing_coverage_summary = audit_work_coverage(
+                "shijing",
+                json_output_path=shijing_coverage_output,
+                markdown_output_path=shijing_coverage_markdown,
+            )
+            shijing_granularity_summary = validate_work_alignment_granularity(
+                "shijing",
+                output_path=shijing_granularity_output,
             )
 
             self.assertEqual(import_summary["work_count"], len(works))
@@ -125,8 +137,8 @@ class CorpusWorkflowTest(unittest.TestCase):
             self.assertEqual(qc_summary["status"], "pass")
             self.assertEqual(mengzi_qc_summary["status"], "pass")
             self.assertEqual(shijing_qc_summary["status"], "pass")
-            self.assertEqual(shijing_coverage_summary["status"], "pass")
-            self.assertEqual(shijing_granularity_summary["status"], "pass")
+            self.assertTrue(all(report["error_count"] == 0 for report in policy_reports.values()))
+            self.assertEqual(shijing_granularity_summary["error_count"], 0)
             self.assertEqual(len(qc_summary["sections"]), expected_section_counts[DEFAULT_WORK_ID])
             self.assertEqual(len(mengzi_qc_summary["sections"]), expected_section_counts["mengzi"])
             self.assertEqual(len(shijing_qc_summary["sections"]), expected_section_counts["shijing"])
@@ -254,12 +266,15 @@ class CorpusWorkflowTest(unittest.TestCase):
             )
             self.assertEqual(len(shijing_inventory["poems"]), expected_section_counts["shijing"])
             self.assertEqual({section["section_id"] for section in manifests["shijing"]["sections"]}, shijing_inventory_sections)
-            self.assertEqual(shijing_coverage_summary["poems_represented_as_sections"], expected_section_counts["shijing"])
+            self.assertEqual(shijing_coverage_summary["manifest_section_count"], expected_section_counts["shijing"])
             self.assertEqual(
-                shijing_coverage_summary["poems_with_at_least_one_exact_alignment"],
+                shijing_coverage_summary["units_with_at_least_one_exact_alignment"],
                 expected_complete_section_counts["shijing"],
             )
-            self.assertGreaterEqual(shijing_granularity_summary["coarse_alignment_count"], 1)
+            self.assertGreaterEqual(
+                sum(1 for row in shijing_rows if row["is_coarse_alignment"]),
+                1,
+            )
 
             last_section_id = manifests[DEFAULT_WORK_ID]["sections"][-1]["section_id"]
             last_rows = load_exact_alignment_rows(db_path, DEFAULT_WORK_ID, last_section_id)
@@ -293,3 +308,23 @@ class CorpusWorkflowTest(unittest.TestCase):
         sources = load_json_compatible_yaml(METADATA_DIR / "sources.yml")
         source_ids = [source["source_id"] for source in sources]
         self.assertEqual(len(source_ids), len(set(source_ids)))
+
+    def test_manifest_policy_and_exports_are_consistent(self) -> None:
+        works = load_json_compatible_yaml(METADATA_DIR / "works.yml")
+        for work in works:
+            work_id = work["work_id"]
+            manifest = load_work_manifest(work_id)
+            policy = manifest["ingestion_policy"]
+            self.assertTrue(policy["inventory_required"])
+            self.assertTrue((REPO_ROOT / policy["inventory_path"]).exists())
+            self.assertTrue((REPO_ROOT / policy["ingestion_plan_path"]).exists())
+            self.assertTrue((REPO_ROOT / policy["granularity_policy_path"]).exists())
+            self.assertEqual(validate_ingestion_policy(work_id)["error_count"], 0)
+
+            export_rows = read_jsonl(corpus_export_paths(work_id)["jsonl"])
+            exported_section_ids = {row["section_id"] for row in export_rows}
+            metadata_only_sections = {
+                section["section_id"] for section in manifest["sections"] if section["tmx_status"] != "complete"
+            }
+            self.assertFalse(exported_section_ids & metadata_only_sections)
+            self.assertTrue(all(row["alignment_granularity"] in policy["allowed_segment_units"] for row in export_rows))

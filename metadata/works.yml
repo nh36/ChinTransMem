@@ -6,7 +6,7 @@
     "work_type": "classical_text",
     "language_code": "zh-Hant",
     "default_citation": "論語",
-    "notes": "Bootstrap work for the first public-domain aligned Lunyu plus Legge pilot."
+    "notes": "Full Lunyu public-domain corpus aligned against James Legge's translation."
   },
   {
     "work_id": "mengzi",
@@ -24,6 +24,6 @@
     "work_type": "classical_text",
     "language_code": "zh-Hant",
     "default_citation": "詩經",
-    "notes": "Public-domain Shijing pilot starting with 關雎 aligned against James Legge's Guan ju page on English Wikisource."
+    "notes": "Full extant public-domain Shijing corpus aligned against James Legge's public-domain witnesses, with six title-only lost-text entries retained as metadata-only."
   }
 ]

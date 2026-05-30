@@ -19,6 +19,42 @@
     "exact_alignment_count": 452,
     "source_count": 610
   },
+  "ingestion_policy": {
+    "inventory_required": true,
+    "inventory_path": "metadata/shijing_poem_inventory.yml",
+    "inventory_unit_key": "poems",
+    "inventory_derivation": "canonical_wikisource_index_with_title_only_lost_text_entries",
+    "ingestion_plan_required": true,
+    "ingestion_plan_path": "documentation/shijing_ingestion_plan.md",
+    "source_audit_required": true,
+    "source_audit_path": "documentation/shijing_ingestion_plan.md",
+    "granularity_policy_required": true,
+    "granularity_policy_path": "documentation/alignment_granularity_policy.md",
+    "section_unit": "poem",
+    "preferred_segment_unit": "stanza",
+    "minimum_required_alignment_scope": "poem",
+    "maximum_exact_alignment_scope": "poem",
+    "allowed_segment_units": [
+      "stanza",
+      "poem"
+    ],
+    "coarse_alignment_units": [
+      "poem"
+    ],
+    "granularity_order": [
+      "stanza",
+      "poem"
+    ],
+    "metadata_only_allowed": true,
+    "missing_text_policy": "retain_title_only_or_unverified_units_as_metadata_only_and_non_exportable",
+    "commentary_policy": "exclude_commentary_and_notes_from_exact_alignments_and_tmx",
+    "rights_policy": "public_domain_only_for_export",
+    "allowed_export_rights_statuses": [
+      "public_domain"
+    ],
+    "section_group_export_policy": "forbidden",
+    "completion_definition": "An extant Shijing poem is complete only when it has a Chinese base text, a public-domain English witness, and at least one exact alignment no broader than a single poem; stanza-level alignment is preferred where safe."
+  },
   "romanization_aliases": [
     {
       "entity_type": "work",

@@ -15,6 +15,8 @@ from typing import Any, Iterable, Iterator
 REPO_ROOT = Path(__file__).resolve().parent.parent
 METADATA_DIR = REPO_ROOT / "metadata"
 MANIFESTS_DIR = METADATA_DIR / "manifests"
+DOCUMENTATION_DIR = REPO_ROOT / "documentation"
+QC_REPORTS_DIR = REPO_ROOT / "logs" / "qc_reports"
 LEGACY_DEFAULT_MANIFEST_PATH = METADATA_DIR / "corpus_manifest.yml"
 DEFAULT_DB_PATH = REPO_ROOT / "db" / "chinese_classics_tm.sqlite3"
 DEFAULT_WORK_ID = "lunyu"
@@ -257,6 +259,62 @@ def load_corpus_manifest() -> dict[str, Any]:
 
 def manifest_sections(work_id: str = DEFAULT_WORK_ID) -> list[dict[str, Any]]:
     return list(load_work_manifest(work_id)["sections"])
+
+
+def resolve_repo_path(path: Path | str) -> Path:
+    candidate = Path(path)
+    if candidate.is_absolute():
+        return candidate
+    return REPO_ROOT / candidate
+
+
+def manifest_ingestion_policy(work_id: str = DEFAULT_WORK_ID, manifest: dict[str, Any] | None = None) -> dict[str, Any]:
+    current_manifest = load_work_manifest(work_id) if manifest is None else manifest
+    policy = current_manifest.get("ingestion_policy")
+    if not isinstance(policy, dict):
+        raise KeyError(f"Manifest {current_manifest['work_id']} is missing an ingestion_policy block.")
+    return policy
+
+
+def work_inventory_path(work_id: str = DEFAULT_WORK_ID, manifest: dict[str, Any] | None = None) -> Path:
+    policy = manifest_ingestion_policy(work_id, manifest)
+    return resolve_repo_path(policy["inventory_path"])
+
+
+def load_work_inventory(work_id: str = DEFAULT_WORK_ID, manifest: dict[str, Any] | None = None) -> dict[str, Any]:
+    inventory_path = work_inventory_path(work_id, manifest)
+    return load_json_compatible_yaml(inventory_path)
+
+
+def inventory_units(
+    inventory_payload: dict[str, Any],
+    work_id: str = DEFAULT_WORK_ID,
+    manifest: dict[str, Any] | None = None,
+) -> list[dict[str, Any]]:
+    policy = manifest_ingestion_policy(work_id, manifest)
+    unit_key = str(policy.get("inventory_unit_key", "units"))
+    units = inventory_payload.get(unit_key)
+    if not isinstance(units, list):
+        raise KeyError(f"Inventory for {work_id} is missing the '{unit_key}' unit list.")
+    return list(units)
+
+
+def work_coverage_paths(work_id: str = DEFAULT_WORK_ID) -> dict[str, Path]:
+    return {
+        "json": QC_REPORTS_DIR / f"{work_id}__coverage_audit.json",
+        "markdown": DOCUMENTATION_DIR / f"{work_id}_coverage_audit.md",
+    }
+
+
+def work_granularity_report_path(work_id: str = DEFAULT_WORK_ID) -> Path:
+    return QC_REPORTS_DIR / f"{work_id}__granularity_qc.json"
+
+
+def load_sources(work_id: str | None = None) -> list[dict[str, Any]]:
+    sources = load_json_compatible_yaml(METADATA_DIR / "sources.yml")
+    if work_id is None:
+        return list(sources)
+    return [source for source in sources if source["work_id"] == work_id]
 
 
 def manifest_section(section_id: str, work_id: str = DEFAULT_WORK_ID) -> dict[str, Any]:

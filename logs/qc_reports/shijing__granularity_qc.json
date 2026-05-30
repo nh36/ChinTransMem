@@ -1,17 +1,8 @@
 {
-  "status": "pass",
   "work_id": "shijing",
-  "manifest_section_count": 311,
-  "complete_section_count": 305,
-  "metadata_only_section_count": 6,
+  "section_count": 311,
+  "complete_sections": 305,
   "exact_alignment_count": 452,
-  "stanza_exact_alignment_count": 222,
-  "poem_exact_alignment_count": 230,
-  "coarse_alignment_count": 205,
-  "failures": [],
-  "notes": [
-    "Stanza-level exact alignments present: 222.",
-    "Poem-level exact alignments present: 230.",
-    "Stanza-level alignment remains preferred where structurally safe; poem-level exact alignment is treated as the coarse fallback."
-  ]
+  "error_count": 0,
+  "errors": []
 }

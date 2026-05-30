@@ -1,0 +1,23 @@
+{
+  "work_id": "{work_id}",
+  "title": "Canonical {work_id} inventory",
+  "count_basis": {
+    "canonical_unit_count": 0,
+    "basis_note": "Explain the canonical source used to derive this inventory."
+  },
+  "units": [
+    {
+      "global_sort_key": 1,
+      "canonical_unit_type": "section",
+      "text_status": "extant",
+      "title": "",
+      "canonical_ref": "",
+      "section_id": "",
+      "zh_page_url": "",
+      "en_page_url": "",
+      "status": "metadata_only",
+      "coverage_status": "needs_sources",
+      "english_witness_status": "unverified_or_missing"
+    }
+  ]
+}

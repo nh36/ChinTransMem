@@ -1,14 +1,20 @@
-# Shijing coverage audit
+# shijing coverage audit
 
-- Canonical index entries: 311
-- Manifest sections: 311
-- Chinese extant/sourceable entries: 305
-- Public-domain English witnesses: 305 (305 verified transcribed, 0 still awaiting section-level extraction)
-- Sections with at least one exact alignment: 305
-- Metadata-only sections: 6
-- Title-only missing-text entries: 6
-- Coarse complete sections: 205
+| Metric | Count |
+| --- | ---: |
+| total_canonical_units | 311 |
+| manifest_section_count | 311 |
+| complete_sections | 305 |
+| metadata_only_sections | 6 |
+| units_with_chinese_source | 305 |
+| units_with_english_public_domain_witness | 305 |
+| units_with_verified_public_domain_english_source | 305 |
+| units_with_at_least_one_exact_alignment | 305 |
+| exact_alignment_count | 452 |
 
-## Coverage status
+## Exceptions
 
-The Shijing manifest is canonically complete at the poem level. Only sections with verified public-domain English text stay TMX-exportable; the remaining extant poems are represented as `needs_alignment` metadata-only sections with a full public-domain English witness recorded and OCR fallback preserved.
+- Missing from manifest: 0
+- Present but metadata-only: 6
+- Present without verified public-domain translation: 6
+- Present with coarse or non-preferred exact alignment: 205

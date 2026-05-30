@@ -242,8 +242,8 @@
   "checksums": {
     "metadata/sections.yml": "33cd4e63b240055b6d99013574c5e8e9a9ef117da12f8892b6c80d13b3e680f8",
     "metadata/sources.yml": "86893b95233b3933ea8291e5db78d6a9427c92c5fcf36b13692642716be9ca83",
-    "metadata/manifests/lunyu.yml": "2cd4624dc6605ae8794ec5963faf26040bd10e440dd756fb5b4df5ad63186e72",
-    "metadata/corpus_manifest.yml": "2cd4624dc6605ae8794ec5963faf26040bd10e440dd756fb5b4df5ad63186e72",
+    "metadata/manifests/lunyu.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
+    "metadata/corpus_manifest.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
     "corpus/exports/jsonl/lunyu__book-01-xueer__aligned_passages.jsonl": "dd599a60e11c5d52cf335d8f830fef872fc91f5033ff091f72ba6eff16faab64",
     "corpus/exports/csv/lunyu__book-01-xueer__aligned_passages.csv": "f418694f734f1841e34fe59dbeb7958f0053e74cb861cf5204122f343d353056",
     "corpus/exports/tmx/lunyu__book-01-xueer__aligned_passages.tmx": "680870254296fd8de707a48562361c8bb53c92edc7ae839cf45af7527e108f64",

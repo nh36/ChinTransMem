@@ -1,1102 +1,237 @@
 {
-  "status": "pass",
   "work_id": "shijing",
-  "inventory_summary": {
-    "canonical_index_entry_count": 311,
-    "extant_poem_count": 305,
-    "title_only_missing_text_count": 6,
-    "basis_note": "Derived from the ordered Chinese Wikisource 詩經 index. The index enumerates 311 canonical entries; six of them are title-only Xiaoya entries marked 有其義而亡其辭."
-  },
-  "manifest_summary": {
-    "section_count": 311,
-    "canonical_entry_count": 311,
-    "extant_poem_count": 305,
-    "missing_chinese_source_sections": 6,
-    "complete_sections": 305,
-    "metadata_only_sections": 6,
-    "sections_needing_alignment": 0,
-    "sections_needing_qc": 0,
-    "exact_alignment_count": 452,
-    "source_count": 610
-  },
-  "total_canonical_poems": 311,
-  "poems_represented_as_sections": 311,
-  "poems_with_chinese_source": 305,
-  "poems_with_english_public_domain_witness": 305,
-  "poems_with_verified_public_domain_english_source": 305,
-  "poems_with_at_least_one_exact_alignment": 305,
-  "complete_sections_with_all_repo_files": 305,
-  "missing_from_repo": [],
-  "metadata_only_sections": [
-    {
-      "section_id": "xiaoya-luming-011",
-      "label": "南陔",
-      "status": "missing_chinese_source",
-      "coverage_status": "title_only_lost_text"
-    },
-    {
-      "section_id": "xiaoya-luming-012",
-      "label": "白華",
-      "status": "missing_chinese_source",
-      "coverage_status": "title_only_lost_text"
-    },
-    {
-      "section_id": "xiaoya-luming-013",
-      "label": "華黍",
-      "status": "missing_chinese_source",
-      "coverage_status": "title_only_lost_text"
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-003",
-      "label": "由庚",
-      "status": "missing_chinese_source",
-      "coverage_status": "title_only_lost_text"
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-004",
-      "label": "崇丘",
-      "status": "missing_chinese_source",
-      "coverage_status": "title_only_lost_text"
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-005",
-      "label": "由儀",
-      "status": "missing_chinese_source",
-      "coverage_status": "title_only_lost_text"
-    }
+  "total_canonical_units": 311,
+  "manifest_section_count": 311,
+  "complete_sections": 305,
+  "metadata_only_sections": 6,
+  "units_with_chinese_source": 305,
+  "units_with_english_public_domain_witness": 305,
+  "units_with_verified_public_domain_english_source": 305,
+  "units_with_at_least_one_exact_alignment": 305,
+  "exact_alignment_count": 452,
+  "source_record_count": 610,
+  "missing_from_manifest": [],
+  "present_but_metadata_only": [
+    "xiaoya-luming-011",
+    "xiaoya-luming-012",
+    "xiaoya-luming-013",
+    "xiaoya-nanyoujiayu-003",
+    "xiaoya-nanyoujiayu-004",
+    "xiaoya-nanyoujiayu-005"
   ],
-  "missing_public_domain_translation": [],
-  "coarse_or_unusual_complete_sections": [
-    {
-      "section_id": "guofeng-zhounan-003",
-      "label": "卷耳",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhounan-005",
-      "label": "螽斯",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhounan-006",
-      "label": "桃夭",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhounan-007",
-      "label": "兔罝",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhounan-008",
-      "label": "芣苢",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhounan-009",
-      "label": "漢廣",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhounan-010",
-      "label": "汝墳",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhounan-011",
-      "label": "麟之趾",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhaonan-002",
-      "label": "采蘩",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhaonan-003",
-      "label": "草蟲",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhaonan-005",
-      "label": "甘棠",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhaonan-007",
-      "label": "羔羊",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhaonan-008",
-      "label": "殷其靁",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhaonan-009",
-      "label": "摽有梅",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhaonan-010",
-      "label": "小星",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhaonan-011",
-      "label": "江有汜",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhaonan-012",
-      "label": "野有死麕",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhaonan-013",
-      "label": "何彼穠矣",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-001",
-      "label": "柏舟",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-002",
-      "label": "綠衣",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-003",
-      "label": "燕燕",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-004",
-      "label": "日月",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-005",
-      "label": "終風",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-006",
-      "label": "擊鼓",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-007",
-      "label": "凱風",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-008",
-      "label": "雄雉",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-009",
-      "label": "匏有苦葉",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-010",
-      "label": "谷風",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-011",
-      "label": "式微",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-012",
-      "label": "旄丘",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-013",
-      "label": "簡兮",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-014",
-      "label": "泉水",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-016",
-      "label": "北風",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-beifeng-018",
-      "label": "新臺",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-yongfeng-002",
-      "label": "牆有茨",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-yongfeng-004",
-      "label": "桑中",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-yongfeng-005",
-      "label": "鶉之奔奔",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-yongfeng-006",
-      "label": "定之方中",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-yongfeng-007",
-      "label": "蝃蝀",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-yongfeng-009",
-      "label": "干旄",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-yongfeng-010",
-      "label": "載馳",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-001",
-      "label": "淇奧",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-003",
-      "label": "碩人",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-005",
-      "label": "竹竿",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-006",
-      "label": "芄蘭",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-008",
-      "label": "伯兮",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-009",
-      "label": "有狐",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-010",
-      "label": "木瓜",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-wangfeng-002",
-      "label": "君子于役",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-wangfeng-003",
-      "label": "君子陽陽",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-wangfeng-004",
-      "label": "揚之水",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-wangfeng-005",
-      "label": "中谷有蓷",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-wangfeng-006",
-      "label": "兔爰",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-wangfeng-007",
-      "label": "葛藟",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-wangfeng-008",
-      "label": "采葛",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-wangfeng-009",
-      "label": "大車",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-wangfeng-010",
-      "label": "丘中有麻",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-001",
-      "label": "緇衣",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-002",
-      "label": "將仲子",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-003",
-      "label": "叔于田",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-005",
-      "label": "清人",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-006",
-      "label": "羔裘",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-007",
-      "label": "遵大路",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-008",
-      "label": "女曰鷄鳴",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-011",
-      "label": "蘀兮",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-014",
-      "label": "丰",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-015",
-      "label": "東門之墠",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-017",
-      "label": "子衿",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-018",
-      "label": "揚之水",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-020",
-      "label": "野有蔓草",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-zhengfeng-021",
-      "label": "溱洧",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-001",
-      "label": "雞鳴",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-002",
-      "label": "還",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-003",
-      "label": "著",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-004",
-      "label": "東方之日",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-005",
-      "label": "東方未明",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-006",
-      "label": "南山",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-007",
-      "label": "甫田",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-008",
-      "label": "盧令",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-009",
-      "label": "敝笱",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-010",
-      "label": "載驅",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qifeng-011",
-      "label": "猗嗟",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-state-001",
-      "label": "葛屨",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-state-002",
-      "label": "汾沮洳",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-state-003",
-      "label": "園有桃",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-state-004",
-      "label": "陟岵",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-state-005",
-      "label": "十畝之間",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-state-006",
-      "label": "伐檀",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-weifeng-state-007",
-      "label": "碩鼠",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-tangfeng-001",
-      "label": "蟋蟀",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-tangfeng-002",
-      "label": "山有樞",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-tangfeng-003",
-      "label": "揚之水",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-tangfeng-004",
-      "label": "椒聊",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-tangfeng-005",
-      "label": "綢繆",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-tangfeng-006",
-      "label": "杕杜",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-tangfeng-007",
-      "label": "羔裘",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-tangfeng-009",
-      "label": "無衣",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-tangfeng-010",
-      "label": "有杕之杜",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-tangfeng-012",
-      "label": "采苓",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qinfeng-001",
-      "label": "車鄰",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qinfeng-002",
-      "label": "駟驖",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qinfeng-004",
-      "label": "蒹葭",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qinfeng-005",
-      "label": "終南",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qinfeng-007",
-      "label": "晨風",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qinfeng-008",
-      "label": "無衣",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qinfeng-009",
-      "label": "渭陽",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-qinfeng-010",
-      "label": "權輿",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-chenfeng-001",
-      "label": "宛丘",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-chenfeng-002",
-      "label": "東門之枌",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-chenfeng-003",
-      "label": "衡門",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-chenfeng-004",
-      "label": "東門之池",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-chenfeng-005",
-      "label": "東門之楊",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-chenfeng-006",
-      "label": "墓門",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-chenfeng-007",
-      "label": "防有鵲巢",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-chenfeng-008",
-      "label": "月出",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-chenfeng-010",
-      "label": "澤陂",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-kuaifeng-001",
-      "label": "羔裘",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-kuaifeng-002",
-      "label": "素冠",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-kuaifeng-003",
-      "label": "隰有萇楚",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-caofeng-001",
-      "label": "蜉蝣",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-caofeng-002",
-      "label": "候人",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-caofeng-003",
-      "label": "鳲鳩",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-caofeng-004",
-      "label": "下泉",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-binfeng-002",
-      "label": "鴟鴞",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-binfeng-003",
-      "label": "東山",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-binfeng-004",
-      "label": "破斧",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-binfeng-006",
-      "label": "九罭",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "guofeng-binfeng-007",
-      "label": "狼跋",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-luming-001",
-      "label": "鹿鳴",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-luming-002",
-      "label": "四牡",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-luming-003",
-      "label": "皇皇者華",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-luming-004",
-      "label": "常棣",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-luming-007",
-      "label": "采薇",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-luming-008",
-      "label": "出車",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-002",
-      "label": "南山有臺",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-006",
-      "label": "蓼蕭",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-007",
-      "label": "湛露",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-008",
-      "label": "彤弓",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-009",
-      "label": "菁菁者莪",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-010",
-      "label": "六月",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-011",
-      "label": "采芑",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-012",
-      "label": "車攻",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-013",
-      "label": "吉日",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-hongyan-001",
-      "label": "鴻鴈",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-hongyan-002",
-      "label": "庭燎",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-hongyan-003",
-      "label": "沔水",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-hongyan-004",
-      "label": "鶴鳴",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-hongyan-005",
-      "label": "祈父",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-hongyan-006",
-      "label": "白駒",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-hongyan-007",
-      "label": "黃鳥",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-hongyan-008",
-      "label": "我行其野",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-hongyan-009",
-      "label": "斯干",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-jienanshan-003",
-      "label": "十月之交",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-jienanshan-004",
-      "label": "雨無正",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-jienanshan-006",
-      "label": "小宛",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-jienanshan-009",
-      "label": "何人斯",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-gufeng-001",
-      "label": "谷風",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-gufeng-002",
-      "label": "蓼莪",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-gufeng-003",
-      "label": "大東",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-gufeng-004",
-      "label": "四月",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-gufeng-005",
-      "label": "北山",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-gufeng-008",
-      "label": "鼓鍾",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-gufeng-009",
-      "label": "楚茨",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-futian-002",
-      "label": "大田",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-futian-003",
-      "label": "瞻彼洛矣",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-futian-004",
-      "label": "裳裳者華",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-futian-006",
-      "label": "鴛鴦",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-futian-007",
-      "label": "頍弁",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-futian-008",
-      "label": "車舝",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-futian-009",
-      "label": "青蠅",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-001",
-      "label": "魚藻",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-002",
-      "label": "采菽",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-003",
-      "label": "角弓",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-004",
-      "label": "菀柳",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-005",
-      "label": "都人士",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-006",
-      "label": "采綠",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-007",
-      "label": "黍苗",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-008",
-      "label": "隰桑",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-010",
-      "label": "緜蠻",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-011",
-      "label": "瓠葉",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-013",
-      "label": "苕之華",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "xiaoya-yuzao-014",
-      "label": "何草不黃",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-wenwang-003",
-      "label": "緜",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-wenwang-004",
-      "label": "棫樸",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-wenwang-008",
-      "label": "靈臺",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-shengmin-001",
-      "label": "生民",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-shengmin-006",
-      "label": "公劉",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-shengmin-007",
-      "label": "泂酌",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-shengmin-008",
-      "label": "卷阿",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-shengmin-010",
-      "label": "板",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-dang-002",
-      "label": "抑",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-dang-007",
-      "label": "韓奕",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-dang-009",
-      "label": "常武",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "daya-dang-011",
-      "label": "召旻",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-qingmiao-004",
-      "label": "烈文",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-qingmiao-007",
-      "label": "我將",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-qingmiao-008",
-      "label": "時邁",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-qingmiao-009",
-      "label": "執競",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-chengong-008",
-      "label": "載見",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-minyuxiaozi-001",
-      "label": "閔予小子",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-lusong-001",
-      "label": "駉",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-lusong-002",
-      "label": "有駜",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-lusong-004",
-      "label": "閟宮",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-shangsong-001",
-      "label": "那",
-      "exact_alignment_count": 1
-    },
-    {
-      "section_id": "song-shangsong-004",
-      "label": "長發",
-      "exact_alignment_count": 1
-    }
+  "present_without_verified_public_domain_translation": [
+    "xiaoya-luming-011",
+    "xiaoya-luming-012",
+    "xiaoya-luming-013",
+    "xiaoya-nanyoujiayu-003",
+    "xiaoya-nanyoujiayu-004",
+    "xiaoya-nanyoujiayu-005"
   ],
-  "corpus_export_paths": {
-    "jsonl": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/jsonl/shijing__all__aligned_passages.jsonl",
-    "csv": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/csv/shijing__all__aligned_passages.csv",
-    "tmx": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__all__aligned_passages.tmx",
-    "tmx_validation": "/Users/nathanhill/Code/ChinTransMem/logs/qc_reports/shijing__corpus_tmx_validation.json"
-  }
+  "sections_with_coarse_or_nonpreferred_alignment": [
+    "daya-dang-002",
+    "daya-dang-007",
+    "daya-dang-009",
+    "daya-dang-011",
+    "daya-shengmin-001",
+    "daya-shengmin-006",
+    "daya-shengmin-007",
+    "daya-shengmin-008",
+    "daya-shengmin-010",
+    "daya-wenwang-003",
+    "daya-wenwang-004",
+    "daya-wenwang-008",
+    "guofeng-beifeng-001",
+    "guofeng-beifeng-002",
+    "guofeng-beifeng-003",
+    "guofeng-beifeng-004",
+    "guofeng-beifeng-005",
+    "guofeng-beifeng-006",
+    "guofeng-beifeng-007",
+    "guofeng-beifeng-008",
+    "guofeng-beifeng-009",
+    "guofeng-beifeng-010",
+    "guofeng-beifeng-011",
+    "guofeng-beifeng-012",
+    "guofeng-beifeng-013",
+    "guofeng-beifeng-014",
+    "guofeng-beifeng-016",
+    "guofeng-beifeng-018",
+    "guofeng-binfeng-002",
+    "guofeng-binfeng-003",
+    "guofeng-binfeng-004",
+    "guofeng-binfeng-006",
+    "guofeng-binfeng-007",
+    "guofeng-caofeng-001",
+    "guofeng-caofeng-002",
+    "guofeng-caofeng-003",
+    "guofeng-caofeng-004",
+    "guofeng-chenfeng-001",
+    "guofeng-chenfeng-002",
+    "guofeng-chenfeng-003",
+    "guofeng-chenfeng-004",
+    "guofeng-chenfeng-005",
+    "guofeng-chenfeng-006",
+    "guofeng-chenfeng-007",
+    "guofeng-chenfeng-008",
+    "guofeng-chenfeng-010",
+    "guofeng-kuaifeng-001",
+    "guofeng-kuaifeng-002",
+    "guofeng-kuaifeng-003",
+    "guofeng-qifeng-001",
+    "guofeng-qifeng-002",
+    "guofeng-qifeng-003",
+    "guofeng-qifeng-004",
+    "guofeng-qifeng-005",
+    "guofeng-qifeng-006",
+    "guofeng-qifeng-007",
+    "guofeng-qifeng-008",
+    "guofeng-qifeng-009",
+    "guofeng-qifeng-010",
+    "guofeng-qifeng-011",
+    "guofeng-qinfeng-001",
+    "guofeng-qinfeng-002",
+    "guofeng-qinfeng-004",
+    "guofeng-qinfeng-005",
+    "guofeng-qinfeng-007",
+    "guofeng-qinfeng-008",
+    "guofeng-qinfeng-009",
+    "guofeng-qinfeng-010",
+    "guofeng-tangfeng-001",
+    "guofeng-tangfeng-002",
+    "guofeng-tangfeng-003",
+    "guofeng-tangfeng-004",
+    "guofeng-tangfeng-005",
+    "guofeng-tangfeng-006",
+    "guofeng-tangfeng-007",
+    "guofeng-tangfeng-009",
+    "guofeng-tangfeng-010",
+    "guofeng-tangfeng-012",
+    "guofeng-wangfeng-002",
+    "guofeng-wangfeng-003",
+    "guofeng-wangfeng-004",
+    "guofeng-wangfeng-005",
+    "guofeng-wangfeng-006",
+    "guofeng-wangfeng-007",
+    "guofeng-wangfeng-008",
+    "guofeng-wangfeng-009",
+    "guofeng-wangfeng-010",
+    "guofeng-weifeng-001",
+    "guofeng-weifeng-003",
+    "guofeng-weifeng-005",
+    "guofeng-weifeng-006",
+    "guofeng-weifeng-008",
+    "guofeng-weifeng-009",
+    "guofeng-weifeng-010",
+    "guofeng-weifeng-state-001",
+    "guofeng-weifeng-state-002",
+    "guofeng-weifeng-state-003",
+    "guofeng-weifeng-state-004",
+    "guofeng-weifeng-state-005",
+    "guofeng-weifeng-state-006",
+    "guofeng-weifeng-state-007",
+    "guofeng-yongfeng-002",
+    "guofeng-yongfeng-004",
+    "guofeng-yongfeng-005",
+    "guofeng-yongfeng-006",
+    "guofeng-yongfeng-007",
+    "guofeng-yongfeng-009",
+    "guofeng-yongfeng-010",
+    "guofeng-zhaonan-002",
+    "guofeng-zhaonan-003",
+    "guofeng-zhaonan-005",
+    "guofeng-zhaonan-007",
+    "guofeng-zhaonan-008",
+    "guofeng-zhaonan-009",
+    "guofeng-zhaonan-010",
+    "guofeng-zhaonan-011",
+    "guofeng-zhaonan-012",
+    "guofeng-zhaonan-013",
+    "guofeng-zhengfeng-001",
+    "guofeng-zhengfeng-002",
+    "guofeng-zhengfeng-003",
+    "guofeng-zhengfeng-005",
+    "guofeng-zhengfeng-006",
+    "guofeng-zhengfeng-007",
+    "guofeng-zhengfeng-008",
+    "guofeng-zhengfeng-011",
+    "guofeng-zhengfeng-014",
+    "guofeng-zhengfeng-015",
+    "guofeng-zhengfeng-017",
+    "guofeng-zhengfeng-018",
+    "guofeng-zhengfeng-020",
+    "guofeng-zhengfeng-021",
+    "guofeng-zhounan-003",
+    "guofeng-zhounan-005",
+    "guofeng-zhounan-006",
+    "guofeng-zhounan-007",
+    "guofeng-zhounan-008",
+    "guofeng-zhounan-009",
+    "guofeng-zhounan-010",
+    "guofeng-zhounan-011",
+    "song-chengong-008",
+    "song-lusong-001",
+    "song-lusong-002",
+    "song-lusong-004",
+    "song-minyuxiaozi-001",
+    "song-qingmiao-004",
+    "song-qingmiao-007",
+    "song-qingmiao-008",
+    "song-qingmiao-009",
+    "song-shangsong-001",
+    "song-shangsong-004",
+    "xiaoya-futian-002",
+    "xiaoya-futian-003",
+    "xiaoya-futian-004",
+    "xiaoya-futian-006",
+    "xiaoya-futian-007",
+    "xiaoya-futian-008",
+    "xiaoya-futian-009",
+    "xiaoya-gufeng-001",
+    "xiaoya-gufeng-002",
+    "xiaoya-gufeng-003",
+    "xiaoya-gufeng-004",
+    "xiaoya-gufeng-005",
+    "xiaoya-gufeng-008",
+    "xiaoya-gufeng-009",
+    "xiaoya-hongyan-001",
+    "xiaoya-hongyan-002",
+    "xiaoya-hongyan-003",
+    "xiaoya-hongyan-004",
+    "xiaoya-hongyan-005",
+    "xiaoya-hongyan-006",
+    "xiaoya-hongyan-007",
+    "xiaoya-hongyan-008",
+    "xiaoya-hongyan-009",
+    "xiaoya-jienanshan-003",
+    "xiaoya-jienanshan-004",
+    "xiaoya-jienanshan-006",
+    "xiaoya-jienanshan-009",
+    "xiaoya-luming-001",
+    "xiaoya-luming-002",
+    "xiaoya-luming-003",
+    "xiaoya-luming-004",
+    "xiaoya-luming-007",
+    "xiaoya-luming-008",
+    "xiaoya-nanyoujiayu-002",
+    "xiaoya-nanyoujiayu-006",
+    "xiaoya-nanyoujiayu-007",
+    "xiaoya-nanyoujiayu-008",
+    "xiaoya-nanyoujiayu-009",
+    "xiaoya-nanyoujiayu-010",
+    "xiaoya-nanyoujiayu-011",
+    "xiaoya-nanyoujiayu-012",
+    "xiaoya-nanyoujiayu-013",
+    "xiaoya-yuzao-001",
+    "xiaoya-yuzao-002",
+    "xiaoya-yuzao-003",
+    "xiaoya-yuzao-004",
+    "xiaoya-yuzao-005",
+    "xiaoya-yuzao-006",
+    "xiaoya-yuzao-007",
+    "xiaoya-yuzao-008",
+    "xiaoya-yuzao-010",
+    "xiaoya-yuzao-011",
+    "xiaoya-yuzao-013",
+    "xiaoya-yuzao-014"
+  ]
 }

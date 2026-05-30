@@ -72,6 +72,38 @@ SBE_ALLPAGES_URL = (
     "action=query&list=allpages&apprefix=Sacred%20Books%20of%20the%20East/Volume%203/The%20Shih"
     "&apnamespace=0&aplimit=max&format=json"
 )
+
+
+def build_ingestion_policy() -> dict[str, Any]:
+    return {
+        "inventory_required": True,
+        "inventory_path": "metadata/shijing_poem_inventory.yml",
+        "inventory_unit_key": "poems",
+        "inventory_derivation": "canonical_wikisource_index_with_title_only_lost_text_entries",
+        "ingestion_plan_required": True,
+        "ingestion_plan_path": "documentation/shijing_ingestion_plan.md",
+        "source_audit_required": True,
+        "source_audit_path": "documentation/shijing_ingestion_plan.md",
+        "granularity_policy_required": True,
+        "granularity_policy_path": "documentation/alignment_granularity_policy.md",
+        "section_unit": "poem",
+        "preferred_segment_unit": "stanza",
+        "minimum_required_alignment_scope": "poem",
+        "maximum_exact_alignment_scope": "poem",
+        "allowed_segment_units": ["stanza", "poem"],
+        "coarse_alignment_units": ["poem"],
+        "granularity_order": ["stanza", "poem"],
+        "metadata_only_allowed": True,
+        "missing_text_policy": "retain_title_only_or_unverified_units_as_metadata_only_and_non_exportable",
+        "commentary_policy": "exclude_commentary_and_notes_from_exact_alignments_and_tmx",
+        "rights_policy": "public_domain_only_for_export",
+        "allowed_export_rights_statuses": ["public_domain"],
+        "section_group_export_policy": "forbidden",
+        "completion_definition": (
+            "An extant Shijing poem is complete only when it has a Chinese base text, a public-domain English witness, "
+            "and at least one exact alignment no broader than a single poem; stanza-level alignment is preferred where safe."
+        ),
+    }
 SBE_CATALOG_PATH = RAW_DIR / f"{WORK_ID}__catalog__{SBE_TARGET_SOURCE_SUFFIX}__allpages.json"
 
 MAJOR_DIVISION_CODES = {
@@ -2139,6 +2171,7 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
             "exact_alignment_count": total_exact_alignments,
             "source_count": len(all_sources),
         },
+        "ingestion_policy": build_ingestion_policy(),
         "romanization_aliases": romanization_aliases,
         "ingestion_log": ingestion_log,
         "sources": all_sources,

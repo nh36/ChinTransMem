@@ -2,7 +2,7 @@ PYTHON ?= python3
 TEST ?= tests.test_corpus_workflow.CorpusWorkflowTest.test_lunyu_workflow_counts_and_qc
 WORK ?= lunyu
 
-.PHONY: bootstrap-corpus bootstrap-work bootstrap-lunyu bootstrap-mengzi bootstrap-shijing corpus corpus-work pilot init-db import-corpus import-pilot export-corpus export-pilot validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
+.PHONY: bootstrap-corpus bootstrap-work bootstrap-lunyu bootstrap-mengzi bootstrap-shijing corpus corpus-work pilot init-db import-corpus import-pilot export-corpus export-pilot validate-policy audit-coverage validate-granularity preflight-work validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
 
 bootstrap-corpus:
 	$(PYTHON) scripts/bootstrap_work_corpus.py --skip-fetch
@@ -40,6 +40,20 @@ export-corpus:
 
 export-pilot: export-corpus
 
+validate-policy:
+	$(PYTHON) scripts/validate_ingestion_policy.py
+
+audit-coverage:
+	$(PYTHON) scripts/audit_work_coverage.py --work-id $(WORK)
+
+validate-granularity:
+	$(PYTHON) scripts/validate_alignment_granularity.py --work-id $(WORK)
+
+preflight-work:
+	$(PYTHON) scripts/validate_ingestion_policy.py --work-id $(WORK)
+	$(PYTHON) scripts/audit_work_coverage.py --work-id $(WORK)
+	$(PYTHON) scripts/validate_alignment_granularity.py --work-id $(WORK)
+
 validate-tmx:
 	$(PYTHON) scripts/validate_tmx.py --work-id $(WORK)
 
@@ -50,11 +64,13 @@ qc-pilot: qc-corpus
 
 regression:
 	$(MAKE) bootstrap-corpus
+	$(MAKE) validate-policy
 	$(MAKE) corpus
 	$(MAKE) corpus-work WORK=mengzi
 	$(MAKE) corpus-work WORK=shijing
-	$(PYTHON) scripts/audit_shijing_coverage.py
-	$(PYTHON) scripts/validate_alignment_granularity.py --work-id shijing
+	$(MAKE) preflight-work WORK=lunyu
+	$(MAKE) preflight-work WORK=mengzi
+	$(MAKE) preflight-work WORK=shijing
 	$(MAKE) test
 
 install-hooks:

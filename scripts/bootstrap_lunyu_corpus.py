@@ -20,6 +20,7 @@ from common import (
 
 MANIFEST_PATH = MANIFESTS_DIR / "lunyu.yml"
 LEGACY_MANIFEST_PATH = LEGACY_DEFAULT_MANIFEST_PATH
+INVENTORY_PATH = REPO_ROOT / "metadata" / "lunyu_inventory.yml"
 WORKS_PATH = REPO_ROOT / "metadata" / "works.yml"
 SECTIONS_PATH = REPO_ROOT / "metadata" / "sections.yml"
 PERSONS_PATH = REPO_ROOT / "metadata" / "persons.yml"
@@ -32,6 +33,57 @@ CHINESE_DIR = REPO_ROOT / "corpus" / "processed" / "chinese_base_texts"
 TRANSLATION_DIR = REPO_ROOT / "corpus" / "processed" / "translations"
 ALIGNMENT_DIR = REPO_ROOT / "corpus" / "processed" / "alignments"
 ACCESS_DATE = "2026-05-29"
+
+
+def build_ingestion_policy() -> dict[str, Any]:
+    return {
+        "inventory_required": True,
+        "inventory_path": "metadata/lunyu_inventory.yml",
+        "inventory_unit_key": "units",
+        "inventory_derivation": "derived_from_manifest_sections",
+        "ingestion_plan_required": True,
+        "ingestion_plan_path": "documentation/lunyu_ingestion_plan.md",
+        "source_audit_required": True,
+        "source_audit_path": "documentation/lunyu_ingestion_plan.md",
+        "granularity_policy_required": True,
+        "granularity_policy_path": "documentation/alignment_granularity_policy.md",
+        "section_unit": "book",
+        "preferred_segment_unit": "saying",
+        "minimum_required_alignment_scope": "saying",
+        "maximum_exact_alignment_scope": "saying",
+        "allowed_segment_units": ["saying"],
+        "coarse_alignment_units": [],
+        "granularity_order": ["saying", "book"],
+        "metadata_only_allowed": True,
+        "missing_text_policy": "retain_metadata_only_sections_until_clean_public_domain_witnesses_exist",
+        "commentary_policy": "exclude_commentary_and_notes_from_exact_alignments_and_tmx",
+        "rights_policy": "public_domain_only_for_export",
+        "allowed_export_rights_statuses": ["public_domain"],
+        "section_group_export_policy": "forbidden",
+        "completion_definition": (
+            "A Lunyu book is complete only when both the Chinese Wikisource witness and the Legge public-domain translation "
+            "are captured, segmented into sayings, and exported as exact saying-level TMX units."
+        ),
+    }
+
+
+def build_inventory_units(processed_sections: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [
+        {
+            "global_sort_key": section["sort_key"],
+            "canonical_unit_type": "book",
+            "text_status": "extant",
+            "title": section["label"],
+            "canonical_ref": section["canonical_ref"],
+            "section_id": section["section_id"],
+            "zh_page_url": section["zh_page_url"],
+            "en_page_url": section["en_page_url"],
+            "status": section.get("status", "complete"),
+            "coverage_status": section.get("coverage_status", "complete"),
+            "english_witness_status": "verified_transcribed_text_available",
+        }
+        for section in processed_sections
+    ]
 
 
 def page_to_raw_url(page_url: str) -> str:
@@ -626,9 +678,21 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
         "sections_needing_qc": sections_needing_qc,
         "exact_alignment_count": total_exact_alignments,
     }
+    manifest["ingestion_policy"] = build_ingestion_policy()
+
+    inventory_payload = {
+        "work_id": "lunyu",
+        "title": "Canonical Lunyu book inventory",
+        "count_basis": {
+            "canonical_unit_count": len(processed_sections),
+            "basis_note": "Derived from the manifest-backed 20-book Lunyu structure already used by the corpus bootstrap.",
+        },
+        "units": build_inventory_units(processed_sections),
+    }
 
     write_json(MANIFEST_PATH, manifest)
     write_json(LEGACY_MANIFEST_PATH, manifest)
+    write_json(INVENTORY_PATH, inventory_payload)
     write_json(SECTIONS_PATH, sections_metadata)
     write_json(SOURCES_PATH, all_sources)
     write_json(ALIASES_PATH, aliases)

@@ -1,0 +1,53 @@
+{
+  "required_policy_fields": [
+    "inventory_required",
+    "inventory_path",
+    "inventory_unit_key",
+    "ingestion_plan_required",
+    "ingestion_plan_path",
+    "source_audit_required",
+    "source_audit_path",
+    "granularity_policy_required",
+    "granularity_policy_path",
+    "section_unit",
+    "preferred_segment_unit",
+    "minimum_required_alignment_scope",
+    "maximum_exact_alignment_scope",
+    "allowed_segment_units",
+    "coarse_alignment_units",
+    "granularity_order",
+    "metadata_only_allowed",
+    "missing_text_policy",
+    "commentary_policy",
+    "rights_policy",
+    "allowed_export_rights_statuses",
+    "section_group_export_policy",
+    "completion_definition"
+  ],
+  "allowed_section_units": [
+    "book",
+    "section",
+    "poem"
+  ],
+  "allowed_segment_units": [
+    "saying",
+    "passage",
+    "stanza",
+    "poem",
+    "book",
+    "section"
+  ],
+  "allowed_rights_policies": [
+    "public_domain_only_for_export"
+  ],
+  "allowed_missing_text_policies": [
+    "retain_metadata_only_sections_until_clean_public_domain_witnesses_exist",
+    "retain_title_only_or_unverified_units_as_metadata_only_and_non_exportable"
+  ],
+  "allowed_commentary_policies": [
+    "exclude_commentary_and_notes_from_exact_alignments_and_tmx"
+  ],
+  "allowed_section_group_export_policies": [
+    "forbidden"
+  ]
+}
