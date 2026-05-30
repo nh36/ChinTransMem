@@ -1,0 +1,19 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhaonan-008__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·召南·008.1,殷其靁，在南山之陽，何斯違斯，莫敢或遑，振振君子，歸哉歸哉。,Yin k'e luy.1,"Grandly rolls the thunder,
+On the south of the southern hill !
+How was it he went away from this,
+Not daring to take a little rest?
+My noble lord !
+May he return ! May he return !"
+shijing__guofeng-zhaonan-008__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·召南·008.2,殷其靁，在南山之側，何斯違斯，莫敢遑息，振振君子，歸哉歸哉。,Yin k'e luy.2,"Grandly rolls the thunder,
+About the sides of the southern hill !
+How was it he went away from this,
+Not daring to take a little rest?
+My noble lord !
+May he return ! May he return !"
+shijing__guofeng-zhaonan-008__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·召南·008.3,殷其靁，在南山之下，何斯違斯，莫或遑處，振振君子，歸哉歸哉。,Yin k'e luy.3,"Grandly rolls the thunder,
+At the foot of the southern hill !
+How was it he went away from this,
+Not remaining a little at rest?
+My noble lord !
+May he return ! May he return !"

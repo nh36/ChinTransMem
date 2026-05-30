@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-beifeng-012__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-012</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·012.1</prop>
+      <prop type="x-translation-ref">Maou-Vewt.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>旄丘之葛兮，何誕之節兮，叔兮伯兮，何多日也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The dolichos on that high and sloping mound; —
+How wide apart are [now] its joints!
+O ye uncles,
+Why have ye delayed these many days?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-012__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-012</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·012.2</prop>
+      <prop type="x-translation-ref">Maou-Vewt.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>何其處也，必有與也，何其久也，必有以也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Why do they rest without stirring?
+It must be they expect allies.
+Why do they prolong the time?
+There must be a reason for their conduct.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-012__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-012</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·012.3</prop>
+      <prop type="x-translation-ref">Maou-Vewt.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>狐裘蒙戎，匪車不東，叔兮伯兮，靡所與同。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Our fox-furs are frayed and worn.
+Came our carriages not eastwards?
+O ye uncles,
+You do not sympathize with us.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-012__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-012</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·012.4</prop>
+      <prop type="x-translation-ref">Maou-Vewt.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>瑣兮尾兮，流離之子，叔兮伯兮，褎如充耳。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fragments, and a remnant,
+Children of dispersion [are we]!
+O ye uncles,
+Notwithstanding your full robes, your ears are stopped.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-beifeng-009__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·009.1</prop>
+      <prop type="x-translation-ref">aou-y ew-koo-y eh •.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>匏有苦葉，濟有深涉，深則厲，淺則揭。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The gourd has [still] its bitter leaves,
+And the crossing at the ford is deep.
+If deep, I will go through with my clothes on;
+If shallow, I will do so, holding them up.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-009__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·009.2</prop>
+      <prop type="x-translation-ref">aou-y ew-koo-y eh •.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有瀰濟盈，有鷕雉鳴，濟盈不濡軓，雉鳴求其牡。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The ford is full to overflowing;
+There is the note of the female pheasant.
+The full ford will not wet the axle of my carriage;
+It is the pheasant calling for her mate.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-009__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·009.3</prop>
+      <prop type="x-translation-ref">aou-y ew-koo-y eh •.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>雝雝鳴鴈，旭日始旦，士如歸妻，迨冰未泮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The wild goose, with its harmonious notes,
+At sunrise, with the earliest dawn,
+By the gentleman, who wishes to bring home his bride,
+[Is presented] before the ice is melted.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-009__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·009.4</prop>
+      <prop type="x-translation-ref">aou-y ew-koo-y eh •.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>招招舟子，人涉卬否，人涉卬否，卬須我友。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The boatman keeps beckoning;
+And others cross with him, but I do not.
+Others cross with him, but I do not; —
+I am waiting for my friend.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhaonan-003__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·003.1</prop>
+      <prop type="x-translation-ref">Ts'aou ch'ung.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>喓喓草蟲，趯趯阜螽，未見君子，憂心忡忡，亦既見止，亦既覯止，我心則降。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Yaou-yaou went the grass-insects,
+And the hoppers sprang about.
+While I do not see my lord,
+My sorrowful heart is agitated.
+Let me have seen him,
+Let me have met him,
+And my heart will then be stilled.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-003__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·003.2</prop>
+      <prop type="x-translation-ref">Ts'aou ch'ung.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>陟彼南山，言采其蕨，未見君子，憂心惙惙，亦既見止，亦既覯止，我心則說。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I ascended that hill in the south,
+And gathered the turtle-foot ferns.
+While I do not see my lord,
+My sorrowful heart is very sad.
+Let me have seen him,
+Let me have met him,
+And my heart will then be pleased.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-003__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·003.3</prop>
+      <prop type="x-translation-ref">Ts'aou ch'ung.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>陟彼南山，言采其薇，未見君子，我心傷悲，亦既見止，亦既覯止，我心則夷。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I ascended that hill in the south,
+And gathered the thorn-ferns.
+While I do not see my lord,
+My sorrowful heart is wounded with grief.
+Let me have seen him,
+Let me have met him,
+And my heart will then be at peace.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

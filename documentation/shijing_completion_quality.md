@@ -6,14 +6,14 @@ This report complements the structural preflight checks with verification-ledger
 
 | Metric | Count |
 | --- | ---: |
-| complete_sections | 132 |
-| metadata_only_sections | 179 |
-| non_exportable_extant_sections | 173 |
-| exact_alignment_count | 296 |
-| ocr_or_fulltext_derived_sections | 29 |
+| complete_sections | 145 |
+| metadata_only_sections | 166 |
+| non_exportable_extant_sections | 160 |
+| exact_alignment_count | 342 |
+| ocr_or_fulltext_derived_sections | 42 |
 | sections_needing_human_text_review | 0 |
-| sections_with_coarse_alignment | 48 |
-| sections_with_single_poem_alignment | 48 |
+| sections_with_coarse_alignment | 49 |
+| sections_with_single_poem_alignment | 49 |
 | sections_with_extreme_length_ratio | 0 |
 | sections_with_possible_commentary_leakage | 0 |
 | sections_with_hard_failures | 0 |
@@ -25,9 +25,9 @@ This report complements the structural preflight checks with verification-ledger
 | Metric | Count |
 | --- | ---: |
 | total_extant_poems | 305 |
-| verified_exportable_poems | 132 |
-| non_exportable_repair_queue_remaining | 173 |
-| newly_repaired_in_this_tranche | 9 |
+| verified_exportable_poems | 145 |
+| non_exportable_repair_queue_remaining | 160 |
+| newly_repaired_in_this_tranche | 22 |
 
 ## Latest repaired tranche
 
@@ -44,13 +44,25 @@ Latest review date: 2026-05-30
 | guofeng-zhaonan-011 | 江有汜 | 詩經·國風·召南·011 | human_verified_ocr |
 | guofeng-zhaonan-012 | 野有死麕 | 詩經·國風·召南·012 | human_verified_ocr |
 | guofeng-zhaonan-013 | 何彼穠矣 | 詩經·國風·召南·013 | human_verified_ocr |
+| guofeng-beifeng-002 | 綠衣 | 詩經·國風·邶風·002 | human_verified_ocr |
+| guofeng-beifeng-003 | 燕燕 | 詩經·國風·邶風·003 | human_verified_ocr |
+| guofeng-beifeng-005 | 終風 | 詩經·國風·邶風·005 | human_verified_ocr |
+| guofeng-beifeng-006 | 擊鼓 | 詩經·國風·邶風·006 | human_verified_ocr |
+| guofeng-beifeng-007 | 凱風 | 詩經·國風·邶風·007 | human_verified_ocr |
+| guofeng-beifeng-008 | 雄雉 | 詩經·國風·邶風·008 | human_verified_ocr |
+| guofeng-beifeng-009 | 匏有苦葉 | 詩經·國風·邶風·009 | human_verified_ocr |
+| guofeng-beifeng-011 | 式微 | 詩經·國風·邶風·011 | human_verified_ocr |
+| guofeng-beifeng-012 | 旄丘 | 詩經·國風·邶風·012 | human_verified_ocr |
+| guofeng-beifeng-013 | 簡兮 | 詩經·國風·邶風·013 | human_verified_ocr |
+| guofeng-beifeng-014 | 泉水 | 詩經·國風·邶風·014 | human_verified_ocr |
+| guofeng-beifeng-016 | 北風 | 詩經·國風·邶風·016 | human_verified_ocr |
+| guofeng-beifeng-018 | 新臺 | 詩經·國風·邶風·018 | human_verified_ocr |
 
 ## Remaining repair queue by subdivision
 
 | Subdivision | Remaining poems |
 | --- | ---: |
 | 國風 / 鄭風 | 19 |
-| 國風 / 邶風 | 17 |
 | 小雅 / 魚藻之什 | 13 |
 | 國風 / 齊風 | 11 |
 | 國風 / 陳風 | 10 |
@@ -67,6 +79,7 @@ Latest review date: 2026-05-30
 | 小雅 / 鹿鳴之什 | 6 |
 | 國風 / 豳風 | 5 |
 | 國風 / 曹風 | 4 |
+| 國風 / 邶風 | 4 |
 | 國風 / 檜風 | 3 |
 | 大雅 / 生民之什 | 2 |
 | 頌 / 魯頌 | 2 |
@@ -79,7 +92,7 @@ Latest review date: 2026-05-30
 
 | Witness type | Complete sections |
 | --- | ---: |
-| OCR-derived witness | 29 |
+| OCR-derived witness | 42 |
 | SBE transcluded page | 102 |
 | standalone Wikisource | 1 |
 
@@ -87,7 +100,7 @@ Latest review date: 2026-05-30
 
 | Status | Complete sections |
 | --- | ---: |
-| human_verified_ocr | 29 |
+| human_verified_ocr | 42 |
 | verified_transcribed_text | 103 |
 
 ## Thresholds
@@ -105,21 +118,8 @@ Latest review date: 2026-05-30
 | --- | --- | --- | --- | --- |
 | guofeng-zhaonan-006 | 行露 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
 | guofeng-beifeng-001 | 柏舟 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-002 | 綠衣 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-003 | 燕燕 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-005 | 終風 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-006 | 擊鼓 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-007 | 凱風 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-008 | 雄雉 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-009 | 匏有苦葉 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
 | guofeng-beifeng-010 | 谷風 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-011 | 式微 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-012 | 旄丘 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-013 | 簡兮 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-014 | 泉水 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-016 | 北風 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
 | guofeng-beifeng-017 | 靜女 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
-| guofeng-beifeng-018 | 新臺 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
 | guofeng-beifeng-019 | 二子乘舟 | extraction_failed_non_exportable | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
 | guofeng-yongfeng-002 | 牆有茨 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
 | guofeng-yongfeng-004 | 桑中 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
@@ -128,6 +128,19 @@ Latest review date: 2026-05-30
 | guofeng-yongfeng-008 | 相鼠 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
 | guofeng-yongfeng-009 | 干旄 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
 | guofeng-yongfeng-010 | 載馳 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-weifeng-001 | 淇奧 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-weifeng-002 | 考槃 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-weifeng-003 | 碩人 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-weifeng-005 | 竹竿 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-weifeng-006 | 芄蘭 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-weifeng-008 | 伯兮 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-weifeng-009 | 有狐 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-weifeng-010 | 木瓜 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-wangfeng-002 | 君子于役 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-wangfeng-003 | 君子陽陽 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-wangfeng-004 | 揚之水 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-wangfeng-005 | 中谷有蓷 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-wangfeng-006 | 兔爰 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
 
 ## Most flagged sections
 

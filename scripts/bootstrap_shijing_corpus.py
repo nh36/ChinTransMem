@@ -858,6 +858,545 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
             ),
         ],
     },
+    27: {
+        "legge_section_alias": "Lull e.",
+        "review_note": (
+            "Recovered the four stanza blocks from part-1 hOCR page 243 lines 6-13 and page 244 lines 6-13 "
+            "after excluding the intervening note block."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Green is the upper robe,",
+                    "Green with a yellow lining!",
+                    "The sorrow of my heart, —",
+                    "How can it cease?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Green is the upper robe;",
+                    "Green the upper, and yellow the lower garment!",
+                    "The sorrow of my heart, —",
+                    "How can it be forgotten?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "[Dyed] green has been the silk; —",
+                    "It was you who did it.",
+                    "[But] I think of the ancients,",
+                    "That I may be kept from doing wrong.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Linen, fine or coarse,",
+                    "Is cold when worn in the wind.",
+                    "I think of the ancients,",
+                    "And find what is in my heart.",
+                ]
+            ),
+        ],
+    },
+    28: {
+        "legge_section_alias": "Yen-yen.",
+        "review_note": (
+            "Recovered the first three stanzas from part-1 hOCR page 244 lines 16-19 and page 245 lines 15-28, "
+            "plus the closing stanza from page 246 lines 6-11, after excluding the interleaved commentary."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The swallows go flying about,",
+                    "With their wings unevenly displayed.",
+                    "The lady was returning to her native state,",
+                    "And I escorted her far into the country.",
+                    "I looked till I could no longer see her,",
+                    "And my tears fell down like rain.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The swallows go flying about,",
+                    "Now up, now down.",
+                    "The lady was returning to her native state,",
+                    "And far did I accompany her.",
+                    "I looked till I could no longer see her,",
+                    "And long I stood and wept.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The swallows go flying about;",
+                    "From below, from above, comes their twittering.",
+                    "The lady was returning to her native state,",
+                    "And far did I escort her to the south.",
+                    "I looked till I could no longer see her,",
+                    "And great was the grief of my heart.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Lovingly confiding was the lady Chung;",
+                    "Truly deep was her feeling.",
+                    "Both gentle was she and docile,",
+                    "Virtuously careful of her person.",
+                    "In thinking of our deceased lord,",
+                    "She stimulated worthless me.",
+                ]
+            ),
+        ],
+    },
+    30: {
+        "legge_section_alias": "Chung fung.",
+        "review_note": (
+            "Recovered the four stanza blocks from part-1 hOCR page 248 lines 13-16 and page 249 lines 11-22 "
+            "after excluding the commentary between pages."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The wind blows and is fierce.",
+                    "He looks at me and smiles,",
+                    "With scornful words and dissolute, — the smile of pride.",
+                    "To the centre of my heart I am grieved.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The wind blows, with clouds of dust.",
+                    "Kindly he seems to be willing to come to me;",
+                    "[But] he neither goes nor comes.",
+                    "Long, long, do I think of him.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The wind blew, and the sky was cloudy;",
+                    "Before a day elapses, it is cloudy again.",
+                    "I awake, and cannot sleep;",
+                    "I think of him, and gasp.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "All cloudy is the darkness,",
+                    "And the thunder keeps muttering.",
+                    "I awake and cannot sleep;",
+                    "I think of him, and my breast is full of pain.",
+                ]
+            ),
+        ],
+    },
+    31: {
+        "legge_section_alias": "Keih koo.",
+        "review_note": (
+            "Recovered the five stanza blocks from part-1 hOCR page 250 lines 8-17 and page 251 lines 17-28 "
+            "after excluding the preceding 終風 commentary."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Hear the roll of our drums!",
+                    "See how we leap about, using our weapons!",
+                    "Those do the fieldwork in the State, or fortify Tsou,",
+                    "While we alone march to the south.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "We followed Sun Tsze-chung,",
+                    "Peace having been made with Ch'in and Sung;",
+                    "[But] he did not lead us back,",
+                    "And our sorrowful hearts are very sad.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Here we stay; here we stop;",
+                    "Here we lose our horses;",
+                    "And we seek for them,",
+                    "Among the trees of the forest.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "For life or for death, however separated,",
+                    "To our wives we pledged our word.",
+                    "We held their hands; —",
+                    "We were to grow old together with them.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Alas for our separation!",
+                    "We have no prospect of life.",
+                    "Alas for our stipulation!",
+                    "We cannot make it good.",
+                ]
+            ),
+        ],
+    },
+    32: {
+        "legge_section_alias": "ICae fung.",
+        "review_note": (
+            "Recovered the four stanza blocks from part-1 hOCR page 252 lines 16-23 and page 253 lines 6-13 "
+            "after excluding the trailing 擊鼓 commentary."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The genial wind from the south",
+                    "Blows on the heart of that jujube tree,",
+                    "Till that heart looks tender and beautiful.",
+                    "What toil and pain did our mother endure!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The genial wind from the south",
+                    "Blows on the branches of that jujube tree,",
+                    "Our mother is wise and good;",
+                    "But among us there is none good.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "There is the cool spring",
+                    "Below the city of Tseun.",
+                    "We are seven sons,",
+                    "And our mother is full of pain and suffering.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The beautiful yellow birds",
+                    "Give forth their pleasant notes.",
+                    "We are seven sons,",
+                    "And cannot compose our mother's heart.",
+                ]
+            ),
+        ],
+    },
+    33: {
+        "legge_section_alias": "雄雉",
+        "review_note": (
+            "Recovered the four stanza blocks from part-1 hOCR page 253 lines 17-20 and page 254 lines 14-25 "
+            "after excluding the 凱風 commentary carried over at the page break."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The male pheasant flies away,",
+                    "Lazily moving his wings.",
+                    "The man of my heart! —",
+                    "He has brought on us this separation.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The pheasant has flown away,",
+                    "But from below, from above, comes his voice.",
+                    "Ah! the princely man! —",
+                    "He afflicts my heart.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Look at that sun and moon!",
+                    "Long, long do I think.",
+                    "The way is distant;",
+                    "How can he come to me?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "All ye princely men,",
+                    "Know ye not his virtuous conduct?",
+                    "He hates none; he covets nothing; —",
+                    "What does he which is not good?",
+                ]
+            ),
+        ],
+    },
+    34: {
+        "legge_section_alias": "aou-y ew-koo-y eh •",
+        "review_note": (
+            "Recovered the four stanza blocks from part-1 hOCR page 255 lines 8-15 and page 256 lines 7-14 "
+            "after excluding the introductory note block between stanzas 2 and 3."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The gourd has [still] its bitter leaves,",
+                    "And the crossing at the ford is deep.",
+                    "If deep, I will go through with my clothes on;",
+                    "If shallow, I will do so, holding them up.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The ford is full to overflowing;",
+                    "There is the note of the female pheasant.",
+                    "The full ford will not wet the axle of my carriage;",
+                    "It is the pheasant calling for her mate.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The wild goose, with its harmonious notes,",
+                    "At sunrise, with the earliest dawn,",
+                    "By the gentleman, who wishes to bring home his bride,",
+                    "[Is presented] before the ice is melted.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The boatman keeps beckoning;",
+                    "And others cross with him, but I do not.",
+                    "Others cross with him, but I do not; —",
+                    "I am waiting for my friend.",
+                ]
+            ),
+        ],
+    },
+    36: {
+        "legge_section_alias": "Shih Wei.",
+        "review_note": "Recovered the two stanza blocks from part-1 hOCR page 261 lines 8-15.",
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Reduced! Reduced!",
+                    "Why not return?",
+                    "If it were not for your sake, O prince,",
+                    "How should we be thus exposed to the dew?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Reduced! reduced!",
+                    "Why not return?",
+                    "If it were not for your person, O prince,",
+                    "How should we be here in the mire?",
+                ]
+            ),
+        ],
+    },
+    37: {
+        "legge_section_alias": "Maou-Vewt",
+        "review_note": (
+            "Recovered the four stanza blocks from part-1 hOCR page 261 lines 19-22 and page 262 lines 21-32 "
+            "after excluding the intervening note block."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The dolichos on that high and sloping mound; —",
+                    "How wide apart are [now] its joints!",
+                    "O ye uncles,",
+                    "Why have ye delayed these many days?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Why do they rest without stirring?",
+                    "It must be they expect allies.",
+                    "Why do they prolong the time?",
+                    "There must be a reason for their conduct.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Our fox-furs are frayed and worn.",
+                    "Came our carriages not eastwards?",
+                    "O ye uncles,",
+                    "You do not sympathize with us.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Fragments, and a remnant,",
+                    "Children of dispersion [are we]!",
+                    "O ye uncles,",
+                    "Notwithstanding your full robes, your ears are stopped.",
+                ]
+            ),
+        ],
+    },
+    38: {
+        "legge_section_alias": "Keen he.",
+        "review_note": (
+            "Recovered the four stanza blocks from part-1 hOCR page 263 lines 8-15 and page 264 lines 3-12 "
+            "after excluding the 旄丘 commentary."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Easy and indifferent! easy and indifferent!",
+                    "I am ready to perform in all dances,",
+                    "Then when the sun is in the meridian,",
+                    "There in that conspicuous place.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "With my large figure,",
+                    "I dance in the ducal courtyard.",
+                    "I am strong [also] as a tiger;",
+                    "The reins are in my grasp like ribbons.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "In my left hand I grasp a flute;",
+                    "In my right I hold a pheasant's feather.",
+                    "I am red as if I were rouged;",
+                    "The duke gives me a cup [of spirits].",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The hazel grows on the hills,",
+                    "And the liquorice in the marshes.",
+                    "Of whom are my thoughts?",
+                    "Of the fine men of the west.",
+                    "O those fine men!",
+                    "Those men of the west!",
+                ]
+            ),
+        ],
+    },
+    39: {
+        "legge_section_alias": "Ts‘euen shwuy.",
+        "review_note": (
+            "Recovered the four stanza blocks from part-1 hOCR page 265 lines 12-23 and page 266 lines 9-20 "
+            "after merging the split closing stanza around the page break."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "How the water bubbles up from that spring,",
+                    "And flows away to the K'e!",
+                    "My heart is in Wei;",
+                    "There is not a day I do not think of it.",
+                    "Admirable are those, my cousins;",
+                    "I will take counsel with them.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "When I came forth, I lodged in Tse,",
+                    "And we drank the cup of convoy at Ne.",
+                    "When a young lady goes to be married,",
+                    "She leaves her parents and brothers;",
+                    "[But] I would ask for my aunts,",
+                    "And then for my elder sister.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I will go forth and lodge in Kan,",
+                    "And we will drink the cup of convoy at Yen.",
+                    "I will grease the axle and fix the pin,",
+                    "And the returning chariot will proceed.",
+                    "Quickly shall we arrive in Wei; —",
+                    "But would not this be wrong?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I think of the Fei-ts'euen,",
+                    "I am ever sighing about it.",
+                    "I think of Seu and Ts'aou,",
+                    "Long, long, my heart dwells with them.",
+                    "Let me drive forth and travel there,",
+                    "To dissipate my sorrow.",
+                ]
+            ),
+        ],
+    },
+    41: {
+        "legge_section_alias": "Pihfung.",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR page 269 lines 10-21 and page 270 lines 4-9."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Cold blows the north wind;",
+                    "Thick falls the snow.",
+                    "Ye who love and regard me,",
+                    "Let us join hands and go together.",
+                    "Is it a time for delay?",
+                    "The urgency is extreme!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The north wind whistles;",
+                    "The snow falls and drifts about.",
+                    "Ye who love and regard me,",
+                    "Let us join hands, and go away for ever.",
+                    "Is it a time for delay?",
+                    "The urgency is extreme!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Nothing red is seen but foxes,",
+                    "Nothing black but crows.",
+                    "Ye who love and regard me,",
+                    "Let us join hands, and go together in our carriages.",
+                    "Is it a time for delay?",
+                    "The urgency is extreme!",
+                ]
+            ),
+        ],
+    },
+    43: {
+        "legge_section_alias": "Sin-fae.",
+        "review_note": "Recovered the three stanza blocks from part-1 hOCR page 272 lines 9-20.",
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Fresh and bright is the New Tower,",
+                    "On the waters of the Ho, wide and deep.",
+                    "A pleasant, genial mate she sought,",
+                    "And has got this vicious bloated mass!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Lofty is the New Tower,",
+                    "On the waters of the Ho, flowing still.",
+                    "A pleasant, genial mate she sought,",
+                    "And has got this vicious bloated mass!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "It was a fish net that was set,",
+                    "And a goose has fallen into it.",
+                    "A pleasant, genial mate she sought,",
+                    "And she has got this hunchback.",
+                ]
+            ),
+        ],
+    },
     57: {
         "legge_section_alias": "Shih jin",
         "review_note": (

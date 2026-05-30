@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhaonan-007__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·007.1</prop>
+      <prop type="x-translation-ref">Kaou yang.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>羔羊之皮，素絲五紽，退食自公，委蛇委蛇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[Those] lamb-skins and sheep-skins,
+With their five braidings of white silk!
+They have retired from the court to take their meal;
+Easy are they and self-possessed.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-007__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·007.2</prop>
+      <prop type="x-translation-ref">Kaou yang.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>羔羊之革，素絲五緎，委蛇委蛇，自公退食。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[Those] lamb-skins and sheep-skins,
+With their five seams wrought with white silk!
+Easy are they and self-possessed;
+They have retired from the court to take their meal.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-007__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·007.3</prop>
+      <prop type="x-translation-ref">Kaou yang.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>羔羊之縫，素絲五緫，委蛇委蛇，退食自公。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The seams of [those] lamb-skins and sheep-skins,
+The five joinings wrought with white silk!
+Easy are they and self-possessed;
+They have retired to take their meal from the court.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

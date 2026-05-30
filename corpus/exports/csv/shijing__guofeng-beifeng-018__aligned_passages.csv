@@ -1,0 +1,13 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-beifeng-018__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-018,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·邶風·018.1,新臺有泚，河水瀰瀰，燕婉之求，蘧篨不鮮。,Sin-fae..1,"Fresh and bright is the New Tower,
+On the waters of the Ho, wide and deep.
+A pleasant, genial mate she sought,
+And has got this vicious bloated mass!"
+shijing__guofeng-beifeng-018__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-018,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·邶風·018.2,新臺有洒，河水浼浼，燕婉之求，蘧篨不殄。,Sin-fae..2,"Lofty is the New Tower,
+On the waters of the Ho, flowing still.
+A pleasant, genial mate she sought,
+And has got this vicious bloated mass!"
+shijing__guofeng-beifeng-018__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-018,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·邶風·018.3,魚網之設，鴻則離之，燕婉之求，得此戚施。,Sin-fae..3,"It was a fish net that was set,
+And a goose has fallen into it.
+A pleasant, genial mate she sought,
+And she has got this hunchback."

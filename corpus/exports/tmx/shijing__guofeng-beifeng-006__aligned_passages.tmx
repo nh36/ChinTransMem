@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-beifeng-006__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·006.1</prop>
+      <prop type="x-translation-ref">Keih koo..1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>擊鼓其鏜，踴躍用兵，土國城漕，我獨南行。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hear the roll of our drums!
+See how we leap about, using our weapons!
+Those do the fieldwork in the State, or fortify Tsou,
+While we alone march to the south.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-006__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·006.2</prop>
+      <prop type="x-translation-ref">Keih koo..2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>從孫子仲，平陳與宋，不我以歸，憂心有忡。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We followed Sun Tsze-chung,
+Peace having been made with Ch'in and Sung;
+[But] he did not lead us back,
+And our sorrowful hearts are very sad.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-006__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·006.3</prop>
+      <prop type="x-translation-ref">Keih koo..3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>爰居爰處，爰喪其馬，于以求之，于林之下。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Here we stay; here we stop;
+Here we lose our horses;
+And we seek for them,
+Among the trees of the forest.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-006__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·006.4</prop>
+      <prop type="x-translation-ref">Keih koo..4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>死生契闊，與子成說，執子之手，與子偕老。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>For life or for death, however separated,
+To our wives we pledged our word.
+We held their hands; —
+We were to grow old together with them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-006__005__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·006.5</prop>
+      <prop type="x-translation-ref">Keih koo..5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>于嗟闊兮，不我活兮，于嗟洵兮，不我信兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alas for our separation!
+We have no prospect of life.
+Alas for our stipulation!
+We cannot make it good.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

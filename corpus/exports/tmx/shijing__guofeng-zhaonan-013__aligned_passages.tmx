@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhaonan-013__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·013.1</prop>
+      <prop type="x-translation-ref">Ho pe nung.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>何彼穠矣，唐棣之華，曷不肅雝，王姬之車。
+何彼穠矣，華如桃李，平王之孫，齊侯之子。
+其釣維何，維絲伊緡，齊侯之子，平王之孫。
+何：驚歎詞。何其。
+穠：猶戎戎也。（《羣經治要》卷三）或作襛、茙。戎戎，形容大。此處作形容詞形容後面的唐棣之華。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How great is that luxuriance,
+Those flowers of the sparrow-plum!
+Are they not expressive of reverence and harmony, —
+The carriages of the king's daughter?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-013__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·013.2</prop>
+      <prop type="x-translation-ref">Ho pe nung.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>唐棣：栘也。（《羣經治要》卷三），一名常棣、棠棣、鬱李。今名鬱李。
+華：花。
+肅，敬也。（《羣經治要》卷三）
+雝，和也。（《羣經治要》卷三）
+曷，何也。（《羣經治要》卷三）</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How great is that luxuriance,
+The flowers like those of the peach-tree or the plum!
+[See] the grand-daughter of the tranquillizing king,
+And the son of the reverent marquis!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-013__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·013.3</prop>
+      <prop type="x-translation-ref">Ho pe nung.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>車：按王先謙考證，此天子、大夫嫁娶時留車反馬之禮。女方嫁至男方時所乘之車，到達後歸屬於男方家庭，但所用之馬則要退還給女方。
+華如桃李：比喻鬱李的華茂盛如桃李一般。
+平：按鄭玄《毛詩傳》；平，正也。正王，正統的君主。此處非周平王。
+伊：同維。維、伊皆語詞，無意義。
+緡：魚線。釣魚用的線。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What are used in angling?
+Silk threads formed into lines.
+The son of the reverent marquis,
+And the grand-daughter of the tranquillizing king!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

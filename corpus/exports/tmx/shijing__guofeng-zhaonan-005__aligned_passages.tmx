@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhaonan-005__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·005.1</prop>
+      <prop type="x-translation-ref">Kan t'ang.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蔽芾甘棠，勿翦勿伐，召伯所茇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[This] umbrageous sweet pear-tree
+Clip it not, hew it not down.
+Under it the chief of Shaou lodged.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-005__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·005.2</prop>
+      <prop type="x-translation-ref">Kan t'ang.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蔽芾甘棠，勿翦勿敗，召伯所憇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[This] umbrageous sweet pear-tree
+Clip it not, break not a twig of it.
+Under it the chief of Shaou rested.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhaonan-005__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhaonan-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·005.3</prop>
+      <prop type="x-translation-ref">Kan t'ang.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蔽芾甘棠，勿翦勿拜，召伯所說。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[This] umbrageous sweet pear-tree
+Clip it not, bend not a twig of it.
+Under it the chief of Shaou halted.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
