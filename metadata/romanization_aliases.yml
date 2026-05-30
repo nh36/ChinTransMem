@@ -250,5 +250,29 @@
     "entity_id": "book-20-yaoyue",
     "alias": "20",
     "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "mengzi",
+    "alias": "Mengzi",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "mengzi",
+    "alias": "Mencius",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-01-lianghuiwang-shang",
+    "alias": "Liang Hui Wang I",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-01-lianghuiwang-shang",
+    "alias": "Lianghuiwang Shang",
+    "romanization_system": "pinyin"
   }
 ]

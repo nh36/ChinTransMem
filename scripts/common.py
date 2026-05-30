@@ -10,7 +10,8 @@ from typing import Any, Iterable, Iterator
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 METADATA_DIR = REPO_ROOT / "metadata"
-MANIFEST_PATH = METADATA_DIR / "corpus_manifest.yml"
+MANIFESTS_DIR = METADATA_DIR / "manifests"
+LEGACY_DEFAULT_MANIFEST_PATH = METADATA_DIR / "corpus_manifest.yml"
 DEFAULT_DB_PATH = REPO_ROOT / "db" / "chinese_classics_tm.sqlite3"
 DEFAULT_WORK_ID = "lunyu"
 DEFAULT_SOURCE_LANGUAGE = "zh-Hant"
@@ -45,16 +46,54 @@ def load_json_compatible_yaml(path: Path | str) -> Any:
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
+def _normalize_manifest(manifest: dict[str, Any]) -> dict[str, Any]:
+    work_id = str(manifest["work_id"])
+    normalized = dict(manifest)
+    normalized["sections"] = [
+        {**section, "work_id": section.get("work_id", work_id)}
+        for section in manifest.get("sections", [])
+    ]
+    return normalized
+
+
+def work_manifest_path(work_id: str = DEFAULT_WORK_ID) -> Path:
+    candidate = MANIFESTS_DIR / f"{work_id}.yml"
+    if candidate.exists():
+        return candidate
+    if work_id == DEFAULT_WORK_ID:
+        return LEGACY_DEFAULT_MANIFEST_PATH
+    raise FileNotFoundError(candidate)
+
+
+def load_work_manifest(work_id: str = DEFAULT_WORK_ID) -> dict[str, Any]:
+    return _normalize_manifest(load_json_compatible_yaml(work_manifest_path(work_id)))
+
+
+def load_work_manifests() -> list[dict[str, Any]]:
+    manifests: list[dict[str, Any]] = []
+    seen_work_ids: set[str] = set()
+    if MANIFESTS_DIR.exists():
+        for path in sorted(MANIFESTS_DIR.glob("*.yml")):
+            manifest = load_json_compatible_yaml(path)
+            normalized = _normalize_manifest(manifest)
+            manifests.append(normalized)
+            seen_work_ids.add(str(normalized["work_id"]))
+    if DEFAULT_WORK_ID not in seen_work_ids and LEGACY_DEFAULT_MANIFEST_PATH.exists():
+        manifests.append(_normalize_manifest(load_json_compatible_yaml(LEGACY_DEFAULT_MANIFEST_PATH)))
+    manifests.sort(key=lambda manifest: (manifest["work_id"] != DEFAULT_WORK_ID, manifest["work_id"]))
+    return manifests
+
+
 def load_corpus_manifest() -> dict[str, Any]:
-    return load_json_compatible_yaml(MANIFEST_PATH)
+    return load_work_manifest(DEFAULT_WORK_ID)
 
 
-def manifest_sections() -> list[dict[str, Any]]:
-    return list(load_corpus_manifest()["sections"])
+def manifest_sections(work_id: str = DEFAULT_WORK_ID) -> list[dict[str, Any]]:
+    return list(load_work_manifest(work_id)["sections"])
 
 
-def manifest_section(section_id: str) -> dict[str, Any]:
-    for section in manifest_sections():
+def manifest_section(section_id: str, work_id: str = DEFAULT_WORK_ID) -> dict[str, Any]:
+    for section in manifest_sections(work_id):
         if section["section_id"] == section_id:
             return section
     raise KeyError(f"Unknown section_id: {section_id}")
@@ -65,26 +104,31 @@ def section_source_ids(section: dict[str, Any]) -> tuple[str, str]:
     return source_ids["source_id"], source_ids["target_source_id"]
 
 
-def section_export_stem(section_id: str) -> str:
-    return f"{DEFAULT_WORK_ID}__{section_id}__aligned_passages"
+def work_export_stem(work_id: str = DEFAULT_WORK_ID) -> str:
+    return f"{work_id}__all__aligned_passages"
 
 
-def section_export_paths(section_id: str) -> dict[str, Path]:
-    stem = section_export_stem(section_id)
+def section_export_stem(section_id: str, work_id: str = DEFAULT_WORK_ID) -> str:
+    return f"{work_id}__{section_id}__aligned_passages"
+
+
+def section_export_paths(section_id: str, work_id: str = DEFAULT_WORK_ID) -> dict[str, Path]:
+    stem = section_export_stem(section_id, work_id)
     return {
         "jsonl": REPO_ROOT / "corpus" / "exports" / "jsonl" / f"{stem}.jsonl",
         "csv": REPO_ROOT / "corpus" / "exports" / "csv" / f"{stem}.csv",
         "tmx": REPO_ROOT / "corpus" / "exports" / "tmx" / f"{stem}.tmx",
-        "tmx_validation": REPO_ROOT / "logs" / "qc_reports" / f"{DEFAULT_WORK_ID}__{section_id}__tmx_validation.json",
+        "tmx_validation": REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__{section_id}__tmx_validation.json",
     }
 
 
-def corpus_export_paths() -> dict[str, Path]:
+def corpus_export_paths(work_id: str = DEFAULT_WORK_ID) -> dict[str, Path]:
+    stem = work_export_stem(work_id)
     return {
-        "jsonl": DEFAULT_CORPUS_JSONL_EXPORT,
-        "csv": DEFAULT_CORPUS_CSV_EXPORT,
-        "tmx": DEFAULT_CORPUS_TMX_EXPORT,
-        "tmx_validation": DEFAULT_CORPUS_TMX_VALIDATION_REPORT,
+        "jsonl": REPO_ROOT / "corpus" / "exports" / "jsonl" / f"{stem}.jsonl",
+        "csv": REPO_ROOT / "corpus" / "exports" / "csv" / f"{stem}.csv",
+        "tmx": REPO_ROOT / "corpus" / "exports" / "tmx" / f"{stem}.tmx",
+        "tmx_validation": REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__corpus_tmx_validation.json",
     }
 
 

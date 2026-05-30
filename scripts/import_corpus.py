@@ -9,8 +9,8 @@ from common import (
     METADATA_DIR,
     REPO_ROOT,
     connect_db,
-    load_corpus_manifest,
     load_json_compatible_yaml,
+    load_work_manifests,
     read_jsonl,
     repo_relative,
     sha256_file,
@@ -19,13 +19,20 @@ from common import (
 from init_db import initialize_database
 
 
-def alignment_path_for_section(section_id: str) -> Path:
+def alignment_path_for_section(section: dict[str, object]) -> Path:
+    source_ids = section.get("source_ids")
+    if not isinstance(source_ids, dict):
+        raise KeyError(f"Section {section['section_id']} does not define source_ids")
+    source_id = str(source_ids["source_id"])
+    target_source_id = str(source_ids["target_source_id"])
+    source_suffix = source_id.split("__", 1)[1] if "__" in source_id else source_id
+    target_suffix = target_source_id.split("__", 1)[1] if "__" in target_source_id else target_source_id
     return (
         REPO_ROOT
         / "corpus"
         / "processed"
         / "alignments"
-        / f"lunyu__{section_id}__zhwikisource-20260529__legge-cc-v1-1893__alignments.jsonl"
+        / f"{section['work_id']}__{section['section_id']}__{source_suffix}__{target_suffix}__alignments.jsonl"
     )
 
 
@@ -58,10 +65,13 @@ def _load_segments(sources: list[dict[str, object]]) -> list[dict[str, object]]:
     return segments
 
 
-def _load_alignments(manifest: dict[str, object]) -> list[dict[str, object]]:
+def _load_alignments(manifests: list[dict[str, object]]) -> list[dict[str, object]]:
     alignments: list[dict[str, object]] = []
-    for section in manifest["sections"]:
-        alignments.extend(read_jsonl(alignment_path_for_section(section["section_id"])))
+    for manifest in manifests:
+        for section in manifest["sections"]:
+            if not section.get("source_ids"):
+                continue
+            alignments.extend(read_jsonl(alignment_path_for_section(section)))
     return alignments
 
 
@@ -78,13 +88,13 @@ def _validate_alignments(alignments: list[dict[str, object]], segments: list[dic
 def import_corpus(db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, object]:
     initialize_database(db_path)
 
-    manifest = load_corpus_manifest()
+    manifests = load_work_manifests()
     works = load_json_compatible_yaml(METADATA_DIR / "works.yml")
     sections = load_json_compatible_yaml(METADATA_DIR / "sections.yml")
     persons = _load_people()
     sources = _load_sources()
     segments = _load_segments(sources)
-    alignments = _load_alignments(manifest)
+    alignments = _load_alignments(manifests)
     _validate_alignments(alignments, segments)
 
     started_at = utc_now_iso()
@@ -171,9 +181,15 @@ def import_corpus(db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, object]:
 
         tracked_paths = [REPO_ROOT / source["raw_path"] for source in sources]
         tracked_paths.extend(REPO_ROOT / source["processed_path"] for source in sources)
-        tracked_paths.extend(alignment_path_for_section(section["section_id"]) for section in manifest["sections"])
+        tracked_paths.extend(
+            alignment_path_for_section(section)
+            for manifest in manifests
+            for section in manifest["sections"]
+            if section.get("source_ids")
+        )
         details = {
-            "section_count": len(manifest["sections"]),
+            "work_count": len(works),
+            "section_count": len(sections),
             "counts": {
                 "works": len(works),
                 "sections": len(sections),
@@ -181,6 +197,13 @@ def import_corpus(db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, object]:
                 "sources": len(sources),
                 "segments": len(segments),
                 "alignments": len(alignments),
+            },
+            "work_summaries": {
+                manifest["work_id"]: {
+                    "section_count": len(manifest["sections"]),
+                    "summary": manifest["summary"],
+                }
+                for manifest in manifests
             },
             "checksums": {repo_relative(path): sha256_file(path) for path in tracked_paths},
         }
@@ -204,14 +227,22 @@ def import_corpus(db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, object]:
 
     return {
         "db_path": str(db_path),
-        "section_count": len(manifest["sections"]),
+        "work_count": len(works),
+        "section_count": len(sections),
         "segments": len(segments),
         "alignments": len(alignments),
+        "work_summaries": {
+            manifest["work_id"]: {
+                "section_count": len(manifest["sections"]),
+                "summary": manifest["summary"],
+            }
+            for manifest in manifests
+        },
     }
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Import the full Lunyu corpus into SQLite.")
+    parser = argparse.ArgumentParser(description="Import all configured corpus metadata and processed files into SQLite.")
     parser.add_argument("--db", default=str(DEFAULT_DB_PATH), help="Path to the SQLite database file.")
     args = parser.parse_args()
 

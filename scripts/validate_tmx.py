@@ -6,11 +6,10 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 from common import (
-    DEFAULT_CORPUS_TMX_EXPORT,
-    DEFAULT_CORPUS_TMX_VALIDATION_REPORT,
     DEFAULT_DB_PATH,
     DEFAULT_SOURCE_LANGUAGE,
     DEFAULT_TARGET_LANGUAGE,
+    DEFAULT_WORK_ID,
     corpus_export_paths,
     manifest_sections,
     section_export_paths,
@@ -26,8 +25,10 @@ def validate_tmx_file(
     tmx_path: Path | str,
     report_output: Path | str,
     section_id: str | None = None,
+    *,
+    work_id: str = DEFAULT_WORK_ID,
 ) -> dict[str, object]:
-    export_rows = load_exact_alignment_rows(db_path, section_id)
+    export_rows = load_exact_alignment_rows(db_path, work_id, section_id)
     expected_rows = {str(row["alignment_id"]): row for row in export_rows}
     tree = ET.parse(tmx_path)
     root = tree.getroot()
@@ -79,6 +80,7 @@ def validate_tmx_file(
     report = {
         "status": "pass",
         "tmx_path": str(tmx_path),
+        "work_id": work_id,
         "section_id": section_id,
         "tu_count": len(tus),
         "source_language": DEFAULT_SOURCE_LANGUAGE,
@@ -90,17 +92,36 @@ def validate_tmx_file(
 
 def validate_all_tmx_exports(
     db_path: Path | str = DEFAULT_DB_PATH,
-    report_output: Path | str = DEFAULT_CORPUS_TMX_VALIDATION_REPORT,
+    report_output: Path | str | None = None,
+    *,
+    work_id: str = DEFAULT_WORK_ID,
 ) -> dict[str, object]:
+    corpus_paths = corpus_export_paths(work_id)
+    if report_output is None:
+        report_output = corpus_paths["tmx_validation"]
     section_reports: list[dict[str, object]] = []
-    for section in manifest_sections():
-        paths = section_export_paths(section["section_id"])
-        section_reports.append(validate_tmx_file(db_path, paths["tmx"], paths["tmx_validation"], section["section_id"]))
+    for section in manifest_sections(work_id):
+        paths = section_export_paths(section["section_id"], work_id)
+        section_reports.append(
+            validate_tmx_file(
+                db_path,
+                paths["tmx"],
+                paths["tmx_validation"],
+                section["section_id"],
+                work_id=work_id,
+            )
+        )
 
-    corpus_paths = corpus_export_paths()
-    corpus_report = validate_tmx_file(db_path, corpus_paths["tmx"], corpus_paths["tmx_validation"], None)
+    corpus_report = validate_tmx_file(
+        db_path,
+        corpus_paths["tmx"],
+        corpus_paths["tmx_validation"],
+        None,
+        work_id=work_id,
+    )
     report = {
         "status": "pass",
+        "work_id": work_id,
         "section_count": len(section_reports),
         "sections": section_reports,
         "corpus": corpus_report,
@@ -110,12 +131,17 @@ def validate_all_tmx_exports(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Validate the Lunyu TMX exports against the SQLite corpus data.")
+    parser = argparse.ArgumentParser(description="Validate TMX exports for a work against the SQLite corpus data.")
     parser.add_argument("--db", default=str(DEFAULT_DB_PATH), help="Path to the SQLite database file.")
-    parser.add_argument("--report-output", default=str(DEFAULT_CORPUS_TMX_VALIDATION_REPORT), help="Where to write the overall TMX validation report.")
+    parser.add_argument("--work-id", default=DEFAULT_WORK_ID, help="Which work manifest to validate.")
+    parser.add_argument(
+        "--report-output",
+        default=None,
+        help="Where to write the overall TMX validation report.",
+    )
     args = parser.parse_args()
 
-    report = validate_all_tmx_exports(args.db, args.report_output)
+    report = validate_all_tmx_exports(args.db, args.report_output, work_id=args.work_id)
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 

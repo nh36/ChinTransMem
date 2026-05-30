@@ -7,15 +7,12 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 from common import (
-    DEFAULT_CORPUS_CSV_EXPORT,
-    DEFAULT_CORPUS_JSONL_EXPORT,
-    DEFAULT_CORPUS_TMX_EXPORT,
     DEFAULT_DB_PATH,
     DEFAULT_SOURCE_LANGUAGE,
     DEFAULT_TARGET_LANGUAGE,
+    DEFAULT_WORK_ID,
     connect_db,
     corpus_export_paths,
-    load_corpus_manifest,
     manifest_sections,
     section_export_paths,
     write_jsonl,
@@ -24,41 +21,51 @@ from common import (
 XML_NAMESPACE = "http://www.w3.org/XML/1998/namespace"
 
 
-def load_exact_alignment_rows(db_path: Path | str = DEFAULT_DB_PATH, section_id: str | None = None) -> list[dict[str, object]]:
+def load_exact_alignment_rows(
+    db_path: Path | str = DEFAULT_DB_PATH,
+    work_id: str = DEFAULT_WORK_ID,
+    section_id: str | None = None,
+) -> list[dict[str, object]]:
     with connect_db(db_path) as connection:
         if section_id is None:
             alignment_rows = connection.execute(
                 """
                 SELECT alignment_id, section_id, alignment_type, confidence, chinese_segment_ids_json, translation_segment_ids_json
                 FROM alignments
-                WHERE alignment_type = 'exact_or_near_exact'
+                WHERE alignment_type = 'exact_or_near_exact' AND work_id = ?
                 """
+                ,
+                (work_id,),
             ).fetchall()
             segment_rows = connection.execute(
                 """
                 SELECT segment_id, section_id, canonical_ref, text_original, text_normalized, source_id, segment_order
                 FROM segments
+                WHERE work_id = ?
                 """
+                ,
+                (work_id,),
             ).fetchall()
             section_order_map = {
-                row["section_id"]: row["sort_key"] for row in connection.execute("SELECT section_id, sort_key FROM sections").fetchall()
+                row["section_id"]: row["sort_key"]
+                for row in connection.execute("SELECT section_id, sort_key FROM sections WHERE work_id = ?", (work_id,)).fetchall()
             }
         else:
             alignment_rows = connection.execute(
                 """
                 SELECT alignment_id, section_id, alignment_type, confidence, chinese_segment_ids_json, translation_segment_ids_json
                 FROM alignments
-                WHERE alignment_type = 'exact_or_near_exact' AND section_id = ?
+                WHERE alignment_type = 'exact_or_near_exact' AND work_id = ? AND section_id = ?
                 """,
-                (section_id,),
+                (work_id, section_id),
             ).fetchall()
             segment_rows = connection.execute(
                 """
                 SELECT segment_id, section_id, canonical_ref, text_original, text_normalized, source_id, segment_order
                 FROM segments
-                WHERE section_id = ?
+                WHERE work_id = ? AND section_id = ?
                 """,
-                (section_id,),
+                (work_id, section_id),
             ).fetchall()
             section_order_map = {section_id: 0}
 
@@ -94,6 +101,8 @@ def write_tmx(
     tmx_output: Path | str,
     source_language: str = DEFAULT_SOURCE_LANGUAGE,
     target_language: str = DEFAULT_TARGET_LANGUAGE,
+    *,
+    work_id: str = DEFAULT_WORK_ID,
 ) -> Path:
     tmx_path = Path(tmx_output)
     tmx_path.parent.mkdir(parents=True, exist_ok=True)
@@ -105,7 +114,7 @@ def write_tmx(
             "creationtool": "ChinTransMem",
             "creationtoolversion": "0.2.0",
             "segtype": "sentence",
-            "o-tmf": "ChinTransMem-Lunyu",
+            "o-tmf": "ChinTransMem-Lunyu" if work_id == DEFAULT_WORK_ID else f"ChinTransMem-{work_id}",
             "adminlang": "en",
             "srclang": source_language,
             "datatype": "PlainText",
@@ -160,16 +169,26 @@ def write_tabular_exports(export_rows: list[dict[str, object]], jsonl_output: Pa
 
 def export_corpus(
     db_path: Path | str = DEFAULT_DB_PATH,
-    corpus_jsonl_output: Path | str = DEFAULT_CORPUS_JSONL_EXPORT,
-    corpus_csv_output: Path | str = DEFAULT_CORPUS_CSV_EXPORT,
-    corpus_tmx_output: Path | str = DEFAULT_CORPUS_TMX_EXPORT,
+    corpus_jsonl_output: Path | str | None = None,
+    corpus_csv_output: Path | str | None = None,
+    corpus_tmx_output: Path | str | None = None,
+    *,
+    work_id: str = DEFAULT_WORK_ID,
 ) -> dict[str, object]:
+    corpus_paths = corpus_export_paths(work_id)
+    if corpus_jsonl_output is None:
+        corpus_jsonl_output = corpus_paths["jsonl"]
+    if corpus_csv_output is None:
+        corpus_csv_output = corpus_paths["csv"]
+    if corpus_tmx_output is None:
+        corpus_tmx_output = corpus_paths["tmx"]
+
     per_section: list[dict[str, object]] = []
-    for section in manifest_sections():
-        rows = load_exact_alignment_rows(db_path, section["section_id"])
-        paths = section_export_paths(section["section_id"])
+    for section in manifest_sections(work_id):
+        rows = load_exact_alignment_rows(db_path, work_id, section["section_id"])
+        paths = section_export_paths(section["section_id"], work_id)
         write_tabular_exports(rows, paths["jsonl"], paths["csv"])
-        write_tmx(rows, paths["tmx"])
+        write_tmx(rows, paths["tmx"], work_id=work_id)
         per_section.append(
             {
                 "section_id": section["section_id"],
@@ -180,10 +199,11 @@ def export_corpus(
             }
         )
 
-    corpus_rows = load_exact_alignment_rows(db_path)
+    corpus_rows = load_exact_alignment_rows(db_path, work_id)
     write_tabular_exports(corpus_rows, corpus_jsonl_output, corpus_csv_output)
-    write_tmx(corpus_rows, corpus_tmx_output)
+    write_tmx(corpus_rows, corpus_tmx_output, work_id=work_id)
     return {
+        "work_id": work_id,
         "section_count": len(per_section),
         "rows_exported": len(corpus_rows),
         "jsonl_output": str(corpus_jsonl_output),
@@ -194,14 +214,21 @@ def export_corpus(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Export aligned Lunyu corpus passages to JSONL, CSV, and TMX.")
+    parser = argparse.ArgumentParser(description="Export aligned corpus passages for a work to JSONL, CSV, and TMX.")
     parser.add_argument("--db", default=str(DEFAULT_DB_PATH), help="Path to the SQLite database file.")
-    parser.add_argument("--jsonl-output", default=str(DEFAULT_CORPUS_JSONL_EXPORT), help="Where to write the corpus JSONL export.")
-    parser.add_argument("--csv-output", default=str(DEFAULT_CORPUS_CSV_EXPORT), help="Where to write the corpus CSV export.")
-    parser.add_argument("--tmx-output", default=str(DEFAULT_CORPUS_TMX_EXPORT), help="Where to write the corpus TMX export.")
+    parser.add_argument("--work-id", default=DEFAULT_WORK_ID, help="Which work manifest to export.")
+    parser.add_argument("--jsonl-output", default=None, help="Where to write the corpus JSONL export.")
+    parser.add_argument("--csv-output", default=None, help="Where to write the corpus CSV export.")
+    parser.add_argument("--tmx-output", default=None, help="Where to write the corpus TMX export.")
     args = parser.parse_args()
 
-    summary = export_corpus(args.db, args.jsonl_output, args.csv_output, args.tmx_output)
+    summary = export_corpus(
+        args.db,
+        args.jsonl_output,
+        args.csv_output,
+        args.tmx_output,
+        work_id=args.work_id,
+    )
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
 

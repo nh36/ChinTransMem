@@ -218,5 +218,13 @@
       "book-20-yaoyue__legge-cc-v1-1893"
     ],
     "notes": "Bootstrap corpus generation for 堯曰第二十 with 3 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "metadata-skeleton-book-01-lianghuiwang-shang-20260530",
+    "work_id": "mengzi",
+    "section_id": "book-01-lianghuiwang-shang",
+    "status": "metadata_only",
+    "source_ids": [],
+    "notes": "Metadata-only Mengzi pilot stub for 梁惠王上; raw capture, segmentation, and alignment are intentionally deferred until the generalized multi-work pipeline is settled."
   }
 ]

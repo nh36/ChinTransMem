@@ -11,7 +11,7 @@ SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
-from common import load_corpus_manifest
+from common import DEFAULT_WORK_ID, load_corpus_manifest
 from export_corpus import load_exact_alignment_rows, write_tmx
 from import_corpus import import_corpus
 from init_db import initialize_database
@@ -31,9 +31,9 @@ class TmxExportTest(unittest.TestCase):
 
             initialize_database(db_path)
             import_corpus(db_path)
-            export_rows = load_exact_alignment_rows(db_path)
-            write_tmx(export_rows, corpus_tmx)
-            validation_summary = validate_tmx_file(db_path, corpus_tmx, report_output)
+            export_rows = load_exact_alignment_rows(db_path, DEFAULT_WORK_ID)
+            write_tmx(export_rows, corpus_tmx, work_id=DEFAULT_WORK_ID)
+            validation_summary = validate_tmx_file(db_path, corpus_tmx, report_output, work_id=DEFAULT_WORK_ID)
 
             tree = ET.parse(corpus_tmx)
             tus = tree.getroot().findall("./body/tu")
@@ -57,8 +57,8 @@ class TmxExportTest(unittest.TestCase):
 
             initialize_database(db_path)
             import_corpus(db_path)
-            export_rows = load_exact_alignment_rows(db_path, first_section_id)
-            write_tmx(export_rows, tampered_tmx)
+            export_rows = load_exact_alignment_rows(db_path, DEFAULT_WORK_ID, first_section_id)
+            write_tmx(export_rows, tampered_tmx, work_id=DEFAULT_WORK_ID)
 
             tree = ET.parse(tampered_tmx)
             first_target_seg = tree.getroot().find("./body/tu/tuv[@xml:lang='en']/seg", {"xml": XML_NAMESPACE})
@@ -67,4 +67,10 @@ class TmxExportTest(unittest.TestCase):
             tree.write(tampered_tmx, encoding="utf-8", xml_declaration=True)
 
             with self.assertRaises(ValueError):
-                validate_tmx_file(db_path, tampered_tmx, temp_path / "tmx-validation.json", first_section_id)
+                validate_tmx_file(
+                    db_path,
+                    tampered_tmx,
+                    temp_path / "tmx-validation.json",
+                    first_section_id,
+                    work_id=DEFAULT_WORK_ID,
+                )

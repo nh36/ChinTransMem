@@ -9,9 +9,17 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
-from common import REPO_ROOT, load_json_compatible_yaml, write_json, write_jsonl
+from common import (
+    LEGACY_DEFAULT_MANIFEST_PATH,
+    MANIFESTS_DIR,
+    REPO_ROOT,
+    load_json_compatible_yaml,
+    write_json,
+    write_jsonl,
+)
 
-MANIFEST_PATH = REPO_ROOT / "metadata" / "corpus_manifest.yml"
+MANIFEST_PATH = MANIFESTS_DIR / "lunyu.yml"
+LEGACY_MANIFEST_PATH = LEGACY_DEFAULT_MANIFEST_PATH
 WORKS_PATH = REPO_ROOT / "metadata" / "works.yml"
 SECTIONS_PATH = REPO_ROOT / "metadata" / "sections.yml"
 PERSONS_PATH = REPO_ROOT / "metadata" / "persons.yml"
@@ -535,7 +543,8 @@ def ensure_static_metadata() -> None:
 
 def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
     ensure_static_metadata()
-    manifest = load_json_compatible_yaml(MANIFEST_PATH)
+    manifest_path = MANIFEST_PATH if MANIFEST_PATH.exists() else LEGACY_MANIFEST_PATH
+    manifest = load_json_compatible_yaml(manifest_path)
     processed_sections: list[dict[str, Any]] = []
     all_sources: list[dict[str, Any]] = []
     sections_metadata: list[dict[str, Any]] = []
@@ -619,6 +628,7 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
     }
 
     write_json(MANIFEST_PATH, manifest)
+    write_json(LEGACY_MANIFEST_PATH, manifest)
     write_json(SECTIONS_PATH, sections_metadata)
     write_json(SOURCES_PATH, all_sources)
     write_json(ALIASES_PATH, aliases)

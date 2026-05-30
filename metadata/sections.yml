@@ -178,5 +178,14 @@
     "canonical_ref": "論語 20",
     "sort_key": 20,
     "notes": "Chinese Wikisource labels this section 堯曰第二十; Legge labels the same unit Book 20."
+  },
+  {
+    "section_id": "book-01-lianghuiwang-shang",
+    "work_id": "mengzi",
+    "parent_section_id": null,
+    "label": "梁惠王上",
+    "canonical_ref": "孟子 1A",
+    "sort_key": 1,
+    "notes": "Metadata-only proof of concept for the first Mengzi section. Planned Chinese base text witness: Chinese Wikisource 孟子/梁惠王上 with URL and access date recorded before any content ingestion."
   }
 ]

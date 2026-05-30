@@ -1,0 +1,61 @@
+{
+  "work_id": "mengzi",
+  "summary": {
+    "section_count": 1,
+    "complete_sections": 0,
+    "metadata_only_sections": 1,
+    "sections_needing_alignment": 0,
+    "sections_needing_qc": 0,
+    "exact_alignment_count": 0
+  },
+  "romanization_aliases": [
+    {
+      "entity_type": "work",
+      "entity_id": "mengzi",
+      "alias": "Mengzi",
+      "romanization_system": "pinyin"
+    },
+    {
+      "entity_type": "work",
+      "entity_id": "mengzi",
+      "alias": "Mencius",
+      "romanization_system": "english-title"
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "book-01-lianghuiwang-shang",
+      "alias": "Liang Hui Wang I",
+      "romanization_system": "Legge-Wade-Giles"
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "book-01-lianghuiwang-shang",
+      "alias": "Lianghuiwang Shang",
+      "romanization_system": "pinyin"
+    }
+  ],
+  "ingestion_log": [
+    {
+      "run_id": "metadata-skeleton-book-01-lianghuiwang-shang-20260530",
+      "work_id": "mengzi",
+      "section_id": "book-01-lianghuiwang-shang",
+      "status": "metadata_only",
+      "source_ids": [],
+      "notes": "Metadata-only Mengzi pilot stub for 梁惠王上; raw capture, segmentation, and alignment are intentionally deferred until the generalized multi-work pipeline is settled."
+    }
+  ],
+  "sections": [
+    {
+      "work_id": "mengzi",
+      "section_id": "book-01-lianghuiwang-shang",
+      "parent_section_id": null,
+      "label": "梁惠王上",
+      "canonical_ref": "孟子 1A",
+      "sort_key": 1,
+      "alignment_status": "metadata_only",
+      "tmx_status": "metadata_only",
+      "expected_exact_alignment_count": 0,
+      "notes": "Metadata-only proof of concept for the first Mengzi section. Planned Chinese base text witness: Chinese Wikisource 孟子/梁惠王上 with URL and access date recorded before any content ingestion."
+    }
+  ]
+}

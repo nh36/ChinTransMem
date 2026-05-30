@@ -1,13 +1,23 @@
 PYTHON ?= python3
-TEST ?= tests.test_corpus_workflow.CorpusWorkflowTest.test_end_to_end
+TEST ?= tests.test_corpus_workflow.CorpusWorkflowTest.test_lunyu_workflow_counts_and_qc
+WORK ?= lunyu
 
-.PHONY: bootstrap-corpus corpus pilot init-db import-corpus import-pilot export-corpus export-pilot validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
+.PHONY: bootstrap-corpus bootstrap-work bootstrap-lunyu corpus corpus-work pilot init-db import-corpus import-pilot export-corpus export-pilot validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
 
 bootstrap-corpus:
+	$(PYTHON) scripts/bootstrap_work_corpus.py --skip-fetch
+
+bootstrap-work:
+	$(PYTHON) scripts/bootstrap_work_corpus.py --skip-fetch --work-id $(WORK)
+
+bootstrap-lunyu:
 	$(PYTHON) scripts/bootstrap_lunyu_corpus.py --skip-fetch
 
 corpus:
-	$(PYTHON) scripts/corpus_workflow.py
+	$(PYTHON) scripts/corpus_workflow.py --work-id lunyu
+
+corpus-work:
+	$(PYTHON) scripts/corpus_workflow.py --work-id $(WORK)
 
 pilot: corpus
 
@@ -20,15 +30,15 @@ import-corpus:
 import-pilot: import-corpus
 
 export-corpus:
-	$(PYTHON) scripts/export_corpus.py
+	$(PYTHON) scripts/export_corpus.py --work-id $(WORK)
 
 export-pilot: export-corpus
 
 validate-tmx:
-	$(PYTHON) scripts/validate_tmx.py
+	$(PYTHON) scripts/validate_tmx.py --work-id $(WORK)
 
 qc-corpus:
-	$(PYTHON) scripts/qc_corpus.py
+	$(PYTHON) scripts/qc_corpus.py --work-id $(WORK)
 
 qc-pilot: qc-corpus
 

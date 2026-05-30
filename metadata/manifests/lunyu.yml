@@ -1,0 +1,380 @@
+{
+  "work_id": "lunyu",
+  "work_status": "complete",
+  "source_pair_defaults": {
+    "source_id": "zhwikisource-20260529",
+    "target_source_id": "legge-cc-v1-1893",
+    "source_language": "zh-Hant",
+    "target_language": "en"
+  },
+  "sections": [
+    {
+      "section_id": "book-01-xueer",
+      "slug": "xueer",
+      "label": "學而第一",
+      "canonical_ref": "論語 1",
+      "sort_key": 1,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/學而第一",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/I",
+      "legge_section_alias": "Book 1",
+      "expected_exact_alignment_count": 16,
+      "source_ids": {
+        "source_id": "book-01-xueer__zhwikisource-20260529",
+        "target_source_id": "book-01-xueer__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-02-weizheng",
+      "slug": "weizheng",
+      "label": "爲政第二",
+      "canonical_ref": "論語 2",
+      "sort_key": 2,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/爲政第二",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/II",
+      "legge_section_alias": "Book 2",
+      "expected_exact_alignment_count": 24,
+      "source_ids": {
+        "source_id": "book-02-weizheng__zhwikisource-20260529",
+        "target_source_id": "book-02-weizheng__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-03-bayi",
+      "slug": "bayi",
+      "label": "八佾第三",
+      "canonical_ref": "論語 3",
+      "sort_key": 3,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/八佾第三",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/III",
+      "legge_section_alias": "Book 3",
+      "expected_exact_alignment_count": 26,
+      "source_ids": {
+        "source_id": "book-03-bayi__zhwikisource-20260529",
+        "target_source_id": "book-03-bayi__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-04-liren",
+      "slug": "liren",
+      "label": "里仁第四",
+      "canonical_ref": "論語 4",
+      "sort_key": 4,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/里仁第四",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/IV",
+      "legge_section_alias": "Book 4",
+      "expected_exact_alignment_count": 26,
+      "source_ids": {
+        "source_id": "book-04-liren__zhwikisource-20260529",
+        "target_source_id": "book-04-liren__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-05-gongyechang",
+      "slug": "gongyechang",
+      "label": "公冶長第五",
+      "canonical_ref": "論語 5",
+      "sort_key": 5,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/公冶長第五",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/V",
+      "legge_section_alias": "Book 5",
+      "expected_exact_alignment_count": 28,
+      "source_ids": {
+        "source_id": "book-05-gongyechang__zhwikisource-20260529",
+        "target_source_id": "book-05-gongyechang__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-06-yongye",
+      "slug": "yongye",
+      "label": "雍也第六",
+      "canonical_ref": "論語 6",
+      "sort_key": 6,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/雍也第六",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/VI",
+      "legge_section_alias": "Book 6",
+      "expected_exact_alignment_count": 28,
+      "source_ids": {
+        "source_id": "book-06-yongye__zhwikisource-20260529",
+        "target_source_id": "book-06-yongye__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-07-shuer",
+      "slug": "shuer",
+      "label": "述而第七",
+      "canonical_ref": "論語 7",
+      "sort_key": 7,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/述而第七",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/VII",
+      "legge_section_alias": "Book 7",
+      "expected_exact_alignment_count": 37,
+      "source_ids": {
+        "source_id": "book-07-shuer__zhwikisource-20260529",
+        "target_source_id": "book-07-shuer__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-08-taibo",
+      "slug": "taibo",
+      "label": "泰伯第八",
+      "canonical_ref": "論語 8",
+      "sort_key": 8,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/泰伯第八",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/VIII",
+      "legge_section_alias": "Book 8",
+      "expected_exact_alignment_count": 21,
+      "source_ids": {
+        "source_id": "book-08-taibo__zhwikisource-20260529",
+        "target_source_id": "book-08-taibo__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-09-zihan",
+      "slug": "zihan",
+      "label": "子罕第九",
+      "canonical_ref": "論語 9",
+      "sort_key": 9,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/子罕第九",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/IX",
+      "legge_section_alias": "Book 9",
+      "expected_exact_alignment_count": 31,
+      "source_ids": {
+        "source_id": "book-09-zihan__zhwikisource-20260529",
+        "target_source_id": "book-09-zihan__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-10-xiangdang",
+      "slug": "xiangdang",
+      "label": "鄉黨第十",
+      "canonical_ref": "論語 10",
+      "sort_key": 10,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/鄉黨第十",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/X",
+      "legge_section_alias": "Book 10",
+      "expected_exact_alignment_count": 18,
+      "source_ids": {
+        "source_id": "book-10-xiangdang__zhwikisource-20260529",
+        "target_source_id": "book-10-xiangdang__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-11-xianjin",
+      "slug": "xianjin",
+      "label": "先進第十一",
+      "canonical_ref": "論語 11",
+      "sort_key": 11,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/先進第十一",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XI",
+      "legge_section_alias": "Book 11",
+      "expected_exact_alignment_count": 25,
+      "source_ids": {
+        "source_id": "book-11-xianjin__zhwikisource-20260529",
+        "target_source_id": "book-11-xianjin__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-12-yanyuan",
+      "slug": "yanyuan",
+      "label": "顏淵第十二",
+      "canonical_ref": "論語 12",
+      "sort_key": 12,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/顏淵第十二",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XII",
+      "legge_section_alias": "Book 12",
+      "expected_exact_alignment_count": 24,
+      "source_ids": {
+        "source_id": "book-12-yanyuan__zhwikisource-20260529",
+        "target_source_id": "book-12-yanyuan__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-13-zilu",
+      "slug": "zilu",
+      "label": "子路第十三",
+      "canonical_ref": "論語 13",
+      "sort_key": 13,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/子路第十三",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XIII",
+      "legge_section_alias": "Book 13",
+      "expected_exact_alignment_count": 30,
+      "source_ids": {
+        "source_id": "book-13-zilu__zhwikisource-20260529",
+        "target_source_id": "book-13-zilu__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-14-xianwen",
+      "slug": "xianwen",
+      "label": "憲問第十四",
+      "canonical_ref": "論語 14",
+      "sort_key": 14,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/憲問第十四",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XIV",
+      "legge_section_alias": "Book 14",
+      "expected_exact_alignment_count": 47,
+      "source_ids": {
+        "source_id": "book-14-xianwen__zhwikisource-20260529",
+        "target_source_id": "book-14-xianwen__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-15-weilinggong",
+      "slug": "weilinggong",
+      "label": "衛靈公第十五",
+      "canonical_ref": "論語 15",
+      "sort_key": 15,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E/%E8%A1%9E%E9%9D%88%E5%85%AC%E7%AC%AC%E5%8D%81%E4%BA%94",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XV",
+      "legge_section_alias": "Book 15",
+      "expected_exact_alignment_count": 41,
+      "source_ids": {
+        "source_id": "book-15-weilinggong__zhwikisource-20260529",
+        "target_source_id": "book-15-weilinggong__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-16-jishi",
+      "slug": "jishi",
+      "label": "季氏第十六",
+      "canonical_ref": "論語 16",
+      "sort_key": 16,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/季氏第十六",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XVI",
+      "legge_section_alias": "Book 16",
+      "expected_exact_alignment_count": 14,
+      "source_ids": {
+        "source_id": "book-16-jishi__zhwikisource-20260529",
+        "target_source_id": "book-16-jishi__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-17-yanghuo",
+      "slug": "yanghuo",
+      "label": "陽貨第十七",
+      "canonical_ref": "論語 17",
+      "sort_key": 17,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/陽貨第十七",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XVII",
+      "legge_section_alias": "Book 17",
+      "expected_exact_alignment_count": 26,
+      "source_ids": {
+        "source_id": "book-17-yanghuo__zhwikisource-20260529",
+        "target_source_id": "book-17-yanghuo__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-18-weizi",
+      "slug": "weizi",
+      "label": "微子第十八",
+      "canonical_ref": "論語 18",
+      "sort_key": 18,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/微子第十八",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XVIII",
+      "legge_section_alias": "Book 18",
+      "expected_exact_alignment_count": 11,
+      "source_ids": {
+        "source_id": "book-18-weizi__zhwikisource-20260529",
+        "target_source_id": "book-18-weizi__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-19-zizhang",
+      "slug": "zizhang",
+      "label": "子張第十九",
+      "canonical_ref": "論語 19",
+      "sort_key": 19,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/子張第十九",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XIX",
+      "legge_section_alias": "Book 19",
+      "expected_exact_alignment_count": 25,
+      "source_ids": {
+        "source_id": "book-19-zizhang__zhwikisource-20260529",
+        "target_source_id": "book-19-zizhang__legge-cc-v1-1893"
+      }
+    },
+    {
+      "section_id": "book-20-yaoyue",
+      "slug": "yaoyue",
+      "label": "堯曰第二十",
+      "canonical_ref": "論語 20",
+      "sort_key": 20,
+      "status": "complete",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/論語/堯曰第二十",
+      "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XX",
+      "legge_section_alias": "Book 20",
+      "expected_exact_alignment_count": 3,
+      "source_ids": {
+        "source_id": "book-20-yaoyue__zhwikisource-20260529",
+        "target_source_id": "book-20-yaoyue__legge-cc-v1-1893"
+      }
+    }
+  ],
+  "summary": {
+    "section_count": 20,
+    "complete_sections": 20,
+    "metadata_only_sections": 0,
+    "sections_needing_alignment": 0,
+    "sections_needing_qc": 0,
+    "exact_alignment_count": 501
+  }
+}
