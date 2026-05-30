@@ -16,6 +16,7 @@ from common import (
     work_coverage_paths,
     write_json,
 )
+from shijing_quality import build_shijing_quality_context
 
 
 def count_export_rows(work_id: str) -> tuple[int, dict[str, int], set[str]]:
@@ -95,6 +96,29 @@ def write_markdown_report(path: Path, report: dict[str, Any]) -> None:
             f"- Present with coarse or non-preferred exact alignment: {len(report['sections_with_coarse_or_nonpreferred_alignment'])}",
         ]
     )
+    if report["work_id"] == "shijing":
+        lines.extend(
+            [
+                "",
+                "## Shijing quality signals",
+                "",
+                "| Metric | Count |",
+                "| --- | ---: |",
+                f"| ocr_or_fulltext_derived_sections | {len(report['ocr_or_fulltext_derived_sections'])} |",
+                f"| sections_needing_human_text_review | {len(report['sections_needing_human_text_review'])} |",
+                f"| sections_with_coarse_alignment | {len(report['sections_with_coarse_alignment'])} |",
+                f"| sections_with_single_poem_alignment | {len(report['sections_with_single_poem_alignment'])} |",
+                f"| sections_with_extreme_length_ratio | {len(report['sections_with_extreme_length_ratio'])} |",
+                f"| sections_with_possible_commentary_leakage | {len(report['sections_with_possible_commentary_leakage'])} |",
+                "",
+                "### Witness mix",
+                "",
+                "| Witness type | Complete sections |",
+                "| --- | ---: |",
+            ]
+        )
+        for witness_type, count in sorted(report["complete_sections_by_witness_type"].items()):
+            lines.append(f"| {witness_type} | {count} |")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -138,6 +162,37 @@ def audit_work_coverage(
         ),
         "sections_with_coarse_or_nonpreferred_alignment": sorted(coarse_sections),
     }
+    if work_id == "shijing":
+        quality_context = build_shijing_quality_context(manifest=manifest)
+        report.update(
+            {
+                "complete_sections_by_witness_type": quality_context["summary"]["complete_sections_by_witness_type"],
+                "ocr_or_fulltext_derived_sections": sorted(
+                    section["section_id"] for section in quality_context["sections"] if section["ocr_or_fulltext_derived"]
+                ),
+                "sections_needing_human_text_review": sorted(
+                    section["section_id"]
+                    for section in quality_context["sections"]
+                    if section["complete_but_needs_human_text_review"]
+                ),
+                "sections_with_coarse_alignment": sorted(
+                    section["section_id"] for section in quality_context["sections"] if section["has_coarse_alignment"]
+                ),
+                "sections_with_single_poem_alignment": sorted(
+                    section["section_id"] for section in quality_context["sections"] if section["is_single_poem_alignment"]
+                ),
+                "sections_with_extreme_length_ratio": sorted(
+                    section["section_id"]
+                    for section in quality_context["sections"]
+                    if section["suspiciously_extreme_length_ratio"]
+                ),
+                "sections_with_possible_commentary_leakage": sorted(
+                    section["section_id"]
+                    for section in quality_context["sections"]
+                    if section["possible_commentary_leakage_markers"]
+                ),
+            }
+        )
 
     paths = work_coverage_paths(work_id)
     json_path = json_output_path or paths["json"]

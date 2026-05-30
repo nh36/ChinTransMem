@@ -24,6 +24,7 @@ from common import (
     write_json,
     write_jsonl,
 )
+from shijing_quality import shijing_witness_metadata
 
 WORK_ID = "shijing"
 MANIFEST_PATH = MANIFESTS_DIR / f"{WORK_ID}.yml"
@@ -809,6 +810,7 @@ def map_sbe_page_title(title: str, chinese_catalog: list[dict[str, Any]]) -> dic
 
 
 def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witness: str) -> dict[str, Any]:
+    witness_meta = shijing_witness_metadata(english_witness)
     if poem["sort_key"] == 1 and english_witness == "standalone_sheking":
         return dict(SECTION_CATALOG[0])
     if english_witness == "legge_hocr":
@@ -828,6 +830,7 @@ def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witn
             "en_page_title": en_page_title,
             "target_source_suffix": HOCR_TARGET_SOURCE_SUFFIX,
             "english_witness": english_witness,
+            **witness_meta,
             **witness,
             "force_poem_alignment": True,
             "reviewed_ocr_notes": (
@@ -854,6 +857,7 @@ def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witn
             "en_page_title": en_page_title,
             "target_source_suffix": OCR_TARGET_SOURCE_SUFFIX,
             "english_witness": english_witness,
+            **witness_meta,
             "candidate_en_page_url": witness["candidate_en_page_url"],
             "candidate_en_text_url": witness["candidate_en_text_url"],
             "candidate_en_ocr_url": witness["candidate_en_ocr_url"],
@@ -895,6 +899,7 @@ def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witn
         "en_page_title": en_page_title,
         "target_source_suffix": target_suffix,
         "english_witness": english_witness,
+        **witness_meta,
     }
 
 
@@ -947,7 +952,10 @@ def build_canonical_section_inventory(
                     "zh_page_url": zh_page_url,
                     "status": "missing_chinese_source",
                     "coverage_status": "title_only_lost_text",
+                    "english_witness_type": "not_applicable",
                     "english_witness_status": "not_applicable",
+                    "source_witness_type": "not_applicable",
+                    "needs_human_text_review": False,
                 }
             )
             continue
@@ -964,12 +972,17 @@ def build_canonical_section_inventory(
                     "section_id": section_id,
                     "zh_page_url": zh_page_url,
                     "en_page_url": complete_section["en_page_url"],
+                    "english_witness": complete_section["english_witness"],
                     "status": "complete",
                     "coverage_status": "complete",
-                    "english_witness_status": "verified_transcribed_text",
+                    "english_witness_type": complete_section["english_witness_type"],
+                    "english_witness_status": complete_section["english_witness_status"],
+                    "source_witness_type": complete_section["source_witness_type"],
+                    "needs_human_text_review": complete_section["needs_human_text_review"],
                 }
             )
             continue
+        witness_meta = shijing_witness_metadata("legge_hocr")
         inventory.append(
             {
                 "global_sort_key": entry["sort_key"],
@@ -981,9 +994,13 @@ def build_canonical_section_inventory(
                 "section_id": section_id,
                 "zh_page_url": zh_page_url,
                 **legge_ocr_witness_for_entry(entry),
+                "english_witness": "legge_hocr",
                 "status": "needs_alignment",
                 "coverage_status": "public_domain_text_witness_available",
-                "english_witness_status": "verified_transcribed_text_available",
+                "english_witness_type": witness_meta["english_witness_type"],
+                "english_witness_status": witness_meta["english_witness_status"],
+                "source_witness_type": witness_meta["source_witness_type"],
+                "needs_human_text_review": witness_meta["needs_human_text_review"],
             }
         )
     return inventory
@@ -1837,6 +1854,7 @@ def build_segments_and_alignments(
 
 def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[str, Any]]:
     chinese_source_id, english_source_id = source_ids(section)
+    witness_meta = shijing_witness_metadata(section.get("english_witness"))
     english_notes = (
         "Processed segmentation preserves the stanza blocks printed on Legge's standalone She King page."
         if section["english_witness"] == "standalone_sheking"
@@ -1874,6 +1892,9 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
                 "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text "
                 "separate from translation and extracts subsection headings when multiple poems share a Chinese page."
             ),
+            "witness_type": "zh_wikisource_page",
+            "text_review_status": "verified_transcribed_text",
+            "needs_human_text_review": False,
         },
         {
             "source_id": english_source_id,
@@ -1902,7 +1923,17 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
             "processed_path": str(paths["en_segments"].relative_to(REPO_ROOT)),
             "rights_status": "public_domain",
             "author_or_translator_ids": ["james-legge"],
-            "notes": english_notes,
+            "notes": (
+                english_notes
+                + (
+                    " This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription."
+                    if witness_meta["needs_human_text_review"]
+                    else ""
+                )
+            ),
+            "witness_type": witness_meta["english_witness_type"],
+            "text_review_status": witness_meta["english_witness_status"],
+            "needs_human_text_review": witness_meta["needs_human_text_review"],
         },
     ]
 
@@ -1962,6 +1993,7 @@ def write_section_files(section: dict[str, Any], *, skip_fetch: bool) -> dict[st
 
     enriched_section = {
         **section,
+        **shijing_witness_metadata(section.get("english_witness")),
         "work_id": WORK_ID,
         "status": "complete",
         "coverage_status": "complete",
@@ -2079,6 +2111,10 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
             "poem_number": inventory_item["local_poem_number"],
             "section_unit": "poem",
             "zh_page_url": inventory_item["zh_page_url"],
+            "english_witness_type": inventory_item["english_witness_type"],
+            "english_witness_status": inventory_item["english_witness_status"],
+            "source_witness_type": inventory_item["source_witness_type"],
+            "needs_human_text_review": inventory_item["needs_human_text_review"],
         }
         if complete_section is not None:
             manifest_sections.append(
@@ -2129,7 +2165,7 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
                 "notes": (
                     "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is "
                     "available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; "
-                    "section-level extraction still needs verification before TMX export."
+                    "section-level extraction still needs verification before TMX export, and OCR-derived text should stay visibly review-pending until checked."
                 ),
             }
         )

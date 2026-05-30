@@ -2,7 +2,7 @@ PYTHON ?= python3
 TEST ?= tests.test_corpus_workflow.CorpusWorkflowTest.test_lunyu_workflow_counts_and_qc
 WORK ?= lunyu
 
-.PHONY: bootstrap-corpus bootstrap-work bootstrap-lunyu bootstrap-mengzi bootstrap-shijing corpus corpus-work pilot init-db import-corpus import-pilot export-corpus export-pilot validate-policy audit-coverage validate-granularity preflight-work validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
+.PHONY: bootstrap-corpus bootstrap-work bootstrap-lunyu bootstrap-mengzi bootstrap-shijing corpus corpus-work pilot init-db import-corpus import-pilot export-corpus export-pilot validate-policy audit-coverage validate-granularity audit-shijing-quality preflight-work validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
 
 bootstrap-corpus:
 	$(PYTHON) scripts/bootstrap_work_corpus.py --skip-fetch
@@ -49,6 +49,9 @@ audit-coverage:
 validate-granularity:
 	$(PYTHON) scripts/validate_alignment_granularity.py --work-id $(WORK)
 
+audit-shijing-quality:
+	$(PYTHON) scripts/audit_shijing_completion_quality.py
+
 preflight-work:
 	$(PYTHON) scripts/validate_ingestion_policy.py --work-id $(WORK)
 	$(PYTHON) scripts/audit_work_coverage.py --work-id $(WORK)
@@ -71,6 +74,7 @@ regression:
 	$(MAKE) preflight-work WORK=lunyu
 	$(MAKE) preflight-work WORK=mengzi
 	$(MAKE) preflight-work WORK=shijing
+	$(MAKE) audit-shijing-quality
 	$(MAKE) test
 
 install-hooks:

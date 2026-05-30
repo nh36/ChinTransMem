@@ -18,6 +18,7 @@ from common import (
     write_json,
 )
 from import_corpus import alignment_path_for_section
+from shijing_quality import build_shijing_quality_context, detect_quality_markers
 
 
 def load_export_rows(work_id: str) -> list[dict[str, Any]]:
@@ -65,6 +66,7 @@ def validate_work_alignment_granularity(work_id: str, output_path: Path | None =
     source_map = {source["source_id"]: source for source in source_records}
     segment_section_map = build_segment_section_map(source_records)
     errors: list[str] = []
+    warnings: list[str] = []
     section_group_ids: set[str] = set()
 
     manifest_section_ids = {section["section_id"] for section in manifest["sections"]}
@@ -158,11 +160,35 @@ def validate_work_alignment_granularity(work_id: str, output_path: Path | None =
     if leaked_section_group_ids:
         errors.append(f"{work_id}: section_group alignments leaked into TMX: {leaked_section_group_ids}.")
 
+    if work_id == "shijing":
+        quality_context = build_shijing_quality_context(manifest=manifest, export_rows=export_rows)
+        for section in quality_context["sections"]:
+            if section["is_single_poem_alignment"] and section["english_word_count"] >= quality_context["thresholds"]["english_word_long_threshold"]:
+                warnings.append(
+                    f"{work_id}: complete section {section['section_id']} has a single poem-level exact alignment with unusually long English text."
+                )
+            if section["possible_stanza_split"]:
+                warnings.append(
+                    f"{work_id}: complete section {section['section_id']} may support stanza-level splitting but currently exports one poem-level alignment."
+                )
+            if section["possible_commentary_leakage_markers"]:
+                warnings.append(
+                    f"{work_id}: complete section {section['section_id']} shows possible commentary/page-furniture markers {section['possible_commentary_leakage_markers']}."
+                )
+        for row in export_rows:
+            row_markers = detect_quality_markers(row["translation_text"])
+            if row_markers:
+                warnings.append(
+                    f"{work_id}: export row {row['alignment_id']} shows possible heading/commentary markers {row_markers}."
+                )
+
     report = {
         "work_id": work_id,
         "section_count": len(manifest["sections"]),
         "complete_sections": sum(1 for section in manifest["sections"] if section.get("tmx_status") == "complete"),
         "exact_alignment_count": len(export_rows),
+        "warning_count": len(warnings),
+        "warnings": warnings,
         "error_count": len(errors),
         "errors": errors,
     }

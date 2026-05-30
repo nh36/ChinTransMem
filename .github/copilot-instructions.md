@@ -13,6 +13,7 @@
 - `make validate-policy` checks that every committed work has an enforceable inventory, plan, rights policy, and granularity policy.
 - `make audit-coverage WORK=shijing` writes a manifest-driven coverage audit for one work.
 - `make validate-granularity WORK=shijing` enforces manifest-driven alignment scope and coarse-alignment rules for one work.
+- `make audit-shijing-quality` writes the Shijing completion-quality JSON report, summary markdown, and human spot-check packet.
 - `make preflight-work WORK=shijing` runs policy, coverage, and granularity checks for one work.
 - `make corpus` runs the end-to-end workflow for the default work (`lunyu`): initialize the SQLite database, import aggregate metadata, export aligned passages, validate TMX, and write the QC report.
 - `make corpus-work WORK=lunyu` runs the same workflow for a specific work manifest.
@@ -22,7 +23,7 @@
 - `make serve-api` starts the read-only corpus API for the SQLite database.
 - `make test` runs the Python `unittest` suite.
 - `make single-test` runs one test method; override `TEST`, for example `make single-test TEST=tests.test_corpus_workflow.CorpusWorkflowTest.test_lunyu_workflow_counts_and_qc`.
-- Direct Python equivalents are `python3 scripts/bootstrap_work_corpus.py --skip-fetch`, `python3 scripts/bootstrap_lunyu_corpus.py --skip-fetch`, `python3 scripts/bootstrap_shijing_corpus.py --skip-fetch`, `python3 scripts/corpus_workflow.py --work-id lunyu`, `python3 scripts/validate_ingestion_policy.py`, `python3 scripts/audit_work_coverage.py --work-id lunyu`, `python3 scripts/validate_alignment_granularity.py --work-id lunyu`, `python3 scripts/init_db.py`, `python3 scripts/import_corpus.py`, `python3 scripts/export_corpus.py --work-id lunyu`, `python3 scripts/validate_tmx.py --work-id lunyu`, `python3 scripts/qc_corpus.py --work-id lunyu`, `python3 scripts/install_git_hooks.py`, `python3 web/api/corpus_api.py`, and `python3 -m unittest discover -s tests -p 'test_*.py'`.
+- Direct Python equivalents are `python3 scripts/bootstrap_work_corpus.py --skip-fetch`, `python3 scripts/bootstrap_lunyu_corpus.py --skip-fetch`, `python3 scripts/bootstrap_shijing_corpus.py --skip-fetch`, `python3 scripts/corpus_workflow.py --work-id lunyu`, `python3 scripts/validate_ingestion_policy.py`, `python3 scripts/audit_work_coverage.py --work-id lunyu`, `python3 scripts/validate_alignment_granularity.py --work-id lunyu`, `python3 scripts/audit_shijing_completion_quality.py`, `python3 scripts/init_db.py`, `python3 scripts/import_corpus.py`, `python3 scripts/export_corpus.py --work-id lunyu`, `python3 scripts/validate_tmx.py --work-id lunyu`, `python3 scripts/qc_corpus.py --work-id lunyu`, `python3 scripts/install_git_hooks.py`, `python3 web/api/corpus_api.py`, and `python3 -m unittest discover -s tests -p 'test_*.py'`.
 
 ## High-level architecture
 
@@ -63,6 +64,7 @@
 - **Regression runs must exercise the full corpus.** Local pre-commit checks and CI should run `make regression`, not just `make test`, so import, export, TMX validation, and QC all run on every change.
 - **Treat rights status as a first-class field.** Keep public-domain, open, licensed-private, permission-pending, and metadata-only materials clearly separated from the start.
 - **Do not jump from source discovery to scraping.** First prove the canonical inventory, witness structure, minimum exact-alignment unit, fallback policy, and completion definition.
+- **Keep Shijing witness labels honest.** Distinguish clean Wikisource transcription, SBE transcluded pages, and OCR/full-text-derived Legge extraction; OCR-derived text that still needs review must not be labeled as a clean verified transcription.
 - **Do not treat LLM output as source text.** LLMs may assist with alignment, QC, and notes, but must not supply published-translation corpus content or fill missing source text.
 - **Do not collapse recensions or editions.** Two texts with the same title may still be different witnesses/versions and must not share a source ID without verification.
 - **Use romanization/search aliases for discovery.** Maintain Wade-Giles, older spellings, and local-library lookup variants as alias metadata instead of replacing canonical identifiers.

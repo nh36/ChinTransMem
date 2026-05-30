@@ -21,6 +21,7 @@ from common import (
     load_json_compatible_yaml,
     read_jsonl,
 )
+from audit_shijing_completion_quality import audit_shijing_completion_quality
 from audit_work_coverage import audit_work_coverage
 from export_corpus import load_exact_alignment_rows, write_tmx
 from import_corpus import import_corpus
@@ -78,6 +79,9 @@ class CorpusWorkflowTest(unittest.TestCase):
             shijing_coverage_output = temp_path / "shijing__coverage_audit.json"
             shijing_coverage_markdown = temp_path / "shijing__coverage_audit.md"
             shijing_granularity_output = temp_path / "shijing__granularity_qc.json"
+            shijing_quality_output = temp_path / "shijing__completion_quality.json"
+            shijing_quality_markdown = temp_path / "shijing__completion_quality.md"
+            shijing_spotcheck_packet = temp_path / "shijing__spotcheck_packet.md"
 
             initialize_database(db_path)
             import_summary = import_corpus(db_path)
@@ -118,6 +122,11 @@ class CorpusWorkflowTest(unittest.TestCase):
                 "shijing",
                 output_path=shijing_granularity_output,
             )
+            shijing_quality_summary = audit_shijing_completion_quality(
+                json_output_path=shijing_quality_output,
+                markdown_output_path=shijing_quality_markdown,
+                spotcheck_output_path=shijing_spotcheck_packet,
+            )
 
             self.assertEqual(import_summary["work_count"], len(works))
             self.assertEqual(import_summary["section_count"], len(sections))
@@ -139,6 +148,7 @@ class CorpusWorkflowTest(unittest.TestCase):
             self.assertEqual(shijing_qc_summary["status"], "pass")
             self.assertTrue(all(report["error_count"] == 0 for report in policy_reports.values()))
             self.assertEqual(shijing_granularity_summary["error_count"], 0)
+            self.assertEqual(shijing_quality_summary["hard_failure_count"], 0)
             self.assertEqual(len(qc_summary["sections"]), expected_section_counts[DEFAULT_WORK_ID])
             self.assertEqual(len(mengzi_qc_summary["sections"]), expected_section_counts["mengzi"])
             self.assertEqual(len(shijing_qc_summary["sections"]), expected_section_counts["shijing"])
@@ -264,6 +274,9 @@ class CorpusWorkflowTest(unittest.TestCase):
                 manifests["shijing"]["summary"]["metadata_only_sections"] + expected_complete_section_counts["shijing"],
                 expected_section_counts["shijing"],
             )
+            self.assertTrue(shijing_quality_output.exists())
+            self.assertTrue(shijing_quality_markdown.exists())
+            self.assertTrue(shijing_spotcheck_packet.exists())
             self.assertEqual(len(shijing_inventory["poems"]), expected_section_counts["shijing"])
             self.assertEqual({section["section_id"] for section in manifests["shijing"]["sections"]}, shijing_inventory_sections)
             self.assertEqual(shijing_coverage_summary["manifest_section_count"], expected_section_counts["shijing"])
@@ -271,9 +284,42 @@ class CorpusWorkflowTest(unittest.TestCase):
                 shijing_coverage_summary["units_with_at_least_one_exact_alignment"],
                 expected_complete_section_counts["shijing"],
             )
+            self.assertEqual(shijing_quality_summary["summary"]["complete_sections"], expected_complete_section_counts["shijing"])
+            self.assertGreater(
+                shijing_quality_summary["summary"]["ocr_or_fulltext_derived_sections"],
+                0,
+            )
+            self.assertEqual(
+                shijing_quality_summary["summary"]["metadata_only_sections"],
+                manifests["shijing"]["summary"]["metadata_only_sections"],
+            )
+            self.assertGreater(
+                shijing_coverage_summary["complete_sections_by_witness_type"]["full-text/OCR-derived witness"],
+                0,
+            )
+            self.assertLess(
+                shijing_coverage_summary["units_with_verified_public_domain_english_source"],
+                shijing_coverage_summary["units_with_english_public_domain_witness"],
+            )
+            self.assertTrue(
+                all(
+                    section["english_witness_status"] != "verified_transcribed_text"
+                    for section in shijing_quality_summary["sections"]
+                    if section["english_witness_type"] == "fulltext_ocr_derived_witness"
+                )
+            )
             self.assertGreaterEqual(
                 sum(1 for row in shijing_rows if row["is_coarse_alignment"]),
                 1,
+            )
+            self.assertNotIn("section_group", shijing_tmx.read_text(encoding="utf-8"))
+            exported_shijing_sections = {row["section_id"] for row in shijing_rows}
+            self.assertTrue(
+                all(
+                    source["rights_status"] == "public_domain"
+                    for source in sources
+                    if source["work_id"] == "shijing" and source.get("section_id") in exported_shijing_sections
+                )
             )
 
             last_section_id = manifests[DEFAULT_WORK_ID]["sections"][-1]["section_id"]
@@ -308,6 +354,16 @@ class CorpusWorkflowTest(unittest.TestCase):
         sources = load_json_compatible_yaml(METADATA_DIR / "sources.yml")
         source_ids = [source["source_id"] for source in sources]
         self.assertEqual(len(source_ids), len(set(source_ids)))
+
+    def test_shijing_quality_reports_are_present(self) -> None:
+        quality_report = load_json_compatible_yaml(REPO_ROOT / "logs" / "qc_reports" / "shijing__completion_quality.json")
+        spotcheck_packet = REPO_ROOT / "documentation" / "shijing_spotcheck_packet.md"
+        self.assertEqual(quality_report["work_id"], "shijing")
+        self.assertEqual(quality_report["summary"]["complete_sections"], 305)
+        self.assertEqual(quality_report["summary"]["metadata_only_sections"], 6)
+        self.assertGreaterEqual(quality_report["summary"]["exact_alignment_count"], 452)
+        self.assertEqual(quality_report["hard_failure_count"], 0)
+        self.assertTrue(spotcheck_packet.exists())
 
     def test_manifest_policy_and_exports_are_consistent(self) -> None:
         works = load_json_compatible_yaml(METADATA_DIR / "works.yml")
