@@ -3,3 +3,4 @@ __pycache__/
 .DS_Store
 db/*.sqlite3
 db/*.sqlite3-*
+corpus/raw/internet_archive/legge-sheking-1871-part-2__hocr.html
