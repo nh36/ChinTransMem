@@ -2,7 +2,7 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shijing__guofeng-tangfeng-009__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+    <tu tuid="shijing__guofeng-tangfeng-009__001__zhwikisource-20260530__legge-sheking-1871-ocr">
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-tangfeng-009</prop>
       <prop type="x-section-unit">poem</prop>
@@ -14,7 +14,7 @@
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·唐風·009.1</prop>
-      <prop type="x-translation-ref">無衣.1</prop>
+      <prop type="x-translation-ref">Woo e.1</prop>
       <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>豈曰無衣七兮、不如子之衣、安且吉兮。
@@ -31,9 +31,20 @@
 王於興師、脩我甲兵、與子偕行。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>一章 o
-二章 o
-ODES OF T4ANG.</seg>
+        <seg>How do we proceed without clothes?
+We have your lower garments and your upper.
+He has repaired our halberds and spears,
+And we will seek our revenge.
+
+How do we proceed without clothes?
+We have your skirts and robes.
+He has repaired our spears and halberds,
+And we will make him our comrade.
+
+How do we proceed without clothes?
+We have your capes and tunics.
+He has repaired our armour and helmets,
+And we will go with him.</seg>
       </tuv>
     </tu>
   </body>

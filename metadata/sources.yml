@@ -1145,23 +1145,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhounan-002__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhounan-002__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-002",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Koli fan.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Koh t'an', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-002__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-002__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhounan-003__zhwikisource-20260530",
@@ -1183,23 +1183,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhounan-003__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhounan-003__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-003",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Keuen-urh. i/ ' 《、', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Keuen-urh', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-003__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-003__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhounan-004__zhwikisource-20260530",
@@ -1221,23 +1221,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhounan-004__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhounan-004__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-004",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'K'ew mull.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'K'ew muh', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-004__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-004__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhounan-005__zhwikisource-20260530",
@@ -1259,23 +1259,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhounan-005__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhounan-005__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-005",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, '螽斯', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Chung-sze', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-005__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-005__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhounan-006__zhwikisource-20260530",
@@ -1297,23 +1297,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhounan-006__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhounan-006__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-006",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'T‘aou', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'T'aou yaou', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-006__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-006__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhounan-007__zhwikisource-20260530",
@@ -1335,23 +1335,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhounan-007__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhounan-007__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-007",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'TLoo tseu.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'T'oo tseu', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-007__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-007__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhounan-008__zhwikisource-20260530",
@@ -1373,23 +1373,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhounan-008__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhounan-008__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-008",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Fow-e.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Fow-e', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-008__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-008__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhounan-009__zhwikisource-20260530",
@@ -1411,23 +1411,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhounan-009__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhounan-009__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-009",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, '漢廣', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Han kwang', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-009__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-009__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhounan-010__zhwikisource-20260530",
@@ -1449,23 +1449,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhounan-010__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhounan-010__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-010",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Joo fun.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Joo fun', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-010__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-010__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhounan-011__zhwikisource-20260530",
@@ -1487,23 +1487,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhounan-011__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhounan-011__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-011",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Lin che che.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Lin che che', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-011__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-011__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhaonan-001__zhwikisource-20260530",
@@ -1525,23 +1525,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhaonan-001__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhaonan-001__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhaonan-001",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'TsLeoh chlaou.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Ts'eoh chlaou', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhaonan-001__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhaonan-001__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhaonan-002__zhwikisource-20260530",
@@ -1578,7 +1578,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -1654,7 +1654,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -2019,23 +2019,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhaonan-014__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhaonan-014__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhaonan-014",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Taoiu-yu.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Tsow-yu', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhaonan-014__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhaonan-014__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-beifeng-001__zhwikisource-20260530",
@@ -2186,7 +2186,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -2604,7 +2604,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 1.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -2722,44 +2722,6 @@
     "needs_human_text_review": true
   },
   {
-    "source_id": "guofeng-beifeng-019__zhwikisource-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-019",
-    "language_code": "zh-Hant",
-    "source_kind": "wikisource",
-    "citation": "詩經/二子乘舟, Chinese Wikisource, accessed 2026-05-30.",
-    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BA%8C%E5%AD%90%E4%B9%98%E8%88%9F",
-    "raw_path": "corpus/raw/wikisource/shijing__guofeng-beifeng-019__zhwikisource-20260530__raw.wikitext",
-    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-beifeng-019__zhwikisource-20260530__segments.jsonl",
-    "rights_status": "public_domain",
-    "author_or_translator_ids": [
-      "shijing-anthologists"
-    ],
-    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
-    "witness_type": "zh_wikisource_page",
-    "text_review_status": "verified_transcribed_text",
-    "needs_human_text_review": false
-  },
-  {
-    "source_id": "guofeng-beifeng-019__legge-sheking-1871-hocr",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-019",
-    "language_code": "en",
-    "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Urh-tsze.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
-    "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-beifeng-019__legge-sheking-1871-hocr__segments.jsonl",
-    "rights_status": "public_domain",
-    "author_or_translator_ids": [
-      "james-legge"
-    ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
-    "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
-  },
-  {
     "source_id": "guofeng-yongfeng-001__zhwikisource-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-yongfeng-001",
@@ -2794,7 +2756,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -2870,7 +2832,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 2.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -2984,7 +2946,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 2.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -3288,7 +3250,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 2.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -3387,23 +3349,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-weifeng-007__legge-sheking-1871-hocr",
+    "source_id": "guofeng-weifeng-007__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-weifeng-007",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Ho kwang.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Ho kwang', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-weifeng-007__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-weifeng-007__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-weifeng-008__zhwikisource-20260530",
@@ -3554,7 +3516,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 1.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -3858,7 +3820,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 3.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -4489,23 +4451,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhengfeng-016__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhengfeng-016__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhengfeng-016",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Fu7ig y', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Fung y', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-016__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-016__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhengfeng-017__zhwikisource-20260530",
@@ -4565,23 +4527,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-zhengfeng-018__legge-sheking-1871-hocr",
+    "source_id": "guofeng-zhengfeng-018__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-zhengfeng-018",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Yang che shwuy.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Yang che shwuy', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-018__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-018__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-zhengfeng-019__zhwikisource-20260530",
@@ -5682,7 +5644,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 1.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -5705,23 +5667,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-tangfeng-009__legge-sheking-1871-hocr",
+    "source_id": "guofeng-tangfeng-009__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-tangfeng-009",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Woo e.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Woo e', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-tangfeng-009__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-tangfeng-009__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-tangfeng-010__zhwikisource-20260530",
@@ -5796,7 +5758,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -6062,7 +6024,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 1.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -6522,44 +6484,6 @@
     "needs_human_text_review": true
   },
   {
-    "source_id": "guofeng-chenfeng-009__zhwikisource-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-009",
-    "language_code": "zh-Hant",
-    "source_kind": "wikisource",
-    "citation": "詩經/株林, Chinese Wikisource, accessed 2026-05-30.",
-    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A0%AA%E6%9E%97",
-    "raw_path": "corpus/raw/wikisource/shijing__guofeng-chenfeng-009__zhwikisource-20260530__raw.wikitext",
-    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-chenfeng-009__zhwikisource-20260530__segments.jsonl",
-    "rights_status": "public_domain",
-    "author_or_translator_ids": [
-      "shijing-anthologists"
-    ],
-    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
-    "witness_type": "zh_wikisource_page",
-    "text_review_status": "verified_transcribed_text",
-    "needs_human_text_review": false
-  },
-  {
-    "source_id": "guofeng-chenfeng-009__legge-sheking-1871-hocr",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-009",
-    "language_code": "en",
-    "source_kind": "translation",
-    "citation": "James Legge, The She King, '株林', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
-    "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-chenfeng-009__legge-sheking-1871-hocr__segments.jsonl",
-    "rights_status": "public_domain",
-    "author_or_translator_ids": [
-      "james-legge"
-    ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
-    "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
-  },
-  {
     "source_id": "guofeng-chenfeng-010__zhwikisource-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-chenfeng-010",
@@ -6731,23 +6655,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-kuaifeng-004__legge-sheking-1871-hocr",
+    "source_id": "guofeng-kuaifeng-004__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-kuaifeng-004",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Fei fung.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Fei fung', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-kuaifeng-004__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-kuaifeng-004__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-caofeng-001__zhwikisource-20260530",
@@ -6936,7 +6860,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 8.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -7073,23 +6997,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "guofeng-binfeng-005__legge-sheking-1871-hocr",
+    "source_id": "guofeng-binfeng-005__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "guofeng-binfeng-005",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Fall ho.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Fall ho', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics41legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__guofeng-binfeng-005__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-binfeng-005__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "guofeng-binfeng-006__zhwikisource-20260530",
@@ -7354,7 +7278,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 1.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -7392,7 +7316,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -7506,7 +7430,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 4.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -7529,23 +7453,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "xiaoya-luming-010__legge-sheking-1871-hocr",
+    "source_id": "xiaoya-luming-010__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "xiaoya-luming-010",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Nan hae.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Yu le', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics42legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__xiaoya-luming-010__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-luming-010__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "xiaoya-nanyoujiayu-001__zhwikisource-20260530",
@@ -7567,23 +7491,23 @@
     "needs_human_text_review": false
   },
   {
-    "source_id": "xiaoya-nanyoujiayu-001__legge-sheking-1871-hocr",
+    "source_id": "xiaoya-nanyoujiayu-001__legge-sheking-1871-ocr",
     "work_id": "shijing",
     "section_id": "xiaoya-nanyoujiayu-001",
     "language_code": "en",
     "source_kind": "translation",
-    "citation": "James Legge, The She King, 'Yew lcang.', Chinese Classics, Vol. IV (1871), Internet Archive hOCR witness, accessed 2026-05-30.",
+    "citation": "James Legge, The She King, 'Nan yew k'ea yu', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
     "source_url": "https://archive.org/details/chineseclassics42legg",
-    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__hocr.html",
-    "processed_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-001__legge-sheking-1871-hocr__segments.jsonl",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-001__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
     ],
-    "notes": "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely. This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription.",
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
-    "text_review_status": "ocr_extracted_needs_review",
-    "needs_human_text_review": true
+    "text_review_status": "human_reviewed_ocr",
+    "needs_human_text_review": false
   },
   {
     "source_id": "xiaoya-nanyoujiayu-002__zhwikisource-20260530",
@@ -8266,7 +8190,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 5 to 9.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8304,7 +8228,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 4.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8342,7 +8266,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8380,7 +8304,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 4, 5, and 7.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8418,7 +8342,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8456,7 +8380,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 3.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8494,7 +8418,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1, 2, and 3.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8532,7 +8456,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 2.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8570,7 +8494,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 3.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8608,7 +8532,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 1.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8684,7 +8608,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 5 and 6.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8798,7 +8722,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -8950,7 +8874,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1, 4 and 5.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -9026,7 +8950,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -9064,7 +8988,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -9102,7 +9026,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -9140,7 +9064,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -9254,7 +9178,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 1.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -9444,7 +9368,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 2.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -9786,7 +9710,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 2.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10014,7 +9938,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10052,7 +9976,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10090,7 +10014,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10128,7 +10052,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 2.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10166,7 +10090,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10204,7 +10128,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10242,7 +10166,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10318,7 +10242,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10356,7 +10280,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10394,7 +10318,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10432,7 +10356,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10470,7 +10394,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10508,7 +10432,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10546,7 +10470,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 1.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10660,7 +10584,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10698,7 +10622,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 1.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10736,7 +10660,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10774,7 +10698,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10812,7 +10736,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10850,7 +10774,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1, 2, 3, 4, and 7.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10888,7 +10812,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10926,7 +10850,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1, 2, and 4.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -10964,7 +10888,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 7.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11002,7 +10926,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and part of 3.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11040,7 +10964,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 4 and 5.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11116,7 +11040,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1, 5, 6, and 7.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11154,7 +11078,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11192,7 +11116,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11230,7 +11154,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11268,7 +11192,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11306,7 +11230,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11344,7 +11268,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11382,7 +11306,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11420,7 +11344,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11458,7 +11382,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11496,7 +11420,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11534,7 +11458,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11572,7 +11496,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11610,7 +11534,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11648,7 +11572,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11686,7 +11610,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11724,7 +11648,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11762,7 +11686,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11800,7 +11724,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11838,7 +11762,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11876,7 +11800,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11914,7 +11838,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11952,7 +11876,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -11990,7 +11914,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12028,7 +11952,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12066,7 +11990,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12104,7 +12028,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12142,7 +12066,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12180,7 +12104,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12218,7 +12142,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12256,7 +12180,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12294,7 +12218,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12332,7 +12256,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12446,7 +12370,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12484,7 +12408,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12522,7 +12446,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12560,7 +12484,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12598,7 +12522,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12636,7 +12560,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   },
   {
@@ -12674,7 +12598,7 @@
     ],
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion.",
     "witness_type": "sbe_transcluded_page",
-    "text_review_status": "verified_transcribed_text",
+    "text_review_status": "sbe_transcluded_verified",
     "needs_human_text_review": false
   }
 ]

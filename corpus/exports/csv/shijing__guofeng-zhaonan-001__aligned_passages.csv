@@ -1,106 +1,17 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-zhaonan-001__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-zhaonan-001,poem,poem,poem,False,,1,1,exact_or_near_exact,0.95,1,詩經·國風·召南·001.1,"維鵲有巢，維鳩居之，之子于歸，百兩御之。
+shijing__guofeng-zhaonan-001__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-001,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·召南·001.1,"維鵲有巢，維鳩居之，之子于歸，百兩御之。
 維鵲有巢，維鳩方之，之子于歸，百兩將之。
-維鵲有巢，維鳩盈之，之子于歸，百兩成之。",鵲巢.1,"二章 o
-ODES OF SHAOU AND THE SOUTH.
-certain. After his death, he received the hon- j
-orary name of K!ang (j^ over-
-throw of the Shang dyn., he was invested by
-king Woo with the principality of Yen, or North
-Yen (北燕 )， having its capital in the pres, j
-dis. of Ta-hing J^.), dep. of Shun-t^een,
-where his descendants are traced, down to the
-Ts‘in dyn. He himself, however, as did Tan, re-
-mained at the court of Chow, and we find them,
-in the Shoo, as the principal ministers of king
-Ching. They were known as the { highest dukes
-( and the ‘ two great chiefs (二 L j 白 )，’
-Tan having charge of the eastern portions of |
-the kingdom, and Shih of the western.
-The pieces in this Book are supposed to have
-been produced in Shaou and the principalities
-south of it, 一 west from those that yielded the
-odes of the Chow-nan.
-Ode 1. Allusive. Celebrating the marriage
-the poefs object was to set forth {the -virtue of
-the lady*/ and wherein they find the allusion to
-that will be seen below. For myself I do not
-see that the virtue of the bride was a point which
-the writer wished to indicate ; his attention was
-taken by the splendour of the nuptials.
-St.l. L.l. see on i. Ode II. 1. The ts(eoh
-is the magpie. It is common in China, and gener-
-ally called he-ts(eoh ( W. 昔烏 ）； it makes the
-same elaborate nest as with ourselves. L. 2.
-is the general name for the dove; here, probably,
-the turtle dove, the she-kew ( It has many
-local names. I do not know that it is a fact
-that the dove is to be found breeding ing, mag-
-pie^ nest, as is here assumed ; but Maou jfi^-ling
-vehemently asserts it, and says that any ooe
-with eyes may see about the villages a flock of
-doves contending with as many magpies, and
-driving the latter from their nests ( 續詩傳
-烏名卷 — *). The virtue of the bride is
-thought to be emblemed by the quietness and
-stupidity of the dove, unable to make a nest for
-itself, or making a very simple, unartistic one.
-The dove is a favourite emblem with all poets
-for a lady ; but surely never, out of China, be-
-cause of its stupidity.5 But says Twan Chcang-
-woo 昌 towards the end of the Sung
-dyn.), 4The duties of a wife are few and confined;
-there is no harm in her being stupid.*
-L.4. p|^ = — * 車， 4 a carriage,5 as being
-supported on two wheels ( 雨車命 ). is
-commonly read hereya, and generally when it has
-the signification of * to meet.’ But it rhymes
-here with keu, and the variation of its sound,
-according to its signification, is a device dating
-only from the Han dyn. The 100 carriages here
-are those of the bridegroom and his friends, who
-come to meet the lady, as she approaches the
-borders of his State.
-St.2. L.2. 方之 = 有之 /has it.， Yen
-Tscan quotes a sentence which ingeniously
-explains this use of as a ver b- 方之以
-The carriages here are those of the bride and all
-her cort.€ge.
-St.3. L. 2. The ‘filling’ of the nest alludes
-to the ladies accompanying the bride to the
-harem. She would be accompanied by two near
-relatives from her own State, and there would be
-three ladies from each of two kindred States, so
-that the prince of a State is described by Kung-
-yang as 4 at once marrying 9 ladies — •
-娶九女 L.4. The 100 carriages here
-cover those of each of the previous stanzas.
-— as in i. TV. 3.,= 1 make her complete.*
-The rhymes are — in st. 1， cat. 5. 1. 1 ;
-in 2, 方 ，將， cat. 10: in 3, 盈 ，成， cat. U.
-Note on the interpretation. In his in-
-teresting essay on the poetry of the Chinese,
-(already referred to), Sir John Davis gives the
-following paraphrase of this ode : 一
-* The nest yon winged artist builds,
-The robber bird shall tear away :
-— So yields her hopes the affianced maid,
-Some wealthy lord’s reluctant prey.
-1 The anxious bird prepares a nest,
-In which the spoiler soon shall dwell:
-一 Forth goes the weeping bride constrained,
-A hundred cars the triumph swell.
-1 Mourn for the tiny architect ;
-A stronger bird hath ta£eri its nest :
-Mourn for the hapless stolen bride,
-How vain the pomp to soothe her breast ! '
-This is paraphrased, he says, *to convey the
-full sense of what is only hinted at in the original,
-and explained in the commentaiy.’ He has
-made a little poem, more interesting than the
-original, but altogether away from the obvious
-meaning of that original, on a view of it not
-hinted at in any commentary.
-THE SHE KING.
-FART I.
-Ode 2. Narrative. The industry and re-"
+維鵲有巢，維鳩盈之，之子于歸，百兩成之。",Ts'eoh chlaou.1,"Magpie has made its nest,
+And the dove occupies it.
+This young lady is going to her future home,
+With a hundred chariots to escort her.
+
+Magpie has made its nest,
+And the dove fills it.
+This young lady is going to her future home,
+With a hundred chariots all complete.
+
+Magpie has made its nest,
+And the dove is in it.
+This young lady is going to her future home,
+With a hundred chariots as attendants."

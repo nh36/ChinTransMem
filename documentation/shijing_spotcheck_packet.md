@@ -7,8 +7,10 @@ This packet is a human-review sample built from the completed Shijing corpus wit
 | Category | Entries |
 | --- | ---: |
 | All Zhou Nan poems | 11 |
-| All poem-level/coarse alignments | 230 |
-| All title-only lost-text metadata entries | 6 |
+| All poem-level/coarse alignments | 228 |
+| All title-only lost-text metadata entries | 8 |
+| Every repaired section | 20 |
+| Every section moved back to metadata-only | 2 |
 | Sections with extreme English/Chinese length ratios | 30 |
 | Subdivision example: 國風 / 召南 | 1 |
 | Subdivision example: 國風 / 周南 | 1 |
@@ -42,8 +44,113 @@ This packet is a human-review sample built from the completed Shijing corpus wit
 | Subdivision example: 頌 / 魯頌 | 1 |
 | Ten longest exported English segments | 10 |
 | Ten shortest exported English segments | 10 |
+| Top 20 remaining warnings | 20 |
 
 ## Detailed entries
+
+### guofeng-beifeng-019 — 二子乘舟
+
+- Categories: Every section moved back to metadata-only
+- section_id: `guofeng-beifeng-019`
+- canonical_ref: `詩經·國風·邶風·019`
+- alignment_granularity: `metadata_only`
+- is_coarse_alignment: `false`
+- notes: Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export, and OCR-derived text should stay visibly review-pending until checked.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BA%8C%E5%AD%90%E4%B9%98%E8%88%9F
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+_No exportable Chinese/English alignment after review._
+```
+
+#### English text
+
+```text
+_Export withdrawn; section remains metadata-only pending better witness recovery._
+```
+
+### guofeng-beifeng-019 — 二子乘舟
+
+- Categories: All title-only lost-text metadata entries
+- section_id: `guofeng-beifeng-019`
+- canonical_ref: `詩經·國風·邶風·019`
+- alignment_granularity: `metadata_only`
+- is_coarse_alignment: `false`
+- notes: Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export, and OCR-derived text should stay visibly review-pending until checked.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BA%8C%E5%AD%90%E4%B9%98%E8%88%9F
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+_No extant Chinese poem text; title-only canonical entry._
+```
+
+#### English text
+
+```text
+_No exportable English text; entry remains metadata-only._
+```
+
+### guofeng-chenfeng-009 — 株林
+
+- Categories: Every section moved back to metadata-only
+- section_id: `guofeng-chenfeng-009`
+- canonical_ref: `詩經·國風·陳風·009`
+- alignment_granularity: `metadata_only`
+- is_coarse_alignment: `false`
+- notes: Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export, and OCR-derived text should stay visibly review-pending until checked.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A0%AA%E6%9E%97
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+_No exportable Chinese/English alignment after review._
+```
+
+#### English text
+
+```text
+_Export withdrawn; section remains metadata-only pending better witness recovery._
+```
+
+### guofeng-chenfeng-009 — 株林
+
+- Categories: All title-only lost-text metadata entries
+- section_id: `guofeng-chenfeng-009`
+- canonical_ref: `詩經·國風·陳風·009`
+- alignment_granularity: `metadata_only`
+- is_coarse_alignment: `false`
+- notes: Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export, and OCR-derived text should stay visibly review-pending until checked.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A0%AA%E6%9E%97
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+_No extant Chinese poem text; title-only canonical entry._
+```
+
+#### English text
+
+```text
+_No exportable English text; entry remains metadata-only._
+```
 
 ### xiaoya-luming-011 — 南陔
 
@@ -717,7 +824,7 @@ And the king said， ‘Let us return.’
 
 ### daya-dang-009 — 常武
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `daya-dang-009`
 - canonical_ref: `詩經·大雅·蕩之什·009`
 - alignment_granularity: `poem`
@@ -1082,7 +1189,7 @@ Be the centre of rest to the people!
 
 ### daya-shengmin-007 — 泂酌
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios, Top 20 remaining warnings
 - section_id: `daya-shengmin-007`
 - canonical_ref: `詩經·大雅·生民之什·007`
 - alignment_granularity: `poem`
@@ -1154,6 +1261,95 @@ Draw it into one vessel and let it flow to another,
 And it may be used for all purposes of cleausing.
 [How much more should] the happy and courteous sovereign
 Be the centre of rest to the people!
+```
+
+### daya-shengmin-008 — 卷阿
+
+- Categories: Ten longest exported English segments
+- section_id: `daya-shengmin-008`
+- canonical_ref: `詩經·大雅·生民之什·008`
+- alignment_granularity: `poem`
+- is_coarse_alignment: `true`
+- notes: Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%B7%E9%98%BF
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/The_Major_Odes_of_the_Kingdom/Decade_2/Ode_8
+
+#### Chinese text
+
+```text
+有卷者阿，飄風自南。豈弟君子，來游來歌，以矢其音。
+伴奐爾游矣，優游爾休矣。豈弟君子，俾爾彌爾性，似先公酋矣。
+爾土宇昄章，亦孔之厚矣。豈弟君子，俾爾彌爾性，百神爾主矣。
+爾受命長矣，茀祿爾康矣。豈弟君子，俾爾彌爾性，純嘏爾常矣。
+有馮有翼，有孝有德，以引以翼。豈弟君子，四方為則。
+顒顒卬卬，如圭如璋，令聞令望。豈弟君子，四方為綱。
+鳳皇于飛，翽翽其羽，亦集爰止。藹藹王多吉士，維君子使，媚于天子。
+鳳皇于飛，翽翽其羽，亦傅于天。藹藹王多吉人，維君子命，媚于庶人。
+鳳皇鳴矣，于彼高岡。梧桐生矣，于彼朝陽。菶菶萋萋，雝雝喈喈。
+君子之車，既庶且多。君子之馬，既閑且馳。矢詩不多，維以遂歌。
+```
+
+#### English text
+
+```text
+Into the recesses of the large mound
+Came the wind, whirling from the south.
+There was (our) happy, courteous sovereign,
+Rambling and singing;
+And I took occasion to give forth my notes.
+
+'Full of spirits you ramble;
+Full of satisfaction you rest.
+O happy and courteous sovereign,
+May you fulfil your years,
+And end them like your ancestors!'
+
+'Your territory is great and glorious,
+And
+​perfectly secure.
+O happy and courteous sovereign,
+May you fulfil your years,
+As the host of all the spirits!
+
+'You have received the appointment long acknowledged,
+With peace around your happiness and dignity.
+O happy and courteous sovereign,
+May you fulfil your years,
+With pure happiness your constant possession!
+
+'You have helpers and supporters,
+Men of filial piety and of virtue,
+To lead you on, and act as wings to you,
+(So that), O happy and courteous sovereign,
+You are a pattern to the four quarters (of the kingdom).
+
+'Full of dignity and majesty (are they),
+Like a ​jade-mace (in its purity),
+The subject of praise, the contemplation of hope.
+O happy and courteous sovereign,
+(Through them) the four quarters (of the kingdom) are guided by you.
+
+'The male and female phœnix fly about,
+Their wings rustling,
+While they settle in their proper resting-place.
+Many are your admirable officers, O king,
+Ready to be employed by you,
+Loving you, the Son of Heaven.
+
+'The male and female phœnix fly about,
+Their wings rustling,
+As they soar up to heaven.
+Many are your admirable officers, O king,
+Waiting for your commands,
+And loving the multitudes of the people.
+
+'The male and female phœnix give out their notes,
+On that lofty ridge.
+The dryandras grow,
+On those eastern slopes.
+They grow luxuriantly;
+And harmoniously the notes resound.
 ```
 
 ### daya-shengmin-008 — 卷阿
@@ -1524,6 +1720,34 @@ bore them with solemn gravity,
 As beseemed such eminent officers.
 ```
 
+### daya-wenwang-005 — 旱麓
+
+- Categories: Ten shortest exported English segments
+- section_id: `daya-wenwang-005`
+- canonical_ref: `詩經·大雅·文王之什·005`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%97%B1%E9%BA%93
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/The_Major_Odes_of_the_Kingdom/Decade_1/Ode_5
+
+#### Chinese text
+
+```text
+清酒既載，騂牡既備。以享以祀，以介景福。
+```
+
+#### English text
+
+```text
+His clear spirits were in the vessels;
+His red bull was ready;—
+To
+offer, to sacrifice,
+To increase his bright happiness.
+```
+
 ### daya-wenwang-008 — 靈臺
 
 - Categories: All poem-level/coarse alignments
@@ -1578,9 +1802,51 @@ The lizard-skin drums rolled harmonious,
 As the blind musicians performed theif parts.
 ```
 
+### daya-wenwang-010 — 文王有聲
+
+- Categories: Sections with extreme English/Chinese length ratios
+- section_id: `daya-wenwang-010`
+- canonical_ref: `詩經·大雅·文王之什·010`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: suspiciously low English/Chinese length ratio
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%96%87%E7%8E%8B%E6%9C%89%E8%81%B2
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/The_Major_Odes_of_the_Kingdom/Decade_1/Ode_10
+
+#### Chinese text
+
+```text
+文王有聲，遹駿有聲。遹求厥寧，遹觀厥成。文王烝哉。
+文王受命，有此武功。既伐于崇，作邑于豐。文王烝哉。
+築城伊淢，作豐伊匹。匪棘其欲，遹追來孝。王后烝哉。
+王公伊濯，維豐之垣。四方攸同，王后維翰。王后烝哉。
+
+豐水東注，維禹之績。四方攸同，皇王維辟。皇王烝哉。
+鎬京辟廱，自西自東。自南自北，無思不服。皇王烝哉。
+考卜維王，宅是鎬京。維龜正之，武王成之。武王烝哉。
+豐水有芑，武王豈不仕。詒厥孫謀，以燕翼子。武王烝哉。
+```
+
+#### English text
+
+```text
+King Wăn is famous;
+Yea, he is very famous.
+What he sought was the repose (of the people);
+What he saw was the completion (of his work).
+A sovereign true was king Wăn!
+
+King Wăn received the appointment (from Heaven),
+And achieved his martial success.
+Having overthrown Khung
+He fixed his (capital) city in Făng.
+A sovereign true was king Wăn!
+```
+
 ### guofeng-beifeng-001 — 柏舟
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios, Subdivision example: 國風 / 邶風
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios, Subdivision example: 國風 / 邶風, Top 20 remaining warnings
 - section_id: `guofeng-beifeng-001`
 - canonical_ref: `詩經·國風·邶風·001`
 - alignment_granularity: `poem`
@@ -2035,12 +2301,117 @@ I am waiting for my friend.
 
 ### guofeng-beifeng-010 — 谷風
 
-- Categories: All poem-level/coarse alignments
+- Categories: Ten longest exported English segments
 - section_id: `guofeng-beifeng-010`
 - canonical_ref: `詩經·國風·邶風·010`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: possible commentary, page furniture, or OCR junk; complete section still needs human text review; poem-level alignment may hide recoverable stanza segmentation
+- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%B0%B7%E9%A2%A8
+  - https://archive.org/details/chineseclassics41legg
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
+  - https://archive.org/download/theshihking09394gut/7shih10.txt
+  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
+
+#### Chinese text
+
+```text
+習習谷風，以陰以雨。黽勉同心，不宜有怒。
+采葑采菲，無以下體？德音莫違，及爾同死。
+
+行道遲遲，中心有違。不遠伊邇，薄送我畿。
+誰謂荼苦，其甘如薺。宴爾新昏，如兄如弟。
+
+涇以渭濁，湜湜其沚。宴爾新昏，不我屑以。
+毋逝我梁，毋發我笱。我躬不閱，遑恤我後。
+
+就其深矣，方之舟之。就其淺矣，泳之游之。
+何有何亡，黽勉求之。凡民有喪，匍匐救之。
+
+不我能慉，反以我為讎。既阻我德，賈用不售。
+昔育恐育鞫，及爾顛覆。既生既育，比予于毒。
+
+我有旨蓄，亦以御冬。宴爾新昏，以我御窮。
+有洸有潰，既詒我肄。不念昔者，伊余來塈。
+
+習習谷風，維風及雨。
+將恐將懼，維予與女。
+將安將樂，女轉棄予。
+
+習習谷風，維風及頹。
+將恐將懼，寘予于懷。
+將安將樂，棄予如遺。
+
+習習谷風，維山崔嵬。
+無草不死，無木不萎。
+忘我大德，思我小怨。
+```
+
+#### English text
+
+```text
+1 Gently blows the east wind,
+With cloudy skies and with rain.
+[Husband and wife] should strive to be of the same mind,
+And not let angry feelings arise.
+When we gather the mustard plant and earth melons,
+We do not reject them because of their roots.
+While I do nothing contrary to iny good name,
+I should live with you till our death.
+
+2 I go along the road slowly, slowly，
+In my inmost heart reluctant.
+Not far, only a little way,
+Did he accompany me to the threshold.
+Who says that the sowthistle is bitter?
+It is as sweet as the shepherds purse.
+You feast with your new wife,
+[Loving] as brothers.
+
+3 The niuddiness of the King appears from the Wei,
+But its bottom may be seen about the islets.
+You feast with your new wife,
+And think me not worth being with.
+Do not approach my dam,
+Do not move my basket.
+What avails it to care for what may come after?
+
+4 Where the water was deep,
+I crossed it by a raft or a boat.
+Where it was shallow,
+I dived or swam across it.
+Whether we had plenty or not,
+I exerted myself to be getting.
+When among others there was a death,
+I crawled on my knees to lielp them.
+
+5 You cannot cherish me,
+And you even count me as an enemy.
+You disdain my virtues, —
+A pedlar's wares which do not sell.
+Formerly, I was afraid our means might be exhausted,
+And I might come with you to destitution.
+Now, when your means are abundant,
+You compare me to poison.
+
+6 My fine collection of vegetables
+Is but a provision against the winter.
+Feasting with your new wife,
+You think of me as a provision [only] against your poverty.
+Cavalierly and angrily you treat me;
+You give me only pain.
+You do not think of the former days,
+```
+
+### guofeng-beifeng-010 — 谷風
+
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
+- section_id: `guofeng-beifeng-010`
+- canonical_ref: `詩經·國風·邶風·010`
+- alignment_granularity: `poem`
+- is_coarse_alignment: `true`
+- notes: suspiciously long English text; possible commentary, page furniture, or OCR junk; complete section still needs human text review; poem-level alignment may hide recoverable stanza segmentation
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%B0%B7%E9%A2%A8
   - https://archive.org/details/chineseclassics41legg
@@ -2328,6 +2699,39 @@ Let me drive forth and travel there,
 To dissipate my sorrow.
 ```
 
+### guofeng-beifeng-015 — 北門
+
+- Categories: Sections with extreme English/Chinese length ratios
+- section_id: `guofeng-beifeng-015`
+- canonical_ref: `詩經·國風·邶風·015`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: suspiciously short English text; suspiciously low English/Chinese length ratio
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8C%97%E9%96%80
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Lessons_from_the_States/Book_3/Ode_15
+
+#### Chinese text
+
+```text
+出自北門，憂心殷殷，終窶且貧，莫知我艱，已焉哉，天實為之，謂之何哉。
+王事適我，政事一埤益我，我入自外，室人交徧讁我，已焉哉，天實為之，謂之何哉。
+王事敦我，政事一埤遺我，我入自外，室人交徧摧我，已焉哉，天實為之，謂之何哉。
+```
+
+#### English text
+
+```text
+I go out at the north gate,
+With my heart full of sorrow.
+Straitened am I and poor,
+And no one takes knowledge of my distress.
+So it is!
+Heaven has done it;—
+What
+then shall I say?
+```
+
 ### guofeng-beifeng-016 — 北風
 
 - Categories: All poem-level/coarse alignments
@@ -2391,7 +2795,7 @@ The urgency is extreme!
 - canonical_ref: `詩經·國風·邶風·017`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `false`
-- notes: complete section still needs human text review
+- notes: suspiciously short English text; complete section still needs human text review
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9D%9C%E5%A5%B3
   - https://archive.org/details/chineseclassics41legg
@@ -2459,64 +2863,6 @@ A pleasant, genial mate she sought,
 And a goose has fallen into it.
 A pleasant, genial mate she sought,
 And she has got this hunchback.
-```
-
-### guofeng-beifeng-019 — 二子乘舟
-
-- Categories: Ten shortest exported English segments
-- section_id: `guofeng-beifeng-019`
-- canonical_ref: `詩經·國風·邶風·019`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BA%8C%E5%AD%90%E4%B9%98%E8%88%9F
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-二子乘舟，汎汎其景，願言思子，中心養養。
-二子乘舟，汎汎其逝，願言思子，不瑕有害。
-```
-
-#### English text
-
-```text
-The l Ithi And
-l ay of Qet
-```
-
-### guofeng-beifeng-019 — 二子乘舟
-
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
-- section_id: `guofeng-beifeng-019`
-- canonical_ref: `詩經·國風·邶風·019`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BA%8C%E5%AD%90%E4%B9%98%E8%88%9F
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-二子乘舟，汎汎其景，願言思子，中心養養。
-二子乘舟，汎汎其逝，願言思子，不瑕有害。
-```
-
-#### English text
-
-```text
-The l Ithi And
-l ay of Qet
 ```
 
 ### guofeng-binfeng-001 — 七月
@@ -2606,7 +2952,7 @@ I can but cry out with this note of alarm.
 
 ### guofeng-binfeng-003 — 東山
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `guofeng-binfeng-003`
 - canonical_ref: `詩經·國風·豳風·003`
 - alignment_granularity: `poem`
@@ -2738,12 +3084,12 @@ And forthwith the vessels are arranged in rows.
 
 ### guofeng-binfeng-005 — 伐柯
 
-- Categories: Ten shortest exported English segments
+- Categories: All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-binfeng-005`
 - canonical_ref: `詩經·國風·豳風·005`
 - alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- is_coarse_alignment: `true`
+- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines; kept poem-level alignment until stanza-safe OCR segmentation is reworked. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BC%90%E6%9F%AF
   - https://archive.org/details/chineseclassics41legg
@@ -2761,35 +3107,15 @@ And forthwith the vessels are arranged in rows.
 #### English text
 
 ```text
-ODES OF PIN.
-```
+How he hews an axe-handle!
+How he hews it, indeed!
+It is not far to seek;
+In your wife you have the pattern.
 
-### guofeng-binfeng-005 — 伐柯
-
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
-- section_id: `guofeng-binfeng-005`
-- canonical_ref: `詩經·國風·豳風·005`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BC%90%E6%9F%AF
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-伐柯如何？匪斧不克。取妻如何？匪媒不得。
-伐柯伐柯，其則不遠。我覯之子？籩豆有踐。
-```
-
-#### English text
-
-```text
-ODES OF PIN.
+How he hews an axe-handle!
+How he hews it, indeed!
+It is not far to seek;
+The man and the woman are distinguished.
 ```
 
 ### guofeng-binfeng-006 — 九罭
@@ -3403,62 +3729,6 @@ Waking or sleeping, I do nothing;
 From my eyes and nose the water streams.
 ```
 
-### guofeng-chenfeng-009 — 株林
-
-- Categories: Ten shortest exported English segments
-- section_id: `guofeng-chenfeng-009`
-- canonical_ref: `詩經·國風·陳風·009`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A0%AA%E6%9E%97
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-胡為乎株林？從夏南。匪適株林，從夏南。
-駕我乘馬，說于株野。乘我乘駒，朝食于株。
-```
-
-#### English text
-
-```text
-株林
-```
-
-### guofeng-chenfeng-009 — 株林
-
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
-- section_id: `guofeng-chenfeng-009`
-- canonical_ref: `詩經·國風·陳風·009`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; Chinese text appears inside the English segment; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A0%AA%E6%9E%97
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-胡為乎株林？從夏南。匪適株林，從夏南。
-駕我乘馬，說于株野。乘我乘駒，朝食于株。
-```
-
-#### English text
-
-```text
-株林
-```
-
 ### guofeng-chenfeng-010 — 澤陂
 
 - Categories: All poem-level/coarse alignments
@@ -3596,7 +3866,7 @@ I should almost feel as of one soul with "the wearer!
 
 ### guofeng-kuaifeng-003 — 隰有萇楚
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios, Top 20 remaining warnings
 - section_id: `guofeng-kuaifeng-003`
 - canonical_ref: `詩經·國風·檜風·003`
 - alignment_granularity: `poem`
@@ -3653,12 +3923,12 @@ I will cheer him with good words.
 
 ### guofeng-kuaifeng-004 — 匪風
 
-- Categories: Ten shortest exported English segments
+- Categories: All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-kuaifeng-004`
 - canonical_ref: `詩經·國風·檜風·004`
 - alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- is_coarse_alignment: `true`
+- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines; kept poem-level alignment until stanza-safe OCR segmentation is reworked. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8C%AA%E9%A2%A8
   - https://archive.org/details/chineseclassics41legg
@@ -3677,36 +3947,20 @@ I will cheer him with good words.
 #### English text
 
 ```text
-〇?^is sympathy with the friends of Chow.
-```
+Not for the violence of the wind;
+Not for the rushing storm;
+Do I long and retire,
+But because of my old age, and sad.
 
-### guofeng-kuaifeng-004 — 匪風
+Not for the violence of the wind;
+Not for the rushing storm;
+Do I go forward, and come back,
+But because of my old age, and sad.
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
-- section_id: `guofeng-kuaifeng-004`
-- canonical_ref: `詩經·國風·檜風·004`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8C%AA%E9%A2%A8
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-匪風發兮，匪車偈兮。顧瞻周道，中心怛兮。
-匪風飄兮，匪車嘌兮。顧瞻周道，中心弔兮。
-誰能亨魚，溉之釜鬵。誰將西歸，懷之好音。
-```
-
-#### English text
-
-```text
-〇?^is sympathy with the friends of Chow.
+Who is it there?
+The butterfly wheeling about.
+Ah! we who encounter our troubles,
+Ought not to be like this.
 ```
 
 ### guofeng-qifeng-001 — 雞鳴
@@ -3962,12 +4216,12 @@ Why do you still allow her to go to this extreme ?
 
 ### guofeng-qifeng-007 — 甫田
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
 - section_id: `guofeng-qifeng-007`
 - canonical_ref: `詩經·國風·齊風·007`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: complete section still needs human text review; poem-level alignment may hide recoverable stanza segmentation
+- notes: suspiciously low English/Chinese length ratio; complete section still needs human text review; poem-level alignment may hide recoverable stanza segmentation
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%AB%E7%94%B0
   - https://archive.org/details/chineseclassics41legg
@@ -4024,7 +4278,7 @@ Lo! he is wearing the cap!
 - canonical_ref: `詩經·國風·齊風·008`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: complete section still needs human text review
+- notes: suspiciously short English text; complete section still needs human text review
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%9B%A7%E4%BB%A4
   - https://archive.org/details/chineseclassics41legg
@@ -4898,12 +5152,12 @@ Why do ye not help me?
 
 ### guofeng-tangfeng-007 — 羔裘
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
 - section_id: `guofeng-tangfeng-007`
 - canonical_ref: `詩經·國風·唐風·007`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: possible commentary, page furniture, or OCR junk; complete section still needs human text review
+- notes: suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%BE%94%E8%A3%98
   - https://archive.org/details/chineseclassics41legg
@@ -4941,12 +5195,12 @@ But [we stay] from our regard to you.
 
 ### guofeng-tangfeng-009 — 無衣
 
-- Categories: Ten shortest exported English segments
+- Categories: All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-tangfeng-009`
 - canonical_ref: `詩經·國風·唐風·009`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines; kept poem-level alignment until stanza-safe OCR segmentation is reworked. poem-level alignment may hide recoverable stanza segmentation
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%84%A1%E8%A1%A3
   - https://archive.org/details/chineseclassics41legg
@@ -4974,49 +5228,20 @@ But [we stay] from our regard to you.
 #### English text
 
 ```text
-一章 o
-二章 o
-ODES OF T4ANG.
-```
+How do we proceed without clothes?
+We have your lower garments and your upper.
+He has repaired our halberds and spears,
+And we will seek our revenge.
 
-### guofeng-tangfeng-009 — 無衣
+How do we proceed without clothes?
+We have your skirts and robes.
+He has repaired our spears and halberds,
+And we will make him our comrade.
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
-- section_id: `guofeng-tangfeng-009`
-- canonical_ref: `詩經·國風·唐風·009`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `true`
-- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; Chinese text appears inside the English segment; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%84%A1%E8%A1%A3
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-豈曰無衣七兮、不如子之衣、安且吉兮。
-
-豈曰無衣六兮、不如子之衣、安且燠兮。
-
-豈曰無衣、與子同袍。
-王於興師、脩我戈矛、與子同仇。
-
-豈曰無衣、與子同澤。
-王於興師、脩我矛戟、與子偕作。
-
-豈曰無衣、與子同裳。
-王於興師、脩我甲兵、與子偕行。
-```
-
-#### English text
-
-```text
-一章 o
-二章 o
-ODES OF T4ANG.
+How do we proceed without clothes?
+We have your capes and tunics.
+He has repaired our armour and helmets,
+And we will go with him.
 ```
 
 ### guofeng-tangfeng-010 — 有杕之杜
@@ -5633,12 +5858,12 @@ He has reared his hut in the bend of the mound,
 
 ### guofeng-weifeng-003 — 碩人
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios, Top 20 remaining warnings
 - section_id: `guofeng-weifeng-003`
 - canonical_ref: `詩經·國風·衛風·003`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: possible commentary, page furniture, or OCR junk; complete section still needs human text review
+- notes: suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%A2%A9%E4%BA%BA
   - https://archive.org/details/chineseclassics41legg
@@ -5703,7 +5928,7 @@ Martial looked the attendant officers.
 
 ### guofeng-weifeng-005 — 竹竿
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios, Top 20 remaining warnings
 - section_id: `guofeng-weifeng-005`
 - canonical_ref: `詩經·國風·衛風·005`
 - alignment_granularity: `poem`
@@ -5799,12 +6024,12 @@ It would not take a whole morning to reach it.
 
 ### guofeng-weifeng-007 — 河廣
 
-- Categories: Ten shortest exported English segments
+- Categories: All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-weifeng-007`
 - canonical_ref: `詩經·國風·衛風·007`
 - alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- is_coarse_alignment: `true`
+- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines; kept poem-level alignment until stanza-safe OCR segmentation is reworked. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B2%B3%E5%BB%A3
   - https://archive.org/details/chineseclassics41legg
@@ -5822,37 +6047,15 @@ It would not take a whole morning to reach it.
 #### English text
 
 ```text
-5 o
-ODES OF WEI.
-```
+How wide is the Ho!
+Yet it may be passed in a raft.
+That Song is far off,
+Yet it may be reached by a day's journey.
 
-### guofeng-weifeng-007 — 河廣
-
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
-- section_id: `guofeng-weifeng-007`
-- canonical_ref: `詩經·國風·衛風·007`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B2%B3%E5%BB%A3
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-誰謂河廣，一葦杭之，誰謂宋遠，跂予望之。
-誰謂河廣，曾不容刀，誰謂宋遠，曾不崇朝。
-```
-
-#### English text
-
-```text
-5 o
-ODES OF WEI.
+How wide is the Ho!
+Yet it may be passed in a boat.
+That Song is far off,
+Yet it may be reached by fording.
 ```
 
 ### guofeng-weifeng-008 — 伯兮
@@ -5945,12 +6148,12 @@ man has no clothes.
 
 ### guofeng-weifeng-010 — 木瓜
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
 - section_id: `guofeng-weifeng-010`
 - canonical_ref: `詩經·國風·衛風·010`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: possible commentary, page furniture, or OCR junk; complete section still needs human text review
+- notes: suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9C%A8%E7%93%9C
   - https://archive.org/details/chineseclassics41legg
@@ -6182,7 +6385,7 @@ That he may come back, and not die!?
 - canonical_ref: `詩經·國風·魏風·005`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: possible commentary, page furniture, or OCR junk; complete section still needs human text review
+- notes: suspiciously short English text; possible commentary, page furniture, or OCR junk; complete section still needs human text review
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%81%E7%95%9D%E4%B9%8B%E9%96%93
   - https://archive.org/details/chineseclassics41legg
@@ -6718,12 +6921,12 @@ Wan. A retributive providence is to be recogniz-
 
 ### guofeng-zhaonan-001 — 鵲巢
 
-- Categories: Ten longest exported English segments
+- Categories: All poem-level/coarse alignments, Every repaired section, Subdivision example: 國風 / 召南
 - section_id: `guofeng-zhaonan-001`
 - canonical_ref: `詩經·國風·召南·001`
 - alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- is_coarse_alignment: `true`
+- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines; kept poem-level alignment until stanza-safe OCR segmentation is reworked. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B5%B2%E5%B7%A2
   - https://archive.org/details/chineseclassics41legg
@@ -6742,240 +6945,20 @@ Wan. A retributive providence is to be recogniz-
 #### English text
 
 ```text
-二章 o
-ODES OF SHAOU AND THE SOUTH.
-certain. After his death, he received the hon- j
-orary name of K!ang (j^ over-
-throw of the Shang dyn., he was invested by
-king Woo with the principality of Yen, or North
-Yen (北燕 )， having its capital in the pres, j
-dis. of Ta-hing J^.), dep. of Shun-t^een,
-where his descendants are traced, down to the
-Ts‘in dyn. He himself, however, as did Tan, re-
-mained at the court of Chow, and we find them,
-in the Shoo, as the principal ministers of king
-Ching. They were known as the { highest dukes
-( and the ‘ two great chiefs (二 L j 白 )，’
-Tan having charge of the eastern portions of |
-the kingdom, and Shih of the western.
-The pieces in this Book are supposed to have
-been produced in Shaou and the principalities
-south of it, 一 west from those that yielded the
-odes of the Chow-nan.
-Ode 1. Allusive. Celebrating the marriage
-the poefs object was to set forth {the -virtue of
-the lady*/ and wherein they find the allusion to
-that will be seen below. For myself I do not
-see that the virtue of the bride was a point which
-the writer wished to indicate ; his attention was
-taken by the splendour of the nuptials.
-St.l. L.l. see on i. Ode II. 1. The ts(eoh
-is the magpie. It is common in China, and gener-
-ally called he-ts(eoh ( W. 昔烏 ）； it makes the
-same elaborate nest as with ourselves. L. 2.
-is the general name for the dove; here, probably,
-the turtle dove, the she-kew ( It has many
-local names. I do not know that it is a fact
-that the dove is to be found breeding ing, mag-
-pie^ nest, as is here assumed ; but Maou jfi^-ling
-vehemently asserts it, and says that any ooe
-with eyes may see about the villages a flock of
-doves contending with as many magpies, and
-driving the latter from their nests ( 續詩傳
-烏名卷 — *). The virtue of the bride is
-thought to be emblemed by the quietness and
-stupidity of the dove, unable to make a nest for
-itself, or making a very simple, unartistic one.
-The dove is a favourite emblem with all poets
-for a lady ; but surely never, out of China, be-
-cause of its stupidity.5 But says Twan Chcang-
-woo 昌 towards the end of the Sung
-dyn.), 4The duties of a wife are few and confined;
-there is no harm in her being stupid.*
-L.4. p|^ = — * 車， 4 a carriage,5 as being
-supported on two wheels ( 雨車命 ). is
-commonly read hereya, and generally when it has
-the signification of * to meet.’ But it rhymes
-here with keu, and the variation of its sound,
-according to its signification, is a device dating
-only from the Han dyn. The 100 carriages here
-are those of the bridegroom and his friends, who
-come to meet the lady, as she approaches the
-borders of his State.
-St.2. L.2. 方之 = 有之 /has it.， Yen
-Tscan quotes a sentence which ingeniously
-explains this use of as a ver b- 方之以
-The carriages here are those of the bride and all
-her cort.€ge.
-St.3. L. 2. The ‘filling’ of the nest alludes
-to the ladies accompanying the bride to the
-harem. She would be accompanied by two near
-relatives from her own State, and there would be
-three ladies from each of two kindred States, so
-that the prince of a State is described by Kung-
-yang as 4 at once marrying 9 ladies — •
-娶九女 L.4. The 100 carriages here
-cover those of each of the previous stanzas.
-— as in i. TV. 3.,= 1 make her complete.*
-The rhymes are — in st. 1， cat. 5. 1. 1 ;
-in 2, 方 ，將， cat. 10: in 3, 盈 ，成， cat. U.
-Note on the interpretation. In his in-
-teresting essay on the poetry of the Chinese,
-(already referred to), Sir John Davis gives the
-following paraphrase of this ode : 一
-* The nest yon winged artist builds,
-The robber bird shall tear away :
-— So yields her hopes the affianced maid,
-Some wealthy lord’s reluctant prey.
-1 The anxious bird prepares a nest,
-In which the spoiler soon shall dwell:
-一 Forth goes the weeping bride constrained,
-A hundred cars the triumph swell.
-1 Mourn for the tiny architect ;
-A stronger bird hath ta£eri its nest :
-Mourn for the hapless stolen bride,
-How vain the pomp to soothe her breast ! '
-This is paraphrased, he says, *to convey the
-full sense of what is only hinted at in the original,
-and explained in the commentaiy.’ He has
-made a little poem, more interesting than the
-original, but altogether away from the obvious
-meaning of that original, on a view of it not
-hinted at in any commentary.
-THE SHE KING.
-FART I.
-Ode 2. Narrative. The industry and re-
-```
+Magpie has made its nest,
+And the dove occupies it.
+This young lady is going to her future home,
+With a hundred chariots to escort her.
 
-### guofeng-zhaonan-001 — 鵲巢
+Magpie has made its nest,
+And the dove fills it.
+This young lady is going to her future home,
+With a hundred chariots all complete.
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios, Subdivision example: 國風 / 召南
-- section_id: `guofeng-zhaonan-001`
-- canonical_ref: `詩經·國風·召南·001`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously long English text; suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; Chinese text appears inside the English segment; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B5%B2%E5%B7%A2
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-維鵲有巢，維鳩居之，之子于歸，百兩御之。
-維鵲有巢，維鳩方之，之子于歸，百兩將之。
-維鵲有巢，維鳩盈之，之子于歸，百兩成之。
-```
-
-#### English text
-
-```text
-二章 o
-ODES OF SHAOU AND THE SOUTH.
-certain. After his death, he received the hon- j
-orary name of K!ang (j^ over-
-throw of the Shang dyn., he was invested by
-king Woo with the principality of Yen, or North
-Yen (北燕 )， having its capital in the pres, j
-dis. of Ta-hing J^.), dep. of Shun-t^een,
-where his descendants are traced, down to the
-Ts‘in dyn. He himself, however, as did Tan, re-
-mained at the court of Chow, and we find them,
-in the Shoo, as the principal ministers of king
-Ching. They were known as the { highest dukes
-( and the ‘ two great chiefs (二 L j 白 )，’
-Tan having charge of the eastern portions of |
-the kingdom, and Shih of the western.
-The pieces in this Book are supposed to have
-been produced in Shaou and the principalities
-south of it, 一 west from those that yielded the
-odes of the Chow-nan.
-Ode 1. Allusive. Celebrating the marriage
-the poefs object was to set forth {the -virtue of
-the lady*/ and wherein they find the allusion to
-that will be seen below. For myself I do not
-see that the virtue of the bride was a point which
-the writer wished to indicate ; his attention was
-taken by the splendour of the nuptials.
-St.l. L.l. see on i. Ode II. 1. The ts(eoh
-is the magpie. It is common in China, and gener-
-ally called he-ts(eoh ( W. 昔烏 ）； it makes the
-same elaborate nest as with ourselves. L. 2.
-is the general name for the dove; here, probably,
-the turtle dove, the she-kew ( It has many
-local names. I do not know that it is a fact
-that the dove is to be found breeding ing, mag-
-pie^ nest, as is here assumed ; but Maou jfi^-ling
-vehemently asserts it, and says that any ooe
-with eyes may see about the villages a flock of
-doves contending with as many magpies, and
-driving the latter from their nests ( 續詩傳
-烏名卷 — *). The virtue of the bride is
-thought to be emblemed by the quietness and
-stupidity of the dove, unable to make a nest for
-itself, or making a very simple, unartistic one.
-The dove is a favourite emblem with all poets
-for a lady ; but surely never, out of China, be-
-cause of its stupidity.5 But says Twan Chcang-
-woo 昌 towards the end of the Sung
-dyn.), 4The duties of a wife are few and confined;
-there is no harm in her being stupid.*
-L.4. p|^ = — * 車， 4 a carriage,5 as being
-supported on two wheels ( 雨車命 ). is
-commonly read hereya, and generally when it has
-the signification of * to meet.’ But it rhymes
-here with keu, and the variation of its sound,
-according to its signification, is a device dating
-only from the Han dyn. The 100 carriages here
-are those of the bridegroom and his friends, who
-come to meet the lady, as she approaches the
-borders of his State.
-St.2. L.2. 方之 = 有之 /has it.， Yen
-Tscan quotes a sentence which ingeniously
-explains this use of as a ver b- 方之以
-The carriages here are those of the bride and all
-her cort.€ge.
-St.3. L. 2. The ‘filling’ of the nest alludes
-to the ladies accompanying the bride to the
-harem. She would be accompanied by two near
-relatives from her own State, and there would be
-three ladies from each of two kindred States, so
-that the prince of a State is described by Kung-
-yang as 4 at once marrying 9 ladies — •
-娶九女 L.4. The 100 carriages here
-cover those of each of the previous stanzas.
-— as in i. TV. 3.,= 1 make her complete.*
-The rhymes are — in st. 1， cat. 5. 1. 1 ;
-in 2, 方 ，將， cat. 10: in 3, 盈 ，成， cat. U.
-Note on the interpretation. In his in-
-teresting essay on the poetry of the Chinese,
-(already referred to), Sir John Davis gives the
-following paraphrase of this ode : 一
-* The nest yon winged artist builds,
-The robber bird shall tear away :
-— So yields her hopes the affianced maid,
-Some wealthy lord’s reluctant prey.
-1 The anxious bird prepares a nest,
-In which the spoiler soon shall dwell:
-一 Forth goes the weeping bride constrained,
-A hundred cars the triumph swell.
-1 Mourn for the tiny architect ;
-A stronger bird hath ta£eri its nest :
-Mourn for the hapless stolen bride,
-How vain the pomp to soothe her breast ! '
-This is paraphrased, he says, *to convey the
-full sense of what is only hinted at in the original,
-and explained in the commentaiy.’ He has
-made a little poem, more interesting than the
-original, but altogether away from the obvious
-meaning of that original, on a view of it not
-hinted at in any commentary.
-THE SHE KING.
-FART I.
-Ode 2. Narrative. The industry and re-
+Magpie has made its nest,
+And the dove is in it.
+This young lady is going to her future home,
+With a hundred chariots as attendants.
 ```
 
 ### guofeng-zhaonan-002 — 采蘩
@@ -6985,7 +6968,7 @@ Ode 2. Narrative. The industry and re-
 - canonical_ref: `詩經·國風·召南·002`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.
+- notes: suspiciously short English text
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E8%98%A9
   - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Lessons_from_the_States/Book_2/Ode_2
@@ -7062,6 +7045,33 @@ Let me have met him,
 And my heart will then be at peace.
 ```
 
+### guofeng-zhaonan-004 — 采蘋
+
+- Categories: Ten shortest exported English segments
+- section_id: `guofeng-zhaonan-004`
+- canonical_ref: `詩經·國風·召南·004`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E8%98%8B
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Lessons_from_the_States/Book_2/Ode_4
+
+#### Chinese text
+
+```text
+于以盛之？維筐及筥，于以湘之？維錡及釜。
+```
+
+#### English text
+
+```text
+She deposits what she gathers,
+In her square baskets and round ones.
+She boils it,
+In her tripods and pans.
+```
+
 ### guofeng-zhaonan-005 — 甘棠
 
 - Categories: All poem-level/coarse alignments
@@ -7106,12 +7116,12 @@ How else could it bore through my wall?
 
 ### guofeng-zhaonan-006 — 行露
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
 - section_id: `guofeng-zhaonan-006`
 - canonical_ref: `詩經·國風·召南·006`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `false`
-- notes: complete section still needs human text review
+- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; complete section still needs human text review
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%A1%8C%E9%9C%B2
   - https://archive.org/details/chineseclassics41legg
@@ -7403,7 +7413,7 @@ And the son of the reverent marquis!
 
 ### guofeng-zhaonan-013 — 何彼穠矣
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios, Top 20 remaining warnings
 - section_id: `guofeng-zhaonan-013`
 - canonical_ref: `詩經·國風·召南·013`
 - alignment_granularity: `poem`
@@ -7456,12 +7466,12 @@ And the gran d-daugli ter of the tranquillizing king!
 
 ### guofeng-zhaonan-014 — 騶虞
 
-- Categories: Ten longest exported English segments
+- Categories: All poem-level/coarse alignments, Every repaired section, Sections with extreme English/Chinese length ratios
 - section_id: `guofeng-zhaonan-014`
 - canonical_ref: `詩經·國風·召南·014`
 - alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- is_coarse_alignment: `true`
+- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines; kept poem-level alignment until stanza-safe OCR segmentation is reworked. suspiciously high English/Chinese length ratio
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%A8%B6%E8%99%9E
   - https://archive.org/details/chineseclassics41legg
@@ -7479,275 +7489,15 @@ And the gran d-daugli ter of the tranquillizing king!
 #### English text
 
 ```text
-i 〇
-1 J
-ODES OF SI1AOU AND Tlif: SOUTH.
-Wo mu.'-t suppose lhat the pince, who is the
-subject of thecde, is hunting in spring, by some
-hike or stream where such rushes were common.
-Maou and Choo say nothing inure about ^0
-than tliat it is the name of a grass. According
-to the Sliwoh-wan, it should be a kind of artemi-
-sia. One account of it says that its flowers
-grow like the catkins of the willow, and fly
-about in the wind, like hair.
-LI. 2. Maou gives as 4 the female of the
-swine;， and in the connection we must under-
-stand the wild animal. Choo makes it just the
-opposite, — the male, Maou took liis account
-from the Urh-ya; but in both cases I imagine
-there is an error of the text, — for To
-shoot female animals would be inconsistent with
-the benevolence which the piece is understood
-to celebrate. The Kwang-ya, wi hout reference
-to the sex, pays, 4 the pa is a pig two years old/
-and all authorities agree in taking tslun(/. as one,
-4 one year old.* But we cannot suppose that the
-poet laid any stress on these special distinctions
-of the terms. He varied them to suit his
-rhymes merely. by one discharge，’
-».<?, of his arrows, acc. to Choo. The prickers, it
-is understood, had driven together a herd of the
-animals ； but the noble would not kill them all.
-lie contented himself with discharging the four
-arrows, which conslituted what we may call a
-round. But could he kill 5 boars with 4 ar-
-rows ? Choo supposes that one of the arrows
-transfixed two of tliem. This does not seem
-very likely; and I am inclined to adopt the view
-of K4ang-shiiig, as expounded by Ying-tah, tliat
-oat of 5 boars driven together the prince would
-shoot only one (君] £ 一 * 發， 必翼五
-LI. H. The great battle of the ode, however,
-is over Maou and Choo, after him,
-take these terms as the name of a wild beast,
-4 a righteous beast； a white tiger, with black
-spots, which does not tread on live grass, and
-does not eat any living thing, making its ap-
-pearance when a Slate is ruled by a prince of
-perfect benevolence and sincerity. Being a ti-
-ger, it might be expected to kiil animals, like
-other tigers, but it only eats the flesh of such as
-have died a natural death.， This view of the
-terms was not challenged till Gow-yang Sew of
-the Sung dyn., who contended that we are to
-understand by them the huntsmen of the prin-
-ce's park. Since his time this interpretation has
-been variously enlarged and insisted on. One
-of the ablest assertors of it is Yen Ts4an, who
-appeals to the fact that the Urh-ya says nothing
-of the fabulous animal, as a proof that it was not
-heard of before Maou. The imperial editors,
-however, refute this statement, and I agree Avith
-them that the old view is not to be disturbed.
-The analogy of the Lin che che is decisive in its
-favour. 宁嗟乎 = 于嗟 • • • 兮。 f
-that ode.
-The rhymes are — in st. 1, 葭 *， 靶 *， 虞，
-and 虞 of st. 2, cat. 5, 1. 1 : in 2, 蓬， cat. 9.
-Concluding Note. Confucius once (Ana.
-XVII. x.) told his son to study the Chow-nan and
-Shaoa-nan, adding that 4 the man wlio has not
-done so is like one who stands with his face
-right against a wall/ Like many more of the
-sayings of the sage, it seems to tell us a great
-deal, while yet we can lay hold of nothing
-positive in it.
-Choo He says, *The first four odes in this 2d
-Book speak of the wives of princes and great
-officers, and show how at tliat time princes and
-great officers had come under tlie transforming
-influence of kin<? Wan, so that they cultivated
-their persons and regulated rightly their families.
-rl'he other pieces show how the chief prince
-among the States spread abroad the influence of
-kint? Wn,n, and how other princes cultivated it
-in their families and through their States.
-Though nothing is said in them about king
-Wan, yet the wide effects of his brilliant virtue
-and renovation of the people appear in them.
-They were so wrought upon, they knew not
-how. l^iere is only the 13th piece which we
-are unable to understand, and with the per-
-plexities of which we need not trouble ourselves.*
-One of the Chengs says, 4 The right regulation
-of the family is the first step towards the good
-govt, of all the empire. The two Nan contain
-tlie principles of that regulation, setting forth
-the virtues of the queen, of princesses, and the
-wives of great officers, substantially the same
-wliea they are extended to the families of in-
-ferior officers and of the common people. Hence
-these odes were used at courts and village
-gatherings. They sang them in the courts and
-in the lanes, thus giving their tone to the man-
-ners of all under heaven.*
-These glowing pictures do not approve them-
-selves so much to a western reader. He cannot
-appreciate the institution of the harem. West-
-ern wives cannot submit to the position of T{ae-
-sze herself. Western young ladies like to be
-married 4 decently and in order,* according to
-rule, with all the ceremonies; but they want
-other qualities in their suitors more important
-than an observance of formalities. Where pu-
-rity and frugality in young lady and wife are
-celebrated in these pieces, we can appreciate
-them. The readiness on the part of the wife
-to submit to separation from her husband, when
-public duty calls him away from her, is also
-very admirable. But upon the whole the
-family-regulation which appears here is not of a
-high order, and the place assigned to the wife is
-one of degradation.
-```
+There is the Tsow-yu; there is the Tsow-yu;
+In the fifth month he comes forth with slow and leisurely movements.
+There is the white tiger; there is the white tiger;
+Its paws are seized, and there are leisurely movements.
 
-### guofeng-zhaonan-014 — 騶虞
-
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
-- section_id: `guofeng-zhaonan-014`
-- canonical_ref: `詩經·國風·召南·014`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously long English text; suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; Chinese text appears inside the English segment; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%A8%B6%E8%99%9E
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-彼茁者葭，壹發五豝，于嗟乎騶虞。
-彼茁者蓬，壹發五豵，于嗟乎騶虞。
-```
-
-#### English text
-
-```text
-i 〇
-1 J
-ODES OF SI1AOU AND Tlif: SOUTH.
-Wo mu.'-t suppose lhat the pince, who is the
-subject of thecde, is hunting in spring, by some
-hike or stream where such rushes were common.
-Maou and Choo say nothing inure about ^0
-than tliat it is the name of a grass. According
-to the Sliwoh-wan, it should be a kind of artemi-
-sia. One account of it says that its flowers
-grow like the catkins of the willow, and fly
-about in the wind, like hair.
-LI. 2. Maou gives as 4 the female of the
-swine;， and in the connection we must under-
-stand the wild animal. Choo makes it just the
-opposite, — the male, Maou took liis account
-from the Urh-ya; but in both cases I imagine
-there is an error of the text, — for To
-shoot female animals would be inconsistent with
-the benevolence which the piece is understood
-to celebrate. The Kwang-ya, wi hout reference
-to the sex, pays, 4 the pa is a pig two years old/
-and all authorities agree in taking tslun(/. as one,
-4 one year old.* But we cannot suppose that the
-poet laid any stress on these special distinctions
-of the terms. He varied them to suit his
-rhymes merely. by one discharge，’
-».<?, of his arrows, acc. to Choo. The prickers, it
-is understood, had driven together a herd of the
-animals ； but the noble would not kill them all.
-lie contented himself with discharging the four
-arrows, which conslituted what we may call a
-round. But could he kill 5 boars with 4 ar-
-rows ? Choo supposes that one of the arrows
-transfixed two of tliem. This does not seem
-very likely; and I am inclined to adopt the view
-of K4ang-shiiig, as expounded by Ying-tah, tliat
-oat of 5 boars driven together the prince would
-shoot only one (君] £ 一 * 發， 必翼五
-LI. H. The great battle of the ode, however,
-is over Maou and Choo, after him,
-take these terms as the name of a wild beast,
-4 a righteous beast； a white tiger, with black
-spots, which does not tread on live grass, and
-does not eat any living thing, making its ap-
-pearance when a Slate is ruled by a prince of
-perfect benevolence and sincerity. Being a ti-
-ger, it might be expected to kiil animals, like
-other tigers, but it only eats the flesh of such as
-have died a natural death.， This view of the
-terms was not challenged till Gow-yang Sew of
-the Sung dyn., who contended that we are to
-understand by them the huntsmen of the prin-
-ce's park. Since his time this interpretation has
-been variously enlarged and insisted on. One
-of the ablest assertors of it is Yen Ts4an, who
-appeals to the fact that the Urh-ya says nothing
-of the fabulous animal, as a proof that it was not
-heard of before Maou. The imperial editors,
-however, refute this statement, and I agree Avith
-them that the old view is not to be disturbed.
-The analogy of the Lin che che is decisive in its
-favour. 宁嗟乎 = 于嗟 • • • 兮。 f
-that ode.
-The rhymes are — in st. 1, 葭 *， 靶 *， 虞，
-and 虞 of st. 2, cat. 5, 1. 1 : in 2, 蓬， cat. 9.
-Concluding Note. Confucius once (Ana.
-XVII. x.) told his son to study the Chow-nan and
-Shaoa-nan, adding that 4 the man wlio has not
-done so is like one who stands with his face
-right against a wall/ Like many more of the
-sayings of the sage, it seems to tell us a great
-deal, while yet we can lay hold of nothing
-positive in it.
-Choo He says, *The first four odes in this 2d
-Book speak of the wives of princes and great
-officers, and show how at tliat time princes and
-great officers had come under tlie transforming
-influence of kin<? Wan, so that they cultivated
-their persons and regulated rightly their families.
-rl'he other pieces show how the chief prince
-among the States spread abroad the influence of
-kint? Wn,n, and how other princes cultivated it
-in their families and through their States.
-Though nothing is said in them about king
-Wan, yet the wide effects of his brilliant virtue
-and renovation of the people appear in them.
-They were so wrought upon, they knew not
-how. l^iere is only the 13th piece which we
-are unable to understand, and with the per-
-plexities of which we need not trouble ourselves.*
-One of the Chengs says, 4 The right regulation
-of the family is the first step towards the good
-govt, of all the empire. The two Nan contain
-tlie principles of that regulation, setting forth
-the virtues of the queen, of princesses, and the
-wives of great officers, substantially the same
-wliea they are extended to the families of in-
-ferior officers and of the common people. Hence
-these odes were used at courts and village
-gatherings. They sang them in the courts and
-in the lanes, thus giving their tone to the man-
-ners of all under heaven.*
-These glowing pictures do not approve them-
-selves so much to a western reader. He cannot
-appreciate the institution of the harem. West-
-ern wives cannot submit to the position of T{ae-
-sze herself. Western young ladies like to be
-married 4 decently and in order,* according to
-rule, with all the ceremonies; but they want
-other qualities in their suitors more important
-than an observance of formalities. Where pu-
-rity and frugality in young lady and wife are
-celebrated in these pieces, we can appreciate
-them. The readiness on the part of the wife
-to submit to separation from her husband, when
-public duty calls him away from her, is also
-very admirable. But upon the whole the
-family-regulation which appears here is not of a
-high order, and the place assigned to the wife is
-one of degradation.
+There is the Tsow-yu; there is the Tsow-yu;
+Its feet are seized, and there are leisurely movements.
+There is the white tiger; there is the white tiger;
+Its feet are seized, and there are leisurely movements.
 ```
 
 ### guofeng-zhengfeng-001 — 緇衣
@@ -8400,12 +8150,12 @@ And how should I not rejoice?
 
 ### guofeng-zhengfeng-016 — 風雨
 
-- Categories: Ten shortest exported English segments
+- Categories: All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhengfeng-016`
 - canonical_ref: `詩經·國風·鄭風·016`
 - alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- is_coarse_alignment: `true`
+- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines; kept poem-level alignment until stanza-safe OCR segmentation is reworked. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%A2%A8%E9%9B%A8
   - https://archive.org/details/chineseclassics41legg
@@ -8424,42 +8174,20 @@ And how should I not rejoice?
 #### English text
 
 ```text
-u.
-三章 t ^ 〇
-THE SHE KING.
-PAIIT I.
-```
+When the wind is cold and rain comes,
+The cock crows with the glooming.
+When we see our superior man,
+Clouds of sorrow pass away.
 
-### guofeng-zhengfeng-016 — 風雨
+When the wind whistles and the rain darkens,
+The cock crows and is choking.
+When we see our superior man,
+We are at our ease and glad.
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
-- section_id: `guofeng-zhengfeng-016`
-- canonical_ref: `詩經·國風·鄭風·016`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; Chinese text appears inside the English segment; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%A2%A8%E9%9B%A8
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-風雨淒淒，雞鳴喈喈。既見君子，云胡不夷。
-風雨瀟瀟，雞鳴膠膠。既見君子，云胡不瘳。
-風雨如晦，雞鳴不已。既見君子，云胡不喜。
-```
-
-#### English text
-
-```text
-u.
-三章 t ^ 〇
-THE SHE KING.
-PAIIT I.
+The wind and rain unite in violence;
+The cock crows without ceasing.
+When we see our superior man,
+We are happy and pleased.
 ```
 
 ### guofeng-zhengfeng-017 — 子衿
@@ -8518,12 +8246,12 @@ They are not to be trusted.
 
 ### guofeng-zhengfeng-018 — 揚之水
 
-- Categories: Ten shortest exported English segments
+- Categories: All poem-level/coarse alignments, Every repaired section, Sections with extreme English/Chinese length ratios
 - section_id: `guofeng-zhengfeng-018`
 - canonical_ref: `詩經·國風·鄭風·018`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines; kept poem-level alignment until stanza-safe OCR segmentation is reworked. suspiciously low English/Chinese length ratio; poem-level alignment may hide recoverable stanza segmentation
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%8F%9A%E4%B9%8B%E6%B0%B4
   - https://archive.org/details/chineseclassics41legg
@@ -8549,45 +8277,20 @@ They are not to be trusted.
 #### English text
 
 ```text
-二章 o
-THE SHE KING.
-```
+The waters of the Yangtze are sent forth,
+And there is a white stone left bare.
+The lad must think of his kindred,
+And then he can be spoken with.
 
-### guofeng-zhengfeng-018 — 揚之水
+The waters of the Yangtze are sent forth,
+And there is a white stone like a comb.
+The lad must think of his kindred,
+And then he can be spoken with.
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
-- section_id: `guofeng-zhengfeng-018`
-- canonical_ref: `詩經·國風·鄭風·018`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `true`
-- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; Chinese text appears inside the English segment; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%8F%9A%E4%B9%8B%E6%B0%B4
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-揚之水，不流束薪。彼其之子，不與我戍申。懷哉懷哉！曷月予還歸哉！
-揚之水，不流束楚。彼其之子，不與我戍甫。懷哉懷哉！曷月予還歸哉！
-揚之水，不流束蒲。彼其之子，不與我戍許。懷哉懷哉！曷月予還歸哉！
-
-揚之水，不流束楚，終鮮兄弟，維予與女，無信人之言，人實迋女。
-揚之水，不流束薪，終鮮兄弟，維予二人，無信人之言，人實不信！
-
-揚之水，白石鑿鑿，素衣朱襮，從子于沃，既見君子，云何不樂。
-揚之水，白石皓皓，素衣朱繡，從子于鵠，既見君子，云何其憂。
-揚之水，白石粼粼，我聞有命，不敢以告人！
-```
-
-#### English text
-
-```text
-二章 o
-THE SHE KING.
+The waters of the Yangtze are sent forth,
+And there is a white stone like a tooth.
+The lad must think of his kindred,
+And then he can be spoken with.
 ```
 
 ### guofeng-zhengfeng-019 — 出其東門
@@ -8786,12 +8489,12 @@ With bells and drums let us show our delight in her.
 
 ### guofeng-zhounan-002 — 葛覃
 
-- Categories: All Zhou Nan poems, All poem-level/coarse alignments
+- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhounan-002`
 - canonical_ref: `詩經·國風·周南·002`
 - alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: possible commentary, page furniture, or OCR junk; complete section still needs human text review
+- is_coarse_alignment: `true`
+- notes: Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%91%9B%E8%A6%83
   - https://archive.org/details/chineseclassics41legg
@@ -8810,24 +8513,31 @@ With bells and drums let us show our delight in her.
 #### English text
 
 ```text
+How the dolichos spreads out,
+And extends over the valley.
+The yellow birds fly about,
+And collect on the thick foliage.
+
 I cut it and I boiled it,
 And made both fine cloth and coarse,
-I Have told the matron, - . ^cA^rj ^ubnr M
-Who will nnnourice that I am going to see my parents.
+Which I will wear without getting tired of it.
+
+I have told the matron,
+Who will announce that I am going to see my parents.
 I will wash my private clothes clean,
 And I will rinse my robes.
 Which need to be rinsed, and which do not?
-I am going back to visit my parents. y
+I am going back to visit my parents.
 ```
 
 ### guofeng-zhounan-003 — 卷耳
 
-- Categories: All Zhou Nan poems, All poem-level/coarse alignments
+- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhounan-003`
 - canonical_ref: `詩經·國風·周南·003`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: possible commentary, page furniture, or OCR junk; complete section still needs human text review
+- notes: Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%B7%E8%80%B3
   - https://archive.org/details/chineseclassics41legg
@@ -8847,34 +8557,35 @@ I am going back to visit my parents. y
 #### English text
 
 ```text
-1 I was gathering and gathering the mouse-ear,
+I was gathering and gathering the mouse-ear,
 But could not fill my shallow basket.
-^ced on th^igjnva^
+With a sigh for the man of my heart,
+I placed it on the high road.
 
-2 I was ascending that rock-covered height,
+I was ascending that rock-covered height,
 But my horses were too tired to breast it.
 I will now pour a cup from that gilded vase,
 Hoping I may not have to think of him long.
 
-3 I was ascending that lofty ridge,
+I was ascending that lofty ridge,
 But my horses turned of a dark yellow.
-I will now take a cup from that rhinoceros, horn7
+I will now take a cup from that rhinoceros-horn cup,
 Hoping I may not have long to sorrow.
 
-4 I was ascending that flat-topped height,
+I was ascending that flat-topped height,
 But my horses became quite disabled,
-And my servants were [also] disabled.
-Oh ! how great is my sorrow !
+And my servants were also disabled.
+Oh! how great is my sorrow!
 ```
 
 ### guofeng-zhounan-004 — 樛木
 
-- Categories: Ten shortest exported English segments
+- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhounan-004`
 - canonical_ref: `詩經·國風·周南·004`
 - alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- is_coarse_alignment: `true`
+- notes: Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A8%9B%E6%9C%A8
   - https://archive.org/details/chineseclassics41legg
@@ -8893,46 +8604,30 @@ Oh ! how great is my sorrow !
 #### English text
 
 ```text
-樛木
-```
+In the south are the trees with curved drooping branches,
+With the dolichos creepers clinging to them.
+To be rejoiced in is our princely lady:
+May she repose in her happiness and dignity!
 
-### guofeng-zhounan-004 — 樛木
+In the south are the trees with curved drooping branches,
+Covered by the dolichos creepers.
+To be rejoiced in is our princely lady:
+May she be great in her happiness and dignity!
 
-- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
-- section_id: `guofeng-zhounan-004`
-- canonical_ref: `詩經·國風·周南·004`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; Chinese text appears inside the English segment; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A8%9B%E6%9C%A8
-  - https://archive.org/details/chineseclassics41legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt
-
-#### Chinese text
-
-```text
-南有樛木，葛藟纍之，樂只君子，福履綏之。
-南有樛木，葛藟荒之，樂只君子，福履將之。
-南有樛木，葛藟縈之，樂只君子，福履成之。
-```
-
-#### English text
-
-```text
-樛木
+In the south are the trees with curved drooping branches,
+Round which the dolichos creepers twine.
+To be rejoiced in is our princely lady:
+May she be complete in her happiness and dignity!
 ```
 
 ### guofeng-zhounan-005 — 螽斯
 
-- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
+- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhounan-005`
 - canonical_ref: `詩經·國風·周南·005`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review
+- notes: Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%9E%BD%E6%96%AF
   - https://archive.org/details/chineseclassics41legg
@@ -8951,65 +8646,30 @@ Oh ! how great is my sorrow !
 #### English text
 
 ```text
-1 I was gathering and gathering the mouse-ear,
-But could not fill my shallow basket.
-^ced on th^igjnva^
-
-2 I was ascending that rock-covered height,
-But my horses were too tired to breast it.
-I will now pour a cup from that gilded vase,
-Hoping I may not have to think of him long.
-
-3 I was ascending that lofty ridge,
-But my horses turned of a dark yellow.
-I will now take a cup from that rhinoceros, horn7
-Hoping I may not have long to sorrow.
-
-4 I was ascending that flat-topped height,
-But my horses became quite disabled,
-And my servants were [also] disabled.
-Oh ! how great is my sorrow !
-IY. K'ew mull.
-
-1 In the south are the trees with curved drooping branches,
-With the dolichos creepers clinging to them.
-To be rejoiced in is our princely lady: —
-May she repose in her happiness and dignity!
-
-2 In the south are tlie trees with curved drooping branches,
-Covered by the dolichos creepers.
-May she be great in her happiness and dignity!
-
-3 In the south are the tre.es with curved dro〇|)ing brandies,
-Round which the dolichos creepers twine.
-To be rejoiced in is our princely lady: —
-May she be complete in her happiness and dignity!
-ins ® ; ' to give repose t〇 *
-Chung-sze.
-Ye ioeasts, winged tribes,
+Ye locusts, winged tribes,
 How harmoniously you collect together!
 Right is it that your descendants
 Should be multitudinous!
+
 Ye locusts, winged tribes,
 How sound your wings in flight!
 Right is it that your descendants
-Should be as in unbroken strings !
-】a,st, from the smallest things to tlie greatest ’，
-L.l. in all the stanzas. The in
+Should be as in unbroken strings!
+
 Ye locusts, winged tribes,
 How you cluster together!
 Right is it that your descendants
-Should be m, swarms !
+Should be in swarms!
 ```
 
 ### guofeng-zhounan-006 — 桃夭
 
-- Categories: All Zhou Nan poems, All poem-level/coarse alignments
+- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhounan-006`
 - canonical_ref: `詩經·國風·周南·006`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: complete section still needs human text review
+- notes: Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A1%83%E5%A4%AD
   - https://archive.org/details/chineseclassics41legg
@@ -9028,17 +8688,17 @@ Should be m, swarms !
 #### English text
 
 ```text
-1 The peach tree is young and elegant;
+The peach tree is young and elegant;
 Brilliant are its flowers.
 This young lady is going to her future home,
 And will order well her chamber and house.
 
-2 The peach tree is young and elegant;
+The peach tree is young and elegant;
 Abundant will be its fruit.
 This young lady is going to her future home,
 And will order well her house and chamber.
 
-3 The peach tree is young and elegant;
+The peach tree is young and elegant;
 Luxuriant are its leaves.
 This young lady is going to her future home,
 And will order well her family.
@@ -9046,12 +8706,12 @@ And will order well her family.
 
 ### guofeng-zhounan-007 — 兔罝
 
-- Categories: All Zhou Nan poems, All poem-level/coarse alignments
+- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhounan-007`
 - canonical_ref: `詩經·國風·周南·007`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: complete section still needs human text review
+- notes: Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%85%94%E7%BD%9D
   - https://archive.org/details/chineseclassics41legg
@@ -9070,17 +8730,17 @@ And will order well her family.
 #### English text
 
 ```text
-1 Carefully adjusted are the rabbit nets；
+Carefully adjusted are the rabbit nets;
 Clang clang go the blows on the pegs.
 That stalwart, martial man
 Might be shield and wall to his prince.
 
-2 Carefully adjusted are the rabbit nets,
+Carefully adjusted are the rabbit nets,
 And placed where many ways meet.
-That stahvart, martial man
+That stalwart, martial man
 Would be a good companion for his prince.
 
-3 Carefully adjusted are the rabbit nets,
+Carefully adjusted are the rabbit nets,
 And placed in the midst of the forest.
 That stalwart, martial man
 Might be head and heart to his prince.
@@ -9088,12 +8748,12 @@ Might be head and heart to his prince.
 
 ### guofeng-zhounan-008 — 芣苢
 
-- Categories: All Zhou Nan poems, All poem-level/coarse alignments
+- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhounan-008`
 - canonical_ref: `詩經·國風·周南·008`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: complete section still needs human text review
+- notes: Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8A%A3%E8%8B%A2
   - https://archive.org/details/chineseclassics41legg
@@ -9112,25 +8772,30 @@ Might be head and heart to his prince.
 #### English text
 
 ```text
-1 We gather and gather the plantains;
+We gather and gather the plantains;
 Now we may gather them.
 We gather and gather the plantains;
 Now we have got them.
 
-1 In the south rise the trees without branches,
-Affording no shelter.
-By the Han are girls rambling about,
-But it is vain to solicit them.
+We gather and gather the plantains;
+Now we pluck their ears.
+We gather and gather the plantains;
+Now we seize them in our hands.
+
+We gather and gather the plantains;
+Now we lap them in our skirts.
+We gather and gather the plantains;
+Now we tuck them in our girdles.
 ```
 
 ### guofeng-zhounan-009 — 漢廣
 
-- Categories: All Zhou Nan poems, All poem-level/coarse alignments
+- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhounan-009`
 - canonical_ref: `詩經·國風·周南·009`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: possible commentary, page furniture, or OCR junk; complete section still needs human text review
+- notes: Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%BC%A2%E5%BB%A3
   - https://archive.org/details/chineseclassics41legg
@@ -9149,37 +8814,42 @@ But it is vain to solicit them.
 #### English text
 
 ```text
+In the south rise the trees without branches,
+Affording no shelter.
+By the Han are girls rambling about,
+But it is vain to solicit them.
 The breadth of the Han
-Cannot be dived across ;
+Cannot be dived across;
 The length of the Keang
 Cannot be navigated with a raft.
 
-2 Many are the bundles of firewood ;
-I would cut down the thorns [to form more].
+Many are the bundles of firewood;
+I would cut down the thorns to form more.
+Those girls that are going to their future home,
 I would feed their horses.
 The breadth of the Han
-Cannot be dived across ;
+Cannot be dived across;
 The length of the Keang
 Cannot be navigated with a raft.
 
-3 Many are the bundles of firewood ;
-I would cut down the southernwood [to form more].
-Those girls that are going to their future home, —
+Many are the bundles of firewood;
+I would cut down the southernwood to form more.
+Those girls that are going to their future home,
 I would feed their colts.
 The breadth of the Han
-Cannot be dived across ;
-The len〇th of the Keang
+Cannot be dived across;
+The length of the Keang
 Cannot be navigated with a raft.
 ```
 
 ### guofeng-zhounan-010 — 汝墳
 
-- Categories: All Zhou Nan poems, All poem-level/coarse alignments
+- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhounan-010`
 - canonical_ref: `詩經·國風·周南·010`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: complete section still needs human text review
+- notes: Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B1%9D%E5%A2%B3
   - https://archive.org/details/chineseclassics41legg
@@ -9198,31 +8868,30 @@ Cannot be navigated with a raft.
 #### English text
 
 ```text
-1 Along those raised banks of the Joo,
+Along those raised banks of the Joo,
 I cut down the branches and slender stems.
 While I could not see my lord,
 I felt as it were pangs of great hunger.
 
-2 Along those raised banks of the Joo,
+Along those raised banks of the Joo,
 I cut down the branches and fresh twigs.
-I have seen my lord；
+I have seen my lord;
 He has not cast me away.
 
-3 The bream is showing its tail all red；
+The bream is showing its tail all red;
 The royal House is like a blazing fire.
 Though it be like a blazing fire,
 Your parents are very near.
-j withstanding the oppressiveness of Chow its
 ```
 
 ### guofeng-zhounan-011 — 麟之趾
 
-- Categories: All Zhou Nan poems, All poem-level/coarse alignments
+- Categories: All Zhou Nan poems, All poem-level/coarse alignments, Every repaired section
 - section_id: `guofeng-zhounan-011`
 - canonical_ref: `詩經·國風·周南·011`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: complete section still needs human text review
+- notes: Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%BA%9F%E4%B9%8B%E8%B6%BE
   - https://archive.org/details/chineseclassics41legg
@@ -9241,13 +8910,15 @@ j withstanding the oppressiveness of Chow its
 #### English text
 
 ```text
-1 The feet of the lin: —
+The feet of the lin:—
 The noble sons of our prince,
 Ah! they are the lin!
+
+The forehead of the lin:—
 The noble grandsons of our prince,
 Ah! they are the lin!
 
-3 The horn of the lin:—
+The horn of the lin:—
 The noble kindred of our prince,
 Ah! they are the lin!
 ```
@@ -9298,6 +8969,33 @@ we shall see the sickles at work.
 
 ### song-chengong-005 — 有瞽
 
+- Categories: Ten shortest exported English segments
+- section_id: `song-chengong-005`
+- canonical_ref: `詩經·頌·臣工之什·005`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Aligned stanza by stanza from matching Chinese and English poem blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9C%89%E7%9E%BD
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Odes_of_the_Temple_and_the_Altar/The_Sacrificial_Odes_of_K%C3%A2u/Decade_2/Ode_5
+
+#### Chinese text
+
+```text
+有瞽有瞽，在周之庭。設業設虡，崇牙樹羽。應田縣鼓，鞉磬柷圉。
+既備乃奏，簫管備舉。喤喤厥聲，肅雝和鳴，先祖是聽。
+我客戾止，永觀厥成。
+```
+
+#### English text
+
+```text
+There are the blind musicians; there are the blind musicians;
+In the court of (the temple of) Kâu.
+```
+
+### song-chengong-005 — 有瞽
+
 - Categories: Sections with extreme English/Chinese length ratios
 - section_id: `song-chengong-005`
 - canonical_ref: `詩經·頌·臣工之什·005`
@@ -9321,6 +9019,34 @@ we shall see the sickles at work.
 ```text
 There are the blind musicians; there are the blind musicians;
 In the court of (the temple of) Kâu.
+```
+
+### song-chengong-007 — 雝
+
+- Categories: Ten shortest exported English segments
+- section_id: `song-chengong-007`
+- canonical_ref: `詩經·頌·臣工之什·007`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9B%9D
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Odes_of_the_Temple_and_the_Altar/The_Sacrificial_Odes_of_K%C3%A2u/Decade_2/Ode_7
+
+#### Chinese text
+
+```text
+有來雝雝，至止肅肅。相維辟公，天子穆穆。於薦廣牡，相予肆祀。
+```
+
+#### English text
+
+```text
+They come full of harmony;
+They are here in all gravity;—
+The
+princes assisting,
+While the Son of Heaven looks profound.
 ```
 
 ### song-chengong-008 — 載見
@@ -9708,7 +9434,7 @@ Answering to the expectations of all the people.
 
 ### song-lusong-004 — 閟宮
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `song-lusong-004`
 - canonical_ref: `詩經·頌·魯頌·004`
 - alignment_granularity: `poem`
@@ -9977,12 +9703,68 @@ As your successor, I will strive not to forget you.
 
 ### song-minyuxiaozi-005 — 載芟
 
+- Categories: Ten shortest exported English segments
+- section_id: `song-minyuxiaozi-005`
+- canonical_ref: `詩經·頌·閔予小子之什·005`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Aligned at stanza level by splitting the Chinese text into 4-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BC%89%E8%8A%9F
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Odes_of_the_Temple_and_the_Altar/The_Sacrificial_Odes_of_K%C3%A2u/Decade_3/Ode_5
+
+#### Chinese text
+
+```text
+載芟載柞，其耕澤澤。千耦其耘，徂隰徂畛。
+侯主侯伯，侯亞侯旅，侯彊侯以。
+有嗿其饁，思媚其婦，有依其士。
+有略其耜，俶載南畝，播厥百穀，實函斯活。
+```
+
+#### English text
+
+```text
+They clear away the grass and the bushes;
+And the ground is laid open by their ploughs.
+```
+
+### song-minyuxiaozi-005 — 載芟
+
+- Categories: Ten shortest exported English segments
+- section_id: `song-minyuxiaozi-005`
+- canonical_ref: `詩經·頌·閔予小子之什·005`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Aligned at stanza level by splitting the Chinese text into 4-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BC%89%E8%8A%9F
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Odes_of_the_Temple_and_the_Altar/The_Sacrificial_Odes_of_K%C3%A2u/Decade_3/Ode_5
+
+#### Chinese text
+
+```text
+驛驛其達，有厭其傑。厭厭其苗，緜緜其麃。
+載穫濟濟，有實其積，萬億及秭。
+為酒為醴，烝畀祖妣，以洽百禮，有飶其香，邦家之光。
+有椒其馨，胡考之寧。匪且有且，匪今斯今，振古如茲。
+```
+
+#### English text
+
+```text
+In thousands of pairs they remove the roots,
+Some in the low wet land, some along the dykes.
+```
+
+### song-minyuxiaozi-005 — 載芟
+
 - Categories: Sections with extreme English/Chinese length ratios
 - section_id: `song-minyuxiaozi-005`
 - canonical_ref: `詩經·頌·閔予小子之什·005`
 - alignment_granularity: `stanza`
 - is_coarse_alignment: `false`
-- notes: suspiciously low English/Chinese length ratio
+- notes: suspiciously short English text; suspiciously low English/Chinese length ratio
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BC%89%E8%8A%9F
   - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Odes_of_the_Temple_and_the_Altar/The_Sacrificial_Odes_of_K%C3%A2u/Decade_3/Ode_5
@@ -10009,6 +9791,60 @@ And the ground is laid open by their ploughs.
 
 In thousands of pairs they remove the roots,
 Some in the low wet land, some along the dykes.
+```
+
+### song-minyuxiaozi-006 — 良耜
+
+- Categories: Ten shortest exported English segments
+- section_id: `song-minyuxiaozi-006`
+- canonical_ref: `詩經·頌·閔予小子之什·006`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Aligned at stanza level by splitting the Chinese text into 3-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%89%AF%E8%80%9C
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Odes_of_the_Temple_and_the_Altar/The_Sacrificial_Odes_of_K%C3%A2u/Decade_3/Ode_6
+
+#### Chinese text
+
+```text
+畟畟良耜，俶載南畝，播厥百穀，實函斯活。
+或來瞻女，載筐及筥。其饟伊黍，其笠伊糾。
+其鎛斯趙，以薅荼蓼，荼蓼朽止，黍稷茂止。
+```
+
+#### English text
+
+```text
+Very sharp are the excellent shares,
+With which they set to work on the south-lying acres.
+```
+
+### song-minyuxiaozi-006 — 良耜
+
+- Categories: Ten shortest exported English segments
+- section_id: `song-minyuxiaozi-006`
+- canonical_ref: `詩經·頌·閔予小子之什·006`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Aligned at stanza level by splitting the Chinese text into 3-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%89%AF%E8%80%9C
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Odes_of_the_Temple_and_the_Altar/The_Sacrificial_Odes_of_K%C3%A2u/Decade_3/Ode_6
+
+#### Chinese text
+
+```text
+穫之挃挃，積之栗栗，其崇如墉，其比如櫛，以開百室。
+百室盈止，婦子寧止。殺時犉牡，有捄其角。
+以似以續，續古之人。
+```
+
+#### English text
+
+```text
+They sow their various kinds of grain,
+Each seed containing in it a germ of life.
 ```
 
 ### song-minyuxiaozi-006 — 良耜
@@ -10163,12 +9999,12 @@ Thus to preserve (its favour)?
 
 ### song-qingmiao-008 — 時邁
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
 - section_id: `song-qingmiao-008`
 - canonical_ref: `詩經·頌·清廟之什·008`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: possible commentary, page furniture, or OCR junk
+- notes: suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%99%82%E9%82%81
   - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Odes_of_the_Temple_and_the_Altar/The_Sacrificial_Odes_of_K%C3%A2u/Decade_1/Ode_8
@@ -10301,6 +10137,31 @@ The former men set us the example;—
 How to be mild and humble from morning to night,
 And to be reverent in discharging the service.
 
+May he regard our sacrifices of winter and autumn,
+(Thus) offered by the descendant of Thang!
+```
+
+### song-shangsong-002 — 烈祖
+
+- Categories: Ten shortest exported English segments
+- section_id: `song-shangsong-002`
+- canonical_ref: `詩經·頌·商頌·002`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%83%88%E7%A5%96
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/Odes_of_the_Temple_and_the_Altar/The_Sacrificial_Odes_of_Shang/Ode_2
+
+#### Chinese text
+
+```text
+來假來饗，降福無疆。顧予烝嘗，湯孫之將。
+```
+
+#### English text
+
+```text
 May he regard our sacrifices of winter and autumn,
 (Thus) offered by the descendant of Thang!
 ```
@@ -10609,6 +10470,37 @@ To be rejoiced in are these princes!
 They are screens to all the States.
 ```
 
+### xiaoya-futian-005 — 桑扈
+
+- Categories: Sections with extreme English/Chinese length ratios
+- section_id: `xiaoya-futian-005`
+- canonical_ref: `詩經·小雅·甫田之什·005`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: suspiciously short English text; suspiciously low English/Chinese length ratio
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A1%91%E6%89%88
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/The_Minor_Odes_of_the_Kingdom/Decade_7/Ode_1
+
+#### Chinese text
+
+```text
+交交桑扈，有鶯其羽。君子樂胥，受天之祜。
+交交桑扈，有鶯其領。君子樂胥，萬邦之屏。
+之屏之翰，百辟為憲。不戢不難，受福不那。
+兕觥其觩，旨酒思柔。彼交匪敖，萬福來求。
+```
+
+#### English text
+
+```text
+They flit about, the greenbeaks,
+With their
+​variegated wings.
+To be rejoiced in are these princes!
+May they receive the blessing of Heaven!
+```
+
 ### xiaoya-futian-006 — 鴛鴦
 
 - Categories: All poem-level/coarse alignments
@@ -10663,7 +10555,7 @@ They are your brethren, and no others.
 
 ### xiaoya-futian-007 — 頍弁
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `xiaoya-futian-007`
 - canonical_ref: `詩經·小雅·甫田之什·007`
 - alignment_granularity: `poem`
@@ -10898,7 +10790,7 @@ With what toil ye gave me birth!
 
 ### xiaoya-gufeng-002 — 蓼莪
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `xiaoya-gufeng-002`
 - canonical_ref: `詩經·小雅·谷風之什·002`
 - alignment_granularity: `poem`
@@ -11351,7 +11243,7 @@ You will only make yourself ill.
 
 ### xiaoya-gufeng-008 — 鼓鍾
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
+- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios, Top 20 remaining warnings
 - section_id: `xiaoya-gufeng-008`
 - canonical_ref: `詩經·小雅·谷風之什·008`
 - alignment_granularity: `poem`
@@ -12187,7 +12079,7 @@ To go and reside in Hsiang.
 
 ### xiaoya-jienanshan-003 — 十月之交
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `xiaoya-jienanshan-003`
 - canonical_ref: `詩經·小雅·節南山之什·003`
 - alignment_granularity: `poem`
@@ -12690,7 +12582,7 @@ Will you not find that it is truly so?
 
 ### xiaoya-luming-007 — 采薇
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `xiaoya-luming-007`
 - canonical_ref: `詩經·小雅·鹿鳴之什·007`
 - alignment_granularity: `poem`
@@ -12870,12 +12762,12 @@ The Heen-yun are pacified.
 
 ### xiaoya-luming-008 — 出車
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `xiaoya-luming-008`
 - canonical_ref: `詩經·小雅·鹿鳴之什·008`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: possible commentary, page furniture, or OCR junk; complete section still needs human text review; poem-level alignment may hide recoverable stanza segmentation
+- notes: suspiciously long English text; possible commentary, page furniture, or OCR junk; complete section still needs human text review; poem-level alignment may hide recoverable stanza segmentation
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%87%BA%E8%BB%8A
   - https://archive.org/details/chineseclassics42legg
@@ -12967,14 +12859,47 @@ Awe-inspiring is Nan Chung；
 The Heen-yun are pacified.
 ```
 
+### xiaoya-luming-009 — 杕杜
+
+- Categories: Sections with extreme English/Chinese length ratios
+- section_id: `xiaoya-luming-009`
+- canonical_ref: `詩經·小雅·鹿鳴之什·009`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: suspiciously low English/Chinese length ratio
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9D%95%E6%9D%9C
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/The_Minor_Odes_of_the_Kingdom/Decade_1/Ode_9
+
+#### Chinese text
+
+```text
+有杕之杜，有睆其實。王事靡盬，繼嗣我日。日月陽止，女心傷止，征夫遑止。
+有杕之杜，其葉萋萋。王事靡盬，我心傷悲。卉木萋止，女心悲止，征夫歸止。
+陟彼北山，言采其杞。王事靡盬，憂我父母。檀車幝幝，四牡痯痯，征夫不遠。
+匪載匪來，憂心孔疚。期逝不至，而多為恤。卜筮偕止，會言近止，征夫邇止。
+```
+
+#### English text
+
+```text
+They have not packed up, they do not come.
+My sorrowing heart is greatly distressed.
+The time is past, and he is not here,
+To the multiplication of my sorrows.
+Both by the tortoise-shell and the reeds have I divined,
+And they unite in saying he is near.
+My warrior is at hand.
+```
+
 ### xiaoya-luming-010 — 魚麗
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios
+- Categories: All poem-level/coarse alignments, Every repaired section, Sections with extreme English/Chinese length ratios
 - section_id: `xiaoya-luming-010`
 - canonical_ref: `詩經·小雅·鹿鳴之什·010`
 - alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; Chinese text appears inside the English segment; complete section still needs human text review
+- is_coarse_alignment: `true`
+- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines after the automatic section map drifted into a title-only entry; kept poem-level alignment until stanza-safe OCR segmentation is reworked. suspiciously high English/Chinese length ratio
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%AD%9A%E9%BA%97
   - https://archive.org/details/chineseclassics42legg
@@ -12996,46 +12921,45 @@ The Heen-yun are pacified.
 #### English text
 
 ```text
-St. 4. ^ ■= ‘not，’ as in st. 1 of
-last ode. Ying-tah takes this line interroga-
-tively. The meaning is the same. 逝 《 往 ‘is
-goue by.’ 历 一 here=_7^， ‘and so it is that.’
-Wang Yin-che explains the line by
-I'、， _ to divine by burning the tortoise shell；
-^念， by manipulating the reeds. ^ 皆 has a
-verbal force, unless we carry it on to the next
-line; 一 * both together agree in saying/
-The rhymes are — in st. 1， J^, cat. 5, t.2;
-實 ，日， cat. I2, t. 3 ; 陽 ，德 ，違， cat. 10: in
-2» 鹽; 雲 ，悲 ，雲 悲 ，歸， cat. 15,
-1. 1 : in 3, 祀 ，母 * ， cat. 1， t. 2 ; 中 韋 ，猜 ，遠，
-cat. 14 : in 4, 來疢 *, cat. 1, 1. 1 ; 室 *， 恤，
-cat. 12, t. 3 ; 偕 ，近， (prop. cat. 13; but Koo-
-she contends it has here its original pronuncia-
-tion) cat. 15, t. 2.
-Ode 10. This is one of the six odes, which
-are commonly spoken of as having been lost.
-Choo, however, contends that they were only
-the names of tunes, played on the organ, and
-never were pieces to be sung. Before this time,
-moreover, the 3d ode of the next Book was the
-10th of this Book. For the grounds on which
-he changed the order of the pieces, and main-
-tained that Hhe lost pieces* were only names of
-tunes, see on the 1st and 2d odes of next Book.
-According to 1 the Little Preface/ the subject of
-the Nan-kae was _ 1 Filial sons admonishing one
-another on the duty of supporting their parents.*
+The fish lie in the basket,
+And the bream is in the pot.
+The lovely and virtuous lady —
+May there be to her spirits tranquillity and repose.
+
+The fish lie in the basket,
+And the tench and ide are in it.
+The lovely and virtuous lady —
+May there be to her plenty of repose.
+
+The fish lie in the basket,
+And the black skirts are in it.
+The lovely and virtuous lady —
+May there be to her rest in her apartment.
+
+The fish lie in the basket,
+And the salmon and hwang are in it.
+The lovely and virtuous lady —
+May there be to her congratulation from the spirits.
+
+The fish lie in the basket,
+And the bull-head and carp are in it.
+The lovely and virtuous lady —
+May there be to her bright fame from the spirits.
+
+The things in the basket are of dried grass;
+The things in the pot are of vegetables.
+The lovely and virtuous lady —
+May there be to her vigorous health from the spirits.
 ```
 
 ### xiaoya-nanyoujiayu-001 — 南有嘉魚
 
-- Categories: Ten shortest exported English segments
+- Categories: All poem-level/coarse alignments, Every repaired section, Subdivision example: 小雅 / 南有嘉魚之什
 - section_id: `xiaoya-nanyoujiayu-001`
 - canonical_ref: `詩經·小雅·南有嘉魚之什·001`
 - alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available.
+- is_coarse_alignment: `true`
+- notes: Recovered reviewed poem text from inspected Legge hOCR page-head lines after the automatic section map crossed a heading boundary; kept poem-level alignment until stanza-safe OCR segmentation is reworked. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%97%E6%9C%89%E5%98%89%E9%AD%9A
   - https://archive.org/details/chineseclassics42legg
@@ -13055,37 +12979,25 @@ another on the duty of supporting their parents.*
 #### English text
 
 ```text
-南有嘉魚
-```
+In the south are the barbel fish;
+The royal way is very easy.
+The gentleman goes to the banquet,
+There are admirable spirits and wine.
 
-### xiaoya-nanyoujiayu-001 — 南有嘉魚
+In the south are the white bream;
+The royal way is very pure and good.
+The gentleman goes to the banquet,
+There are guests with lutes and drums.
 
-- Categories: All poem-level/coarse alignments, Sections with extreme English/Chinese length ratios, Subdivision example: 小雅 / 南有嘉魚之什
-- section_id: `xiaoya-nanyoujiayu-001`
-- canonical_ref: `詩經·小雅·南有嘉魚之什·001`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `false`
-- notes: suspiciously short English text; suspiciously low English/Chinese length ratio; possible commentary, page furniture, or OCR junk; Chinese text appears inside the English segment; complete section still needs human text review
-- source URLs:
-  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%97%E6%9C%89%E5%98%89%E9%AD%9A
-  - https://archive.org/details/chineseclassics42legg
-  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih
-  - https://archive.org/download/theshihking09394gut/7shih10.txt
-  - https://archive.org/download/chineseclassics42legg/chineseclassics42legg_djvu.txt
+In the south are the trees of sapan wood;
+The royal way is very quiet and correct.
+The gentleman goes to the banquet,
+There are guests with lutes, bells, and drums.
 
-#### Chinese text
-
-```text
-南有嘉魚，烝然罩罩。君子有酒，嘉賓式燕以樂。
-南有嘉魚，烝然汕汕。君子有酒，嘉賓式燕以衎。
-南有樛木，甘瓠纍之。君子有酒，嘉賓式燕綏之。
-翩翩者鵻，烝然來思。君子有酒，嘉賓式燕又思。
-```
-
-#### English text
-
-```text
-南有嘉魚
+In the south are the trees of prickly ash;
+The royal way is very observant of duty.
+The gentleman goes to the banquet,
+There are guests with lutes, large and small.
 ```
 
 ### xiaoya-nanyoujiayu-002 — 南山有臺
@@ -13337,7 +13249,7 @@ Our hearts are at rest.
 
 ### xiaoya-nanyoujiayu-010 — 六月
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `xiaoya-nanyoujiayu-010`
 - canonical_ref: `詩經·小雅·南有嘉魚之什·010`
 - alignment_granularity: `poem`
@@ -13531,7 +13443,7 @@ And the tribes of King came, awed by his majesty.
 
 ### xiaoya-nanyoujiayu-011 — 采芑
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `xiaoya-nanyoujiayu-011`
 - canonical_ref: `詩經·小雅·南有嘉魚之什·011`
 - alignment_granularity: `poem`
@@ -13801,7 +13713,7 @@ Dwelling in tranquillity.
 
 ### xiaoya-yuzao-002 — 采菽
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `xiaoya-yuzao-002`
 - canonical_ref: `詩經·小雅·魚藻之什·002`
 - alignment_granularity: `poem`
@@ -14207,9 +14119,80 @@ And never will forget them.
 ii.Vn.4,5. The Peaou Ke gg) in the
 ```
 
+### xiaoya-yuzao-009 — 白華
+
+- Categories: Ten shortest exported English segments
+- section_id: `xiaoya-yuzao-009`
+- canonical_ref: `詩經·小雅·魚藻之什·009`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Aligned at stanza level by splitting the Chinese text into 4-line units to match Legge's printed stanza blocks.
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%99%BD%E8%8F%AF
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/The_Minor_Odes_of_the_Kingdom/Decade_8/Ode_5
+
+#### Chinese text
+
+```text
+白華菅兮，白茅束兮。之子之遠，俾我獨兮。
+英英白雲，露彼菅茅。天步艱難，之子不猶。
+滮池北流，浸彼稻田。嘯歌傷懷，念彼碩人。
+樵彼桑薪，卬烘于煁。維彼碩人，實勞我心。
+```
+
+#### English text
+
+```text
+The fibres from the white-flowered rush
+Are bound with the white grass.
+This man's sending me away
+makes me dwell solitary.
+```
+
+### xiaoya-yuzao-009 — 白華
+
+- Categories: Sections with extreme English/Chinese length ratios
+- section_id: `xiaoya-yuzao-009`
+- canonical_ref: `詩經·小雅·魚藻之什·009`
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: suspiciously low English/Chinese length ratio
+- source URLs:
+  - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%99%BD%E8%8F%AF
+  - https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih/The_Minor_Odes_of_the_Kingdom/Decade_8/Ode_5
+
+#### Chinese text
+
+```text
+白華菅兮，白茅束兮。之子之遠，俾我獨兮。
+英英白雲，露彼菅茅。天步艱難，之子不猶。
+滮池北流，浸彼稻田。嘯歌傷懷，念彼碩人。
+樵彼桑薪，卬烘于煁。維彼碩人，實勞我心。
+
+鼓鍾于宮，聲聞于外。念子懆懆，視我邁邁。
+有鶖在梁，有鶴在林。維彼碩人，實勞我心。
+鴛鴦在梁，戢其左翼。之子無良，二三其德。
+有扁斯石，履之卑兮。之子之遠，俾我疧兮。
+```
+
+#### English text
+
+```text
+The fibres from the white-flowered rush
+Are bound with the white grass.
+This man's sending me away
+makes me dwell solitary.
+
+The light and brilliant clouds
+Bedew the rush and the grass.
+The way of Heaven is hard and difficult;—
+This
+man does not conform (to good principle).
+```
+
 ### xiaoya-yuzao-010 — 緜蠻
 
-- Categories: All poem-level/coarse alignments
+- Categories: All poem-level/coarse alignments, Top 20 remaining warnings
 - section_id: `xiaoya-yuzao-010`
 - canonical_ref: `詩經·小雅·魚藻之什·010`
 - alignment_granularity: `poem`
@@ -14321,7 +14304,7 @@ But] from the spirits of the superior man,
 - canonical_ref: `詩經·小雅·魚藻之什·012`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `false`
-- notes: complete section still needs human text review
+- notes: suspiciously short English text; complete section still needs human text review
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%BC%B8%E6%BC%B8%E4%B9%8B%E7%9F%B3
   - https://archive.org/details/chineseclassics42legg

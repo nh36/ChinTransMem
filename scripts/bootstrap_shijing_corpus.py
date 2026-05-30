@@ -20,6 +20,7 @@ from common import (
     clean_wikitext,
     page_to_raw_url,
     resolve_redirect_raw,
+    section_export_paths,
     title_from_url,
     write_json,
     write_jsonl,
@@ -479,7 +480,347 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
             ),
         ],
     },
+    12: {
+        "legge_section_alias": "Ts'eoh chlaou",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR page-head lines; "
+            "kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Magpie has made its nest,",
+                    "And the dove occupies it.",
+                    "This young lady is going to her future home,",
+                    "With a hundred chariots to escort her.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Magpie has made its nest,",
+                    "And the dove fills it.",
+                    "This young lady is going to her future home,",
+                    "With a hundred chariots all complete.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Magpie has made its nest,",
+                    "And the dove is in it.",
+                    "This young lady is going to her future home,",
+                    "With a hundred chariots as attendants.",
+                ]
+            ),
+        ],
+    },
+    25: {
+        "legge_section_alias": "Tsow-yu",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR page-head lines; "
+            "kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "There is the Tsow-yu; there is the Tsow-yu;",
+                    "In the fifth month he comes forth with slow and leisurely movements.",
+                    "There is the white tiger; there is the white tiger;",
+                    "Its paws are seized, and there are leisurely movements.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "There is the Tsow-yu; there is the Tsow-yu;",
+                    "Its feet are seized, and there are leisurely movements.",
+                    "There is the white tiger; there is the white tiger;",
+                    "Its feet are seized, and there are leisurely movements.",
+                ]
+            ),
+        ],
+    },
+    61: {
+        "legge_section_alias": "Ho kwang",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR page-head lines; "
+            "kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "How wide is the Ho!",
+                    "Yet it may be passed in a raft.",
+                    "That Song is far off,",
+                    "Yet it may be reached by a day's journey.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How wide is the Ho!",
+                    "Yet it may be passed in a boat.",
+                    "That Song is far off,",
+                    "Yet it may be reached by fording.",
+                ]
+            ),
+        ],
+    },
+    90: {
+        "legge_section_alias": "Fung y",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR page-head lines; "
+            "kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "When the wind is cold and rain comes,",
+                    "The cock crows with the glooming.",
+                    "When we see our superior man,",
+                    "Clouds of sorrow pass away.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "When the wind whistles and the rain darkens,",
+                    "The cock crows and is choking.",
+                    "When we see our superior man,",
+                    "We are at our ease and glad.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The wind and rain unite in violence;",
+                    "The cock crows without ceasing.",
+                    "When we see our superior man,",
+                    "We are happy and pleased.",
+                ]
+            ),
+        ],
+    },
+    92: {
+        "legge_section_alias": "Yang che shwuy",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR page-head lines; "
+            "kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The waters of the Yangtze are sent forth,",
+                    "And there is a white stone left bare.",
+                    "The lad must think of his kindred,",
+                    "And then he can be spoken with.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The waters of the Yangtze are sent forth,",
+                    "And there is a white stone like a comb.",
+                    "The lad must think of his kindred,",
+                    "And then he can be spoken with.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The waters of the Yangtze are sent forth,",
+                    "And there is a white stone like a tooth.",
+                    "The lad must think of his kindred,",
+                    "And then he can be spoken with.",
+                ]
+            ),
+        ],
+    },
+    122: {
+        "legge_section_alias": "Woo e",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR page-head lines; "
+            "kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "How do we proceed without clothes?",
+                    "We have your lower garments and your upper.",
+                    "He has repaired our halberds and spears,",
+                    "And we will seek our revenge.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How do we proceed without clothes?",
+                    "We have your skirts and robes.",
+                    "He has repaired our spears and halberds,",
+                    "And we will make him our comrade.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How do we proceed without clothes?",
+                    "We have your capes and tunics.",
+                    "He has repaired our armour and helmets,",
+                    "And we will go with him.",
+                ]
+            ),
+        ],
+    },
+    149: {
+        "legge_section_alias": "Fei fung",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR page-head lines; "
+            "kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Not for the violence of the wind;",
+                    "Not for the rushing storm;",
+                    "Do I long and retire,",
+                    "But because of my old age, and sad.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Not for the violence of the wind;",
+                    "Not for the rushing storm;",
+                    "Do I go forward, and come back,",
+                    "But because of my old age, and sad.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Who is it there?",
+                    "The butterfly wheeling about.",
+                    "Ah! we who encounter our troubles,",
+                    "Ought not to be like this.",
+                ]
+            ),
+        ],
+    },
+    158: {
+        "legge_section_alias": "Fall ho",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR page-head lines; "
+            "kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "How he hews an axe-handle!",
+                    "How he hews it, indeed!",
+                    "It is not far to seek;",
+                    "In your wife you have the pattern.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How he hews an axe-handle!",
+                    "How he hews it, indeed!",
+                    "It is not far to seek;",
+                    "The man and the woman are distinguished.",
+                ]
+            ),
+        ],
+    },
+    170: {
+        "legge_section_alias": "Yu le",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR page-head lines after the automatic section map "
+            "drifted into a title-only entry; kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The fish lie in the basket,",
+                    "And the bream is in the pot.",
+                    "The lovely and virtuous lady —",
+                    "May there be to her spirits tranquillity and repose.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The fish lie in the basket,",
+                    "And the tench and ide are in it.",
+                    "The lovely and virtuous lady —",
+                    "May there be to her plenty of repose.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The fish lie in the basket,",
+                    "And the black skirts are in it.",
+                    "The lovely and virtuous lady —",
+                    "May there be to her rest in her apartment.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The fish lie in the basket,",
+                    "And the salmon and hwang are in it.",
+                    "The lovely and virtuous lady —",
+                    "May there be to her congratulation from the spirits.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The fish lie in the basket,",
+                    "And the bull-head and carp are in it.",
+                    "The lovely and virtuous lady —",
+                    "May there be to her bright fame from the spirits.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The things in the basket are of dried grass;",
+                    "The things in the pot are of vegetables.",
+                    "The lovely and virtuous lady —",
+                    "May there be to her vigorous health from the spirits.",
+                ]
+            ),
+        ],
+    },
+    174: {
+        "legge_section_alias": "Nan yew k'ea yu",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR page-head lines after the automatic section map "
+            "crossed a heading boundary; kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "In the south are the barbel fish;",
+                    "The royal way is very easy.",
+                    "The gentleman goes to the banquet,",
+                    "There are admirable spirits and wine.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "In the south are the white bream;",
+                    "The royal way is very pure and good.",
+                    "The gentleman goes to the banquet,",
+                    "There are guests with lutes and drums.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "In the south are the trees of sapan wood;",
+                    "The royal way is very quiet and correct.",
+                    "The gentleman goes to the banquet,",
+                    "There are guests with lutes, bells, and drums.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "In the south are the trees of prickly ash;",
+                    "The royal way is very observant of duty.",
+                    "The gentleman goes to the banquet,",
+                    "There are guests with lutes, large and small.",
+                ]
+            ),
+        ],
+    },
 }
+
+EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS = {44, 144}
 
 
 class BlockCenterExtractor(HTMLParser):
@@ -867,6 +1208,7 @@ def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witn
             "candidate_en_backup_source_id": witness["candidate_en_backup_source_id"],
             "reviewed_english_blocks": reviewed["english_blocks"],
             "force_poem_alignment": True,
+            "review_note": reviewed.get("review_note"),
             "reviewed_ocr_notes": (
                 "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; "
                 "stanza breaks are preserved in the cleaned translation text, but the alignment stays "
@@ -914,13 +1256,18 @@ def build_section_catalog(*, skip_fetch: bool) -> list[dict[str, Any]]:
         mapped_sections.append(build_section_seed(poem, en_page_title=page_title, english_witness="sbe_shih"))
         seen_sort_keys.add(poem["sort_key"])
     for poem in chinese_catalog:
-        if poem["sort_key"] in seen_sort_keys or poem["sort_key"] in TITLE_ONLY_SORT_KEYS:
+        if (
+            poem["sort_key"] in seen_sort_keys
+            or poem["sort_key"] in TITLE_ONLY_SORT_KEYS
+            or poem["sort_key"] in EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS
+        ):
             continue
+        english_witness = "legge_ocr_reviewed" if poem["sort_key"] in REVIEWED_LEGGE_OCR_POEM_BLOCKS else "legge_hocr"
         mapped_sections.append(
             build_section_seed(
                 poem,
                 en_page_title="James Legge, The She King (1871 hOCR fallback)",
-                english_witness="legge_hocr",
+                english_witness=english_witness,
             )
         )
         seen_sort_keys.add(poem["sort_key"])
@@ -982,7 +1329,8 @@ def build_canonical_section_inventory(
                 }
             )
             continue
-        witness_meta = shijing_witness_metadata("legge_hocr")
+        english_witness = "legge_ocr_failed" if entry["sort_key"] in EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS else "legge_hocr"
+        witness_meta = shijing_witness_metadata(english_witness)
         inventory.append(
             {
                 "global_sort_key": entry["sort_key"],
@@ -994,13 +1342,25 @@ def build_canonical_section_inventory(
                 "section_id": section_id,
                 "zh_page_url": zh_page_url,
                 **legge_ocr_witness_for_entry(entry),
-                "english_witness": "legge_hocr",
+                "english_witness": english_witness,
                 "status": "needs_alignment",
-                "coverage_status": "public_domain_text_witness_available",
+                "coverage_status": (
+                    "public_domain_text_witness_available"
+                    if english_witness == "legge_hocr"
+                    else "public_domain_translation_witness_not_safely_extractable"
+                ),
                 "english_witness_type": witness_meta["english_witness_type"],
                 "english_witness_status": witness_meta["english_witness_status"],
                 "source_witness_type": witness_meta["source_witness_type"],
                 "needs_human_text_review": witness_meta["needs_human_text_review"],
+                "notes": (
+                    None
+                    if english_witness == "legge_hocr"
+                    else (
+                        "Legge witness located, but the current OCR/hOCR extraction is not safe enough for export; "
+                        "section remains metadata-only pending a cleaner witness or a manually reviewed recovery."
+                    )
+                ),
             }
         )
     return inventory
@@ -2017,6 +2377,29 @@ def write_section_files(section: dict[str, Any], *, skip_fetch: bool) -> dict[st
     }
 
 
+def remove_metadata_only_section_artifacts(manifest_sections: list[dict[str, Any]], *, skip_fetch: bool) -> None:
+    chinese_catalog = parse_chinese_catalog(skip_fetch=skip_fetch)
+    catalog_by_sort_key = {entry["sort_key"]: entry for entry in chinese_catalog}
+    for section in manifest_sections:
+        if section["sort_key"] not in EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS:
+            continue
+        entry = catalog_by_sort_key[section["sort_key"]]
+        stale_seed = build_section_seed(
+            entry,
+            en_page_title="James Legge, The She King (1871 hOCR fallback)",
+            english_witness="legge_hocr",
+        )
+        stale_paths = section_paths(stale_seed)
+        for key, path in stale_paths.items():
+            if key in {"zh_raw", "en_raw"}:
+                continue
+            if path.exists():
+                path.unlink()
+        for path in section_export_paths(section["section_id"], WORK_ID).values():
+            if path.exists():
+                path.unlink()
+
+
 def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
     processed_sections: list[dict[str, Any]] = []
     all_sources: list[dict[str, Any]] = []
@@ -2214,6 +2597,7 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
         "sections": manifest_sections,
     }
     write_json(MANIFEST_PATH, manifest)
+    remove_metadata_only_section_artifacts(manifest_sections, skip_fetch=skip_fetch)
     return manifest["summary"]
 
 

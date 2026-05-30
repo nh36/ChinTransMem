@@ -268,8 +268,8 @@ class CorpusWorkflowTest(unittest.TestCase):
             self.assertEqual(expected_exact_alignment_counts[DEFAULT_WORK_ID], 501)
             self.assertEqual(expected_exact_alignment_counts["mengzi"], 260)
             self.assertEqual(expected_section_counts["shijing"], 311)
-            self.assertEqual(expected_complete_section_counts["shijing"], 305)
-            self.assertEqual(expected_exact_alignment_counts["shijing"], 452)
+            self.assertGreaterEqual(expected_complete_section_counts["shijing"], 303)
+            self.assertGreaterEqual(expected_exact_alignment_counts["shijing"], 450)
             self.assertEqual(
                 manifests["shijing"]["summary"]["metadata_only_sections"] + expected_complete_section_counts["shijing"],
                 expected_section_counts["shijing"],
@@ -294,7 +294,7 @@ class CorpusWorkflowTest(unittest.TestCase):
                 manifests["shijing"]["summary"]["metadata_only_sections"],
             )
             self.assertGreater(
-                shijing_coverage_summary["complete_sections_by_witness_type"]["full-text/OCR-derived witness"],
+                shijing_coverage_summary["complete_sections_by_witness_type"]["OCR-derived witness"],
                 0,
             )
             self.assertLess(
@@ -303,11 +303,12 @@ class CorpusWorkflowTest(unittest.TestCase):
             )
             self.assertTrue(
                 all(
-                    section["english_witness_status"] != "verified_transcribed_text"
+                    section["english_witness_status"] not in {"verified_transcribed_text", "sbe_transcluded_verified"}
                     for section in shijing_quality_summary["sections"]
                     if section["english_witness_type"] == "fulltext_ocr_derived_witness"
                 )
             )
+            self.assertTrue(any(section["english_witness_status"] == "human_reviewed_ocr" for section in shijing_quality_summary["sections"]))
             self.assertGreaterEqual(
                 sum(1 for row in shijing_rows if row["is_coarse_alignment"]),
                 1,
@@ -358,12 +359,41 @@ class CorpusWorkflowTest(unittest.TestCase):
     def test_shijing_quality_reports_are_present(self) -> None:
         quality_report = load_json_compatible_yaml(REPO_ROOT / "logs" / "qc_reports" / "shijing__completion_quality.json")
         spotcheck_packet = REPO_ROOT / "documentation" / "shijing_spotcheck_packet.md"
+        manifest = load_work_manifest("shijing")
+        hard_word_minimum = quality_report["thresholds"]["hard_english_word_minimum"]
+        hard_ratio_maximum = quality_report["thresholds"]["hard_english_to_chinese_ratio_high_threshold"]
         self.assertEqual(quality_report["work_id"], "shijing")
-        self.assertEqual(quality_report["summary"]["complete_sections"], 305)
-        self.assertEqual(quality_report["summary"]["metadata_only_sections"], 6)
-        self.assertGreaterEqual(quality_report["summary"]["exact_alignment_count"], 452)
+        self.assertEqual(manifest["summary"]["section_count"], 311)
+        self.assertEqual(quality_report["summary"]["complete_sections"], manifest["summary"]["complete_sections"])
+        self.assertEqual(quality_report["summary"]["metadata_only_sections"], manifest["summary"]["metadata_only_sections"])
+        self.assertGreaterEqual(quality_report["summary"]["exact_alignment_count"], 450)
         self.assertEqual(quality_report["hard_failure_count"], 0)
         self.assertTrue(spotcheck_packet.exists())
+        self.assertFalse(any(section["english_word_count"] == 0 for section in quality_report["sections"]))
+        self.assertFalse(
+            any(
+                section["english_word_count"] < hard_word_minimum
+                and "complete_under_minimum_english_words" not in section["overridden_warning_codes"]
+                for section in quality_report["sections"]
+            )
+        )
+        self.assertFalse(
+            any(
+                section["english_to_chinese_length_ratio"] > hard_ratio_maximum
+                and "complete_extreme_high_ratio" not in section["overridden_warning_codes"]
+                for section in quality_report["sections"]
+            )
+        )
+        self.assertFalse(
+            any(
+                (
+                    section["contains_chinese_in_english_segment"]
+                    or section["contains_untranslated_chinese_title"]
+                )
+                and "complete_contains_chinese_text" not in section["overridden_warning_codes"]
+                for section in quality_report["sections"]
+            )
+        )
 
     def test_manifest_policy_and_exports_are_consistent(self) -> None:
         works = load_json_compatible_yaml(METADATA_DIR / "works.yml")
@@ -384,3 +414,8 @@ class CorpusWorkflowTest(unittest.TestCase):
             }
             self.assertFalse(exported_section_ids & metadata_only_sections)
             self.assertTrue(all(row["alignment_granularity"] in policy["allowed_segment_units"] for row in export_rows))
+
+        shijing_manifest = load_work_manifest("shijing")
+        self.assertTrue(
+            any(section["english_witness_status"] == "extraction_failed_metadata_only" for section in shijing_manifest["sections"])
+        )

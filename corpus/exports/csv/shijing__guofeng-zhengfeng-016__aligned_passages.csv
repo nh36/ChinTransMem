@@ -1,7 +1,17 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-zhengfeng-016__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-zhengfeng-016,poem,poem,poem,False,,1,1,exact_or_near_exact,0.95,1,詩經·國風·鄭風·016.1,"風雨淒淒，雞鳴喈喈。既見君子，云胡不夷。
+shijing__guofeng-zhengfeng-016__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-016,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·鄭風·016.1,"風雨淒淒，雞鳴喈喈。既見君子，云胡不夷。
 風雨瀟瀟，雞鳴膠膠。既見君子，云胡不瘳。
-風雨如晦，雞鳴不已。既見君子，云胡不喜。",風雨.1,"u.
-三章 t ^ 〇
-THE SHE KING.
-PAIIT I."
+風雨如晦，雞鳴不已。既見君子，云胡不喜。",Fung y.1,"When the wind is cold and rain comes,
+The cock crows with the glooming.
+When we see our superior man,
+Clouds of sorrow pass away.
+
+When the wind whistles and the rain darkens,
+The cock crows and is choking.
+When we see our superior man,
+We are at our ease and glad.
+
+The wind and rain unite in violence;
+The cock crows without ceasing.
+When we see our superior man,
+We are happy and pleased."

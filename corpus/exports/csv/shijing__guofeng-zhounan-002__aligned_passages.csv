@@ -1,11 +1,18 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-zhounan-002__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-zhounan-002,poem,poem,poem,False,,1,1,exact_or_near_exact,0.95,1,詩經·國風·周南·002.1,"葛之覃兮，施于中谷，維葉萋萋，黃鳥于飛，集于灌木，其鳴喈喈。
+shijing__guofeng-zhounan-002__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhounan-002,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·周南·002.1,"葛之覃兮，施于中谷，維葉萋萋，黃鳥于飛，集于灌木，其鳴喈喈。
 葛之覃兮，施于中谷，維葉莫莫，是刈是濩，為絺為綌，服之無斁。
-言告師氏，言告言歸，薄汙我私，薄澣我衣，害澣害否，歸寧父母。",葛覃.1,"I cut it and I boiled it,
+言告師氏，言告言歸，薄汙我私，薄澣我衣，害澣害否，歸寧父母。",Koh t'an.1,"How the dolichos spreads out,
+And extends over the valley.
+The yellow birds fly about,
+And collect on the thick foliage.
+
+I cut it and I boiled it,
 And made both fine cloth and coarse,
-I Have told the matron, - . ^cA^rj ^ubnr M
-Who will nnnourice that I am going to see my parents.
+Which I will wear without getting tired of it.
+
+I have told the matron,
+Who will announce that I am going to see my parents.
 I will wash my private clothes clean,
 And I will rinse my robes.
 Which need to be rinsed, and which do not?
-I am going back to visit my parents. y"
+I am going back to visit my parents."

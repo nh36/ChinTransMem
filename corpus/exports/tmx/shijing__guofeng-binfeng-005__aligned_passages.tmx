@@ -2,25 +2,34 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shijing__guofeng-binfeng-005__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+    <tu tuid="shijing__guofeng-binfeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr">
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-binfeng-005</prop>
       <prop type="x-section-unit">poem</prop>
       <prop type="x-segment-type">poem</prop>
       <prop type="x-alignment-granularity">poem</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.95</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·豳風·005.1</prop>
-      <prop type="x-translation-ref">伐柯.1</prop>
+      <prop type="x-translation-ref">Fall ho.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>伐柯如何？匪斧不克。取妻如何？匪媒不得。
 伐柯伐柯，其則不遠。我覯之子？籩豆有踐。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>ODES OF PIN.</seg>
+        <seg>How he hews an axe-handle!
+How he hews it, indeed!
+It is not far to seek;
+In your wife you have the pattern.
+
+How he hews an axe-handle!
+How he hews it, indeed!
+It is not far to seek;
+The man and the woman are distinguished.</seg>
       </tuv>
     </tu>
   </body>

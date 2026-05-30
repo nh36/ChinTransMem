@@ -2,7 +2,7 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shijing__guofeng-zhounan-006__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+    <tu tuid="shijing__guofeng-zhounan-006__001__zhwikisource-20260530__legge-sheking-1871-ocr">
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-zhounan-006</prop>
       <prop type="x-section-unit">poem</prop>
@@ -14,7 +14,7 @@
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·006.1</prop>
-      <prop type="x-translation-ref">桃夭.1</prop>
+      <prop type="x-translation-ref">T'aou yaou.1</prop>
       <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>桃之夭夭，灼灼其華，之子于歸，宜其室家。
@@ -22,17 +22,17 @@
 桃之夭夭，其葉蓁蓁，之子于歸，宜其家人。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>1 The peach tree is young and elegant;
+        <seg>The peach tree is young and elegant;
 Brilliant are its flowers.
 This young lady is going to her future home,
 And will order well her chamber and house.
 
-2 The peach tree is young and elegant;
+The peach tree is young and elegant;
 Abundant will be its fruit.
 This young lady is going to her future home,
 And will order well her house and chamber.
 
-3 The peach tree is young and elegant;
+The peach tree is young and elegant;
 Luxuriant are its leaves.
 This young lady is going to her future home,
 And will order well her family.</seg>

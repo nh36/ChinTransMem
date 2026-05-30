@@ -63,7 +63,7 @@ def unit_has_public_domain_english_witness(unit: dict[str, Any]) -> bool:
 
 def unit_has_verified_english_witness(unit: dict[str, Any]) -> bool:
     english_status = str(unit.get("english_witness_status", ""))
-    return english_status.startswith("verified")
+    return english_status in {"verified_transcribed_text", "sbe_transcluded_verified", "human_reviewed_ocr"}
 
 
 def write_markdown_report(path: Path, report: dict[str, Any]) -> None:

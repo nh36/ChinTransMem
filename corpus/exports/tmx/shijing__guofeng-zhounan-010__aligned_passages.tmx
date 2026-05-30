@@ -2,7 +2,7 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shijing__guofeng-zhounan-010__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+    <tu tuid="shijing__guofeng-zhounan-010__001__zhwikisource-20260530__legge-sheking-1871-ocr">
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-zhounan-010</prop>
       <prop type="x-section-unit">poem</prop>
@@ -14,7 +14,7 @@
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·010.1</prop>
-      <prop type="x-translation-ref">汝墳.1</prop>
+      <prop type="x-translation-ref">Joo fun.1</prop>
       <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>遵彼汝墳，伐其條枚，未見君子，惄如調飢。
@@ -22,21 +22,20 @@
 魴魚赬尾，王室如燬，雖則如燬，父母孔邇。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>1 Along those raised banks of the Joo,
+        <seg>Along those raised banks of the Joo,
 I cut down the branches and slender stems.
 While I could not see my lord,
 I felt as it were pangs of great hunger.
 
-2 Along those raised banks of the Joo,
+Along those raised banks of the Joo,
 I cut down the branches and fresh twigs.
-I have seen my lord；
+I have seen my lord;
 He has not cast me away.
 
-3 The bream is showing its tail all red；
+The bream is showing its tail all red;
 The royal House is like a blazing fire.
 Though it be like a blazing fire,
-Your parents are very near.
-j withstanding the oppressiveness of Chow its</seg>
+Your parents are very near.</seg>
       </tuv>
     </tu>
   </body>

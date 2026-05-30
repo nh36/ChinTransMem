@@ -391,7 +391,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhounan-002__zhwikisource-20260530",
-      "guofeng-zhounan-002__legge-sheking-1871-hocr"
+      "guofeng-zhounan-002__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 葛覃 with 1 exact poem alignments."
   },
@@ -402,7 +402,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhounan-003__zhwikisource-20260530",
-      "guofeng-zhounan-003__legge-sheking-1871-hocr"
+      "guofeng-zhounan-003__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 卷耳 with 1 exact poem alignments."
   },
@@ -413,7 +413,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhounan-004__zhwikisource-20260530",
-      "guofeng-zhounan-004__legge-sheking-1871-hocr"
+      "guofeng-zhounan-004__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 樛木 with 1 exact poem alignments."
   },
@@ -424,7 +424,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhounan-005__zhwikisource-20260530",
-      "guofeng-zhounan-005__legge-sheking-1871-hocr"
+      "guofeng-zhounan-005__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 螽斯 with 1 exact poem alignments."
   },
@@ -435,7 +435,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhounan-006__zhwikisource-20260530",
-      "guofeng-zhounan-006__legge-sheking-1871-hocr"
+      "guofeng-zhounan-006__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 桃夭 with 1 exact poem alignments."
   },
@@ -446,7 +446,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhounan-007__zhwikisource-20260530",
-      "guofeng-zhounan-007__legge-sheking-1871-hocr"
+      "guofeng-zhounan-007__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 兔罝 with 1 exact poem alignments."
   },
@@ -457,7 +457,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhounan-008__zhwikisource-20260530",
-      "guofeng-zhounan-008__legge-sheking-1871-hocr"
+      "guofeng-zhounan-008__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 芣苢 with 1 exact poem alignments."
   },
@@ -468,7 +468,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhounan-009__zhwikisource-20260530",
-      "guofeng-zhounan-009__legge-sheking-1871-hocr"
+      "guofeng-zhounan-009__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 漢廣 with 1 exact poem alignments."
   },
@@ -479,7 +479,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhounan-010__zhwikisource-20260530",
-      "guofeng-zhounan-010__legge-sheking-1871-hocr"
+      "guofeng-zhounan-010__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 汝墳 with 1 exact poem alignments."
   },
@@ -490,7 +490,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhounan-011__zhwikisource-20260530",
-      "guofeng-zhounan-011__legge-sheking-1871-hocr"
+      "guofeng-zhounan-011__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 麟之趾 with 1 exact poem alignments."
   },
@@ -501,7 +501,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhaonan-001__zhwikisource-20260530",
-      "guofeng-zhaonan-001__legge-sheking-1871-hocr"
+      "guofeng-zhaonan-001__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 鵲巢 with 1 exact poem alignments."
   },
@@ -644,7 +644,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhaonan-014__zhwikisource-20260530",
-      "guofeng-zhaonan-014__legge-sheking-1871-hocr"
+      "guofeng-zhaonan-014__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 騶虞 with 1 exact poem alignments."
   },
@@ -847,17 +847,6 @@
     "notes": "Bootstrap Shijing generation for 新臺 with 1 exact poem alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-beifeng-019-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-019",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-019__zhwikisource-20260530",
-      "guofeng-beifeng-019__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 二子乘舟 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-yongfeng-001-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-yongfeng-001",
@@ -1040,7 +1029,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-weifeng-007__zhwikisource-20260530",
-      "guofeng-weifeng-007__legge-sheking-1871-hocr"
+      "guofeng-weifeng-007__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 河廣 with 1 exact poem alignments."
   },
@@ -1359,7 +1348,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhengfeng-016__zhwikisource-20260530",
-      "guofeng-zhengfeng-016__legge-sheking-1871-hocr"
+      "guofeng-zhengfeng-016__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 風雨 with 1 exact poem alignments."
   },
@@ -1381,7 +1370,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-zhengfeng-018__zhwikisource-20260530",
-      "guofeng-zhengfeng-018__legge-sheking-1871-hocr"
+      "guofeng-zhengfeng-018__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 揚之水 with 1 exact poem alignments."
   },
@@ -1711,7 +1700,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-tangfeng-009__zhwikisource-20260530",
-      "guofeng-tangfeng-009__legge-sheking-1871-hocr"
+      "guofeng-tangfeng-009__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 無衣 with 1 exact poem alignments."
   },
@@ -1947,17 +1936,6 @@
     "notes": "Bootstrap Shijing generation for 月出 with 1 exact poem alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-chenfeng-009-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-009",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-chenfeng-009__zhwikisource-20260530",
-      "guofeng-chenfeng-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 株林 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-chenfeng-010-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-chenfeng-010",
@@ -2008,7 +1986,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-kuaifeng-004__zhwikisource-20260530",
-      "guofeng-kuaifeng-004__legge-sheking-1871-hocr"
+      "guofeng-kuaifeng-004__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 匪風 with 1 exact poem alignments."
   },
@@ -2107,7 +2085,7 @@
     "status": "complete",
     "source_ids": [
       "guofeng-binfeng-005__zhwikisource-20260530",
-      "guofeng-binfeng-005__legge-sheking-1871-hocr"
+      "guofeng-binfeng-005__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 伐柯 with 1 exact poem alignments."
   },
@@ -2239,7 +2217,7 @@
     "status": "complete",
     "source_ids": [
       "xiaoya-luming-010__zhwikisource-20260530",
-      "xiaoya-luming-010__legge-sheking-1871-hocr"
+      "xiaoya-luming-010__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 魚麗 with 1 exact poem alignments."
   },
@@ -2250,7 +2228,7 @@
     "status": "complete",
     "source_ids": [
       "xiaoya-nanyoujiayu-001__zhwikisource-20260530",
-      "xiaoya-nanyoujiayu-001__legge-sheking-1871-hocr"
+      "xiaoya-nanyoujiayu-001__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 南有嘉魚 with 1 exact poem alignments."
   },

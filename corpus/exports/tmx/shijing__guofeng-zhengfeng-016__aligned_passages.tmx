@@ -2,29 +2,40 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shijing__guofeng-zhengfeng-016__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+    <tu tuid="shijing__guofeng-zhengfeng-016__001__zhwikisource-20260530__legge-sheking-1871-ocr">
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-zhengfeng-016</prop>
       <prop type="x-section-unit">poem</prop>
       <prop type="x-segment-type">poem</prop>
       <prop type="x-alignment-granularity">poem</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.95</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·鄭風·016.1</prop>
-      <prop type="x-translation-ref">風雨.1</prop>
+      <prop type="x-translation-ref">Fung y.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>風雨淒淒，雞鳴喈喈。既見君子，云胡不夷。
 風雨瀟瀟，雞鳴膠膠。既見君子，云胡不瘳。
 風雨如晦，雞鳴不已。既見君子，云胡不喜。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>u.
-三章 t ^ 〇
-THE SHE KING.
-PAIIT I.</seg>
+        <seg>When the wind is cold and rain comes,
+The cock crows with the glooming.
+When we see our superior man,
+Clouds of sorrow pass away.
+
+When the wind whistles and the rain darkens,
+The cock crows and is choking.
+When we see our superior man,
+We are at our ease and glad.
+
+The wind and rain unite in violence;
+The cock crows without ceasing.
+When we see our superior man,
+We are happy and pleased.</seg>
       </tuv>
     </tu>
   </body>

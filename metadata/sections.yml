@@ -321,7 +321,7 @@
     "label": "葛覃",
     "canonical_ref": "詩經·國風·周南·002",
     "sort_key": 2,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhounan-003",
@@ -330,7 +330,7 @@
     "label": "卷耳",
     "canonical_ref": "詩經·國風·周南·003",
     "sort_key": 3,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhounan-004",
@@ -339,7 +339,7 @@
     "label": "樛木",
     "canonical_ref": "詩經·國風·周南·004",
     "sort_key": 4,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhounan-005",
@@ -348,7 +348,7 @@
     "label": "螽斯",
     "canonical_ref": "詩經·國風·周南·005",
     "sort_key": 5,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhounan-006",
@@ -357,7 +357,7 @@
     "label": "桃夭",
     "canonical_ref": "詩經·國風·周南·006",
     "sort_key": 6,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhounan-007",
@@ -366,7 +366,7 @@
     "label": "兔罝",
     "canonical_ref": "詩經·國風·周南·007",
     "sort_key": 7,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhounan-008",
@@ -375,7 +375,7 @@
     "label": "芣苢",
     "canonical_ref": "詩經·國風·周南·008",
     "sort_key": 8,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhounan-009",
@@ -384,7 +384,7 @@
     "label": "漢廣",
     "canonical_ref": "詩經·國風·周南·009",
     "sort_key": 9,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhounan-010",
@@ -393,7 +393,7 @@
     "label": "汝墳",
     "canonical_ref": "詩經·國風·周南·010",
     "sort_key": 10,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhounan-011",
@@ -402,7 +402,7 @@
     "label": "麟之趾",
     "canonical_ref": "詩經·國風·周南·011",
     "sort_key": 11,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhaonan-001",
@@ -411,7 +411,7 @@
     "label": "鵲巢",
     "canonical_ref": "詩經·國風·召南·001",
     "sort_key": 12,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhaonan-002",
@@ -528,7 +528,7 @@
     "label": "騶虞",
     "canonical_ref": "詩經·國風·召南·014",
     "sort_key": 25,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-beifeng-001",
@@ -699,7 +699,7 @@
     "label": "二子乘舟",
     "canonical_ref": "詩經·國風·邶風·019",
     "sort_key": 44,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export, and OCR-derived text should stay visibly review-pending until checked."
   },
   {
     "section_id": "guofeng-yongfeng-001",
@@ -852,7 +852,7 @@
     "label": "河廣",
     "canonical_ref": "詩經·國風·衛風·007",
     "sort_key": 61,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-weifeng-008",
@@ -1113,7 +1113,7 @@
     "label": "風雨",
     "canonical_ref": "詩經·國風·鄭風·016",
     "sort_key": 90,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhengfeng-017",
@@ -1131,7 +1131,7 @@
     "label": "揚之水",
     "canonical_ref": "詩經·國風·鄭風·018",
     "sort_key": 92,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-zhengfeng-019",
@@ -1401,7 +1401,7 @@
     "label": "無衣",
     "canonical_ref": "詩經·國風·唐風·009",
     "sort_key": 122,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-tangfeng-010",
@@ -1599,7 +1599,7 @@
     "label": "株林",
     "canonical_ref": "詩經·國風·陳風·009",
     "sort_key": 144,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export, and OCR-derived text should stay visibly review-pending until checked."
   },
   {
     "section_id": "guofeng-chenfeng-010",
@@ -1644,7 +1644,7 @@
     "label": "匪風",
     "canonical_ref": "詩經·國風·檜風·004",
     "sort_key": 149,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-caofeng-001",
@@ -1725,7 +1725,7 @@
     "label": "伐柯",
     "canonical_ref": "詩經·國風·豳風·005",
     "sort_key": 158,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-binfeng-006",
@@ -1833,7 +1833,7 @@
     "label": "魚麗",
     "canonical_ref": "詩經·小雅·鹿鳴之什·010",
     "sort_key": 170,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-luming-011",
@@ -1869,7 +1869,7 @@
     "label": "南有嘉魚",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·001",
     "sort_key": 174,
-    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-002",

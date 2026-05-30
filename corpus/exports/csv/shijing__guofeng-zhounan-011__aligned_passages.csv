@@ -1,12 +1,14 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-zhounan-011__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-zhounan-011,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·周南·011.1,"麟之趾，振振公子，于嗟麟兮。
+shijing__guofeng-zhounan-011__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhounan-011,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·周南·011.1,"麟之趾，振振公子，于嗟麟兮。
 麟之定，振振公姓，于嗟麟兮。
-麟之角，振振公族，于嗟麟兮。",麟之趾.1,"1 The feet of the lin: —
+麟之角，振振公族，于嗟麟兮。",Lin che che.1,"The feet of the lin:—
 The noble sons of our prince,
 Ah! they are the lin!
+
+The forehead of the lin:—
 The noble grandsons of our prince,
 Ah! they are the lin!
 
-3 The horn of the lin:—
+The horn of the lin:—
 The noble kindred of our prince,
 Ah! they are the lin!"

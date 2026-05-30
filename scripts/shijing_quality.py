@@ -6,15 +6,25 @@ import statistics
 from pathlib import Path
 from typing import Any
 
-from common import DOCUMENTATION_DIR, QC_REPORTS_DIR, corpus_export_paths, load_work_manifest, read_jsonl
+from common import (
+    DOCUMENTATION_DIR,
+    QC_REPORTS_DIR,
+    REPO_ROOT,
+    corpus_export_paths,
+    load_json_compatible_yaml,
+    load_work_manifest,
+    read_jsonl,
+)
 
 WORK_ID = "shijing"
 QUALITY_JSON_PATH = QC_REPORTS_DIR / "shijing__completion_quality.json"
 QUALITY_MARKDOWN_PATH = DOCUMENTATION_DIR / "shijing_completion_quality.md"
 SPOTCHECK_PACKET_PATH = DOCUMENTATION_DIR / "shijing_spotcheck_packet.md"
+QUALITY_OVERRIDES_PATH = REPO_ROOT / "metadata" / "shijing_quality_overrides.yml"
 
 ENGLISH_WORD_RE = re.compile(r"[A-Za-z]+(?:['’-][A-Za-z]+)?")
 CJK_RE = re.compile(r"[\u3400-\u9fff]")
+VERIFIED_WITNESS_STATUSES = {"verified_transcribed_text", "sbe_transcluded_verified", "human_reviewed_ocr"}
 QUALITY_MARKER_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("wikisource_css", re.compile(r"\.mw-parser-output|wst-anchor:target", re.I)),
     ("heading_marker", re.compile(r"\b(?:ODES OF|THE SHE KING|SHE KING|Ode \d+|St(?:anza)?\.?\s*\d+|Book \d+)\b", re.I)),
@@ -38,25 +48,41 @@ def shijing_witness_metadata(english_witness: str | None) -> dict[str, Any]:
     if english_witness == "sbe_shih":
         return {
             "english_witness_type": "sbe_transcluded_page",
-            "english_witness_status": "verified_transcribed_text",
+            "english_witness_status": "sbe_transcluded_verified",
             "source_witness_type": "SBE transcluded page",
             "needs_human_text_review": False,
             "ocr_or_fulltext_derived": False,
+        }
+    if english_witness == "legge_fulltext":
+        return {
+            "english_witness_type": "fulltext_derived_witness",
+            "english_witness_status": "fulltext_extracted_needs_review",
+            "source_witness_type": "full-text derived witness",
+            "needs_human_text_review": True,
+            "ocr_or_fulltext_derived": True,
         }
     if english_witness == "legge_hocr":
         return {
             "english_witness_type": "fulltext_ocr_derived_witness",
             "english_witness_status": "ocr_extracted_needs_review",
-            "source_witness_type": "full-text/OCR-derived witness",
+            "source_witness_type": "OCR-derived witness",
             "needs_human_text_review": True,
             "ocr_or_fulltext_derived": True,
         }
     if english_witness == "legge_ocr_reviewed":
         return {
             "english_witness_type": "fulltext_ocr_derived_witness",
-            "english_witness_status": "ocr_verified",
-            "source_witness_type": "full-text/OCR-derived witness",
+            "english_witness_status": "human_reviewed_ocr",
+            "source_witness_type": "OCR-derived witness",
             "needs_human_text_review": False,
+            "ocr_or_fulltext_derived": True,
+        }
+    if english_witness == "legge_ocr_failed":
+        return {
+            "english_witness_type": "fulltext_ocr_derived_witness",
+            "english_witness_status": "extraction_failed_metadata_only",
+            "source_witness_type": "OCR-derived witness",
+            "needs_human_text_review": True,
             "ocr_or_fulltext_derived": True,
         }
     return {
@@ -101,6 +127,41 @@ def detect_quality_markers(text: str, *, title: str | None = None) -> list[str]:
     return sorted(set(markers))
 
 
+def load_shijing_quality_overrides() -> list[dict[str, Any]]:
+    if not QUALITY_OVERRIDES_PATH.exists():
+        return []
+    payload = load_json_compatible_yaml(QUALITY_OVERRIDES_PATH)
+    overrides = payload.get("overrides", []) if isinstance(payload, dict) else payload
+    return list(overrides or [])
+
+
+def build_override_map(overrides: list[dict[str, Any]]) -> dict[tuple[str, str], dict[str, Any]]:
+    override_map: dict[tuple[str, str], dict[str, Any]] = {}
+    for override in overrides:
+        section_id = str(override.get("section_id", "")).strip()
+        warning_code = str(override.get("warning_code", "")).strip()
+        if section_id and warning_code:
+            override_map[(section_id, warning_code)] = override
+    return override_map
+
+
+def is_quality_override(override_map: dict[tuple[str, str], dict[str, Any]], section_id: str, warning_code: str) -> bool:
+    return (section_id, warning_code) in override_map
+
+
+def substantial_chinese_in_english(section: dict[str, Any]) -> bool:
+    english_text = section["_english_text"]
+    cjk_count = len(CJK_RE.findall(english_text))
+    return cjk_count >= 3 or bool(section["contains_untranslated_chinese_title"])
+
+
+def looks_like_heading_or_furniture(section: dict[str, Any]) -> bool:
+    markers = set(section["possible_commentary_leakage_markers"])
+    if {"heading_marker", "page_furniture"} & markers and section["english_word_count"] < 20:
+        return True
+    return bool(markers & {"heading_marker", "page_furniture"}) and section["english_word_count"] < 25
+
+
 def source_urls_for_section(section: dict[str, Any], source_map: dict[str, dict[str, Any]]) -> list[str]:
     urls: list[str] = []
     for key in ("zh_page_url", "en_page_url", "candidate_en_page_url", "candidate_en_text_url", "candidate_en_ocr_url"):
@@ -124,6 +185,8 @@ def build_shijing_quality_context(
 ) -> dict[str, Any]:
     manifest = manifest or load_work_manifest(WORK_ID)
     export_rows = export_rows if export_rows is not None else read_jsonl(corpus_export_paths(WORK_ID)["jsonl"])
+    overrides = load_shijing_quality_overrides()
+    override_map = build_override_map(overrides)
     export_rows_by_section: dict[str, list[dict[str, Any]]] = {}
     for row in export_rows:
         export_rows_by_section.setdefault(row["section_id"], []).append(row)
@@ -203,6 +266,7 @@ def build_shijing_quality_context(
                 "contains_untranslated_chinese_title": any(marker == "untranslated_chinese_title" for marker in markers),
                 "complete_but_needs_human_text_review": section.get("status") == "complete" and needs_review,
                 "notes": section.get("notes"),
+                "review_note": section.get("review_note"),
                 "source_urls": source_urls,
                 "_chinese_text": chinese_text,
                 "_english_text": english_text,
@@ -216,6 +280,8 @@ def build_shijing_quality_context(
     word_long_threshold = max(int(percentile(word_counts, 0.95)), int(statistics.median(word_counts) * 2.0))
     ratio_low_threshold = max(0.75, percentile(ratios, 0.05))
     ratio_high_threshold = max(8.0, percentile(ratios, 0.95))
+    hard_word_threshold = 10
+    very_high_ratio_threshold = max(20.0, ratio_high_threshold * 2.0)
 
     warning_count = 0
     for section in section_records:
@@ -229,26 +295,71 @@ def build_shijing_quality_context(
             and section["english_stanza_block_count"] > 1
         )
         warnings: list[str] = []
+        warning_codes: list[str] = []
+        overridden_warning_codes: list[str] = []
+        hard_failure_codes: list[str] = []
+
+        def add_warning(code: str, message: str) -> None:
+            if is_quality_override(override_map, section["section_id"], code):
+                overridden_warning_codes.append(code)
+                return
+            warning_codes.append(code)
+            warnings.append(message)
+
+        def add_hard_failure(code: str, message: str) -> None:
+            if is_quality_override(override_map, section["section_id"], code):
+                overridden_warning_codes.append(code)
+                return
+            hard_failure_codes.append(code)
+            hard_failures.append(f"{section['section_id']}: {message}")
+
         if short_english:
-            warnings.append("suspiciously short English text")
+            add_warning("suspiciously_short_english_text", "suspiciously short English text")
         if long_english:
-            warnings.append("suspiciously long English text")
+            add_warning("suspiciously_long_english_text", "suspiciously long English text")
         if ratio_low:
-            warnings.append("suspiciously low English/Chinese length ratio")
+            add_warning("suspiciously_low_length_ratio", "suspiciously low English/Chinese length ratio")
         if ratio_high:
-            warnings.append("suspiciously high English/Chinese length ratio")
+            add_warning("suspiciously_high_length_ratio", "suspiciously high English/Chinese length ratio")
         if section["possible_commentary_leakage_markers"]:
-            warnings.append("possible commentary, page furniture, or OCR junk")
+            add_warning("possible_commentary_leakage", "possible commentary, page furniture, or OCR junk")
         if section["contains_chinese_in_english_segment"] or section["contains_untranslated_chinese_title"]:
-            warnings.append("Chinese text appears inside the English segment")
+            add_warning("chinese_in_english_segment", "Chinese text appears inside the English segment")
         if section["complete_but_needs_human_text_review"]:
-            warnings.append("complete section still needs human text review")
+            add_warning("complete_needs_human_text_review", "complete section still needs human text review")
         if possible_stanza_split:
-            warnings.append("poem-level alignment may hide recoverable stanza segmentation")
+            add_warning("possible_stanza_split", "poem-level alignment may hide recoverable stanza segmentation")
+
+        if section["english_word_count"] == 0:
+            add_hard_failure("complete_empty_english", "complete section has empty English text.")
+        elif section["english_word_count"] < hard_word_threshold:
+            add_hard_failure(
+                "complete_under_minimum_english_words",
+                f"complete section has only {section['english_word_count']} English words.",
+            )
+        if substantial_chinese_in_english(section):
+            add_hard_failure("complete_contains_chinese_text", "complete section still contains substantial Chinese text.")
+        if looks_like_heading_or_furniture(section):
+            add_hard_failure(
+                "complete_looks_like_heading_or_furniture",
+                "complete section still looks like heading, page furniture, or paratext rather than translation.",
+            )
+        if section["english_to_chinese_length_ratio"] > very_high_ratio_threshold:
+            add_hard_failure(
+                "complete_extreme_high_ratio",
+                (
+                    "complete section has an implausibly high English/Chinese length ratio "
+                    f"({section['english_to_chinese_length_ratio']:.3f})."
+                ),
+            )
         section["suspiciously_short_english_text"] = short_english
         section["suspiciously_long_english_text"] = long_english
         section["suspiciously_extreme_length_ratio"] = ratio_low or ratio_high
         section["possible_stanza_split"] = possible_stanza_split
+        section["warning_codes"] = warning_codes
+        section["overridden_warning_codes"] = sorted(set(overridden_warning_codes))
+        section["hard_failure_codes"] = hard_failure_codes
+        section["has_hard_failure"] = bool(hard_failure_codes)
         section["warnings"] = warnings
         warning_count += len(warnings)
 
@@ -284,21 +395,27 @@ def build_shijing_quality_context(
             ),
             "hard_failure_count": len(hard_failures),
             "warning_count": warning_count,
+            "sections_with_hard_failures": sum(1 for section in section_records if section["has_hard_failure"]),
         },
         "thresholds": {
             "english_word_short_threshold": word_short_threshold,
             "english_word_long_threshold": word_long_threshold,
             "english_to_chinese_ratio_low_threshold": ratio_low_threshold,
             "english_to_chinese_ratio_high_threshold": ratio_high_threshold,
+            "hard_english_word_minimum": hard_word_threshold,
+            "hard_english_to_chinese_ratio_high_threshold": very_high_ratio_threshold,
         },
         "hard_failures": hard_failures,
         "row_warnings": row_warning_records,
         "sections": section_records,
+        "quality_overrides": overrides,
         "metadata_only_sections": [
             {
                 "section_id": section["section_id"],
                 "title": section["label"],
                 "canonical_ref": section["canonical_ref"],
+                "status": section.get("status"),
+                "english_witness_status": section.get("english_witness_status"),
                 "notes": section.get("notes"),
                 "source_urls": source_urls_for_section(section, source_map),
             }
@@ -361,6 +478,7 @@ def quality_markdown(context: dict[str, Any]) -> str:
         f"| sections_with_single_poem_alignment | {summary['sections_with_single_poem_alignment']} |",
         f"| sections_with_extreme_length_ratio | {summary['sections_with_extreme_length_ratio']} |",
         f"| sections_with_possible_commentary_leakage | {summary['sections_with_possible_commentary_leakage']} |",
+        f"| sections_with_hard_failures | {summary['sections_with_hard_failures']} |",
         f"| hard_failure_count | {summary['hard_failure_count']} |",
         f"| warning_count | {summary['warning_count']} |",
         "",
@@ -444,6 +562,13 @@ def quality_markdown(context: dict[str, Any]) -> str:
 
 
 def _section_packet_entry(section: dict[str, Any], category: str) -> dict[str, Any]:
+    notes_parts = []
+    if section.get("review_note"):
+        notes_parts.append(section["review_note"])
+    if section["warnings"]:
+        notes_parts.append("; ".join(section["warnings"]))
+    elif section.get("notes"):
+        notes_parts.append(section["notes"])
     return {
         "entry_key": f"section:{section['section_id']}",
         "entry_type": "section",
@@ -453,7 +578,7 @@ def _section_packet_entry(section: dict[str, Any], category: str) -> dict[str, A
         "canonical_ref": section["canonical_ref"],
         "alignment_granularity": ", ".join(section["alignment_granularity_values"]),
         "is_coarse_alignment": section["has_coarse_alignment"],
-        "notes": "; ".join(section["warnings"]) or (section.get("notes") or "—"),
+        "notes": " ".join(notes_parts) or "—",
         "chinese_text": section["_chinese_text"],
         "english_text": section["_english_text"],
         "source_urls": section["source_urls"],
@@ -506,6 +631,18 @@ def build_spotcheck_packet_markdown(context: dict[str, Any]) -> str:
     ):
         add_item(_section_packet_entry(section, "All Zhou Nan poems"))
 
+    for section in sorted(
+        (section for section in context["sections"] if section["has_hard_failure"]),
+        key=lambda section: section["canonical_ref"],
+    ):
+        add_item(_section_packet_entry(section, "Every hard failure"))
+
+    for section in sorted(
+        (section for section in context["sections"] if section["english_witness_status"] == "human_reviewed_ocr"),
+        key=lambda section: section["canonical_ref"],
+    ):
+        add_item(_section_packet_entry(section, "Every repaired section"))
+
     for section_id in sorted(metadata_only_map):
         section = metadata_only_map[section_id]
         add_item(
@@ -525,6 +662,24 @@ def build_spotcheck_packet_markdown(context: dict[str, Any]) -> str:
                 "categories": [],
             }
         )
+        if section.get("english_witness_status") == "extraction_failed_metadata_only":
+            add_item(
+                {
+                    "entry_key": f"metadata-reverted:{section_id}",
+                    "entry_type": "metadata_only",
+                    "category": "Every section moved back to metadata-only",
+                    "section_id": section["section_id"],
+                    "title": section["title"],
+                    "canonical_ref": section["canonical_ref"],
+                    "alignment_granularity": "metadata_only",
+                    "is_coarse_alignment": False,
+                    "notes": section.get("notes") or "Export withdrawn after review.",
+                    "chinese_text": "_No exportable Chinese/English alignment after review._",
+                    "english_text": "_Export withdrawn; section remains metadata-only pending better witness recovery._",
+                    "source_urls": section["source_urls"],
+                    "categories": [],
+                }
+            )
 
     shortest_rows = sorted(export_rows, key=lambda row: english_word_count(row["translation_text"]))[:10]
     longest_rows = sorted(export_rows, key=lambda row: english_word_count(row["translation_text"]), reverse=True)[:10]
@@ -556,6 +711,13 @@ def build_spotcheck_packet_markdown(context: dict[str, Any]) -> str:
         key=lambda section: section["english_to_chinese_length_ratio"],
     ):
         add_item(_section_packet_entry(section, "Sections with extreme English/Chinese length ratios"))
+
+    for section in sorted(
+        (section for section in context["sections"] if section["warnings"]),
+        key=lambda section: (len(section["warnings"]), section["english_word_count"]),
+        reverse=True,
+    )[:20]:
+        add_item(_section_packet_entry(section, "Top 20 remaining warnings"))
 
     ordered_items = sorted(
         section_items.values(),

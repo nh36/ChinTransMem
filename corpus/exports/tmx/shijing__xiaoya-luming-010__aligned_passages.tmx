@@ -2,19 +2,20 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shijing__xiaoya-luming-010__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+    <tu tuid="shijing__xiaoya-luming-010__001__zhwikisource-20260530__legge-sheking-1871-ocr">
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-luming-010</prop>
       <prop type="x-section-unit">poem</prop>
       <prop type="x-segment-type">poem</prop>
       <prop type="x-alignment-granularity">poem</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.95</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·010.1</prop>
-      <prop type="x-translation-ref">魚麗.1</prop>
+      <prop type="x-translation-ref">Yu le.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>魚麗于罶，鱨鯊。君子有酒，旨且多。
 魚麗于罶，魴鱧。君子有酒，多且旨。
@@ -24,36 +25,35 @@
 物其有矣，維其時矣。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>St. 4. ^ ■= ‘not，’ as in st. 1 of
-last ode. Ying-tah takes this line interroga-
-tively. The meaning is the same. 逝 《 往 ‘is
-goue by.’ 历 一 here=_7^， ‘and so it is that.’
-Wang Yin-che explains the line by
-I'、， _ to divine by burning the tortoise shell；
-^念， by manipulating the reeds. ^ 皆 has a
-verbal force, unless we carry it on to the next
-line; 一 * both together agree in saying/
-The rhymes are — in st. 1， J^, cat. 5, t.2;
-實 ，日， cat. I2, t. 3 ; 陽 ，德 ，違， cat. 10: in
-2» 鹽; 雲 ，悲 ，雲 悲 ，歸， cat. 15,
-1. 1 : in 3, 祀 ，母 * ， cat. 1， t. 2 ; 中 韋 ，猜 ，遠，
-cat. 14 : in 4, 來疢 *, cat. 1, 1. 1 ; 室 *， 恤，
-cat. 12, t. 3 ; 偕 ，近， (prop. cat. 13; but Koo-
-she contends it has here its original pronuncia-
-tion) cat. 15, t. 2.
-Ode 10. This is one of the six odes, which
-are commonly spoken of as having been lost.
-Choo, however, contends that they were only
-the names of tunes, played on the organ, and
-never were pieces to be sung. Before this time,
-moreover, the 3d ode of the next Book was the
-10th of this Book. For the grounds on which
-he changed the order of the pieces, and main-
-tained that Hhe lost pieces* were only names of
-tunes, see on the 1st and 2d odes of next Book.
-According to 1 the Little Preface/ the subject of
-the Nan-kae was _ 1 Filial sons admonishing one
-another on the duty of supporting their parents.*</seg>
+        <seg>The fish lie in the basket,
+And the bream is in the pot.
+The lovely and virtuous lady —
+May there be to her spirits tranquillity and repose.
+
+The fish lie in the basket,
+And the tench and ide are in it.
+The lovely and virtuous lady —
+May there be to her plenty of repose.
+
+The fish lie in the basket,
+And the black skirts are in it.
+The lovely and virtuous lady —
+May there be to her rest in her apartment.
+
+The fish lie in the basket,
+And the salmon and hwang are in it.
+The lovely and virtuous lady —
+May there be to her congratulation from the spirits.
+
+The fish lie in the basket,
+And the bull-head and carp are in it.
+The lovely and virtuous lady —
+May there be to her bright fame from the spirits.
+
+The things in the basket are of dried grass;
+The things in the pot are of vegetables.
+The lovely and virtuous lady —
+May there be to her vigorous health from the spirits.</seg>
       </tuv>
     </tu>
   </body>
