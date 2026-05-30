@@ -86,8 +86,17 @@ class CorpusApiHandler(BaseHTTPRequestHandler):
             "work_id": section["work_id"],
             "label": section["label"],
             "canonical_ref": section["canonical_ref"],
+            "sort_key": section.get("sort_key"),
+            "major_division": section.get("major_division"),
+            "subdivision": section.get("subdivision"),
+            "poem_number": section.get("poem_number"),
+            "section_unit": section.get("section_unit"),
+            "status": section.get("status", "metadata_only"),
+            "coverage_status": section.get("coverage_status", section.get("status", "metadata_only")),
             "alignment_status": section.get("alignment_status", "metadata_only"),
             "tmx_status": section.get("tmx_status", "metadata_only"),
+            "zh_page_url": section.get("zh_page_url"),
+            "en_page_url": section.get("en_page_url"),
             "expected_exact_alignment_count": section.get("expected_exact_alignment_count", 0),
         }
 

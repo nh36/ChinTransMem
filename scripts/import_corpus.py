@@ -163,10 +163,14 @@ def import_corpus(db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, object]:
             """
             INSERT OR REPLACE INTO alignments (
                 alignment_id, work_id, section_id, source_id, target_source_id, alignment_type, confidence,
-                chinese_segment_ids_json, translation_segment_ids_json, notes
+                chinese_segment_ids_json, translation_segment_ids_json, alignment_granularity, section_unit,
+                segment_type, is_coarse_alignment, coarse_alignment_reason, source_segment_count,
+                target_segment_count, notes
             ) VALUES (
                 :alignment_id, :work_id, :section_id, :source_id, :target_source_id, :alignment_type, :confidence,
-                :chinese_segment_ids_json, :translation_segment_ids_json, :notes
+                :chinese_segment_ids_json, :translation_segment_ids_json, :alignment_granularity, :section_unit,
+                :segment_type, :is_coarse_alignment, :coarse_alignment_reason, :source_segment_count,
+                :target_segment_count, :notes
             )
             """,
             [
@@ -174,6 +178,19 @@ def import_corpus(db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, object]:
                     **alignment,
                     "chinese_segment_ids_json": json.dumps(alignment["chinese_segment_ids"], ensure_ascii=False),
                     "translation_segment_ids_json": json.dumps(alignment["translation_segment_ids"], ensure_ascii=False),
+                    "alignment_granularity": alignment.get("alignment_granularity"),
+                    "section_unit": alignment.get("section_unit"),
+                    "segment_type": alignment.get("segment_type"),
+                    "is_coarse_alignment": int(bool(alignment.get("is_coarse_alignment", False))),
+                    "coarse_alignment_reason": alignment.get("coarse_alignment_reason"),
+                    "source_segment_count": alignment.get(
+                        "source_segment_count",
+                        len(alignment["chinese_segment_ids"]),
+                    ),
+                    "target_segment_count": alignment.get(
+                        "target_segment_count",
+                        len(alignment["translation_segment_ids"]),
+                    ),
                 }
                 for alignment in alignments
             ],

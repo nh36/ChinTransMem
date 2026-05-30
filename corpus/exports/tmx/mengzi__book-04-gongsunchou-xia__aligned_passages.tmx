@@ -3,9 +3,16 @@
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-mengzi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
     <tu tuid="mengzi__book-04-gongsunchou-xia__001__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.1</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.1</prop>
       <tuv xml:lang="zh-Hant">
@@ -16,9 +23,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__002__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.2</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.2</prop>
       <tuv xml:lang="zh-Hant">
@@ -29,9 +43,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__003__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.3</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.3</prop>
       <tuv xml:lang="zh-Hant">
@@ -42,9 +63,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__004__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.4</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.4</prop>
       <tuv xml:lang="zh-Hant">
@@ -55,9 +83,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__005__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.97</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.5</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.5</prop>
       <tuv xml:lang="zh-Hant">
@@ -68,9 +103,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__006__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.6</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.6</prop>
       <tuv xml:lang="zh-Hant">
@@ -81,9 +123,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__007__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.7</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.7</prop>
       <tuv xml:lang="zh-Hant">
@@ -94,9 +143,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__008__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.8</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.8</prop>
       <tuv xml:lang="zh-Hant">
@@ -107,9 +163,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__009__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.9</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.9</prop>
       <tuv xml:lang="zh-Hant">
@@ -120,9 +183,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__010__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.10</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.10</prop>
       <tuv xml:lang="zh-Hant">
@@ -133,9 +203,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__011__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.11</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.11</prop>
       <tuv xml:lang="zh-Hant">
@@ -146,9 +223,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__012__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.12</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.12</prop>
       <tuv xml:lang="zh-Hant">
@@ -159,9 +243,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__013__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.13</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.13</prop>
       <tuv xml:lang="zh-Hant">
@@ -172,9 +263,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-04-gongsunchou-xia__014__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-04-gongsunchou-xia</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 2B.14</prop>
       <prop type="x-translation-ref">Gong Sun Chou II.14</prop>
       <tuv xml:lang="zh-Hant">

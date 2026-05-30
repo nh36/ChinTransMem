@@ -3,9 +3,16 @@
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
     <tu tuid="shijing__guofeng-zhounan-001-guanju__001__zhwikisource-20260530__legge-sheking-1871">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-zhounan-001-guanju</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·001.1</prop>
       <prop type="x-translation-ref">Guan ju.1</prop>
       <tuv xml:lang="zh-Hant">
@@ -20,9 +27,16 @@ For our prince a good mate she.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__guofeng-zhounan-001-guanju__002__zhwikisource-20260530__legge-sheking-1871">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-zhounan-001-guanju</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·001.2</prop>
       <prop type="x-translation-ref">Guan ju.2</prop>
       <tuv xml:lang="zh-Hant">
@@ -37,9 +51,16 @@ Waking and sleeping, he sought her.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__guofeng-zhounan-001-guanju__003__zhwikisource-20260530__legge-sheking-1871">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-zhounan-001-guanju</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·001.3</prop>
       <prop type="x-translation-ref">Guan ju.3</prop>
       <tuv xml:lang="zh-Hant">
@@ -54,9 +75,16 @@ On his side, on his back, he turned, and back again.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__guofeng-zhounan-001-guanju__004__zhwikisource-20260530__legge-sheking-1871">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-zhounan-001-guanju</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·001.4</prop>
       <prop type="x-translation-ref">Guan ju.4</prop>
       <tuv xml:lang="zh-Hant">
@@ -71,9 +99,16 @@ With lutes, small and large, let us give her friendly welcome.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__guofeng-zhounan-001-guanju__005__zhwikisource-20260530__legge-sheking-1871">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-zhounan-001-guanju</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·001.5</prop>
       <prop type="x-translation-ref">Guan ju.5</prop>
       <tuv xml:lang="zh-Hant">

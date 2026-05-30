@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__daya-shengmin-005__001__zhwikisource-20260530__legge-sbe-v3-1879,daya-shengmin-005,exact_or_near_exact,0.99,1,詩經·大雅·生民之什·005.1,"假樂君子，顯顯令德。宜民宜人，受祿于天。保右命之，自天申之。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__daya-shengmin-005__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-shengmin-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·大雅·生民之什·005.1,"假樂君子，顯顯令德。宜民宜人，受祿于天。保右命之，自天申之。
 干祿百福，子孫千億。穆穆皇皇，宜君宜王。不愆不忘，率由舊章。
 威儀抑抑，德音秩秩。無怨無惡，率由羣匹。受福無疆，四方之綱。
 之綱之紀，燕及朋友。百辟卿士，媚于天子。不解于位，民之攸塈。",假樂.1,"Of our admirable, amiable sovereign

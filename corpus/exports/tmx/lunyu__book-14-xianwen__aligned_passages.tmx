@@ -3,9 +3,16 @@
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-Lunyu" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
     <tu tuid="lunyu__book-14-xianwen__001__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.1</prop>
       <prop type="x-translation-ref">Analects I.1</prop>
       <tuv xml:lang="zh-Hant">
@@ -16,9 +23,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__002__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.2</prop>
       <prop type="x-translation-ref">Analects II.2</prop>
       <tuv xml:lang="zh-Hant">
@@ -29,9 +43,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__003__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.3</prop>
       <prop type="x-translation-ref">Analects III.3</prop>
       <tuv xml:lang="zh-Hant">
@@ -42,9 +63,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__004__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.4</prop>
       <prop type="x-translation-ref">Analects IV.4</prop>
       <tuv xml:lang="zh-Hant">
@@ -55,9 +83,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__005__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.5</prop>
       <prop type="x-translation-ref">Analects V.5</prop>
       <tuv xml:lang="zh-Hant">
@@ -68,9 +103,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__006__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.6</prop>
       <prop type="x-translation-ref">Analects VI.6</prop>
       <tuv xml:lang="zh-Hant">
@@ -81,9 +123,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__007__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.7</prop>
       <prop type="x-translation-ref">Analects VII.7</prop>
       <tuv xml:lang="zh-Hant">
@@ -94,9 +143,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__008__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.8</prop>
       <prop type="x-translation-ref">Analects VIII.8</prop>
       <tuv xml:lang="zh-Hant">
@@ -107,9 +163,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__009__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.9</prop>
       <prop type="x-translation-ref">Analects IX.9</prop>
       <tuv xml:lang="zh-Hant">
@@ -120,9 +183,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__010__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.10</prop>
       <prop type="x-translation-ref">Analects X.10</prop>
       <tuv xml:lang="zh-Hant">
@@ -133,9 +203,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__011__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.11</prop>
       <prop type="x-translation-ref">Analects XI.11</prop>
       <tuv xml:lang="zh-Hant">
@@ -146,9 +223,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__012__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.12</prop>
       <prop type="x-translation-ref">Analects XII.12</prop>
       <tuv xml:lang="zh-Hant">
@@ -159,9 +243,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__013__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.13</prop>
       <prop type="x-translation-ref">Analects XIII.13</prop>
       <tuv xml:lang="zh-Hant">
@@ -172,9 +263,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__014__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.14</prop>
       <prop type="x-translation-ref">Analects XIV.14</prop>
       <tuv xml:lang="zh-Hant">
@@ -185,9 +283,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__015__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.15</prop>
       <prop type="x-translation-ref">Analects XV.15</prop>
       <tuv xml:lang="zh-Hant">
@@ -198,9 +303,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__016__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.16</prop>
       <prop type="x-translation-ref">Analects XVI.16</prop>
       <tuv xml:lang="zh-Hant">
@@ -211,9 +323,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__017__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.17</prop>
       <prop type="x-translation-ref">Analects XVII.17</prop>
       <tuv xml:lang="zh-Hant">
@@ -224,9 +343,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__018__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.18</prop>
       <prop type="x-translation-ref">Analects XVIII.18</prop>
       <tuv xml:lang="zh-Hant">
@@ -237,9 +363,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__019__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.19</prop>
       <prop type="x-translation-ref">Analects XIX.19</prop>
       <tuv xml:lang="zh-Hant">
@@ -250,9 +383,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__020__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.20</prop>
       <prop type="x-translation-ref">Analects XX.20</prop>
       <tuv xml:lang="zh-Hant">
@@ -263,9 +403,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__021__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.21</prop>
       <prop type="x-translation-ref">Analects XXI.21</prop>
       <tuv xml:lang="zh-Hant">
@@ -276,9 +423,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__022__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.22</prop>
       <prop type="x-translation-ref">Analects XXII.22</prop>
       <tuv xml:lang="zh-Hant">
@@ -289,9 +443,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__023__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.23</prop>
       <prop type="x-translation-ref">Analects XXIII.23</prop>
       <tuv xml:lang="zh-Hant">
@@ -302,9 +463,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__024__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.24</prop>
       <prop type="x-translation-ref">Analects XXIV.24</prop>
       <tuv xml:lang="zh-Hant">
@@ -315,9 +483,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__025__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.25</prop>
       <prop type="x-translation-ref">Analects XXV.25</prop>
       <tuv xml:lang="zh-Hant">
@@ -328,9 +503,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__026__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.26</prop>
       <prop type="x-translation-ref">Analects XXVI.26</prop>
       <tuv xml:lang="zh-Hant">
@@ -341,9 +523,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__027__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.27</prop>
       <prop type="x-translation-ref">Analects XXVII.27</prop>
       <tuv xml:lang="zh-Hant">
@@ -354,9 +543,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__028__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.28</prop>
       <prop type="x-translation-ref">Analects XXVIII.28</prop>
       <tuv xml:lang="zh-Hant">
@@ -367,9 +563,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__029__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.29</prop>
       <prop type="x-translation-ref">Analects XXIX.29</prop>
       <tuv xml:lang="zh-Hant">
@@ -380,9 +583,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__030__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.30</prop>
       <prop type="x-translation-ref">Analects XXX.30</prop>
       <tuv xml:lang="zh-Hant">
@@ -393,9 +603,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__031__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.31</prop>
       <prop type="x-translation-ref">Analects XXXI.31</prop>
       <tuv xml:lang="zh-Hant">
@@ -406,9 +623,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__032__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.32</prop>
       <prop type="x-translation-ref">Analects XXXII.32</prop>
       <tuv xml:lang="zh-Hant">
@@ -419,9 +643,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__033__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.33</prop>
       <prop type="x-translation-ref">Analects XXXIII.33</prop>
       <tuv xml:lang="zh-Hant">
@@ -432,9 +663,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__034__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.34</prop>
       <prop type="x-translation-ref">Analects XXXIV.34</prop>
       <tuv xml:lang="zh-Hant">
@@ -445,9 +683,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__035__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.35</prop>
       <prop type="x-translation-ref">Analects XXXV.35</prop>
       <tuv xml:lang="zh-Hant">
@@ -458,9 +703,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__036__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.36</prop>
       <prop type="x-translation-ref">Analects XXXVI.36</prop>
       <tuv xml:lang="zh-Hant">
@@ -471,9 +723,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__037__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.37</prop>
       <prop type="x-translation-ref">Analects XXXVII.37</prop>
       <tuv xml:lang="zh-Hant">
@@ -484,9 +743,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__038__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.38</prop>
       <prop type="x-translation-ref">Analects XXXVIII.38</prop>
       <tuv xml:lang="zh-Hant">
@@ -497,9 +763,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__039__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.39</prop>
       <prop type="x-translation-ref">Analects XXXIX.39</prop>
       <tuv xml:lang="zh-Hant">
@@ -510,9 +783,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__040__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.40</prop>
       <prop type="x-translation-ref">Analects XL.40</prop>
       <tuv xml:lang="zh-Hant">
@@ -523,9 +803,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__041__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.41</prop>
       <prop type="x-translation-ref">Analects XLI.41</prop>
       <tuv xml:lang="zh-Hant">
@@ -536,9 +823,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__042__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.42</prop>
       <prop type="x-translation-ref">Analects XLII.42</prop>
       <tuv xml:lang="zh-Hant">
@@ -549,9 +843,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__043__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.43</prop>
       <prop type="x-translation-ref">Analects XLIII.43</prop>
       <tuv xml:lang="zh-Hant">
@@ -562,9 +863,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__044__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.44</prop>
       <prop type="x-translation-ref">Analects XLIV.44</prop>
       <tuv xml:lang="zh-Hant">
@@ -575,9 +883,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__045__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.45</prop>
       <prop type="x-translation-ref">Analects XLV.45</prop>
       <tuv xml:lang="zh-Hant">
@@ -588,9 +903,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__046__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.46</prop>
       <prop type="x-translation-ref">Analects XLVI.46</prop>
       <tuv xml:lang="zh-Hant">
@@ -601,9 +923,16 @@
       </tuv>
     </tu>
     <tu tuid="lunyu__book-14-xianwen__047__zhwikisource-20260529__legge-cc-v1-1893">
+      <prop type="x-work-id">lunyu</prop>
       <prop type="x-section-id">book-14-xianwen</prop>
+      <prop type="x-section-unit">book</prop>
+      <prop type="x-segment-type">saying</prop>
+      <prop type="x-alignment-granularity">saying</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">論語 14.47</prop>
       <prop type="x-translation-ref">Analects XLVII.47</prop>
       <tuv xml:lang="zh-Hant">

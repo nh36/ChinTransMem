@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-futian-005__001__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-futian-005,exact_or_near_exact,0.99,1,詩經·小雅·甫田之什·005.1,"交交桑扈，有鶯其羽。君子樂胥，受天之祜。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-futian-005__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-futian-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·甫田之什·005.1,"交交桑扈，有鶯其羽。君子樂胥，受天之祜。
 交交桑扈，有鶯其領。君子樂胥，萬邦之屏。
 之屏之翰，百辟為憲。不戢不難，受福不那。
 兕觥其觩，旨酒思柔。彼交匪敖，萬福來求。",桑扈.1,"They flit about, the greenbeaks,

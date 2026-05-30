@@ -49,7 +49,12 @@ qc-corpus:
 qc-pilot: qc-corpus
 
 regression:
+	$(MAKE) bootstrap-corpus
 	$(MAKE) corpus
+	$(MAKE) corpus-work WORK=mengzi
+	$(MAKE) corpus-work WORK=shijing
+	$(PYTHON) scripts/audit_shijing_coverage.py
+	$(PYTHON) scripts/validate_alignment_granularity.py --work-id shijing
 	$(MAKE) test
 
 install-hooks:

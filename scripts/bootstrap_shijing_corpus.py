@@ -25,6 +25,7 @@ from common import (
 
 WORK_ID = "shijing"
 MANIFEST_PATH = MANIFESTS_DIR / f"{WORK_ID}.yml"
+INVENTORY_PATH = MANIFESTS_DIR.parent / "shijing_poem_inventory.yml"
 RAW_DIR = REPO_ROOT / "corpus" / "raw" / "wikisource"
 CHINESE_DIR = REPO_ROOT / "corpus" / "processed" / "chinese_base_texts"
 TRANSLATION_DIR = REPO_ROOT / "corpus" / "processed" / "translations"
@@ -33,9 +34,25 @@ ACCESS_DATE = "2026-05-30"
 SOURCE_SUFFIX = "zhwikisource-20260530"
 STANDALONE_TARGET_SOURCE_SUFFIX = "legge-sheking-1871"
 SBE_TARGET_SOURCE_SUFFIX = "legge-sbe-v3-1879"
+LEGGE_SHEKING_1871_PART_1_ITEM_URL = "https://archive.org/details/chineseclassics41legg"
+LEGGE_SHEKING_1871_PART_1_OCR_URL = (
+    "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+)
+LEGGE_SHEKING_1871_PART_2_ITEM_URL = "https://archive.org/details/chineseclassics42legg"
+LEGGE_SHEKING_1871_PART_2_OCR_URL = (
+    "https://archive.org/download/chineseclassics42legg/chineseclassics42legg_djvu.txt"
+)
+LEGGE_SHEKING_1871_OCR_ACCESS_DATE = "2026-05-30"
+LEGGE_SHEKING_1871_OCR_RAW_PATHS = {
+    "part-1": Path("corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt"),
+    "part-2": Path("corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt"),
+}
+TITLE_ONLY_SORT_KEYS = {171, 172, 173, 176, 177, 178}
 
 ZH_INDEX_URL = "https://zh.wikisource.org/wiki/詩經"
 ZH_INDEX_RAW_PATH = RAW_DIR / f"{WORK_ID}__index__{SOURCE_SUFFIX}__raw.wikitext"
+FULL_TEXT_WITNESS_URL = "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih"
+FULL_TEXT_WITNESS_GUTENBERG_URL = "https://archive.org/download/theshihking09394gut/7shih10.txt"
 SBE_ALLPAGES_URL = (
     "https://en.wikisource.org/w/api.php?"
     "action=query&list=allpages&apprefix=Sacred%20Books%20of%20the%20East/Volume%203/The%20Shih"
@@ -230,6 +247,49 @@ def url_for_page(base_url: str, page_title: str) -> str:
     return f"{base_url}/{encoded_title}"
 
 
+def section_id_for_catalog_entry(entry: dict[str, Any]) -> str:
+    division_code = MAJOR_DIVISION_CODES[entry["major_division"]]
+    subdivision_code = SUBDIVISION_CODES[entry["subdivision"]]
+    return f"{division_code}-{subdivision_code}-{entry['local_index']:03d}"
+
+
+def legge_ocr_witness_for_entry(entry: dict[str, Any]) -> dict[str, str]:
+    if entry["major_division"] == "國風":
+        return {
+            "candidate_en_page_url": FULL_TEXT_WITNESS_URL,
+            "candidate_en_text_url": FULL_TEXT_WITNESS_GUTENBERG_URL,
+            "candidate_en_ocr_url": LEGGE_SHEKING_1871_PART_1_OCR_URL,
+            "candidate_en_raw_path": str(LEGGE_SHEKING_1871_OCR_RAW_PATHS["part-1"]),
+            "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
+            "candidate_en_backup_page_url": LEGGE_SHEKING_1871_PART_1_ITEM_URL,
+            "candidate_en_backup_source_id": "legge-sheking-1871-part-1-ocr",
+        }
+    return {
+        "candidate_en_page_url": FULL_TEXT_WITNESS_URL,
+        "candidate_en_text_url": FULL_TEXT_WITNESS_GUTENBERG_URL,
+        "candidate_en_ocr_url": LEGGE_SHEKING_1871_PART_2_OCR_URL,
+        "candidate_en_raw_path": str(LEGGE_SHEKING_1871_OCR_RAW_PATHS["part-2"]),
+        "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
+        "candidate_en_backup_page_url": LEGGE_SHEKING_1871_PART_2_ITEM_URL,
+        "candidate_en_backup_source_id": "legge-sheking-1871-part-2-ocr",
+    }
+
+
+def fetch_legge_ocr_sources(*, skip_fetch: bool) -> dict[str, str]:
+    return {
+        "part-1": fetch_cached_text(
+            LEGGE_SHEKING_1871_PART_1_OCR_URL,
+            REPO_ROOT / LEGGE_SHEKING_1871_OCR_RAW_PATHS["part-1"],
+            skip_fetch=skip_fetch,
+        ),
+        "part-2": fetch_cached_text(
+            LEGGE_SHEKING_1871_PART_2_OCR_URL,
+            REPO_ROOT / LEGGE_SHEKING_1871_OCR_RAW_PATHS["part-2"],
+            skip_fetch=skip_fetch,
+        ),
+    }
+
+
 def fetch_sbe_page_titles(*, skip_fetch: bool) -> list[str]:
     raw_catalog = fetch_cached_text(SBE_ALLPAGES_URL, SBE_CATALOG_PATH, skip_fetch=skip_fetch)
     payload = json.loads(raw_catalog)
@@ -406,6 +466,72 @@ def build_section_catalog(*, skip_fetch: bool) -> list[dict[str, Any]]:
         seen_sort_keys.add(poem["sort_key"])
     mapped_sections.sort(key=lambda section: section["sort_key"])
     return mapped_sections
+
+
+def build_canonical_section_inventory(
+    complete_sections: list[dict[str, Any]],
+    *,
+    skip_fetch: bool,
+) -> list[dict[str, Any]]:
+    chinese_catalog = parse_chinese_catalog(skip_fetch=skip_fetch)
+    complete_by_sort_key = {section["sort_key"]: section for section in complete_sections}
+    inventory: list[dict[str, Any]] = []
+    for entry in chinese_catalog:
+        section_id = complete_by_sort_key.get(entry["sort_key"], {}).get("section_id", section_id_for_catalog_entry(entry))
+        zh_page_url = url_for_page("https://zh.wikisource.org/wiki", entry["page_title"])
+        if entry["sort_key"] in TITLE_ONLY_SORT_KEYS:
+            inventory.append(
+                {
+                    "global_sort_key": entry["sort_key"],
+                    "major_division": entry["major_division"],
+                    "subdivision": entry["subdivision"],
+                    "local_poem_number": entry["local_index"],
+                    "title": entry["label"],
+                    "canonical_ref": entry["canonical_ref"],
+                    "section_id": section_id,
+                    "zh_page_url": zh_page_url,
+                    "status": "missing_chinese_source",
+                    "coverage_status": "title_only_lost_text",
+                    "english_witness_status": "not_applicable",
+                }
+            )
+            continue
+        if entry["sort_key"] in complete_by_sort_key:
+            complete_section = complete_by_sort_key[entry["sort_key"]]
+            inventory.append(
+                {
+                    "global_sort_key": entry["sort_key"],
+                    "major_division": entry["major_division"],
+                    "subdivision": entry["subdivision"],
+                    "local_poem_number": entry["local_index"],
+                    "title": entry["label"],
+                    "canonical_ref": entry["canonical_ref"],
+                    "section_id": section_id,
+                    "zh_page_url": zh_page_url,
+                    "en_page_url": complete_section["en_page_url"],
+                    "status": "complete",
+                    "coverage_status": "complete",
+                    "english_witness_status": "verified_transcribed_text",
+                }
+            )
+            continue
+        inventory.append(
+            {
+                "global_sort_key": entry["sort_key"],
+                "major_division": entry["major_division"],
+                "subdivision": entry["subdivision"],
+                "local_poem_number": entry["local_index"],
+                "title": entry["label"],
+                "canonical_ref": entry["canonical_ref"],
+                "section_id": section_id,
+                "zh_page_url": zh_page_url,
+                **legge_ocr_witness_for_entry(entry),
+                "status": "needs_alignment",
+                "coverage_status": "public_domain_text_witness_available",
+                "english_witness_status": "verified_transcribed_text_available",
+            }
+        )
+    return inventory
 
 
 def extract_poem_markup(raw_text: str) -> str:
@@ -687,6 +813,17 @@ def build_segments_and_alignments(
                 "confidence": confidence,
                 "chinese_segment_ids": [chinese_segment_id],
                 "translation_segment_ids": [english_segment_id],
+                "alignment_granularity": segment_type,
+                "section_unit": "poem",
+                "segment_type": segment_type,
+                "is_coarse_alignment": segment_type == "poem" and max(len(chinese_blocks), len(english_blocks)) > 1,
+                "coarse_alignment_reason": (
+                    "Whole-poem fallback because Chinese and English stanza structures do not align safely."
+                    if segment_type == "poem" and max(len(chinese_blocks), len(english_blocks)) > 1
+                    else None
+                ),
+                "source_segment_count": 1,
+                "target_segment_count": 1,
                 "notes": f"{segment_type.title()}-level Shijing alignment for {section['label']} block {order}.",
             }
         )
@@ -704,6 +841,13 @@ def build_segments_and_alignments(
             "confidence": 1.0,
             "chinese_segment_ids": [segment["segment_id"] for segment in chinese_segments],
             "translation_segment_ids": [segment["segment_id"] for segment in english_segments],
+            "alignment_granularity": "section_group",
+            "section_unit": "poem",
+            "segment_type": segment_type,
+            "is_coarse_alignment": False,
+            "coarse_alignment_reason": None,
+            "source_segment_count": len(chinese_segments),
+            "target_segment_count": len(english_segments),
             "notes": section_note,
         }
     )
@@ -816,8 +960,10 @@ def write_section_files(section: dict[str, Any], *, skip_fetch: bool) -> dict[st
         **section,
         "work_id": WORK_ID,
         "status": "complete",
+        "coverage_status": "complete",
         "alignment_status": "complete",
         "tmx_status": "complete",
+        "section_unit": "poem",
         "segment_type": segment_type,
         "expected_exact_alignment_count": exact_alignment_count,
         "source_ids": {
@@ -867,6 +1013,9 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
     ingestion_log: list[dict[str, Any]] = []
     total_exact_alignments = 0
 
+    if not skip_fetch or any((REPO_ROOT / path).exists() for path in LEGGE_SHEKING_1871_OCR_RAW_PATHS.values()):
+        fetch_legge_ocr_sources(skip_fetch=skip_fetch)
+
     for section_seed in build_section_catalog(skip_fetch=skip_fetch):
         result = write_section_files(dict(section_seed), skip_fetch=skip_fetch)
         section = result["section"]
@@ -904,9 +1053,100 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
             }
         )
 
+    processed_sections.sort(key=lambda section: section["sort_key"])
+    processed_section_map = {section["section_id"]: section for section in processed_sections}
+    canonical_inventory = build_canonical_section_inventory(processed_sections, skip_fetch=skip_fetch)
+    manifest_sections: list[dict[str, Any]] = []
+    missing_chinese_source_count = 0
+    needs_alignment_count = 0
+    for inventory_item in canonical_inventory:
+        complete_section = processed_section_map.get(inventory_item["section_id"])
+        base_section = {
+            "section_id": inventory_item["section_id"],
+            "work_id": WORK_ID,
+            "parent_section_id": None,
+            "label": inventory_item["title"],
+            "canonical_ref": inventory_item["canonical_ref"],
+            "sort_key": inventory_item["global_sort_key"],
+            "major_division": inventory_item["major_division"],
+            "subdivision": inventory_item["subdivision"],
+            "poem_number": inventory_item["local_poem_number"],
+            "section_unit": "poem",
+            "zh_page_url": inventory_item["zh_page_url"],
+        }
+        if complete_section is not None:
+            manifest_sections.append(
+                {
+                    **complete_section,
+                    **base_section,
+                    "status": "complete",
+                    "coverage_status": "complete",
+                    "alignment_status": "complete",
+                    "tmx_status": "complete",
+                }
+            )
+            continue
+        if inventory_item["status"] == "missing_chinese_source":
+            missing_chinese_source_count += 1
+            manifest_sections.append(
+                {
+                    **base_section,
+                    "status": "missing_chinese_source",
+                    "coverage_status": "title_only_lost_text",
+                    "alignment_status": "metadata_only",
+                    "tmx_status": "metadata_only",
+                    "expected_exact_alignment_count": 0,
+                    "notes": (
+                        "Canonical Shijing index entry represented for structural completeness only. "
+                        "Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align."
+                    ),
+                }
+            )
+            continue
+        needs_alignment_count += 1
+        manifest_sections.append(
+            {
+                **base_section,
+                "status": "needs_alignment",
+                "coverage_status": "public_domain_text_witness_available",
+                "alignment_status": "metadata_only",
+                "tmx_status": "metadata_only",
+                "expected_exact_alignment_count": 0,
+                "en_page_url": inventory_item["candidate_en_page_url"],
+                "candidate_en_source_id": inventory_item["candidate_en_source_id"],
+                "candidate_en_text_url": inventory_item["candidate_en_text_url"],
+                "candidate_en_ocr_url": inventory_item["candidate_en_ocr_url"],
+                "candidate_en_raw_path": inventory_item["candidate_en_raw_path"],
+                "candidate_en_access_date": LEGGE_SHEKING_1871_OCR_ACCESS_DATE,
+                "candidate_en_backup_page_url": inventory_item["candidate_en_backup_page_url"],
+                "candidate_en_backup_source_id": inventory_item["candidate_en_backup_source_id"],
+                "notes": (
+                    "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is "
+                    "available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; "
+                    "section-level extraction still needs verification before TMX export."
+                ),
+            }
+        )
+
+    inventory_payload = {
+        "work_id": WORK_ID,
+        "title": "Canonical Shijing poem inventory",
+        "count_basis": {
+            "canonical_index_entry_count": len(canonical_inventory),
+            "extant_poem_count": len(canonical_inventory) - missing_chinese_source_count,
+            "title_only_missing_text_count": missing_chinese_source_count,
+            "basis_note": (
+                "Derived from the ordered Chinese Wikisource 詩經 index. The index enumerates 311 canonical entries; "
+                "six of them are title-only Xiaoya entries marked 有其義而亡其辭."
+            ),
+        },
+        "poems": canonical_inventory,
+    }
+    write_json(INVENTORY_PATH, inventory_payload)
+
     manifest = {
         "work_id": WORK_ID,
-        "work_status": "partial",
+        "work_status": "inventory_complete",
         "source_pair_defaults": {
             "source_id": SOURCE_SUFFIX,
             "target_source_id": SBE_TARGET_SOURCE_SUFFIX,
@@ -914,17 +1154,21 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
             "target_language": "en",
         },
         "summary": {
-            "section_count": len(processed_sections),
+            "section_count": len(manifest_sections),
+            "canonical_entry_count": len(canonical_inventory),
+            "extant_poem_count": len(canonical_inventory) - missing_chinese_source_count,
+            "missing_chinese_source_sections": missing_chinese_source_count,
             "complete_sections": len(processed_sections),
-            "metadata_only_sections": 0,
-            "sections_needing_alignment": 0,
-            "sections_needing_qc": 0,
+            "metadata_only_sections": len(manifest_sections) - len(processed_sections),
+            "sections_needing_alignment": needs_alignment_count,
+            "sections_needing_qc": needs_alignment_count,
             "exact_alignment_count": total_exact_alignments,
+            "source_count": len(all_sources),
         },
         "romanization_aliases": romanization_aliases,
         "ingestion_log": ingestion_log,
         "sources": all_sources,
-        "sections": processed_sections,
+        "sections": manifest_sections,
     }
     write_json(MANIFEST_PATH, manifest)
     return manifest["summary"]

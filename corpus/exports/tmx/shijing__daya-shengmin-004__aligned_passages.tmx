@@ -3,9 +3,16 @@
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
     <tu tuid="shijing__daya-shengmin-004__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-shengmin-004</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·生民之什·004.1</prop>
       <prop type="x-translation-ref">鳬鷖.1</prop>
       <tuv xml:lang="zh-Hant">
@@ -22,9 +29,16 @@ happiness and dignity are made complete.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__daya-shengmin-004__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-shengmin-004</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·生民之什·004.2</prop>
       <prop type="x-translation-ref">鳬鷖.2</prop>
       <tuv xml:lang="zh-Hant">
@@ -41,9 +55,16 @@ and dignity lend them their aids.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__daya-shengmin-004__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-shengmin-004</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·生民之什·004.3</prop>
       <prop type="x-translation-ref">鳬鷖.3</prop>
       <tuv xml:lang="zh-Hant">
@@ -60,9 +81,16 @@ and dignity descend on them.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__daya-shengmin-004__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-shengmin-004</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·生民之什·004.4</prop>
       <prop type="x-translation-ref">鳬鷖.4</prop>
       <tuv xml:lang="zh-Hant">
@@ -79,9 +107,16 @@ happiness and dignity are at the highest point.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__daya-shengmin-004__005__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-shengmin-004</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·生民之什·004.5</prop>
       <prop type="x-translation-ref">鳬鷖.5</prop>
       <tuv xml:lang="zh-Hant">

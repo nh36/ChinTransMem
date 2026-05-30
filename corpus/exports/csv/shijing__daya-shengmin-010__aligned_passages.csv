@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__daya-shengmin-010__001__zhwikisource-20260530__legge-sbe-v3-1879,daya-shengmin-010,exact_or_near_exact,0.95,1,詩經·大雅·生民之什·010.1,"上帝板板，下民卒癉。出話不然，為猶不遠。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__daya-shengmin-010__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-shengmin-010,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·大雅·生民之什·010.1,"上帝板板，下民卒癉。出話不然，為猶不遠。
 靡聖管管，不實於亶。猶之未遠，是用大諫。
 
 天之方難，無然憲憲。天之方蹶，無然泄泄。

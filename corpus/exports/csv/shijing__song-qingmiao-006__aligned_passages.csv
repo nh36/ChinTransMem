@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-qingmiao-006__001__zhwikisource-20260530__legge-sbe-v3-1879,song-qingmiao-006,exact_or_near_exact,0.99,1,詩經·頌·清廟之什·006.1,"昊天有成命，二后受之。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__song-qingmiao-006__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-qingmiao-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·清廟之什·006.1,"昊天有成命，二后受之。
 成王不敢康，夙夜基命宥密。
 於緝熙！單厥心。肆其靖之。",昊天有成命.1,"Heaven made its determinate appointment,
 Which our two sovereigns received.

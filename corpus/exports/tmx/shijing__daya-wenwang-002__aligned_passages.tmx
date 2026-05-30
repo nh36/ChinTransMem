@@ -3,9 +3,16 @@
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
     <tu tuid="shijing__daya-wenwang-002__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-wenwang-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·002.1</prop>
       <prop type="x-translation-ref">大明.1</prop>
       <tuv xml:lang="zh-Hant">
@@ -21,9 +28,16 @@ Was not permitted to possess the kingdom.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__daya-wenwang-002__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-wenwang-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·002.2</prop>
       <prop type="x-translation-ref">大明.2</prop>
       <tuv xml:lang="zh-Hant">
@@ -42,9 +56,16 @@ And gave birth to our king Wăn.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__daya-wenwang-002__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-wenwang-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·002.3</prop>
       <prop type="x-translation-ref">大明.3</prop>
       <tuv xml:lang="zh-Hant">
@@ -60,9 +81,16 @@ And in consequence he received (the allegiance of) the states from all quarters.
       </tuv>
     </tu>
     <tu tuid="shijing__daya-wenwang-002__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-wenwang-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·002.4</prop>
       <prop type="x-translation-ref">大明.4</prop>
       <tuv xml:lang="zh-Hant">
@@ -81,9 +109,16 @@ There was the lady in a large state.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__daya-wenwang-002__005__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-wenwang-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·002.5</prop>
       <prop type="x-translation-ref">大明.5</prop>
       <tuv xml:lang="zh-Hant">
@@ -99,9 +134,16 @@ The glory (of the occasion) was illustrious.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__daya-wenwang-002__006__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-wenwang-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·002.6</prop>
       <prop type="x-translation-ref">大明.6</prop>
       <tuv xml:lang="zh-Hant">
@@ -119,9 +161,16 @@ And in accordance with it smote the great Shang.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__daya-wenwang-002__007__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-wenwang-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·002.7</prop>
       <prop type="x-translation-ref">大明.7</prop>
       <tuv xml:lang="zh-Hant">
@@ -137,9 +186,16 @@ We rose (to the crisis);
       </tuv>
     </tu>
     <tu tuid="shijing__daya-wenwang-002__008__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">daya-wenwang-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·002.8</prop>
       <prop type="x-translation-ref">大明.8</prop>
       <tuv xml:lang="zh-Hant">

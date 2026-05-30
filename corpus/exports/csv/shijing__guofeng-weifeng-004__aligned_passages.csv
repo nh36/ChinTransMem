@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-weifeng-004__001__zhwikisource-20260530__legge-sbe-v3-1879,guofeng-weifeng-004,exact_or_near_exact,0.99,1,詩經·國風·衛風·004.1,"氓之蚩蚩，抱布貿絲。匪來貿絲，來即我謀。送子涉淇，至于頓丘。匪我愆期，子無良媒。將子無怒，秋以為期。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-weifeng-004__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-weifeng-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·衛風·004.1,"氓之蚩蚩，抱布貿絲。匪來貿絲，來即我謀。送子涉淇，至于頓丘。匪我愆期，子無良媒。將子無怒，秋以為期。
 乘彼垝垣，以望復關。不見復關，泣涕漣漣。既見復關，載笑載言。爾卜爾筮，體無咎言。以爾車來，以我賄遷。
 桑之未落，其葉沃若。于嗟鳩兮，無食桑葚。于嗟女兮，無與士耽。士之耽兮，猶可說也。女之耽兮，不可說也。",氓.1,"A simple-looking lad you were,
 Carrying cloth
@@ -13,7 +13,7 @@ As far as Tun-khiû,
 But you have had no good go-between.
 I pray you be not angry,
 And let autumn be the time.'"
-shijing__guofeng-weifeng-004__002__zhwikisource-20260530__legge-sbe-v3-1879,guofeng-weifeng-004,exact_or_near_exact,0.99,2,詩經·國風·衛風·004.2,"桑之落矣，其黃而隕。自我徂爾，三歲食貧。淇水湯湯，漸車帷裳。女也不爽，士貳其行。士也罔極，二三其德。
+shijing__guofeng-weifeng-004__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-weifeng-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·衛風·004.2,"桑之落矣，其黃而隕。自我徂爾，三歲食貧。淇水湯湯，漸車帷裳。女也不爽，士貳其行。士也罔極，二三其德。
 三歲為婦，靡室勞矣。夙興夜寐，靡有朝矣。言既遂矣，至于暴矣。兄弟不知，咥其笑矣。靜言思之，躬自悼矣。
 及爾偕老，老使我怨。淇則有岸，隰則有泮。總角之宴，言笑晏晏。信誓旦旦，不思其反。反是不思，亦已焉哉。",氓.2,"I ascended that ruinous wall,
 To look towards Fû-kwan;

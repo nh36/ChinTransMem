@@ -1,14 +1,14 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-chengong-007__001__zhwikisource-20260530__legge-sbe-v3-1879,song-chengong-007,exact_or_near_exact,0.99,1,詩經·頌·臣工之什·007.1,有來雝雝，至止肅肅。相維辟公，天子穆穆。於薦廣牡，相予肆祀。,雝.1,"They come full of harmony;
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__song-chengong-007__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·臣工之什·007.1,有來雝雝，至止肅肅。相維辟公，天子穆穆。於薦廣牡，相予肆祀。,雝.1,"They come full of harmony;
 They are here in all gravity;—
 The
 princes assisting,
 While the Son of Heaven looks profound."
-shijing__song-chengong-007__002__zhwikisource-20260530__legge-sbe-v3-1879,song-chengong-007,exact_or_near_exact,0.99,2,詩經·頌·臣工之什·007.2,假哉皇考，綏予孝子。宣哲維人，文武維后。燕及皇天，克昌厥後。,雝.2,"(He says), 'While I present (this) noble bull,
+shijing__song-chengong-007__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·頌·臣工之什·007.2,假哉皇考，綏予孝子。宣哲維人，文武維后。燕及皇天，克昌厥後。,雝.2,"(He says), 'While I present (this) noble bull,
 And they assist me in setting forth the sacrifice,
 O great and august Father,
 Comfort me, your filial son."
-shijing__song-chengong-007__003__zhwikisource-20260530__legge-sbe-v3-1879,song-chengong-007,exact_or_near_exact,0.99,3,詩經·頌·臣工之什·007.3,綏我眉壽，介以繁祉。既右烈考，亦右文母。,雝.3,"'With penetrating wisdom thou didst play the man,
+shijing__song-chengong-007__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·頌·臣工之什·007.3,綏我眉壽，介以繁祉。既右烈考，亦右文母。,雝.3,"'With penetrating wisdom thou didst play the man,
 A sovereign with the gifts both of peace and war,
 Giving rest even to great Heaven,
 And ensuring prosperity to thy descendants."

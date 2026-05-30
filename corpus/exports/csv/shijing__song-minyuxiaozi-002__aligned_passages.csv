@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-minyuxiaozi-002__001__zhwikisource-20260530__legge-sbe-v3-1879,song-minyuxiaozi-002,exact_or_near_exact,0.99,1,詩經·頌·閔予小子之什·002.1,"訪予落止，率時昭考。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__song-minyuxiaozi-002__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-minyuxiaozi-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·閔予小子之什·002.1,"訪予落止，率時昭考。
 於乎悠哉！朕未有艾。將予就之，繼猶判渙。
 維予小子，未堪家多難。紹庭上下，陟降厥家。
 休矣皇考！以保明其身。",訪落.1,"I take counsel at the beginning of my (rule),

@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-tangfeng-008__001__zhwikisource-20260530__legge-sbe-v3-1879,guofeng-tangfeng-008,exact_or_near_exact,0.99,1,詩經·國風·唐風·008.1,"肅肅鴇羽，集于苞栩。王事靡盬，不能蓺稷黍。父母何怙？悠悠蒼天，曷其有所。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-tangfeng-008__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-tangfeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·唐風·008.1,"肅肅鴇羽，集于苞栩。王事靡盬，不能蓺稷黍。父母何怙？悠悠蒼天，曷其有所。
 肅肅鴇翼，集于苞棘。王事靡盬，不能蓺黍稷。父母何食？悠悠蒼天，曷其有極。
 肅肅鴇行，集于苞桑。王事靡盬，不能蓺稻粱。父母何嘗？悠悠蒼天，曷其有常。",鴇羽.1,"Sû-sû go the feathers of the wild geese,
 As

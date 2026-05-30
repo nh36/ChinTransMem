@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-minyuxiaozi-011__001__zhwikisource-20260530__legge-sbe-v3-1879,song-minyuxiaozi-011,exact_or_near_exact,0.99,1,詩經·頌·閔予小子之什·011.1,"於皇時周，陟其高山。嶞山喬嶽，允猶翕河。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__song-minyuxiaozi-011__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-minyuxiaozi-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·閔予小子之什·011.1,"於皇時周，陟其高山。嶞山喬嶽，允猶翕河。
 敷天之下，裒時之對，時周之命。",般.1,"Oh! great now is Kâu.
 We ascend the high hills,
 Both those that are long and narrow, and the lofty mountains.

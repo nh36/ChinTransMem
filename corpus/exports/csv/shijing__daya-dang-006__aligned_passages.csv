@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__daya-dang-006__001__zhwikisource-20260530__legge-sbe-v3-1879,daya-dang-006,exact_or_near_exact,0.99,1,詩經·大雅·蕩之什·006.1,"天生烝民，有物有則。民之秉彝，好是懿德。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__daya-dang-006__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-dang-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·大雅·蕩之什·006.1,"天生烝民，有物有則。民之秉彝，好是懿德。
 天監有周，昭假于下。保茲天子，生仲山甫。",烝民.1,"Heaven, in giving birth to the multitudes of the people,
 To every faculty and relationship annexed its law.
 The people possess this normal nature,
@@ -8,7 +8,7 @@ Heaven beheld the ruler of Kâu,
 Brilliantly affecting it by his conduct below,
 And to maintain him, its Son,
 Gave birth to Kung Shan-fû."
-shijing__daya-dang-006__002__zhwikisource-20260530__legge-sbe-v3-1879,daya-dang-006,exact_or_near_exact,0.99,2,詩經·大雅·蕩之什·006.2,"仲山甫出祖，四牡業業，征夫捷捷。
+shijing__daya-dang-006__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-dang-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·大雅·蕩之什·006.2,"仲山甫出祖，四牡業業，征夫捷捷。
 每懷靡及，四牡彭彭，八鸞鏘鏘。王命仲山甫，城彼東方。",烝民.2,"Kung Shan-fû went forth, having sacrificed to the spirit of the road.
 His four steeds were strong;
 ​His men were alert,

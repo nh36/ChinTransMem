@@ -1,25 +1,25 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-tangfeng-011__001__zhwikisource-20260530__legge-sbe-v3-1879,guofeng-tangfeng-011,exact_or_near_exact,0.99,1,詩經·國風·唐風·011.1,葛生蒙楚，蘞蔓于野。予美亡此，誰與獨處。,葛生.1,"The dolichos grows, covering the thorn trees;
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-tangfeng-011__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-tangfeng-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·唐風·011.1,葛生蒙楚，蘞蔓于野。予美亡此，誰與獨處。,葛生.1,"The dolichos grows, covering the thorn trees;
 The convolvulus spreads all over the waste.
 The
 ​man of my admiration is no more here;—
 With
 whom can I dwell? I abide alone."
-shijing__guofeng-tangfeng-011__002__zhwikisource-20260530__legge-sbe-v3-1879,guofeng-tangfeng-011,exact_or_near_exact,0.99,2,詩經·國風·唐風·011.2,葛生蒙棘，蘞蔓于域。予美亡此，誰與獨息。,葛生.2,"The dolichos grows, covering the jujube trees;
+shijing__guofeng-tangfeng-011__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-tangfeng-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·唐風·011.2,葛生蒙棘，蘞蔓于域。予美亡此，誰與獨息。,葛生.2,"The dolichos grows, covering the jujube trees;
 The convolvulus spreads all over the tombs.
 The man of my admiration is no more here;—
 With
 whom can I dwell? I rest alone."
-shijing__guofeng-tangfeng-011__003__zhwikisource-20260530__legge-sbe-v3-1879,guofeng-tangfeng-011,exact_or_near_exact,0.99,3,詩經·國風·唐風·011.3,角枕粲兮，錦衾爛兮。予美亡此，誰與獨旦。,葛生.3,"How beautiful was the pillow of horn!
+shijing__guofeng-tangfeng-011__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-tangfeng-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·唐風·011.3,角枕粲兮，錦衾爛兮。予美亡此，誰與獨旦。,葛生.3,"How beautiful was the pillow of horn!
 How splendid was the embroidered coverlet!
 The man of my admiration is no more here;—
 With
 whom can I dwell? Alone (I wait for) the morning."
-shijing__guofeng-tangfeng-011__004__zhwikisource-20260530__legge-sbe-v3-1879,guofeng-tangfeng-011,exact_or_near_exact,0.99,4,詩經·國風·唐風·011.4,夏之日，冬之夜。百歲之後，歸于其居。,葛生.4,"Through the (long) days of summer,
+shijing__guofeng-tangfeng-011__004__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-tangfeng-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·國風·唐風·011.4,夏之日，冬之夜。百歲之後，歸于其居。,葛生.4,"Through the (long) days of summer,
 Through the (long) nights of winter (shall I be alone),
 Till the lapse of a hundred years,
 When I shall go home to his abode."
-shijing__guofeng-tangfeng-011__005__zhwikisource-20260530__legge-sbe-v3-1879,guofeng-tangfeng-011,exact_or_near_exact,0.99,5,詩經·國風·唐風·011.5,冬之夜，夏之日。百歲之後，歸于其室。,葛生.5,"Through the (long) nights of winter,
+shijing__guofeng-tangfeng-011__005__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-tangfeng-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,5,詩經·國風·唐風·011.5,冬之夜，夏之日。百歲之後，歸于其室。,葛生.5,"Through the (long) nights of winter,
 Through the (long) days of summer (shall I be alone),
 Till the lapse of a hundred years,
 When I shall go home to his chamber."

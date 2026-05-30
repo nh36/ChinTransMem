@@ -1,9 +1,9 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-shangsong-002__001__zhwikisource-20260530__legge-sbe-v3-1879,song-shangsong-002,exact_or_near_exact,0.99,1,詩經·頌·商頌·002.1,猗嗟嗟烈祖，有秩斯祜。申錫無疆，及爾斯所。既載清酤，賚我思成。,烈祖.1,"Ah! ah! our meritorious ancestor!
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__song-shangsong-002__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·商頌·002.1,猗嗟嗟烈祖，有秩斯祜。申錫無疆，及爾斯所。既載清酤，賚我思成。,烈祖.1,"Ah! ah! our meritorious ancestor!
 Permanent are the blessings coming from him,
 Repeatedly conferred without end;—
 They have come to you in this place."
-shijing__song-shangsong-002__002__zhwikisource-20260530__legge-sbe-v3-1879,song-shangsong-002,exact_or_near_exact,0.99,2,詩經·頌·商頌·002.2,亦有和羹，既戒既平。鬷假無言，時靡有爭。綏我眉壽，黃耇無疆。,烈祖.2,"The clear spirits are in our vessels,
+shijing__song-shangsong-002__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·頌·商頌·002.2,亦有和羹，既戒既平。鬷假無言，時靡有爭。綏我眉壽，黃耇無疆。,烈祖.2,"The clear spirits are in our vessels,
 And there is granted to us the realization of our thoughts.
 There are also the well-tempered soups,
 Prepared beforehand, with the ingredients rightly proportioned.
@@ -11,7 +11,7 @@ By these offerings we invite his presence, without a word,
 Without (unseemly) contention (among the worshippers).
 He will bless us with the eyebrows of longevity,
 With the grey hair and wrinkled face in unlimited degree."
-shijing__song-shangsong-002__003__zhwikisource-20260530__legge-sbe-v3-1879,song-shangsong-002,exact_or_near_exact,0.99,3,詩經·頌·商頌·002.3,約軝錯衡，八鸞鶬鶬。以假以享，我受命溥將。自天降康，豐年穰穰。,烈祖.3,"With the naves of their wheels bound with leather, and their ornamented yokes,
+shijing__song-shangsong-002__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·頌·商頌·002.3,約軝錯衡，八鸞鶬鶬。以假以享，我受命溥將。自天降康，豐年穰穰。,烈祖.3,"With the naves of their wheels bound with leather, and their ornamented yokes,
 With the eight bells at their horses' bits all tinkling,
 (The princes) come to assist at the offerings.
 We have received the appointment in all its greatness,
@@ -19,5 +19,5 @@ And from Heaven is our prosperity sent down,
 Fruitful years of great abundance.
 (Our ancestor) will come and enjoy (our offerings),
 And confer on us happiness without limit."
-shijing__song-shangsong-002__004__zhwikisource-20260530__legge-sbe-v3-1879,song-shangsong-002,exact_or_near_exact,0.99,4,詩經·頌·商頌·002.4,來假來饗，降福無疆。顧予烝嘗，湯孫之將。,烈祖.4,"May he regard our sacrifices of winter and autumn,
+shijing__song-shangsong-002__004__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·頌·商頌·002.4,來假來饗，降福無疆。顧予烝嘗，湯孫之將。,烈祖.4,"May he regard our sacrifices of winter and autumn,
 (Thus) offered by the descendant of Thang!"

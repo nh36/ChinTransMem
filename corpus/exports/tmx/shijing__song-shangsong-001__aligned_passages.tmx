@@ -3,11 +3,19 @@
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
     <tu tuid="shijing__song-shangsong-001__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">song-shangsong-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·商頌·001.1</prop>
       <prop type="x-translation-ref">那.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>猗與那與，置我鞉鼓。奏鼓簡簡，衎我烈祖。湯孫奏假，綏我思成。
 鞉鼓淵淵，嘒嘒管聲，既和且平，依我磬聲。

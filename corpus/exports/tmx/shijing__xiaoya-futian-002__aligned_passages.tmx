@@ -3,11 +3,19 @@
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
     <tu tuid="shijing__xiaoya-futian-002__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-futian-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·甫田之什·002.1</prop>
       <prop type="x-translation-ref">大田.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>大田多稼，既種既戒。既備乃事，以我覃耜。
 俶載南畝，播厥百穀。既庭且碩，曾孫是若。

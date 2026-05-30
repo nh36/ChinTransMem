@@ -57,7 +57,18 @@ def validate_tmx_file(
         actual_tuids.append(tuid)
 
         props = {prop.attrib.get("type"): (prop.text or "") for prop in tu.findall("prop")}
-        for required_prop in ("x-section-id", "x-alignment-type", "x-confidence", "x-chinese-ref", "x-translation-ref"):
+        for required_prop in (
+            "x-work-id",
+            "x-section-id",
+            "x-section-unit",
+            "x-segment-type",
+            "x-alignment-granularity",
+            "x-is-coarse-alignment",
+            "x-alignment-type",
+            "x-confidence",
+            "x-chinese-ref",
+            "x-translation-ref",
+        ):
             if not props.get(required_prop):
                 raise ValueError(f"TMX translation unit {tuid} is missing prop {required_prop}")
 
@@ -101,6 +112,8 @@ def validate_all_tmx_exports(
         report_output = corpus_paths["tmx_validation"]
     section_reports: list[dict[str, object]] = []
     for section in manifest_sections(work_id):
+        if section.get("tmx_status", "complete") != "complete":
+            continue
         paths = section_export_paths(section["section_id"], work_id)
         section_reports.append(
             validate_tmx_file(

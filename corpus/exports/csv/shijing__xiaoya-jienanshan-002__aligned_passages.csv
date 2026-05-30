@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-jienanshan-002__001__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-jienanshan-002,exact_or_near_exact,0.99,1,詩經·小雅·節南山之什·002.1,"瞻彼中林，侯薪侯蒸。民今方殆，視天夢夢。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-jienanshan-002__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·節南山之什·002.1,"瞻彼中林，侯薪侯蒸。民今方殆，視天夢夢。
 既克有定，靡人弗勝。有皇上帝，伊誰云憎？",正月.1,"Look into the middle of the forest;
 There are (only) large faggots and small branches in it.
 The people now amidst their perils
@@ -9,7 +9,7 @@ And there is no one whom it will not overcome.
 There is the great God,—
 Does
 he hate any one?"
-shijing__xiaoya-jienanshan-002__002__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-jienanshan-002,exact_or_near_exact,0.99,2,詩經·小雅·節南山之什·002.2,"謂山蓋卑，為岡為陵。民之訛言，寧莫之懲！
+shijing__xiaoya-jienanshan-002__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·節南山之什·002.2,"謂山蓋卑，為岡為陵。民之訛言，寧莫之懲！
 召彼故老，訊之占夢。具曰予聖，誰知烏之雌雄？",正月.2,"If one say of a hill that it is low,
 There are its ridges and its large masses.
 The false calumnies of the people,—
@@ -19,7 +19,7 @@ You call those experienced ancients,
 You consult the diviner of dreams.
 They all say, 'We are very wise,
 But who can distinguish the male and female crow?'"
-shijing__xiaoya-jienanshan-002__003__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-jienanshan-002,exact_or_near_exact,0.99,3,詩經·小雅·節南山之什·002.3,"瞻彼阪田，有菀其特。天之扤我，如不我克。
+shijing__xiaoya-jienanshan-002__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·節南山之什·002.3,"瞻彼阪田，有菀其特。天之扤我，如不我克。
 彼求我則，如不我得。執我仇仇，亦不我力。",正月.3,"Look at the rugged and stony field;—
 Luxuriantly
 rises in it the springing grain.

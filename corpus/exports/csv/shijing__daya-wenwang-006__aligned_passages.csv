@@ -1,25 +1,25 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__daya-wenwang-006__001__zhwikisource-20260530__legge-sbe-v3-1879,daya-wenwang-006,exact_or_near_exact,0.99,1,詩經·大雅·文王之什·006.1,思齊大任，文王之母，思媚周姜。京室之婦，大姒嗣徽音，則百斯男。,思齊.1,"Pure and reverent was Thâi Zăn,
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__daya-wenwang-006__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·大雅·文王之什·006.1,思齊大任，文王之母，思媚周姜。京室之婦，大姒嗣徽音，則百斯男。,思齊.1,"Pure and reverent was Thâi Zăn,
 The mother of king Wăn.
 Loving was she to Kâu Kiang;—
 ​A wife becoming the House of Kâu.
 Thâi Sze inherited her excellent fame,
 And from her came a hundred sons."
-shijing__daya-wenwang-006__002__zhwikisource-20260530__legge-sbe-v3-1879,daya-wenwang-006,exact_or_near_exact,0.99,2,詩經·大雅·文王之什·006.2,惠于宗公，神罔時怨，神罔時恫。刑于寡妻，至于兄弟，以御于家邦。,思齊.2,"He conformed to the example of his ancestors,
+shijing__daya-wenwang-006__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·大雅·文王之什·006.2,惠于宗公，神罔時怨，神罔時恫。刑于寡妻，至于兄弟，以御于家邦。,思齊.2,"He conformed to the example of his ancestors,
 And their spirits had no occasion for complaint.
 Their spirits had no occasion for dissatisfaction;
 And his example acted on his wife,
 Extended to his brethren,
 And was felt by all the clans and states."
-shijing__daya-wenwang-006__003__zhwikisource-20260530__legge-sbe-v3-1879,daya-wenwang-006,exact_or_near_exact,0.99,3,詩經·大雅·文王之什·006.3,雝雝在宮，肅肅在廟。不顯亦臨，無射亦保。,思齊.3,"Full of harmony was he in his palace;
+shijing__daya-wenwang-006__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·大雅·文王之什·006.3,雝雝在宮，肅肅在廟。不顯亦臨，無射亦保。,思齊.3,"Full of harmony was he in his palace;
 Full of reverence in the ancestral temple.
 Unseen (by men), he still felt that he was under inspection:
 Unweariedly he maintained his virtue."
-shijing__daya-wenwang-006__004__zhwikisource-20260530__legge-sbe-v3-1879,daya-wenwang-006,exact_or_near_exact,0.99,4,詩經·大雅·文王之什·006.4,肆戎疾不殄，烈假不瑕。不聞亦式，不諫亦入。,思齊.4,"Though he could not prevent (some) great calamities,
+shijing__daya-wenwang-006__004__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·大雅·文王之什·006.4,肆戎疾不殄，烈假不瑕。不聞亦式，不諫亦入。,思齊.4,"Though he could not prevent (some) great calamities,
 His brightness and magnanimity were without stain.
 Without previous instruction he did what was right;
 Without admonition he went on (in the path of goodness)."
-shijing__daya-wenwang-006__005__zhwikisource-20260530__legge-sbe-v3-1879,daya-wenwang-006,exact_or_near_exact,0.99,5,詩經·大雅·文王之什·006.5,肆成人有德，小子有造。古之人無斁，譽髦斯士。,思齊.5,"So, grown up men became virtuous (through him),
+shijing__daya-wenwang-006__005__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,5,詩經·大雅·文王之什·006.5,肆成人有德，小子有造。古之人無斁，譽髦斯士。,思齊.5,"So, grown up men became virtuous (through him),
 And young men made (constant) attainments.
 (Our) ancient prince never felt weariness,
 And from him were the fame and eminence of his officers."

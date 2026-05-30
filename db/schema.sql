@@ -66,6 +66,13 @@ CREATE TABLE IF NOT EXISTS alignments (
     confidence REAL NOT NULL,
     chinese_segment_ids_json TEXT NOT NULL,
     translation_segment_ids_json TEXT NOT NULL,
+    alignment_granularity TEXT,
+    section_unit TEXT,
+    segment_type TEXT,
+    is_coarse_alignment INTEGER NOT NULL DEFAULT 0,
+    coarse_alignment_reason TEXT,
+    source_segment_count INTEGER,
+    target_segment_count INTEGER,
     notes TEXT
 );
 

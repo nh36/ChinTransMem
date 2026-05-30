@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-jienanshan-007__001__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-jienanshan-007,exact_or_near_exact,0.99,1,詩經·小雅·節南山之什·007.1,"弁彼鸒斯，歸飛提提。民莫不穀，我獨于罹。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-jienanshan-007__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·節南山之什·007.1,"弁彼鸒斯，歸飛提提。民莫不穀，我獨于罹。
 何辜于天，我罪伊何？心之憂矣，云如之何。",小弁.1,"With flapping wings the crows
 Come back, flying all in a flock.
 Other people are happy,
@@ -9,7 +9,7 @@ What is my crime?
 My heart is sad;—
 What
 is to be done?"
-shijing__xiaoya-jienanshan-007__002__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-jienanshan-007,exact_or_near_exact,0.99,2,詩經·小雅·節南山之什·007.2,"維桑與梓，必恭敬止。靡瞻匪父，靡依匪母。
+shijing__xiaoya-jienanshan-007__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·節南山之什·007.2,"維桑與梓，必恭敬止。靡瞻匪父，靡依匪母。
 不屬于毛？不罹于裏？天之生我，我辰安在？",小弁.2,"Even the mulberry trees and the rottleras
 Must be regarded with reverence;
 But no one is to be looked up to like a father,

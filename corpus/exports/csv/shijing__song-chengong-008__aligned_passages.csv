@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-chengong-008__001__zhwikisource-20260530__legge-sbe-v3-1879,song-chengong-008,exact_or_near_exact,0.95,1,詩經·頌·臣工之什·008.1,"載見辟王，曰求厥章。龍旂陽陽，和鈴央央。鞗革有鶬，休有烈光。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__song-chengong-008__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-008,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·頌·臣工之什·008.1,"載見辟王，曰求厥章。龍旂陽陽，和鈴央央。鞗革有鶬，休有烈光。
 率見昭考，以孝以享，以介眉壽，永言保之，思皇多祜。
 烈文辟公，綏以多福，俾緝熙于純嘏。",載見.1,"They appeared before their sovereign king,
 To seek from him the rules (they were to observe).

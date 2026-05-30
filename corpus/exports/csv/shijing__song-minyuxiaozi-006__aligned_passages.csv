@@ -1,9 +1,9 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-minyuxiaozi-006__001__zhwikisource-20260530__legge-sbe-v3-1879,song-minyuxiaozi-006,exact_or_near_exact,0.99,1,詩經·頌·閔予小子之什·006.1,"畟畟良耜，俶載南畝，播厥百穀，實函斯活。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__song-minyuxiaozi-006__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-minyuxiaozi-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·閔予小子之什·006.1,"畟畟良耜，俶載南畝，播厥百穀，實函斯活。
 或來瞻女，載筐及筥。其饟伊黍，其笠伊糾。
 其鎛斯趙，以薅荼蓼，荼蓼朽止，黍稷茂止。",良耜.1,"Very sharp are the excellent shares,
 With which they set to work on the south-lying acres."
-shijing__song-minyuxiaozi-006__002__zhwikisource-20260530__legge-sbe-v3-1879,song-minyuxiaozi-006,exact_or_near_exact,0.99,2,詩經·頌·閔予小子之什·006.2,"穫之挃挃，積之栗栗，其崇如墉，其比如櫛，以開百室。
+shijing__song-minyuxiaozi-006__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-minyuxiaozi-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·頌·閔予小子之什·006.2,"穫之挃挃，積之栗栗，其崇如墉，其比如櫛，以開百室。
 百室盈止，婦子寧止。殺時犉牡，有捄其角。
 以似以續，續古之人。",良耜.2,"They sow their various kinds of grain,
 Each seed containing in it a germ of life."

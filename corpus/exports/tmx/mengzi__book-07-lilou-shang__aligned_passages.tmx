@@ -3,9 +3,16 @@
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-mengzi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
     <tu tuid="mengzi__book-07-lilou-shang__001__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.1</prop>
       <prop type="x-translation-ref">Li Lou I.1</prop>
       <tuv xml:lang="zh-Hant">
@@ -16,9 +23,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__002__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.2</prop>
       <prop type="x-translation-ref">Li Lou I.2</prop>
       <tuv xml:lang="zh-Hant">
@@ -29,9 +43,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__003__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.3</prop>
       <prop type="x-translation-ref">Li Lou I.3</prop>
       <tuv xml:lang="zh-Hant">
@@ -42,9 +63,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__004__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.4</prop>
       <prop type="x-translation-ref">Li Lou I.4</prop>
       <tuv xml:lang="zh-Hant">
@@ -55,9 +83,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__005__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.97</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.5</prop>
       <prop type="x-translation-ref">Li Lou I.5</prop>
       <tuv xml:lang="zh-Hant">
@@ -68,9 +103,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__006__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.6</prop>
       <prop type="x-translation-ref">Li Lou I.6</prop>
       <tuv xml:lang="zh-Hant">
@@ -81,9 +123,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__007__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.7</prop>
       <prop type="x-translation-ref">Li Lou I.7</prop>
       <tuv xml:lang="zh-Hant">
@@ -94,9 +143,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__008__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.98</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.8</prop>
       <prop type="x-translation-ref">Li Lou I.8</prop>
       <tuv xml:lang="zh-Hant">
@@ -107,9 +163,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__009__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.9</prop>
       <prop type="x-translation-ref">Li Lou I.9</prop>
       <tuv xml:lang="zh-Hant">
@@ -120,9 +183,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__010__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.10</prop>
       <prop type="x-translation-ref">Li Lou I.10</prop>
       <tuv xml:lang="zh-Hant">
@@ -133,9 +203,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__011__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.11</prop>
       <prop type="x-translation-ref">Li Lou I.11</prop>
       <tuv xml:lang="zh-Hant">
@@ -146,9 +223,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__012__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.12</prop>
       <prop type="x-translation-ref">Li Lou I.12</prop>
       <tuv xml:lang="zh-Hant">
@@ -159,9 +243,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__013__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.13</prop>
       <prop type="x-translation-ref">Li Lou I.13</prop>
       <tuv xml:lang="zh-Hant">
@@ -172,9 +263,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__014__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.14</prop>
       <prop type="x-translation-ref">Li Lou I.14</prop>
       <tuv xml:lang="zh-Hant">
@@ -185,9 +283,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__015__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.15</prop>
       <prop type="x-translation-ref">Li Lou I.15</prop>
       <tuv xml:lang="zh-Hant">
@@ -198,9 +303,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__016__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.16</prop>
       <prop type="x-translation-ref">Li Lou I.16</prop>
       <tuv xml:lang="zh-Hant">
@@ -211,9 +323,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__017__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.17</prop>
       <prop type="x-translation-ref">Li Lou I.17</prop>
       <tuv xml:lang="zh-Hant">
@@ -224,9 +343,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__018__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.18</prop>
       <prop type="x-translation-ref">Li Lou I.18</prop>
       <tuv xml:lang="zh-Hant">
@@ -237,9 +363,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__019__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.19</prop>
       <prop type="x-translation-ref">Li Lou I.19</prop>
       <tuv xml:lang="zh-Hant">
@@ -250,9 +383,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__020__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.20</prop>
       <prop type="x-translation-ref">Li Lou I.20</prop>
       <tuv xml:lang="zh-Hant">
@@ -263,9 +403,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__021__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.21</prop>
       <prop type="x-translation-ref">Li Lou I.21</prop>
       <tuv xml:lang="zh-Hant">
@@ -276,9 +423,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__022__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.22</prop>
       <prop type="x-translation-ref">Li Lou I.22</prop>
       <tuv xml:lang="zh-Hant">
@@ -289,9 +443,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__023__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.23</prop>
       <prop type="x-translation-ref">Li Lou I.23</prop>
       <tuv xml:lang="zh-Hant">
@@ -302,9 +463,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__024__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.97</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.24</prop>
       <prop type="x-translation-ref">Li Lou I.24</prop>
       <tuv xml:lang="zh-Hant">
@@ -315,9 +483,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__025__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.25</prop>
       <prop type="x-translation-ref">Li Lou I.25</prop>
       <tuv xml:lang="zh-Hant">
@@ -328,9 +503,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__026__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.26</prop>
       <prop type="x-translation-ref">Li Lou I.26</prop>
       <tuv xml:lang="zh-Hant">
@@ -341,9 +523,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__027__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.27</prop>
       <prop type="x-translation-ref">Li Lou I.27</prop>
       <tuv xml:lang="zh-Hant">
@@ -354,9 +543,16 @@
       </tuv>
     </tu>
     <tu tuid="mengzi__book-07-lilou-shang__028__zhwikisource-20260530__legge-cc-v2-1895">
+      <prop type="x-work-id">mengzi</prop>
       <prop type="x-section-id">book-07-lilou-shang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">passage</prop>
+      <prop type="x-alignment-granularity">passage</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">孟子 4A.28</prop>
       <prop type="x-translation-ref">Li Lou I.28</prop>
       <tuv xml:lang="zh-Hant">

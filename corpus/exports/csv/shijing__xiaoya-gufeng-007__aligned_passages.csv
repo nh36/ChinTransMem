@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-gufeng-007__001__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-gufeng-007,exact_or_near_exact,0.99,1,詩經·小雅·谷風之什·007.1,"明明上天，照臨下土。我征徂西，至于艽野。二月初吉，載離寒暑。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-gufeng-007__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-gufeng-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·谷風之什·007.1,"明明上天，照臨下土。我征徂西，至于艽野。二月初吉，載離寒暑。
 心之憂矣，其毒大苦。念彼共人，涕零如雨。豈不懷歸？畏此罪罟。",小明.1,"O bright and high Heaven,
 Who enlightenest and rulest this lower world!
 I marched on this expedition to the west,
@@ -12,13 +12,13 @@ I think of those (at court) in their offices,
 And my tears flow down like rain.
 Do I not wish to return?
 But I fear the net for crime."
-shijing__xiaoya-gufeng-007__002__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-gufeng-007,exact_or_near_exact,0.99,2,詩經·小雅·谷風之什·007.2,嗟爾君子，無恆安處。靖共爾位，正直是與。神之聽之，式穀以女。,小明.2,"Ah! ye gentlemen,
+shijing__xiaoya-gufeng-007__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-gufeng-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·谷風之什·007.2,嗟爾君子，無恆安處。靖共爾位，正直是與。神之聽之，式穀以女。,小明.2,"Ah! ye gentlemen,
 Do not reckon on your rest ​being permanent.
 Quietly fulfil the duties of your offices,
 Associating with the correct and upright;
 So shall the spirits hearken to you,
 And give you good."
-shijing__xiaoya-gufeng-007__003__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-gufeng-007,exact_or_near_exact,0.99,3,詩經·小雅·谷風之什·007.3,嗟爾君子，無恆安息。靖共爾位，好是正直。神之聽之，介爾景福。,小明.3,"Ah! ye gentlemen,
+shijing__xiaoya-gufeng-007__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-gufeng-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·谷風之什·007.3,嗟爾君子，無恆安息。靖共爾位，好是正直。神之聽之，介爾景福。,小明.3,"Ah! ye gentlemen,
 Do not reckon on your repose being permanent.
 Quietly fulfil the duties of your offices,
 Loving the correct and upright;

@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-chengong-010__001__zhwikisource-20260530__legge-sbe-v3-1879,song-chengong-010,exact_or_near_exact,0.99,1,詩經·頌·臣工之什·010.1,"於皇武王，無競維烈。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__song-chengong-010__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·臣工之什·010.1,"於皇武王，無競維烈。
 允文文王，克開厥後。
 嗣武受之。勝殷遏劉，耆定爾功。",武.1,"Oh! great wast thou, O king Wû,
 Displaying the utmost strength in thy work.

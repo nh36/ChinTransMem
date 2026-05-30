@@ -3,9 +3,16 @@
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
     <tu tuid="shijing__xiaoya-jienanshan-001__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-jienanshan-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·001.1</prop>
       <prop type="x-translation-ref">節南山.1</prop>
       <tuv xml:lang="zh-Hant">
@@ -26,9 +33,16 @@ is it that you do not consider the state of things?</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__xiaoya-jienanshan-001__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-jienanshan-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·001.2</prop>
       <prop type="x-translation-ref">節南山.2</prop>
       <tuv xml:lang="zh-Hant">
@@ -47,9 +61,16 @@ And yet you do not correct nor bemoan yourself.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__xiaoya-jienanshan-001__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-jienanshan-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·001.3</prop>
       <prop type="x-translation-ref">節南山.3</prop>
       <tuv xml:lang="zh-Hant">
@@ -68,9 +89,16 @@ It is not right he should reduce us all to such misery!</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__xiaoya-jienanshan-001__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-jienanshan-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·001.4</prop>
       <prop type="x-translation-ref">節南山.4</prop>
       <tuv xml:lang="zh-Hant">
@@ -89,9 +117,16 @@ Would not be in offices of importance.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__xiaoya-jienanshan-001__005__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-jienanshan-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·001.5</prop>
       <prop type="x-translation-ref">節南山.5</prop>
       <tuv xml:lang="zh-Hant">
@@ -110,9 +145,16 @@ And the animosities and angers would disappear.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__xiaoya-jienanshan-001__006__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-jienanshan-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·001.6</prop>
       <prop type="x-translation-ref">節南山.6</prop>
       <tuv xml:lang="zh-Hant">
@@ -131,9 +173,16 @@ And the result is toil and pain to the people.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__xiaoya-jienanshan-001__007__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-jienanshan-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·001.7</prop>
       <prop type="x-translation-ref">節南山.7</prop>
       <tuv xml:lang="zh-Hant">
@@ -147,9 +196,16 @@ Distress is everywhere; there is no place I can drive to.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__xiaoya-jienanshan-001__008__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-jienanshan-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·001.8</prop>
       <prop type="x-translation-ref">節南山.8</prop>
       <tuv xml:lang="zh-Hant">
@@ -163,9 +219,16 @@ as if you were pledging one another.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__xiaoya-jienanshan-001__009__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-jienanshan-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·001.9</prop>
       <prop type="x-translation-ref">節南山.9</prop>
       <tuv xml:lang="zh-Hant">
@@ -179,9 +242,16 @@ And goes on to resent endeavours to rectify him.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__xiaoya-jienanshan-001__010__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-jienanshan-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·001.10</prop>
       <prop type="x-translation-ref">節南山.10</prop>
       <tuv xml:lang="zh-Hant">

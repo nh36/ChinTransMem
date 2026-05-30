@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-hongyan-010__001__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-hongyan-010,exact_or_near_exact,0.99,1,詩經·小雅·鴻鴈之什·010.1,"牧人乃夢，衆維魚矣。旐維旟矣，大人占之。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-hongyan-010__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-hongyan-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·鴻鴈之什·010.1,"牧人乃夢，衆維魚矣。旐維旟矣，大人占之。
 衆維魚矣，實維豐年。旐維旟矣，室家溱溱。",無羊.1,"Your herdsmen shall dream,
 Of multitudes and then of fishes,
 Of the tortoise-and-serpent, and then of the falcon, banners.

@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-futian-001__001__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-futian-001,exact_or_near_exact,0.99,1,詩經·小雅·甫田之什·001.1,"倬彼甫田，歲取十千。我取其陳，食我農人，自古有年。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-futian-001__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-futian-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·甫田之什·001.1,"倬彼甫田，歲取十千。我取其陳，食我農人，自古有年。
 今適南畝，或耘或耔。黍稷薿薿。攸介攸止，烝我髦士。",甫田.1,"Bright are those extensive fields,
 A tenth of whose produce is annually levied.
 I take the old
@@ -11,7 +11,7 @@ Where some are weeding, and some gather the earth about the roots.
 The millets look luxuriant;
 And in a spacious resting-place,
 I collect and encourage the men of greater promise."
-shijing__xiaoya-futian-001__002__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-futian-001,exact_or_near_exact,0.99,2,詩經·小雅·甫田之什·001.2,"以我齊明，與我犧羊，以社以方。
+shijing__xiaoya-futian-001__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-futian-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·甫田之什·001.2,"以我齊明，與我犧羊，以社以方。
 我田既臧，農夫之慶。琴瑟擊鼓，以御田祖。
 以祈甘雨，以介我稷黍，以穀我士女。",甫田.2,"With my vessels full of bright millet,
 And my pure victim-rams,
@@ -23,7 +23,7 @@ We will invoke the Father of Husbandry,
 And pray for sweet rain,
 To increase the produce of our millets,
 And to bless my men and their wives."
-shijing__xiaoya-futian-001__003__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-futian-001,exact_or_near_exact,0.99,3,詩經·小雅·甫田之什·001.3,"曾孫來止，以其婦子，饁彼南畝。
+shijing__xiaoya-futian-001__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-futian-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·甫田之什·001.3,"曾孫來止，以其婦子，饁彼南畝。
 田畯至喜，攘其左右，嘗其旨否。
 禾易長畝，終善且有。曾孫不怒，農夫克敏。",甫田.3,"The distant descendant comes,
 When their wives and children
@@ -35,7 +35,7 @@ The grain is well cultivated, all the acres over;
 Good will it be and abundant.
 The distant descendant has no displacency;
 The husbandmen are encouraged to diligence."
-shijing__xiaoya-futian-001__004__zhwikisource-20260530__legge-sbe-v3-1879,xiaoya-futian-001,exact_or_near_exact,0.99,4,詩經·小雅·甫田之什·001.4,"曾孫之稼，如茨如梁，曾孫之庾，如坻如京。
+shijing__xiaoya-futian-001__004__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-futian-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·小雅·甫田之什·001.4,"曾孫之稼，如茨如梁，曾孫之庾，如坻如京。
 乃求千斯倉，乃求萬斯箱，黍稷稻粱。
 農夫之慶，報以介福，萬壽無疆。",甫田.4,"The crops of the distant descendant
 Look (thick) as thatch, and (swelling) like a carriage-cover.

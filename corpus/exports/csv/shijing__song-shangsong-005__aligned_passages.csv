@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-shangsong-005__001__zhwikisource-20260530__legge-sbe-v3-1879,song-shangsong-005,exact_or_near_exact,0.99,1,詩經·頌·商頌·005.1,"撻彼殷武，奮伐荊楚，冞入其阻，裒荊之旅。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__song-shangsong-005__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·商頌·005.1,"撻彼殷武，奮伐荊楚，冞入其阻，裒荊之旅。
 有截其所，湯孫之緒。",殷武.1,"Rapid was the warlike energy of (our king of) Yin,
 And vigorously did he attack King-Khû.
 ​Boldly he entered its dangerous passes,
@@ -7,7 +7,7 @@ And brought the multitudes of King together,
 Till the country was reduced under complete restraint:—
 Such
 was the fitting achievement of the descendant of Thang!"
-shijing__song-shangsong-005__002__zhwikisource-20260530__legge-sbe-v3-1879,song-shangsong-005,exact_or_near_exact,0.99,2,詩經·頌·商頌·005.2,"維女荊楚，居國南鄉，昔有成湯，自彼氐羌。
+shijing__song-shangsong-005__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·頌·商頌·005.2,"維女荊楚，居國南鄉，昔有成湯，自彼氐羌。
 莫敢不來享，莫敢不來王，曰商是常。",殷武.2,"'Ye people,' (he said), 'of King-Khû,
 Dwell in the southern part of my kingdom.
 Formerly, in the time of Thang the Successful,
@@ -16,13 +16,13 @@ They dared not but come with their offerings;
 (Their chiefs) dared not but come to seek acknowledgment:—
 Such
 is the regular rule of Shang.'"
-shijing__song-shangsong-005__003__zhwikisource-20260530__legge-sbe-v3-1879,song-shangsong-005,exact_or_near_exact,0.99,3,詩經·頌·商頌·005.3,"天命多辟，設都于禹之績。
+shijing__song-shangsong-005__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·頌·商頌·005.3,"天命多辟，設都于禹之績。
 歲事來辟，勿予禍適，稼穡匪解。",殷武.3,"Heaven had given their appointments (to the princes),
 But where their capitals had been assigned within the sphere of the labours of Yü,
 For the business of every year they appeared before our king,
 (Saying), 'Do not punish nor reprove us;
 We have not been remiss in our husbandry.'"
-shijing__song-shangsong-005__004__zhwikisource-20260530__legge-sbe-v3-1879,song-shangsong-005,exact_or_near_exact,0.99,4,詩經·頌·商頌·005.4,"天命降監，下民有嚴，不僭不濫，不敢怠遑。
+shijing__song-shangsong-005__004__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·頌·商頌·005.4,"天命降監，下民有嚴，不僭不濫，不敢怠遑。
 命于下國，封建厥福。",殷武.4,"When Heaven by its will is inspecting (the kingdom),
 The lower people are to be feared.
 (Our king) showed no partiality (in rewarding), no excess (in punishing);
@@ -30,14 +30,14 @@ He dared not to allow himself in indolence:—
 So
 was his appointment (established) ​over the states,
 And he made his happiness grandly secure."
-shijing__song-shangsong-005__005__zhwikisource-20260530__legge-sbe-v3-1879,song-shangsong-005,exact_or_near_exact,0.99,5,詩經·頌·商頌·005.5,"商邑翼翼，四方之極，赫赫厥聲，濯濯厥靈。
+shijing__song-shangsong-005__005__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,5,詩經·頌·商頌·005.5,"商邑翼翼，四方之極，赫赫厥聲，濯濯厥靈。
 壽考且寧，以保我後生。",殷武.5,"The capital of Shang was full of order,
 The model for all parts of the kingdom.
 Glorious was (the king's) fame;
 Brilliant his energy.
 Long lived he and enjoyed tranquillity,
 And so he preserves us, his descendants."
-shijing__song-shangsong-005__006__zhwikisource-20260530__legge-sbe-v3-1879,song-shangsong-005,exact_or_near_exact,0.99,6,詩經·頌·商頌·005.6,"陟彼景山，松柏丸丸，是斷是遷，方斵是虔。
+shijing__song-shangsong-005__006__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,6,詩經·頌·商頌·005.6,"陟彼景山，松柏丸丸，是斷是遷，方斵是虔。
 松桷有梴，旅楹有閑，寢成孔安。",殷武.6,"We ascended the hill of King,
 Where the pines and cypresses grew symmetrical.
 We cut them down and conveyed them here;

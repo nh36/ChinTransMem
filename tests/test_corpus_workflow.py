@@ -14,10 +14,12 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 from common import DEFAULT_WORK_ID, METADATA_DIR, load_work_manifest, load_json_compatible_yaml, read_jsonl
+from audit_shijing_coverage import audit_shijing_coverage
 from export_corpus import load_exact_alignment_rows, write_tmx
 from import_corpus import import_corpus
 from init_db import initialize_database
 from qc_corpus import run_qc
+from validate_alignment_granularity import validate_alignment_granularity
 from validate_tmx import validate_tmx_file
 
 
@@ -39,14 +41,19 @@ class CorpusWorkflowTest(unittest.TestCase):
         expected_section_counts = {
             work_id: manifests[work_id]["summary"]["section_count"] for work_id in manifests
         }
+        expected_complete_section_counts = {
+            work_id: manifests[work_id]["summary"]["complete_sections"] for work_id in manifests
+        }
         expected_exact_alignment_counts = {
             work_id: manifests[work_id]["summary"]["exact_alignment_count"] for work_id in manifests
         }
         expected_total_segments = sum(expected_segment_counts.values())
         expected_total_alignments = sum(
-            expected_exact_alignment_counts[work_id] + expected_section_counts[work_id]
+            expected_exact_alignment_counts[work_id] + expected_complete_section_counts[work_id]
             for work_id in manifests
         )
+        shijing_inventory = load_json_compatible_yaml(METADATA_DIR / "shijing_poem_inventory.yml")
+        shijing_inventory_sections = {item["section_id"] for item in shijing_inventory["poems"]}
 
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_path = Path(temp_dir)
@@ -60,6 +67,9 @@ class CorpusWorkflowTest(unittest.TestCase):
             qc_output = temp_path / "lunyu__qc.json"
             mengzi_qc_output = temp_path / "mengzi__qc.json"
             shijing_qc_output = temp_path / "shijing__qc.json"
+            shijing_coverage_output = temp_path / "shijing__coverage_audit.json"
+            shijing_coverage_markdown = temp_path / "shijing__coverage_audit.md"
+            shijing_granularity_output = temp_path / "shijing__granularity_qc.json"
 
             initialize_database(db_path)
             import_summary = import_corpus(db_path)
@@ -90,6 +100,12 @@ class CorpusWorkflowTest(unittest.TestCase):
             qc_summary = run_qc(db_path, qc_output, work_id=DEFAULT_WORK_ID)
             mengzi_qc_summary = run_qc(db_path, mengzi_qc_output, work_id="mengzi")
             shijing_qc_summary = run_qc(db_path, shijing_qc_output, work_id="shijing")
+            shijing_coverage_summary = audit_shijing_coverage(shijing_coverage_output, shijing_coverage_markdown)
+            shijing_granularity_summary = validate_alignment_granularity(
+                db_path,
+                shijing_granularity_output,
+                work_id="shijing",
+            )
 
             self.assertEqual(import_summary["work_count"], len(works))
             self.assertEqual(import_summary["section_count"], len(sections))
@@ -109,12 +125,17 @@ class CorpusWorkflowTest(unittest.TestCase):
             self.assertEqual(qc_summary["status"], "pass")
             self.assertEqual(mengzi_qc_summary["status"], "pass")
             self.assertEqual(shijing_qc_summary["status"], "pass")
+            self.assertEqual(shijing_coverage_summary["status"], "pass")
+            self.assertEqual(shijing_granularity_summary["status"], "pass")
             self.assertEqual(len(qc_summary["sections"]), expected_section_counts[DEFAULT_WORK_ID])
             self.assertEqual(len(mengzi_qc_summary["sections"]), expected_section_counts["mengzi"])
             self.assertEqual(len(shijing_qc_summary["sections"]), expected_section_counts["shijing"])
             self.assertEqual(qc_summary["manifest_summary"]["complete_sections"], expected_section_counts[DEFAULT_WORK_ID])
             self.assertEqual(mengzi_qc_summary["manifest_summary"]["complete_sections"], expected_section_counts["mengzi"])
-            self.assertEqual(shijing_qc_summary["manifest_summary"]["complete_sections"], expected_section_counts["shijing"])
+            self.assertEqual(
+                shijing_qc_summary["manifest_summary"]["complete_sections"],
+                expected_complete_section_counts["shijing"],
+            )
 
             with closing(sqlite3.connect(db_path)) as connection:
                 total_work_count = connection.execute("SELECT COUNT(*) FROM works").fetchone()[0]
@@ -208,17 +229,37 @@ class CorpusWorkflowTest(unittest.TestCase):
             self.assertEqual(mengzi_exact_alignment_count, expected_exact_alignment_counts["mengzi"])
             self.assertEqual(mengzi_grouped_alignment_count, expected_section_counts["mengzi"])
             self.assertEqual(shijing_exact_alignment_count, expected_exact_alignment_counts["shijing"])
-            self.assertEqual(shijing_grouped_alignment_count, expected_section_counts["shijing"])
+            self.assertEqual(shijing_grouped_alignment_count, expected_complete_section_counts["shijing"])
             self.assertEqual(book_01_work_count, 2)
             self.assertTrue(
                 all(section["alignment_status"] == "complete" for section in manifests[DEFAULT_WORK_ID]["sections"])
             )
             self.assertTrue(all(section["alignment_status"] == "complete" for section in manifests["mengzi"]["sections"]))
-            self.assertTrue(all(section["alignment_status"] == "complete" for section in manifests["shijing"]["sections"]))
+            self.assertEqual(
+                len([section for section in manifests["shijing"]["sections"] if section["status"] == "complete"]),
+                expected_complete_section_counts["shijing"],
+            )
+            self.assertEqual(
+                len([section for section in manifests["shijing"]["sections"] if section["alignment_status"] == "metadata_only"]),
+                manifests["shijing"]["summary"]["metadata_only_sections"],
+            )
             self.assertEqual(expected_exact_alignment_counts[DEFAULT_WORK_ID], 501)
             self.assertEqual(expected_exact_alignment_counts["mengzi"], 260)
-            self.assertEqual(expected_section_counts["shijing"], 103)
+            self.assertEqual(expected_section_counts["shijing"], 311)
+            self.assertEqual(expected_complete_section_counts["shijing"], 103)
             self.assertEqual(expected_exact_alignment_counts["shijing"], 250)
+            self.assertEqual(
+                manifests["shijing"]["summary"]["metadata_only_sections"] + expected_complete_section_counts["shijing"],
+                expected_section_counts["shijing"],
+            )
+            self.assertEqual(len(shijing_inventory["poems"]), expected_section_counts["shijing"])
+            self.assertEqual({section["section_id"] for section in manifests["shijing"]["sections"]}, shijing_inventory_sections)
+            self.assertEqual(shijing_coverage_summary["poems_represented_as_sections"], expected_section_counts["shijing"])
+            self.assertEqual(
+                shijing_coverage_summary["poems_with_at_least_one_exact_alignment"],
+                expected_complete_section_counts["shijing"],
+            )
+            self.assertGreaterEqual(shijing_granularity_summary["coarse_alignment_count"], 1)
 
             last_section_id = manifests[DEFAULT_WORK_ID]["sections"][-1]["section_id"]
             last_rows = load_exact_alignment_rows(db_path, DEFAULT_WORK_ID, last_section_id)
@@ -238,6 +279,9 @@ class CorpusWorkflowTest(unittest.TestCase):
                 len(first_shijing_rows),
                 manifests["shijing"]["sections"][0]["expected_exact_alignment_count"],
             )
+            for row in shijing_rows:
+                if row["alignment_granularity"] == "poem" and ("\n\n" in row["chinese_text"] or "\n\n" in row["translation_text"]):
+                    self.assertTrue(row["is_coarse_alignment"])
             body = ET.parse(corpus_tmx).getroot().find("./body")
             mengzi_body = ET.parse(mengzi_tmx).getroot().find("./body")
             shijing_body = ET.parse(shijing_tmx).getroot().find("./body")

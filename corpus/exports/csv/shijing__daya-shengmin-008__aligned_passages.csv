@@ -1,5 +1,5 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__daya-shengmin-008__001__zhwikisource-20260530__legge-sbe-v3-1879,daya-shengmin-008,exact_or_near_exact,0.95,1,詩經·大雅·生民之什·008.1,"有卷者阿，飄風自南。豈弟君子，來游來歌，以矢其音。
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__daya-shengmin-008__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-shengmin-008,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·大雅·生民之什·008.1,"有卷者阿，飄風自南。豈弟君子，來游來歌，以矢其音。
 伴奐爾游矣，優游爾休矣。豈弟君子，俾爾彌爾性，似先公酋矣。
 爾土宇昄章，亦孔之厚矣。豈弟君子，俾爾彌爾性，百神爾主矣。
 爾受命長矣，茀祿爾康矣。豈弟君子，俾爾彌爾性，純嘏爾常矣。

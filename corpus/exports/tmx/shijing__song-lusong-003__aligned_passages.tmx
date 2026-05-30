@@ -3,9 +3,16 @@
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
     <tu tuid="shijing__song-lusong-003__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">song-lusong-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·魯頌·003.1</prop>
       <prop type="x-translation-ref">泮水.1</prop>
       <tuv xml:lang="zh-Hant">
@@ -24,9 +31,16 @@ All follow the prince in his progress to it.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__song-lusong-003__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">song-lusong-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·魯頌·003.2</prop>
       <prop type="x-translation-ref">泮水.2</prop>
       <tuv xml:lang="zh-Hant">
@@ -45,9 +59,16 @@ Without any impatience he delivers his instructions.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__song-lusong-003__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">song-lusong-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·魯頌·003.3</prop>
       <prop type="x-translation-ref">泮水.3</prop>
       <tuv xml:lang="zh-Hant">
@@ -66,9 +87,16 @@ So subduing to himself all the people!</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__song-lusong-003__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">song-lusong-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·魯頌·003.4</prop>
       <prop type="x-translation-ref">泮水.4</prop>
       <tuv xml:lang="zh-Hant">
@@ -87,9 +115,16 @@ He seeks the blessing that is sure to follow.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__song-lusong-003__005__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">song-lusong-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·魯頌·003.5</prop>
       <prop type="x-translation-ref">泮水.5</prop>
       <tuv xml:lang="zh-Hant">
@@ -108,9 +143,16 @@ Will here present the prisoners.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__song-lusong-003__006__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">song-lusong-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·魯頌·003.6</prop>
       <prop type="x-translation-ref">泮水.6</prop>
       <tuv xml:lang="zh-Hant">
@@ -129,9 +171,16 @@ They will here present (the proofs of) their merit.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__song-lusong-003__007__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">song-lusong-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·魯頌·003.7</prop>
       <prop type="x-translation-ref">泮水.7</prop>
       <tuv xml:lang="zh-Hant">
@@ -150,9 +199,16 @@ And all the tribes of the Hwâi will be won.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__song-lusong-003__008__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">song-lusong-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·魯頌·003.8</prop>
       <prop type="x-translation-ref">泮水.8</prop>
       <tuv xml:lang="zh-Hant">

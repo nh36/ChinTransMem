@@ -1,13 +1,13 @@
-alignment_id,section_id,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-chengong-009__001__zhwikisource-20260530__legge-sbe-v3-1879,song-chengong-009,exact_or_near_exact,0.99,1,詩經·頌·臣工之什·009.1,有客有客，亦白其馬。有萋有且，敦琢其旅。,有客.1,"The noble visitor! The noble visitor!
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__song-chengong-009__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·臣工之什·009.1,有客有客，亦白其馬。有萋有且，敦琢其旅。,有客.1,"The noble visitor! The noble visitor!
 Drawn, like his ancestors, by white horses!
 The reverent and dignified,
 Polished members of his suite!"
-shijing__song-chengong-009__002__zhwikisource-20260530__legge-sbe-v3-1879,song-chengong-009,exact_or_near_exact,0.99,2,詩經·頌·臣工之什·009.2,有客宿宿，有客信信。言授之縶，以縶其馬。,有客.2,"The noble guest will stay (but) a night or two!
+shijing__song-chengong-009__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·頌·臣工之什·009.2,有客宿宿，有客信信。言授之縶，以縶其馬。,有客.2,"The noble guest will stay (but) a night or two!
 The noble guest will stay (but) two nights or four!
 Give him ropes,
 To bind his horses."
-shijing__song-chengong-009__003__zhwikisource-20260530__legge-sbe-v3-1879,song-chengong-009,exact_or_near_exact,0.99,3,詩經·頌·臣工之什·009.3,薄言追之，左右綏之。既有淫威，降福孔夷。,有客.3,"I will convoy him (with a parting feast);
+shijing__song-chengong-009__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·頌·臣工之什·009.3,薄言追之，左右綏之。既有淫威，降福孔夷。,有客.3,"I will convoy him (with a parting feast);
 I will comfort him in every possible way.
 Adorned with such great dignity,
 It is very natural that he should be blessed."

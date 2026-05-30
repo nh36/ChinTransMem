@@ -44,8 +44,12 @@ class TmxExportTest(unittest.TestCase):
             self.assertEqual(len(tus), manifest["summary"]["exact_alignment_count"])
             self.assertGreater(len(tus), 0)
             first_tuvs = tus[0].findall("tuv")
+            first_props = {prop.attrib.get("type"): prop.text for prop in tus[0].findall("prop")}
             self.assertEqual(first_tuvs[0].attrib[f"{{{XML_NAMESPACE}}}lang"], "zh-Hant")
             self.assertEqual(first_tuvs[1].attrib[f"{{{XML_NAMESPACE}}}lang"], "en")
+            self.assertEqual(first_props["x-work-id"], DEFAULT_WORK_ID)
+            self.assertIn("x-section-unit", first_props)
+            self.assertIn("x-alignment-granularity", first_props)
 
     def test_tmx_validation_fails_after_tampering(self) -> None:
         manifest = load_corpus_manifest()

@@ -21,6 +21,14 @@ from common import (
 XML_NAMESPACE = "http://www.w3.org/XML/1998/namespace"
 
 
+def default_section_unit(work_id: str) -> str:
+    if work_id == DEFAULT_WORK_ID:
+        return "book"
+    if work_id == "shijing":
+        return "poem"
+    return "section"
+
+
 def load_exact_alignment_rows(
     db_path: Path | str = DEFAULT_DB_PATH,
     work_id: str = DEFAULT_WORK_ID,
@@ -30,7 +38,9 @@ def load_exact_alignment_rows(
         if section_id is None:
             alignment_rows = connection.execute(
                 """
-                SELECT alignment_id, section_id, alignment_type, confidence, chinese_segment_ids_json, translation_segment_ids_json
+                SELECT alignment_id, section_id, alignment_type, confidence, chinese_segment_ids_json,
+                       translation_segment_ids_json, alignment_granularity, section_unit, segment_type,
+                       is_coarse_alignment, coarse_alignment_reason, source_segment_count, target_segment_count
                 FROM alignments
                 WHERE alignment_type = 'exact_or_near_exact' AND work_id = ?
                 """
@@ -39,7 +49,8 @@ def load_exact_alignment_rows(
             ).fetchall()
             segment_rows = connection.execute(
                 """
-                SELECT segment_id, section_id, canonical_ref, text_original, text_normalized, source_id, segment_order
+                SELECT segment_id, section_id, canonical_ref, text_original, text_normalized, source_id, segment_order,
+                       segment_type
                 FROM segments
                 WHERE work_id = ?
                 """
@@ -53,7 +64,9 @@ def load_exact_alignment_rows(
         else:
             alignment_rows = connection.execute(
                 """
-                SELECT alignment_id, section_id, alignment_type, confidence, chinese_segment_ids_json, translation_segment_ids_json
+                SELECT alignment_id, section_id, alignment_type, confidence, chinese_segment_ids_json,
+                       translation_segment_ids_json, alignment_granularity, section_unit, segment_type,
+                       is_coarse_alignment, coarse_alignment_reason, source_segment_count, target_segment_count
                 FROM alignments
                 WHERE alignment_type = 'exact_or_near_exact' AND work_id = ? AND section_id = ?
                 """,
@@ -61,7 +74,8 @@ def load_exact_alignment_rows(
             ).fetchall()
             segment_rows = connection.execute(
                 """
-                SELECT segment_id, section_id, canonical_ref, text_original, text_normalized, source_id, segment_order
+                SELECT segment_id, section_id, canonical_ref, text_original, text_normalized, source_id, segment_order,
+                       segment_type
                 FROM segments
                 WHERE work_id = ? AND section_id = ?
                 """,
@@ -78,13 +92,22 @@ def load_exact_alignment_rows(
             continue
         chinese_segment = segment_map[chinese_ids[0]]
         translation_segment = segment_map[translation_ids[0]]
+        segment_type = row["segment_type"] or chinese_segment["segment_type"]
         export_rows.append(
             {
                 "alignment_id": row["alignment_id"],
+                "work_id": work_id,
                 "section_id": row["section_id"],
                 "alignment_type": row["alignment_type"],
                 "confidence": row["confidence"],
                 "order": chinese_segment["segment_order"],
+                "section_unit": row["section_unit"] or default_section_unit(work_id),
+                "segment_type": segment_type,
+                "alignment_granularity": row["alignment_granularity"] or segment_type or "segment",
+                "is_coarse_alignment": bool(row["is_coarse_alignment"]),
+                "coarse_alignment_reason": row["coarse_alignment_reason"],
+                "source_segment_count": row["source_segment_count"] or len(chinese_ids),
+                "target_segment_count": row["target_segment_count"] or len(translation_ids),
                 "chinese_ref": chinese_segment["canonical_ref"],
                 "chinese_text": chinese_segment["text_normalized"],
                 "translation_ref": translation_segment["canonical_ref"],
@@ -124,14 +147,24 @@ def write_tmx(
     for row in export_rows:
         tu = ET.SubElement(body, "tu", {"tuid": str(row["alignment_id"])})
         for prop_type, prop_value in (
+            ("x-work-id", row["work_id"]),
             ("x-section-id", row["section_id"]),
+            ("x-section-unit", row["section_unit"]),
+            ("x-segment-type", row["segment_type"]),
+            ("x-alignment-granularity", row["alignment_granularity"]),
+            ("x-is-coarse-alignment", str(row["is_coarse_alignment"]).lower()),
             ("x-alignment-type", row["alignment_type"]),
             ("x-confidence", f"{row['confidence']:.2f}"),
+            ("x-source-segment-count", row["source_segment_count"]),
+            ("x-target-segment-count", row["target_segment_count"]),
             ("x-chinese-ref", row["chinese_ref"]),
             ("x-translation-ref", row["translation_ref"]),
         ):
             prop = ET.SubElement(tu, "prop", {"type": prop_type})
             prop.text = str(prop_value)
+        if row.get("coarse_alignment_reason"):
+            prop = ET.SubElement(tu, "prop", {"type": "x-coarse-alignment-reason"})
+            prop.text = str(row["coarse_alignment_reason"])
         source_tuv = ET.SubElement(tu, "tuv", {f"{{{XML_NAMESPACE}}}lang": source_language})
         ET.SubElement(source_tuv, "seg").text = str(row["chinese_text"])
         target_tuv = ET.SubElement(tu, "tuv", {f"{{{XML_NAMESPACE}}}lang": target_language})
@@ -153,7 +186,15 @@ def write_tabular_exports(export_rows: list[dict[str, object]], jsonl_output: Pa
             handle,
             fieldnames=[
                 "alignment_id",
+                "work_id",
                 "section_id",
+                "section_unit",
+                "segment_type",
+                "alignment_granularity",
+                "is_coarse_alignment",
+                "coarse_alignment_reason",
+                "source_segment_count",
+                "target_segment_count",
                 "alignment_type",
                 "confidence",
                 "order",
@@ -183,8 +224,13 @@ def export_corpus(
     if corpus_tmx_output is None:
         corpus_tmx_output = corpus_paths["tmx"]
 
+    exportable_sections = [
+        section
+        for section in manifest_sections(work_id)
+        if section.get("tmx_status", "complete") == "complete"
+    ]
     per_section: list[dict[str, object]] = []
-    for section in manifest_sections(work_id):
+    for section in exportable_sections:
         rows = load_exact_alignment_rows(db_path, work_id, section["section_id"])
         paths = section_export_paths(section["section_id"], work_id)
         write_tabular_exports(rows, paths["jsonl"], paths["csv"])
