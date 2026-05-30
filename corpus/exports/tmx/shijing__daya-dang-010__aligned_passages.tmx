@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-dang-010__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-010</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·010.1</prop>
+      <prop type="x-translation-ref">瞻卬.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>瞻卬昊天，則不我惠。孔填不寧，降此大厲。
+邦靡有定，士民其瘵。
+蟊賊蟊疾，靡有夷屆。罪罟不收，靡有夷瘳。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I look up to great Heaven,
+But it shows us no kindness.
+Very long have we been disquieted,
+And these great calamities are sent down (upon us).
+There is nothing settled in the country;
+Officers and people are in distress.
+Through the insects from without and from within,
+There is no peace or limit (to our misery).
+The net of crime is not taken up,
+And there is no peace nor cure (for our state).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-dang-010__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-010</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·010.2</prop>
+      <prop type="x-translation-ref">瞻卬.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天何以刺？何神不富？舍爾介狄，維予胥忌。
+不弔不祥，威儀不類。人之云亡，邦國殄瘁。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Why is it that Heaven is (thus) reproving (you)?
+Why is it that Heaven is not blessing (you)?
+You neglect your great barbarian (foes),
+And regard me with hatred.
+You are regardless of the evil omens (that abound),
+And your demeanour is all unseemly.
+(Good) men are going away,
+And the country is sure to go to ruin.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-dang-010__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-010</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·010.3</prop>
+      <prop type="x-translation-ref">瞻卬.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天之降罔，維其優矣。人之云亡，心之憂矣。
+天之降罔，維其幾矣。人之云亡，心之悲矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heaven is letting down its net,
+And many (are the calamities in it).
+(Good) men are going away,
+And my heart is sorrowful.
+Heaven is letting down
+​its net,
+And soon (all will be caught in it).
+(Good) men are going away,
+And my heart is sad.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-dang-010__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-010</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·010.4</prop>
+      <prop type="x-translation-ref">瞻卬.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>觱沸檻泉，維其深矣。心之憂矣，寧自今矣。
+不自我先，不自我後。藐藐昊天，無不克鞏。
+無忝皇祖，式救爾後。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Right from the spring comes the water bubbling,
+Revealing its depth.
+The sorrow of my heart,—
+Is
+it (only) of to-day?
+Why were these things not before me?
+Or why were they not after me?
+But mysteriously great Heaven
+Is able to strengthen anything.
+Do not disgrace your great ancestors:—
+This
+will save your posterity.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

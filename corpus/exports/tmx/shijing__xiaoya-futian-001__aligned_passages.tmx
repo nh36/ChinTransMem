@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-futian-001__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-futian-001</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·甫田之什·001.1</prop>
+      <prop type="x-translation-ref">甫田.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>倬彼甫田，歲取十千。我取其陳，食我農人，自古有年。
+今適南畝，或耘或耔。黍稷薿薿。攸介攸止，烝我髦士。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bright are those extensive fields,
+A tenth of whose produce is annually levied.
+I take the old
+​stores,
+And with them feed the husbandmen.
+From of old we have had good years;
+And now I go to the south-lying acres,
+Where some are weeding, and some gather the earth about the roots.
+The millets look luxuriant;
+And in a spacious resting-place,
+I collect and encourage the men of greater promise.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-futian-001__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-futian-001</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·甫田之什·001.2</prop>
+      <prop type="x-translation-ref">甫田.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以我齊明，與我犧羊，以社以方。
+我田既臧，農夫之慶。琴瑟擊鼓，以御田祖。
+以祈甘雨，以介我稷黍，以穀我士女。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>With my vessels full of bright millet,
+And my pure victim-rams,
+We sacrificed at the altar of the spirits of the land, and at (the altars of those of the four) quarters.
+That my fields are in such good condition
+Is matter of joy to the husbandmen.
+With lutes, and with drums beating,
+We will invoke the Father of Husbandry,
+And pray for sweet rain,
+To increase the produce of our millets,
+And to bless my men and their wives.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-futian-001__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-futian-001</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·甫田之什·001.3</prop>
+      <prop type="x-translation-ref">甫田.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>曾孫來止，以其婦子，饁彼南畝。
+田畯至喜，攘其左右，嘗其旨否。
+禾易長畝，終善且有。曾孫不怒，農夫克敏。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The distant descendant comes,
+When their wives and children
+Are bringing food to those (at work) in the south-lying acres.
+The surveyor of the fields (also) comes and is glad.
+He takes (of the food) on the left and the right,
+And tastes whether ​it be good or not.
+The grain is well cultivated, all the acres over;
+Good will it be and abundant.
+The distant descendant has no displacency;
+The husbandmen are encouraged to diligence.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-futian-001__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-futian-001</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·甫田之什·001.4</prop>
+      <prop type="x-translation-ref">甫田.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>曾孫之稼，如茨如梁，曾孫之庾，如坻如京。
+乃求千斯倉，乃求萬斯箱，黍稷稻粱。
+農夫之慶，報以介福，萬壽無疆。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The crops of the distant descendant
+Look (thick) as thatch, and (swelling) like a carriage-cover.
+His stacks
+will stand like islands and mounds.
+He will seek for thousands of granaries;
+He will seek for tens of thousands of carts.
+The millets, the paddy, and the maize
+Will awake the joy of the husbandmen;
+(And they will say), 'May he be rewarded with great happiness,
+With myriads of years, life without end!'</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

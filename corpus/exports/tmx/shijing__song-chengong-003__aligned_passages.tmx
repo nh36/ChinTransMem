@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-chengong-003__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-chengong-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·臣工之什·003.1</prop>
+      <prop type="x-translation-ref">振鷺.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>振鷺于飛，于彼西雝。我客戾止，亦有斯容。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A flock of egrets is flying,
+About the marsh there in the west.
+My visitors came,
+With an (elegant) carriage like those birds.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-chengong-003__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-chengong-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·臣工之什·003.2</prop>
+      <prop type="x-translation-ref">振鷺.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>在彼無惡，在此無斁。庶幾夙夜，以永終譽。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>There, (in their states), not disliked,
+Here, (in Kâu), never tired of;—
+They
+are sure, day and night,
+To perpetuate their fame.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

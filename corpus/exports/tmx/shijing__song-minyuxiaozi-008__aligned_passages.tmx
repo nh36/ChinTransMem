@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-minyuxiaozi-008__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-008</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·008.1</prop>
+      <prop type="x-translation-ref">酌.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>於鑠王師，遵養時晦。時純熙矣，是用大介。
+我龍受之，蹻蹻王之造。載用有嗣，實維爾公。
+允師。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Oh! powerful was the king's army,
+But he nursed it, in obedience to circumstances, while the ​time was yet dark.
+When the time was clearly bright,
+He thereupon donned his grand armour.
+We have been favoured to receive
+What the martial king accomplished.
+To deal aright with what we have inherited,
+We have to be sincere imitators of thy course, (O king).</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

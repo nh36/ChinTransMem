@@ -31,4 +31,4 @@ The repository now treats **Lunyu as the default work** inside a broader multi-w
 
 ## Current constraint
 
-The generic layer is intentionally conservative: it supports multiple work manifests now, with complete raw-to-alignment bootstraps for Lunyu and Mengzi plus a controlled Shijing pilot (`關雎`) aligned at stanza level. New works should still enter as metadata-first manifests until their public-domain witnesses and segmentation rules are ready.
+The generic layer is intentionally conservative: it supports multiple work manifests now, with complete raw-to-alignment bootstraps for Lunyu and Mengzi plus a work-scoped Shijing bootstrap that ingests the currently transcribed public-domain Legge subset on Wikisource. New works should still enter as metadata-first manifests until their public-domain witnesses and segmentation rules are ready.

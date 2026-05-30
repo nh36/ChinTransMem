@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-hongyan-010__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-hongyan-010</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·010.1</prop>
+      <prop type="x-translation-ref">無羊.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>牧人乃夢，衆維魚矣。旐維旟矣，大人占之。
+衆維魚矣，實維豐年。旐維旟矣，室家溱溱。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Your herdsmen shall dream,
+Of multitudes and then of fishes,
+Of the tortoise-and-serpent, and then of the falcon, banners.
+The chief diviner will divine the dreams;—
+How
+the multitudes, dissolving into fishes,
+Betoken plentiful years;
+How the tortoise-and-serpent, dissolving into the falcon, banners,
+Betoken the increasing population of the kingdom.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

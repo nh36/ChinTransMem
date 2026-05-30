@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-jienanshan-010__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-jienanshan-010</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·節南山之什·010.1</prop>
+      <prop type="x-translation-ref">巷伯.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>驕人好好，勞人草草。蒼天蒼天！視彼驕人，矜此勞人！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The proud are delighted,
+And the troubled are in sorrow.
+O azure Heaven! O azure Heaven!
+Look on those proud men,
+Pity those who are troubled.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-jienanshan-010__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-jienanshan-010</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·節南山之什·010.2</prop>
+      <prop type="x-translation-ref">巷伯.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>彼譖人者，誰適與謀？取彼譖人，投畀豺虎。
+豺虎不食，投畀有北。有北不受，投畀有昊。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Those slanderers!
+Who devised their schemes for them?
+I would take those slanderers,
+And throw them to wolves and tigers.
+If these refused to devour them,
+I would cast them into the north.
+If the north refused to receive them,
+I would throw them into the hands of great (Heaven).</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

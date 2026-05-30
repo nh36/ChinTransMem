@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-binfeng-001__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-binfeng-001</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·國風·豳風·001.1</prop>
+      <prop type="x-translation-ref">七月.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>二之日鑿冰沖沖，三之日納于凌陰，四之日其蚤，獻羔祭韭。
+九月肅霜，十月滌場。朋酒斯饗，曰殺羔羊。躋彼公堂，稱彼兕觥。萬壽無疆。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the days of (our) second month, they hew out the ice with harmonious blows ;
+And in those of (our) third month, they convey it to the ice-houses,
+(Which they open) in those of (our) fourth, early in the morning
+A lamb having been offered in sacrifice with scallions.
+In the ninth month, it is cold, with frost.
+In the tenth month, they sweep clean their stack-sites.
+(Taking) the two bottles of spirits to be offered to their ruler,
+And having killed their lambs and sheep,
+They go to his hall,
+And raising ​the cup of rhinoceros horn,
+Wish him long life,—that he may live for ever.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

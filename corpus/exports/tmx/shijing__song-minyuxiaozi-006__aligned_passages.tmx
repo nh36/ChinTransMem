@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-minyuxiaozi-006__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-006</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·006.1</prop>
+      <prop type="x-translation-ref">良耜.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>畟畟良耜，俶載南畝，播厥百穀，實函斯活。
+或來瞻女，載筐及筥。其饟伊黍，其笠伊糾。
+其鎛斯趙，以薅荼蓼，荼蓼朽止，黍稷茂止。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Very sharp are the excellent shares,
+With which they set to work on the south-lying acres.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-minyuxiaozi-006__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-006</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·006.2</prop>
+      <prop type="x-translation-ref">良耜.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>穫之挃挃，積之栗栗，其崇如墉，其比如櫛，以開百室。
+百室盈止，婦子寧止。殺時犉牡，有捄其角。
+以似以續，續古之人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>They sow their various kinds of grain,
+Each seed containing in it a germ of life.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

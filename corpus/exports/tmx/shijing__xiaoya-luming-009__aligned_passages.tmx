@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-luming-009__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-luming-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·009.1</prop>
+      <prop type="x-translation-ref">杕杜.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有杕之杜，有睆其實。王事靡盬，繼嗣我日。日月陽止，女心傷止，征夫遑止。
+有杕之杜，其葉萋萋。王事靡盬，我心傷悲。卉木萋止，女心悲止，征夫歸止。
+陟彼北山，言采其杞。王事靡盬，憂我父母。檀車幝幝，四牡痯痯，征夫不遠。
+匪載匪來，憂心孔疚。期逝不至，而多為恤。卜筮偕止，會言近止，征夫邇止。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>They have not packed up, they do not come.
+My sorrowing heart is greatly distressed.
+The time is past, and he is not here,
+To the multiplication of my sorrows.
+Both by the tortoise-shell and the reeds have I divined,
+And they unite in saying he is near.
+My warrior is at hand.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

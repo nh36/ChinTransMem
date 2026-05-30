@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-qingmiao-008__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-qingmiao-008</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·頌·清廟之什·008.1</prop>
+      <prop type="x-translation-ref">時邁.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>時邁其邦，昊天其子之。
+實右序有周，薄言震之，莫不震疊。
+懷柔百神，及河喬嶽。允王維后。
+明昭有周，式序在位。
+載戢干戈，載櫜弓矢。
+我求懿德，肆于時夏。
+允王保之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Now is he making a progress through his states;
+May Heaven deal with him as .mw-parser-output .wst-anchor:target{background-color:rgba(100,149,237,0.1);color:var(--color-base,#202122);outline:1px solid cornflowerblue}its son!
+
+Truly are the honour and succession come from it to the House of Kâu.
+To his movements
+All respond with tremulous awe.
+He has attracted and given rest to all spiritual beings,
+Even to (the spirits of) the Ho and the highest hills.
+Truly is the king our sovereign lord.
+
+Brilliant and illustrious is the House of Kâu.
+He has regulated the positions of the princes;
+He has called in shields and spears;
+He has returned to their cases bows and arrows.
+I will cultivate admirable virtue,
+And display it throughout these great regions.
+Truly will the king preserve the appointment.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

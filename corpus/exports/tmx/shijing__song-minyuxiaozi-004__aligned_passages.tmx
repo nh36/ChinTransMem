@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-minyuxiaozi-004__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-004</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·004.1</prop>
+      <prop type="x-translation-ref">小毖.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>予其懲，而毖後患。莫予荓蜂，自求辛螫。
+肇允彼桃蟲，拚飛維鳥。未堪家多難，予又集于蓼。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I condemn myself (for the past),
+And will be on my guard against future calamity.
+I will have nothing to do with a wasp,
+To seek for myself its painful sting.
+At first indeed it seemed to be ​(but) a wren,
+But it took wing, and became a large bird.
+I am unequal to the many difficulties of the kingdom,
+And am placed in the midst of bitter experiences.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

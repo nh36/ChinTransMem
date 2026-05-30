@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-tangfeng-008__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-tangfeng-008</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·008.1</prop>
+      <prop type="x-translation-ref">鴇羽.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>肅肅鴇羽，集于苞栩。王事靡盬，不能蓺稷黍。父母何怙？悠悠蒼天，曷其有所。
+肅肅鴇翼，集于苞棘。王事靡盬，不能蓺黍稷。父母何食？悠悠蒼天，曷其有極。
+肅肅鴇行，集于苞桑。王事靡盬，不能蓺稻粱。父母何嘗？悠悠蒼天，曷其有常。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Sû-sû go the feathers of the wild geese,
+As
+​they settle on the bushy oaks.
+The king's affairs must not be slackly discharged,
+And (so) we cannot plant our millets;—
+What
+will our parents have to rely on?
+O thou distant and azure Heaven!
+When shall we be in our places again?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

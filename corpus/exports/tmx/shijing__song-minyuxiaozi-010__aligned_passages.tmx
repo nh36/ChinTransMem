@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-minyuxiaozi-010__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-010</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·010.1</prop>
+      <prop type="x-translation-ref">賚.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>文王既勤止，我應受之。敷時繹思，我徂維求定。
+時周之命，於繹思。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>King Wăn laboured earnestly:—
+Right
+is it we should have received (the kingdom).
+We will diffuse (his virtue), ever cherishing the thought of ​him;
+Henceforth we will seek only the settlement (of the kingdom).
+It was he through whom came the appointment of Kâu.
+Oh! let us ever cherish the thought of him.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

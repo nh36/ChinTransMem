@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-qingmiao-002__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-qingmiao-002</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·清廟之什·002.1</prop>
+      <prop type="x-translation-ref">維天之命.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>維天之命，於穆不已。
+於乎不顯，文王之德之純。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The ordinances of Heaven,—
+How
+deep are they and unintermitting!
+And oh! how illustrious
+Was the singleness of the virtue of king Wăn!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-qingmiao-002__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-qingmiao-002</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·清廟之什·002.2</prop>
+      <prop type="x-translation-ref">維天之命.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>假以溢我，我其收之。
+駿惠我文王，曾孫篤之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How does he (now) show his kindness?
+We will receive it,
+Striving to be in accord with him, our ​king Wăn;
+And may his remotest descendant be abundantly the same!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

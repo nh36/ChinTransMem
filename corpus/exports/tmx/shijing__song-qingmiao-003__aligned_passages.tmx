@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-qingmiao-003__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-qingmiao-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·清廟之什·003.1</prop>
+      <prop type="x-translation-ref">維清.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>維清緝熙，文王之典。
+肇禋。迄用有成，維周之禎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Clear and to be preserved bright,
+Are the statutes of king Wăn.
+From the first sacrifice (to him),
+Till now when they have issued in our complete state,
+They have been the happy omen of (the fortunes of) Kâu.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-jienanshan-007__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-jienanshan-007</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·節南山之什·007.1</prop>
+      <prop type="x-translation-ref">小弁.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>弁彼鸒斯，歸飛提提。民莫不穀，我獨于罹。
+何辜于天，我罪伊何？心之憂矣，云如之何。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>With flapping wings the crows
+Come back, flying all in a flock.
+Other people are happy,
+And I only am full of misery.
+What is my offence against Heaven?
+What is my crime?
+My heart is sad;—
+What
+is to be done?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-jienanshan-007__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-jienanshan-007</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·節南山之什·007.2</prop>
+      <prop type="x-translation-ref">小弁.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>維桑與梓，必恭敬止。靡瞻匪父，靡依匪母。
+不屬于毛？不罹于裏？天之生我，我辰安在？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Even the mulberry trees and the rottleras
+Must be regarded with reverence;
+But no one is to be looked up to like a father,
+No one is to be depended on as a mother.
+Have I not a connexion with the hairs (of my father)?
+Did I not dwell in the womb (of my mother)?
+O Heaven, who gave me birth!
+How was it at so inauspicious a time?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

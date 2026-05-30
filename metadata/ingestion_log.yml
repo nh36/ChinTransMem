@@ -382,6 +382,1128 @@
       "guofeng-zhounan-001-guanju__zhwikisource-20260530",
       "guofeng-zhounan-001-guanju__legge-sheking-1871"
     ],
-    "notes": "Bootstrap Shijing pilot generation for 關雎 with 5 exact stanza alignments."
+    "notes": "Bootstrap Shijing generation for 關雎 with 5 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhaonan-002-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhaonan-002",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhaonan-002__zhwikisource-20260530",
+      "guofeng-zhaonan-002__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 采蘩 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhaonan-004-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhaonan-004",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhaonan-004__zhwikisource-20260530",
+      "guofeng-zhaonan-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 采蘋 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-beifeng-004-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-beifeng-004",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-beifeng-004__zhwikisource-20260530",
+      "guofeng-beifeng-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 日月 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-beifeng-015-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-beifeng-015",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-beifeng-015__zhwikisource-20260530",
+      "guofeng-beifeng-015__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 北門 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-yongfeng-001-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-yongfeng-001",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-yongfeng-001__zhwikisource-20260530",
+      "guofeng-yongfeng-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 柏舟 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-yongfeng-003-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-yongfeng-003",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-yongfeng-003__zhwikisource-20260530",
+      "guofeng-yongfeng-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 君子偕老 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-yongfeng-006-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-yongfeng-006",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-yongfeng-006__zhwikisource-20260530",
+      "guofeng-yongfeng-006__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 定之方中 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-weifeng-004-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-weifeng-004",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-weifeng-004__zhwikisource-20260530",
+      "guofeng-weifeng-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 氓 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-wangfeng-001-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-wangfeng-001",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-wangfeng-001__zhwikisource-20260530",
+      "guofeng-wangfeng-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 黍離 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-wangfeng-009-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-wangfeng-009",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-wangfeng-009__zhwikisource-20260530",
+      "guofeng-wangfeng-009__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 大車 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-tangfeng-008-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-tangfeng-008",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-tangfeng-008__zhwikisource-20260530",
+      "guofeng-tangfeng-008__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 鴇羽 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-tangfeng-011-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-tangfeng-011",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-tangfeng-011__zhwikisource-20260530",
+      "guofeng-tangfeng-011__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 葛生 with 5 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-qinfeng-006-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-qinfeng-006",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-qinfeng-006__zhwikisource-20260530",
+      "guofeng-qinfeng-006__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 黃鳥 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-binfeng-001-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-binfeng-001",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-binfeng-001__zhwikisource-20260530",
+      "guofeng-binfeng-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 七月 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-luming-005-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-005",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-luming-005__zhwikisource-20260530",
+      "xiaoya-luming-005__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 伐木 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-luming-006-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-006",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-luming-006__zhwikisource-20260530",
+      "xiaoya-luming-006__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 天保 with 6 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-luming-009-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-009",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-luming-009__zhwikisource-20260530",
+      "xiaoya-luming-009__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 杕杜 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-hongyan-009-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-009",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-hongyan-009__zhwikisource-20260530",
+      "xiaoya-hongyan-009__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 斯干 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-hongyan-010-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-010",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-hongyan-010__zhwikisource-20260530",
+      "xiaoya-hongyan-010__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 無羊 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-jienanshan-001-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-jienanshan-001",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-jienanshan-001__zhwikisource-20260530",
+      "xiaoya-jienanshan-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 節南山 with 10 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-jienanshan-002-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-jienanshan-002",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-jienanshan-002__zhwikisource-20260530",
+      "xiaoya-jienanshan-002__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 正月 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-jienanshan-003-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-jienanshan-003",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-jienanshan-003__zhwikisource-20260530",
+      "xiaoya-jienanshan-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 十月之交 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-jienanshan-004-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-jienanshan-004",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-jienanshan-004__zhwikisource-20260530",
+      "xiaoya-jienanshan-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 雨無正 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-jienanshan-005-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-jienanshan-005",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-jienanshan-005__zhwikisource-20260530",
+      "xiaoya-jienanshan-005__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 小旻 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-jienanshan-006-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-jienanshan-006",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-jienanshan-006__zhwikisource-20260530",
+      "xiaoya-jienanshan-006__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 小宛 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-jienanshan-007-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-jienanshan-007",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-jienanshan-007__zhwikisource-20260530",
+      "xiaoya-jienanshan-007__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 小弁 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-jienanshan-008-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-jienanshan-008",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-jienanshan-008__zhwikisource-20260530",
+      "xiaoya-jienanshan-008__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 巧言 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-jienanshan-010-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-jienanshan-010",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-jienanshan-010__zhwikisource-20260530",
+      "xiaoya-jienanshan-010__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 巷伯 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-gufeng-003-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-gufeng-003",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-gufeng-003__zhwikisource-20260530",
+      "xiaoya-gufeng-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 大東 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-gufeng-007-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-gufeng-007",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-gufeng-007__zhwikisource-20260530",
+      "xiaoya-gufeng-007__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 小明 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-gufeng-009-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-gufeng-009",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-gufeng-009__zhwikisource-20260530",
+      "xiaoya-gufeng-009__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 楚茨 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-gufeng-010-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-gufeng-010",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-gufeng-010__zhwikisource-20260530",
+      "xiaoya-gufeng-010__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 信南山 with 6 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-futian-001-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-001",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-futian-001__zhwikisource-20260530",
+      "xiaoya-futian-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 甫田 with 4 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-futian-002-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-002",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-futian-002__zhwikisource-20260530",
+      "xiaoya-futian-002__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 大田 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-futian-005-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-005",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-futian-005__zhwikisource-20260530",
+      "xiaoya-futian-005__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 桑扈 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-futian-010-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-010",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-futian-010__zhwikisource-20260530",
+      "xiaoya-futian-010__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 賓之初筵 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-yuzao-009-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-009",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-yuzao-009__zhwikisource-20260530",
+      "xiaoya-yuzao-009__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 白華 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-wenwang-001-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-wenwang-001",
+    "status": "complete",
+    "source_ids": [
+      "daya-wenwang-001__zhwikisource-20260530",
+      "daya-wenwang-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 文王 with 7 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-wenwang-002-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-wenwang-002",
+    "status": "complete",
+    "source_ids": [
+      "daya-wenwang-002__zhwikisource-20260530",
+      "daya-wenwang-002__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 大明 with 8 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-wenwang-003-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-wenwang-003",
+    "status": "complete",
+    "source_ids": [
+      "daya-wenwang-003__zhwikisource-20260530",
+      "daya-wenwang-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 緜 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-wenwang-004-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-wenwang-004",
+    "status": "complete",
+    "source_ids": [
+      "daya-wenwang-004__zhwikisource-20260530",
+      "daya-wenwang-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 棫樸 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-wenwang-005-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-wenwang-005",
+    "status": "complete",
+    "source_ids": [
+      "daya-wenwang-005__zhwikisource-20260530",
+      "daya-wenwang-005__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 旱麓 with 6 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-wenwang-006-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-wenwang-006",
+    "status": "complete",
+    "source_ids": [
+      "daya-wenwang-006__zhwikisource-20260530",
+      "daya-wenwang-006__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 思齊 with 5 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-wenwang-007-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-wenwang-007",
+    "status": "complete",
+    "source_ids": [
+      "daya-wenwang-007__zhwikisource-20260530",
+      "daya-wenwang-007__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 皇矣 with 8 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-wenwang-009-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-wenwang-009",
+    "status": "complete",
+    "source_ids": [
+      "daya-wenwang-009__zhwikisource-20260530",
+      "daya-wenwang-009__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 下武 with 6 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-wenwang-010-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-wenwang-010",
+    "status": "complete",
+    "source_ids": [
+      "daya-wenwang-010__zhwikisource-20260530",
+      "daya-wenwang-010__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 文王有聲 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-shengmin-001-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-shengmin-001",
+    "status": "complete",
+    "source_ids": [
+      "daya-shengmin-001__zhwikisource-20260530",
+      "daya-shengmin-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 生民 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-shengmin-002-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-shengmin-002",
+    "status": "complete",
+    "source_ids": [
+      "daya-shengmin-002__zhwikisource-20260530",
+      "daya-shengmin-002__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 行葦 with 4 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-shengmin-003-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-shengmin-003",
+    "status": "complete",
+    "source_ids": [
+      "daya-shengmin-003__zhwikisource-20260530",
+      "daya-shengmin-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 既醉 with 8 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-shengmin-004-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-shengmin-004",
+    "status": "complete",
+    "source_ids": [
+      "daya-shengmin-004__zhwikisource-20260530",
+      "daya-shengmin-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 鳬鷖 with 5 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-shengmin-005-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-shengmin-005",
+    "status": "complete",
+    "source_ids": [
+      "daya-shengmin-005__zhwikisource-20260530",
+      "daya-shengmin-005__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 假樂 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-shengmin-008-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-shengmin-008",
+    "status": "complete",
+    "source_ids": [
+      "daya-shengmin-008__zhwikisource-20260530",
+      "daya-shengmin-008__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 卷阿 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-shengmin-009-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-shengmin-009",
+    "status": "complete",
+    "source_ids": [
+      "daya-shengmin-009__zhwikisource-20260530",
+      "daya-shengmin-009__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 民勞 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-shengmin-010-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-shengmin-010",
+    "status": "complete",
+    "source_ids": [
+      "daya-shengmin-010__zhwikisource-20260530",
+      "daya-shengmin-010__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 板 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-dang-001-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-dang-001",
+    "status": "complete",
+    "source_ids": [
+      "daya-dang-001__zhwikisource-20260530",
+      "daya-dang-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 蕩 with 8 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-dang-002-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-dang-002",
+    "status": "complete",
+    "source_ids": [
+      "daya-dang-002__zhwikisource-20260530",
+      "daya-dang-002__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 抑 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-dang-003-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-dang-003",
+    "status": "complete",
+    "source_ids": [
+      "daya-dang-003__zhwikisource-20260530",
+      "daya-dang-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 桑柔 with 5 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-dang-004-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-dang-004",
+    "status": "complete",
+    "source_ids": [
+      "daya-dang-004__zhwikisource-20260530",
+      "daya-dang-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 雲漢 with 8 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-dang-005-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-dang-005",
+    "status": "complete",
+    "source_ids": [
+      "daya-dang-005__zhwikisource-20260530",
+      "daya-dang-005__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 崧高 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-dang-006-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-dang-006",
+    "status": "complete",
+    "source_ids": [
+      "daya-dang-006__zhwikisource-20260530",
+      "daya-dang-006__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 烝民 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-dang-007-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-dang-007",
+    "status": "complete",
+    "source_ids": [
+      "daya-dang-007__zhwikisource-20260530",
+      "daya-dang-007__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 韓奕 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-dang-008-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-dang-008",
+    "status": "complete",
+    "source_ids": [
+      "daya-dang-008__zhwikisource-20260530",
+      "daya-dang-008__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 江漢 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-dang-010-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-dang-010",
+    "status": "complete",
+    "source_ids": [
+      "daya-dang-010__zhwikisource-20260530",
+      "daya-dang-010__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 瞻卬 with 4 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-daya-dang-011-20260530",
+    "work_id": "shijing",
+    "section_id": "daya-dang-011",
+    "status": "complete",
+    "source_ids": [
+      "daya-dang-011__zhwikisource-20260530",
+      "daya-dang-011__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 召旻 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-song-qingmiao-001-20260530",
+    "work_id": "shijing",
+    "section_id": "song-qingmiao-001",
+    "status": "complete",
+    "source_ids": [
+      "song-qingmiao-001__zhwikisource-20260530",
+      "song-qingmiao-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 清廟 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-qingmiao-002-20260530",
+    "work_id": "shijing",
+    "section_id": "song-qingmiao-002",
+    "status": "complete",
+    "source_ids": [
+      "song-qingmiao-002__zhwikisource-20260530",
+      "song-qingmiao-002__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 維天之命 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-qingmiao-003-20260530",
+    "work_id": "shijing",
+    "section_id": "song-qingmiao-003",
+    "status": "complete",
+    "source_ids": [
+      "song-qingmiao-003__zhwikisource-20260530",
+      "song-qingmiao-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 維清 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-qingmiao-004-20260530",
+    "work_id": "shijing",
+    "section_id": "song-qingmiao-004",
+    "status": "complete",
+    "source_ids": [
+      "song-qingmiao-004__zhwikisource-20260530",
+      "song-qingmiao-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 烈文 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-song-qingmiao-005-20260530",
+    "work_id": "shijing",
+    "section_id": "song-qingmiao-005",
+    "status": "complete",
+    "source_ids": [
+      "song-qingmiao-005__zhwikisource-20260530",
+      "song-qingmiao-005__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 天作 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-qingmiao-006-20260530",
+    "work_id": "shijing",
+    "section_id": "song-qingmiao-006",
+    "status": "complete",
+    "source_ids": [
+      "song-qingmiao-006__zhwikisource-20260530",
+      "song-qingmiao-006__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 昊天有成命 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-qingmiao-007-20260530",
+    "work_id": "shijing",
+    "section_id": "song-qingmiao-007",
+    "status": "complete",
+    "source_ids": [
+      "song-qingmiao-007__zhwikisource-20260530",
+      "song-qingmiao-007__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 我將 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-song-qingmiao-008-20260530",
+    "work_id": "shijing",
+    "section_id": "song-qingmiao-008",
+    "status": "complete",
+    "source_ids": [
+      "song-qingmiao-008__zhwikisource-20260530",
+      "song-qingmiao-008__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 時邁 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-song-qingmiao-009-20260530",
+    "work_id": "shijing",
+    "section_id": "song-qingmiao-009",
+    "status": "complete",
+    "source_ids": [
+      "song-qingmiao-009__zhwikisource-20260530",
+      "song-qingmiao-009__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 執競 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-song-qingmiao-010-20260530",
+    "work_id": "shijing",
+    "section_id": "song-qingmiao-010",
+    "status": "complete",
+    "source_ids": [
+      "song-qingmiao-010__zhwikisource-20260530",
+      "song-qingmiao-010__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 思文 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-chengong-001-20260530",
+    "work_id": "shijing",
+    "section_id": "song-chengong-001",
+    "status": "complete",
+    "source_ids": [
+      "song-chengong-001__zhwikisource-20260530",
+      "song-chengong-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 臣工 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-chengong-002-20260530",
+    "work_id": "shijing",
+    "section_id": "song-chengong-002",
+    "status": "complete",
+    "source_ids": [
+      "song-chengong-002__zhwikisource-20260530",
+      "song-chengong-002__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 噫嘻 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-chengong-003-20260530",
+    "work_id": "shijing",
+    "section_id": "song-chengong-003",
+    "status": "complete",
+    "source_ids": [
+      "song-chengong-003__zhwikisource-20260530",
+      "song-chengong-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 振鷺 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-chengong-004-20260530",
+    "work_id": "shijing",
+    "section_id": "song-chengong-004",
+    "status": "complete",
+    "source_ids": [
+      "song-chengong-004__zhwikisource-20260530",
+      "song-chengong-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 豐年 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-chengong-005-20260530",
+    "work_id": "shijing",
+    "section_id": "song-chengong-005",
+    "status": "complete",
+    "source_ids": [
+      "song-chengong-005__zhwikisource-20260530",
+      "song-chengong-005__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 有瞽 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-chengong-006-20260530",
+    "work_id": "shijing",
+    "section_id": "song-chengong-006",
+    "status": "complete",
+    "source_ids": [
+      "song-chengong-006__zhwikisource-20260530",
+      "song-chengong-006__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 潛 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-chengong-007-20260530",
+    "work_id": "shijing",
+    "section_id": "song-chengong-007",
+    "status": "complete",
+    "source_ids": [
+      "song-chengong-007__zhwikisource-20260530",
+      "song-chengong-007__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 雝 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-chengong-008-20260530",
+    "work_id": "shijing",
+    "section_id": "song-chengong-008",
+    "status": "complete",
+    "source_ids": [
+      "song-chengong-008__zhwikisource-20260530",
+      "song-chengong-008__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 載見 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-song-chengong-009-20260530",
+    "work_id": "shijing",
+    "section_id": "song-chengong-009",
+    "status": "complete",
+    "source_ids": [
+      "song-chengong-009__zhwikisource-20260530",
+      "song-chengong-009__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 有客 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-chengong-010-20260530",
+    "work_id": "shijing",
+    "section_id": "song-chengong-010",
+    "status": "complete",
+    "source_ids": [
+      "song-chengong-010__zhwikisource-20260530",
+      "song-chengong-010__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 武 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-001-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-001",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-001__zhwikisource-20260530",
+      "song-minyuxiaozi-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 閔予小子 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-002-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-002",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-002__zhwikisource-20260530",
+      "song-minyuxiaozi-002__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 訪落 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-003-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-003",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-003__zhwikisource-20260530",
+      "song-minyuxiaozi-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 敬之 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-004-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-004",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-004__zhwikisource-20260530",
+      "song-minyuxiaozi-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 小毖 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-005-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-005",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-005__zhwikisource-20260530",
+      "song-minyuxiaozi-005__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 載芟 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-006-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-006",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-006__zhwikisource-20260530",
+      "song-minyuxiaozi-006__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 良耜 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-007-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-007",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-007__zhwikisource-20260530",
+      "song-minyuxiaozi-007__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 絲衣 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-008-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-008",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-008__zhwikisource-20260530",
+      "song-minyuxiaozi-008__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 酌 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-009-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-009",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-009__zhwikisource-20260530",
+      "song-minyuxiaozi-009__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 桓 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-010-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-010",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-010__zhwikisource-20260530",
+      "song-minyuxiaozi-010__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 賚 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-minyuxiaozi-011-20260530",
+    "work_id": "shijing",
+    "section_id": "song-minyuxiaozi-011",
+    "status": "complete",
+    "source_ids": [
+      "song-minyuxiaozi-011__zhwikisource-20260530",
+      "song-minyuxiaozi-011__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 般 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-lusong-003-20260530",
+    "work_id": "shijing",
+    "section_id": "song-lusong-003",
+    "status": "complete",
+    "source_ids": [
+      "song-lusong-003__zhwikisource-20260530",
+      "song-lusong-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 泮水 with 8 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-lusong-004-20260530",
+    "work_id": "shijing",
+    "section_id": "song-lusong-004",
+    "status": "complete",
+    "source_ids": [
+      "song-lusong-004__zhwikisource-20260530",
+      "song-lusong-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 閟宮 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-song-shangsong-001-20260530",
+    "work_id": "shijing",
+    "section_id": "song-shangsong-001",
+    "status": "complete",
+    "source_ids": [
+      "song-shangsong-001__zhwikisource-20260530",
+      "song-shangsong-001__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 那 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-song-shangsong-002-20260530",
+    "work_id": "shijing",
+    "section_id": "song-shangsong-002",
+    "status": "complete",
+    "source_ids": [
+      "song-shangsong-002__zhwikisource-20260530",
+      "song-shangsong-002__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 烈祖 with 4 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-shangsong-003-20260530",
+    "work_id": "shijing",
+    "section_id": "song-shangsong-003",
+    "status": "complete",
+    "source_ids": [
+      "song-shangsong-003__zhwikisource-20260530",
+      "song-shangsong-003__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 玄鳥 with 5 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-song-shangsong-004-20260530",
+    "work_id": "shijing",
+    "section_id": "song-shangsong-004",
+    "status": "complete",
+    "source_ids": [
+      "song-shangsong-004__zhwikisource-20260530",
+      "song-shangsong-004__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 長發 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-song-shangsong-005-20260530",
+    "work_id": "shijing",
+    "section_id": "song-shangsong-005",
+    "status": "complete",
+    "source_ids": [
+      "song-shangsong-005__zhwikisource-20260530",
+      "song-shangsong-005__legge-sbe-v3-1879"
+    ],
+    "notes": "Bootstrap Shijing generation for 殷武 with 6 exact stanza alignments."
   }
 ]

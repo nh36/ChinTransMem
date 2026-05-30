@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-qingmiao-010__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-qingmiao-010</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·清廟之什·010.1</prop>
+      <prop type="x-translation-ref">思文.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>思文后稷，克配彼天。立我烝民，莫匪爾極。
+貽我來牟，帝命率育，無此疆爾界，陳常于時夏。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>O accomplished Hâu-kî,
+Thou didst prove thyself the correlate of Heaven.
+Thou didst give grain-food to our multitudes:—
+The
+immense gift of thy goodness.
+Thou didst confer on us the wheat and the barley,
+Which God appointed for the nourishment of all.
+And without distinction of territory or boundary,
+The rules of social duty were diffused throughout these great regions.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

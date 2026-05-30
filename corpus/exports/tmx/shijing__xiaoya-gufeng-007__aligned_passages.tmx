@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-gufeng-007__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-gufeng-007</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·007.1</prop>
+      <prop type="x-translation-ref">小明.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>明明上天，照臨下土。我征徂西，至于艽野。二月初吉，載離寒暑。
+心之憂矣，其毒大苦。念彼共人，涕零如雨。豈不懷歸？畏此罪罟。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>O bright and high Heaven,
+Who enlightenest and rulest this lower world!
+I marched on this expedition to the west,
+As far as this wilderness of Khiû.
+From the first day of the second month,
+I have passed through the cold and the heat.
+My heart is sad;
+The poison (of my lot) is too bitter.
+I think of those (at court) in their offices,
+And my tears flow down like rain.
+Do I not wish to return?
+But I fear the net for crime.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-gufeng-007__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-gufeng-007</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·007.2</prop>
+      <prop type="x-translation-ref">小明.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>嗟爾君子，無恆安處。靖共爾位，正直是與。神之聽之，式穀以女。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ah! ye gentlemen,
+Do not reckon on your rest ​being permanent.
+Quietly fulfil the duties of your offices,
+Associating with the correct and upright;
+So shall the spirits hearken to you,
+And give you good.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-gufeng-007__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-gufeng-007</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·007.3</prop>
+      <prop type="x-translation-ref">小明.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>嗟爾君子，無恆安息。靖共爾位，好是正直。神之聽之，介爾景福。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ah! ye gentlemen,
+Do not reckon on your repose being permanent.
+Quietly fulfil the duties of your offices,
+Loving the correct and upright;
+So shall the spirits hearken to you,
+And give you large measures of bright happiness.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

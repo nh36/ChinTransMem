@@ -217,7 +217,8 @@ class CorpusWorkflowTest(unittest.TestCase):
             self.assertTrue(all(section["alignment_status"] == "complete" for section in manifests["shijing"]["sections"]))
             self.assertEqual(expected_exact_alignment_counts[DEFAULT_WORK_ID], 501)
             self.assertEqual(expected_exact_alignment_counts["mengzi"], 260)
-            self.assertEqual(expected_exact_alignment_counts["shijing"], 5)
+            self.assertEqual(expected_section_counts["shijing"], 103)
+            self.assertEqual(expected_exact_alignment_counts["shijing"], 250)
 
             last_section_id = manifests[DEFAULT_WORK_ID]["sections"][-1]["section_id"]
             last_rows = load_exact_alignment_rows(db_path, DEFAULT_WORK_ID, last_section_id)

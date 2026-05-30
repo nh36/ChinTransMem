@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-jienanshan-006__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-jienanshan-006</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·小雅·節南山之什·006.1</prop>
+      <prop type="x-translation-ref">小宛.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>宛彼鳴鳩，翰飛戾天。我心憂傷，念昔先人。明發不寐，有懷二人。
+
+人之齊聖，飲酒溫克。彼昏不知，壹醉日富。各敬爾儀，天命不又。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Small is the cooing dove,
+But it flies aloft to heaven.
+My heart is wounded with sorrow,
+And I think of our forefathers.
+When the dawn is breaking, and I cannot sleep,
+The thoughts in my breast are of our parents.
+
+Men who are grave and wise,
+Though they drink, are mild and masters of themselves;
+But those who are benighted and ignorant
+Become devoted to drink, and more so daily.
+Be careful, each of you, of your deportment;
+What Heaven confers, (when once lost), is not regained.
+
+The greenbeaks come and go,
+Picking up grain about the stackyard.
+Alas for the distressed and the solitary,
+Deemed fit inmates for the prisons!
+With a handful of grain I go out and divine,
+How I may be able to become good.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

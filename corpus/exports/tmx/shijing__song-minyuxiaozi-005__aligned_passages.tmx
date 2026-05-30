@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-minyuxiaozi-005__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-005</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·005.1</prop>
+      <prop type="x-translation-ref">載芟.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>載芟載柞，其耕澤澤。千耦其耘，徂隰徂畛。
+侯主侯伯，侯亞侯旅，侯彊侯以。
+有嗿其饁，思媚其婦，有依其士。
+有略其耜，俶載南畝，播厥百穀，實函斯活。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>They clear away the grass and the bushes;
+And the ground is laid open by their ploughs.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-minyuxiaozi-005__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-005</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·005.2</prop>
+      <prop type="x-translation-ref">載芟.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>驛驛其達，有厭其傑。厭厭其苗，緜緜其麃。
+載穫濟濟，有實其積，萬億及秭。
+為酒為醴，烝畀祖妣，以洽百禮，有飶其香，邦家之光。
+有椒其馨，胡考之寧。匪且有且，匪今斯今，振古如茲。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In thousands of pairs they remove the roots,
+Some in the low wet land, some along the dykes.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

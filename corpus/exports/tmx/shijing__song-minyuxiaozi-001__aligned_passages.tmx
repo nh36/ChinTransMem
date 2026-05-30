@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-minyuxiaozi-001__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-001</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·001.1</prop>
+      <prop type="x-translation-ref">閔予小子.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>閔予小子，遭家不造，嬛嬛在疚。
+於乎皇考，永世克孝，念茲皇祖，陟降庭止。
+維予小子，夙夜敬止。
+於乎皇王，繼序思不忘。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alas for me, who am a little child,
+On whom has devolved the unsettled state!
+Solitary am I and full of distress.
+Oh! my great Father,
+All thy life long, thou wast filial.
+
+Thou didst think of my great grandfather,
+(Seeing ​him, as it were) ascending and descending in the court,
+I, the little child,
+Day and night will be as reverent.
+
+Oh! ye great kings,
+As your successor, I will strive not to forget you.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

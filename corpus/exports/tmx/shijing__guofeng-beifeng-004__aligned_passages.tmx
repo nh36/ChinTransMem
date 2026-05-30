@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-beifeng-004__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-beifeng-004</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·004.1</prop>
+      <prop type="x-translation-ref">日月.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>日居月諸，照臨下土，乃如之人兮，逝不古處，胡能有定，寧不我顧。
+日居月諸，下土是冒，乃如之人兮，逝不相好，胡能有定，寧不我報。
+日居月諸，出自東方，乃如之人兮，德音無良，胡能有定，俾也可忘。
+日居月諸，東方自出，父兮母兮，畜我不卒，胡能有定，報我不述。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>O sun, O moon,
+Which enlighten this lower earth!
+Here is this man,
+Who treats me not according to the ancient rule.
+How can he get his mind settled?
+Would he then not regard me?
+
+O sun, O moon,
+Which overshadow this lower earth!
+Here is this man,
+Who will not be friendly with me.
+How can he get his mind settled?
+Would he then not respond to me?
+
+O sun, O moon,
+Which come forth from the east!
+Here is this man,
+With virtuous words, but really not good.
+How can he get his mind settled?
+Would he then allow me to be forgotten?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-beifeng-015__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-beifeng-015</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·015.1</prop>
+      <prop type="x-translation-ref">北門.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>出自北門，憂心殷殷，終窶且貧，莫知我艱，已焉哉，天實為之，謂之何哉。
+王事適我，政事一埤益我，我入自外，室人交徧讁我，已焉哉，天實為之，謂之何哉。
+王事敦我，政事一埤遺我，我入自外，室人交徧摧我，已焉哉，天實為之，謂之何哉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I go out at the north gate,
+With my heart full of sorrow.
+Straitened am I and poor,
+And no one takes knowledge of my distress.
+So it is!
+Heaven has done it;—
+What
+then shall I say?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

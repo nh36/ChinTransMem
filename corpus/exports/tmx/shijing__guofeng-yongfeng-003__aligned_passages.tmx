@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-yongfeng-003__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-yongfeng-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄘風·003.1</prop>
+      <prop type="x-translation-ref">君子偕老.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>呂氏曰：「首章之末云『子之不淑，云如之何』，責之也；二章之末云『胡然而天也，胡然而帝也』，問之也；三章之末云『展如之人兮，邦之媛也』，惜之也。辭益惋而意益深矣。」</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How rich and splendid
+Is her pheasant-figured
+​robe!
+Her black hair in masses like clouds,
+No false locks does she descend to.
+There are her earplugs of jade,
+Her comb-pin of ivory,
+And her high forehead, so white.
+She appears like a visitant from heaven!
+She appears like a goddess.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

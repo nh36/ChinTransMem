@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-dang-003__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·003.1</prop>
+      <prop type="x-translation-ref">桑柔.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>菀彼桑柔，其下侯旬。捋采其劉，瘼此下民。
+不殄心憂，倉兄填兮。倬彼昊天，寧不我矜。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Luxuriant is that young mulberry tree,
+And beneath it wide is the shade;
+But they will pluck its leaves till it is quite destroyed.
+The distress
+​inflicted on these (multitudes of the) people,
+Is an unceasing sorrow to my heart;
+My commiseration fills (my breast).
+O thou bright and great Heaven,
+Shouldest thou not have compassion on us?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-dang-003__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·003.2</prop>
+      <prop type="x-translation-ref">桑柔.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>四牡騤騤，旟旐有翩。亂生不夷，靡國不泯。
+民靡有黎，具禍以燼。於乎有哀，國步斯頻。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The four steeds (gallop about), eager and strong;
+The tortoise-and-serpent and the falcon banners fly about.
+Disorder grows, and no peace can be secured.
+Every state is being ruined;
+There are no black heads among the people.
+Everything is reduced to ashes by calamity.
+Oh! alas!
+The doom of the kingdom hurries on.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-dang-003__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·003.3</prop>
+      <prop type="x-translation-ref">桑柔.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>國步蔑資，天不我將。靡所止疑，云徂何往？
+君子實維，秉心無競。誰生厲階？至今為梗。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>There is nothing to arrest the doom of the kingdom;
+Heaven does not nourish us.
+There is no place in which to stop securely;
+There is no place to which to go.
+Superior men are the bonds (of the social state),
+Allowing no love of strife in their hearts.
+Who reared the steps of the dissatisfaction,
+Which has reached the present distress?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-dang-003__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·003.4</prop>
+      <prop type="x-translation-ref">桑柔.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>憂心慇慇，念我土宇。我生不辰，逢天僤怒。
+自西徂東，靡所定處。多我覯痻，孔棘我圉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The grief of my heart is extreme,
+And I dwell on (the condition of) our land.
+I was born at an unhappy time,
+To meet with the severe anger of Heaven.
+From the west to the east,
+There is no quiet place of abiding.
+Many are the distresses I meet with;
+Very urgent is the trouble on our borders.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-dang-003__005__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·003.5</prop>
+      <prop type="x-translation-ref">桑柔.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天降喪亂，滅我立王。降此蟊賊，稼穡卒痒。
+哀恫中國，具贅卒荒。靡有旅力，以念穹蒼。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heaven is sending down death and disorder,
+And ​has put an end to our king.
+It is (now) sending down those devourers of the grain,
+So that the husbandry is all in evil case.
+Alas for our middle states!
+All is in peril and going to ruin.
+I have no strength (to do anything),
+And think of (the Power in) the azure vault.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

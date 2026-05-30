@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-shangsong-004__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-shangsong-004</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·頌·商頌·004.1</prop>
+      <prop type="x-translation-ref">長發.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>濬哲維商，長發其祥，洪水芒芒，禹敷下土方。
+外大國是疆，幅隕既長。有娀方將，帝立子生商。
+
+玄王桓撥，受小國是達，受大國是達。
+率履不越，遂視既發。相土烈烈，海外有截。
+
+帝命不違，至于湯齊。湯降不遟，聖敬日躋。
+昭假遟遟，上帝是祗，帝命式于九圍。
+
+受小球大球，為下國綴旒，何天之休？
+不競不絿，不剛不柔，敷政優優，百祿是遒。
+
+受小共大共，為下國駿厖，何天之龍？
+敷奏其勇，不震不動，不戁不竦，百祿是總。
+
+武王載旆，有虔秉鉞。如火烈烈，則莫我敢曷。
+苞有三蘖，莫遂莫達，九有有截。韋顧既伐，昆吾夏桀。
+
+昔在中葉，有震且業。允也天子，降予卿士。
+實維阿衡，實左右商王。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Profoundly wise were (the lords of) Shang,
+And long had there appeared the omens (of their dignity).
+
+When the waters of the deluge spread vast abroad,
+Yü arranged and divided the regions of the land,
+And assigned to the exterior great states their boundaries,
+With their borders extending all over (the kingdom).
+(Even) then the chief of Sung was beginning to be great,
+And God raised up the son (of his daughter), and founded (the line of) Shang.
+
+The dark king exercised an effective sway.
+Charged with a small state, he commanded success;
+Charged with a large state, he commanded success.
+He followed his rules of conduct without error;
+Wherever he inspected (the people), they responded (to his instructions).
+(Then came) Hsiang-thû all ardent,
+And all within the four seas, beyond (the middle regions), acknowledged his restraints.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

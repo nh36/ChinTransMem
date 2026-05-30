@@ -240,8 +240,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "d0d4191d08e8c137249c69f9179a996afc3c43e64105f72c24548445637d7bce",
-    "metadata/sources.yml": "b99001cea3f1042268bdddf7300b0aad7d256defa058977601f9c460c07d5d6b",
+    "metadata/sections.yml": "9f14dd5fdf02984892db493fcf1cfac4a2ee2e5fcc212f12620c1026af425057",
+    "metadata/sources.yml": "2f6c3f8c52bce24f59dd2795c63016d34932e1673b3c011c6d8640d0c2860eb9",
     "metadata/manifests/lunyu.yml": "2cd4624dc6605ae8794ec5963faf26040bd10e440dd756fb5b4df5ad63186e72",
     "metadata/corpus_manifest.yml": "2cd4624dc6605ae8794ec5963faf26040bd10e440dd756fb5b4df5ad63186e72",
     "corpus/exports/jsonl/lunyu__book-01-xueer__aligned_passages.jsonl": "cc3407af87bd3bd5df4c77f01276f1d5530b5763dbbbd67ad6f2293ece1a984f",

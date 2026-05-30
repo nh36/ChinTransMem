@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-minyuxiaozi-003__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·003.1</prop>
+      <prop type="x-translation-ref">敬之.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>敬之敬之，天維顯思。
+命不易哉！無曰高高在上。
+陟降厥士，日監在茲。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Let me be reverent! Let me be reverent!
+(The way of) Heaven is evident,
+And its appointment ​is not easily preserved.
+Let me not say that it is high aloft above me.
+It ascends and descends about our doings;
+It daily inspects us wherever we are.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-minyuxiaozi-003__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·003.2</prop>
+      <prop type="x-translation-ref">敬之.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>維予小子，不聦敬止？
+日就月將，學有緝熙于光明。
+佛時仔肩，示我顯德行。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I am a little child,
+Without intelligence to be reverently (attentive to my duties);
+But by daily progress and monthly advance,
+I will learn to hold fast the gleams (of knowledge), till I arrive at bright intelligence.
+Assist me to bear the burden (of my position),
+And show me how to display a virtuous conduct.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

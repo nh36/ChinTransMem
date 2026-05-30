@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-shangsong-001__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-shangsong-001</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·頌·商頌·001.1</prop>
+      <prop type="x-translation-ref">那.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>猗與那與，置我鞉鼓。奏鼓簡簡，衎我烈祖。湯孫奏假，綏我思成。
+鞉鼓淵淵，嘒嘒管聲，既和且平，依我磬聲。
+於赫湯孫，穆穆厥聲，庸鼓有斁，萬舞有奕。
+我有嘉客，亦不夷懌。自古在昔，先民有作。
+溫恭朝夕，執事有恪。顧予烝嘗，湯孫之將。
+
+猗與，歎美之言也。衎，樂也。綏，安也。斁，斁然，盛也。奕，次序也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How admirable! how complete!
+Here are set our hand-drums and drums.
+The drums resound harmonious and loud,
+To delight our meritorious ancestor.
+
+The descendant of Thang invites him with this music,
+That he may soothe us with the realization of our thoughts.
+Deep is the sound of our
+​hand-drums and drums;
+Shrilly sound the flutes;
+All harmonious and blending together,
+According to the notes of the sonorous gem.
+Oh! majestic is the descendant of Thang;
+Very admirable is his music.
+
+The large bells and drums fill the ear;
+The various dances are grandly performed.
+We have the admirable visitors,
+Who are pleased and delighted.
+
+From of old, before our time,
+The former men set us the example;—
+How to be mild and humble from morning to night,
+And to be reverent in discharging the service.
+
+May he regard our sacrifices of winter and autumn,
+(Thus) offered by the descendant of Thang!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

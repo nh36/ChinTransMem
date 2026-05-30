@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-dang-005__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-005</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·005.1</prop>
+      <prop type="x-translation-ref">崧高.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>崧高維嶽，駿極于天。維嶽降神，生甫及申。
+維申及甫，維周之翰。四國于蕃，四方于宣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Grandly lofty are the mountains,
+With their large masses reaching to the heavens.
+From those mountains was sent down a spirit,
+Who produced the birth of (the princes of) Fû and Shăn.
+Fû and
+​Shăn
+Are the support of Kâu,
+Screens to all the states,
+Diffusing (their influence) over the four quarters of the kingdom.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-dang-005__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-005</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·005.2</prop>
+      <prop type="x-translation-ref">崧高.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>亹亹申伯，王纘之事。于邑于謝，南國是式。
+王命召伯，定申伯之宅。登是南邦，世執其功。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Full of activity is the chief of Shăn,
+And the king would employ him to continue the services (of his fathers),
+With his capital in Hsieh,
+Where he should be a pattern to the states of the south.
+The king gave charge to the earl of Shâo,
+To arrange all about the residence of the chief of Shăn,
+Where he should do what was necessary for the regions of the south,
+And where his posterity might maintain his merit.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-dang-005__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-005</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·005.3</prop>
+      <prop type="x-translation-ref">崧高.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>申伯之功，召伯是營。有俶其城，寢廟既成。
+既成藐藐，王錫申伯。四牡蹻蹻，鉤膺濯濯。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Of the services of the chief of Shăn
+The foundation was laid by the earl of Shâo,
+Who first built the walls (of his city),
+And then completed his ancestral temple.
+When the temple was completed, wide and grand,
+The king conferred on the chief of Shâo
+Four noble steeds,
+With the hooks for the trappings of the breast-bands, glittering bright.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

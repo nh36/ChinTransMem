@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-shangsong-003__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-shangsong-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·商頌·003.1</prop>
+      <prop type="x-translation-ref">玄鳥.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天命玄鳥，降而生商，宅殷土芒芒。古帝命武湯，正域彼四方。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heaven commissioned the swallow,
+To descend and give birth to (the father of our) Shang.
+(His descendants) dwelt in the land of Yin, and became great.
+(Then) long ago God appointed the martial Thang,
+To regulate the boundaries throughout the four quarters (of the kingdom).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-shangsong-003__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-shangsong-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·商頌·003.2</prop>
+      <prop type="x-translation-ref">玄鳥.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>方命厥后，奄有九有。商之先后，受命不殆，在武丁孫子。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(In those) quarters he appointed the princes,
+And grandly possessed the nine regions.
+The ​first sovereign of Shang
+Received the appointment without any element of instability in it,
+And it is (now) held by the descendant of Wû-ting.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-shangsong-003__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-shangsong-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·商頌·003.3</prop>
+      <prop type="x-translation-ref">玄鳥.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>武丁孫子，武王靡不勝。龍旂十乘，大糦是承。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The descendant of Wû-ting
+Is a martial sovereign, equal to every emergency.
+Ten princes, (who came) with their dragon-emblazoned banners,
+Bear the large dishes of millet.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-shangsong-003__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-shangsong-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·商頌·003.4</prop>
+      <prop type="x-translation-ref">玄鳥.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>邦畿千里，維民所止，肇域彼四海。四海來假，來假祁祁。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The royal domain of a thousand lî
+Is where the people rest;
+But the boundaries that reach to the four seas commence there.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-shangsong-003__005__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-shangsong-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·商頌·003.5</prop>
+      <prop type="x-translation-ref">玄鳥.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>景員維河，殷受命咸宜，百祿是何。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>From the four seas they come (to our sacrifices);
+They come in multitudes.
+King has the Ho for its outer border.
+That Yin should have received the appointment (of Heaven) was entirely right;—
+(Its sovereign) sustains all its dignities.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

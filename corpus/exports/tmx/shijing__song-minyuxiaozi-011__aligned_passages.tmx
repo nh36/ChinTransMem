@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-minyuxiaozi-011__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-minyuxiaozi-011</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·閔予小子之什·011.1</prop>
+      <prop type="x-translation-ref">般.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>於皇時周，陟其高山。嶞山喬嶽，允猶翕河。
+敷天之下，裒時之對，時周之命。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Oh! great now is Kâu.
+We ascend the high hills,
+Both those that are long and narrow, and the lofty mountains.
+Yes, and (we travel) along the regulated Ho,
+All under the sky,
+Assembling those who now respond to me.
+Thus it is that the appointment belongs to Kâu.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

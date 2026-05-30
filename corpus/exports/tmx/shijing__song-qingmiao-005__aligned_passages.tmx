@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-qingmiao-005__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-qingmiao-005</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·清廟之什·005.1</prop>
+      <prop type="x-translation-ref">天作.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天作高山，大王荒之。
+彼作矣，文王康之。
+彼徂矣，岐有夷之行。
+子孫保之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heaven made the lofty hill,
+And king Thâi brought (the country about) it under cultivation.
+He made the commencement with it,
+And king Wăn tranquilly (carried on the work),
+(Till) that rugged (mount) Khî
+Had level roads leading to it.
+May their descendants ever preserve it!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

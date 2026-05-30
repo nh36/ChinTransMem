@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-chengong-001__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-chengong-001</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·臣工之什·001.1</prop>
+      <prop type="x-translation-ref">臣工.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>嗟嗟臣工，敬爾在公。王釐爾成，來咨來茹。
+嗟嗟保介，維莫之春，亦又何求？如何新畬？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ah! ah! ministers and officers,
+Reverently attend to your public duties.
+The king has given you perfect rules;—
+Consult
+about them, and consider them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-chengong-001__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-chengong-001</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·臣工之什·001.2</prop>
+      <prop type="x-translation-ref">臣工.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>於皇來牟，將受厥明。明昭上帝，迄用康年。
+命我衆人，庤乃錢鎛。奄觀銍艾。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ah! ah! ye assistants,
+It is now the end of ​spring;
+And what have ye to seek for?
+(Only) how to manage the new fields and those of the third year.
+How beautiful are the wheat and the barley!
+The bright and glorious God
+Will in them give us a good year.
+Order all our men
+To be provided with their spuds and hoes:—
+Anon
+we shall see the sickles at work.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

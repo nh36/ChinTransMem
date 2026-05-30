@@ -30,6 +30,7 @@ class ApiTest(unittest.TestCase):
         first_section = lunyu_manifest["sections"][0]
         first_mengzi_section = mengzi_manifest["sections"][0]
         first_shijing_section = shijing_manifest["sections"][0]
+        first_sbe_shijing_section = shijing_manifest["sections"][1]
 
         with tempfile.TemporaryDirectory() as temp_dir:
             db_path = Path(temp_dir) / "corpus.sqlite3"
@@ -58,6 +59,9 @@ class ApiTest(unittest.TestCase):
                 shijing_passages = self._get_json(
                     f"{base_url}/works/shijing/sections/{first_shijing_section['section_id']}/passages"
                 )
+                shijing_sbe_passages = self._get_json(
+                    f"{base_url}/works/shijing/sections/{first_sbe_shijing_section['section_id']}/passages"
+                )
                 compatibility_passages = self._get_json(f"{base_url}/sections/{first_section['section_id']}/passages")
             finally:
                 server.shutdown()
@@ -83,6 +87,9 @@ class ApiTest(unittest.TestCase):
         self.assertEqual(shijing_passages["work_id"], "shijing")
         self.assertEqual(shijing_passages["section_id"], first_shijing_section["section_id"])
         self.assertEqual(len(shijing_passages["rows"]), first_shijing_section["expected_exact_alignment_count"])
+        self.assertEqual(shijing_sbe_passages["work_id"], "shijing")
+        self.assertEqual(shijing_sbe_passages["section_id"], first_sbe_shijing_section["section_id"])
+        self.assertEqual(len(shijing_sbe_passages["rows"]), first_sbe_shijing_section["expected_exact_alignment_count"])
         self.assertEqual(compatibility_passages["section_id"], first_section["section_id"])
         self.assertEqual(len(compatibility_passages["rows"]), first_section["expected_exact_alignment_count"])
 

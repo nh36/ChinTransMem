@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-chengong-010__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-chengong-010</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·臣工之什·010.1</prop>
+      <prop type="x-translation-ref">武.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>於皇武王，無競維烈。
+允文文王，克開厥後。
+嗣武受之。勝殷遏劉，耆定爾功。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Oh! great wast thou, O king Wû,
+Displaying the utmost strength in thy work.
+Truly accomplished was king Wăn,
+Opening the path for his successors.
+Thou didst receive the inheritance from him.
+Thou didst vanquish Yin, and put a stop to its cruelties;—
+Effecting
+the firm establishment of thy merit.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

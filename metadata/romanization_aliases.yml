@@ -464,7 +464,973 @@
   {
     "entity_type": "section",
     "entity_id": "guofeng-zhounan-001-guanju",
-    "alias": "Guan Ju",
+    "alias": "Guān Jū",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-002",
+    "alias": "The Zhâi Fan",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-002",
+    "alias": "Cǎi Fán",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-004",
+    "alias": "The Zhâi Pin",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-004",
+    "alias": "Cǎi Pín",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-beifeng-004",
+    "alias": "The Zăh Yüeh",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-beifeng-015",
+    "alias": "The Pei Măn",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-beifeng-015",
+    "alias": "Běi Mén",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-yongfeng-001",
+    "alias": "The Pai Kâu",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-yongfeng-001",
+    "alias": "Bó Zhōu",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-yongfeng-003",
+    "alias": "The K ün- zze K ieh Lâo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-yongfeng-006",
+    "alias": "The Ting kih fang K ung",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-weifeng-004",
+    "alias": "The Măng",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-weifeng-004",
+    "alias": "Méng",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-wangfeng-001",
+    "alias": "The Shû Lî",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-wangfeng-009",
+    "alias": "The TâK ü",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-wangfeng-009",
+    "alias": "Dà Chē",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-tangfeng-008",
+    "alias": "The Pâo Yü",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-tangfeng-008",
+    "alias": "Bǎo Yǔ",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-tangfeng-011",
+    "alias": "The Ko Shăng",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-tangfeng-011",
+    "alias": "Gé Shēng",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-006",
+    "alias": "The Hwang Niâo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-006",
+    "alias": "Huáng Niǎo",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-binfeng-001",
+    "alias": "The Khî Yüeh",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-binfeng-001",
+    "alias": "Qī Yuè",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-luming-005",
+    "alias": "The Fâmû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-luming-005",
+    "alias": "Fā Mù",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-luming-006",
+    "alias": "The Thien Pâo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-luming-006",
+    "alias": "Tiān Bǎo",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-luming-009",
+    "alias": "The Tîtû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-hongyan-009",
+    "alias": "The Sze Kan",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-hongyan-009",
+    "alias": "Sī Gān",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-hongyan-010",
+    "alias": "The Wû Yang",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-hongyan-010",
+    "alias": "Wú Yáng",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-001",
+    "alias": "The K ieh Nan Shan",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-002",
+    "alias": "The K ăng yüeh",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-002",
+    "alias": "Zhēngyuè",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-003",
+    "alias": "The Shih yüeh kih K iâo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-004",
+    "alias": "The Yüwû K ăng",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-005",
+    "alias": "The Hsiâo Min",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-006",
+    "alias": "The Hsiâo Yüan",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-007",
+    "alias": "The Hsiâo Pan",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-007",
+    "alias": "The Pán in Xiǎo Pán",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-008",
+    "alias": "The Kh iâo Yen",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-008",
+    "alias": "Qiǎo Yán",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-010",
+    "alias": "The Hsiang Po",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-gufeng-003",
+    "alias": "The Tâ Tung",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-gufeng-007",
+    "alias": "The Hsiâo Ming",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-gufeng-009",
+    "alias": "The Khû Zhze",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-gufeng-010",
+    "alias": "The Hsin Nan Shan",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-futian-001",
+    "alias": "The Phû Thien",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-futian-001",
+    "alias": "Fǔ Tián",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-futian-002",
+    "alias": "The Tâ Thien",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-futian-002",
+    "alias": "Dà Tián",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-futian-005",
+    "alias": "The Sang Hû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-futian-005",
+    "alias": "Sāng Hù",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-futian-010",
+    "alias": "The Pin kih khû yen",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-yuzao-009",
+    "alias": "The Po Hwâ",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-yuzao-009",
+    "alias": "Bái Huá",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-001",
+    "alias": "The Wăn Wang",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-001",
+    "alias": "Wén Wáng",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-002",
+    "alias": "The Tâ Ming",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-003",
+    "alias": "The Mien",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-004",
+    "alias": "The Yî Pho",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-004",
+    "alias": "Yù Pú",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-005",
+    "alias": "The Han Lû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-006",
+    "alias": "The Sze Kâi",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-006",
+    "alias": "Sī Zhāi",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-007",
+    "alias": "The Hwang Î",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-007",
+    "alias": "Huáng Yí",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-009",
+    "alias": "The Hsiâ Wû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-009",
+    "alias": "Xià Wǔ",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-010",
+    "alias": "The Wăn Wang yû Shăng",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-001",
+    "alias": "The Shăng Min",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-001",
+    "alias": "Shēng Mín",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-002",
+    "alias": "The Hsin Wei",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-002",
+    "alias": "Xíng Wěi",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-003",
+    "alias": "The KîZ ui",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-003",
+    "alias": "Jì Zuì",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-004",
+    "alias": "The HûÎ",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-005",
+    "alias": "The Kiâ Lo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-005",
+    "alias": "Jià Lè",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-008",
+    "alias": "The Kh üan Â",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-008",
+    "alias": "Quán Ē",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-009",
+    "alias": "The Min Lâo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-009",
+    "alias": "Mín Láo",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-010",
+    "alias": "The Pan",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-001",
+    "alias": "The Tang",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-002",
+    "alias": "The Yî",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-003",
+    "alias": "The Sang Zâu",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-003",
+    "alias": "Sāng Róu",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-004",
+    "alias": "The Yun Han",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-004",
+    "alias": "Yún Hàn",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-005",
+    "alias": "The Sung Kâo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-005",
+    "alias": "Sōng Gāo",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-006",
+    "alias": "The K ăng Min",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-006",
+    "alias": "Zhēng Mín",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-007",
+    "alias": "The Han Yî",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-008",
+    "alias": "The K iang Han",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-010",
+    "alias": "The Kan Z ang",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-010",
+    "alias": "Zhān Yǎng",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-011",
+    "alias": "召旻",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-001",
+    "alias": "The Kh ing Miâo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-001",
+    "alias": "Qīng Miào",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-002",
+    "alias": "The Wei Thien Kih Ming",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-003",
+    "alias": "The Wei Kh ing",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-004",
+    "alias": "The Lieh Wăn",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-004",
+    "alias": "Liè Wén",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-005",
+    "alias": "The Thien Zo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-005",
+    "alias": "Tiān Zuò",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-006",
+    "alias": "The Hâo Thien yûKh ăng Ming",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-007",
+    "alias": "The WoK iang",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-007",
+    "alias": "Wǒ Jiāng",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-008",
+    "alias": "The Shih Mâi",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-008",
+    "alias": "Shí Mài",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-009",
+    "alias": "The Kih K ing",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-009",
+    "alias": "Zhí Jìng",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-010",
+    "alias": "The Sze Wăn",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-qingmiao-010",
+    "alias": "Sī Wén",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-001",
+    "alias": "The Khăn Kung",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-001",
+    "alias": "Chén Gōng",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-002",
+    "alias": "The Î Hsî",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-002",
+    "alias": "Yī Xī",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-003",
+    "alias": "The Kâu Lû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-003",
+    "alias": "Zhèn Lù",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-004",
+    "alias": "The Făng Nien",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-004",
+    "alias": "Fēng Nián",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-005",
+    "alias": "The YûKû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-006",
+    "alias": "The Kh ien",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-006",
+    "alias": "Qián",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-007",
+    "alias": "The Yung",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-008",
+    "alias": "The Zâi Hsien",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-009",
+    "alias": "The Yû Kho",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-chengong-010",
+    "alias": "The Wû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-001",
+    "alias": "The Min Yü",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-002",
+    "alias": "The Fang Lo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-003",
+    "alias": "The K ing Kih",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-004",
+    "alias": "The Hsiâo Pî",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-004",
+    "alias": "The Bì in Xiǎo Bì",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-005",
+    "alias": "The Zâi Shû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-006",
+    "alias": "The Liang Sze",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-006",
+    "alias": "Liáng Sì",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-007",
+    "alias": "The Sze Î",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-007",
+    "alias": "Sī Yī",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-008",
+    "alias": "The Ko",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-009",
+    "alias": "The Hwan",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-010",
+    "alias": "The Lâi",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-minyuxiaozi-011",
+    "alias": "The Pan",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-lusong-003",
+    "alias": "The Phan Shui",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-lusong-003",
+    "alias": "Pàn Shuǐ",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-lusong-004",
+    "alias": "The Pî Kung",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-lusong-004",
+    "alias": "Bì Gōng",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-shangsong-001",
+    "alias": "The Nâ",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-shangsong-001",
+    "alias": "Nuó",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-shangsong-002",
+    "alias": "The Lieh Zû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-shangsong-002",
+    "alias": "Liè Zǔ",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-shangsong-003",
+    "alias": "The Hsüan Niâo",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-shangsong-003",
+    "alias": "Xuán Niǎo",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-shangsong-004",
+    "alias": "The Kh ang Fâ",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-shangsong-004",
+    "alias": "Cháng Fā",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-shangsong-005",
+    "alias": "The Yin Wû",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-shangsong-005",
+    "alias": "Yīn Wǔ",
     "romanization_system": "pinyin"
   }
 ]

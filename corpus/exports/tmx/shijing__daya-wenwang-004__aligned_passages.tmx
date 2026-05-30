@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-wenwang-004__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-wenwang-004</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·大雅·文王之什·004.1</prop>
+      <prop type="x-translation-ref">棫樸.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>芃芃棫樸，薪之槱之。濟濟辟王，左右趣之。
+濟濟辟王，左右奉璋。奉璋峨峨，髦士攸宜。
+淠彼涇舟，烝徒楫之。周王于邁，六師及之。
+倬彼雲漢，為章于天。周王壽考，遐不作人。
+追琢其章，金玉其相。勉勉我王，綱紀四方。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Abundant is the growth of the buckthorn and shrubby trees,
+Supplying firewood; yea, stores of it.
+Elegant and dignified was our prince and king;
+On the left and the right they hastened to him.
+
+Elegant and dignified was our prince and king;
+On his left and his right they bore their half-mace (libation-cups):—
+They
+bore them with solemn gravity,
+As beseemed such eminent officers.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

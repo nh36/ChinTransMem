@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-chengong-004__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-chengong-004</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·臣工之什·004.1</prop>
+      <prop type="x-translation-ref">豐年.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>豐年多黍多稌，亦有高廩，萬億及秭。
+為酒為醴，烝畀祖妣，以洽百禮，降福孔皆。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Abundant is the year with much millet and much rice;
+And we have our high granaries,
+With myriads, and hundreds of thousands, and millions (of measures in them);
+For spirits and sweet spirits,
+To present to our forefathers, male and female,
+And to supply all our ceremonies.
+The blessings sent down on us are of every kind.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -3,13 +3,13 @@
 ## Current repository state
 
 - The source of truth is `chinese_classics_translation_memory_readme.md`.
-- The repository now includes working public-domain **Lunyu** and **Mengzi** corpora plus a controlled **Shijing** pilot (`關雎`) within a multi-work manifest structure. Use the spec document for broader roadmap context, but prefer the implemented files under `corpus/`, `metadata/`, `db/`, `scripts/`, `web/api/`, and `tests/` when changing the current system.
+- The repository now includes working public-domain **Lunyu** and **Mengzi** corpora plus a substantially expanded **Shijing** subset built from transcribed public-domain Legge witnesses on Wikisource within a multi-work manifest structure. Use the spec document for broader roadmap context, but prefer the implemented files under `corpus/`, `metadata/`, `db/`, `scripts/`, `web/api/`, and `tests/` when changing the current system.
 
 ## Build, test, and lint commands
 
 - `make bootstrap-corpus` regenerates metadata and processed files for all configured work manifests while preserving the current Lunyu outputs.
 - `make bootstrap-lunyu` runs the Lunyu-specific bootstrap implementation directly.
-- `make bootstrap-shijing` runs the Shijing pilot bootstrap directly.
+- `make bootstrap-shijing` runs the Shijing subset bootstrap directly.
 - `make corpus` runs the end-to-end workflow for the default work (`lunyu`): initialize the SQLite database, import aggregate metadata, export aligned passages, validate TMX, and write the QC report.
 - `make corpus-work WORK=lunyu` runs the same workflow for a specific work manifest.
 - `make init-db`, `make import-corpus`, `make export-corpus`, `make validate-tmx`, and `make qc-corpus` run the workflow stages individually.
@@ -37,7 +37,7 @@
 - `metadata/manifests/{work_id}.yml` is the per-work source of truth for status, URLs, expected alignment counts, and source IDs; `metadata/corpus_manifest.yml` remains the Lunyu compatibility mirror.
 - The implemented processing pipeline is **capture raw Wikisource text -> create cleaned segment files and alignments per section -> import into SQLite -> export per-section and per-work aligned passages/TMX -> validate TMX -> generate corpus QC**.
 - The core schema is `works`, `sections`, `persons`, `sources`, `segments`, `alignments`, and `agent_runs`.
-- The current corpus imports all 20 Lunyu books, all 14 traditional Mengzi sections, and a Shijing pilot for `關雎`, with 501 Lunyu exact alignments, 260 Mengzi exact passage alignments, and 5 Shijing exact stanza alignments.
+- The current corpus imports all 20 Lunyu books, all 14 traditional Mengzi sections, and 103 Shijing sections backed by the currently transcribed public-domain Legge witnesses on Wikisource, with 501 Lunyu exact alignments, 260 Mengzi exact passage alignments, and 250 Shijing exact stanza- or poem-level alignments.
 
 ## Key conventions
 

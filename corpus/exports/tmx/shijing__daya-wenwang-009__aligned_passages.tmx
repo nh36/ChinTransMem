@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-wenwang-009__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-wenwang-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·文王之什·009.1</prop>
+      <prop type="x-translation-ref">下武.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>下武維周，世有哲王。三后在天，王配于京。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Successors tread in the steps (of their predecessors) in our Kâu.
+For generations there had been wise kings;
+The three sovereigns were in heaven;
+And king (Wû) was their worthy successor in his capital.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-wenwang-009__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-wenwang-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·文王之什·009.2</prop>
+      <prop type="x-translation-ref">下武.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>王配于京，世德作求。永言配命，成王之孚。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>King (Wû) was their worthy successor in his capital,
+Rousing himself to seek for the hereditary virtue,
+Always striving to be in accordance with the
+​will (of Heaven);
+And thus he secured the confidence due to a king.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-wenwang-009__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-wenwang-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·文王之什·009.3</prop>
+      <prop type="x-translation-ref">下武.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>成王之孚，下土之式。永言孝思，孝思維則。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He secured the confidence due to a king,
+And became the pattern of all below him.
+Ever thinking how to be filial,
+His filial mind was the model (which he supplied).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-wenwang-009__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-wenwang-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·文王之什·009.4</prop>
+      <prop type="x-translation-ref">下武.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>媚茲一人，應侯順德。永言孝思，昭哉嗣服。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Men loved him, the One man,
+And responded (to his example) with a docile virtue.
+Ever thinking how to be filial,
+He brilliantly continued the doings (of his fathers).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-wenwang-009__005__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-wenwang-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·文王之什·009.5</prop>
+      <prop type="x-translation-ref">下武.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>昭茲來許，繩其祖武。於萬斯年，受天之祜。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Brilliantly! and his posterity,
+Continuing to walk in the steps of their forefathers,
+For myriads of years,
+Will receive the blessing of Heaven.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-wenwang-009__006__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-wenwang-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·文王之什·009.6</prop>
+      <prop type="x-translation-ref">下武.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>受天之祜，四方來賀。於萬斯年，不遐有佐。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>They will receive the blessing of Heaven,
+And from the four quarters (of the kingdom) will felicitations come to them.
+For myriads of years
+Will there not be their helpers?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

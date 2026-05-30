@@ -312,6 +312,924 @@
     "label": "關雎",
     "canonical_ref": "詩經·國風·周南·001",
     "sort_key": 1,
-    "notes": "Shijing pilot poem aligned at stanza-level while preserving 國風 / 周南 / poem hierarchy in metadata."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 2-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "guofeng-zhaonan-002",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "采蘩",
+    "canonical_ref": "詩經·國風·召南·002",
+    "sort_key": 13,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "guofeng-zhaonan-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "采蘋",
+    "canonical_ref": "詩經·國風·召南·004",
+    "sort_key": 15,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "guofeng-beifeng-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "日月",
+    "canonical_ref": "詩經·國風·邶風·004",
+    "sort_key": 29,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "guofeng-beifeng-015",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "北門",
+    "canonical_ref": "詩經·國風·邶風·015",
+    "sort_key": 40,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "guofeng-yongfeng-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "柏舟",
+    "canonical_ref": "詩經·國風·鄘風·001",
+    "sort_key": 45,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "guofeng-yongfeng-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "君子偕老",
+    "canonical_ref": "詩經·國風·鄘風·003",
+    "sort_key": 47,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "guofeng-yongfeng-006",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "定之方中",
+    "canonical_ref": "詩經·國風·鄘風·006",
+    "sort_key": 50,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "guofeng-weifeng-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "氓",
+    "canonical_ref": "詩經·國風·衛風·004",
+    "sort_key": 58,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 3-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "guofeng-wangfeng-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "黍離",
+    "canonical_ref": "詩經·國風·王風·001",
+    "sort_key": 65,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "guofeng-wangfeng-009",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "大車",
+    "canonical_ref": "詩經·國風·王風·009",
+    "sort_key": 73,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "guofeng-tangfeng-008",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "鴇羽",
+    "canonical_ref": "詩經·國風·唐風·008",
+    "sort_key": 121,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "guofeng-tangfeng-011",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "葛生",
+    "canonical_ref": "詩經·國風·唐風·011",
+    "sort_key": 124,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "guofeng-qinfeng-006",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "黃鳥",
+    "canonical_ref": "詩經·國風·秦風·006",
+    "sort_key": 131,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "guofeng-binfeng-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "七月",
+    "canonical_ref": "詩經·國風·豳風·001",
+    "sort_key": 154,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-luming-005",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "伐木",
+    "canonical_ref": "詩經·小雅·鹿鳴之什·005",
+    "sort_key": 165,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-luming-006",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "天保",
+    "canonical_ref": "詩經·小雅·鹿鳴之什·006",
+    "sort_key": 166,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "xiaoya-luming-009",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "杕杜",
+    "canonical_ref": "詩經·小雅·鹿鳴之什·009",
+    "sort_key": 169,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-hongyan-009",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "斯干",
+    "canonical_ref": "詩經·小雅·鴻鴈之什·009",
+    "sort_key": 195,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "xiaoya-hongyan-010",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "無羊",
+    "canonical_ref": "詩經·小雅·鴻鴈之什·010",
+    "sort_key": 196,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-jienanshan-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "節南山",
+    "canonical_ref": "詩經·小雅·節南山之什·001",
+    "sort_key": 197,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-jienanshan-002",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "正月",
+    "canonical_ref": "詩經·小雅·節南山之什·002",
+    "sort_key": 198,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-jienanshan-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "十月之交",
+    "canonical_ref": "詩經·小雅·節南山之什·003",
+    "sort_key": 199,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "xiaoya-jienanshan-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "雨無正",
+    "canonical_ref": "詩經·小雅·節南山之什·004",
+    "sort_key": 200,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "xiaoya-jienanshan-005",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "小旻",
+    "canonical_ref": "詩經·小雅·節南山之什·005",
+    "sort_key": 201,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-jienanshan-006",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "小宛",
+    "canonical_ref": "詩經·小雅·節南山之什·006",
+    "sort_key": 202,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "xiaoya-jienanshan-007",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "小弁",
+    "canonical_ref": "詩經·小雅·節南山之什·007",
+    "sort_key": 203,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-jienanshan-008",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "巧言",
+    "canonical_ref": "詩經·小雅·節南山之什·008",
+    "sort_key": 204,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-jienanshan-010",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "巷伯",
+    "canonical_ref": "詩經·小雅·節南山之什·010",
+    "sort_key": 206,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-gufeng-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "大東",
+    "canonical_ref": "詩經·小雅·谷風之什·003",
+    "sort_key": 209,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "xiaoya-gufeng-007",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "小明",
+    "canonical_ref": "詩經·小雅·谷風之什·007",
+    "sort_key": 213,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-gufeng-009",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "楚茨",
+    "canonical_ref": "詩經·小雅·谷風之什·009",
+    "sort_key": 215,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "xiaoya-gufeng-010",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "信南山",
+    "canonical_ref": "詩經·小雅·谷風之什·010",
+    "sort_key": 216,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "xiaoya-futian-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "甫田",
+    "canonical_ref": "詩經·小雅·甫田之什·001",
+    "sort_key": 217,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-futian-002",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "大田",
+    "canonical_ref": "詩經·小雅·甫田之什·002",
+    "sort_key": 218,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "xiaoya-futian-005",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "桑扈",
+    "canonical_ref": "詩經·小雅·甫田之什·005",
+    "sort_key": 221,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-futian-010",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "賓之初筵",
+    "canonical_ref": "詩經·小雅·甫田之什·010",
+    "sort_key": 226,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "xiaoya-yuzao-009",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "白華",
+    "canonical_ref": "詩經·小雅·魚藻之什·009",
+    "sort_key": 235,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 4-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "daya-wenwang-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "文王",
+    "canonical_ref": "詩經·大雅·文王之什·001",
+    "sort_key": 241,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-wenwang-002",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "大明",
+    "canonical_ref": "詩經·大雅·文王之什·002",
+    "sort_key": 242,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-wenwang-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "緜",
+    "canonical_ref": "詩經·大雅·文王之什·003",
+    "sort_key": 243,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "daya-wenwang-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "棫樸",
+    "canonical_ref": "詩經·大雅·文王之什·004",
+    "sort_key": 244,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "daya-wenwang-005",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "旱麓",
+    "canonical_ref": "詩經·大雅·文王之什·005",
+    "sort_key": 245,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "daya-wenwang-006",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "思齊",
+    "canonical_ref": "詩經·大雅·文王之什·006",
+    "sort_key": 246,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "daya-wenwang-007",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "皇矣",
+    "canonical_ref": "詩經·大雅·文王之什·007",
+    "sort_key": 247,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-wenwang-009",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "下武",
+    "canonical_ref": "詩經·大雅·文王之什·009",
+    "sort_key": 249,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "daya-wenwang-010",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "文王有聲",
+    "canonical_ref": "詩經·大雅·文王之什·010",
+    "sort_key": 250,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 4-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "daya-shengmin-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "生民",
+    "canonical_ref": "詩經·大雅·生民之什·001",
+    "sort_key": 251,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "daya-shengmin-002",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "行葦",
+    "canonical_ref": "詩經·大雅·生民之什·002",
+    "sort_key": 252,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 2-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "daya-shengmin-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "既醉",
+    "canonical_ref": "詩經·大雅·生民之什·003",
+    "sort_key": 253,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "daya-shengmin-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "鳬鷖",
+    "canonical_ref": "詩經·大雅·生民之什·004",
+    "sort_key": 254,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "daya-shengmin-005",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "假樂",
+    "canonical_ref": "詩經·大雅·生民之什·005",
+    "sort_key": 255,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-shengmin-008",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "卷阿",
+    "canonical_ref": "詩經·大雅·生民之什·008",
+    "sort_key": 258,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "daya-shengmin-009",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "民勞",
+    "canonical_ref": "詩經·大雅·生民之什·009",
+    "sort_key": 259,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-shengmin-010",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "板",
+    "canonical_ref": "詩經·大雅·生民之什·010",
+    "sort_key": 260,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "daya-dang-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "蕩",
+    "canonical_ref": "詩經·大雅·蕩之什·001",
+    "sort_key": 261,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-dang-002",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "抑",
+    "canonical_ref": "詩經·大雅·蕩之什·002",
+    "sort_key": 262,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "daya-dang-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "桑柔",
+    "canonical_ref": "詩經·大雅·蕩之什·003",
+    "sort_key": 263,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-dang-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "雲漢",
+    "canonical_ref": "詩經·大雅·蕩之什·004",
+    "sort_key": 264,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-dang-005",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "崧高",
+    "canonical_ref": "詩經·大雅·蕩之什·005",
+    "sort_key": 265,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-dang-006",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "烝民",
+    "canonical_ref": "詩經·大雅·蕩之什·006",
+    "sort_key": 266,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-dang-007",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "韓奕",
+    "canonical_ref": "詩經·大雅·蕩之什·007",
+    "sort_key": 267,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "daya-dang-008",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "江漢",
+    "canonical_ref": "詩經·大雅·蕩之什·008",
+    "sort_key": 268,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-dang-010",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "瞻卬",
+    "canonical_ref": "詩經·大雅·蕩之什·010",
+    "sort_key": 270,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "daya-dang-011",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "召旻",
+    "canonical_ref": "詩經·大雅·蕩之什·011",
+    "sort_key": 271,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "song-qingmiao-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "清廟",
+    "canonical_ref": "詩經·頌·清廟之什·001",
+    "sort_key": 272,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-qingmiao-002",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "維天之命",
+    "canonical_ref": "詩經·頌·清廟之什·002",
+    "sort_key": 273,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 2-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "song-qingmiao-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "維清",
+    "canonical_ref": "詩經·頌·清廟之什·003",
+    "sort_key": 274,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-qingmiao-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "烈文",
+    "canonical_ref": "詩經·頌·清廟之什·004",
+    "sort_key": 275,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "song-qingmiao-005",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "天作",
+    "canonical_ref": "詩經·頌·清廟之什·005",
+    "sort_key": 276,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-qingmiao-006",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "昊天有成命",
+    "canonical_ref": "詩經·頌·清廟之什·006",
+    "sort_key": 277,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-qingmiao-007",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "我將",
+    "canonical_ref": "詩經·頌·清廟之什·007",
+    "sort_key": 278,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "song-qingmiao-008",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "時邁",
+    "canonical_ref": "詩經·頌·清廟之什·008",
+    "sort_key": 279,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "song-qingmiao-009",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "執競",
+    "canonical_ref": "詩經·頌·清廟之什·009",
+    "sort_key": 280,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "song-qingmiao-010",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "思文",
+    "canonical_ref": "詩經·頌·清廟之什·010",
+    "sort_key": 281,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-chengong-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "臣工",
+    "canonical_ref": "詩經·頌·臣工之什·001",
+    "sort_key": 282,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 2-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "song-chengong-002",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "噫嘻",
+    "canonical_ref": "詩經·頌·臣工之什·002",
+    "sort_key": 283,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-chengong-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "振鷺",
+    "canonical_ref": "詩經·頌·臣工之什·003",
+    "sort_key": 284,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "song-chengong-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "豐年",
+    "canonical_ref": "詩經·頌·臣工之什·004",
+    "sort_key": 285,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-chengong-005",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "有瞽",
+    "canonical_ref": "詩經·頌·臣工之什·005",
+    "sort_key": 286,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-chengong-006",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "潛",
+    "canonical_ref": "詩經·頌·臣工之什·006",
+    "sort_key": 287,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-chengong-007",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "雝",
+    "canonical_ref": "詩經·頌·臣工之什·007",
+    "sort_key": 288,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "song-chengong-008",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "載見",
+    "canonical_ref": "詩經·頌·臣工之什·008",
+    "sort_key": 289,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "song-chengong-009",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "有客",
+    "canonical_ref": "詩經·頌·臣工之什·009",
+    "sort_key": 290,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "song-chengong-010",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "武",
+    "canonical_ref": "詩經·頌·臣工之什·010",
+    "sort_key": 291,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-minyuxiaozi-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "閔予小子",
+    "canonical_ref": "詩經·頌·閔予小子之什·001",
+    "sort_key": 292,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "song-minyuxiaozi-002",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "訪落",
+    "canonical_ref": "詩經·頌·閔予小子之什·002",
+    "sort_key": 293,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-minyuxiaozi-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "敬之",
+    "canonical_ref": "詩經·頌·閔予小子之什·003",
+    "sort_key": 294,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 3-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "song-minyuxiaozi-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "小毖",
+    "canonical_ref": "詩經·頌·閔予小子之什·004",
+    "sort_key": 295,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-minyuxiaozi-005",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "載芟",
+    "canonical_ref": "詩經·頌·閔予小子之什·005",
+    "sort_key": 296,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 4-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "song-minyuxiaozi-006",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "良耜",
+    "canonical_ref": "詩經·頌·閔予小子之什·006",
+    "sort_key": 297,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 3-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "song-minyuxiaozi-007",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "絲衣",
+    "canonical_ref": "詩經·頌·閔予小子之什·007",
+    "sort_key": 298,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-minyuxiaozi-008",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "酌",
+    "canonical_ref": "詩經·頌·閔予小子之什·008",
+    "sort_key": 299,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-minyuxiaozi-009",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "桓",
+    "canonical_ref": "詩經·頌·閔予小子之什·009",
+    "sort_key": 300,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-minyuxiaozi-010",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "賚",
+    "canonical_ref": "詩經·頌·閔予小子之什·010",
+    "sort_key": 301,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-minyuxiaozi-011",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "般",
+    "canonical_ref": "詩經·頌·閔予小子之什·011",
+    "sort_key": 302,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-lusong-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "泮水",
+    "canonical_ref": "詩經·頌·魯頌·003",
+    "sort_key": 305,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "song-lusong-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "閟宮",
+    "canonical_ref": "詩經·頌·魯頌·004",
+    "sort_key": 306,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "song-shangsong-001",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "那",
+    "canonical_ref": "詩經·頌·商頌·001",
+    "sort_key": 307,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "song-shangsong-002",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "烈祖",
+    "canonical_ref": "詩經·頌·商頌·002",
+    "sort_key": 308,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "song-shangsong-003",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "玄鳥",
+    "canonical_ref": "詩經·頌·商頌·003",
+    "sort_key": 309,
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
+  },
+  {
+    "section_id": "song-shangsong-004",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "長發",
+    "canonical_ref": "詩經·頌·商頌·004",
+    "sort_key": 310,
+    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+  },
+  {
+    "section_id": "song-shangsong-005",
+    "work_id": "shijing",
+    "parent_section_id": null,
+    "label": "殷武",
+    "canonical_ref": "詩經·頌·商頌·005",
+    "sort_key": 311,
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   }
 ]

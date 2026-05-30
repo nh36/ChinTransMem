@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-shengmin-004__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-shengmin-004</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·004.1</prop>
+      <prop type="x-translation-ref">鳬鷖.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鳧鷖在涇，公尸來燕來寧。爾酒既清，爾殽既馨。公尸燕飲，福祿來成。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The wild-ducks and widgeons are on the King;
+​The personators of your ancestors feast and are happy.
+Your spirits are clear;
+Your viands are fragrant.
+The personators of your ancestors feast and drink;—
+Their
+happiness and dignity are made complete.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-004__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-shengmin-004</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·004.2</prop>
+      <prop type="x-translation-ref">鳬鷖.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鳧鷖在沙，公尸來燕來宜。爾酒既多，爾殽既嘉。公尸燕飲，福祿來為。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The wild-ducks and widgeons are on the sand;
+The personators of the dead enjoy the feast, their appropriate tribute.
+Your spirits are abundant;
+Your viands are good.
+The personators of your ancestors feast and drink;—
+Happiness
+and dignity lend them their aids.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-004__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-shengmin-004</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·004.3</prop>
+      <prop type="x-translation-ref">鳬鷖.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鳧鷖在渚，公尸來燕來處。爾酒既湑，爾殽伊脯。公尸燕飲，福祿來下。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The wild-ducks and widgeons are on the islets;
+The personators of your ancestors feast and enjoy themselves.
+Your spirits are strained;
+Your viands are in slices.
+The personators of your ancestors feast and drink;—
+Happiness
+and dignity descend on them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-004__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-shengmin-004</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·004.4</prop>
+      <prop type="x-translation-ref">鳬鷖.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鳧鷖在潀，公尸來燕來宗。既燕于宗，福祿攸降。公尸燕飲，福祿來崇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The wild-ducks and widgeons are where the waters meet;
+The personators of your ancestors feast and are honoured.
+The feast is spread in the ancestral temple.
+The place where happiness and dignity descend.
+The personators of your ancestors feast and drink;—
+Their
+happiness and dignity are at the highest point.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-004__005__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-shengmin-004</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·004.5</prop>
+      <prop type="x-translation-ref">鳬鷖.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鳧鷖在亹，公尸來止熏熏。旨酒欣欣，燔炙芬芬。公尸燕飲，無有後艱。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The wild-ducks and widgeons are in the gorge;
+The personators of your ancestors rest, full of complacency.
+The fine spirits are delicious;
+Your meat, roast and broiled, is fragrant.
+The personators of your ancestors feast and drink;—
+No
+troubles will be theirs after this.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

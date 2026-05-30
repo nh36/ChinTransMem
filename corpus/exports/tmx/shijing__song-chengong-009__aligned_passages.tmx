@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-chengong-009__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-chengong-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·臣工之什·009.1</prop>
+      <prop type="x-translation-ref">有客.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有客有客，亦白其馬。有萋有且，敦琢其旅。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The noble visitor! The noble visitor!
+Drawn, like his ancestors, by white horses!
+The reverent and dignified,
+Polished members of his suite!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-chengong-009__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-chengong-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·臣工之什·009.2</prop>
+      <prop type="x-translation-ref">有客.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有客宿宿，有客信信。言授之縶，以縶其馬。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The noble guest will stay (but) a night or two!
+The noble guest will stay (but) two nights or four!
+Give him ropes,
+To bind his horses.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-chengong-009__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">song-chengong-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·頌·臣工之什·009.3</prop>
+      <prop type="x-translation-ref">有客.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>薄言追之，左右綏之。既有淫威，降福孔夷。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I will convoy him (with a parting feast);
+I will comfort him in every possible way.
+Adorned with such great dignity,
+It is very natural that he should be blessed.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

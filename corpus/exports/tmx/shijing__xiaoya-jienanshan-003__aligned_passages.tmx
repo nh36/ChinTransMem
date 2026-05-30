@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-jienanshan-003__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-jienanshan-003</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·小雅·節南山之什·003.1</prop>
+      <prop type="x-translation-ref">十月之交.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>十月之交，朔月辛卯。日有食之，亦孔之醜。
+彼月而微，此日而微。今此下民，亦孔之哀。
+
+日月告凶，不用其行。四國無政，不用其良。
+彼月而食，則維其常。此日而食，于何不臧？
+
+爗爗震電，不寧不令。百川沸騰，山冡崒崩。
+高岸為谷，深谷為陵。哀今之人，胡憯莫懲？
+
+皇父卿士，番維司徒。家伯維宰，仲允膳夫。
+棸子內史，蹶維趣馬。楀維師氏，豔妻煽方處。
+
+抑此皇父，豈曰不時？胡為我作，不即我謀？
+徹我牆屋，田卒汙萊。曰予不戕，禮則然矣！
+
+皇父孔聖，作都于向。擇三有事，亶侯多藏。
+不憖遺一老，俾守我王。擇有車馬，以居徂向。
+
+黽勉從事，不敢告勞。無罪無辜，讒口嚻嚻。
+下民之孽，匪降自天。噂沓背憎，職競由人。
+
+悠悠我里，亦孔之痗。四方有羨，我獨居憂。
+民莫不逸，我獨不敢休。天命不徹，我不敢傚我友自逸。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>At the conjunction (of the sun and moon) in the tenth month,
+On the first day of the moon, which was hsin-mâo,
+The sun was eclipsed,
+A thing of very evil omen.
+Before, the moon became small,
+And now the sun became small.
+Henceforth the lower people
+Will be in a very deplorable case.
+
+The sun and moon announce evil,
+Not keeping to their proper paths.
+Throughout the kingdom there is no (proper) government,
+Because the good are not employed.
+For the moon to be eclipsed
+Is but an ordinary matter.
+Now that the sun has been eclipsed,—
+How
+bad it is!
+
+Grandly flashes the lightning of the thunder.
+There is a want of rest, a want of good.
+The streams all bubble up and overflow.
+The crags on the hill-tops fall down.
+High banks become valleys;
+Deep valleys become hills.
+Alas for the men of this time!
+How does (the king) not stop these things?
+
+Hwang-fû is the President;
+Fan is the Minister
+​of Instruction;
+Kiâ-po is the (chief) Administrator;
+Kung-yün is the chief Cook;
+.mw-parser-output .blackletter{font-family:"UnifrakturMaguntia","UnifrakturCook","Unifraktur",serif;font-size:113%}.mw-parser-output .blackletter-mode-0{font-feature-settings:"cv01","cv02","cv03","cv04","cv05","cv06","cv07","cv08","cv09","cv10"}.mw-parser-output .blackletter-mode-2{font-feature-settings:"cv08"}.mw-parser-output .blackletter-mode-3{font-feature-settings:"cv01"}.mw-parser-output .blackletter-mode-4{font-feature-settings:"cv01","cv08"}.mw-parser-output .blackletter-mode-5{font-feature-settings:"cv01","cv08","cv04"2}Zâu is the Recorder of the Interior;
+Khwei is Master of the Horse;
+Yü is Captain of the Guards;
+And the beautiful wife blazes, now in possession of her place.
+
+This Hwang-fû
+Will not acknowledge that he is acting out of season.
+But why does he call us to move,
+Without coming and consulting with us?
+He has removed our walls and roofs;
+And our fields are all either a marsh or a moor.
+He says, 'I am not injuring you;
+The laws require that thus it should be.'
+
+Hwang-fû is very wise;
+He has built a great city for himself in Hsiang.
+He chose three men as his ministers,
+All of them possessed of great wealth.
+He could not bring himself to leave a single minister,
+Who might guard our king.
+He (also) selected those who had chariots and horses,
+To go and reside in Hsiang.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

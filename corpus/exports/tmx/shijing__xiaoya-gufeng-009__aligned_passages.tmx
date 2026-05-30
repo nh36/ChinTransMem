@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-gufeng-009__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-gufeng-009</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·009.1</prop>
+      <prop type="x-translation-ref">楚茨.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>楚楚者茨，言抽其棘。自昔何為？我蓺黍稷。
+我黍與與，我稷翼翼。我倉既盈，我庾維億。
+以為酒食，以享以祀。以妥以侑，以介景福。
+
+濟濟蹌蹌，絜爾牛羊，以往烝嘗。
+或剝或亨，或肆或將，祝祭于祊。
+祀事孔明，先祖是皇，神保是饗。
+孝孫有慶，報以介福，萬壽無疆。
+
+執爨踖踖，為俎孔碩，或燔或炙。
+君婦莫莫，為豆孔庶，為賓為客。
+獻醻交錯，禮儀卒度，笑語卒獲。
+神保是格，報以介福，萬壽攸酢。
+
+我孔熯矣，式禮莫愆。工祝致告，徂賚孝孫。
+苾芬孝祀，神嗜飲食。卜爾百福，如幾如式。
+既齊既稷，既匡既勑。永錫爾極，時萬時億。
+
+禮儀既備，鍾鼓既戒。孝孫徂位，工祝致告。
+神具醉止，皇尸載起。鼓鍾送尸，神保聿歸。
+諸宰君婦，廢徹不遲。諸父兄弟，備言燕私。
+
+樂具入奏，以綏後祿。爾殽既將，莫怨具慶。
+既醉既飽，小大稽首。神嗜飲食，使君壽考。
+孔惠孔時，維其盡之。子子孫孫，勿替引之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Thick grew the tribulus (on the ground),
+But they cleared away its thorny bushes.
+Why did they this of old?
+That we might plant our millet and sacrificial millet;
+That our millet might be abundant,
+And our sacrificial millet luxuriant.
+When our barns are full,
+And our stacks can be counted by tens of myriads,
+We proceed to make spirits and prepared grain,
+For offerings and sacrifice.
+We seat the representatives of the dead, and urge them to eat:—
+Thus
+seeking to increase our bright happiness.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

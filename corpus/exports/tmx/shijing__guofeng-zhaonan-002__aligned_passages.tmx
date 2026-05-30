@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhaonan-002__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-zhaonan-002</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·國風·召南·002.1</prop>
+      <prop type="x-translation-ref">采蘩.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>于以采蘩，于沼于沚，于以用之，公侯之事。
+于以采蘩，于澗之中，于以用之，公侯之宮。
+被之僮僮，夙夜在公，被之祁祁，薄言還歸。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>She gathers the white southernwood,
+By the ponds, on the islets.
+She employs it,
+In the business of our prince.
+
+She gathers the white southernwood,
+Along the streams in the valleys.
+She employs it,
+In the temple of our prince.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

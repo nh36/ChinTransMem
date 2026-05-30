@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-dang-006__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-006</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·006.1</prop>
+      <prop type="x-translation-ref">烝民.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天生烝民，有物有則。民之秉彝，好是懿德。
+天監有周，昭假于下。保茲天子，生仲山甫。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heaven, in giving birth to the multitudes of the people,
+To every faculty and relationship annexed its law.
+The people possess this normal nature,
+And they (consequently) love its normal virtue.
+Heaven beheld the ruler of Kâu,
+Brilliantly affecting it by his conduct below,
+And to maintain him, its Son,
+Gave birth to Kung Shan-fû.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-dang-006__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-006</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·006.2</prop>
+      <prop type="x-translation-ref">烝民.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>仲山甫出祖，四牡業業，征夫捷捷。
+每懷靡及，四牡彭彭，八鸞鏘鏘。王命仲山甫，城彼東方。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Kung Shan-fû went forth, having sacrificed to the spirit of the road.
+His four steeds were strong;
+​His men were alert,
+He was always anxious lest he should not be equal to his commission;
+His steeds went on without stopping,
+To the tinkling of their eight bells.
+The king had given charge to Kung Shan-fû,
+To fortify the city there in the east.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

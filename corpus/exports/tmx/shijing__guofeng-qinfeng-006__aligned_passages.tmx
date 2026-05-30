@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-qinfeng-006__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-qinfeng-006</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·國風·秦風·006.1</prop>
+      <prop type="x-translation-ref">黃鳥.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>交交黃鳥，止于棘。
+誰從穆公？子車奄息。維此奄息，百夫之特。
+臨其穴，惴惴其慄。
+彼蒼者天，殲我良人！如可贖兮，人百其身。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>They flit about, the yellow birds,
+And rest upon the jujube trees.
+Who followed duke Mû in the grave?
+Zze-kü Yen-hsî.
+And this Yen-hsî
+Was a man above a hundred.
+When he came to the
+​grave,
+He looked terrified and trembled.
+Thou azure Heaven there!
+.mw-parser-output .__reconstruct_bracket{font-style:normal;font-weight:normal}⟨Thou art destroying our good men.⟩
+Could he have been redeemed,
+We would have given a hundred (ordinary) men for him.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

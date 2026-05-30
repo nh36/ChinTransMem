@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-luming-005__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">xiaoya-luming-005</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·005.1</prop>
+      <prop type="x-translation-ref">伐木.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>伐木丁丁，鳥鳴嚶嚶。出自幽谷，遷于喬木。嚶其鳴矣，求其友聲。
+相彼鳥矣，猶求友聲。矧伊人矣，不求友生。神之聽之，終和且平。
+伐木許許，釃酒有藇。既有肥羜，以速諸父。寧適不來？微我弗顧。
+於粲洒埽，陳饋八簋。既有肥牡，以速諸舅。寧適不來？微我有咎。
+伐木于阪，釃酒有衍，籩豆有踐，兄弟無遠。民之失德，乾餱以愆。
+有酒湑我，無酒酤我。坎坎鼓我，蹲蹲舞我。迨我暇矣！飲此湑矣！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the trees go the blows kăng-kăng;
+And the birds cry out ying-ying.
+One issues from the dark valley,
+And removes to the lofty tree.
+Ying goes its cry,
+Seeking with its voice its companion.
+Look at the bird,
+Bird as it is, seeking with its voice its companion;
+And shall a man
+Not seek to have his friends?
+Spiritual beings will then hearken to him;
+He shall have harmony and peace.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

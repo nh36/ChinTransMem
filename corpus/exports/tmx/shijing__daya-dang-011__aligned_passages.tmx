@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-dang-011__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">daya-dang-011</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·011.1</prop>
+      <prop type="x-translation-ref">召旻.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>旻天疾威，天篤降喪。
+瘨我饑饉，民卒流亡。我居圉卒荒。
+
+天降罪罟，蟊賊內訌。
+昏椓靡共，潰潰回遹。實靖夷我邦。
+
+皐皐訿訿，曾不知其玷。
+兢兢業業，孔填不寧。我位孔貶。
+
+如彼歲旱，草不潰茂。
+如彼棲苴。我相此邦，無不潰止。
+
+維昔之富，不如時？維今之疚，不如茲？
+彼疏斯粺，胡不自替？職兄斯引。
+
+池之竭矣，不云自頻？泉之竭矣，不云自中？
+溥斯害矣，職兄斯弘，不烖我躬？
+
+昔先王受命，有如召公，日辟國百里，今也日蹙國百里。
+於乎哀哉，維今之人，不尚有舊。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Compassionate Heaven is arrayed in angry terrors.
+Heaven is indeed sending down ruin,
+Afflicting us with famine,
+So that the people are all wandering fugitives.
+In the settled regions, and on the borders, all is desolation.
+
+Heaven sends down its net of crime;—
+Devouring
+insects, who weary and confuse men's minds,
+Ignorant, oppressive, negligent,
+Breeders of confusion, utterly perverse:—
+These
+are the men employed.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

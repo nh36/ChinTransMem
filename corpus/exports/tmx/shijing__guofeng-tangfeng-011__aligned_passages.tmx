@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-tangfeng-011__001__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-tangfeng-011</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·011.1</prop>
+      <prop type="x-translation-ref">葛生.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>葛生蒙楚，蘞蔓于野。予美亡此，誰與獨處。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The dolichos grows, covering the thorn trees;
+The convolvulus spreads all over the waste.
+The
+​man of my admiration is no more here;—
+With
+whom can I dwell? I abide alone.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-tangfeng-011__002__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-tangfeng-011</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·011.2</prop>
+      <prop type="x-translation-ref">葛生.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>葛生蒙棘，蘞蔓于域。予美亡此，誰與獨息。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The dolichos grows, covering the jujube trees;
+The convolvulus spreads all over the tombs.
+The man of my admiration is no more here;—
+With
+whom can I dwell? I rest alone.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-tangfeng-011__003__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-tangfeng-011</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·011.3</prop>
+      <prop type="x-translation-ref">葛生.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>角枕粲兮，錦衾爛兮。予美亡此，誰與獨旦。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How beautiful was the pillow of horn!
+How splendid was the embroidered coverlet!
+The man of my admiration is no more here;—
+With
+whom can I dwell? Alone (I wait for) the morning.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-tangfeng-011__004__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-tangfeng-011</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·011.4</prop>
+      <prop type="x-translation-ref">葛生.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>夏之日，冬之夜。百歲之後，歸于其居。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Through the (long) days of summer,
+Through the (long) nights of winter (shall I be alone),
+Till the lapse of a hundred years,
+When I shall go home to his abode.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-tangfeng-011__005__zhwikisource-20260530__legge-sbe-v3-1879">
+      <prop type="x-section-id">guofeng-tangfeng-011</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·011.5</prop>
+      <prop type="x-translation-ref">葛生.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>冬之夜，夏之日。百歲之後，歸于其室。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Through the (long) nights of winter,
+Through the (long) days of summer (shall I be alone),
+Till the lapse of a hundred years,
+When I shall go home to his chamber.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
