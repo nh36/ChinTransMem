@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-002__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·002.1</prop>
+      <prop type="x-translation-ref">南山有臺.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>南山有臺，北山有萊。樂只君子，邦家之基。樂只君子，萬壽無期。
+南山有桑，北山有楊。樂只君子，邦家之光。樂只君子，萬壽無疆。
+南山有杞，北山有李。樂只君子，民之父母。樂只君子，德音不已。
+南山有栲，北山有杻。樂只君子，遐不眉壽。樂只君子，德音是茂。
+南山有枸，北山有楰。樂只君子，遐不黃耇。樂只君子，保艾爾後。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 In the south is the barbel,
+And, in multitudes, they are taken under baskets.
+The host has spirits,
+On which his admirable guests feast with him joyfully.
+DECADE OF PIH HWA.
+
+2 In the south is the barbel,
+And, in multitudes^ they are taken with wicker nets.
+The host has spirits,
+On which his admirable guests feast with him, delighted.
+
+3 In the south are trees with curved drooping branches,
+And the sweet gourds cling to them.
+The host has spirits,
+On which his admirable guests feast with him cheerfully.
+
+4 The Filial doves keep flying about,
+Corning in multitudes.
+The host has spirits,
+On which his admirable guests feast with him again and again.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,31 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-beifeng-016__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-beifeng-016,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·邶風·016.1,"北風其涼，雨雪其雱，
+惠而好我，攜手同行，【韻：雱行】
+其虛其邪，既亟只且。
+
+北風其喈，雨雪其霏，
+惠而好我，攜手同歸，【韻：霏歸】
+其虛其邪，既亟只且。
+
+莫赤匪狐，莫黑匪烏，
+惠而好我，攜手同車，【韻：烏車】
+其虛其邪，既亟只且。",北風.1,"1 Cold blows the north wind ;
+Thick falls the snow.
+Ye who love and regard me,
+Let us join hands and go together.
+Is it a time for delay?
+The urgency is extreme!
+
+2 The north wind whistles;
+The snow falls and drifts about.
+Ye who love and regard me,
+Let us join hands, and go away for ever.
+Is it a time for delay?
+The urgency is extreme!
+
+3 Nothing red is seen but foxes,
+Nothing black but crows.
+Ye who love and regard me,
+Let us join hands, and go together in our carriages.
+Is it a time for delay?
+The urgency is extreme!"

@@ -1,0 +1,7 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhengfeng-009__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-zhengfeng-009,poem,poem,poem,False,,1,1,exact_or_near_exact,0.95,1,詩經·國風·鄭風·009.1,"有女同車，顏如舜華，將翱將翔，佩玉瓊琚，彼美孟姜，洵美且都。
+有女同行，顏如舜英，將翱將翔，佩玉將將，彼美孟姜，德音不忘。",有女同車.1,"1 There is the lady in the carriage [with him]
+With a countenance like the flower of the ephemeral hedge-tree.
+As they move about,
+The beautiful few-gems of her girdle-pendant appear.
+ODES OF CH‘iNG."

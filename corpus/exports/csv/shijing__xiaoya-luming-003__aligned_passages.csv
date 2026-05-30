@@ -1,0 +1,29 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-luming-003__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,xiaoya-luming-003,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·鹿鳴之什·003.1,"皇皇者華，于彼原隰。駪駪征夫，每懷靡及。
+我馬維駒，六轡如濡。載馳載驅，周爰咨諏。
+我馬維騏，六轡如絲。載馳載驅，周爰咨謀。
+我馬維駱，六轡沃若。載馳載驅，周爰咨度。
+我馬維駰，六轡既均。載馳載驅，周爰咨詢。",皇皇者華.1,"1 Brilliant are the flowers,
+On those level heights and the low grounds.
+Complete and alert is the messenger, with his suite,
+Ever anxious lest he should not succeed.
+
+2 My horses are young;
+The six reins look as if they were moistened.
+I gallop them, and urge them on,
+Everywhere pushing my inquiries.
+
+3 My horses are piebald;
+The six reins are like silk.
+I gallop them, and urge them on,
+Everywhere seeking information and counsel,
+
+4 My horses are white and black-maned ;
+The six reins look glossy.
+I gallop them and urge them on,
+Everywhere seeking information and advice,
+
+5 My horses are greyj
+The six reins are well in hand.
+I gallop them and urge them on,
+Everywhere seeking information and suggestions."

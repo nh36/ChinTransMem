@@ -1,0 +1,11 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-binfeng-007__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-binfeng-007,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·豳風·007.1,"狼跋其胡，載疐其尾。公孫碩膚，赤舄几几。
+狼疐其尾，載跋其胡。公孫碩膚，德音不瑕。",狼跋.1,"1 The wolf springs forward on his dewlap,
+Or trips back on his tail.
+The duke was humble, and greatly admirable,
+Self-composed in his red slippers.
+
+2 The wolf springs forward on his dewlap,
+Or trips back on his tail.
+The duke was humble, and greatly admirable;
+There is no flaw in his virtuous fame."

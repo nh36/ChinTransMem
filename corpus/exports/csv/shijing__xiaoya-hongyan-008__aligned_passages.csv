@@ -1,0 +1,23 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-hongyan-008__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,xiaoya-hongyan-008,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·鴻鴈之什·008.1,"我行其野，蔽芾其樗。昏姻之故，言就爾居。爾不我畜，復我邦家。
+我行其野，言采其蓫。昏姻之故，言就爾宿。爾不我畜，言歸斯復。
+我行其野，言采其葍。不思舊姻，求爾新特。成不以富，亦祗以異。",我行其野.1,"1 I travelled through the country,
+Where the Fetid tree grew luxuriant.
+Because of our affinity by marriage,
+I went to reside with you.
+But you do not entertain me;
+And I go back to my country and clan.
+
+2 I travelled through the country,
+Gathering the sheep's-foot.
+Because of our affinity by marriage,
+I came to lodge with you.
+But you do not entertain me,
+And I will return, I will go back.
+
+3 I travelled through the country,
+Gathering the pokeweed.
+You do not think of our old affinity,
+And seek to please your new relative.
+If indeed you are not influenced by lier riches,
+You still are so by the difference [between the new and the old]."

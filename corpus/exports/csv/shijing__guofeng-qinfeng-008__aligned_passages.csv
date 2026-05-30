@@ -1,0 +1,30 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-qinfeng-008__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-qinfeng-008,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·秦風·008.1,"豈曰無衣七兮、不如子之衣、安且吉兮。
+
+豈曰無衣六兮、不如子之衣、安且燠兮。
+
+豈曰無衣、與子同袍。
+王於興師、脩我戈矛、與子同仇。
+
+豈曰無衣、與子同澤。
+王於興師、脩我矛戟、與子偕作。
+
+豈曰無衣、與子同裳。
+王於興師、脩我甲兵、與子偕行。",無衣.1,"1 How shall it be said that you have no clothes?
+I will share my long robes with you.
+The king is raising his forces;
+I will prepare my lance and spear,
+And will be your comrade.
+
+2 How shall it be said that you have no clothes?
+I will share my under clothes with you.
+The king is raising his forces;
+I will prepare my spear and lance,
+And will take the field with you.
+
+3 How shall it be said that you have no clothes?
+I will share my lower garments with you.
+The king is raising his forces;
+I will prepare my bufFcoat and sharp weapons,
+And will march along with you.
+ODES OF TS‘IN,"

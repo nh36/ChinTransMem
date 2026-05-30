@@ -1,0 +1,5 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-nanyoujiayu-001__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,xiaoya-nanyoujiayu-001,poem,poem,poem,False,,1,1,exact_or_near_exact,0.95,1,詩經·小雅·南有嘉魚之什·001.1,"南有嘉魚，烝然罩罩。君子有酒，嘉賓式燕以樂。
+南有嘉魚，烝然汕汕。君子有酒，嘉賓式燕以衎。
+南有樛木，甘瓠纍之。君子有酒，嘉賓式燕綏之。
+翩翩者鵻，烝然來思。君子有酒，嘉賓式燕又思。",南有嘉魚.1,南有嘉魚

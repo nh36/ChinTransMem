@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-dang-009__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-dang-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·蕩之什·009.1</prop>
+      <prop type="x-translation-ref">常武.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>赫赫明明，王命卿士。南仲大祖，大師皇父，
+整我六師，以脩我戎。既敬既戒，惠此南國。
+
+王謂尹氏，命程伯休父，左右陳行，戒我師旅。
+率彼淮浦，省此徐土。不留不處，三事就緒。
+
+赫赫業業，有嚴天子。王舒保作，匪紹匪遊。
+徐方繹騷，震驚徐方。如雷如霆，徐方震驚。
+
+王奮厥武，如震如怒。進厥虎臣，闞如虓虎。
+鋪敦淮濆，仍執醜虜。截彼淮浦，王師之所。
+
+王旅嘽嘽，如飛如翰，如江如漢。如山之苞，如川之流。
+緜緜翼翼，不測不克，濯征徐國。
+
+王猶允塞，徐方既來。徐方既同，天子之功。
+四方既平，徐方來庭。徐方不回，王曰還歸。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Grandly and clearly,
+The king gave charge to his minister,
+A descendant of Nan Chung,
+The Grand-master Hwang-foo： —
+i Put my six armies in order,
+And get ready all my apparatus of war.
+Be reverent, be cautious,
+That we may give coinfort to the States of the south/
+
+2 The King said to the Head of the Yin clan,
+c Give a charge to Hew-foo, earl of Ch(ing,
+To undertake the arrangement of the ranks,
+And to warn all my troops.
+Along the bank of the Hwae,
+DECADE OF TANG.
+[We go] to see the land of Seu,
+Not delaying [our march], not occupying [the territory],
+That the threefold labours [of husbandry] may proceed in
+
+3 Full of grandeur"and strength,
+The Son of Heaveri looked majestic.
+Leisurely and calmly the king advanced,
+Not with his troops in masses, nor in broken lines.
+The region of Seu from stage to stage was moved;
+It shook and was terrified, — the region of Seu.
+As by the roll of thunder or its sudden crash,
+The region of Seu shook and was terrified.
+
+4 The king aroused his warlike energy,
+As if he were moved with anger.
+He advanced his tiger-like officers,
+Looking fierce like raging tigers.
+He displayed his masses along the bank of the Hwae,
+And forthwith seized a crowd of captives.
+Securely kept was the country about the bank of the Hwae,
+Occupied by the royal armies.
+
+5 The royal legions were numerous;
+Swift] as if they flew on wings,
+Imposing] as the current of the Keang and the Han;
+Firm as a mountain；
+Rolling on like a stream;
+Continuous and orderly；
+Inscrutable, invincible;
+Grandly proceeding to set in order the States of Seu.
+
+6 The king^ plans were directed in truth and sincerity,
+And the region of Seu came [at once to terms];
+Its [chiefs] were all collected together; —
+Through the merit of the Son of Heaven.
+The country was all reduced to order;
+Its [chiefs] appeared before the king.
+Tliey would not again change their minds,
+And the king said， ‘Let us return.’</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

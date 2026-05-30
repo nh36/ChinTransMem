@@ -1,0 +1,23 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-nanyoujiayu-009__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,xiaoya-nanyoujiayu-009,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·南有嘉魚之什·009.1,"菁菁者莪，在彼中阿，既見君子，樂且有儀。
+菁菁者莪，在彼中沚，既見君子，我心則喜。
+菁菁者莪，在彼中陵，既見君子，錫我百朋。
+汎汎楊舟，載沈載浮，既見君子，我心則休。",菁菁者莪.1,"1 Luxuriantly grows the aster*southernwood,
+In the midst of that large mound.
+Since we see our noble lord,
+We rejoice, and he shows us all courtesy.
+
+2 Luxuriantly grows the aster-southernwood.
+In the midst of that islet.
+Since we see our noble lord,
+Our hearts are full of joy.
+
+3 Luxuriantly grows the aster-southernwood,
+In the midst of that great height.
+We see our noble lord,
+And he gives us a hundred sets of cowries.
+
+4 It floats about, — the willow boat,
+Now sinking, now rising again.
+Since we see our noble lord,
+Our hearts are at rest."

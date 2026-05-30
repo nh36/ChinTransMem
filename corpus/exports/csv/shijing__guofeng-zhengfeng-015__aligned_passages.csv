@@ -1,0 +1,26 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhengfeng-015__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-zhengfeng-015,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·鄭風·015.1,"東門之墠，茹藘在阪。其室則邇，其人甚遠。
+東門之栗，有踐家室。豈不爾思？子不我即。",東門之墠.1,"1 Near the level ground at the east gate,
+Is the madder plant on the bank.
+The house is near there,
+But the in an is very far away.
+
+2 By the chestnut trees at the east gate,
+Is a row of houses.
+Do I not think of you?
+But you do not come to me.
+
+1 Cold are the wind and the rain,
+And shrilly crows the cock.
+But I have seen my husband,
+And should I but feel at rest?
+
+2 The wind whistles and the rain patters,
+While loudly crows the cock.
+But I have seen my husband,
+And could my ailment but be cured?
+
+3 Through the wind and rain all looks dark,
+And the cock crows without ceasing.
+But I have seen my husband,
+And how should I not rejoice?"

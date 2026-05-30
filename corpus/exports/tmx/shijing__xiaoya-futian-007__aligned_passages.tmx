@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-futian-007__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-futian-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·甫田之什·007.1</prop>
+      <prop type="x-translation-ref">頍弁.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有頍者弁，實維伊何？爾酒既旨，爾殽既嘉。
+豈伊異人？兄弟匪他。蔦與女蘿，施于松柏。
+未見君子，憂心弈弈；既見君子，庶幾說懌。
+
+有頍者弁，實維何期？爾酒既旨，爾殽既時。
+豈伊異人？兄弟具來。蔦與女蘿，施于松上。
+未見君子，憂心怲怲；既見君子，庶幾有臧。
+
+有頍者弁，實維在首？爾酒既旨，爾殽既阜。
+豈伊異人？兄弟甥舅。如彼雨雪，先集維霰。
+死喪無日，無幾相見，樂酒今夕，君子維宴。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Growing over the pine and the cypress.
+While they do not see you, O king,
+Their sorrowful hearts are all-unsettled.
+When they do see you,
+They begin to be happy and glad.
+
+2 Those in the leather caps, —
+Who are they ?
+Since your spirits are [so] good,
+And your viands are all of the season,
+How can they be strangers ?
+They are your brethren, all assembled.
+[They are] like the mistletoe, and the dodder,
+Growing over the pine.
+While they do not see you, 0 king,
+Their hearts are full of sorrow.
+When they do see you,
+They begin to feel that things are right.
+DECADE OF SANG HOO.
+
+3 There are those in the leather-caps,
+Which they wear on their heads.
+Since your spirits are [so] good,
+And your viands are [so] abundant,
+How can they be strangers ?
+They are your brethren, and your relatives by affinity.
+When there is going to be a fall of snow,
+There is first the descent of sleet.
+Death and ruin may come any day,
+It is not long that you will see one another.
+Rejoice over your spirits for the present evening;
+
+0 king, enjoy the feast</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

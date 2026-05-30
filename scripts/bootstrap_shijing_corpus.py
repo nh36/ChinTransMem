@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import functools
 import html
 import json
 import re
@@ -11,6 +12,7 @@ import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
+import xml.etree.ElementTree as ET
 
 from common import (
     MANIFESTS_DIR,
@@ -35,18 +37,29 @@ SOURCE_SUFFIX = "zhwikisource-20260530"
 STANDALONE_TARGET_SOURCE_SUFFIX = "legge-sheking-1871"
 SBE_TARGET_SOURCE_SUFFIX = "legge-sbe-v3-1879"
 OCR_TARGET_SOURCE_SUFFIX = "legge-sheking-1871-ocr"
+HOCR_TARGET_SOURCE_SUFFIX = "legge-sheking-1871-hocr"
 LEGGE_SHEKING_1871_PART_1_ITEM_URL = "https://archive.org/details/chineseclassics41legg"
 LEGGE_SHEKING_1871_PART_1_OCR_URL = (
     "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+)
+LEGGE_SHEKING_1871_PART_1_HOCR_URL = (
+    "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_hocr.html"
 )
 LEGGE_SHEKING_1871_PART_2_ITEM_URL = "https://archive.org/details/chineseclassics42legg"
 LEGGE_SHEKING_1871_PART_2_OCR_URL = (
     "https://archive.org/download/chineseclassics42legg/chineseclassics42legg_djvu.txt"
 )
+LEGGE_SHEKING_1871_PART_2_HOCR_URL = (
+    "https://archive.org/download/chineseclassics42legg/chineseclassics42legg_hocr.html"
+)
 LEGGE_SHEKING_1871_OCR_ACCESS_DATE = "2026-05-30"
 LEGGE_SHEKING_1871_OCR_RAW_PATHS = {
     "part-1": Path("corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt"),
     "part-2": Path("corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt"),
+}
+LEGGE_SHEKING_1871_HOCR_RAW_PATHS = {
+    "part-1": Path("corpus/raw/internet_archive/legge-sheking-1871-part-1__hocr.html"),
+    "part-2": Path("corpus/raw/internet_archive/legge-sheking-1871-part-2__hocr.html"),
 }
 TITLE_ONLY_SORT_KEYS = {171, 172, 173, 176, 177, 178}
 
@@ -544,8 +557,13 @@ def section_paths(section: dict[str, Any]) -> dict[str, Path]:
     paths = {
         "zh_raw": RAW_DIR / f"{base_name}__{SOURCE_SUFFIX}__raw.wikitext",
         "en_raw": (
-            REPO_ROOT / Path(section["candidate_en_raw_path"])
-            if section["english_witness"] == "legge_ocr_reviewed"
+            REPO_ROOT
+            / Path(
+                section["candidate_en_hocr_path"]
+                if section["english_witness"] == "legge_hocr"
+                else section["candidate_en_raw_path"]
+            )
+            if section["english_witness"] in {"legge_ocr_reviewed", "legge_hocr"}
             else RAW_DIR / f"{base_name}__{target_suffix}__raw.wikitext"
         ),
         "zh_base": CHINESE_DIR / f"{base_name}__{SOURCE_SUFFIX}__base.txt",
@@ -576,19 +594,23 @@ def legge_ocr_witness_for_entry(entry: dict[str, Any]) -> dict[str, str]:
             "candidate_en_page_url": FULL_TEXT_WITNESS_URL,
             "candidate_en_text_url": FULL_TEXT_WITNESS_GUTENBERG_URL,
             "candidate_en_ocr_url": LEGGE_SHEKING_1871_PART_1_OCR_URL,
+            "candidate_en_hocr_url": LEGGE_SHEKING_1871_PART_1_HOCR_URL,
             "candidate_en_raw_path": str(LEGGE_SHEKING_1871_OCR_RAW_PATHS["part-1"]),
+            "candidate_en_hocr_path": str(LEGGE_SHEKING_1871_HOCR_RAW_PATHS["part-1"]),
             "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
             "candidate_en_backup_page_url": LEGGE_SHEKING_1871_PART_1_ITEM_URL,
-            "candidate_en_backup_source_id": "legge-sheking-1871-part-1-ocr",
+            "candidate_en_backup_source_id": "legge-sheking-1871-part-1-hocr",
         }
     return {
         "candidate_en_page_url": FULL_TEXT_WITNESS_URL,
         "candidate_en_text_url": FULL_TEXT_WITNESS_GUTENBERG_URL,
         "candidate_en_ocr_url": LEGGE_SHEKING_1871_PART_2_OCR_URL,
+        "candidate_en_hocr_url": LEGGE_SHEKING_1871_PART_2_HOCR_URL,
         "candidate_en_raw_path": str(LEGGE_SHEKING_1871_OCR_RAW_PATHS["part-2"]),
+        "candidate_en_hocr_path": str(LEGGE_SHEKING_1871_HOCR_RAW_PATHS["part-2"]),
         "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
         "candidate_en_backup_page_url": LEGGE_SHEKING_1871_PART_2_ITEM_URL,
-        "candidate_en_backup_source_id": "legge-sheking-1871-part-2-ocr",
+        "candidate_en_backup_source_id": "legge-sheking-1871-part-2-hocr",
     }
 
 
@@ -602,6 +624,21 @@ def fetch_legge_ocr_sources(*, skip_fetch: bool) -> dict[str, str]:
         "part-2": fetch_cached_text(
             LEGGE_SHEKING_1871_PART_2_OCR_URL,
             REPO_ROOT / LEGGE_SHEKING_1871_OCR_RAW_PATHS["part-2"],
+            skip_fetch=skip_fetch,
+        ),
+    }
+
+
+def fetch_legge_hocr_sources(*, skip_fetch: bool) -> dict[str, str]:
+    return {
+        "part-1": fetch_cached_text(
+            LEGGE_SHEKING_1871_PART_1_HOCR_URL,
+            REPO_ROOT / LEGGE_SHEKING_1871_HOCR_RAW_PATHS["part-1"],
+            skip_fetch=skip_fetch,
+        ),
+        "part-2": fetch_cached_text(
+            LEGGE_SHEKING_1871_PART_2_HOCR_URL,
+            REPO_ROOT / LEGGE_SHEKING_1871_HOCR_RAW_PATHS["part-2"],
             skip_fetch=skip_fetch,
         ),
     }
@@ -742,6 +779,31 @@ def map_sbe_page_title(title: str, chinese_catalog: list[dict[str, Any]]) -> dic
 def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witness: str) -> dict[str, Any]:
     if poem["sort_key"] == 1 and english_witness == "standalone_sheking":
         return dict(SECTION_CATALOG[0])
+    if english_witness == "legge_hocr":
+        witness = legge_ocr_witness_for_entry(poem)
+        return {
+            "section_id": section_id_for_catalog_entry(poem),
+            "label": poem["label"],
+            "canonical_ref": poem["canonical_ref"],
+            "sort_key": poem["sort_key"],
+            "major_division": poem["major_division"],
+            "subdivision": poem["subdivision"],
+            "poem_number": poem["local_index"],
+            "legge_section_alias": poem["label"],
+            "zh_page_url": poem["page_url"],
+            "zh_section_heading": poem["zh_section_heading"],
+            "en_page_url": witness["candidate_en_backup_page_url"],
+            "en_page_title": en_page_title,
+            "target_source_suffix": HOCR_TARGET_SOURCE_SUFFIX,
+            "english_witness": english_witness,
+            **witness,
+            "force_poem_alignment": True,
+            "reviewed_ocr_notes": (
+                "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; "
+                "translation lines are parsed conservatively from OCR layout, so stanza-level exact "
+                "alignment is only retained when a safe block match is available."
+            ),
+        }
     if english_witness == "legge_ocr_reviewed":
         witness = legge_ocr_witness_for_entry(poem)
         reviewed = REVIEWED_LEGGE_OCR_POEM_BLOCKS[poem["sort_key"]]
@@ -815,13 +877,13 @@ def build_section_catalog(*, skip_fetch: bool) -> list[dict[str, Any]]:
         mapped_sections.append(build_section_seed(poem, en_page_title=page_title, english_witness="sbe_shih"))
         seen_sort_keys.add(poem["sort_key"])
     for poem in chinese_catalog:
-        if poem["sort_key"] in seen_sort_keys or poem["sort_key"] not in ZHOUNAN_OCR_PILOT_SORT_KEYS:
+        if poem["sort_key"] in seen_sort_keys or poem["sort_key"] in TITLE_ONLY_SORT_KEYS:
             continue
         mapped_sections.append(
             build_section_seed(
                 poem,
-                en_page_title="James Legge, The She King (1871 OCR fallback)",
-                english_witness="legge_ocr_reviewed",
+                en_page_title="James Legge, The She King (1871 hOCR fallback)",
+                english_witness="legge_hocr",
             )
         )
         seen_sort_keys.add(poem["sort_key"])
@@ -949,7 +1011,10 @@ def extract_named_wikitext_section(raw_text: str, heading: str) -> str:
 def extract_chinese_poem_blocks(raw_text: str, section: dict[str, Any]) -> list[str]:
     section_text = extract_named_wikitext_section(raw_text, section["zh_section_heading"])
     if "<poem" in section_text:
-        return clean_poem_blocks(extract_poem_markup(section_text))
+        try:
+            return clean_poem_blocks(extract_poem_markup(section_text))
+        except ValueError:
+            pass
     blocks: list[list[str]] = []
     current_block: list[str] = []
     for raw_line in section_text.splitlines():
@@ -971,6 +1036,13 @@ def extract_chinese_poem_blocks(raw_text: str, section: dict[str, Any]) -> list[
         blocks.append(current_block)
     cleaned_blocks = ["\n".join(block) for block in blocks if block]
     if not cleaned_blocks:
+        fallback_lines = []
+        for raw_line in section_text.splitlines():
+            cleaned = clean_wikitext(raw_line.strip().lstrip(":")).strip()
+            if cleaned and re.search(r"[\u3400-\u9fff]", cleaned):
+                fallback_lines.append(cleaned)
+        if fallback_lines:
+            return ["\n".join(fallback_lines)]
         raise ValueError(f"Could not extract Chinese stanza blocks for {section['section_id']}")
     return cleaned_blocks
 
@@ -999,6 +1071,511 @@ def normalize_transliteration_spacing(text: str) -> str:
     return " ".join(combined)
 
 
+HOCR_NS = {"x": "http://www.w3.org/1999/xhtml"}
+PART1_BOOK_START_PAGES = {
+    "周南": 203,
+    "召南": 222,
+    "邶風": 240,
+    "鄘風": 275,
+    "衛風": 293,
+    "王風": 312,
+    "鄭風": 326,
+    "齊風": 352,
+    "魏風": 365,
+    "唐風": 376,
+    "秦風": 392,
+    "陳風": 407,
+    "檜風": 417,
+    "曹風": 422,
+    "豳風": 428,
+}
+PART2_BOOK_START_PAGES = {
+    "鹿鳴之什": 9,
+    "南有嘉魚之什": 32,
+    "鴻雁之什": 42,
+    "節南山之什": 62,
+    "谷風之什": 94,
+    "甫田之什": 124,
+    "魚藻之什": 150,
+    "都人士之什": 173,
+    "文王之什": 191,
+    "生民之什": 229,
+    "蕩之什": 269,
+    "清廟之什": 333,
+    "臣工之什": 346,
+    "閔予小子之什": 360,
+    "魯頌": 375,
+    "商頌": 395,
+}
+PART2_BOOK_START_SEQUENCE = [9, 32, 42, 62, 94, 124, 150, 173, 191, 229, 269, 333, 346, 360, 375, 395]
+PART2_BOOK_COUNTS = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 10, 10, 11, 4, 5]
+PART1_LINE_OVERRIDES: dict[tuple[str, int], tuple[int, int]] = {
+    ("周南", 1): (203, 4),
+    ("周南", 5): (210, 4),
+    ("周南", 9): (218, 4),
+    ("召南", 2): (224, 4),
+    ("邶風", 8): (253, 15),
+    ("衛風", 3): (296, 4),
+    ("齊風", 1): (352, 4),
+    ("魏風", 3): (367, 4),
+    ("魏風", 7): (373, 1),
+    ("秦風", 1): (392, 2),
+    ("陳風", 9): (415, 52),
+    ("曹風", 4): (426, 12),
+    ("豳風", 2): (435, 1),
+}
+PART2_LINE_OVERRIDES: dict[tuple[str, int], tuple[int, int]] = {}
+TITLE_STOPWORDS = {
+    "the",
+    "a",
+    "an",
+    "and",
+    "or",
+    "to",
+    "of",
+    "in",
+    "on",
+    "for",
+    "with",
+    "my",
+    "your",
+    "their",
+    "his",
+    "her",
+    "our",
+    "i",
+    "we",
+    "you",
+    "they",
+    "is",
+    "are",
+    "was",
+    "were",
+    "be",
+    "not",
+    "but",
+    "have",
+    "has",
+    "had",
+    "will",
+    "shall",
+    "all",
+    "there",
+    "those",
+    "these",
+    "this",
+    "that",
+    "what",
+    "how",
+    "who",
+    "whom",
+    "where",
+    "when",
+    "why",
+    "which",
+}
+TITLE_LINE_RE = re.compile(r"^(?:ODE\s+)?([A-Za-z0-9IVXLCDM ]{1,8})[\.:]\s+(.+)$", re.I)
+ROMAN_VALUE = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+
+
+def parse_hocr_bbox(title: str) -> tuple[int, int, int, int]:
+    match = re.search(r"bbox\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)", title)
+    if not match:
+        return (0, 0, 0, 0)
+    return tuple(int(match.group(index)) for index in range(1, 5))
+
+
+def roman_to_int(token: str) -> int | None:
+    if not token:
+        return None
+    total = 0
+    previous = 0
+    for char in reversed(token):
+        value = ROMAN_VALUE.get(char)
+        if value is None:
+            return None
+        if value < previous:
+            total -= value
+        else:
+            total += value
+            previous = value
+    return total
+
+
+def parse_hocr_numeral(token: str) -> int | None:
+    normalized = re.sub(r"[^A-Za-z0-9]", "", token).upper()
+    if not normalized:
+        return None
+    if normalized.isdigit():
+        return int(normalized)
+    normalized = normalized.replace("J", "I").replace("Y", "V")
+    explicit_fixes = {
+        "L": "I",
+        "H": "III",
+        "HI": "III",
+        "HN": "III",
+        "IY": "IV",
+        "VN": "VII",
+        "VNI": "VII",
+        "VIL": "VII",
+        "VIIL": "VIII",
+    }
+    normalized = explicit_fixes.get(normalized, normalized)
+    if normalized.endswith("L") and set(normalized) <= {"V", "I", "L"}:
+        normalized = normalized.replace("L", "I")
+    return roman_to_int(normalized)
+
+
+def adjust_hocr_number(number: int | None, token: str, expected_count: int) -> int | None:
+    if number is None:
+        return None
+    compact = re.sub(r"[^A-Za-z0-9]", "", token).upper()
+    if compact in {"L", "I"}:
+        return 1
+    if "VN" in compact:
+        return 7
+    if number > expected_count and number - 10 >= 1:
+        return number - 10
+    if number == 50:
+        return 1
+    return number if 1 <= number <= expected_count else None
+
+
+def looks_like_hocr_title(text: str) -> bool:
+    if text.startswith(("Bk. ", "BOOK ", "PART ", "THE SHE KING", "THE BOOK OF POETRY")):
+        return False
+    match = TITLE_LINE_RE.match(text)
+    if not match:
+        return False
+    rest = match.group(2).strip()
+    if any(character in rest for character in [",", ";", "?", "!", "—", "[", "]"]):
+        return False
+    tokens = [token for token in re.split(r"\s+", re.sub(r"[^A-Za-z'‘’`-]+", " ", rest.replace("^", " "))) if token]
+    if not tokens or len(tokens) > 7 or len(" ".join(tokens)) > 45:
+        return False
+    stopword_count = sum(1 for token in tokens if token.lower() in TITLE_STOPWORDS)
+    return stopword_count <= 1
+
+
+@functools.lru_cache(maxsize=2)
+def load_hocr_pages(part: str) -> dict[int, list[dict[str, Any]]]:
+    path = REPO_ROOT / LEGGE_SHEKING_1871_HOCR_RAW_PATHS[part]
+    pages: dict[int, list[dict[str, Any]]] = {}
+    current_page: int | None = None
+    current_lines: list[dict[str, Any]] = []
+    for event, elem in ET.iterparse(path, events=("start", "end")):
+        if event == "start" and elem.tag.endswith("div") and elem.attrib.get("class") == "ocr_page":
+            if current_page is not None:
+                pages[current_page] = current_lines
+            current_page = int(elem.attrib["id"].split("_")[-1])
+            current_lines = []
+            continue
+        if event != "end" or not elem.tag.endswith("span") or elem.attrib.get("class") != "ocr_line":
+            continue
+        title = elem.attrib.get("title", "")
+        fsize_match = re.search(r"x_fsize\s+([0-9.]+)", title)
+        fsize = float(fsize_match.group(1)) if fsize_match else 0.0
+        words = ["".join(word.itertext()) for word in elem.findall('.//x:span[@class="ocrx_word"]', HOCR_NS)]
+        text = normalize_english_line(" ".join(words))
+        if text:
+            x0, y0, x1, y1 = parse_hocr_bbox(title)
+            current_lines.append(
+                {
+                    "text": text,
+                    "fsize": fsize,
+                    "bbox": (x0, y0, x1, y1),
+                    "has_latin": bool(re.search(r"[A-Za-z]", text)),
+                    "has_chinese": bool(re.search(r"[\u3400-\u9fff]", text)),
+                }
+            )
+        elem.clear()
+    if current_page is not None:
+        pages[current_page] = current_lines
+    return pages
+
+
+def iter_hocr_title_candidates(part: str) -> list[dict[str, Any]]:
+    pages = load_hocr_pages(part)
+    candidates: list[dict[str, Any]] = []
+    for page_number, lines in sorted(pages.items()):
+        for line_index, line in enumerate(lines):
+            if not 8.5 <= line["fsize"] <= 14.5:
+                continue
+            if not looks_like_hocr_title(line["text"]):
+                continue
+            following = lines[line_index + 1 : line_index + 10]
+            if not any(candidate["fsize"] >= 18 for candidate in following):
+                continue
+            match = TITLE_LINE_RE.match(line["text"])
+            if match is None:
+                continue
+            candidates.append(
+                {
+                    "page": page_number,
+                    "line_index": line_index,
+                    "raw_number": parse_hocr_numeral(match.group(1)),
+                    "number_token": match.group(1),
+                    "title": normalize_transliteration_spacing(match.group(2).strip()),
+                }
+            )
+    return candidates
+
+
+def hocr_book_starts(part: str) -> dict[str, int]:
+    return PART1_BOOK_START_PAGES if part == "part-1" else PART2_BOOK_START_PAGES
+
+
+def hocr_line_overrides(part: str) -> dict[tuple[str, int], tuple[int, int]]:
+    return PART1_LINE_OVERRIDES if part == "part-1" else PART2_LINE_OVERRIDES
+
+
+@functools.lru_cache(maxsize=1)
+def compute_hocr_section_map() -> dict[int, dict[str, Any]]:
+    chinese_catalog = parse_chinese_catalog(skip_fetch=True)
+    section_map: dict[int, dict[str, Any]] = {}
+    book_starts = hocr_book_starts("part-1")
+    ordered_books = list(book_starts.items())
+    candidates = iter_hocr_title_candidates("part-1")
+    overrides = hocr_line_overrides("part-1")
+    for book_index, (subdivision, start_page) in enumerate(ordered_books):
+        end_page = ordered_books[book_index + 1][1] if book_index + 1 < len(ordered_books) else 9999
+        subdivision_entries = [entry for entry in chinese_catalog if entry["subdivision"] == subdivision]
+        book_entries = [entry for entry in subdivision_entries if entry["sort_key"] not in TITLE_ONLY_SORT_KEYS]
+        if not subdivision_entries or not book_entries:
+            continue
+        expected_count = max(entry["local_index"] for entry in subdivision_entries)
+        candidate_map: dict[int, dict[str, Any]] = {}
+        for candidate in candidates:
+            if not start_page <= candidate["page"] < end_page:
+                continue
+            number = adjust_hocr_number(candidate["raw_number"], candidate["number_token"], expected_count)
+            if number is None or number in candidate_map:
+                continue
+            candidate_map[number] = {**candidate, "number": number}
+        selected: list[dict[str, Any]] = []
+        for entry in book_entries:
+            poem_number = entry["local_index"]
+            override = overrides.get((subdivision, poem_number))
+            if override is not None:
+                page_number, line_index = override
+                candidate = {
+                    "page": page_number,
+                    "line_index": line_index,
+                    "number": poem_number,
+                    "title": entry["label"],
+                }
+            else:
+                candidate = candidate_map.get(poem_number)
+            if candidate is None:
+                raise ValueError(f"Could not derive hOCR boundary for {subdivision} ode {poem_number}")
+            selected.append({**candidate, "sort_key": entry["sort_key"], "subdivision": subdivision})
+        for item_index, item in enumerate(selected):
+            next_item = selected[item_index + 1] if item_index + 1 < len(selected) else {"page": end_page, "line_index": 0}
+            section_map[item["sort_key"]] = {
+                "part": "part-1",
+                "start_page": item["page"],
+                "start_line_index": item["line_index"],
+                "end_page": next_item["page"],
+                "end_line_index": next_item["line_index"],
+                "legge_section_alias": item["title"] or item["subdivision"],
+            }
+
+    part2_entries = [entry for entry in chinese_catalog if entry["major_division"] != "國風"]
+    part2_candidates = iter_hocr_title_candidates("part-2")
+    cursor = 0
+    ordered_positions: list[tuple[dict[str, Any], dict[str, Any]]] = []
+    for book_index, start_page in enumerate(PART2_BOOK_START_SEQUENCE):
+        end_page = PART2_BOOK_START_SEQUENCE[book_index + 1] if book_index + 1 < len(PART2_BOOK_START_SEQUENCE) else 9999
+        book_count = PART2_BOOK_COUNTS[book_index]
+        book_entries = part2_entries[cursor : cursor + book_count]
+        cursor += book_count
+        candidate_map: dict[int, dict[str, Any]] = {}
+        for candidate in part2_candidates:
+            if not start_page <= candidate["page"] < end_page:
+                continue
+            number = adjust_hocr_number(candidate["raw_number"], candidate["number_token"], book_count)
+            if number is None or number in candidate_map:
+                continue
+            candidate_map[number] = {**candidate, "number": number}
+        for position, entry in enumerate(book_entries, start=1):
+            candidate = candidate_map.get(position)
+            if candidate is None and entry["sort_key"] in TITLE_ONLY_SORT_KEYS:
+                continue
+            if candidate is None:
+                candidate = interpolate_hocr_position(
+                    position,
+                    known_positions=candidate_map,
+                    start_page=start_page,
+                    end_page=end_page,
+                    book_count=book_count,
+                )
+            ordered_positions.append((entry, candidate))
+    for item_index, (entry, item) in enumerate(ordered_positions):
+        if entry["sort_key"] in TITLE_ONLY_SORT_KEYS:
+            continue
+        next_item = ordered_positions[item_index + 1][1] if item_index + 1 < len(ordered_positions) else {"page": 9999, "line_index": 0}
+        section_map[entry["sort_key"]] = {
+            "part": "part-2",
+            "start_page": item["page"],
+            "start_line_index": item["line_index"],
+            "end_page": next_item["page"],
+            "end_line_index": next_item["line_index"],
+            "legge_section_alias": item["title"] or entry["label"],
+        }
+    return section_map
+
+
+def line_in_hocr_range(
+    page_number: int,
+    line_index: int,
+    *,
+    start_page: int,
+    start_line_index: int,
+    end_page: int,
+    end_line_index: int,
+) -> bool:
+    if page_number < start_page or page_number > end_page:
+        return False
+    if page_number == start_page and line_index < start_line_index:
+        return False
+    if page_number == end_page and line_index >= end_line_index:
+        return False
+    return page_number < end_page or end_line_index > 0
+
+
+def looks_like_commentary_line(text: str) -> bool:
+    lower = text.lower()
+    commentary_markers = (
+        "ode ",
+        "st. ",
+        "bk. ",
+        "book ",
+        "narrative.",
+        "the title",
+        "choo",
+        "maou",
+        "tso-",
+        "preface",
+    )
+    return any(marker in lower for marker in commentary_markers) or (len(text.split()) > 12 and "," in text)
+
+
+def looks_like_hocr_verse_line(text: str, fsize: float) -> bool:
+    if not 8.0 <= fsize <= 14.5:
+        return False
+    if text.startswith(("BOOK ", "Bk. ", "PART ", "THE SHE KING")):
+        return False
+    letters = re.sub(r"[^A-Za-z]", "", text)
+    if len(letters) < 5:
+        return False
+    tokens = re.findall(r"[A-Za-z]+", text)
+    if len(tokens) < 2 or max(len(token) for token in tokens) < 3:
+        return False
+    vowel_tokens = sum(1 for token in tokens if re.search(r"[AEIOUYaeiouy]", token))
+    if vowel_tokens / len(tokens) < 0.5:
+        return False
+    if len(letters) / max(len(text), 1) < 0.45:
+        return False
+    return not looks_like_commentary_line(text)
+
+
+def interpolate_hocr_position(
+    position: int,
+    *,
+    known_positions: dict[int, dict[str, Any]],
+    start_page: int,
+    end_page: int,
+    book_count: int,
+) -> dict[str, Any]:
+    lower_positions = [index for index in known_positions if index < position]
+    upper_positions = [index for index in known_positions if index > position]
+    lower = max(lower_positions) if lower_positions else None
+    upper = min(upper_positions) if upper_positions else None
+    if lower is not None and upper is not None:
+        lower_item = known_positions[lower]
+        upper_item = known_positions[upper]
+        span = upper - lower
+        offset = position - lower
+        page = round(lower_item["page"] + (upper_item["page"] - lower_item["page"]) * (offset / span))
+        if page == lower_item["page"] == upper_item["page"]:
+            line_index = round(lower_item["line_index"] + (upper_item["line_index"] - lower_item["line_index"]) * (offset / span))
+        else:
+            line_index = offset
+        return {"page": page, "line_index": max(0, line_index), "title": ""}
+    if upper is not None:
+        upper_item = known_positions[upper]
+        page = round(start_page + (upper_item["page"] - start_page) * (position / upper))
+        return {"page": page, "line_index": position, "title": ""}
+    if lower is not None:
+        lower_item = known_positions[lower]
+        remaining_slots = book_count + 1 - lower
+        page = round(lower_item["page"] + (end_page - lower_item["page"]) * ((position - lower) / remaining_slots))
+        return {"page": page, "line_index": position, "title": ""}
+    return {"page": start_page, "line_index": position, "title": ""}
+
+
+def extract_hocr_poem_blocks(section: dict[str, Any]) -> tuple[list[str], str]:
+    hocr_section = compute_hocr_section_map()[section["sort_key"]]
+    pages = load_hocr_pages(hocr_section["part"])
+    verse_lines: list[str] = []
+    current_block: list[str] = []
+    title_seen = False
+    for page_number in range(hocr_section["start_page"], hocr_section["end_page"] + 1):
+        for line_index, line in enumerate(pages.get(page_number, [])):
+            if not line_in_hocr_range(
+                page_number,
+                line_index,
+                start_page=hocr_section["start_page"],
+                start_line_index=hocr_section["start_line_index"],
+                end_page=hocr_section["end_page"],
+                end_line_index=hocr_section["end_line_index"],
+            ):
+                continue
+            text = normalize_english_line(line["text"])
+            if not text:
+                continue
+            if not title_seen:
+                title_seen = True
+                continue
+            if line["has_chinese"]:
+                continue
+            if not line["has_latin"]:
+                continue
+            if not looks_like_hocr_verse_line(text, line["fsize"]):
+                continue
+            if re.match(r"^\d+\s+", text) and current_block:
+                verse_lines.append("\n".join(current_block))
+                current_block = []
+            current_block.append(text)
+    if current_block:
+        verse_lines.append("\n".join(current_block))
+    cleaned = [block for block in verse_lines if block.strip()]
+    if not cleaned:
+        fallback_lines: list[str] = []
+        title_seen = False
+        for page_number in range(hocr_section["start_page"], hocr_section["end_page"] + 1):
+            for line_index, line in enumerate(pages.get(page_number, [])):
+                if not line_in_hocr_range(
+                    page_number,
+                    line_index,
+                    start_page=hocr_section["start_page"],
+                    start_line_index=hocr_section["start_line_index"],
+                    end_page=hocr_section["end_page"],
+                    end_line_index=hocr_section["end_line_index"],
+                ):
+                    continue
+                text = normalize_english_line(line["text"])
+                if not text:
+                    continue
+                if not title_seen:
+                    title_seen = True
+                    continue
+                if line["has_latin"] and 6.0 <= line["fsize"] <= 16.0 and not text.startswith(("BOOK ", "Bk. ", "PART ")):
+                    fallback_lines.append(text)
+        cleaned = ["\n".join(fallback_lines)] if fallback_lines else [section["label"]]
+    return cleaned, hocr_section["legge_section_alias"]
+
+
 def extract_rendered_text_lines(rendered_html: str) -> list[str]:
     stripped = re.sub(r"<style.*?</style>", " ", rendered_html, flags=re.S)
     stripped = re.sub(r"<sup.*?</sup>", " ", stripped, flags=re.S)
@@ -1025,6 +1602,9 @@ def extract_english_poem_blocks(
 ) -> tuple[list[str], str, str | None, str | None]:
     if section["english_witness"] == "standalone_sheking":
         return extract_english_poem_blocks_from_raw(raw_text), section["legge_section_alias"], section.get("pinyin_alias"), None
+    if section["english_witness"] == "legge_hocr":
+        blocks, legge_title = extract_hocr_poem_blocks(section)
+        return blocks, legge_title, section.get("pinyin_alias"), None
     if section["english_witness"] == "legge_ocr_reviewed":
         return list(section["reviewed_english_blocks"]), section["legge_section_alias"], section.get("pinyin_alias"), None
     if rendered_html is None:
@@ -1233,8 +1813,13 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
             "keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
             if section["english_witness"] == "legge_ocr_reviewed"
             else (
-            "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached "
-            "rendered HTML because the raw wikitext is only a <pages> transclusion."
+                "Generalized extraction preserves the shared Legge 1871 Internet Archive hOCR/raw witnesses and only "
+                "retains stanza-level exact alignment when the OCR-derived stanza blocks match the Chinese segmentation safely."
+                if section["english_witness"] == "legge_hocr"
+                else (
+                    "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached "
+                    "rendered HTML because the raw wikitext is only a <pages> transclusion."
+                )
             )
         )
     )
@@ -1270,9 +1855,10 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
                 else (
                     (
                         f"James Legge, The She King, '{section['legge_section_alias']}', Chinese Classics, Vol. IV "
-                        f"(1871), Internet Archive OCR witness, accessed {LEGGE_SHEKING_1871_OCR_ACCESS_DATE}."
+                        f"(1871), Internet Archive {'hOCR' if section['english_witness'] == 'legge_hocr' else 'OCR'} witness, "
+                        f"accessed {LEGGE_SHEKING_1871_OCR_ACCESS_DATE}."
                     )
-                    if section["english_witness"] == "legge_ocr_reviewed"
+                    if section["english_witness"] in {"legge_ocr_reviewed", "legge_hocr"}
                     else (
                         f"James Legge, The Shih, Sacred Books of the East, Vol. III, '{section['legge_section_alias']}', "
                         f"English Wikisource, accessed {ACCESS_DATE}."
@@ -1299,7 +1885,9 @@ def write_section_files(section: dict[str, Any], *, skip_fetch: bool) -> dict[st
     section["zh_page_url"] = resolved_zh_page_url
     paths["zh_raw"].write_text(zh_raw, encoding="utf-8")
 
-    if section["english_witness"] == "legge_ocr_reviewed":
+    if section["english_witness"] == "legge_hocr":
+        en_raw = fetch_cached_text(section["candidate_en_hocr_url"], paths["en_raw"], skip_fetch=skip_fetch)
+    elif section["english_witness"] == "legge_ocr_reviewed":
         en_raw = fetch_cached_text(section["candidate_en_ocr_url"], paths["en_raw"], skip_fetch=skip_fetch)
     else:
         en_raw = fetch_cached_text(page_to_raw_url(section["en_page_url"]), paths["en_raw"], skip_fetch=skip_fetch)
@@ -1399,6 +1987,8 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
 
     if not skip_fetch or any((REPO_ROOT / path).exists() for path in LEGGE_SHEKING_1871_OCR_RAW_PATHS.values()):
         fetch_legge_ocr_sources(skip_fetch=skip_fetch)
+    if not skip_fetch or any((REPO_ROOT / path).exists() for path in LEGGE_SHEKING_1871_HOCR_RAW_PATHS.values()):
+        fetch_legge_hocr_sources(skip_fetch=skip_fetch)
 
     for section_seed in build_section_catalog(skip_fetch=skip_fetch):
         result = write_section_files(dict(section_seed), skip_fetch=skip_fetch)

@@ -1,0 +1,23 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-yuzao-011__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,xiaoya-yuzao-011,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·011.1,"幡幡瓠葉，采之亨之。君子有酒，酌言嘗之。
+有兔斯首，炮之燔之。君子有酒，酌言獻之。
+有兔斯首，燔之炙之。君子有酒，酌言酢之。
+有兔斯首，燔之炮之。君子有酒，酌言醻之。",瓠葉.1,"1 Of the gourd leaves, waving about,
+Some are taken and boiled;
+[Then] the superior man, from his spirits,
+Pours out a cup, and tastes it.
+
+2 There is but a single rabbit,
+Baked, or roasted.
+[But] the superior man, from his spirits,
+Fills the cup and presents it [to his guests].
+
+3 There is but a single rabbit,
+Roasted, or broiled.
+[But] from the spirits of the superior man,
+[His guests] fill the cup, and present it to him.
+
+4 There is but a single rabbit,
+Roasted or baked.
+But] from the spirits of the superior man,
+'His guests and he] fill the cup and pledge one another."

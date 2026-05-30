@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-weifeng-state-002__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-state-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·魏風·002.1</prop>
+      <prop type="x-translation-ref">汾沮洳.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>彼汾沮洳，言采其莫。彼其之子，美無度；美無度，殊異乎公路。
+彼汾一方，言采其桑。彼其之子，美如英；美如英，殊異乎公行。
+彼汾一曲，言采其藚。彼其之子，美如玉；美如玉，殊異乎公族。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 There in the oozy grounds of the Hwun
+They gather the sorrel.
+Is elegant beyond measure.
+He is elegant beyond measure
+But, perhaps, he is not what the superintendent of the ruler^
+carriages ought to be.
+There along the side of the Hwun,
+They gather the mulberry leaves.
+That officer
+
+1 Of the peach trees m the garden</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

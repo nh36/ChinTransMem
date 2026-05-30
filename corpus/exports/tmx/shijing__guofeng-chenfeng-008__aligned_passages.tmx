@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-chenfeng-008__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-chenfeng-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·陳風·008.1</prop>
+      <prop type="x-translation-ref">月出.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>月出皎兮，佼人僚兮，舒窈糾兮，勞心悄兮。
+月出皓兮，佼人懰兮，舒懮受兮，勞心慅兮。
+月出照兮，佼人燎兮，舒夭紹兮，勞心慘兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 The moon comes forth in her brightn'ess;
+How lovely is that beautiful lady!
+O to have my deep longings for her releved!
+How anxious is my toiled hearti 、 •
+
+2 The moon comes forth in her splendour;
+How attractive is that, beautiful lady!
+O to liave my ^ixieties about her relieved!
+* How agitated is my toiled heart!
+
+3 The ihoon comes forth and shines; •
+How brilliant is that beautiful lady!
+
+0 to have the chains of my mind relaxed!
+How miserable is my toiled heart!
+X. Tsih jp‘o.
+By the shores q£ that marsh,
+There are rushes and lotus plants.
+There is the beautiful lady； —
+I am tortured for her, but what avails it ?
+Waking or sleeping, I do nothing;
+From my eyes and nose the water streams.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

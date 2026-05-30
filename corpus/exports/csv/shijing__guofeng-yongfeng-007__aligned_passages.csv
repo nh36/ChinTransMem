@@ -1,0 +1,17 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-yongfeng-007__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-yongfeng-007,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·鄘風·007.1,"蝃蝀在東，莫之敢指，女子有行，遠父母兄弟。
+朝隮于西，崇朝其雨，女子有行，遠兄弟父母。
+乃如之人也，懷昏姻也，大無信也，不知命也。",蝃蝀.1,"1 There is a rainbow in the east,
+And no one dares to point to it.
+When a girl goes away [from her home], '
+She separates from her parents and brothers.
+
+2 In the morning [a rainbow] rises in the west,
+And [only] during the morning is there rain.
+When a girl goes away [from her home],
+She separates from her brothers and parents.
+
+3 This person
+Has her heart only on being married.
+Greatly is she untrue to herself,
+And does not recognize [the law of] her lot."

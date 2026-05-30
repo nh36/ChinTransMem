@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-yuzao-001__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·001.1</prop>
+      <prop type="x-translation-ref">魚藻.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>魚在在藻，有頒其首。王在在鎬，豈樂飲酒。
+魚在在藻，有莘其尾。王在在鎬，飲酒樂豈。
+魚在在藻，依于其蒲。王在在鎬，有那其居。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 The fishes are there, there among the pondweed,
+Showing their large heads.
+The king is here, here in Haou,
+At ease and happy, while lie drinks.
+The fishes are there, there among the pondweed,
+Showing their long tails.
+DECADE OF SANG HOO.
+The king is here, here in Haou,
+Drinking, happy and at ease.
+
+3 The fishes are there, there among the pondweed,
+Sheltered by the rushes.
+The king is here, here in Haou,
+Dwelling in tranquillity.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

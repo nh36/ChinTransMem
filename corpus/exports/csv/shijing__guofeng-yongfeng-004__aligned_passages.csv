@@ -1,0 +1,26 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-yongfeng-004__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-yongfeng-004,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·鄘風·004.1,"爰采唐矣，沬之鄉矣，云誰之思，美孟姜矣，期我乎桑中，要我乎上宮，送我乎淇之上矣。
+爰采麥矣，沬之北矣，云誰之思，美孟弋矣，期我乎桑中，要我乎上宮，送我乎淇之上矣。
+爰采葑矣，沬之東矣，云誰之思，美孟庸矣，期我乎桑中，要我乎上宮，送我乎淇之上矣。",桑中.1,"1 I am going to gather the dodder,
+In the fields of Mei.
+But of whom are my thoughts?
+Of that beauty, the eldest of the Keang.
+She made an appointment with me in Sang-chung ;
+She will meet me in Shang-kung'；
+She will accompany me to Kce-shang.
+
+2 I am going to gather the wheat,
+In the north of Mei.
+But of whom are my thoughts ?
+Of* tli at beauty, the eldest of the Yih.
+She made an appointment with me in Sang-chung ;
+She will meet me in Shang-kung ；
+She will accompany me to K4e-shang.
+
+3 I am going to gather the mustard plant,
+In the east of Mei.
+But of whom are my thoughts?
+Of that beauty, the eldest of the Yung.
+She made an appointment with me in Sang-chung ;
+She will meet me in Shang-kung；
+She will accompany me to K(e-shang."

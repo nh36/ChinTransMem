@@ -1,0 +1,32 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-kuaifeng-003__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-kuaifeng-003,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·檜風·003.1,"隰有萇楚，猗儺其枝。夭之沃沃，樂子之無知。
+隰有萇楚，猗儺其華。夭之沃沃，樂子之無家。
+隰有萇楚，猗儺其實。夭之沃沃，樂子之無室。",隰有萇楚.1,"1 In the low wet grounds is the carambola tree;
+Soft and pliant are its branches,
+With the glossiness of tender beauty.
+I should rejoice to be like you, [0 tree], without consciousness.
+
+2 In the low, damp grounds is the carambola tree ;
+Soft and delicate are its flowers,
+With the glossiness of its tender beauty.
+I should rejoice to be like you, [0 tree], without a family.
+
+3 In the low, damp grounds is the carambola tree ;
+Soft and delicate is its fruit,
+With the glossiness of its tender beauty.
+I should rejoice to be like you, [0 tree], without a household.
+
+1 Not for the violence of the wind;
+Not for the rushing motion of a chariot; ——
+But when I look to the road to Chow,
+Am I pained to the core of my heart.
+
+2 Not for the whirlwind;
+Not for the irregular motion of a chariot;—
+But when I look to the road to Chow,
+Am I sad to the core of my heart.
+
+3 Who can cook fish?
+I will wash his boilers for him.
+Who will loyally go to the west?
+I will cheer him with good words."

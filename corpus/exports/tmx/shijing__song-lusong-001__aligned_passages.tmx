@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-lusong-001__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">song-lusong-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·頌·魯頌·001.1</prop>
+      <prop type="x-translation-ref">駉.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>駉駉牡馬，在坰之野。
+薄言駉者，有驈有皇，有驪有黃，以車彭彭。
+思無疆，思馬斯臧。
+
+駉駉牡馬，在坰之野。
+薄言駉者，有騅有駓，有騂有騏，以車伾伾。
+思無期，思馬斯才。
+
+駉駉牡馬，在坰之野。
+薄言駉者，有驒有駱，有駵有雒，以車繹繹。
+思無斁，思馬斯作。
+
+駉駉牡馬，在坰之野。
+薄言駉者，有駰有騢，有驔有魚，以車祛祛。
+思無邪，思馬斯徂。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>3 Fat and large are the stallions,
+On the plains of the far-distant borders.
+Of those stallions fat and large,
+Some are flecked as with scales; some, white and black-maned;
+Some, red and black-maned； some, black and white-maned;
+[All], docile in the carriage,
+His thoughts never weary; —
+He thinks of his horses, and such they become.
+
+4 Fat and large are the stallions,
+On the plains of the far-distant borders.
+Of those stallions, fat and large,
+Some are cream-coloured; some, red and white;
+Some, with white hairy legs; some, with fishes? eyes；
+[All], stout carriage horses.
+His thoughts are without depravity; —
+He thinks of his horses, and thus serviceable are they.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

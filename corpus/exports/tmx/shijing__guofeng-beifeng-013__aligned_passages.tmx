@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-beifeng-013__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·013.1</prop>
+      <prop type="x-translation-ref">簡兮.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>簡兮簡兮，方將萬舞，日之方中，在前上處，碩人俁俁，公庭萬舞。
+有力如虎，執轡如組，左手執籥，右手秉翟，赫如渥赭，公言錫爵。
+山有榛，隰有苓，云誰之思，西方美人，彼美人兮，西方之人兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Easy and indifferent ! easy and indifferent !
+I am ready to perform in all dances,
+Then when the sun is in the meridian,
+There in that conspicuous place.
+
+2 With my large figure,
+I dance in the ducal courtyard.
+I am strong [also] as a tiger ；
+The reins are in my grasp like ribbons.
+
+3 In my left hand I grasp a flute；
+In my right I hold a pheasants feather.
+I am red as if I were rouged ;
+The duke gives me a cup [of spirits].
+
+4 The hazel grows on the hills,
+And the liquorice in the marshes.
+Of whom are my thoughts?
+Of the fine men of the west.
+O those fine men !
+Those men of the west !</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

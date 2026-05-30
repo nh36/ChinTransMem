@@ -1,0 +1,25 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-binfeng-002__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-binfeng-002,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·豳風·002.1,"鴟鴞鴟鴞，既取我子，無毀我室！恩斯勤斯，鬻子之閔斯。
+迨天之未陰雨，徹彼桑土。綢繆牖戶。今女下民，或敢侮予。
+予手拮据，予所捋荼。予所蓄租，予口卒瘏。曰予未有室家。
+予羽譙譙，予尾翛翛。予室翹翹，風雨所漂搖。予維音嘵嘵。",鴟鴞.1,"You have taken my young ones；—
+Do not [also] destroy my nest.
+With love and with toil
+I nourished them.— I am to
+be pitied.
+
+2 Before the sky was dark 'with rain,
+I gathered the roots of the mulberry tree,
+And bound round and round my window and door.
+Now ye people below,
+Dare any of you despise my house?
+
+3 With my claws I tore and held.
+Through the rushes which 1 gathered,
+And all the materials I collected,
+
+4 My wings are all-injured;
+My tail is all-broken ；
+My house is in a perilous condition ;
+It is tossed about in the wind and rain : —
+I can but cry out with this note of alarm."

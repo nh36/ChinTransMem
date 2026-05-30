@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-tangfeng-001__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-tangfeng-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·001.1</prop>
+      <prop type="x-translation-ref">蟋蟀.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蟋蟀在堂，歲聿其莫。今我不樂，日月其除。無已大康，職思其居。好樂無荒，良士瞿瞿。
+蟋蟀在堂，歲聿其逝。今我不樂，日月其邁。無已大康，職思其外。好樂無荒，良士蹶蹶。
+蟋蟀在堂，役車其休。今我不樂，日月其慆。無已大康，職思其憂。好樂無荒，良士休休。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 The cricket is in the ball,
+And the year is drawing to a close.
+If we do not enjoy ourselves now,
+The days and months will be leaving us.
+But let us not go to great excess；
+Let us first think of the duties of our position ;
+Let us not be wild in our love of enjoyment.
+The good man is anxiously thoughtful.
+
+2 The cricket is in the hall,
+And the year is passing away.
+If we do not enjoy ourselves now,
+The days and months will have gone.
+But let us not go to great excess;
+Let us first send our thoughts beyond the present;
+Let us not be wild in our love of enjoyment.
+The good man is ever diligent.
+
+3 The cricket is in the hall,
+And our carts stand unemployed.
+If we do not enjoy ourselves now,
+The days and months will have gone by,
+But let us not go to an excess;
+Let us fii^st think of the griefs that may arise;
+Let us not be wild in our love of enjoyment.
+The good man is quiet and serene.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

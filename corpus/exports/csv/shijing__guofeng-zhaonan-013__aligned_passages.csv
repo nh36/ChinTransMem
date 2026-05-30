@@ -1,0 +1,28 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhaonan-013__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-zhaonan-013,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·召南·013.1,"何彼穠矣，唐棣之華，曷不肅雝，王姬之車。
+何彼穠矣，華如桃李，平王之孫，齊侯之子。
+其釣維何，維絲伊緡，齊侯之子，平王之孫。
+
+何：驚歎詞。何其。
+穠：猶戎戎也。（《羣經治要》卷三）或作襛、茙。戎戎，形容大。此處作形容詞形容後面的唐棣之華。
+唐棣：栘也。（《羣經治要》卷三），一名常棣、棠棣、鬱李。今名鬱李。
+華：花。
+肅，敬也。（《羣經治要》卷三）
+雝，和也。（《羣經治要》卷三）
+曷，何也。（《羣經治要》卷三）
+車：按王先謙考證，此天子、大夫嫁娶時留車反馬之禮。女方嫁至男方時所乘之車，到達後歸屬於男方家庭，但所用之馬則要退還給女方。
+華如桃李：比喻鬱李的華茂盛如桃李一般。
+平：按鄭玄《毛詩傳》；平，正也。正王，正統的君主。此處非周平王。
+伊：同維。維、伊皆語詞，無意義。
+緡：魚線。釣魚用的線。",何彼穠矣.1,"1 Strong and abundant grow the rushes ;
+He discharges [but] one arrow at live wild boars.
+Ah! he is the Tsow-yu!
+
+2 Strong and abundant grows the artemisia;
+He discharges [but] one arrow at five wild boars.
+Ah! he is the Tsow-vu!
+
+3 What are used in angling?
+Silk threads formed into lines.
+The son of the reverent marquis,
+And the gran d-daugli ter of the tranquillizing king!"

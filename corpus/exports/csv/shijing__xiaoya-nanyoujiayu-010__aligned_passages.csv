@@ -1,0 +1,69 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-nanyoujiayu-010__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,xiaoya-nanyoujiayu-010,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·南有嘉魚之什·010.1,"六月棲棲，戎車既飭。四牡騤騤，載是常服。
+玁狁孔熾，我是用急。王于出征，以匡王國。
+
+比物四驪，閑之維則。維此六月，既成我服。
+我服既成，于三十里。王于出征，以佐天子。
+
+四牡脩廣，其大有顒。薄伐玁狁，以奏膚公。
+有嚴有翼，共武之服。共武之服，以定王國。
+
+玁狁匪茹，整居焦穫。侵鎬及方，至于涇陽。
+織文鳥章，白斾央央。元戎十乘，以先啟行。
+
+戎車既安，如輊如軒。四牡既佶，既佶且閑。
+薄伐玁狁，至于大原。文武吉甫，萬邦為憲。
+
+吉甫燕喜，既多受祉。來歸自鎬，我行永久。
+飲御諸友，炰鱉膾鯉。侯誰在矣？張仲孝友。",六月.1,"1 In the sixth month all was bustle and excitement.
+The war carriages had been made ready,
+With the four steeds [of each], strong and eager ;
+And the regular accoutrements had been placed in the car-
+The Heen-yun were in blazing force,
+And thence was the urgency.
+The king had ordered the expedition,
+To deliver the rojal kingdom.
+Matched in strength were the four black steeds,
+Well trained to observe every rule.
+On this sixth month,
+We completed our accoutrements.
+Our accoutrements were compteted,
+And we marched thirty le [every day].
+The king had ordered the expedition,
+To help the son of Heaven.
+The four steeds were long, and stout,
+And large-headed.
+We smote the Heen-yun,
+And achieved great merit.
+Severely strict and careful [was our leader],
+Discharging his military service, —
+Discharging his military service,
+And settling thereby the royal kingdom.
+DECADE OF T‘UNG KUNG.
+
+4 Badly reckoned the Heen-yun,
+When they confidently occupied Tseaou and Hwoh,
+And overran Haou and Fang,
+As far as to the north of the King.
+On our flags was their blazonry of birds,
+While their white streamers fluttered brightly.
+Ten large war chariots
+Led the way in front.
+
+5 The war carriages were well made.
+Nicely balanced, before and behind.
+Their four steeds were strong,
+Both strong and well trained.
+We smote the Heen-yun,
+As far as T4ae-yuen.
+For peace or for war fit is Keih-foo,
+A pattern to all the States.
+
+6 Keih-foo feasts and is glad;
+Great happiness is his.
+In returning from Haou,
+Distant and long had been our march.
+He entertains and feasts his friends,
+With roast turtle and minced carp.
+And who are there?
+There is Chang Chung, the filial and brotherly."

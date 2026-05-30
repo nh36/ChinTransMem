@@ -1,0 +1,22 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-beifeng-002__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-beifeng-002,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·邶風·002.1,"綠兮衣兮，綠衣黃裏，心之憂矣，曷維其已。
+綠兮衣兮，綠衣黃裳，心之憂矣，曷維其亡。
+綠兮絲兮，女所治兮，我思古人，俾無訧兮。
+絺兮綌兮，淒其以風，我思古人，實獲我心。",綠衣.1,"1 Green is the upper robe,
+Green with a yellow lining !
+How can it cease?
+
+2 Green is the upper robe；
+Green the upper, and yellow the lower garment!
+The sorrow of my heart, —
+How can it be forgotten ?
+
+3 [Dyed] green lias been the silk; —
+It was you wlio did it.
+[But] I think of the ancients,
+That I may be kept from doing wrong.
+
+4 Linen, fine or coarse,
+Is cold when worn in the wind.
+I think of the ancients,
+And find what is in my heart."

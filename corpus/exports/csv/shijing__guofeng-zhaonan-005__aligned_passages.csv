@@ -1,0 +1,17 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhaonan-005__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-zhaonan-005,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·召南·005.1,"蔽芾甘棠，勿翦勿伐，召伯所茇。
+蔽芾甘棠，勿翦勿敗，召伯所憇。
+蔽芾甘棠，勿翦勿拜，召伯所說。",甘棠.1,"1 [This] umbrageous sweet pear-tree
+Clip it not, hew it not down.
+Under it the chief of Sliaou lodged.
+
+2 [This] umbrageous sweet pear-tree
+Clip it not, bi*eak not a twig of it.
+Under it the chief of Sliaou rested.
+
+3 [This] umbrageous svreet pear-tree
+Clip it not, bend not a twig of it.
+Under it tlie chief of Sliaou halted.
+
+3 Who can say that the rat has no molar teeth?
+How else could it bore through my wall?"

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-beifeng-016__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-016</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·016.1</prop>
+      <prop type="x-translation-ref">北風.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>北風其涼，雨雪其雱，
+惠而好我，攜手同行，【韻：雱行】
+其虛其邪，既亟只且。
+
+北風其喈，雨雪其霏，
+惠而好我，攜手同歸，【韻：霏歸】
+其虛其邪，既亟只且。
+
+莫赤匪狐，莫黑匪烏，
+惠而好我，攜手同車，【韻：烏車】
+其虛其邪，既亟只且。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Cold blows the north wind ;
+Thick falls the snow.
+Ye who love and regard me,
+Let us join hands and go together.
+Is it a time for delay?
+The urgency is extreme!
+
+2 The north wind whistles;
+The snow falls and drifts about.
+Ye who love and regard me,
+Let us join hands, and go away for ever.
+Is it a time for delay?
+The urgency is extreme!
+
+3 Nothing red is seen but foxes,
+Nothing black but crows.
+Ye who love and regard me,
+Let us join hands, and go together in our carriages.
+Is it a time for delay?
+The urgency is extreme!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-007__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·007.1</prop>
+      <prop type="x-translation-ref">湛露.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>湛湛露斯，匪陽不晞。厭厭夜飲，不醉無歸。
+湛湛露斯，在彼豐草。厭厭夜飲，在宗載考。
+湛湛露斯，在彼杞棘。顯允君子，莫不令德。
+其桐其椅，其實離離。豈弟君子，莫不令儀。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Heavy lies the dew;
+Nothing but the sun can dry it.
+Happily and long into the night we drink； —
+Till all are drunk, there is no retiring.
+
+2 Heavy lies the dew,
+On that luxuriant grass.
+Happily and long into the night we drink; —
+In the honoured apartment we complete our carousal.
+
+3 Heavy lies the dew,
+On those willows and jujube trees.
+Every one of excellent virtue.
+
+4 From the tlung and the e
+Their fruit hangs down.
+Happy and self-possessed are my noble guests, —
+Every one of them of excellent deportment.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

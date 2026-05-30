@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-weifeng-state-007__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-state-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·魏風·007.1</prop>
+      <prop type="x-translation-ref">碩鼠.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>碩鼠碩鼠，無食我黍！三歲貫女，莫我肯顧。逝將去女，適彼樂土。樂土樂土，爰得我所。
+碩鼠碩鼠，無食我麥！三歲貫女，莫我肯德。逝將去女，適彼樂國。樂國樂國，爰得我直。
+碩鼠碩鼠，無食我苗！三歲貫女，莫我肯勞。逝將去女，適彼樂郊。樂郊樂郊，誰之永號。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Large rats! Large rats!
+Do not eat our millet.
+Three years have we had to do with you,
+And you have not been willing to show any regard for us.
+rul 'ds
+We will leave you,
+And go to that happy land.
+Happy land! Happy land!
+There shall we find our place.
+
+2 Large rats ! Large rats !
+Do not eat our wheat.
+Three years have we had to do with you,
+And you have not been willing to show any kindness to us.
+We will leave you,
+And go to that happy State.
+Happy State ! Happy State !
+There shall we find ourselves right.
+
+3 Large rats ! Large rats !
+Do not eat our springing grain!
+Three years have we had to do with you,
+And you have not been willing to think of our toil.
+We will leave you,
+And go to those happy borders,
+Happy borders! Happy borders!
+Who will there make us always to groan ?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

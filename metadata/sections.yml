@@ -321,7 +321,7 @@
     "label": "葛覃",
     "canonical_ref": "詩經·國風·周南·002",
     "sort_key": 2,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhounan-003",
@@ -330,7 +330,7 @@
     "label": "卷耳",
     "canonical_ref": "詩經·國風·周南·003",
     "sort_key": 3,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhounan-004",
@@ -339,7 +339,7 @@
     "label": "樛木",
     "canonical_ref": "詩經·國風·周南·004",
     "sort_key": 4,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhounan-005",
@@ -348,7 +348,7 @@
     "label": "螽斯",
     "canonical_ref": "詩經·國風·周南·005",
     "sort_key": 5,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhounan-006",
@@ -357,7 +357,7 @@
     "label": "桃夭",
     "canonical_ref": "詩經·國風·周南·006",
     "sort_key": 6,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhounan-007",
@@ -366,7 +366,7 @@
     "label": "兔罝",
     "canonical_ref": "詩經·國風·周南·007",
     "sort_key": 7,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhounan-008",
@@ -375,7 +375,7 @@
     "label": "芣苢",
     "canonical_ref": "詩經·國風·周南·008",
     "sort_key": 8,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhounan-009",
@@ -384,7 +384,7 @@
     "label": "漢廣",
     "canonical_ref": "詩經·國風·周南·009",
     "sort_key": 9,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhounan-010",
@@ -393,7 +393,7 @@
     "label": "汝墳",
     "canonical_ref": "詩經·國風·周南·010",
     "sort_key": 10,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhounan-011",
@@ -402,7 +402,7 @@
     "label": "麟之趾",
     "canonical_ref": "詩經·國風·周南·011",
     "sort_key": 11,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-001",
@@ -411,7 +411,7 @@
     "label": "鵲巢",
     "canonical_ref": "詩經·國風·召南·001",
     "sort_key": 12,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-002",
@@ -429,7 +429,7 @@
     "label": "草蟲",
     "canonical_ref": "詩經·國風·召南·003",
     "sort_key": 14,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-004",
@@ -447,7 +447,7 @@
     "label": "甘棠",
     "canonical_ref": "詩經·國風·召南·005",
     "sort_key": 16,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-006",
@@ -456,7 +456,7 @@
     "label": "行露",
     "canonical_ref": "詩經·國風·召南·006",
     "sort_key": 17,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-007",
@@ -465,7 +465,7 @@
     "label": "羔羊",
     "canonical_ref": "詩經·國風·召南·007",
     "sort_key": 18,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-008",
@@ -474,7 +474,7 @@
     "label": "殷其靁",
     "canonical_ref": "詩經·國風·召南·008",
     "sort_key": 19,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-009",
@@ -483,7 +483,7 @@
     "label": "摽有梅",
     "canonical_ref": "詩經·國風·召南·009",
     "sort_key": 20,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-010",
@@ -492,7 +492,7 @@
     "label": "小星",
     "canonical_ref": "詩經·國風·召南·010",
     "sort_key": 21,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-011",
@@ -501,7 +501,7 @@
     "label": "江有汜",
     "canonical_ref": "詩經·國風·召南·011",
     "sort_key": 22,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-012",
@@ -510,7 +510,7 @@
     "label": "野有死麕",
     "canonical_ref": "詩經·國風·召南·012",
     "sort_key": 23,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-013",
@@ -519,7 +519,7 @@
     "label": "何彼穠矣",
     "canonical_ref": "詩經·國風·召南·013",
     "sort_key": 24,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhaonan-014",
@@ -528,7 +528,7 @@
     "label": "騶虞",
     "canonical_ref": "詩經·國風·召南·014",
     "sort_key": 25,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-001",
@@ -537,7 +537,7 @@
     "label": "柏舟",
     "canonical_ref": "詩經·國風·邶風·001",
     "sort_key": 26,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-002",
@@ -546,7 +546,7 @@
     "label": "綠衣",
     "canonical_ref": "詩經·國風·邶風·002",
     "sort_key": 27,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-003",
@@ -555,7 +555,7 @@
     "label": "燕燕",
     "canonical_ref": "詩經·國風·邶風·003",
     "sort_key": 28,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-004",
@@ -573,7 +573,7 @@
     "label": "終風",
     "canonical_ref": "詩經·國風·邶風·005",
     "sort_key": 30,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-006",
@@ -582,7 +582,7 @@
     "label": "擊鼓",
     "canonical_ref": "詩經·國風·邶風·006",
     "sort_key": 31,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-007",
@@ -591,7 +591,7 @@
     "label": "凱風",
     "canonical_ref": "詩經·國風·邶風·007",
     "sort_key": 32,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-008",
@@ -600,7 +600,7 @@
     "label": "雄雉",
     "canonical_ref": "詩經·國風·邶風·008",
     "sort_key": 33,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-009",
@@ -609,7 +609,7 @@
     "label": "匏有苦葉",
     "canonical_ref": "詩經·國風·邶風·009",
     "sort_key": 34,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-010",
@@ -618,7 +618,7 @@
     "label": "谷風",
     "canonical_ref": "詩經·國風·邶風·010",
     "sort_key": 35,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-011",
@@ -627,7 +627,7 @@
     "label": "式微",
     "canonical_ref": "詩經·國風·邶風·011",
     "sort_key": 36,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-012",
@@ -636,7 +636,7 @@
     "label": "旄丘",
     "canonical_ref": "詩經·國風·邶風·012",
     "sort_key": 37,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-013",
@@ -645,7 +645,7 @@
     "label": "簡兮",
     "canonical_ref": "詩經·國風·邶風·013",
     "sort_key": 38,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-014",
@@ -654,7 +654,7 @@
     "label": "泉水",
     "canonical_ref": "詩經·國風·邶風·014",
     "sort_key": 39,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-015",
@@ -672,7 +672,7 @@
     "label": "北風",
     "canonical_ref": "詩經·國風·邶風·016",
     "sort_key": 41,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-017",
@@ -681,7 +681,7 @@
     "label": "靜女",
     "canonical_ref": "詩經·國風·邶風·017",
     "sort_key": 42,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-018",
@@ -690,7 +690,7 @@
     "label": "新臺",
     "canonical_ref": "詩經·國風·邶風·018",
     "sort_key": 43,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-beifeng-019",
@@ -699,7 +699,7 @@
     "label": "二子乘舟",
     "canonical_ref": "詩經·國風·邶風·019",
     "sort_key": 44,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-yongfeng-001",
@@ -717,7 +717,7 @@
     "label": "牆有茨",
     "canonical_ref": "詩經·國風·鄘風·002",
     "sort_key": 46,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-yongfeng-003",
@@ -735,7 +735,7 @@
     "label": "桑中",
     "canonical_ref": "詩經·國風·鄘風·004",
     "sort_key": 48,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-yongfeng-005",
@@ -744,7 +744,7 @@
     "label": "鶉之奔奔",
     "canonical_ref": "詩經·國風·鄘風·005",
     "sort_key": 49,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-yongfeng-006",
@@ -762,7 +762,7 @@
     "label": "蝃蝀",
     "canonical_ref": "詩經·國風·鄘風·007",
     "sort_key": 51,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-yongfeng-008",
@@ -771,7 +771,7 @@
     "label": "相鼠",
     "canonical_ref": "詩經·國風·鄘風·008",
     "sort_key": 52,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-yongfeng-009",
@@ -780,7 +780,7 @@
     "label": "干旄",
     "canonical_ref": "詩經·國風·鄘風·009",
     "sort_key": 53,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-yongfeng-010",
@@ -789,7 +789,7 @@
     "label": "載馳",
     "canonical_ref": "詩經·國風·鄘風·010",
     "sort_key": 54,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-001",
@@ -798,7 +798,7 @@
     "label": "淇奧",
     "canonical_ref": "詩經·國風·衛風·001",
     "sort_key": 55,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-002",
@@ -807,7 +807,7 @@
     "label": "考槃",
     "canonical_ref": "詩經·國風·衛風·002",
     "sort_key": 56,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-003",
@@ -816,7 +816,7 @@
     "label": "碩人",
     "canonical_ref": "詩經·國風·衛風·003",
     "sort_key": 57,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-004",
@@ -834,7 +834,7 @@
     "label": "竹竿",
     "canonical_ref": "詩經·國風·衛風·005",
     "sort_key": 59,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-006",
@@ -843,7 +843,7 @@
     "label": "芄蘭",
     "canonical_ref": "詩經·國風·衛風·006",
     "sort_key": 60,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-007",
@@ -852,7 +852,7 @@
     "label": "河廣",
     "canonical_ref": "詩經·國風·衛風·007",
     "sort_key": 61,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-008",
@@ -861,7 +861,7 @@
     "label": "伯兮",
     "canonical_ref": "詩經·國風·衛風·008",
     "sort_key": 62,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-009",
@@ -870,7 +870,7 @@
     "label": "有狐",
     "canonical_ref": "詩經·國風·衛風·009",
     "sort_key": 63,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-010",
@@ -879,7 +879,7 @@
     "label": "木瓜",
     "canonical_ref": "詩經·國風·衛風·010",
     "sort_key": 64,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-wangfeng-001",
@@ -897,7 +897,7 @@
     "label": "君子于役",
     "canonical_ref": "詩經·國風·王風·002",
     "sort_key": 66,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-wangfeng-003",
@@ -906,7 +906,7 @@
     "label": "君子陽陽",
     "canonical_ref": "詩經·國風·王風·003",
     "sort_key": 67,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-wangfeng-004",
@@ -915,7 +915,7 @@
     "label": "揚之水",
     "canonical_ref": "詩經·國風·王風·004",
     "sort_key": 68,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-wangfeng-005",
@@ -924,7 +924,7 @@
     "label": "中谷有蓷",
     "canonical_ref": "詩經·國風·王風·005",
     "sort_key": 69,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-wangfeng-006",
@@ -933,7 +933,7 @@
     "label": "兔爰",
     "canonical_ref": "詩經·國風·王風·006",
     "sort_key": 70,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-wangfeng-007",
@@ -942,7 +942,7 @@
     "label": "葛藟",
     "canonical_ref": "詩經·國風·王風·007",
     "sort_key": 71,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-wangfeng-008",
@@ -951,7 +951,7 @@
     "label": "采葛",
     "canonical_ref": "詩經·國風·王風·008",
     "sort_key": 72,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-wangfeng-009",
@@ -969,7 +969,7 @@
     "label": "丘中有麻",
     "canonical_ref": "詩經·國風·王風·010",
     "sort_key": 74,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-001",
@@ -978,7 +978,7 @@
     "label": "緇衣",
     "canonical_ref": "詩經·國風·鄭風·001",
     "sort_key": 75,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-002",
@@ -987,7 +987,7 @@
     "label": "將仲子",
     "canonical_ref": "詩經·國風·鄭風·002",
     "sort_key": 76,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-003",
@@ -996,7 +996,7 @@
     "label": "叔于田",
     "canonical_ref": "詩經·國風·鄭風·003",
     "sort_key": 77,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-004",
@@ -1005,7 +1005,7 @@
     "label": "大叔于田",
     "canonical_ref": "詩經·國風·鄭風·004",
     "sort_key": 78,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-005",
@@ -1014,7 +1014,7 @@
     "label": "清人",
     "canonical_ref": "詩經·國風·鄭風·005",
     "sort_key": 79,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-006",
@@ -1023,7 +1023,7 @@
     "label": "羔裘",
     "canonical_ref": "詩經·國風·鄭風·006",
     "sort_key": 80,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-007",
@@ -1032,7 +1032,7 @@
     "label": "遵大路",
     "canonical_ref": "詩經·國風·鄭風·007",
     "sort_key": 81,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-008",
@@ -1041,7 +1041,7 @@
     "label": "女曰鷄鳴",
     "canonical_ref": "詩經·國風·鄭風·008",
     "sort_key": 82,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-009",
@@ -1050,7 +1050,7 @@
     "label": "有女同車",
     "canonical_ref": "詩經·國風·鄭風·009",
     "sort_key": 83,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-010",
@@ -1059,7 +1059,7 @@
     "label": "山有扶蘇",
     "canonical_ref": "詩經·國風·鄭風·010",
     "sort_key": 84,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-011",
@@ -1068,7 +1068,7 @@
     "label": "蘀兮",
     "canonical_ref": "詩經·國風·鄭風·011",
     "sort_key": 85,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-012",
@@ -1077,7 +1077,7 @@
     "label": "狡童",
     "canonical_ref": "詩經·國風·鄭風·012",
     "sort_key": 86,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-013",
@@ -1086,7 +1086,7 @@
     "label": "褰裳",
     "canonical_ref": "詩經·國風·鄭風·013",
     "sort_key": 87,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-014",
@@ -1095,7 +1095,7 @@
     "label": "丰",
     "canonical_ref": "詩經·國風·鄭風·014",
     "sort_key": 88,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-015",
@@ -1104,7 +1104,7 @@
     "label": "東門之墠",
     "canonical_ref": "詩經·國風·鄭風·015",
     "sort_key": 89,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-016",
@@ -1113,7 +1113,7 @@
     "label": "風雨",
     "canonical_ref": "詩經·國風·鄭風·016",
     "sort_key": 90,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-017",
@@ -1122,7 +1122,7 @@
     "label": "子衿",
     "canonical_ref": "詩經·國風·鄭風·017",
     "sort_key": 91,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-018",
@@ -1131,7 +1131,7 @@
     "label": "揚之水",
     "canonical_ref": "詩經·國風·鄭風·018",
     "sort_key": 92,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-019",
@@ -1140,7 +1140,7 @@
     "label": "出其東門",
     "canonical_ref": "詩經·國風·鄭風·019",
     "sort_key": 93,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-020",
@@ -1149,7 +1149,7 @@
     "label": "野有蔓草",
     "canonical_ref": "詩經·國風·鄭風·020",
     "sort_key": 94,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-zhengfeng-021",
@@ -1158,7 +1158,7 @@
     "label": "溱洧",
     "canonical_ref": "詩經·國風·鄭風·021",
     "sort_key": 95,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-001",
@@ -1167,7 +1167,7 @@
     "label": "雞鳴",
     "canonical_ref": "詩經·國風·齊風·001",
     "sort_key": 96,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-002",
@@ -1176,7 +1176,7 @@
     "label": "還",
     "canonical_ref": "詩經·國風·齊風·002",
     "sort_key": 97,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-003",
@@ -1185,7 +1185,7 @@
     "label": "著",
     "canonical_ref": "詩經·國風·齊風·003",
     "sort_key": 98,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-004",
@@ -1194,7 +1194,7 @@
     "label": "東方之日",
     "canonical_ref": "詩經·國風·齊風·004",
     "sort_key": 99,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-005",
@@ -1203,7 +1203,7 @@
     "label": "東方未明",
     "canonical_ref": "詩經·國風·齊風·005",
     "sort_key": 100,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-006",
@@ -1212,7 +1212,7 @@
     "label": "南山",
     "canonical_ref": "詩經·國風·齊風·006",
     "sort_key": 101,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-007",
@@ -1221,7 +1221,7 @@
     "label": "甫田",
     "canonical_ref": "詩經·國風·齊風·007",
     "sort_key": 102,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-008",
@@ -1230,7 +1230,7 @@
     "label": "盧令",
     "canonical_ref": "詩經·國風·齊風·008",
     "sort_key": 103,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-009",
@@ -1239,7 +1239,7 @@
     "label": "敝笱",
     "canonical_ref": "詩經·國風·齊風·009",
     "sort_key": 104,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-010",
@@ -1248,7 +1248,7 @@
     "label": "載驅",
     "canonical_ref": "詩經·國風·齊風·010",
     "sort_key": 105,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qifeng-011",
@@ -1257,7 +1257,7 @@
     "label": "猗嗟",
     "canonical_ref": "詩經·國風·齊風·011",
     "sort_key": 106,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-state-001",
@@ -1266,7 +1266,7 @@
     "label": "葛屨",
     "canonical_ref": "詩經·國風·魏風·001",
     "sort_key": 107,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-state-002",
@@ -1275,7 +1275,7 @@
     "label": "汾沮洳",
     "canonical_ref": "詩經·國風·魏風·002",
     "sort_key": 108,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-state-003",
@@ -1284,7 +1284,7 @@
     "label": "園有桃",
     "canonical_ref": "詩經·國風·魏風·003",
     "sort_key": 109,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-state-004",
@@ -1293,7 +1293,7 @@
     "label": "陟岵",
     "canonical_ref": "詩經·國風·魏風·004",
     "sort_key": 110,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-state-005",
@@ -1302,7 +1302,7 @@
     "label": "十畝之間",
     "canonical_ref": "詩經·國風·魏風·005",
     "sort_key": 111,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-state-006",
@@ -1311,7 +1311,7 @@
     "label": "伐檀",
     "canonical_ref": "詩經·國風·魏風·006",
     "sort_key": 112,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-weifeng-state-007",
@@ -1320,7 +1320,7 @@
     "label": "碩鼠",
     "canonical_ref": "詩經·國風·魏風·007",
     "sort_key": 113,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-tangfeng-001",
@@ -1329,7 +1329,7 @@
     "label": "蟋蟀",
     "canonical_ref": "詩經·國風·唐風·001",
     "sort_key": 114,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-tangfeng-002",
@@ -1338,7 +1338,7 @@
     "label": "山有樞",
     "canonical_ref": "詩經·國風·唐風·002",
     "sort_key": 115,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-tangfeng-003",
@@ -1347,7 +1347,7 @@
     "label": "揚之水",
     "canonical_ref": "詩經·國風·唐風·003",
     "sort_key": 116,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-tangfeng-004",
@@ -1356,7 +1356,7 @@
     "label": "椒聊",
     "canonical_ref": "詩經·國風·唐風·004",
     "sort_key": 117,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-tangfeng-005",
@@ -1365,7 +1365,7 @@
     "label": "綢繆",
     "canonical_ref": "詩經·國風·唐風·005",
     "sort_key": 118,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-tangfeng-006",
@@ -1374,7 +1374,7 @@
     "label": "杕杜",
     "canonical_ref": "詩經·國風·唐風·006",
     "sort_key": 119,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-tangfeng-007",
@@ -1383,7 +1383,7 @@
     "label": "羔裘",
     "canonical_ref": "詩經·國風·唐風·007",
     "sort_key": 120,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-tangfeng-008",
@@ -1401,7 +1401,7 @@
     "label": "無衣",
     "canonical_ref": "詩經·國風·唐風·009",
     "sort_key": 122,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-tangfeng-010",
@@ -1410,7 +1410,7 @@
     "label": "有杕之杜",
     "canonical_ref": "詩經·國風·唐風·010",
     "sort_key": 123,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-tangfeng-011",
@@ -1428,7 +1428,7 @@
     "label": "采苓",
     "canonical_ref": "詩經·國風·唐風·012",
     "sort_key": 125,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qinfeng-001",
@@ -1437,7 +1437,7 @@
     "label": "車鄰",
     "canonical_ref": "詩經·國風·秦風·001",
     "sort_key": 126,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qinfeng-002",
@@ -1446,7 +1446,7 @@
     "label": "駟驖",
     "canonical_ref": "詩經·國風·秦風·002",
     "sort_key": 127,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qinfeng-003",
@@ -1455,7 +1455,7 @@
     "label": "小戎",
     "canonical_ref": "詩經·國風·秦風·003",
     "sort_key": 128,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qinfeng-004",
@@ -1464,7 +1464,7 @@
     "label": "蒹葭",
     "canonical_ref": "詩經·國風·秦風·004",
     "sort_key": 129,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qinfeng-005",
@@ -1473,7 +1473,7 @@
     "label": "終南",
     "canonical_ref": "詩經·國風·秦風·005",
     "sort_key": 130,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qinfeng-006",
@@ -1491,7 +1491,7 @@
     "label": "晨風",
     "canonical_ref": "詩經·國風·秦風·007",
     "sort_key": 132,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qinfeng-008",
@@ -1500,7 +1500,7 @@
     "label": "無衣",
     "canonical_ref": "詩經·國風·秦風·008",
     "sort_key": 133,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qinfeng-009",
@@ -1509,7 +1509,7 @@
     "label": "渭陽",
     "canonical_ref": "詩經·國風·秦風·009",
     "sort_key": 134,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-qinfeng-010",
@@ -1518,7 +1518,7 @@
     "label": "權輿",
     "canonical_ref": "詩經·國風·秦風·010",
     "sort_key": 135,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-chenfeng-001",
@@ -1527,7 +1527,7 @@
     "label": "宛丘",
     "canonical_ref": "詩經·國風·陳風·001",
     "sort_key": 136,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-chenfeng-002",
@@ -1536,7 +1536,7 @@
     "label": "東門之枌",
     "canonical_ref": "詩經·國風·陳風·002",
     "sort_key": 137,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-chenfeng-003",
@@ -1545,7 +1545,7 @@
     "label": "衡門",
     "canonical_ref": "詩經·國風·陳風·003",
     "sort_key": 138,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-chenfeng-004",
@@ -1554,7 +1554,7 @@
     "label": "東門之池",
     "canonical_ref": "詩經·國風·陳風·004",
     "sort_key": 139,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-chenfeng-005",
@@ -1563,7 +1563,7 @@
     "label": "東門之楊",
     "canonical_ref": "詩經·國風·陳風·005",
     "sort_key": 140,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-chenfeng-006",
@@ -1572,7 +1572,7 @@
     "label": "墓門",
     "canonical_ref": "詩經·國風·陳風·006",
     "sort_key": 141,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-chenfeng-007",
@@ -1581,7 +1581,7 @@
     "label": "防有鵲巢",
     "canonical_ref": "詩經·國風·陳風·007",
     "sort_key": 142,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-chenfeng-008",
@@ -1590,7 +1590,7 @@
     "label": "月出",
     "canonical_ref": "詩經·國風·陳風·008",
     "sort_key": 143,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-chenfeng-009",
@@ -1599,7 +1599,7 @@
     "label": "株林",
     "canonical_ref": "詩經·國風·陳風·009",
     "sort_key": 144,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-chenfeng-010",
@@ -1608,7 +1608,7 @@
     "label": "澤陂",
     "canonical_ref": "詩經·國風·陳風·010",
     "sort_key": 145,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-kuaifeng-001",
@@ -1617,7 +1617,7 @@
     "label": "羔裘",
     "canonical_ref": "詩經·國風·檜風·001",
     "sort_key": 146,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-kuaifeng-002",
@@ -1626,7 +1626,7 @@
     "label": "素冠",
     "canonical_ref": "詩經·國風·檜風·002",
     "sort_key": 147,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-kuaifeng-003",
@@ -1635,7 +1635,7 @@
     "label": "隰有萇楚",
     "canonical_ref": "詩經·國風·檜風·003",
     "sort_key": 148,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-kuaifeng-004",
@@ -1644,7 +1644,7 @@
     "label": "匪風",
     "canonical_ref": "詩經·國風·檜風·004",
     "sort_key": 149,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-caofeng-001",
@@ -1653,7 +1653,7 @@
     "label": "蜉蝣",
     "canonical_ref": "詩經·國風·曹風·001",
     "sort_key": 150,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-caofeng-002",
@@ -1662,7 +1662,7 @@
     "label": "候人",
     "canonical_ref": "詩經·國風·曹風·002",
     "sort_key": 151,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-caofeng-003",
@@ -1671,7 +1671,7 @@
     "label": "鳲鳩",
     "canonical_ref": "詩經·國風·曹風·003",
     "sort_key": 152,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-caofeng-004",
@@ -1680,7 +1680,7 @@
     "label": "下泉",
     "canonical_ref": "詩經·國風·曹風·004",
     "sort_key": 153,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-binfeng-001",
@@ -1698,7 +1698,7 @@
     "label": "鴟鴞",
     "canonical_ref": "詩經·國風·豳風·002",
     "sort_key": 155,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-binfeng-003",
@@ -1707,7 +1707,7 @@
     "label": "東山",
     "canonical_ref": "詩經·國風·豳風·003",
     "sort_key": 156,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-binfeng-004",
@@ -1716,7 +1716,7 @@
     "label": "破斧",
     "canonical_ref": "詩經·國風·豳風·004",
     "sort_key": 157,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-binfeng-005",
@@ -1725,7 +1725,7 @@
     "label": "伐柯",
     "canonical_ref": "詩經·國風·豳風·005",
     "sort_key": 158,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-binfeng-006",
@@ -1734,7 +1734,7 @@
     "label": "九罭",
     "canonical_ref": "詩經·國風·豳風·006",
     "sort_key": 159,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "guofeng-binfeng-007",
@@ -1743,7 +1743,7 @@
     "label": "狼跋",
     "canonical_ref": "詩經·國風·豳風·007",
     "sort_key": 160,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-luming-001",
@@ -1752,7 +1752,7 @@
     "label": "鹿鳴",
     "canonical_ref": "詩經·小雅·鹿鳴之什·001",
     "sort_key": 161,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-luming-002",
@@ -1761,7 +1761,7 @@
     "label": "四牡",
     "canonical_ref": "詩經·小雅·鹿鳴之什·002",
     "sort_key": 162,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-luming-003",
@@ -1770,7 +1770,7 @@
     "label": "皇皇者華",
     "canonical_ref": "詩經·小雅·鹿鳴之什·003",
     "sort_key": 163,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-luming-004",
@@ -1779,7 +1779,7 @@
     "label": "常棣",
     "canonical_ref": "詩經·小雅·鹿鳴之什·004",
     "sort_key": 164,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-luming-005",
@@ -1806,7 +1806,7 @@
     "label": "采薇",
     "canonical_ref": "詩經·小雅·鹿鳴之什·007",
     "sort_key": 167,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-luming-008",
@@ -1815,7 +1815,7 @@
     "label": "出車",
     "canonical_ref": "詩經·小雅·鹿鳴之什·008",
     "sort_key": 168,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-luming-009",
@@ -1833,7 +1833,7 @@
     "label": "魚麗",
     "canonical_ref": "詩經·小雅·鹿鳴之什·010",
     "sort_key": 170,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-luming-011",
@@ -1869,7 +1869,7 @@
     "label": "南有嘉魚",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·001",
     "sort_key": 174,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-002",
@@ -1878,7 +1878,7 @@
     "label": "南山有臺",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·002",
     "sort_key": 175,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-003",
@@ -1914,7 +1914,7 @@
     "label": "蓼蕭",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·006",
     "sort_key": 179,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-007",
@@ -1923,7 +1923,7 @@
     "label": "湛露",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·007",
     "sort_key": 180,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-008",
@@ -1932,7 +1932,7 @@
     "label": "彤弓",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·008",
     "sort_key": 181,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-009",
@@ -1941,7 +1941,7 @@
     "label": "菁菁者莪",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·009",
     "sort_key": 182,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-010",
@@ -1950,7 +1950,7 @@
     "label": "六月",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·010",
     "sort_key": 183,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-011",
@@ -1959,7 +1959,7 @@
     "label": "采芑",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·011",
     "sort_key": 184,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-012",
@@ -1968,7 +1968,7 @@
     "label": "車攻",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·012",
     "sort_key": 185,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-013",
@@ -1977,7 +1977,7 @@
     "label": "吉日",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·013",
     "sort_key": 186,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-hongyan-001",
@@ -1986,7 +1986,7 @@
     "label": "鴻鴈",
     "canonical_ref": "詩經·小雅·鴻鴈之什·001",
     "sort_key": 187,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-hongyan-002",
@@ -1995,7 +1995,7 @@
     "label": "庭燎",
     "canonical_ref": "詩經·小雅·鴻鴈之什·002",
     "sort_key": 188,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-hongyan-003",
@@ -2004,7 +2004,7 @@
     "label": "沔水",
     "canonical_ref": "詩經·小雅·鴻鴈之什·003",
     "sort_key": 189,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-hongyan-004",
@@ -2013,7 +2013,7 @@
     "label": "鶴鳴",
     "canonical_ref": "詩經·小雅·鴻鴈之什·004",
     "sort_key": 190,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-hongyan-005",
@@ -2022,7 +2022,7 @@
     "label": "祈父",
     "canonical_ref": "詩經·小雅·鴻鴈之什·005",
     "sort_key": 191,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-hongyan-006",
@@ -2031,7 +2031,7 @@
     "label": "白駒",
     "canonical_ref": "詩經·小雅·鴻鴈之什·006",
     "sort_key": 192,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-hongyan-007",
@@ -2040,7 +2040,7 @@
     "label": "黃鳥",
     "canonical_ref": "詩經·小雅·鴻鴈之什·007",
     "sort_key": 193,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-hongyan-008",
@@ -2049,7 +2049,7 @@
     "label": "我行其野",
     "canonical_ref": "詩經·小雅·鴻鴈之什·008",
     "sort_key": 194,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-hongyan-009",
@@ -2148,7 +2148,7 @@
     "label": "何人斯",
     "canonical_ref": "詩經·小雅·節南山之什·009",
     "sort_key": 205,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-jienanshan-010",
@@ -2166,7 +2166,7 @@
     "label": "谷風",
     "canonical_ref": "詩經·小雅·谷風之什·001",
     "sort_key": 207,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-gufeng-002",
@@ -2175,7 +2175,7 @@
     "label": "蓼莪",
     "canonical_ref": "詩經·小雅·谷風之什·002",
     "sort_key": 208,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-gufeng-003",
@@ -2193,7 +2193,7 @@
     "label": "四月",
     "canonical_ref": "詩經·小雅·谷風之什·004",
     "sort_key": 210,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-gufeng-005",
@@ -2202,7 +2202,7 @@
     "label": "北山",
     "canonical_ref": "詩經·小雅·谷風之什·005",
     "sort_key": 211,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-gufeng-006",
@@ -2211,7 +2211,7 @@
     "label": "無將大車",
     "canonical_ref": "詩經·小雅·谷風之什·006",
     "sort_key": 212,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-gufeng-007",
@@ -2229,7 +2229,7 @@
     "label": "鼓鍾",
     "canonical_ref": "詩經·小雅·谷風之什·008",
     "sort_key": 214,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-gufeng-009",
@@ -2274,7 +2274,7 @@
     "label": "瞻彼洛矣",
     "canonical_ref": "詩經·小雅·甫田之什·003",
     "sort_key": 219,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-futian-004",
@@ -2283,7 +2283,7 @@
     "label": "裳裳者華",
     "canonical_ref": "詩經·小雅·甫田之什·004",
     "sort_key": 220,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-futian-005",
@@ -2301,7 +2301,7 @@
     "label": "鴛鴦",
     "canonical_ref": "詩經·小雅·甫田之什·006",
     "sort_key": 222,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-futian-007",
@@ -2310,7 +2310,7 @@
     "label": "頍弁",
     "canonical_ref": "詩經·小雅·甫田之什·007",
     "sort_key": 223,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-futian-008",
@@ -2319,7 +2319,7 @@
     "label": "車舝",
     "canonical_ref": "詩經·小雅·甫田之什·008",
     "sort_key": 224,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-futian-009",
@@ -2328,7 +2328,7 @@
     "label": "青蠅",
     "canonical_ref": "詩經·小雅·甫田之什·009",
     "sort_key": 225,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-futian-010",
@@ -2346,7 +2346,7 @@
     "label": "魚藻",
     "canonical_ref": "詩經·小雅·魚藻之什·001",
     "sort_key": 227,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-002",
@@ -2355,7 +2355,7 @@
     "label": "采菽",
     "canonical_ref": "詩經·小雅·魚藻之什·002",
     "sort_key": 228,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-003",
@@ -2364,7 +2364,7 @@
     "label": "角弓",
     "canonical_ref": "詩經·小雅·魚藻之什·003",
     "sort_key": 229,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-004",
@@ -2373,7 +2373,7 @@
     "label": "菀柳",
     "canonical_ref": "詩經·小雅·魚藻之什·004",
     "sort_key": 230,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-005",
@@ -2382,7 +2382,7 @@
     "label": "都人士",
     "canonical_ref": "詩經·小雅·魚藻之什·005",
     "sort_key": 231,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-006",
@@ -2391,7 +2391,7 @@
     "label": "采綠",
     "canonical_ref": "詩經·小雅·魚藻之什·006",
     "sort_key": 232,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-007",
@@ -2400,7 +2400,7 @@
     "label": "黍苗",
     "canonical_ref": "詩經·小雅·魚藻之什·007",
     "sort_key": 233,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-008",
@@ -2409,7 +2409,7 @@
     "label": "隰桑",
     "canonical_ref": "詩經·小雅·魚藻之什·008",
     "sort_key": 234,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-009",
@@ -2427,7 +2427,7 @@
     "label": "緜蠻",
     "canonical_ref": "詩經·小雅·魚藻之什·010",
     "sort_key": 236,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-011",
@@ -2436,7 +2436,7 @@
     "label": "瓠葉",
     "canonical_ref": "詩經·小雅·魚藻之什·011",
     "sort_key": 237,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-012",
@@ -2445,7 +2445,7 @@
     "label": "漸漸之石",
     "canonical_ref": "詩經·小雅·魚藻之什·012",
     "sort_key": 238,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-013",
@@ -2454,7 +2454,7 @@
     "label": "苕之華",
     "canonical_ref": "詩經·小雅·魚藻之什·013",
     "sort_key": 239,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "xiaoya-yuzao-014",
@@ -2463,7 +2463,7 @@
     "label": "何草不黃",
     "canonical_ref": "詩經·小雅·魚藻之什·014",
     "sort_key": 240,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "daya-wenwang-001",
@@ -2535,7 +2535,7 @@
     "label": "靈臺",
     "canonical_ref": "詩經·大雅·文王之什·008",
     "sort_key": 248,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "daya-wenwang-009",
@@ -2607,7 +2607,7 @@
     "label": "公劉",
     "canonical_ref": "詩經·大雅·生民之什·006",
     "sort_key": 256,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "daya-shengmin-007",
@@ -2616,7 +2616,7 @@
     "label": "泂酌",
     "canonical_ref": "詩經·大雅·生民之什·007",
     "sort_key": 257,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "daya-shengmin-008",
@@ -2724,7 +2724,7 @@
     "label": "常武",
     "canonical_ref": "詩經·大雅·蕩之什·009",
     "sort_key": 269,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "daya-dang-010",
@@ -3030,7 +3030,7 @@
     "label": "駉",
     "canonical_ref": "詩經·頌·魯頌·001",
     "sort_key": 303,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "song-lusong-002",
@@ -3039,7 +3039,7 @@
     "label": "有駜",
     "canonical_ref": "詩經·頌·魯頌·002",
     "sort_key": 304,
-    "notes": "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; section-level extraction still needs verification before TMX export."
+    "notes": "Poem-level fallback from generalized Legge 1871 Internet Archive hOCR extraction; translation lines are parsed conservatively from OCR layout, so stanza-level exact alignment is only retained when a safe block match is available."
   },
   {
     "section_id": "song-lusong-003",

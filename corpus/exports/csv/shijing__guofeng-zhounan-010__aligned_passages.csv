@@ -1,17 +1,18 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-zhounan-010__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhounan-010,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·周南·010.1,"遵彼汝墳，伐其條枚，未見君子，惄如調飢。
+shijing__guofeng-zhounan-010__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-zhounan-010,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·周南·010.1,"遵彼汝墳，伐其條枚，未見君子，惄如調飢。
 遵彼汝墳，伐其條肄，既見君子，不我遐棄。
-魴魚赬尾，王室如燬，雖則如燬，父母孔邇。",Joo fun.1,"Along those raised banks of the Joo,
+魴魚赬尾，王室如燬，雖則如燬，父母孔邇。",汝墳.1,"1 Along those raised banks of the Joo,
 I cut down the branches and slender stems.
 While I could not see my lord,
 I felt as it were pangs of great hunger.
 
-Along those raised banks of the Joo,
+2 Along those raised banks of the Joo,
 I cut down the branches and fresh twigs.
-I have seen my lord;
+I have seen my lord；
 He has not cast me away.
 
-The bream is showing its tail all red;
+3 The bream is showing its tail all red；
 The royal House is like a blazing fire.
 Though it be like a blazing fire,
-Your parents are very near."
+Your parents are very near.
+j withstanding the oppressiveness of Chow its"

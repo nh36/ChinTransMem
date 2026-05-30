@@ -1,0 +1,10 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-qifeng-002__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-qifeng-002,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·齊風·002.1,"子之還兮，遭我乎峱之閒兮。並驅從兩肩兮，揖我謂我儇兮。
+子之茂兮，遭我乎峱之道兮。並驅從兩牡兮，揖我謂我好兮。
+子之昌兮，遭我乎峱之陽兮。並驅從兩狼兮，揖我謂我臧兮。",還.1,"1 How agile you are !
+You met me in the neighbourhood of Naou,
+And we pursued together two boars of three years.
+You bowed to me, and said that I was active.
+
+2 How admirable your skill !
+You met me in the way to"

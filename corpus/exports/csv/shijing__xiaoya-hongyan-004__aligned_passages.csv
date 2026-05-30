@@ -1,0 +1,24 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-hongyan-004__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,xiaoya-hongyan-004,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·鴻鴈之什·004.1,"鶴鳴于九皐，聲聞于野。魚潛在淵，或在于渚。
+樂彼之園，爰有樹檀，其下維蘀。他山之石，可以為錯。
+
+鶴鳴于九皐，聲聞于天。魚在于渚，或潛在淵。
+樂彼之園，爰有樹檀，其下維穀。他山之石，可以攻玉。",鶴鳴.1,"1 The crane cries in the ninth pool of the marsh,
+And her voice is heard in the [distant] wilds.
+The fish lies in the deep,
+And now is by the islet.
+DECADE OF T«UNG RUNG.
+Pleasant is that garden,
+In which are the sandal trees;
+But beneath them are only withered leaves.
+The stones of those hills,
+May be made into grind-stones.
+The crane cries in the ninth pool of the marsh,
+And her voice is heard in the sky.
+The fish is by the islet,
+And now it lies hid in the deep.
+Pleasant is that garden,
+In which are the sandal trees;
+But beneath them is the paper-mulberry tree.
+The stones of those hills
+May be used to polish gems."

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-weifeng-006__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·衛風·006.1</prop>
+      <prop type="x-translation-ref">芄蘭.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>芄蘭之支，童子佩觿，雖則佩觿，能不我知，容兮遂兮，垂帶悸兮。
+芄蘭之葉，童子佩韘，雖則佩韘，能不我甲，容兮遂兮，垂帶悸兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>o olf rrie r hof
+ifc oe ^a u
+
+1 Who says that the Ho is wide?
+With [a bundle of] reeds I can cross it.
+Who says that Sung is distant?
+On tiptoe I can see it.
+
+2 Who says that the Ho is wide?
+It will not admit a little boat.
+Who says that Sung is distant ?
+It would not take a whole morning to reach it.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

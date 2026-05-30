@@ -1,0 +1,17 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhaonan-009__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-zhaonan-009,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·召南·009.1,"摽有梅，其實七兮，求我庶士，迨其吉兮。
+摽有梅，其實三兮，求我庶士，迨其今兮。
+摽有梅，頃筐塈之，求我庶士，迨其謂之。",摽有梅.1,"1 Dropping are the fruits from the plum-tree;
+There are [but] seven [tenths] of them left !
+For the gentlemen who seek me,
+This is the fortunate time !
+
+2 Dropping are the fruits from the plum-tree ;
+There are [but] three [tenths] of them left !
+For the gentlemen who seek me,
+Now is the time.
+
+3 Dropt are the fruits from the plum-tree ;
+In my shallow basket I have collected tliem.
+AVould the gentlemen Avho seek me
+[Only] speak about it !"

@@ -246,8 +246,8 @@ class CorpusWorkflowTest(unittest.TestCase):
             self.assertEqual(expected_exact_alignment_counts[DEFAULT_WORK_ID], 501)
             self.assertEqual(expected_exact_alignment_counts["mengzi"], 260)
             self.assertEqual(expected_section_counts["shijing"], 311)
-            self.assertEqual(expected_complete_section_counts["shijing"], 113)
-            self.assertEqual(expected_exact_alignment_counts["shijing"], 260)
+            self.assertEqual(expected_complete_section_counts["shijing"], 305)
+            self.assertEqual(expected_exact_alignment_counts["shijing"], 452)
             self.assertEqual(
                 manifests["shijing"]["summary"]["metadata_only_sections"] + expected_complete_section_counts["shijing"],
                 expected_section_counts["shijing"],

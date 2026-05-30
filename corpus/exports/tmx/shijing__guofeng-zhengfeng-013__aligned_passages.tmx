@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhengfeng-013__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·013.1</prop>
+      <prop type="x-translation-ref">褰裳.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>子惠思我，褰裳涉溱。子不我思，豈無他人？狂童之狂也且！
+子惠思我，褰裳涉洧。子不我思，豈無他士？狂童之狂也且！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If you, Sir, think kindly of me,
+I will hold up my lower garments, and cross the Tsin.
+If you do not think of me,
+Is there no other person [to do so] ?
+You, foolish, foolish fellow!
+If you, Sir, think kindly of me,
+I will hold up my lower garments, and cross the Wei.
+If you do not think of me,
+Is there no other gentleman [to do so]?
+You, foolish, foolish fellow!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

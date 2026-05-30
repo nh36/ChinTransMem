@@ -1,0 +1,51 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-gufeng-002__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,xiaoya-gufeng-002,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·谷風之什·002.1,"蓼蓼者莪，匪莪伊蒿。
+哀哀父母，生我劬勞。
+
+蓼蓼者莪，匪莪伊蔚。
+哀哀父母，生我勞瘁。
+
+缾之罄矣，維罍之恥。
+鮮民之生，不如死之久矣。
+
+無父何怙？無母何恃？
+出則銜恤，入則靡至。
+
+父兮生我，母兮鞠我，拊我、畜我、長我、育我、
+顧我、復我、出入腹我。欲報之德，昊天罔極。
+
+南山烈烈，飄風發發。
+民莫不穀，我獨何害？
+
+南山律律，飄風弗弗。
+民莫不穀，我獨不卒！",蓼莪.1,"Long and large grows the ngo ； —
+It is not the ngo^ but the wei.
+Alas ! alas ! my parents,
+With what toil and suffering ye gave me birth!
+When the pitcher is exhausted,
+It is the shame of the jar.
+Than to live an orphan,
+It would be better to have been long dead.
+Fatherless, who is there to rely on?
+Motherless, who is there to depend on?
+When I go abroad, I carry my grief with me;
+When I come home, I have no one to go to.
+
+0 my father, who begat me !
+
+0 my mother, who nourished me !
+Ye indulged me, ye fed me,
+Ye held me up, ye supported me,
+Ye looked after me, ye never left me,
+Out and in ye bore me in your arms.
+If I would return your kindness,
+It is like great Heaven, illimitable,
+Cold and bleak is the Southern hill ；
+The rushing wind is very tierce.
+People all are happy ; —
+Why am I alone thus miserable ?
+The Southern hill is very steep ;
+The rushing wind is blustering.
+People all are happy ; —
+
+1 alone have been unable to finish [my duty]."

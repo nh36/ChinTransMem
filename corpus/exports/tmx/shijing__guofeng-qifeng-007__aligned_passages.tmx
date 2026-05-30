@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-qifeng-007__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qifeng-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·齊風·007.1</prop>
+      <prop type="x-translation-ref">甫田.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>無田甫田，維莠驕驕。無思遠人，勞心忉忉。
+無田甫田，維莠桀桀。無思遠人，勞心怛怛。
+婉兮孌兮，緫角丱兮。未幾見兮，突而弁兮。
+
+倬彼甫田，歲取十千。我取其陳，食我農人，自古有年。
+今適南畝，或耘或耔。黍稷薿薿。攸介攸止，烝我髦士。
+
+以我齊明，與我犧羊，以社以方。
+我田既臧，農夫之慶。琴瑟擊鼓，以御田祖。
+以祈甘雨，以介我稷黍，以穀我士女。
+
+曾孫來止，以其婦子，饁彼南畝。
+田畯至喜，攘其左右，嘗其旨否。
+禾易長畝，終善且有。曾孫不怒，農夫克敏。
+
+曾孫之稼，如茨如梁，曾孫之庾，如坻如京。
+乃求千斯倉，乃求萬斯箱，黍稷稻粱。
+農夫之慶，報以介福，萬壽無疆。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Do not try to cultivate fields too large; —
+The weeds will only grow luxuriantly.
+Do not think of winning people far away; —
+Your toiling heart will be grieved,
+
+2 Do not try to cultivate fields too large ; —
+The weeds will only grow proudly,
+Do not think of winning people far away; — .
+Your toiling heart will be distressed.
+
+3 How young and tender
+Is the child with his two tufts of hair!
+When you see him after not a long time,
+Lo! he is wearing the cap!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-qifeng-010__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qifeng-010</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·齊風·010.1</prop>
+      <prop type="x-translation-ref">載驅.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>載驅薄薄，簟茀朱鞹。魯道有蕩，齊子發夕。
+四驪濟濟，垂轡濔濔。魯道有蕩，齊子豈弟。
+汶水湯湯，行人彭彭。魯道有蕩，齊子翱翔。
+汶水滔滔，行人儦儦。魯道有蕩，齊子遊敖。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 She urges on her chariot rapidly,
+AVith its screen of bamboos woven in squares, and its vermilion-
+coloured leather.
+The way from Loo is easy and plain,
+And the daughter of Ts^ started on it in the evening.
+
+2 Her four black horses are beautiful,
+And soft look the reins as they hang.
+The way from Loo is easy and plain,
+And the daughter of Tsce is delighted and complacent.
+
+3 The waters of the Wan flow broadly on;
+The travellers are numerous.
+The way from Loo is easy and plain,
+And the daughter of Ts4e moves on with unconcern.
+ODES OF TS‘E.
+
+4 The waters of the Wan sweep on;
+The travellers are in crowds.
+The way from Loo is easy and plain, •
+And the daughter of Ts^e proceeds at her ease,</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

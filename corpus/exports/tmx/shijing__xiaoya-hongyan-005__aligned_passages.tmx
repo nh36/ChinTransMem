@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-hongyan-005__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-hongyan-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·005.1</prop>
+      <prop type="x-translation-ref">祈父.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>祈父！予王之爪牙，胡轉予于恤？靡所止居。
+祈父！予王之爪士，胡轉予于恤？靡所厎止。
+祈父！亶不聦，胡轉予于恤？有母之尸饔。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Minister of War,
+We are the claws and teeth of the king.
+• Why have you rolled us into this sorrow,
+So that we have no abiding place?
+
+2 Minister of War,
+We are the talon ed soldiers of the king.
+Why have you rolled us into this sorrow,
+So that there is no end [of our toils] ?
+
+3 Minister of War,
+You have indeed acted without discrimination.
+Why have you rolled us into this sorrow,
+So that our mothers have to do all the labour of cooking?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

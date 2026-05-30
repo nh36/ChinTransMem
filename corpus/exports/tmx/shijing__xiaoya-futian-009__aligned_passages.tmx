@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-futian-009__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-futian-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·甫田之什·009.1</prop>
+      <prop type="x-translation-ref">青蠅.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>營營青蠅，止於樊。豈弟君子，無信讒言。
+營營青蠅，止于棘。讒人罔極，交亂四國。
+營營青蠅，止于榛。讒人罔極，構我二人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 They buzz about, the blue flies,
+Lighting on the fences.
+O happy and courteous sovereign,
+Do not believe slanderous speeches.
+
+2 They buzz about, the blue flies,
+Lighting on the jujube trees.
+The slanderers observe no limits,
+And throw the whole kingdom into confusion.
+
+3 They buzz about, the blue flies,
+Lighting on the hazel trees.
+The slanderers observe no limits,
+And set us two at variance.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

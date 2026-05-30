@@ -1,0 +1,25 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-nanyoujiayu-002__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,xiaoya-nanyoujiayu-002,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·南有嘉魚之什·002.1,"南山有臺，北山有萊。樂只君子，邦家之基。樂只君子，萬壽無期。
+南山有桑，北山有楊。樂只君子，邦家之光。樂只君子，萬壽無疆。
+南山有杞，北山有李。樂只君子，民之父母。樂只君子，德音不已。
+南山有栲，北山有杻。樂只君子，遐不眉壽。樂只君子，德音是茂。
+南山有枸，北山有楰。樂只君子，遐不黃耇。樂只君子，保艾爾後。",南山有臺.1,"1 In the south is the barbel,
+And, in multitudes, they are taken under baskets.
+The host has spirits,
+On which his admirable guests feast with him joyfully.
+DECADE OF PIH HWA.
+
+2 In the south is the barbel,
+And, in multitudes^ they are taken with wicker nets.
+The host has spirits,
+On which his admirable guests feast with him, delighted.
+
+3 In the south are trees with curved drooping branches,
+And the sweet gourds cling to them.
+The host has spirits,
+On which his admirable guests feast with him cheerfully.
+
+4 The Filial doves keep flying about,
+Corning in multitudes.
+The host has spirits,
+On which his admirable guests feast with him again and again."

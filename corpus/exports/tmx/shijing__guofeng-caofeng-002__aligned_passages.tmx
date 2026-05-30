@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-caofeng-002__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-caofeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·曹風·002.1</prop>
+      <prop type="x-translation-ref">候人.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>彼候人兮，何戈與祋。彼其之子，三百赤芾。
+維鵜在梁，不濡其翼。彼其之子，不稱其服。
+維鵜在梁，不濡其咮。彼其之子，不遂其媾。
+薈兮蔚兮，南山朝隮。婉兮孌兮，季女斯飢。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Those officers of escort
+Have their carriers of lances and halberds.
+But these creatures,
+With their three hundred red covers for the knees ! —
+
+2 The pelican is on the dam,
+And will not wet his wings !
+These creatures
+Are not equal to their dress !
+
+3 The pelican is on the dam,
+And will not wet his beak !
+These creatures
+Do not respond to the favour they enjoy.
+
+4 Extensive and luxuriant is the vegetation,
+And up the south hill in the morning rise the vapours.
+Tender is she and lovely,
+But the young lady is suffering from hunger.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-binfeng-006__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-binfeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·豳風·006.1</prop>
+      <prop type="x-translation-ref">九罭.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九罭之魚，鱒魴。我覯之子，袞衣繡裳。
+鴻飛遵渚，公歸無所。於女信處。
+鴻飛遵陸，公歸不復。於女信宿。
+是以有袞衣兮，無以我公歸兮，無使我心悲兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 In the net with its nine bags
+Are rud and bream.
+We see this prince
+With his grand-ducal robe and embroidered skirt.
+
+2 The wild geese fly [only] about the islets.
+The duke is returning； — is it not to his proper place?
+He was stopping with you [and me] but for a couple of nights.
+
+3 The wild geese fly about the land.
+The duke is returning, and will not come back here?
+He was lodging with you [and me] but for a couple of nights.
+
+4 Thus have we had the grand-ducal robe among us.
+Do not take our duke back [to the west];
+Do not cause us such sorrow of heart.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

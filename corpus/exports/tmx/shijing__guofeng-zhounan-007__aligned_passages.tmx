@@ -2,7 +2,7 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shijing__guofeng-zhounan-007__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+    <tu tuid="shijing__guofeng-zhounan-007__001__zhwikisource-20260530__legge-sheking-1871-hocr">
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-zhounan-007</prop>
       <prop type="x-section-unit">poem</prop>
@@ -14,7 +14,7 @@
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·007.1</prop>
-      <prop type="x-translation-ref">T'oo tseu.1</prop>
+      <prop type="x-translation-ref">兔罝.1</prop>
       <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>肅肅兔罝，椓之丁丁，赳赳武夫，公侯干城。
@@ -22,17 +22,17 @@
 肅肅兔罝，施于中林，赳赳武夫，公侯腹心。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Carefully adjusted are the rabbit nets;
+        <seg>1 Carefully adjusted are the rabbit nets；
 Clang clang go the blows on the pegs.
 That stalwart, martial man
 Might be shield and wall to his prince.
 
-Carefully adjusted are the rabbit nets,
+2 Carefully adjusted are the rabbit nets,
 And placed where many ways meet.
-That stalwart, martial man
+That stahvart, martial man
 Would be a good companion for his prince.
 
-Carefully adjusted are the rabbit nets,
+3 Carefully adjusted are the rabbit nets,
 And placed in the midst of the forest.
 That stalwart, martial man
 Might be head and heart to his prince.</seg>

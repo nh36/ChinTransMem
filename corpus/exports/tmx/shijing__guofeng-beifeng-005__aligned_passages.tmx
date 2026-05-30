@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-beifeng-005__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·005.1</prop>
+      <prop type="x-translation-ref">終風.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>終風且暴，顧我則笑，謔浪笑敖，中心是悼。
+終風且霾，惠然肯來，莫往莫來，悠悠我思。
+終風且曀，不日有曀，寤言不寐，願言則嚏。
+曀曀其陰，虺虺其靁，寤言不寐，願言則懷。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 The wind blows and is fierce.
+He looks at me and smiles,
+With scornful words and dissolute, — the smile of pride.
+To the centre of my heart I am grieved.
+
+2 The wind blows, with clouds of dust.
+Kindly he seems to be willing to come to me ;
+[But] he neither goes nor comes. 、
+Long, long, do I think of him.
+
+3 The wind blew, and the sky was cloudy;
+Before a day elapses， it is cloudy again.
+I awake, and cannot sleep ;
+I think of him, and gasp.
+
+4 All cloudy is the darkness,
+And the thunder keeps muttering.
+I awake and cannot sleep ;
+I think of him, and my breast is full of pain.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

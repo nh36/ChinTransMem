@@ -1,0 +1,20 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-tangfeng-002__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-tangfeng-002,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·唐風·002.1,"山有樞，隰有榆。子有衣裳，弗曳弗婁。子有車馬，弗馳弗驅。宛其死矣，他人是愉。
+山有栲，隰有杻。子有廷內，弗洒弗埽。子有鐘鼓，弗鼓弗考。宛其死矣，他人是保。
+山有漆，隰有栗。子有酒食，何不日鼓瑟？且以喜樂，且以永日。宛其死矣，他人入室。",山有樞.1,"1 On the mountains are the thorny elms,
+In the low, wet grounds are the white elms.
+You have suits of robes,
+But you will not wear them ;
+You have carriages and horses,
+But you will not drive them.
+You will drop off in death,
+And another person will enjoy them.
+
+2 On the mountains is the ^aou,
+In the low wet grounds is the new.
+You have courtyards and inner rooms,
+But you will not have them sprinkled or swept ;
+You have drums and bells,
+But you will not have them beat or struck,
+You will drop off in death,
+And another person will possess them."

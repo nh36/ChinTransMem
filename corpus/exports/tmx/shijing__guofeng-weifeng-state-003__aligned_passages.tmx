@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-weifeng-state-003__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-state-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·魏風·003.1</prop>
+      <prop type="x-translation-ref">園有桃.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>園有桃，其實之殽。心之憂矣，我歌且謠。不知我者，謂我士也驕。彼人是哉，子曰何其？心之憂矣！其誰知之？其誰知之？蓋亦勿思！
+園有棘，其實之食。心之憂矣，聊以行國。不我知者，謂我士也罔極。彼人是哉，子曰何其？心之憂矣！其誰知之？其誰知之？蓋亦勿思！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>My heart is grieved,
+And I play and sing.
+Those who do not know me
+Say I am a scholar venting his pride.
+lllll her
+
+4 Those men are right;
+What do you mean by your words?’
+My heart is grieved;
+Who knows [the cause of] it?
+Who knows [the cause of] it?
+[They know it not], because they will not think.
+
+2 Of the jujube trees in the garden
+The fruit may be used as food.
+My heart is grieved,
+And I think I must travel about through the State.
+Those who do not know me
+Say I am an officer going to the verge of license.
+4Those men are right;
+What do you mean by your words ? *
+My heart is grieved.
+Who knows [the cause of] it ?
+Who knows [the cause of] it?,
+[They do not know it], because they will not think.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

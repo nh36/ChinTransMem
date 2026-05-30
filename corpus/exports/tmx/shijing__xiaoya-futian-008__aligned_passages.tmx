@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-futian-008__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-futian-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·甫田之什·008.1</prop>
+      <prop type="x-translation-ref">車舝.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>閒關車之舝兮，思孌季女逝兮。匪飢匪渴，德音來括。雖無好友，式燕且喜。
+依彼平林，有集維鷮。辰彼碩女，令德來教。式燕且譽，好爾無射。
+雖無旨酒，式飲庶幾。雖無嘉殽，式食庶幾。雖無德與女，式歌且舞。
+陟彼高岡，析其柞薪。析其柞薪，其葉湑兮。鮮我覯爾，我心寫兮。
+高山仰止，景行行止。四牡騑騑，六轡如琴。覯爾新昏，以慰我心。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Keen-hwan went the axle ends of my carriage,
+As I thought of the young beauty, and went [to fetch her].
+It was not that I was hungry or thirsty,
+But [I longed] for one of such virtuous fame to come and be
+with me.
+Although no good friends be with us,
+We will feast and be glad.
+
+2 Dense is that forest in the plain,
+And there sit the long-tailed pheasants.
+In her proper season that well-grown lady,
+With her admirable virtue, is come to instruct me.
+We will feast, and I will praise her.
+
+4 1 love you, and will never be weary of you/
+
+3 Although I have no good spirits,
+We will drink [what I have], and perhaps [be satisfied].
+Although I have no good viands,
+We will eat [what I have], and perhaps [be satisfied].
+Although I have no virtue to impart to you,
+We will sing and dance.
+
+4 I ascend that lofty ridge,
+And split the branches of the oaks for firewood.
+I split the branches of the oaks for firewood,
+Amid the luxuriance of their leaves.
+I see you whose match is seldom to be seen,
+And my whole heart is satisfied.
+
+5 The high hill is looked up to;
+The great road is easy to be travelled on.
+My four steeds advanced without stopping;
+The six reins [made music] in my hands like lute-[strings].
+
+1 see you my bride,
+To the comfort of my heart.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

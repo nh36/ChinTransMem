@@ -1,0 +1,26 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-yongfeng-009__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-yongfeng-009,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·鄘風·009.1,"孑孑干旄，在浚之郊，素絲紕之，良馬四之，彼姝者子，何以畀之。
+孑孑干旟，在浚之都，素絲組之，良馬五之，彼姝者子，何以予之。
+孑孑干旌，在浚之城，素絲祝之，良馬六之，彼姝者子，何以告之。",干旄.1,"1 Conspicuously rise the stalFs with their ox-tails,
+In the distant suburbs of Tseun,
+Ornamented with the white silk bands ;
+There are four carriages with their good horses,
+That admirable gentleman, —
+What will he give them [for this]?
+gt，- les ety
+ia am l 30k = rhy
+
+2 Conspicuously rise the staffs with their falcon-banners,
+In the nearer suburbs of Tseun,
+Ornamented Avith the white silk ribbons ;
+There ai*e five carriages with their good horses.
+That admirable gentleman, —
+What will he give them [for this]?
+
+3 Conspicuously rise the staffs with their feathered streamers,
+At the walls of Tseun,
+Bound with the white silk cords.
+There are six carriages with their good horses.
+That admirable gentleman, —
+What will he tell them [for this] ?
+ODES OF YUNG."

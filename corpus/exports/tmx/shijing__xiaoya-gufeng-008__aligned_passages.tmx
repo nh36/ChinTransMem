@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-gufeng-008__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-gufeng-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·008.1</prop>
+      <prop type="x-translation-ref">鼓鍾.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鼓鍾將將，淮水湯湯。憂心且傷。淑人君子，懷允不忘。
+鼓鍾喈喈，淮水湝湝。憂心且悲。淑人君子，其德不回。
+鼓鍾伐鼛，淮有三洲。憂心且妯。淑人君子，其德不猶。
+鼓鍾欽欽，鼓瑟鼓琴。笙磬同音。以雅以南，以籥不僭。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>His bells ring out tseang-tseang,
+While the waters of the Hwae go sweeping on;
+Sad is my heart and wounded.
+The virtuous sovereigns [of old], —
+In my heart, indeed, I cannot forget them.
+o he th iri g0
+eb our ht.
+rOT up
+! ou uti
+l cko ulfil !
+tlv ge re fu th
+
+2 His drums ring out keae-lceae^
+While the waters of the Hwae rush along;
+My heart is sad and grieved.
+Of the virtuous sovereigns [of old]
+The virtue was without flaw.
+
+3 His bells ring out, his large drums resound ;
+There are the three islands in the Hwae;
+Sad is my heart and moved.
+Of the virtuous sovereigns [of old]
+The virtue was different from this.
+
+4 His bells ring out Vin-lcHn ;
+His lutes, large and small, give their notes ;
+The tones of his organs and sounding stones are in unison.
+They sing the Ya aud the Nan,
+Dancing to their flutes without error.
+
+1 Thick grew the tribulus [on the ground],
+But they cleared away its thorny bushes.
+Why did they this of old?
+That we might plant pur millet and sacrificial millet;
+That our millet might be abundant,
+And our sacrificial millet luxuriant.
+When our barns are full,
+〇n this view these odes</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

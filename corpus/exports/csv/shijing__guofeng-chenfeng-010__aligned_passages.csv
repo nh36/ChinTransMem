@@ -1,0 +1,22 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-chenfeng-010__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-chenfeng-010,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·陳風·010.1,"彼澤之陂，有蒲與荷。有美一人，傷如之何。寤寐無為，涕泗滂沱。
+彼澤之陂，有蒲與蕑。有美一人，碩大且卷。寤寐無為，中心悁悁。
+彼澤之陂，有蒲菡萏。有美一人，碩大且儼。寤寐無為，輾轉伏枕。",澤陂.1,"By the shores q£ that marsh,
+There are rushes and lotus plants.
+There is the beautiful lady； —
+I am tortured for her, but what avails it ?
+Waking or sleeping, I do nothing;
+From my eyes and nose the water streams.
+
+2 By the shores of that marsh
+There are rushes and the valerian.
+There is the beautiful lady,
+Tall and large, and elegant.
+Waking or sleeping, I do nothing;
+'My inmost heart is full of grief.
+
+3 By the shores of that marsh,
+There are rushes and lotus flowers.
+There is that beatiful lady,
+Tall and large, and majestic.
+Waking or sleeping, I do nothing;"

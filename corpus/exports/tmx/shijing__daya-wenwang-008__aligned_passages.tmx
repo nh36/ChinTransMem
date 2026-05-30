@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-wenwang-008__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-wenwang-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·文王之什·008.1</prop>
+      <prop type="x-translation-ref">靈臺.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>經始靈臺，經之營之。庶民攻之，不日成之。
+經始勿亟，庶民子來。王在靈囿，麀鹿攸伏。
+麀鹿濯濯，白鳥翯翯。王在靈沼，於牣魚躍。
+虡業維樅，賁鼓維鏞。於論鼓鍾，於樂辟廱。
+於論鼓鍾，於樂辟廱。鼉鼓逢逢，矇瞍奏公。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 When be planned the commencement of the marvellous tower,
+He planned it, and defined it;
+And the people in crowds undertook the work,
+And in no time completed it.
+When he planned the commencement, [he said], ( Be not in a
+But the people came as if they were his children.
+DECADE OF KING WAN.
+
+2 The king was in the marvellous park,
+Where the does were lying down, —
+The does, so sleek and fat;
+With the white birds glistening.
+The king was by the marvellous pond； —
+How full was it of fishes leaping about !
+
+3 On his posts was the toothed face-board, high and strong,
+With the large drums and bells.
+In what unison were their sounds!
+What joy was there in the hall with its circlet of water!
+
+4 In what unison sounded the drums and bells!
+What joy was there in the hall with its circlet of water!
+The lizard-skin drums rolled harmonious,
+As the blind musicians performed theif parts.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

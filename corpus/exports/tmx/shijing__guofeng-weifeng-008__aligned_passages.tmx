@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-weifeng-008__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·衛風·008.1</prop>
+      <prop type="x-translation-ref">伯兮.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>伯兮朅兮，邦之桀兮。伯也執殳，爲王前驅。
+自伯之東，首如飛蓬。豈無膏沐？誰適爲容！
+其雨其雨，杲杲出日。願言思伯，甘心首疾。
+焉得諼草？言樹之背。願言思伯。使我心痗。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 My noble husband is how martial-like !
+The hero of the country !
+My husband, grasping his halberd,
+Is in the leading chariot of the king’s [host].
+
+2 Since my husband went to the east,
+My head has been like the flying [pappus of the] artemisia.
+It is not that I could not anoint and wash it;
+But for whom should I adorn myself?
+
+3 0 for rain ! 0 for rain !
+But brightly the sun comes forth.
+Longingly I think of my husband,
+Till my heart is weary, and my head aches.
+
+4 How shall I get the plant of forgetfulness ?
+I would plant it on the north of my house.
+Longingly I think of my husband,
+And my heart is made to ache.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

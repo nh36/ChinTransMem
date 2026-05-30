@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-weifeng-state-001__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-state-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·魏風·001.1</prop>
+      <prop type="x-translation-ref">葛屨.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>糾糾葛屨，可以履霜。摻摻女手，可以縫裳。要之襋之，好人服之。
+好人提提，宛然左辟。佩其象揥。維是褊心，是以為刺。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Shoes thinly woven of the dolichos fibre
+May be used to walk on the hoarfrost.
+The delicate fingers of a bride
+May be used in making clothes.
+[His bride] puts the waistband to his lower garment and the
+collar to his upper,
+And he, a wealthy man, wears them.
+
+2 Wealthy, he moves about quite at ease,
+And politely he stands aside to the left.
+From his girdle hangs his ivory comb-pin.
+It is the narrowness of his disposition,
+Which makes him a subject for satire.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

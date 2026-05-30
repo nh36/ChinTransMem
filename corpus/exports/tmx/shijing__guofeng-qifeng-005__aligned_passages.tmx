@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-qifeng-005__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qifeng-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·齊風·005.1</prop>
+      <prop type="x-translation-ref">東方未明.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>東方未明，顛倒衣裳。顛之倒之，自公召之。
+東方未晞，顛倒裳衣。倒之顛之，自公令之。
+折柳樊圃，狂夫瞿瞿。不能辰夜，不夙則莫。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Before the east was bright,
+I was putting on my clothes upside down ;
+I was putting them on upside down,
+And there was one from the court calling me.
+
+2 Before there was a streak of claw-n in the east,
+I was putting on my clothes upside down;
+I was putting them on upside down,
+And there was one from the court with orders for me.
+
+3 You fence your garden with branches of willow,
+And the reckless fellows stand in awe.
+He, [however], cannot fix the time of night;
+If he be not too early, he is sure to be late.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

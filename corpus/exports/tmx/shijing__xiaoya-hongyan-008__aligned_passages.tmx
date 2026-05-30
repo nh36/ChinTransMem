@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-hongyan-008__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-hongyan-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·008.1</prop>
+      <prop type="x-translation-ref">我行其野.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我行其野，蔽芾其樗。昏姻之故，言就爾居。爾不我畜，復我邦家。
+我行其野，言采其蓫。昏姻之故，言就爾宿。爾不我畜，言歸斯復。
+我行其野，言采其葍。不思舊姻，求爾新特。成不以富，亦祗以異。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 I travelled through the country,
+Where the Fetid tree grew luxuriant.
+Because of our affinity by marriage,
+I went to reside with you.
+But you do not entertain me;
+And I go back to my country and clan.
+
+2 I travelled through the country,
+Gathering the sheep's-foot.
+Because of our affinity by marriage,
+I came to lodge with you.
+But you do not entertain me,
+And I will return, I will go back.
+
+3 I travelled through the country,
+Gathering the pokeweed.
+You do not think of our old affinity,
+And seek to please your new relative.
+If indeed you are not influenced by lier riches,
+You still are so by the difference [between the new and the old].</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

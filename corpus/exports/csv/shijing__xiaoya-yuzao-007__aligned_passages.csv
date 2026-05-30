@@ -1,0 +1,20 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-yuzao-007__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,xiaoya-yuzao-007,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·007.1,"芃芃黍苗，陰雨膏之。悠悠南行，召伯勞之。
+我任我輦，我車我牛。我行既集，蓋云歸哉。
+我徒我御，我師我旅。我行既集，蓋云歸處。
+肅肅謝功，召伯營之。烈烈征師，召伯成之。
+原隰既平，泉流既清。召伯有成，王心則寧。",黍苗.1,"yt ou we vve ac rll.
+gg itio uld
+Our whole host, and our battalions.
+When our expedition was accomplished,
+We knew we should return home.
+
+4 Severe was the work at Seay,
+But the earl of Shaou built the cit)^.
+Majestic was the march of our host; —
+The earl of Shaou directed it.
+
+5 The plains and low lands were regulated- —
+The springs and streams were cleared.
+The earl of Shaou completed his work,
+And the heart of the king was at rest."

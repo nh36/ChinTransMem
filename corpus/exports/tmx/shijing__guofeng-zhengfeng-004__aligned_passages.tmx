@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhengfeng-004__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-004</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·004.1</prop>
+      <prop type="x-translation-ref">大叔于田.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>叔于田，乘乘馬。執轡如組，兩驂如舞。叔在藪，火烈具舉，襢裼暴虎，獻于公所。將叔無狃，戒其傷女。
+叔于田，乘乘黃。兩服上襄，兩驂鴈行。叔在藪，火烈具揚。叔善射忌，又良御忌，抑磬控忌，抑縱送忌。
+叔于田，乘乘鴇。兩服齊首，兩驂如手。叔在藪，火烈具阜。叔馬慢忌，叔發罕忌，抑釋掤忌，抑鬯弓忌。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 Shuh has gone hunting,
+Mounted in his chariot and four.
+The reins are in his ^rasp like ribbons,
+While the two outside horses move [with regular steps], as
+dancers do.
+Shuh is at the marshy ground; —
+The fire flames out all at once,
+And with bared arms he seizes a ti^er,
+And presents it before the duke.
+O Shuh7 try not [such sport] again ;
+Beware of getting hurt.
+Shun has gone hunting,
+Mounted in his chariot with four bay horses.
+The two insides are the finest possible animals,
+And the two outsides follow them regularly as in a flying
+flock of wild geese.
+Shub is at the marshy ground; —
+The fire blazes up all at once.
+A skilful archer is Shuh !
+A good charioteer also !
+Now he gives his horses the reins ; now he brings them up ;
+Now he discharges his arrow; now he follows it.
+Shull has gone hunting.
+Mounted in his chariot with four grey horses.
+His two insides have tlieir heads in a line,
+And the two outsides come after like arms.
+Shuh is at the marsh ; —
+The fire spreads grandly all together.
+ODES OF CH^ING.
+His horses move slowly ；
+He shoots but seldom ；
+Now he lays aside his quiver ；
+Now he returns his bow to the case.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

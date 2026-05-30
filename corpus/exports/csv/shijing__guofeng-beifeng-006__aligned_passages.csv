@@ -1,0 +1,29 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-beifeng-006__001__zhwikisource-20260530__legge-sheking-1871-hocr,shijing,guofeng-beifeng-006,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·邶風·006.1,"擊鼓其鏜，踴躍用兵，土國城漕，我獨南行。
+從孫子仲，平陳與宋，不我以歸，憂心有忡。
+爰居爰處，爰喪其馬，于以求之，于林之下。
+死生契闊，與子成說，執子之手，與子偕老。
+于嗟闊兮，不我活兮，于嗟洵兮，不我信兮。",擊鼓.1,"1 Hear the roll of our drums !
+See how we leap about, using our weapons !
+Those do the fieldwork in the State, or fortify Ts^ou,
+While we alone march to the south.
+
+2 We followed Sun Tsze-chung,
+Peace having been made with Chcin and Sung；
+[But] he did not lead us back,
+And our sorrowful hearts are very sad.
+
+3 Here we stay ; here we stop ;
+Here we lose our horses ；
+And vve seek for them,
+Among the trees of the forest.
+
+4 For life or for death, however separated,
+To our wives we pledged our word.
+We held their hands; —
+AVe were to grow old together with them.
+
+5 Alas for our separation !
+We have no prospect of life
+Alas for our stipulation !
+We cannot make it good."

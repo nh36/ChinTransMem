@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-qinfeng-002__001__zhwikisource-20260530__legge-sheking-1871-hocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qinfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·秦風·002.1</prop>
+      <prop type="x-translation-ref">駟驖.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>駟驖孔阜，六轡在手。公之媚子，從公于狩。
+奉時辰牡，辰牡孔碩。公曰左之，舍拔則獲。
+遊于北園，四馬既閑。輶車鸞鑣，載獫歇驕。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1 His four iron-black horses are in very fine condition;
+The six reins are in the hand [of the charioteer].
+The ruler’s favourites
+Follow him to the chase.
+
+192 THE SHE KING.
+
+2 The male animals of the season are made to present themselves,
+The males in season, of very large size.
+The ruler says, ‘To the left of them;’
+Then he lets go his arrows and hits.
+
+3 He rambles in the northern park；
+His four horses display their training.
+Light carriages, with bells at the horsed bits,
+Convey the long and short-mouthed dogs.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
