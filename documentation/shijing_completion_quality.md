@@ -1,84 +1,113 @@
 # Shijing completion quality audit
 
-This report complements the structural preflight checks with plausibility and review signals for the 305 complete extant *Shijing* poems.
+This report complements the structural preflight checks with verification-ledger enforcement for exportable *Shijing* poems.
 
 ## Summary
 
 | Metric | Count |
 | --- | ---: |
-| complete_sections | 303 |
-| metadata_only_sections | 8 |
-| exact_alignment_count | 450 |
-| ocr_or_fulltext_derived_sections | 200 |
-| sections_needing_human_text_review | 180 |
-| sections_with_coarse_alignment | 215 |
-| sections_with_single_poem_alignment | 228 |
-| sections_with_extreme_length_ratio | 30 |
-| sections_with_possible_commentary_leakage | 130 |
+| complete_sections | 123 |
+| metadata_only_sections | 188 |
+| non_exportable_extant_sections | 182 |
+| exact_alignment_count | 270 |
+| ocr_or_fulltext_derived_sections | 20 |
+| sections_needing_human_text_review | 0 |
+| sections_with_coarse_alignment | 48 |
+| sections_with_single_poem_alignment | 48 |
+| sections_with_extreme_length_ratio | 0 |
+| sections_with_possible_commentary_leakage | 0 |
 | sections_with_hard_failures | 0 |
 | hard_failure_count | 0 |
-| warning_count | 414 |
+| warning_count | 21 |
 
 ## Witness mix
 
 | Witness type | Complete sections |
 | --- | ---: |
-| OCR-derived witness | 200 |
+| OCR-derived witness | 20 |
 | SBE transcluded page | 102 |
 | standalone Wikisource | 1 |
 
-## Text-review status mix
+## Verification status mix
 
 | Status | Complete sections |
 | --- | ---: |
-| human_reviewed_ocr | 20 |
-| ocr_extracted_needs_review | 180 |
-| sbe_transcluded_verified | 102 |
-| verified_transcribed_text | 1 |
+| human_verified_ocr | 20 |
+| verified_transcribed_text | 103 |
 
 ## Thresholds
 
 | Heuristic | Value |
 | --- | ---: |
-| english_word_short_threshold | 41 |
-| english_word_long_threshold | 312 |
-| english_to_chinese_ratio_low_threshold | 1.678 |
-| english_to_chinese_ratio_high_threshold | 8.317 |
+| english_word_short_threshold | 40 |
+| english_word_long_threshold | 426 |
+| english_to_chinese_ratio_low_threshold | 1.413 |
+| english_to_chinese_ratio_high_threshold | 8.089 |
+
+## Non-exportable repair queue
+
+| Section | Title | Verification status | Decision | Notes |
+| --- | --- | --- | --- | --- |
+| guofeng-zhaonan-003 | 草蟲 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-zhaonan-005 | 甘棠 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-zhaonan-006 | 行露 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-zhaonan-007 | 羔羊 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-zhaonan-008 | 殷其靁 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-zhaonan-009 | 摽有梅 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-zhaonan-010 | 小星 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-zhaonan-011 | 江有汜 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-zhaonan-012 | 野有死麕 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-zhaonan-013 | 何彼穠矣 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-001 | 柏舟 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-002 | 綠衣 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-003 | 燕燕 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-005 | 終風 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-006 | 擊鼓 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-007 | 凱風 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-008 | 雄雉 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-009 | 匏有苦葉 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-010 | 谷風 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-011 | 式微 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-012 | 旄丘 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-013 | 簡兮 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-014 | 泉水 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-016 | 北風 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
+| guofeng-beifeng-017 | 靜女 | needs_text_repair | do_not_export_until_repaired | Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination. |
 
 ## Most flagged sections
 
 | Section | Title | Witness | Words | Ratio | Flags |
 | --- | --- | --- | ---: | ---: | --- |
-| guofeng-zhaonan-013 | 何彼穠矣 | OCR-derived witness | 65 | 0.914 | suspiciously low English/Chinese length ratio, possible commentary, page furniture, or OCR junk, complete section still needs human text review, poem-level alignment may hide recoverable stanza segmentation |
-| guofeng-beifeng-010 | 谷風 | OCR-derived witness | 312 | 3.985 | suspiciously long English text, possible commentary, page furniture, or OCR junk, complete section still needs human text review, poem-level alignment may hide recoverable stanza segmentation |
-| xiaoya-luming-008 | 出車 | OCR-derived witness | 329 | 6.217 | suspiciously long English text, possible commentary, page furniture, or OCR junk, complete section still needs human text review, poem-level alignment may hide recoverable stanza segmentation |
-| xiaoya-nanyoujiayu-011 | 采芑 | OCR-derived witness | 336 | 6.679 | suspiciously long English text, possible commentary, page furniture, or OCR junk, complete section still needs human text review, poem-level alignment may hide recoverable stanza segmentation |
-| daya-shengmin-007 | 泂酌 | OCR-derived witness | 345 | 19.500 | suspiciously long English text, suspiciously high English/Chinese length ratio, possible commentary, page furniture, or OCR junk, complete section still needs human text review |
-| daya-dang-009 | 常武 | OCR-derived witness | 341 | 6.440 | suspiciously long English text, possible commentary, page furniture, or OCR junk, complete section still needs human text review, poem-level alignment may hide recoverable stanza segmentation |
-| guofeng-zhaonan-006 | 行露 | OCR-derived witness | 38 | 1.651 | suspiciously short English text, suspiciously low English/Chinese length ratio, complete section still needs human text review |
-| guofeng-zhaonan-012 | 野有死麕 | OCR-derived witness | 130 | 10.086 | suspiciously high English/Chinese length ratio, possible commentary, page furniture, or OCR junk, complete section still needs human text review |
-| guofeng-beifeng-001 | 柏舟 | OCR-derived witness | 158 | 9.097 | suspiciously high English/Chinese length ratio, possible commentary, page furniture, or OCR junk, complete section still needs human text review |
-| guofeng-beifeng-007 | 凱風 | OCR-derived witness | 111 | 5.975 | possible commentary, page furniture, or OCR junk, complete section still needs human text review, poem-level alignment may hide recoverable stanza segmentation |
-| guofeng-weifeng-003 | 碩人 | OCR-derived witness | 252 | 8.521 | suspiciously high English/Chinese length ratio, possible commentary, page furniture, or OCR junk, complete section still needs human text review |
-| guofeng-weifeng-005 | 竹竿 | OCR-derived witness | 181 | 9.012 | suspiciously high English/Chinese length ratio, possible commentary, page furniture, or OCR junk, complete section still needs human text review |
-| guofeng-weifeng-010 | 木瓜 | OCR-derived witness | 85 | 1.463 | suspiciously low English/Chinese length ratio, possible commentary, page furniture, or OCR junk, complete section still needs human text review |
-| guofeng-zhengfeng-009 | 有女同車 | OCR-derived witness | 34 | 2.767 | suspiciously short English text, possible commentary, page furniture, or OCR junk, complete section still needs human text review |
-| guofeng-zhengfeng-017 | 子衿 | OCR-derived witness | 147 | 10.082 | suspiciously high English/Chinese length ratio, possible commentary, page furniture, or OCR junk, complete section still needs human text review |
+| daya-dang-002 | 抑 | SBE transcluded page | 471 | 3.688 | suspiciously long English text, poem-level alignment may hide recoverable stanza segmentation |
+| song-lusong-004 | 閟宮 | SBE transcluded page | 863 | 6.466 | suspiciously long English text, poem-level alignment may hide recoverable stanza segmentation |
+| guofeng-zhengfeng-018 | 揚之水 | OCR-derived witness | 92 | 1.513 | poem-level alignment may hide recoverable stanza segmentation |
+| guofeng-tangfeng-009 | 無衣 | OCR-derived witness | 78 | 3.099 | poem-level alignment may hide recoverable stanza segmentation |
+| xiaoya-hongyan-009 | 斯干 | SBE transcluded page | 219 | 3.652 | poem-level alignment may hide recoverable stanza segmentation |
+| xiaoya-jienanshan-001 | 節南山 | SBE transcluded page | 452 | 6.378 | suspiciously long English text |
+| xiaoya-jienanshan-003 | 十月之交 | SBE transcluded page | 327 | 4.336 | poem-level alignment may hide recoverable stanza segmentation |
+| xiaoya-jienanshan-006 | 小宛 | SBE transcluded page | 130 | 9.600 | poem-level alignment may hide recoverable stanza segmentation |
+| xiaoya-gufeng-003 | 大東 | SBE transcluded page | 367 | 5.502 | poem-level alignment may hide recoverable stanza segmentation |
+| xiaoya-futian-002 | 大田 | SBE transcluded page | 140 | 3.477 | poem-level alignment may hide recoverable stanza segmentation |
+| daya-wenwang-007 | 皇矣 | SBE transcluded page | 693 | 6.513 | suspiciously long English text |
+| daya-shengmin-001 | 生民 | SBE transcluded page | 200 | 2.310 | poem-level alignment may hide recoverable stanza segmentation |
+| daya-shengmin-010 | 板 | SBE transcluded page | 156 | 2.331 | poem-level alignment may hide recoverable stanza segmentation |
+| daya-dang-001 | 蕩 | SBE transcluded page | 468 | 6.538 | suspiciously long English text |
+| daya-dang-004 | 雲漢 | SBE transcluded page | 579 | 6.230 | suspiciously long English text |
 
 ## Extreme English/Chinese ratios
 
 | Section | Title | Ratio | Witness | Notes |
 | --- | --- | ---: | --- | --- |
-| daya-shengmin-007 | 泂酌 | 19.500 | OCR-derived witness | suspiciously long English text; suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review |
-| guofeng-zhengfeng-015 | 東門之墠 | 12.550 | OCR-derived witness | suspiciously high English/Chinese length ratio; complete section still needs human text review |
-| guofeng-kuaifeng-003 | 隰有萇楚 | 12.413 | OCR-derived witness | suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review |
-| guofeng-zhaonan-014 | 騶虞 | 11.062 | OCR-derived witness | suspiciously high English/Chinese length ratio |
-| guofeng-zhaonan-012 | 野有死麕 | 10.086 | OCR-derived witness | suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review |
-| guofeng-zhengfeng-017 | 子衿 | 10.082 | OCR-derived witness | suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review |
-| guofeng-yongfeng-006 | 定之方中 | 9.733 | SBE transcluded page | suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk |
-| xiaoya-jienanshan-006 | 小宛 | 9.600 | SBE transcluded page | suspiciously high English/Chinese length ratio; poem-level alignment may hide recoverable stanza segmentation |
-| guofeng-chenfeng-008 | 月出 | 9.383 | OCR-derived witness | suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review |
-| guofeng-beifeng-001 | 柏舟 | 9.097 | OCR-derived witness | suspiciously high English/Chinese length ratio; possible commentary, page furniture, or OCR junk; complete section still needs human text review |
+| guofeng-zhaonan-014 | 騶虞 | 11.062 | OCR-derived witness | — |
+| xiaoya-jienanshan-006 | 小宛 | 9.600 | SBE transcluded page | poem-level alignment may hide recoverable stanza segmentation |
+| xiaoya-luming-010 | 魚麗 | 8.580 | OCR-derived witness | — |
+| daya-dang-007 | 韓奕 | 8.317 | SBE transcluded page | — |
+| song-chengong-008 | 載見 | 8.208 | SBE transcluded page | — |
+| song-minyuxiaozi-010 | 賚 | 8.161 | SBE transcluded page | — |
+| song-shangsong-002 | 烈祖 | 8.089 | SBE transcluded page | — |
+| daya-shengmin-009 | 民勞 | 8.080 | SBE transcluded page | — |
+| guofeng-binfeng-001 | 七月 | 7.710 | SBE transcluded page | — |
+| guofeng-zhounan-004 | 樛木 | 7.633 | OCR-derived witness | — |
 
 ## Hard failures
 

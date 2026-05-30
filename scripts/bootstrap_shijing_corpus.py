@@ -26,6 +26,12 @@ from common import (
     write_jsonl,
 )
 from shijing_quality import shijing_witness_metadata
+from shijing_verification import (
+    build_verification_index,
+    load_shijing_verification_ledger,
+    validate_verification_coverage,
+    verification_entry_is_exportable,
+)
 
 WORK_ID = "shijing"
 MANIFEST_PATH = MANIFESTS_DIR / f"{WORK_ID}.yml"
@@ -538,6 +544,60 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
             ),
         ],
     },
+    57: {
+        "legge_section_alias": "Shih jin",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR lines after the automatic section boundary "
+            "bled in the preceding poem; kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Large was she and tall,",
+                    "In her embroidered robe, with a [plain] single garment over it: —",
+                    "The daughter of the marquis of Ts'e,",
+                    "The wife of the marquis of Wei,",
+                    "The sister of the heir-son of Ts'e,",
+                    "The sister-in-law of the marquis of Hing,",
+                    "The viscount of Tan also her brother-in-law.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Her fingers were like the blades of the young white-grass;",
+                    "Her skin was like congealed ointment;",
+                    "Her neck was like the tree-grub;",
+                    "Her teeth were like melon seeds;",
+                    "Her forehead cicada-like; her eyebrows like [the antennae of]",
+                    "the silkworm moth;",
+                    "What dimples, as she artfully smiled!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Large was she and tall,",
+                    "When she halted in the cultivated suburbs.",
+                    "Strong looked her four horses,",
+                    "With the red ornaments so rich about their bits.",
+                    "Thus in her carriage, with its screens of pheasant feathers,",
+                    "she proceeded to our court.",
+                    "Early retire, ye great officers,",
+                    "And do not make the marquis fatigued!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The waters of the Ho, wide and deep,",
+                    "Flow northwards in majestic course.",
+                    "The nets are dropt into them with a plashing sound,",
+                    "Among shoals of sturgeon, large and small,",
+                    "While the rushes and sedges are rank about.",
+                    "Splendidly adorned were her sister ladies;",
+                    "Martial looked the attendant officers.",
+                ]
+            ),
+        ],
+    },
     61: {
         "legge_section_alias": "Ho kwang",
         "review_note": (
@@ -592,6 +652,39 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
                     "The cock crows without ceasing.",
                     "When we see our superior man,",
                     "We are happy and pleased.",
+                ]
+            ),
+        ],
+    },
+    91: {
+        "legge_section_alias": "Tsz Klen",
+        "review_note": (
+            "Recovered reviewed poem text from inspected Legge hOCR lines and trimmed away the following poem that the "
+            "automatic section boundary had appended; kept poem-level alignment until stanza-safe OCR segmentation is reworked."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "O you, with the blue collar,",
+                    "Prolonged is the anxiety of my heart.",
+                    "Although I do not go [to you],",
+                    "Why do you not continue your messages [to me]?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "O you with the blue [strings to your] girdle-gems,",
+                    "Long, long do I think of you.",
+                    "Although I do not go [to you],",
+                    "Why do you not come [to me]?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How volatile are you and dissipated,",
+                    "By the look-out tower on the wall!",
+                    "One day without the sight of you",
+                    "Is like three months.",
                 ]
             ),
         ],
@@ -828,6 +921,7 @@ class BlockCenterExtractor(HTMLParser):
         super().__init__()
         self.blocks: list[list[str]] = []
         self._capture_depth = 0
+        self._ignored_depth = 0
         self._current_parts: list[str] = []
         self._current_block_lines: list[str] = []
         self._current_paragraphs: list[str] = []
@@ -839,6 +933,12 @@ class BlockCenterExtractor(HTMLParser):
             return
         if self._capture_depth == 0:
             return
+        if tag in {"style", "script"}:
+            self._ignored_depth += 1
+            return
+        if tag == "sup" and "reference" in (attributes.get("class") or ""):
+            self._ignored_depth += 1
+            return
         if tag == "br":
             self._current_parts.append("\n")
         elif tag == "p":
@@ -846,6 +946,9 @@ class BlockCenterExtractor(HTMLParser):
 
     def handle_endtag(self, tag: str) -> None:
         if self._capture_depth == 0:
+            return
+        if self._ignored_depth and tag in {"style", "script", "sup"}:
+            self._ignored_depth -= 1
             return
         if tag == "p":
             paragraph = html.unescape("".join(self._current_parts))
@@ -862,7 +965,7 @@ class BlockCenterExtractor(HTMLParser):
                 self._current_block_lines = []
 
     def handle_data(self, data: str) -> None:
-        if self._capture_depth > 0:
+        if self._capture_depth > 0 and self._ignored_depth == 0:
             self._current_parts.append(data)
 
 
@@ -957,6 +1060,8 @@ def url_for_page(base_url: str, page_title: str) -> str:
 
 
 def section_id_for_catalog_entry(entry: dict[str, Any]) -> str:
+    if entry["sort_key"] == 1:
+        return "guofeng-zhounan-001-guanju"
     division_code = MAJOR_DIVISION_CODES[entry["major_division"]]
     subdivision_code = SUBDIVISION_CODES[entry["subdivision"]]
     return f"{division_code}-{subdivision_code}-{entry['local_index']:03d}"
@@ -985,6 +1090,35 @@ def legge_ocr_witness_for_entry(entry: dict[str, Any]) -> dict[str, str]:
         "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
         "candidate_en_backup_page_url": LEGGE_SHEKING_1871_PART_2_ITEM_URL,
         "candidate_en_backup_source_id": "legge-sheking-1871-part-2-hocr",
+    }
+
+
+def load_shijing_verification_index(*, skip_fetch: bool) -> dict[str, dict[str, Any]]:
+    chinese_catalog = parse_chinese_catalog(skip_fetch=skip_fetch)
+    verification_entries = load_shijing_verification_ledger()
+    verification_index = build_verification_index(verification_entries)
+    validate_verification_coverage(
+        {section_id_for_catalog_entry(entry) for entry in chinese_catalog},
+        verification_index,
+    )
+    return verification_index
+
+
+def verification_annotation(entry: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "verification_status": entry["verification_status"],
+        "verification_decision": entry.get("decision", entry.get("verification_decision")),
+        "chinese_source_status": entry["chinese_source_status"],
+        "english_source_status": entry["english_source_status"],
+        "source_volume": entry["source_volume"],
+        "source_page_or_anchor": entry["source_page_or_anchor"],
+        "raw_source_path": entry["raw_source_path"],
+        "processed_translation_path": entry["processed_translation_path"],
+        "reviewer_note": entry["reviewer_note"],
+        "extraction_method": entry["extraction_method"],
+        "remaining_warnings": entry["remaining_warnings"],
+        "alignment_status": entry["alignment_status"],
+        "alignment_granularity": entry["alignment_granularity"],
     }
 
 
@@ -1245,15 +1379,29 @@ def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witn
     }
 
 
-def build_section_catalog(*, skip_fetch: bool) -> list[dict[str, Any]]:
+def build_section_catalog(
+    *,
+    skip_fetch: bool,
+    verification_index: dict[str, dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
     chinese_catalog = parse_chinese_catalog(skip_fetch=skip_fetch)
-    mapped_sections = [dict(SECTION_CATALOG[0])]
-    seen_sort_keys = {1}
+    mapped_sections = []
+    seen_sort_keys = set()
+    first_section = dict(SECTION_CATALOG[0])
+    if verification_index is None or verification_entry_is_exportable(verification_index[first_section["section_id"]]):
+        mapped_sections.append(first_section)
+    seen_sort_keys.add(1)
     for page_title in fetch_sbe_page_titles(skip_fetch=skip_fetch):
         poem = map_sbe_page_title(page_title, chinese_catalog)
         if poem["sort_key"] in seen_sort_keys:
             continue
-        mapped_sections.append(build_section_seed(poem, en_page_title=page_title, english_witness="sbe_shih"))
+        section_seed = build_section_seed(poem, en_page_title=page_title, english_witness="sbe_shih")
+        if verification_index is not None and not verification_entry_is_exportable(
+            verification_index[section_seed["section_id"]]
+        ):
+            seen_sort_keys.add(poem["sort_key"])
+            continue
+        mapped_sections.append(section_seed)
         seen_sort_keys.add(poem["sort_key"])
     for poem in chinese_catalog:
         if (
@@ -1263,13 +1411,15 @@ def build_section_catalog(*, skip_fetch: bool) -> list[dict[str, Any]]:
         ):
             continue
         english_witness = "legge_ocr_reviewed" if poem["sort_key"] in REVIEWED_LEGGE_OCR_POEM_BLOCKS else "legge_hocr"
-        mapped_sections.append(
-            build_section_seed(
-                poem,
-                en_page_title="James Legge, The She King (1871 hOCR fallback)",
-                english_witness=english_witness,
-            )
+        section_seed = build_section_seed(
+            poem,
+            en_page_title="James Legge, The She King (1871 hOCR fallback)",
+            english_witness=english_witness,
         )
+        if verification_index is not None and not verification_entry_is_exportable(verification_index[section_seed["section_id"]]):
+            seen_sort_keys.add(poem["sort_key"])
+            continue
+        mapped_sections.append(section_seed)
         seen_sort_keys.add(poem["sort_key"])
     mapped_sections.sort(key=lambda section: section["sort_key"])
     return mapped_sections
@@ -1279,12 +1429,14 @@ def build_canonical_section_inventory(
     complete_sections: list[dict[str, Any]],
     *,
     skip_fetch: bool,
+    verification_index: dict[str, dict[str, Any]],
 ) -> list[dict[str, Any]]:
     chinese_catalog = parse_chinese_catalog(skip_fetch=skip_fetch)
     complete_by_sort_key = {section["sort_key"]: section for section in complete_sections}
     inventory: list[dict[str, Any]] = []
     for entry in chinese_catalog:
         section_id = complete_by_sort_key.get(entry["sort_key"], {}).get("section_id", section_id_for_catalog_entry(entry))
+        verification = verification_index[section_id]
         zh_page_url = url_for_page("https://zh.wikisource.org/wiki", entry["page_title"])
         if entry["sort_key"] in TITLE_ONLY_SORT_KEYS:
             inventory.append(
@@ -1303,6 +1455,7 @@ def build_canonical_section_inventory(
                     "english_witness_status": "not_applicable",
                     "source_witness_type": "not_applicable",
                     "needs_human_text_review": False,
+                    **verification_annotation(verification),
                 }
             )
             continue
@@ -1326,11 +1479,17 @@ def build_canonical_section_inventory(
                     "english_witness_status": complete_section["english_witness_status"],
                     "source_witness_type": complete_section["source_witness_type"],
                     "needs_human_text_review": complete_section["needs_human_text_review"],
+                    **verification_annotation(verification),
                 }
             )
             continue
         english_witness = "legge_ocr_failed" if entry["sort_key"] in EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS else "legge_hocr"
         witness_meta = shijing_witness_metadata(english_witness)
+        coverage_status = (
+            "public_domain_translation_witness_not_safely_extractable"
+            if verification["decision"] == "do_not_export_until_repaired"
+            else "public_domain_text_witness_available"
+        )
         inventory.append(
             {
                 "global_sort_key": entry["sort_key"],
@@ -1343,24 +1502,17 @@ def build_canonical_section_inventory(
                 "zh_page_url": zh_page_url,
                 **legge_ocr_witness_for_entry(entry),
                 "english_witness": english_witness,
-                "status": "needs_alignment",
-                "coverage_status": (
-                    "public_domain_text_witness_available"
-                    if english_witness == "legge_hocr"
-                    else "public_domain_translation_witness_not_safely_extractable"
-                ),
+                "status": "needs_text_repair",
+                "coverage_status": coverage_status,
                 "english_witness_type": witness_meta["english_witness_type"],
                 "english_witness_status": witness_meta["english_witness_status"],
                 "source_witness_type": witness_meta["source_witness_type"],
-                "needs_human_text_review": witness_meta["needs_human_text_review"],
+                "needs_human_text_review": True,
                 "notes": (
-                    None
-                    if english_witness == "legge_hocr"
-                    else (
-                        "Legge witness located, but the current OCR/hOCR extraction is not safe enough for export; "
-                        "section remains metadata-only pending a cleaner witness or a manually reviewed recovery."
-                    )
+                    "Legge witness located, but this poem is non-exportable until the English text is verified against source "
+                    "and cleaned of OCR/layout contamination."
                 ),
+                **verification_annotation(verification),
             }
         )
     return inventory
@@ -2253,7 +2405,7 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
                 "separate from translation and extracts subsection headings when multiple poems share a Chinese page."
             ),
             "witness_type": "zh_wikisource_page",
-            "text_review_status": "verified_transcribed_text",
+            "text_review_status": section.get("chinese_source_status", "verified_transcribed_text"),
             "needs_human_text_review": False,
         },
         {
@@ -2287,13 +2439,13 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
                 english_notes
                 + (
                     " This OCR-derived extraction still needs human text review before it should be treated as a clean verified transcription."
-                    if witness_meta["needs_human_text_review"]
+                    if section.get("verification_status") not in {"verified_transcribed_text", "human_verified_ocr", "human_verified_fulltext"}
                     else ""
                 )
             ),
             "witness_type": witness_meta["english_witness_type"],
-            "text_review_status": witness_meta["english_witness_status"],
-            "needs_human_text_review": witness_meta["needs_human_text_review"],
+            "text_review_status": section.get("verification_status", witness_meta["english_witness_status"]),
+            "needs_human_text_review": bool(section.get("needs_human_text_review", witness_meta["needs_human_text_review"])),
         },
     ]
 
@@ -2378,29 +2530,21 @@ def write_section_files(section: dict[str, Any], *, skip_fetch: bool) -> dict[st
 
 
 def remove_metadata_only_section_artifacts(manifest_sections: list[dict[str, Any]], *, skip_fetch: bool) -> None:
-    chinese_catalog = parse_chinese_catalog(skip_fetch=skip_fetch)
-    catalog_by_sort_key = {entry["sort_key"]: entry for entry in chinese_catalog}
     for section in manifest_sections:
-        if section["sort_key"] not in EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS:
+        if section.get("tmx_status") == "complete":
             continue
-        entry = catalog_by_sort_key[section["sort_key"]]
-        stale_seed = build_section_seed(
-            entry,
-            en_page_title="James Legge, The She King (1871 hOCR fallback)",
-            english_witness="legge_hocr",
-        )
-        stale_paths = section_paths(stale_seed)
-        for key, path in stale_paths.items():
-            if key in {"zh_raw", "en_raw"}:
-                continue
-            if path.exists():
-                path.unlink()
+        base_name = f"{WORK_ID}__{section['section_id']}"
+        for directory in (CHINESE_DIR, TRANSLATION_DIR, ALIGNMENT_DIR):
+            for path in directory.glob(f"{base_name}*"):
+                if path.is_file():
+                    path.unlink()
         for path in section_export_paths(section["section_id"], WORK_ID).values():
             if path.exists():
                 path.unlink()
 
 
 def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
+    verification_index = load_shijing_verification_index(skip_fetch=skip_fetch)
     processed_sections: list[dict[str, Any]] = []
     all_sources: list[dict[str, Any]] = []
     romanization_aliases: list[dict[str, Any]] = [
@@ -2437,8 +2581,17 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
     if not skip_fetch or any((REPO_ROOT / path).exists() for path in LEGGE_SHEKING_1871_HOCR_RAW_PATHS.values()):
         fetch_legge_hocr_sources(skip_fetch=skip_fetch)
 
-    for section_seed in build_section_catalog(skip_fetch=skip_fetch):
-        result = write_section_files(dict(section_seed), skip_fetch=skip_fetch)
+    for section_seed in build_section_catalog(skip_fetch=skip_fetch, verification_index=verification_index):
+        verification = verification_index[section_seed["section_id"]]
+        result = write_section_files(
+            {
+                **section_seed,
+                **verification_annotation(verification),
+                "needs_human_text_review": False,
+                "review_note": section_seed.get("review_note") or verification["reviewer_note"],
+            },
+            skip_fetch=skip_fetch,
+        )
         section = result["section"]
         processed_sections.append(section)
         all_sources.extend(result["sources"])
@@ -2476,7 +2629,11 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
 
     processed_sections.sort(key=lambda section: section["sort_key"])
     processed_section_map = {section["section_id"]: section for section in processed_sections}
-    canonical_inventory = build_canonical_section_inventory(processed_sections, skip_fetch=skip_fetch)
+    canonical_inventory = build_canonical_section_inventory(
+        processed_sections,
+        skip_fetch=skip_fetch,
+        verification_index=verification_index,
+    )
     manifest_sections: list[dict[str, Any]] = []
     missing_chinese_source_count = 0
     needs_alignment_count = 0
@@ -2498,6 +2655,7 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
             "english_witness_status": inventory_item["english_witness_status"],
             "source_witness_type": inventory_item["source_witness_type"],
             "needs_human_text_review": inventory_item["needs_human_text_review"],
+            **verification_annotation(inventory_item),
         }
         if complete_section is not None:
             manifest_sections.append(
@@ -2506,7 +2664,7 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
                     **base_section,
                     "status": "complete",
                     "coverage_status": "complete",
-                    "alignment_status": "complete",
+                    "alignment_status": inventory_item["alignment_status"] or "complete",
                     "tmx_status": "complete",
                 }
             )
@@ -2532,10 +2690,10 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
         manifest_sections.append(
             {
                 **base_section,
-                "status": "needs_alignment",
-                "coverage_status": "public_domain_text_witness_available",
-                "alignment_status": "metadata_only",
-                "tmx_status": "metadata_only",
+                "status": inventory_item["status"],
+                "coverage_status": inventory_item["coverage_status"],
+                "alignment_status": inventory_item["alignment_status"] or "needs_text_repair",
+                "tmx_status": "not_exportable",
                 "expected_exact_alignment_count": 0,
                 "en_page_url": inventory_item["candidate_en_page_url"],
                 "candidate_en_source_id": inventory_item["candidate_en_source_id"],
@@ -2545,11 +2703,7 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
                 "candidate_en_access_date": LEGGE_SHEKING_1871_OCR_ACCESS_DATE,
                 "candidate_en_backup_page_url": inventory_item["candidate_en_backup_page_url"],
                 "candidate_en_backup_source_id": inventory_item["candidate_en_backup_source_id"],
-                "notes": (
-                    "Canonical Shijing poem represented in the manifest. A full public-domain Legge English text witness is "
-                    "available via English Wikisource The Shih, with Internet Archive OCR preserved as a fallback raw witness; "
-                    "section-level extraction still needs verification before TMX export, and OCR-derived text should stay visibly review-pending until checked."
-                ),
+                "notes": inventory_item["notes"],
             }
         )
 

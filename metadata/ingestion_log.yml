@@ -517,17 +517,6 @@
     "notes": "Bootstrap Shijing generation for 采蘩 with 1 exact poem alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-zhaonan-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhaonan-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhaonan-003__zhwikisource-20260530",
-      "guofeng-zhaonan-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 草蟲 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-zhaonan-004-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-zhaonan-004",
@@ -537,105 +526,6 @@
       "guofeng-zhaonan-004__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 采蘋 with 3 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhaonan-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhaonan-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhaonan-005__zhwikisource-20260530",
-      "guofeng-zhaonan-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 甘棠 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhaonan-006-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhaonan-006",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhaonan-006__zhwikisource-20260530",
-      "guofeng-zhaonan-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 行露 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhaonan-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhaonan-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhaonan-007__zhwikisource-20260530",
-      "guofeng-zhaonan-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 羔羊 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhaonan-008-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhaonan-008",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhaonan-008__zhwikisource-20260530",
-      "guofeng-zhaonan-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 殷其靁 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhaonan-009-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhaonan-009",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhaonan-009__zhwikisource-20260530",
-      "guofeng-zhaonan-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 摽有梅 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhaonan-010-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhaonan-010",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhaonan-010__zhwikisource-20260530",
-      "guofeng-zhaonan-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 小星 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhaonan-011-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhaonan-011",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhaonan-011__zhwikisource-20260530",
-      "guofeng-zhaonan-011__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 江有汜 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhaonan-012-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhaonan-012",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhaonan-012__zhwikisource-20260530",
-      "guofeng-zhaonan-012__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 野有死麕 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhaonan-013-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhaonan-013",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhaonan-013__zhwikisource-20260530",
-      "guofeng-zhaonan-013__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 何彼穠矣 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-zhaonan-014-20260530",
@@ -649,39 +539,6 @@
     "notes": "Bootstrap Shijing generation for 騶虞 with 1 exact poem alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-beifeng-001-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-001",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-001__zhwikisource-20260530",
-      "guofeng-beifeng-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 柏舟 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-002__zhwikisource-20260530",
-      "guofeng-beifeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 綠衣 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-003__zhwikisource-20260530",
-      "guofeng-beifeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 燕燕 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-beifeng-004-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-beifeng-004",
@@ -691,116 +548,6 @@
       "guofeng-beifeng-004__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 日月 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-005__zhwikisource-20260530",
-      "guofeng-beifeng-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 終風 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-006-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-006",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-006__zhwikisource-20260530",
-      "guofeng-beifeng-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 擊鼓 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-007__zhwikisource-20260530",
-      "guofeng-beifeng-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 凱風 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-008-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-008",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-008__zhwikisource-20260530",
-      "guofeng-beifeng-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 雄雉 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-009-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-009",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-009__zhwikisource-20260530",
-      "guofeng-beifeng-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 匏有苦葉 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-010-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-010",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-010__zhwikisource-20260530",
-      "guofeng-beifeng-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 谷風 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-011-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-011",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-011__zhwikisource-20260530",
-      "guofeng-beifeng-011__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 式微 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-012-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-012",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-012__zhwikisource-20260530",
-      "guofeng-beifeng-012__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 旄丘 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-013-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-013",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-013__zhwikisource-20260530",
-      "guofeng-beifeng-013__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 簡兮 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-014-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-014",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-014__zhwikisource-20260530",
-      "guofeng-beifeng-014__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 泉水 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-beifeng-015-20260530",
@@ -814,39 +561,6 @@
     "notes": "Bootstrap Shijing generation for 北門 with 1 exact stanza alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-beifeng-016-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-016",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-016__zhwikisource-20260530",
-      "guofeng-beifeng-016__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 北風 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-017-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-017",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-017__zhwikisource-20260530",
-      "guofeng-beifeng-017__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 靜女 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-beifeng-018-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-beifeng-018",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-beifeng-018__zhwikisource-20260530",
-      "guofeng-beifeng-018__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 新臺 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-yongfeng-001-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-yongfeng-001",
@@ -856,17 +570,6 @@
       "guofeng-yongfeng-001__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 柏舟 with 2 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-yongfeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-yongfeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-yongfeng-002__zhwikisource-20260530",
-      "guofeng-yongfeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 牆有茨 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-yongfeng-003-20260530",
@@ -880,28 +583,6 @@
     "notes": "Bootstrap Shijing generation for 君子偕老 with 1 exact stanza alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-yongfeng-004-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-yongfeng-004",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-yongfeng-004__zhwikisource-20260530",
-      "guofeng-yongfeng-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 桑中 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-yongfeng-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-yongfeng-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-yongfeng-005__zhwikisource-20260530",
-      "guofeng-yongfeng-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 鶉之奔奔 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-yongfeng-006-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-yongfeng-006",
@@ -911,83 +592,6 @@
       "guofeng-yongfeng-006__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 定之方中 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-yongfeng-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-yongfeng-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-yongfeng-007__zhwikisource-20260530",
-      "guofeng-yongfeng-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 蝃蝀 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-yongfeng-008-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-yongfeng-008",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-yongfeng-008__zhwikisource-20260530",
-      "guofeng-yongfeng-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 相鼠 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-yongfeng-009-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-yongfeng-009",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-yongfeng-009__zhwikisource-20260530",
-      "guofeng-yongfeng-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 干旄 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-yongfeng-010-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-yongfeng-010",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-yongfeng-010__zhwikisource-20260530",
-      "guofeng-yongfeng-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 載馳 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-001-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-001",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-001__zhwikisource-20260530",
-      "guofeng-weifeng-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 淇奧 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-002__zhwikisource-20260530",
-      "guofeng-weifeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 考槃 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-003__zhwikisource-20260530",
-      "guofeng-weifeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 碩人 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-weifeng-004-20260530",
@@ -1001,28 +605,6 @@
     "notes": "Bootstrap Shijing generation for 氓 with 2 exact stanza alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-weifeng-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-005__zhwikisource-20260530",
-      "guofeng-weifeng-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 竹竿 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-006-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-006",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-006__zhwikisource-20260530",
-      "guofeng-weifeng-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 芄蘭 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-weifeng-007-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-weifeng-007",
@@ -1032,39 +614,6 @@
       "guofeng-weifeng-007__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 河廣 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-008-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-008",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-008__zhwikisource-20260530",
-      "guofeng-weifeng-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 伯兮 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-009-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-009",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-009__zhwikisource-20260530",
-      "guofeng-weifeng-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 有狐 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-010-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-010",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-010__zhwikisource-20260530",
-      "guofeng-weifeng-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 木瓜 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-wangfeng-001-20260530",
@@ -1078,83 +627,6 @@
     "notes": "Bootstrap Shijing generation for 黍離 with 1 exact stanza alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-wangfeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-wangfeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-wangfeng-002__zhwikisource-20260530",
-      "guofeng-wangfeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 君子于役 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-wangfeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-wangfeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-wangfeng-003__zhwikisource-20260530",
-      "guofeng-wangfeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 君子陽陽 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-wangfeng-004-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-wangfeng-004",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-wangfeng-004__zhwikisource-20260530",
-      "guofeng-wangfeng-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 揚之水 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-wangfeng-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-wangfeng-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-wangfeng-005__zhwikisource-20260530",
-      "guofeng-wangfeng-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 中谷有蓷 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-wangfeng-006-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-wangfeng-006",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-wangfeng-006__zhwikisource-20260530",
-      "guofeng-wangfeng-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 兔爰 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-wangfeng-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-wangfeng-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-wangfeng-007__zhwikisource-20260530",
-      "guofeng-wangfeng-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 葛藟 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-wangfeng-008-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-wangfeng-008",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-wangfeng-008__zhwikisource-20260530",
-      "guofeng-wangfeng-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 采葛 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-wangfeng-009-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-wangfeng-009",
@@ -1164,182 +636,6 @@
       "guofeng-wangfeng-009__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 大車 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-wangfeng-010-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-wangfeng-010",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-wangfeng-010__zhwikisource-20260530",
-      "guofeng-wangfeng-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 丘中有麻 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-001-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-001",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-001__zhwikisource-20260530",
-      "guofeng-zhengfeng-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 緇衣 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-002__zhwikisource-20260530",
-      "guofeng-zhengfeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 將仲子 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-003__zhwikisource-20260530",
-      "guofeng-zhengfeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 叔于田 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-004-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-004",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-004__zhwikisource-20260530",
-      "guofeng-zhengfeng-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 大叔于田 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-005__zhwikisource-20260530",
-      "guofeng-zhengfeng-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 清人 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-006-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-006",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-006__zhwikisource-20260530",
-      "guofeng-zhengfeng-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 羔裘 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-007__zhwikisource-20260530",
-      "guofeng-zhengfeng-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 遵大路 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-008-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-008",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-008__zhwikisource-20260530",
-      "guofeng-zhengfeng-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 女曰鷄鳴 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-009-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-009",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-009__zhwikisource-20260530",
-      "guofeng-zhengfeng-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 有女同車 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-010-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-010",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-010__zhwikisource-20260530",
-      "guofeng-zhengfeng-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 山有扶蘇 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-011-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-011",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-011__zhwikisource-20260530",
-      "guofeng-zhengfeng-011__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 蘀兮 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-012-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-012",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-012__zhwikisource-20260530",
-      "guofeng-zhengfeng-012__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 狡童 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-013-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-013",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-013__zhwikisource-20260530",
-      "guofeng-zhengfeng-013__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 褰裳 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-014-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-014",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-014__zhwikisource-20260530",
-      "guofeng-zhengfeng-014__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 丰 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-015-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-015",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-015__zhwikisource-20260530",
-      "guofeng-zhengfeng-015__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 東門之墠 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-zhengfeng-016-20260530",
@@ -1353,17 +649,6 @@
     "notes": "Bootstrap Shijing generation for 風雨 with 1 exact poem alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-zhengfeng-017-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-017",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-017__zhwikisource-20260530",
-      "guofeng-zhengfeng-017__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 子衿 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-zhengfeng-018-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-zhengfeng-018",
@@ -1373,314 +658,6 @@
       "guofeng-zhengfeng-018__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 揚之水 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-019-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-019",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-019__zhwikisource-20260530",
-      "guofeng-zhengfeng-019__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 出其東門 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-020-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-020",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-020__zhwikisource-20260530",
-      "guofeng-zhengfeng-020__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 野有蔓草 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-zhengfeng-021-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-zhengfeng-021",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-zhengfeng-021__zhwikisource-20260530",
-      "guofeng-zhengfeng-021__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 溱洧 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-001-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-001",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-001__zhwikisource-20260530",
-      "guofeng-qifeng-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 雞鳴 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-002__zhwikisource-20260530",
-      "guofeng-qifeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 還 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-003__zhwikisource-20260530",
-      "guofeng-qifeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 著 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-004-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-004",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-004__zhwikisource-20260530",
-      "guofeng-qifeng-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 東方之日 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-005__zhwikisource-20260530",
-      "guofeng-qifeng-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 東方未明 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-006-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-006",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-006__zhwikisource-20260530",
-      "guofeng-qifeng-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 南山 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-007__zhwikisource-20260530",
-      "guofeng-qifeng-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 甫田 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-008-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-008",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-008__zhwikisource-20260530",
-      "guofeng-qifeng-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 盧令 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-009-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-009",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-009__zhwikisource-20260530",
-      "guofeng-qifeng-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 敝笱 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-010-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-010",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-010__zhwikisource-20260530",
-      "guofeng-qifeng-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 載驅 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qifeng-011-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qifeng-011",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qifeng-011__zhwikisource-20260530",
-      "guofeng-qifeng-011__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 猗嗟 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-state-001-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-state-001",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-state-001__zhwikisource-20260530",
-      "guofeng-weifeng-state-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 葛屨 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-state-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-state-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-state-002__zhwikisource-20260530",
-      "guofeng-weifeng-state-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 汾沮洳 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-state-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-state-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-state-003__zhwikisource-20260530",
-      "guofeng-weifeng-state-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 園有桃 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-state-004-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-state-004",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-state-004__zhwikisource-20260530",
-      "guofeng-weifeng-state-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 陟岵 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-state-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-state-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-state-005__zhwikisource-20260530",
-      "guofeng-weifeng-state-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 十畝之間 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-state-006-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-state-006",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-state-006__zhwikisource-20260530",
-      "guofeng-weifeng-state-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 伐檀 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-weifeng-state-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-weifeng-state-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-weifeng-state-007__zhwikisource-20260530",
-      "guofeng-weifeng-state-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 碩鼠 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-tangfeng-001-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-tangfeng-001",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-tangfeng-001__zhwikisource-20260530",
-      "guofeng-tangfeng-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 蟋蟀 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-tangfeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-tangfeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-tangfeng-002__zhwikisource-20260530",
-      "guofeng-tangfeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 山有樞 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-tangfeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-tangfeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-tangfeng-003__zhwikisource-20260530",
-      "guofeng-tangfeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 揚之水 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-tangfeng-004-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-tangfeng-004",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-tangfeng-004__zhwikisource-20260530",
-      "guofeng-tangfeng-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 椒聊 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-tangfeng-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-tangfeng-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-tangfeng-005__zhwikisource-20260530",
-      "guofeng-tangfeng-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 綢繆 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-tangfeng-006-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-tangfeng-006",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-tangfeng-006__zhwikisource-20260530",
-      "guofeng-tangfeng-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 杕杜 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-tangfeng-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-tangfeng-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-tangfeng-007__zhwikisource-20260530",
-      "guofeng-tangfeng-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 羔裘 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-tangfeng-008-20260530",
@@ -1705,17 +682,6 @@
     "notes": "Bootstrap Shijing generation for 無衣 with 1 exact poem alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-tangfeng-010-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-tangfeng-010",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-tangfeng-010__zhwikisource-20260530",
-      "guofeng-tangfeng-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 有杕之杜 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-tangfeng-011-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-tangfeng-011",
@@ -1725,72 +691,6 @@
       "guofeng-tangfeng-011__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 葛生 with 5 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-tangfeng-012-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-tangfeng-012",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-tangfeng-012__zhwikisource-20260530",
-      "guofeng-tangfeng-012__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 采苓 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qinfeng-001-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qinfeng-001",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qinfeng-001__zhwikisource-20260530",
-      "guofeng-qinfeng-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 車鄰 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qinfeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qinfeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qinfeng-002__zhwikisource-20260530",
-      "guofeng-qinfeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 駟驖 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qinfeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qinfeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qinfeng-003__zhwikisource-20260530",
-      "guofeng-qinfeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 小戎 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qinfeng-004-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qinfeng-004",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qinfeng-004__zhwikisource-20260530",
-      "guofeng-qinfeng-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 蒹葭 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qinfeng-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qinfeng-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qinfeng-005__zhwikisource-20260530",
-      "guofeng-qinfeng-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 終南 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-qinfeng-006-20260530",
@@ -1804,182 +704,6 @@
     "notes": "Bootstrap Shijing generation for 黃鳥 with 1 exact stanza alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-qinfeng-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qinfeng-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qinfeng-007__zhwikisource-20260530",
-      "guofeng-qinfeng-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 晨風 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qinfeng-008-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qinfeng-008",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qinfeng-008__zhwikisource-20260530",
-      "guofeng-qinfeng-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 無衣 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qinfeng-009-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qinfeng-009",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qinfeng-009__zhwikisource-20260530",
-      "guofeng-qinfeng-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 渭陽 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-qinfeng-010-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-qinfeng-010",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-qinfeng-010__zhwikisource-20260530",
-      "guofeng-qinfeng-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 權輿 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-chenfeng-001-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-001",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-chenfeng-001__zhwikisource-20260530",
-      "guofeng-chenfeng-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 宛丘 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-chenfeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-chenfeng-002__zhwikisource-20260530",
-      "guofeng-chenfeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 東門之枌 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-chenfeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-chenfeng-003__zhwikisource-20260530",
-      "guofeng-chenfeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 衡門 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-chenfeng-004-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-004",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-chenfeng-004__zhwikisource-20260530",
-      "guofeng-chenfeng-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 東門之池 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-chenfeng-005-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-005",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-chenfeng-005__zhwikisource-20260530",
-      "guofeng-chenfeng-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 東門之楊 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-chenfeng-006-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-006",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-chenfeng-006__zhwikisource-20260530",
-      "guofeng-chenfeng-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 墓門 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-chenfeng-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-chenfeng-007__zhwikisource-20260530",
-      "guofeng-chenfeng-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 防有鵲巢 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-chenfeng-008-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-008",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-chenfeng-008__zhwikisource-20260530",
-      "guofeng-chenfeng-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 月出 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-chenfeng-010-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-chenfeng-010",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-chenfeng-010__zhwikisource-20260530",
-      "guofeng-chenfeng-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 澤陂 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-kuaifeng-001-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-kuaifeng-001",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-kuaifeng-001__zhwikisource-20260530",
-      "guofeng-kuaifeng-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 羔裘 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-kuaifeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-kuaifeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-kuaifeng-002__zhwikisource-20260530",
-      "guofeng-kuaifeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 素冠 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-kuaifeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-kuaifeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-kuaifeng-003__zhwikisource-20260530",
-      "guofeng-kuaifeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 隰有萇楚 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-kuaifeng-004-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-kuaifeng-004",
@@ -1989,50 +713,6 @@
       "guofeng-kuaifeng-004__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 匪風 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-caofeng-001-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-caofeng-001",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-caofeng-001__zhwikisource-20260530",
-      "guofeng-caofeng-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 蜉蝣 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-caofeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-caofeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-caofeng-002__zhwikisource-20260530",
-      "guofeng-caofeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 候人 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-caofeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-caofeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-caofeng-003__zhwikisource-20260530",
-      "guofeng-caofeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 鳲鳩 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-caofeng-004-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-caofeng-004",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-caofeng-004__zhwikisource-20260530",
-      "guofeng-caofeng-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 下泉 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-binfeng-001-20260530",
@@ -2046,39 +726,6 @@
     "notes": "Bootstrap Shijing generation for 七月 with 1 exact stanza alignments."
   },
   {
-    "run_id": "bootstrap-guofeng-binfeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-binfeng-002",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-binfeng-002__zhwikisource-20260530",
-      "guofeng-binfeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 鴟鴞 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-binfeng-003-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-binfeng-003",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-binfeng-003__zhwikisource-20260530",
-      "guofeng-binfeng-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 東山 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-binfeng-004-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-binfeng-004",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-binfeng-004__zhwikisource-20260530",
-      "guofeng-binfeng-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 破斧 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-guofeng-binfeng-005-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-binfeng-005",
@@ -2088,72 +735,6 @@
       "guofeng-binfeng-005__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 伐柯 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-binfeng-006-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-binfeng-006",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-binfeng-006__zhwikisource-20260530",
-      "guofeng-binfeng-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 九罭 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-guofeng-binfeng-007-20260530",
-    "work_id": "shijing",
-    "section_id": "guofeng-binfeng-007",
-    "status": "complete",
-    "source_ids": [
-      "guofeng-binfeng-007__zhwikisource-20260530",
-      "guofeng-binfeng-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 狼跋 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-luming-001-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-luming-001",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-luming-001__zhwikisource-20260530",
-      "xiaoya-luming-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 鹿鳴 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-luming-002-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-luming-002",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-luming-002__zhwikisource-20260530",
-      "xiaoya-luming-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 四牡 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-luming-003-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-luming-003",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-luming-003__zhwikisource-20260530",
-      "xiaoya-luming-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 皇皇者華 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-luming-004-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-luming-004",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-luming-004__zhwikisource-20260530",
-      "xiaoya-luming-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 常棣 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-xiaoya-luming-005-20260530",
@@ -2176,28 +757,6 @@
       "xiaoya-luming-006__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 天保 with 6 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-luming-007-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-luming-007",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-luming-007__zhwikisource-20260530",
-      "xiaoya-luming-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 采薇 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-luming-008-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-luming-008",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-luming-008__zhwikisource-20260530",
-      "xiaoya-luming-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 出車 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-xiaoya-luming-009-20260530",
@@ -2231,193 +790,6 @@
       "xiaoya-nanyoujiayu-001__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 南有嘉魚 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-nanyoujiayu-002-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-nanyoujiayu-002",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-nanyoujiayu-002__zhwikisource-20260530",
-      "xiaoya-nanyoujiayu-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 南山有臺 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-nanyoujiayu-006-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-nanyoujiayu-006",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-nanyoujiayu-006__zhwikisource-20260530",
-      "xiaoya-nanyoujiayu-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 蓼蕭 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-nanyoujiayu-007-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-nanyoujiayu-007",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-nanyoujiayu-007__zhwikisource-20260530",
-      "xiaoya-nanyoujiayu-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 湛露 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-nanyoujiayu-008-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-nanyoujiayu-008",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-nanyoujiayu-008__zhwikisource-20260530",
-      "xiaoya-nanyoujiayu-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 彤弓 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-nanyoujiayu-009-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-nanyoujiayu-009",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-nanyoujiayu-009__zhwikisource-20260530",
-      "xiaoya-nanyoujiayu-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 菁菁者莪 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-nanyoujiayu-010-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-nanyoujiayu-010",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-nanyoujiayu-010__zhwikisource-20260530",
-      "xiaoya-nanyoujiayu-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 六月 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-nanyoujiayu-011-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-nanyoujiayu-011",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-nanyoujiayu-011__zhwikisource-20260530",
-      "xiaoya-nanyoujiayu-011__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 采芑 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-nanyoujiayu-012-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-nanyoujiayu-012",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-nanyoujiayu-012__zhwikisource-20260530",
-      "xiaoya-nanyoujiayu-012__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 車攻 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-nanyoujiayu-013-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-nanyoujiayu-013",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-nanyoujiayu-013__zhwikisource-20260530",
-      "xiaoya-nanyoujiayu-013__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 吉日 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-hongyan-001-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-hongyan-001",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-hongyan-001__zhwikisource-20260530",
-      "xiaoya-hongyan-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 鴻鴈 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-hongyan-002-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-hongyan-002",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-hongyan-002__zhwikisource-20260530",
-      "xiaoya-hongyan-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 庭燎 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-hongyan-003-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-hongyan-003",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-hongyan-003__zhwikisource-20260530",
-      "xiaoya-hongyan-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 沔水 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-hongyan-004-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-hongyan-004",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-hongyan-004__zhwikisource-20260530",
-      "xiaoya-hongyan-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 鶴鳴 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-hongyan-005-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-hongyan-005",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-hongyan-005__zhwikisource-20260530",
-      "xiaoya-hongyan-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 祈父 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-hongyan-006-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-hongyan-006",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-hongyan-006__zhwikisource-20260530",
-      "xiaoya-hongyan-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 白駒 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-hongyan-007-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-hongyan-007",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-hongyan-007__zhwikisource-20260530",
-      "xiaoya-hongyan-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 黃鳥 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-hongyan-008-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-hongyan-008",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-hongyan-008__zhwikisource-20260530",
-      "xiaoya-hongyan-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 我行其野 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-xiaoya-hongyan-009-20260530",
@@ -2530,17 +902,6 @@
     "notes": "Bootstrap Shijing generation for 巧言 with 1 exact stanza alignments."
   },
   {
-    "run_id": "bootstrap-xiaoya-jienanshan-009-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-jienanshan-009",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-jienanshan-009__zhwikisource-20260530",
-      "xiaoya-jienanshan-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 何人斯 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-xiaoya-jienanshan-010-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-jienanshan-010",
@@ -2550,28 +911,6 @@
       "xiaoya-jienanshan-010__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 巷伯 with 2 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-gufeng-001-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-gufeng-001",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-gufeng-001__zhwikisource-20260530",
-      "xiaoya-gufeng-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 谷風 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-gufeng-002-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-gufeng-002",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-gufeng-002__zhwikisource-20260530",
-      "xiaoya-gufeng-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 蓼莪 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-xiaoya-gufeng-003-20260530",
@@ -2585,39 +924,6 @@
     "notes": "Bootstrap Shijing generation for 大東 with 1 exact poem alignments."
   },
   {
-    "run_id": "bootstrap-xiaoya-gufeng-004-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-gufeng-004",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-gufeng-004__zhwikisource-20260530",
-      "xiaoya-gufeng-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 四月 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-gufeng-005-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-gufeng-005",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-gufeng-005__zhwikisource-20260530",
-      "xiaoya-gufeng-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 北山 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-gufeng-006-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-gufeng-006",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-gufeng-006__zhwikisource-20260530",
-      "xiaoya-gufeng-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 無將大車 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-xiaoya-gufeng-007-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-gufeng-007",
@@ -2627,17 +933,6 @@
       "xiaoya-gufeng-007__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 小明 with 3 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-gufeng-008-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-gufeng-008",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-gufeng-008__zhwikisource-20260530",
-      "xiaoya-gufeng-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 鼓鍾 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-xiaoya-gufeng-009-20260530",
@@ -2684,28 +979,6 @@
     "notes": "Bootstrap Shijing generation for 大田 with 1 exact poem alignments."
   },
   {
-    "run_id": "bootstrap-xiaoya-futian-003-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-futian-003",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-futian-003__zhwikisource-20260530",
-      "xiaoya-futian-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 瞻彼洛矣 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-futian-004-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-futian-004",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-futian-004__zhwikisource-20260530",
-      "xiaoya-futian-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 裳裳者華 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-xiaoya-futian-005-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-futian-005",
@@ -2715,50 +988,6 @@
       "xiaoya-futian-005__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 桑扈 with 1 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-futian-006-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-futian-006",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-futian-006__zhwikisource-20260530",
-      "xiaoya-futian-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 鴛鴦 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-futian-007-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-futian-007",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-futian-007__zhwikisource-20260530",
-      "xiaoya-futian-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 頍弁 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-futian-008-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-futian-008",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-futian-008__zhwikisource-20260530",
-      "xiaoya-futian-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 車舝 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-futian-009-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-futian-009",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-futian-009__zhwikisource-20260530",
-      "xiaoya-futian-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 青蠅 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-xiaoya-futian-010-20260530",
@@ -2772,94 +1001,6 @@
     "notes": "Bootstrap Shijing generation for 賓之初筵 with 2 exact stanza alignments."
   },
   {
-    "run_id": "bootstrap-xiaoya-yuzao-001-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-001",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-001__zhwikisource-20260530",
-      "xiaoya-yuzao-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 魚藻 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-002-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-002",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-002__zhwikisource-20260530",
-      "xiaoya-yuzao-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 采菽 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-003-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-003",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-003__zhwikisource-20260530",
-      "xiaoya-yuzao-003__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 角弓 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-004-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-004",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-004__zhwikisource-20260530",
-      "xiaoya-yuzao-004__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 菀柳 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-005-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-005",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-005__zhwikisource-20260530",
-      "xiaoya-yuzao-005__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 都人士 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-006-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-006",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-006__zhwikisource-20260530",
-      "xiaoya-yuzao-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 采綠 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-007-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-007",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-007__zhwikisource-20260530",
-      "xiaoya-yuzao-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 黍苗 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-008-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-008",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-008__zhwikisource-20260530",
-      "xiaoya-yuzao-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 隰桑 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-xiaoya-yuzao-009-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-yuzao-009",
@@ -2869,61 +1010,6 @@
       "xiaoya-yuzao-009__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 白華 with 2 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-010-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-010",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-010__zhwikisource-20260530",
-      "xiaoya-yuzao-010__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 緜蠻 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-011-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-011",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-011__zhwikisource-20260530",
-      "xiaoya-yuzao-011__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 瓠葉 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-012-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-012",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-012__zhwikisource-20260530",
-      "xiaoya-yuzao-012__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 漸漸之石 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-013-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-013",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-013__zhwikisource-20260530",
-      "xiaoya-yuzao-013__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 苕之華 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-xiaoya-yuzao-014-20260530",
-    "work_id": "shijing",
-    "section_id": "xiaoya-yuzao-014",
-    "status": "complete",
-    "source_ids": [
-      "xiaoya-yuzao-014__zhwikisource-20260530",
-      "xiaoya-yuzao-014__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 何草不黃 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-daya-wenwang-001-20260530",
@@ -3003,17 +1089,6 @@
     "notes": "Bootstrap Shijing generation for 皇矣 with 8 exact stanza alignments."
   },
   {
-    "run_id": "bootstrap-daya-wenwang-008-20260530",
-    "work_id": "shijing",
-    "section_id": "daya-wenwang-008",
-    "status": "complete",
-    "source_ids": [
-      "daya-wenwang-008__zhwikisource-20260530",
-      "daya-wenwang-008__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 靈臺 with 1 exact poem alignments."
-  },
-  {
     "run_id": "bootstrap-daya-wenwang-009-20260530",
     "work_id": "shijing",
     "section_id": "daya-wenwang-009",
@@ -3089,28 +1164,6 @@
       "daya-shengmin-005__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 假樂 with 1 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-daya-shengmin-006-20260530",
-    "work_id": "shijing",
-    "section_id": "daya-shengmin-006",
-    "status": "complete",
-    "source_ids": [
-      "daya-shengmin-006__zhwikisource-20260530",
-      "daya-shengmin-006__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 公劉 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-daya-shengmin-007-20260530",
-    "work_id": "shijing",
-    "section_id": "daya-shengmin-007",
-    "status": "complete",
-    "source_ids": [
-      "daya-shengmin-007__zhwikisource-20260530",
-      "daya-shengmin-007__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 泂酌 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-daya-shengmin-008-20260530",
@@ -3232,17 +1285,6 @@
       "daya-dang-008__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 江漢 with 2 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-daya-dang-009-20260530",
-    "work_id": "shijing",
-    "section_id": "daya-dang-009",
-    "status": "complete",
-    "source_ids": [
-      "daya-dang-009__zhwikisource-20260530",
-      "daya-dang-009__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 常武 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-daya-dang-010-20260530",
@@ -3606,28 +1648,6 @@
       "song-minyuxiaozi-011__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 般 with 1 exact stanza alignments."
-  },
-  {
-    "run_id": "bootstrap-song-lusong-001-20260530",
-    "work_id": "shijing",
-    "section_id": "song-lusong-001",
-    "status": "complete",
-    "source_ids": [
-      "song-lusong-001__zhwikisource-20260530",
-      "song-lusong-001__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 駉 with 1 exact poem alignments."
-  },
-  {
-    "run_id": "bootstrap-song-lusong-002-20260530",
-    "work_id": "shijing",
-    "section_id": "song-lusong-002",
-    "status": "complete",
-    "source_ids": [
-      "song-lusong-002__zhwikisource-20260530",
-      "song-lusong-002__legge-sheking-1871-hocr"
-    ],
-    "notes": "Bootstrap Shijing generation for 有駜 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-song-lusong-003-20260530",

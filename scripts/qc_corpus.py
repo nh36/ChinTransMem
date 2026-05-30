@@ -83,11 +83,11 @@ def run_qc(
             unmatched_chinese = sorted(chinese_segments - covered_chinese)
             unmatched_translation = sorted(translation_segments - covered_translation)
             status = "pass"
-            requires_exact_alignment = section.get("alignment_status", "complete") == "complete"
-            is_metadata_only = section.get("alignment_status") == "metadata_only"
+            is_non_exportable = section.get("tmx_status") != "complete"
+            requires_exact_alignment = not is_non_exportable and section.get("alignment_status", "complete") == "complete"
             if (
                 len(exact_alignment_rows) != section.get("expected_exact_alignment_count", 0)
-                or (not is_metadata_only and grouped_alignment_count != 1)
+                or (not is_non_exportable and grouped_alignment_count != 1)
                 or (requires_exact_alignment and unmatched_chinese)
                 or (requires_exact_alignment and unmatched_translation)
             ):

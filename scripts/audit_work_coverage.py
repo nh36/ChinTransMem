@@ -62,6 +62,9 @@ def unit_has_public_domain_english_witness(unit: dict[str, Any]) -> bool:
 
 
 def unit_has_verified_english_witness(unit: dict[str, Any]) -> bool:
+    verification_status = str(unit.get("verification_status", ""))
+    if verification_status in {"verified_transcribed_text", "human_verified_ocr", "human_verified_fulltext"}:
+        return True
     english_status = str(unit.get("english_witness_status", ""))
     return english_status in {"verified_transcribed_text", "sbe_transcluded_verified", "human_reviewed_ocr"}
 
