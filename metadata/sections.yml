@@ -6,6 +6,177 @@
     "label": "學而第一",
     "canonical_ref": "論語 1",
     "sort_key": 1,
-    "notes": "Chinese Wikisource labels this section 學而第一; Legge labels the same unit Book I. Hsio R."
+    "notes": "Chinese Wikisource labels this section 學而第一; Legge labels the same unit Book 1."
+  },
+  {
+    "section_id": "book-02-weizheng",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "爲政第二",
+    "canonical_ref": "論語 2",
+    "sort_key": 2,
+    "notes": "Chinese Wikisource labels this section 爲政第二; Legge labels the same unit Book 2."
+  },
+  {
+    "section_id": "book-03-bayi",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "八佾第三",
+    "canonical_ref": "論語 3",
+    "sort_key": 3,
+    "notes": "Chinese Wikisource labels this section 八佾第三; Legge labels the same unit Book 3."
+  },
+  {
+    "section_id": "book-04-liren",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "里仁第四",
+    "canonical_ref": "論語 4",
+    "sort_key": 4,
+    "notes": "Chinese Wikisource labels this section 里仁第四; Legge labels the same unit Book 4."
+  },
+  {
+    "section_id": "book-05-gongyechang",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "公冶長第五",
+    "canonical_ref": "論語 5",
+    "sort_key": 5,
+    "notes": "Chinese Wikisource labels this section 公冶長第五; Legge labels the same unit Book 5."
+  },
+  {
+    "section_id": "book-06-yongye",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "雍也第六",
+    "canonical_ref": "論語 6",
+    "sort_key": 6,
+    "notes": "Chinese Wikisource labels this section 雍也第六; Legge labels the same unit Book 6."
+  },
+  {
+    "section_id": "book-07-shuer",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "述而第七",
+    "canonical_ref": "論語 7",
+    "sort_key": 7,
+    "notes": "Chinese Wikisource labels this section 述而第七; Legge labels the same unit Book 7."
+  },
+  {
+    "section_id": "book-08-taibo",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "泰伯第八",
+    "canonical_ref": "論語 8",
+    "sort_key": 8,
+    "notes": "Chinese Wikisource labels this section 泰伯第八; Legge labels the same unit Book 8."
+  },
+  {
+    "section_id": "book-09-zihan",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "子罕第九",
+    "canonical_ref": "論語 9",
+    "sort_key": 9,
+    "notes": "Chinese Wikisource labels this section 子罕第九; Legge labels the same unit Book 9."
+  },
+  {
+    "section_id": "book-10-xiangdang",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "鄉黨第十",
+    "canonical_ref": "論語 10",
+    "sort_key": 10,
+    "notes": "Chinese Wikisource labels this section 鄉黨第十; Legge labels the same unit Book 10."
+  },
+  {
+    "section_id": "book-11-xianjin",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "先進第十一",
+    "canonical_ref": "論語 11",
+    "sort_key": 11,
+    "notes": "Chinese Wikisource labels this section 先進第十一; Legge labels the same unit Book 11."
+  },
+  {
+    "section_id": "book-12-yanyuan",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "顏淵第十二",
+    "canonical_ref": "論語 12",
+    "sort_key": 12,
+    "notes": "Chinese Wikisource labels this section 顏淵第十二; Legge labels the same unit Book 12."
+  },
+  {
+    "section_id": "book-13-zilu",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "子路第十三",
+    "canonical_ref": "論語 13",
+    "sort_key": 13,
+    "notes": "Chinese Wikisource labels this section 子路第十三; Legge labels the same unit Book 13."
+  },
+  {
+    "section_id": "book-14-xianwen",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "憲問第十四",
+    "canonical_ref": "論語 14",
+    "sort_key": 14,
+    "notes": "Chinese Wikisource labels this section 憲問第十四; Legge labels the same unit Book 14."
+  },
+  {
+    "section_id": "book-15-weilinggong",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "衛靈公第十五",
+    "canonical_ref": "論語 15",
+    "sort_key": 15,
+    "notes": "Chinese Wikisource labels this section 衛靈公第十五; Legge labels the same unit Book 15."
+  },
+  {
+    "section_id": "book-16-jishi",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "季氏第十六",
+    "canonical_ref": "論語 16",
+    "sort_key": 16,
+    "notes": "Chinese Wikisource labels this section 季氏第十六; Legge labels the same unit Book 16."
+  },
+  {
+    "section_id": "book-17-yanghuo",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "陽貨第十七",
+    "canonical_ref": "論語 17",
+    "sort_key": 17,
+    "notes": "Chinese Wikisource labels this section 陽貨第十七; Legge labels the same unit Book 17."
+  },
+  {
+    "section_id": "book-18-weizi",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "微子第十八",
+    "canonical_ref": "論語 18",
+    "sort_key": 18,
+    "notes": "Chinese Wikisource labels this section 微子第十八; Legge labels the same unit Book 18."
+  },
+  {
+    "section_id": "book-19-zizhang",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "子張第十九",
+    "canonical_ref": "論語 19",
+    "sort_key": 19,
+    "notes": "Chinese Wikisource labels this section 子張第十九; Legge labels the same unit Book 19."
+  },
+  {
+    "section_id": "book-20-yaoyue",
+    "work_id": "lunyu",
+    "parent_section_id": null,
+    "label": "堯曰第二十",
+    "canonical_ref": "論語 20",
+    "sort_key": 20,
+    "notes": "Chinese Wikisource labels this section 堯曰第二十; Legge labels the same unit Book 20."
   }
 ]

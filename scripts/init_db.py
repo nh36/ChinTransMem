@@ -16,7 +16,7 @@ def initialize_database(db_path: Path | str = DEFAULT_DB_PATH) -> Path:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Initialize the SQLite schema for the ChinTransMem pilot.")
+    parser = argparse.ArgumentParser(description="Initialize the SQLite schema for the ChinTransMem corpus.")
     parser.add_argument("--db", default=str(DEFAULT_DB_PATH), help="Path to the SQLite database file.")
     args = parser.parse_args()
 

@@ -1,13 +1,222 @@
 [
   {
-    "run_id": "pilot-bootstrap-20260529",
+    "run_id": "bootstrap-book-01-xueer-20260529",
     "work_id": "lunyu",
     "section_id": "book-01-xueer",
-    "status": "planned",
+    "status": "complete",
     "source_ids": [
-      "zhwikisource-20260529",
-      "legge-cc-v1-1893"
+      "book-01-xueer__zhwikisource-20260529",
+      "book-01-xueer__legge-cc-v1-1893"
     ],
-    "notes": "Bootstrap pilot for the first Lunyu plus Legge slice, including a section-level many-to-many alignment example."
+    "notes": "Bootstrap corpus generation for 學而第一 with 16 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-02-weizheng-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-02-weizheng",
+    "status": "complete",
+    "source_ids": [
+      "book-02-weizheng__zhwikisource-20260529",
+      "book-02-weizheng__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 爲政第二 with 24 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-03-bayi-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-03-bayi",
+    "status": "complete",
+    "source_ids": [
+      "book-03-bayi__zhwikisource-20260529",
+      "book-03-bayi__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 八佾第三 with 26 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-04-liren-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-04-liren",
+    "status": "complete",
+    "source_ids": [
+      "book-04-liren__zhwikisource-20260529",
+      "book-04-liren__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 里仁第四 with 26 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-05-gongyechang-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-05-gongyechang",
+    "status": "complete",
+    "source_ids": [
+      "book-05-gongyechang__zhwikisource-20260529",
+      "book-05-gongyechang__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 公冶長第五 with 0 exact alignments and alignment status section_group_only."
+  },
+  {
+    "run_id": "bootstrap-book-06-yongye-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-06-yongye",
+    "status": "complete",
+    "source_ids": [
+      "book-06-yongye__zhwikisource-20260529",
+      "book-06-yongye__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 雍也第六 with 28 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-07-shuer-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-07-shuer",
+    "status": "complete",
+    "source_ids": [
+      "book-07-shuer__zhwikisource-20260529",
+      "book-07-shuer__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 述而第七 with 0 exact alignments and alignment status section_group_only."
+  },
+  {
+    "run_id": "bootstrap-book-08-taibo-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-08-taibo",
+    "status": "complete",
+    "source_ids": [
+      "book-08-taibo__zhwikisource-20260529",
+      "book-08-taibo__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 泰伯第八 with 21 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-09-zihan-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-09-zihan",
+    "status": "complete",
+    "source_ids": [
+      "book-09-zihan__zhwikisource-20260529",
+      "book-09-zihan__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 子罕第九 with 0 exact alignments and alignment status section_group_only."
+  },
+  {
+    "run_id": "bootstrap-book-10-xiangdang-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-10-xiangdang",
+    "status": "complete",
+    "source_ids": [
+      "book-10-xiangdang__zhwikisource-20260529",
+      "book-10-xiangdang__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 鄉黨第十 with 18 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-11-xianjin-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-11-xianjin",
+    "status": "complete",
+    "source_ids": [
+      "book-11-xianjin__zhwikisource-20260529",
+      "book-11-xianjin__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 先進第十一 with 25 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-12-yanyuan-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-12-yanyuan",
+    "status": "complete",
+    "source_ids": [
+      "book-12-yanyuan__zhwikisource-20260529",
+      "book-12-yanyuan__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 顏淵第十二 with 24 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-13-zilu-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-13-zilu",
+    "status": "complete",
+    "source_ids": [
+      "book-13-zilu__zhwikisource-20260529",
+      "book-13-zilu__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 子路第十三 with 30 exact alignments and alignment status complete."
+  },
+  {
+    "run_id": "bootstrap-book-14-xianwen-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-14-xianwen",
+    "status": "complete",
+    "source_ids": [
+      "book-14-xianwen__zhwikisource-20260529",
+      "book-14-xianwen__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 憲問第十四 with 0 exact alignments and alignment status section_group_only."
+  },
+  {
+    "run_id": "bootstrap-book-15-weilinggong-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-15-weilinggong",
+    "status": "complete",
+    "source_ids": [
+      "book-15-weilinggong__zhwikisource-20260529",
+      "book-15-weilinggong__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 衛靈公第十五 with 0 exact alignments and alignment status section_group_only."
+  },
+  {
+    "run_id": "bootstrap-book-16-jishi-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-16-jishi",
+    "status": "complete",
+    "source_ids": [
+      "book-16-jishi__zhwikisource-20260529",
+      "book-16-jishi__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 季氏第十六 with 0 exact alignments and alignment status section_group_only."
+  },
+  {
+    "run_id": "bootstrap-book-17-yanghuo-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-17-yanghuo",
+    "status": "complete",
+    "source_ids": [
+      "book-17-yanghuo__zhwikisource-20260529",
+      "book-17-yanghuo__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 陽貨第十七 with 0 exact alignments and alignment status section_group_only."
+  },
+  {
+    "run_id": "bootstrap-book-18-weizi-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-18-weizi",
+    "status": "complete",
+    "source_ids": [
+      "book-18-weizi__zhwikisource-20260529",
+      "book-18-weizi__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 微子第十八 with 0 exact alignments and alignment status section_group_only."
+  },
+  {
+    "run_id": "bootstrap-book-19-zizhang-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-19-zizhang",
+    "status": "complete",
+    "source_ids": [
+      "book-19-zizhang__zhwikisource-20260529",
+      "book-19-zizhang__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 子張第十九 with 0 exact alignments and alignment status section_group_only."
+  },
+  {
+    "run_id": "bootstrap-book-20-yaoyue-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-20-yaoyue",
+    "status": "complete",
+    "source_ids": [
+      "book-20-yaoyue__zhwikisource-20260529",
+      "book-20-yaoyue__legge-cc-v1-1893"
+    ],
+    "notes": "Bootstrap corpus generation for 堯曰第二十 with 3 exact alignments and alignment status complete."
   }
 ]

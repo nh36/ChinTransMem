@@ -14,13 +14,241 @@
   {
     "entity_type": "section",
     "entity_id": "book-01-xueer",
-    "alias": "Hsio R.",
-    "romanization_system": "Legge-Wade-Giles"
+    "alias": "Xueer",
+    "romanization_system": "pinyin"
   },
   {
     "entity_type": "section",
     "entity_id": "book-01-xueer",
-    "alias": "Xue Er",
+    "alias": "1",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-02-weizheng",
+    "alias": "Weizheng",
     "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-02-weizheng",
+    "alias": "2",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-03-bayi",
+    "alias": "Bayi",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-03-bayi",
+    "alias": "3",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-04-liren",
+    "alias": "Liren",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-04-liren",
+    "alias": "4",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-05-gongyechang",
+    "alias": "Gongyechang",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-05-gongyechang",
+    "alias": "5",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-06-yongye",
+    "alias": "Yongye",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-06-yongye",
+    "alias": "6",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-07-shuer",
+    "alias": "Shuer",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-07-shuer",
+    "alias": "7",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-08-taibo",
+    "alias": "Taibo",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-08-taibo",
+    "alias": "8",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-09-zihan",
+    "alias": "Zihan",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-09-zihan",
+    "alias": "9",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-10-xiangdang",
+    "alias": "Xiangdang",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-10-xiangdang",
+    "alias": "10",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-11-xianjin",
+    "alias": "Xianjin",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-11-xianjin",
+    "alias": "11",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-12-yanyuan",
+    "alias": "Yanyuan",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-12-yanyuan",
+    "alias": "12",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-13-zilu",
+    "alias": "Zilu",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-13-zilu",
+    "alias": "13",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-14-xianwen",
+    "alias": "Xianwen",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-14-xianwen",
+    "alias": "14",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-15-weilinggong",
+    "alias": "Weilinggong",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-15-weilinggong",
+    "alias": "15",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-16-jishi",
+    "alias": "Jishi",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-16-jishi",
+    "alias": "16",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-17-yanghuo",
+    "alias": "Yanghuo",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-17-yanghuo",
+    "alias": "17",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-18-weizi",
+    "alias": "Weizi",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-18-weizi",
+    "alias": "18",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-19-zizhang",
+    "alias": "Zizhang",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-19-zizhang",
+    "alias": "19",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-20-yaoyue",
+    "alias": "Yaoyue",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "book-20-yaoyue",
+    "alias": "20",
+    "romanization_system": "Legge-Wade-Giles"
   }
 ]
