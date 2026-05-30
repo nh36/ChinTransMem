@@ -34,7 +34,7 @@
 - `metadata/corpus_manifest.yml` is the section-level source of truth for whole-corpus status, URLs, expected alignment counts, and source IDs.
 - The implemented processing pipeline is **capture raw Wikisource text -> create cleaned segment files and alignments per Lunyu book -> import into SQLite -> export per-section and combined aligned passages/TMX -> validate TMX -> generate corpus QC**.
 - The core schema is `works`, `sections`, `persons`, `sources`, `segments`, `alignments`, and `agent_runs`.
-- The current corpus imports all 20 Lunyu books, with one section-level grouped alignment per book and 241 saying-level exact alignments across the 11 books where the parsed Chinese and Legge segment counts match. The remaining 9 books are preserved with section-group coverage and explicit manifest metadata showing that exact alignment still needs follow-up.
+- The current corpus imports all 20 Lunyu books and now carries 501 exact saying-level or short-paragraph-level alignments/TMX units across the full work.
 
 ## Key conventions
 
@@ -46,7 +46,7 @@
 - **Use stable IDs and filenames.** Follow the pattern `{work_id}__{section_id}__{source_id}__{stage}.{ext}` and keep persistent IDs for works, sections, sources, segments, and alignments.
 - **Use JSON-compatible YAML metadata.** `metadata/*.yml` is currently written as JSON-compatible YAML so the bootstrap scripts can load it with the Python standard library instead of adding a YAML dependency.
 - **The corpus manifest drives scale-up.** Add or change Lunyu books in `metadata/corpus_manifest.yml`, then regenerate derived metadata and processed files with `make bootstrap-corpus`.
-- **Not every book is exact-aligned yet.** `alignment_status` and `tmx_status` in `metadata/corpus_manifest.yml` distinguish books with exact saying-level TMX coverage from books that currently have section-group coverage only.
+- **Exact alignment is the current Lunyu baseline.** `alignment_status` and `tmx_status` in `metadata/corpus_manifest.yml` should stay `complete` for committed Lunyu sections; any future mismatch should fail review or be handled with an explicit parser/alignment fix rather than leaving long-term heterogeneous grouped-only coverage.
 - **Source IDs are section-scoped.** `sources.source_id` must be unique across the whole database, so each Lunyu book prefixes the shared source witness (`book-XX-...__zhwikisource-20260529`, `book-XX-...__legge-cc-v1-1893`).
 - **Segment files are the import boundary.** The importer reads curated `segments.jsonl` and `alignments.jsonl` files, not the raw Wikisource captures directly.
 - **Normalized text is explicit.** Keep source-faithful wording in `text_original`; put cleanup such as spacing or restored punctuation in `text_normalized`, and use notes when a normalization repairs a source formatting issue.

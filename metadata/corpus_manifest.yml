@@ -87,12 +87,12 @@
       "canonical_ref": "論語 5",
       "sort_key": 5,
       "status": "complete",
-      "alignment_status": "section_group_only",
-      "tmx_status": "section_group_only",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
       "zh_page_url": "https://zh.wikisource.org/wiki/論語/公冶長第五",
       "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/V",
       "legge_section_alias": "Book 5",
-      "expected_exact_alignment_count": 0,
+      "expected_exact_alignment_count": 28,
       "source_ids": {
         "source_id": "book-05-gongyechang__zhwikisource-20260529",
         "target_source_id": "book-05-gongyechang__legge-cc-v1-1893"
@@ -123,12 +123,12 @@
       "canonical_ref": "論語 7",
       "sort_key": 7,
       "status": "complete",
-      "alignment_status": "section_group_only",
-      "tmx_status": "section_group_only",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
       "zh_page_url": "https://zh.wikisource.org/wiki/論語/述而第七",
       "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/VII",
       "legge_section_alias": "Book 7",
-      "expected_exact_alignment_count": 0,
+      "expected_exact_alignment_count": 37,
       "source_ids": {
         "source_id": "book-07-shuer__zhwikisource-20260529",
         "target_source_id": "book-07-shuer__legge-cc-v1-1893"
@@ -159,12 +159,12 @@
       "canonical_ref": "論語 9",
       "sort_key": 9,
       "status": "complete",
-      "alignment_status": "section_group_only",
-      "tmx_status": "section_group_only",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
       "zh_page_url": "https://zh.wikisource.org/wiki/論語/子罕第九",
       "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/IX",
       "legge_section_alias": "Book 9",
-      "expected_exact_alignment_count": 0,
+      "expected_exact_alignment_count": 31,
       "source_ids": {
         "source_id": "book-09-zihan__zhwikisource-20260529",
         "target_source_id": "book-09-zihan__legge-cc-v1-1893"
@@ -249,12 +249,12 @@
       "canonical_ref": "論語 14",
       "sort_key": 14,
       "status": "complete",
-      "alignment_status": "section_group_only",
-      "tmx_status": "section_group_only",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
       "zh_page_url": "https://zh.wikisource.org/wiki/論語/憲問第十四",
       "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XIV",
       "legge_section_alias": "Book 14",
-      "expected_exact_alignment_count": 0,
+      "expected_exact_alignment_count": 47,
       "source_ids": {
         "source_id": "book-14-xianwen__zhwikisource-20260529",
         "target_source_id": "book-14-xianwen__legge-cc-v1-1893"
@@ -267,12 +267,12 @@
       "canonical_ref": "論語 15",
       "sort_key": 15,
       "status": "complete",
-      "alignment_status": "section_group_only",
-      "tmx_status": "section_group_only",
-      "zh_page_url": "https://zh.wikisource.org/wiki/論語/衛靈公第十五",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "zh_page_url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E/%E8%A1%9E%E9%9D%88%E5%85%AC%E7%AC%AC%E5%8D%81%E4%BA%94",
       "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XV",
       "legge_section_alias": "Book 15",
-      "expected_exact_alignment_count": 0,
+      "expected_exact_alignment_count": 41,
       "source_ids": {
         "source_id": "book-15-weilinggong__zhwikisource-20260529",
         "target_source_id": "book-15-weilinggong__legge-cc-v1-1893"
@@ -285,12 +285,12 @@
       "canonical_ref": "論語 16",
       "sort_key": 16,
       "status": "complete",
-      "alignment_status": "section_group_only",
-      "tmx_status": "section_group_only",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
       "zh_page_url": "https://zh.wikisource.org/wiki/論語/季氏第十六",
       "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XVI",
       "legge_section_alias": "Book 16",
-      "expected_exact_alignment_count": 0,
+      "expected_exact_alignment_count": 14,
       "source_ids": {
         "source_id": "book-16-jishi__zhwikisource-20260529",
         "target_source_id": "book-16-jishi__legge-cc-v1-1893"
@@ -303,12 +303,12 @@
       "canonical_ref": "論語 17",
       "sort_key": 17,
       "status": "complete",
-      "alignment_status": "section_group_only",
-      "tmx_status": "section_group_only",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
       "zh_page_url": "https://zh.wikisource.org/wiki/論語/陽貨第十七",
       "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XVII",
       "legge_section_alias": "Book 17",
-      "expected_exact_alignment_count": 0,
+      "expected_exact_alignment_count": 26,
       "source_ids": {
         "source_id": "book-17-yanghuo__zhwikisource-20260529",
         "target_source_id": "book-17-yanghuo__legge-cc-v1-1893"
@@ -321,12 +321,12 @@
       "canonical_ref": "論語 18",
       "sort_key": 18,
       "status": "complete",
-      "alignment_status": "section_group_only",
-      "tmx_status": "section_group_only",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
       "zh_page_url": "https://zh.wikisource.org/wiki/論語/微子第十八",
       "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XVIII",
       "legge_section_alias": "Book 18",
-      "expected_exact_alignment_count": 0,
+      "expected_exact_alignment_count": 11,
       "source_ids": {
         "source_id": "book-18-weizi__zhwikisource-20260529",
         "target_source_id": "book-18-weizi__legge-cc-v1-1893"
@@ -339,12 +339,12 @@
       "canonical_ref": "論語 19",
       "sort_key": 19,
       "status": "complete",
-      "alignment_status": "section_group_only",
-      "tmx_status": "section_group_only",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
       "zh_page_url": "https://zh.wikisource.org/wiki/論語/子張第十九",
       "en_page_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XIX",
       "legge_section_alias": "Book 19",
-      "expected_exact_alignment_count": 0,
+      "expected_exact_alignment_count": 25,
       "source_ids": {
         "source_id": "book-19-zizhang__zhwikisource-20260529",
         "target_source_id": "book-19-zizhang__legge-cc-v1-1893"
@@ -371,10 +371,10 @@
   ],
   "summary": {
     "section_count": 20,
-    "complete_sections": 11,
+    "complete_sections": 20,
     "metadata_only_sections": 0,
-    "sections_needing_alignment": 9,
-    "sections_needing_qc": 9,
-    "exact_alignment_count": 241
+    "sections_needing_alignment": 0,
+    "sections_needing_qc": 0,
+    "exact_alignment_count": 501
   }
 }

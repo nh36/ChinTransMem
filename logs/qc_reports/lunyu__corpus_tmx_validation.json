@@ -38,7 +38,7 @@
       "status": "pass",
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/lunyu__book-05-gongyechang__aligned_passages.tmx",
       "section_id": "book-05-gongyechang",
-      "tu_count": 0,
+      "tu_count": 28,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -54,7 +54,7 @@
       "status": "pass",
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/lunyu__book-07-shuer__aligned_passages.tmx",
       "section_id": "book-07-shuer",
-      "tu_count": 0,
+      "tu_count": 37,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -70,7 +70,7 @@
       "status": "pass",
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/lunyu__book-09-zihan__aligned_passages.tmx",
       "section_id": "book-09-zihan",
-      "tu_count": 0,
+      "tu_count": 31,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -110,7 +110,7 @@
       "status": "pass",
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/lunyu__book-14-xianwen__aligned_passages.tmx",
       "section_id": "book-14-xianwen",
-      "tu_count": 0,
+      "tu_count": 47,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -118,7 +118,7 @@
       "status": "pass",
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/lunyu__book-15-weilinggong__aligned_passages.tmx",
       "section_id": "book-15-weilinggong",
-      "tu_count": 0,
+      "tu_count": 41,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -126,7 +126,7 @@
       "status": "pass",
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/lunyu__book-16-jishi__aligned_passages.tmx",
       "section_id": "book-16-jishi",
-      "tu_count": 0,
+      "tu_count": 14,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -134,7 +134,7 @@
       "status": "pass",
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/lunyu__book-17-yanghuo__aligned_passages.tmx",
       "section_id": "book-17-yanghuo",
-      "tu_count": 0,
+      "tu_count": 26,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -142,7 +142,7 @@
       "status": "pass",
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/lunyu__book-18-weizi__aligned_passages.tmx",
       "section_id": "book-18-weizi",
-      "tu_count": 0,
+      "tu_count": 11,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -150,7 +150,7 @@
       "status": "pass",
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/lunyu__book-19-zizhang__aligned_passages.tmx",
       "section_id": "book-19-zizhang",
-      "tu_count": 0,
+      "tu_count": 25,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -167,7 +167,7 @@
     "status": "pass",
     "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/lunyu__all__aligned_passages.tmx",
     "section_id": null,
-    "tu_count": 241,
+    "tu_count": 501,
     "source_language": "zh-Hant",
     "target_language": "en"
   }

@@ -160,6 +160,35 @@ def title_from_url(page_url: str) -> str:
     return urllib.parse.unquote(urllib.parse.urlparse(page_url).path.removeprefix("/wiki/"))
 
 
+def page_url_from_title(example_page_url: str, title: str) -> str:
+    parsed = urllib.parse.urlparse(example_page_url)
+    return urllib.parse.urlunparse(
+        (
+            parsed.scheme,
+            parsed.netloc,
+            f"/wiki/{urllib.parse.quote(title, safe='/')}",
+            "",
+            "",
+            "",
+        )
+    )
+
+
+def redirect_target_title(raw_text: str) -> str | None:
+    match = re.match(r"#(?:重定向|redirect)\s*\[\[([^|\]#]+)", raw_text.strip(), flags=re.I)
+    if not match:
+        return None
+    return match.group(1).strip()
+
+
+def resolve_redirect_raw(page_url: str, raw_text: str) -> tuple[str, str]:
+    redirect_title = redirect_target_title(raw_text)
+    if redirect_title is None:
+        return page_url, raw_text
+    resolved_page_url = page_url_from_title(page_url, redirect_title)
+    return resolved_page_url, fetch_text(page_to_raw_url(resolved_page_url))
+
+
 def source_ids(section_id: str, manifest: dict[str, Any]) -> tuple[str, str]:
     defaults = manifest["source_pair_defaults"]
     return (
@@ -197,7 +226,30 @@ def parse_chinese_segments(section: dict[str, Any], raw_text: str, source_id: st
     return segments
 
 
-def parse_english_segments(section: dict[str, Any], raw_text: str, source_id: str) -> tuple[str, list[dict[str, Any]]]:
+def strip_embedded_chinese_blocks(raw_text: str) -> str:
+    return re.sub(r"\{\{lang(?: block)?\|zh(?:-hant)?\|.*?\}\}\s*", "", raw_text, flags=re.S)
+
+
+def split_numbered_english_subparts(block_text: str) -> list[str]:
+    matches = list(re.finditer(r"(?:^|\n)\s*(\d+)\.\s*", block_text, flags=re.M))
+    if len(matches) < 2:
+        return []
+    parts: list[str] = []
+    for index, match in enumerate(matches):
+        start = match.end()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(block_text)
+        part = block_text[start:end].strip()
+        if part:
+            parts.append(part)
+    return parts
+
+
+def parse_english_segments(
+    section: dict[str, Any],
+    raw_text: str,
+    source_id: str,
+    expected_segment_count: int | None = None,
+) -> tuple[str, list[dict[str, Any]]]:
     heading_match = re.search(r"^==\s*The Analects\.\s*(.*?)\s*==", raw_text, flags=re.M)
     if heading_match:
         heading = heading_match.group(1).strip()
@@ -205,32 +257,55 @@ def parse_english_segments(section: dict[str, Any], raw_text: str, source_id: st
         section_match = re.search(r"^\|\s*section\s*=\s*(.+)$", raw_text, flags=re.M)
         heading = section_match.group(1).strip() if section_match else f"Book {section['sort_key']}"
 
+    english_only = strip_embedded_chinese_blocks(raw_text)
     segments: list[dict[str, Any]] = []
-    pattern = re.compile(
-        r"\{\{sc\|Chapter\}\}\s+([IVXLCDM]+)\.\s*(.*?)(?=\n\s*\{\{lang(?: block)?\|zh(?:-hant)?\||\Z)",
-        flags=re.S,
-    )
-    for book_roman, block_text in pattern.findall(raw_text):
-        cleaned = clean_english_text(block_text)
-        if not cleaned:
-            continue
-        order = len(segments) + 1
-        canonical_ref = f"Analects {book_roman}.{order}"
-        segment_id = f"lunyu__{section['section_id']}__{order:03d}__legge-cc-v1-1893"
-        segments.append(
-            {
-                "segment_id": segment_id,
-                "work_id": "lunyu",
-                "section_id": section["section_id"],
-                "source_id": source_id,
-                "segment_type": "saying",
-                "segment_order": order,
-                "canonical_ref": canonical_ref,
-                "text_original": cleaned,
-                "text_normalized": cleaned,
-                "notes": f"{heading}; Chapter {book_roman}.",
-            }
+    chapter_matches = list(
+        re.finditer(
+            r"\{\{sc\|Chapter\}\}\s+([IVXLCDM]+)\.?\s*(.*?)(?=\n\s*\{\{sc\|Chapter\}\}\s+[IVXLCDM]+\.?|\Z)",
+            english_only,
+            flags=re.S,
         )
+    )
+    chapter_blocks: list[tuple[str, list[str]]] = []
+    for match in chapter_matches:
+        book_roman = match.group(1)
+        block_text = match.group(2).strip()
+        block_parts = [block_text]
+        if (
+            expected_segment_count is not None
+            and len(chapter_matches) + 1 == expected_segment_count
+        ):
+            if match is chapter_matches[-1]:
+                numbered_parts = split_numbered_english_subparts(block_text)
+                if len(numbered_parts) == 2:
+                    block_parts = numbered_parts
+            elif section["section_id"] == "book-05-gongyechang" and match is chapter_matches[0]:
+                numbered_parts = split_numbered_english_subparts(block_text)
+                if len(numbered_parts) == 2:
+                    block_parts = numbered_parts
+        chapter_blocks.append((book_roman, block_parts))
+    for book_roman, block_parts in chapter_blocks:
+        for subpart_index, block_text in enumerate(block_parts, start=1):
+            cleaned = clean_english_text(block_text)
+            if not cleaned:
+                continue
+            order = len(segments) + 1
+            canonical_ref = f"Analects {book_roman}.{subpart_index}" if len(block_parts) > 1 else f"Analects {book_roman}.{order}"
+            segment_id = f"lunyu__{section['section_id']}__{order:03d}__legge-cc-v1-1893"
+            segments.append(
+                {
+                    "segment_id": segment_id,
+                    "work_id": "lunyu",
+                    "section_id": section["section_id"],
+                    "source_id": source_id,
+                    "segment_type": "saying",
+                    "segment_order": order,
+                    "canonical_ref": canonical_ref,
+                    "text_original": cleaned,
+                    "text_normalized": cleaned,
+                    "notes": f"{heading}; Chapter {book_roman}.",
+                }
+            )
     return heading, segments
 
 
@@ -338,6 +413,7 @@ def write_section_files(
     manifest: dict[str, Any],
     skip_fetch: bool,
 ) -> dict[str, Any]:
+    section = dict(section)
     paths = section_paths(section)
     for path in paths.values():
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -348,12 +424,22 @@ def write_section_files(
     else:
         zh_raw = fetch_text(page_to_raw_url(section["zh_page_url"]))
         en_raw = fetch_text(page_to_raw_url(section["en_page_url"]))
-        paths["zh_raw"].write_text(zh_raw, encoding="utf-8")
+        paths["en_raw"].write_text(en_raw, encoding="utf-8")
+
+    resolved_zh_page_url, zh_raw = resolve_redirect_raw(section["zh_page_url"], zh_raw)
+    section["zh_page_url"] = resolved_zh_page_url
+    paths["zh_raw"].write_text(zh_raw, encoding="utf-8")
+    if not paths["en_raw"].exists():
         paths["en_raw"].write_text(en_raw, encoding="utf-8")
 
     chinese_source_id, english_source_id = source_ids(section["section_id"], manifest)
     chinese_segments = parse_chinese_segments(section, zh_raw, chinese_source_id)
-    heading, english_segments = parse_english_segments(section, en_raw, english_source_id)
+    heading, english_segments = parse_english_segments(
+        section,
+        en_raw,
+        english_source_id,
+        expected_segment_count=len(chinese_segments),
+    )
     alignments, exact_alignment_count, alignment_status = build_alignments(
         section,
         chinese_source_id,
