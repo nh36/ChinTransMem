@@ -1397,6 +1397,225 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
             ),
         ],
     },
+    46: {
+        "legge_section_alias": "Ts 'eang yew tsze.",
+        "review_note": "Recovered the three stanza blocks from part-1 hOCR pages 276-277 lines 17-22 and 277:8-19.",
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The tribulus grows on the wall,",
+                    "And cannot be brushed away.",
+                    "The story of the inner chamber",
+                    "Cannot be told.",
+                    "What would have to be told",
+                    "Would be the vilest of recitals.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The tribulus grows on the wall,",
+                    "And cannot be removed.",
+                    "The story of the inner chamber",
+                    "Cannot be particularly related.",
+                    "What might be particularly related",
+                    "Would be a long story.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The tribulus grows on the wall,",
+                    "And cannot be bound together and taken away.",
+                    "The story of the inner chamber",
+                    "Cannot be recited.",
+                    "What might be recited",
+                    "Would be the most disgraceful of things.",
+                ]
+            ),
+        ],
+    },
+    48: {
+        "legge_section_alias": "Sang-chung •",
+        "review_note": "Recovered the three stanza blocks from part-1 hOCR pages 280-282 lines 13-19, 281:12-18, and 282:5-7.",
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "I am going to gather the dodder,",
+                    "In the fields of Mei.",
+                    "But of whom are my thoughts?",
+                    "Of that beauty, the eldest of the Keang.",
+                    "She made an appointment with me in Sang-chung;",
+                    "She will meet me in Shang-kung;",
+                    "She will accompany me to K'e-shang.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I am going to gather the wheat,",
+                    "In the north of Mei.",
+                    "But of whom are my thoughts?",
+                    "Of that beauty, the eldest of the Yih.",
+                    "She made an appointment with me in Sang-chung;",
+                    "She will meet me in Shang-kung;",
+                    "She will accompany me to K'e-shang.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I am going to gather the mustard plant,",
+                    "In the east of Mei.",
+                    "But of whom are my thoughts?",
+                    "Of that beauty, the eldest of the Yung.",
+                    "She made an appointment with me in Sang-chung;",
+                    "She will meet me in Shang-kung;",
+                    "She will accompany me to K'e-shang.",
+                ]
+            ),
+        ],
+    },
+    49: {
+        "legge_section_alias": "Shun che pun-pun.",
+        "review_note": "Recovered the two stanza blocks from part-1 hOCR page 282 lines 13-20.",
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Boldly faithful in their pairings are quails;",
+                    "Vigorously so are magpies.",
+                    "This man is all vicious,",
+                    "And I consider him my brother!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Vigorously faithful in their pairings are magpies;",
+                    "Boldly so are quails.",
+                    "This woman is all vicious,",
+                    "And I regard her as marchioness!",
+                ]
+            ),
+        ],
+    },
+    51: {
+        "legge_section_alias": "Te tung.",
+        "review_note": "Recovered the three stanza blocks from part-1 hOCR pages 285-286 lines 13-16 and 286:7-14.",
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "There is a rainbow in the east,",
+                    "And no one dares to point to it.",
+                    "When a girl goes away from her home,",
+                    "She separates from her parents and brothers.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "In the morning a rainbow rises in the west,",
+                    "And only during the morning is there rain.",
+                    "When a girl goes away from her home,",
+                    "She separates from her brothers and parents.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "This person",
+                    "Has her heart only on being married.",
+                    "Greatly is she untrue to herself,",
+                    "And does not recognize the law of her lot.",
+                ]
+            ),
+        ],
+    },
+    53: {
+        "legge_section_alias": "Kan maou.",
+        "review_note": "Recovered the three stanza blocks from part-1 hOCR pages 287-288 lines 6-11 and 288:27-38.",
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Conspicuously rise the staffs with their ox-tails,",
+                    "In the distant suburbs of Tseun,",
+                    "Ornamented with the white silk bands;",
+                    "There are four carriages with their good horses;",
+                    "That admirable gentleman, —",
+                    "What will he give them for this?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Conspicuously rise the staffs with their falcon-banners,",
+                    "In the nearer suburbs of Tseun,",
+                    "Ornamented with the white silk ribbons;",
+                    "There are five carriages with their good horses.",
+                    "That admirable gentleman, —",
+                    "What will he give them for this?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Conspicuously rise the staffs with their feathered streamers,",
+                    "At the walls of Tseun,",
+                    "Bound with the white silk cords.",
+                    "There are six carriages with their good horses;",
+                    "That admirable gentleman, —",
+                    "What will he tell them for this?",
+                ]
+            ),
+        ],
+    },
+    54: {
+        "legge_section_alias": "Tsae chle.",
+        "review_note": "Recovered the four stanza blocks from part-1 hOCR pages 289-291 lines 12-17, 290:8-21, and 291:3-10.",
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "I would have galloped my horses and whipt them,",
+                    "Returning to condole with the marquis of Wei.",
+                    "I would have urged them all the long way,",
+                    "Till I arrived at Tsaou.",
+                    "A great officer has gone, over the hills and through the rivers;",
+                    "But my heart is full of sorrow.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "You disapproved of my proposal,",
+                    "And I cannot return to Wei;",
+                    "But I regard you as in the wrong,",
+                    "And cannot forget my purpose.",
+                    "You disapproved of my purpose,",
+                    "And I cannot return across the streams;",
+                    "But I regard you as in the wrong,",
+                    "And cannot shut out my thoughts.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I will ascend that mound with the steep side,",
+                    "And gather the mother-of-pearl lilies.",
+                    "I might, as a woman, have many thoughts,",
+                    "But every one of them was practicable.",
+                    "The people of Heu blame me,",
+                    "But they are all childish and hasty in their conclusions.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "I would have gone through the country,",
+                    "Amidst the wheat so luxuriant.",
+                    "I would have carried the case before the great State.",
+                    "On whom should I have relied? Who would come to the help of Wei?",
+                    "Ye great officers and gentlemen,",
+                    "Do not condemn me.",
+                    "The hundred plans you think of",
+                    "Are not equal to the course I was going to take.",
+                ]
+            ),
+        ],
+    },
     57: {
         "legge_section_alias": "Shih jin",
         "review_note": (
@@ -2170,6 +2389,7 @@ def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witn
     if english_witness == "legge_ocr_reviewed":
         witness = legge_ocr_witness_for_entry(poem)
         reviewed = REVIEWED_LEGGE_OCR_POEM_BLOCKS[poem["sort_key"]]
+        translation_ref_label = reviewed.get("translation_ref_label") or poem["label"]
         return {
             "section_id": section_id_for_catalog_entry(poem),
             "label": poem["label"],
@@ -2178,7 +2398,7 @@ def build_section_seed(poem: dict[str, Any], *, en_page_title: str, english_witn
             "major_division": poem["major_division"],
             "subdivision": poem["subdivision"],
             "poem_number": poem["local_index"],
-            "legge_section_alias": reviewed["legge_section_alias"],
+            "legge_section_alias": translation_ref_label,
             "zh_page_url": poem["page_url"],
             "zh_section_heading": poem["zh_section_heading"],
             "en_page_url": witness["candidate_en_backup_page_url"],

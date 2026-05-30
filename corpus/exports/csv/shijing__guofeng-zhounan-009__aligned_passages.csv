@@ -1,7 +1,7 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
 shijing__guofeng-zhounan-009__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhounan-009,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·周南·009.1,"南有喬木，不可休息；漢有遊女，不可求思，漢之廣矣，不可泳思，江之永矣，不可方思。
 翹翹錯薪，言刈其楚，之子于歸，言秣其馬，漢之廣矣，不可泳思，江之永矣，不可方思。
-翹翹錯薪，言刈其蔞，之子于歸，言秣其駒，漢之廣矣，不可泳思，江之永矣，不可方思。",Han kwang.1,"In the south rise the trees without branches,
+翹翹錯薪，言刈其蔞，之子于歸，言秣其駒，漢之廣矣，不可泳思，江之永矣，不可方思。",漢廣.1,"In the south rise the trees without branches,
 Affording no shelter.
 By the Han are girls rambling about,
 But it is vain to solicit them.

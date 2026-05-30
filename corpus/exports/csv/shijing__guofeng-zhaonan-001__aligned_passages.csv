@@ -1,7 +1,7 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
 shijing__guofeng-zhaonan-001__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-001,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·召南·001.1,"維鵲有巢，維鳩居之，之子于歸，百兩御之。
 維鵲有巢，維鳩方之，之子于歸，百兩將之。
-維鵲有巢，維鳩盈之，之子于歸，百兩成之。",Ts'eoh chlaou.1,"Magpie has made its nest,
+維鵲有巢，維鳩盈之，之子于歸，百兩成之。",鵲巢.1,"Magpie has made its nest,
 And the dove occupies it.
 This young lady is going to her future home,
 With a hundred chariots to escort her.

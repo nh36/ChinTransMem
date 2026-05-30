@@ -468,6 +468,27 @@ def build_shijing_quality_context(
     for section in non_exportable_extant_sections:
         subdivision_key = f"{section['major_division']} / {section['subdivision']}"
         remaining_by_subdivision[subdivision_key] = remaining_by_subdivision.get(subdivision_key, 0) + 1
+    remaining_priority_subdivisions: dict[str, list[dict[str, str]]] = {}
+    for major_division, subdivision in (("國風", "召南"), ("國風", "邶風"), ("國風", "鄘風")):
+        subdivision_key = f"{major_division} / {subdivision}"
+        remaining_priority_subdivisions[subdivision_key] = [
+            {
+                "section_id": section["section_id"],
+                "title": section["label"],
+                "canonical_ref": section["canonical_ref"],
+                "review_note": (
+                    verification_index.get(section["section_id"], {}).get("reviewer_note")
+                    or section.get("review_note")
+                    or section.get("notes")
+                    or "—"
+                ),
+            }
+            for section in sorted(
+                non_exportable_extant_sections,
+                key=lambda item: item["canonical_ref"],
+            )
+            if section["major_division"] == major_division and section["subdivision"] == subdivision
+        ]
     latest_review_date = max(
         (
             section["review_date"]
@@ -531,6 +552,7 @@ def build_shijing_quality_context(
             "newly_repaired_in_latest_tranche": len(latest_repaired_sections),
             "latest_repaired_sections": latest_repaired_sections,
             "remaining_by_subdivision": remaining_by_subdivision,
+            "remaining_priority_subdivisions": remaining_priority_subdivisions,
         },
         "thresholds": {
             "english_word_short_threshold": word_short_threshold,
@@ -554,6 +576,7 @@ def build_shijing_quality_context(
                 "verification_decision": section.get("verification_decision"),
                 "english_witness_status": section.get("english_witness_status"),
                 "notes": section.get("notes"),
+                "review_note": verification_index.get(section["section_id"], {}).get("reviewer_note"),
                 "source_urls": source_urls_for_section(section, source_map),
             }
             for section in metadata_only_sections
@@ -668,6 +691,36 @@ def quality_markdown(context: dict[str, Any]) -> str:
     lines.extend(
         [
             "",
+            "## Remaining unrepaired in priority subdivisions",
+            "",
+        ]
+    )
+    for subdivision_key in ("國風 / 召南", "國風 / 邶風", "國風 / 鄘風"):
+        lines.extend(
+            [
+                f"### {subdivision_key}",
+                "",
+                "| Section | Title | Canonical ref | Reason |",
+                "| --- | --- | --- | --- |",
+            ]
+        )
+        subdivision_sections = progress["remaining_priority_subdivisions"].get(subdivision_key, [])
+        if subdivision_sections:
+            for section in subdivision_sections:
+                lines.append(
+                    "| {section_id} | {title} | {canonical_ref} | {review_note} |".format(
+                        section_id=section["section_id"],
+                        title=section["title"],
+                        canonical_ref=section["canonical_ref"],
+                        review_note=section["review_note"].replace("\n", " "),
+                    )
+                )
+        else:
+            lines.append("| — | — | — | — |")
+        lines.append("")
+    lines.extend(
+        [
+            "",
         "## Witness mix",
         "",
         "| Witness type | Complete sections |",
@@ -717,7 +770,7 @@ def quality_markdown(context: dict[str, Any]) -> str:
                 title=section["title"],
                 verification_status=section.get("verification_status", "—"),
                 decision=section.get("verification_decision", "—"),
-                notes=(section.get("notes") or "—").replace("\n", " "),
+                notes=(section.get("review_note") or section.get("notes") or "—").replace("\n", " "),
             )
         )
 

@@ -1,0 +1,19 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-yongfeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-yongfeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄘風·002.1,牆有茨，不可埽也，中冓之言，不可道也，所可道也，言之醜也。,牆有茨.1,"The tribulus grows on the wall,
+And cannot be brushed away.
+The story of the inner chamber
+Cannot be told.
+What would have to be told
+Would be the vilest of recitals."
+shijing__guofeng-yongfeng-002__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-yongfeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄘風·002.2,牆有茨，不可襄也，中冓之言，不可詳也，所可詳也，言之長也。,牆有茨.2,"The tribulus grows on the wall,
+And cannot be removed.
+The story of the inner chamber
+Cannot be particularly related.
+What might be particularly related
+Would be a long story."
+shijing__guofeng-yongfeng-002__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-yongfeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·鄘風·002.3,牆有茨，不可束也，中冓之言，不可讀也，所可讀也，言之辱也。,牆有茨.3,"The tribulus grows on the wall,
+And cannot be bound together and taken away.
+The story of the inner chamber
+Cannot be recited.
+What might be recited
+Would be the most disgraceful of things."

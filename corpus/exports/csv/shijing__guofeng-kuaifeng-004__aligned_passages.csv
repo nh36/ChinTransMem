@@ -1,7 +1,7 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
 shijing__guofeng-kuaifeng-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-kuaifeng-004,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·檜風·004.1,"匪風發兮，匪車偈兮。顧瞻周道，中心怛兮。
 匪風飄兮，匪車嘌兮。顧瞻周道，中心弔兮。
-誰能亨魚，溉之釜鬵。誰將西歸，懷之好音。",Fei fung.1,"Not for the violence of the wind;
+誰能亨魚，溉之釜鬵。誰將西歸，懷之好音。",匪風.1,"Not for the violence of the wind;
 Not for the rushing storm;
 Do I long and retire,
 But because of my old age, and sad.

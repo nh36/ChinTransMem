@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-yongfeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-yongfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄘風·002.1</prop>
+      <prop type="x-translation-ref">牆有茨.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>牆有茨，不可埽也，中冓之言，不可道也，所可道也，言之醜也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The tribulus grows on the wall,
+And cannot be brushed away.
+The story of the inner chamber
+Cannot be told.
+What would have to be told
+Would be the vilest of recitals.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-yongfeng-002__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-yongfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄘風·002.2</prop>
+      <prop type="x-translation-ref">牆有茨.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>牆有茨，不可襄也，中冓之言，不可詳也，所可詳也，言之長也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The tribulus grows on the wall,
+And cannot be removed.
+The story of the inner chamber
+Cannot be particularly related.
+What might be particularly related
+Would be a long story.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-yongfeng-002__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-yongfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄘風·002.3</prop>
+      <prop type="x-translation-ref">牆有茨.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>牆有茨，不可束也，中冓之言，不可讀也，所可讀也，言之辱也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The tribulus grows on the wall,
+And cannot be bound together and taken away.
+The story of the inner chamber
+Cannot be recited.
+What might be recited
+Would be the most disgraceful of things.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

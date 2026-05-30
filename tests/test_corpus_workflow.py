@@ -391,6 +391,12 @@ class CorpusWorkflowTest(unittest.TestCase):
             quality_report["progress"]["non_exportable_repair_queue_remaining"],
             quality_report["summary"]["non_exportable_extant_sections"],
         )
+        priority_remaining = quality_report["progress"]["remaining_priority_subdivisions"]
+        for subdivision_key in ("國風 / 召南", "國風 / 邶風", "國風 / 鄘風"):
+            self.assertIn(subdivision_key, priority_remaining)
+            self.assertTrue(
+                all(section["review_note"] for section in priority_remaining[subdivision_key])
+            )
         self.assertFalse(any(section["english_word_count"] == 0 for section in quality_report["sections"]))
         self.assertFalse(
             any(
@@ -457,10 +463,24 @@ class CorpusWorkflowTest(unittest.TestCase):
 
         shijing_manifest = load_work_manifest("shijing")
         verification_ledger = load_json_compatible_yaml(REPO_ROOT / "metadata" / "shijing_verification_ledger.yml")
+        shijing_export_rows = read_jsonl(corpus_export_paths("shijing")["jsonl"])
         self.assertTrue(
             any(section["english_witness_status"] == "extraction_failed_metadata_only" for section in shijing_manifest["sections"])
         )
         exported_sections = {section["section_id"] for section in shijing_manifest["sections"] if section["tmx_status"] == "complete"}
         ledger_by_section = {entry["section_id"]: entry for entry in verification_ledger["entries"]}
+        shijing_sections_by_id = {section["section_id"]: section for section in shijing_manifest["sections"]}
         self.assertTrue(all(section_id in ledger_by_section for section_id in exported_sections))
         self.assertTrue(all(ledger_by_section[section_id]["decision"] == "export" for section_id in exported_sections))
+        reviewed_ocr_rows = [
+            row
+            for row in shijing_export_rows
+            if shijing_sections_by_id[row["section_id"]].get("english_witness") == "legge_ocr_reviewed"
+        ]
+        self.assertTrue(reviewed_ocr_rows)
+        self.assertTrue(
+            all(
+                not any(character.isascii() and character.isalpha() for character in row["translation_ref"])
+                for row in reviewed_ocr_rows
+            )
+        )
