@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-luming-008__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·008.1</prop>
+      <prop type="x-translation-ref">出車.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我出我車，于彼牧矣。自天子所，謂我來矣。
+召彼僕夫，謂之載矣。王事多難，維其棘矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We proceeded with our carriage,
+To those pasture grounds.
+From the place of the son of Heaven,
+Came an order to me to march, 'said the general.
+So he called his carriage-officers,
+And told them to get the carriages all ready.
+The king's business, 'said he, 'is surrounded with difficulties;
+We must use despatch.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-luming-008__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·008.2</prop>
+      <prop type="x-translation-ref">出車.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我出我車，于彼郊矣。設此旐矣，建彼旄矣。
+彼旟旐斯，胡不斾斾？憂心悄悄，僕夫況瘁。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We proceeded with our carriage,
+To that suburban region.
+The banner with tortoises and serpents was raised,
+And the ox-tails set up at the top of its staff;
+Did not it and the falcon banner,
+Fly about grandly?
+The general's heart was anxious and sad,
+And the carriage-officers appeared full of care.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-luming-008__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·008.3</prop>
+      <prop type="x-translation-ref">出車.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>王命南仲，往城于方。出車彭彭，旂旐央央。
+天子命我，城彼朔方。赫赫南仲，玁狁于襄。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The king charged Nan Zhong,
+To go and build a wall in the disturbed region.
+How numerous were his chariots!
+How splendid his dragon, his tortoise and serpent flags!
+The son of Heaven had charged us,
+To build a wall in that northern region.
+Awe-inspiring was Nan Zhong;
+The Xian-yun were sure to be swept away!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-luming-008__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·008.4</prop>
+      <prop type="x-translation-ref">出車.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>昔我往矣，黍稷方華。今我來思，雨雪載塗。
+王事多難，不遑啟居。豈不懷歸？畏此簡書。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When we were marching at first,
+The millets were in flower.
+Now that we are returning,
+The snow falls, and the roads are all mire.
+The king's business was not to be slackly performed,
+And we had not leisure to rest.
+Did we not long to return?
+But we were in awe of the orders in the tablets.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-luming-008__005__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·008.5</prop>
+      <prop type="x-translation-ref">出車.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>喓喓草蟲，趯趯阜螽。未見君子，憂心忡忡。
+既見君子，我心則降。赫赫南仲，薄伐西戎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Yao-yao go the grass-insects,
+And the hoppers leap about.
+While we do not see our husbands,
+Our hearts must be full of grief.
+Let us but see our husbands,
+And our hearts will be at rest.
+The awe-inspiring Nan Zhong,
+Is smiting the Rong of the west.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-luming-008__006__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·008.6</prop>
+      <prop type="x-translation-ref">出車.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>春日遲遲，卉木萋萋。倉庚喈喈，采蘩祁祁。
+執訊獲醜，薄言還歸。赫赫南仲，玁狁于夷。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The spring-days are lengthening out;
+The plants and trees grow full of verdure;
+The oriole's cry comes jie-jie;
+Our wives go in crowds to gather the white southernwood.
+With our prisoners for the question and our captive crowd,
+We return.
+Awe-inspiring is Nan zhong;
+The Xian-yun are pacified.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-shengmin-006__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-shengmin-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·006.1</prop>
+      <prop type="x-translation-ref">公劉.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>篤公劉，匪居匪康，迺埸迺疆。迺積迺倉，迺裹餱糧。
+于橐于囊，思輯用光。弓矢斯張，干戈戚揚，爰方啟行。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Of generous devotion to the people was duke Liu,
+Unable to rest or take his ease where he was,
+He divided and subdivided the country into fields;
+He stored up the produce in the fields and in barns;
+He tied up dried meat and grain,
+In bottomless bags and in sacks; --
+That he might hold the people together, and glorify his tribe.
+Then with bows and arrows all ready,
+With shields and spears, and axes, large and small,
+He commenced his march.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-006__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-shengmin-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·006.2</prop>
+      <prop type="x-translation-ref">公劉.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>篤公劉，于胥斯原，既庶既繁，既順迺宣，而無永歎。
+陟則在巘，復降在原。何以舟之？維玉及瑤，鞞琫容刀。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Of generous devotion to the people was duke Liu,
+He had surveyed the plain where he was settled;
+The people were numerous and crowded;
+In sympathy with them, he made proclamation of his contemplated measure,
+And there were no perpetual sighings about it
+He ascended to the hill-tops;
+He ascended again to the plains.
+What was it that he carried at his girdle?
+Pieces of jade, and yao gems,
+And his ornamented scabbard with its sword.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-006__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-shengmin-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·006.3</prop>
+      <prop type="x-translation-ref">公劉.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>篤公劉，逝彼百泉，瞻彼溥原，迺陟南岡，乃覯于京。
+京師之野，于時處處。于時廬旅，于時言言，于時語語。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Of generous devotion to the people was duke Liu,
+He went there to the place of the hundred springs,
+And saw around him the wide plain.
+He ascended the ridge on the south,
+And looked at a large level height,
+A height affording space for multitudes.
+Here was room to dwell in;
+Here might booths be built for strangers;
+Here he told out his mind;
+Here he entered on deliberations.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-006__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-shengmin-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·006.4</prop>
+      <prop type="x-translation-ref">公劉.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>篤公劉，于京斯依，蹌蹌濟濟，俾筵俾几。既登乃依。
+乃造其曹，執豕于牢，酌之用匏。食之飲之，君之宗之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Of generous devotion to the people was duke Liu,
+When he had found rest on the height,
+With his officers all in dignified order,
+He caused mats to be spread, with stools upon them;
+And they took their places on the mats and leaned on the stools.
+He had sent to the herds,
+And taken a pig from the pen.
+He poured out his spirits into calabashes;
+And so he gave them to eat and to drink,
+Acknowledged by them as ruler, and honoured.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-006__005__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-shengmin-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·006.5</prop>
+      <prop type="x-translation-ref">公劉.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>篤公劉，既溥既長，既景迺岡，相其陰陽，觀其流泉。
+其軍三單，度其隰原，徹田為糧。度其夕陽，豳居允荒。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Of generous devotion to the people was duke Liu,
+His territory being now broad and long,
+He determined the points of the heavens by means of the shadows; and then, ascending the ridges,
+He surveyed the light and the shade,
+Viewing also the course of the streams and springs.
+His armies were three troops;
+He measured the marshes and plains;
+He fixed the revenue on the system of common cultivation of the fields;
+He measured also the fields west of the hills;
+And the settlement of Bin became truly great.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-006__006__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-shengmin-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·006.6</prop>
+      <prop type="x-translation-ref">公劉.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>篤公劉，于豳斯館，涉渭為亂，取厲取鍛，止基迺理。
+爰眾爰有，夾其皇澗。遡其過澗，止旅乃密，芮鞫之即。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Of generous devotion to the people was duke Liu,
+Having settled in temporary lodging houses in Bin,
+He crossed the Wei by means of boats,
+And gathered whetstones and iron.
+When his settlement was fixed, and all boundaries defined,
+The people became numerous and prosperous,
+Occupying both sides of the Huang valley,
+And pushing on up that of Guo;
+And as the population became dense,
+They went on to the country beyond the Ju.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

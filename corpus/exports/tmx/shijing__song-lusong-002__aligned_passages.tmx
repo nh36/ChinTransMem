@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__song-lusong-002__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">song-lusong-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·頌·魯頌·002.1</prop>
+      <prop type="x-translation-ref">有駜.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有駜有駜，駜彼乘黃。夙夜在公，在公明明。
+振振鷺，鷺于下。鼓咽咽，醉言舞。于胥樂兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fat and strong, fat and strong,
+Fat and strong, are the chestnut teams.
+Early and late are the officers in the court,
+In the court, discriminating and intelligent.
+They are as a flock of egrets on the wing,
+Of egrets anon lighting on the ground.
+The drums emit their deep sound;
+They drink to the full and then dance; --
+Thus rejoicing together.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-lusong-002__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">song-lusong-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·頌·魯頌·002.2</prop>
+      <prop type="x-translation-ref">有駜.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有駜有駜，駜彼乘牡。夙夜在公，在公飲酒。
+振振鷺，鷺于飛。鼓咽咽，醉言歸。于胥樂兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fat and strong, fat and strong,
+Fat and strong are the teams of stallions.
+Early and late are the officers with the prince,
+With the prince drinking.
+They are as a flock of egrets on the wing,
+Of egrets flying about.
+The drums emit their deep sound;
+They drink to the full and then return home; --
+Thus rejoicing together.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__song-lusong-002__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">song-lusong-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·頌·魯頌·002.3</prop>
+      <prop type="x-translation-ref">有駜.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有駜有駜，駜彼乘駽。夙夜在公，在公載燕。
+自今以始，歲其有。君子有穀，詒孫子。于胥樂兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fat and strong, fat and strong,
+Fat and strong are the teams of iron-greys.
+Early and late are the officers with the prince,
+With the prince feasting.
+From this time forth,
+May the years be abundant.
+May our prince maintain his goodness,
+And transmit it to his descendants! '--
+Thus they rejoice together.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-yuzao-007__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·007.1</prop>
+      <prop type="x-translation-ref">黍苗.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>芃芃黍苗，陰雨膏之。悠悠南行，召伯勞之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Tall and strong grows the young millet,
+Fattened by the genial rains.
+Very long was our journey to the south,
+But the earl of Zhou encouraged and cheered us.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-007__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·007.2</prop>
+      <prop type="x-translation-ref">黍苗.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我任我輦，我車我牛。我行既集，蓋云歸哉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We carried our burdens; we pushed along our barrows;
+We drove our waggons; we led our oxen.
+When our expedition was accomplished,
+We knew we should return.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-007__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·007.3</prop>
+      <prop type="x-translation-ref">黍苗.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我徒我御，我師我旅。我行既集，蓋云歸處。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We went along on foot; we rode in our chariots; --
+Our whole host, and our battalions.
+When our expedition was accomplished,
+We knew we should return home.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-007__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·007.4</prop>
+      <prop type="x-translation-ref">黍苗.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>肅肅謝功，召伯營之。烈烈征師，召伯成之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Severe was the work at Su,
+But the earl of Zhou built the city.
+Majestic was the march of our host; --
+The earl of Zhou directed it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-007__005__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·007.5</prop>
+      <prop type="x-translation-ref">黍苗.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>原隰既平，泉流既清。召伯有成，王心則寧。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The plains and low lands were regulated; --
+The springs and streams were cleared.
+The earl of Zhou completed his work,
+And the heart of the king was at rest.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

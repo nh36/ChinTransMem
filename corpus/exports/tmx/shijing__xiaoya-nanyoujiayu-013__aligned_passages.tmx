@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-013__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·013.1</prop>
+      <prop type="x-translation-ref">吉日.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>吉日維戊，既伯既禱。田車既好，四牡孔阜。升彼大阜，從其羣醜。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A lucky day was wu,
+And we sacrificed on it to the Ruler of horses, and prayed.
+Our hunting carriages were good;
+The team for each was in fine condition.
+We would ascend the greatest heights,
+And pursue the herds of the game.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-013__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·013.2</prop>
+      <prop type="x-translation-ref">吉日.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>吉日庚午，既差我馬。獸之所同，麀鹿麌麌。漆沮之從，天子之所。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A lucky day was geng-wu.
+We had selected our horses;
+The haunts of the animals,
+Where the does and stags lay numerous,
+The grounds by the Qi and the Ju, --
+That was the place for the son of Heaven to hunt.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-013__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·013.3</prop>
+      <prop type="x-translation-ref">吉日.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>瞻彼中原，其祁孔有。儦儦俟俟，或羣或友。悉率左右，以燕天子。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We looked to the midst of the plain,
+Where the animals were large and abundant,
+Now rushing about, now waiting together,
+Here in threes, there in twos.
+We led on all our attendants,
+To give pleasure to the son of Heaven.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-013__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-013</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·013.4</prop>
+      <prop type="x-translation-ref">吉日.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>既張我弓，既挾我矢。發彼小豝，殪此大兕。以御賓客，且以酌醴。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We have bent our bows;
+We have our arrows on the string.
+Here is a small boar transfixed;
+There is a large rhinoceros killed.
+The spoil will be presented to the visitors and guests,
+Along with the cup of sweet wine.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

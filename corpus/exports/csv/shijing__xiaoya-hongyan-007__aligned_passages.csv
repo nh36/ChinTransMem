@@ -1,0 +1,25 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-hongyan-007__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·鴻鴈之什·007.1,"黃鳥黃鳥，無集于穀，無啄我粟。
+此邦之人，不我肯穀。言旋言歸，復我邦族。",黃鳥.1,"Yellow bird, yellow bird,
+Do not settle on the broussonetias,
+Do not eat my paddy.
+The people of this country,
+Are not willing to treat me well.
+I will return, I will go back,
+Back to my country and kin."
+shijing__xiaoya-hongyan-007__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·鴻鴈之什·007.2,"黃鳥黃鳥，無集于桑，無啄我粱。
+此邦之人，不可與明。言旋言歸，復我諸兄。",黃鳥.2,"Yellow bird, yellow bird,
+Do not settle on the mulberry trees,
+Do not eat my maize.
+The people of this country,
+Will not let me come to an understanding with them.
+I will return, I will go back,
+Back to my brethren."
+shijing__xiaoya-hongyan-007__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·鴻鴈之什·007.3,"黃鳥黃鳥，無集于栩，無啄我黍。
+此邦之人，不可與處。言旋言歸，復我諸父。",黃鳥.3,"Yellow bird, yellow bird,
+Do not settle on the oaks,
+Do not eat my grand millet.
+The people of this country,
+I cannot dwell with.
+I will return, I will go back,
+Back to my uncles."

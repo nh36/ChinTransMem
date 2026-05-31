@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-gufeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-gufeng-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·005.1</prop>
+      <prop type="x-translation-ref">北山.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>陟彼北山，言采其杞。偕偕士子，朝夕從事。王事靡盬，憂我父母。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I ascend that northern hill,
+And gather the medlars.
+An officer, strong and vigorous,
+Morning and evening I am engaged in service.
+The king's business is not to be slackly performed;
+And my parents are left in sorrow.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-gufeng-005__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-gufeng-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·005.2</prop>
+      <prop type="x-translation-ref">北山.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>溥天之下，莫非王土。率土之濱，莫非王臣。大夫不均，我從事獨賢。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Under the wide heaven,
+All is the king's land.
+Within the sea-boundaries of the land,
+All are the king's servants.
+His great officers are unfair, --
+Making me serve thus as if I alone were worthy.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-gufeng-005__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-gufeng-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·005.3</prop>
+      <prop type="x-translation-ref">北山.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>四牡彭彭，王事傍傍。嘉我未老，鮮我方將。旅力方剛，經營四方。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>My four horses never halt;
+The king's business allows no rest.
+They praise me as not yet old;
+They think few like me in vigour.
+While the backbone retains its strength,
+I must plan and labour in all parts of the kingdom.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-gufeng-005__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-gufeng-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·005.4</prop>
+      <prop type="x-translation-ref">北山.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>或燕燕居息，或盡瘁事國；或息偃在牀，或不已于行。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Some enjoy their ease and rest,
+And some are worn out in the service of the State;
+Some rest and loll upon their couches,
+And some never cease marching about.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-gufeng-005__005__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-gufeng-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·005.5</prop>
+      <prop type="x-translation-ref">北山.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>或不知叫號，或慘慘劬勞；或棲遲偃仰，或王事鞅掌。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Some never hear a sound,
+And some are cruelly toiled;
+Some lazily roost, on their backs looking up,
+And some are all-bustled in the service of the king.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-gufeng-005__006__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-gufeng-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·谷風之什·005.6</prop>
+      <prop type="x-translation-ref">北山.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>或湛樂飲酒，或慘慘畏咎；或出入風議，或靡事不為。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Some indulge long in pleasure and drinking,
+And some are miserable, in apprehension of blame;
+Some, at home and abroad, pass critical remarks,
+And some have everything to do.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

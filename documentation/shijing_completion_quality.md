@@ -6,76 +6,71 @@ This report complements the structural preflight checks with verification-ledger
 
 | Metric | Count |
 | --- | ---: |
-| complete_sections | 256 |
-| metadata_only_sections | 55 |
-| non_exportable_extant_sections | 49 |
-| exact_alignment_count | 591 |
-| ocr_or_fulltext_derived_sections | 153 |
+| complete_sections | 281 |
+| metadata_only_sections | 30 |
+| non_exportable_extant_sections | 24 |
+| exact_alignment_count | 698 |
+| ocr_or_fulltext_derived_sections | 178 |
 | sections_needing_human_text_review | 0 |
-| sections_with_coarse_alignment | 84 |
-| sections_with_single_poem_alignment | 91 |
+| sections_with_coarse_alignment | 86 |
+| sections_with_single_poem_alignment | 93 |
 | sections_with_extreme_length_ratio | 0 |
 | sections_with_possible_commentary_leakage | 0 |
 | sections_with_suspicious_ocr_artifacts | 0 |
 | sections_with_hard_failures | 0 |
 | hard_failure_count | 0 |
-| warning_count | 33 |
+| warning_count | 35 |
 
 ## Progress
 
 | Metric | Count |
 | --- | ---: |
 | total_extant_poems | 305 |
-| verified_exportable_poems | 256 |
-| all_human_verified_ocr_sections | 153 |
-| non_exportable_repair_queue_remaining | 49 |
-| current_repair_batch | 2026-05-30-07-guofeng-cleanup-xiaoya-start |
-| newly_repaired_in_current_batch | 30 |
+| verified_exportable_poems | 281 |
+| all_human_verified_ocr_sections | 178 |
+| non_exportable_repair_queue_remaining | 24 |
+| current_repair_batch | 2026-05-31-08-xiaoya-completion-daya-song-start |
+| newly_repaired_in_current_batch | 25 |
 
 ## Current batch summary
 
 | Metric | Count |
 | --- | ---: |
-| repair_batch | 2026-05-30-07-guofeng-cleanup-xiaoya-start |
+| repair_batch | 2026-05-31-08-xiaoya-completion-daya-song-start |
 | latest_review_date | 2026-05-31 |
-| newly_repaired_in_current_batch | 30 |
-| human_verified_ocr_sections_in_current_batch | 30 |
+| newly_repaired_in_current_batch | 25 |
+| human_verified_ocr_sections_in_current_batch | 25 |
 | human_verified_fulltext_sections_in_current_batch | 0 |
 
 ## Newly repaired in current batch
 
 | Section | Title | Canonical ref | Verification status |
 | --- | --- | --- | --- |
-| xiaoya-nanyoujiayu-006 | 蓼蕭 | 詩經·小雅·南有嘉魚之什·006 | human_verified_ocr |
-| xiaoya-nanyoujiayu-007 | 湛露 | 詩經·小雅·南有嘉魚之什·007 | human_verified_ocr |
-| xiaoya-nanyoujiayu-008 | 彤弓 | 詩經·小雅·南有嘉魚之什·008 | human_verified_ocr |
-| xiaoya-nanyoujiayu-009 | 菁菁者莪 | 詩經·小雅·南有嘉魚之什·009 | human_verified_ocr |
-| xiaoya-nanyoujiayu-012 | 車攻 | 詩經·小雅·南有嘉魚之什·012 | human_verified_ocr |
-| xiaoya-futian-003 | 瞻彼洛矣 | 詩經·小雅·甫田之什·003 | human_verified_ocr |
-| xiaoya-futian-004 | 裳裳者華 | 詩經·小雅·甫田之什·004 | human_verified_ocr |
-| xiaoya-futian-006 | 鴛鴦 | 詩經·小雅·甫田之什·006 | human_verified_ocr |
-| xiaoya-futian-007 | 頍弁 | 詩經·小雅·甫田之什·007 | human_verified_ocr |
-| xiaoya-futian-008 | 車舝 | 詩經·小雅·甫田之什·008 | human_verified_ocr |
-| xiaoya-futian-009 | 青蠅 | 詩經·小雅·甫田之什·009 | human_verified_ocr |
-| xiaoya-gufeng-004 | 四月 | 詩經·小雅·谷風之什·004 | human_verified_ocr |
-| xiaoya-gufeng-006 | 無將大車 | 詩經·小雅·谷風之什·006 | human_verified_ocr |
-| xiaoya-yuzao-001 | 魚藻 | 詩經·小雅·魚藻之什·001 | human_verified_ocr |
-| xiaoya-yuzao-002 | 采菽 | 詩經·小雅·魚藻之什·002 | human_verified_ocr |
-| xiaoya-yuzao-003 | 角弓 | 詩經·小雅·魚藻之什·003 | human_verified_ocr |
-| xiaoya-yuzao-004 | 菀柳 | 詩經·小雅·魚藻之什·004 | human_verified_ocr |
-| xiaoya-yuzao-006 | 采綠 | 詩經·小雅·魚藻之什·006 | human_verified_ocr |
-| xiaoya-yuzao-008 | 隰桑 | 詩經·小雅·魚藻之什·008 | human_verified_ocr |
-| xiaoya-yuzao-011 | 瓠葉 | 詩經·小雅·魚藻之什·011 | human_verified_ocr |
-| xiaoya-yuzao-012 | 漸漸之石 | 詩經·小雅·魚藻之什·012 | human_verified_ocr |
-| xiaoya-yuzao-013 | 苕之華 | 詩經·小雅·魚藻之什·013 | human_verified_ocr |
-| xiaoya-hongyan-001 | 鴻鴈 | 詩經·小雅·鴻鴈之什·001 | human_verified_ocr |
-| xiaoya-hongyan-002 | 庭燎 | 詩經·小雅·鴻鴈之什·002 | human_verified_ocr |
-| xiaoya-hongyan-004 | 鶴鳴 | 詩經·小雅·鴻鴈之什·004 | human_verified_ocr |
-| xiaoya-hongyan-006 | 白駒 | 詩經·小雅·鴻鴈之什·006 | human_verified_ocr |
-| xiaoya-hongyan-008 | 我行其野 | 詩經·小雅·鴻鴈之什·008 | human_verified_ocr |
-| xiaoya-luming-001 | 鹿鳴 | 詩經·小雅·鹿鳴之什·001 | human_verified_ocr |
-| xiaoya-luming-003 | 皇皇者華 | 詩經·小雅·鹿鳴之什·003 | human_verified_ocr |
-| xiaoya-luming-004 | 常棣 | 詩經·小雅·鹿鳴之什·004 | human_verified_ocr |
+| daya-wenwang-008 | 靈臺 | 詩經·大雅·文王之什·008 | human_verified_ocr |
+| daya-shengmin-006 | 公劉 | 詩經·大雅·生民之什·006 | human_verified_ocr |
+| daya-shengmin-007 | 泂酌 | 詩經·大雅·生民之什·007 | human_verified_ocr |
+| daya-dang-009 | 常武 | 詩經·大雅·蕩之什·009 | human_verified_ocr |
+| xiaoya-nanyoujiayu-002 | 南山有臺 | 詩經·小雅·南有嘉魚之什·002 | human_verified_ocr |
+| xiaoya-nanyoujiayu-010 | 六月 | 詩經·小雅·南有嘉魚之什·010 | human_verified_ocr |
+| xiaoya-nanyoujiayu-011 | 采芑 | 詩經·小雅·南有嘉魚之什·011 | human_verified_ocr |
+| xiaoya-nanyoujiayu-013 | 吉日 | 詩經·小雅·南有嘉魚之什·013 | human_verified_ocr |
+| xiaoya-jienanshan-009 | 何人斯 | 詩經·小雅·節南山之什·009 | human_verified_ocr |
+| xiaoya-gufeng-001 | 谷風 | 詩經·小雅·谷風之什·001 | human_verified_ocr |
+| xiaoya-gufeng-002 | 蓼莪 | 詩經·小雅·谷風之什·002 | human_verified_ocr |
+| xiaoya-gufeng-005 | 北山 | 詩經·小雅·谷風之什·005 | human_verified_ocr |
+| xiaoya-gufeng-008 | 鼓鍾 | 詩經·小雅·谷風之什·008 | human_verified_ocr |
+| xiaoya-yuzao-005 | 都人士 | 詩經·小雅·魚藻之什·005 | human_verified_ocr |
+| xiaoya-yuzao-007 | 黍苗 | 詩經·小雅·魚藻之什·007 | human_verified_ocr |
+| xiaoya-yuzao-010 | 緜蠻 | 詩經·小雅·魚藻之什·010 | human_verified_ocr |
+| xiaoya-yuzao-014 | 何草不黃 | 詩經·小雅·魚藻之什·014 | human_verified_ocr |
+| xiaoya-hongyan-003 | 沔水 | 詩經·小雅·鴻鴈之什·003 | human_verified_ocr |
+| xiaoya-hongyan-005 | 祈父 | 詩經·小雅·鴻鴈之什·005 | human_verified_ocr |
+| xiaoya-hongyan-007 | 黃鳥 | 詩經·小雅·鴻鴈之什·007 | human_verified_ocr |
+| xiaoya-luming-002 | 四牡 | 詩經·小雅·鹿鳴之什·002 | human_verified_ocr |
+| xiaoya-luming-007 | 采薇 | 詩經·小雅·鹿鳴之什·007 | human_verified_ocr |
+| xiaoya-luming-008 | 出車 | 詩經·小雅·鹿鳴之什·008 | human_verified_ocr |
+| song-lusong-001 | 駉 | 詩經·頌·魯頌·001 | human_verified_ocr |
+| song-lusong-002 | 有駜 | 詩經·頌·魯頌·002 | human_verified_ocr |
 
 ## Previous OCR repair batches
 
@@ -87,6 +82,7 @@ This report complements the structural preflight checks with verification-ledger
 | 2026-05-30-04-weifeng-wangfeng | 12 | 12 | 0 |
 | 2026-05-30-05-zheng-qi-wei-tang | 34 | 34 | 0 |
 | 2026-05-30-06-chen-qin-binfeng-cao-kuai-leftovers | 29 | 29 | 0 |
+| 2026-05-30-07-guofeng-cleanup-xiaoya-start | 30 | 30 | 0 |
 | pre-batch verified | 20 | 20 | 0 |
 
 ## OCR sanity tests added
@@ -112,7 +108,7 @@ This report complements the structural preflight checks with verification-ledger
 
 | Metric | Count |
 | --- | ---: |
-| checked_exportable_ocr_sections | 153 |
+| checked_exportable_ocr_sections | 178 |
 | flagged_sections | 0 |
 
 | Section | Title | Canonical ref | Artifact markers | Matches |
@@ -148,10 +144,10 @@ This report complements the structural preflight checks with verification-ledger
 
 | Metric | Count |
 | --- | ---: |
-| Not yet investigated in detail | 24 |
-| Needs better witness | 19 |
+| Needs better witness | 18 |
 | Likely repairable now | 4 |
 | Known unrecoverable with current witness | 2 |
+| Not yet investigated in detail | 0 |
 
 ## Remaining repair queue by subdivision
 
@@ -159,25 +155,15 @@ This report complements the structural preflight checks with verification-ledger
 | --- | ---: |
 | 國風 / 鄭風 | 5 |
 | 國風 / 邶風 | 4 |
-| 小雅 / 南有嘉魚之什 | 4 |
-| 小雅 / 谷風之什 | 4 |
-| 小雅 / 魚藻之什 | 4 |
 | 國風 / 魏風 | 3 |
-| 小雅 / 鴻鴈之什 | 3 |
-| 小雅 / 鹿鳴之什 | 3 |
 | 國風 / 唐風 | 2 |
 | 國風 / 王風 | 2 |
 | 國風 / 衛風 | 2 |
 | 國風 / 齊風 | 2 |
-| 大雅 / 生民之什 | 2 |
-| 頌 / 魯頌 | 2 |
 | 國風 / 召南 | 1 |
 | 國風 / 豳風 | 1 |
 | 國風 / 鄘風 | 1 |
 | 國風 / 陳風 | 1 |
-| 大雅 / 文王之什 | 1 |
-| 大雅 / 蕩之什 | 1 |
-| 小雅 / 節南山之什 | 1 |
 
 ## Remaining Guofeng items
 
@@ -244,52 +230,21 @@ This report complements the structural preflight checks with verification-ledger
 
 | Metric | Count |
 | --- | ---: |
-| 小雅 / 南有嘉魚之什 | 4 |
-| 小雅 / 谷風之什 | 4 |
-| 小雅 / 魚藻之什 | 4 |
-| 小雅 / 鴻鴈之什 | 3 |
-| 小雅 / 鹿鳴之什 | 3 |
-| 小雅 / 節南山之什 | 1 |
+| — | 0 |
 
 | Section | Title | Canonical ref | Queue category | Reason |
 | --- | --- | --- | --- | --- |
-| xiaoya-nanyoujiayu-002 | 南山有臺 | 詩經·小雅·南有嘉魚之什·002 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-nanyoujiayu-010 | 六月 | 詩經·小雅·南有嘉魚之什·010 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-nanyoujiayu-011 | 采芑 | 詩經·小雅·南有嘉魚之什·011 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-nanyoujiayu-013 | 吉日 | 詩經·小雅·南有嘉魚之什·013 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-jienanshan-009 | 何人斯 | 詩經·小雅·節南山之什·009 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-gufeng-001 | 谷風 | 詩經·小雅·谷風之什·001 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-gufeng-002 | 蓼莪 | 詩經·小雅·谷風之什·002 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-gufeng-005 | 北山 | 詩經·小雅·谷風之什·005 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-gufeng-008 | 鼓鍾 | 詩經·小雅·谷風之什·008 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-yuzao-005 | 都人士 | 詩經·小雅·魚藻之什·005 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-yuzao-007 | 黍苗 | 詩經·小雅·魚藻之什·007 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-yuzao-010 | 緜蠻 | 詩經·小雅·魚藻之什·010 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-yuzao-014 | 何草不黃 | 詩經·小雅·魚藻之什·014 | Needs better witness | Public-domain witness located, but the English text is contaminated by an adjacent division heading and OCR debris, so it remains non-exportable. |
-| xiaoya-hongyan-003 | 沔水 | 詩經·小雅·鴻鴈之什·003 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-hongyan-005 | 祈父 | 詩經·小雅·鴻鴈之什·005 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-hongyan-007 | 黃鳥 | 詩經·小雅·鴻鴈之什·007 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-luming-002 | 四牡 | 詩經·小雅·鹿鳴之什·002 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-luming-007 | 采薇 | 詩經·小雅·鹿鳴之什·007 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| xiaoya-luming-008 | 出車 | 詩經·小雅·鹿鳴之什·008 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
+| — | — | — | — | — |
 
 ## Remaining Daya/Song items
 
 | Metric | Count |
 | --- | ---: |
-| 大雅 / 生民之什 | 2 |
-| 頌 / 魯頌 | 2 |
-| 大雅 / 文王之什 | 1 |
-| 大雅 / 蕩之什 | 1 |
+| — | 0 |
 
 | Section | Title | Canonical ref | Queue category | Reason |
 | --- | --- | --- | --- | --- |
-| daya-wenwang-008 | 靈臺 | 詩經·大雅·文王之什·008 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| daya-shengmin-006 | 公劉 | 詩經·大雅·生民之什·006 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| daya-shengmin-007 | 泂酌 | 詩經·大雅·生民之什·007 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| daya-dang-009 | 常武 | 詩經·大雅·蕩之什·009 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| song-lusong-001 | 駉 | 詩經·頌·魯頌·001 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
-| song-lusong-002 | 有駜 | 詩經·頌·魯頌·002 | Not yet investigated in detail | Public-domain witness located, but the English text is not yet verified clean enough for export. |
+| — | — | — | — | — |
 
 ## Known unrecoverable cases
 
@@ -320,14 +275,13 @@ This report complements the structural preflight checks with verification-ledger
 | guofeng-weifeng-state-003 | 園有桃 | 詩經·國風·魏風·003 | Needs better witness | Checked part-1 hOCR pp.367-369. The stanza order is mixed and the opening lines are partly lost to OCR debris, so the poem cannot yet be verified cleanly. |
 | guofeng-weifeng-state-006 | 伐檀 | 詩經·國風·魏風·006 | Needs better witness | Checked part-1 hOCR pp.371-373. The second stanza breaks off at the page edge and the remaining witness does not preserve a clean continuation, so the poem stays non-exportable. |
 | guofeng-qifeng-003 | 著 | 詩經·國風·齊風·003 | Needs better witness | Checked part-1 hOCR pp.354-355. The key gem-name lines are OCR-corrupt in every stanza, so the translation cannot be normalized confidently from this witness alone. |
-| xiaoya-yuzao-014 | 何草不黃 | 詩經·小雅·魚藻之什·014 | Needs better witness | Public-domain witness located, but the English text is contaminated by an adjacent division heading and OCR debris, so it remains non-exportable. |
 
 
 ## Witness mix
 
 | Witness type | Complete sections |
 | --- | ---: |
-| OCR-derived witness | 153 |
+| OCR-derived witness | 178 |
 | SBE transcluded page | 102 |
 | standalone Wikisource | 1 |
 
@@ -335,7 +289,7 @@ This report complements the structural preflight checks with verification-ledger
 
 | Status | Complete sections |
 | --- | ---: |
-| human_verified_ocr | 153 |
+| human_verified_ocr | 178 |
 | verified_transcribed_text | 103 |
 
 ## Thresholds
@@ -343,8 +297,8 @@ This report complements the structural preflight checks with verification-ledger
 | Heuristic | Value |
 | --- | ---: |
 | english_word_short_threshold | 44 |
-| english_word_long_threshold | 293 |
-| english_to_chinese_ratio_low_threshold | 1.600 |
+| english_word_long_threshold | 327 |
+| english_to_chinese_ratio_low_threshold | 1.678 |
 | english_to_chinese_ratio_high_threshold | 8.000 |
 
 ## Non-exportable repair queue
@@ -375,7 +329,6 @@ This report complements the structural preflight checks with verification-ledger
 | guofeng-tangfeng-006 | 杕杜 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.383-384. The verse is interrupted by Mencius commentary fragments and a repeated closing block, so the poem boundary is not yet safe. |
 | guofeng-chenfeng-009 | 株林 | extraction_failed_non_exportable | do_not_export_until_repaired | Checked part-1 hOCR page 415. The translation column collapses into glyph debris immediately after the title, so no recoverable verse lines survive in the current witness. |
 | guofeng-binfeng-003 | 東山 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pages 437-440. The witness merges stanza 1 with commentary debris, drops the return line in stanza 3, and truncates stanza 4 after its opening couplet, so the full poem is not recoverable cleanly. |
-| xiaoya-luming-002 | 四牡 | needs_text_repair | do_not_export_until_repaired | Public-domain witness located, but the English text is not yet verified clean enough for export. |
 
 ## Most flagged sections
 
@@ -390,12 +343,12 @@ This report complements the structural preflight checks with verification-ledger
 | guofeng-tangfeng-009 | 無衣 | OCR-derived witness | 78 | 3.099 | poem-level alignment may hide recoverable stanza segmentation |
 | guofeng-qinfeng-008 | 無衣 | OCR-derived witness | 112 | 4.063 | poem-level alignment may hide recoverable stanza segmentation |
 | guofeng-kuaifeng-001 | 羔裘 | OCR-derived witness | 92 | 2.426 | poem-level alignment may hide recoverable stanza segmentation |
+| xiaoya-nanyoujiayu-011 | 采芑 | OCR-derived witness | 331 | 6.571 | suspiciously long English text |
 | xiaoya-hongyan-009 | 斯干 | SBE transcluded page | 219 | 3.652 | poem-level alignment may hide recoverable stanza segmentation |
 | xiaoya-jienanshan-001 | 節南山 | SBE transcluded page | 452 | 6.378 | suspiciously long English text |
 | xiaoya-jienanshan-006 | 小宛 | SBE transcluded page | 130 | 9.600 | poem-level alignment may hide recoverable stanza segmentation |
-| xiaoya-futian-001 | 甫田 | SBE transcluded page | 297 | 6.701 | suspiciously long English text |
-| xiaoya-futian-002 | 大田 | SBE transcluded page | 140 | 3.477 | poem-level alignment may hide recoverable stanza segmentation |
-| xiaoya-futian-007 | 頍弁 | OCR-derived witness | 191 | 4.589 | poem-level alignment may hide recoverable stanza segmentation |
+| xiaoya-jienanshan-009 | 何人斯 | OCR-derived witness | 330 | 5.432 | suspiciously long English text |
+| xiaoya-gufeng-002 | 蓼莪 | OCR-derived witness | 214 | 5.091 | poem-level alignment may hide recoverable stanza segmentation |
 
 ## Extreme English/Chinese ratios
 

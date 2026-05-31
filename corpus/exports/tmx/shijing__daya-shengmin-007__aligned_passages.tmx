@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__daya-shengmin-007__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-shengmin-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·007.1</prop>
+      <prop type="x-translation-ref">泂酌.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>泂酌彼行潦，挹彼注茲，可以餴饎。豈弟君子，民之父母。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Take the pool-water from a distance;
+Draw it into one vessel and let it flow to another,
+And it may be used to stream rice or millet.
+How much more should the happy and courteous sovereign,
+Be the parent of the people!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-007__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-shengmin-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·007.2</prop>
+      <prop type="x-translation-ref">泂酌.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>泂酌彼行潦，挹彼注茲，可以濯罍。豈弟君子，民之攸歸。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Take the pool-water from a distance;
+Draw it into one vessel and let it flow to another,
+And it may be used to wash a spirit vase.
+How much more should the happy and courteous sovereign,
+Be the centre of attraction to the people!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__daya-shengmin-007__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">daya-shengmin-007</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·大雅·生民之什·007.3</prop>
+      <prop type="x-translation-ref">泂酌.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>泂酌彼行潦，挹彼注茲，可以濯溉。豈弟君子，民之攸塈。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Take the pool-water from a distance;
+Draw it into one vessel and let it flow to another,
+And it may be used for all purpose of cleansing.
+How much more should the happy and courteous sovereign,
+Be the centre of rest to the people!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

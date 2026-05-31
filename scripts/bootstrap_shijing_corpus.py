@@ -3038,6 +3038,321 @@ AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
             "In the comfort of his happiness and wealth!",
         ],
     },
+    162: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-luming-002 against CTI AnoShih.html 2.1.162 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "My four steeds advanced without stopping;\nThe way from Zhou was winding and tedious.\nDid I not have the wish to return?\nBut the king's business was not to be slackly performed;\nAnd my heart was wounded with sadness.",
+            "My four steeds advanced without stopping;\nThey panted and snorted, the white steeds black-maned.\nDid I not have the wish to return?\nBut the king's business was not to be slackly performed;\nAnd I had not leisure to kneel or to sit.",
+            "The Filial doves keep flying about,\nNow soaring aloft, and now descending,\nCollecting on the bushy oaks;\nBut the king's business was not to be slackly performed;\nAnd I had not leisure to nourish my father.",
+            "The Filial doves keep flying about,\nNow flying, now stopping,\nCollecting on the bushy medlars;\nBut the king's business was not to be slackly performed;\nAnd I had not leisure to nourish my mother.",
+            "I yoked my four white steeds, black-maned;\nThey hurried away with speed.\n[But] did I not wish to return?\nTherefore I make this song,\nAnnouncing my wish to nourish my mother.",
+        ],
+    },
+    167: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-luming-007 against CTI AnoShih.html 2.1.167 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Let us gather the thorn-ferns, let us gather the thorn-ferns;\nThe thorn-ferns are now springing up.\nWhen shall we return? When shall we return?\nIt will be late in the [next] year.\nWife and husband will be separated,\nBecause of the Xian-yun.\nWe shall have no leisure to rest,\nBecause of the Xian-yun.",
+            "Let us gather the thorn-ferns, let us gather the thorn-ferns;\nThe thorn-ferns are now tender.\nWhen shall we return? When shall we return?\nOur hearts are sorrowful;\nOur hearts are sad and sorrowful;\nWe shall hunger, we shall thirst.\nWhile our service on guard is not finished,\nWe can send no one home to enquire about our families.",
+            "Let us gather the thorn-ferns, let us gather the thorn-ferns;\nThe thorn-ferns are now hard.\nWhen shall we return? When shall we return?\nThe year will be in the tenth month.\nBut the king's business must not be slackly performed;\nWe shall have no leisure to rest.\nOur sorrowing hearts are in great distress;\nBut we shall not return from our expedition.",
+            "What is that so gorgeous?\nIt is the flowers of the cherry tree.\nWhat carriage is that?\nIt is the carriage of our general.\nHis war carriage is yoked;\nThe four steeds are strong.\nDare we remain inactive?\nIn one month we shall have three victories.",
+            "The four steeds are yoked,\nThe four steeds, eager and strong; --\nThe confidence of the general,\nThe protection of the men.\nThe four steeds move regularly, like wings; --\nThere are the bow with its ivory ends, and the seal-skin quiver.\nShall we not daily warn one another?\nThe business of the Xian-yun is very urgent.",
+            "At first, when we set out,\nThe willows were fresh and green;\nNow, when we shall be returning,\nThe snow will be falling in clouds.\nLong and tedious will be our marching;\nWe shall hunger; we shall thirst.\nOur hearts are wounded with grief,\nAnd no one knows our sadness.",
+        ],
+    },
+    168: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-luming-008 against CTI AnoShih.html 2.1.168 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "We proceeded with our carriage,\nTo those pasture grounds.\n'From the place of the son of Heaven,\nCame an order to me to march, '[said the general].\nSo he called his carriage-officers,\nAnd told them to get the carriages all ready.\n'The king's business, '[said he], 'is surrounded with difficulties;\nWe must use despatch. '",
+            "We proceeded with our carriage,\nTo that suburban region.\nThe banner with tortoises and serpents was raised,\nAnd the ox-tails set up at the top of its staff;\nDid not it and the falcon banner,\nFly about grandly?\nThe [general's] heart was anxious and sad,\nAnd the carriage-officers appeared full of care.",
+            "The king charged Nan Zhong,\nTo go and build a wall in the [disturbed] region.\nHow numerous were his chariots!\nHow splendid his dragon, his tortoise and serpent flags!\nThe son of Heaven had charged us,\nTo build a wall in that northern region.\nAwe-inspiring was Nan Zhong;\nThe Xian-yun were sure to be swept away!",
+            "When we were marching at first,\nThe millets were in flower.\nNow that we are returning,\nThe snow falls, and the roads are all mire.\nThe king's business was not to be slackly performed,\nAnd we had not leisure to rest.\nDid we not long to return?\nBut we were in awe of the orders in the tablets.",
+            "'Yao-yao go the grass-insects,\nAnd the hoppers leap about.\nWhile we do not see our husbands,\nOur hearts must be full of grief.\nLet us but see our husbands,\nAnd our hearts will be at rest. '\nThe awe-inspiring Nan Zhong,\nIs smiting the Rong of the west.",
+            "The spring-days are lengthening out;\nThe plants and trees grow full of verdure;\nThe oriole's cry comes jie-jie;\n[Our wives] go in crowds to gather the white southernwood.\nWith our prisoners for the question and our captive crowd,\nWe return.\nAwe-inspiring is Nan zhong;\nThe Xian-yun are pacified.",
+        ],
+    },
+    175: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-nanyoujiayu-002 against CTI AnoShih.html 2.2.172 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "On the hills of the south is the Tai plant,\nOn those of the north is the Lai.\nTo be rejoiced in are ye, noble men,\nThe foundations of the State.\nTo be rejoiced in are ye, noble men; --\nMay your years be myriads and without end!",
+            "On the hills of the south are the mulberry trees,\nOn those of the north are willows.\nTo be rejoiced in are ye, noble men,\nThe light of the State.\nTo be rejoiced in are ye, noble men; --\nMay your years be myriads, unlimited!",
+            "On the hills of the south are medlars;\nOn those of the north are plum trees.\nTo be rejoiced in are ye, noble men,\nParents of the people.\nTo be rejoiced in are ye, noble men; --\nMay your virtuous fame have no end!",
+            "On the hills of the south is the Kao;\nOn those of the north is the Niu.\nTo be rejoiced in are ye, noble men,\nHave ye not the eyebrows of longevity?\nTo be rejoiced in are ye, noble men; --\nMay your virtuous fame be abundant!",
+            "On the hills of the south is the Ju;\nOn those of the north is the Yu.\nTo be rejoiced in are ye, gentlemen; --\nWill ye not have the grey hair and wrinkled face?\nTo be rejoiced in are ye, gentlemen; --\nMay ye preserve and maintain your posterity!",
+        ],
+    },
+    183: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-nanyoujiayu-010 against CTI AnoShih.html 2.3.177 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "In the sixth month all was bustle and excitement.\nThe war carriages had been made ready,\nWith the four steeds [of each], strong and eager;\nAnd the regular accountrements had been placed in the carriages.\nThe Xian-yun were in blazing force,\nAnd thence was the urgency.\nThe king had ordered the expedition,\nTo deliver the royal kingdom.",
+            "Matched in strength were the four black steeds,\nWell trained to observe every rule.\nOn this sixth month,\nWe completed our accountrements.\nOur accountrements were completed,\nAnd we marched thirty Li [every day].\nThe king had ordered the expedition,\nTo help the son of Heaven.",
+            "The four steeds were long, and stout,\nAnd large-headed.\nWe smote the Xian-yun,\nAnd achieved great merit.\nSeverely strict and careful [was our leader],\nDischarging his military service, --\nDischarging his military service,\nAnd settling thereby the royal kingdom.",
+            "Badly reckoned the Xian-yun,\nWhen they confidently occupied Jiao and Huo,\nAnd overran Hao and Fang,\nAs far as to the north of the Jing.\nOn our flags was their blazonry of birds,\nWhile their white streamers fluttered brightly.\nTen large war chariots,\nLed the way in front.",
+            "The war carriages were well made.\nNicely balanced, before and behind.\nTheir four steeds were strong,\nBoth strong and well trained.\nWe smote the Xian-yun,\nAs far as Tai-yuan.\nFor peace or for war fit is Ji-fu,\nA pattern to all the States.",
+            "Ji-fu feasts and is glad;\nGreat happiness is his.\nIn returning from Hao,\nDistant and long had been our march.\nHe entertains and feasts his friends,\nWith roast turtle and minced carp.\nAnd who are there?\nThere is Zhang Zhong, the filial and brotherly.",
+        ],
+    },
+    184: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-nanyoujiayu-011 against CTI AnoShih.html 2.3.178 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "They were gathering the white millet,\nIn those new fields,\nAnd in these acres brought only one year under cultivation,\nWhen Fang Shu came to take the command.\nHis chariots were three thousand,\nWith a host of well-disciplined warriors.\nFang Shu led them on,\nIn his carriage drawn by four piebalds,\nFour piebalds orderly moving.\nRed shone his grand carriage,\nWith its chequered bamboo screen, and seal-skin quivers,\nWith the hooks for the trappings of the breast-bands, and the rein-ends.",
+            "They were gathering the white millet,\nIn those new fields,\nAnd all about these villages,\nWhen Fang Shu came to take the command.\nHis chariots were three thousand;\nHis banners, with their blazonry of dragons, and of serpents and tortoises, fluttered gaily.\nFang Shu led them on,\nThe naves of his wheels bound with leather, and his yoke ornamented.\nTinkle-tinkle went the eight bells at the horses'bits.\nHe wore the robes conferred [by the king];\nHis red knee-covers were resplendent,\nAnd the gems of his girdle-pendant sounding.",
+            "Rapid is the flight of the hawk,\nSoaring to the heavens,\nAnd again descending and settling in its place.\nFang Shu came to take the command.\nHis chariots were three thousand,\nWith a host of well disciplined warriors.\nFang Shu led them on.\nWith his jinglers and drummers,\nHe marshalled his hosts and addressed them.\nIntelligent and true is Fang Shu,\nDeep rolled the sound of his drums;\nWith a lighter sound he led the troops back.",
+            "Foolish were the savage tribes of King,\nPresuming to oppose our great region.\nFang Shu is of great age,\nBut full of vigour were his plans.\nHe led his army on,\nSeized [the chiefs] for the question, and made captives of a crowd [besides].\nNumerous were his war chariots,\nNumerous and in grand array,\nLike the clap or the roll of thunder their onset.\nIntelligent and true is Fang Shu.\nHe had gone and smitten the Xian-yun,\nAnd the tribes of King came, awed by his majesty.",
+        ],
+    },
+    186: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-nanyoujiayu-013 against CTI AnoShih.html 2.3.180 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "A lucky day was wu,\nAnd we sacrificed on it to the Ruler [of horses], and prayed.\nOur hunting carriages were good;\nThe team for each was in fine condition.\nWe would ascend the greatest heights,\nAnd pursue the herds [of the game].",
+            "A lucky day was geng-wu.\nWe had selected our horses;\nThe haunts of the animals,\nWhere the does and stags lay numerous,\nThe grounds by the Qi and the Ju, --\nThat was the place for the son of Heaven [to hunt].",
+            "We looked to the midst of the plain,\nWhere the animals were large and abundant,\nNow rushing about, now waiting together,\nHere in threes, there in twos.\nWe led on all our attendants,\nTo give pleasure to the son of Heaven.",
+            "We have bent our bows;\nWe have our arrows on the string.\nHere is a small boar transfixed;\nThere is a large rhinoceros killed.\nThe spoil will be presented to the visitors and guests,\nAlong with the cup of sweet wine.",
+        ],
+    },
+    189: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-hongyan-003 against CTI AnoShih.html 2.3.183 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "In large volume, those flowing waters,\nGo to the court of the sea.\nRapid is that flying falcon,\nNow soaring, now resting.\nAlas! among my brethren,\nMy countrymen, my friends,\nNo one is willing to think of the prevailing disorder;\n[But] who has not parents [to suffer from it]?",
+            "In large volume, those flowing waters,\nRoll on their swollen flood.\nRapid is that flying falcon,\nNow soaring, now rising higher.\nWhen I think of those lawless men,\nNow I rise up, now I walk about.\nThe sorrow of my heart,\nCannot be repressed nor forgotten.",
+            "Rapid is that flying falcon,\nYet he keeps along the middle of the height.\nThe talk of the people, --\nIs there no means of stopping it?\nIf my friends would reverently [watch over themselves],\nWould slanderous speeches be made?",
+        ],
+    },
+    191: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-hongyan-005 against CTI AnoShih.html 2.4.185 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Minister of war,\nWe are the claws and teeth of the king.\nWhy have you rolled us into this sorrow,\nSo that we have no abiding place?",
+            "Minister of war,\nWe are the taloned soldiers of the king.\nWhy have you rolled us into this sorrow,\nSo that there is no end [of our toils]?",
+            "Minister of war,\nYou have indeed acted without discrimination.\nWhy have you rolled us into this sorrow,\nSo that our mothers have to do all the labour of cooking?",
+        ],
+    },
+    193: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-hongyan-007 against CTI AnoShih.html 2.4.187 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Yellow bird, yellow bird,\nDo not settle on the broussonetias,\nDo not eat my paddy.\nThe people of this country,\nAre not willing to treat me well.\nI will return, I will go back,\nBack to my country and kin.",
+            "Yellow bird, yellow bird,\nDo not settle on the mulberry trees,\nDo not eat my maize.\nThe people of this country,\nWill not let me come to an understanding with them.\nI will return, I will go back,\nBack to my brethren.",
+            "Yellow bird, yellow bird,\nDo not settle on the oaks,\nDo not eat my grand millet.\nThe people of this country,\nI cannot dwell with.\nI will return, I will go back,\nBack to my uncles.",
+        ],
+    },
+    205: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-jienanshan-009 against CTI AnoShih.html 2.5.199 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "What man was that?\nHis mind is full of dangerous devices.\nWhy did he approach my dam,\nWithout entering my gate?\nOf whom is he a follower?\nI venture to say, -- of Bao.",
+            "Those two follow each other in their goings; --\nWhich of them wrought me this calamity?\nWhy came he to my dam,\nWithout entering to condole with me?\nOur former relations were different from the present,\nWhen he will have nothing to do with me.",
+            "What man was it?\nWhy came he to the path inside my gate?\nI heard his voice,\nBut did not see his person.\nHe is not ashamed before men;\nHe does not stand in awe of Heaven.",
+            "What man was it?\nHe is like a violent wind.\nWhy came he not from the north?\nOr why not from the south?\nWhy did he approach my dam,\nDoing nothing but perturb my mind?",
+            "You go along slowly,\nAnd yet you have not leisure to stop!\nYou go along rapidly,\nAnd yet you have leisure to grease your wheels!\nIf you would come to me but once! --\nWhy am I kept in a state of expectation?",
+            "If on your return you entered my house,\nMy heart would be relieved.\nWhen on your return you do not enter it,\nIt is hard to understand your denial.\nIf you would come to me but once,\nIt would set me at rest.",
+            "The elder of us blew the porcelain whistle,\nAnd the younger blew the bamboo flute;\nI was as if strung on the same string with you.\nIf indeed you do not understand me,\nHere are the three creatures [for sacrifice],\nAnd I will take an oath to you.",
+            "If you were an imp or a water-bow,\nYou could not be got at.\nBut when one with face and eyes stands opposite to another,\nThe man can be seen through and through.\nI have made this good song,\nTo probe to the utmost your veerings and turnings.",
+        ],
+    },
+    207: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-gufeng-001 against CTI AnoShih.html 2.5.201 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Gently blows the east wind; --\nThe wind followed by the rain.\nIn the time of fear and dread,\nIt was all I and you.\nIn your time of rest and pleasure,\nYou have turned and cast me off.",
+            "Gently blows the east wind; --\nAnd the wind is followed by the tornado.\nIn the time of fear and dread,\nYou placed me in your breast.\nIn your time of rest and pleasure,\nYou have cast me off like an abandoned thing.",
+            "Gently blows the east wind; --\nAnd on the rock-covered tops of the hills.\nThere is no grass which is not dying,\nNo tree which is not withering.\nYou forget my great virtues,\nAnd think of my small faults.",
+        ],
+    },
+    208: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-gufeng-002 against CTI AnoShih.html 2.5.202 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": True,
+        "english_blocks": [
+            "Long and large grows the e; --\nIt is not the e but the hao.\nAlas! alas! my parents,\nWith what toil ye gave me birth!",
+            "Long and large grows the e; --\nIt is not the e but the wei.\nAlas! alas! my parents,\nWith what toil and suffering ye gave me birth!",
+            "When the pitcher is exhausted,\nIt is the shame of the jar.\nThan to live an orphan,\nIt would be better to have been long dead.\nFatherless, who is there to rely on?\nMotherless, who is there to depend on?\nWhen I go abroad, I carry my grief with me;\nWhen I come home, I have no one to go to.",
+            "O my father, who begat me!\nO my mother, who nourished me!\nYe indulged me, ye fed me,\nYe held me up, ye supported me,\nYe looked after me, ye never left me,\nOut and in ye bore me in your arms.\nIf I would return your kindness,\nIt is like great Heaven, illimitable,",
+            "Cold and bleak is the Southern hill;\nThe rushing wind is very fierce.\nPeople all are happy; --\nWhy am I alone thus miserable?",
+            "The Southern hill is very steep;\nThe rushing wind is blustering.\nPeople all are happy; --\nI alone have been unable to finish [my duty].",
+        ],
+    },
+    211: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-gufeng-005 against CTI AnoShih.html 2.6.205 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "I ascend that northern hill,\nAnd gather the medlars.\nAn officer, strong and vigorous,\nMorning and evening I am engaged in service.\nThe king's business is not to be slackly performed;\nAnd my parents are left in sorrow.",
+            "Under the wide heaven,\nAll is the king's land.\nWithin the sea-boundaries of the land,\nAll are the king's servants.\nHis great officers are unfair, --\nMaking me serve thus as if I alone were worthy.",
+            "My four horses never halt;\nThe king's business allows no rest.\nThey praise me as not yet old;\nThey think few like me in vigour.\nWhile the backbone retains its strength,\nI must plan and labour in all parts of the kingdom.",
+            "Some enjoy their ease and rest,\nAnd some are worn out in the service of the State;\nSome rest and loll upon their couches,\nAnd some never cease marching about.",
+            "Some never hear a sound,\nAnd some are cruelly toiled;\nSome lazily roost, on their backs looking up,\nAnd some are all-bustled in the service of the king.",
+            "Some indulge long in pleasure and drinking,\nAnd some are miserable, in apprehension of blame;\nSome, at home and abroad, pass critical remarks,\nAnd some have everything to do.",
+        ],
+    },
+    214: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-gufeng-008 against CTI AnoShih.html 2.6.208 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "His bells ring out jiang-jiang,\nWhile the waters of the Huai go sweeping on;\nSad is my heart and wouded.\nThe virtuous sovereigns [of old], --\nIn my heart, indeed, I cannot forget them.",
+            "His drums ring out jie-jie,\nWhile the waters of the Huai rush along;\nMy heart is sad and grieved.\nOf the virtuous sovereigns [of old],\nThe virtue was without flaw.",
+            "His bells ring out, his large drums resound,\nThere are the three islands in the Huai;\nSad is my heart and moved.\nOf the virtuous sovereigns [of old],\nThe virtue was different from this.",
+            "His bells ring out qin-qin;\nHis lutes, large and small, give their notes;\nThe tones of his organs and sounding stones are in unison.\nThey sing the Ya and the Nan,\nDancing to their flutes without error.",
+        ],
+    },
+    231: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-yuzao-005 against CTI AnoShih.html 2.8.225 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Those officers of the [old] capital,\nWith their fox-furs so yellow,\nTheir deportment unvaryingly [correct],\nAnd their speech full of elegance! --\nIf we could go back to [the old] Zhou,\nThey would be admiringly looked up by all the people.",
+            "Those officers of the [old] capital,\nWith their hats of Tai leaves and small black caps! --\nThose ladies of noble Houses.\nWith their hair so thick and straight! --\nI do not see them [now],\nAnd my heart is dissatisfied.",
+            "Those officers of the [old] capital,\nWith their ear-plugs of xiu-stones! --\nThose ladies of noble Houses,\nEach fit to be called a Yin or a Ji! --\nI do not see them [now],\nAnd my heart grieves with indissoluble sorrow.",
+            "Those officers of the [old] capital,\nWith their girdles hanging elegantly down! --\nThose ladies of great Houses,\nWith their [side] hair curving up like a scorpion's tail! --\nI do not see them [now],\n[If I could], I would walk along after them.",
+            "Not that they purposely let their girdles hang down; --\nThe girdles were naturally long.\nNot that they gave their hair that curve; --\nThe hair had a natural curl.\nI do not see them [now],\nAnd how do I long for them!",
+        ],
+    },
+    233: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-yuzao-007 against CTI AnoShih.html 2.8.227 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Tall and strong grows the young millet,\nFattened by the genial rains.\nVery long was our journey to the south,\nBut the earl of Zhou encouraged and cheered us.",
+            "We carried our burdens; we pushed along our barrows;\nWe drove our waggons; we led our oxen.\nWhen our expedition was accomplished,\nWe knew we should return.",
+            "We went along on foot; we rode in our chariots; --\nOur whole host, and our battalions.\nWhen our expedition was accomplished,\nWe knew we should return home.",
+            "Severe was the work at Su,\nBut the earl of Zhou built the city.\nMajestic was the march of our host; --\nThe earl of Zhou directed it.",
+            "The plains and low lands were regulated; --\nThe springs and streams were cleared.\nThe earl of Zhou completed his work,\nAnd the heart of the king was at rest.",
+        ],
+    },
+    236: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-yuzao-010 against CTI AnoShih.html 2.8.230 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "There is that little oriole,\nResting on a bend of the mound.\nThe way is distant,\nAnd I am very much wearied.\nGive me drink, give me food;\nInform me, teach me;\nOrder one of the attending carriages,\nAnd tell them to carry me.",
+            "There is that little oriole,\nResting on a corner of the mound.\nIt is not that I dare to shrink from the journey,\nBut I am afraid of not being able to go on.\nGive me drink, give me food;\nInform me, teach me;\nOrder one of the attending carriages,\nAnd tell them to carry me.",
+            "There is that little oriole,\nResting on the side of the mound.\nIt is not that I dare to shrink from the journey,\nBut I am afraid of not getting to the end of it.\nGive me drink, give me food;\nInform me, teach me;\nOrder one of the attending carriages,\nAnd tell them to carry me.",
+        ],
+    },
+    240: {
+        "review_note": (
+            "Verified the cleaned verse translation for xiaoya-yuzao-014 against CTI AnoShih.html 2.8.234 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Every plant is yellow;\nEvery day we march.\nEvery man is moving about,\nDoing service in some quarter of the kingdom.",
+            "Every plant is purple;\nEvery man is torn from his wife.\nAlas for us employed on these expeditions!\nHow are we alone dealt with as if we were not men?",
+            "We are not rhinoceroses, we are not tigers,\nTo be kept in these desolate wilds.\nAlas for us employed on these expeditions!\nMorning and night we have no leisure.",
+            "The long-tailed foxes,\nMay keep among the dark grass.\nAnd our box-carts,\nKeep moving along the great roads.",
+        ],
+    },
+    248: {
+        "review_note": (
+            "Verified the cleaned verse translation for daya-wenwang-008 against CTI AnoShih.html 3.1.242 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": True,
+        "english_blocks": [
+            "When he planned the commencement of the marvellous tower,\nHe planned it, and defined it;\nAnd the people in crowds undertook the work,\nAnd in no time completed it.\nWhen he planned the commencement, [he said], 'Be not in a hurry; '\nBut the people came as if they were his children.",
+            "The king was in the marvellous park,\nWhere the does were lying down, --\nThe does, so sleek and fat;\nWith the white birds glistening.\nThe king was by the marvellous pond; --\nHow full was it of fishes leaping about!",
+            "On his posts was the toothed face-board, high and strong,\nWith the large drums and bells.\nIn what unison were their sounds!\nWhat joy was there in the hall with its circlet of water!",
+            "In what unison sounded the drums and bells!\nWhat joy was there in the hall with its circlet of water!\nThe lizard-skin drums rolled harmonious,\nAs the blind musicians performed their parts.",
+        ],
+    },
+    256: {
+        "review_note": (
+            "Verified the cleaned verse translation for daya-shengmin-006 against CTI AnoShih.html 3.2.250 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Of generous devotion to the people was duke Liu,\nUnable to rest or take his ease [where he was],\nHe divided and subdivided the country into fields;\nHe stored up the produce in the fields and in barns;\nHe tied up dried meat and grain,\nIn bottomless bags and in sacks; --\nThat he might hold [the people] together, and glorify [his tribe].\nThen with bows and arrows all ready,\nWith shields and spears, and axes, large and small,\nHe commenced his march.",
+            "Of generous devotion to the people was duke Liu,\nHe had surveyed the plain [where he was settled];\n[The people] were numerous and crowded;\nIn sympathy with them, he made proclamation [of his contemplated measure],\nAnd there were no perpetual sighings about it\nHe ascended to the hill-tops;\nHe ascended again to the plains.\nWhat was it that he carried at his girdle?\nPieces of jade, and yao gems,\nAnd his ornamented scabbard with its sword.",
+            "Of generous devotion to the people was duke Liu,\nHe went there to [the place of] the hundred springs,\nAnd saw [around him] the wide plain.\nHe ascended the ridge on the south,\nAnd looked at a large [level] height,\nA height affording space for multitudes.\nHere was room to dwell in;\nHere might booths be built for strangers;\nHere he told out his mind;\nHere he entered on deliberations.",
+            "Of generous devotion to the people was duke Liu,\nWhen he had found rest on the height,\nWith his officers all in dignified order,\nHe caused mats to be spread, with stools upon them;\nAnd they took their places on the mats and leaned on the stools.\nHe had sent to the herds,\nAnd taken a pig from the pen.\nHe poured out his spirits into calabashes;\nAnd so he gave them to eat and to drink,\nAcknowledged by them as ruler, and honoured.",
+            "Of generous devotion to the people was duke Liu,\n[His territory] being now broad and long,\nHe determined the points of the heavens by means of the shadows; and then, ascending the ridges,\nHe surveyed the light and the shade,\nViewing [also] the [course of the] streams and springs.\nHis armies were three troops;\nHe measured the marshes and plains;\nHe fixed the revenue on the system of common cultivation of the fields;\nHe measured also the fields west of the hills;\nAnd the settlement of Bin became truly great.",
+            "Of generous devotion to the people was duke Liu,\nHaving settled in temporary lodging houses in Bin,\nHe crossed the Wei by means of boats,\nAnd gathered whetstones and iron.\nWhen his settlement was fixed, and all boundaries defined,\nThe people became numerous and prosperous,\nOccupying both sides of the Huang valley,\nAnd pushing on up that of Guo;\nAnd as the population became dense,\nThey went on to the country beyond the Ju.",
+        ],
+    },
+    257: {
+        "review_note": (
+            "Verified the cleaned verse translation for daya-shengmin-007 against CTI AnoShih.html 3.2.251 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Take the pool-water from a distance;\nDraw it into one vessel and let it flow to another,\nAnd it may be used to stream rice or millet.\n[How much more should] the happy and courteous sovereign,\nBe the parent of the people!",
+            "Take the pool-water from a distance;\nDraw it into one vessel and let it flow to another,\nAnd it may be used to wash a [spirit] vase.\n[How much more should] the happy and courteous sovereign,\nBe the centre of attraction to the people!",
+            "Take the pool-water from a distance;\nDraw it into one vessel and let it flow to another,\nAnd it may be used for all purpose of cleansing.\n[How much more should] the happy and courteous sovereign,\nBe the centre of rest to the people!",
+        ],
+    },
+    269: {
+        "review_note": (
+            "Verified the cleaned verse translation for daya-dang-009 against CTI AnoShih.html 3.3.263 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Grandly and clearly,\nThe king gave charge to his minister,\nA descendant of Nan Zhong,\nThe Grand-master Huang-fu: --\n'Put my six armies in order,\nAnd get ready all my apparatus of war.\nBe reverent, be cautious,\nThat we may give comfort to the States of the south. '",
+            "The king said to the Head of the Yin clan,\n'Give a charge to Xiu-fu, earl of Cheng,\nTo undertake the arrangement of the ranks,\nAnd to warn all my troops.\nAlong the bank of the Huai,\n[We go] to see the land of Xu,\nNot delaying [our march], not occupying [the territory],\nThat the threefold labours [of husbandry] may proceed in order. '",
+            "Full of grandeur and strength,\nThe Son of Heaven looked majestic.\nLeisurely and calmly the king advanced,\nNot with his troops in masses, nor in broken lines.\nThe region of Xu from stage to stage was moved;\nIt shook and was terrified, -- the region of Xu.\nAs by the roll of thunder or its sudden crash,\nThe region of Xu shook and was terrified.",
+            "The king aroused his warlike energy,\nAs if he were moved with anger.\nHe advanced his tiger-like officers.\nLooking fierce like raging tigers.\nHe displayed his masses along the bank of the Huai,\nAnd forthwith seized a crowd of captives.\nSecurely kept was the country about the bank of the Huai,\nOccupied by the royal armies.",
+            "The royal legions were numerous;\n[Swift] as if they flew on wings,\n[Imposing] as the current of the Jiang and the Han;\nFirm as a mountain;\nRolling on like a stream;\nContinuous and orderly;\nInscrutable, invincible;\nGrandly proceeding to set in order the States of Xu.",
+            "The king's plans were directed in truth and sincerity,\nAnd the region of Xu came [at once to terms];\nIts [chiefs] were all collected together; --\nThrough the merit of the Son of Heaven.\nThe country was all reduced to order;\nIts [chiefs] appeared before the king.\nThey would not again change their minds,\nAnd the kings said, 'Let us return. '",
+        ],
+    },
+    303: {
+        "review_note": (
+            "Verified the cleaned verse translation for song-lusong-001 against CTI AnoShih.html 4.4.297 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Fat and large are the stallions,\nOn the plains of the far-distant borders.\nOf those stallions, fat and large,\nSome are black and white-breeched; some light yellow;\nSome, pure black; some, bay;\n[All], splendid carriage horses.\nHis thoughts are without limit; --\nHe thinks of his horses, and they are thus good.",
+            "Fat and large are the stallions,\nOn the plains of the far-distant borders.\nOf those stallions, fat and large,\nSome are piebald, green and white; others, yellow and white;\nSome, yellowish red; some, dapple grey;\n[All], strong carriage horses.\nHis thoughts are without end; --\nHe thinks of his horses, and they are thus strong.",
+            "Fat and large are the stallions,\nOn the plains of the far-distant borders.\nOf those stallions, fat and large,\nSome are flecked as with scales; some, white and black-maned;\nSome, red and black-maned; some, black and white-maned;\n[All], docile in the carriage,\nHis thoughts never weary; --\nHe thinks of his horses, and such they become.",
+            "Fat and large are the stallions,\nOn the plains of the far-distant borders.\nOf those stallions, fat and large,\nSome are cream-coloured; some, red and white;\nSome, with white hairy legs; some, with fishes'eyes;\n[All], stout carriage horses.\nHis thoughts are without depravity; --\nHe thinks of his horses, and thus serviceable are they.",
+        ],
+    },
+    304: {
+        "review_note": (
+            "Verified the cleaned verse translation for song-lusong-002 against CTI AnoShih.html 4.4.298 and retained only the public-domain verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Fat and strong, fat and strong,\nFat and strong, are the chestnut teams.\nEarly and late are the [officers] in the court,\nIn the court, discriminating and intelligent.\n[They are as] a flock of egrets on the wing,\nOf egrets anon lighting on the ground.\nThe drums emit their deep sound;\nThey drink to the full and then dance; --\nThus rejoicing together.",
+            "Fat and strong, fat and strong,\nFat and strong are the teams of stallions.\nEarly and late are the [officers] with the prince,\nWith the prince drinking.\n[They are as] a flock of egrets on the wing,\nOf egrets flying about.\nThe drums emit their deep sound;\nThey drink to the full and then return home; --\nThus rejoicing together.",
+            "Fat and strong, fat and strong,\nFat and strong are the teams of iron-greys.\nEarly and late are the [officers] with the prince,\nWith the prince feasting.\n'From this time forth,\nMay the years be abundant.\nMay our prince maintain his goodness,\nAnd transmit it to his descendants! '--\nThus they rejoice together.",
+        ],
+    },
     120: {
         "line_replacements": {
             "LamVs fur and leopard^ cuffs,": "Lamb's fur and leopard's cuffs,",

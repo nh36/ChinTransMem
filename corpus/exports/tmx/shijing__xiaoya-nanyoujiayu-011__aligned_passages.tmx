@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-011__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-011</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·011.1</prop>
+      <prop type="x-translation-ref">采芑.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>薄言采芑，于彼新田，于此菑畝。
+方叔涖止，其車三千，師干之試。
+方叔率止，乘其四騏，四騏翼翼。
+路車有奭，簟茀魚服，鉤膺鞗革。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>They were gathering the white millet,
+In those new fields,
+And in these acres brought only one year under cultivation,
+When Fang Shu came to take the command.
+His chariots were three thousand,
+With a host of well-disciplined warriors.
+Fang Shu led them on,
+In his carriage drawn by four piebalds,
+Four piebalds orderly moving.
+Red shone his grand carriage,
+With its chequered bamboo screen, and seal-skin quivers,
+With the hooks for the trappings of the breast-bands, and the rein-ends.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-011__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-011</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·011.2</prop>
+      <prop type="x-translation-ref">采芑.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>薄言采芑，于彼新田，于此中鄉。
+方叔涖止，其車三千，旂旐央央。
+方叔率止，約軧錯衡，八鸞瑲瑲。
+服其命服，朱芾斯皇，有瑲蔥珩。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>They were gathering the white millet,
+In those new fields,
+And all about these villages,
+When Fang Shu came to take the command.
+His chariots were three thousand;
+His banners, with their blazonry of dragons, and of serpents and tortoises, fluttered gaily.
+Fang Shu led them on,
+The naves of his wheels bound with leather, and his yoke ornamented.
+Tinkle-tinkle went the eight bells at the horses'bits.
+He wore the robes conferred by the king;
+His red knee-covers were resplendent,
+And the gems of his girdle-pendant sounding.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-011__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-011</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·011.3</prop>
+      <prop type="x-translation-ref">采芑.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鴥彼飛隼，其飛戾天，亦集爰止。
+方叔涖止，其車三千，師干之試。
+方叔率止，鉦人伐鼓，陳師鞠旅。
+顯允方叔，伐鼓淵淵，振旅闐闐。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Rapid is the flight of the hawk,
+Soaring to the heavens,
+And again descending and settling in its place.
+Fang Shu came to take the command.
+His chariots were three thousand,
+With a host of well disciplined warriors.
+Fang Shu led them on.
+With his jinglers and drummers,
+He marshalled his hosts and addressed them.
+Intelligent and true is Fang Shu,
+Deep rolled the sound of his drums;
+With a lighter sound he led the troops back.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-011__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-011</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·011.4</prop>
+      <prop type="x-translation-ref">采芑.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蠢爾蠻荊，大邦為讎。
+方叔元老，克壯其猶。
+方叔率止，執訊獲醜。
+戎車嘽嘽，嘽嘽焞焞，如霆如雷。
+顯允方叔，征伐玁狁，蠻荊來威。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Foolish were the savage tribes of King,
+Presuming to oppose our great region.
+Fang Shu is of great age,
+But full of vigour were his plans.
+He led his army on,
+Seized the chiefs for the question, and made captives of a crowd besides.
+Numerous were his war chariots,
+Numerous and in grand array,
+Like the clap or the roll of thunder their onset.
+Intelligent and true is Fang Shu.
+He had gone and smitten the Xian-yun,
+And the tribes of King came, awed by his majesty.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

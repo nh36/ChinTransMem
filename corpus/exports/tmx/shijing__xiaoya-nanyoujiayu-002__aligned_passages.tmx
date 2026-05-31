@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-002__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·002.1</prop>
+      <prop type="x-translation-ref">南山有臺.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>南山有臺，北山有萊。樂只君子，邦家之基。樂只君子，萬壽無期。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the hills of the south is the Tai plant,
+On those of the north is the Lai.
+To be rejoiced in are ye, noble men,
+The foundations of the State.
+To be rejoiced in are ye, noble men; --
+May your years be myriads and without end!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-002__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·002.2</prop>
+      <prop type="x-translation-ref">南山有臺.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>南山有桑，北山有楊。樂只君子，邦家之光。樂只君子，萬壽無疆。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the hills of the south are the mulberry trees,
+On those of the north are willows.
+To be rejoiced in are ye, noble men,
+The light of the State.
+To be rejoiced in are ye, noble men; --
+May your years be myriads, unlimited!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-002__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·002.3</prop>
+      <prop type="x-translation-ref">南山有臺.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>南山有杞，北山有李。樂只君子，民之父母。樂只君子，德音不已。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the hills of the south are medlars;
+On those of the north are plum trees.
+To be rejoiced in are ye, noble men,
+Parents of the people.
+To be rejoiced in are ye, noble men; --
+May your virtuous fame have no end!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-002__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·002.4</prop>
+      <prop type="x-translation-ref">南山有臺.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>南山有栲，北山有杻。樂只君子，遐不眉壽。樂只君子，德音是茂。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the hills of the south is the Kao;
+On those of the north is the Niu.
+To be rejoiced in are ye, noble men,
+Have ye not the eyebrows of longevity?
+To be rejoiced in are ye, noble men; --
+May your virtuous fame be abundant!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-002__005__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·002.5</prop>
+      <prop type="x-translation-ref">南山有臺.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>南山有枸，北山有楰。樂只君子，遐不黃耇。樂只君子，保艾爾後。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the hills of the south is the Ju;
+On those of the north is the Yu.
+To be rejoiced in are ye, gentlemen; --
+Will ye not have the grey hair and wrinkled face?
+To be rejoiced in are ye, gentlemen; --
+May ye preserve and maintain your posterity!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

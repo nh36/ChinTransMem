@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-yuzao-014__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-014</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·014.1</prop>
+      <prop type="x-translation-ref">何草不黃.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>何草不黃？何日不行？何人不將？經營四方。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Every plant is yellow;
+Every day we march.
+Every man is moving about,
+Doing service in some quarter of the kingdom.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-014__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-014</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·014.2</prop>
+      <prop type="x-translation-ref">何草不黃.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>何草不玄？何人不矜？哀我征夫，獨為匪民。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Every plant is purple;
+Every man is torn from his wife.
+Alas for us employed on these expeditions!
+How are we alone dealt with as if we were not men?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-014__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-014</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·014.3</prop>
+      <prop type="x-translation-ref">何草不黃.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>匪兕匪虎，率彼曠野。哀我征夫，朝夕不暇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We are not rhinoceroses, we are not tigers,
+To be kept in these desolate wilds.
+Alas for us employed on these expeditions!
+Morning and night we have no leisure.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-014__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-014</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·014.4</prop>
+      <prop type="x-translation-ref">何草不黃.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有芃者狐，率彼幽草。有棧之車，行彼周道。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The long-tailed foxes,
+May keep among the dark grass.
+And our box-carts,
+Keep moving along the great roads.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
