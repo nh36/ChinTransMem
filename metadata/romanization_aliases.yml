@@ -1345,6 +1345,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "xiaoya-luming-002",
+    "alias": "四牡",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "xiaoya-luming-003",
     "alias": "皇皇者華",
     "romanization_system": "Legge-title"
@@ -1381,6 +1387,18 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "xiaoya-luming-007",
+    "alias": "采薇",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-luming-008",
+    "alias": "出車",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "xiaoya-luming-009",
     "alias": "The Tîtû",
     "romanization_system": "Legge-title"
@@ -1395,6 +1413,12 @@
     "entity_type": "section",
     "entity_id": "xiaoya-nanyoujiayu-001",
     "alias": "南有嘉魚",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-nanyoujiayu-002",
+    "alias": "南山有臺",
     "romanization_system": "Legge-title"
   },
   {
@@ -1423,8 +1447,26 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "xiaoya-nanyoujiayu-010",
+    "alias": "六月",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-nanyoujiayu-011",
+    "alias": "采芑",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "xiaoya-nanyoujiayu-012",
     "alias": "車攻",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-nanyoujiayu-013",
+    "alias": "吉日",
     "romanization_system": "Legge-title"
   },
   {
@@ -1441,14 +1483,32 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "xiaoya-hongyan-003",
+    "alias": "沔水",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "xiaoya-hongyan-004",
     "alias": "鶴鳴",
     "romanization_system": "Legge-title"
   },
   {
     "entity_type": "section",
+    "entity_id": "xiaoya-hongyan-005",
+    "alias": "祈父",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "xiaoya-hongyan-006",
     "alias": "白駒",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-hongyan-007",
+    "alias": "黃鳥",
     "romanization_system": "Legge-title"
   },
   {
@@ -1549,8 +1609,26 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "xiaoya-jienanshan-009",
+    "alias": "何人斯",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "xiaoya-jienanshan-010",
     "alias": "The Hsiang Po",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-gufeng-001",
+    "alias": "谷風",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-gufeng-002",
+    "alias": "蓼莪",
     "romanization_system": "Legge-title"
   },
   {
@@ -1567,6 +1645,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "xiaoya-gufeng-005",
+    "alias": "北山",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "xiaoya-gufeng-006",
     "alias": "無將大車",
     "romanization_system": "Legge-title"
@@ -1575,6 +1659,12 @@
     "entity_type": "section",
     "entity_id": "xiaoya-gufeng-007",
     "alias": "The Hsiâo Ming",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-gufeng-008",
+    "alias": "鼓鍾",
     "romanization_system": "Legge-title"
   },
   {
@@ -1693,8 +1783,20 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "xiaoya-yuzao-005",
+    "alias": "都人士",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "xiaoya-yuzao-006",
     "alias": "采綠",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-yuzao-007",
+    "alias": "黍苗",
     "romanization_system": "Legge-title"
   },
   {
@@ -1717,6 +1819,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "xiaoya-yuzao-010",
+    "alias": "緜蠻",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "xiaoya-yuzao-011",
     "alias": "瓠葉",
     "romanization_system": "Legge-title"
@@ -1731,6 +1839,12 @@
     "entity_type": "section",
     "entity_id": "xiaoya-yuzao-013",
     "alias": "苕之華",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "xiaoya-yuzao-014",
+    "alias": "何草不黃",
     "romanization_system": "Legge-title"
   },
   {
@@ -1798,6 +1912,12 @@
     "entity_id": "daya-wenwang-007",
     "alias": "Huáng Yí",
     "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-wenwang-008",
+    "alias": "靈臺",
+    "romanization_system": "Legge-title"
   },
   {
     "entity_type": "section",
@@ -1870,6 +1990,18 @@
     "entity_id": "daya-shengmin-005",
     "alias": "Jià Lè",
     "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-006",
+    "alias": "公劉",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-shengmin-007",
+    "alias": "泂酌",
+    "romanization_system": "Legge-title"
   },
   {
     "entity_type": "section",
@@ -1971,6 +2103,12 @@
     "entity_type": "section",
     "entity_id": "daya-dang-008",
     "alias": "The K iang Han",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "daya-dang-009",
+    "alias": "常武",
     "romanization_system": "Legge-title"
   },
   {
@@ -2265,6 +2403,18 @@
     "entity_type": "section",
     "entity_id": "song-minyuxiaozi-011",
     "alias": "The Pan",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-lusong-001",
+    "alias": "駉",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "song-lusong-002",
+    "alias": "有駜",
     "romanization_system": "Legge-title"
   },
   {

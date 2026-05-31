@@ -1761,7 +1761,7 @@
     "label": "四牡",
     "canonical_ref": "詩經·小雅·鹿鳴之什·002",
     "sort_key": 162,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-luming-003",
@@ -1806,7 +1806,7 @@
     "label": "采薇",
     "canonical_ref": "詩經·小雅·鹿鳴之什·007",
     "sort_key": 167,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-luming-008",
@@ -1815,7 +1815,7 @@
     "label": "出車",
     "canonical_ref": "詩經·小雅·鹿鳴之什·008",
     "sort_key": 168,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-luming-009",
@@ -1878,7 +1878,7 @@
     "label": "南山有臺",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·002",
     "sort_key": 175,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-003",
@@ -1950,7 +1950,7 @@
     "label": "六月",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·010",
     "sort_key": 183,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-011",
@@ -1959,7 +1959,7 @@
     "label": "采芑",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·011",
     "sort_key": 184,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-012",
@@ -1977,7 +1977,7 @@
     "label": "吉日",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·013",
     "sort_key": 186,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-hongyan-001",
@@ -2004,7 +2004,7 @@
     "label": "沔水",
     "canonical_ref": "詩經·小雅·鴻鴈之什·003",
     "sort_key": 189,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-hongyan-004",
@@ -2022,7 +2022,7 @@
     "label": "祈父",
     "canonical_ref": "詩經·小雅·鴻鴈之什·005",
     "sort_key": 191,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-hongyan-006",
@@ -2040,7 +2040,7 @@
     "label": "黃鳥",
     "canonical_ref": "詩經·小雅·鴻鴈之什·007",
     "sort_key": 193,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-hongyan-008",
@@ -2148,7 +2148,7 @@
     "label": "何人斯",
     "canonical_ref": "詩經·小雅·節南山之什·009",
     "sort_key": 205,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-jienanshan-010",
@@ -2166,7 +2166,7 @@
     "label": "谷風",
     "canonical_ref": "詩經·小雅·谷風之什·001",
     "sort_key": 207,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-gufeng-002",
@@ -2175,7 +2175,7 @@
     "label": "蓼莪",
     "canonical_ref": "詩經·小雅·谷風之什·002",
     "sort_key": 208,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-gufeng-003",
@@ -2202,7 +2202,7 @@
     "label": "北山",
     "canonical_ref": "詩經·小雅·谷風之什·005",
     "sort_key": 211,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-gufeng-006",
@@ -2229,7 +2229,7 @@
     "label": "鼓鍾",
     "canonical_ref": "詩經·小雅·谷風之什·008",
     "sort_key": 214,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-gufeng-009",
@@ -2382,7 +2382,7 @@
     "label": "都人士",
     "canonical_ref": "詩經·小雅·魚藻之什·005",
     "sort_key": 231,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-yuzao-006",
@@ -2400,7 +2400,7 @@
     "label": "黍苗",
     "canonical_ref": "詩經·小雅·魚藻之什·007",
     "sort_key": 233,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-yuzao-008",
@@ -2427,7 +2427,7 @@
     "label": "緜蠻",
     "canonical_ref": "詩經·小雅·魚藻之什·010",
     "sort_key": 236,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-yuzao-011",
@@ -2463,7 +2463,7 @@
     "label": "何草不黃",
     "canonical_ref": "詩經·小雅·魚藻之什·014",
     "sort_key": 240,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "daya-wenwang-001",
@@ -2535,7 +2535,7 @@
     "label": "靈臺",
     "canonical_ref": "詩經·大雅·文王之什·008",
     "sort_key": 248,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "daya-wenwang-009",
@@ -2607,7 +2607,7 @@
     "label": "公劉",
     "canonical_ref": "詩經·大雅·生民之什·006",
     "sort_key": 256,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "daya-shengmin-007",
@@ -2616,7 +2616,7 @@
     "label": "泂酌",
     "canonical_ref": "詩經·大雅·生民之什·007",
     "sort_key": 257,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "daya-shengmin-008",
@@ -2724,7 +2724,7 @@
     "label": "常武",
     "canonical_ref": "詩經·大雅·蕩之什·009",
     "sort_key": 269,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "daya-dang-010",
@@ -3030,7 +3030,7 @@
     "label": "駉",
     "canonical_ref": "詩經·頌·魯頌·001",
     "sort_key": 303,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "song-lusong-002",
@@ -3039,7 +3039,7 @@
     "label": "有駜",
     "canonical_ref": "詩經·頌·魯頌·002",
     "sort_key": 304,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "song-lusong-003",
