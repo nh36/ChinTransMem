@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-003__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-003</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 3</prop>
+      <prop type="x-translation-ref">老子 3</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 1 English blocks, 8 Chinese clause units, 4 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不尚賢，使民不爭；不貴難得之貨，使民不為盜；不見可欲，使民心不亂。
+
+是以聖人之治，虛其心，實其腹，
+
+弱其志，強其骨。
+
+常使民無知無欲。
+
+使夫智者不敢為也。
+
+為無為，則無不治。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Not to value and employ men of superior ability is the way to keep the people from rivalry among themselves; not to prize articles which are difficult to procure is the way to keep them from becoming thieves; not to show them what is likely to excite their desires is the way to keep their minds from disorder. Therefore the sage, in the exercise of his government, empties their minds, fills their bellies, weakens their wills, and strengthens their bones. He constantly (tries to) keep them without knowledge and without desire, and where there are those who have knowledge, to keep them from presuming to act (on it). When there is this abstinence from action, good order is universal.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

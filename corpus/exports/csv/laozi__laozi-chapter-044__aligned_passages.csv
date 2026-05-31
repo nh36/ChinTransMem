@@ -1,0 +1,44 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-044__align-001,laozi,laozi-chapter-044,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 18 English blocks, 5 Chinese clause units, 18 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 44,"名與身孰親？
+
+身與貨孰多？
+
+得與亡孰病？
+
+是故甚愛必大費，多藏必厚亡，
+
+知足不辱，知止不殆，可以長久。",老子 44,"Or fame or life,
+
+Which do you hold more dear?
+
+Or life or wealth,
+
+To which would you adhere?
+
+Keep life and lose those other things;
+
+Keep them and lose your life: - which brings
+
+Sorrow and pain more near?
+
+Thus we may see,
+
+Who cleaves to fame
+
+Rejects what is more great;
+
+Who loves large stores
+
+Gives up the richer state.
+
+Who is content
+
+Needs fear no shame.
+
+Who knows to stop
+
+Incurs no blame.
+
+From danger free
+
+Long live shall he."

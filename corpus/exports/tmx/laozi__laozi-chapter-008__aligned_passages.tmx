@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-008__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.1</prop>
+      <prop type="x-translation-ref">老子 8.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上善若水。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The highest excellence is like (that of) water.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-008__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.2</prop>
+      <prop type="x-translation-ref">老子 8.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>水善利萬物而不爭，處眾人之所惡，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-008__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.3</prop>
+      <prop type="x-translation-ref">老子 8.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故幾於道。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hence (its way) is near to (that of) the Dao.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-008__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.4</prop>
+      <prop type="x-translation-ref">老子 8.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>居善地，心善淵，與善仁，言善信，正善治，事善能，動善時。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The excellence of a residence is in (the suitability of) the place; that of the mind is in abysmal stillness; that of associations is in their being with the virtuous; that of words is in their trustworthiness; that of government is in its securing good order; that of (the conduct of) affairs is in its ability; and that of (the initiation of) any movement is in its timeliness.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-008__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.5</prop>
+      <prop type="x-translation-ref">老子 8.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>夫唯不爭，故無尤。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>And when (one with the highest excellence) does not wrangle (about his low position), no one finds fault with him.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

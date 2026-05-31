@@ -27,9 +27,14 @@
   "allowed_section_units": [
     "book",
     "section",
-    "poem"
+    "poem",
+    "chapter"
   ],
   "allowed_segment_units": [
+    "line",
+    "sentence",
+    "block",
+    "chapter",
     "saying",
     "passage",
     "stanza",
@@ -38,15 +43,18 @@
     "section"
   ],
   "allowed_rights_policies": [
-    "public_domain_only_for_export"
+    "public_domain_only_for_export",
+    "public_domain_only_for_export_with_explicit_chinesenotes_provenance"
   ],
   "allowed_missing_text_policies": [
+    "block_export_if_clean_chinese_or_english_text_is_missing",
     "retain_metadata_only_sections_until_clean_public_domain_witnesses_exist",
     "retain_title_only_or_unverified_units_as_metadata_only_and_non_exportable",
     "exclude_title_only_units_without_poem_text_from_corpus_model"
   ],
   "allowed_commentary_policies": [
-    "exclude_commentary_and_notes_from_exact_alignments_and_tmx"
+    "exclude_commentary_and_notes_from_exact_alignments_and_tmx",
+    "exclude_commentary_headings_and_notice_lines_from_exportable_segments_before_alignment"
   ],
   "allowed_section_group_export_policies": [
     "forbidden"

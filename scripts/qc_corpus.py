@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 from common import (
@@ -12,11 +13,70 @@ from common import (
     corpus_export_paths,
     load_work_manifest,
     manifest_sections,
+    read_jsonl,
     repo_relative,
     section_export_paths,
     sha256_file,
     write_json,
 )
+
+CJK_RE = re.compile(r"[\u3400-\u9fff]")
+PARENTHETICAL_HEADING_RE = re.compile(r"^\([^()]{1,120}\)$")
+GENERIC_NOTICE_MARKERS = (
+    "english translation:",
+    "wikisource, accessed",
+    "public domain worldwide",
+    "this work was published before january 1, 1923",
+    "creative commons",
+)
+LAOZI_COMMENTARY_MARKERS = ("〈", "〉", "編者按", "河上", "注釋")
+LAOZI_NOTICE_MARKERS = (
+    "english translation:",
+    "chinese text:",
+    "public domain worldwide",
+    "this work was published before january 1, 1923",
+    "english translations",
+    "legge 1891",
+)
+
+
+def run_text_integrity_checks(work_id: str) -> dict[str, object]:
+    export_path = corpus_export_paths(work_id)["jsonl"]
+    rows = read_jsonl(export_path) if export_path.exists() else []
+    issues = {
+        "empty_source_sections": set(),
+        "empty_translation_sections": set(),
+        "translation_with_chinese_sections": set(),
+        "translation_with_notice_sections": set(),
+        "translation_with_commentary_sections": set(),
+        "translation_with_heading_sections": set(),
+    }
+    for row in rows:
+        section_id = str(row["section_id"])
+        source_text = str(row.get("chinese_text", "")).strip()
+        translation_text = str(row.get("translation_text", "")).strip()
+        lowered = translation_text.lower()
+        if not source_text:
+            issues["empty_source_sections"].add(section_id)
+        if not translation_text:
+            issues["empty_translation_sections"].add(section_id)
+        if CJK_RE.search(translation_text):
+            issues["translation_with_chinese_sections"].add(section_id)
+        if any(marker in lowered for marker in GENERIC_NOTICE_MARKERS):
+            issues["translation_with_notice_sections"].add(section_id)
+        if work_id == "laozi":
+            if any(marker in translation_text for marker in LAOZI_COMMENTARY_MARKERS):
+                issues["translation_with_commentary_sections"].add(section_id)
+            if any(marker in lowered for marker in LAOZI_NOTICE_MARKERS):
+                issues["translation_with_notice_sections"].add(section_id)
+            if PARENTHETICAL_HEADING_RE.fullmatch(translation_text):
+                issues["translation_with_heading_sections"].add(section_id)
+    issue_lists = {key: sorted(value) for key, value in issues.items()}
+    hard_failure_count = sum(1 for value in issue_lists.values() if value)
+    return {
+        **issue_lists,
+        "hard_failure_count": hard_failure_count,
+    }
 
 
 def run_qc(
@@ -134,6 +194,11 @@ def run_qc(
         "sections": section_reports,
         "checksums": {repo_relative(path): sha256_file(path) for path in tracked_paths},
     }
+    text_integrity = run_text_integrity_checks(work_id)
+    report["text_integrity"] = text_integrity
+    report["hard_failure_count"] = int(text_integrity["hard_failure_count"])
+    if report["hard_failure_count"]:
+        report["status"] = "fail"
     write_json(report_output, report)
     return report
 

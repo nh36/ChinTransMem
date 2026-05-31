@@ -16,7 +16,7 @@
   "counts": {
     "works": 1,
     "sections": 305,
-    "persons": 4,
+    "persons": 5,
     "sources": 610,
     "segments": 1514,
     "alignments": 1062
@@ -3379,8 +3379,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "856aa247ad520757f5e5b736cc98f0c1763418112e5e50f9cdce8def9bffed21",
-    "metadata/sources.yml": "3cd501cd6135f7e234d97245695f90a34bbf97c189457ee3ffba83d8be682cb3",
+    "metadata/sections.yml": "2630312b87da94896630bdbeeaa4935959b71e4f83a67f49a8caa65f55c41855",
+    "metadata/sources.yml": "7f63b13237a3b9746a8aee8ff33e712560e2f2639005be6acd1d644bd2f56366",
     "metadata/manifests/shijing.yml": "f39c8945b070e89776bc241dac6511606d9ed55337e8759df33d512c692cf155",
     "corpus/exports/jsonl/shijing__guofeng-zhounan-001-guanju__aligned_passages.jsonl": "201232fd9cde0d03fd0629b7025a46e9c69d7a1bd6fd60084d61ca1396b8e8bc",
     "corpus/exports/csv/shijing__guofeng-zhounan-001-guanju__aligned_passages.csv": "c70b004cfed024219665b23df005f578f65867981a49f80498c8324e27bdecad",
@@ -4606,5 +4606,15 @@
     "corpus/exports/csv/shijing__all__aligned_passages.csv": "6dff1868779a5c3d71eb99949e02c021d9b8a7ca89ad63a2f89ffe230ff5be22",
     "corpus/exports/tmx/shijing__all__aligned_passages.tmx": "fa401a2f711e7bc4b8cfff73b4ea8ac83ba0319b41b044ddc452de87f0bb7cdd",
     "logs/qc_reports/shijing__corpus_tmx_validation.json": "5277143101895352f9fb5e696d13662188227a90947698b7873d0ed7f36b0f4e"
-  }
+  },
+  "text_integrity": {
+    "empty_source_sections": [],
+    "empty_translation_sections": [],
+    "translation_with_chinese_sections": [],
+    "translation_with_notice_sections": [],
+    "translation_with_commentary_sections": [],
+    "translation_with_heading_sections": [],
+    "hard_failure_count": 0
+  },
+  "hard_failure_count": 0
 }

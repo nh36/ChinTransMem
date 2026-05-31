@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-061__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-061</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 61</prop>
+      <prop type="x-translation-ref">老子 61</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (8 Chinese blocks, 4 English blocks, 9 Chinese clause units, 7 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>大國者下流，
+
+天下之交。
+
+天下之牝，
+
+牝常以靜勝牡，以靜為下。
+
+則取小國；
+
+小國以下大國，則取大國。
+
+故或下以取，或下而取。
+
+大國不過欲兼畜人，小國不過欲入事人。夫兩者各得其所欲，大者宜為下。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What makes a great state is its being (like) a low-lying, down- flowing (stream); - it becomes the centre to which tend (all the small states) under heaven.
+
+(To illustrate from) the case of all females: - the female always overcomes the male by her stillness. Stillness may be considered (a sort of) abasement.
+
+Thus it is that a great state, by condescending to small states, gains them for itself; and that small states, by abasing themselves to a great state, win it over to them. In the one case the abasement leads to gaining adherents, in the other case to procuring favour.
+
+The great state only wishes to unite men together and nourish them; a small state only wishes to be received by, and to serve, the other. Each gets what it desires, but the great state must learn to abase itself.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

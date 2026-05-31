@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-069__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-069</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 69</prop>
+      <prop type="x-translation-ref">老子 69</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 2 English blocks, 6 Chinese clause units, 7 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>用兵有言﹕「吾不敢為主而為客，不敢進寸而退尺。」是謂行無行，
+
+〉攘無臂，扔無敵，
+
+執無兵。禍莫大於輕敵，輕敵幾喪吾寶。
+
+故抗兵相加，哀者勝矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A master of the art of war has said, 'I do not dare to be the host (to commence the war); I prefer to be the guest (to act on the defensive). I do not dare to advance an inch; I prefer to retire a foot.' This is called marshalling the ranks where there are no ranks; baring the arms (to fight) where there are no arms to bare; grasping the weapon where there is no weapon to grasp; advancing against the enemy where there is no enemy.
+
+There is no calamity greater than lightly engaging in war. To do that is near losing (the gentleness) which is so precious. Thus it is that when opposing weapons are (actually) crossed, he who deplores (the situation) conquers.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

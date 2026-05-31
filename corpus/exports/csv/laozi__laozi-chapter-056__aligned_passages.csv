@@ -1,0 +1,24 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-056__align-001,laozi,laozi-chapter-056,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (10 Chinese blocks, 3 English blocks, 11 Chinese clause units, 5 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 56,"知者不言，
+
+言者不知。
+
+塞其兌，閉其門，挫其銳，
+
+解其分，
+
+和其光，
+
+同其塵，
+
+是謂玄同。故不可得而親，不可得而疏；
+
+不可得而利，不可得而害；
+
+不可得而貴，不可得而賤。
+
+故為天下貴。",老子 56,"He who knows (the Dao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.
+
+He (who knows it) will keep his mouth shut and close the portals (of his nostrils). He will blunt his sharp points and unravel the complications of things; he will attemper his brightness, and bring himself into agreement with the obscurity (of others). This is called 'the Mysterious Agreement.'
+
+(Such an one) cannot be treated familiarly or distantly; he is beyond all consideration of profit or injury; beyond all consideration of nobility or meanness: - he is the noblest man under heaven."

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-004__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-004</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 4.1</prop>
+      <prop type="x-translation-ref">老子 4.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>道沖而用之或不盈，淵兮似萬物之宗；挫其銳，解其紛，和其光，同其塵，湛兮似或存。吾不知誰之子，象帝之先。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Dao is (like) the emptiness of a vessel; and in our employment of it we must be on our guard against all fulness. How deep and unfathomable it is, as if it were the Honoured Ancestor of all things! We should blunt our sharp points, and unravel the complications of things; we should attemper our brightness, and bring ourselves into agreement with the obscurity of others. How pure and still the Dao is, as if it would ever so continue! I do not know whose son it is. It might appear to have been before God.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

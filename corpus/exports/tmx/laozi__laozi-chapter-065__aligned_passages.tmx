@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-065__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-065</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 65.1</prop>
+      <prop type="x-translation-ref">老子 65.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>古之善為道者，非以明民，將以愚之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The ancients who showed their skill in practising the Dao did so, not to enlighten the people, but rather to make them simple and ignorant.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-065__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-065</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 65.2</prop>
+      <prop type="x-translation-ref">老子 65.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>民之難治，以其智多。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The difficulty in governing the people arises from their having much knowledge.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-065__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-065</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 65.3</prop>
+      <prop type="x-translation-ref">老子 65.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故以智治國，國之賊，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who (tries to) govern a state by his wisdom is a scourge to it; while he who does not (try to) do so is a blessing.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-065__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-065</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 65.4</prop>
+      <prop type="x-translation-ref">老子 65.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不以智治國，國之福。知此兩者亦稽式。常知稽式，是謂玄德。玄德深矣，遠矣，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who knows these two things finds in them also his model and rule.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-065__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-065</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 65.5</prop>
+      <prop type="x-translation-ref">老子 65.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>與物反矣，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ability to know this model and rule constitutes what we call the mysterious excellence (of a governor).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-065__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-065</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 65.6</prop>
+      <prop type="x-translation-ref">老子 65.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>然後乃至大順。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Deep and far-reaching is such mysterious excellence, showing indeed its possessor as opposite to others, but leading them to a great conformity to him.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

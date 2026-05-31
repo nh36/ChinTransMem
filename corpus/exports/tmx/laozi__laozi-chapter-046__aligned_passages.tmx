@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-046__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-046</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 46</prop>
+      <prop type="x-translation-ref">老子 46</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 2 English blocks, 5 Chinese clause units, 4 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天下有道，卻走馬以糞。
+
+天下無道，戎馬生於郊。
+
+〉禍莫大於不知足；咎莫大於欲得。故知足之足，常足矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When the Dao prevails in the world, they send back their swift horses to (draw) the dung- carts. When the Dao is disregarded in the world, the war-horses breed in the border lands.
+
+There is no guilt greater than to sanction ambition; no calamity greater than to be discontented with one's lot; no fault greater than the wish to be getting. Therefore the sufficiency of contentment is an enduring and unchanging sufficiency.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

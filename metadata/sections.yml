@@ -180,6 +180,735 @@
     "notes": "Chinese Wikisource labels this section 堯曰第二十; Legge labels the same unit Book 20."
   },
   {
+    "section_id": "laozi-chapter-001",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "一章",
+    "canonical_ref": "老子 1",
+    "sort_key": "001",
+    "notes": "Excluded English headings: Embodying the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 6 English blocks, 5 Chinese clause units, 11 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-002",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二章",
+    "canonical_ref": "老子 2",
+    "sort_key": "002",
+    "notes": "Excluded English headings: The nourishment of the person. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 3 English blocks, 8 Chinese clause units, 7 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-003",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三章",
+    "canonical_ref": "老子 3",
+    "sort_key": "003",
+    "notes": "Excluded English headings: Keeping the people at rest. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 1 English blocks, 8 Chinese clause units, 4 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-004",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四章",
+    "canonical_ref": "老子 4",
+    "sort_key": "004",
+    "notes": "Excluded English headings: The fountainless. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-005",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五章",
+    "canonical_ref": "老子 5",
+    "sort_key": "005",
+    "notes": "Excluded English headings: The use of emptiness. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-006",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六章",
+    "canonical_ref": "老子 6",
+    "sort_key": "006",
+    "notes": "Excluded English headings: The completion of material forms. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 6 English blocks, 3 Chinese clause units, 6 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-007",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七章",
+    "canonical_ref": "老子 7",
+    "sort_key": "007",
+    "notes": "Excluded English headings: Sheathing the light. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 1 English blocks, 6 Chinese clause units, 5 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-008",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "八章",
+    "canonical_ref": "老子 8",
+    "sort_key": "008",
+    "notes": "Excluded English headings: The placid and contented nature. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-009",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "九章",
+    "canonical_ref": "老子 9",
+    "sort_key": "009",
+    "notes": "Excluded English headings: Fulness and complacency contrary to the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-010",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十章",
+    "canonical_ref": "老子 10",
+    "sort_key": "010",
+    "notes": "Excluded English headings: Possibilities through the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (9 Chinese blocks, 1 English blocks, 9 Chinese clause units, 8 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-011",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十一章",
+    "canonical_ref": "老子 11",
+    "sort_key": "011",
+    "notes": "Excluded English headings: The use of what has no substantive existence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-012",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十二章",
+    "canonical_ref": "老子 12",
+    "sort_key": "012",
+    "notes": "Excluded English headings: The repression of the desires. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 7 English blocks, 3 Chinese clause units, 8 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-013",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十三章",
+    "canonical_ref": "老子 13",
+    "sort_key": "013",
+    "notes": "Excluded English headings: Loathing shame. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 1 English blocks, 9 Chinese clause units, 7 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-014",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十四章",
+    "canonical_ref": "老子 14",
+    "sort_key": "014",
+    "notes": "Excluded English headings: The manifestation of the mystery. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 1 English blocks, 9 Chinese clause units, 6 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-015",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十五章",
+    "canonical_ref": "老子 15",
+    "sort_key": "015",
+    "notes": "Excluded English headings: The exhibition of the qualities of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-016",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十六章",
+    "canonical_ref": "老子 16",
+    "sort_key": "016",
+    "notes": "Excluded English headings: Returning to the root. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (13 Chinese blocks, 1 English blocks, 15 Chinese clause units, 10 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-017",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十七章",
+    "canonical_ref": "老子 17",
+    "sort_key": "017",
+    "notes": "Excluded English headings: The unadulterated influence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-018",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十八章",
+    "canonical_ref": "老子 18",
+    "sort_key": "018",
+    "notes": "Excluded English headings: The decay of manners. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-019",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十九章",
+    "canonical_ref": "老子 19",
+    "sort_key": "019",
+    "notes": "Excluded English headings: Returning to the unadulterated influence. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 6 English blocks, 4 Chinese clause units, 8 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-020",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十章",
+    "canonical_ref": "老子 20",
+    "sort_key": "020",
+    "notes": "Excluded English headings: Being different from ordinary men. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-021",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十一章",
+    "canonical_ref": "老子 21",
+    "sort_key": "021",
+    "notes": "Excluded English headings: The empty heart, or the Dao in its operation. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (8 Chinese blocks, 17 English blocks, 10 Chinese clause units, 19 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-022",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十二章",
+    "canonical_ref": "老子 22",
+    "sort_key": "022",
+    "notes": "Excluded English headings: The increase granted to humility. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 3 English blocks, 10 Chinese clause units, 6 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-023",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十三章",
+    "canonical_ref": "老子 23",
+    "sort_key": "023",
+    "notes": "Excluded English headings: Absolute vacancy. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 3 English blocks, 12 Chinese clause units, 8 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-024",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十四章",
+    "canonical_ref": "老子 24",
+    "sort_key": "024",
+    "notes": "Excluded English headings: Painful graciousness. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-025",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十五章",
+    "canonical_ref": "老子 25",
+    "sort_key": "025",
+    "notes": "Excluded English headings: Representations of the mystery. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (12 Chinese blocks, 4 English blocks, 12 Chinese clause units, 15 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-026",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十六章",
+    "canonical_ref": "老子 26",
+    "sort_key": "026",
+    "notes": "Excluded English headings: The quality of gravity. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-027",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十七章",
+    "canonical_ref": "老子 27",
+    "sort_key": "027",
+    "notes": "Excluded English headings: Dexterity in using the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (9 Chinese blocks, 2 English blocks, 10 Chinese clause units, 6 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-028",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十八章",
+    "canonical_ref": "老子 28",
+    "sort_key": "028",
+    "notes": "Excluded English headings: Returning to simplicity. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 19 English blocks, 8 Chinese clause units, 20 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-029",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十九章",
+    "canonical_ref": "老子 29",
+    "sort_key": "029",
+    "notes": "Excluded English headings: Taking no action. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 7 English blocks, 6 Chinese clause units, 9 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-030",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十章",
+    "canonical_ref": "老子 30",
+    "sort_key": "030",
+    "notes": "Excluded English headings: A caveat against war. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 4 English blocks, 8 Chinese clause units, 10 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-031",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十一章",
+    "canonical_ref": "老子 31",
+    "sort_key": "031",
+    "notes": "Excluded English headings: Stilling war. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 3 English blocks, 8 Chinese clause units, 9 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-032",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十二章",
+    "canonical_ref": "老子 32",
+    "sort_key": "032",
+    "notes": "Excluded English headings: The Dao with no name. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-033",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十三章",
+    "canonical_ref": "老子 33",
+    "sort_key": "033",
+    "notes": "Excluded English headings: Discriminating between attributes. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 2 English blocks, 6 Chinese clause units, 4 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-034",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十四章",
+    "canonical_ref": "老子 34",
+    "sort_key": "034",
+    "notes": "Excluded English headings: The task of achievement. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 3 English blocks, 5 Chinese clause units, 8 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-035",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十五章",
+    "canonical_ref": "老子 35",
+    "sort_key": "035",
+    "notes": "Excluded English headings: The attribute of benevolence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-036",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十六章",
+    "canonical_ref": "老子 36",
+    "sort_key": "036",
+    "notes": "Excluded English headings: Minimising the light. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 3 English blocks, 7 Chinese clause units, 3 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-037",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十七章",
+    "canonical_ref": "老子 37",
+    "sort_key": "037",
+    "notes": "Excluded English headings: The exercise of government. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 7 English blocks, 6 Chinese clause units, 7 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-038",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十八章",
+    "canonical_ref": "老子 38",
+    "sort_key": "038",
+    "notes": "Excluded English headings: About the attributes of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-039",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十九章",
+    "canonical_ref": "老子 39",
+    "sort_key": "039",
+    "notes": "Excluded English headings: The origin of the law. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 17 English blocks, 10 Chinese clause units, 20 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-040",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十章",
+    "canonical_ref": "老子 40",
+    "sort_key": "040",
+    "notes": "Excluded English headings: Dispensing with the use (of means). Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 5 English blocks, 3 Chinese clause units, 5 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-041",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十一章",
+    "canonical_ref": "老子 41",
+    "sort_key": "041",
+    "notes": "Excluded English headings: Sameness and difference. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-042",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十二章",
+    "canonical_ref": "老子 42",
+    "sort_key": "042",
+    "notes": "Excluded English headings: The transformations of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-043",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十三章",
+    "canonical_ref": "老子 43",
+    "sort_key": "043",
+    "notes": "Excluded English headings: The universal use (of the action in weakness of the Dao). Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-044",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十四章",
+    "canonical_ref": "老子 44",
+    "sort_key": "044",
+    "notes": "Excluded English headings: Cautions. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 18 English blocks, 5 Chinese clause units, 18 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-045",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十五章",
+    "canonical_ref": "老子 45",
+    "sort_key": "045",
+    "notes": "Excluded English headings: Great or overflowing virtue. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 8 English blocks, 7 Chinese clause units, 9 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-046",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十六章",
+    "canonical_ref": "老子 46",
+    "sort_key": "046",
+    "notes": "Excluded English headings: The moderating of desire or ambition. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 2 English blocks, 5 Chinese clause units, 4 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-047",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十七章",
+    "canonical_ref": "老子 47",
+    "sort_key": "047",
+    "notes": "Excluded English headings: Surveying what is far-off. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 2 English blocks, 5 Chinese clause units, 3 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-048",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十八章",
+    "canonical_ref": "老子 48",
+    "sort_key": "048",
+    "notes": "Excluded English headings: Forgetting knowledge. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 3 English blocks, 7 Chinese clause units, 5 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-049",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十九章",
+    "canonical_ref": "老子 49",
+    "sort_key": "049",
+    "notes": "Excluded English headings: The quality of indulgence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-050",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十章",
+    "canonical_ref": "老子 50",
+    "sort_key": "050",
+    "notes": "Excluded English headings: The value set on life. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 4 English blocks, 10 Chinese clause units, 9 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-051",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十一章",
+    "canonical_ref": "老子 51",
+    "sort_key": "051",
+    "notes": "Excluded English headings: The operation (of the Dao) in nourishing things. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-052",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十二章",
+    "canonical_ref": "老子 52",
+    "sort_key": "052",
+    "notes": "Excluded English headings: Returning to the source. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (9 Chinese blocks, 8 English blocks, 9 Chinese clause units, 10 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-053",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十三章",
+    "canonical_ref": "老子 53",
+    "sort_key": "053",
+    "notes": "Excluded English headings: Increase of evidence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-054",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十四章",
+    "canonical_ref": "老子 54",
+    "sort_key": "054",
+    "notes": "Excluded English headings: The cultivation (of the Dao), and the observation (of its effects). Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 18 English blocks, 12 Chinese clause units, 19 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-055",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十五章",
+    "canonical_ref": "老子 55",
+    "sort_key": "055",
+    "notes": "Excluded English headings: The mysterious charm; False) is the strength, (and o'er it we should mourn.. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-056",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十六章",
+    "canonical_ref": "老子 56",
+    "sort_key": "056",
+    "notes": "Excluded English headings: The mysterious excellence. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (10 Chinese blocks, 3 English blocks, 11 Chinese clause units, 5 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-057",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十七章",
+    "canonical_ref": "老子 57",
+    "sort_key": "057",
+    "notes": "Excluded English headings: The genuine influence. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 3 English blocks, 9 Chinese clause units, 8 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-058",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十八章",
+    "canonical_ref": "老子 58",
+    "sort_key": "058",
+    "notes": "Excluded English headings: Transformation according to circumstances. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (10 Chinese blocks, 7 English blocks, 12 Chinese clause units, 13 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-059",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十九章",
+    "canonical_ref": "老子 59",
+    "sort_key": "059",
+    "notes": "Excluded English headings: Guarding the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-060",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十章",
+    "canonical_ref": "老子 60",
+    "sort_key": "060",
+    "notes": "Excluded English headings: Occupying the throne. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-061",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十一章",
+    "canonical_ref": "老子 61",
+    "sort_key": "061",
+    "notes": "Excluded English headings: The attribute of humility. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (8 Chinese blocks, 4 English blocks, 9 Chinese clause units, 7 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-062",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十二章",
+    "canonical_ref": "老子 62",
+    "sort_key": "062",
+    "notes": "Excluded English headings: Practising the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-063",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十三章",
+    "canonical_ref": "老子 63",
+    "sort_key": "063",
+    "notes": "Excluded English headings: Thinking in the beginning. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 3 English blocks, 8 Chinese clause units, 6 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-064",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十四章",
+    "canonical_ref": "老子 64",
+    "sort_key": "064",
+    "notes": "Excluded English headings: Guarding the minute. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-065",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十五章",
+    "canonical_ref": "老子 65",
+    "sort_key": "065",
+    "notes": "Excluded English headings: Pure, unmixed excellence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-066",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十六章",
+    "canonical_ref": "老子 66",
+    "sort_key": "066",
+    "notes": "Excluded English headings: Putting one's self last."
+  },
+  {
+    "section_id": "laozi-chapter-067",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十七章",
+    "canonical_ref": "老子 67",
+    "sort_key": "067",
+    "notes": "Excluded English headings: Three precious things. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 5 English blocks, 13 Chinese clause units, 9 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-068",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十八章",
+    "canonical_ref": "老子 68",
+    "sort_key": "068",
+    "notes": "Excluded English headings: Matching heaven. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 14 English blocks, 5 Chinese clause units, 14 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-069",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十九章",
+    "canonical_ref": "老子 69",
+    "sort_key": "069",
+    "notes": "Excluded English headings: The use of the mysterious (Dao). Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 2 English blocks, 6 Chinese clause units, 7 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-070",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十章",
+    "canonical_ref": "老子 70",
+    "sort_key": "070",
+    "notes": "Excluded English headings: The difficulty of being (rightly) known. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-071",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十一章",
+    "canonical_ref": "老子 71",
+    "sort_key": "071",
+    "notes": "Excluded English headings: The disease of knowing. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-072",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十二章",
+    "canonical_ref": "老子 72",
+    "sort_key": "072",
+    "notes": "Excluded English headings: Loving one's self. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 4 English blocks, 7 Chinese clause units, 5 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-073",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十三章",
+    "canonical_ref": "老子 73",
+    "sort_key": "073",
+    "notes": "Excluded English headings: Allowing men to take their course. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-074",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十四章",
+    "canonical_ref": "老子 74",
+    "sort_key": "074",
+    "notes": "Excluded English headings: Restraining delusion. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-075",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十五章",
+    "canonical_ref": "老子 75",
+    "sort_key": "075",
+    "notes": "Excluded English headings: How greediness injures. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 3 English blocks, 4 Chinese clause units, 7 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-076",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十六章",
+    "canonical_ref": "老子 76",
+    "sort_key": "076",
+    "notes": "Excluded English headings: A warning against (trusting in) strength. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-077",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十七章",
+    "canonical_ref": "老子 77",
+    "sort_key": "077",
+    "notes": "Excluded English headings: The way of heaven. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-078",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十八章",
+    "canonical_ref": "老子 78",
+    "sort_key": "078",
+    "notes": "Excluded English headings: Things to be believed. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 8 English blocks, 5 Chinese clause units, 8 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-079",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十九章",
+    "canonical_ref": "老子 79",
+    "sort_key": "079",
+    "notes": "Excluded English headings: Adherence to bond or covenant. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-080",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "八十章",
+    "canonical_ref": "老子 80",
+    "sort_key": "080",
+    "notes": "Excluded English headings: Standing alone. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 5 English blocks, 7 Chinese clause units, 6 English clause units)."
+  },
+  {
+    "section_id": "laozi-chapter-081",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "八十一章",
+    "canonical_ref": "老子 81",
+    "sort_key": "081",
+    "notes": "Excluded English headings: The manifestation of simplicity. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (8 Chinese blocks, 3 English blocks, 10 Chinese clause units, 6 English clause units)."
+  },
+  {
     "section_id": "book-01-lianghuiwang-shang",
     "work_id": "mengzi",
     "parent_section_id": null,

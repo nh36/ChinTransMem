@@ -1,0 +1,10 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-069__align-001,laozi,laozi-chapter-069,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 2 English blocks, 6 Chinese clause units, 7 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 69,"用兵有言﹕「吾不敢為主而為客，不敢進寸而退尺。」是謂行無行，
+
+〉攘無臂，扔無敵，
+
+執無兵。禍莫大於輕敵，輕敵幾喪吾寶。
+
+故抗兵相加，哀者勝矣。",老子 69,"A master of the art of war has said, 'I do not dare to be the host (to commence the war); I prefer to be the guest (to act on the defensive). I do not dare to advance an inch; I prefer to retire a foot.' This is called marshalling the ranks where there are no ranks; baring the arms (to fight) where there are no arms to bare; grasping the weapon where there is no weapon to grasp; advancing against the enemy where there is no enemy.
+
+There is no calamity greater than lightly engaging in war. To do that is near losing (the gentleness) which is so precious. Thus it is that when opposing weapons are (actually) crossed, he who deplores (the situation) conquers."

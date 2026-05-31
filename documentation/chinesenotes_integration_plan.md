@@ -74,4 +74,4 @@ Repository-level licence is **not** enough by itself for export approval. File-l
 
 ## Current planning boundary
 
-This workflow does **not** bulk-ingest the whole ChineseNotes repository and does **not** replace existing Lunyu, Mengzi, or Shijing data. The current pilot is `laozi`, staged from `data/corpus/daodejing.csv` into `corpus/staging/chinesenotes/laozi/`; it produced 81 chapters with both Chinese and English, 81 safe chapter-level candidate alignments, and no blocked sections, but it has not yet been promoted into the active corpus.
+This workflow does **not** bulk-ingest the whole ChineseNotes repository and does **not** replace existing Lunyu, Mengzi, or Shijing data. The first completed promotion is `laozi`, staged and then promoted from `data/corpus/daodejing.csv`; it now contributes 81 active chapters, 260 exact alignments, and explicit chapter-level fallback reasons where deterministic refinement remained unsafe.

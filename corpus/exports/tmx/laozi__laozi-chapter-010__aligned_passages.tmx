@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-010__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-010</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 10</prop>
+      <prop type="x-translation-ref">老子 10</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (9 Chinese blocks, 1 English blocks, 9 Chinese clause units, 8 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>載營魄抱一，能無離乎？
+
+專氣致柔，能嬰兒乎？
+
+滌除玄覽，能無疵乎？
+
+愛國治民，能無知乎？
+
+天門開闔，能為雌乎？
+
+明白四達，能無為乎？
+
+生之，
+
+畜之。
+
+生而不有，為而不恃，長而不宰，是謂玄德。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When the intelligent and animal souls are held together in one embrace, they can be kept from separating. When one gives undivided attention to the (vital) breath, and brings it to the utmost degree of pliancy, he can become as a (tender) babe. When he has cleansed away the most mysterious sights (of his imagination), he can become without a flaw. In loving the people and ruling the state, cannot he proceed without any (purpose of) action? In the opening and shutting of his gates of heaven, cannot he do so as a female bird? While his intelligence reaches in every direction, cannot he (appear to) be without knowledge? (The Dao) produces (all things) and nourishes them; it produces them and does not claim them as its own; it does all, and yet does not boast of it; it presides over all, and yet does not control them. This is what is called 'The mysterious Quality' (of the Dao).</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

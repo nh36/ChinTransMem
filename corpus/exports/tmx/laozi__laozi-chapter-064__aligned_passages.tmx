@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-064__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-064</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 64.1</prop>
+      <prop type="x-translation-ref">老子 64.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>其安易持，其未兆易謀。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>That which is at rest is easily kept hold of; before a thing has given indications of its presence, it is easy to take measures against it; that which is brittle is easily broken; that which is very small is easily dispersed.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-064__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-064</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 64.2</prop>
+      <prop type="x-translation-ref">老子 64.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>其脆易泮，其微易散。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Action should be taken before a thing has made its appearance; order should be secured before disorder has begun.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-064__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-064</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 64.3</prop>
+      <prop type="x-translation-ref">老子 64.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為之於未有，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The tree which fills the arms grew from the tiniest sprout; the tower of nine storeys rose from a (small) heap of earth; the journey of a thousand li commenced with a single step.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-064__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-064</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 64.4</prop>
+      <prop type="x-translation-ref">老子 64.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>治之於未亂。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who acts (with an ulterior purpose) does harm; he who takes hold of a thing (in the same way) loses his hold.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-064__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-064</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 64.5</prop>
+      <prop type="x-translation-ref">老子 64.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>合抱之木，生於毫末；九層之臺，起於累土；千里之行，始於足下。為者敗之，執者失之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sage does not act (so), and therefore does no harm; he does not lay hold (so), and therefore does not lose his bold.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-064__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-064</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 64.6</prop>
+      <prop type="x-translation-ref">老子 64.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以聖人無為故無敗，無執故無失。民之從事，常於幾成而敗之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(But) people in their conduct of affairs are constantly ruining them when they are on the eve of success.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-064__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-064</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 64.7</prop>
+      <prop type="x-translation-ref">老子 64.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>慎終如始，則無敗事。是以聖人欲不欲，不貴難得之貨；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If they were careful at the end, as (they should be) at the beginning, they would not so ruin them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-064__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-064</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 64.8</prop>
+      <prop type="x-translation-ref">老子 64.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>學不學，復眾人之所過。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore the sage desires what (other men) do not desire, and does not prize things difficult to get; he learns what (other men) do not learn, and turns back to what the multitude of men have passed by.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-064__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-064</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 64.9</prop>
+      <prop type="x-translation-ref">老子 64.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以輔萬物之自然，而不敢為。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Thus he helps the natural development of all things, and does not dare to act (with an ulterior purpose of his own).</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

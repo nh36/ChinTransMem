@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-007__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-007</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 7</prop>
+      <prop type="x-translation-ref">老子 7</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 1 English blocks, 6 Chinese clause units, 5 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天長地久。天地所以能長且久者，以其不自生，
+
+故能長生。是以聖人後其身而身先；外其身而身存。非以其無私邪，故能成其私。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heaven is long-enduring and earth continues long. The reason why heaven and earth are able to endure and continue thus long is because they do not live of, or for, themselves. This is how they are able to continue and endure. Therefore the sage puts his own person last, and yet it is found in the foremost place; he treats his person as if it were foreign to him, and yet that person is preserved. Is it not because he has no personal and private ends, that therefore such ends are realised?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

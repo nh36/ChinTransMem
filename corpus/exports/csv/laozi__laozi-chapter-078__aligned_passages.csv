@@ -1,0 +1,18 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-078__align-001,laozi,laozi-chapter-078,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 8 English blocks, 5 Chinese clause units, 8 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 78,"天下莫柔弱於水，而攻堅強者，莫之能勝，其無以易之。
+
+弱之勝強，柔之勝剛，天下莫不知莫能行。是以聖人云﹕「受國之垢，是謂社稷主；受國不祥，是為天下王。」正言若反。",老子 78,"There is nothing in the world more soft and weak than water, and yet for attacking things that are firm and strong there is nothing that can take precedence of it; - for there is nothing (so effectual) for which it can be changed.
+
+Every one in the world knows that the soft overcomes the hard, and the weak the strong, but no one is able to carry it out in practice.
+
+Therefore a sage has said,
+
+'He who accepts his state's reproach,
+
+Is hailed therefore its altars' lord;
+
+To him who bears men's direful woes
+
+They all the name of King accord.'
+
+Words that are strictly true seem to be paradoxical."

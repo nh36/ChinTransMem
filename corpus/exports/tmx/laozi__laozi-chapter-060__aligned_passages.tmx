@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-060__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-060</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 60.1</prop>
+      <prop type="x-translation-ref">老子 60.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>治大國，若烹小鮮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Governing a great state is like cooking small fish.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-060__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-060</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 60.2</prop>
+      <prop type="x-translation-ref">老子 60.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以道莅天下，其鬼不神；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Let the kingdom be governed according to the Dao, and the manes of the departed will not manifest their spiritual energy.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-060__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-060</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 60.3</prop>
+      <prop type="x-translation-ref">老子 60.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>非其鬼不神，其神不傷人；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>It is not that those manes have not that spiritual energy, but it will not be employed to hurt men.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-060__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-060</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 60.4</prop>
+      <prop type="x-translation-ref">老子 60.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>非其神不傷人，聖人亦不傷人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>It is not that it could not hurt men, but neither does the ruling sage hurt them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-060__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-060</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 60.5</prop>
+      <prop type="x-translation-ref">老子 60.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>夫兩不相傷，故德交歸焉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When these two do not injuriously affect each other, their good influences converge in the virtue (of the Dao).</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -220,6 +220,14 @@
     "notes": "Bootstrap corpus generation for 堯曰第二十 with 3 exact alignments and alignment status complete."
   },
   {
+    "run_id": "bootstrap-laozi-20260531",
+    "work_id": "laozi",
+    "timestamp": "2026-05-31T21:56:16+00:00",
+    "method": "bootstrap_laozi_corpus",
+    "status": "complete",
+    "notes": "Promoted Laozi into the active corpus from the ChineseNotes Daodejing bilingual witness with deterministic refinement and explicit chapter-level fallback reasons."
+  },
+  {
     "run_id": "bootstrap-book-01-lianghuiwang-shang-20260530",
     "work_id": "mengzi",
     "section_id": "book-01-lianghuiwang-shang",

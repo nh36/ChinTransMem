@@ -253,6 +253,516 @@
   },
   {
     "entity_type": "work",
+    "entity_id": "laozi",
+    "alias": "Laozi",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "laozi",
+    "alias": "Daodejing",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "laozi",
+    "alias": "Dao De Jing",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "laozi",
+    "alias": "Tao Te Ching",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-001",
+    "alias": "Chapter 1",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-002",
+    "alias": "Chapter 2",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-003",
+    "alias": "Chapter 3",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-004",
+    "alias": "Chapter 4",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-005",
+    "alias": "Chapter 5",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-006",
+    "alias": "Chapter 6",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-007",
+    "alias": "Chapter 7",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-008",
+    "alias": "Chapter 8",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-009",
+    "alias": "Chapter 9",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-010",
+    "alias": "Chapter 10",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-011",
+    "alias": "Chapter 11",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-012",
+    "alias": "Chapter 12",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-013",
+    "alias": "Chapter 13",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-014",
+    "alias": "Chapter 14",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-015",
+    "alias": "Chapter 15",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-016",
+    "alias": "Chapter 16",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-017",
+    "alias": "Chapter 17",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-018",
+    "alias": "Chapter 18",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-019",
+    "alias": "Chapter 19",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-020",
+    "alias": "Chapter 20",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-021",
+    "alias": "Chapter 21",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-022",
+    "alias": "Chapter 22",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-023",
+    "alias": "Chapter 23",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-024",
+    "alias": "Chapter 24",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-025",
+    "alias": "Chapter 25",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-026",
+    "alias": "Chapter 26",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-027",
+    "alias": "Chapter 27",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-028",
+    "alias": "Chapter 28",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-029",
+    "alias": "Chapter 29",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-030",
+    "alias": "Chapter 30",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-031",
+    "alias": "Chapter 31",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-032",
+    "alias": "Chapter 32",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-033",
+    "alias": "Chapter 33",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-034",
+    "alias": "Chapter 34",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-035",
+    "alias": "Chapter 35",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-036",
+    "alias": "Chapter 36",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-037",
+    "alias": "Chapter 37",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-038",
+    "alias": "Chapter 38",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-039",
+    "alias": "Chapter 39",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-040",
+    "alias": "Chapter 40",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-041",
+    "alias": "Chapter 41",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-042",
+    "alias": "Chapter 42",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-043",
+    "alias": "Chapter 43",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-044",
+    "alias": "Chapter 44",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-045",
+    "alias": "Chapter 45",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-046",
+    "alias": "Chapter 46",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-047",
+    "alias": "Chapter 47",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-048",
+    "alias": "Chapter 48",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-049",
+    "alias": "Chapter 49",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-050",
+    "alias": "Chapter 50",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-051",
+    "alias": "Chapter 51",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-052",
+    "alias": "Chapter 52",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-053",
+    "alias": "Chapter 53",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-054",
+    "alias": "Chapter 54",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-055",
+    "alias": "Chapter 55",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-056",
+    "alias": "Chapter 56",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-057",
+    "alias": "Chapter 57",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-058",
+    "alias": "Chapter 58",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-059",
+    "alias": "Chapter 59",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-060",
+    "alias": "Chapter 60",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-061",
+    "alias": "Chapter 61",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-062",
+    "alias": "Chapter 62",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-063",
+    "alias": "Chapter 63",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-064",
+    "alias": "Chapter 64",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-065",
+    "alias": "Chapter 65",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-066",
+    "alias": "Chapter 66",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-067",
+    "alias": "Chapter 67",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-068",
+    "alias": "Chapter 68",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-069",
+    "alias": "Chapter 69",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-070",
+    "alias": "Chapter 70",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-071",
+    "alias": "Chapter 71",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-072",
+    "alias": "Chapter 72",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-073",
+    "alias": "Chapter 73",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-074",
+    "alias": "Chapter 74",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-075",
+    "alias": "Chapter 75",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-076",
+    "alias": "Chapter 76",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-077",
+    "alias": "Chapter 77",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-078",
+    "alias": "Chapter 78",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-079",
+    "alias": "Chapter 79",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-080",
+    "alias": "Chapter 80",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-081",
+    "alias": "Chapter 81",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "work",
     "entity_id": "mengzi",
     "alias": "Mengzi",
     "romanization_system": "pinyin"

@@ -1,0 +1,12 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-003__align-001,laozi,laozi-chapter-003,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 1 English blocks, 8 Chinese clause units, 4 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 3,"不尚賢，使民不爭；不貴難得之貨，使民不為盜；不見可欲，使民心不亂。
+
+是以聖人之治，虛其心，實其腹，
+
+弱其志，強其骨。
+
+常使民無知無欲。
+
+使夫智者不敢為也。
+
+為無為，則無不治。",老子 3,"Not to value and employ men of superior ability is the way to keep the people from rivalry among themselves; not to prize articles which are difficult to procure is the way to keep them from becoming thieves; not to show them what is likely to excite their desires is the way to keep their minds from disorder. Therefore the sage, in the exercise of his government, empties their minds, fills their bellies, weakens their wills, and strengthens their bones. He constantly (tries to) keep them without knowledge and without desire, and where there are those who have knowledge, to keep them from presuming to act (on it). When there is this abstinence from action, good order is universal."

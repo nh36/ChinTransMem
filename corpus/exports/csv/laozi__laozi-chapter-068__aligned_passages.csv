@@ -1,0 +1,36 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-068__align-001,laozi,laozi-chapter-068,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 14 English blocks, 5 Chinese clause units, 14 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 68,"善為士者不武，
+
+善戰者不怒，
+
+善勝敵者不與，
+
+善用人者為之下，是謂不爭之德，是謂用人之力，
+
+是謂配天古之極。",老子 68,"He who in (Dao's) wars has skill
+
+Assumes no martial port;
+
+He who fights with most good will
+
+To rage makes no resort.
+
+He who vanquishes yet still
+
+Keeps from his foes apart;
+
+He whose hests men most fulfil
+
+Yet humbly plies his art.
+
+Thus we say, 'He never contends,
+
+And therein is his might.'
+
+Thus we say, 'Men's wills he bends,
+
+That they with him unite.'
+
+Thus we say, 'Like Heaven's his ends,
+
+No sage of old more bright.'"

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-049__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-049</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 49.1</prop>
+      <prop type="x-translation-ref">老子 49.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>聖人無常心，以百姓心為心。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sage has no invariable mind of his own; he makes the mind of the people his mind.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-049__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-049</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 49.2</prop>
+      <prop type="x-translation-ref">老子 49.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>善者，吾善之；不善者，吾亦善之，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>To those who are good (to me), I am good; and to those who are not good (to me), I am also good; - and thus (all) get to be good.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-049__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-049</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 49.3</prop>
+      <prop type="x-translation-ref">老子 49.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>德善。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>To those who are sincere (with me), I am sincere; and to those who are not sincere (with me), I am also sincere; - and thus (all) get to be sincere.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-049__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-049</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 49.4</prop>
+      <prop type="x-translation-ref">老子 49.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>信者，吾信之；不信者，吾亦信之，德信。聖人在天下歙歙，為天下渾其心，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sage has in the world an appearance of indecision, and keeps his mind in a state of indifference to all.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-049__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-049</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 49.5</prop>
+      <prop type="x-translation-ref">老子 49.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>百姓皆注其耳目,聖人皆孩之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The people all keep their eyes and ears directed to him, and he deals with them all as his children.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

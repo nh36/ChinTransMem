@@ -1,0 +1,10 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-047__align-001,laozi,laozi-chapter-047,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 2 English blocks, 5 Chinese clause units, 3 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 47,"不出戶，知天下；不闚牖，見天道。
+
+其出彌遠，其知彌少。
+
+是以聖人不行而知，不見而名，
+
+不為而成。",老子 47,"Without going outside his door, one understands (all that takes place) under the sky; without looking out from his window, one sees the Dao of Heaven. The farther that one goes out (from himself), the less he knows.
+
+Therefore the sages got their knowledge without travelling; gave their (right) names to things without seeing them; and accomplished their ends without any purpose of doing so."

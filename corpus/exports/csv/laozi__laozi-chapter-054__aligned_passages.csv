@@ -1,0 +1,48 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-054__align-001,laozi,laozi-chapter-054,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 18 English blocks, 12 Chinese clause units, 19 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 54,"善建者不拔，
+
+善抱者不脫，
+
+子孫以祭祀不輟。
+
+修之於身，其德乃真；修之於家，其德乃餘；
+
+修之於鄉，其德乃長；修之於國，其德乃豐；修之於天下，其德乃普。故以身觀身，以家觀家，以鄉觀鄉，以國觀國，
+
+以天下觀天下。
+
+吾何以知天下然哉？以此。",老子 54,"What (Dao's) skilful planter plants
+
+Can never be uptorn;
+
+What his skilful arms enfold,
+
+From him can never be borne.
+
+Sons shall bring in lengthening line,
+
+Sacrifices to his shrine.
+
+Dao when nursed within one's self,
+
+His vigour will make true;
+
+And where the family it rules
+
+What riches will accrue!
+
+The neighbourhood where it prevails
+
+In thriving will abound;
+
+And when 'tis seen throughout the state,
+
+Good fortune will be found.
+
+Employ it the kingdom o'er,
+
+And men thrive all around.
+
+In this way the effect will be seen in the person, by the observation of different cases; in the family; in the neighbourhood; in the state; and in the kingdom.
+
+How do I know that this effect is sure to hold thus all under the sky? By this (method of observation)."

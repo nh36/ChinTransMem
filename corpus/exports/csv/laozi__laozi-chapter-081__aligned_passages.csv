@@ -1,0 +1,20 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-081__align-001,laozi,laozi-chapter-081,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (8 Chinese blocks, 3 English blocks, 10 Chinese clause units, 6 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 81,"信言不美，
+
+美言不信。
+
+善者不辯，辯者不善。知者不博，
+
+博者不知。聖人不積，
+
+既以為人己愈有，
+
+既以與人己愈多。
+
+天之道，利而不害；
+
+聖人之道，為而不爭。",老子 81,"Sincere words are not fine; fine words are not sincere. Those who are skilled (in the Dao) do not dispute (about it); the disputatious are not skilled in it. Those who know (the Dao) are not extensively learned; the extensively learned do not know it.
+
+The sage does not accumulate (for himself). The more that he expends for others, the more does he possess of his own; the more that he gives to others, the more does he have himself.
+
+With all the sharpness of the Way of Heaven, it injures not; with all the doing in the way of the sage he does not strive."

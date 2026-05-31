@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-074__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-074</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 74.1</prop>
+      <prop type="x-translation-ref">老子 74.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>民不畏死，奈何以死懼之？若使民常畏死，而為奇者，吾得執而殺之，孰敢？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The people do not fear death; to what purpose is it to (try to) frighten them with death? If the people were always in awe of death, and I could always seize those who do wrong, and put them to death, who would dare to do wrong?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-074__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-074</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 74.2</prop>
+      <prop type="x-translation-ref">老子 74.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>常有司殺者殺，夫代司殺者殺，是謂代大匠斲。夫代大匠斲者，希有不傷其手矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>There is always One who presides over the infliction death. He who would inflict death in the room of him who so presides over it may be described as hewing wood instead of a great carpenter. Seldom is it that he who undertakes the hewing, instead of the great carpenter, does not cut his own hands!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

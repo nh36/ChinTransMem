@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-023__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-023</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 23</prop>
+      <prop type="x-translation-ref">老子 23</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 3 English blocks, 12 Chinese clause units, 8 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>希言自然。
+
+故飄風不終朝，驟雨不終日。孰為此者？天地。天地尚不能久，而況於人乎？
+
+故從事於道者，道者同於道，
+
+德者同於德，
+
+失者同於失。
+
+同於道者，道亦樂得之；同於德者，德亦樂得之；同於失者，失亦樂得之。
+
+信不足焉，有不信焉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Abstaining from speech marks him who is obeying the spontaneity of his nature. A violent wind does not last for a whole morning; a sudden rain does not last for the whole day. To whom is it that these (two) things are owing? To Heaven and Earth. If Heaven and Earth cannot make such (spasmodic) actings last long, how much less can man!
+
+Therefore when one is making the Dao his business, those who are also pursuing it, agree with him in it, and those who are making the manifestation of its course their object agree with him in that; while even those who are failing in both these things agree with him where they fail.
+
+Hence, those with whom he agrees as to the Dao have the happiness of attaining to it; those with whom he agrees as to its manifestation have the happiness of attaining to it; and those with whom he agrees in their failure have also the happiness of attaining (to the Dao). (But) when there is not faith sufficient (on his part), a want of faith (in him) ensues (on the part of the others).</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

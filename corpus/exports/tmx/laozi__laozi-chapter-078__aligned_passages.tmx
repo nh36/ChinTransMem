@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-078__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-078</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 78</prop>
+      <prop type="x-translation-ref">老子 78</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 8 English blocks, 5 Chinese clause units, 8 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天下莫柔弱於水，而攻堅強者，莫之能勝，其無以易之。
+
+弱之勝強，柔之勝剛，天下莫不知莫能行。是以聖人云﹕「受國之垢，是謂社稷主；受國不祥，是為天下王。」正言若反。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>There is nothing in the world more soft and weak than water, and yet for attacking things that are firm and strong there is nothing that can take precedence of it; - for there is nothing (so effectual) for which it can be changed.
+
+Every one in the world knows that the soft overcomes the hard, and the weak the strong, but no one is able to carry it out in practice.
+
+Therefore a sage has said,
+
+'He who accepts his state's reproach,
+
+Is hailed therefore its altars' lord;
+
+To him who bears men's direful woes
+
+They all the name of King accord.'
+
+Words that are strictly true seem to be paradoxical.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

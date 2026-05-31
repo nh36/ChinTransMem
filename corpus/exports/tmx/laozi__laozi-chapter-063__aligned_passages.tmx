@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-063__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-063</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 63</prop>
+      <prop type="x-translation-ref">老子 63</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 3 English blocks, 8 Chinese clause units, 6 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為無為，事無事，味無味。
+
+大小多少，報怨以德。
+
+圖難於其易，為大於其細；天下難事必作於易，天下大事必作於細。是以聖人終不為大，故能成其大。夫輕諾必寡信，多易必多難。是以聖人猶難之，
+
+故終無難矣</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(It is the way of the Dao) to act without (thinking of) acting; to conduct affairs without (feeling the) trouble of them; to taste without discerning any flavour; to consider what is small as great, and a few as many; and to recompense injury with kindness.
+
+(The master of it) anticipates things that are difficult while they are easy, and does things that would become great while they are small. All difficult things in the world are sure to arise from a previous state in which they were easy, and all great things from one in which they were small. Therefore the sage, while he never does what is great, is able on that account to accomplish the greatest things.
+
+He who lightly promises is sure to keep but little faith; he who is continually thinking things easy is sure to find them difficult. Therefore the sage sees difficulty even in what seems easy, and so never has any difficulties.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

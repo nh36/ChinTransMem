@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-006__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-006</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 6</prop>
+      <prop type="x-translation-ref">老子 6</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 6 English blocks, 3 Chinese clause units, 6 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>谷神不死，是謂玄牝。玄牝之門，是謂天地根。緜緜若存，用之不勤。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The valley spirit dies not, aye the same;
+
+The female mystery thus do we name.
+
+Its gate, from which at first they issued forth,
+
+Is called the root from which grew heaven and earth.
+
+Long and unbroken does its power remain,
+
+Used gently, and without the touch of pain.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,16 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-048__align-001,laozi,laozi-chapter-048,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 3 English blocks, 7 Chinese clause units, 5 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 48,"為學日益，
+
+為道日損。
+
+損之又損，以至於無為。無為而無不為。
+
+取天下常以無事，
+
+及其有事，
+
+不足以取天下。",老子 48,"He who devotes himself to learning (seeks) from day to day to increase (his knowledge); he who devotes himself to the Dao (seeks) from day to day to diminish (his doing).
+
+He diminishes it and again diminishes it, till he arrives at doing nothing (on purpose). Having arrived at this point of non-action, there is nothing which he does not do.
+
+He who gets as his own all under heaven does so by giving himself no trouble (with that end). If one take trouble (with that end), he is not equal to getting as his own all under heaven."

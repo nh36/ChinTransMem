@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-054__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-054</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 54</prop>
+      <prop type="x-translation-ref">老子 54</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 18 English blocks, 12 Chinese clause units, 19 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>善建者不拔，
+
+善抱者不脫，
+
+子孫以祭祀不輟。
+
+修之於身，其德乃真；修之於家，其德乃餘；
+
+修之於鄉，其德乃長；修之於國，其德乃豐；修之於天下，其德乃普。故以身觀身，以家觀家，以鄉觀鄉，以國觀國，
+
+以天下觀天下。
+
+吾何以知天下然哉？以此。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What (Dao's) skilful planter plants
+
+Can never be uptorn;
+
+What his skilful arms enfold,
+
+From him can never be borne.
+
+Sons shall bring in lengthening line,
+
+Sacrifices to his shrine.
+
+Dao when nursed within one's self,
+
+His vigour will make true;
+
+And where the family it rules
+
+What riches will accrue!
+
+The neighbourhood where it prevails
+
+In thriving will abound;
+
+And when 'tis seen throughout the state,
+
+Good fortune will be found.
+
+Employ it the kingdom o'er,
+
+And men thrive all around.
+
+In this way the effect will be seen in the person, by the observation of different cases; in the family; in the neighbourhood; in the state; and in the kingdom.
+
+How do I know that this effect is sure to hold thus all under the sky? By this (method of observation).</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

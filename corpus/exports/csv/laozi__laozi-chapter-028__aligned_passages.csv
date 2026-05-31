@@ -1,0 +1,50 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-028__align-001,laozi,laozi-chapter-028,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 19 English blocks, 8 Chinese clause units, 20 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 28,"知其雄，守其雌，為天下谿。為天下谿，常德不離，復歸於嬰兒。
+
+知其白，守其黑，為天下式。
+
+為天下式，常德不忒，
+
+復歸於無極。
+
+知其榮，守其辱，為天下谷，常德乃足，復歸於樸。
+
+樸散則為器，聖人用之，則為官長，
+
+故大制不割。",老子 28,"Who knows his manhood's strength,
+
+Yet still his female feebleness maintains;
+
+As to one channel flow the many drains,
+
+All come to him, yea, all beneath the sky.
+
+Thus he the constant excellence retains;
+
+The simple child again, free from all stains.
+
+Who knows how white attracts,
+
+Yet always keeps himself within black's shade,
+
+The pattern of humility displayed,
+
+Displayed in view of all beneath the sky;
+
+He in the unchanging excellence arrayed,
+
+Endless return to man's first state has made.
+
+Who knows how glory shines,
+
+Yet loves disgrace, nor ever for it is pale;
+
+Behold his presence in a spacious vale,
+
+To which men come from all beneath the sky.
+
+The unchanging excellence completes its tale;
+
+The simple infant man in him we hail.
+
+The unwrought material, when divided and distributed, forms vessels. The sage, when employed, becomes the Head of all the Officers (of government); and in his greatest regulations he employs no violent measures."

@@ -111,11 +111,11 @@
     {
       "chintransmem_work_id": "laozi",
       "chinesenotes_paths": ["data/corpus/daodejing.csv", "corpus/daodejing/"],
-      "status": "candidate",
+      "status": "already_ingested",
       "english_coverage": "complete",
       "chinese_coverage": "complete",
-      "preferred_use": "english_witness",
-      "notes": "Staged on 2026-05-31 from data/corpus/daodejing.csv at upstream commit 1f6b1d3e7a40b6886a4b943c898125639e993544: 1 source file found, 81 chapters parsed, 81 chapters with both Chinese and English, 81 safe chapter-level candidate alignments, and 0 blocked sections. No active corpus promotion yet."
+      "preferred_use": "base_text",
+      "notes": "Promoted on 2026-05-31 from data/corpus/daodejing.csv at upstream commit 1f6b1d3e7a40b6886a4b943c898125639e993544: 81 chapters are active in ChinTransMem with 260 exact alignments, 34 chapters refined beyond chapter level, and 47 chapter-level fallbacks carrying explicit coarse_alignment_reason values."
     },
     {
       "chintransmem_work_id": "liezi",

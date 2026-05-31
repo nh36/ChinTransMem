@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-014__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-014</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 14</prop>
+      <prop type="x-translation-ref">老子 14</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 1 English blocks, 9 Chinese clause units, 6 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>視之不見名曰夷，聽之不聞名曰希，搏之不得名曰微。此三者，不可致詰，故混而為一。
+
+其上不皦，其下不昧。繩繩不可名，復歸於無物。是謂無狀之狀，無物之象，
+
+是謂惚恍。
+
+迎之不見其首，隨之不見其後。執古之道，以御今之有。
+
+能知古始，是謂道紀。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We look at it, and we do not see it, and we name it 'the Equable.' We listen to it, and we do not hear it, and we name it 'the Inaudible.' We try to grasp it, and do not get hold of it, and we name it 'the Subtle.' With these three qualities, it cannot be made the subject of description; and hence we blend them together and obtain The One. Its upper part is not bright, and its lower part is not obscure. Ceaseless in its action, it yet cannot be named, and then it again returns and becomes nothing. This is called the Form of the Formless, and the Semblance of the Invisible; this is called the Fleeting and Indeterminable. We meet it and do not see its Front; we follow it, and do not see its Back. When we can lay hold of the Dao of old to direct the things of the present day, and are able to know it as it was of old in the beginning, this is called (unwinding) the clue of Dao.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

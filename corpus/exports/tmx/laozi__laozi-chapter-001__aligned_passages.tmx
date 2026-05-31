@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-001__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1</prop>
+      <prop type="x-translation-ref">老子 1</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 6 English blocks, 5 Chinese clause units, 11 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>道可道、非常道，名可名、非常名；
+
+無名天地之始，有名萬物之母。
+
+故常無欲、以觀其妙，
+
+常有欲、以觀其徼；
+
+此兩者、同出而異名，同謂之玄、玄之又玄、眾妙之門。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Dao that can be trodden is not the enduring and unchanging Dao. The name that can be named is not the enduring and unchanging name. (Conceived of as) having no name, it is the Originator of heaven and earth; (conceived of as) having a name, it is the Mother of all things.
+
+Always without desire we must be found,
+
+If its deep mystery we would sound;
+
+But if desire always within us be,
+
+Its outer fringe is all that we shall see.
+
+Under these two aspects, it is really the same; but as development takes place, it receives the different names. Together we call them the Mystery. Where the Mystery is the deepest is the gate of all that is subtle and wonderful.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

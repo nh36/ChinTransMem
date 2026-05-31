@@ -2,7 +2,7 @@ PYTHON ?= python3
 TEST ?= tests.test_corpus_workflow.CorpusWorkflowTest.test_lunyu_workflow_counts_and_qc
 WORK ?= lunyu
 
-.PHONY: bootstrap-corpus bootstrap-work bootstrap-lunyu bootstrap-mengzi bootstrap-shijing corpus corpus-work pilot init-db import-corpus import-pilot export-corpus export-pilot validate-policy audit-coverage validate-granularity audit-shijing-quality preflight-work validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
+.PHONY: bootstrap-corpus bootstrap-work bootstrap-lunyu bootstrap-mengzi bootstrap-shijing bootstrap-laozi corpus corpus-work pilot init-db import-corpus import-pilot export-corpus export-pilot validate-policy audit-coverage validate-granularity audit-shijing-quality preflight-work validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
 
 bootstrap-corpus:
 	$(PYTHON) scripts/bootstrap_work_corpus.py --skip-fetch
@@ -18,6 +18,9 @@ bootstrap-mengzi:
 
 bootstrap-shijing:
 	$(PYTHON) scripts/bootstrap_shijing_corpus.py --skip-fetch
+
+bootstrap-laozi:
+	$(PYTHON) scripts/bootstrap_laozi_corpus.py --skip-fetch
 
 corpus:
 	$(PYTHON) scripts/corpus_workflow.py --work-id lunyu
@@ -69,9 +72,11 @@ regression:
 	$(MAKE) bootstrap-corpus
 	$(MAKE) validate-policy
 	$(MAKE) corpus
+	$(MAKE) corpus-work WORK=laozi
 	$(MAKE) corpus-work WORK=mengzi
 	$(MAKE) corpus-work WORK=shijing
 	$(MAKE) preflight-work WORK=lunyu
+	$(MAKE) preflight-work WORK=laozi
 	$(MAKE) preflight-work WORK=mengzi
 	$(MAKE) preflight-work WORK=shijing
 	$(MAKE) audit-shijing-quality

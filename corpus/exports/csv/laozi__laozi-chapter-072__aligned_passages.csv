@@ -1,0 +1,18 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-072__align-001,laozi,laozi-chapter-072,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 4 English blocks, 7 Chinese clause units, 5 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 72,"民不畏威，則大威至。無狎其所居，無厭其所生。
+
+夫唯不厭，
+
+是以不厭。
+
+是以聖人自知不自見，
+
+自愛不自貴；
+
+故去彼取此。",老子 72,"When the people do not fear what they ought to fear, that which is their great dread will come on them.
+
+Let them not thoughtlessly indulge themselves in their ordinary life; let them not act as if weary of what that life depends on.
+
+It is by avoiding such indulgence that such weariness does not arise.
+
+Therefore the sage knows (these things) of himself, but does not parade (his knowledge); loves, but does not (appear to set a) value on, himself. And thus he puts the latter alternative away and makes choice of the former."

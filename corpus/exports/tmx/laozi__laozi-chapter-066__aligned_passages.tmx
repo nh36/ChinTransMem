@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-066__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-066</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 66.1</prop>
+      <prop type="x-translation-ref">老子 66.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>江海所以能為百谷王者，以其善下之，故能為百谷王。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>That whereby the rivers and seas are able to receive the homage and tribute of all the valley streams, is their skill in being lower than they; - it is thus that they are the kings of them all.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-066__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-066</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 66.2</prop>
+      <prop type="x-translation-ref">老子 66.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以欲上民，必以言下之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>So it is that the sage (ruler), wishing to be above men, puts himself by his words below them, and, wishing to be before them, places his person behind them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-066__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-066</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 66.3</prop>
+      <prop type="x-translation-ref">老子 66.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>欲先民，必以身後之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In this way though he has his place above them, men do not feel his weight, nor though he has his place before them, do they feel it an injury to them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-066__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-066</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 66.4</prop>
+      <prop type="x-translation-ref">老子 66.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以聖人處上而民不重，處前而民不害。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore all in the world delight to exalt him and do not weary of him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-066__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-066</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 66.5</prop>
+      <prop type="x-translation-ref">老子 66.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以天下樂推而不厭，以其不爭，故天下莫能與之爭。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Because he does not strive, no one finds it possible to strive with him.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

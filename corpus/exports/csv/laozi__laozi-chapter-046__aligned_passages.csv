@@ -1,0 +1,8 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-046__align-001,laozi,laozi-chapter-046,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 2 English blocks, 5 Chinese clause units, 4 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 46,"天下有道，卻走馬以糞。
+
+天下無道，戎馬生於郊。
+
+〉禍莫大於不知足；咎莫大於欲得。故知足之足，常足矣。",老子 46,"When the Dao prevails in the world, they send back their swift horses to (draw) the dung- carts. When the Dao is disregarded in the world, the war-horses breed in the border lands.
+
+There is no guilt greater than to sanction ambition; no calamity greater than to be discontented with one's lot; no fault greater than the wish to be getting. Therefore the sufficiency of contentment is an enduring and unchanging sufficiency."

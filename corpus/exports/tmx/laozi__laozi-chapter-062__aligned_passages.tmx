@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-062__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-062</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 62.1</prop>
+      <prop type="x-translation-ref">老子 62.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>道者萬物之奧。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Dao has of all things the most honoured place.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-062__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-062</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 62.2</prop>
+      <prop type="x-translation-ref">老子 62.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>善人之寶，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>No treasures give good men so rich a grace;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-062__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-062</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 62.3</prop>
+      <prop type="x-translation-ref">老子 62.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不善人之所保。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bad men it guards, and doth their ill efface.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-062__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-062</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 62.4</prop>
+      <prop type="x-translation-ref">老子 62.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>美言可以市，尊行可以加人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(Its) admirable words can purchase honour;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-062__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-062</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 62.5</prop>
+      <prop type="x-translation-ref">老子 62.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>人之不善，何棄之有？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(its) admirable deeds can raise their performer above others.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-062__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-062</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 62.6</prop>
+      <prop type="x-translation-ref">老子 62.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故立天子，置三公，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Even men who are not good are not abandoned by it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-062__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-062</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 62.7</prop>
+      <prop type="x-translation-ref">老子 62.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>雖有拱璧以先駟馬，不如坐進此道。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore when the sovereign occupies his place as the Son of Heaven, and he has appointed his three ducal ministers, though (a prince) were to send in a round symbol-of-rank large enough to fill both the hands, and that as the precursor of the team of horses (in the court-yard), such an offering would not be equal to (a lesson of) this Dao, which one might present on his knees.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-062__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-062</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 62.8</prop>
+      <prop type="x-translation-ref">老子 62.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>古之所以貴此道者何？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Why was it that the ancients prized this Dao so much?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-062__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-062</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 62.9</prop>
+      <prop type="x-translation-ref">老子 62.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不曰以求得，有罪以免邪？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Was it not because it could be got by seeking for it, and the guilty could escape (from the stain of their guilt) by it?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-062__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-062</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 62.10</prop>
+      <prop type="x-translation-ref">老子 62.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故為天下貴。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>This is the reason why all under heaven consider it the most valuable thing.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

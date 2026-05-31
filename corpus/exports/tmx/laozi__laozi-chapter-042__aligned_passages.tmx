@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-042__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-042</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 42.1</prop>
+      <prop type="x-translation-ref">老子 42.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>道生一，一生二，二生三，三生萬物。萬物負陰而抱陽，沖氣以為和。人之所惡，唯孤﹑寡﹑不穀，而王公以為稱。故物或損之而益，或益之而損。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Dao produced One; One produced Two; Two produced Three; Three produced All things. All things leave behind them the Obscurity (out of which they have come), and go forward to embrace the Brightness (into which they have emerged), while they are harmonised by the Breath of Vacancy.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-042__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-042</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 42.2</prop>
+      <prop type="x-translation-ref">老子 42.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>人之所教，我亦教之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What men dislike is to be orphans, to have little virtue, to be as carriages without naves; and yet these are the designations which kings and princes use for themselves. So it is that some things are increased by being diminished, and others are diminished by being increased.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-042__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-042</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 42.3</prop>
+      <prop type="x-translation-ref">老子 42.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>強梁者不得其死，吾將以為教父。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What other men (thus) teach, I also teach. The violent and strong do not die their natural death. I will make this the basis of my teaching.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

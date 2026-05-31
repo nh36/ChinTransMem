@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-032__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-032</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 32.1</prop>
+      <prop type="x-translation-ref">老子 32.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>道常無名，樸雖小，天下莫能臣也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Dao, considered as unchanging, has no name.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-032__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-032</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 32.2</prop>
+      <prop type="x-translation-ref">老子 32.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>侯王若能守之，萬物將自賓。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Though in its primordial simplicity it may be small, the whole world dares not deal with (one embodying) it as a minister. If a feudal prince or the king could guard and hold it, all would spontaneously submit themselves to him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-032__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-032</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 32.3</prop>
+      <prop type="x-translation-ref">老子 32.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天地相合，以降甘露，民莫之令而自均。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heaven and Earth (under its guidance) unite together and send down the sweet dew, which, without the directions of men, reaches equally everywhere as of its own accord.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-032__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-032</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 32.4</prop>
+      <prop type="x-translation-ref">老子 32.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>始制有名，名亦既有，夫亦將知止，知止所以不殆。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>As soon as it proceeds to action, it has a name. When it once has that name, (men) can know to rest in it. When they know to rest in it, they can be free from all risk of failure and error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-032__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-032</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 32.5</prop>
+      <prop type="x-translation-ref">老子 32.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>譬道之在天下，猶川谷之於江海。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The relation of the Dao to all the world is like that of the great rivers and seas to the streams from the valleys.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

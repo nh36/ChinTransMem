@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-013__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-013</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 13</prop>
+      <prop type="x-translation-ref">老子 13</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 1 English blocks, 9 Chinese clause units, 7 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>寵辱若驚，貴大患若身。何謂寵辱若驚？寵為下，得之若驚，失之若驚，是謂寵辱若驚。
+
+何謂貴大患若身？
+
+吾所以有大患者，為吾有身，
+
+及吾無身，
+
+吾有何患？故貴以身為天下，若可寄天下；
+
+愛以身為天下，若可託天下。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Favour and disgrace would seem equally to be feared; honour and great calamity, to be regarded as personal conditions (of the same kind). What is meant by speaking thus of favour and disgrace? Disgrace is being in a low position (after the enjoyment of favour). The getting that (favour) leads to the apprehension (of losing it), and the losing it leads to the fear of (still greater calamity) - this is what is meant by saying that favour and disgrace would seem equally to be feared. And what is meant by saying that honour and great calamity are to be (similarly) regarded as personal conditions? What makes me liable to great calamity is my having the body (which I call myself); if I had not the body, what great calamity could come to me? Therefore he who would administer the kingdom, honouring it as he honours his own person, may be employed to govern it, and he who would administer it with the love which he bears to his own person may be entrusted with it.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

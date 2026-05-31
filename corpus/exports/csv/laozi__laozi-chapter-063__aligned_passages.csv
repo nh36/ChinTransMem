@@ -1,0 +1,12 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-063__align-001,laozi,laozi-chapter-063,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 3 English blocks, 8 Chinese clause units, 6 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 63,"為無為，事無事，味無味。
+
+大小多少，報怨以德。
+
+圖難於其易，為大於其細；天下難事必作於易，天下大事必作於細。是以聖人終不為大，故能成其大。夫輕諾必寡信，多易必多難。是以聖人猶難之，
+
+故終無難矣",老子 63,"(It is the way of the Dao) to act without (thinking of) acting; to conduct affairs without (feeling the) trouble of them; to taste without discerning any flavour; to consider what is small as great, and a few as many; and to recompense injury with kindness.
+
+(The master of it) anticipates things that are difficult while they are easy, and does things that would become great while they are small. All difficult things in the world are sure to arise from a previous state in which they were easy, and all great things from one in which they were small. Therefore the sage, while he never does what is great, is able on that account to accomplish the greatest things.
+
+He who lightly promises is sure to keep but little faith; he who is continually thinking things easy is sure to find them difficult. Therefore the sage sees difficulty even in what seems easy, and so never has any difficulties."

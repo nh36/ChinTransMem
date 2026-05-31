@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-030__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-030</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 30</prop>
+      <prop type="x-translation-ref">老子 30</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 4 English blocks, 8 Chinese clause units, 10 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以道佐人主者，不以兵強天下。
+
+其事好還。
+
+師之所處，荊棘生焉。大軍之後，必有凶年。
+
+善有果而已，不敢以取強。
+
+果而勿矜，果而勿伐，果而勿驕。
+
+果而不得已，果而勿強。
+
+物壯則老，是謂不道，不道早已。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who would assist a lord of men in harmony with the Dao will not assert his mastery in the kingdom by force of arms. Such a course is sure to meet with its proper return.
+
+Wherever a host is stationed, briars and thorns spring up. In the sequence of great armies there are sure to be bad years.
+
+A skilful (commander) strikes a decisive blow, and stops. He does not dare (by continuing his operations) to assert and complete his mastery. He will strike the blow, but will be on his guard against being vain or boastful or arrogant in consequence of it. He strikes it as a matter of necessity; he strikes it, but not from a wish for mastery.
+
+When things have attained their strong maturity they become old. This may be said to be not in accordance with the Dao: and what is not in accordance with it soon comes to an end.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-020__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.1</prop>
+      <prop type="x-translation-ref">老子 20.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>絕學無憂，唯之與阿，相去幾何？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When we renounce learning we have no troubles.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.2</prop>
+      <prop type="x-translation-ref">老子 20.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>善之與惡，相去若何？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The (ready) 'yes,' and (flattering) 'yea;'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.3</prop>
+      <prop type="x-translation-ref">老子 20.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>人之所畏，不可不畏。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Small is the difference they display.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.4</prop>
+      <prop type="x-translation-ref">老子 20.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>荒兮其未央哉﹗</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>But mark their issues, good and ill;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.5</prop>
+      <prop type="x-translation-ref">老子 20.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>眾人熙熙，如享太牢，如春登臺。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What space the gulf between shall fill?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.6</prop>
+      <prop type="x-translation-ref">老子 20.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我獨泊兮其未兆，如嬰兒之未孩；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What all men fear is indeed to be feared; but how wide and without end is the range of questions (asking to be discussed)!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.7</prop>
+      <prop type="x-translation-ref">老子 20.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>儽儽兮若無所歸。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The multitude of men look satisfied and pleased; as if enjoying a full banquet, as if mounted on a tower in spring.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.8</prop>
+      <prop type="x-translation-ref">老子 20.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>眾人皆有餘，而我獨若遺。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I alone seem listless and still, my desires having as yet given no indication of their presence.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.9</prop>
+      <prop type="x-translation-ref">老子 20.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我愚人之心也哉﹗</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I am like an infant which has not yet smiled.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.10</prop>
+      <prop type="x-translation-ref">老子 20.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>沌沌兮，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I look dejected and forlorn, as if I had no home to go to.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.11</prop>
+      <prop type="x-translation-ref">老子 20.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>俗人昭昭，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The multitude of men all have enough and to spare.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-012">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.12</prop>
+      <prop type="x-translation-ref">老子 20.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我獨昏昏。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I alone seem to have lost everything.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-013">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.13</prop>
+      <prop type="x-translation-ref">老子 20.13</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>俗人察察，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>My mind is that of a stupid man;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-014">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.14</prop>
+      <prop type="x-translation-ref">老子 20.14</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我獨悶悶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I am in a state of chaos.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-015">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.15</prop>
+      <prop type="x-translation-ref">老子 20.15</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>澹兮其若海，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ordinary men look bright and intelligent, while I alone seem to be benighted.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-016">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.16</prop>
+      <prop type="x-translation-ref">老子 20.16</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>飂兮若無止。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>They look full of discrimination, while I alone am dull and confused.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-017">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.17</prop>
+      <prop type="x-translation-ref">老子 20.17</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>眾人皆有以，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I seem to be carried about as on the sea, drifting as if I had nowhere to rest.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-018">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.18</prop>
+      <prop type="x-translation-ref">老子 20.18</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>而我獨頑似鄙。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All men have their spheres of action, while I alone seem dull and incapable, like a rude borderer.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-020__align-019">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-020</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 20.19</prop>
+      <prop type="x-translation-ref">老子 20.19</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我獨異於人，而貴食母。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(Thus) I alone am different from other men, but I value the nursing-mother (the Dao).</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -120,14 +120,14 @@ class ChineseNotesIngestionTest(unittest.TestCase):
         self.assertEqual(manifest["summary"]["source_files_found"], 2)
         self.assertEqual(works_before, works_after)
 
-    def test_committed_staging_outputs_exist_without_new_active_work(self) -> None:
+    def test_committed_staging_outputs_coexist_with_promoted_active_work(self) -> None:
         manifest = load_json_compatible_yaml(REPO_ROOT / "corpus" / "staging" / "chinesenotes" / "laozi" / "staging_manifest.yml")
         report = load_json_compatible_yaml(REPO_ROOT / "logs" / "qc_reports" / "chinesenotes__laozi__staging_report.json")
         work_ids = {work["work_id"] for work in load_json_compatible_yaml(REPO_ROOT / "metadata" / "works.yml")}
 
         self.assertEqual(manifest["work_id"], "laozi")
         self.assertEqual(report["work_id"], "laozi")
-        self.assertNotIn("laozi", work_ids)
+        self.assertIn("laozi", work_ids)
         self.assertEqual(report["summary"]["source_files_found"], 1)
         self.assertEqual(report["summary"]["sections_detected"], 81)
         self.assertEqual(report["summary"]["sections_with_chinese"], 81)

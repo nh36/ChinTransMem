@@ -12,7 +12,7 @@
   "counts": {
     "works": 1,
     "sections": 20,
-    "persons": 4,
+    "persons": 5,
     "sources": 40,
     "segments": 1002,
     "alignments": 521
@@ -240,8 +240,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "856aa247ad520757f5e5b736cc98f0c1763418112e5e50f9cdce8def9bffed21",
-    "metadata/sources.yml": "3cd501cd6135f7e234d97245695f90a34bbf97c189457ee3ffba83d8be682cb3",
+    "metadata/sections.yml": "2630312b87da94896630bdbeeaa4935959b71e4f83a67f49a8caa65f55c41855",
+    "metadata/sources.yml": "7f63b13237a3b9746a8aee8ff33e712560e2f2639005be6acd1d644bd2f56366",
     "metadata/manifests/lunyu.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
     "metadata/corpus_manifest.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
     "corpus/exports/jsonl/lunyu__book-01-xueer__aligned_passages.jsonl": "dd599a60e11c5d52cf335d8f830fef872fc91f5033ff091f72ba6eff16faab64",
@@ -328,5 +328,15 @@
     "corpus/exports/csv/lunyu__all__aligned_passages.csv": "f56ade1e15286258393244cc21f464eda15d119279f27a0fc34953555cd652a6",
     "corpus/exports/tmx/lunyu__all__aligned_passages.tmx": "9caeaae41de550a9f51dc858d979f3e23da1701205a592237bf89a12ed73400c",
     "logs/qc_reports/lunyu__corpus_tmx_validation.json": "a4e3412e8f610ed96fa06721b418d6b19b5f01fed41efc1f0ca7b2f222fd3d54"
-  }
+  },
+  "text_integrity": {
+    "empty_source_sections": [],
+    "empty_translation_sections": [],
+    "translation_with_chinese_sections": [],
+    "translation_with_notice_sections": [],
+    "translation_with_commentary_sections": [],
+    "translation_with_heading_sections": [],
+    "hard_failure_count": 0
+  },
+  "hard_failure_count": 0
 }

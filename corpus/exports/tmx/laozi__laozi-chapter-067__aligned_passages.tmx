@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-laozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="laozi-chapter-067__align-001">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">chapter</prop>
+      <prop type="x-alignment-granularity">chapter</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 67</prop>
+      <prop type="x-translation-ref">老子 67</prop>
+      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 5 English blocks, 13 Chinese clause units, 9 English clause units).</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天下皆謂我道大，似不肖。夫唯大，故似不肖。若肖，久矣其細也夫！
+
+我有三寶，持而保之。一曰慈，二曰儉，三曰不敢為天下先。慈故能勇，
+
+儉故能廣，
+
+不敢為天下先，故能成器長。
+
+今舍慈且勇，
+
+舍儉且廣，舍後且先，死矣！夫慈以戰則勝，
+
+以守則固。天將救之，以慈衛之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All the world says that, while my Dao is great, it yet appears to be inferior (to other systems of teaching).
+
+Now it is just its greatness that makes it seem to be inferior. If it were like any other (system), for long would its smallness have been known!
+
+But I have three precious things which I prize and hold fast. The first is gentleness; the second is economy; and the third is shrinking from taking precedence of others.
+
+With that gentleness I can be bold; with that economy I can be liberal; shrinking from taking precedence of others, I can become a vessel of the highest honour. Now-a-days they give up gentleness and are all for being bold; economy, and are all for being liberal; the hindmost place, and seek only to be foremost; - (of all which the end is) death.
+
+Gentleness is sure to be victorious even in battle, and firmly to maintain its ground. Heaven will save its possessor, by his (very) gentleness protecting him.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

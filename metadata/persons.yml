@@ -34,5 +34,14 @@
       "compiler"
     ],
     "notes": "Authority string for 詩經 captures the transmitted anthology rather than a single named modern editor."
+  },
+  {
+    "person_id": "laozi-tradition",
+    "display_name": "《老子》傳世編者",
+    "romanized_name": "Transmitters of the Laozi",
+    "roles": [
+      "compiler"
+    ],
+    "notes": "Authority string for 老子 treats the received text as a transmitted classical work rather than naming a single modern editor."
   }
 ]

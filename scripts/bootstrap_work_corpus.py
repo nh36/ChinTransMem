@@ -34,10 +34,13 @@ def _manifest_sections(manifest: dict[str, Any]) -> list[dict[str, Any]]:
                 "section_id": section["section_id"],
                 "work_id": manifest["work_id"],
                 "parent_section_id": section.get("parent_section_id"),
-                "label": section["label"],
+                "label": section.get("label", section.get("title", section["section_id"])),
                 "canonical_ref": section["canonical_ref"],
                 "sort_key": section["sort_key"],
-                "notes": section.get("notes", f"Metadata skeleton for {section['label']}."),
+                "notes": section.get(
+                    "notes",
+                    f"Metadata skeleton for {section.get('label', section.get('title', section['section_id']))}.",
+                ),
             }
         )
     return sections
@@ -95,7 +98,6 @@ def _merge_ingestion_log(records_by_work: list[tuple[str, list[dict[str, Any]]]]
 
 
 def bootstrap_work(work_id: str, *, skip_fetch: bool = False) -> dict[str, Any]:
-    manifest = load_work_manifest(work_id)
     if work_id == "lunyu":
         from bootstrap_lunyu_corpus import bootstrap_corpus as bootstrap_lunyu_corpus
 
@@ -137,6 +139,22 @@ def bootstrap_work(work_id: str, *, skip_fetch: bool = False) -> dict[str, Any]:
             "aliases": list(manifest.get("romanization_aliases", [])),
             "ingestion_log": list(manifest.get("ingestion_log", [])),
         }
+    if work_id == "laozi":
+        from bootstrap_laozi_corpus import bootstrap_corpus as bootstrap_laozi_corpus
+
+        summary = bootstrap_laozi_corpus(skip_fetch=skip_fetch)
+        manifest = load_work_manifest(work_id)
+        return {
+            "work_id": work_id,
+            "summary": summary,
+            "manifest": manifest,
+            "sections": _manifest_sections(manifest),
+            "sources": list(manifest.get("sources", [])),
+            "aliases": list(manifest.get("romanization_aliases", [])),
+            "ingestion_log": list(manifest.get("ingestion_log", [])),
+        }
+
+    manifest = load_work_manifest(work_id)
 
     return {
         "work_id": work_id,

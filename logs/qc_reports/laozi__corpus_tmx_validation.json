@@ -1,0 +1,745 @@
+{
+  "status": "pass",
+  "work_id": "laozi",
+  "section_count": 81,
+  "sections": [
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-001__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-001",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-002__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-002",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-003__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-003",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-004__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-004",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-005__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-005",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-006__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-006",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-007__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-007",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-008__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-008",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-009__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-009",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-010__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-010",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-011__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-011",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-012__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-012",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-013__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-013",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-014__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-014",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-015__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-015",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-016__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-016",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-017__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-017",
+      "tu_count": 6,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-018__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-018",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-019__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-019",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-020__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-020",
+      "tu_count": 19,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-021__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-021",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-022__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-022",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-023__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-023",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-024__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-024",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-025__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-025",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-026__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-026",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-027__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-027",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-028__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-028",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-029__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-029",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-030__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-030",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-031__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-031",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-032__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-032",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-033__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-033",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-034__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-034",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-035__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-035",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-036__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-036",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-037__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-037",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-038__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-038",
+      "tu_count": 11,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-039__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-039",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-040__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-040",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-041__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-041",
+      "tu_count": 15,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-042__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-042",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-043__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-043",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-044__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-044",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-045__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-045",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-046__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-046",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-047__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-047",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-048__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-048",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-049__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-049",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-050__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-050",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-051__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-051",
+      "tu_count": 6,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-052__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-052",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-053__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-053",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-054__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-054",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-055__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-055",
+      "tu_count": 12,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-056__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-056",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-057__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-057",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-058__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-058",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-059__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-059",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-060__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-060",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-061__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-061",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-062__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-062",
+      "tu_count": 10,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-063__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-063",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-064__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-064",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-065__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-065",
+      "tu_count": 6,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-066__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-066",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-067__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-067",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-068__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-068",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-069__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-069",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-070__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-070",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-071__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-071",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-072__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-072",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-073__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-073",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-074__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-074",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-075__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-075",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-076__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-076",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-077__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-077",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-078__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-078",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-079__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-079",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-080__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-080",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__laozi-chapter-081__aligned_passages.tmx",
+      "work_id": "laozi",
+      "section_id": "laozi-chapter-081",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    }
+  ],
+  "corpus": {
+    "status": "pass",
+    "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/laozi__all__aligned_passages.tmx",
+    "work_id": "laozi",
+    "section_id": null,
+    "tu_count": 260,
+    "source_language": "zh-Hant",
+    "target_language": "en"
+  }
+}

@@ -25,5 +25,14 @@
     "language_code": "zh-Hant",
     "default_citation": "詩經",
     "notes": "Full extant public-domain Shijing corpus aligned against James Legge's public-domain witnesses. The corpus model excludes the six traditional title-only/lost-text Xiaoya placeholders because they have no poem text."
+  },
+  {
+    "work_id": "laozi",
+    "canonical_title": "老子",
+    "english_title": "Dao De Jing",
+    "work_type": "classical_text",
+    "language_code": "zh-Hant",
+    "default_citation": "老子",
+    "notes": "Active Laozi corpus promoted from the ChineseNotes bilingual Daodejing mirror, with ChineseNotes provenance, James Legge 1891 attribution, deterministic fine-grained alignment where safe, and explicit chapter-level fallback reasons where refinement remained unsafe."
   }
 ]

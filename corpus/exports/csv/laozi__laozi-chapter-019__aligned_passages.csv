@@ -1,0 +1,12 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+laozi-chapter-019__align-001,laozi,laozi-chapter-019,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 6 English blocks, 4 Chinese clause units, 8 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 19,絕聖棄智，民利百倍；絕仁棄義，民復孝慈；絕巧棄利，盜賊無有。此三者以為文不足，故令有所屬﹕見素抱樸，少私寡欲。,老子 19,"If we could renounce our sageness and discard our wisdom, it would be better for the people a hundredfold. If we could renounce our benevolence and discard our righteousness, the people would again become filial and kindly. If we could renounce our artful contrivances and discard our (scheming for) gain, there would be no thieves nor robbers.
+
+Those three methods (of government)
+
+Thought olden ways in elegance did fail
+
+And made these names their want of worth to veil;
+
+But simple views, and courses plain and true
+
+Would selfish ends and many lusts eschew."
