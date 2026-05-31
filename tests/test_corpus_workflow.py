@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from contextlib import closing
 import sqlite3
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -269,10 +270,10 @@ class CorpusWorkflowTest(unittest.TestCase):
             )
             self.assertEqual(expected_exact_alignment_counts[DEFAULT_WORK_ID], 501)
             self.assertEqual(expected_exact_alignment_counts["mengzi"], 260)
-            self.assertEqual(expected_section_counts["shijing"], 311)
+            self.assertEqual(expected_section_counts["shijing"], 305)
             self.assertEqual(manifests["shijing"]["summary"]["extant_poem_count"], 305)
-            self.assertGreaterEqual(expected_complete_section_counts["shijing"], 123)
-            self.assertGreaterEqual(expected_exact_alignment_counts["shijing"], 270)
+            self.assertEqual(expected_complete_section_counts["shijing"], 305)
+            self.assertGreaterEqual(expected_exact_alignment_counts["shijing"], 757)
             self.assertEqual(
                 manifests["shijing"]["summary"]["metadata_only_sections"] + expected_complete_section_counts["shijing"],
                 expected_section_counts["shijing"],
@@ -375,13 +376,14 @@ class CorpusWorkflowTest(unittest.TestCase):
         hard_word_minimum = quality_report["thresholds"]["hard_english_word_minimum"]
         hard_ratio_maximum = quality_report["thresholds"]["hard_english_to_chinese_ratio_high_threshold"]
         self.assertEqual(quality_report["work_id"], "shijing")
-        self.assertEqual(manifest["summary"]["section_count"], 311)
+        self.assertEqual(manifest["summary"]["section_count"], 305)
         self.assertEqual(manifest["summary"]["extant_poem_count"], 305)
         self.assertEqual(quality_report["summary"]["complete_sections"], manifest["summary"]["complete_sections"])
         self.assertEqual(quality_report["summary"]["metadata_only_sections"], manifest["summary"]["metadata_only_sections"])
+        self.assertEqual(quality_report["summary"]["title_only_lost_text_entries"], 0)
         self.assertEqual(quality_report["summary"]["exact_alignment_count"], manifest["summary"]["exact_alignment_count"])
-        self.assertGreaterEqual(quality_report["summary"]["complete_sections"], 163)
-        self.assertGreaterEqual(quality_report["summary"]["exact_alignment_count"], 392)
+        self.assertEqual(quality_report["summary"]["complete_sections"], 305)
+        self.assertGreaterEqual(quality_report["summary"]["exact_alignment_count"], 757)
         self.assertGreaterEqual(quality_report["progress"]["all_human_verified_ocr_sections"], 60)
         self.assertEqual(quality_report["hard_failure_count"], 0)
         self.assertEqual(quality_report["summary"]["sections_needing_human_text_review"], 0)
@@ -608,17 +610,20 @@ class CorpusWorkflowTest(unittest.TestCase):
         for heading in (
             "# Shijing unresolved witness report",
             "## Remaining non-exportable extant poems",
-            "## Title-only / lost-text canonical entries",
         ):
             self.assertIn(heading, unresolved_markdown)
+        self.assertNotIn("## Title-only / lost-text canonical entries", unresolved_markdown)
         recovery_plan_markdown = (REPO_ROOT / "documentation" / "shijing_last20_recovery_plan.md").read_text(
             encoding="utf-8"
         )
         manual_paste_template = (REPO_ROOT / "documentation" / "shijing_manual_paste_template.md").read_text(
             encoding="utf-8"
         )
+        final_status_markdown = (REPO_ROOT / "documentation" / "shijing_final_status.md").read_text(encoding="utf-8")
         self.assertIn("# Shijing last-20 recovery plan", recovery_plan_markdown)
         self.assertIn("# Shijing manual paste template", manual_paste_template)
+        self.assertIn("All **305 Shijing poems are exportable**.", final_status_markdown)
+        self.assertIn("do not belong in the translation memory bank", final_status_markdown)
         self.assertIn("scratch/shijing_last20_manual_paste/", manual_paste_template)
         self.assertTrue((REPO_ROOT / "scratch" / "shijing_last20_manual_paste").is_dir())
 
@@ -748,5 +753,34 @@ class CorpusWorkflowTest(unittest.TestCase):
             all(
                 not any(character.isascii() and character.isalpha() for character in row["translation_ref"])
                 for row in reviewed_ocr_rows
+            )
+        )
+
+    def test_local_binary_source_files_are_not_tracked(self) -> None:
+        local_source_inventory = load_json_compatible_yaml(METADATA_DIR / "local_source_inventory.yml")
+        self.assertEqual(
+            {collection["collection_id"] for collection in local_source_inventory["collections"]},
+            {"shiji-local-binaries", "watson-local-binaries"},
+        )
+        tracked_files = subprocess.run(
+            ["git", "--no-pager", "ls-files"],
+            cwd=REPO_ROOT,
+            check=True,
+            capture_output=True,
+            text=True,
+        ).stdout.splitlines()
+        self.assertFalse(any(path.startswith(".playwright-mcp/") for path in tracked_files))
+        self.assertFalse(
+            any(
+                path.startswith("corpus/raw/")
+                and path.lower().endswith((".pdf", ".epub", ".mobi"))
+                for path in tracked_files
+            )
+        )
+        self.assertFalse(
+            any(
+                path.startswith("corpus/raw/")
+                and ("Anna" in path or "Archive" in path or "Anna’s" in path)
+                for path in tracked_files
             )
         )

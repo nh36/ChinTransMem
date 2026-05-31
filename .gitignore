@@ -4,3 +4,6 @@ __pycache__/
 db/*.sqlite3
 db/*.sqlite3-*
 corpus/raw/internet_archive/legge-sheking-1871-part-2__hocr.html
+.playwright-mcp/
+corpus/raw/Shiji/
+corpus/raw/Watson/

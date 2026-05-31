@@ -29,12 +29,7 @@ class ApiTest(unittest.TestCase):
         shijing_manifest = load_work_manifest("shijing")
         first_section = lunyu_manifest["sections"][0]
         first_mengzi_section = mengzi_manifest["sections"][0]
-        first_complete_shijing_section = next(
-            section for section in shijing_manifest["sections"] if section["status"] == "complete"
-        )
-        first_metadata_only_shijing_section = next(
-            section for section in shijing_manifest["sections"] if section["status"] != "complete"
-        )
+        first_shijing_section = shijing_manifest["sections"][0]
 
         with tempfile.TemporaryDirectory() as temp_dir:
             db_path = Path(temp_dir) / "corpus.sqlite3"
@@ -61,10 +56,7 @@ class ApiTest(unittest.TestCase):
                     f"{base_url}/works/mengzi/sections/{first_mengzi_section['section_id']}/passages"
                 )
                 shijing_passages = self._get_json(
-                    f"{base_url}/works/shijing/sections/{first_complete_shijing_section['section_id']}/passages"
-                )
-                shijing_metadata_only_passages = self._get_json(
-                    f"{base_url}/works/shijing/sections/{first_metadata_only_shijing_section['section_id']}/passages"
+                    f"{base_url}/works/shijing/sections/{first_shijing_section['section_id']}/passages"
                 )
                 compatibility_passages = self._get_json(f"{base_url}/sections/{first_section['section_id']}/passages")
             finally:
@@ -89,13 +81,11 @@ class ApiTest(unittest.TestCase):
         self.assertEqual(mengzi_passages["section_id"], first_mengzi_section["section_id"])
         self.assertEqual(len(mengzi_passages["rows"]), first_mengzi_section["expected_exact_alignment_count"])
         self.assertEqual(shijing_passages["work_id"], "shijing")
-        self.assertEqual(shijing_passages["section_id"], first_complete_shijing_section["section_id"])
-        self.assertEqual(len(shijing_passages["rows"]), first_complete_shijing_section["expected_exact_alignment_count"])
-        self.assertEqual(shijing_metadata_only_passages["work_id"], "shijing")
-        self.assertEqual(shijing_metadata_only_passages["section_id"], first_metadata_only_shijing_section["section_id"])
-        self.assertEqual(len(shijing_metadata_only_passages["rows"]), 0)
+        self.assertEqual(shijing_passages["section_id"], first_shijing_section["section_id"])
+        self.assertEqual(len(shijing_passages["rows"]), first_shijing_section["expected_exact_alignment_count"])
         self.assertEqual(shijing_sections["sections"][0]["section_unit"], "poem")
         self.assertIn("coverage_status", shijing_sections["sections"][0])
+        self.assertTrue(all(section["status"] == "complete" for section in shijing_sections["sections"]))
         self.assertEqual(compatibility_passages["section_id"], first_section["section_id"])
         self.assertEqual(len(compatibility_passages["rows"]), first_section["expected_exact_alignment_count"])
 

@@ -42,7 +42,8 @@
   ],
   "allowed_missing_text_policies": [
     "retain_metadata_only_sections_until_clean_public_domain_witnesses_exist",
-    "retain_title_only_or_unverified_units_as_metadata_only_and_non_exportable"
+    "retain_title_only_or_unverified_units_as_metadata_only_and_non_exportable",
+    "exclude_title_only_units_without_poem_text_from_corpus_model"
   ],
   "allowed_commentary_policies": [
     "exclude_commentary_and_notes_from_exact_alignments_and_tmx"

@@ -6,16 +6,16 @@ This report complements the structural preflight checks with verification-ledger
 
 | Metric | Count |
 | --- | ---: |
-| section_count | 311 |
+| section_count | 305 |
 | extant_poem_count | 305 |
 | exportable_extant_poems | 305 |
 | non_exportable_extant_poems | 0 |
-| title_only_lost_text_entries | 6 |
+| title_only_lost_text_entries | 0 |
 | remaining_likely_repairable_cases | 0 |
 | remaining_needs_better_witness_cases | 0 |
 | remaining_known_unrecoverable_cases | 0 |
 | complete_sections | 305 |
-| metadata_only_sections | 6 |
+| metadata_only_sections | 0 |
 | non_exportable_extant_sections | 0 |
 | exact_alignment_count | 757 |
 | ocr_or_fulltext_derived_sections | 202 |
@@ -36,7 +36,7 @@ This report complements the structural preflight checks with verification-ledger
 | total_extant_poems | 305 |
 | verified_exportable_poems | 305 |
 | non_exportable_extant_poems | 0 |
-| title_only_lost_text_entries | 6 |
+| title_only_lost_text_entries | 0 |
 | all_human_verified_ocr_sections | 182 |
 | non_exportable_repair_queue_remaining | 0 |
 | current_repair_batch | 2026-05-31-11-shijing-chinesenotes-recovery |

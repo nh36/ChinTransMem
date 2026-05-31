@@ -1,6 +1,6 @@
 # Shijing last-20 recovery plan
 
-This document now records the completed 2026-05-31 last-20 recovery sprint. All **305 extant _Shijing_ poems are exportable**. The only remaining metadata-only records are the six canonical title-only/lost-text entries documented in `documentation/shijing_unresolved_witness_report.md`.
+This document now records the completed 2026-05-31 last-20 recovery sprint. All **305 extant _Shijing_ poems are exportable**. The corpus model excludes the six traditional title-only/lost-text Xiaoya placeholders because they have no poem text and are outside the translation memory bank.
 
 ## Witness search snapshot
 

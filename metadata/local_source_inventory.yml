@@ -1,0 +1,40 @@
+{
+  "collections": [
+    {
+      "collection_id": "shiji-local-binaries",
+      "relative_dir": "corpus/raw/Shiji",
+      "tracked_by_git": false,
+      "notes": "Local-only binary source folder kept out of Git history. Preserve access locally, but do not track raw PDFs/EPUBs in this repository.",
+      "known_files": [
+        "Shiji 01.pdf",
+        "Shiji 05 part 1.pdf",
+        "Shiji 07.pdf",
+        "Shiji 08.pdf",
+        "Shiji 09.pdf",
+        "Shiji 10.epub",
+        "Shiji 11.epub"
+      ]
+    },
+    {
+      "collection_id": "watson-local-binaries",
+      "relative_dir": "corpus/raw/Watson",
+      "tracked_by_git": false,
+      "notes": "Local-only binary source folder kept out of Git history. Preserve local source awareness here rather than by tracking Anna's Archive or other raw binary filenames under corpus/raw/.",
+      "known_files": [
+        "Han Feizi (Translations from the Asian Classics) -- Han Fei Tzu_;Watson, Burton -- Translations from the Asian Classics, 2012 -- Lightning Source Inc_ -- 082c5f212311e8fa261a63d6b6e01a91 -- Anna’s Archive.mobi",
+        "Hsun Tzu -- burton watson -- columbia university press -- c39ef96df89523879282598ed5bdd4ac -- Anna’s Archive.pdf",
+        "Records of the Grand Historian of China_ Translated from the -- burton watson -- 1961 -- 50ceddb3aa5e7b5aa4a49066fbf210dc -- Anna’s Archive.pdf",
+        "Records of the Grand Historian_ Han Dynasty I -- Burton Watson; Chien Ssu-Ma; Sima Quian -- Records of civilization sources and studies no_ 65_; -- isbn13 9780231081641 -- 2f75ed120df9b958c12a756c175424be -- Anna’s A.pdf",
+        "Records of the Grand Historian_ Qin dynasty -- Watson, Burton, Sima, Qian -- United States, 2011 -- Research Centre for Translation, Chinese -- isbn13 9780231081672 -- 2784710501af42e1ff1bdc1ea3376420 -- Anna’s Archi.pdf",
+        "Records of the grand historian of China_ Volume 1, Early -- Sima Qian(Author), Burton Watson(Translator) , Ch'ien, -- Records of civilization sources -- isbn13 9780231081641 -- bfa420d4ecbfad4fb21d6534bf8db9fa -- Anna.mobi",
+        "The Complete Works of Zhuangzi (Translations from the Asian -- Watson, Burton;Zhuang, Zhou -- Translations from the Asian Classics, 2013 -- Lightning -- 2d42abbc0faf780c6e2453d337652556 -- Anna’s Archive(1).mobi",
+        "The Complete Works of Zhuangzi (Translations from the Asian -- Watson, Burton;Zhuang, Zhou -- Translations from the Asian Classics, 2013 -- Lightning -- 2d42abbc0faf780c6e2453d337652556 -- Anna’s Archive.mobi",
+        "The Complete Works of Zhuangzi (Translations from the Asian -- Watson, Burton;Zhuang, Zhou -- Translations from the Asian classics, New York, New York -- isbn13 9780231164740 -- 3c02f080059e5a2bf0a42edf7163b6ad -- Ann.epub",
+        "The Tso Chuan -- Wm_ Theodore De Bary (editor); C_ T_ Hsia (editor); Barbara -- China’s Oldest Narrative History, 2019 -- Columbia University Press -- isbn13 9780231897938 -- 12a8cc902f0f4bbb16369073c247d815 -- Anna.pdf",
+        "Xunzi -- Burton Watson -- 2011 -- Columbia University Press -- afaf0e60ed0e95a19ba38d51b21a5387 -- Anna’s Archive-1.pdf",
+        "Xunzi -- Burton Watson -- 2011 -- Columbia University Press -- afaf0e60ed0e95a19ba38d51b21a5387 -- Anna’s Archive.pdf",
+        "Zhuangzi _ basic writings -- Zhuangzi, Watson, Burton, 1925- -- Translations from the Asian classics, New York, New York -- New York _ Columbia -- isbn13 9780231129596 -- cbc1aeac55bb5972eae00bc8d064c6a9 -- Anna’s Ar.pdf"
+      ]
+    }
+  ]
+}

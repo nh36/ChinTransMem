@@ -93,7 +93,7 @@ def build_ingestion_policy() -> dict[str, Any]:
         "inventory_required": True,
         "inventory_path": "metadata/shijing_poem_inventory.yml",
         "inventory_unit_key": "poems",
-        "inventory_derivation": "canonical_wikisource_index_with_title_only_lost_text_entries",
+        "inventory_derivation": "extant_wikisource_index_excluding_title_only_lost_text_entries",
         "ingestion_plan_required": True,
         "ingestion_plan_path": "documentation/shijing_ingestion_plan.md",
         "source_audit_required": True,
@@ -108,7 +108,7 @@ def build_ingestion_policy() -> dict[str, Any]:
         "coarse_alignment_units": ["poem"],
         "granularity_order": ["stanza", "poem"],
         "metadata_only_allowed": True,
-        "missing_text_policy": "retain_title_only_or_unverified_units_as_metadata_only_and_non_exportable",
+        "missing_text_policy": "exclude_title_only_units_without_poem_text_from_corpus_model",
         "commentary_policy": "exclude_commentary_and_notes_from_exact_alignments_and_tmx",
         "rights_policy": "public_domain_only_for_export",
         "allowed_export_rights_statuses": ["public_domain"],
@@ -3869,7 +3869,11 @@ def load_shijing_verification_index(*, skip_fetch: bool) -> dict[str, dict[str, 
     verification_entries = load_shijing_verification_ledger()
     verification_index = build_verification_index(verification_entries)
     validate_verification_coverage(
-        {section_id_for_catalog_entry(entry) for entry in chinese_catalog},
+        {
+            section_id_for_catalog_entry(entry)
+            for entry in chinese_catalog
+            if entry["sort_key"] not in TITLE_ONLY_SORT_KEYS
+        },
         verification_index,
     )
     return verification_index
@@ -4227,14 +4231,11 @@ def build_section_catalog(
         mapped_sections.append(section_seed)
         seen_sort_keys.add(poem["sort_key"])
     for poem in chinese_catalog:
+        if poem["sort_key"] in seen_sort_keys or poem["sort_key"] in TITLE_ONLY_SORT_KEYS:
+            continue
         verification_entry = verification_index[section_id_for_catalog_entry(poem)] if verification_index is not None else None
-        if (
-            poem["sort_key"] in seen_sort_keys
-            or poem["sort_key"] in TITLE_ONLY_SORT_KEYS
-            or (
-                poem["sort_key"] in EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS
-                and not (verification_entry and verification_entry_is_exportable(verification_entry))
-            )
+        if poem["sort_key"] in EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS and not (
+            verification_entry and verification_entry_is_exportable(verification_entry)
         ):
             continue
         english_witness = (
@@ -4274,30 +4275,11 @@ def build_canonical_section_inventory(
     complete_by_sort_key = {section["sort_key"]: section for section in complete_sections}
     inventory: list[dict[str, Any]] = []
     for entry in chinese_catalog:
+        if entry["sort_key"] in TITLE_ONLY_SORT_KEYS:
+            continue
         section_id = complete_by_sort_key.get(entry["sort_key"], {}).get("section_id", section_id_for_catalog_entry(entry))
         verification = verification_index[section_id]
         zh_page_url = url_for_page("https://zh.wikisource.org/wiki", entry["page_title"])
-        if entry["sort_key"] in TITLE_ONLY_SORT_KEYS:
-            inventory.append(
-                {
-                    "global_sort_key": entry["sort_key"],
-                    "major_division": entry["major_division"],
-                    "subdivision": entry["subdivision"],
-                    "local_poem_number": entry["local_index"],
-                    "title": entry["label"],
-                    "canonical_ref": entry["canonical_ref"],
-                    "section_id": section_id,
-                    "zh_page_url": zh_page_url,
-                    "status": "missing_chinese_source",
-                    "coverage_status": "title_only_lost_text",
-                    "english_witness_type": "not_applicable",
-                    "english_witness_status": "not_applicable",
-                    "source_witness_type": "not_applicable",
-                    "needs_human_text_review": False,
-                    **verification_annotation(verification),
-                }
-            )
-            continue
         if entry["sort_key"] in complete_by_sort_key:
             complete_section = complete_by_sort_key[entry["sort_key"]]
             inventory.append(
@@ -5768,11 +5750,11 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
         "title": "Canonical Shijing poem inventory",
         "count_basis": {
             "canonical_index_entry_count": len(canonical_inventory),
-            "extant_poem_count": len(canonical_inventory) - missing_chinese_source_count,
-            "title_only_missing_text_count": missing_chinese_source_count,
+            "extant_poem_count": len(canonical_inventory),
+            "title_only_missing_text_count": 0,
             "basis_note": (
-                "Derived from the ordered Chinese Wikisource 詩經 index. The index enumerates 311 canonical entries; "
-                "six of them are title-only Xiaoya entries marked 有其義而亡其辭."
+                "Derived from the ordered Chinese Wikisource 詩經 index after excluding the six traditional "
+                "title-only/lost-text Xiaoya placeholders that have no extant poem text."
             ),
         },
         "poems": canonical_inventory,
@@ -5791,7 +5773,7 @@ def bootstrap_corpus(skip_fetch: bool = False) -> dict[str, Any]:
         "summary": {
             "section_count": len(manifest_sections),
             "canonical_entry_count": len(canonical_inventory),
-            "extant_poem_count": len(canonical_inventory) - missing_chinese_source_count,
+            "extant_poem_count": len(canonical_inventory),
             "missing_chinese_source_sections": missing_chinese_source_count,
             "complete_sections": len(processed_sections),
             "metadata_only_sections": len(manifest_sections) - len(processed_sections),

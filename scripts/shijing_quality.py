@@ -1870,7 +1870,11 @@ def build_unresolved_witness_report_markdown(context: dict[str, Any]) -> str:
     lines = [
         "# Shijing unresolved witness report",
         "",
-        "This report documents the remaining non-exportable *Shijing* gaps after the current verification pass.",
+        (
+            "This report documents the remaining non-exportable *Shijing* gaps after the current verification pass."
+            if remaining_sections
+            else "There are no unresolved or non-exportable *Shijing* poems in the current corpus state."
+        ),
         "",
         "## Summary",
         "",
@@ -1910,28 +1914,6 @@ def build_unresolved_witness_report_markdown(context: dict[str, Any]) -> str:
         )
     if not remaining_sections:
         lines.append("| — | — | — | — | — | — | — | — |")
-
-    lines.extend(
-        [
-            "",
-            "## Title-only / lost-text canonical entries",
-            "",
-            "| Section | Title | Canonical ref | Status | Notes |",
-            "| --- | --- | --- | --- | --- |",
-        ]
-    )
-    for section in title_only_sections:
-        lines.append(
-            "| {section_id} | {title} | {canonical_ref} | {status} | {notes} |".format(
-                section_id=section["section_id"],
-                title=section["title"],
-                canonical_ref=section["canonical_ref"],
-                status=section.get("status") or "—",
-                notes=str(section.get("notes") or "—").replace("\n", " "),
-            )
-        )
-    if not title_only_sections:
-        lines.append("| — | — | — | — | — |")
 
     return "\n".join(lines)
 

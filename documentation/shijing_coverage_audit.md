@@ -2,10 +2,10 @@
 
 | Metric | Count |
 | --- | ---: |
-| total_canonical_units | 311 |
-| manifest_section_count | 311 |
+| total_canonical_units | 305 |
+| manifest_section_count | 305 |
 | complete_sections | 305 |
-| metadata_only_sections | 6 |
+| metadata_only_sections | 0 |
 | units_with_chinese_source | 305 |
 | units_with_english_public_domain_witness | 305 |
 | units_with_verified_public_domain_english_source | 305 |
@@ -15,8 +15,8 @@
 ## Exceptions
 
 - Missing from manifest: 0
-- Present but metadata-only: 6
-- Present without verified public-domain translation: 6
+- Present but metadata-only: 0
+- Present without verified public-domain translation: 0
 - Present with coarse or non-preferred exact alignment: 90
 
 ## Shijing quality signals

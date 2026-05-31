@@ -1,12 +1,12 @@
 {
   "work_id": "shijing",
   "summary": {
-    "section_count": 311,
+    "section_count": 305,
     "extant_poem_count": 305,
     "exportable_extant_poems": 305,
     "complete_sections": 305,
-    "metadata_only_sections": 6,
-    "title_only_lost_text_entries": 6,
+    "metadata_only_sections": 0,
+    "title_only_lost_text_entries": 0,
     "non_exportable_extant_sections": 0,
     "exact_alignment_count": 757,
     "complete_sections_by_witness_type": {
@@ -36,7 +36,7 @@
     "verified_exportable_poems": 305,
     "exportable_extant_poems": 305,
     "non_exportable_extant_poems": 0,
-    "title_only_lost_text_entries": 6,
+    "title_only_lost_text_entries": 0,
     "all_human_verified_ocr_sections": 182,
     "non_exportable_repair_queue_remaining": 0,
     "current_repair_batch": "2026-05-31-11-shijing-chinesenotes-recovery",
@@ -365,86 +365,7 @@
     "known_unrecoverable_cases": [],
     "cases_needing_better_witness": [],
     "remaining_non_exportable_extant_sections": [],
-    "title_only_lost_text_sections": [
-      {
-        "section_id": "xiaoya-luming-011",
-        "title": "南陔",
-        "canonical_ref": "詩經·小雅·鹿鳴之什·011",
-        "status": "missing_chinese_source",
-        "verification_status": "title_only_lost_text",
-        "verification_decision": "metadata_only_lost_text",
-        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-        "source_urls": [
-          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%97%E9%99%94"
-        ]
-      },
-      {
-        "section_id": "xiaoya-luming-012",
-        "title": "白華",
-        "canonical_ref": "詩經·小雅·鹿鳴之什·012",
-        "status": "missing_chinese_source",
-        "verification_status": "title_only_lost_text",
-        "verification_decision": "metadata_only_lost_text",
-        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-        "source_urls": [
-          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%99%BD%E8%8F%AF"
-        ]
-      },
-      {
-        "section_id": "xiaoya-luming-013",
-        "title": "華黍",
-        "canonical_ref": "詩經·小雅·鹿鳴之什·013",
-        "status": "missing_chinese_source",
-        "verification_status": "title_only_lost_text",
-        "verification_decision": "metadata_only_lost_text",
-        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-        "source_urls": [
-          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8F%AF%E9%BB%8D"
-        ]
-      },
-      {
-        "section_id": "xiaoya-nanyoujiayu-003",
-        "title": "由庚",
-        "canonical_ref": "詩經·小雅·南有嘉魚之什·003",
-        "status": "missing_chinese_source",
-        "verification_status": "title_only_lost_text",
-        "verification_decision": "metadata_only_lost_text",
-        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-        "source_urls": [
-          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%B1%E5%BA%9A"
-        ]
-      },
-      {
-        "section_id": "xiaoya-nanyoujiayu-004",
-        "title": "崇丘",
-        "canonical_ref": "詩經·小雅·南有嘉魚之什·004",
-        "status": "missing_chinese_source",
-        "verification_status": "title_only_lost_text",
-        "verification_decision": "metadata_only_lost_text",
-        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-        "source_urls": [
-          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B4%87%E4%B8%98"
-        ]
-      },
-      {
-        "section_id": "xiaoya-nanyoujiayu-005",
-        "title": "由儀",
-        "canonical_ref": "詩經·小雅·南有嘉魚之什·005",
-        "status": "missing_chinese_source",
-        "verification_status": "title_only_lost_text",
-        "verification_decision": "metadata_only_lost_text",
-        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-        "source_urls": [
-          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%B1%E5%84%80"
-        ]
-      }
-    ],
+    "title_only_lost_text_sections": [],
     "ocr_sanity_sweep": {
       "checked_exportable_ocr_sections": 182,
       "flagged_sections": 0,
@@ -582,92 +503,7 @@
   "warning_count": 35,
   "hard_failures": [],
   "row_warnings": [],
-  "metadata_only_sections": [
-    {
-      "section_id": "xiaoya-luming-011",
-      "title": "南陔",
-      "canonical_ref": "詩經·小雅·鹿鳴之什·011",
-      "status": "missing_chinese_source",
-      "verification_status": "title_only_lost_text",
-      "verification_decision": "metadata_only_lost_text",
-      "english_witness_status": "not_applicable",
-      "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-      "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%97%E9%99%94"
-      ]
-    },
-    {
-      "section_id": "xiaoya-luming-012",
-      "title": "白華",
-      "canonical_ref": "詩經·小雅·鹿鳴之什·012",
-      "status": "missing_chinese_source",
-      "verification_status": "title_only_lost_text",
-      "verification_decision": "metadata_only_lost_text",
-      "english_witness_status": "not_applicable",
-      "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-      "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%99%BD%E8%8F%AF"
-      ]
-    },
-    {
-      "section_id": "xiaoya-luming-013",
-      "title": "華黍",
-      "canonical_ref": "詩經·小雅·鹿鳴之什·013",
-      "status": "missing_chinese_source",
-      "verification_status": "title_only_lost_text",
-      "verification_decision": "metadata_only_lost_text",
-      "english_witness_status": "not_applicable",
-      "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-      "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8F%AF%E9%BB%8D"
-      ]
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-003",
-      "title": "由庚",
-      "canonical_ref": "詩經·小雅·南有嘉魚之什·003",
-      "status": "missing_chinese_source",
-      "verification_status": "title_only_lost_text",
-      "verification_decision": "metadata_only_lost_text",
-      "english_witness_status": "not_applicable",
-      "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-      "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%B1%E5%BA%9A"
-      ]
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-004",
-      "title": "崇丘",
-      "canonical_ref": "詩經·小雅·南有嘉魚之什·004",
-      "status": "missing_chinese_source",
-      "verification_status": "title_only_lost_text",
-      "verification_decision": "metadata_only_lost_text",
-      "english_witness_status": "not_applicable",
-      "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-      "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B4%87%E4%B8%98"
-      ]
-    },
-    {
-      "section_id": "xiaoya-nanyoujiayu-005",
-      "title": "由儀",
-      "canonical_ref": "詩經·小雅·南有嘉魚之什·005",
-      "status": "missing_chinese_source",
-      "verification_status": "title_only_lost_text",
-      "verification_decision": "metadata_only_lost_text",
-      "english_witness_status": "not_applicable",
-      "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
-      "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%B1%E5%84%80"
-      ]
-    }
-  ],
+  "metadata_only_sections": [],
   "sections": [
     {
       "section_id": "guofeng-zhounan-001-guanju",

@@ -1,9 +1,9 @@
 {
   "work_id": "shijing",
-  "total_canonical_units": 311,
-  "manifest_section_count": 311,
+  "total_canonical_units": 305,
+  "manifest_section_count": 305,
   "complete_sections": 305,
-  "metadata_only_sections": 6,
+  "metadata_only_sections": 0,
   "units_with_chinese_source": 305,
   "units_with_english_public_domain_witness": 305,
   "units_with_verified_public_domain_english_source": 305,
@@ -11,22 +11,8 @@
   "exact_alignment_count": 757,
   "source_record_count": 610,
   "missing_from_manifest": [],
-  "present_but_metadata_only": [
-    "xiaoya-luming-011",
-    "xiaoya-luming-012",
-    "xiaoya-luming-013",
-    "xiaoya-nanyoujiayu-003",
-    "xiaoya-nanyoujiayu-004",
-    "xiaoya-nanyoujiayu-005"
-  ],
-  "present_without_verified_public_domain_translation": [
-    "xiaoya-luming-011",
-    "xiaoya-luming-012",
-    "xiaoya-luming-013",
-    "xiaoya-nanyoujiayu-003",
-    "xiaoya-nanyoujiayu-004",
-    "xiaoya-nanyoujiayu-005"
-  ],
+  "present_but_metadata_only": [],
+  "present_without_verified_public_domain_translation": [],
   "sections_with_coarse_or_nonpreferred_alignment": [
     "daya-dang-002",
     "daya-dang-007",

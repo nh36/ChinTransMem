@@ -24,6 +24,6 @@
     "work_type": "classical_text",
     "language_code": "zh-Hant",
     "default_citation": "詩經",
-    "notes": "Full extant public-domain Shijing corpus aligned against James Legge's public-domain witnesses, with six title-only lost-text entries retained as metadata-only."
+    "notes": "Full extant public-domain Shijing corpus aligned against James Legge's public-domain witnesses. The corpus model excludes the six traditional title-only/lost-text Xiaoya placeholders because they have no poem text."
   }
 ]

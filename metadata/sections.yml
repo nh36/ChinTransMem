@@ -1836,33 +1836,6 @@
     "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
-    "section_id": "xiaoya-luming-011",
-    "work_id": "shijing",
-    "parent_section_id": null,
-    "label": "南陔",
-    "canonical_ref": "詩經·小雅·鹿鳴之什·011",
-    "sort_key": 171,
-    "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align."
-  },
-  {
-    "section_id": "xiaoya-luming-012",
-    "work_id": "shijing",
-    "parent_section_id": null,
-    "label": "白華",
-    "canonical_ref": "詩經·小雅·鹿鳴之什·012",
-    "sort_key": 172,
-    "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align."
-  },
-  {
-    "section_id": "xiaoya-luming-013",
-    "work_id": "shijing",
-    "parent_section_id": null,
-    "label": "華黍",
-    "canonical_ref": "詩經·小雅·鹿鳴之什·013",
-    "sort_key": 173,
-    "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align."
-  },
-  {
     "section_id": "xiaoya-nanyoujiayu-001",
     "work_id": "shijing",
     "parent_section_id": null,
@@ -1879,33 +1852,6 @@
     "canonical_ref": "詩經·小雅·南有嘉魚之什·002",
     "sort_key": 175,
     "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
-  },
-  {
-    "section_id": "xiaoya-nanyoujiayu-003",
-    "work_id": "shijing",
-    "parent_section_id": null,
-    "label": "由庚",
-    "canonical_ref": "詩經·小雅·南有嘉魚之什·003",
-    "sort_key": 176,
-    "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align."
-  },
-  {
-    "section_id": "xiaoya-nanyoujiayu-004",
-    "work_id": "shijing",
-    "parent_section_id": null,
-    "label": "崇丘",
-    "canonical_ref": "詩經·小雅·南有嘉魚之什·004",
-    "sort_key": 177,
-    "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align."
-  },
-  {
-    "section_id": "xiaoya-nanyoujiayu-005",
-    "work_id": "shijing",
-    "parent_section_id": null,
-    "label": "由儀",
-    "canonical_ref": "詩經·小雅·南有嘉魚之什·005",
-    "sort_key": 178,
-    "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-006",
