@@ -225,7 +225,7 @@
     "timestamp": "2026-05-31T00:00:00+00:00",
     "method": "bootstrap_laozi_corpus",
     "status": "complete",
-    "notes": "Promoted Laozi into the active corpus from the ChineseNotes Daodejing bilingual witness with deterministic refinement and explicit chapter-level fallback reasons."
+    "notes": "Improved Laozi fine-grained alignment using grouped monotonic auto-alignment plus curated overrides for chapters that failed the automatic QC heuristics."
   },
   {
     "run_id": "bootstrap-book-01-lianghuiwang-shang-20260530",

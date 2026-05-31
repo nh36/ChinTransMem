@@ -6,33 +6,220 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-057</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 57</prop>
-      <prop type="x-translation-ref">老子 57</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 3 English blocks, 9 Chinese clause units, 8 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 57.1</prop>
+      <prop type="x-translation-ref">老子 57.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>以正治國，以奇用兵，以無事取天下。
-
-吾何以知其然哉？以此。天下多忌諱，而民彌貧；民多利器，國家滋昬；
-
-人多伎巧，奇物滋起；
-
-法令滋彰，盜賊多有。
-
-故聖人云﹕「我無為而民自化，我好靜而民自正，我無事而民自富，我無欲而民自樸。」</seg>
+        <seg>以正治國，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>A state may be ruled by (measures of) correction; weapons of war may be used with crafty dexterity; (but) the kingdom is made one's own (only) by freedom from action and purpose.
-
-How do I know that it is so? By these facts: - In the kingdom the multiplication of prohibitive enactments increases the poverty of the people; the more implements to add to their profit that the people have, the greater disorder is there in the state and clan; the more acts of crafty dexterity that men possess, the more do strange contrivances appear; the more display there is of legislation, the more thieves and robbers there are.
-
-Therefore a sage has said, 'I will do nothing (of purpose), and the people will be transformed of themselves; I will be fond of keeping still, and the people will of themselves become correct. I will take no trouble about it, and the people will of themselves become rich; I will manifest no ambition, and the people will of themselves attain to the primitive simplicity.'</seg>
+        <seg>A state may be ruled by (measures of) correction;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-057__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-057</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 57.2</prop>
+      <prop type="x-translation-ref">老子 57.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以奇用兵，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>weapons of war may be used with crafty dexterity;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-057__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-057</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 57.3</prop>
+      <prop type="x-translation-ref">老子 57.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以無事取天下。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(but) the kingdom is made one's own (only) by freedom from action and purpose.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-057__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-057</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">老子 57.4 - 老子 57.6</prop>
+      <prop type="x-translation-ref">老子 57.4 - 老子 57.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>吾何以知其然哉？以此。天下多忌諱，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How do I know that it is so? By these facts: - In the kingdom the multiplication of prohibitive enactments increases the poverty of the people;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-057__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-057</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 57.7 - 老子 57.9</prop>
+      <prop type="x-translation-ref">老子 57.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>而民彌貧；民多利器，國家滋昬；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the more implements to add to their profit that the people have, the greater disorder is there in the state and clan;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-057__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-057</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 57.10 - 老子 57.11</prop>
+      <prop type="x-translation-ref">老子 57.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>人多伎巧，奇物滋起；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the more acts of crafty dexterity that men possess, the more do strange contrivances appear;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-057__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-057</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 57.12 - 老子 57.13</prop>
+      <prop type="x-translation-ref">老子 57.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>法令滋彰，盜賊多有。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the more display there is of legislation, the more thieves and robbers there are.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-057__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-057</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 57.14</prop>
+      <prop type="x-translation-ref">老子 57.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故聖人云﹕「我無為而民自化，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore a sage has said, 'I will do nothing (of purpose), and the people will be transformed of themselves;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-057__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-057</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 57.15</prop>
+      <prop type="x-translation-ref">老子 57.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我好靜而民自正，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I will be fond of keeping still, and the people will of themselves become correct.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-057__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-057</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 57.16</prop>
+      <prop type="x-translation-ref">老子 57.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我無事而民自富，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I will take no trouble about it, and the people will of themselves become rich;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-057__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-057</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 57.17 - 老子 57.18</prop>
+      <prop type="x-translation-ref">老子 57.13</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我無欲而民自樸。」</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I will manifest no ambition, and the people will of themselves attain to the primitive simplicity.'</seg>
       </tuv>
     </tu>
   </body>

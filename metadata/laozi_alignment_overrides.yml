@@ -1,0 +1,74 @@
+{
+  "work_id": "laozi",
+  "source_unit_reference": "Fine units use the bootstrap parser's deterministic punctuation splits and are numbered from 1 within each chapter.",
+  "sections": [
+    {
+      "section_id": "laozi-chapter-062",
+      "reason_automatic_alignment_failed": "Automatic grouping drifted across the rhetorical question and the long Son-of-Heaven prose sentence, producing a question-bearing mixed group instead of preserving the chapter's monotonic topical turns.",
+      "curator_note": "Keep the opening treasure/guarding clauses separate, group the Son-of-Heaven ceremonial prose as one unit, and preserve the final rhetorical question plus answer sequence as three distinct alignments.",
+      "review_status": "curated_by_agent",
+      "alignments": [
+        {
+          "alignment_id": "laozi-chapter-062__align-001",
+          "source_unit_ids": [1],
+          "target_unit_ids": [1],
+          "alignment_granularity": "sentence"
+        },
+        {
+          "alignment_id": "laozi-chapter-062__align-002",
+          "source_unit_ids": [2],
+          "target_unit_ids": [2],
+          "alignment_granularity": "sentence"
+        },
+        {
+          "alignment_id": "laozi-chapter-062__align-003",
+          "source_unit_ids": [3],
+          "target_unit_ids": [3],
+          "alignment_granularity": "sentence"
+        },
+        {
+          "alignment_id": "laozi-chapter-062__align-004",
+          "source_unit_ids": [4],
+          "target_unit_ids": [4],
+          "alignment_granularity": "sentence"
+        },
+        {
+          "alignment_id": "laozi-chapter-062__align-005",
+          "source_unit_ids": [5],
+          "target_unit_ids": [5],
+          "alignment_granularity": "sentence"
+        },
+        {
+          "alignment_id": "laozi-chapter-062__align-006",
+          "source_unit_ids": [6, 7],
+          "target_unit_ids": [6],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "alignment_id": "laozi-chapter-062__align-007",
+          "source_unit_ids": [8, 9, 10, 11],
+          "target_unit_ids": [7],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "alignment_id": "laozi-chapter-062__align-008",
+          "source_unit_ids": [12],
+          "target_unit_ids": [8],
+          "alignment_granularity": "sentence"
+        },
+        {
+          "alignment_id": "laozi-chapter-062__align-009",
+          "source_unit_ids": [13, 14],
+          "target_unit_ids": [9],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "alignment_id": "laozi-chapter-062__align-010",
+          "source_unit_ids": [15],
+          "target_unit_ids": [10],
+          "alignment_granularity": "sentence"
+        }
+      ]
+    }
+  ]
+}

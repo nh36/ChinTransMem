@@ -1,18 +1,7 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-072__align-001,laozi,laozi-chapter-072,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 4 English blocks, 7 Chinese clause units, 5 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 72,"民不畏威，則大威至。無狎其所居，無厭其所生。
-
-夫唯不厭，
-
-是以不厭。
-
-是以聖人自知不自見，
-
-自愛不自貴；
-
-故去彼取此。",老子 72,"When the people do not fear what they ought to fear, that which is their great dread will come on them.
-
-Let them not thoughtlessly indulge themselves in their ordinary life; let them not act as if weary of what that life depends on.
-
-It is by avoiding such indulgence that such weariness does not arise.
-
-Therefore the sage knows (these things) of himself, but does not parade (his knowledge); loves, but does not (appear to set a) value on, himself. And thus he puts the latter alternative away and makes choice of the former."
+laozi-chapter-072__align-001,laozi,laozi-chapter-072,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,1,老子 72.1 - 老子 72.2,民不畏威，則大威至。,老子 72.1,"When the people do not fear what they ought to fear, that which is their great dread will come on them."
+laozi-chapter-072__align-002,laozi,laozi-chapter-072,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,3,老子 72.3,無狎其所居，,老子 72.2,Let them not thoughtlessly indulge themselves in their ordinary life;
+laozi-chapter-072__align-003,laozi,laozi-chapter-072,chapter,sentence,grouped,False,,3,2,exact_or_near_exact,1.0,4,老子 72.4 - 老子 72.6,無厭其所生。夫唯不厭，是以不厭。,老子 72.3 - 老子 72.4,let them not act as if weary of what that life depends on. It is by avoiding such indulgence that such weariness does not arise.
+laozi-chapter-072__align-004,laozi,laozi-chapter-072,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,7,老子 72.7,是以聖人自知不自見，,老子 72.5,"Therefore the sage knows (these things) of himself, but does not parade (his knowledge);"
+laozi-chapter-072__align-005,laozi,laozi-chapter-072,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,8,老子 72.8,自愛不自貴；,老子 72.6,"loves, but does not (appear to set a) value on, himself."
+laozi-chapter-072__align-006,laozi,laozi-chapter-072,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,9,老子 72.9,故去彼取此。,老子 72.7,And thus he puts the latter alternative away and makes choice of the former.

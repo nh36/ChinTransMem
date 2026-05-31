@@ -7,7 +7,7 @@
       <prop type="x-section-id">laozi-chapter-008</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -27,19 +27,19 @@
       <prop type="x-section-id">laozi-chapter-008</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 8.2</prop>
-      <prop type="x-translation-ref">老子 8.2</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 8.2 - 老子 8.3</prop>
+      <prop type="x-translation-ref">老子 8.2 - 老子 8.3</prop>
       <tuv xml:lang="zh-Hant">
         <seg>水善利萬物而不爭，處眾人之所惡，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike.</seg>
+        <seg>The excellence of water appears in its benefiting all things, and in its occupying, without striving (to the contrary), the low place which all men dislike. Hence (its way) is near to (that of) the Dao.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-008__align-003">
@@ -47,27 +47,7 @@
       <prop type="x-section-id">laozi-chapter-008</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 8.3</prop>
-      <prop type="x-translation-ref">老子 8.3</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>故幾於道。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Hence (its way) is near to (that of) the Dao.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="laozi-chapter-008__align-004">
-      <prop type="x-work-id">laozi</prop>
-      <prop type="x-section-id">laozi-chapter-008</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -76,18 +56,18 @@
       <prop type="x-chinese-ref">老子 8.4</prop>
       <prop type="x-translation-ref">老子 8.4</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>居善地，心善淵，與善仁，言善信，正善治，事善能，動善時。</seg>
+        <seg>故幾於道。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The excellence of a residence is in (the suitability of) the place; that of the mind is in abysmal stillness; that of associations is in their being with the virtuous; that of words is in their trustworthiness; that of government is in its securing good order; that of (the conduct of) affairs is in its ability; and that of (the initiation of) any movement is in its timeliness.</seg>
+        <seg>The excellence of a residence is in (the suitability of) the place;</seg>
       </tuv>
     </tu>
-    <tu tuid="laozi-chapter-008__align-005">
+    <tu tuid="laozi-chapter-008__align-004">
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-008</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -95,6 +75,126 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">老子 8.5</prop>
       <prop type="x-translation-ref">老子 8.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>居善地，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>that of the mind is in abysmal stillness;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-008__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.6</prop>
+      <prop type="x-translation-ref">老子 8.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>心善淵，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>that of associations is in their being with the virtuous;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-008__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.7</prop>
+      <prop type="x-translation-ref">老子 8.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>與善仁，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>that of words is in their trustworthiness;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-008__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.8</prop>
+      <prop type="x-translation-ref">老子 8.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>言善信，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>that of government is in its securing good order;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-008__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.9</prop>
+      <prop type="x-translation-ref">老子 8.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>正善治，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>that of (the conduct of) affairs is in its ability;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-008__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.10 - 老子 8.11</prop>
+      <prop type="x-translation-ref">老子 8.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>事善能，動善時。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and that of (the initiation of) any movement is in its timeliness.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-008__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-008</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 8.12 - 老子 8.13</prop>
+      <prop type="x-translation-ref">老子 8.11</prop>
       <tuv xml:lang="zh-Hant">
         <seg>夫唯不爭，故無尤。</seg>
       </tuv>

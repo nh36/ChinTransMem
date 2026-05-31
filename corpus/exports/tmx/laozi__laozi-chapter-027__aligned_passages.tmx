@@ -6,39 +6,220 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-027</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 27</prop>
-      <prop type="x-translation-ref">老子 27</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (9 Chinese blocks, 2 English blocks, 10 Chinese clause units, 6 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 27.1</prop>
+      <prop type="x-translation-ref">老子 27.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>善行無轍迹，
-
-善言無瑕讁；
-
-善數不用籌策；
-
-善閉無關楗而不可開，善結無繩約而不可解。
-
-是以聖人常善救人，故無棄人；
-
-常善救物，故無棄物，是謂襲明。故善人者，不善人之師；
-
-不善人者，善人之資。
-
-不貴其師，不愛其資，雖智大迷，
-
-是謂要妙。</seg>
+        <seg>善行無轍迹，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The skilful traveller leaves no traces of his wheels or footsteps; the skilful speaker says nothing that can be found fault with or blamed; the skilful reckoner uses no tallies; the skilful closer needs no bolts or bars, while to open what he has shut will be impossible; the skilful binder uses no strings or knots, while to unloose what he has bound will be impossible. In the same way the sage is always skilful at saving men, and so he does not cast away any man; he is always skilful at saving things, and so he does not cast away anything. This is called 'Hiding the light of his procedure.'
-
-Therefore the man of skill is a master (to be looked up to) by him who has not the skill; and he who has not the skill is the helper of (the reputation of) him who has the skill. If the one did not honour his master, and the other did not rejoice in his helper, an (observer), though intelligent, might greatly err about them. This is called 'The utmost degree of mystery.'</seg>
+        <seg>The skilful traveller leaves no traces of his wheels or footsteps;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-027__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-027</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 27.2 - 老子 27.3</prop>
+      <prop type="x-translation-ref">老子 27.2 - 老子 27.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>善言無瑕讁；善數不用籌策；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the skilful speaker says nothing that can be found fault with or blamed; the skilful reckoner uses no tallies;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-027__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-027</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 27.4</prop>
+      <prop type="x-translation-ref">老子 27.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>善閉無關楗而不可開，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the skilful closer needs no bolts or bars, while to open what he has shut will be impossible;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-027__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-027</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 27.5</prop>
+      <prop type="x-translation-ref">老子 27.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>善結無繩約而不可解。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the skilful binder uses no strings or knots, while to unloose what he has bound will be impossible.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-027__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-027</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 27.6 - 老子 27.7</prop>
+      <prop type="x-translation-ref">老子 27.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以聖人常善救人，故無棄人；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the same way the sage is always skilful at saving men, and so he does not cast away any man;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-027__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-027</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 27.8 - 老子 27.9</prop>
+      <prop type="x-translation-ref">老子 27.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>常善救物，故無棄物，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>he is always skilful at saving things, and so he does not cast away anything.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-027__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-027</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 27.10</prop>
+      <prop type="x-translation-ref">老子 27.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是謂襲明。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>This is called 'Hiding the light of his procedure.'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-027__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-027</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 27.11 - 老子 27.12</prop>
+      <prop type="x-translation-ref">老子 27.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故善人者，不善人之師；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore the man of skill is a master (to be looked up to) by him who has not the skill;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-027__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-027</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 27.13 - 老子 27.14</prop>
+      <prop type="x-translation-ref">老子 27.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不善人者，善人之資。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and he who has not the skill is the helper of (the reputation of) him who has the skill.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-027__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-027</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 27.15 - 老子 27.17</prop>
+      <prop type="x-translation-ref">老子 27.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不貴其師，不愛其資，雖智大迷，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If the one did not honour his master, and the other did not rejoice in his helper, an (observer), though intelligent, might greatly err about them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-027__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-027</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 27.18</prop>
+      <prop type="x-translation-ref">老子 27.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是謂要妙。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>This is called 'The utmost degree of mystery.'</seg>
       </tuv>
     </tu>
   </body>

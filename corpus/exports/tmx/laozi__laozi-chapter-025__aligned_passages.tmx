@@ -6,49 +6,280 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-025</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 25.1 - 老子 25.2</prop>
+      <prop type="x-translation-ref">老子 25.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有物混成，先天地生。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>There was something undefined and complete, coming into existence before Heaven and Earth.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 25.3 - 老子 25.4</prop>
+      <prop type="x-translation-ref">老子 25.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>寂兮寥兮，獨立而不改，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How still it was and formless, standing alone, and undergoing no change, reaching everywhere and in no danger (of being exhausted)!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 25</prop>
-      <prop type="x-translation-ref">老子 25</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (12 Chinese blocks, 4 English blocks, 12 Chinese clause units, 15 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 25.5</prop>
+      <prop type="x-translation-ref">老子 25.3</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>有物混成，先天地生。
-
-寂兮寥兮，獨立而不改，
-
-周行而不殆，可以為天下母。
-
-吾不知其名，
-
-字之曰道，
-
-強為之名曰大。
-
-大曰逝，
-
-逝曰遠，遠曰反。
-
-故道大，天大，地大，王亦大。
-
-域中有四大，
-
-而王居其一焉。
-
-人法地，地法天，天法道，道法自然。</seg>
+        <seg>周行而不殆，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>There was something undefined and complete, coming into existence before Heaven and Earth. How still it was and formless, standing alone, and undergoing no change, reaching everywhere and in no danger (of being exhausted)! It may be regarded as the Mother of all things.
-
-I do not know its name, and I give it the designation of the Dao (the Way or Course). Making an effort (further) to give it a name I call it The Great.
-
-Great, it passes on (in constant flow). Passing on, it becomes remote. Having become remote, it returns. Therefore the Dao is great; Heaven is great; Earth is great; and the (sage) king is also great. In the universe there are four that are great, and the (sage) king is one of them.
-
-Man takes his law from the Earth; the Earth takes its law from Heaven; Heaven takes its law from the Dao. The law of the Dao is its being what it is.</seg>
+        <seg>It may be regarded as the Mother of all things.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 25.6 - 老子 25.7</prop>
+      <prop type="x-translation-ref">老子 25.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>可以為天下母。吾不知其名，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I do not know its name, and I give it the designation of the Dao (the Way or Course).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 25.8 - 老子 25.9</prop>
+      <prop type="x-translation-ref">老子 25.5 - 老子 25.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>字之曰道，強為之名曰大。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Making an effort (further) to give it a name I call it The Great. Great, it passes on (in constant flow).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 25.10</prop>
+      <prop type="x-translation-ref">老子 25.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>大曰逝，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Passing on, it becomes remote.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 25.11</prop>
+      <prop type="x-translation-ref">老子 25.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>逝曰遠，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Having become remote, it returns.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 25.12</prop>
+      <prop type="x-translation-ref">老子 25.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>遠曰反。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore the Dao is great;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 25.13</prop>
+      <prop type="x-translation-ref">老子 25.10 - 老子 25.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故道大，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heaven is great; Earth is great;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 25.14 - 老子 25.15</prop>
+      <prop type="x-translation-ref">老子 25.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天大，地大，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and the (sage) king is also great.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 25.16 - 老子 25.18</prop>
+      <prop type="x-translation-ref">老子 25.13 - 老子 25.14</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>王亦大。域中有四大，而王居其一焉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the universe there are four that are great, and the (sage) king is one of them. Man takes his law from the Earth;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-012">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 25.19</prop>
+      <prop type="x-translation-ref">老子 25.15</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>人法地，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the Earth takes its law from Heaven;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-013">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 25.20</prop>
+      <prop type="x-translation-ref">老子 25.16</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>地法天，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heaven takes its law from the Dao.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-025__align-014">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-025</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 25.21 - 老子 25.22</prop>
+      <prop type="x-translation-ref">老子 25.17</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天法道，道法自然。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The law of the Dao is its being what it is.</seg>
       </tuv>
     </tu>
   </body>

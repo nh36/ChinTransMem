@@ -6,27 +6,160 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-036</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 36.1 - 老子 36.2</prop>
+      <prop type="x-translation-ref">老子 36.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>將欲歙之，必固張之；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When one is about to take an inspiration, he is sure to make a (previous) expiration;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-036__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-036</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 36.3 - 老子 36.4</prop>
+      <prop type="x-translation-ref">老子 36.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>將欲弱之，必固強之；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>when he is going to weaken another, he will first strengthen him;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-036__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-036</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 36.5 - 老子 36.6</prop>
+      <prop type="x-translation-ref">老子 36.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>將欲廢之，必固興之；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>when he is going to overthrow another, he will first have raised him up;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-036__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-036</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 36.7 - 老子 36.8</prop>
+      <prop type="x-translation-ref">老子 36.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>將欲奪之，必固與之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>when he is going to despoil another, he will first have made gifts to him:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-036__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-036</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 36</prop>
-      <prop type="x-translation-ref">老子 36</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 3 English blocks, 7 Chinese clause units, 3 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 36.9</prop>
+      <prop type="x-translation-ref">老子 36.5</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>將欲歙之，必固張之；將欲弱之，必固強之；將欲廢之，必固興之；將欲奪之，必固與之。是謂微明。
-
-柔弱勝剛強。魚不可脫於淵，國之利器不可以示人。</seg>
+        <seg>是謂微明。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>When one is about to take an inspiration, he is sure to make a (previous) expiration; when he is going to weaken another, he will first strengthen him; when he is going to overthrow another, he will first have raised him up; when he is going to despoil another, he will first have made gifts to him: - this is called 'Hiding the light (of his procedure).'
-
-The soft overcomes the hard; and the weak the strong.
-
-Fishes should not be taken from the deep; instruments for the profit of a state should not be shown to the people.</seg>
+        <seg>- this is called 'Hiding the light (of his procedure).'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-036__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-036</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 36.10</prop>
+      <prop type="x-translation-ref">老子 36.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>柔弱勝剛強。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The soft overcomes the hard; and the weak the strong.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-036__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-036</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 36.11</prop>
+      <prop type="x-translation-ref">老子 36.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>魚不可脫於淵，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fishes should not be taken from the deep;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-036__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-036</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 36.12</prop>
+      <prop type="x-translation-ref">老子 36.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>國之利器不可以示人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>instruments for the profit of a state should not be shown to the people.</seg>
       </tuv>
     </tu>
   </body>

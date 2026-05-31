@@ -1,22 +1,7 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-037__align-001,laozi,laozi-chapter-037,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 7 English blocks, 6 Chinese clause units, 7 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 37,"道常無為
-
-而無不為。
-
-侯王若能守之，萬物將自化。化而欲作，吾將鎮之以無名之樸。
-
-無名之樸，夫亦將無欲。
-
-不欲以靜，天下將自定。",老子 37,"The Dao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do.
-
-If princes and kings were able to maintain it, all things would of themselves be transformed by them.
-
-If this transformation became to me an object of desire, I would express the desire by the nameless simplicity.
-
-Simplicity without a name
-
-Is free from all external aim.
-
-With no desire, at rest and still,
-
-All things go right as of their will."
+laozi-chapter-037__align-001,laozi,laozi-chapter-037,chapter,sentence,grouped,False,,3,1,exact_or_near_exact,1.0,1,老子 37.1 - 老子 37.3,道常無為而無不為。侯王若能守之，,老子 37.1,"The Dao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do."
+laozi-chapter-037__align-002,laozi,laozi-chapter-037,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,4,老子 37.4 - 老子 37.5,萬物將自化。化而欲作，,老子 37.2,"If princes and kings were able to maintain it, all things would of themselves be transformed by them."
+laozi-chapter-037__align-003,laozi,laozi-chapter-037,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,6,老子 37.6 - 老子 37.7,吾將鎮之以無名之樸。無名之樸，,老子 37.3,"If this transformation became to me an object of desire, I would express the desire by the nameless simplicity."
+laozi-chapter-037__align-004,laozi,laozi-chapter-037,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,8,老子 37.8,夫亦將無欲。,老子 37.4 - 老子 37.5,Simplicity without a name Is free from all external aim.
+laozi-chapter-037__align-005,laozi,laozi-chapter-037,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,9,老子 37.9,不欲以靜，,老子 37.6,"With no desire, at rest and still,"
+laozi-chapter-037__align-006,laozi,laozi-chapter-037,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,10,老子 37.10,天下將自定。,老子 37.7,All things go right as of their will.

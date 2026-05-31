@@ -7,13 +7,13 @@
       <prop type="x-section-id">laozi-chapter-015</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 15.1</prop>
+      <prop type="x-chinese-ref">老子 15.1 - 老子 15.3</prop>
       <prop type="x-translation-ref">老子 15.1</prop>
       <tuv xml:lang="zh-Hant">
         <seg>古之善為士者，微妙玄通，深不可識。</seg>
@@ -27,13 +27,13 @@
       <prop type="x-section-id">laozi-chapter-015</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 15.2</prop>
+      <prop type="x-chinese-ref">老子 15.4 - 老子 15.5</prop>
       <prop type="x-translation-ref">老子 15.2</prop>
       <tuv xml:lang="zh-Hant">
         <seg>夫唯不可識，故強為之容。</seg>
@@ -47,19 +47,19 @@
       <prop type="x-section-id">laozi-chapter-015</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 15.3</prop>
+      <prop type="x-chinese-ref">老子 15.6</prop>
       <prop type="x-translation-ref">老子 15.3</prop>
       <tuv xml:lang="zh-Hant">
         <seg>豫焉若冬涉川，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Shrinking looked they like those who wade through a stream in winter; irresolute like those who are afraid of all around them; grave like a guest (in awe of his host); evanescent like ice that is melting away; unpretentious like wood that has not been fashioned into anything; vacant like a valley, and dull like muddy water.</seg>
+        <seg>Shrinking looked they like those who wade through a stream in winter;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-015__align-004">
@@ -67,19 +67,19 @@
       <prop type="x-section-id">laozi-chapter-015</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 15.4</prop>
+      <prop type="x-chinese-ref">老子 15.7</prop>
       <prop type="x-translation-ref">老子 15.4</prop>
       <tuv xml:lang="zh-Hant">
         <seg>猶兮若畏四鄰，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Who can (make) the muddy water (clear)?</seg>
+        <seg>irresolute like those who are afraid of all around them;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-015__align-005">
@@ -87,19 +87,19 @@
       <prop type="x-section-id">laozi-chapter-015</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 15.5</prop>
+      <prop type="x-chinese-ref">老子 15.8</prop>
       <prop type="x-translation-ref">老子 15.5</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>儼兮其若容，渙兮若冰之將釋，敦兮其若樸，曠兮其若谷，混兮其若濁。</seg>
+        <seg>儼兮其若容，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Let it be still, and it will gradually become clear.</seg>
+        <seg>grave like a guest (in awe of his host);</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-015__align-006">
@@ -107,19 +107,19 @@
       <prop type="x-section-id">laozi-chapter-015</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 15.6</prop>
+      <prop type="x-chinese-ref">老子 15.9</prop>
       <prop type="x-translation-ref">老子 15.6</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>孰能濁以靜之徐清？</seg>
+        <seg>渙兮若冰之將釋，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Who can secure the condition of rest?</seg>
+        <seg>evanescent like ice that is melting away;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-015__align-007">
@@ -127,19 +127,19 @@
       <prop type="x-section-id">laozi-chapter-015</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 15.7</prop>
+      <prop type="x-chinese-ref">老子 15.10</prop>
       <prop type="x-translation-ref">老子 15.7</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>孰能安以久動之徐生？</seg>
+        <seg>敦兮其若樸，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Let movement go on, and the condition of rest will gradually arise.</seg>
+        <seg>unpretentious like wood that has not been fashioned into anything;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-015__align-008">
@@ -147,19 +147,19 @@
       <prop type="x-section-id">laozi-chapter-015</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 15.8</prop>
+      <prop type="x-chinese-ref">老子 15.11</prop>
       <prop type="x-translation-ref">老子 15.8</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>保此道者不欲盈，</seg>
+        <seg>曠兮其若谷，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>They who preserve this method of the Dao do not wish to be full (of themselves).</seg>
+        <seg>vacant like a valley, and dull like muddy water.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-015__align-009">
@@ -167,14 +167,54 @@
       <prop type="x-section-id">laozi-chapter-015</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">老子 15.12 - 老子 15.13</prop>
+      <prop type="x-translation-ref">老子 15.9 - 老子 15.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>混兮其若濁。孰能濁以靜之徐清？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Who can (make) the muddy water (clear)? Let it be still, and it will gradually become clear. Who can secure the condition of rest?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-015__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-015</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 15.14 - 老子 15.15</prop>
+      <prop type="x-translation-ref">老子 15.12 - 老子 15.13</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>孰能安以久動之徐生？保此道者不欲盈，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Let movement go on, and the condition of rest will gradually arise. They who preserve this method of the Dao do not wish to be full (of themselves).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-015__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-015</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 15.9</prop>
-      <prop type="x-translation-ref">老子 15.9</prop>
+      <prop type="x-chinese-ref">老子 15.16 - 老子 15.17</prop>
+      <prop type="x-translation-ref">老子 15.14</prop>
       <tuv xml:lang="zh-Hant">
         <seg>夫唯不盈，故能蔽不新成。</seg>
       </tuv>

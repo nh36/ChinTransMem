@@ -38,6 +38,46 @@ LAOZI_NOTICE_MARKERS = (
     "english translations",
     "legge 1891",
 )
+ENGLISH_CLAUSE_MARKER_RE = re.compile(r"[.;?!:]")
+
+
+def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
+    export_path = corpus_export_paths(work_id)["jsonl"]
+    rows = read_jsonl(export_path) if export_path.exists() else []
+    issues = {
+        "false_precision_multi_clause_targets": [],
+        "question_punctuation_mismatches": [],
+        "suspicious_length_imbalance_rows": [],
+    }
+    if work_id != "laozi":
+        return {**issues, "hard_failure_count": 0}
+    for row in rows:
+        source_text = str(row.get("chinese_text", "")).strip()
+        translation_text = str(row.get("translation_text", "")).strip()
+        source_segment_count = int(row.get("source_segment_count", 0) or 0)
+        target_segment_count = int(row.get("target_segment_count", 0) or 0)
+        if (
+            source_segment_count == 1
+            and target_segment_count == 1
+            and len(ENGLISH_CLAUSE_MARKER_RE.findall(translation_text)) >= 2
+            and len(re.findall(r"[。；！？]", source_text)) <= 1
+            and len(re.findall(r"[A-Za-z']+", translation_text)) >= 16
+            and len(CJK_RE.findall(source_text)) <= 12
+        ):
+            issues["false_precision_multi_clause_targets"].append(str(row["alignment_id"]))
+        if source_segment_count == 1 and target_segment_count == 1 and (
+            source_text.endswith(("?", "？")) != translation_text.endswith("?")
+        ):
+            issues["question_punctuation_mismatches"].append(str(row["alignment_id"]))
+        if (
+            source_segment_count == 1
+            and target_segment_count == 1
+            and len(re.findall(r"[A-Za-z']+", translation_text)) >= 28
+            and len(CJK_RE.findall(source_text)) <= 8
+        ):
+            issues["suspicious_length_imbalance_rows"].append(str(row["alignment_id"]))
+    hard_failure_count = sum(1 for value in issues.values() if value)
+    return {**issues, "hard_failure_count": hard_failure_count}
 
 
 def run_text_integrity_checks(work_id: str) -> dict[str, object]:
@@ -196,7 +236,9 @@ def run_qc(
     }
     text_integrity = run_text_integrity_checks(work_id)
     report["text_integrity"] = text_integrity
-    report["hard_failure_count"] = int(text_integrity["hard_failure_count"])
+    alignment_quality = run_alignment_quality_checks(work_id)
+    report["alignment_quality"] = alignment_quality
+    report["hard_failure_count"] = int(text_integrity["hard_failure_count"]) + int(alignment_quality["hard_failure_count"])
     if report["hard_failure_count"]:
         report["status"] = "fail"
     write_json(report_output, report)

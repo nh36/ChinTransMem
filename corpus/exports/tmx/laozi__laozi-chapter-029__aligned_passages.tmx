@@ -6,37 +6,160 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-029</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 29.1 - 老子 29.2</prop>
+      <prop type="x-translation-ref">老子 29.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>將欲取天下而為之，吾見其不得已。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If any one should wish to get the kingdom for himself, and to effect this by what he does, I see that he will not succeed.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-029__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-029</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 29.3 - 老子 29.4</prop>
+      <prop type="x-translation-ref">老子 29.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天下神器，不可為也，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The kingdom is a spirit-like thing, and cannot be got by active doing.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-029__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-029</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 29</prop>
-      <prop type="x-translation-ref">老子 29</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 7 English blocks, 6 Chinese clause units, 9 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 29.5</prop>
+      <prop type="x-translation-ref">老子 29.3</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>將欲取天下而為之，吾見其不得已。天下神器，
-
-不可為也，為者敗之，執者失之。
-
-故物或行或隨，或歔或吹。或強或羸，或挫或隳。是以聖人去甚，去奢，去泰。</seg>
+        <seg>為者敗之，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>If any one should wish to get the kingdom for himself, and to effect this by what he does, I see that he will not succeed. The kingdom is a spirit-like thing, and cannot be got by active doing. He who would so win it destroys it; he who would hold it in his grasp loses it.
-
-The course and nature of things is such that
-
-What was in front is now behind;
-
-What warmed anon we freezing find.
-
-Strength is of weakness oft the spoil;
-
-The store in ruins mocks our toil.
-
-Hence the sage puts away excessive effort, extravagance, and easy indulgence.</seg>
+        <seg>He who would so win it destroys it;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-029__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-029</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 29.6 - 老子 29.7</prop>
+      <prop type="x-translation-ref">老子 29.4 - 老子 29.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>執者失之。故物或行或隨，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>he who would hold it in his grasp loses it. The course and nature of things is such that</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-029__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-029</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 29.8</prop>
+      <prop type="x-translation-ref">老子 29.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>或歔或吹。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What was in front is now behind;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-029__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-029</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 29.9</prop>
+      <prop type="x-translation-ref">老子 29.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>或強或羸，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What warmed anon we freezing find.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-029__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-029</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 29.10</prop>
+      <prop type="x-translation-ref">老子 29.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>或挫或隳。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Strength is of weakness oft the spoil;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-029__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-029</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 29.11 - 老子 29.13</prop>
+      <prop type="x-translation-ref">老子 29.9 - 老子 29.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以聖人去甚，去奢，去泰。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The store in ruins mocks our toil. Hence the sage puts away excessive effort, extravagance, and easy indulgence.</seg>
       </tuv>
     </tu>
   </body>

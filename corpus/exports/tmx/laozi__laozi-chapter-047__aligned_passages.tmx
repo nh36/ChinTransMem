@@ -6,29 +6,100 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-047</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 47.1 - 老子 47.3</prop>
+      <prop type="x-translation-ref">老子 47.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不出戶，知天下；不闚牖，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Without going outside his door, one understands (all that takes place) under the sky;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-047__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-047</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 47.4 - 老子 47.5</prop>
+      <prop type="x-translation-ref">老子 47.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>見天道。其出彌遠，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>without looking out from his window, one sees the Dao of Heaven.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-047__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-047</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 47.6 - 老子 47.7</prop>
+      <prop type="x-translation-ref">老子 47.3 - 老子 47.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>其知彌少。是以聖人不行而知，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The farther that one goes out (from himself), the less he knows. Therefore the sages got their knowledge without travelling;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-047__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-047</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 47</prop>
-      <prop type="x-translation-ref">老子 47</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 2 English blocks, 5 Chinese clause units, 3 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 47.8</prop>
+      <prop type="x-translation-ref">老子 47.5</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>不出戶，知天下；不闚牖，見天道。
-
-其出彌遠，其知彌少。
-
-是以聖人不行而知，不見而名，
-
-不為而成。</seg>
+        <seg>不見而名，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Without going outside his door, one understands (all that takes place) under the sky; without looking out from his window, one sees the Dao of Heaven. The farther that one goes out (from himself), the less he knows.
-
-Therefore the sages got their knowledge without travelling; gave their (right) names to things without seeing them; and accomplished their ends without any purpose of doing so.</seg>
+        <seg>gave their (right) names to things without seeing them;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-047__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-047</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 47.9</prop>
+      <prop type="x-translation-ref">老子 47.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不為而成。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and accomplished their ends without any purpose of doing so.</seg>
       </tuv>
     </tu>
   </body>

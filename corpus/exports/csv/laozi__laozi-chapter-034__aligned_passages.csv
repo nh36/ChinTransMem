@@ -1,12 +1,10 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-034__align-001,laozi,laozi-chapter-034,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 3 English blocks, 5 Chinese clause units, 8 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 34,"大道氾兮，其可左右。
-
-萬物恃之而生而不辭，功成不名有。衣養萬物而不為主，常無欲，可名於小；
-
-萬物歸焉而不為主，可名為大。
-
-以其終不自為大，故能成其大。",老子 34,"All-pervading is the Great Dao! It may be found on the left hand and on the right.
-
-All things depend on it for their production, which it gives to them, not one refusing obedience to it. When its work is accomplished, it does not claim the name of having done it. It clothes all things as with a garment, and makes no assumption of being their lord; - it may be named in the smallest things. All things return (to their root and disappear), and do not know that it is it which presides over their doing so; - it may be named in the greatest things.
-
-Hence the sage is able (in the same way) to accomplish his great achievements. It is through his not making himself great that he can accomplish them."
+laozi-chapter-034__align-001,laozi,laozi-chapter-034,chapter,sentence,grouped,False,,2,2,exact_or_near_exact,1.0,1,老子 34.1 - 老子 34.2,大道氾兮，其可左右。,老子 34.1 - 老子 34.2,All-pervading is the Great Dao! It may be found on the left hand and on the right.
+laozi-chapter-034__align-002,laozi,laozi-chapter-034,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,3,老子 34.3,萬物恃之而生而不辭，,老子 34.3,"All things depend on it for their production, which it gives to them, not one refusing obedience to it."
+laozi-chapter-034__align-003,laozi,laozi-chapter-034,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,4,老子 34.4,功成不名有。,老子 34.4,"When its work is accomplished, it does not claim the name of having done it."
+laozi-chapter-034__align-004,laozi,laozi-chapter-034,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,5,老子 34.5,衣養萬物而不為主，,老子 34.5,"It clothes all things as with a garment, and makes no assumption of being their lord;"
+laozi-chapter-034__align-005,laozi,laozi-chapter-034,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,6,老子 34.6,常無欲，,老子 34.6,- it may be named in the smallest things.
+laozi-chapter-034__align-006,laozi,laozi-chapter-034,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,7,老子 34.7 - 老子 34.8,可名於小；萬物歸焉而不為主，,老子 34.7,"All things return (to their root and disappear), and do not know that it is it which presides over their doing so;"
+laozi-chapter-034__align-007,laozi,laozi-chapter-034,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,9,老子 34.9,可名為大。,老子 34.8,- it may be named in the greatest things.
+laozi-chapter-034__align-008,laozi,laozi-chapter-034,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,10,老子 34.10,以其終不自為大，,老子 34.9,Hence the sage is able (in the same way) to accomplish his great achievements.
+laozi-chapter-034__align-009,laozi,laozi-chapter-034,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,11,老子 34.11,故能成其大。,老子 34.10,It is through his not making himself great that he can accomplish them.

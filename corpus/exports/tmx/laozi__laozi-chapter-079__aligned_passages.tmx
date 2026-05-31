@@ -7,19 +7,19 @@
       <prop type="x-section-id">laozi-chapter-079</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 79.1</prop>
-      <prop type="x-translation-ref">老子 79.1</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 79.1 - 老子 79.3</prop>
+      <prop type="x-translation-ref">老子 79.1 - 老子 79.2</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>和大怨，必有餘怨，</seg>
+        <seg>和大怨，必有餘怨，安可以為善？</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>When a reconciliation is effected (between two parties) after a great animosity, there is sure to be a grudge remaining (in the mind of the one who was wrong).</seg>
+        <seg>When a reconciliation is effected (between two parties) after a great animosity, there is sure to be a grudge remaining (in the mind of the one who was wrong). And how can this be beneficial (to the other)?</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-079__align-002">
@@ -27,19 +27,19 @@
       <prop type="x-section-id">laozi-chapter-079</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 79.2</prop>
-      <prop type="x-translation-ref">老子 79.2</prop>
+      <prop type="x-chinese-ref">老子 79.4 - 老子 79.5</prop>
+      <prop type="x-translation-ref">老子 79.3</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>安可以為善？是以聖人執左契，</seg>
+        <seg>是以聖人執左契，而不責於人。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>And how can this be beneficial (to the other)?</seg>
+        <seg>Therefore (to guard against this), the sage keeps the left-hand portion of the record of the engagement, and does not insist on the (speedy) fulfilment of it by the other party.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-079__align-003">
@@ -47,19 +47,19 @@
       <prop type="x-section-id">laozi-chapter-079</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 79.3</prop>
-      <prop type="x-translation-ref">老子 79.3</prop>
+      <prop type="x-chinese-ref">老子 79.6 - 老子 79.7</prop>
+      <prop type="x-translation-ref">老子 79.4</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>而不責於人。有德司契，</seg>
+        <seg>有德司契，無德司徹。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Therefore (to guard against this), the sage keeps the left-hand portion of the record of the engagement, and does not insist on the (speedy) fulfilment of it by the other party.</seg>
+        <seg>(So), he who has the attributes (of the Dao) regards (only) the conditions of the engagement, while he who has not those attributes regards only the conditions favourable to himself.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-079__align-004">
@@ -67,19 +67,19 @@
       <prop type="x-section-id">laozi-chapter-079</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 79.4</prop>
-      <prop type="x-translation-ref">老子 79.4</prop>
+      <prop type="x-chinese-ref">老子 79.8</prop>
+      <prop type="x-translation-ref">老子 79.5</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>無德司徹。</seg>
+        <seg>天道無親，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>(So), he who has the attributes (of the Dao) regards (only) the conditions of the engagement, while he who has not those attributes regards only the conditions favourable to himself.</seg>
+        <seg>In the Way of Heaven, there is no partiality of love;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-079__align-005">
@@ -87,19 +87,19 @@
       <prop type="x-section-id">laozi-chapter-079</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 79.5</prop>
-      <prop type="x-translation-ref">老子 79.5</prop>
+      <prop type="x-chinese-ref">老子 79.9</prop>
+      <prop type="x-translation-ref">老子 79.6</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>天道無親，常與善人。</seg>
+        <seg>常與善人。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>In the Way of Heaven, there is no partiality of love; it is always on the side of the good man.</seg>
+        <seg>it is always on the side of the good man.</seg>
       </tuv>
     </tu>
   </body>

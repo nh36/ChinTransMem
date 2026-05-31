@@ -6,77 +6,117 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-076</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 76.1</prop>
-      <prop type="x-translation-ref">老子 76.1</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">老子 76.1 - 老子 76.2</prop>
+      <prop type="x-translation-ref">老子 76.1 - 老子 76.3</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>人之生也柔弱，其死也堅強。萬物草木之生也柔脆，其死也枯槁。故堅強者死之徒，柔弱者生之徒。是以兵強則不勝，</seg>
+        <seg>人之生也柔弱，其死也堅強。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Man at his birth is supple and weak; at his death, firm and strong. (So it is with) all things. Trees and plants, in their early growth, are soft and brittle; at their death, dry and withered.</seg>
+        <seg>Man at his birth is supple and weak; at his death, firm and strong. (So it is with) all things.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-076__align-002">
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-076</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 76.2</prop>
-      <prop type="x-translation-ref">老子 76.2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 76.3</prop>
+      <prop type="x-translation-ref">老子 76.4 - 老子 76.5</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>木強則兵。</seg>
+        <seg>萬物草木之生也柔脆，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Thus it is that firmness and strength are the concomitants of death; softness and weakness, the concomitants of life.</seg>
+        <seg>Trees and plants, in their early growth, are soft and brittle; at their death, dry and withered.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-076__align-003">
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-076</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 76.3</prop>
-      <prop type="x-translation-ref">老子 76.3</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 76.4 - 老子 76.5</prop>
+      <prop type="x-translation-ref">老子 76.6 - 老子 76.7</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>強大處下，</seg>
+        <seg>其死也枯槁。故堅強者死之徒，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Hence he who (relies on) the strength of his forces does not conquer; and a tree which is strong will fill the out-stretched arms, (and thereby invites the feller.)</seg>
+        <seg>Thus it is that firmness and strength are the concomitants of death; softness and weakness, the concomitants of life.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-076__align-004">
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-076</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 76.4</prop>
-      <prop type="x-translation-ref">老子 76.4</prop>
+      <prop type="x-chinese-ref">老子 76.6</prop>
+      <prop type="x-translation-ref">老子 76.8</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>柔弱處上。</seg>
+        <seg>柔弱者生之徒。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hence he who (relies on) the strength of his forces does not conquer;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-076__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-076</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 76.7</prop>
+      <prop type="x-translation-ref">老子 76.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以兵強則不勝，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and a tree which is strong will fill the out-stretched arms, (and thereby invites the feller.)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-076__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-076</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 76.8 - 老子 76.10</prop>
+      <prop type="x-translation-ref">老子 76.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>木強則兵。強大處下，柔弱處上。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>Therefore the place of what is firm and strong is below, and that of what is soft and weak is above.</seg>

@@ -6,41 +6,260 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-067</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 67.1 - 老子 67.3</prop>
+      <prop type="x-translation-ref">老子 67.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天下皆謂我道大，似不肖。夫唯大，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All the world says that, while my Dao is great, it yet appears to be inferior (to other systems of teaching).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 67.4 - 老子 67.5</prop>
+      <prop type="x-translation-ref">老子 67.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故似不肖。若肖，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Now it is just its greatness that makes it seem to be inferior.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 67.6 - 老子 67.7</prop>
+      <prop type="x-translation-ref">老子 67.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>久矣其細也夫！我有三寶，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If it were like any other (system), for long would its smallness have been known!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 67.8 - 老子 67.9</prop>
+      <prop type="x-translation-ref">老子 67.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>持而保之。一曰慈，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>But I have three precious things which I prize and hold fast.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 67</prop>
-      <prop type="x-translation-ref">老子 67</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 5 English blocks, 13 Chinese clause units, 9 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 67.10</prop>
+      <prop type="x-translation-ref">老子 67.5</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>天下皆謂我道大，似不肖。夫唯大，故似不肖。若肖，久矣其細也夫！
-
-我有三寶，持而保之。一曰慈，二曰儉，三曰不敢為天下先。慈故能勇，
-
-儉故能廣，
-
-不敢為天下先，故能成器長。
-
-今舍慈且勇，
-
-舍儉且廣，舍後且先，死矣！夫慈以戰則勝，
-
-以守則固。天將救之，以慈衛之。</seg>
+        <seg>二曰儉，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>All the world says that, while my Dao is great, it yet appears to be inferior (to other systems of teaching).
-
-Now it is just its greatness that makes it seem to be inferior. If it were like any other (system), for long would its smallness have been known!
-
-But I have three precious things which I prize and hold fast. The first is gentleness; the second is economy; and the third is shrinking from taking precedence of others.
-
-With that gentleness I can be bold; with that economy I can be liberal; shrinking from taking precedence of others, I can become a vessel of the highest honour. Now-a-days they give up gentleness and are all for being bold; economy, and are all for being liberal; the hindmost place, and seek only to be foremost; - (of all which the end is) death.
-
-Gentleness is sure to be victorious even in battle, and firmly to maintain its ground. Heaven will save its possessor, by his (very) gentleness protecting him.</seg>
+        <seg>The first is gentleness;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 67.11</prop>
+      <prop type="x-translation-ref">老子 67.6 - 老子 67.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>三曰不敢為天下先。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the second is economy; and the third is shrinking from taking precedence of others.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 67.12</prop>
+      <prop type="x-translation-ref">老子 67.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>慈故能勇，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>With that gentleness I can be bold;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 67.13</prop>
+      <prop type="x-translation-ref">老子 67.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>儉故能廣，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>with that economy I can be liberal;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 67.14 - 老子 67.16</prop>
+      <prop type="x-translation-ref">老子 67.10 - 老子 67.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不敢為天下先，故能成器長。今舍慈且勇，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>shrinking from taking precedence of others, I can become a vessel of the highest honour. Now-a-days they give up gentleness and are all for being bold;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 67.17</prop>
+      <prop type="x-translation-ref">老子 67.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>舍儉且廣，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>economy, and are all for being liberal;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 67.18</prop>
+      <prop type="x-translation-ref">老子 67.13</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>舍後且先，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the hindmost place, and seek only to be foremost;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-012">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 67.19 - 老子 67.21</prop>
+      <prop type="x-translation-ref">老子 67.14 - 老子 67.15</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>死矣！夫慈以戰則勝，以守則固。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- (of all which the end is) death. Gentleness is sure to be victorious even in battle, and firmly to maintain its ground.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-067__align-013">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-067</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 67.22 - 老子 67.23</prop>
+      <prop type="x-translation-ref">老子 67.16</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天將救之，以慈衛之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Heaven will save its possessor, by his (very) gentleness protecting him.</seg>
       </tuv>
     </tu>
   </body>

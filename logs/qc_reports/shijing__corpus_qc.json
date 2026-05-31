@@ -3379,7 +3379,7 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "2630312b87da94896630bdbeeaa4935959b71e4f83a67f49a8caa65f55c41855",
+    "metadata/sections.yml": "bb2bf594a919ad62b7479b68cd4901d3bc1d7842e7624b29b1097d97fd514b81",
     "metadata/sources.yml": "7f63b13237a3b9746a8aee8ff33e712560e2f2639005be6acd1d644bd2f56366",
     "metadata/manifests/shijing.yml": "f39c8945b070e89776bc241dac6511606d9ed55337e8759df33d512c692cf155",
     "corpus/exports/jsonl/shijing__guofeng-zhounan-001-guanju__aligned_passages.jsonl": "201232fd9cde0d03fd0629b7025a46e9c69d7a1bd6fd60084d61ca1396b8e8bc",
@@ -4614,6 +4614,12 @@
     "translation_with_notice_sections": [],
     "translation_with_commentary_sections": [],
     "translation_with_heading_sections": [],
+    "hard_failure_count": 0
+  },
+  "alignment_quality": {
+    "false_precision_multi_clause_targets": [],
+    "question_punctuation_mismatches": [],
+    "suspicious_length_imbalance_rows": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

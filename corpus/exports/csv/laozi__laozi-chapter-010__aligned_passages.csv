@@ -1,18 +1,12 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-010__align-001,laozi,laozi-chapter-010,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (9 Chinese blocks, 1 English blocks, 9 Chinese clause units, 8 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 10,"載營魄抱一，能無離乎？
-
-專氣致柔，能嬰兒乎？
-
-滌除玄覽，能無疵乎？
-
-愛國治民，能無知乎？
-
-天門開闔，能為雌乎？
-
-明白四達，能無為乎？
-
-生之，
-
-畜之。
-
-生而不有，為而不恃，長而不宰，是謂玄德。",老子 10,"When the intelligent and animal souls are held together in one embrace, they can be kept from separating. When one gives undivided attention to the (vital) breath, and brings it to the utmost degree of pliancy, he can become as a (tender) babe. When he has cleansed away the most mysterious sights (of his imagination), he can become without a flaw. In loving the people and ruling the state, cannot he proceed without any (purpose of) action? In the opening and shutting of his gates of heaven, cannot he do so as a female bird? While his intelligence reaches in every direction, cannot he (appear to) be without knowledge? (The Dao) produces (all things) and nourishes them; it produces them and does not claim them as its own; it does all, and yet does not boast of it; it presides over all, and yet does not control them. This is what is called 'The mysterious Quality' (of the Dao)."
+laozi-chapter-010__align-001,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,1,老子 10.1,載營魄抱一，,老子 10.1,"When the intelligent and animal souls are held together in one embrace, they can be kept from separating."
+laozi-chapter-010__align-002,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,2,老子 10.2 - 老子 10.3,能無離乎？專氣致柔，,老子 10.2,"When one gives undivided attention to the (vital) breath, and brings it to the utmost degree of pliancy, he can become as a (tender) babe."
+laozi-chapter-010__align-003,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,4,老子 10.4 - 老子 10.5,能嬰兒乎？滌除玄覽，,老子 10.3,"When he has cleansed away the most mysterious sights (of his imagination), he can become without a flaw."
+laozi-chapter-010__align-004,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,3,1,exact_or_near_exact,1.0,6,老子 10.6 - 老子 10.8,能無疵乎？愛國治民，能無知乎？,老子 10.4,"In loving the people and ruling the state, cannot he proceed without any (purpose of) action?"
+laozi-chapter-010__align-005,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,9,老子 10.9 - 老子 10.10,天門開闔，能為雌乎？,老子 10.5,"In the opening and shutting of his gates of heaven, cannot he do so as a female bird?"
+laozi-chapter-010__align-006,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,11,老子 10.11 - 老子 10.12,明白四達，能無為乎？,老子 10.6,"While his intelligence reaches in every direction, cannot he (appear to) be without knowledge?"
+laozi-chapter-010__align-007,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,13,老子 10.13 - 老子 10.14,生之，畜之。,老子 10.7,(The Dao) produces (all things) and nourishes them;
+laozi-chapter-010__align-008,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,15,老子 10.15,生而不有，,老子 10.8,it produces them and does not claim them as its own;
+laozi-chapter-010__align-009,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,16,老子 10.16,為而不恃，,老子 10.9,"it does all, and yet does not boast of it;"
+laozi-chapter-010__align-010,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,17,老子 10.17,長而不宰，,老子 10.10,"it presides over all, and yet does not control them."
+laozi-chapter-010__align-011,laozi,laozi-chapter-010,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,18,老子 10.18,是謂玄德。,老子 10.11,This is what is called 'The mysterious Quality' (of the Dao).

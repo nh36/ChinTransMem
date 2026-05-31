@@ -7,7 +7,7 @@
       <prop type="x-section-id">laozi-chapter-005</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -16,10 +16,10 @@
       <prop type="x-chinese-ref">老子 5.1</prop>
       <prop type="x-translation-ref">老子 5.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>天地不仁，以萬物為芻狗；</seg>
+        <seg>天地不仁，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Heaven and earth do not act from (the impulse of) any wish to be benevolent; they deal with all things as the dogs of grass are dealt with. The sages do not act from (any wish to be) benevolent; they deal with the people as the dogs of grass are dealt with. May not the space between heaven and earth be compared to a bellows?</seg>
+        <seg>Heaven and earth do not act from (the impulse of) any wish to be benevolent;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-005__align-002">
@@ -27,7 +27,7 @@
       <prop type="x-section-id">laozi-chapter-005</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -36,10 +36,10 @@
       <prop type="x-chinese-ref">老子 5.2</prop>
       <prop type="x-translation-ref">老子 5.2</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>聖人不仁，以百姓為芻狗。</seg>
+        <seg>以萬物為芻狗；</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>'Tis emptied, yet it loses not its power;</seg>
+        <seg>they deal with all things as the dogs of grass are dealt with.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-005__align-003">
@@ -47,7 +47,7 @@
       <prop type="x-section-id">laozi-chapter-005</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -56,10 +56,10 @@
       <prop type="x-chinese-ref">老子 5.3</prop>
       <prop type="x-translation-ref">老子 5.3</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>天地之間，其猶橐籥乎？</seg>
+        <seg>聖人不仁，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>'Tis moved again, and sends forth air the more.</seg>
+        <seg>The sages do not act from (any wish to be) benevolent;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-005__align-004">
@@ -67,7 +67,7 @@
       <prop type="x-section-id">laozi-chapter-005</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -76,10 +76,10 @@
       <prop type="x-chinese-ref">老子 5.4</prop>
       <prop type="x-translation-ref">老子 5.4</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>虛而不屈，動而愈出。</seg>
+        <seg>以百姓為芻狗。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Much speech to swift exhaustion lead we see;</seg>
+        <seg>they deal with the people as the dogs of grass are dealt with.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-005__align-005">
@@ -87,16 +87,96 @@
       <prop type="x-section-id">laozi-chapter-005</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 5.5 - 老子 5.6</prop>
+      <prop type="x-translation-ref">老子 5.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天地之間，其猶橐籥乎？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>May not the space between heaven and earth be compared to a bellows?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-005__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-005</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 5.5</prop>
-      <prop type="x-translation-ref">老子 5.5</prop>
+      <prop type="x-chinese-ref">老子 5.7</prop>
+      <prop type="x-translation-ref">老子 5.6</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>多言數窮，不如守中。</seg>
+        <seg>虛而不屈，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>'Tis emptied, yet it loses not its power;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-005__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-005</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 5.8</prop>
+      <prop type="x-translation-ref">老子 5.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>動而愈出。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>'Tis moved again, and sends forth air the more.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-005__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-005</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 5.9</prop>
+      <prop type="x-translation-ref">老子 5.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>多言數窮，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Much speech to swift exhaustion lead we see;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-005__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-005</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 5.10</prop>
+      <prop type="x-translation-ref">老子 5.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不如守中。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>Your inner being guard, and keep it free.</seg>

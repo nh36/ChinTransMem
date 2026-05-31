@@ -6,8 +6,8 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-071</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -16,18 +16,18 @@
       <prop type="x-chinese-ref">老子 71.1</prop>
       <prop type="x-translation-ref">老子 71.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>知不知上，不知知病。</seg>
+        <seg>知不知上，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>To know and yet (think) we do not know is the highest (attainment); not to know (and yet think) we do know is a disease.</seg>
+        <seg>To know and yet (think) we do not know is the highest (attainment);</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-071__align-002">
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-071</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -36,10 +36,70 @@
       <prop type="x-chinese-ref">老子 71.2</prop>
       <prop type="x-translation-ref">老子 71.2</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>夫唯病病，是以不病。聖人不病，以其病病，是以不病。</seg>
+        <seg>不知知病。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>It is simply by being pained at (the thought of) having this disease that we are preserved from it. The sage has not the disease. He knows the pain that would be inseparable from it, and therefore he does not have it.</seg>
+        <seg>not to know (and yet think) we do know is a disease.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-071__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-071</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 71.3 - 老子 71.4</prop>
+      <prop type="x-translation-ref">老子 71.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>夫唯病病，是以不病。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>It is simply by being pained at (the thought of) having this disease that we are preserved from it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-071__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-071</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 71.5</prop>
+      <prop type="x-translation-ref">老子 71.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>聖人不病，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sage has not the disease.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-071__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-071</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 71.6 - 老子 71.7</prop>
+      <prop type="x-translation-ref">老子 71.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以其病病，是以不病。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He knows the pain that would be inseparable from it, and therefore he does not have it.</seg>
       </tuv>
     </tu>
   </body>

@@ -7,13 +7,13 @@
       <prop type="x-section-id">laozi-chapter-009</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 9.1</prop>
+      <prop type="x-chinese-ref">老子 9.1 - 老子 9.2</prop>
       <prop type="x-translation-ref">老子 9.1</prop>
       <tuv xml:lang="zh-Hant">
         <seg>持而盈之，不如其已；</seg>
@@ -27,13 +27,13 @@
       <prop type="x-section-id">laozi-chapter-009</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 9.2</prop>
+      <prop type="x-chinese-ref">老子 9.3 - 老子 9.4</prop>
       <prop type="x-translation-ref">老子 9.2</prop>
       <tuv xml:lang="zh-Hant">
         <seg>揣而梲之，不可長保。</seg>
@@ -47,19 +47,19 @@
       <prop type="x-section-id">laozi-chapter-009</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 9.3</prop>
-      <prop type="x-translation-ref">老子 9.3</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 9.5 - 老子 9.7</prop>
+      <prop type="x-translation-ref">老子 9.3 - 老子 9.4</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>金玉滿堂，莫之能守；</seg>
+        <seg>金玉滿堂，莫之能守；富貴而驕，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>When gold and jade fill the hall, their possessor cannot keep them safe.</seg>
+        <seg>When gold and jade fill the hall, their possessor cannot keep them safe. When wealth and honours lead to arrogancy, this brings its evil on itself.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-009__align-004">
@@ -67,36 +67,16 @@
       <prop type="x-section-id">laozi-chapter-009</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 9.4</prop>
-      <prop type="x-translation-ref">老子 9.4</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>富貴而驕，自遺其咎。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>When wealth and honours lead to arrogancy, this brings its evil on itself.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="laozi-chapter-009__align-005">
-      <prop type="x-work-id">laozi</prop>
-      <prop type="x-section-id">laozi-chapter-009</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 9.5</prop>
+      <prop type="x-chinese-ref">老子 9.8 - 老子 9.10</prop>
       <prop type="x-translation-ref">老子 9.5</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>功遂身退，天之道。</seg>
+        <seg>自遺其咎。功遂身退，天之道。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>When the work is done, and one's name is becoming distinguished, to withdraw into obscurity is the way of Heaven.</seg>

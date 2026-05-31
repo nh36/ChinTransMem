@@ -6,39 +6,240 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-001</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.1 - 老子 1.2</prop>
+      <prop type="x-translation-ref">老子 1.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>道可道、非常道，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Dao that can be trodden is not the enduring and unchanging Dao.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.3 - 老子 1.4</prop>
+      <prop type="x-translation-ref">老子 1.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>名可名、非常名；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The name that can be named is not the enduring and unchanging name.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 1</prop>
-      <prop type="x-translation-ref">老子 1</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 6 English blocks, 5 Chinese clause units, 11 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 1.5</prop>
+      <prop type="x-translation-ref">老子 1.3</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>道可道、非常道，名可名、非常名；
-
-無名天地之始，有名萬物之母。
-
-故常無欲、以觀其妙，
-
-常有欲、以觀其徼；
-
-此兩者、同出而異名，同謂之玄、玄之又玄、眾妙之門。</seg>
+        <seg>無名天地之始，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The Dao that can be trodden is not the enduring and unchanging Dao. The name that can be named is not the enduring and unchanging name. (Conceived of as) having no name, it is the Originator of heaven and earth; (conceived of as) having a name, it is the Mother of all things.
-
-Always without desire we must be found,
-
-If its deep mystery we would sound;
-
-But if desire always within us be,
-
-Its outer fringe is all that we shall see.
-
-Under these two aspects, it is really the same; but as development takes place, it receives the different names. Together we call them the Mystery. Where the Mystery is the deepest is the gate of all that is subtle and wonderful.</seg>
+        <seg>(Conceived of as) having no name, it is the Originator of heaven and earth;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.6</prop>
+      <prop type="x-translation-ref">老子 1.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有名萬物之母。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(conceived of as) having a name, it is the Mother of all things.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.7</prop>
+      <prop type="x-translation-ref">老子 1.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故常無欲、</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Always without desire we must be found,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.8</prop>
+      <prop type="x-translation-ref">老子 1.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以觀其妙，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If its deep mystery we would sound;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.9</prop>
+      <prop type="x-translation-ref">老子 1.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>常有欲、</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>But if desire always within us be,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.10</prop>
+      <prop type="x-translation-ref">老子 1.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以觀其徼；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Its outer fringe is all that we shall see.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.11</prop>
+      <prop type="x-translation-ref">老子 1.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>此兩者、</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Under these two aspects, it is really the same;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.12</prop>
+      <prop type="x-translation-ref">老子 1.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>同出而異名，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>but as development takes place, it receives the different names.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.13</prop>
+      <prop type="x-translation-ref">老子 1.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>同謂之玄、</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Together we call them the Mystery.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-001__align-012">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-001</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 1.14 - 老子 1.15</prop>
+      <prop type="x-translation-ref">老子 1.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>玄之又玄、眾妙之門。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Where the Mystery is the deepest is the gate of all that is subtle and wonderful.</seg>
       </tuv>
     </tu>
   </body>

@@ -6,29 +6,140 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-069</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 69.1</prop>
+      <prop type="x-translation-ref">老子 69.1 - 老子 69.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>用兵有言﹕「吾不敢為主而為客，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A master of the art of war has said, 'I do not dare to be the host (to commence the war); I prefer to be the guest (to act on the defensive).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-069__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-069</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 69.2 - 老子 69.3</prop>
+      <prop type="x-translation-ref">老子 69.3 - 老子 69.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不敢進寸而退尺。」是謂行無行，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I do not dare to advance an inch; I prefer to retire a foot.' This is called marshalling the ranks where there are no ranks;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-069__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-069</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 69</prop>
-      <prop type="x-translation-ref">老子 69</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 2 English blocks, 6 Chinese clause units, 7 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 69.4</prop>
+      <prop type="x-translation-ref">老子 69.5</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>用兵有言﹕「吾不敢為主而為客，不敢進寸而退尺。」是謂行無行，
-
-〉攘無臂，扔無敵，
-
-執無兵。禍莫大於輕敵，輕敵幾喪吾寶。
-
-故抗兵相加，哀者勝矣。</seg>
+        <seg>〉攘無臂，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>A master of the art of war has said, 'I do not dare to be the host (to commence the war); I prefer to be the guest (to act on the defensive). I do not dare to advance an inch; I prefer to retire a foot.' This is called marshalling the ranks where there are no ranks; baring the arms (to fight) where there are no arms to bare; grasping the weapon where there is no weapon to grasp; advancing against the enemy where there is no enemy.
-
-There is no calamity greater than lightly engaging in war. To do that is near losing (the gentleness) which is so precious. Thus it is that when opposing weapons are (actually) crossed, he who deplores (the situation) conquers.</seg>
+        <seg>baring the arms (to fight) where there are no arms to bare;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-069__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-069</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 69.5</prop>
+      <prop type="x-translation-ref">老子 69.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>扔無敵，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>grasping the weapon where there is no weapon to grasp;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-069__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-069</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 69.6 - 老子 69.7</prop>
+      <prop type="x-translation-ref">老子 69.7 - 老子 69.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>執無兵。禍莫大於輕敵，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>advancing against the enemy where there is no enemy. There is no calamity greater than lightly engaging in war.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-069__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-069</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 69.8</prop>
+      <prop type="x-translation-ref">老子 69.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>輕敵幾喪吾寶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>To do that is near losing (the gentleness) which is so precious.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-069__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-069</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 69.9 - 老子 69.10</prop>
+      <prop type="x-translation-ref">老子 69.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故抗兵相加，哀者勝矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Thus it is that when opposing weapons are (actually) crossed, he who deplores (the situation) conquers.</seg>
       </tuv>
     </tu>
   </body>

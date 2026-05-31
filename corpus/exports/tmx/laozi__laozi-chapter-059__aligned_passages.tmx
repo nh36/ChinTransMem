@@ -7,13 +7,13 @@
       <prop type="x-section-id">laozi-chapter-059</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 59.1</prop>
+      <prop type="x-chinese-ref">老子 59.1 - 老子 59.2</prop>
       <prop type="x-translation-ref">老子 59.1</prop>
       <tuv xml:lang="zh-Hant">
         <seg>治人事天，莫若嗇。</seg>
@@ -27,13 +27,13 @@
       <prop type="x-section-id">laozi-chapter-059</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 59.2</prop>
+      <prop type="x-chinese-ref">老子 59.3 - 老子 59.4</prop>
       <prop type="x-translation-ref">老子 59.2</prop>
       <tuv xml:lang="zh-Hant">
         <seg>夫唯嗇，是謂早服；</seg>
@@ -47,13 +47,13 @@
       <prop type="x-section-id">laozi-chapter-059</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 59.3</prop>
+      <prop type="x-chinese-ref">老子 59.5</prop>
       <prop type="x-translation-ref">老子 59.3</prop>
       <tuv xml:lang="zh-Hant">
         <seg>早服謂之重積德；</seg>
@@ -67,16 +67,16 @@
       <prop type="x-section-id">laozi-chapter-059</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 59.4</prop>
+      <prop type="x-chinese-ref">老子 59.6</prop>
       <prop type="x-translation-ref">老子 59.4</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>重積德則無不克，無不克則莫知其極；</seg>
+        <seg>重積德則無不克，</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>With that repeated accumulation of those attributes, there comes the subjugation (of every obstacle to such return).</seg>
@@ -87,19 +87,19 @@
       <prop type="x-section-id">laozi-chapter-059</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 59.5</prop>
+      <prop type="x-chinese-ref">老子 59.7</prop>
       <prop type="x-translation-ref">老子 59.5</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>莫知其極，可以有國；</seg>
+        <seg>無不克則莫知其極；</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Of this subjugation we know not what shall be the limit; and when one knows not what the limit shall be, he may be the ruler of a state.</seg>
+        <seg>Of this subjugation we know not what shall be the limit;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-059__align-006">
@@ -107,19 +107,19 @@
       <prop type="x-section-id">laozi-chapter-059</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 59.6</prop>
+      <prop type="x-chinese-ref">老子 59.8 - 老子 59.9</prop>
       <prop type="x-translation-ref">老子 59.6</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>有國之母，可以長久；</seg>
+        <seg>莫知其極，可以有國；</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>He who possesses the mother of the state may continue long.</seg>
+        <seg>and when one knows not what the limit shall be, he may be the ruler of a state.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-059__align-007">
@@ -127,19 +127,59 @@
       <prop type="x-section-id">laozi-chapter-059</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 59.7</prop>
+      <prop type="x-chinese-ref">老子 59.10</prop>
       <prop type="x-translation-ref">老子 59.7</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>是謂深根固柢，長生久視之道。</seg>
+        <seg>有國之母，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>His case is like that (of the plant) of which we say that its roots are deep and its flower stalks firm: - this is the way to secure that its enduring life shall long be seen.</seg>
+        <seg>He who possesses the mother of the state may continue long.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-059__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-059</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 59.11 - 老子 59.12</prop>
+      <prop type="x-translation-ref">老子 59.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>可以長久；是謂深根固柢，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>His case is like that (of the plant) of which we say that its roots are deep and its flower stalks firm:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-059__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-059</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 59.13</prop>
+      <prop type="x-translation-ref">老子 59.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>長生久視之道。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- this is the way to secure that its enduring life shall long be seen.</seg>
       </tuv>
     </tu>
   </body>

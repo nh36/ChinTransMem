@@ -1,26 +1,14 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-016__align-001,laozi,laozi-chapter-016,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (13 Chinese blocks, 1 English blocks, 15 Chinese clause units, 10 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 16,"致虛極，守靜篤。
-
-萬物並作，
-
-吾以觀復。
-
-夫物芸芸，各復歸其根。
-
-歸根曰靜，是謂復命。復命曰常，
-
-知常曰明。不知常，妄作凶。
-
-知常容，
-
-容乃公，
-
-公乃王，
-
-王乃天，
-
-天乃道，
-
-道乃久，
-
-沒身不殆。",老子 16,"The (state of) vacancy should be brought to the utmost degree, and that of stillness guarded with unwearying vigour. All things alike go through their processes of activity, and (then) we see them return (to their original state). When things (in the vegetable world) have displayed their luxuriant growth, we see each of them return to its root. This returning to their root is what we call the state of stillness; and that stillness may be called a reporting that they have fulfilled their appointed end. The report of that fulfilment is the regular, unchanging rule. To know that unchanging rule is to be intelligent; not to know it leads to wild movements and evil issues. The knowledge of that unchanging rule produces a (grand) capacity and forbearance, and that capacity and forbearance lead to a community (of feeling with all things). From this community of feeling comes a kingliness of character; and he who is king-like goes on to be heaven-like. In that likeness to heaven he possesses the Dao. Possessed of the Dao, he endures long; and to the end of his bodily life, is exempt from all danger of decay."
+laozi-chapter-016__align-001,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,1,老子 16.1 - 老子 16.2,致虛極，守靜篤。,老子 16.1,"The (state of) vacancy should be brought to the utmost degree, and that of stillness guarded with unwearying vigour."
+laozi-chapter-016__align-002,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,3,2,exact_or_near_exact,1.0,3,老子 16.3 - 老子 16.5,萬物並作，吾以觀復。夫物芸芸，,老子 16.2 - 老子 16.3,"All things alike go through their processes of activity, and (then) we see them return (to their original state). When things (in the vegetable world) have displayed their luxuriant growth, we see each of them return to its root."
+laozi-chapter-016__align-003,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,6,老子 16.6,各復歸其根。,老子 16.4,This returning to their root is what we call the state of stillness;
+laozi-chapter-016__align-004,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,7,老子 16.7,歸根曰靜，,老子 16.5,and that stillness may be called a reporting that they have fulfilled their appointed end.
+laozi-chapter-016__align-005,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,8,老子 16.8,是謂復命。,老子 16.6,"The report of that fulfilment is the regular, unchanging rule."
+laozi-chapter-016__align-006,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,9,老子 16.9,復命曰常，,老子 16.7,To know that unchanging rule is to be intelligent;
+laozi-chapter-016__align-007,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,10,老子 16.10,知常曰明。,老子 16.8,not to know it leads to wild movements and evil issues.
+laozi-chapter-016__align-008,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,3,1,exact_or_near_exact,1.0,11,老子 16.11 - 老子 16.13,不知常，妄作凶。知常容，,老子 16.9,"The knowledge of that unchanging rule produces a (grand) capacity and forbearance, and that capacity and forbearance lead to a community (of feeling with all things)."
+laozi-chapter-016__align-009,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,14,老子 16.14,容乃公，,老子 16.10,From this community of feeling comes a kingliness of character;
+laozi-chapter-016__align-010,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,15,老子 16.15,公乃王，,老子 16.11,and he who is king-like goes on to be heaven-like.
+laozi-chapter-016__align-011,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,16,老子 16.16,王乃天，,老子 16.12,In that likeness to heaven he possesses the Dao.
+laozi-chapter-016__align-012,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,17,老子 16.17,天乃道，,老子 16.13,"Possessed of the Dao, he endures long;"
+laozi-chapter-016__align-013,laozi,laozi-chapter-016,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,18,老子 16.18 - 老子 16.19,道乃久，沒身不殆。,老子 16.14,"and to the end of his bodily life, is exempt from all danger of decay."

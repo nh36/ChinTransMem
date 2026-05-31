@@ -6,35 +6,200 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-080</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 80.1 - 老子 80.2</prop>
+      <prop type="x-translation-ref">老子 80.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>小國寡民，使有什伯之器而不用，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In a little state with a small population, I would so order it, that, though there were individuals with the abilities of ten or a hundred men, there should be no employment of them;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-080__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-080</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 80</prop>
-      <prop type="x-translation-ref">老子 80</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 5 English blocks, 7 Chinese clause units, 6 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 80.3</prop>
+      <prop type="x-translation-ref">老子 80.2</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>小國寡民，
-
-使有什伯之器而不用，
-
-使民重死而不遠徙。
-
-雖有舟輿，無所乘之；雖有甲兵，無所陳之。使人復結繩而用之，甘其食，美其服，安其居，樂其俗。鄰國相望，雞犬之聲相聞，民至老死，不相往來。</seg>
+        <seg>使民重死而不遠徙。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>In a little state with a small population, I would so order it, that, though there were individuals with the abilities of ten or a hundred men, there should be no employment of them; I would make the people, while looking on death as a grievous thing, yet not remove elsewhere (to avoid it).
-
-Though they had boats and carriages, they should have no occasion to ride in them; though they had buff coats and sharp weapons, they should have no occasion to don or use them.
-
-I would make the people return to the use of knotted cords (instead of the written characters).
-
-They should think their (coarse) food sweet; their (plain) clothes beautiful; their (poor) dwellings places of rest; and their common (simple) ways sources of enjoyment.
-
-There should be a neighbouring state within sight, and the voices of the fowls and dogs should be heard all the way from it to us, but I would make the people to old age, even to death, not have any intercourse with it.</seg>
+        <seg>I would make the people, while looking on death as a grievous thing, yet not remove elsewhere (to avoid it).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-080__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-080</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 80.4 - 老子 80.5</prop>
+      <prop type="x-translation-ref">老子 80.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>雖有舟輿，無所乘之；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Though they had boats and carriages, they should have no occasion to ride in them;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-080__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-080</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 80.6 - 老子 80.7</prop>
+      <prop type="x-translation-ref">老子 80.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>雖有甲兵，無所陳之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>though they had buff coats and sharp weapons, they should have no occasion to don or use them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-080__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-080</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 80.8</prop>
+      <prop type="x-translation-ref">老子 80.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>使人復結繩而用之，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I would make the people return to the use of knotted cords (instead of the written characters).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-080__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-080</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 80.9</prop>
+      <prop type="x-translation-ref">老子 80.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>甘其食，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>They should think their (coarse) food sweet;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-080__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-080</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 80.10</prop>
+      <prop type="x-translation-ref">老子 80.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>美其服，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>their (plain) clothes beautiful;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-080__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-080</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 80.11</prop>
+      <prop type="x-translation-ref">老子 80.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>安其居，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>their (poor) dwellings places of rest;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-080__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-080</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 80.12</prop>
+      <prop type="x-translation-ref">老子 80.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>樂其俗。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and their common (simple) ways sources of enjoyment.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-080__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-080</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 80.13 - 老子 80.16</prop>
+      <prop type="x-translation-ref">老子 80.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鄰國相望，雞犬之聲相聞，民至老死，不相往來。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>There should be a neighbouring state within sight, and the voices of the fowls and dogs should be heard all the way from it to us, but I would make the people to old age, even to death, not have any intercourse with it.</seg>
       </tuv>
     </tu>
   </body>

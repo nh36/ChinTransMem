@@ -7,7 +7,7 @@
       <prop type="x-section-id">laozi-chapter-011</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -16,10 +16,10 @@
       <prop type="x-chinese-ref">老子 11.1</prop>
       <prop type="x-translation-ref">老子 11.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>三十輻共一轂，當其無，有車之用。</seg>
+        <seg>三十輻共一轂，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The thirty spokes unite in the one nave; but it is on the empty space (for the axle), that the use of the wheel depends.</seg>
+        <seg>The thirty spokes unite in the one nave;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-011__align-002">
@@ -27,19 +27,19 @@
       <prop type="x-section-id">laozi-chapter-011</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 11.2</prop>
-      <prop type="x-translation-ref">老子 11.2</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 11.2 - 老子 11.4</prop>
+      <prop type="x-translation-ref">老子 11.2 - 老子 11.3</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>埏埴以為器，當其無，有器之用。</seg>
+        <seg>當其無，有車之用。埏埴以為器，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Clay is fashioned into vessels; but it is on their empty hollowness, that their use depends.</seg>
+        <seg>but it is on the empty space (for the axle), that the use of the wheel depends. Clay is fashioned into vessels;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-011__align-003">
@@ -47,19 +47,19 @@
       <prop type="x-section-id">laozi-chapter-011</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 11.3</prop>
-      <prop type="x-translation-ref">老子 11.3</prop>
+      <prop type="x-chinese-ref">老子 11.5 - 老子 11.6</prop>
+      <prop type="x-translation-ref">老子 11.4</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>鑿戶牖以為室，當其無，有室之用。</seg>
+        <seg>當其無，有器之用。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The door and windows are cut out (from the walls) to form an apartment; but it is on the empty space (within), that its use depends.</seg>
+        <seg>but it is on their empty hollowness, that their use depends.</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-011__align-004">
@@ -67,14 +67,54 @@
       <prop type="x-section-id">laozi-chapter-011</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 11.4</prop>
-      <prop type="x-translation-ref">老子 11.4</prop>
+      <prop type="x-chinese-ref">老子 11.7</prop>
+      <prop type="x-translation-ref">老子 11.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鑿戶牖以為室，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The door and windows are cut out (from the walls) to form an apartment;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-011__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-011</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 11.8 - 老子 11.9</prop>
+      <prop type="x-translation-ref">老子 11.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>當其無，有室之用。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>but it is on the empty space (within), that its use depends.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-011__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-011</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 11.10 - 老子 11.11</prop>
+      <prop type="x-translation-ref">老子 11.7</prop>
       <tuv xml:lang="zh-Hant">
         <seg>故有之以為利，無之以為用。</seg>
       </tuv>

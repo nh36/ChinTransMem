@@ -240,7 +240,7 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "2630312b87da94896630bdbeeaa4935959b71e4f83a67f49a8caa65f55c41855",
+    "metadata/sections.yml": "bb2bf594a919ad62b7479b68cd4901d3bc1d7842e7624b29b1097d97fd514b81",
     "metadata/sources.yml": "7f63b13237a3b9746a8aee8ff33e712560e2f2639005be6acd1d644bd2f56366",
     "metadata/manifests/lunyu.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
     "metadata/corpus_manifest.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
@@ -336,6 +336,12 @@
     "translation_with_notice_sections": [],
     "translation_with_commentary_sections": [],
     "translation_with_heading_sections": [],
+    "hard_failure_count": 0
+  },
+  "alignment_quality": {
+    "false_precision_multi_clause_targets": [],
+    "question_punctuation_mismatches": [],
+    "suspicious_length_imbalance_rows": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

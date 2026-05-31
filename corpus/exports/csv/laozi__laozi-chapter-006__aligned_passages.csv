@@ -1,12 +1,7 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-006__align-001,laozi,laozi-chapter-006,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 6 English blocks, 3 Chinese clause units, 6 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 6,谷神不死，是謂玄牝。玄牝之門，是謂天地根。緜緜若存，用之不勤。,老子 6,"The valley spirit dies not, aye the same;
-
-The female mystery thus do we name.
-
-Its gate, from which at first they issued forth,
-
-Is called the root from which grew heaven and earth.
-
-Long and unbroken does its power remain,
-
-Used gently, and without the touch of pain."
+laozi-chapter-006__align-001,laozi,laozi-chapter-006,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,1,老子 6.1,谷神不死，,老子 6.1,"The valley spirit dies not, aye the same;"
+laozi-chapter-006__align-002,laozi,laozi-chapter-006,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,2,老子 6.2,是謂玄牝。,老子 6.2,The female mystery thus do we name.
+laozi-chapter-006__align-003,laozi,laozi-chapter-006,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,3,老子 6.3,玄牝之門，,老子 6.3,"Its gate, from which at first they issued forth,"
+laozi-chapter-006__align-004,laozi,laozi-chapter-006,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,4,老子 6.4,是謂天地根。,老子 6.4,Is called the root from which grew heaven and earth.
+laozi-chapter-006__align-005,laozi,laozi-chapter-006,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,5,老子 6.5,緜緜若存，,老子 6.5,"Long and unbroken does its power remain,"
+laozi-chapter-006__align-006,laozi,laozi-chapter-006,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,6,老子 6.6,用之不勤。,老子 6.6,"Used gently, and without the touch of pain."

@@ -1,14 +1,12 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-057__align-001,laozi,laozi-chapter-057,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 3 English blocks, 9 Chinese clause units, 8 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 57,"以正治國，以奇用兵，以無事取天下。
-
-吾何以知其然哉？以此。天下多忌諱，而民彌貧；民多利器，國家滋昬；
-
-人多伎巧，奇物滋起；
-
-法令滋彰，盜賊多有。
-
-故聖人云﹕「我無為而民自化，我好靜而民自正，我無事而民自富，我無欲而民自樸。」",老子 57,"A state may be ruled by (measures of) correction; weapons of war may be used with crafty dexterity; (but) the kingdom is made one's own (only) by freedom from action and purpose.
-
-How do I know that it is so? By these facts: - In the kingdom the multiplication of prohibitive enactments increases the poverty of the people; the more implements to add to their profit that the people have, the greater disorder is there in the state and clan; the more acts of crafty dexterity that men possess, the more do strange contrivances appear; the more display there is of legislation, the more thieves and robbers there are.
-
-Therefore a sage has said, 'I will do nothing (of purpose), and the people will be transformed of themselves; I will be fond of keeping still, and the people will of themselves become correct. I will take no trouble about it, and the people will of themselves become rich; I will manifest no ambition, and the people will of themselves attain to the primitive simplicity.'"
+laozi-chapter-057__align-001,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,1,老子 57.1,以正治國，,老子 57.1,A state may be ruled by (measures of) correction;
+laozi-chapter-057__align-002,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,2,老子 57.2,以奇用兵，,老子 57.2,weapons of war may be used with crafty dexterity;
+laozi-chapter-057__align-003,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,3,老子 57.3,以無事取天下。,老子 57.3,(but) the kingdom is made one's own (only) by freedom from action and purpose.
+laozi-chapter-057__align-004,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,3,3,exact_or_near_exact,1.0,4,老子 57.4 - 老子 57.6,吾何以知其然哉？以此。天下多忌諱，,老子 57.4 - 老子 57.6,How do I know that it is so? By these facts: - In the kingdom the multiplication of prohibitive enactments increases the poverty of the people;
+laozi-chapter-057__align-005,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,3,1,exact_or_near_exact,1.0,7,老子 57.7 - 老子 57.9,而民彌貧；民多利器，國家滋昬；,老子 57.7,"the more implements to add to their profit that the people have, the greater disorder is there in the state and clan;"
+laozi-chapter-057__align-006,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,10,老子 57.10 - 老子 57.11,人多伎巧，奇物滋起；,老子 57.8,"the more acts of crafty dexterity that men possess, the more do strange contrivances appear;"
+laozi-chapter-057__align-007,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,12,老子 57.12 - 老子 57.13,法令滋彰，盜賊多有。,老子 57.9,"the more display there is of legislation, the more thieves and robbers there are."
+laozi-chapter-057__align-008,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,14,老子 57.14,故聖人云﹕「我無為而民自化，,老子 57.10,"Therefore a sage has said, 'I will do nothing (of purpose), and the people will be transformed of themselves;"
+laozi-chapter-057__align-009,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,15,老子 57.15,我好靜而民自正，,老子 57.11,"I will be fond of keeping still, and the people will of themselves become correct."
+laozi-chapter-057__align-010,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,16,老子 57.16,我無事而民自富，,老子 57.12,"I will take no trouble about it, and the people will of themselves become rich;"
+laozi-chapter-057__align-011,laozi,laozi-chapter-057,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,17,老子 57.17 - 老子 57.18,我無欲而民自樸。」,老子 57.13,"I will manifest no ambition, and the people will of themselves attain to the primitive simplicity.'"

@@ -6,33 +6,160 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-033</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 33</prop>
-      <prop type="x-translation-ref">老子 33</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 2 English blocks, 6 Chinese clause units, 4 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 33.1</prop>
+      <prop type="x-translation-ref">老子 33.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>知人者智，自知者明。
-
-勝人者有力，自勝者強。
-
-知足者富。
-
-強行者有志。
-
-不失其所者久。
-
-死而不亡者壽。</seg>
+        <seg>知人者智，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>He who knows other men is discerning; he who knows himself is intelligent. He who overcomes others is strong; he who overcomes himself is mighty. He who is satisfied with his lot is rich; he who goes on acting with energy has a (firm) will.
-
-He who does not fail in the requirements of his position, continues long; he who dies and yet does not perish, has longevity.</seg>
+        <seg>He who knows other men is discerning;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-033__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-033</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 33.2</prop>
+      <prop type="x-translation-ref">老子 33.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>自知者明。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>he who knows himself is intelligent.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-033__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-033</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 33.3</prop>
+      <prop type="x-translation-ref">老子 33.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>勝人者有力，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who overcomes others is strong;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-033__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-033</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 33.4</prop>
+      <prop type="x-translation-ref">老子 33.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>自勝者強。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>he who overcomes himself is mighty.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-033__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-033</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 33.5</prop>
+      <prop type="x-translation-ref">老子 33.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>知足者富。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who is satisfied with his lot is rich;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-033__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-033</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 33.6</prop>
+      <prop type="x-translation-ref">老子 33.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>強行者有志。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>he who goes on acting with energy has a (firm) will.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-033__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-033</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 33.7</prop>
+      <prop type="x-translation-ref">老子 33.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不失其所者久。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who does not fail in the requirements of his position, continues long;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-033__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-033</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 33.8</prop>
+      <prop type="x-translation-ref">老子 33.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>死而不亡者壽。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>he who dies and yet does not perish, has longevity.</seg>
       </tuv>
     </tu>
   </body>

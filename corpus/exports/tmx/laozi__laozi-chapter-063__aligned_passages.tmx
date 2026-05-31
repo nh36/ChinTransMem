@@ -6,31 +6,180 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-063</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 63.1 - 老子 63.2</prop>
+      <prop type="x-translation-ref">老子 63.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為無為，事無事，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(It is the way of the Dao) to act without (thinking of) acting;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-063__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-063</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 63.3 - 老子 63.4</prop>
+      <prop type="x-translation-ref">老子 63.2 - 老子 63.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>味無味。大小多少，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>to conduct affairs without (feeling the) trouble of them; to taste without discerning any flavour;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-063__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-063</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 63.5 - 老子 63.6</prop>
+      <prop type="x-translation-ref">老子 63.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>報怨以德。圖難於其易，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>to consider what is small as great, and a few as many; and to recompense injury with kindness.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-063__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-063</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 63.7 - 老子 63.8</prop>
+      <prop type="x-translation-ref">老子 63.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為大於其細；天下難事必作於易，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(The master of it) anticipates things that are difficult while they are easy, and does things that would become great while they are small.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-063__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-063</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 63.9 - 老子 63.10</prop>
+      <prop type="x-translation-ref">老子 63.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天下大事必作於細。是以聖人終不為大，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All difficult things in the world are sure to arise from a previous state in which they were easy, and all great things from one in which they were small.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-063__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-063</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 63.11 - 老子 63.12</prop>
+      <prop type="x-translation-ref">老子 63.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故能成其大。夫輕諾必寡信，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore the sage, while he never does what is great, is able on that account to accomplish the greatest things.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-063__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-063</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 63</prop>
-      <prop type="x-translation-ref">老子 63</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 3 English blocks, 8 Chinese clause units, 6 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 63.13</prop>
+      <prop type="x-translation-ref">老子 63.8</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>為無為，事無事，味無味。
-
-大小多少，報怨以德。
-
-圖難於其易，為大於其細；天下難事必作於易，天下大事必作於細。是以聖人終不為大，故能成其大。夫輕諾必寡信，多易必多難。是以聖人猶難之，
-
-故終無難矣</seg>
+        <seg>多易必多難。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>(It is the way of the Dao) to act without (thinking of) acting; to conduct affairs without (feeling the) trouble of them; to taste without discerning any flavour; to consider what is small as great, and a few as many; and to recompense injury with kindness.
-
-(The master of it) anticipates things that are difficult while they are easy, and does things that would become great while they are small. All difficult things in the world are sure to arise from a previous state in which they were easy, and all great things from one in which they were small. Therefore the sage, while he never does what is great, is able on that account to accomplish the greatest things.
-
-He who lightly promises is sure to keep but little faith; he who is continually thinking things easy is sure to find them difficult. Therefore the sage sees difficulty even in what seems easy, and so never has any difficulties.</seg>
+        <seg>He who lightly promises is sure to keep but little faith;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-063__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-063</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 63.14</prop>
+      <prop type="x-translation-ref">老子 63.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以聖人猶難之，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>he who is continually thinking things easy is sure to find them difficult.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-063__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-063</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 63.15</prop>
+      <prop type="x-translation-ref">老子 63.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故終無難矣</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore the sage sees difficulty even in what seems easy, and so never has any difficulties.</seg>
       </tuv>
     </tu>
   </body>

@@ -6,37 +6,240 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-022</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 22</prop>
-      <prop type="x-translation-ref">老子 22</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 3 English blocks, 10 Chinese clause units, 6 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 22.1</prop>
+      <prop type="x-translation-ref">老子 22.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>曲則全，
-
-枉則直，
-
-窪則盈，
-
-敝則新，
-
-少則得，多則惑。
-
-是以聖人抱一為天下式。
-
-不自見故明，不自是故彰，不自伐故有功，不自矜故長。夫唯不爭，故天下莫能與之爭。古之所謂曲則全者，豈虛言哉！誠全而歸之。</seg>
+        <seg>曲則全，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The partial becomes complete; the crooked, straight; the empty, full; the worn out, new. He whose (desires) are few gets them; he whose (desires) are many goes astray.
-
-Therefore the sage holds in his embrace the one thing (of humility), and manifests it to all the world. He is free from self- display, and therefore he shines; from self-assertion, and therefore he is distinguished; from self-boasting, and therefore his merit is acknowledged; from self-complacency, and therefore he acquires superiority. It is because he is thus free from striving that therefore no one in the world is able to strive with him.
-
-That saying of the ancients that 'the partial becomes complete' was not vainly spoken: - all real completion is comprehended under it.</seg>
+        <seg>The partial becomes complete;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 22.2</prop>
+      <prop type="x-translation-ref">老子 22.2 - 老子 22.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>枉則直，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the crooked, straight; the empty, full;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 22.3</prop>
+      <prop type="x-translation-ref">老子 22.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>窪則盈，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>the worn out, new.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 22.4 - 老子 22.6</prop>
+      <prop type="x-translation-ref">老子 22.5 - 老子 22.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>敝則新，少則得，多則惑。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He whose (desires) are few gets them; he whose (desires) are many goes astray.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 22.7</prop>
+      <prop type="x-translation-ref">老子 22.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以聖人抱一為天下式。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore the sage holds in his embrace the one thing (of humility), and manifests it to all the world.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 22.8</prop>
+      <prop type="x-translation-ref">老子 22.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不自見故明，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He is free from self- display, and therefore he shines;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 22.9</prop>
+      <prop type="x-translation-ref">老子 22.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不自是故彰，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>from self-assertion, and therefore he is distinguished;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 22.10</prop>
+      <prop type="x-translation-ref">老子 22.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不自伐故有功，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>from self-boasting, and therefore his merit is acknowledged;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 22.11</prop>
+      <prop type="x-translation-ref">老子 22.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不自矜故長。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>from self-complacency, and therefore he acquires superiority.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 22.12 - 老子 22.13</prop>
+      <prop type="x-translation-ref">老子 22.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>夫唯不爭，故天下莫能與之爭。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>It is because he is thus free from striving that therefore no one in the world is able to strive with him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 22.14 - 老子 22.15</prop>
+      <prop type="x-translation-ref">老子 22.13</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>古之所謂曲則全者，豈虛言哉！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>That saying of the ancients that 'the partial becomes complete' was not vainly spoken:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-022__align-012">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-022</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 22.16</prop>
+      <prop type="x-translation-ref">老子 22.14</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>誠全而歸之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- all real completion is comprehended under it.</seg>
       </tuv>
     </tu>
   </body>

@@ -13,7 +13,7 @@
     "metadata_only_sections": 0,
     "sections_needing_alignment": 0,
     "sections_needing_qc": 0,
-    "exact_alignment_count": 260
+    "exact_alignment_count": 714
   },
   "ingestion_policy": {
     "inventory_required": true,
@@ -27,12 +27,13 @@
     "granularity_policy_required": true,
     "granularity_policy_path": "documentation/alignment_granularity_policy.md",
     "section_unit": "chapter",
-    "preferred_segment_unit": "block",
+    "preferred_segment_unit": "sentence",
     "minimum_required_alignment_scope": "chapter",
     "maximum_exact_alignment_scope": "chapter",
     "allowed_segment_units": [
       "line",
       "sentence",
+      "grouped",
       "block",
       "chapter"
     ],
@@ -42,6 +43,7 @@
     "granularity_order": [
       "line",
       "sentence",
+      "grouped",
       "block",
       "chapter"
     ],
@@ -53,7 +55,7 @@
       "public_domain"
     ],
     "section_group_export_policy": "forbidden",
-    "completion_definition": "A Laozi chapter is complete only when the ChineseNotes bilingual source is parsed into clean Chinese and English segment text, commentary/headings/notices are excluded, deterministic fine-grained alignment is attempted, and any chapter-level fallback is exported with an explicit coarse_alignment_reason."
+    "completion_definition": "A Laozi chapter is complete only when the ChineseNotes bilingual source is parsed into clean Chinese and English segment text, commentary/headings/notices are excluded, deterministic fine-grained grouping is attempted, curated overrides are applied where automatic alignment fails section-level QC, and any remaining chapter-level fallback is exported with an explicit coarse_alignment_reason."
   },
   "romanization_aliases": [
     {
@@ -580,8 +582,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Embodying the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 6 English blocks, 5 Chinese clause units, 11 English clause units)."
+      "expected_exact_alignment_count": 12,
+      "notes": "Excluded English headings: Embodying the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-002",
@@ -595,8 +597,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The nourishment of the person. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 3 English blocks, 8 Chinese clause units, 7 English clause units)."
+      "expected_exact_alignment_count": 13,
+      "notes": "Excluded English headings: The nourishment of the person. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-003",
@@ -610,8 +612,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Keeping the people at rest. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 1 English blocks, 8 Chinese clause units, 4 English clause units)."
+      "expected_exact_alignment_count": 6,
+      "notes": "Excluded English headings: Keeping the people at rest. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-004",
@@ -625,7 +627,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
+      "expected_exact_alignment_count": 6,
       "notes": "Excluded English headings: The fountainless. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -640,7 +642,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 5,
+      "expected_exact_alignment_count": 9,
       "notes": "Excluded English headings: The use of emptiness. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -655,8 +657,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The completion of material forms. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 6 English blocks, 3 Chinese clause units, 6 English clause units)."
+      "expected_exact_alignment_count": 6,
+      "notes": "Excluded English headings: The completion of material forms. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-007",
@@ -670,8 +672,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Sheathing the light. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 1 English blocks, 6 Chinese clause units, 5 English clause units)."
+      "expected_exact_alignment_count": 5,
+      "notes": "Excluded English headings: Sheathing the light. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-008",
@@ -685,7 +687,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 5,
+      "expected_exact_alignment_count": 10,
       "notes": "Excluded English headings: The placid and contented nature. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -700,7 +702,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 5,
+      "expected_exact_alignment_count": 4,
       "notes": "Excluded English headings: Fulness and complacency contrary to the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -715,8 +717,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Possibilities through the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (9 Chinese blocks, 1 English blocks, 9 Chinese clause units, 8 English clause units)."
+      "expected_exact_alignment_count": 11,
+      "notes": "Excluded English headings: Possibilities through the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-011",
@@ -730,7 +732,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 4,
+      "expected_exact_alignment_count": 6,
       "notes": "Excluded English headings: The use of what has no substantive existence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -745,8 +747,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The repression of the desires. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 7 English blocks, 3 Chinese clause units, 8 English clause units)."
+      "expected_exact_alignment_count": 6,
+      "notes": "Excluded English headings: The repression of the desires. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-013",
@@ -760,8 +762,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Loathing shame. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 1 English blocks, 9 Chinese clause units, 7 English clause units)."
+      "expected_exact_alignment_count": 7,
+      "notes": "Excluded English headings: Loathing shame. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-014",
@@ -775,8 +777,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The manifestation of the mystery. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 1 English blocks, 9 Chinese clause units, 6 English clause units)."
+      "expected_exact_alignment_count": 9,
+      "notes": "Excluded English headings: The manifestation of the mystery. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-015",
@@ -790,7 +792,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 9,
+      "expected_exact_alignment_count": 11,
       "notes": "Excluded English headings: The exhibition of the qualities of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -805,8 +807,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Returning to the root. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (13 Chinese blocks, 1 English blocks, 15 Chinese clause units, 10 English clause units)."
+      "expected_exact_alignment_count": 13,
+      "notes": "Excluded English headings: Returning to the root. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-017",
@@ -820,7 +822,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 6,
+      "expected_exact_alignment_count": 5,
       "notes": "Excluded English headings: The unadulterated influence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -835,7 +837,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 3,
+      "expected_exact_alignment_count": 4,
       "notes": "Excluded English headings: The decay of manners. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -850,8 +852,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Returning to the unadulterated influence. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 6 English blocks, 4 Chinese clause units, 8 English clause units)."
+      "expected_exact_alignment_count": 5,
+      "notes": "Excluded English headings: Returning to the unadulterated influence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-020",
@@ -880,8 +882,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The empty heart, or the Dao in its operation. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (8 Chinese blocks, 17 English blocks, 10 Chinese clause units, 19 English clause units)."
+      "expected_exact_alignment_count": 14,
+      "notes": "Excluded English headings: The empty heart, or the Dao in its operation. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-022",
@@ -895,8 +897,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The increase granted to humility. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 3 English blocks, 10 Chinese clause units, 6 English clause units)."
+      "expected_exact_alignment_count": 12,
+      "notes": "Excluded English headings: The increase granted to humility. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-023",
@@ -910,8 +912,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Absolute vacancy. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 3 English blocks, 12 Chinese clause units, 8 English clause units)."
+      "expected_exact_alignment_count": 10,
+      "notes": "Excluded English headings: Absolute vacancy. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-024",
@@ -925,7 +927,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 4,
+      "expected_exact_alignment_count": 8,
       "notes": "Excluded English headings: Painful graciousness. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -940,8 +942,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Representations of the mystery. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (12 Chinese blocks, 4 English blocks, 12 Chinese clause units, 15 English clause units)."
+      "expected_exact_alignment_count": 14,
+      "notes": "Excluded English headings: Representations of the mystery. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-026",
@@ -955,7 +957,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 5,
+      "expected_exact_alignment_count": 4,
       "notes": "Excluded English headings: The quality of gravity. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -970,8 +972,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Dexterity in using the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (9 Chinese blocks, 2 English blocks, 10 Chinese clause units, 6 English clause units)."
+      "expected_exact_alignment_count": 11,
+      "notes": "Excluded English headings: Dexterity in using the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-028",
@@ -985,8 +987,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Returning to simplicity. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 19 English blocks, 8 Chinese clause units, 20 English clause units)."
+      "expected_exact_alignment_count": 18,
+      "notes": "Excluded English headings: Returning to simplicity. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-029",
@@ -1000,8 +1002,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Taking no action. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 7 English blocks, 6 Chinese clause units, 9 English clause units)."
+      "expected_exact_alignment_count": 8,
+      "notes": "Excluded English headings: Taking no action. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-030",
@@ -1015,8 +1017,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: A caveat against war. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 4 English blocks, 8 Chinese clause units, 10 English clause units)."
+      "expected_exact_alignment_count": 10,
+      "notes": "Excluded English headings: A caveat against war. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-031",
@@ -1030,8 +1032,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Stilling war. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 3 English blocks, 8 Chinese clause units, 9 English clause units)."
+      "expected_exact_alignment_count": 15,
+      "notes": "Excluded English headings: Stilling war."
     },
     {
       "section_id": "laozi-chapter-032",
@@ -1045,7 +1047,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 5,
+      "expected_exact_alignment_count": 7,
       "notes": "Excluded English headings: The Dao with no name. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1060,8 +1062,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Discriminating between attributes. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 2 English blocks, 6 Chinese clause units, 4 English clause units)."
+      "expected_exact_alignment_count": 8,
+      "notes": "Excluded English headings: Discriminating between attributes. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-034",
@@ -1075,8 +1077,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The task of achievement. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 3 English blocks, 5 Chinese clause units, 8 English clause units)."
+      "expected_exact_alignment_count": 9,
+      "notes": "Excluded English headings: The task of achievement. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-035",
@@ -1105,8 +1107,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Minimising the light. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 3 English blocks, 7 Chinese clause units, 3 English clause units)."
+      "expected_exact_alignment_count": 8,
+      "notes": "Excluded English headings: Minimising the light. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-037",
@@ -1120,8 +1122,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The exercise of government. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 7 English blocks, 6 Chinese clause units, 7 English clause units)."
+      "expected_exact_alignment_count": 6,
+      "notes": "Excluded English headings: The exercise of government. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-038",
@@ -1135,7 +1137,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 11,
+      "expected_exact_alignment_count": 15,
       "notes": "Excluded English headings: About the attributes of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1150,8 +1152,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The origin of the law. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 17 English blocks, 10 Chinese clause units, 20 English clause units)."
+      "expected_exact_alignment_count": 13,
+      "notes": "Excluded English headings: The origin of the law. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-040",
@@ -1165,8 +1167,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Dispensing with the use (of means). Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 5 English blocks, 3 Chinese clause units, 5 English clause units)."
+      "expected_exact_alignment_count": 3,
+      "notes": "Excluded English headings: Dispensing with the use (of means). Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-041",
@@ -1180,7 +1182,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 15,
+      "expected_exact_alignment_count": 19,
       "notes": "Excluded English headings: Sameness and difference. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1195,7 +1197,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 3,
+      "expected_exact_alignment_count": 10,
       "notes": "Excluded English headings: The transformations of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1225,8 +1227,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Cautions. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 18 English blocks, 5 Chinese clause units, 18 English clause units)."
+      "expected_exact_alignment_count": 8,
+      "notes": "Excluded English headings: Cautions. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-045",
@@ -1240,8 +1242,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Great or overflowing virtue. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 8 English blocks, 7 Chinese clause units, 9 English clause units)."
+      "expected_exact_alignment_count": 10,
+      "notes": "Excluded English headings: Great or overflowing virtue. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-046",
@@ -1255,8 +1257,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The moderating of desire or ambition. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 2 English blocks, 5 Chinese clause units, 4 English clause units)."
+      "expected_exact_alignment_count": 5,
+      "notes": "Excluded English headings: The moderating of desire or ambition. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-047",
@@ -1270,8 +1272,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Surveying what is far-off. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 2 English blocks, 5 Chinese clause units, 3 English clause units)."
+      "expected_exact_alignment_count": 5,
+      "notes": "Excluded English headings: Surveying what is far-off. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-048",
@@ -1285,8 +1287,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Forgetting knowledge. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 3 English blocks, 7 Chinese clause units, 5 English clause units)."
+      "expected_exact_alignment_count": 5,
+      "notes": "Excluded English headings: Forgetting knowledge. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-049",
@@ -1300,7 +1302,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 5,
+      "expected_exact_alignment_count": 9,
       "notes": "Excluded English headings: The quality of indulgence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1315,8 +1317,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The value set on life. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 4 English blocks, 10 Chinese clause units, 9 English clause units)."
+      "expected_exact_alignment_count": 7,
+      "notes": "Excluded English headings: The value set on life. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-051",
@@ -1330,7 +1332,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 6,
+      "expected_exact_alignment_count": 7,
       "notes": "Excluded English headings: The operation (of the Dao) in nourishing things. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1345,8 +1347,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Returning to the source. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (9 Chinese blocks, 8 English blocks, 9 Chinese clause units, 10 English clause units)."
+      "expected_exact_alignment_count": 9,
+      "notes": "Excluded English headings: Returning to the source. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-053",
@@ -1360,7 +1362,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 5,
+      "expected_exact_alignment_count": 7,
       "notes": "Excluded English headings: Increase of evidence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1375,8 +1377,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The cultivation (of the Dao), and the observation (of its effects). Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 18 English blocks, 12 Chinese clause units, 19 English clause units)."
+      "expected_exact_alignment_count": 16,
+      "notes": "Excluded English headings: The cultivation (of the Dao), and the observation (of its effects). Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-055",
@@ -1390,7 +1392,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 12,
+      "expected_exact_alignment_count": 14,
       "notes": "Excluded English headings: The mysterious charm; False) is the strength, (and o'er it we should mourn.. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1405,8 +1407,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The mysterious excellence. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (10 Chinese blocks, 3 English blocks, 11 Chinese clause units, 5 English clause units)."
+      "expected_exact_alignment_count": 10,
+      "notes": "Excluded English headings: The mysterious excellence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-057",
@@ -1420,8 +1422,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The genuine influence. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 3 English blocks, 9 Chinese clause units, 8 English clause units)."
+      "expected_exact_alignment_count": 11,
+      "notes": "Excluded English headings: The genuine influence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-058",
@@ -1435,8 +1437,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Transformation according to circumstances. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (10 Chinese blocks, 7 English blocks, 12 Chinese clause units, 13 English clause units)."
+      "expected_exact_alignment_count": 12,
+      "notes": "Excluded English headings: Transformation according to circumstances. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-059",
@@ -1450,7 +1452,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 7,
+      "expected_exact_alignment_count": 9,
       "notes": "Excluded English headings: Guarding the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1465,7 +1467,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 5,
+      "expected_exact_alignment_count": 4,
       "notes": "Excluded English headings: Occupying the throne. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1480,8 +1482,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The attribute of humility. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (8 Chinese blocks, 4 English blocks, 9 Chinese clause units, 7 English clause units)."
+      "expected_exact_alignment_count": 10,
+      "notes": "Excluded English headings: The attribute of humility. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-062",
@@ -1496,7 +1498,7 @@
       "alignment_status": "complete",
       "tmx_status": "complete",
       "expected_exact_alignment_count": 10,
-      "notes": "Excluded English headings: Practising the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+      "notes": "Excluded English headings: Practising the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text. Curated grouped override applied after automatic alignment failed section-level QC."
     },
     {
       "section_id": "laozi-chapter-063",
@@ -1510,8 +1512,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Thinking in the beginning. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 3 English blocks, 8 Chinese clause units, 6 English clause units)."
+      "expected_exact_alignment_count": 9,
+      "notes": "Excluded English headings: Thinking in the beginning. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-064",
@@ -1525,7 +1527,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 9,
+      "expected_exact_alignment_count": 15,
       "notes": "Excluded English headings: Guarding the minute. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1540,7 +1542,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 6,
+      "expected_exact_alignment_count": 7,
       "notes": "Excluded English headings: Pure, unmixed excellence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1570,8 +1572,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Three precious things. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 5 English blocks, 13 Chinese clause units, 9 English clause units)."
+      "expected_exact_alignment_count": 13,
+      "notes": "Excluded English headings: Three precious things. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-068",
@@ -1585,8 +1587,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Matching heaven. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 14 English blocks, 5 Chinese clause units, 14 English clause units)."
+      "expected_exact_alignment_count": 7,
+      "notes": "Excluded English headings: Matching heaven. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-069",
@@ -1600,8 +1602,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The use of the mysterious (Dao). Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 2 English blocks, 6 Chinese clause units, 7 English clause units)."
+      "expected_exact_alignment_count": 7,
+      "notes": "Excluded English headings: The use of the mysterious (Dao). Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-070",
@@ -1630,7 +1632,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 2,
+      "expected_exact_alignment_count": 5,
       "notes": "Excluded English headings: The disease of knowing. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1645,8 +1647,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Loving one's self. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 4 English blocks, 7 Chinese clause units, 5 English clause units)."
+      "expected_exact_alignment_count": 6,
+      "notes": "Excluded English headings: Loving one's self. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-073",
@@ -1660,7 +1662,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 9,
+      "expected_exact_alignment_count": 12,
       "notes": "Excluded English headings: Allowing men to take their course. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1675,7 +1677,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 2,
+      "expected_exact_alignment_count": 6,
       "notes": "Excluded English headings: Restraining delusion. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1690,8 +1692,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: How greediness injures. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 3 English blocks, 4 Chinese clause units, 7 English clause units)."
+      "expected_exact_alignment_count": 6,
+      "notes": "Excluded English headings: How greediness injures. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-076",
@@ -1705,7 +1707,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 4,
+      "expected_exact_alignment_count": 6,
       "notes": "Excluded English headings: A warning against (trusting in) strength. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1720,7 +1722,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 9,
+      "expected_exact_alignment_count": 10,
       "notes": "Excluded English headings: The way of heaven. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
@@ -1735,8 +1737,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Things to be believed. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (2 Chinese blocks, 8 English blocks, 5 Chinese clause units, 8 English clause units)."
+      "expected_exact_alignment_count": 7,
+      "notes": "Excluded English headings: Things to be believed. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-079",
@@ -1765,8 +1767,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: Standing alone. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 5 English blocks, 7 Chinese clause units, 6 English clause units)."
+      "expected_exact_alignment_count": 10,
+      "notes": "Excluded English headings: Standing alone. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     },
     {
       "section_id": "laozi-chapter-081",
@@ -1780,8 +1782,8 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
-      "notes": "Excluded English headings: The manifestation of simplicity. Chinese commentary lines were present in the raw source and excluded from exported segment text. Chapter-level fallback used: Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (8 Chinese blocks, 3 English blocks, 10 Chinese clause units, 6 English clause units)."
+      "expected_exact_alignment_count": 9,
+      "notes": "Excluded English headings: The manifestation of simplicity. Chinese commentary lines were present in the raw source and excluded from exported segment text."
     }
   ],
   "sources": [
@@ -4385,7 +4387,7 @@
       "timestamp": "2026-05-31T00:00:00+00:00",
       "method": "bootstrap_laozi_corpus",
       "status": "complete",
-      "notes": "Promoted Laozi into the active corpus from the ChineseNotes Daodejing bilingual witness with deterministic refinement and explicit chapter-level fallback reasons."
+      "notes": "Improved Laozi fine-grained alignment using grouped monotonic auto-alignment plus curated overrides for chapters that failed the automatic QC heuristics."
     }
   ]
 }

@@ -1,22 +1,11 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-061__align-001,laozi,laozi-chapter-061,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (8 Chinese blocks, 4 English blocks, 9 Chinese clause units, 7 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 61,"大國者下流，
-
-天下之交。
-
-天下之牝，
-
-牝常以靜勝牡，以靜為下。
-
-則取小國；
-
-小國以下大國，則取大國。
-
-故或下以取，或下而取。
-
-大國不過欲兼畜人，小國不過欲入事人。夫兩者各得其所欲，大者宜為下。",老子 61,"What makes a great state is its being (like) a low-lying, down- flowing (stream); - it becomes the centre to which tend (all the small states) under heaven.
-
-(To illustrate from) the case of all females: - the female always overcomes the male by her stillness. Stillness may be considered (a sort of) abasement.
-
-Thus it is that a great state, by condescending to small states, gains them for itself; and that small states, by abasing themselves to a great state, win it over to them. In the one case the abasement leads to gaining adherents, in the other case to procuring favour.
-
-The great state only wishes to unite men together and nourish them; a small state only wishes to be received by, and to serve, the other. Each gets what it desires, but the great state must learn to abase itself."
+laozi-chapter-061__align-001,laozi,laozi-chapter-061,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,1,老子 61.1 - 老子 61.2,大國者下流，天下之交。,老子 61.1,"What makes a great state is its being (like) a low-lying, down- flowing (stream);"
+laozi-chapter-061__align-002,laozi,laozi-chapter-061,chapter,sentence,grouped,False,,2,2,exact_or_near_exact,1.0,3,老子 61.3 - 老子 61.4,天下之牝，牝常以靜勝牡，,老子 61.2 - 老子 61.3,- it becomes the centre to which tend (all the small states) under heaven. (To illustrate from) the case of all females:
+laozi-chapter-061__align-003,laozi,laozi-chapter-061,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,5,老子 61.5,以靜為下。,老子 61.4,- the female always overcomes the male by her stillness.
+laozi-chapter-061__align-004,laozi,laozi-chapter-061,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,6,老子 61.6,則取小國；,老子 61.5,Stillness may be considered (a sort of) abasement.
+laozi-chapter-061__align-005,laozi,laozi-chapter-061,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,7,老子 61.7 - 老子 61.8,小國以下大國，則取大國。,老子 61.6,"Thus it is that a great state, by condescending to small states, gains them for itself;"
+laozi-chapter-061__align-006,laozi,laozi-chapter-061,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,9,老子 61.9 - 老子 61.10,故或下以取，或下而取。,老子 61.7,"and that small states, by abasing themselves to a great state, win it over to them."
+laozi-chapter-061__align-007,laozi,laozi-chapter-061,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,11,老子 61.11,大國不過欲兼畜人，,老子 61.8,"In the one case the abasement leads to gaining adherents, in the other case to procuring favour."
+laozi-chapter-061__align-008,laozi,laozi-chapter-061,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,12,老子 61.12,小國不過欲入事人。,老子 61.9,The great state only wishes to unite men together and nourish them;
+laozi-chapter-061__align-009,laozi,laozi-chapter-061,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,13,老子 61.13,夫兩者各得其所欲，,老子 61.10,"a small state only wishes to be received by, and to serve, the other."
+laozi-chapter-061__align-010,laozi,laozi-chapter-061,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,14,老子 61.14,大者宜為下。,老子 61.11,"Each gets what it desires, but the great state must learn to abase itself."

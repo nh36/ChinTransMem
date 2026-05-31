@@ -6,33 +6,260 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-002</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 2</prop>
-      <prop type="x-translation-ref">老子 2</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 3 English blocks, 8 Chinese clause units, 7 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 2.1</prop>
+      <prop type="x-translation-ref">老子 2.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>天下皆知美之為美，斯惡已。皆知善之為善，斯不善已。故有無相生，難易相成，長短相較，高下相傾，音聲相和，前後相隨。
-
-是以聖人處無為之事，
-
-行不言之教；萬物作焉而不辭，生而不有，為而不恃，
-
-功成而弗居。
-
-夫唯弗居，是以不去。</seg>
+        <seg>天下皆知美之為美，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>All in the world know the beauty of the beautiful, and in doing this they have (the idea of) what ugliness is; they all know the skill of the skilful, and in doing this they have (the idea of) what the want of skill is. So it is that existence and non-existence give birth the one to (the idea of) the other; that difficulty and ease produce the one (the idea of) the other; that length and shortness fashion out the one the figure of the other; that (the ideas of) height and lowness arise from the contrast of the one with the other; that the musical notes and tones become harmonious through the relation of one with another; and that being before and behind give the idea of one following another. Therefore the sage manages affairs without doing anything, and conveys his instructions without the use of speech. All things spring up, and there is not one which declines to show itself; they grow, and there is no claim made for their ownership; they go through their processes, and there is no expectation (of a reward for the results). The work is accomplished, and there is no resting in it (as an achievement).
-
-The work is done, but how no one can see;
-
-'Tis this that makes the power not cease to be.</seg>
+        <seg>All in the world know the beauty of the beautiful, and in doing this they have (the idea of) what ugliness is;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 2.2 - 老子 2.3</prop>
+      <prop type="x-translation-ref">老子 2.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>斯惡已。皆知善之為善，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>they all know the skill of the skilful, and in doing this they have (the idea of) what the want of skill is.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 2.4 - 老子 2.5</prop>
+      <prop type="x-translation-ref">老子 2.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>斯不善已。故有無相生，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>So it is that existence and non-existence give birth the one to (the idea of) the other;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 2.6</prop>
+      <prop type="x-translation-ref">老子 2.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>難易相成，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>that difficulty and ease produce the one (the idea of) the other;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 2.7</prop>
+      <prop type="x-translation-ref">老子 2.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>長短相較，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>that length and shortness fashion out the one the figure of the other;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 2.8 - 老子 2.9</prop>
+      <prop type="x-translation-ref">老子 2.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>高下相傾，音聲相和，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>that (the ideas of) height and lowness arise from the contrast of the one with the other;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 2.10 - 老子 2.11</prop>
+      <prop type="x-translation-ref">老子 2.7 - 老子 2.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>前後相隨。是以聖人處無為之事，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>that the musical notes and tones become harmonious through the relation of one with another; and that being before and behind give the idea of one following another.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 2.12 - 老子 2.13</prop>
+      <prop type="x-translation-ref">老子 2.9 - 老子 2.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>行不言之教；萬物作焉而不辭，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore the sage manages affairs without doing anything, and conveys his instructions without the use of speech. All things spring up, and there is not one which declines to show itself;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 2.14</prop>
+      <prop type="x-translation-ref">老子 2.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>生而不有，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>they grow, and there is no claim made for their ownership;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 2.15</prop>
+      <prop type="x-translation-ref">老子 2.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為而不恃，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>they go through their processes, and there is no expectation (of a reward for the results).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 2.16</prop>
+      <prop type="x-translation-ref">老子 2.13</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>功成而弗居。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The work is accomplished, and there is no resting in it (as an achievement).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-012">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 2.17</prop>
+      <prop type="x-translation-ref">老子 2.14</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>夫唯弗居，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The work is done, but how no one can see;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-002__align-013">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-002</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 2.18</prop>
+      <prop type="x-translation-ref">老子 2.15</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以不去。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>'Tis this that makes the power not cease to be.</seg>
       </tuv>
     </tu>
   </body>

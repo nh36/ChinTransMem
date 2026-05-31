@@ -1,18 +1,9 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-029__align-001,laozi,laozi-chapter-029,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (3 Chinese blocks, 7 English blocks, 6 Chinese clause units, 9 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 29,"將欲取天下而為之，吾見其不得已。天下神器，
-
-不可為也，為者敗之，執者失之。
-
-故物或行或隨，或歔或吹。或強或羸，或挫或隳。是以聖人去甚，去奢，去泰。",老子 29,"If any one should wish to get the kingdom for himself, and to effect this by what he does, I see that he will not succeed. The kingdom is a spirit-like thing, and cannot be got by active doing. He who would so win it destroys it; he who would hold it in his grasp loses it.
-
-The course and nature of things is such that
-
-What was in front is now behind;
-
-What warmed anon we freezing find.
-
-Strength is of weakness oft the spoil;
-
-The store in ruins mocks our toil.
-
-Hence the sage puts away excessive effort, extravagance, and easy indulgence."
+laozi-chapter-029__align-001,laozi,laozi-chapter-029,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,1,老子 29.1 - 老子 29.2,將欲取天下而為之，吾見其不得已。,老子 29.1,"If any one should wish to get the kingdom for himself, and to effect this by what he does, I see that he will not succeed."
+laozi-chapter-029__align-002,laozi,laozi-chapter-029,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,3,老子 29.3 - 老子 29.4,天下神器，不可為也，,老子 29.2,"The kingdom is a spirit-like thing, and cannot be got by active doing."
+laozi-chapter-029__align-003,laozi,laozi-chapter-029,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,5,老子 29.5,為者敗之，,老子 29.3,He who would so win it destroys it;
+laozi-chapter-029__align-004,laozi,laozi-chapter-029,chapter,sentence,grouped,False,,2,2,exact_or_near_exact,1.0,6,老子 29.6 - 老子 29.7,執者失之。故物或行或隨，,老子 29.4 - 老子 29.5,he who would hold it in his grasp loses it. The course and nature of things is such that
+laozi-chapter-029__align-005,laozi,laozi-chapter-029,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,8,老子 29.8,或歔或吹。,老子 29.6,What was in front is now behind;
+laozi-chapter-029__align-006,laozi,laozi-chapter-029,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,9,老子 29.9,或強或羸，,老子 29.7,What warmed anon we freezing find.
+laozi-chapter-029__align-007,laozi,laozi-chapter-029,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,10,老子 29.10,或挫或隳。,老子 29.8,Strength is of weakness oft the spoil;
+laozi-chapter-029__align-008,laozi,laozi-chapter-029,chapter,sentence,grouped,False,,3,2,exact_or_near_exact,1.0,11,老子 29.11 - 老子 29.13,是以聖人去甚，去奢，去泰。,老子 29.9 - 老子 29.10,"The store in ruins mocks our toil. Hence the sage puts away excessive effort, extravagance, and easy indulgence."

@@ -1,18 +1,13 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-022__align-001,laozi,laozi-chapter-022,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 3 English blocks, 10 Chinese clause units, 6 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 22,"曲則全，
-
-枉則直，
-
-窪則盈，
-
-敝則新，
-
-少則得，多則惑。
-
-是以聖人抱一為天下式。
-
-不自見故明，不自是故彰，不自伐故有功，不自矜故長。夫唯不爭，故天下莫能與之爭。古之所謂曲則全者，豈虛言哉！誠全而歸之。",老子 22,"The partial becomes complete; the crooked, straight; the empty, full; the worn out, new. He whose (desires) are few gets them; he whose (desires) are many goes astray.
-
-Therefore the sage holds in his embrace the one thing (of humility), and manifests it to all the world. He is free from self- display, and therefore he shines; from self-assertion, and therefore he is distinguished; from self-boasting, and therefore his merit is acknowledged; from self-complacency, and therefore he acquires superiority. It is because he is thus free from striving that therefore no one in the world is able to strive with him.
-
-That saying of the ancients that 'the partial becomes complete' was not vainly spoken: - all real completion is comprehended under it."
+laozi-chapter-022__align-001,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,1,老子 22.1,曲則全，,老子 22.1,The partial becomes complete;
+laozi-chapter-022__align-002,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,2,老子 22.2,枉則直，,老子 22.2 - 老子 22.3,"the crooked, straight; the empty, full;"
+laozi-chapter-022__align-003,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,3,老子 22.3,窪則盈，,老子 22.4,"the worn out, new."
+laozi-chapter-022__align-004,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,3,2,exact_or_near_exact,1.0,4,老子 22.4 - 老子 22.6,敝則新，少則得，多則惑。,老子 22.5 - 老子 22.6,He whose (desires) are few gets them; he whose (desires) are many goes astray.
+laozi-chapter-022__align-005,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,7,老子 22.7,是以聖人抱一為天下式。,老子 22.7,"Therefore the sage holds in his embrace the one thing (of humility), and manifests it to all the world."
+laozi-chapter-022__align-006,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,8,老子 22.8,不自見故明，,老子 22.8,"He is free from self- display, and therefore he shines;"
+laozi-chapter-022__align-007,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,9,老子 22.9,不自是故彰，,老子 22.9,"from self-assertion, and therefore he is distinguished;"
+laozi-chapter-022__align-008,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,10,老子 22.10,不自伐故有功，,老子 22.10,"from self-boasting, and therefore his merit is acknowledged;"
+laozi-chapter-022__align-009,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,11,老子 22.11,不自矜故長。,老子 22.11,"from self-complacency, and therefore he acquires superiority."
+laozi-chapter-022__align-010,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,12,老子 22.12 - 老子 22.13,夫唯不爭，故天下莫能與之爭。,老子 22.12,It is because he is thus free from striving that therefore no one in the world is able to strive with him.
+laozi-chapter-022__align-011,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,14,老子 22.14 - 老子 22.15,古之所謂曲則全者，豈虛言哉！,老子 22.13,That saying of the ancients that 'the partial becomes complete' was not vainly spoken:
+laozi-chapter-022__align-012,laozi,laozi-chapter-022,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,16,老子 22.16,誠全而歸之。,老子 22.14,- all real completion is comprehended under it.

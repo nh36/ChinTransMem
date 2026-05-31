@@ -33,6 +33,7 @@
   "allowed_segment_units": [
     "line",
     "sentence",
+    "grouped",
     "block",
     "chapter",
     "saying",

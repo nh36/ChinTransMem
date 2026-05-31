@@ -6,31 +6,100 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-019</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 19.1 - 老子 19.2</prop>
+      <prop type="x-translation-ref">老子 19.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>絕聖棄智，民利百倍；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If we could renounce our sageness and discard our wisdom, it would be better for the people a hundredfold.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-019__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-019</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 19.3 - 老子 19.4</prop>
+      <prop type="x-translation-ref">老子 19.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>絕仁棄義，民復孝慈；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If we could renounce our benevolence and discard our righteousness, the people would again become filial and kindly.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-019__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-019</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">老子 19.5 - 老子 19.7</prop>
+      <prop type="x-translation-ref">老子 19.3 - 老子 19.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>絕巧棄利，盜賊無有。此三者以為文不足，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If we could renounce our artful contrivances and discard our (scheming for) gain, there would be no thieves nor robbers. Those three methods (of government) Thought olden ways in elegance did fail</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-019__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-019</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 19.8</prop>
+      <prop type="x-translation-ref">老子 19.6 - 老子 19.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故令有所屬﹕見素抱樸，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>And made these names their want of worth to veil; But simple views, and courses plain and true</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-019__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-019</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 19</prop>
-      <prop type="x-translation-ref">老子 19</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (1 Chinese blocks, 6 English blocks, 4 Chinese clause units, 8 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 19.9</prop>
+      <prop type="x-translation-ref">老子 19.8</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>絕聖棄智，民利百倍；絕仁棄義，民復孝慈；絕巧棄利，盜賊無有。此三者以為文不足，故令有所屬﹕見素抱樸，少私寡欲。</seg>
+        <seg>少私寡欲。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>If we could renounce our sageness and discard our wisdom, it would be better for the people a hundredfold. If we could renounce our benevolence and discard our righteousness, the people would again become filial and kindly. If we could renounce our artful contrivances and discard our (scheming for) gain, there would be no thieves nor robbers.
-
-Those three methods (of government)
-
-Thought olden ways in elegance did fail
-
-And made these names their want of worth to veil;
-
-But simple views, and courses plain and true
-
-Would selfish ends and many lusts eschew.</seg>
+        <seg>Would selfish ends and many lusts eschew.</seg>
       </tuv>
     </tu>
   </body>

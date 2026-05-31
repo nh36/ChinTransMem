@@ -1,44 +1,9 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-044__align-001,laozi,laozi-chapter-044,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 18 English blocks, 5 Chinese clause units, 18 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 44,"名與身孰親？
-
-身與貨孰多？
-
-得與亡孰病？
-
-是故甚愛必大費，多藏必厚亡，
-
-知足不辱，知止不殆，可以長久。",老子 44,"Or fame or life,
-
-Which do you hold more dear?
-
-Or life or wealth,
-
-To which would you adhere?
-
-Keep life and lose those other things;
-
-Keep them and lose your life: - which brings
-
-Sorrow and pain more near?
-
-Thus we may see,
-
-Who cleaves to fame
-
-Rejects what is more great;
-
-Who loves large stores
-
-Gives up the richer state.
-
-Who is content
-
-Needs fear no shame.
-
-Who knows to stop
-
-Incurs no blame.
-
-From danger free
-
-Long live shall he."
+laozi-chapter-044__align-001,laozi,laozi-chapter-044,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,1,老子 44.1,名與身孰親？,老子 44.1 - 老子 44.2,"Or fame or life, Which do you hold more dear?"
+laozi-chapter-044__align-002,laozi,laozi-chapter-044,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,2,老子 44.2,身與貨孰多？,老子 44.3 - 老子 44.4,"Or life or wealth, To which would you adhere?"
+laozi-chapter-044__align-003,laozi,laozi-chapter-044,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,3,老子 44.3,得與亡孰病？,老子 44.5 - 老子 44.6,Keep life and lose those other things; Keep them and lose your life:
+laozi-chapter-044__align-004,laozi,laozi-chapter-044,chapter,sentence,grouped,False,,1,4,exact_or_near_exact,1.0,4,老子 44.4,是故甚愛必大費，,老子 44.7 - 老子 44.10,"- which brings Sorrow and pain more near? Thus we may see, Who cleaves to fame"
+laozi-chapter-044__align-005,laozi,laozi-chapter-044,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,5,老子 44.5,多藏必厚亡，,老子 44.11 - 老子 44.12,Rejects what is more great; Who loves large stores
+laozi-chapter-044__align-006,laozi,laozi-chapter-044,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,6,老子 44.6,知足不辱，,老子 44.13 - 老子 44.14,Gives up the richer state. Who is content
+laozi-chapter-044__align-007,laozi,laozi-chapter-044,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,7,老子 44.7,知止不殆，,老子 44.15 - 老子 44.16,Needs fear no shame. Who knows to stop
+laozi-chapter-044__align-008,laozi,laozi-chapter-044,chapter,sentence,grouped,False,,1,3,exact_or_near_exact,1.0,8,老子 44.8,可以長久。,老子 44.17 - 老子 44.19,Incurs no blame. From danger free Long live shall he.

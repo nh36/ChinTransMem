@@ -6,37 +6,120 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-072</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 72.1 - 老子 72.2</prop>
+      <prop type="x-translation-ref">老子 72.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>民不畏威，則大威至。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When the people do not fear what they ought to fear, that which is their great dread will come on them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-072__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-072</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 72</prop>
-      <prop type="x-translation-ref">老子 72</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 4 English blocks, 7 Chinese clause units, 5 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 72.3</prop>
+      <prop type="x-translation-ref">老子 72.2</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>民不畏威，則大威至。無狎其所居，無厭其所生。
-
-夫唯不厭，
-
-是以不厭。
-
-是以聖人自知不自見，
-
-自愛不自貴；
-
-故去彼取此。</seg>
+        <seg>無狎其所居，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>When the people do not fear what they ought to fear, that which is their great dread will come on them.
-
-Let them not thoughtlessly indulge themselves in their ordinary life; let them not act as if weary of what that life depends on.
-
-It is by avoiding such indulgence that such weariness does not arise.
-
-Therefore the sage knows (these things) of himself, but does not parade (his knowledge); loves, but does not (appear to set a) value on, himself. And thus he puts the latter alternative away and makes choice of the former.</seg>
+        <seg>Let them not thoughtlessly indulge themselves in their ordinary life;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-072__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-072</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 72.4 - 老子 72.6</prop>
+      <prop type="x-translation-ref">老子 72.3 - 老子 72.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>無厭其所生。夫唯不厭，是以不厭。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>let them not act as if weary of what that life depends on. It is by avoiding such indulgence that such weariness does not arise.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-072__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-072</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 72.7</prop>
+      <prop type="x-translation-ref">老子 72.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以聖人自知不自見，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore the sage knows (these things) of himself, but does not parade (his knowledge);</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-072__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-072</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 72.8</prop>
+      <prop type="x-translation-ref">老子 72.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>自愛不自貴；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>loves, but does not (appear to set a) value on, himself.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-072__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-072</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 72.9</prop>
+      <prop type="x-translation-ref">老子 72.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故去彼取此。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>And thus he puts the latter alternative away and makes choice of the former.</seg>
       </tuv>
     </tu>
   </body>

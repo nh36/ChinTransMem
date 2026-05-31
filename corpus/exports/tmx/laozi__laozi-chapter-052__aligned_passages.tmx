@@ -6,51 +6,180 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-052</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 52.1 - 老子 52.2</prop>
+      <prop type="x-translation-ref">老子 52.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天下有始，以為天下母。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(The Dao) which originated all under the sky is to be considered as the mother of them all.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-052__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-052</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 52</prop>
-      <prop type="x-translation-ref">老子 52</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (9 Chinese blocks, 8 English blocks, 9 Chinese clause units, 10 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 52.3</prop>
+      <prop type="x-translation-ref">老子 52.2</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>天下有始，以為天下母。
-
-〉既得其母，以知其子，既知其子，復守其母，沒身不殆。
-
-塞其兌，閉其門，
-
-終身不勤。
-
-開其兌，濟其事，終身不救。
-
-見小曰明，守柔曰強。
-
-用其光，
-
-復歸其明，
-
-無遺身殃，是為習常。</seg>
+        <seg>〉既得其母，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>(The Dao) which originated all under the sky is to be considered as the mother of them all.
-
-When the mother is found, we know what her children should be. When one knows that he is his mother's child, and proceeds to guard (the qualities of) the mother that belong to him, to the end of his life he will be free from all peril.
-
-Let him keep his mouth closed, and shut up the portals (of his nostrils), and all his life he will be exempt from laborious exertion. Let him keep his mouth open, and (spend his breath) in the promotion of his affairs, and all his life there will be no safety for him.
-
-The perception of what is small is (the secret of clear- sightedness; the guarding of what is soft and tender is (the secret of) strength.
-
-Who uses well his light,
-
-Reverting to its (source so) bright,
-
-Will from his body ward all blight,
-
-And hides the unchanging from men's sight.</seg>
+        <seg>When the mother is found, we know what her children should be.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-052__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-052</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 52.4 - 老子 52.7</prop>
+      <prop type="x-translation-ref">老子 52.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以知其子，既知其子，復守其母，沒身不殆。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When one knows that he is his mother's child, and proceeds to guard (the qualities of) the mother that belong to him, to the end of his life he will be free from all peril.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-052__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-052</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 52.8 - 老子 52.10</prop>
+      <prop type="x-translation-ref">老子 52.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>塞其兌，閉其門，終身不勤。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Let him keep his mouth closed, and shut up the portals (of his nostrils), and all his life he will be exempt from laborious exertion.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-052__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-052</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 52.11 - 老子 52.13</prop>
+      <prop type="x-translation-ref">老子 52.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>開其兌，濟其事，終身不救。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Let him keep his mouth open, and (spend his breath) in the promotion of his affairs, and all his life there will be no safety for him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-052__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-052</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 52.14 - 老子 52.16</prop>
+      <prop type="x-translation-ref">老子 52.6 - 老子 52.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>見小曰明，守柔曰強。用其光，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The perception of what is small is (the secret of clear- sightedness; the guarding of what is soft and tender is (the secret of) strength.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-052__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-052</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 52.17</prop>
+      <prop type="x-translation-ref">老子 52.8 - 老子 52.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>復歸其明，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Who uses well his light, Reverting to its (source so) bright,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-052__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-052</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 52.18</prop>
+      <prop type="x-translation-ref">老子 52.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>無遺身殃，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Will from his body ward all blight,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-052__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-052</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 52.19</prop>
+      <prop type="x-translation-ref">老子 52.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是為習常。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>And hides the unchanging from men's sight.</seg>
       </tuv>
     </tu>
   </body>

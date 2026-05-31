@@ -6,31 +6,180 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-034</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 34.1 - 老子 34.2</prop>
+      <prop type="x-translation-ref">老子 34.1 - 老子 34.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>大道氾兮，其可左右。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All-pervading is the Great Dao! It may be found on the left hand and on the right.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-034__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-034</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 34</prop>
-      <prop type="x-translation-ref">老子 34</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 3 English blocks, 5 Chinese clause units, 8 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 34.3</prop>
+      <prop type="x-translation-ref">老子 34.3</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>大道氾兮，其可左右。
-
-萬物恃之而生而不辭，功成不名有。衣養萬物而不為主，常無欲，可名於小；
-
-萬物歸焉而不為主，可名為大。
-
-以其終不自為大，故能成其大。</seg>
+        <seg>萬物恃之而生而不辭，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>All-pervading is the Great Dao! It may be found on the left hand and on the right.
-
-All things depend on it for their production, which it gives to them, not one refusing obedience to it. When its work is accomplished, it does not claim the name of having done it. It clothes all things as with a garment, and makes no assumption of being their lord; - it may be named in the smallest things. All things return (to their root and disappear), and do not know that it is it which presides over their doing so; - it may be named in the greatest things.
-
-Hence the sage is able (in the same way) to accomplish his great achievements. It is through his not making himself great that he can accomplish them.</seg>
+        <seg>All things depend on it for their production, which it gives to them, not one refusing obedience to it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-034__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-034</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 34.4</prop>
+      <prop type="x-translation-ref">老子 34.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>功成不名有。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When its work is accomplished, it does not claim the name of having done it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-034__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-034</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 34.5</prop>
+      <prop type="x-translation-ref">老子 34.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>衣養萬物而不為主，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>It clothes all things as with a garment, and makes no assumption of being their lord;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-034__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-034</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 34.6</prop>
+      <prop type="x-translation-ref">老子 34.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>常無欲，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- it may be named in the smallest things.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-034__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-034</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 34.7 - 老子 34.8</prop>
+      <prop type="x-translation-ref">老子 34.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>可名於小；萬物歸焉而不為主，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All things return (to their root and disappear), and do not know that it is it which presides over their doing so;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-034__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-034</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 34.9</prop>
+      <prop type="x-translation-ref">老子 34.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>可名為大。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- it may be named in the greatest things.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-034__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-034</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 34.10</prop>
+      <prop type="x-translation-ref">老子 34.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以其終不自為大，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hence the sage is able (in the same way) to accomplish his great achievements.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-034__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-034</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 34.11</prop>
+      <prop type="x-translation-ref">老子 34.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故能成其大。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>It is through his not making himself great that he can accomplish them.</seg>
       </tuv>
     </tu>
   </body>

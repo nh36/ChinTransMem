@@ -21,6 +21,19 @@ from common import (
 XML_NAMESPACE = "http://www.w3.org/XML/1998/namespace"
 
 
+def _combined_ref(segments: list[dict[str, object]]) -> str:
+    refs = [str(segment["canonical_ref"]) for segment in segments]
+    if not refs:
+        return ""
+    if len(refs) == 1:
+        return refs[0]
+    return f"{refs[0]} - {refs[-1]}"
+
+
+def _combined_text(segments: list[dict[str, object]], *, joiner: str) -> str:
+    return joiner.join(str(segment["text_normalized"]) for segment in segments)
+
+
 def default_section_unit(work_id: str) -> str:
     if work_id == DEFAULT_WORK_ID:
         return "book"
@@ -88,11 +101,11 @@ def load_exact_alignment_rows(
     for row in alignment_rows:
         chinese_ids = json.loads(row["chinese_segment_ids_json"])
         translation_ids = json.loads(row["translation_segment_ids_json"])
-        if len(chinese_ids) != 1 or len(translation_ids) != 1:
-            continue
-        chinese_segment = segment_map[chinese_ids[0]]
-        translation_segment = segment_map[translation_ids[0]]
-        segment_type = row["segment_type"] or chinese_segment["segment_type"]
+        chinese_segments = [segment_map[segment_id] for segment_id in chinese_ids]
+        translation_segments = [segment_map[segment_id] for segment_id in translation_ids]
+        chinese_segments.sort(key=lambda segment: segment["segment_order"])
+        translation_segments.sort(key=lambda segment: segment["segment_order"])
+        segment_type = row["segment_type"] or chinese_segments[0]["segment_type"]
         export_rows.append(
             {
                 "alignment_id": row["alignment_id"],
@@ -100,7 +113,7 @@ def load_exact_alignment_rows(
                 "section_id": row["section_id"],
                 "alignment_type": row["alignment_type"],
                 "confidence": row["confidence"],
-                "order": chinese_segment["segment_order"],
+                "order": min(segment["segment_order"] for segment in chinese_segments),
                 "section_unit": row["section_unit"] or default_section_unit(work_id),
                 "segment_type": segment_type,
                 "alignment_granularity": row["alignment_granularity"] or segment_type or "segment",
@@ -108,10 +121,10 @@ def load_exact_alignment_rows(
                 "coarse_alignment_reason": row["coarse_alignment_reason"],
                 "source_segment_count": row["source_segment_count"] or len(chinese_ids),
                 "target_segment_count": row["target_segment_count"] or len(translation_ids),
-                "chinese_ref": chinese_segment["canonical_ref"],
-                "chinese_text": chinese_segment["text_normalized"],
-                "translation_ref": translation_segment["canonical_ref"],
-                "translation_text": translation_segment["text_normalized"],
+                "chinese_ref": _combined_ref(chinese_segments),
+                "chinese_text": _combined_text(chinese_segments, joiner=""),
+                "translation_ref": _combined_ref(translation_segments),
+                "translation_text": _combined_text(translation_segments, joiner=" "),
             }
         )
 

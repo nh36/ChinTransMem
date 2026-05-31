@@ -6,29 +6,180 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-014</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 14.1 - 老子 14.4</prop>
+      <prop type="x-translation-ref">老子 14.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>視之不見名曰夷，聽之不聞名曰希，搏之不得名曰微。此三者，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We look at it, and we do not see it, and we name it 'the Equable.' We listen to it, and we do not hear it, and we name it 'the Inaudible.' We try to grasp it, and do not get hold of it, and we name it 'the Subtle.' With these three qualities, it cannot be made the subject of description;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-014__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-014</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 14.5 - 老子 14.6</prop>
+      <prop type="x-translation-ref">老子 14.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不可致詰，故混而為一。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and hence we blend them together and obtain The One.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-014__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-014</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 14.7 - 老子 14.8</prop>
+      <prop type="x-translation-ref">老子 14.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>其上不皦，其下不昧。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Its upper part is not bright, and its lower part is not obscure.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-014__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-014</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 14.9 - 老子 14.10</prop>
+      <prop type="x-translation-ref">老子 14.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>繩繩不可名，復歸於無物。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ceaseless in its action, it yet cannot be named, and then it again returns and becomes nothing.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-014__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-014</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 14.11 - 老子 14.12</prop>
+      <prop type="x-translation-ref">老子 14.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是謂無狀之狀，無物之象，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>This is called the Form of the Formless, and the Semblance of the Invisible;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-014__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-014</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 14</prop>
-      <prop type="x-translation-ref">老子 14</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 1 English blocks, 9 Chinese clause units, 6 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 14.13</prop>
+      <prop type="x-translation-ref">老子 14.6</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>視之不見名曰夷，聽之不聞名曰希，搏之不得名曰微。此三者，不可致詰，故混而為一。
-
-其上不皦，其下不昧。繩繩不可名，復歸於無物。是謂無狀之狀，無物之象，
-
-是謂惚恍。
-
-迎之不見其首，隨之不見其後。執古之道，以御今之有。
-
-能知古始，是謂道紀。</seg>
+        <seg>是謂惚恍。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>We look at it, and we do not see it, and we name it 'the Equable.' We listen to it, and we do not hear it, and we name it 'the Inaudible.' We try to grasp it, and do not get hold of it, and we name it 'the Subtle.' With these three qualities, it cannot be made the subject of description; and hence we blend them together and obtain The One. Its upper part is not bright, and its lower part is not obscure. Ceaseless in its action, it yet cannot be named, and then it again returns and becomes nothing. This is called the Form of the Formless, and the Semblance of the Invisible; this is called the Fleeting and Indeterminable. We meet it and do not see its Front; we follow it, and do not see its Back. When we can lay hold of the Dao of old to direct the things of the present day, and are able to know it as it was of old in the beginning, this is called (unwinding) the clue of Dao.</seg>
+        <seg>this is called the Fleeting and Indeterminable.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-014__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-014</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 14.14</prop>
+      <prop type="x-translation-ref">老子 14.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>迎之不見其首，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>We meet it and do not see its Front;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-014__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-014</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 14.15</prop>
+      <prop type="x-translation-ref">老子 14.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>隨之不見其後。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>we follow it, and do not see its Back.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-014__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-014</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 14.16 - 老子 14.19</prop>
+      <prop type="x-translation-ref">老子 14.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>執古之道，以御今之有。能知古始，是謂道紀。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When we can lay hold of the Dao of old to direct the things of the present day, and are able to know it as it was of old in the beginning, this is called (unwinding) the clue of Dao.</seg>
       </tuv>
     </tu>
   </body>

@@ -69,6 +69,7 @@ class LaoziPromotionTest(unittest.TestCase):
             if source["language_code"] == "en":
                 self.assertIn("Legge 1891", source["notes"])
             self.assertIn("Review date: 2026-05-31", source["notes"])
+        self.assertTrue((REPO_ROOT / "metadata" / "laozi_alignment_overrides.yml").exists())
 
     def test_laozi_exports_and_qc_are_clean(self) -> None:
         export_paths = corpus_export_paths("laozi")
@@ -89,6 +90,9 @@ class LaoziPromotionTest(unittest.TestCase):
         self.assertFalse(qc_report["text_integrity"]["translation_with_notice_sections"])
         self.assertFalse(qc_report["text_integrity"]["translation_with_commentary_sections"])
         self.assertFalse(qc_report["text_integrity"]["translation_with_heading_sections"])
+        self.assertFalse(qc_report["alignment_quality"]["false_precision_multi_clause_targets"])
+        self.assertFalse(qc_report["alignment_quality"]["question_punctuation_mismatches"])
+        self.assertFalse(qc_report["alignment_quality"]["suspicious_length_imbalance_rows"])
 
         self.assertEqual(len({row["section_id"] for row in rows}), 81)
         for row in rows:
@@ -105,21 +109,43 @@ class LaoziPromotionTest(unittest.TestCase):
                 self.assertTrue(row["is_coarse_alignment"])
                 self.assertTrue(row["coarse_alignment_reason"])
 
+    def test_chapter_five_alignment_is_repaired(self) -> None:
+        rows = load_jsonl(REPO_ROOT / "corpus" / "exports" / "jsonl" / "laozi__laozi-chapter-005__aligned_passages.jsonl")
+
+        self.assertEqual(len(rows), 9)
+        self.assertEqual(rows[0]["chinese_text"], "天地不仁，")
+        self.assertEqual(
+            rows[0]["translation_text"],
+            "Heaven and earth do not act from (the impulse of) any wish to be benevolent;",
+        )
+        self.assertNotIn("The sages do not act", rows[0]["translation_text"])
+        bellows_row = next(row for row in rows if row["translation_text"] == "May not the space between heaven and earth be compared to a bellows?")
+        self.assertEqual(bellows_row["chinese_text"], "天地之間，其猶橐籥乎？")
+        self.assertEqual(bellows_row["source_segment_count"], 2)
+        self.assertEqual(bellows_row["target_segment_count"], 1)
+
     def test_laozi_alignment_qc_and_shijing_stability(self) -> None:
         alignment_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "laozi__alignment_qc.json")
         rows = load_jsonl(corpus_export_paths("laozi")["jsonl"])
         granularity_counts = Counter(row["alignment_granularity"] for row in rows)
         manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "shijing.yml")
+        lunyu_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "lunyu__corpus_qc.json")
+        mengzi_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "mengzi__corpus_qc.json")
 
         self.assertEqual(alignment_qc["active_chapter_count"], 81)
-        self.assertEqual(alignment_qc["exact_alignment_count"], 260)
         self.assertEqual(alignment_qc["counts_by_granularity"], dict(granularity_counts))
-        self.assertEqual(alignment_qc["chapter_fallback_count"], 47)
-        self.assertEqual(len(alignment_qc["chapter_fallbacks"]), 47)
+        self.assertGreater(alignment_qc["exact_alignment_count"], 260)
+        self.assertGreater(alignment_qc["automatic_fine_grained_alignment_count"], 0)
+        self.assertGreaterEqual(alignment_qc["curated_override_chapter_count"], 1)
+        self.assertIn("laozi-chapter-062", {item["section_id"] for item in alignment_qc["curated_override_sections"]})
+        self.assertLess(alignment_qc["chapter_fallback_count"], 47)
+        self.assertEqual(len(alignment_qc["chapter_fallbacks"]), alignment_qc["chapter_fallback_count"])
         self.assertEqual(alignment_qc["blocked_chapter_count"], 0)
         self.assertEqual(alignment_qc["hard_failure_count"], 0)
-        self.assertGreater(granularity_counts["sentence"] + granularity_counts["block"], 0)
+        self.assertGreater(granularity_counts["sentence"] + granularity_counts["block"] + granularity_counts["grouped"], 0)
         self.assertTrue(all(item["coarse_alignment_reason"] for item in alignment_qc["chapter_fallbacks"]))
+        self.assertEqual(lunyu_qc["status"], "pass")
+        self.assertEqual(mengzi_qc["status"], "pass")
 
         self.assertEqual(manifest["summary"]["section_count"], 305)
         self.assertEqual(manifest["summary"]["complete_sections"], 305)

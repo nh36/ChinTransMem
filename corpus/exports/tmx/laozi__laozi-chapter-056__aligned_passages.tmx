@@ -6,43 +6,200 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-056</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 56.1 - 老子 56.2</prop>
+      <prop type="x-translation-ref">老子 56.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>知者不言，言者不知。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who knows (the Dao) does not (care to) speak (about it);</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-056__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-056</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 56.3 - 老子 56.4</prop>
+      <prop type="x-translation-ref">老子 56.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>塞其兌，閉其門，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>he who is (ever ready to) speak about it does not know it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-056__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-056</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 56.5 - 老子 56.7</prop>
+      <prop type="x-translation-ref">老子 56.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>挫其銳，解其分，和其光，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He (who knows it) will keep his mouth shut and close the portals (of his nostrils).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-056__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-056</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 56.8 - 老子 56.9</prop>
+      <prop type="x-translation-ref">老子 56.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>同其塵，是謂玄同。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He will blunt his sharp points and unravel the complications of things;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-056__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-056</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 56.10 - 老子 56.11</prop>
+      <prop type="x-translation-ref">老子 56.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故不可得而親，不可得而疏；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>he will attemper his brightness, and bring himself into agreement with the obscurity (of others).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-056__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-056</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 56</prop>
-      <prop type="x-translation-ref">老子 56</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (10 Chinese blocks, 3 English blocks, 11 Chinese clause units, 5 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 56.12</prop>
+      <prop type="x-translation-ref">老子 56.6</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>知者不言，
-
-言者不知。
-
-塞其兌，閉其門，挫其銳，
-
-解其分，
-
-和其光，
-
-同其塵，
-
-是謂玄同。故不可得而親，不可得而疏；
-
-不可得而利，不可得而害；
-
-不可得而貴，不可得而賤。
-
-故為天下貴。</seg>
+        <seg>不可得而利，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>He who knows (the Dao) does not (care to) speak (about it); he who is (ever ready to) speak about it does not know it.
-
-He (who knows it) will keep his mouth shut and close the portals (of his nostrils). He will blunt his sharp points and unravel the complications of things; he will attemper his brightness, and bring himself into agreement with the obscurity (of others). This is called 'the Mysterious Agreement.'
-
-(Such an one) cannot be treated familiarly or distantly; he is beyond all consideration of profit or injury; beyond all consideration of nobility or meanness: - he is the noblest man under heaven.</seg>
+        <seg>This is called 'the Mysterious Agreement.'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-056__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-056</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 56.13</prop>
+      <prop type="x-translation-ref">老子 56.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不可得而害；</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(Such an one) cannot be treated familiarly or distantly;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-056__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-056</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 56.14</prop>
+      <prop type="x-translation-ref">老子 56.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不可得而貴，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>he is beyond all consideration of profit or injury;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-056__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-056</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 56.15</prop>
+      <prop type="x-translation-ref">老子 56.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不可得而賤。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>beyond all consideration of nobility or meanness:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-056__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-056</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 56.16</prop>
+      <prop type="x-translation-ref">老子 56.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故為天下貴。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- he is the noblest man under heaven.</seg>
       </tuv>
     </tu>
   </body>

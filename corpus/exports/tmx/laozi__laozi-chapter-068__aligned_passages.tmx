@@ -6,55 +6,140 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-068</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 68</prop>
-      <prop type="x-translation-ref">老子 68</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 14 English blocks, 5 Chinese clause units, 14 English clause units).</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 68.1</prop>
+      <prop type="x-translation-ref">老子 68.1 - 老子 68.2</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>善為士者不武，
-
-善戰者不怒，
-
-善勝敵者不與，
-
-善用人者為之下，是謂不爭之德，是謂用人之力，
-
-是謂配天古之極。</seg>
+        <seg>善為士者不武，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>He who in (Dao's) wars has skill
-
-Assumes no martial port;
-
-He who fights with most good will
-
-To rage makes no resort.
-
-He who vanquishes yet still
-
-Keeps from his foes apart;
-
-He whose hests men most fulfil
-
-Yet humbly plies his art.
-
-Thus we say, 'He never contends,
-
-And therein is his might.'
-
-Thus we say, 'Men's wills he bends,
-
-That they with him unite.'
-
-Thus we say, 'Like Heaven's his ends,
-
-No sage of old more bright.'</seg>
+        <seg>He who in (Dao's) wars has skill Assumes no martial port;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-068__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-068</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 68.2</prop>
+      <prop type="x-translation-ref">老子 68.3 - 老子 68.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>善戰者不怒，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who fights with most good will To rage makes no resort.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-068__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-068</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 68.3</prop>
+      <prop type="x-translation-ref">老子 68.5 - 老子 68.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>善勝敵者不與，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who vanquishes yet still Keeps from his foes apart;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-068__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-068</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 68.4</prop>
+      <prop type="x-translation-ref">老子 68.7 - 老子 68.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>善用人者為之下，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He whose hests men most fulfil Yet humbly plies his art.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-068__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-068</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 68.5</prop>
+      <prop type="x-translation-ref">老子 68.9 - 老子 68.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是謂不爭之德，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Thus we say, 'He never contends, And therein is his might.'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-068__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-068</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 68.6</prop>
+      <prop type="x-translation-ref">老子 68.11 - 老子 68.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是謂用人之力，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Thus we say, 'Men's wills he bends, That they with him unite.'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-068__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-068</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 68.7</prop>
+      <prop type="x-translation-ref">老子 68.13 - 老子 68.14</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是謂配天古之極。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Thus we say, 'Like Heaven's his ends, No sage of old more bright.'</seg>
       </tuv>
     </tu>
   </body>

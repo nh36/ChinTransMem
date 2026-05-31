@@ -1,40 +1,14 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-039__align-001,laozi,laozi-chapter-039,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (4 Chinese blocks, 17 English blocks, 10 Chinese clause units, 20 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 39,"昔之得一者，
-
-天得一以清，地得一以寧，神得一以靈，谷得一以盈，萬物得一以生，侯王得一以為天下貞。其致之，
-
-天無以清將恐裂，
-
-地無以寧將恐發，神無以靈將恐歇，谷無以盈將恐竭，萬物無以生將恐滅，侯王無以貴高將恐蹶。故貴以賤為本，高以下為基。是以侯王自稱孤﹑寡﹑不穀。此非以賤為本邪？非乎？故致數輿無輿，不欲琭琭如玉，珞珞如石。",老子 39,"The things which from of old have got the One (the Dao) are -
-
-Heaven which by it is bright and pure;
-
-Earth rendered thereby firm and sure;
-
-Spirits with powers by it supplied;
-
-Valleys kept full throughout their void
-
-All creatures which through it do live
-
-Princes and kings who from it get
-
-The model which to all they give.
-
-All these are the results of the One (Dao).
-
-If heaven were not thus pure, it soon would rend;
-
-If earth were not thus sure, 'twould break and bend;
-
-Without these powers, the spirits soon would fail;
-
-If not so filled, the drought would parch each vale;
-
-Without that life, creatures would pass away;
-
-Princes and kings, without that moral sway,
-
-However grand and high, would all decay.
-
-Thus it is that dignity finds its (firm) root in its (previous) meanness, and what is lofty finds its stability in the lowness (from which it rises). Hence princes and kings call themselves 'Orphans,' 'Men of small virtue,' and as 'Carriages without a nave.' Is not this an acknowledgment that in their considering themselves mean they see the foundation of their dignity? So it is that in the enumeration of the different parts of a carriage we do not come on what makes it answer the ends of a carriage. They do not wish to show themselves elegant-looking as jade, but (prefer) to be coarse-looking as an (ordinary) stone."
+laozi-chapter-039__align-001,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,1,老子 39.1 - 老子 39.2,昔之得一者，天得一以清，,老子 39.1,The things which from of old have got the One (the Dao) are -
+laozi-chapter-039__align-002,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,3,老子 39.3,地得一以寧，,老子 39.2,Heaven which by it is bright and pure;
+laozi-chapter-039__align-003,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,4,老子 39.4,神得一以靈，,老子 39.3,Earth rendered thereby firm and sure;
+laozi-chapter-039__align-004,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,2,3,exact_or_near_exact,1.0,5,老子 39.5 - 老子 39.6,谷得一以盈，萬物得一以生，,老子 39.4 - 老子 39.6,Spirits with powers by it supplied; Valleys kept full throughout their void All creatures which through it do live
+laozi-chapter-039__align-005,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,7,老子 39.7,侯王得一以為天下貞。,老子 39.7 - 老子 39.8,Princes and kings who from it get The model which to all they give.
+laozi-chapter-039__align-006,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,2,2,exact_or_near_exact,1.0,8,老子 39.8 - 老子 39.9,其致之，天無以清將恐裂，,老子 39.9 - 老子 39.10,"All these are the results of the One (Dao). If heaven were not thus pure, it soon would rend;"
+laozi-chapter-039__align-007,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,10,老子 39.10,地無以寧將恐發，,老子 39.11,"If earth were not thus sure, 'twould break and bend;"
+laozi-chapter-039__align-008,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,2,3,exact_or_near_exact,1.0,11,老子 39.11 - 老子 39.12,神無以靈將恐歇，谷無以盈將恐竭，,老子 39.12 - 老子 39.14,"Without these powers, the spirits soon would fail; If not so filled, the drought would parch each vale; Without that life, creatures would pass away;"
+laozi-chapter-039__align-009,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,13,老子 39.13,萬物無以生將恐滅，,老子 39.15 - 老子 39.16,"Princes and kings, without that moral sway, However grand and high, would all decay."
+laozi-chapter-039__align-010,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,14,老子 39.14 - 老子 39.15,侯王無以貴高將恐蹶。故貴以賤為本，,老子 39.17,"Thus it is that dignity finds its (firm) root in its (previous) meanness, and what is lofty finds its stability in the lowness (from which it rises)."
+laozi-chapter-039__align-011,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,3,1,exact_or_near_exact,1.0,16,老子 39.16 - 老子 39.18,高以下為基。是以侯王自稱孤﹑寡﹑不穀。此非以賤為本邪？,老子 39.18,"Hence princes and kings call themselves 'Orphans,' 'Men of small virtue,' and as 'Carriages without a nave.' Is not this an acknowledgment that in their considering themselves mean they see the foundation of their dignity?"
+laozi-chapter-039__align-012,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,19,老子 39.19 - 老子 39.20,非乎？故致數輿無輿，,老子 39.19,So it is that in the enumeration of the different parts of a carriage we do not come on what makes it answer the ends of a carriage.
+laozi-chapter-039__align-013,laozi,laozi-chapter-039,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,21,老子 39.21 - 老子 39.22,不欲琭琭如玉，珞珞如石。,老子 39.20,"They do not wish to show themselves elegant-looking as jade, but (prefer) to be coarse-looking as an (ordinary) stone."

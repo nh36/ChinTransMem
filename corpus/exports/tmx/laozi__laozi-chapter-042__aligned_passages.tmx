@@ -6,8 +6,8 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-042</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
@@ -16,50 +16,190 @@
       <prop type="x-chinese-ref">老子 42.1</prop>
       <prop type="x-translation-ref">老子 42.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>道生一，一生二，二生三，三生萬物。萬物負陰而抱陽，沖氣以為和。人之所惡，唯孤﹑寡﹑不穀，而王公以為稱。故物或損之而益，或益之而損。</seg>
+        <seg>道生一，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The Dao produced One; One produced Two; Two produced Three; Three produced All things. All things leave behind them the Obscurity (out of which they have come), and go forward to embrace the Brightness (into which they have emerged), while they are harmonised by the Breath of Vacancy.</seg>
+        <seg>The Dao produced One;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-042__align-002">
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-042</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
       <prop type="x-chinese-ref">老子 42.2</prop>
-      <prop type="x-translation-ref">老子 42.2</prop>
+      <prop type="x-translation-ref">老子 42.2 - 老子 42.3</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>人之所教，我亦教之。</seg>
+        <seg>一生二，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>What men dislike is to be orphans, to have little virtue, to be as carriages without naves; and yet these are the designations which kings and princes use for themselves. So it is that some things are increased by being diminished, and others are diminished by being increased.</seg>
+        <seg>One produced Two; Two produced Three;</seg>
       </tuv>
     </tu>
     <tu tuid="laozi-chapter-042__align-003">
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-042</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">老子 42.3</prop>
-      <prop type="x-translation-ref">老子 42.3</prop>
+      <prop type="x-translation-ref">老子 42.4</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>強梁者不得其死，吾將以為教父。</seg>
+        <seg>二生三，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>What other men (thus) teach, I also teach. The violent and strong do not die their natural death. I will make this the basis of my teaching.</seg>
+        <seg>Three produced All things.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-042__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-042</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 42.4 - 老子 42.7</prop>
+      <prop type="x-translation-ref">老子 42.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>三生萬物。萬物負陰而抱陽，沖氣以為和。人之所惡，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All things leave behind them the Obscurity (out of which they have come), and go forward to embrace the Brightness (into which they have emerged), while they are harmonised by the Breath of Vacancy.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-042__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-042</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 42.8 - 老子 42.9</prop>
+      <prop type="x-translation-ref">老子 42.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>唯孤﹑寡﹑不穀，而王公以為稱。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What men dislike is to be orphans, to have little virtue, to be as carriages without naves;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-042__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-042</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 42.10</prop>
+      <prop type="x-translation-ref">老子 42.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故物或損之而益，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and yet these are the designations which kings and princes use for themselves.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-042__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-042</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 42.11 - 老子 42.12</prop>
+      <prop type="x-translation-ref">老子 42.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>或益之而損。人之所教，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>So it is that some things are increased by being diminished, and others are diminished by being increased.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-042__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-042</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 42.13</prop>
+      <prop type="x-translation-ref">老子 42.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我亦教之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What other men (thus) teach, I also teach.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-042__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-042</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 42.14</prop>
+      <prop type="x-translation-ref">老子 42.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>強梁者不得其死，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The violent and strong do not die their natural death.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-042__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-042</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 42.15</prop>
+      <prop type="x-translation-ref">老子 42.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>吾將以為教父。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I will make this the basis of my teaching.</seg>
       </tuv>
     </tu>
   </body>

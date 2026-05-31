@@ -6,41 +6,120 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-037</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 37.1 - 老子 37.3</prop>
+      <prop type="x-translation-ref">老子 37.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>道常無為而無不為。侯王若能守之，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Dao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-037__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-037</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 37.4 - 老子 37.5</prop>
+      <prop type="x-translation-ref">老子 37.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>萬物將自化。化而欲作，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If princes and kings were able to maintain it, all things would of themselves be transformed by them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-037__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-037</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 37.6 - 老子 37.7</prop>
+      <prop type="x-translation-ref">老子 37.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>吾將鎮之以無名之樸。無名之樸，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If this transformation became to me an object of desire, I would express the desire by the nameless simplicity.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-037__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-037</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 37.8</prop>
+      <prop type="x-translation-ref">老子 37.4 - 老子 37.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>夫亦將無欲。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Simplicity without a name Is free from all external aim.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-037__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-037</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 37</prop>
-      <prop type="x-translation-ref">老子 37</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 7 English blocks, 6 Chinese clause units, 7 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 37.9</prop>
+      <prop type="x-translation-ref">老子 37.6</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>道常無為
-
-而無不為。
-
-侯王若能守之，萬物將自化。化而欲作，吾將鎮之以無名之樸。
-
-無名之樸，夫亦將無欲。
-
-不欲以靜，天下將自定。</seg>
+        <seg>不欲以靜，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The Dao in its regular course does nothing (for the sake of doing it), and so there is nothing which it does not do.
-
-If princes and kings were able to maintain it, all things would of themselves be transformed by them.
-
-If this transformation became to me an object of desire, I would express the desire by the nameless simplicity.
-
-Simplicity without a name
-
-Is free from all external aim.
-
-With no desire, at rest and still,
-
-All things go right as of their will.</seg>
+        <seg>With no desire, at rest and still,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-037__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-037</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 37.10</prop>
+      <prop type="x-translation-ref">老子 37.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天下將自定。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All things go right as of their will.</seg>
       </tuv>
     </tu>
   </body>

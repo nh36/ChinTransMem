@@ -1,10 +1,10 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-014__align-001,laozi,laozi-chapter-014,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (5 Chinese blocks, 1 English blocks, 9 Chinese clause units, 6 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 14,"視之不見名曰夷，聽之不聞名曰希，搏之不得名曰微。此三者，不可致詰，故混而為一。
-
-其上不皦，其下不昧。繩繩不可名，復歸於無物。是謂無狀之狀，無物之象，
-
-是謂惚恍。
-
-迎之不見其首，隨之不見其後。執古之道，以御今之有。
-
-能知古始，是謂道紀。",老子 14,"We look at it, and we do not see it, and we name it 'the Equable.' We listen to it, and we do not hear it, and we name it 'the Inaudible.' We try to grasp it, and do not get hold of it, and we name it 'the Subtle.' With these three qualities, it cannot be made the subject of description; and hence we blend them together and obtain The One. Its upper part is not bright, and its lower part is not obscure. Ceaseless in its action, it yet cannot be named, and then it again returns and becomes nothing. This is called the Form of the Formless, and the Semblance of the Invisible; this is called the Fleeting and Indeterminable. We meet it and do not see its Front; we follow it, and do not see its Back. When we can lay hold of the Dao of old to direct the things of the present day, and are able to know it as it was of old in the beginning, this is called (unwinding) the clue of Dao."
+laozi-chapter-014__align-001,laozi,laozi-chapter-014,chapter,sentence,grouped,False,,4,1,exact_or_near_exact,1.0,1,老子 14.1 - 老子 14.4,視之不見名曰夷，聽之不聞名曰希，搏之不得名曰微。此三者，,老子 14.1,"We look at it, and we do not see it, and we name it 'the Equable.' We listen to it, and we do not hear it, and we name it 'the Inaudible.' We try to grasp it, and do not get hold of it, and we name it 'the Subtle.' With these three qualities, it cannot be made the subject of description;"
+laozi-chapter-014__align-002,laozi,laozi-chapter-014,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,5,老子 14.5 - 老子 14.6,不可致詰，故混而為一。,老子 14.2,and hence we blend them together and obtain The One.
+laozi-chapter-014__align-003,laozi,laozi-chapter-014,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,7,老子 14.7 - 老子 14.8,其上不皦，其下不昧。,老子 14.3,"Its upper part is not bright, and its lower part is not obscure."
+laozi-chapter-014__align-004,laozi,laozi-chapter-014,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,9,老子 14.9 - 老子 14.10,繩繩不可名，復歸於無物。,老子 14.4,"Ceaseless in its action, it yet cannot be named, and then it again returns and becomes nothing."
+laozi-chapter-014__align-005,laozi,laozi-chapter-014,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,11,老子 14.11 - 老子 14.12,是謂無狀之狀，無物之象，,老子 14.5,"This is called the Form of the Formless, and the Semblance of the Invisible;"
+laozi-chapter-014__align-006,laozi,laozi-chapter-014,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,13,老子 14.13,是謂惚恍。,老子 14.6,this is called the Fleeting and Indeterminable.
+laozi-chapter-014__align-007,laozi,laozi-chapter-014,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,14,老子 14.14,迎之不見其首，,老子 14.7,We meet it and do not see its Front;
+laozi-chapter-014__align-008,laozi,laozi-chapter-014,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,15,老子 14.15,隨之不見其後。,老子 14.8,"we follow it, and do not see its Back."
+laozi-chapter-014__align-009,laozi,laozi-chapter-014,chapter,sentence,grouped,False,,4,1,exact_or_near_exact,1.0,16,老子 14.16 - 老子 14.19,執古之道，以御今之有。能知古始，是謂道紀。,老子 14.9,"When we can lay hold of the Dao of old to direct the things of the present day, and are able to know it as it was of old in the beginning, this is called (unwinding) the clue of Dao."

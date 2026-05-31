@@ -1,30 +1,15 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-025__align-001,laozi,laozi-chapter-025,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (12 Chinese blocks, 4 English blocks, 12 Chinese clause units, 15 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 25,"有物混成，先天地生。
-
-寂兮寥兮，獨立而不改，
-
-周行而不殆，可以為天下母。
-
-吾不知其名，
-
-字之曰道，
-
-強為之名曰大。
-
-大曰逝，
-
-逝曰遠，遠曰反。
-
-故道大，天大，地大，王亦大。
-
-域中有四大，
-
-而王居其一焉。
-
-人法地，地法天，天法道，道法自然。",老子 25,"There was something undefined and complete, coming into existence before Heaven and Earth. How still it was and formless, standing alone, and undergoing no change, reaching everywhere and in no danger (of being exhausted)! It may be regarded as the Mother of all things.
-
-I do not know its name, and I give it the designation of the Dao (the Way or Course). Making an effort (further) to give it a name I call it The Great.
-
-Great, it passes on (in constant flow). Passing on, it becomes remote. Having become remote, it returns. Therefore the Dao is great; Heaven is great; Earth is great; and the (sage) king is also great. In the universe there are four that are great, and the (sage) king is one of them.
-
-Man takes his law from the Earth; the Earth takes its law from Heaven; Heaven takes its law from the Dao. The law of the Dao is its being what it is."
+laozi-chapter-025__align-001,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,1,老子 25.1 - 老子 25.2,有物混成，先天地生。,老子 25.1,"There was something undefined and complete, coming into existence before Heaven and Earth."
+laozi-chapter-025__align-002,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,3,老子 25.3 - 老子 25.4,寂兮寥兮，獨立而不改，,老子 25.2,"How still it was and formless, standing alone, and undergoing no change, reaching everywhere and in no danger (of being exhausted)!"
+laozi-chapter-025__align-003,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,5,老子 25.5,周行而不殆，,老子 25.3,It may be regarded as the Mother of all things.
+laozi-chapter-025__align-004,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,6,老子 25.6 - 老子 25.7,可以為天下母。吾不知其名，,老子 25.4,"I do not know its name, and I give it the designation of the Dao (the Way or Course)."
+laozi-chapter-025__align-005,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,2,2,exact_or_near_exact,1.0,8,老子 25.8 - 老子 25.9,字之曰道，強為之名曰大。,老子 25.5 - 老子 25.6,"Making an effort (further) to give it a name I call it The Great. Great, it passes on (in constant flow)."
+laozi-chapter-025__align-006,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,10,老子 25.10,大曰逝，,老子 25.7,"Passing on, it becomes remote."
+laozi-chapter-025__align-007,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,11,老子 25.11,逝曰遠，,老子 25.8,"Having become remote, it returns."
+laozi-chapter-025__align-008,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,12,老子 25.12,遠曰反。,老子 25.9,Therefore the Dao is great;
+laozi-chapter-025__align-009,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,13,老子 25.13,故道大，,老子 25.10 - 老子 25.11,Heaven is great; Earth is great;
+laozi-chapter-025__align-010,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,14,老子 25.14 - 老子 25.15,天大，地大，,老子 25.12,and the (sage) king is also great.
+laozi-chapter-025__align-011,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,3,2,exact_or_near_exact,1.0,16,老子 25.16 - 老子 25.18,王亦大。域中有四大，而王居其一焉。,老子 25.13 - 老子 25.14,"In the universe there are four that are great, and the (sage) king is one of them. Man takes his law from the Earth;"
+laozi-chapter-025__align-012,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,19,老子 25.19,人法地，,老子 25.15,the Earth takes its law from Heaven;
+laozi-chapter-025__align-013,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,20,老子 25.20,地法天，,老子 25.16,Heaven takes its law from the Dao.
+laozi-chapter-025__align-014,laozi,laozi-chapter-025,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,21,老子 25.21 - 老子 25.22,天法道，道法自然。,老子 25.17,The law of the Dao is its being what it is.

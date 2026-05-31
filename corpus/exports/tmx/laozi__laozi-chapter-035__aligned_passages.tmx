@@ -7,16 +7,16 @@
       <prop type="x-section-id">laozi-chapter-035</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 35.1</prop>
+      <prop type="x-chinese-ref">老子 35.1 - 老子 35.3</prop>
       <prop type="x-translation-ref">老子 35.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>執大象，天下往。</seg>
+        <seg>執大象，天下往。往而不害，</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>To him who holds in his hands the Great Image (of the invisible Dao), the whole world repairs.</seg>
@@ -27,16 +27,16 @@
       <prop type="x-section-id">laozi-chapter-035</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 35.2</prop>
+      <prop type="x-chinese-ref">老子 35.4 - 老子 35.6</prop>
       <prop type="x-translation-ref">老子 35.2</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>往而不害，安平太。</seg>
+        <seg>安平太。樂與餌，過客止。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>Men resort to him, and receive no hurt, but (find) rest, peace, and the feeling of ease.</seg>
@@ -47,16 +47,16 @@
       <prop type="x-section-id">laozi-chapter-035</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 35.3</prop>
+      <prop type="x-chinese-ref">老子 35.7 - 老子 35.8</prop>
       <prop type="x-translation-ref">老子 35.3</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>樂與餌，過客止。</seg>
+        <seg>道之出口，淡乎其無味，</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>Music and dainties will make the passing guest stop (for a time).</seg>
@@ -67,16 +67,16 @@
       <prop type="x-section-id">laozi-chapter-035</prop>
       <prop type="x-section-unit">chapter</prop>
       <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 35.4</prop>
+      <prop type="x-chinese-ref">老子 35.9 - 老子 35.11</prop>
       <prop type="x-translation-ref">老子 35.4</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>道之出口，淡乎其無味，視之不足見，聽之不足聞，用之不足既。</seg>
+        <seg>視之不足見，聽之不足聞，用之不足既。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>But though the Dao as it comes from the mouth, seems insipid and has no flavour, though it seems not worth being looked at or listened to, the use of it is inexhaustible.</seg>

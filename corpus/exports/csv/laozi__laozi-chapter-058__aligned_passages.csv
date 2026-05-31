@@ -1,32 +1,13 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-058__align-001,laozi,laozi-chapter-058,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (10 Chinese blocks, 7 English blocks, 12 Chinese clause units, 13 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 58,"其政悶悶，其民淳淳；
-
-其政察察，其民缺缺。
-
-禍兮福之所倚，福兮禍之所伏。孰知其極？其無正。
-
-正復為奇，
-
-善復為妖。
-
-人之迷，其日固久。
-
-是以聖人方而不割，
-
-廉而不劌，
-
-直而不肆，
-
-光而不燿。",老子 58,"The government that seems the most unwise,
-
-Oft goodness to the people best supplies;
-
-That which is meddling, touching everything,
-
-Will work but ill, and disappointment bring.
-
-Misery! - happiness is to be found by its side! Happiness! - misery lurks beneath it! Who knows what either will come to in the end?
-
-Shall we then dispense with correction? The (method of) correction shall by a turn become distortion, and the good in it shall by a turn become evil. The delusion of the people (on this point) has indeed subsisted for a long time.
-
-Therefore the sage is (like) a square which cuts no one (with its angles); (like) a corner which injures no one (with its sharpness). He is straightforward, but allows himself no license; he is bright, but does not dazzle."
+laozi-chapter-058__align-001,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,1,老子 58.1,其政悶悶，,老子 58.1,"The government that seems the most unwise,"
+laozi-chapter-058__align-002,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,2,老子 58.2,其民淳淳；,老子 58.2,Oft goodness to the people best supplies;
+laozi-chapter-058__align-003,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,3,老子 58.3,其政察察，,老子 58.3,"That which is meddling, touching everything,"
+laozi-chapter-058__align-004,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,4,老子 58.4,其民缺缺。,老子 58.4,"Will work but ill, and disappointment bring."
+laozi-chapter-058__align-005,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,1,3,exact_or_near_exact,1.0,5,老子 58.5,禍兮福之所倚，,老子 58.5 - 老子 58.7,Misery! - happiness is to be found by its side! Happiness!
+laozi-chapter-058__align-006,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,2,3,exact_or_near_exact,1.0,6,老子 58.6 - 老子 58.7,福兮禍之所伏。孰知其極？,老子 58.8 - 老子 58.10,- misery lurks beneath it! Who knows what either will come to in the end? Shall we then dispense with correction?
+laozi-chapter-058__align-007,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,3,1,exact_or_near_exact,1.0,8,老子 58.8 - 老子 58.10,其無正。正復為奇，善復為妖。,老子 58.11,"The (method of) correction shall by a turn become distortion, and the good in it shall by a turn become evil."
+laozi-chapter-058__align-008,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,2,1,exact_or_near_exact,1.0,11,老子 58.11 - 老子 58.12,人之迷，其日固久。,老子 58.12,The delusion of the people (on this point) has indeed subsisted for a long time.
+laozi-chapter-058__align-009,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,13,老子 58.13,是以聖人方而不割，,老子 58.13,Therefore the sage is (like) a square which cuts no one (with its angles);
+laozi-chapter-058__align-010,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,14,老子 58.14,廉而不劌，,老子 58.14,(like) a corner which injures no one (with its sharpness).
+laozi-chapter-058__align-011,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,15,老子 58.15,直而不肆，,老子 58.15,"He is straightforward, but allows himself no license;"
+laozi-chapter-058__align-012,laozi,laozi-chapter-058,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,16,老子 58.16,光而不燿。,老子 58.16,"he is bright, but does not dazzle."

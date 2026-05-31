@@ -6,45 +6,260 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-016</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.1 - 老子 16.2</prop>
+      <prop type="x-translation-ref">老子 16.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>致虛極，守靜篤。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The (state of) vacancy should be brought to the utmost degree, and that of stillness guarded with unwearying vigour.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 16.3 - 老子 16.5</prop>
+      <prop type="x-translation-ref">老子 16.2 - 老子 16.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>萬物並作，吾以觀復。夫物芸芸，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All things alike go through their processes of activity, and (then) we see them return (to their original state). When things (in the vegetable world) have displayed their luxuriant growth, we see each of them return to its root.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 16</prop>
-      <prop type="x-translation-ref">老子 16</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (13 Chinese blocks, 1 English blocks, 15 Chinese clause units, 10 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 16.6</prop>
+      <prop type="x-translation-ref">老子 16.4</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>致虛極，守靜篤。
-
-萬物並作，
-
-吾以觀復。
-
-夫物芸芸，各復歸其根。
-
-歸根曰靜，是謂復命。復命曰常，
-
-知常曰明。不知常，妄作凶。
-
-知常容，
-
-容乃公，
-
-公乃王，
-
-王乃天，
-
-天乃道，
-
-道乃久，
-
-沒身不殆。</seg>
+        <seg>各復歸其根。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The (state of) vacancy should be brought to the utmost degree, and that of stillness guarded with unwearying vigour. All things alike go through their processes of activity, and (then) we see them return (to their original state). When things (in the vegetable world) have displayed their luxuriant growth, we see each of them return to its root. This returning to their root is what we call the state of stillness; and that stillness may be called a reporting that they have fulfilled their appointed end. The report of that fulfilment is the regular, unchanging rule. To know that unchanging rule is to be intelligent; not to know it leads to wild movements and evil issues. The knowledge of that unchanging rule produces a (grand) capacity and forbearance, and that capacity and forbearance lead to a community (of feeling with all things). From this community of feeling comes a kingliness of character; and he who is king-like goes on to be heaven-like. In that likeness to heaven he possesses the Dao. Possessed of the Dao, he endures long; and to the end of his bodily life, is exempt from all danger of decay.</seg>
+        <seg>This returning to their root is what we call the state of stillness;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.7</prop>
+      <prop type="x-translation-ref">老子 16.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>歸根曰靜，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and that stillness may be called a reporting that they have fulfilled their appointed end.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.8</prop>
+      <prop type="x-translation-ref">老子 16.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是謂復命。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The report of that fulfilment is the regular, unchanging rule.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.9</prop>
+      <prop type="x-translation-ref">老子 16.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>復命曰常，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>To know that unchanging rule is to be intelligent;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.10</prop>
+      <prop type="x-translation-ref">老子 16.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>知常曰明。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>not to know it leads to wild movements and evil issues.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.11 - 老子 16.13</prop>
+      <prop type="x-translation-ref">老子 16.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>不知常，妄作凶。知常容，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The knowledge of that unchanging rule produces a (grand) capacity and forbearance, and that capacity and forbearance lead to a community (of feeling with all things).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.14</prop>
+      <prop type="x-translation-ref">老子 16.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>容乃公，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>From this community of feeling comes a kingliness of character;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.15</prop>
+      <prop type="x-translation-ref">老子 16.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>公乃王，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and he who is king-like goes on to be heaven-like.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.16</prop>
+      <prop type="x-translation-ref">老子 16.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>王乃天，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In that likeness to heaven he possesses the Dao.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-012">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.17</prop>
+      <prop type="x-translation-ref">老子 16.13</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天乃道，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Possessed of the Dao, he endures long;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-016__align-013">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-016</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 16.18 - 老子 16.19</prop>
+      <prop type="x-translation-ref">老子 16.14</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>道乃久，沒身不殆。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and to the end of his bodily life, is exempt from all danger of decay.</seg>
       </tuv>
     </tu>
   </body>

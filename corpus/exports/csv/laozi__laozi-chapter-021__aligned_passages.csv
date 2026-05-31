@@ -1,48 +1,15 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-021__align-001,laozi,laozi-chapter-021,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (8 Chinese blocks, 17 English blocks, 10 Chinese clause units, 19 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 21,"孔德之容，惟道是從。
-
-道之為物，惟恍惟惚。
-
-惚兮恍兮，其中有象；恍兮惚兮，其中有物。
-
-窈兮冥兮，其中有精；
-
-其精甚真，其中有信。
-
-自今及古，其名不去，
-
-以閱眾甫。
-
-吾何以知眾甫之狀哉？以此。",老子 21,"The grandest forms of active force
-
-From Dao come, their only source.
-
-Who can of Dao the nature tell?
-
-Our sight it flies, our touch as well.
-
-Eluding sight, eluding touch,
-
-The forms of things all in it crouch;
-
-Eluding touch, eluding sight,
-
-There are their semblances, all right.
-
-Profound it is, dark and obscure;
-
-Things' essences all there endure.
-
-Those essences the truth enfold
-
-Of what, when seen, shall then be told.
-
-Now it is so; 'twas so of old.
-
-Its name - what passes not away;
-
-So, in their beautiful array,
-
-Things form and never know decay.
-
-How know I that it is so with all the beauties of existing things? By this (nature of the Dao)."
+laozi-chapter-021__align-001,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,1,老子 21.1,孔德之容，,老子 21.1,The grandest forms of active force
+laozi-chapter-021__align-002,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,2,老子 21.2,惟道是從。,老子 21.2,"From Dao come, their only source."
+laozi-chapter-021__align-003,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,2,2,exact_or_near_exact,1.0,3,老子 21.3 - 老子 21.4,道之為物，惟恍惟惚。,老子 21.3 - 老子 21.4,"Who can of Dao the nature tell? Our sight it flies, our touch as well."
+laozi-chapter-021__align-004,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,2,3,exact_or_near_exact,1.0,5,老子 21.5 - 老子 21.6,惚兮恍兮，其中有象；,老子 21.5 - 老子 21.7,"Eluding sight, eluding touch, The forms of things all in it crouch; Eluding touch, eluding sight,"
+laozi-chapter-021__align-005,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,7,老子 21.7,恍兮惚兮，,老子 21.8,"There are their semblances, all right."
+laozi-chapter-021__align-006,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,8,老子 21.8,其中有物。,老子 21.9,"Profound it is, dark and obscure;"
+laozi-chapter-021__align-007,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,9,老子 21.9,窈兮冥兮，,老子 21.10,Things' essences all there endure.
+laozi-chapter-021__align-008,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,10,老子 21.10,其中有精；,老子 21.11,Those essences the truth enfold
+laozi-chapter-021__align-009,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,11,老子 21.11,其精甚真，,老子 21.12,"Of what, when seen, shall then be told."
+laozi-chapter-021__align-010,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,2,exact_or_near_exact,1.0,12,老子 21.12,其中有信。,老子 21.13 - 老子 21.14,Now it is so; 'twas so of old.
+laozi-chapter-021__align-011,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,13,老子 21.13,自今及古，,老子 21.15,Its name - what passes not away;
+laozi-chapter-021__align-012,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,14,老子 21.14,其名不去，,老子 21.16,"So, in their beautiful array,"
+laozi-chapter-021__align-013,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,1,1,exact_or_near_exact,1.0,15,老子 21.15,以閱眾甫。,老子 21.17,Things form and never know decay.
+laozi-chapter-021__align-014,laozi,laozi-chapter-021,chapter,sentence,grouped,False,,2,2,exact_or_near_exact,1.0,16,老子 21.16 - 老子 21.17,吾何以知眾甫之狀哉？以此。,老子 21.18 - 老子 21.19,How know I that it is so with all the beauties of existing things? By this (nature of the Dao).

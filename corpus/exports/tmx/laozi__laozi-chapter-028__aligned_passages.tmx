@@ -6,69 +6,360 @@
       <prop type="x-work-id">laozi</prop>
       <prop type="x-section-id">laozi-chapter-028</prop>
       <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">chapter</prop>
-      <prop type="x-alignment-granularity">chapter</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">老子 28</prop>
-      <prop type="x-translation-ref">老子 28</prop>
-      <prop type="x-coarse-alignment-reason">Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (7 Chinese blocks, 19 English blocks, 8 Chinese clause units, 20 English clause units).</prop>
+      <prop type="x-chinese-ref">老子 28.1</prop>
+      <prop type="x-translation-ref">老子 28.1</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>知其雄，守其雌，為天下谿。為天下谿，常德不離，復歸於嬰兒。
-
-知其白，守其黑，為天下式。
-
-為天下式，常德不忒，
-
-復歸於無極。
-
-知其榮，守其辱，為天下谷，常德乃足，復歸於樸。
-
-樸散則為器，聖人用之，則為官長，
-
-故大制不割。</seg>
+        <seg>知其雄，</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Who knows his manhood's strength,
-
-Yet still his female feebleness maintains;
-
-As to one channel flow the many drains,
-
-All come to him, yea, all beneath the sky.
-
-Thus he the constant excellence retains;
-
-The simple child again, free from all stains.
-
-Who knows how white attracts,
-
-Yet always keeps himself within black's shade,
-
-The pattern of humility displayed,
-
-Displayed in view of all beneath the sky;
-
-He in the unchanging excellence arrayed,
-
-Endless return to man's first state has made.
-
-Who knows how glory shines,
-
-Yet loves disgrace, nor ever for it is pale;
-
-Behold his presence in a spacious vale,
-
-To which men come from all beneath the sky.
-
-The unchanging excellence completes its tale;
-
-The simple infant man in him we hail.
-
-The unwrought material, when divided and distributed, forms vessels. The sage, when employed, becomes the Head of all the Officers (of government); and in his greatest regulations he employs no violent measures.</seg>
+        <seg>Who knows his manhood's strength,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-002">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.2</prop>
+      <prop type="x-translation-ref">老子 28.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>守其雌，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Yet still his female feebleness maintains;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-003">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.3</prop>
+      <prop type="x-translation-ref">老子 28.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為天下谿。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>As to one channel flow the many drains,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-004">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.4</prop>
+      <prop type="x-translation-ref">老子 28.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為天下谿，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All come to him, yea, all beneath the sky.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-005">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">老子 28.5 - 老子 28.6</prop>
+      <prop type="x-translation-ref">老子 28.5 - 老子 28.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>常德不離，復歸於嬰兒。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Thus he the constant excellence retains; The simple child again, free from all stains. Who knows how white attracts,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-006">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.7</prop>
+      <prop type="x-translation-ref">老子 28.8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>知其白，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Yet always keeps himself within black's shade,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-007">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.8</prop>
+      <prop type="x-translation-ref">老子 28.9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>守其黑，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The pattern of humility displayed,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-008">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.9</prop>
+      <prop type="x-translation-ref">老子 28.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為天下式。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Displayed in view of all beneath the sky;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-009">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.10</prop>
+      <prop type="x-translation-ref">老子 28.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為天下式，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He in the unchanging excellence arrayed,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-010">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.11</prop>
+      <prop type="x-translation-ref">老子 28.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>常德不忒，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Endless return to man's first state has made.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-011">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">老子 28.12 - 老子 28.13</prop>
+      <prop type="x-translation-ref">老子 28.13 - 老子 28.14</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>復歸於無極。知其榮，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Who knows how glory shines, Yet loves disgrace, nor ever for it is pale;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-012">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.14</prop>
+      <prop type="x-translation-ref">老子 28.15</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>守其辱，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Behold his presence in a spacious vale,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-013">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.15</prop>
+      <prop type="x-translation-ref">老子 28.16</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為天下谷，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>To which men come from all beneath the sky.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-014">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.16</prop>
+      <prop type="x-translation-ref">老子 28.17</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>常德乃足，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The unchanging excellence completes its tale;</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-015">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.17</prop>
+      <prop type="x-translation-ref">老子 28.18</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>復歸於樸。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The simple infant man in him we hail.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-016">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.18</prop>
+      <prop type="x-translation-ref">老子 28.19</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>樸散則為器，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The unwrought material, when divided and distributed, forms vessels.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-017">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.19 - 老子 28.20</prop>
+      <prop type="x-translation-ref">老子 28.20</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>聖人用之，則為官長，</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sage, when employed, becomes the Head of all the Officers (of government);</seg>
+      </tuv>
+    </tu>
+    <tu tuid="laozi-chapter-028__align-018">
+      <prop type="x-work-id">laozi</prop>
+      <prop type="x-section-id">laozi-chapter-028</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">老子 28.21</prop>
+      <prop type="x-translation-ref">老子 28.21</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故大制不割。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>and in his greatest regulations he employs no violent measures.</seg>
       </tuv>
     </tu>
   </body>

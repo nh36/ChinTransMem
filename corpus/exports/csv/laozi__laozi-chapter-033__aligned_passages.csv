@@ -1,14 +1,9 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-033__align-001,laozi,laozi-chapter-033,chapter,chapter,chapter,True,"Chinese and English units remained irreconcilable after deterministic block and punctuation splitting (6 Chinese blocks, 2 English blocks, 6 Chinese clause units, 4 English clause units).",1,1,exact_or_near_exact,1.0,1,老子 33,"知人者智，自知者明。
-
-勝人者有力，自勝者強。
-
-知足者富。
-
-強行者有志。
-
-不失其所者久。
-
-死而不亡者壽。",老子 33,"He who knows other men is discerning; he who knows himself is intelligent. He who overcomes others is strong; he who overcomes himself is mighty. He who is satisfied with his lot is rich; he who goes on acting with energy has a (firm) will.
-
-He who does not fail in the requirements of his position, continues long; he who dies and yet does not perish, has longevity."
+laozi-chapter-033__align-001,laozi,laozi-chapter-033,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,1,老子 33.1,知人者智，,老子 33.1,He who knows other men is discerning;
+laozi-chapter-033__align-002,laozi,laozi-chapter-033,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,2,老子 33.2,自知者明。,老子 33.2,he who knows himself is intelligent.
+laozi-chapter-033__align-003,laozi,laozi-chapter-033,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,3,老子 33.3,勝人者有力，,老子 33.3,He who overcomes others is strong;
+laozi-chapter-033__align-004,laozi,laozi-chapter-033,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,4,老子 33.4,自勝者強。,老子 33.4,he who overcomes himself is mighty.
+laozi-chapter-033__align-005,laozi,laozi-chapter-033,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,5,老子 33.5,知足者富。,老子 33.5,He who is satisfied with his lot is rich;
+laozi-chapter-033__align-006,laozi,laozi-chapter-033,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,6,老子 33.6,強行者有志。,老子 33.6,he who goes on acting with energy has a (firm) will.
+laozi-chapter-033__align-007,laozi,laozi-chapter-033,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,7,老子 33.7,不失其所者久。,老子 33.7,"He who does not fail in the requirements of his position, continues long;"
+laozi-chapter-033__align-008,laozi,laozi-chapter-033,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,8,老子 33.8,死而不亡者壽。,老子 33.8,"he who dies and yet does not perish, has longevity."
