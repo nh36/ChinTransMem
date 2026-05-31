@@ -222,7 +222,7 @@
   {
     "run_id": "bootstrap-laozi-20260531",
     "work_id": "laozi",
-    "timestamp": "2026-05-31T21:56:16+00:00",
+    "timestamp": "2026-05-31T00:00:00+00:00",
     "method": "bootstrap_laozi_corpus",
     "status": "complete",
     "notes": "Promoted Laozi into the active corpus from the ChineseNotes Daodejing bilingual witness with deterministic refinement and explicit chapter-level fallback reasons."

@@ -2,7 +2,7 @@
 
 _Generated from `logs/qc_reports/laozi__alignment_qc.json` by `scripts/bootstrap_laozi_corpus.py`._
 
-- Generated at: `2026-05-31T21:56:16+00:00`
+- Generated at: `2026-05-31T00:00:00+00:00`
 - Active chapters: **81 / 81**
 - Exact alignment count: **260**
 - Chapter-level fallbacks: **47**

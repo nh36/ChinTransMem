@@ -8,7 +8,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-from common import REPO_ROOT, sha256_file, utc_now_iso, write_json, write_jsonl
+from common import REPO_ROOT, sha256_file, write_json, write_jsonl
 from ingest_chinesenotes_work import (
     PUBLIC_DOMAIN_RE,
     TRANSLATOR_ATTRIBUTION_RE,
@@ -39,6 +39,7 @@ UPSTREAM_MAIN_BLOB_URL = (
     f"{UPSTREAM_COMMIT_SHA}/corpus/daodejing/daodejing001.txt"
 )
 SOURCE_REVIEW_DATE = "2026-05-31"
+BOOTSTRAP_TIMESTAMP = "2026-05-31T00:00:00+00:00"
 RAW_INTRO_PATH = REPO_ROOT / "corpus" / "raw" / "chinesenotes" / "laozi__daodejing__intro__chinesenotes-1f6b1d3__raw.txt"
 RAW_MAIN_PATH = REPO_ROOT / "corpus" / "raw" / "chinesenotes" / "laozi__daodejing__main__chinesenotes-1f6b1d3__raw.txt"
 STAGING_ROOT = REPO_ROOT / "corpus" / "staging" / "chinesenotes" / "laozi"
@@ -766,7 +767,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
             {
                 "run_id": f"bootstrap-{WORK_ID}-20260531",
                 "work_id": WORK_ID,
-                "timestamp": utc_now_iso(),
+                "timestamp": BOOTSTRAP_TIMESTAMP,
                 "method": "bootstrap_laozi_corpus",
                 "status": "complete",
                 "notes": (
@@ -783,7 +784,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
     }
     qc_report = {
         "work_id": WORK_ID,
-        "generated_at": utc_now_iso(),
+        "generated_at": BOOTSTRAP_TIMESTAMP,
         "upstream_repository": UPSTREAM_REPOSITORY_URL,
         "upstream_commit_sha": UPSTREAM_COMMIT_SHA,
         "raw_capture_path": _display_path(RAW_MAIN_PATH),
