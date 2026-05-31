@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·陳風·001.1</prop>
       <prop type="x-translation-ref">宛丘.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>子之湯兮，宛丘之上兮，洵有情兮，而無望兮。
 坎其擊鼓，宛丘之下，無冬無夏，值其鷺羽。

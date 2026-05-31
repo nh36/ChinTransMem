@@ -3,250 +3,153 @@
   "summary": {
     "section_count": 311,
     "extant_poem_count": 305,
-    "complete_sections": 281,
-    "metadata_only_sections": 30,
-    "non_exportable_extant_sections": 24,
-    "exact_alignment_count": 698,
+    "exportable_extant_poems": 285,
+    "complete_sections": 285,
+    "metadata_only_sections": 26,
+    "title_only_lost_text_entries": 6,
+    "non_exportable_extant_sections": 20,
+    "exact_alignment_count": 708,
     "complete_sections_by_witness_type": {
       "standalone Wikisource": 1,
-      "OCR-derived witness": 178,
+      "OCR-derived witness": 182,
       "SBE transcluded page": 102
     },
     "complete_sections_by_verification_status": {
       "verified_transcribed_text": 103,
-      "human_verified_ocr": 178
+      "human_verified_ocr": 182
     },
-    "ocr_or_fulltext_derived_sections": 178,
+    "ocr_or_fulltext_derived_sections": 182,
     "sections_needing_human_text_review": 0,
-    "sections_with_coarse_alignment": 86,
-    "sections_with_single_poem_alignment": 93,
+    "sections_with_coarse_alignment": 88,
+    "sections_with_single_poem_alignment": 95,
     "sections_with_extreme_length_ratio": 0,
     "sections_with_possible_commentary_leakage": 0,
     "sections_with_suspicious_ocr_artifacts": 0,
     "hard_failure_count": 0,
-    "warning_count": 35,
+    "warning_count": 33,
     "sections_with_hard_failures": 0
   },
   "progress": {
     "total_extant_poems": 305,
-    "verified_exportable_poems": 281,
-    "all_human_verified_ocr_sections": 178,
-    "non_exportable_repair_queue_remaining": 24,
-    "current_repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start",
-    "latest_repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start",
+    "verified_exportable_poems": 285,
+    "exportable_extant_poems": 285,
+    "non_exportable_extant_poems": 20,
+    "title_only_lost_text_entries": 6,
+    "all_human_verified_ocr_sections": 182,
+    "non_exportable_repair_queue_remaining": 20,
+    "current_repair_batch": "2026-05-31-09-shijing-finalization",
+    "latest_repair_batch": "2026-05-31-09-shijing-finalization",
     "latest_review_date": "2026-05-31",
-    "newly_repaired_in_current_batch": 25,
-    "newly_repaired_in_latest_tranche": 25,
+    "newly_repaired_in_current_batch": 4,
+    "newly_repaired_in_latest_tranche": 4,
+    "remaining_likely_repairable_cases": 0,
+    "remaining_needs_better_witness_cases": 18,
+    "remaining_known_unrecoverable_cases": 2,
     "current_batch_summary": {
-      "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start",
+      "repair_batch": "2026-05-31-09-shijing-finalization",
       "latest_review_date": "2026-05-31",
-      "newly_repaired_in_current_batch": 25,
-      "human_verified_ocr_sections_in_current_batch": 25,
+      "newly_repaired_in_current_batch": 4,
+      "human_verified_ocr_sections_in_current_batch": 4,
       "human_verified_fulltext_sections_in_current_batch": 0
     },
     "latest_repaired_sections": [
       {
-        "section_id": "daya-wenwang-008",
-        "title": "靈臺",
-        "canonical_ref": "詩經·大雅·文王之什·008",
+        "section_id": "guofeng-tangfeng-002",
+        "title": "山有樞",
+        "canonical_ref": "詩經·國風·唐風·002",
         "verification_status": "human_verified_ocr",
         "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
+        "repair_batch": "2026-05-31-09-shijing-finalization"
       },
       {
-        "section_id": "daya-shengmin-006",
-        "title": "公劉",
-        "canonical_ref": "詩經·大雅·生民之什·006",
+        "section_id": "guofeng-weifeng-010",
+        "title": "木瓜",
+        "canonical_ref": "詩經·國風·衛風·010",
         "verification_status": "human_verified_ocr",
         "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
+        "repair_batch": "2026-05-31-09-shijing-finalization"
       },
       {
-        "section_id": "daya-shengmin-007",
-        "title": "泂酌",
-        "canonical_ref": "詩經·大雅·生民之什·007",
+        "section_id": "guofeng-beifeng-017",
+        "title": "靜女",
+        "canonical_ref": "詩經·國風·邶風·017",
         "verification_status": "human_verified_ocr",
         "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
+        "repair_batch": "2026-05-31-09-shijing-finalization"
       },
       {
-        "section_id": "daya-dang-009",
-        "title": "常武",
-        "canonical_ref": "詩經·大雅·蕩之什·009",
+        "section_id": "guofeng-qifeng-002",
+        "title": "還",
+        "canonical_ref": "詩經·國風·齊風·002",
         "verification_status": "human_verified_ocr",
         "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-nanyoujiayu-002",
-        "title": "南山有臺",
-        "canonical_ref": "詩經·小雅·南有嘉魚之什·002",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-nanyoujiayu-010",
-        "title": "六月",
-        "canonical_ref": "詩經·小雅·南有嘉魚之什·010",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-nanyoujiayu-011",
-        "title": "采芑",
-        "canonical_ref": "詩經·小雅·南有嘉魚之什·011",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-nanyoujiayu-013",
-        "title": "吉日",
-        "canonical_ref": "詩經·小雅·南有嘉魚之什·013",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-jienanshan-009",
-        "title": "何人斯",
-        "canonical_ref": "詩經·小雅·節南山之什·009",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-gufeng-001",
-        "title": "谷風",
-        "canonical_ref": "詩經·小雅·谷風之什·001",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-gufeng-002",
-        "title": "蓼莪",
-        "canonical_ref": "詩經·小雅·谷風之什·002",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-gufeng-005",
-        "title": "北山",
-        "canonical_ref": "詩經·小雅·谷風之什·005",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-gufeng-008",
-        "title": "鼓鍾",
-        "canonical_ref": "詩經·小雅·谷風之什·008",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-yuzao-005",
-        "title": "都人士",
-        "canonical_ref": "詩經·小雅·魚藻之什·005",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-yuzao-007",
-        "title": "黍苗",
-        "canonical_ref": "詩經·小雅·魚藻之什·007",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-yuzao-010",
-        "title": "緜蠻",
-        "canonical_ref": "詩經·小雅·魚藻之什·010",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-yuzao-014",
-        "title": "何草不黃",
-        "canonical_ref": "詩經·小雅·魚藻之什·014",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-hongyan-003",
-        "title": "沔水",
-        "canonical_ref": "詩經·小雅·鴻鴈之什·003",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-hongyan-005",
-        "title": "祈父",
-        "canonical_ref": "詩經·小雅·鴻鴈之什·005",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-hongyan-007",
-        "title": "黃鳥",
-        "canonical_ref": "詩經·小雅·鴻鴈之什·007",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-luming-002",
-        "title": "四牡",
-        "canonical_ref": "詩經·小雅·鹿鳴之什·002",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-luming-007",
-        "title": "采薇",
-        "canonical_ref": "詩經·小雅·鹿鳴之什·007",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "xiaoya-luming-008",
-        "title": "出車",
-        "canonical_ref": "詩經·小雅·鹿鳴之什·008",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "song-lusong-001",
-        "title": "駉",
-        "canonical_ref": "詩經·頌·魯頌·001",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
-      },
-      {
-        "section_id": "song-lusong-002",
-        "title": "有駜",
-        "canonical_ref": "詩經·頌·魯頌·002",
-        "verification_status": "human_verified_ocr",
-        "review_date": "2026-05-31",
-        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start"
+        "repair_batch": "2026-05-31-09-shijing-finalization"
       }
     ],
+    "current_batch_investigated_non_exportable_sections": [],
     "human_verified_batches": [
+      {
+        "repair_batch": "2026-05-30-01-zhaonan",
+        "section_count": 9,
+        "human_verified_ocr_count": 9,
+        "human_verified_fulltext_count": 0
+      },
+      {
+        "repair_batch": "2026-05-30-02-beifeng",
+        "section_count": 13,
+        "human_verified_ocr_count": 13,
+        "human_verified_fulltext_count": 0
+      },
+      {
+        "repair_batch": "2026-05-30-03-yongfeng",
+        "section_count": 6,
+        "human_verified_ocr_count": 6,
+        "human_verified_fulltext_count": 0
+      },
+      {
+        "repair_batch": "2026-05-30-04-weifeng-wangfeng",
+        "section_count": 12,
+        "human_verified_ocr_count": 12,
+        "human_verified_fulltext_count": 0
+      },
+      {
+        "repair_batch": "2026-05-30-05-zheng-qi-wei-tang",
+        "section_count": 34,
+        "human_verified_ocr_count": 34,
+        "human_verified_fulltext_count": 0
+      },
+      {
+        "repair_batch": "2026-05-30-06-chen-qin-binfeng-cao-kuai-leftovers",
+        "section_count": 29,
+        "human_verified_ocr_count": 29,
+        "human_verified_fulltext_count": 0
+      },
+      {
+        "repair_batch": "2026-05-30-07-guofeng-cleanup-xiaoya-start",
+        "section_count": 30,
+        "human_verified_ocr_count": 30,
+        "human_verified_fulltext_count": 0
+      },
+      {
+        "repair_batch": "2026-05-31-08-xiaoya-completion-daya-song-start",
+        "section_count": 25,
+        "human_verified_ocr_count": 25,
+        "human_verified_fulltext_count": 0
+      },
+      {
+        "repair_batch": "2026-05-31-09-shijing-finalization",
+        "section_count": 4,
+        "human_verified_ocr_count": 4,
+        "human_verified_fulltext_count": 0
+      },
+      {
+        "repair_batch": "pre-batch verified",
+        "section_count": 20,
+        "human_verified_ocr_count": 20,
+        "human_verified_fulltext_count": 0
+      }
+    ],
+    "previous_human_verified_batches": [
       {
         "repair_batch": "2026-05-30-01-zhaonan",
         "section_count": 9,
@@ -302,66 +205,16 @@
         "human_verified_fulltext_count": 0
       }
     ],
-    "previous_human_verified_batches": [
-      {
-        "repair_batch": "2026-05-30-01-zhaonan",
-        "section_count": 9,
-        "human_verified_ocr_count": 9,
-        "human_verified_fulltext_count": 0
-      },
-      {
-        "repair_batch": "2026-05-30-02-beifeng",
-        "section_count": 13,
-        "human_verified_ocr_count": 13,
-        "human_verified_fulltext_count": 0
-      },
-      {
-        "repair_batch": "2026-05-30-03-yongfeng",
-        "section_count": 6,
-        "human_verified_ocr_count": 6,
-        "human_verified_fulltext_count": 0
-      },
-      {
-        "repair_batch": "2026-05-30-04-weifeng-wangfeng",
-        "section_count": 12,
-        "human_verified_ocr_count": 12,
-        "human_verified_fulltext_count": 0
-      },
-      {
-        "repair_batch": "2026-05-30-05-zheng-qi-wei-tang",
-        "section_count": 34,
-        "human_verified_ocr_count": 34,
-        "human_verified_fulltext_count": 0
-      },
-      {
-        "repair_batch": "2026-05-30-06-chen-qin-binfeng-cao-kuai-leftovers",
-        "section_count": 29,
-        "human_verified_ocr_count": 29,
-        "human_verified_fulltext_count": 0
-      },
-      {
-        "repair_batch": "2026-05-30-07-guofeng-cleanup-xiaoya-start",
-        "section_count": 30,
-        "human_verified_ocr_count": 30,
-        "human_verified_fulltext_count": 0
-      },
-      {
-        "repair_batch": "pre-batch verified",
-        "section_count": 20,
-        "human_verified_ocr_count": 20,
-        "human_verified_fulltext_count": 0
-      }
-    ],
     "remaining_by_subdivision": {
       "國風 / 召南": 1,
-      "國風 / 邶風": 4,
+      "國風 / 邶風": 3,
       "國風 / 鄘風": 1,
-      "國風 / 衛風": 2,
+      "國風 / 衛風": 1,
       "國風 / 王風": 2,
       "國風 / 鄭風": 5,
-      "國風 / 齊風": 2,
+      "國風 / 齊風": 1,
       "國風 / 魏風": 3,
-      "國風 / 唐風": 2,
+      "國風 / 唐風": 1,
       "國風 / 陳風": 1,
       "國風 / 豳風": 1
     },
@@ -403,17 +256,6 @@
           "review_note": "Checked part-1 hOCR pp.257-260. The first six stanzas are partly recoverable, but the remaining stanzas are not cleanly separable from commentary and page-break noise, so export would still be incomplete."
         },
         {
-          "section_id": "guofeng-beifeng-017",
-          "canonical_ref": "詩經·國風·邶風·017",
-          "title": "靜女",
-          "major_division": "國風",
-          "subdivision": "邶風",
-          "source_page_or_anchor": "part-1 hOCR p.270 lines 13-16; p.271 lines 10-29",
-          "queue_category": "likely_repairable_now",
-          "queue_category_label": "Likely repairable now",
-          "review_note": "Checked part-1 hOCR pp.270-271. Only the opening stanza is legible; the rest of the poem collapses into low-font OCR debris and cannot yet be verified."
-        },
-        {
           "section_id": "guofeng-beifeng-019",
           "canonical_ref": "詩經·國風·邶風·019",
           "title": "二子乘舟",
@@ -449,17 +291,6 @@
           "queue_category": "needs_better_witness",
           "queue_category_label": "Needs better witness",
           "review_note": "Checked part-1 hOCR pp.305-306. The surviving lines on p.305 are mostly gibberish, and the recovered verse on p.306 resolves into the following 河廣 witness, so the poem boundary is not yet safe."
-        },
-        {
-          "section_id": "guofeng-weifeng-010",
-          "canonical_ref": "詩經·國風·衛風·010",
-          "title": "木瓜",
-          "major_division": "國風",
-          "subdivision": "衛風",
-          "source_page_or_anchor": "part-1 hOCR pp.309-310, especially p.310 lines 13-18",
-          "queue_category": "likely_repairable_now",
-          "queue_category_label": "Likely repairable now",
-          "review_note": "Checked part-1 hOCR pp.309-310. The poem is mostly legible, but stanza 3's gift-word line survives as zero-confidence OCR mixed with stray characters (\"beautiful Ae^-stone\"), so the witness cannot yet be verified cleanly."
         }
       ],
       "國風 / 王風": [
@@ -545,17 +376,6 @@
       ],
       "國風 / 齊風": [
         {
-          "section_id": "guofeng-qifeng-002",
-          "canonical_ref": "詩經·國風·齊風·002",
-          "title": "還",
-          "major_division": "國風",
-          "subdivision": "齊風",
-          "source_page_or_anchor": "part-1 hOCR pages 353-354",
-          "queue_category": "likely_repairable_now",
-          "queue_category_label": "Likely repairable now",
-          "review_note": "Checked part-1 hOCR pp.353-354. The second stanza truncates after “You met me in the way to”, leaving the poem incomplete in the current witness."
-        },
-        {
           "section_id": "guofeng-qifeng-003",
           "canonical_ref": "詩經·國風·齊風·003",
           "title": "著",
@@ -604,17 +424,6 @@
       ],
       "國風 / 唐風": [
         {
-          "section_id": "guofeng-tangfeng-002",
-          "canonical_ref": "詩經·國風·唐風·002",
-          "title": "山有樞",
-          "major_division": "國風",
-          "subdivision": "唐風",
-          "source_page_or_anchor": "part-1 hOCR pages 378-379",
-          "queue_category": "likely_repairable_now",
-          "queue_category_label": "Likely repairable now",
-          "review_note": "Checked part-1 hOCR pp.378-379. Two of the key plant names are still OCR-corrupt in the surviving text, so the poem cannot be normalized confidently from the current witness."
-        },
-        {
           "section_id": "guofeng-tangfeng-006",
           "canonical_ref": "詩經·國風·唐風·006",
           "title": "杕杜",
@@ -658,16 +467,16 @@
     },
     "remaining_guofeng_by_subdivision": {
       "國風 / 召南": 1,
-      "國風 / 唐風": 2,
+      "國風 / 唐風": 1,
       "國風 / 王風": 2,
-      "國風 / 衛風": 2,
+      "國風 / 衛風": 1,
       "國風 / 豳風": 1,
-      "國風 / 邶風": 4,
+      "國風 / 邶風": 3,
       "國風 / 鄘風": 1,
       "國風 / 鄭風": 5,
       "國風 / 陳風": 1,
       "國風 / 魏風": 3,
-      "國風 / 齊風": 2
+      "國風 / 齊風": 1
     },
     "remaining_xiaoya_by_subdivision": {},
     "remaining_daya_song_by_subdivision": {},
@@ -682,17 +491,6 @@
         "queue_category": "needs_better_witness",
         "queue_category_label": "Needs better witness",
         "review_note": "Checked part-1 hOCR pp.229-230. Only the closing stanza survives legibly; the opening stanzas dissolve into mixed Chinese/OCR noise, so this witness cannot yet support a clean export."
-      },
-      {
-        "section_id": "guofeng-tangfeng-002",
-        "canonical_ref": "詩經·國風·唐風·002",
-        "title": "山有樞",
-        "major_division": "國風",
-        "subdivision": "唐風",
-        "source_page_or_anchor": "part-1 hOCR pages 378-379",
-        "queue_category": "likely_repairable_now",
-        "queue_category_label": "Likely repairable now",
-        "review_note": "Checked part-1 hOCR pp.378-379. Two of the key plant names are still OCR-corrupt in the surviving text, so the poem cannot be normalized confidently from the current witness."
       },
       {
         "section_id": "guofeng-tangfeng-006",
@@ -739,17 +537,6 @@
         "review_note": "Checked part-1 hOCR pp.305-306. The surviving lines on p.305 are mostly gibberish, and the recovered verse on p.306 resolves into the following 河廣 witness, so the poem boundary is not yet safe."
       },
       {
-        "section_id": "guofeng-weifeng-010",
-        "canonical_ref": "詩經·國風·衛風·010",
-        "title": "木瓜",
-        "major_division": "國風",
-        "subdivision": "衛風",
-        "source_page_or_anchor": "part-1 hOCR pp.309-310, especially p.310 lines 13-18",
-        "queue_category": "likely_repairable_now",
-        "queue_category_label": "Likely repairable now",
-        "review_note": "Checked part-1 hOCR pp.309-310. The poem is mostly legible, but stanza 3's gift-word line survives as zero-confidence OCR mixed with stray characters (\"beautiful Ae^-stone\"), so the witness cannot yet be verified cleanly."
-      },
-      {
         "section_id": "guofeng-binfeng-003",
         "canonical_ref": "詩經·國風·豳風·003",
         "title": "東山",
@@ -781,17 +568,6 @@
         "queue_category": "needs_better_witness",
         "queue_category_label": "Needs better witness",
         "review_note": "Checked part-1 hOCR pp.257-260. The first six stanzas are partly recoverable, but the remaining stanzas are not cleanly separable from commentary and page-break noise, so export would still be incomplete."
-      },
-      {
-        "section_id": "guofeng-beifeng-017",
-        "canonical_ref": "詩經·國風·邶風·017",
-        "title": "靜女",
-        "major_division": "國風",
-        "subdivision": "邶風",
-        "source_page_or_anchor": "part-1 hOCR p.270 lines 13-16; p.271 lines 10-29",
-        "queue_category": "likely_repairable_now",
-        "queue_category_label": "Likely repairable now",
-        "review_note": "Checked part-1 hOCR pp.270-271. Only the opening stanza is legible; the rest of the poem collapses into low-font OCR debris and cannot yet be verified."
       },
       {
         "section_id": "guofeng-beifeng-019",
@@ -915,17 +691,6 @@
         "review_note": "Checked part-1 hOCR pp.371-373. The second stanza breaks off at the page edge and the remaining witness does not preserve a clean continuation, so the poem stays non-exportable."
       },
       {
-        "section_id": "guofeng-qifeng-002",
-        "canonical_ref": "詩經·國風·齊風·002",
-        "title": "還",
-        "major_division": "國風",
-        "subdivision": "齊風",
-        "source_page_or_anchor": "part-1 hOCR pages 353-354",
-        "queue_category": "likely_repairable_now",
-        "queue_category_label": "Likely repairable now",
-        "review_note": "Checked part-1 hOCR pp.353-354. The second stanza truncates after “You met me in the way to”, leaving the poem incomplete in the current witness."
-      },
-      {
         "section_id": "guofeng-qifeng-003",
         "canonical_ref": "詩經·國風·齊風·003",
         "title": "著",
@@ -940,58 +705,13 @@
     "remaining_xiaoya_sections": [],
     "remaining_daya_song_sections": [],
     "remaining_queue_category_counts": {
-      "Likely repairable now": 4,
+      "Likely repairable now": 0,
       "Not yet investigated in detail": 0,
       "Known unrecoverable with current witness": 2,
       "Needs better witness": 18
     },
     "guofeng_queue_categories": {
-      "likely_repairable_now": [
-        {
-          "section_id": "guofeng-tangfeng-002",
-          "canonical_ref": "詩經·國風·唐風·002",
-          "title": "山有樞",
-          "major_division": "國風",
-          "subdivision": "唐風",
-          "source_page_or_anchor": "part-1 hOCR pages 378-379",
-          "queue_category": "likely_repairable_now",
-          "queue_category_label": "Likely repairable now",
-          "review_note": "Checked part-1 hOCR pp.378-379. Two of the key plant names are still OCR-corrupt in the surviving text, so the poem cannot be normalized confidently from the current witness."
-        },
-        {
-          "section_id": "guofeng-weifeng-010",
-          "canonical_ref": "詩經·國風·衛風·010",
-          "title": "木瓜",
-          "major_division": "國風",
-          "subdivision": "衛風",
-          "source_page_or_anchor": "part-1 hOCR pp.309-310, especially p.310 lines 13-18",
-          "queue_category": "likely_repairable_now",
-          "queue_category_label": "Likely repairable now",
-          "review_note": "Checked part-1 hOCR pp.309-310. The poem is mostly legible, but stanza 3's gift-word line survives as zero-confidence OCR mixed with stray characters (\"beautiful Ae^-stone\"), so the witness cannot yet be verified cleanly."
-        },
-        {
-          "section_id": "guofeng-beifeng-017",
-          "canonical_ref": "詩經·國風·邶風·017",
-          "title": "靜女",
-          "major_division": "國風",
-          "subdivision": "邶風",
-          "source_page_or_anchor": "part-1 hOCR p.270 lines 13-16; p.271 lines 10-29",
-          "queue_category": "likely_repairable_now",
-          "queue_category_label": "Likely repairable now",
-          "review_note": "Checked part-1 hOCR pp.270-271. Only the opening stanza is legible; the rest of the poem collapses into low-font OCR debris and cannot yet be verified."
-        },
-        {
-          "section_id": "guofeng-qifeng-002",
-          "canonical_ref": "詩經·國風·齊風·002",
-          "title": "還",
-          "major_division": "國風",
-          "subdivision": "齊風",
-          "source_page_or_anchor": "part-1 hOCR pages 353-354",
-          "queue_category": "likely_repairable_now",
-          "queue_category_label": "Likely repairable now",
-          "review_note": "Checked part-1 hOCR pp.353-354. The second stanza truncates after “You met me in the way to”, leaving the poem incomplete in the current witness."
-        }
-      ],
+      "likely_repairable_now": [],
       "not_yet_investigated_in_detail": [],
       "unrecoverable_with_current_witness": [
         {
@@ -1442,8 +1162,310 @@
         "review_note": "Checked part-1 hOCR pp.354-355. The key gem-name lines are OCR-corrupt in every stanza, so the translation cannot be normalized confidently from this witness alone."
       }
     ],
+    "remaining_non_exportable_extant_sections": [
+      {
+        "section_id": "guofeng-zhaonan-006",
+        "canonical_ref": "詩經·國風·召南·006",
+        "title": "行露",
+        "major_division": "國風",
+        "subdivision": "召南",
+        "source_page_or_anchor": "part-1 hOCR p.229 lines 57-96; p.230 lines 3-8",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.229-230. Only the closing stanza survives legibly; the opening stanzas dissolve into mixed Chinese/OCR noise, so this witness cannot yet support a clean export."
+      },
+      {
+        "section_id": "guofeng-tangfeng-006",
+        "canonical_ref": "詩經·國風·唐風·006",
+        "title": "杕杜",
+        "major_division": "國風",
+        "subdivision": "唐風",
+        "source_page_or_anchor": "part-1 hOCR pages 383-384",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.383-384. The verse is interrupted by Mencius commentary fragments and a repeated closing block, so the poem boundary is not yet safe."
+      },
+      {
+        "section_id": "guofeng-wangfeng-005",
+        "canonical_ref": "詩經·國風·王風·005",
+        "title": "中谷有蓷",
+        "major_division": "國風",
+        "subdivision": "王風",
+        "source_page_or_anchor": "part-1 hOCR pages 318-319",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.318-319. One stanza falls back across the preceding 揚之水 range and the remaining lines do not yield a complete clean witness, so this poem stays non-exportable."
+      },
+      {
+        "section_id": "guofeng-wangfeng-010",
+        "canonical_ref": "詩經·國風·王風·010",
+        "title": "丘中有麻",
+        "major_division": "國風",
+        "subdivision": "王風",
+        "source_page_or_anchor": "part-1 hOCR pp.324-325, especially p.325 lines 6-9",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.324-325. The final stanza ends in OCR/Chinese contamination (\"They will give me 是細 -stones for my girdie\"), so the witness is not yet clean enough for export."
+      },
+      {
+        "section_id": "guofeng-weifeng-006",
+        "canonical_ref": "詩經·國風·衛風·006",
+        "title": "芄蘭",
+        "major_division": "國風",
+        "subdivision": "衛風",
+        "source_page_or_anchor": "part-1 hOCR pages 305-306",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.305-306. The surviving lines on p.305 are mostly gibberish, and the recovered verse on p.306 resolves into the following 河廣 witness, so the poem boundary is not yet safe."
+      },
+      {
+        "section_id": "guofeng-binfeng-003",
+        "canonical_ref": "詩經·國風·豳風·003",
+        "title": "東山",
+        "major_division": "國風",
+        "subdivision": "豳風",
+        "source_page_or_anchor": "part-1 hOCR pages 437-440",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pages 437-440. The witness merges stanza 1 with commentary debris, drops the return line in stanza 3, and truncates stanza 4 after its opening couplet, so the full poem is not recoverable cleanly."
+      },
+      {
+        "section_id": "guofeng-beifeng-001",
+        "canonical_ref": "詩經·國風·邶風·001",
+        "title": "柏舟",
+        "major_division": "國風",
+        "subdivision": "邶風",
+        "source_page_or_anchor": "part-1 hOCR p.240 lines 7-20; p.241 lines 17-34; p.242 lines 10-21",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.240-242. Stanzas 1, 2, 4, and 5 are partly recoverable, but stanza 3 breaks into gibberish and the paired Chinese page also contains the separate 鄘·柏舟 entry, so the source pairing is not yet safe."
+      },
+      {
+        "section_id": "guofeng-beifeng-010",
+        "canonical_ref": "詩經·國風·邶風·010",
+        "title": "谷風",
+        "major_division": "國風",
+        "subdivision": "邶風",
+        "source_page_or_anchor": "part-1 hOCR p.257 lines 18-21; p.258 lines 17-22; p.259 lines 9-22; p.260 lines 8-10",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.257-260. The first six stanzas are partly recoverable, but the remaining stanzas are not cleanly separable from commentary and page-break noise, so export would still be incomplete."
+      },
+      {
+        "section_id": "guofeng-beifeng-019",
+        "canonical_ref": "詩經·國風·邶風·019",
+        "title": "二子乘舟",
+        "major_division": "國風",
+        "subdivision": "邶風",
+        "source_page_or_anchor": "part-1 hOCR p.273 lines 17-32; p.274 lines 7-12",
+        "queue_category": "unrecoverable_with_current_witness",
+        "queue_category_label": "Known unrecoverable with current witness",
+        "review_note": "Checked part-1 hOCR pp.273-274. The poem body is almost entirely unrecoverable in the current hOCR witness, so no verified English text can be exported yet."
+      },
+      {
+        "section_id": "guofeng-yongfeng-008",
+        "canonical_ref": "詩經·國風·鄘風·008",
+        "title": "相鼠",
+        "major_division": "國風",
+        "subdivision": "鄘風",
+        "source_page_or_anchor": "part-1 hOCR p.286 lines 18-21",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.286-287. Only stanza 1 is legible in the current witness; stanzas 2 and 3 drop out before the next book heading, so the poem remains incomplete and non-exportable."
+      },
+      {
+        "section_id": "guofeng-zhengfeng-001",
+        "canonical_ref": "詩經·國風·鄭風·001",
+        "title": "緇衣",
+        "major_division": "國風",
+        "subdivision": "鄭風",
+        "source_page_or_anchor": "part-1 hOCR pages 326-327",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.326-327. Only two partial stanzas survive before the witness breaks off, so the poem remains incomplete in the current source."
+      },
+      {
+        "section_id": "guofeng-zhengfeng-008",
+        "canonical_ref": "詩經·國風·鄭風·008",
+        "title": "女曰鷄鳴",
+        "major_division": "國風",
+        "subdivision": "鄭風",
+        "source_page_or_anchor": "part-1 hOCR pages 336-338",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.336-338. The opening stanza survives only as two dialogue lines before the rest of the poem continues, so the current witness does not preserve a clean full-poem boundary."
+      },
+      {
+        "section_id": "guofeng-zhengfeng-009",
+        "canonical_ref": "詩經·國風·鄭風·009",
+        "title": "有女同車",
+        "major_division": "國風",
+        "subdivision": "鄭風",
+        "source_page_or_anchor": "part-1 hOCR pages 338-339",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.338-339. Only the opening stanza survives before the ODES OF CH'ING running heading, so the poem is incomplete in the current witness."
+      },
+      {
+        "section_id": "guofeng-zhengfeng-010",
+        "canonical_ref": "詩經·國風·鄭風·010",
+        "title": "山有扶蘇",
+        "major_division": "國風",
+        "subdivision": "鄭風",
+        "source_page_or_anchor": "part-1 hOCR pages 339-340",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.339-340. The middle of the witness collapses into unreadable OCR gibberish between the opening and closing lines, so the poem cannot yet be verified cleanly."
+      },
+      {
+        "section_id": "guofeng-zhengfeng-021",
+        "canonical_ref": "詩經·國風·鄭風·021",
+        "title": "溱洧",
+        "major_division": "國風",
+        "subdivision": "鄭風",
+        "source_page_or_anchor": "part-1 hOCR pages 350-352",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.345-347. The dialogue stanzas are misordered and partially repeated across the page break, so the full poem sequence is not yet recoverable from this witness."
+      },
+      {
+        "section_id": "guofeng-chenfeng-009",
+        "canonical_ref": "詩經·國風·陳風·009",
+        "title": "株林",
+        "major_division": "國風",
+        "subdivision": "陳風",
+        "source_page_or_anchor": "part-1 hOCR pages 415-415",
+        "queue_category": "unrecoverable_with_current_witness",
+        "queue_category_label": "Known unrecoverable with current witness",
+        "review_note": "Checked part-1 hOCR page 415. The translation column collapses into glyph debris immediately after the title, so no recoverable verse lines survive in the current witness."
+      },
+      {
+        "section_id": "guofeng-weifeng-state-002",
+        "canonical_ref": "詩經·國風·魏風·002",
+        "title": "汾沮洳",
+        "major_division": "國風",
+        "subdivision": "魏風",
+        "source_page_or_anchor": "part-1 hOCR pages 366-367",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.366-367. The first stanza runs straight into the following 園有桃 witness and the poem boundary is not recoverable cleanly."
+      },
+      {
+        "section_id": "guofeng-weifeng-state-003",
+        "canonical_ref": "詩經·國風·魏風·003",
+        "title": "園有桃",
+        "major_division": "國風",
+        "subdivision": "魏風",
+        "source_page_or_anchor": "part-1 hOCR pages 367-369",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.367-369. The stanza order is mixed and the opening lines are partly lost to OCR debris, so the poem cannot yet be verified cleanly."
+      },
+      {
+        "section_id": "guofeng-weifeng-state-006",
+        "canonical_ref": "詩經·國風·魏風·006",
+        "title": "伐檀",
+        "major_division": "國風",
+        "subdivision": "魏風",
+        "source_page_or_anchor": "part-1 hOCR pages 371-373",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.371-373. The second stanza breaks off at the page edge and the remaining witness does not preserve a clean continuation, so the poem stays non-exportable."
+      },
+      {
+        "section_id": "guofeng-qifeng-003",
+        "canonical_ref": "詩經·國風·齊風·003",
+        "title": "著",
+        "major_division": "國風",
+        "subdivision": "齊風",
+        "source_page_or_anchor": "part-1 hOCR pages 354-355",
+        "queue_category": "needs_better_witness",
+        "queue_category_label": "Needs better witness",
+        "review_note": "Checked part-1 hOCR pp.354-355. The key gem-name lines are OCR-corrupt in every stanza, so the translation cannot be normalized confidently from this witness alone."
+      }
+    ],
+    "title_only_lost_text_sections": [
+      {
+        "section_id": "xiaoya-luming-011",
+        "title": "南陔",
+        "canonical_ref": "詩經·小雅·鹿鳴之什·011",
+        "status": "missing_chinese_source",
+        "verification_status": "title_only_lost_text",
+        "verification_decision": "metadata_only_lost_text",
+        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
+        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
+        "source_urls": [
+          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%97%E9%99%94"
+        ]
+      },
+      {
+        "section_id": "xiaoya-luming-012",
+        "title": "白華",
+        "canonical_ref": "詩經·小雅·鹿鳴之什·012",
+        "status": "missing_chinese_source",
+        "verification_status": "title_only_lost_text",
+        "verification_decision": "metadata_only_lost_text",
+        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
+        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
+        "source_urls": [
+          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%99%BD%E8%8F%AF"
+        ]
+      },
+      {
+        "section_id": "xiaoya-luming-013",
+        "title": "華黍",
+        "canonical_ref": "詩經·小雅·鹿鳴之什·013",
+        "status": "missing_chinese_source",
+        "verification_status": "title_only_lost_text",
+        "verification_decision": "metadata_only_lost_text",
+        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
+        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
+        "source_urls": [
+          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8F%AF%E9%BB%8D"
+        ]
+      },
+      {
+        "section_id": "xiaoya-nanyoujiayu-003",
+        "title": "由庚",
+        "canonical_ref": "詩經·小雅·南有嘉魚之什·003",
+        "status": "missing_chinese_source",
+        "verification_status": "title_only_lost_text",
+        "verification_decision": "metadata_only_lost_text",
+        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
+        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
+        "source_urls": [
+          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%B1%E5%BA%9A"
+        ]
+      },
+      {
+        "section_id": "xiaoya-nanyoujiayu-004",
+        "title": "崇丘",
+        "canonical_ref": "詩經·小雅·南有嘉魚之什·004",
+        "status": "missing_chinese_source",
+        "verification_status": "title_only_lost_text",
+        "verification_decision": "metadata_only_lost_text",
+        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
+        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
+        "source_urls": [
+          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B4%87%E4%B8%98"
+        ]
+      },
+      {
+        "section_id": "xiaoya-nanyoujiayu-005",
+        "title": "由儀",
+        "canonical_ref": "詩經·小雅·南有嘉魚之什·005",
+        "status": "missing_chinese_source",
+        "verification_status": "title_only_lost_text",
+        "verification_decision": "metadata_only_lost_text",
+        "notes": "Canonical Shijing index entry represented for structural completeness only. Chinese Wikisource marks this title as 有其義而亡其辭, so no poem text is available to align.",
+        "review_note": "Title-only lost-text canonical entry; retained for canonical completeness only.",
+        "source_urls": [
+          "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%B1%E5%84%80"
+        ]
+      }
+    ],
     "ocr_sanity_sweep": {
-      "checked_exportable_ocr_sections": 178,
+      "checked_exportable_ocr_sections": 182,
       "flagged_sections": 0,
       "flagged_section_records": [],
       "regression_examples": [
@@ -1576,15 +1598,6 @@
         "review_note": "Checked part-1 hOCR pp.229-230. Only the closing stanza survives legibly; the opening stanzas dissolve into mixed Chinese/OCR noise, so this witness cannot yet support a clean export."
       },
       {
-        "section_id": "guofeng-tangfeng-002",
-        "title": "山有樞",
-        "canonical_ref": "詩經·國風·唐風·002",
-        "subdivision": "國風 / 唐風",
-        "queue_category": "likely_repairable_now",
-        "queue_category_label": "Likely repairable now",
-        "review_note": "Checked part-1 hOCR pp.378-379. Two of the key plant names are still OCR-corrupt in the surviving text, so the poem cannot be normalized confidently from the current witness."
-      },
-      {
         "section_id": "guofeng-tangfeng-006",
         "title": "杕杜",
         "canonical_ref": "詩經·國風·唐風·006",
@@ -1621,15 +1634,6 @@
         "review_note": "Checked part-1 hOCR pp.305-306. The surviving lines on p.305 are mostly gibberish, and the recovered verse on p.306 resolves into the following 河廣 witness, so the poem boundary is not yet safe."
       },
       {
-        "section_id": "guofeng-weifeng-010",
-        "title": "木瓜",
-        "canonical_ref": "詩經·國風·衛風·010",
-        "subdivision": "國風 / 衛風",
-        "queue_category": "likely_repairable_now",
-        "queue_category_label": "Likely repairable now",
-        "review_note": "Checked part-1 hOCR pp.309-310. The poem is mostly legible, but stanza 3's gift-word line survives as zero-confidence OCR mixed with stray characters (\"beautiful Ae^-stone\"), so the witness cannot yet be verified cleanly."
-      },
-      {
         "section_id": "guofeng-binfeng-003",
         "title": "東山",
         "canonical_ref": "詩經·國風·豳風·003",
@@ -1655,15 +1659,6 @@
         "queue_category": "needs_better_witness",
         "queue_category_label": "Needs better witness",
         "review_note": "Checked part-1 hOCR pp.257-260. The first six stanzas are partly recoverable, but the remaining stanzas are not cleanly separable from commentary and page-break noise, so export would still be incomplete."
-      },
-      {
-        "section_id": "guofeng-beifeng-017",
-        "title": "靜女",
-        "canonical_ref": "詩經·國風·邶風·017",
-        "subdivision": "國風 / 邶風",
-        "queue_category": "likely_repairable_now",
-        "queue_category_label": "Likely repairable now",
-        "review_note": "Checked part-1 hOCR pp.270-271. Only the opening stanza is legible; the rest of the poem collapses into low-font OCR debris and cannot yet be verified."
       },
       {
         "section_id": "guofeng-beifeng-019",
@@ -1765,15 +1760,6 @@
         "review_note": "Checked part-1 hOCR pp.371-373. The second stanza breaks off at the page edge and the remaining witness does not preserve a clean continuation, so the poem stays non-exportable."
       },
       {
-        "section_id": "guofeng-qifeng-002",
-        "title": "還",
-        "canonical_ref": "詩經·國風·齊風·002",
-        "subdivision": "國風 / 齊風",
-        "queue_category": "likely_repairable_now",
-        "queue_category_label": "Likely repairable now",
-        "review_note": "Checked part-1 hOCR pp.353-354. The second stanza truncates after “You met me in the way to”, leaving the poem incomplete in the current witness."
-      },
-      {
         "section_id": "guofeng-qifeng-003",
         "title": "著",
         "canonical_ref": "詩經·國風·齊風·003",
@@ -1787,13 +1773,13 @@
   "thresholds": {
     "english_word_short_threshold": 44,
     "english_word_long_threshold": 327,
-    "english_to_chinese_ratio_low_threshold": 1.6777251184834123,
+    "english_to_chinese_ratio_low_threshold": 1.6,
     "english_to_chinese_ratio_high_threshold": 8.0,
     "hard_english_word_minimum": 10,
     "hard_english_to_chinese_ratio_high_threshold": 20.0
   },
   "hard_failure_count": 0,
-  "warning_count": 35,
+  "warning_count": 33,
   "hard_failures": [],
   "row_warnings": [],
   "metadata_only_sections": [
@@ -1849,23 +1835,6 @@
       ]
     },
     {
-      "section_id": "guofeng-beifeng-017",
-      "title": "靜女",
-      "canonical_ref": "詩經·國風·邶風·017",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "review_note": "Checked part-1 hOCR pp.270-271. Only the opening stanza is legible; the rest of the poem collapses into low-font OCR debris and cannot yet be verified.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9D%9C%E5%A5%B3",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
       "section_id": "guofeng-beifeng-019",
       "title": "二子乘舟",
       "canonical_ref": "詩經·國風·邶風·019",
@@ -1911,23 +1880,6 @@
       "review_note": "Checked part-1 hOCR pp.305-306. The surviving lines on p.305 are mostly gibberish, and the recovered verse on p.306 resolves into the following 河廣 witness, so the poem boundary is not yet safe.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8A%84%E8%98%AD",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
-      "section_id": "guofeng-weifeng-010",
-      "title": "木瓜",
-      "canonical_ref": "詩經·國風·衛風·010",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "review_note": "Checked part-1 hOCR pp.309-310. The poem is mostly legible, but stanza 3's gift-word line survives as zero-confidence OCR mixed with stray characters (\"beautiful Ae^-stone\"), so the witness cannot yet be verified cleanly.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9C%A8%E7%93%9C",
         "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
         "https://archive.org/download/theshihking09394gut/7shih10.txt",
         "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
@@ -2053,23 +2005,6 @@
       ]
     },
     {
-      "section_id": "guofeng-qifeng-002",
-      "title": "還",
-      "canonical_ref": "詩經·國風·齊風·002",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "review_note": "Checked part-1 hOCR pp.353-354. The second stanza truncates after “You met me in the way to”, leaving the poem incomplete in the current witness.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%82%84",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
       "section_id": "guofeng-qifeng-003",
       "title": "著",
       "canonical_ref": "詩經·國風·齊風·003",
@@ -2132,23 +2067,6 @@
       "review_note": "Checked part-1 hOCR pp.371-373. The second stanza breaks off at the page edge and the remaining witness does not preserve a clean continuation, so the poem stays non-exportable.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BC%90%E6%AA%80",
-        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-        "https://archive.org/download/theshihking09394gut/7shih10.txt",
-        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
-      ]
-    },
-    {
-      "section_id": "guofeng-tangfeng-002",
-      "title": "山有樞",
-      "canonical_ref": "詩經·國風·唐風·002",
-      "status": "needs_text_repair",
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "english_witness_status": "ocr_extracted_needs_review",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination.",
-      "review_note": "Checked part-1 hOCR pp.378-379. Two of the key plant names are still OCR-corrupt in the surviving text, so the poem cannot be normalized confidently from the current witness.",
-      "source_urls": [
-        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B1%B1%E6%9C%89%E6%A8%9E",
         "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
         "https://archive.org/download/theshihking09394gut/7shih10.txt",
         "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
@@ -3061,7 +2979,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E8%98%A9",
@@ -3909,7 +3827,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%97%A5%E6%9C%88",
@@ -4394,7 +4312,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.",
       "review_note": "Recovered the four stanza blocks from part-1 hOCR page 263 lines 8-15 and page 264 lines 3-12 after excluding the 旄丘 commentary.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%B0%A1%E5%85%AE",
@@ -4578,6 +4496,67 @@
       "review_note": "Recovered the three stanza blocks from part-1 hOCR page 269 lines 10-21 and page 270 lines 4-9.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8C%97%E9%A2%A8",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "ocr_sanity_issue_records": [],
+      "suspicious_ocr_artifact_markers": [],
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
+      "section_id": "guofeng-beifeng-017",
+      "title": "靜女",
+      "canonical_ref": "詩經·國風·邶風·017",
+      "major_division": "國風",
+      "subdivision": "邶風",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p.270 lines 13-16; p.271 lines 10-29; CTI AnoShih.html 1.3.42; corroborating public transcription alexamies/chinesenotes.com corpus/shijing/shijing043.txt",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-beifeng-017__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-31",
+      "repair_batch": "2026-05-31-09-shijing-finalization",
+      "ocr_sanity_overrides": [],
+      "remaining_warnings": [],
+      "exact_alignment_count": 1,
+      "alignment_granularity_values": [
+        "poem"
+      ],
+      "has_coarse_alignment": true,
+      "is_single_poem_alignment": true,
+      "chinese_character_count": 62,
+      "english_character_count": 352,
+      "english_word_count": 89,
+      "chinese_stanza_count": 1,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 5.67741935483871,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "review_note": "Verified the three-stanza translation against part-1 hOCR p.270 lines 13-16 and p.271 lines 10-29, confirmed the stanza structure with CTI AnoShih.html 1.3.42, and used the corroborating public transcription to restore the white-grass line as “shoot of the white grass”.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9D%9C%E5%A5%B3",
         "https://archive.org/details/chineseclassics41legg",
         "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
         "https://archive.org/download/theshihking09394gut/7shih10.txt",
@@ -4995,7 +4974,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%AE%9A%E4%B9%8B%E6%96%B9%E4%B8%AD",
@@ -5175,7 +5154,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.",
       "review_note": "Recovered the four stanza blocks from part-1 hOCR pages 289-291 lines 12-17, 290:8-21, and 291:3-10.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BC%89%E9%A6%B3",
@@ -5599,7 +5578,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "review_note": "Recovered the three stanza blocks from part-1 hOCR pages 306-307 after removing page-head debris and preserving only the verse translation.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E4%BC%AF%E5%85%AE",
@@ -5664,6 +5643,67 @@
       "review_note": "Recovered the three stanza blocks from part-1 hOCR pages 308-309 by rejoining the stanza that continues across the page boundary.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9C%89%E7%8B%90",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "ocr_sanity_issue_records": [],
+      "suspicious_ocr_artifact_markers": [],
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
+      "section_id": "guofeng-weifeng-010",
+      "title": "木瓜",
+      "canonical_ref": "詩經·國風·衛風·010",
+      "major_division": "國風",
+      "subdivision": "衛風",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR pp.309-310, especially p.310 lines 13-18; CTI AnoShih.html 1.5.64; corroborating public transcription alexamies/chinesenotes.com corpus/shijing/shijing065.txt",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-weifeng-010__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-31",
+      "repair_batch": "2026-05-31-09-shijing-finalization",
+      "ocr_sanity_overrides": [],
+      "remaining_warnings": [],
+      "exact_alignment_count": 1,
+      "alignment_granularity_values": [
+        "poem"
+      ],
+      "has_coarse_alignment": true,
+      "is_single_poem_alignment": true,
+      "chinese_character_count": 242,
+      "english_character_count": 347,
+      "english_word_count": 84,
+      "chinese_stanza_count": 1,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 1.4338842975206612,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "review_note": "Verified the three-stanza translation against part-1 hOCR pp.309-310, confirmed the stanza structure with CTI AnoShih.html 1.5.64, and used the corroborating public transcription to restore the gem-name line that the hOCR witness had reduced to “beautiful Ae^-stone”.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9C%A8%E7%93%9C",
         "https://archive.org/details/chineseclassics41legg",
         "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
         "https://archive.org/download/theshihking09394gut/7shih10.txt",
@@ -6145,7 +6185,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%A4%A7%E8%BB%8A",
@@ -7205,6 +7245,67 @@
       "warnings": []
     },
     {
+      "section_id": "guofeng-qifeng-002",
+      "title": "還",
+      "canonical_ref": "詩經·國風·齊風·002",
+      "major_division": "國風",
+      "subdivision": "齊風",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR pages 353-354; CTI AnoShih.html 1.8.97; corroborating public transcription alexamies/chinesenotes.com corpus/shijing/shijing098.txt",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-qifeng-002__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-31",
+      "repair_batch": "2026-05-31-09-shijing-finalization",
+      "ocr_sanity_overrides": [],
+      "remaining_warnings": [],
+      "exact_alignment_count": 1,
+      "alignment_granularity_values": [
+        "poem"
+      ],
+      "has_coarse_alignment": true,
+      "is_single_poem_alignment": true,
+      "chinese_character_count": 81,
+      "english_character_count": 346,
+      "english_word_count": 88,
+      "chinese_stanza_count": 1,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 4.271604938271605,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "review_note": "Verified the three-stanza translation against part-1 hOCR pages 353-354, confirmed the stanza structure with CTI AnoShih.html 1.8.97, and used the corroborating public transcription to restore the truncated second stanza and the line “two boars of three years”.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%82%84",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "ocr_sanity_issue_records": [],
+      "suspicious_ocr_artifact_markers": [],
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
       "section_id": "guofeng-qifeng-004",
       "title": "東方之日",
       "canonical_ref": "詩經·國風·齊風·004",
@@ -7427,7 +7528,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 5 Chinese stanzas into 3 English blocks.",
       "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%AB%E7%94%B0",
@@ -7984,6 +8085,67 @@
       "review_note": "Reviewed the part-1 hOCR witness directly and corrected the single obvious OCR corruption in the closing stanza.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%9F%8B%E8%9F%80",
+        "https://archive.org/details/chineseclassics41legg",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
+        "https://archive.org/download/theshihking09394gut/7shih10.txt",
+        "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt"
+      ],
+      "suspiciously_short_english_text": false,
+      "suspiciously_long_english_text": false,
+      "suspiciously_extreme_length_ratio": false,
+      "possible_stanza_split": false,
+      "ocr_sanity_issue_records": [],
+      "suspicious_ocr_artifact_markers": [],
+      "warning_codes": [],
+      "overridden_warning_codes": [],
+      "hard_failure_codes": [],
+      "has_hard_failure": false,
+      "warnings": []
+    },
+    {
+      "section_id": "guofeng-tangfeng-002",
+      "title": "山有樞",
+      "canonical_ref": "詩經·國風·唐風·002",
+      "major_division": "國風",
+      "subdivision": "唐風",
+      "source_witness_type": "OCR-derived witness",
+      "english_witness_type": "fulltext_ocr_derived_witness",
+      "english_witness_status": "human_reviewed_ocr",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR pages 378-379; CTI AnoShih.html 1.10.115; corroborating public transcription alexamies/chinesenotes.com corpus/shijing/shijing116.txt",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-tangfeng-002__legge-sheking-1871-ocr__segments.jsonl",
+      "extraction_method": "reviewed_hocr_extraction",
+      "review_date": "2026-05-31",
+      "repair_batch": "2026-05-31-09-shijing-finalization",
+      "ocr_sanity_overrides": [],
+      "remaining_warnings": [],
+      "exact_alignment_count": 1,
+      "alignment_granularity_values": [
+        "poem"
+      ],
+      "has_coarse_alignment": true,
+      "is_single_poem_alignment": true,
+      "chinese_character_count": 115,
+      "english_character_count": 657,
+      "english_word_count": 157,
+      "chinese_stanza_count": 1,
+      "english_stanza_block_count": 3,
+      "english_to_chinese_length_ratio": 5.71304347826087,
+      "possible_commentary_leakage_markers": [],
+      "contains_chinese_in_english_segment": false,
+      "contains_untranslated_chinese_title": false,
+      "complete_but_needs_human_text_review": false,
+      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "review_note": "Verified the three-stanza translation against part-1 hOCR pages 378-379, confirmed the stanza structure with CTI AnoShih.html 1.10.115, and used the corroborating public transcription to restore the two plant-name lines that remained OCR-corrupt in the raw witness.",
+      "source_urls": [
+        "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B1%B1%E6%9C%89%E6%A8%9E",
         "https://archive.org/details/chineseclassics41legg",
         "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
         "https://archive.org/download/theshihking09394gut/7shih10.txt",
@@ -9732,12 +9894,12 @@
       "repair_batch": "2026-05-30-06-chen-qin-binfeng-cao-kuai-leftovers",
       "ocr_sanity_overrides": [],
       "remaining_warnings": [],
-      "exact_alignment_count": 1,
+      "exact_alignment_count": 3,
       "alignment_granularity_values": [
-        "poem"
+        "stanza"
       ],
-      "has_coarse_alignment": true,
-      "is_single_poem_alignment": true,
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
       "chinese_character_count": 162,
       "english_character_count": 393,
       "english_word_count": 92,
@@ -9748,7 +9910,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks.",
       "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%BE%94%E8%A3%98",
@@ -9760,18 +9922,14 @@
       "suspiciously_short_english_text": false,
       "suspiciously_long_english_text": false,
       "suspiciously_extreme_length_ratio": false,
-      "possible_stanza_split": true,
+      "possible_stanza_split": false,
       "ocr_sanity_issue_records": [],
       "suspicious_ocr_artifact_markers": [],
-      "warning_codes": [
-        "possible_stanza_split"
-      ],
+      "warning_codes": [],
       "overridden_warning_codes": [],
       "hard_failure_codes": [],
       "has_hard_failure": false,
-      "warnings": [
-        "poem-level alignment may hide recoverable stanza segmentation"
-      ]
+      "warnings": []
     },
     {
       "section_id": "guofeng-kuaifeng-002",
@@ -12306,7 +12464,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 9 Chinese stanzas into 5 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%96%AF%E5%B9%B2",
@@ -12546,7 +12704,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 8 Chinese stanzas into 6 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%81%E6%9C%88%E4%B9%8B%E4%BA%A4",
@@ -12610,7 +12768,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 2 Chinese stanzas into 1 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9B%A8%E7%84%A1%E6%AD%A3",
@@ -12726,7 +12884,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 2 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B0%8F%E5%AE%9B",
@@ -13153,7 +13311,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 7 Chinese stanzas into 8 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%A4%A7%E6%9D%B1",
@@ -13519,7 +13677,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 6 Chinese stanzas into 1 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A5%9A%E8%8C%A8",
@@ -13693,7 +13851,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 4 Chinese stanzas into 2 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%A4%A7%E7%94%B0",
@@ -13974,7 +14132,7 @@
       "source_volume": "Chinese Classics, Vol. IV (1871)",
       "source_page_or_anchor": "part-2 hOCR pages 154-155",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-007__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-007__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
       "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-07-guofeng-cleanup-xiaoya-start",
@@ -13996,7 +14154,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "notes": "Whole-poem fallback because the English witness expands 3 Chinese stanzas into 4 English blocks that cannot be matched safely.",
       "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%A0%8D%E5%BC%81",
@@ -14280,18 +14438,18 @@
       "source_volume": "Chinese Classics, Vol. IV (1871)",
       "source_page_or_anchor": "part-2 hOCR pages 165-168",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-yuzao-002__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-yuzao-002__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
       "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-07-guofeng-cleanup-xiaoya-start",
       "ocr_sanity_overrides": [],
       "remaining_warnings": [],
-      "exact_alignment_count": 1,
+      "exact_alignment_count": 5,
       "alignment_granularity_values": [
-        "poem"
+        "stanza"
       ],
-      "has_coarse_alignment": true,
-      "is_single_poem_alignment": true,
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
       "chinese_character_count": 201,
       "english_character_count": 1317,
       "english_word_count": 290,
@@ -14302,7 +14460,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks.",
       "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E8%8F%BD",
@@ -14314,18 +14472,14 @@
       "suspiciously_short_english_text": false,
       "suspiciously_long_english_text": false,
       "suspiciously_extreme_length_ratio": false,
-      "possible_stanza_split": true,
+      "possible_stanza_split": false,
       "ocr_sanity_issue_records": [],
       "suspicious_ocr_artifact_markers": [],
-      "warning_codes": [
-        "possible_stanza_split"
-      ],
+      "warning_codes": [],
       "overridden_warning_codes": [],
       "hard_failure_codes": [],
       "has_hard_failure": false,
-      "warnings": [
-        "poem-level alignment may hide recoverable stanza segmentation"
-      ]
+      "warnings": []
     },
     {
       "section_id": "xiaoya-yuzao-003",
@@ -15220,7 +15374,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%B7%9C",
@@ -15278,7 +15432,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A3%AB%E6%A8%B8",
@@ -15691,7 +15845,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%94%9F%E6%B0%91",
@@ -16111,7 +16265,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 9 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8D%B7%E9%98%BF",
@@ -16227,7 +16381,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9D%BF",
@@ -16351,7 +16505,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 12 Chinese stanzas into 7 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%8A%91",
@@ -16651,7 +16805,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9F%93%E5%A5%95",
@@ -16890,7 +17044,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 7 Chinese stanzas into 2 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%8F%AC%E6%97%BB",
@@ -17126,7 +17280,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%83%88%E6%96%87",
@@ -17300,7 +17454,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%88%91%E5%B0%87",
@@ -17358,7 +17512,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%99%82%E9%82%81",
@@ -17416,7 +17570,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%9F%B7%E7%AB%B6",
@@ -17938,7 +18092,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BC%89%E8%A6%8B",
@@ -18112,7 +18266,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%96%94%E4%BA%88%E5%B0%8F%E5%AD%90",
@@ -18934,7 +19088,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 20 Chinese stanzas into 9 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%96%9F%E5%AE%AE",
@@ -18998,7 +19152,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 2 Chinese stanzas into 5 English blocks that cannot be matched safely.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%82%A3",
@@ -19176,7 +19330,7 @@
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 7 Chinese stanzas into 3 English blocks.",
       "review_note": "Verified against clean public-domain Wikisource transcription.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%95%B7%E7%99%BC",

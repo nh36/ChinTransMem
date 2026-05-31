@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·001.1</prop>
       <prop type="x-translation-ref">鴻鴈.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>鴻鴈于飛，肅肅其羽。之子于征，劬勞于野。爰及矜人，哀此鰥寡。
 鴻鴈于飛，集于中澤。之子于垣，百堵皆作。雖則劬勞，其究安宅。

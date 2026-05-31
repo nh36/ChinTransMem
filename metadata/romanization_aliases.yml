@@ -709,6 +709,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-beifeng-017",
+    "alias": "靜女",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-beifeng-018",
     "alias": "新臺",
     "romanization_system": "Legge-title"
@@ -825,6 +831,12 @@
     "entity_type": "section",
     "entity_id": "guofeng-weifeng-009",
     "alias": "有狐",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-weifeng-010",
+    "alias": "木瓜",
     "romanization_system": "Legge-title"
   },
   {
@@ -985,6 +997,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-qifeng-002",
+    "alias": "還",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-qifeng-004",
     "alias": "東方之日",
     "romanization_system": "Legge-title"
@@ -1059,6 +1077,12 @@
     "entity_type": "section",
     "entity_id": "guofeng-tangfeng-001",
     "alias": "蟋蟀",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-tangfeng-002",
+    "alias": "山有樞",
     "romanization_system": "Legge-title"
   },
   {

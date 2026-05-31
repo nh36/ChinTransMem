@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·008.1</prop>
       <prop type="x-translation-ref">彤弓.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>彤弓弨兮，受言藏之。我有嘉賓，中心貺之。鐘鼓既設，一朝饗之。
 彤弓弨兮，受言載之。我有嘉賓，中心喜之。鐘鼓既設，一朝右之。

@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·004.1</prop>
       <prop type="x-translation-ref">棫樸.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>芃芃棫樸，薪之槱之。濟濟辟王，左右趣之。
 濟濟辟王，左右奉璋。奉璋峨峨，髦士攸宜。

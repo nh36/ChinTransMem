@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·清廟之什·007.1</prop>
       <prop type="x-translation-ref">我將.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>我將我享，維羊維牛，維天其右之。
 儀式刑文王之典，日靖四方。

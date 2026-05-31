@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-yuzao-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-004,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·004.1,"有菀者柳，不尚息焉？上帝甚蹈，無自暱焉。俾予靖之，後予極焉。
+shijing__xiaoya-yuzao-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-004,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·004.1,"有菀者柳，不尚息焉？上帝甚蹈，無自暱焉。俾予靖之，後予極焉。
 有菀者柳，不尚愒焉？上帝甚蹈，無自瘵焉。俾予靖之，後予邁焉。
 有鳥高飛，亦傅于天。彼人之心，于何其臻？曷予靖之？居以凶矜。",菀柳.1,"There is a luxuriant willow tree; —
 Who would not wish to rest under it?

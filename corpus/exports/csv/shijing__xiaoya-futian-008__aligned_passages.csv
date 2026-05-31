@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-futian-008__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-futian-008,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·甫田之什·008.1,"閒關車之舝兮，思孌季女逝兮。匪飢匪渴，德音來括。雖無好友，式燕且喜。
+shijing__xiaoya-futian-008__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-futian-008,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·小雅·甫田之什·008.1,"閒關車之舝兮，思孌季女逝兮。匪飢匪渴，德音來括。雖無好友，式燕且喜。
 依彼平林，有集維鷮。辰彼碩女，令德來教。式燕且譽，好爾無射。
 雖無旨酒，式飲庶幾。雖無嘉殽，式食庶幾。雖無德與女，式歌且舞。
 陟彼高岡，析其柞薪。析其柞薪，其葉湑兮。鮮我覯爾，我心寫兮。

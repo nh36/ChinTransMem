@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-jienanshan-003__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-003,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·節南山之什·003.1,"十月之交，朔月辛卯。日有食之，亦孔之醜。
+shijing__xiaoya-jienanshan-003__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-003,poem,poem,poem,True,Whole-poem fallback because the English witness merges 8 Chinese stanzas into 6 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·節南山之什·003.1,"十月之交，朔月辛卯。日有食之，亦孔之醜。
 彼月而微，此日而微。今此下民，亦孔之哀。
 
 日月告凶，不用其行。四國無政，不用其良。

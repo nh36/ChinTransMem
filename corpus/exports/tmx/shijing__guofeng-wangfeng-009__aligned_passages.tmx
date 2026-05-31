@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·王風·009.1</prop>
       <prop type="x-translation-ref">大車.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>大車檻檻，毳衣如菼。豈不爾思，畏子不敢。
 大車啍啍，毳衣如璊。豈不爾思，畏子不奔。

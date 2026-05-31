@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·魚藻之什·011.1</prop>
       <prop type="x-translation-ref">瓠葉.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>幡幡瓠葉，采之亨之。君子有酒，酌言嘗之。
 有兔斯首，炮之燔之。君子有酒，酌言獻之。

@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·谷風之什·003.1</prop>
       <prop type="x-translation-ref">大東.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 7 Chinese stanzas into 8 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>有饛簋飧，有捄棘匕。周道如砥，其直如矢。
 君子所履，小人所視。睠言顧之，澘焉出涕。

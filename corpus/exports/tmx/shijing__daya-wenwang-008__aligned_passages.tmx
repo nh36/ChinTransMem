@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·008.1</prop>
       <prop type="x-translation-ref">靈臺.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>經始靈臺，經之營之。庶民攻之，不日成之。
 經始勿亟，庶民子來。王在靈囿，麀鹿攸伏。

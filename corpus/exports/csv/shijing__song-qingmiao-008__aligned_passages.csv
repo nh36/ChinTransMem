@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-qingmiao-008__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-qingmiao-008,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·頌·清廟之什·008.1,"時邁其邦，昊天其子之。
+shijing__song-qingmiao-008__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-qingmiao-008,poem,poem,poem,True,Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.,1,1,exact_or_near_exact,0.95,1,詩經·頌·清廟之什·008.1,"時邁其邦，昊天其子之。
 實右序有周，薄言震之，莫不震疊。
 懷柔百神，及河喬嶽。允王維后。
 明昭有周，式序在位。

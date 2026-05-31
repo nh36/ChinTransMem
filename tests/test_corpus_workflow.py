@@ -82,6 +82,7 @@ class CorpusWorkflowTest(unittest.TestCase):
             shijing_quality_output = temp_path / "shijing__completion_quality.json"
             shijing_quality_markdown = temp_path / "shijing__completion_quality.md"
             shijing_spotcheck_packet = temp_path / "shijing__spotcheck_packet.md"
+            shijing_unresolved_witness_report = temp_path / "shijing__unresolved_witness_report.md"
 
             initialize_database(db_path)
             import_summary = import_corpus(db_path)
@@ -126,6 +127,7 @@ class CorpusWorkflowTest(unittest.TestCase):
                 json_output_path=shijing_quality_output,
                 markdown_output_path=shijing_quality_markdown,
                 spotcheck_output_path=shijing_spotcheck_packet,
+                unresolved_witness_output_path=shijing_unresolved_witness_report,
             )
 
             self.assertEqual(import_summary["work_count"], len(works))
@@ -278,6 +280,7 @@ class CorpusWorkflowTest(unittest.TestCase):
             self.assertTrue(shijing_quality_output.exists())
             self.assertTrue(shijing_quality_markdown.exists())
             self.assertTrue(shijing_spotcheck_packet.exists())
+            self.assertTrue(shijing_unresolved_witness_report.exists())
             self.assertEqual(len(shijing_inventory["poems"]), expected_section_counts["shijing"])
             self.assertEqual({section["section_id"] for section in manifests["shijing"]["sections"]}, shijing_inventory_sections)
             self.assertEqual(shijing_coverage_summary["manifest_section_count"], expected_section_counts["shijing"])
@@ -364,6 +367,7 @@ class CorpusWorkflowTest(unittest.TestCase):
     def test_shijing_quality_reports_are_present(self) -> None:
         quality_report = load_json_compatible_yaml(REPO_ROOT / "logs" / "qc_reports" / "shijing__completion_quality.json")
         spotcheck_packet = REPO_ROOT / "documentation" / "shijing_spotcheck_packet.md"
+        unresolved_witness_report = REPO_ROOT / "documentation" / "shijing_unresolved_witness_report.md"
         manifest = load_work_manifest("shijing")
         verification_ledger = load_json_compatible_yaml(REPO_ROOT / "metadata" / "shijing_verification_ledger.yml")
         hard_word_minimum = quality_report["thresholds"]["hard_english_word_minimum"]
@@ -382,12 +386,14 @@ class CorpusWorkflowTest(unittest.TestCase):
         self.assertEqual(quality_report["summary"]["sections_with_possible_commentary_leakage"], 0)
         self.assertEqual(quality_report["summary"]["sections_with_extreme_length_ratio"], 0)
         self.assertTrue(spotcheck_packet.exists())
+        self.assertTrue(unresolved_witness_report.exists())
         self.assertEqual(len(verification_ledger["entries"]), manifest["summary"]["section_count"])
         self.assertEqual(quality_report["progress"]["total_extant_poems"], 305)
         self.assertEqual(
             quality_report["progress"]["verified_exportable_poems"],
             quality_report["summary"]["complete_sections"],
         )
+        self.assertEqual(quality_report["progress"]["remaining_likely_repairable_cases"], 0)
         self.assertEqual(
             quality_report["progress"]["non_exportable_repair_queue_remaining"],
             quality_report["summary"]["non_exportable_extant_sections"],
@@ -520,12 +526,12 @@ class CorpusWorkflowTest(unittest.TestCase):
         self.assertTrue(
             {
                 "guofeng-zhengfeng-001",
-                "guofeng-qifeng-002",
                 "guofeng-weifeng-state-002",
-                "guofeng-tangfeng-002",
             }
             <= skipped_section_ids
         )
+        self.assertNotIn("guofeng-qifeng-002", skipped_section_ids)
+        self.assertNotIn("guofeng-tangfeng-002", skipped_section_ids)
         self.assertFalse(any(section["english_word_count"] == 0 for section in quality_report["sections"]))
         self.assertFalse(
             any(
@@ -577,6 +583,7 @@ class CorpusWorkflowTest(unittest.TestCase):
         for heading in (
             "## Current batch summary",
             "## Newly repaired in current batch",
+            "## Sections investigated but left non-exportable in this pass",
             "## Previous OCR repair batches",
             "## OCR sanity tests added",
             "## Current OCR sweep result",
@@ -591,6 +598,13 @@ class CorpusWorkflowTest(unittest.TestCase):
             "## Cases needing a better witness",
         ):
             self.assertIn(heading, quality_markdown)
+        unresolved_markdown = unresolved_witness_report.read_text(encoding="utf-8")
+        for heading in (
+            "# Shijing unresolved witness report",
+            "## Remaining non-exportable extant poems",
+            "## Title-only / lost-text canonical entries",
+        ):
+            self.assertIn(heading, unresolved_markdown)
 
     def test_manifest_policy_and_exports_are_consistent(self) -> None:
         works = load_json_compatible_yaml(METADATA_DIR / "works.yml")

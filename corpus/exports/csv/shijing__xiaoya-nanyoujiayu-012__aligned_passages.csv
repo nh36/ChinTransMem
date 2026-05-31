@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-nanyoujiayu-012__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-nanyoujiayu-012,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·南有嘉魚之什·012.1,"我車既攻，我馬既同。四牡龐龐，駕言徂東。
+shijing__xiaoya-nanyoujiayu-012__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-nanyoujiayu-012,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·小雅·南有嘉魚之什·012.1,"我車既攻，我馬既同。四牡龐龐，駕言徂東。
 田車既好，四牡孔阜。東有甫草，駕言行狩。
 之子于苗，選徒嚻嚻。建旐設旄，搏獸于敖。
 駕彼四牡，四牡奕奕。赤芾金舄，會同有繹。

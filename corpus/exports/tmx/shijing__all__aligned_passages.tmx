@@ -135,7 +135,7 @@ With bells and drums let us show our delight in her.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·002.1</prop>
       <prop type="x-translation-ref">葛覃.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>葛之覃兮，施于中谷，維葉萋萋，黃鳥于飛，集于灌木，其鳴喈喈。
 葛之覃兮，施于中谷，維葉莫莫，是刈是濩，為絺為綌，服之無斁。
@@ -172,7 +172,7 @@ I am going back to visit my parents.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·003.1</prop>
       <prop type="x-translation-ref">卷耳.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>采采卷耳，不盈頃筐，嗟我懷人，寘彼周行。
 陟彼崔嵬，我馬虺隤，我姑酌彼金罍，維以不永懷。
@@ -214,7 +214,7 @@ Oh! how great is my sorrow!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·004.1</prop>
       <prop type="x-translation-ref">樛木.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>南有樛木，葛藟纍之，樂只君子，福履綏之。
 南有樛木，葛藟荒之，樂只君子，福履將之。
@@ -250,7 +250,7 @@ May she be complete in her happiness and dignity!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·005.1</prop>
       <prop type="x-translation-ref">螽斯.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>螽斯羽，詵詵兮，宜爾子孫，振振兮！
 螽斯羽，薨薨兮，宜爾子孫，繩繩兮！
@@ -286,7 +286,7 @@ Should be in swarms!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·006.1</prop>
       <prop type="x-translation-ref">桃夭.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>桃之夭夭，灼灼其華，之子于歸，宜其室家。
 桃之夭夭，有蕡其實，之子于歸，宜其家室。
@@ -322,7 +322,7 @@ And will order well her family.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·007.1</prop>
       <prop type="x-translation-ref">兔罝.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>肅肅兔罝，椓之丁丁，赳赳武夫，公侯干城。
 肅肅兔罝，施于中逵，赳赳武夫，公侯好仇。
@@ -358,7 +358,7 @@ Might be head and heart to his prince.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·008.1</prop>
       <prop type="x-translation-ref">芣苢.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>采采芣苢，薄言采之，采采芣苢，薄言有之。
 采采芣苢，薄言掇之，采采芣苢，薄言捋之。
@@ -394,7 +394,7 @@ Now we tuck them in our girdles.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·009.1</prop>
       <prop type="x-translation-ref">漢廣.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>南有喬木，不可休息；漢有遊女，不可求思，漢之廣矣，不可泳思，江之永矣，不可方思。
 翹翹錯薪，言刈其楚，之子于歸，言秣其馬，漢之廣矣，不可泳思，江之永矣，不可方思。
@@ -442,7 +442,7 @@ Cannot be navigated with a raft.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·010.1</prop>
       <prop type="x-translation-ref">汝墳.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>遵彼汝墳，伐其條枚，未見君子，惄如調飢。
 遵彼汝墳，伐其條肄，既見君子，不我遐棄。
@@ -478,7 +478,7 @@ Your parents are very near.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·011.1</prop>
       <prop type="x-translation-ref">麟之趾.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>麟之趾，振振公子，于嗟麟兮。
 麟之定，振振公姓，于嗟麟兮。
@@ -511,7 +511,7 @@ Ah! they are the lin!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·召南·001.1</prop>
       <prop type="x-translation-ref">鵲巢.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>維鵲有巢，維鳩居之，之子于歸，百兩御之。
 維鵲有巢，維鳩方之，之子于歸，百兩將之。
@@ -547,7 +547,7 @@ With a hundred chariots as attendants.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·召南·002.1</prop>
       <prop type="x-translation-ref">采蘩.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>于以采蘩，于沼于沚，于以用之，公侯之事。
 于以采蘩，于澗之中，于以用之，公侯之宮。
@@ -1273,7 +1273,7 @@ And the grand-daughter of the tranquillizing king!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·召南·014.1</prop>
       <prop type="x-translation-ref">騶虞.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>彼茁者葭，壹發五豝，于嗟乎騶虞。
 彼茁者蓬，壹發五豵，于嗟乎騶虞。</seg>
@@ -1495,7 +1495,7 @@ She stimulated worthless me.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·邶風·004.1</prop>
       <prop type="x-translation-ref">日月.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>日居月諸，照臨下土，乃如之人兮，逝不古處，胡能有定，寧不我顧。
 日居月諸，下土是冒，乃如之人兮，逝不相好，胡能有定，寧不我報。
@@ -2163,7 +2163,7 @@ Notwithstanding your full robes, your ears are stopped.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·邶風·013.1</prop>
       <prop type="x-translation-ref">簡兮.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>簡兮簡兮，方將萬舞，日之方中，在前上處，碩人俁俁，公庭萬舞。
 有力如虎，執轡如組，左手執籥，右手秉翟，赫如渥赭，公言錫爵。
@@ -2401,6 +2401,42 @@ Ye who love and regard me,
 Let us join hands, and go together in our carriages.
 Is it a time for delay?
 The urgency is extreme!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-beifeng-017__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-beifeng-017</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·邶風·017.1</prop>
+      <prop type="x-translation-ref">靜女.1</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>靜女其姝，俟我於城隅，愛而不見，搔首踟躕。
+靜女其孌，貽我彤管，彤管有煒，說懌女美。
+自牧歸荑，洵美且異，匪女之為美，美人之貽。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How lovely is the retiring girl!
+She was to await me at a corner of the wall.
+Loving and not seeing her,
+I scratch my head, and am in perplexity.
+
+How handsome is the retiring girl!
+She presented to me a red tube.
+Bright is the red tube; --
+I delight in the beauty of the girl.
+
+From the pasture lands she gave a shoot of the white grass,
+Truly elegant and rare.
+It is not you, O grass, that are elegant; --
+You are the gift of an elegant girl.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__guofeng-beifeng-018__001__zhwikisource-20260530__legge-sheking-1871-ocr">
@@ -2767,7 +2803,7 @@ And I regard her as marchioness!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·鄘風·006.1</prop>
       <prop type="x-translation-ref">定之方中.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>定之方中，作于楚宮，揆之以日，作于楚室，樹之榛栗，椅桐梓漆，爰伐琴瑟。
 升彼虛矣，以望楚矣，望楚與堂，景山與京，降觀于桑，卜云其吉，終然允臧。
@@ -2949,7 +2985,7 @@ What will he tell them for this?</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·鄘風·010.1</prop>
       <prop type="x-translation-ref">載馳.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>載馳載驅，歸唁衞侯，驅馬悠悠，言至于漕，大夫跋涉，我心則憂。
 既不我嘉，不能旋反，視爾不臧，我思不遠。
@@ -3465,7 +3501,7 @@ Yet it may be reached by fording.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·衛風·008.1</prop>
       <prop type="x-translation-ref">伯兮.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>伯兮朅兮，邦之桀兮。伯也執殳，爲王前驅。
 自伯之東，首如飛蓬。豈無膏沐？誰適爲容！
@@ -3556,6 +3592,54 @@ That man has no girdle.</seg>
 By the side there of the K'e.
 My heart is sad; —
 That man has no clothes.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-weifeng-010__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-weifeng-010</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·衛風·010.1</prop>
+      <prop type="x-translation-ref">木瓜.1</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>|title =詩經
+|section =國風‧衞‧木瓜
+|previous =有狐
+|next =國風‧王風‧黍離
+==國風‧衞‧木瓜==
+毛詩序：「《木瓜》，美齊桓公也。衞國有狄人之敗，出處于漕，齊桓公救而封之，遺之車馬器服焉，衞人思之，欲厚報之，而作是詩也。」
+===木瓜===
+投我以木瓜，報之以瓊琚，匪報也，永以為好也。
+投我以木桃，報之以瓊瑤，匪報也，永以為好也。
+投我以木李，報之以瓊玖，匪報也，永以為好也。
+《木瓜》，三章，章四句。
+===註解===
+瓊琚:赤玉做的珮飾
+瓊瑤:精美的玉石
+瓊玖:黑色的玉</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>There was presented to me a papaya,
+And I returned for it a beautiful Ju-gem;
+Not as a return for it,
+But that our friendship might be lasting.
+
+There was presented to me a peach,
+And I returned for it a beautiful Yao-gem;
+Not as a return for it,
+But that our friendship might be lasting.
+
+There was presented to me a plum,
+And I returned for it a beautiful Jiu-gem;
+Not as a return for it,
+But that our friendship might be lasting.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__guofeng-wangfeng-001__001__zhwikisource-20260530__legge-sbe-v3-1879">
@@ -3984,7 +4068,7 @@ When shall I see you again?</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·王風·009.1</prop>
       <prop type="x-translation-ref">大車.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>大車檻檻，毳衣如菼。豈不爾思，畏子不敢。
 大車啍啍，毳衣如璊。豈不爾思，畏子不奔。
@@ -4096,7 +4180,7 @@ Is also to be feared.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·鄭風·003.1</prop>
       <prop type="x-translation-ref">叔于田.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>叔于田，巷無居人。豈無居人，不如叔也。洵美且仁。
 叔于狩，巷無飲酒。豈無飲酒，不如叔也。洵美且好。
@@ -4257,7 +4341,7 @@ While the general in the middle looks pleased.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·鄭風·006.1</prop>
       <prop type="x-translation-ref">羔裘.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>羔裘如濡，洵直且侯。彼其之子，舍命不渝。
 羔裘豹飾，孔武有力。彼其之子，邦之司直。
@@ -4586,7 +4670,7 @@ But you do not come to me.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·鄭風·016.1</prop>
       <prop type="x-translation-ref">風雨.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>風雨淒淒，雞鳴喈喈。既見君子，云胡不夷。
 風雨瀟瀟，雞鳴膠膠。既見君子，云胡不瘳。
@@ -4622,7 +4706,7 @@ We are happy and pleased.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·鄭風·017.1</prop>
       <prop type="x-translation-ref">子衿.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>青青子衿，悠悠我心。縱我不往，子寧不嗣音。
 青青子佩，悠悠我思。縱我不往，子寧不來。
@@ -4658,7 +4742,7 @@ Is like three months.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·鄭風·018.1</prop>
       <prop type="x-translation-ref">揚之水.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>揚之水，不流束薪。彼其之子，不與我戍申。懷哉懷哉！曷月予還歸哉！
 揚之水，不流束楚。彼其之子，不與我戍甫。懷哉懷哉！曷月予還歸哉！
@@ -4836,6 +4920,42 @@ It was the light of the moon coming forth.</seg>
         <seg>The insects are flying in buzzing crowds;
 It would be sweet to lie by you and dream,
 Let them not hate both me and you</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-qifeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qifeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·齊風·002.1</prop>
+      <prop type="x-translation-ref">還.1</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>子之還兮，遭我乎峱之閒兮。並驅從兩肩兮，揖我謂我儇兮。
+子之茂兮，遭我乎峱之道兮。並驅從兩牡兮，揖我謂我好兮。
+子之昌兮，遭我乎峱之陽兮。並驅從兩狼兮，揖我謂我臧兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How agile you are!
+You met me in the neighbourhood of Nao,
+And we pursued together two boars of three years.
+You bowed to me, and said that I was active.
+
+How admirable your skill!
+You met me in the way to Nao,
+And we drove together after two males.
+You bowed to me, and said that I was skilful.
+
+How complete your art!
+You met me on the south of Nao,
+And we pursued together two wolves.
+You bowed to me, and said that I was dexterous.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__guofeng-qifeng-004__001__zhwikisource-20260530__legge-sheking-1871-ocr">
@@ -5068,7 +5188,7 @@ Why do you still allow her to go to this extreme ?</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·齊風·007.1</prop>
       <prop type="x-translation-ref">甫田.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 5 Chinese stanzas into 3 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>無田甫田，維莠驕驕。無思遠人，勞心忉忉。
 無田甫田，維莠桀桀。無思遠人，勞心怛怛。
@@ -5543,7 +5663,7 @@ That he may come back, and not die!?</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·魏風·005.1</prop>
       <prop type="x-translation-ref">十畝之間.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>十畝之間兮，桑者閑閑兮。行與子還兮。
 十畝之外兮，桑者泄泄兮。行與子逝兮。</seg>
@@ -5719,6 +5839,54 @@ But let us not go to an excess;
 Let us first think of the griefs that may arise;
 Let us not be wild in our love of enjoyment.
 The good man is quiet and serene.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-tangfeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-tangfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·唐風·002.1</prop>
+      <prop type="x-translation-ref">山有樞.1</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>山有樞，隰有榆。子有衣裳，弗曳弗婁。子有車馬，弗馳弗驅。宛其死矣，他人是愉。
+山有栲，隰有杻。子有廷內，弗洒弗埽。子有鐘鼓，弗鼓弗考。宛其死矣，他人是保。
+山有漆，隰有栗。子有酒食，何不日鼓瑟？且以喜樂，且以永日。宛其死矣，他人入室。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the mountains are the thorny elms,
+In the low, wet grounds are the white elms.
+You have suits of robes,
+But you will not wear them;
+You have carriages and horses,
+But you will not drive them.
+You will drop off in death,
+And another person will enjoy them.
+
+On the mountains is the Kao,
+In the low wet grounds is the Niu.
+You have courtyards and inner rooms,
+But you will not have them sprinkled or swept;
+You have drums and bells,
+But you will not have them beat or struck,
+You will drop off in death,
+And another person will possess them.
+
+On the mountains are the varnish trees,
+In the low wet grounds are the chestnuts.
+You have spirits and viands; --
+Why not daily play your lute?
+Both to give a zest to your joy,
+And to prolong the day?
+You will drop off in death,
+And another person will enter your chamber.</seg>
       </tuv>
     </tu>
     <tu tuid="shijing__guofeng-tangfeng-003__001__zhwikisource-20260530__legge-sheking-1871-ocr">
@@ -5935,7 +6103,7 @@ That I should see a beauty like this !</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·唐風·007.1</prop>
       <prop type="x-translation-ref">羔裘.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>羔裘如濡，洵直且侯。彼其之子，舍命不渝。
 羔裘豹飾，孔武有力。彼其之子，邦之司直。
@@ -6002,7 +6170,7 @@ When shall we be in our places again?</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·唐風·009.1</prop>
       <prop type="x-translation-ref">無衣.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>豈曰無衣七兮、不如子之衣、安且吉兮。
 
@@ -6724,7 +6892,7 @@ That he forgets me so very much?</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·秦風·008.1</prop>
       <prop type="x-translation-ref">無衣.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>豈曰無衣七兮、不如子之衣、安且吉兮。
 
@@ -6862,7 +7030,7 @@ Alas that he could not continue as he began!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·陳風·001.1</prop>
       <prop type="x-translation-ref">宛丘.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>子之湯兮，宛丘之上兮，洵有情兮，而無望兮。
 坎其擊鼓，宛丘之下，無冬無夏，值其鷺羽。
@@ -6897,7 +7065,7 @@ You are holding your egret-fan!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·陳風·002.1</prop>
       <prop type="x-translation-ref">東門之枌.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>東門之枌，宛丘之栩。子仲之子，婆娑其下。
 穀旦于差，南方之原。不績其麻，市也婆娑。
@@ -7349,40 +7517,71 @@ On my side, on my back, with my face on the pillow, I lie.</seg>
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">guofeng-kuaifeng-001</prop>
       <prop type="x-section-unit">poem</prop>
-      <prop type="x-segment-type">poem</prop>
-      <prop type="x-alignment-granularity">poem</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.95</prop>
+      <prop type="x-confidence">0.99</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·檜風·001.1</prop>
       <prop type="x-translation-ref">羔裘.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>羔裘如濡，洵直且侯。彼其之子，舍命不渝。
 羔裘豹飾，孔武有力。彼其之子，邦之司直。
-羔裘晏兮，三英粲兮。彼其之子，邦之彥兮。
-
-羔裘豹袪，自我人居居。豈無他人？維子之故。
-羔裘豹褎，自我人究究。豈無他人？維子之好。
-
-羔裘逍遙，狐裘以朝。豈不爾思，勞心忉忉。
-羔裘翱翔，狐裘在堂。豈不爾思，我心憂傷。
-羔裘如膏，日出有曜。豈不爾思，中心是悼。</seg>
+羔裘晏兮，三英粲兮。彼其之子，邦之彥兮。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>In your lamb's fur you saunter about;
 In your fox's fur you hold your court.
 How should I not think anxiously about you?
-My toiled heart is full of grief.
-
-In your lamb's fur you wander aimlessly about;
+My toiled heart is full of grief.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-kuaifeng-001__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-kuaifeng-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·檜風·001.2</prop>
+      <prop type="x-translation-ref">羔裘.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>羔裘豹袪，自我人居居。豈無他人？維子之故。
+羔裘豹褎，自我人究究。豈無他人？維子之好。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In your lamb's fur you wander aimlessly about;
 In your fox's fur you appear in your hall.
 How should I not think anxiously about you?
-My heart is wounded with sorrow.
-
-Your lamb's fur, as if covered with ointment,
+My heart is wounded with sorrow.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-kuaifeng-001__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-kuaifeng-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·檜風·001.3</prop>
+      <prop type="x-translation-ref">羔裘.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>羔裘逍遙，狐裘以朝。豈不爾思，勞心忉忉。
+羔裘翱翔，狐裘在堂。豈不爾思，我心憂傷。
+羔裘如膏，日出有曜。豈不爾思，中心是悼。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Your lamb's fur, as if covered with ointment,
 Glistens when the sun comes forth.
 How should I not think anxiously about you?
 To the core of my heart I am grieved.</seg>
@@ -7535,7 +7734,7 @@ I should rejoice to be like you, 0 tree, without a household.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·檜風·004.1</prop>
       <prop type="x-translation-ref">匪風.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>匪風發兮，匪車偈兮。顧瞻周道，中心怛兮。
 匪風飄兮，匪車嘌兮。顧瞻周道，中心弔兮。
@@ -7730,7 +7929,7 @@ But the young lady is suffering from hunger.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·曹風·003.1</prop>
       <prop type="x-translation-ref">鳲鳩.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>&lt; 詩經‧國風‧曹‧鳲鳩
 毛詩序：「《鳲鳩》，刺不壹也。在位無君子，用心之不壹也。」
@@ -8005,7 +8204,7 @@ I can but cry out with this note of alarm.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·豳風·004.1</prop>
       <prop type="x-translation-ref">破斧.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>既破我斧，又缺我斨。周公東征，四國是皇。哀我人斯，亦孔之將。
 既破我斧，又缺我錡。周公東征，四國是吪。哀我人斯，亦孔之嘉。
@@ -8057,7 +8256,7 @@ And forthwith the vessels are arranged in rows.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·豳風·005.1</prop>
       <prop type="x-translation-ref">伐柯.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>伐柯如何？匪斧不克。取妻如何？匪媒不得。
 伐柯伐柯，其則不遠。我覯之子？籩豆有踐。</seg>
@@ -9279,7 +9478,7 @@ My warrior is at hand.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·010.1</prop>
       <prop type="x-translation-ref">魚麗.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>魚麗于罶，鱨鯊。君子有酒，旨且多。
 魚麗于罶，魴鱧。君子有酒，多且旨。
@@ -9333,7 +9532,7 @@ May there be to her vigorous health from the spirits.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·001.1</prop>
       <prop type="x-translation-ref">南有嘉魚.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>南有嘉魚，烝然罩罩。君子有酒，嘉賓式燕以樂。
 南有嘉魚，烝然汕汕。君子有酒，嘉賓式燕以衎。
@@ -9600,7 +9799,7 @@ May all happiness gather upon them.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·007.1</prop>
       <prop type="x-translation-ref">湛露.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>湛湛露斯，匪陽不晞。厭厭夜飲，不醉無歸。
 湛湛露斯，在彼豐草。厭厭夜飲，在宗載考。
@@ -9641,7 +9840,7 @@ Every one of them of excellent deportment.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·008.1</prop>
       <prop type="x-translation-ref">彤弓.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>彤弓弨兮，受言藏之。我有嘉賓，中心貺之。鐘鼓既設，一朝饗之。
 彤弓弨兮，受言載之。我有嘉賓，中心喜之。鐘鼓既設，一朝右之。
@@ -9682,7 +9881,7 @@ And all the morning will I pledge him.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·009.1</prop>
       <prop type="x-translation-ref">菁菁者莪.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>菁菁者莪，在彼中阿，既見君子，樂且有儀。
 菁菁者莪，在彼中沚，既見君子，我心則喜。
@@ -10029,7 +10228,7 @@ And the tribes of King came, awed by his majesty.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·012.1</prop>
       <prop type="x-translation-ref">車攻.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>我車既攻，我馬既同。四牡龐龐，駕言徂東。
 田車既好，四牡孔阜。東有甫草，駕言行狩。
@@ -10195,7 +10394,7 @@ Along with the cup of sweet wine.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·001.1</prop>
       <prop type="x-translation-ref">鴻鴈.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>鴻鴈于飛，肅肅其羽。之子于征，劬勞于野。爰及矜人，哀此鰥寡。
 鴻鴈于飛，集于中澤。之子于垣，百堵皆作。雖則劬勞，其究安宅。
@@ -10237,7 +10436,7 @@ They would have said we were proclaiming our insolence.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·002.1</prop>
       <prop type="x-translation-ref">庭燎.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>夜如何其？夜未央。庭燎之光，君子至止，鸞聲將將。
 夜如何其？夜未艾。庭燎晣晣，君子至止，鸞聲噦噦。
@@ -10358,7 +10557,7 @@ Would slanderous speeches be made?</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·004.1</prop>
       <prop type="x-translation-ref">鶴鳴.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>鶴鳴于九皐，聲聞于野。魚潛在淵，或在于渚。
 樂彼之園，爰有樹檀，其下維蘀。他山之石，可以為錯。
@@ -10651,7 +10850,7 @@ Back to my uncles.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·008.1</prop>
       <prop type="x-translation-ref">我行其野.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>我行其野，蔽芾其樗。昏姻之故，言就爾居。爾不我畜，復我邦家。
 我行其野，言采其蓫。昏姻之故，言就爾宿。爾不我畜，言歸斯復。
@@ -10693,7 +10892,7 @@ You still are so by the difference between the new and the old.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·009.1</prop>
       <prop type="x-translation-ref">斯干.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 9 Chinese stanzas into 5 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>秩秩斯干，幽幽南山。如竹苞矣，如松茂矣。
 兄及弟矣，式相好矣，無相猶矣。
@@ -11153,7 +11352,7 @@ And will not use my strength.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·003.1</prop>
       <prop type="x-translation-ref">十月之交.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 8 Chinese stanzas into 6 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>十月之交，朔月辛卯。日有食之，亦孔之醜。
 彼月而微，此日而微。今此下民，亦孔之哀。
@@ -11250,7 +11449,7 @@ To go and reside in Hsiang.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·004.1</prop>
       <prop type="x-translation-ref">雨無正.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 2 Chinese stanzas into 1 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>浩浩昊天，不駿其德。降喪饑饉，斬伐四國。
 旻天疾威，弗慮弗圖。舍彼有罪，既伏其辜。若此無罪，淪胥以鋪。
@@ -11371,7 +11570,7 @@ And therefore did not get on on the road.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·節南山之什·006.1</prop>
       <prop type="x-translation-ref">小宛.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 2 Chinese stanzas into 3 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>宛彼鳴鳩，翰飛戾天。我心憂傷，念昔先人。明發不寐，有懷二人。
 
@@ -11831,7 +12030,7 @@ And think of my small faults.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·谷風之什·002.1</prop>
       <prop type="x-translation-ref">蓼莪.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>蓼蓼者莪，匪莪伊蒿。
 哀哀父母，生我劬勞。
@@ -11907,7 +12106,7 @@ I alone have been unable to finish my duty.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·谷風之什·003.1</prop>
       <prop type="x-translation-ref">大東.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 7 Chinese stanzas into 8 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>有饛簋飧，有捄棘匕。周道如砥，其直如矢。
 君子所履，小人所視。睠言顧之，澘焉出涕。
@@ -12011,7 +12210,7 @@ Raising its handle in the west.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·谷風之什·004.1</prop>
       <prop type="x-translation-ref">四月.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>四月維夏，六月徂暑。先祖匪人？胡寧忍予？
 秋日淒淒，百卉具腓。亂離瘼矣，爰其適歸？
@@ -12422,7 +12621,7 @@ Dancing to their flutes without error.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·谷風之什·009.1</prop>
       <prop type="x-translation-ref">楚茨.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 6 Chinese stanzas into 1 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>楚楚者茨，言抽其棘。自昔何為？我蓺黍稷。
 我黍與與，我稷翼翼。我倉既盈，我庾維億。
@@ -12754,7 +12953,7 @@ With myriads of years, life without end!'</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·甫田之什·002.1</prop>
       <prop type="x-translation-ref">大田.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 4 Chinese stanzas into 2 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>大田多稼，既種既戒。既備乃事，以我覃耜。
 俶載南畝，播厥百穀。既庭且碩，曾孫是若。
@@ -12802,7 +13001,7 @@ Lay hold of them, and put them in the blazing fire!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·甫田之什·003.1</prop>
       <prop type="x-translation-ref">瞻彼洛矣.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>瞻彼洛矣，維水泱泱。君子至止，福祿如茨。韎韐有奭，以作六師。
 瞻彼洛矣，維水泱泱。君子至止，鞸琫有珌。君子萬年，保其家室。
@@ -12845,7 +13044,7 @@ Preserving his clans" and States!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·甫田之什·004.1</prop>
       <prop type="x-translation-ref">裳裳者華.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>裳裳者華，其葉湑兮。我覯之子，我心寫兮。我心寫兮，是以有譽處兮。
 裳裳者華，芸其黃矣。我覯之子，維其有章矣。維其有章矣，是以有慶矣。
@@ -13023,7 +13222,7 @@ In the comfort of his happiness and wealth!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·甫田之什·007.1</prop>
       <prop type="x-translation-ref">頍弁.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 3 Chinese stanzas into 4 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>有頍者弁，實維伊何？爾酒既旨，爾殽既嘉。
 豈伊異人？兄弟匪他。蔦與女蘿，施于松柏。
@@ -13086,7 +13285,7 @@ king, enjoy the feast</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·甫田之什·008.1</prop>
       <prop type="x-translation-ref">車舝.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>閒關車之舝兮，思孌季女逝兮。匪飢匪渴，德音來括。雖無好友，式燕且喜。
 依彼平林，有集維鷮。辰彼碩女，令德來教。式燕且譽，好爾無射。
@@ -13147,7 +13346,7 @@ To the comfort of my heart.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·甫田之什·009.1</prop>
       <prop type="x-translation-ref">青蠅.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>營營青蠅，止於樊。豈弟君子，無信讒言。
 營營青蠅，止于棘。讒人罔極，交亂四國。
@@ -13256,7 +13455,7 @@ Thus are performed your seasonal ceremonies.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·魚藻之什·001.1</prop>
       <prop type="x-translation-ref">魚藻.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>魚在在藻，有頒其首。王在在鎬，豈樂飲酒。
 魚在在藻，有莘其尾。王在在鎬，飲酒樂豈。
@@ -13283,31 +13482,18 @@ Dwelling in tranquillity.</seg>
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-yuzao-002</prop>
       <prop type="x-section-unit">poem</prop>
-      <prop type="x-segment-type">poem</prop>
-      <prop type="x-alignment-granularity">poem</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.95</prop>
+      <prop type="x-confidence">0.99</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·魚藻之什·002.1</prop>
       <prop type="x-translation-ref">采菽.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>采菽采菽，筐之筥之。君子來朝，何錫予之？
-雖無予之，路車乘馬。又何予之？玄袞及黼。
-
-觱沸檻泉，言采其芹。君子來朝，言觀其旂。
-其旂淠淠，鸞聲嘒嘒。載驂載駟，君子所屆。
-
-赤芾在股，邪幅在下。彼交匪紓，天子所予。
-樂只君子，天子命之。樂只君子，福祿申之。
-
-維柞之枝，其葉蓬蓬。樂只君子，殿天子之邦。
-樂只君子，萬福攸同。平平左右，亦是率從。
-
-汎汎楊舟，紼纚維之。樂只君子，天子葵之。
-樂只君子，福祿膍之。優哉游哉，亦是戾矣。</seg>
+雖無予之，路車乘馬。又何予之？玄袞及黼。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>They gather the beans, they gather the beans,
@@ -13318,18 +13504,56 @@ Although I have none to give them,
 There are the state carriages and their teams.
 What more have I to give them?
 The dark-coloured upper robes with the dragon,
-And the lower garments with the hatchet.
-
-Right up bubbles the water from the spring,
+And the lower garments with the hatchet.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-002__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·002.2</prop>
+      <prop type="x-translation-ref">采菽.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>觱沸檻泉，言采其芹。君子來朝，言觀其旂。
+其旂淠淠，鸞聲嘒嘒。載驂載駟，君子所屆。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Right up bubbles the water from the spring,
 And they gather the cress about it.
 The princes are coming to court,
 And I see their dragon flags; —
 Their dragon flags moving in the wind,
 While the sound of their bells comes liwuy-liwuy.
 There are the two outside horses, there are the whole teams, —
-Proofs that the princes are come.
-
-Their red covers on their knees,
+Proofs that the princes are come.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-002__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·002.3</prop>
+      <prop type="x-translation-ref">采菽.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>赤芾在股，邪幅在下。彼交匪紓，天子所予。
+樂只君子，天子命之。樂只君子，福祿申之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Their red covers on their knees,
 And their buskins below,
 DECADE OF SANG HOO.
 There is no remissness in their demeanour; —
@@ -13337,18 +13561,56 @@ Of such should the son of Heaven approve.
 To be rejoiced in are the princes,
 And the son of Heaven gives them the badges of his favour.
 To be rejoiced in are the princes,
-And their happiness and dignities are renewed and extended.
-
-On the branches of the oaks,
+And their happiness and dignities are renewed and extended.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-002__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·002.4</prop>
+      <prop type="x-translation-ref">采菽.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>維柞之枝，其葉蓬蓬。樂只君子，殿天子之邦。
+樂只君子，萬福攸同。平平左右，亦是率從。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the branches of the oaks,
 How abundant are the leaves!
 To be rejoiced in are the princes,
 Guardians of the regions of the son of Heaven.
 To be rejoiced in are the princes,
 Around whom all blessings collect.
 Discriminating and able are their attendants,
-Who also have followed them hither.
-
-It floats about, the boat of willow wood,
+Who also have followed them hither.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-002__005__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·002.5</prop>
+      <prop type="x-translation-ref">采菽.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>汎汎楊舟，紼纚維之。樂只君子，天子葵之。
+樂只君子，福祿膍之。優哉游哉，亦是戾矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>It floats about, the boat of willow wood,
 Fastened by the band of the rope.
 To be rejoiced in are the princes,
 And the son of Heaven scans their merits.
@@ -13371,7 +13633,7 @@ Is their coming here!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·魚藻之什·003.1</prop>
       <prop type="x-translation-ref">角弓.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>騂騂角弓，翩其反矣。兄弟昏姻，無胥遠矣。
 爾之遠矣，民胥然矣。爾之教矣，民胥傚矣。
@@ -13436,7 +13698,7 @@ This is what makes me sad.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·魚藻之什·004.1</prop>
       <prop type="x-translation-ref">菀柳.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>有菀者柳，不尚息焉？上帝甚蹈，無自暱焉。俾予靖之，後予極焉。
 有菀者柳，不尚愒焉？上帝甚蹈，無自瘵焉。俾予靖之，後予邁焉。
@@ -13603,7 +13865,7 @@ And how do I long for them!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·魚藻之什·006.1</prop>
       <prop type="x-translation-ref">采綠.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>終朝采綠，不盈一匊。予髮曲局，薄言歸沐。
 終朝采藍，不盈一襜。五日為期，六日不詹。
@@ -13760,7 +14022,7 @@ And the heart of the king was at rest.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·魚藻之什·008.1</prop>
       <prop type="x-translation-ref">隰桑.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>隰桑有阿，其葉有難。既見君子，其樂如何？
 隰桑有阿，其葉有沃。既見君子，云何不樂？
@@ -13940,7 +14202,7 @@ And tell them to carry me.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·魚藻之什·011.1</prop>
       <prop type="x-translation-ref">瓠葉.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>幡幡瓠葉，采之亨之。君子有酒，酌言嘗之。
 有兔斯首，炮之燔之。君子有酒，酌言獻之。
@@ -14009,7 +14271,7 @@ Has not a morning's leisure.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·魚藻之什·013.1</prop>
       <prop type="x-translation-ref">苕之華.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>苕之華，芸其黃矣。心之憂矣，維其傷矣。
 苕之華，其葉青青。知我如此，不如無生。
@@ -14549,7 +14811,7 @@ That morning's encounter was followed by a clear, bright (day).</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·003.1</prop>
       <prop type="x-translation-ref">緜.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>緜緜瓜瓞，民之初生，自土沮漆。古公亶父，陶復陶宂，未有家室。
 古公亶父，來朝走馬。率西水滸，至于岐下。爰及姜女，聿來胥宇。
@@ -14604,7 +14866,7 @@ There was nothing which he did not take in hand.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·004.1</prop>
       <prop type="x-translation-ref">棫樸.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>芃芃棫樸，薪之槱之。濟濟辟王，左右趣之。
 濟濟辟王，左右奉璋。奉璋峨峨，髦士攸宜。
@@ -15163,7 +15425,7 @@ And throughout the kingdom none dared to oppose him.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·文王之什·008.1</prop>
       <prop type="x-translation-ref">靈臺.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>經始靈臺，經之營之。庶民攻之，不日成之。
 經始勿亟，庶民子來。王在靈囿，麀鹿攸伏。
@@ -15403,7 +15665,7 @@ A sovereign true was king Wăn!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·生民之什·001.1</prop>
       <prop type="x-translation-ref">生民.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>厥初生民，時維姜嫄。生民如何？克禋克祀，以弗無子。
 履帝武敏歆，攸介攸止。載震載夙，載生載育。時維后稷。
@@ -16187,7 +16449,7 @@ Be the centre of rest to the people!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·生民之什·008.1</prop>
       <prop type="x-translation-ref">卷阿.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 9 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>有卷者阿，飄風自南。豈弟君子，來游來歌，以矢其音。
 伴奐爾游矣，優游爾休矣。豈弟君子，俾爾彌爾性，似先公酋矣。
@@ -16304,7 +16566,7 @@ establishing (the throne of) our king.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·生民之什·010.1</prop>
       <prop type="x-translation-ref">板.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>上帝板板，下民卒癉。出話不然，為猶不遠。
 靡聖管管，不實於亶。猶之未遠，是用大諫。
@@ -16603,7 +16865,7 @@ is in the age of the (last) sovereign of Hsiâ.'</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·蕩之什·002.1</prop>
       <prop type="x-translation-ref">抑.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 12 Chinese stanzas into 7 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>抑抑威儀，維德之隅。人亦有言，靡哲不愚。
 庶人之愚，亦職維疾。哲人之愚，亦維斯戾。
@@ -17271,7 +17533,7 @@ To fortify the city there in the east.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·蕩之什·007.1</prop>
       <prop type="x-translation-ref">韓奕.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>奕奕梁山，維禹甸之。有倬其道，韓侯受命。
 王親命之，纘戎祖考，無廢朕命，夙夜匪解，虔共爾位。
@@ -17657,7 +17919,7 @@ will save your posterity.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·大雅·蕩之什·011.1</prop>
       <prop type="x-translation-ref">召旻.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 7 Chinese stanzas into 2 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>旻天疾威，天篤降喪。
 瘨我饑饉，民卒流亡。我居圉卒荒。
@@ -17814,7 +18076,7 @@ They have been the happy omen of (the fortunes of) Kâu.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·清廟之什·004.1</prop>
       <prop type="x-translation-ref">烈文.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>烈文辟公，錫茲祉福。惠我無疆，子孫保之。
 無封靡于爾邦，維王其崇之。念茲戎功，繼序其皇之。
@@ -17911,7 +18173,7 @@ And so securing its tranquillity!</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·清廟之什·007.1</prop>
       <prop type="x-translation-ref">我將.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>我將我享，維羊維牛，維天其右之。
 儀式刑文王之典，日靖四方。
@@ -17946,7 +18208,7 @@ Thus to preserve (its favour)?</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·清廟之什·008.1</prop>
       <prop type="x-translation-ref">時邁.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>時邁其邦，昊天其子之。
 實右序有周，薄言震之，莫不震疊。
@@ -17989,7 +18251,7 @@ Truly will the king preserve the appointment.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·清廟之什·009.1</prop>
       <prop type="x-translation-ref">執競.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>執競武王，無競維烈，不顯成康，上帝是皇。自彼成康，奄有四方。
 斤斤其明！鐘鼓喤喤，磬筦將將，降福穰穰，降福簡簡，威儀反反。
@@ -18337,7 +18599,7 @@ And ensuring prosperity to thy descendants.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·臣工之什·008.1</prop>
       <prop type="x-translation-ref">載見.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>載見辟王，曰求厥章。龍旂陽陽，和鈴央央。鞗革有鶬，休有烈光。
 率見昭考，以孝以享，以介眉壽，永言保之，思皇多祜。
@@ -18473,7 +18735,7 @@ the firm establishment of thy merit.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·閔予小子之什·001.1</prop>
       <prop type="x-translation-ref">閔予小子.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>閔予小子，遭家不造，嬛嬛在疚。
 於乎皇考，永世克孝，念茲皇祖，陟降庭止。
@@ -19290,7 +19552,7 @@ And great contributions of the southern metals.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·魯頌·004.1</prop>
       <prop type="x-translation-ref">閟宮.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 20 Chinese stanzas into 9 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>閟宮有侐，實實枚枚。
 赫赫姜嫄，其德不回。
@@ -19517,7 +19779,7 @@ Answering to the expectations of all the people.</seg>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·商頌·001.1</prop>
       <prop type="x-translation-ref">那.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 2 Chinese stanzas into 5 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>猗與那與，置我鞉鼓。奏鼓簡簡，衎我烈祖。湯孫奏假，綏我思成。
 鞉鼓淵淵，嘒嘒管聲，既和且平，依我磬聲。
@@ -19785,7 +20047,7 @@ That Yin should have received the appointment (of Heaven) was entirely right;—
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·商頌·004.1</prop>
       <prop type="x-translation-ref">長發.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness merges 7 Chinese stanzas into 3 English blocks.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>濬哲維商，長發其祥，洪水芒芒，禹敷下土方。
 外大國是疆，幅隕既長。有娀方將，帝立子生商。

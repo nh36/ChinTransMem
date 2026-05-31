@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·周南·009.1</prop>
       <prop type="x-translation-ref">漢廣.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>南有喬木，不可休息；漢有遊女，不可求思，漢之廣矣，不可泳思，江之永矣，不可方思。
 翹翹錯薪，言刈其楚，之子于歸，言秣其馬，漢之廣矣，不可泳思，江之永矣，不可方思。

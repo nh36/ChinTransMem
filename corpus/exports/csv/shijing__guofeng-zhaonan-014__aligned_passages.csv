@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-zhaonan-014__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-014,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·召南·014.1,"彼茁者葭，壹發五豝，于嗟乎騶虞。
+shijing__guofeng-zhaonan-014__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-014,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·召南·014.1,"彼茁者葭，壹發五豝，于嗟乎騶虞。
 彼茁者蓬，壹發五豵，于嗟乎騶虞。",騶虞.1,"There is the Tsow-yu; there is the Tsow-yu;
 In the fifth month he comes forth with slow and leisurely movements.
 There is the white tiger; there is the white tiger;

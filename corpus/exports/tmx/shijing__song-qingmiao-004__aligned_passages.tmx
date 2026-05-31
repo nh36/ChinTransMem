@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·清廟之什·004.1</prop>
       <prop type="x-translation-ref">烈文.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>烈文辟公，錫茲祉福。惠我無疆，子孫保之。
 無封靡于爾邦，維王其崇之。念茲戎功，繼序其皇之。

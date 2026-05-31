@@ -792,6 +792,17 @@
     "notes": "Bootstrap Shijing generation for 北風 with 3 exact stanza alignments."
   },
   {
+    "run_id": "bootstrap-guofeng-beifeng-017-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-beifeng-017",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-beifeng-017__zhwikisource-20260530",
+      "guofeng-beifeng-017__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 靜女 with 1 exact poem alignments."
+  },
+  {
     "run_id": "bootstrap-guofeng-beifeng-018-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-beifeng-018",
@@ -988,6 +999,17 @@
       "guofeng-weifeng-009__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 有狐 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-weifeng-010-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-weifeng-010",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-weifeng-010__zhwikisource-20260530",
+      "guofeng-weifeng-010__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 木瓜 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-wangfeng-001-20260530",
@@ -1265,6 +1287,17 @@
     "notes": "Bootstrap Shijing generation for 雞鳴 with 3 exact stanza alignments."
   },
   {
+    "run_id": "bootstrap-guofeng-qifeng-002-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-qifeng-002",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-qifeng-002__zhwikisource-20260530",
+      "guofeng-qifeng-002__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 還 with 1 exact poem alignments."
+  },
+  {
     "run_id": "bootstrap-guofeng-qifeng-004-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-qifeng-004",
@@ -1406,6 +1439,17 @@
       "guofeng-tangfeng-001__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 蟋蟀 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-tangfeng-002-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-tangfeng-002",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-tangfeng-002__zhwikisource-20260530",
+      "guofeng-tangfeng-002__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 山有樞 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-guofeng-tangfeng-003-20260530",
@@ -1724,7 +1768,7 @@
       "guofeng-kuaifeng-001__zhwikisource-20260530",
       "guofeng-kuaifeng-001__legge-sheking-1871-ocr"
     ],
-    "notes": "Bootstrap Shijing generation for 羔裘 with 1 exact poem alignments."
+    "notes": "Bootstrap Shijing generation for 羔裘 with 3 exact stanza alignments."
   },
   {
     "run_id": "bootstrap-guofeng-kuaifeng-002-20260530",
@@ -2549,7 +2593,7 @@
       "xiaoya-yuzao-002__zhwikisource-20260530",
       "xiaoya-yuzao-002__legge-sheking-1871-ocr"
     ],
-    "notes": "Bootstrap Shijing generation for 采菽 with 1 exact poem alignments."
+    "notes": "Bootstrap Shijing generation for 采菽 with 5 exact stanza alignments."
   },
   {
     "run_id": "bootstrap-xiaoya-yuzao-003-20260530",

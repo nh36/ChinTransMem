@@ -27,6 +27,7 @@ WORK_ID = "shijing"
 QUALITY_JSON_PATH = QC_REPORTS_DIR / "shijing__completion_quality.json"
 QUALITY_MARKDOWN_PATH = DOCUMENTATION_DIR / "shijing_completion_quality.md"
 SPOTCHECK_PACKET_PATH = DOCUMENTATION_DIR / "shijing_spotcheck_packet.md"
+UNRESOLVED_WITNESS_REPORT_PATH = DOCUMENTATION_DIR / "shijing_unresolved_witness_report.md"
 QUALITY_OVERRIDES_PATH = REPO_ROOT / "metadata" / "shijing_quality_overrides.yml"
 DETAILED_QUEUE_SUBDIVISIONS: tuple[tuple[str, str], ...] = (
     ("國風", "召南"),
@@ -965,6 +966,35 @@ def build_shijing_quality_context(
         and record["review_note"] != "No source-specific note recorded yet."
         and record["review_note"] != GENERIC_UNVERIFIED_NOTE
     ]
+    title_only_lost_text_sections = [
+        {
+            "section_id": section["section_id"],
+            "title": section["label"],
+            "canonical_ref": section["canonical_ref"],
+            "status": section.get("status"),
+            "verification_status": section.get("verification_status"),
+            "verification_decision": section.get("verification_decision"),
+            "notes": section.get("notes"),
+            "review_note": verification_index.get(section["section_id"], {}).get("reviewer_note"),
+            "source_urls": source_urls_for_section(section, source_map),
+        }
+        for section in metadata_only_sections
+        if section.get("verification_decision") != "do_not_export_until_repaired"
+    ]
+    current_batch_investigated_non_exportable_sections = [
+        {
+            "section_id": record["section_id"],
+            "title": record["title"],
+            "canonical_ref": record["canonical_ref"],
+            "queue_category_label": record["queue_category_label"],
+            "source_volume": record["source_volume"],
+            "source_page_or_anchor": record["source_page_or_anchor"],
+            "review_note": record["review_note"],
+            "review_date": record.get("review_date"),
+        }
+        for record in remaining_section_records
+        if latest_review_date and record.get("review_date") == latest_review_date
+    ]
 
     return {
         "work_id": WORK_ID,
@@ -974,8 +1004,10 @@ def build_shijing_quality_context(
                 "extant_poem_count",
                 len(section_records) + len(non_exportable_extant_sections),
             ),
+            "exportable_extant_poems": len(section_records),
             "complete_sections": len(section_records),
             "metadata_only_sections": len(metadata_only_sections),
+            "title_only_lost_text_entries": len(title_only_lost_text_sections),
             "non_exportable_extant_sections": len(non_exportable_extant_sections),
             "exact_alignment_count": len(export_rows),
             "complete_sections_by_witness_type": witness_counts,
@@ -1007,6 +1039,9 @@ def build_shijing_quality_context(
                 len(section_records) + len(non_exportable_extant_sections),
             ),
             "verified_exportable_poems": len(section_records),
+            "exportable_extant_poems": len(section_records),
+            "non_exportable_extant_poems": len(non_exportable_extant_sections),
+            "title_only_lost_text_entries": len(title_only_lost_text_sections),
             "all_human_verified_ocr_sections": len(human_verified_ocr_sections),
             "non_exportable_repair_queue_remaining": len(non_exportable_extant_sections),
             "current_repair_batch": latest_repair_batch,
@@ -1014,8 +1049,20 @@ def build_shijing_quality_context(
             "latest_review_date": latest_review_date,
             "newly_repaired_in_current_batch": len(latest_repaired_sections),
             "newly_repaired_in_latest_tranche": len(latest_repaired_sections),
+            "remaining_likely_repairable_cases": sum(
+                1 for record in remaining_section_records if record["queue_category"] == "likely_repairable_now"
+            ),
+            "remaining_needs_better_witness_cases": sum(
+                1 for record in remaining_section_records if record["queue_category"] == "needs_better_witness"
+            ),
+            "remaining_known_unrecoverable_cases": sum(
+                1
+                for record in remaining_section_records
+                if record["queue_category"] == "unrecoverable_with_current_witness"
+            ),
             "current_batch_summary": current_batch_summary,
             "latest_repaired_sections": latest_repaired_sections,
+            "current_batch_investigated_non_exportable_sections": current_batch_investigated_non_exportable_sections,
             "human_verified_batches": sorted(
                 human_verified_batches.values(),
                 key=lambda batch: batch["repair_batch"],
@@ -1042,6 +1089,8 @@ def build_shijing_quality_context(
                 for record in remaining_section_records
                 if record["queue_category"] == "needs_better_witness"
             ],
+            "remaining_non_exportable_extant_sections": remaining_section_records,
+            "title_only_lost_text_sections": title_only_lost_text_sections,
             "ocr_sanity_sweep": ocr_sanity_sweep,
             "skipped_current_witness_sections": skipped_current_witness_sections,
         },
@@ -1171,6 +1220,14 @@ def quality_markdown(context: dict[str, Any]) -> str:
     ]
     append_count_table(
         [
+            ("section_count", summary["section_count"]),
+            ("extant_poem_count", summary["extant_poem_count"]),
+            ("exportable_extant_poems", summary["exportable_extant_poems"]),
+            ("non_exportable_extant_poems", summary["non_exportable_extant_sections"]),
+            ("title_only_lost_text_entries", summary["title_only_lost_text_entries"]),
+            ("remaining_likely_repairable_cases", progress["remaining_likely_repairable_cases"]),
+            ("remaining_needs_better_witness_cases", progress["remaining_needs_better_witness_cases"]),
+            ("remaining_known_unrecoverable_cases", progress["remaining_known_unrecoverable_cases"]),
             ("complete_sections", summary["complete_sections"]),
             ("metadata_only_sections", summary["metadata_only_sections"]),
             ("non_exportable_extant_sections", summary["non_exportable_extant_sections"]),
@@ -1192,6 +1249,8 @@ def quality_markdown(context: dict[str, Any]) -> str:
         [
             ("total_extant_poems", progress["total_extant_poems"]),
             ("verified_exportable_poems", progress["verified_exportable_poems"]),
+            ("non_exportable_extant_poems", progress["non_exportable_extant_poems"]),
+            ("title_only_lost_text_entries", progress["title_only_lost_text_entries"]),
             ("all_human_verified_ocr_sections", progress["all_human_verified_ocr_sections"]),
             ("non_exportable_repair_queue_remaining", progress["non_exportable_repair_queue_remaining"]),
             ("current_repair_batch", progress["current_repair_batch"] or "—"),
@@ -1239,6 +1298,29 @@ def quality_markdown(context: dict[str, Any]) -> str:
         )
     if not progress["latest_repaired_sections"]:
         lines.append("| — | — | — | — |")
+    lines.append("")
+
+    lines.extend(
+        [
+            "## Sections investigated but left non-exportable in this pass",
+            "",
+            "| Section | Title | Canonical ref | Category | Source anchor | Note |",
+            "| --- | --- | --- | --- | --- | --- |",
+        ]
+    )
+    for section in progress["current_batch_investigated_non_exportable_sections"]:
+        lines.append(
+            "| {section_id} | {title} | {canonical_ref} | {queue_category_label} | {source_page_or_anchor} | {review_note} |".format(
+                section_id=section["section_id"],
+                title=section["title"],
+                canonical_ref=section["canonical_ref"],
+                queue_category_label=section["queue_category_label"],
+                source_page_or_anchor=section["source_page_or_anchor"] or section["source_volume"] or "—",
+                review_note=str(section["review_note"] or "—").replace("\n", " "),
+            )
+        )
+    if not progress["current_batch_investigated_non_exportable_sections"]:
+        lines.append("| — | — | — | — | — | — |")
     lines.append("")
 
     lines.extend(
@@ -1591,6 +1673,9 @@ def _alignment_packet_entry(
 def build_spotcheck_packet_markdown(context: dict[str, Any]) -> str:
     section_map = {section["section_id"]: section for section in context["sections"]}
     metadata_only_map = {section["section_id"]: section for section in context["metadata_only_sections"]}
+    title_only_lost_text_map = {
+        section["section_id"]: section for section in context["progress"]["title_only_lost_text_sections"]
+    }
     export_rows = [row for section in context["sections"] for row in section["_rows"]]
     section_items: dict[str, dict[str, Any]] = {}
     categories: dict[str, list[str]] = {}
@@ -1627,8 +1712,8 @@ def build_spotcheck_packet_markdown(context: dict[str, Any]) -> str:
     ):
         add_item(_section_packet_entry(section, "Every repaired section"))
 
-    for section_id in sorted(metadata_only_map):
-        section = metadata_only_map[section_id]
+    for section_id in sorted(title_only_lost_text_map):
+        section = title_only_lost_text_map[section_id]
         add_item(
             {
                 "entry_key": f"metadata:{section_id}",
@@ -1642,10 +1727,13 @@ def build_spotcheck_packet_markdown(context: dict[str, Any]) -> str:
                 "notes": section.get("notes") or "Non-exportable metadata-only title.",
                 "chinese_text": "_No extant Chinese poem text; title-only canonical entry._",
                 "english_text": "_No exportable English text; entry remains metadata-only._",
-                "source_urls": section["source_urls"],
+                "source_urls": section.get("source_urls", []),
                 "categories": [],
             }
         )
+
+    for section_id in sorted(metadata_only_map):
+        section = metadata_only_map[section_id]
         if section.get("verification_decision") == "do_not_export_until_repaired":
             add_item(
                 {
@@ -1765,12 +1853,87 @@ def build_spotcheck_packet_markdown(context: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def build_unresolved_witness_report_markdown(context: dict[str, Any]) -> str:
+    progress = context["progress"]
+    remaining_sections = progress["remaining_non_exportable_extant_sections"]
+    title_only_sections = progress["title_only_lost_text_sections"]
+
+    lines = [
+        "# Shijing unresolved witness report",
+        "",
+        "This report documents the remaining non-exportable *Shijing* gaps after the current verification pass.",
+        "",
+        "## Summary",
+        "",
+        "| Metric | Value |",
+        "| --- | ---: |",
+        f"| non_exportable_extant_poems | {progress['non_exportable_extant_poems']} |",
+        f"| title_only_lost_text_entries | {progress['title_only_lost_text_entries']} |",
+        f"| remaining_likely_repairable_cases | {progress['remaining_likely_repairable_cases']} |",
+        f"| remaining_needs_better_witness_cases | {progress['remaining_needs_better_witness_cases']} |",
+        f"| remaining_known_unrecoverable_cases | {progress['remaining_known_unrecoverable_cases']} |",
+        "",
+        "## Remaining non-exportable extant poems",
+        "",
+        "| Section | Title | Canonical ref | Category | Source checked | Page/anchor | Reason not exportable | Better witness needed |",
+        "| --- | --- | --- | --- | --- | --- | --- | --- |",
+    ]
+
+    for section in remaining_sections:
+        note = str(section.get("review_note") or "—").replace("\n", " ")
+        if section["queue_category"] == "needs_better_witness":
+            better_witness = "Cleaner OCR, transcription, or alternate public-domain witness for the blocked poem body."
+        elif section["queue_category"] == "unrecoverable_with_current_witness":
+            better_witness = "Different public-domain witness; current source is not safely recoverable."
+        else:
+            better_witness = "Further source investigation or cleaner public-domain witness."
+        lines.append(
+            "| {section_id} | {title} | {canonical_ref} | {queue_category_label} | {source_volume} | {source_page_or_anchor} | {review_note} | {better_witness} |".format(
+                section_id=section["section_id"],
+                title=section["title"],
+                canonical_ref=section["canonical_ref"],
+                queue_category_label=section["queue_category_label"],
+                source_volume=section.get("source_volume") or "—",
+                source_page_or_anchor=section.get("source_page_or_anchor") or "—",
+                review_note=note,
+                better_witness=better_witness,
+            )
+        )
+    if not remaining_sections:
+        lines.append("| — | — | — | — | — | — | — | — |")
+
+    lines.extend(
+        [
+            "",
+            "## Title-only / lost-text canonical entries",
+            "",
+            "| Section | Title | Canonical ref | Status | Notes |",
+            "| --- | --- | --- | --- | --- |",
+        ]
+    )
+    for section in title_only_sections:
+        lines.append(
+            "| {section_id} | {title} | {canonical_ref} | {status} | {notes} |".format(
+                section_id=section["section_id"],
+                title=section["title"],
+                canonical_ref=section["canonical_ref"],
+                status=section.get("status") or "—",
+                notes=str(section.get("notes") or "—").replace("\n", " "),
+            )
+        )
+    if not title_only_sections:
+        lines.append("| — | — | — | — | — |")
+
+    return "\n".join(lines)
+
+
 def write_shijing_quality_outputs(
     context: dict[str, Any],
     *,
     json_output_path: Path = QUALITY_JSON_PATH,
     markdown_output_path: Path = QUALITY_MARKDOWN_PATH,
     spotcheck_output_path: Path = SPOTCHECK_PACKET_PATH,
+    unresolved_witness_output_path: Path = UNRESOLVED_WITNESS_REPORT_PATH,
 ) -> dict[str, Any]:
     report = serializable_quality_report(context)
     json_output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -1779,4 +1942,9 @@ def write_shijing_quality_outputs(
     markdown_output_path.write_text(quality_markdown(context), encoding="utf-8")
     spotcheck_output_path.parent.mkdir(parents=True, exist_ok=True)
     spotcheck_output_path.write_text(build_spotcheck_packet_markdown(context), encoding="utf-8")
+    unresolved_witness_output_path.parent.mkdir(parents=True, exist_ok=True)
+    unresolved_witness_output_path.write_text(
+        build_unresolved_witness_report_markdown(context),
+        encoding="utf-8",
+    )
     return report

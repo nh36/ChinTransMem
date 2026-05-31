@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·商頌·001.1</prop>
       <prop type="x-translation-ref">那.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 2 Chinese stanzas into 5 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>猗與那與，置我鞉鼓。奏鼓簡簡，衎我烈祖。湯孫奏假，綏我思成。
 鞉鼓淵淵，嘒嘒管聲，既和且平，依我磬聲。

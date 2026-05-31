@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-zhounan-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhounan-004,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·周南·004.1,"南有樛木，葛藟纍之，樂只君子，福履綏之。
+shijing__guofeng-zhounan-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhounan-004,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·周南·004.1,"南有樛木，葛藟纍之，樂只君子，福履綏之。
 南有樛木，葛藟荒之，樂只君子，福履將之。
 南有樛木，葛藟縈之，樂只君子，福履成之。",樛木.1,"In the south are the trees with curved drooping branches,
 With the dolichos creepers clinging to them.

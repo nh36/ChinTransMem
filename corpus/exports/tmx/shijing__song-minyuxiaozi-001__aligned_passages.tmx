@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·頌·閔予小子之什·001.1</prop>
       <prop type="x-translation-ref">閔予小子.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>閔予小子，遭家不造，嬛嬛在疚。
 於乎皇考，永世克孝，念茲皇祖，陟降庭止。

@@ -420,7 +420,7 @@
     "label": "采蘩",
     "canonical_ref": "詩經·國風·召南·002",
     "sort_key": 13,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely."
   },
   {
     "section_id": "guofeng-zhaonan-003",
@@ -564,7 +564,7 @@
     "label": "日月",
     "canonical_ref": "詩經·國風·邶風·004",
     "sort_key": 29,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely."
   },
   {
     "section_id": "guofeng-beifeng-005",
@@ -645,7 +645,7 @@
     "label": "簡兮",
     "canonical_ref": "詩經·國風·邶風·013",
     "sort_key": 38,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely."
   },
   {
     "section_id": "guofeng-beifeng-014",
@@ -681,7 +681,7 @@
     "label": "靜女",
     "canonical_ref": "詩經·國風·邶風·017",
     "sort_key": 42,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-beifeng-018",
@@ -753,7 +753,7 @@
     "label": "定之方中",
     "canonical_ref": "詩經·國風·鄘風·006",
     "sort_key": 50,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely."
   },
   {
     "section_id": "guofeng-yongfeng-007",
@@ -789,7 +789,7 @@
     "label": "載馳",
     "canonical_ref": "詩經·國風·鄘風·010",
     "sort_key": 54,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely."
   },
   {
     "section_id": "guofeng-weifeng-001",
@@ -861,7 +861,7 @@
     "label": "伯兮",
     "canonical_ref": "詩經·國風·衛風·008",
     "sort_key": 62,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely."
   },
   {
     "section_id": "guofeng-weifeng-009",
@@ -879,7 +879,7 @@
     "label": "木瓜",
     "canonical_ref": "詩經·國風·衛風·010",
     "sort_key": 64,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-wangfeng-001",
@@ -960,7 +960,7 @@
     "label": "大車",
     "canonical_ref": "詩經·國風·王風·009",
     "sort_key": 73,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely."
   },
   {
     "section_id": "guofeng-wangfeng-010",
@@ -1176,7 +1176,7 @@
     "label": "還",
     "canonical_ref": "詩經·國風·齊風·002",
     "sort_key": 97,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-qifeng-003",
@@ -1221,7 +1221,7 @@
     "label": "甫田",
     "canonical_ref": "詩經·國風·齊風·007",
     "sort_key": 102,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 5 Chinese stanzas into 3 English blocks."
   },
   {
     "section_id": "guofeng-qifeng-008",
@@ -1338,7 +1338,7 @@
     "label": "山有樞",
     "canonical_ref": "詩經·國風·唐風·002",
     "sort_key": 115,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "guofeng-tangfeng-003",
@@ -1617,7 +1617,7 @@
     "label": "羔裘",
     "canonical_ref": "詩經·國風·檜風·001",
     "sort_key": 146,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "guofeng-kuaifeng-002",
@@ -2058,7 +2058,7 @@
     "label": "斯干",
     "canonical_ref": "詩經·小雅·鴻鴈之什·009",
     "sort_key": 195,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 9 Chinese stanzas into 5 English blocks."
   },
   {
     "section_id": "xiaoya-hongyan-010",
@@ -2094,7 +2094,7 @@
     "label": "十月之交",
     "canonical_ref": "詩經·小雅·節南山之什·003",
     "sort_key": 199,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 8 Chinese stanzas into 6 English blocks."
   },
   {
     "section_id": "xiaoya-jienanshan-004",
@@ -2103,7 +2103,7 @@
     "label": "雨無正",
     "canonical_ref": "詩經·小雅·節南山之什·004",
     "sort_key": 200,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 2 Chinese stanzas into 1 English blocks."
   },
   {
     "section_id": "xiaoya-jienanshan-005",
@@ -2121,7 +2121,7 @@
     "label": "小宛",
     "canonical_ref": "詩經·小雅·節南山之什·006",
     "sort_key": 202,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 2 Chinese stanzas into 3 English blocks that cannot be matched safely."
   },
   {
     "section_id": "xiaoya-jienanshan-007",
@@ -2184,7 +2184,7 @@
     "label": "大東",
     "canonical_ref": "詩經·小雅·谷風之什·003",
     "sort_key": 209,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 7 Chinese stanzas into 8 English blocks that cannot be matched safely."
   },
   {
     "section_id": "xiaoya-gufeng-004",
@@ -2238,7 +2238,7 @@
     "label": "楚茨",
     "canonical_ref": "詩經·小雅·谷風之什·009",
     "sort_key": 215,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 6 Chinese stanzas into 1 English blocks."
   },
   {
     "section_id": "xiaoya-gufeng-010",
@@ -2265,7 +2265,7 @@
     "label": "大田",
     "canonical_ref": "詩經·小雅·甫田之什·002",
     "sort_key": 218,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 4 Chinese stanzas into 2 English blocks."
   },
   {
     "section_id": "xiaoya-futian-003",
@@ -2310,7 +2310,7 @@
     "label": "頍弁",
     "canonical_ref": "詩經·小雅·甫田之什·007",
     "sort_key": 223,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Whole-poem fallback because the English witness expands 3 Chinese stanzas into 4 English blocks that cannot be matched safely."
   },
   {
     "section_id": "xiaoya-futian-008",
@@ -2355,7 +2355,7 @@
     "label": "采菽",
     "canonical_ref": "詩經·小雅·魚藻之什·002",
     "sort_key": 228,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-yuzao-003",
@@ -2490,7 +2490,7 @@
     "label": "緜",
     "canonical_ref": "詩經·大雅·文王之什·003",
     "sort_key": 243,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely."
   },
   {
     "section_id": "daya-wenwang-004",
@@ -2499,7 +2499,7 @@
     "label": "棫樸",
     "canonical_ref": "詩經·大雅·文王之什·004",
     "sort_key": 244,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely."
   },
   {
     "section_id": "daya-wenwang-005",
@@ -2562,7 +2562,7 @@
     "label": "生民",
     "canonical_ref": "詩經·大雅·生民之什·001",
     "sort_key": 251,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks."
   },
   {
     "section_id": "daya-shengmin-002",
@@ -2625,7 +2625,7 @@
     "label": "卷阿",
     "canonical_ref": "詩經·大雅·生民之什·008",
     "sort_key": 258,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 9 English blocks that cannot be matched safely."
   },
   {
     "section_id": "daya-shengmin-009",
@@ -2643,7 +2643,7 @@
     "label": "板",
     "canonical_ref": "詩經·大雅·生民之什·010",
     "sort_key": 260,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks."
   },
   {
     "section_id": "daya-dang-001",
@@ -2661,7 +2661,7 @@
     "label": "抑",
     "canonical_ref": "詩經·大雅·蕩之什·002",
     "sort_key": 262,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 12 Chinese stanzas into 7 English blocks."
   },
   {
     "section_id": "daya-dang-003",
@@ -2706,7 +2706,7 @@
     "label": "韓奕",
     "canonical_ref": "詩經·大雅·蕩之什·007",
     "sort_key": 267,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely."
   },
   {
     "section_id": "daya-dang-008",
@@ -2742,7 +2742,7 @@
     "label": "召旻",
     "canonical_ref": "詩經·大雅·蕩之什·011",
     "sort_key": 271,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 7 Chinese stanzas into 2 English blocks."
   },
   {
     "section_id": "song-qingmiao-001",
@@ -2778,7 +2778,7 @@
     "label": "烈文",
     "canonical_ref": "詩經·頌·清廟之什·004",
     "sort_key": 275,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely."
   },
   {
     "section_id": "song-qingmiao-005",
@@ -2805,7 +2805,7 @@
     "label": "我將",
     "canonical_ref": "詩經·頌·清廟之什·007",
     "sort_key": 278,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely."
   },
   {
     "section_id": "song-qingmiao-008",
@@ -2814,7 +2814,7 @@
     "label": "時邁",
     "canonical_ref": "詩經·頌·清廟之什·008",
     "sort_key": 279,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely."
   },
   {
     "section_id": "song-qingmiao-009",
@@ -2823,7 +2823,7 @@
     "label": "執競",
     "canonical_ref": "詩經·頌·清廟之什·009",
     "sort_key": 280,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely."
   },
   {
     "section_id": "song-qingmiao-010",
@@ -2904,7 +2904,7 @@
     "label": "載見",
     "canonical_ref": "詩經·頌·臣工之什·008",
     "sort_key": 289,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely."
   },
   {
     "section_id": "song-chengong-009",
@@ -2931,7 +2931,7 @@
     "label": "閔予小子",
     "canonical_ref": "詩經·頌·閔予小子之什·001",
     "sort_key": 292,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely."
   },
   {
     "section_id": "song-minyuxiaozi-002",
@@ -3057,7 +3057,7 @@
     "label": "閟宮",
     "canonical_ref": "詩經·頌·魯頌·004",
     "sort_key": 306,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 20 Chinese stanzas into 9 English blocks."
   },
   {
     "section_id": "song-shangsong-001",
@@ -3066,7 +3066,7 @@
     "label": "那",
     "canonical_ref": "詩經·頌·商頌·001",
     "sort_key": 307,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness expands 2 Chinese stanzas into 5 English blocks that cannot be matched safely."
   },
   {
     "section_id": "song-shangsong-002",
@@ -3093,7 +3093,7 @@
     "label": "長發",
     "canonical_ref": "詩經·頌·商頌·004",
     "sort_key": 310,
-    "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+    "notes": "Whole-poem fallback because the English witness merges 7 Chinese stanzas into 3 English blocks."
   },
   {
     "section_id": "song-shangsong-005",

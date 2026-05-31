@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·008.1</prop>
       <prop type="x-translation-ref">我行其野.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>我行其野，蔽芾其樗。昏姻之故，言就爾居。爾不我畜，復我邦家。
 我行其野，言采其蓫。昏姻之故，言就爾宿。爾不我畜，言歸斯復。

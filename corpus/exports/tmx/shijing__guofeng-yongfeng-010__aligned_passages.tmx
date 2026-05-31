@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·鄘風·010.1</prop>
       <prop type="x-translation-ref">載馳.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>載馳載驅，歸唁衞侯，驅馬悠悠，言至于漕，大夫跋涉，我心則憂。
 既不我嘉，不能旋反，視爾不臧，我思不遠。

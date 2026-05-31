@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-binfeng-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-binfeng-004,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·豳風·004.1,"既破我斧，又缺我斨。周公東征，四國是皇。哀我人斯，亦孔之將。
+shijing__guofeng-binfeng-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-binfeng-004,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·豳風·004.1,"既破我斧，又缺我斨。周公東征，四國是皇。哀我人斯，亦孔之將。
 既破我斧，又缺我錡。周公東征，四國是吪。哀我人斯，亦孔之嘉。
 既破我斧，又缺我銶。周公東征，四國是遒。哀我人斯，亦孔之休。",破斧.1,"We broke our axes,
 And we splintered our hatchets;

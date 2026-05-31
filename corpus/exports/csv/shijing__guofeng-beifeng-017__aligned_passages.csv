@@ -1,0 +1,17 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-beifeng-017__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-017,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·邶風·017.1,"靜女其姝，俟我於城隅，愛而不見，搔首踟躕。
+靜女其孌，貽我彤管，彤管有煒，說懌女美。
+自牧歸荑，洵美且異，匪女之為美，美人之貽。",靜女.1,"How lovely is the retiring girl!
+She was to await me at a corner of the wall.
+Loving and not seeing her,
+I scratch my head, and am in perplexity.
+
+How handsome is the retiring girl!
+She presented to me a red tube.
+Bright is the red tube; --
+I delight in the beauty of the girl.
+
+From the pasture lands she gave a shoot of the white grass,
+Truly elegant and rare.
+It is not you, O grass, that are elegant; --
+You are the gift of an elegant girl."

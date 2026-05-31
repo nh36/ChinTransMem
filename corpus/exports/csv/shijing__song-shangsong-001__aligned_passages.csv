@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__song-shangsong-001__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-001,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·頌·商頌·001.1,"猗與那與，置我鞉鼓。奏鼓簡簡，衎我烈祖。湯孫奏假，綏我思成。
+shijing__song-shangsong-001__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-001,poem,poem,poem,True,Whole-poem fallback because the English witness expands 2 Chinese stanzas into 5 English blocks that cannot be matched safely.,1,1,exact_or_near_exact,0.95,1,詩經·頌·商頌·001.1,"猗與那與，置我鞉鼓。奏鼓簡簡，衎我烈祖。湯孫奏假，綏我思成。
 鞉鼓淵淵，嘒嘒管聲，既和且平，依我磬聲。
 於赫湯孫，穆穆厥聲，庸鼓有斁，萬舞有奕。
 我有嘉客，亦不夷懌。自古在昔，先民有作。

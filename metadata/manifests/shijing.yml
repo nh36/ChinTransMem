@@ -12,12 +12,12 @@
     "canonical_entry_count": 311,
     "extant_poem_count": 305,
     "missing_chinese_source_sections": 6,
-    "complete_sections": 281,
-    "metadata_only_sections": 30,
-    "sections_needing_alignment": 24,
-    "sections_needing_qc": 24,
-    "exact_alignment_count": 698,
-    "source_count": 562
+    "complete_sections": 285,
+    "metadata_only_sections": 26,
+    "sections_needing_alignment": 20,
+    "sections_needing_qc": 20,
+    "exact_alignment_count": 708,
+    "source_count": 570
   },
   "ingestion_policy": {
     "inventory_required": true,
@@ -334,6 +334,12 @@
     },
     {
       "entity_type": "section",
+      "entity_id": "guofeng-beifeng-017",
+      "alias": "靜女",
+      "romanization_system": "Legge-title"
+    },
+    {
+      "entity_type": "section",
       "entity_id": "guofeng-beifeng-018",
       "alias": "新臺",
       "romanization_system": "Legge-title"
@@ -450,6 +456,12 @@
       "entity_type": "section",
       "entity_id": "guofeng-weifeng-009",
       "alias": "有狐",
+      "romanization_system": "Legge-title"
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "guofeng-weifeng-010",
+      "alias": "木瓜",
       "romanization_system": "Legge-title"
     },
     {
@@ -610,6 +622,12 @@
     },
     {
       "entity_type": "section",
+      "entity_id": "guofeng-qifeng-002",
+      "alias": "還",
+      "romanization_system": "Legge-title"
+    },
+    {
+      "entity_type": "section",
       "entity_id": "guofeng-qifeng-004",
       "alias": "東方之日",
       "romanization_system": "Legge-title"
@@ -684,6 +702,12 @@
       "entity_type": "section",
       "entity_id": "guofeng-tangfeng-001",
       "alias": "蟋蟀",
+      "romanization_system": "Legge-title"
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "guofeng-tangfeng-002",
+      "alias": "山有樞",
       "romanization_system": "Legge-title"
     },
     {
@@ -2547,6 +2571,17 @@
       "notes": "Bootstrap Shijing generation for 北風 with 3 exact stanza alignments."
     },
     {
+      "run_id": "bootstrap-guofeng-beifeng-017-20260530",
+      "work_id": "shijing",
+      "section_id": "guofeng-beifeng-017",
+      "status": "complete",
+      "source_ids": [
+        "guofeng-beifeng-017__zhwikisource-20260530",
+        "guofeng-beifeng-017__legge-sheking-1871-ocr"
+      ],
+      "notes": "Bootstrap Shijing generation for 靜女 with 1 exact poem alignments."
+    },
+    {
       "run_id": "bootstrap-guofeng-beifeng-018-20260530",
       "work_id": "shijing",
       "section_id": "guofeng-beifeng-018",
@@ -2743,6 +2778,17 @@
         "guofeng-weifeng-009__legge-sheking-1871-ocr"
       ],
       "notes": "Bootstrap Shijing generation for 有狐 with 3 exact stanza alignments."
+    },
+    {
+      "run_id": "bootstrap-guofeng-weifeng-010-20260530",
+      "work_id": "shijing",
+      "section_id": "guofeng-weifeng-010",
+      "status": "complete",
+      "source_ids": [
+        "guofeng-weifeng-010__zhwikisource-20260530",
+        "guofeng-weifeng-010__legge-sheking-1871-ocr"
+      ],
+      "notes": "Bootstrap Shijing generation for 木瓜 with 1 exact poem alignments."
     },
     {
       "run_id": "bootstrap-guofeng-wangfeng-001-20260530",
@@ -3020,6 +3066,17 @@
       "notes": "Bootstrap Shijing generation for 雞鳴 with 3 exact stanza alignments."
     },
     {
+      "run_id": "bootstrap-guofeng-qifeng-002-20260530",
+      "work_id": "shijing",
+      "section_id": "guofeng-qifeng-002",
+      "status": "complete",
+      "source_ids": [
+        "guofeng-qifeng-002__zhwikisource-20260530",
+        "guofeng-qifeng-002__legge-sheking-1871-ocr"
+      ],
+      "notes": "Bootstrap Shijing generation for 還 with 1 exact poem alignments."
+    },
+    {
       "run_id": "bootstrap-guofeng-qifeng-004-20260530",
       "work_id": "shijing",
       "section_id": "guofeng-qifeng-004",
@@ -3161,6 +3218,17 @@
         "guofeng-tangfeng-001__legge-sheking-1871-ocr"
       ],
       "notes": "Bootstrap Shijing generation for 蟋蟀 with 3 exact stanza alignments."
+    },
+    {
+      "run_id": "bootstrap-guofeng-tangfeng-002-20260530",
+      "work_id": "shijing",
+      "section_id": "guofeng-tangfeng-002",
+      "status": "complete",
+      "source_ids": [
+        "guofeng-tangfeng-002__zhwikisource-20260530",
+        "guofeng-tangfeng-002__legge-sheking-1871-ocr"
+      ],
+      "notes": "Bootstrap Shijing generation for 山有樞 with 1 exact poem alignments."
     },
     {
       "run_id": "bootstrap-guofeng-tangfeng-003-20260530",
@@ -3479,7 +3547,7 @@
         "guofeng-kuaifeng-001__zhwikisource-20260530",
         "guofeng-kuaifeng-001__legge-sheking-1871-ocr"
       ],
-      "notes": "Bootstrap Shijing generation for 羔裘 with 1 exact poem alignments."
+      "notes": "Bootstrap Shijing generation for 羔裘 with 3 exact stanza alignments."
     },
     {
       "run_id": "bootstrap-guofeng-kuaifeng-002-20260530",
@@ -4304,7 +4372,7 @@
         "xiaoya-yuzao-002__zhwikisource-20260530",
         "xiaoya-yuzao-002__legge-sheking-1871-ocr"
       ],
-      "notes": "Bootstrap Shijing generation for 采菽 with 1 exact poem alignments."
+      "notes": "Bootstrap Shijing generation for 采菽 with 5 exact stanza alignments."
     },
     {
       "run_id": "bootstrap-xiaoya-yuzao-003-20260530",
@@ -6666,6 +6734,44 @@
       "needs_human_text_review": false
     },
     {
+      "source_id": "guofeng-beifeng-017__zhwikisource-20260530",
+      "work_id": "shijing",
+      "section_id": "guofeng-beifeng-017",
+      "language_code": "zh-Hant",
+      "source_kind": "wikisource",
+      "citation": "詩經/靜女, Chinese Wikisource, accessed 2026-05-30.",
+      "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9D%9C%E5%A5%B3",
+      "raw_path": "corpus/raw/wikisource/shijing__guofeng-beifeng-017__zhwikisource-20260530__raw.wikitext",
+      "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-beifeng-017__zhwikisource-20260530__segments.jsonl",
+      "rights_status": "public_domain",
+      "author_or_translator_ids": [
+        "shijing-anthologists"
+      ],
+      "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+      "witness_type": "zh_wikisource_page",
+      "text_review_status": "verified_transcribed_text",
+      "needs_human_text_review": false
+    },
+    {
+      "source_id": "guofeng-beifeng-017__legge-sheking-1871-ocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-beifeng-017",
+      "language_code": "en",
+      "source_kind": "translation",
+      "citation": "James Legge, The She King, '靜女', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+      "source_url": "https://archive.org/details/chineseclassics41legg",
+      "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_path": "corpus/processed/translations/shijing__guofeng-beifeng-017__legge-sheking-1871-ocr__segments.jsonl",
+      "rights_status": "public_domain",
+      "author_or_translator_ids": [
+        "james-legge"
+      ],
+      "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+      "witness_type": "fulltext_ocr_derived_witness",
+      "text_review_status": "human_verified_ocr",
+      "needs_human_text_review": false
+    },
+    {
       "source_id": "guofeng-beifeng-018__zhwikisource-20260530",
       "work_id": "shijing",
       "section_id": "guofeng-beifeng-018",
@@ -7340,6 +7446,44 @@
       "source_url": "https://archive.org/details/chineseclassics41legg",
       "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_path": "corpus/processed/translations/shijing__guofeng-weifeng-009__legge-sheking-1871-ocr__segments.jsonl",
+      "rights_status": "public_domain",
+      "author_or_translator_ids": [
+        "james-legge"
+      ],
+      "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+      "witness_type": "fulltext_ocr_derived_witness",
+      "text_review_status": "human_verified_ocr",
+      "needs_human_text_review": false
+    },
+    {
+      "source_id": "guofeng-weifeng-010__zhwikisource-20260530",
+      "work_id": "shijing",
+      "section_id": "guofeng-weifeng-010",
+      "language_code": "zh-Hant",
+      "source_kind": "wikisource",
+      "citation": "詩經/木瓜, Chinese Wikisource, accessed 2026-05-30.",
+      "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9C%A8%E7%93%9C",
+      "raw_path": "corpus/raw/wikisource/shijing__guofeng-weifeng-010__zhwikisource-20260530__raw.wikitext",
+      "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-weifeng-010__zhwikisource-20260530__segments.jsonl",
+      "rights_status": "public_domain",
+      "author_or_translator_ids": [
+        "shijing-anthologists"
+      ],
+      "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+      "witness_type": "zh_wikisource_page",
+      "text_review_status": "verified_transcribed_text",
+      "needs_human_text_review": false
+    },
+    {
+      "source_id": "guofeng-weifeng-010__legge-sheking-1871-ocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-weifeng-010",
+      "language_code": "en",
+      "source_kind": "translation",
+      "citation": "James Legge, The She King, '木瓜', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+      "source_url": "https://archive.org/details/chineseclassics41legg",
+      "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_path": "corpus/processed/translations/shijing__guofeng-weifeng-010__legge-sheking-1871-ocr__segments.jsonl",
       "rights_status": "public_domain",
       "author_or_translator_ids": [
         "james-legge"
@@ -8300,6 +8444,44 @@
       "needs_human_text_review": false
     },
     {
+      "source_id": "guofeng-qifeng-002__zhwikisource-20260530",
+      "work_id": "shijing",
+      "section_id": "guofeng-qifeng-002",
+      "language_code": "zh-Hant",
+      "source_kind": "wikisource",
+      "citation": "詩經/還, Chinese Wikisource, accessed 2026-05-30.",
+      "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%82%84",
+      "raw_path": "corpus/raw/wikisource/shijing__guofeng-qifeng-002__zhwikisource-20260530__raw.wikitext",
+      "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-qifeng-002__zhwikisource-20260530__segments.jsonl",
+      "rights_status": "public_domain",
+      "author_or_translator_ids": [
+        "shijing-anthologists"
+      ],
+      "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+      "witness_type": "zh_wikisource_page",
+      "text_review_status": "verified_transcribed_text",
+      "needs_human_text_review": false
+    },
+    {
+      "source_id": "guofeng-qifeng-002__legge-sheking-1871-ocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-qifeng-002",
+      "language_code": "en",
+      "source_kind": "translation",
+      "citation": "James Legge, The She King, '還', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+      "source_url": "https://archive.org/details/chineseclassics41legg",
+      "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_path": "corpus/processed/translations/shijing__guofeng-qifeng-002__legge-sheking-1871-ocr__segments.jsonl",
+      "rights_status": "public_domain",
+      "author_or_translator_ids": [
+        "james-legge"
+      ],
+      "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+      "witness_type": "fulltext_ocr_derived_witness",
+      "text_review_status": "human_verified_ocr",
+      "needs_human_text_review": false
+    },
+    {
       "source_id": "guofeng-qifeng-004__zhwikisource-20260530",
       "work_id": "shijing",
       "section_id": "guofeng-qifeng-004",
@@ -8784,6 +8966,44 @@
       "source_url": "https://archive.org/details/chineseclassics41legg",
       "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_path": "corpus/processed/translations/shijing__guofeng-tangfeng-001__legge-sheking-1871-ocr__segments.jsonl",
+      "rights_status": "public_domain",
+      "author_or_translator_ids": [
+        "james-legge"
+      ],
+      "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+      "witness_type": "fulltext_ocr_derived_witness",
+      "text_review_status": "human_verified_ocr",
+      "needs_human_text_review": false
+    },
+    {
+      "source_id": "guofeng-tangfeng-002__zhwikisource-20260530",
+      "work_id": "shijing",
+      "section_id": "guofeng-tangfeng-002",
+      "language_code": "zh-Hant",
+      "source_kind": "wikisource",
+      "citation": "詩經/山有樞, Chinese Wikisource, accessed 2026-05-30.",
+      "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B1%B1%E6%9C%89%E6%A8%9E",
+      "raw_path": "corpus/raw/wikisource/shijing__guofeng-tangfeng-002__zhwikisource-20260530__raw.wikitext",
+      "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-tangfeng-002__zhwikisource-20260530__segments.jsonl",
+      "rights_status": "public_domain",
+      "author_or_translator_ids": [
+        "shijing-anthologists"
+      ],
+      "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+      "witness_type": "zh_wikisource_page",
+      "text_review_status": "verified_transcribed_text",
+      "needs_human_text_review": false
+    },
+    {
+      "source_id": "guofeng-tangfeng-002__legge-sheking-1871-ocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-tangfeng-002",
+      "language_code": "en",
+      "source_kind": "translation",
+      "citation": "James Legge, The She King, '山有樞', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+      "source_url": "https://archive.org/details/chineseclassics41legg",
+      "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_path": "corpus/processed/translations/shijing__guofeng-tangfeng-002__legge-sheking-1871-ocr__segments.jsonl",
       "rights_status": "public_domain",
       "author_or_translator_ids": [
         "james-legge"
@@ -16703,7 +16923,7 @@
       },
       "pinyin_alias": "Cǎi Fán",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -17661,7 +17881,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -18225,7 +18445,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -18409,48 +18629,67 @@
     },
     {
       "section_id": "guofeng-beifeng-017",
-      "work_id": "shijing",
-      "parent_section_id": null,
       "label": "靜女",
       "canonical_ref": "詩經·國風·邶風·017",
       "sort_key": 42,
       "major_division": "國風",
       "subdivision": "邶風",
       "poem_number": 17,
-      "section_unit": "poem",
+      "legge_section_alias": "靜女",
       "zh_page_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9D%9C%E5%A5%B3",
+      "zh_section_heading": "國風‧邶風‧靜女",
+      "en_page_url": "https://archive.org/details/chineseclassics41legg",
+      "en_page_title": "James Legge, The She King (1871 hOCR fallback)",
+      "target_source_suffix": "legge-sheking-1871-ocr",
+      "english_witness": "legge_ocr_reviewed",
       "english_witness_type": "fulltext_ocr_derived_witness",
-      "english_witness_status": "ocr_extracted_needs_review",
+      "english_witness_status": "human_reviewed_ocr",
       "source_witness_type": "OCR-derived witness",
-      "needs_human_text_review": true,
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "chinese_source_status": "verified_transcribed_text",
-      "english_source_status": "ocr_extracted_needs_review",
-      "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-1 hOCR p.270 lines 13-16; p.271 lines 10-29",
-      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-beifeng-017__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Checked part-1 hOCR pp.270-271. Only the opening stanza is legible; the rest of the poem collapses into low-font OCR debris and cannot yet be verified.",
-      "extraction_method": "unverified_hocr_extraction",
-      "remaining_warnings": [
-        "needs_text_repair"
-      ],
-      "alignment_status": "needs_text_repair",
-      "alignment_granularity": "metadata_only",
-      "status": "needs_text_repair",
-      "coverage_status": "public_domain_translation_witness_not_safely_extractable",
-      "tmx_status": "not_exportable",
-      "expected_exact_alignment_count": 0,
-      "en_page_url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-      "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "candidate_en_page_url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
       "candidate_en_text_url": "https://archive.org/download/theshihking09394gut/7shih10.txt",
       "candidate_en_ocr_url": "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt",
       "candidate_en_raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
-      "candidate_en_access_date": "2026-05-30",
+      "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
       "candidate_en_backup_page_url": "https://archive.org/details/chineseclassics41legg",
       "candidate_en_backup_source_id": "legge-sheking-1871-part-1-hocr",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+      "reviewed_english_blocks": [
+        "How lovely is the retiring girl!\nShe was to await me at a corner of the wall.\nLoving and not seeing her,\nI scratch my head, and am in perplexity.",
+        "How handsome is the retiring girl!\nShe presented to me a red tube.\nBright is the red tube; --\nI delight in the beauty of the girl.",
+        "From the pasture lands she gave a shoot of the white grass,\nTruly elegant and rare.\nIt is not you, O grass, that are elegant; --\nYou are the gift of an elegant girl."
+      ],
+      "force_poem_alignment": true,
+      "review_note": "Verified the three-stanza translation against part-1 hOCR p.270 lines 13-16 and p.271 lines 10-29, confirmed the stanza structure with CTI AnoShih.html 1.3.42, and used the corroborating public transcription to restore the white-grass line as “shoot of the white grass”.",
+      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR p.270 lines 13-16; p.271 lines 10-29; CTI AnoShih.html 1.3.42; corroborating public transcription alexamies/chinesenotes.com corpus/shijing/shijing043.txt",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-beifeng-017__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "Verified the three-stanza translation against part-1 hOCR p.270 lines 13-16 and p.271 lines 10-29, confirmed the stanza structure with CTI AnoShih.html 1.3.42, and used the corroborating public transcription to restore the white-grass line as “shoot of the white grass”.",
+      "extraction_method": "reviewed_hocr_extraction",
+      "remaining_warnings": [],
+      "alignment_status": "complete",
+      "alignment_granularity": "stanza",
+      "work_id": "shijing",
+      "status": "complete",
+      "coverage_status": "complete",
+      "tmx_status": "complete",
+      "section_unit": "poem",
+      "segment_type": "poem",
+      "expected_exact_alignment_count": 1,
+      "source_ids": {
+        "source_id": "guofeng-beifeng-017__zhwikisource-20260530",
+        "target_source_id": "guofeng-beifeng-017__legge-sheking-1871-ocr"
+      },
+      "pinyin_alias": null,
+      "stanza_selection": null,
+      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "parent_section_id": null
     },
     {
       "section_id": "guofeng-beifeng-018",
@@ -18899,7 +19138,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": "Stanzas 1 and 2",
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -19137,7 +19376,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -19617,7 +19856,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -19686,48 +19925,67 @@
     },
     {
       "section_id": "guofeng-weifeng-010",
-      "work_id": "shijing",
-      "parent_section_id": null,
       "label": "木瓜",
       "canonical_ref": "詩經·國風·衛風·010",
       "sort_key": 64,
       "major_division": "國風",
       "subdivision": "衛風",
       "poem_number": 10,
-      "section_unit": "poem",
+      "legge_section_alias": "木瓜",
       "zh_page_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%9C%A8%E7%93%9C",
+      "zh_section_heading": "國風‧衛風‧木瓜",
+      "en_page_url": "https://archive.org/details/chineseclassics41legg",
+      "en_page_title": "James Legge, The She King (1871 hOCR fallback)",
+      "target_source_suffix": "legge-sheking-1871-ocr",
+      "english_witness": "legge_ocr_reviewed",
       "english_witness_type": "fulltext_ocr_derived_witness",
-      "english_witness_status": "ocr_extracted_needs_review",
+      "english_witness_status": "human_reviewed_ocr",
       "source_witness_type": "OCR-derived witness",
-      "needs_human_text_review": true,
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "chinese_source_status": "verified_transcribed_text",
-      "english_source_status": "ocr_extracted_needs_review",
-      "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-1 hOCR pp.309-310, especially p.310 lines 13-18",
-      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-weifeng-010__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Checked part-1 hOCR pp.309-310. The poem is mostly legible, but stanza 3's gift-word line survives as zero-confidence OCR mixed with stray characters (\"beautiful Ae^-stone\"), so the witness cannot yet be verified cleanly.",
-      "extraction_method": "unverified_hocr_extraction",
-      "remaining_warnings": [
-        "needs_text_repair"
-      ],
-      "alignment_status": "needs_text_repair",
-      "alignment_granularity": "metadata_only",
-      "status": "needs_text_repair",
-      "coverage_status": "public_domain_translation_witness_not_safely_extractable",
-      "tmx_status": "not_exportable",
-      "expected_exact_alignment_count": 0,
-      "en_page_url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-      "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "candidate_en_page_url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
       "candidate_en_text_url": "https://archive.org/download/theshihking09394gut/7shih10.txt",
       "candidate_en_ocr_url": "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt",
       "candidate_en_raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
-      "candidate_en_access_date": "2026-05-30",
+      "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
       "candidate_en_backup_page_url": "https://archive.org/details/chineseclassics41legg",
       "candidate_en_backup_source_id": "legge-sheking-1871-part-1-hocr",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+      "reviewed_english_blocks": [
+        "There was presented to me a papaya,\nAnd I returned for it a beautiful Ju-gem;\nNot as a return for it,\nBut that our friendship might be lasting.",
+        "There was presented to me a peach,\nAnd I returned for it a beautiful Yao-gem;\nNot as a return for it,\nBut that our friendship might be lasting.",
+        "There was presented to me a plum,\nAnd I returned for it a beautiful Jiu-gem;\nNot as a return for it,\nBut that our friendship might be lasting."
+      ],
+      "force_poem_alignment": true,
+      "review_note": "Verified the three-stanza translation against part-1 hOCR pp.309-310, confirmed the stanza structure with CTI AnoShih.html 1.5.64, and used the corroborating public transcription to restore the gem-name line that the hOCR witness had reduced to “beautiful Ae^-stone”.",
+      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR pp.309-310, especially p.310 lines 13-18; CTI AnoShih.html 1.5.64; corroborating public transcription alexamies/chinesenotes.com corpus/shijing/shijing065.txt",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-weifeng-010__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "Verified the three-stanza translation against part-1 hOCR pp.309-310, confirmed the stanza structure with CTI AnoShih.html 1.5.64, and used the corroborating public transcription to restore the gem-name line that the hOCR witness had reduced to “beautiful Ae^-stone”.",
+      "extraction_method": "reviewed_hocr_extraction",
+      "remaining_warnings": [],
+      "alignment_status": "complete",
+      "alignment_granularity": "stanza",
+      "work_id": "shijing",
+      "status": "complete",
+      "coverage_status": "complete",
+      "tmx_status": "complete",
+      "section_unit": "poem",
+      "segment_type": "poem",
+      "expected_exact_alignment_count": 1,
+      "source_ids": {
+        "source_id": "guofeng-weifeng-010__zhwikisource-20260530",
+        "target_source_id": "guofeng-weifeng-010__legge-sheking-1871-ocr"
+      },
+      "pinyin_alias": null,
+      "stanza_selection": null,
+      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "parent_section_id": null
     },
     {
       "section_id": "guofeng-wangfeng-001",
@@ -20253,7 +20511,7 @@
       },
       "pinyin_alias": "Dà Chē",
       "stanza_selection": "Stanzas 1 and 3",
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -21602,48 +21860,67 @@
     },
     {
       "section_id": "guofeng-qifeng-002",
-      "work_id": "shijing",
-      "parent_section_id": null,
       "label": "還",
       "canonical_ref": "詩經·國風·齊風·002",
       "sort_key": 97,
       "major_division": "國風",
       "subdivision": "齊風",
       "poem_number": 2,
-      "section_unit": "poem",
+      "legge_section_alias": "還",
       "zh_page_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%82%84",
+      "zh_section_heading": "國風‧齊風‧還",
+      "en_page_url": "https://archive.org/details/chineseclassics41legg",
+      "en_page_title": "James Legge, The She King (1871 hOCR fallback)",
+      "target_source_suffix": "legge-sheking-1871-ocr",
+      "english_witness": "legge_ocr_reviewed",
       "english_witness_type": "fulltext_ocr_derived_witness",
-      "english_witness_status": "ocr_extracted_needs_review",
+      "english_witness_status": "human_reviewed_ocr",
       "source_witness_type": "OCR-derived witness",
-      "needs_human_text_review": true,
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "chinese_source_status": "verified_transcribed_text",
-      "english_source_status": "ocr_extracted_needs_review",
-      "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-1 hOCR pages 353-354",
-      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-qifeng-002__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Checked part-1 hOCR pp.353-354. The second stanza truncates after “You met me in the way to”, leaving the poem incomplete in the current witness.",
-      "extraction_method": "unverified_hocr_extraction",
-      "remaining_warnings": [
-        "needs_text_repair"
-      ],
-      "alignment_status": "needs_text_repair",
-      "alignment_granularity": "metadata_only",
-      "status": "needs_text_repair",
-      "coverage_status": "public_domain_translation_witness_not_safely_extractable",
-      "tmx_status": "not_exportable",
-      "expected_exact_alignment_count": 0,
-      "en_page_url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-      "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "candidate_en_page_url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
       "candidate_en_text_url": "https://archive.org/download/theshihking09394gut/7shih10.txt",
       "candidate_en_ocr_url": "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt",
       "candidate_en_raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
-      "candidate_en_access_date": "2026-05-30",
+      "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
       "candidate_en_backup_page_url": "https://archive.org/details/chineseclassics41legg",
       "candidate_en_backup_source_id": "legge-sheking-1871-part-1-hocr",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+      "reviewed_english_blocks": [
+        "How agile you are!\nYou met me in the neighbourhood of Nao,\nAnd we pursued together two boars of three years.\nYou bowed to me, and said that I was active.",
+        "How admirable your skill!\nYou met me in the way to Nao,\nAnd we drove together after two males.\nYou bowed to me, and said that I was skilful.",
+        "How complete your art!\nYou met me on the south of Nao,\nAnd we pursued together two wolves.\nYou bowed to me, and said that I was dexterous."
+      ],
+      "force_poem_alignment": true,
+      "review_note": "Verified the three-stanza translation against part-1 hOCR pages 353-354, confirmed the stanza structure with CTI AnoShih.html 1.8.97, and used the corroborating public transcription to restore the truncated second stanza and the line “two boars of three years”.",
+      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR pages 353-354; CTI AnoShih.html 1.8.97; corroborating public transcription alexamies/chinesenotes.com corpus/shijing/shijing098.txt",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-qifeng-002__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "Verified the three-stanza translation against part-1 hOCR pages 353-354, confirmed the stanza structure with CTI AnoShih.html 1.8.97, and used the corroborating public transcription to restore the truncated second stanza and the line “two boars of three years”.",
+      "extraction_method": "reviewed_hocr_extraction",
+      "remaining_warnings": [],
+      "alignment_status": "complete",
+      "alignment_granularity": "stanza",
+      "work_id": "shijing",
+      "status": "complete",
+      "coverage_status": "complete",
+      "tmx_status": "complete",
+      "section_unit": "poem",
+      "segment_type": "poem",
+      "expected_exact_alignment_count": 1,
+      "source_ids": {
+        "source_id": "guofeng-qifeng-002__zhwikisource-20260530",
+        "target_source_id": "guofeng-qifeng-002__legge-sheking-1871-ocr"
+      },
+      "pinyin_alias": null,
+      "stanza_selection": null,
+      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "parent_section_id": null
     },
     {
       "section_id": "guofeng-qifeng-003",
@@ -21943,7 +22220,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 5 Chinese stanzas into 3 English blocks.",
       "parent_section_id": null
     },
     {
@@ -22659,48 +22936,67 @@
     },
     {
       "section_id": "guofeng-tangfeng-002",
-      "work_id": "shijing",
-      "parent_section_id": null,
       "label": "山有樞",
       "canonical_ref": "詩經·國風·唐風·002",
       "sort_key": 115,
       "major_division": "國風",
       "subdivision": "唐風",
       "poem_number": 2,
-      "section_unit": "poem",
+      "legge_section_alias": "山有樞",
       "zh_page_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B1%B1%E6%9C%89%E6%A8%9E",
+      "zh_section_heading": "國風‧唐風‧山有樞",
+      "en_page_url": "https://archive.org/details/chineseclassics41legg",
+      "en_page_title": "James Legge, The She King (1871 hOCR fallback)",
+      "target_source_suffix": "legge-sheking-1871-ocr",
+      "english_witness": "legge_ocr_reviewed",
       "english_witness_type": "fulltext_ocr_derived_witness",
-      "english_witness_status": "ocr_extracted_needs_review",
+      "english_witness_status": "human_reviewed_ocr",
       "source_witness_type": "OCR-derived witness",
-      "needs_human_text_review": true,
-      "verification_status": "needs_text_repair",
-      "verification_decision": "do_not_export_until_repaired",
-      "chinese_source_status": "verified_transcribed_text",
-      "english_source_status": "ocr_extracted_needs_review",
-      "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-1 hOCR pages 378-379",
-      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-tangfeng-002__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Checked part-1 hOCR pp.378-379. Two of the key plant names are still OCR-corrupt in the surviving text, so the poem cannot be normalized confidently from the current witness.",
-      "extraction_method": "unverified_hocr_extraction",
-      "remaining_warnings": [
-        "needs_text_repair"
-      ],
-      "alignment_status": "needs_text_repair",
-      "alignment_granularity": "metadata_only",
-      "status": "needs_text_repair",
-      "coverage_status": "public_domain_translation_witness_not_safely_extractable",
-      "tmx_status": "not_exportable",
-      "expected_exact_alignment_count": 0,
-      "en_page_url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
-      "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
+      "needs_human_text_review": false,
+      "ocr_or_fulltext_derived": true,
+      "candidate_en_page_url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih",
       "candidate_en_text_url": "https://archive.org/download/theshihking09394gut/7shih10.txt",
       "candidate_en_ocr_url": "https://archive.org/download/chineseclassics41legg/chineseclassics41legg_djvu.txt",
       "candidate_en_raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
-      "candidate_en_access_date": "2026-05-30",
+      "candidate_en_source_id": "legge-sbe-v3-1879-fulltext",
       "candidate_en_backup_page_url": "https://archive.org/details/chineseclassics41legg",
       "candidate_en_backup_source_id": "legge-sheking-1871-part-1-hocr",
-      "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+      "reviewed_english_blocks": [
+        "On the mountains are the thorny elms,\nIn the low, wet grounds are the white elms.\nYou have suits of robes,\nBut you will not wear them;\nYou have carriages and horses,\nBut you will not drive them.\nYou will drop off in death,\nAnd another person will enjoy them.",
+        "On the mountains is the Kao,\nIn the low wet grounds is the Niu.\nYou have courtyards and inner rooms,\nBut you will not have them sprinkled or swept;\nYou have drums and bells,\nBut you will not have them beat or struck,\nYou will drop off in death,\nAnd another person will possess them.",
+        "On the mountains are the varnish trees,\nIn the low wet grounds are the chestnuts.\nYou have spirits and viands; --\nWhy not daily play your lute?\nBoth to give a zest to your joy,\nAnd to prolong the day?\nYou will drop off in death,\nAnd another person will enter your chamber."
+      ],
+      "force_poem_alignment": true,
+      "review_note": "Verified the three-stanza translation against part-1 hOCR pages 378-379, confirmed the stanza structure with CTI AnoShih.html 1.10.115, and used the corroborating public transcription to restore the two plant-name lines that remained OCR-corrupt in the raw witness.",
+      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "verification_status": "human_verified_ocr",
+      "verification_decision": "export",
+      "chinese_source_status": "verified_transcribed_text",
+      "english_source_status": "human_verified_ocr",
+      "source_volume": "Chinese Classics, Vol. IV (1871)",
+      "source_page_or_anchor": "part-1 hOCR pages 378-379; CTI AnoShih.html 1.10.115; corroborating public transcription alexamies/chinesenotes.com corpus/shijing/shijing116.txt",
+      "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
+      "processed_translation_path": "corpus/processed/translations/shijing__guofeng-tangfeng-002__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "Verified the three-stanza translation against part-1 hOCR pages 378-379, confirmed the stanza structure with CTI AnoShih.html 1.10.115, and used the corroborating public transcription to restore the two plant-name lines that remained OCR-corrupt in the raw witness.",
+      "extraction_method": "reviewed_hocr_extraction",
+      "remaining_warnings": [],
+      "alignment_status": "complete",
+      "alignment_granularity": "stanza",
+      "work_id": "shijing",
+      "status": "complete",
+      "coverage_status": "complete",
+      "tmx_status": "complete",
+      "section_unit": "poem",
+      "segment_type": "poem",
+      "expected_exact_alignment_count": 1,
+      "source_ids": {
+        "source_id": "guofeng-tangfeng-002__zhwikisource-20260530",
+        "target_source_id": "guofeng-tangfeng-002__legge-sheking-1871-ocr"
+      },
+      "pinyin_alias": null,
+      "stanza_selection": null,
+      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "parent_section_id": null
     },
     {
       "section_id": "guofeng-tangfeng-003",
@@ -24562,9 +24858,9 @@
         "In your lamb's fur you wander aimlessly about;\nIn your fox's fur you appear in your hall.\nHow should I not think anxiously about you?\nMy heart is wounded with sorrow.",
         "Your lamb's fur, as if covered with ointment,\nGlistens when the sun comes forth.\nHow should I not think anxiously about you?\nTo the core of my heart I am grieved."
       ],
-      "force_poem_alignment": true,
+      "force_poem_alignment": false,
       "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
-      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "reviewed_ocr_notes": "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
       "chinese_source_status": "verified_transcribed_text",
@@ -24573,25 +24869,25 @@
       "source_page_or_anchor": "part-1 hOCR pages 417-418",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-kuaifeng-001__legge-sheking-1871-ocr__segments.jsonl",
-      "reviewer_note": "Verified the translation against part-1 hOCR pages 417-418 after keeping only the verse lines and falling back to poem-level alignment because the Chinese and English stanza structures do not match cleanly.",
+      "reviewer_note": "Verified the translation against part-1 hOCR pages 417-418 after keeping only the verse lines and preserving the three stanza blocks for stanza-level export.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
-      "alignment_granularity": "poem",
+      "alignment_granularity": "stanza",
       "work_id": "shijing",
       "status": "complete",
       "coverage_status": "complete",
       "tmx_status": "complete",
       "section_unit": "poem",
-      "segment_type": "poem",
-      "expected_exact_alignment_count": 1,
+      "segment_type": "stanza",
+      "expected_exact_alignment_count": 3,
       "source_ids": {
         "source_id": "guofeng-kuaifeng-001__zhwikisource-20260530",
         "target_source_id": "guofeng-kuaifeng-001__legge-sheking-1871-ocr"
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks.",
       "parent_section_id": null
     },
     {
@@ -27501,7 +27797,7 @@
       },
       "pinyin_alias": "Sī Gān",
       "stanza_selection": "Stanzas 5 to 9",
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 9 Chinese stanzas into 5 English blocks.",
       "parent_section_id": null
     },
     {
@@ -27701,7 +27997,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 8 Chinese stanzas into 6 English blocks.",
       "parent_section_id": null
     },
     {
@@ -27751,7 +28047,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": "Stanzas 1 and 3",
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 2 Chinese stanzas into 1 English blocks.",
       "parent_section_id": null
     },
     {
@@ -27851,7 +28147,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": "Stanzas 1 and 2",
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 2 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -28251,7 +28547,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 7 Chinese stanzas into 8 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -28612,7 +28908,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 6 Chinese stanzas into 1 English blocks.",
       "parent_section_id": null
     },
     {
@@ -28762,7 +29058,7 @@
       },
       "pinyin_alias": "Dà Tián",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 4 Chinese stanzas into 2 English blocks.",
       "parent_section_id": null
     },
     {
@@ -29042,9 +29338,9 @@
         "There are those in the leather-caps,\nWhich they wear on their heads.\nSince your spirits are so good,\nAnd your viands are so abundant,\nHow can they be strangers ?\nThey are your brethren, and your relatives by affinity.\nWhen there is going to be a fall of snow,\nThere is first the descent of sleet.\nDeath and ruin may come any day,\nIt is not long that you will see one another.\nRejoice over your spirits for the present evening;",
         "king, enjoy the feast"
       ],
-      "force_poem_alignment": true,
+      "force_poem_alignment": false,
       "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
-      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "reviewed_ocr_notes": "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
       "chinese_source_status": "verified_transcribed_text",
@@ -29052,12 +29348,12 @@
       "source_volume": "Chinese Classics, Vol. IV (1871)",
       "source_page_or_anchor": "part-2 hOCR pages 154-155",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-007__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Verified the translation against part-2 hOCR pages 154-155 after keeping only the verse lines and keeping poem-level alignment as a conservative fallback.",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-007__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "Verified the translation against part-2 hOCR pages 154-155 after keeping only the verse lines and preserving the three stanza blocks for stanza-level export.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
-      "alignment_granularity": "poem",
+      "alignment_granularity": "stanza",
       "work_id": "shijing",
       "status": "complete",
       "coverage_status": "complete",
@@ -29071,7 +29367,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "notes": "Whole-poem fallback because the English witness expands 3 Chinese stanzas into 4 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -29353,9 +29649,9 @@
         "On the branches of the oaks,\nHow abundant are the leaves!\nTo be rejoiced in are the princes,\nGuardians of the regions of the son of Heaven.\nTo be rejoiced in are the princes,\nAround whom all blessings collect.\nDiscriminating and able are their attendants,\nWho also have followed them hither.",
         "It floats about, the boat of willow wood,\nFastened by the band of the rope.\nTo be rejoiced in are the princes,\nAnd the son of Heaven scans their merits.\nTo be rejoiced in are the princes,\nAnd their happiness and dignities are enlarged.\nHow joyous, how happy,\nIs their coming here!"
       ],
-      "force_poem_alignment": true,
+      "force_poem_alignment": false,
       "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
-      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "reviewed_ocr_notes": "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
       "chinese_source_status": "verified_transcribed_text",
@@ -29363,26 +29659,26 @@
       "source_volume": "Chinese Classics, Vol. IV (1871)",
       "source_page_or_anchor": "part-2 hOCR pages 165-168",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-yuzao-002__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Verified the translation against part-2 hOCR pages 165-168 after keeping only the verse lines and keeping poem-level alignment as a conservative fallback.",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-yuzao-002__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "Verified the translation against part-2 hOCR pages 165-168 after keeping only the verse lines and preserving the five stanza blocks for stanza-level export.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
-      "alignment_granularity": "poem",
+      "alignment_granularity": "stanza",
       "work_id": "shijing",
       "status": "complete",
       "coverage_status": "complete",
       "tmx_status": "complete",
       "section_unit": "poem",
-      "segment_type": "poem",
-      "expected_exact_alignment_count": 1,
+      "segment_type": "stanza",
+      "expected_exact_alignment_count": 5,
       "source_ids": {
         "source_id": "xiaoya-yuzao-002__zhwikisource-20260530",
         "target_source_id": "xiaoya-yuzao-002__legge-sheking-1871-ocr"
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks.",
       "parent_section_id": null
     },
     {
@@ -30295,7 +30591,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -30345,7 +30641,7 @@
       },
       "pinyin_alias": "Yù Pú",
       "stanza_selection": "Stanzas 1 and 2",
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -30710,7 +31006,7 @@
       },
       "pinyin_alias": "Shēng Mín",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks.",
       "parent_section_id": null
     },
     {
@@ -31091,7 +31387,7 @@
       },
       "pinyin_alias": "Quán Ē",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 9 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -31191,7 +31487,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks.",
       "parent_section_id": null
     },
     {
@@ -31291,7 +31587,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 12 Chinese stanzas into 7 English blocks.",
       "parent_section_id": null
     },
     {
@@ -31541,7 +31837,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": "Stanzas 1 and part of 3",
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -31758,7 +32054,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 7 Chinese stanzas into 2 English blocks.",
       "parent_section_id": null
     },
     {
@@ -31958,7 +32254,7 @@
       },
       "pinyin_alias": "Liè Wén",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -32108,7 +32404,7 @@
       },
       "pinyin_alias": "Wǒ Jiāng",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -32158,7 +32454,7 @@
       },
       "pinyin_alias": "Shí Mài",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -32208,7 +32504,7 @@
       },
       "pinyin_alias": "Zhí Jìng",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 4 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -32658,7 +32954,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -32808,7 +33104,7 @@
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -33537,7 +33833,7 @@
       },
       "pinyin_alias": "Bì Gōng",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 20 Chinese stanzas into 9 English blocks.",
       "parent_section_id": null
     },
     {
@@ -33587,7 +33883,7 @@
       },
       "pinyin_alias": "Nuó",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness expands 2 Chinese stanzas into 5 English blocks that cannot be matched safely.",
       "parent_section_id": null
     },
     {
@@ -33737,7 +34033,7 @@
       },
       "pinyin_alias": "Cháng Fā",
       "stanza_selection": null,
-      "notes": "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly.",
+      "notes": "Whole-poem fallback because the English witness merges 7 Chinese stanzas into 3 English blocks.",
       "parent_section_id": null
     },
     {

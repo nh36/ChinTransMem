@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__daya-shengmin-001__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-shengmin-001,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·大雅·生民之什·001.1,"厥初生民，時維姜嫄。生民如何？克禋克祀，以弗無子。
+shijing__daya-shengmin-001__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-shengmin-001,poem,poem,poem,True,Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·大雅·生民之什·001.1,"厥初生民，時維姜嫄。生民如何？克禋克祀，以弗無子。
 履帝武敏歆，攸介攸止。載震載夙，載生載育。時維后稷。
 
 誕彌厥月，先生如達。不坼不副，無菑無害。

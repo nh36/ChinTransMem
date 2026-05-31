@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-binfeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-binfeng-005,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·豳風·005.1,"伐柯如何？匪斧不克。取妻如何？匪媒不得。
+shijing__guofeng-binfeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-binfeng-005,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·豳風·005.1,"伐柯如何？匪斧不克。取妻如何？匪媒不得。
 伐柯伐柯，其則不遠。我覯之子？籩豆有踐。",伐柯.1,"How he hews an axe-handle!
 How he hews it, indeed!
 It is not far to seek;

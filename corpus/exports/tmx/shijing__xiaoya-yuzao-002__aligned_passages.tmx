@@ -6,31 +6,18 @@
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-yuzao-002</prop>
       <prop type="x-section-unit">poem</prop>
-      <prop type="x-segment-type">poem</prop>
-      <prop type="x-alignment-granularity">poem</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.95</prop>
+      <prop type="x-confidence">0.99</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·魚藻之什·002.1</prop>
       <prop type="x-translation-ref">采菽.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>采菽采菽，筐之筥之。君子來朝，何錫予之？
-雖無予之，路車乘馬。又何予之？玄袞及黼。
-
-觱沸檻泉，言采其芹。君子來朝，言觀其旂。
-其旂淠淠，鸞聲嘒嘒。載驂載駟，君子所屆。
-
-赤芾在股，邪幅在下。彼交匪紓，天子所予。
-樂只君子，天子命之。樂只君子，福祿申之。
-
-維柞之枝，其葉蓬蓬。樂只君子，殿天子之邦。
-樂只君子，萬福攸同。平平左右，亦是率從。
-
-汎汎楊舟，紼纚維之。樂只君子，天子葵之。
-樂只君子，福祿膍之。優哉游哉，亦是戾矣。</seg>
+雖無予之，路車乘馬。又何予之？玄袞及黼。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>They gather the beans, they gather the beans,
@@ -41,18 +28,56 @@ Although I have none to give them,
 There are the state carriages and their teams.
 What more have I to give them?
 The dark-coloured upper robes with the dragon,
-And the lower garments with the hatchet.
-
-Right up bubbles the water from the spring,
+And the lower garments with the hatchet.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-002__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·002.2</prop>
+      <prop type="x-translation-ref">采菽.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>觱沸檻泉，言采其芹。君子來朝，言觀其旂。
+其旂淠淠，鸞聲嘒嘒。載驂載駟，君子所屆。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Right up bubbles the water from the spring,
 And they gather the cress about it.
 The princes are coming to court,
 And I see their dragon flags; —
 Their dragon flags moving in the wind,
 While the sound of their bells comes liwuy-liwuy.
 There are the two outside horses, there are the whole teams, —
-Proofs that the princes are come.
-
-Their red covers on their knees,
+Proofs that the princes are come.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-002__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·002.3</prop>
+      <prop type="x-translation-ref">采菽.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>赤芾在股，邪幅在下。彼交匪紓，天子所予。
+樂只君子，天子命之。樂只君子，福祿申之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Their red covers on their knees,
 And their buskins below,
 DECADE OF SANG HOO.
 There is no remissness in their demeanour; —
@@ -60,18 +85,56 @@ Of such should the son of Heaven approve.
 To be rejoiced in are the princes,
 And the son of Heaven gives them the badges of his favour.
 To be rejoiced in are the princes,
-And their happiness and dignities are renewed and extended.
-
-On the branches of the oaks,
+And their happiness and dignities are renewed and extended.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-002__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·002.4</prop>
+      <prop type="x-translation-ref">采菽.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>維柞之枝，其葉蓬蓬。樂只君子，殿天子之邦。
+樂只君子，萬福攸同。平平左右，亦是率從。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the branches of the oaks,
 How abundant are the leaves!
 To be rejoiced in are the princes,
 Guardians of the regions of the son of Heaven.
 To be rejoiced in are the princes,
 Around whom all blessings collect.
 Discriminating and able are their attendants,
-Who also have followed them hither.
-
-It floats about, the boat of willow wood,
+Who also have followed them hither.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-yuzao-002__005__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·002.5</prop>
+      <prop type="x-translation-ref">采菽.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>汎汎楊舟，紼纚維之。樂只君子，天子葵之。
+樂只君子，福祿膍之。優哉游哉，亦是戾矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>It floats about, the boat of willow wood,
 Fastened by the band of the rope.
 To be rejoiced in are the princes,
 And the son of Heaven scans their merits.

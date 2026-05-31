@@ -15,7 +15,7 @@
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·國風·鄘風·006.1</prop>
       <prop type="x-translation-ref">定之方中.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.</prop>
       <tuv xml:lang="zh-Hant">
         <seg>定之方中，作于楚宮，揆之以日，作于楚室，樹之榛栗，椅桐梓漆，爰伐琴瑟。
 升彼虛矣，以望楚矣，望楚與堂，景山與京，降觀于桑，卜云其吉，終然允臧。

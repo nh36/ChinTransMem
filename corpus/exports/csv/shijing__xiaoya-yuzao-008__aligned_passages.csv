@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-yuzao-008__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-008,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·008.1,"隰桑有阿，其葉有難。既見君子，其樂如何？
+shijing__xiaoya-yuzao-008__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-008,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·008.1,"隰桑有阿，其葉有難。既見君子，其樂如何？
 隰桑有阿，其葉有沃。既見君子，云何不樂？
 隰桑有阿，其葉有幽。既見君子，德音孔膠。
 心乎愛矣，遐不謂矣？中心藏之，何日忘之？",隰桑.1,"In the low, wet grounds, the mulberry trees are beautiful,

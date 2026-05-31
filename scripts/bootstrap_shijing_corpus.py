@@ -2648,6 +2648,130 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
             ),
         ],
     },
+    42: {
+        "english_blocks": [
+            "\n".join(
+                [
+                    "How lovely is the retiring girl!",
+                    "She was to await me at a corner of the wall.",
+                    "Loving and not seeing her,",
+                    "I scratch my head, and am in perplexity.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How handsome is the retiring girl!",
+                    "She presented to me a red tube.",
+                    "Bright is the red tube; --",
+                    "I delight in the beauty of the girl.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "From the pasture lands she gave a shoot of the white grass,",
+                    "Truly elegant and rare.",
+                    "It is not you, O grass, that are elegant; --",
+                    "You are the gift of an elegant girl.",
+                ]
+            ),
+        ],
+    },
+    64: {
+        "english_blocks": [
+            "\n".join(
+                [
+                    "There was presented to me a papaya,",
+                    "And I returned for it a beautiful Ju-gem;",
+                    "Not as a return for it,",
+                    "But that our friendship might be lasting.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "There was presented to me a peach,",
+                    "And I returned for it a beautiful Yao-gem;",
+                    "Not as a return for it,",
+                    "But that our friendship might be lasting.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "There was presented to me a plum,",
+                    "And I returned for it a beautiful Jiu-gem;",
+                    "Not as a return for it,",
+                    "But that our friendship might be lasting.",
+                ]
+            ),
+        ],
+    },
+    97: {
+        "english_blocks": [
+            "\n".join(
+                [
+                    "How agile you are!",
+                    "You met me in the neighbourhood of Nao,",
+                    "And we pursued together two boars of three years.",
+                    "You bowed to me, and said that I was active.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How admirable your skill!",
+                    "You met me in the way to Nao,",
+                    "And we drove together after two males.",
+                    "You bowed to me, and said that I was skilful.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How complete your art!",
+                    "You met me on the south of Nao,",
+                    "And we pursued together two wolves.",
+                    "You bowed to me, and said that I was dexterous.",
+                ]
+            ),
+        ],
+    },
+    115: {
+        "english_blocks": [
+            "\n".join(
+                [
+                    "On the mountains are the thorny elms,",
+                    "In the low, wet grounds are the white elms.",
+                    "You have suits of robes,",
+                    "But you will not wear them;",
+                    "You have carriages and horses,",
+                    "But you will not drive them.",
+                    "You will drop off in death,",
+                    "And another person will enjoy them.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "On the mountains is the Kao,",
+                    "In the low wet grounds is the Niu.",
+                    "You have courtyards and inner rooms,",
+                    "But you will not have them sprinkled or swept;",
+                    "You have drums and bells,",
+                    "But you will not have them beat or struck,",
+                    "You will drop off in death,",
+                    "And another person will possess them.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "On the mountains are the varnish trees,",
+                    "In the low wet grounds are the chestnuts.",
+                    "You have spirits and viands; --",
+                    "Why not daily play your lute?",
+                    "Both to give a zest to your joy,",
+                    "And to prolong the day?",
+                    "You will drop off in death,",
+                    "And another person will enter your chamber.",
+                ]
+            ),
+        ],
+    },
 }
 
 AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
@@ -4801,11 +4925,18 @@ def build_segments_and_alignments(
     english_blocks: list[str],
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], int, str, str]:
     force_poem_alignment = bool(section.get("force_poem_alignment"))
+    coarse_alignment_reason: str | None = None
     if force_poem_alignment:
         segment_type = "poem"
         chinese_segments_text = ["\n\n".join(chinese_blocks)]
         english_segments_text = ["\n\n".join(english_blocks)]
-        section_note = section["reviewed_ocr_notes"]
+        coarse_alignment_reason = section.get("reviewed_ocr_notes") or (
+            f"Whole-poem fallback because the reviewed witness keeps {len(english_blocks)} English blocks against "
+            f"{len(chinese_blocks)} Chinese blocks."
+            if max(len(chinese_blocks), len(english_blocks)) > 1
+            else None
+        )
+        section_note = coarse_alignment_reason or "Whole-poem fallback from reviewed witness cleanup."
     elif len(chinese_blocks) == len(english_blocks):
         segment_type = "stanza"
         chinese_segments_text = chinese_blocks
@@ -4826,12 +4957,21 @@ def build_segments_and_alignments(
             segment_type = "poem"
             chinese_segments_text = ["\n\n".join(chinese_blocks)]
             english_segments_text = ["\n\n".join(english_blocks)]
-            section_note = "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+            coarse_alignment_reason = (
+                "Whole-poem fallback because the English witness expands "
+                f"{len(chinese_blocks)} Chinese stanzas into {len(english_blocks)} English blocks that cannot be "
+                "matched safely."
+            )
+            section_note = coarse_alignment_reason
     else:
         segment_type = "poem"
         chinese_segments_text = ["\n\n".join(chinese_blocks)]
         english_segments_text = ["\n\n".join(english_blocks)]
-        section_note = "Fell back to poem-level alignment because Chinese and English stanza counts did not match cleanly."
+        coarse_alignment_reason = (
+            "Whole-poem fallback because the English witness merges "
+            f"{len(chinese_blocks)} Chinese stanzas into {len(english_blocks)} English blocks."
+        )
+        section_note = coarse_alignment_reason
 
     chinese_segments: list[dict[str, Any]] = []
     english_segments: list[dict[str, Any]] = []
@@ -4888,7 +5028,7 @@ def build_segments_and_alignments(
                 "segment_type": segment_type,
                 "is_coarse_alignment": segment_type == "poem" and max(len(chinese_blocks), len(english_blocks)) > 1,
                 "coarse_alignment_reason": (
-                    "Whole-poem fallback because Chinese and English stanza structures do not align safely."
+                    coarse_alignment_reason
                     if segment_type == "poem" and max(len(chinese_blocks), len(english_blocks)) > 1
                     else None
                 ),

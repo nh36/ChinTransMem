@@ -1,5 +1,5 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__guofeng-zhengfeng-017__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-017,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·鄭風·017.1,"青青子衿，悠悠我心。縱我不往，子寧不嗣音。
+shijing__guofeng-zhengfeng-017__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-017,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·鄭風·017.1,"青青子衿，悠悠我心。縱我不往，子寧不嗣音。
 青青子佩，悠悠我思。縱我不往，子寧不來。
 挑兮達兮，在城闕兮。一日不見，如三月兮。",子衿.1,"O you, with the blue collar,
 Prolonged is the anxiety of my heart.
