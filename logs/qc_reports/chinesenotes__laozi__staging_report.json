@@ -1,0 +1,42 @@
+{
+  "work_id": "laozi",
+  "mode": "staging",
+  "generated_at": "2026-05-31T21:13:11+00:00",
+  "source_root": "/tmp/chinesenotes-inspect",
+  "upstream_repository": "https://github.com/alexamies/chinesenotes.com",
+  "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+  "mapping_path": "metadata/chinesenotes_work_mapping.yml",
+  "metadata_csv_path": "data/corpus/daodejing.csv",
+  "intro_relative_path": "daodejing/daodejing000.txt",
+  "summary": {
+    "total_metadata_rows": 1,
+    "source_files_found": 1,
+    "source_files_missing": 0,
+    "source_files_parsed_successfully": 1,
+    "sections_detected": 81,
+    "sections_with_chinese": 81,
+    "sections_with_english": 81,
+    "sections_with_both": 81,
+    "sections_with_translator_attribution": 81,
+    "sections_with_public_domain_or_other_notice": 81,
+    "sections_parsed_into_clean_candidate_segments": 81,
+    "sections_requiring_manual_boundary_review": 0,
+    "sections_that_could_become_tm_exports_now": 81,
+    "sections_blocked": 0,
+    "candidate_alignment_count": 81
+  },
+  "status_counts": {
+    "exportable_candidate": 81
+  },
+  "blocked_sections": [],
+  "source_records": [
+    {
+      "row_index": 1,
+      "source_relative_path": "daodejing/daodejing001.txt",
+      "displayed_title": "Daode Jing 《道德經》",
+      "found": true,
+      "local_checkout_root": "/tmp/chinesenotes-inspect",
+      "local_raw_capture_path": "corpus/daodejing/daodejing001.txt"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "work_id": "laozi",
+  "mode": "staging",
+  "generated_at": "2026-05-31T21:13:11+00:00",
+  "upstream_repository": "https://github.com/alexamies/chinesenotes.com",
+  "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+  "source_root": "/tmp/chinesenotes-inspect",
+  "metadata_csv_path": "data/corpus/daodejing.csv",
+  "collection_title": "Daode Jing 道德經",
+  "staging_files": {
+    "source_pointers": "corpus/staging/chinesenotes/laozi/source_pointers.jsonl",
+    "sections": "corpus/staging/chinesenotes/laozi/sections.jsonl",
+    "chinese_blocks": "corpus/staging/chinesenotes/laozi/chinese_blocks.jsonl",
+    "english_blocks": "corpus/staging/chinesenotes/laozi/english_blocks.jsonl",
+    "alignments": "corpus/staging/chinesenotes/laozi/alignments.jsonl",
+    "staging_report": "corpus/staging/chinesenotes/laozi/staging_coverage_report.json",
+    "qc_report": "logs/qc_reports/chinesenotes__laozi__staging_report.json"
+  },
+  "summary": {
+    "total_metadata_rows": 1,
+    "source_files_found": 1,
+    "source_files_missing": 0,
+    "source_files_parsed_successfully": 1,
+    "sections_detected": 81,
+    "sections_with_chinese": 81,
+    "sections_with_english": 81,
+    "sections_with_both": 81,
+    "sections_with_translator_attribution": 81,
+    "sections_with_public_domain_or_other_notice": 81,
+    "sections_parsed_into_clean_candidate_segments": 81,
+    "sections_requiring_manual_boundary_review": 0,
+    "sections_that_could_become_tm_exports_now": 81,
+    "sections_blocked": 0,
+    "candidate_alignment_count": 81
+  }
+}
