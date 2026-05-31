@@ -210,6 +210,14 @@ def shijing_witness_metadata(english_witness: str | None) -> dict[str, Any]:
             "needs_human_text_review": True,
             "ocr_or_fulltext_derived": True,
         }
+    if english_witness == "legge_fulltext_reviewed":
+        return {
+            "english_witness_type": "fulltext_derived_witness",
+            "english_witness_status": "human_reviewed_fulltext",
+            "source_witness_type": "full-text derived witness",
+            "needs_human_text_review": False,
+            "ocr_or_fulltext_derived": True,
+        }
     if english_witness == "legge_hocr":
         return {
             "english_witness_type": "fulltext_ocr_derived_witness",
@@ -408,6 +416,7 @@ def build_remaining_section_record(
         "title": section.get("title_zh") or section.get("label") or section.get("title"),
         "major_division": section.get("major_division"),
         "subdivision": section.get("subdivision"),
+        "source_volume": verification.get("source_volume") if verification else None,
         "source_page_or_anchor": (
             verification.get("source_page_or_anchor") if verification else None
         ),

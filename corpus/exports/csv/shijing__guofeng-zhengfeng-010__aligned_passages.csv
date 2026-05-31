@@ -1,0 +1,9 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhengfeng-010__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-zhengfeng-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄭風·010.1,山有扶蘇，隰有荷華。不見子都，乃見狂且。,Shan yû fû sû.1,"On the mountain is the mulberry tree;
+In the marshes is the lotus flower.
+I do not see Zidu,
+But I see this mad fellow."
+shijing__guofeng-zhengfeng-010__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-zhengfeng-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄭風·010.2,山有喬松，隰有游龍。不見子充，乃見狡童。,Shan yû fû sû.2,"On the mountain is the lofty pine;
+In the marshes is the spreading water-polygonum..
+I do not see Zichong,
+But I see this artful boy."

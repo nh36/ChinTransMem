@@ -8,17 +8,17 @@ This report complements the structural preflight checks with verification-ledger
 | --- | ---: |
 | section_count | 311 |
 | extant_poem_count | 305 |
-| exportable_extant_poems | 285 |
-| non_exportable_extant_poems | 20 |
+| exportable_extant_poems | 289 |
+| non_exportable_extant_poems | 16 |
 | title_only_lost_text_entries | 6 |
 | remaining_likely_repairable_cases | 0 |
-| remaining_needs_better_witness_cases | 18 |
+| remaining_needs_better_witness_cases | 14 |
 | remaining_known_unrecoverable_cases | 2 |
-| complete_sections | 285 |
-| metadata_only_sections | 26 |
-| non_exportable_extant_sections | 20 |
-| exact_alignment_count | 708 |
-| ocr_or_fulltext_derived_sections | 182 |
+| complete_sections | 289 |
+| metadata_only_sections | 22 |
+| non_exportable_extant_sections | 16 |
+| exact_alignment_count | 718 |
+| ocr_or_fulltext_derived_sections | 186 |
 | sections_needing_human_text_review | 0 |
 | sections_with_coarse_alignment | 88 |
 | sections_with_single_poem_alignment | 95 |
@@ -34,32 +34,32 @@ This report complements the structural preflight checks with verification-ledger
 | Metric | Count |
 | --- | ---: |
 | total_extant_poems | 305 |
-| verified_exportable_poems | 285 |
-| non_exportable_extant_poems | 20 |
+| verified_exportable_poems | 289 |
+| non_exportable_extant_poems | 16 |
 | title_only_lost_text_entries | 6 |
 | all_human_verified_ocr_sections | 182 |
-| non_exportable_repair_queue_remaining | 20 |
-| current_repair_batch | 2026-05-31-09-shijing-finalization |
+| non_exportable_repair_queue_remaining | 16 |
+| current_repair_batch | 2026-05-31-10-shijing-last20-recovery-start |
 | newly_repaired_in_current_batch | 4 |
 
 ## Current batch summary
 
 | Metric | Count |
 | --- | ---: |
-| repair_batch | 2026-05-31-09-shijing-finalization |
+| repair_batch | 2026-05-31-10-shijing-last20-recovery-start |
 | latest_review_date | 2026-05-31 |
 | newly_repaired_in_current_batch | 4 |
-| human_verified_ocr_sections_in_current_batch | 4 |
-| human_verified_fulltext_sections_in_current_batch | 0 |
+| human_verified_ocr_sections_in_current_batch | 0 |
+| human_verified_fulltext_sections_in_current_batch | 4 |
 
 ## Newly repaired in current batch
 
 | Section | Title | Canonical ref | Verification status |
 | --- | --- | --- | --- |
-| guofeng-tangfeng-002 | 山有樞 | 詩經·國風·唐風·002 | human_verified_ocr |
-| guofeng-weifeng-010 | 木瓜 | 詩經·國風·衛風·010 | human_verified_ocr |
-| guofeng-beifeng-017 | 靜女 | 詩經·國風·邶風·017 | human_verified_ocr |
-| guofeng-qifeng-002 | 還 | 詩經·國風·齊風·002 | human_verified_ocr |
+| guofeng-zhengfeng-001 | 緇衣 | 詩經·國風·鄭風·001 | human_verified_fulltext |
+| guofeng-zhengfeng-008 | 女曰鷄鳴 | 詩經·國風·鄭風·008 | human_verified_fulltext |
+| guofeng-zhengfeng-010 | 山有扶蘇 | 詩經·國風·鄭風·010 | human_verified_fulltext |
+| guofeng-zhengfeng-021 | 溱洧 | 詩經·國風·鄭風·021 | human_verified_fulltext |
 
 ## Sections investigated but left non-exportable in this pass
 
@@ -79,6 +79,7 @@ This report complements the structural preflight checks with verification-ledger
 | 2026-05-30-06-chen-qin-binfeng-cao-kuai-leftovers | 29 | 29 | 0 |
 | 2026-05-30-07-guofeng-cleanup-xiaoya-start | 30 | 30 | 0 |
 | 2026-05-31-08-xiaoya-completion-daya-song-start | 25 | 25 | 0 |
+| 2026-05-31-09-shijing-finalization | 4 | 4 | 0 |
 | pre-batch verified | 20 | 20 | 0 |
 
 ## OCR sanity tests added
@@ -140,7 +141,7 @@ This report complements the structural preflight checks with verification-ledger
 
 | Metric | Count |
 | --- | ---: |
-| Needs better witness | 18 |
+| Needs better witness | 14 |
 | Known unrecoverable with current witness | 2 |
 | Likely repairable now | 0 |
 | Not yet investigated in detail | 0 |
@@ -149,7 +150,6 @@ This report complements the structural preflight checks with verification-ledger
 
 | Metric | Count |
 | --- | ---: |
-| 國風 / 鄭風 | 5 |
 | 國風 / 邶風 | 3 |
 | 國風 / 魏風 | 3 |
 | 國風 / 王風 | 2 |
@@ -158,6 +158,7 @@ This report complements the structural preflight checks with verification-ledger
 | 國風 / 衛風 | 1 |
 | 國風 / 豳風 | 1 |
 | 國風 / 鄘風 | 1 |
+| 國風 / 鄭風 | 1 |
 | 國風 / 陳風 | 1 |
 | 國風 / 齊風 | 1 |
 
@@ -165,7 +166,6 @@ This report complements the structural preflight checks with verification-ledger
 
 | Metric | Count |
 | --- | ---: |
-| 國風 / 鄭風 | 5 |
 | 國風 / 邶風 | 3 |
 | 國風 / 魏風 | 3 |
 | 國風 / 王風 | 2 |
@@ -174,6 +174,7 @@ This report complements the structural preflight checks with verification-ledger
 | 國風 / 衛風 | 1 |
 | 國風 / 豳風 | 1 |
 | 國風 / 鄘風 | 1 |
+| 國風 / 鄭風 | 1 |
 | 國風 / 陳風 | 1 |
 | 國風 / 齊風 | 1 |
 
@@ -209,11 +210,7 @@ This report complements the structural preflight checks with verification-ledger
 | guofeng-beifeng-001 | 柏舟 | 詩經·國風·邶風·001 | Checked part-1 hOCR pp.240-242. Stanzas 1, 2, 4, and 5 are partly recoverable, but stanza 3 breaks into gibberish and the paired Chinese page also contains the separate 鄘·柏舟 entry, so the source pairing is not yet safe. |
 | guofeng-beifeng-010 | 谷風 | 詩經·國風·邶風·010 | Checked part-1 hOCR pp.257-260. The first six stanzas are partly recoverable, but the remaining stanzas are not cleanly separable from commentary and page-break noise, so export would still be incomplete. |
 | guofeng-yongfeng-008 | 相鼠 | 詩經·國風·鄘風·008 | Checked part-1 hOCR pp.286-287. Only stanza 1 is legible in the current witness; stanzas 2 and 3 drop out before the next book heading, so the poem remains incomplete and non-exportable. |
-| guofeng-zhengfeng-001 | 緇衣 | 詩經·國風·鄭風·001 | Checked part-1 hOCR pp.326-327. Only two partial stanzas survive before the witness breaks off, so the poem remains incomplete in the current source. |
-| guofeng-zhengfeng-008 | 女曰鷄鳴 | 詩經·國風·鄭風·008 | Checked part-1 hOCR pp.336-338. The opening stanza survives only as two dialogue lines before the rest of the poem continues, so the current witness does not preserve a clean full-poem boundary. |
 | guofeng-zhengfeng-009 | 有女同車 | 詩經·國風·鄭風·009 | Checked part-1 hOCR pp.338-339. Only the opening stanza survives before the ODES OF CH'ING running heading, so the poem is incomplete in the current witness. |
-| guofeng-zhengfeng-010 | 山有扶蘇 | 詩經·國風·鄭風·010 | Checked part-1 hOCR pp.339-340. The middle of the witness collapses into unreadable OCR gibberish between the opening and closing lines, so the poem cannot yet be verified cleanly. |
-| guofeng-zhengfeng-021 | 溱洧 | 詩經·國風·鄭風·021 | Checked part-1 hOCR pp.345-347. The dialogue stanzas are misordered and partially repeated across the page break, so the full poem sequence is not yet recoverable from this witness. |
 | guofeng-weifeng-state-002 | 汾沮洳 | 詩經·國風·魏風·002 | Checked part-1 hOCR pp.366-367. The first stanza runs straight into the following 園有桃 witness and the poem boundary is not recoverable cleanly. |
 | guofeng-weifeng-state-003 | 園有桃 | 詩經·國風·魏風·003 | Checked part-1 hOCR pp.367-369. The stanza order is mixed and the opening lines are partly lost to OCR debris, so the poem cannot yet be verified cleanly. |
 | guofeng-weifeng-state-006 | 伐檀 | 詩經·國風·魏風·006 | Checked part-1 hOCR pp.371-373. The second stanza breaks off at the page edge and the remaining witness does not preserve a clean continuation, so the poem stays non-exportable. |
@@ -259,11 +256,7 @@ This report complements the structural preflight checks with verification-ledger
 | guofeng-beifeng-001 | 柏舟 | 詩經·國風·邶風·001 | Needs better witness | Checked part-1 hOCR pp.240-242. Stanzas 1, 2, 4, and 5 are partly recoverable, but stanza 3 breaks into gibberish and the paired Chinese page also contains the separate 鄘·柏舟 entry, so the source pairing is not yet safe. |
 | guofeng-beifeng-010 | 谷風 | 詩經·國風·邶風·010 | Needs better witness | Checked part-1 hOCR pp.257-260. The first six stanzas are partly recoverable, but the remaining stanzas are not cleanly separable from commentary and page-break noise, so export would still be incomplete. |
 | guofeng-yongfeng-008 | 相鼠 | 詩經·國風·鄘風·008 | Needs better witness | Checked part-1 hOCR pp.286-287. Only stanza 1 is legible in the current witness; stanzas 2 and 3 drop out before the next book heading, so the poem remains incomplete and non-exportable. |
-| guofeng-zhengfeng-001 | 緇衣 | 詩經·國風·鄭風·001 | Needs better witness | Checked part-1 hOCR pp.326-327. Only two partial stanzas survive before the witness breaks off, so the poem remains incomplete in the current source. |
-| guofeng-zhengfeng-008 | 女曰鷄鳴 | 詩經·國風·鄭風·008 | Needs better witness | Checked part-1 hOCR pp.336-338. The opening stanza survives only as two dialogue lines before the rest of the poem continues, so the current witness does not preserve a clean full-poem boundary. |
 | guofeng-zhengfeng-009 | 有女同車 | 詩經·國風·鄭風·009 | Needs better witness | Checked part-1 hOCR pp.338-339. Only the opening stanza survives before the ODES OF CH'ING running heading, so the poem is incomplete in the current witness. |
-| guofeng-zhengfeng-010 | 山有扶蘇 | 詩經·國風·鄭風·010 | Needs better witness | Checked part-1 hOCR pp.339-340. The middle of the witness collapses into unreadable OCR gibberish between the opening and closing lines, so the poem cannot yet be verified cleanly. |
-| guofeng-zhengfeng-021 | 溱洧 | 詩經·國風·鄭風·021 | Needs better witness | Checked part-1 hOCR pp.345-347. The dialogue stanzas are misordered and partially repeated across the page break, so the full poem sequence is not yet recoverable from this witness. |
 | guofeng-weifeng-state-002 | 汾沮洳 | 詩經·國風·魏風·002 | Needs better witness | Checked part-1 hOCR pp.366-367. The first stanza runs straight into the following 園有桃 witness and the poem boundary is not recoverable cleanly. |
 | guofeng-weifeng-state-003 | 園有桃 | 詩經·國風·魏風·003 | Needs better witness | Checked part-1 hOCR pp.367-369. The stanza order is mixed and the opening lines are partly lost to OCR debris, so the poem cannot yet be verified cleanly. |
 | guofeng-weifeng-state-006 | 伐檀 | 詩經·國風·魏風·006 | Needs better witness | Checked part-1 hOCR pp.371-373. The second stanza breaks off at the page edge and the remaining witness does not preserve a clean continuation, so the poem stays non-exportable. |
@@ -276,12 +269,14 @@ This report complements the structural preflight checks with verification-ledger
 | --- | ---: |
 | OCR-derived witness | 182 |
 | SBE transcluded page | 102 |
+| full-text derived witness | 4 |
 | standalone Wikisource | 1 |
 
 ## Verification status mix
 
 | Status | Complete sections |
 | --- | ---: |
+| human_verified_fulltext | 4 |
 | human_verified_ocr | 182 |
 | verified_transcribed_text | 103 |
 
@@ -306,11 +301,7 @@ This report complements the structural preflight checks with verification-ledger
 | guofeng-weifeng-006 | 芄蘭 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.305-306. The surviving lines on p.305 are mostly gibberish, and the recovered verse on p.306 resolves into the following 河廣 witness, so the poem boundary is not yet safe. |
 | guofeng-wangfeng-005 | 中谷有蓷 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.318-319. One stanza falls back across the preceding 揚之水 range and the remaining lines do not yield a complete clean witness, so this poem stays non-exportable. |
 | guofeng-wangfeng-010 | 丘中有麻 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.324-325. The final stanza ends in OCR/Chinese contamination ("They will give me 是細 -stones for my girdie"), so the witness is not yet clean enough for export. |
-| guofeng-zhengfeng-001 | 緇衣 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.326-327. Only two partial stanzas survive before the witness breaks off, so the poem remains incomplete in the current source. |
-| guofeng-zhengfeng-008 | 女曰鷄鳴 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.336-338. The opening stanza survives only as two dialogue lines before the rest of the poem continues, so the current witness does not preserve a clean full-poem boundary. |
 | guofeng-zhengfeng-009 | 有女同車 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.338-339. Only the opening stanza survives before the ODES OF CH'ING running heading, so the poem is incomplete in the current witness. |
-| guofeng-zhengfeng-010 | 山有扶蘇 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.339-340. The middle of the witness collapses into unreadable OCR gibberish between the opening and closing lines, so the poem cannot yet be verified cleanly. |
-| guofeng-zhengfeng-021 | 溱洧 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.345-347. The dialogue stanzas are misordered and partially repeated across the page break, so the full poem sequence is not yet recoverable from this witness. |
 | guofeng-qifeng-003 | 著 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.354-355. The key gem-name lines are OCR-corrupt in every stanza, so the translation cannot be normalized confidently from this witness alone. |
 | guofeng-weifeng-state-002 | 汾沮洳 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.366-367. The first stanza runs straight into the following 園有桃 witness and the poem boundary is not recoverable cleanly. |
 | guofeng-weifeng-state-003 | 園有桃 | needs_text_repair | do_not_export_until_repaired | Checked part-1 hOCR pp.367-369. The stanza order is mixed and the opening lines are partly lost to OCR debris, so the poem cannot yet be verified cleanly. |

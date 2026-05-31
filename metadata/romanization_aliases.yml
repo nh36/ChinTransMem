@@ -895,6 +895,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-zhengfeng-001",
+    "alias": "Tsze Î",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-zhengfeng-002",
     "alias": "將仲子",
     "romanization_system": "Legge-title"
@@ -927,6 +933,18 @@
     "entity_type": "section",
     "entity_id": "guofeng-zhengfeng-007",
     "alias": "遵大路",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhengfeng-008",
+    "alias": "Nü yüeh kî ming",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhengfeng-010",
+    "alias": "Shan yû fû sû",
     "romanization_system": "Legge-title"
   },
   {
@@ -987,6 +1005,12 @@
     "entity_type": "section",
     "entity_id": "guofeng-zhengfeng-020",
     "alias": "野有蔓草",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhengfeng-021",
+    "alias": "Chîn Wei",
     "romanization_system": "Legge-title"
   },
   {

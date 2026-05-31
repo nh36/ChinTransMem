@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhengfeng-001__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·001.1</prop>
+      <prop type="x-translation-ref">Tsze Î.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>緇衣之宜兮，敝，予又改為兮。適子之館兮，還，予授子之粲兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How well do the black robes befit you!
+When worn out, we will make others for you.
+We will go to your court,
+And when we return from it, we will send you a feast!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhengfeng-001__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·001.2</prop>
+      <prop type="x-translation-ref">Tsze Î.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>緇衣之好兮，敝，予又改造兮。適子之館兮，還，予授子之粲兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How good on you are the black robes!
+When worn out, we will make others for you.
+We will go to your court,
+And when we return from it, we will send you a feast!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhengfeng-001__003__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-001</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·001.3</prop>
+      <prop type="x-translation-ref">Tsze Î.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>緇衣之蓆兮，敝，予又改作兮。適子之館兮，還，予授子之粲兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How easy sit the black robes on you!
+When worn out, we will make others for you.
+We will go to your court,
+And when we return from it, we will send you a feast!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

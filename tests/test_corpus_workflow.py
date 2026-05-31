@@ -525,7 +525,7 @@ class CorpusWorkflowTest(unittest.TestCase):
         self.assertTrue({"guofeng-weifeng-006", "guofeng-wangfeng-005", "guofeng-wangfeng-010"} <= skipped_section_ids)
         self.assertTrue(
             {
-                "guofeng-zhengfeng-001",
+                "guofeng-zhengfeng-009",
                 "guofeng-weifeng-state-002",
             }
             <= skipped_section_ids
@@ -605,6 +605,80 @@ class CorpusWorkflowTest(unittest.TestCase):
             "## Title-only / lost-text canonical entries",
         ):
             self.assertIn(heading, unresolved_markdown)
+        recovery_plan_markdown = (REPO_ROOT / "documentation" / "shijing_last20_recovery_plan.md").read_text(
+            encoding="utf-8"
+        )
+        manual_paste_template = (REPO_ROOT / "documentation" / "shijing_manual_paste_template.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("# Shijing last-20 recovery plan", recovery_plan_markdown)
+        self.assertIn("# Shijing manual paste template", manual_paste_template)
+        self.assertIn("scratch/shijing_last20_manual_paste/", manual_paste_template)
+        self.assertTrue((REPO_ROOT / "scratch" / "shijing_last20_manual_paste").is_dir())
+
+        remaining_section_ids = {
+            section["section_id"] for section in quality_report["progress"]["remaining_non_exportable_extant_sections"]
+        }
+        current_batch_repaired_section_ids = {
+            section["section_id"] for section in quality_report["progress"]["latest_repaired_sections"]
+        }
+        for section_id in remaining_section_ids | current_batch_repaired_section_ids:
+            self.assertIn(f"| {section_id} |", recovery_plan_markdown)
+
+        unresolved_table_ids: list[str] = []
+        unresolved_source_checked_values: list[str] = []
+        inside_unresolved_table = False
+        for line in unresolved_markdown.splitlines():
+            if line.strip() == "## Remaining non-exportable extant poems":
+                inside_unresolved_table = True
+                continue
+            if inside_unresolved_table and line.startswith("## "):
+                break
+            if not inside_unresolved_table or not line.startswith("| guofeng-"):
+                continue
+            cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+            unresolved_table_ids.append(cells[0])
+            unresolved_source_checked_values.append(cells[4])
+        self.assertEqual(set(unresolved_table_ids), remaining_section_ids)
+        self.assertTrue(all(value and value != "—" for value in unresolved_source_checked_values))
+
+        exportable_section_ids = {section["section_id"] for section in quality_report["sections"]}
+        self.assertTrue(all(section_id in ledger_by_section for section_id in exportable_section_ids))
+        self.assertTrue(
+            all(ledger_by_section[section_id]["decision"] == "export" for section_id in exportable_section_ids)
+        )
+        self.assertTrue(
+            all(
+                ledger_by_section[section_id]["verification_status"]
+                in {"verified_transcribed_text", "human_verified_ocr", "human_verified_fulltext"}
+                for section_id in exportable_section_ids
+            )
+        )
+        self.assertTrue(
+            all(
+                "ocr" in str(entry["extraction_method"])
+                and entry["english_source_status"] == "human_verified_ocr"
+                for entry in verification_ledger["entries"]
+                if entry["decision"] == "export" and entry["english_witness_type"] == "fulltext_ocr_derived_witness"
+            )
+        )
+        self.assertTrue(
+            all(
+                "fulltext" in str(entry["extraction_method"])
+                and entry["english_source_status"] == "human_verified_fulltext"
+                for entry in verification_ledger["entries"]
+                if entry["decision"] == "export" and entry["english_witness_type"] == "fulltext_derived_witness"
+            )
+        )
+        self.assertTrue(
+            all(
+                entry["source_page_or_anchor"].startswith("http")
+                and bool(entry["source_volume"].strip())
+                and ("accessed " in str(entry.get("reviewer_note", "")) or entry.get("review_date"))
+                for entry in verification_ledger["entries"]
+                if "manual_paste" in str(entry.get("extraction_method", ""))
+            )
+        )
 
     def test_manifest_policy_and_exports_are_consistent(self) -> None:
         works = load_json_compatible_yaml(METADATA_DIR / "works.yml")

@@ -1,0 +1,19 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-zhengfeng-008__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-zhengfeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄭風·008.1,女曰鷄鳴，士曰昧旦。子興視夜，明星有爛。將翱將翔，弋鳧與鴈。,Nü yüeh kî ming.1,"Says the wife, ' It is cock-crow; '
+Says the husband, ' It is grey dawn. '
+' Rise, Sir, and look at the night, - '
+If the morning star be not shining.
+Bestir yourself, and move about,
+To shoot the wild ducks and geese."
+shijing__guofeng-zhengfeng-008__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-zhengfeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄭風·008.2,弋言加之，與子宜之。宜言飲酒，與子偕老。琴瑟在御，莫不靜好。,Nü yüeh kî ming.2,"When your arrows and line have found them,
+I will dress them fitly for you.
+When they are dressed, we will drink together over them,
+And I will hope to grow old with you.
+Your lute in your hands,
+Will emits its quiet pleasant tones."
+shijing__guofeng-zhengfeng-008__003__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-zhengfeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·鄭風·008.3,知子之來之，雜佩以贈之。知子之順之，雜佩以問之。知子之好之，雜佩以報之。,Nü yüeh kî ming.3,"When I know those whose acquaintance you wish,
+I will give them of the ornaments of my girdle.
+When I know those with whom you are cordial,
+I will send to them of the ornaments of my girdle.
+When I know those whom you love,
+I will repay their friendship from the ornaments of my girdle."

@@ -44,6 +44,7 @@ ACCESS_DATE = "2026-05-30"
 SOURCE_SUFFIX = "zhwikisource-20260530"
 STANDALONE_TARGET_SOURCE_SUFFIX = "legge-sheking-1871"
 SBE_TARGET_SOURCE_SUFFIX = "legge-sbe-v3-1879"
+FULLTEXT_TARGET_SOURCE_SUFFIX = "legge-sbe-v3-1879-fulltext"
 OCR_TARGET_SOURCE_SUFFIX = "legge-sheking-1871-ocr"
 HOCR_TARGET_SOURCE_SUFFIX = "legge-sheking-1871-hocr"
 LEGGE_SHEKING_1871_PART_1_ITEM_URL = "https://archive.org/details/chineseclassics41legg"
@@ -3613,7 +3614,7 @@ def section_paths(section: dict[str, Any]) -> dict[str, Path]:
                 if section["english_witness"] == "legge_hocr"
                 else section["candidate_en_raw_path"]
             )
-            if section["english_witness"] in {"legge_ocr_reviewed", "legge_hocr"}
+            if section["english_witness"] in {"legge_fulltext_reviewed", "legge_ocr_reviewed", "legge_hocr"}
             else RAW_DIR / f"{base_name}__{target_suffix}__raw.wikitext"
         ),
         "zh_base": CHINESE_DIR / f"{base_name}__{SOURCE_SUFFIX}__base.txt",
@@ -3664,6 +3665,168 @@ def legge_ocr_witness_for_entry(entry: dict[str, Any]) -> dict[str, str]:
         "candidate_en_backup_page_url": LEGGE_SHEKING_1871_PART_2_ITEM_URL,
         "candidate_en_backup_source_id": "legge-sheking-1871-part-2-hocr",
     }
+
+
+REVIEWED_LEGGE_FULLTEXT_POEM_BLOCKS: dict[int, dict[str, Any]] = {
+    75: {
+        "legge_section_alias": "Tsze \u00ce",
+        "source_name": "ChineseNotes public-domain Legge transcription mirror",
+        "source_page_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing076.txt",
+        "source_text_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/master/corpus/shijing/shijing076.txt",
+        "source_access_date": "2026-05-31",
+        "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-001__legge-sbe-v3-1879-fulltext__raw.txt",
+        "review_note": (
+            "Verified the full poem against the ChineseNotes public-domain Legge transcription mirror and promoted it "
+            "from the blocked hOCR fallback to a reviewed fulltext witness."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "How well do the black robes befit you!",
+                    "When worn out, we will make others for you.",
+                    "We will go to your court,",
+                    "And when we return from it, we will send you a feast!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How good on you are the black robes!",
+                    "When worn out, we will make others for you.",
+                    "We will go to your court,",
+                    "And when we return from it, we will send you a feast!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "How easy sit the black robes on you!",
+                    "When worn out, we will make others for you.",
+                    "We will go to your court,",
+                    "And when we return from it, we will send you a feast!",
+                ]
+            ),
+        ],
+    },
+    82: {
+        "legge_section_alias": "N\u00fc y\u00fceh k\u00ee ming",
+        "source_name": "ChineseNotes public-domain Legge transcription mirror",
+        "source_page_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing083.txt",
+        "source_text_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/master/corpus/shijing/shijing083.txt",
+        "source_access_date": "2026-05-31",
+        "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-008__legge-sbe-v3-1879-fulltext__raw.txt",
+        "review_note": (
+            "Verified the full poem against the ChineseNotes public-domain Legge transcription mirror and promoted it "
+            "from the blocked hOCR fallback to a reviewed fulltext witness."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "Says the wife, ' It is cock-crow; '",
+                    "Says the husband, ' It is grey dawn. '",
+                    "' Rise, Sir, and look at the night, - '",
+                    "If the morning star be not shining.",
+                    "Bestir yourself, and move about,",
+                    "To shoot the wild ducks and geese.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "When your arrows and line have found them,",
+                    "I will dress them fitly for you.",
+                    "When they are dressed, we will drink together over them,",
+                    "And I will hope to grow old with you.",
+                    "Your lute in your hands,",
+                    "Will emits its quiet pleasant tones.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "When I know those whose acquaintance you wish,",
+                    "I will give them of the ornaments of my girdle.",
+                    "When I know those with whom you are cordial,",
+                    "I will send to them of the ornaments of my girdle.",
+                    "When I know those whom you love,",
+                    "I will repay their friendship from the ornaments of my girdle.",
+                ]
+            ),
+        ],
+    },
+    84: {
+        "legge_section_alias": "Shan y\u00fb f\u00fb s\u00fb",
+        "source_name": "ChineseNotes public-domain Legge transcription mirror",
+        "source_page_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing085.txt",
+        "source_text_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/master/corpus/shijing/shijing085.txt",
+        "source_access_date": "2026-05-31",
+        "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-010__legge-sbe-v3-1879-fulltext__raw.txt",
+        "review_note": (
+            "Verified the full poem against the ChineseNotes public-domain Legge transcription mirror and promoted it "
+            "from the blocked hOCR fallback to a reviewed fulltext witness."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "On the mountain is the mulberry tree;",
+                    "In the marshes is the lotus flower.",
+                    "I do not see Zidu,",
+                    "But I see this mad fellow.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "On the mountain is the lofty pine;",
+                    "In the marshes is the spreading water-polygonum..",
+                    "I do not see Zichong,",
+                    "But I see this artful boy.",
+                ]
+            ),
+        ],
+    },
+    95: {
+        "legge_section_alias": "Ch\u00een Wei",
+        "source_name": "ChineseNotes public-domain Legge transcription mirror",
+        "source_page_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing096.txt",
+        "source_text_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/master/corpus/shijing/shijing096.txt",
+        "source_access_date": "2026-05-31",
+        "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-021__legge-sbe-v3-1879-fulltext__raw.txt",
+        "review_note": (
+            "Verified the full poem against the ChineseNotes public-domain Legge transcription mirror and promoted it "
+            "from the blocked hOCR fallback to a reviewed fulltext witness."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The Zhen and Wei,",
+                    "Now present their broad sheets of water.",
+                    "Ladies and gentlemen,",
+                    "Are carrying flowers of valerian.",
+                    "A lady says, ' Have you been to see? '",
+                    "A gentleman replies, ' I have been. '",
+                    "' But let us go again to see.",
+                    "Over the Wei, where broad is the water,",
+                    "The ground is large and fit for pleasure. '",
+                    "So the gentlemen and ladies.",
+                    "Make sport together,",
+                    "Presenting one another with small peonies.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The Zhen and Wei,",
+                    "Show their deep, clear streams.",
+                    "Gentlemen and ladies,",
+                    "Appear in crowds.",
+                    "A lady says, ' Have you been to see? '",
+                    "A gentleman replies, ' I have been. '",
+                    "' But let us go again to see.",
+                    "Over the Wei, where broad is the water,",
+                    "The ground is large and fit for pleasure. '",
+                    "So the gentlemen and ladies.",
+                    "Make sport together,",
+                    "Presenting one another with small peonies.",
+                ]
+            ),
+        ],
+    },
+}
 
 
 def load_shijing_verification_index(*, skip_fetch: bool) -> dict[str, dict[str, Any]]:
@@ -3935,6 +4098,43 @@ def build_section_seed(
                 )
             ),
         }
+    if english_witness == "legge_fulltext_reviewed":
+        reviewed = REVIEWED_LEGGE_FULLTEXT_POEM_BLOCKS[poem["sort_key"]]
+        return {
+            "section_id": section_id_for_catalog_entry(poem),
+            "label": poem["label"],
+            "canonical_ref": poem["canonical_ref"],
+            "sort_key": poem["sort_key"],
+            "major_division": poem["major_division"],
+            "subdivision": poem["subdivision"],
+            "poem_number": poem["local_index"],
+            "legge_section_alias": reviewed["legge_section_alias"],
+            "zh_page_url": poem["page_url"],
+            "zh_section_heading": poem["zh_section_heading"],
+            "en_page_url": reviewed["source_page_url"],
+            "en_page_title": f"{reviewed['source_name']} ({reviewed['legge_section_alias']})",
+            "target_source_suffix": FULLTEXT_TARGET_SOURCE_SUFFIX,
+            "english_witness": english_witness,
+            **witness_meta,
+            "candidate_en_page_url": reviewed["source_page_url"],
+            "candidate_en_text_url": reviewed["source_text_url"],
+            "candidate_en_raw_path": reviewed["raw_path"],
+            "candidate_en_source_id": FULLTEXT_TARGET_SOURCE_SUFFIX,
+            "candidate_en_source_name": reviewed["source_name"],
+            "candidate_en_access_date": reviewed["source_access_date"],
+            "reviewed_english_blocks": reviewed["english_blocks"],
+            "force_poem_alignment": reviewed.get("force_poem_alignment", False),
+            "review_note": reviewed.get("review_note"),
+            "reviewed_fulltext_notes": (
+                "Reviewed public-domain Legge fulltext transcription capture with stanza boundaries preserved for exact alignment."
+                if not reviewed.get("force_poem_alignment", False)
+                else (
+                    "Poem-level fallback from reviewed public-domain Legge fulltext transcription; "
+                    "stanza breaks are preserved in the cleaned translation text, but the alignment stays "
+                    "at poem scope until stanza-level splitting is safer."
+                )
+            ),
+        }
     section_id = (
         f"{MAJOR_DIVISION_CODES[poem['major_division']]}-"
         f"{SUBDIVISION_CODES[poem['subdivision']]}-"
@@ -3998,12 +4198,19 @@ def build_section_catalog(
             continue
         verification_entry = verification_index[section_id_for_catalog_entry(poem)] if verification_index is not None else None
         english_witness = (
-            "legge_ocr_reviewed"
+            "legge_fulltext_reviewed"
             if (
-                poem["sort_key"] in REVIEWED_LEGGE_OCR_POEM_BLOCKS
-                or (verification_entry and verification_entry.get("verification_status") == "human_verified_ocr")
+                poem["sort_key"] in REVIEWED_LEGGE_FULLTEXT_POEM_BLOCKS
+                or (verification_entry and verification_entry.get("verification_status") == "human_verified_fulltext")
             )
-            else "legge_hocr"
+            else (
+                "legge_ocr_reviewed"
+                if (
+                    poem["sort_key"] in REVIEWED_LEGGE_OCR_POEM_BLOCKS
+                    or (verification_entry and verification_entry.get("verification_status") == "human_verified_ocr")
+                )
+                else "legge_hocr"
+            )
         )
         section_seed = build_section_seed(
             poem,
@@ -4852,6 +5059,8 @@ def extract_english_poem_blocks(
         return blocks, legge_title, section.get("pinyin_alias"), None
     if section["english_witness"] == "legge_ocr_reviewed":
         return list(section["reviewed_english_blocks"]), section["legge_section_alias"], section.get("pinyin_alias"), None
+    if section["english_witness"] == "legge_fulltext_reviewed":
+        return list(section["reviewed_english_blocks"]), section["legge_section_alias"], section.get("pinyin_alias"), None
     if rendered_html is None:
         raise ValueError(f"Missing rendered HTML for SBE witness {section['section_id']}")
     lines = extract_rendered_text_lines(rendered_html)
@@ -5071,6 +5280,10 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
         "Processed segmentation preserves the stanza blocks printed on Legge's standalone She King page."
         if section["english_witness"] == "standalone_sheking"
         else (
+            "Reviewed section-level cleanup preserves the committed public-domain Legge fulltext mirror capture while "
+            "keeping stanza boundaries from the verified transcription."
+            if section["english_witness"] == "legge_fulltext_reviewed"
+            else (
             "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while "
             "keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer."
             if section["english_witness"] == "legge_ocr_reviewed"
@@ -5082,6 +5295,7 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
                     "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached "
                     "rendered HTML because the raw wikitext is only a <pages> transclusion."
                 )
+            )
             )
         )
     )
@@ -5119,6 +5333,13 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
                 if section["english_witness"] == "standalone_sheking"
                 else (
                     (
+                        f"James Legge, The Shih, '{section['legge_section_alias']}', "
+                        f"{section.get('candidate_en_source_name', 'public-domain fulltext witness')}, "
+                        f"accessed {section.get('candidate_en_access_date', ACCESS_DATE)}."
+                    )
+                    if section["english_witness"] == "legge_fulltext_reviewed"
+                    else (
+                    (
                         f"James Legge, The She King, '{section['legge_section_alias']}', Chinese Classics, Vol. IV "
                         f"(1871), Internet Archive {'hOCR' if section['english_witness'] == 'legge_hocr' else 'OCR'} witness, "
                         f"accessed {LEGGE_SHEKING_1871_OCR_ACCESS_DATE}."
@@ -5127,6 +5348,7 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
                     else (
                         f"James Legge, The Shih, Sacred Books of the East, Vol. III, '{section['legge_section_alias']}', "
                         f"English Wikisource, accessed {ACCESS_DATE}."
+                    )
                     )
                 )
             ),
@@ -5162,6 +5384,9 @@ def write_section_files(section: dict[str, Any], *, skip_fetch: bool) -> dict[st
 
     if section["english_witness"] == "legge_hocr":
         en_raw = fetch_cached_text(section["candidate_en_hocr_url"], paths["en_raw"], skip_fetch=skip_fetch)
+    elif section["english_witness"] == "legge_fulltext_reviewed":
+        en_raw = fetch_cached_text(section["candidate_en_text_url"], paths["en_raw"], skip_fetch=skip_fetch)
+        paths["en_raw"].write_text(en_raw, encoding="utf-8")
     elif section["english_witness"] == "legge_ocr_reviewed":
         en_raw = fetch_cached_text(section["candidate_en_ocr_url"], paths["en_raw"], skip_fetch=skip_fetch)
     else:

@@ -3596,6 +3596,44 @@
     "needs_human_text_review": false
   },
   {
+    "source_id": "guofeng-zhengfeng-001__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-001",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/緇衣, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%B7%87%E8%A1%A3",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhengfeng-001__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhengfeng-001__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "guofeng-zhengfeng-001__legge-sbe-v3-1879-fulltext",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-001",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Shih, 'Tsze Î', ChineseNotes public-domain Legge transcription mirror, accessed 2026-05-31.",
+    "source_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing076.txt",
+    "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-001__legge-sbe-v3-1879-fulltext__raw.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-001__legge-sbe-v3-1879-fulltext__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the committed public-domain Legge fulltext mirror capture while keeping stanza boundaries from the verified transcription.",
+    "witness_type": "fulltext_derived_witness",
+    "text_review_status": "human_verified_fulltext",
+    "needs_human_text_review": false
+  },
+  {
     "source_id": "guofeng-zhengfeng-002__zhwikisource-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-zhengfeng-002",
@@ -3821,6 +3859,82 @@
     "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
     "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "guofeng-zhengfeng-008__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-008",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/女曰鷄鳴, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%A5%B3%E6%9B%B0%E9%B7%84%E9%B3%B4",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhengfeng-008__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhengfeng-008__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "guofeng-zhengfeng-008__legge-sbe-v3-1879-fulltext",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-008",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Shih, 'Nü yüeh kî ming', ChineseNotes public-domain Legge transcription mirror, accessed 2026-05-31.",
+    "source_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing083.txt",
+    "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-008__legge-sbe-v3-1879-fulltext__raw.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-008__legge-sbe-v3-1879-fulltext__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the committed public-domain Legge fulltext mirror capture while keeping stanza boundaries from the verified transcription.",
+    "witness_type": "fulltext_derived_witness",
+    "text_review_status": "human_verified_fulltext",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "guofeng-zhengfeng-010__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-010",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/山有扶蘇, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B1%B1%E6%9C%89%E6%89%B6%E8%98%87",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhengfeng-010__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhengfeng-010__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "guofeng-zhengfeng-010__legge-sbe-v3-1879-fulltext",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-010",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Shih, 'Shan yû fû sû', ChineseNotes public-domain Legge transcription mirror, accessed 2026-05-31.",
+    "source_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing085.txt",
+    "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-010__legge-sbe-v3-1879-fulltext__raw.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-010__legge-sbe-v3-1879-fulltext__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the committed public-domain Legge fulltext mirror capture while keeping stanza boundaries from the verified transcription.",
+    "witness_type": "fulltext_derived_witness",
+    "text_review_status": "human_verified_fulltext",
     "needs_human_text_review": false
   },
   {
@@ -4201,6 +4315,44 @@
     "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
     "witness_type": "fulltext_ocr_derived_witness",
     "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "guofeng-zhengfeng-021__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-021",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/溱洧, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%BA%B1%E6%B4%A7",
+    "raw_path": "corpus/raw/wikisource/shijing__guofeng-zhengfeng-021__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__guofeng-zhengfeng-021__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "guofeng-zhengfeng-021__legge-sbe-v3-1879-fulltext",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-021",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Shih, 'Chîn Wei', ChineseNotes public-domain Legge transcription mirror, accessed 2026-05-31.",
+    "source_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing096.txt",
+    "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-021__legge-sbe-v3-1879-fulltext__raw.txt",
+    "processed_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-021__legge-sbe-v3-1879-fulltext__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the committed public-domain Legge fulltext mirror capture while keeping stanza boundaries from the verified transcription.",
+    "witness_type": "fulltext_derived_witness",
+    "text_review_status": "human_verified_fulltext",
     "needs_human_text_review": false
   },
   {

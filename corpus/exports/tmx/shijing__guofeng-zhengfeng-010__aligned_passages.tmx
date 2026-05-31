@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-zhengfeng-010__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-010</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·010.1</prop>
+      <prop type="x-translation-ref">Shan yû fû sû.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>山有扶蘇，隰有荷華。不見子都，乃見狂且。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the mountain is the mulberry tree;
+In the marshes is the lotus flower.
+I do not see Zidu,
+But I see this mad fellow.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-zhengfeng-010__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-zhengfeng-010</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄭風·010.2</prop>
+      <prop type="x-translation-ref">Shan yû fû sû.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>山有喬松，隰有游龍。不見子充，乃見狡童。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the mountain is the lofty pine;
+In the marshes is the spreading water-polygonum..
+I do not see Zichong,
+But I see this artful boy.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

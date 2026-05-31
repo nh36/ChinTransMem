@@ -1100,6 +1100,17 @@
     "notes": "Bootstrap Shijing generation for 大車 with 1 exact poem alignments."
   },
   {
+    "run_id": "bootstrap-guofeng-zhengfeng-001-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-001",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhengfeng-001__zhwikisource-20260530",
+      "guofeng-zhengfeng-001__legge-sbe-v3-1879-fulltext"
+    ],
+    "notes": "Bootstrap Shijing generation for 緇衣 with 3 exact stanza alignments."
+  },
+  {
     "run_id": "bootstrap-guofeng-zhengfeng-002-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-zhengfeng-002",
@@ -1164,6 +1175,28 @@
       "guofeng-zhengfeng-007__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 遵大路 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhengfeng-008-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-008",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhengfeng-008__zhwikisource-20260530",
+      "guofeng-zhengfeng-008__legge-sbe-v3-1879-fulltext"
+    ],
+    "notes": "Bootstrap Shijing generation for 女曰鷄鳴 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhengfeng-010-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-010",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhengfeng-010__zhwikisource-20260530",
+      "guofeng-zhengfeng-010__legge-sbe-v3-1879-fulltext"
+    ],
+    "notes": "Bootstrap Shijing generation for 山有扶蘇 with 2 exact stanza alignments."
   },
   {
     "run_id": "bootstrap-guofeng-zhengfeng-011-20260530",
@@ -1274,6 +1307,17 @@
       "guofeng-zhengfeng-020__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 野有蔓草 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-guofeng-zhengfeng-021-20260530",
+    "work_id": "shijing",
+    "section_id": "guofeng-zhengfeng-021",
+    "status": "complete",
+    "source_ids": [
+      "guofeng-zhengfeng-021__zhwikisource-20260530",
+      "guofeng-zhengfeng-021__legge-sbe-v3-1879-fulltext"
+    ],
+    "notes": "Bootstrap Shijing generation for 溱洧 with 2 exact stanza alignments."
   },
   {
     "run_id": "bootstrap-guofeng-qifeng-001-20260530",
