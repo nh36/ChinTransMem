@@ -1,0 +1,130 @@
+{
+  "works": [
+    {
+      "chintransmem_work_id": "shijing",
+      "chinesenotes_paths": ["data/corpus/shijing.csv", "corpus/shijing/"],
+      "status": "already_ingested",
+      "english_coverage": "complete",
+      "chinese_coverage": "complete",
+      "preferred_use": "english_witness",
+      "notes": "Already used as a reviewed ChineseNotes Legge witness layer for the final Shijing recovery tranche; keep as a source witness and cross-check layer, not as a replacement corpus."
+    },
+    {
+      "chintransmem_work_id": "lunyu",
+      "chinesenotes_paths": ["data/corpus/lunyu.csv", "corpus/lunyu/"],
+      "status": "already_ingested",
+      "english_coverage": "complete",
+      "chinese_coverage": "complete",
+      "preferred_use": "cross_check",
+      "notes": "ChineseNotes appears to carry bilingual Lunyu material, but the committed ChinTransMem Lunyu corpus remains authoritative."
+    },
+    {
+      "chintransmem_work_id": "mengzi",
+      "chinesenotes_paths": ["data/corpus/mengzi.csv", "corpus/mengzi/"],
+      "status": "already_ingested",
+      "english_coverage": "complete",
+      "chinese_coverage": "complete",
+      "preferred_use": "cross_check",
+      "notes": "Treat as a future cross-check/source-review layer for the existing Mengzi corpus rather than as a replacement ingestion source."
+    },
+    {
+      "chintransmem_work_id": "zhuangzi",
+      "chinesenotes_paths": ["data/corpus/zhuangzi.csv", "corpus/zhuangzi/"],
+      "status": "candidate",
+      "english_coverage": "unknown",
+      "chinese_coverage": "complete",
+      "preferred_use": "english_witness",
+      "notes": "Collection metadata and sampled files suggest bilingual coverage, but full section-by-section completeness still needs review."
+    },
+    {
+      "chintransmem_work_id": "xunzi",
+      "chinesenotes_paths": ["data/corpus/xunzi.csv", "corpus/xunzi/"],
+      "status": "candidate",
+      "english_coverage": "unknown",
+      "chinese_coverage": "complete",
+      "preferred_use": "metadata_only",
+      "notes": "Upstream intro files list English translations, but the actual reusable English-text coverage must be checked before treating it as a witness."
+    },
+    {
+      "chintransmem_work_id": "hanfeizi",
+      "chinesenotes_paths": ["data/corpus/hanfeizi.csv", "corpus/hanfeizi/"],
+      "status": "candidate",
+      "english_coverage": "unknown",
+      "chinese_coverage": "complete",
+      "preferred_use": "metadata_only",
+      "notes": "Good candidate for source discovery and witness metadata; English coverage needs explicit review."
+    },
+    {
+      "chintransmem_work_id": "zuozhuan",
+      "chinesenotes_paths": ["data/corpus/zuozhuan.csv", "corpus/zuozhuan/"],
+      "status": "candidate",
+      "english_coverage": "partial",
+      "chinese_coverage": "complete",
+      "preferred_use": "base_text",
+      "notes": "Sampled files show strong Chinese coverage, while English appears more bibliographic than parallel in the inspected material."
+    },
+    {
+      "chintransmem_work_id": "shiji",
+      "chinesenotes_paths": ["data/corpus/shiji.csv", "corpus/shiji/"],
+      "status": "candidate",
+      "english_coverage": "partial",
+      "chinese_coverage": "complete",
+      "preferred_use": "metadata_only",
+      "notes": "Likely valuable for section inventory and witness notes; English coverage appears selective and should not be assumed complete."
+    },
+    {
+      "chintransmem_work_id": "liji",
+      "chinesenotes_paths": ["data/corpus/liji.csv", "corpus/liji/"],
+      "status": "candidate",
+      "english_coverage": "unknown",
+      "chinese_coverage": "complete",
+      "preferred_use": "english_witness",
+      "notes": "Collections metadata advertises a Legge translation, but the exact section-level coverage still needs verification."
+    },
+    {
+      "chintransmem_work_id": "shangshu",
+      "chinesenotes_paths": ["data/corpus/shangshu.csv", "corpus/shangshu/"],
+      "status": "candidate",
+      "english_coverage": "unknown",
+      "chinese_coverage": "complete",
+      "preferred_use": "english_witness",
+      "notes": "Collections metadata suggests bilingual coverage; inspect text boundaries and provenance before any import."
+    },
+    {
+      "chintransmem_work_id": "yijing",
+      "chinesenotes_paths": ["data/corpus/yijing.csv", "corpus/yijing/"],
+      "status": "candidate",
+      "english_coverage": "unknown",
+      "chinese_coverage": "complete",
+      "preferred_use": "english_witness",
+      "notes": "Likely bilingual with Legge material, but ChinTransMem should inventory and review it before deciding on ingestion."
+    },
+    {
+      "chintransmem_work_id": "mozi",
+      "chinesenotes_paths": ["data/corpus/mozi.csv", "corpus/mozi/"],
+      "status": "candidate",
+      "english_coverage": "partial",
+      "chinese_coverage": "complete",
+      "preferred_use": "metadata_only",
+      "notes": "Sampled upstream notes explicitly describe the English translation as partial."
+    },
+    {
+      "chintransmem_work_id": "laozi",
+      "chinesenotes_paths": ["data/corpus/daodejing.csv", "corpus/daodejing/"],
+      "status": "candidate",
+      "english_coverage": "unknown",
+      "chinese_coverage": "complete",
+      "preferred_use": "english_witness",
+      "notes": "Mapped from the ChineseNotes daodejing collection; verify actual coverage before any import."
+    },
+    {
+      "chintransmem_work_id": "liezi",
+      "chinesenotes_paths": ["data/corpus/liezi.csv", "corpus/liezi/"],
+      "status": "candidate",
+      "english_coverage": "unknown",
+      "chinese_coverage": "complete",
+      "preferred_use": "metadata_only",
+      "notes": "Useful discovery candidate, but English coverage and rights details still need review."
+    }
+  ]
+}
