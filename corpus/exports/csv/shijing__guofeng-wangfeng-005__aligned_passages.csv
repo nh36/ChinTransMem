@@ -1,0 +1,19 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-wangfeng-005__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-wangfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·王風·005.1,中谷有蓷，暵其乾矣。有女仳離，嘅其嘆矣。嘅其嘆矣！遇人之艱難矣！,中谷有蓷.1,"In the valleys grows the mother-wort,
+But scorched is it in the drier places.
+There is a woman forced to leave her husband;
+Sadly she sighs!
+Sadly she sighs!
+She suffers from his hard lot."
+shijing__guofeng-wangfeng-005__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-wangfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·王風·005.2,中谷有蓷，暵其脩矣。有女仳離，條其歗矣。條其歗矣！遇人之不淑矣！,中谷有蓷.2,"In the valleys grows the mother-wort,
+But scorched is it where it had become long.
+There is a woman forced to leave her husband;
+Long-drawn are her groanings!
+Long-drawn are her groanings!
+She suffers from his misfortune."
+shijing__guofeng-wangfeng-005__003__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-wangfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·王風·005.3,中谷有蓷，暵其濕矣。有女仳離，啜其泣矣。啜其泣矣！何嗟及矣！,中谷有蓷.3,"In the valleys grows the mother-wort,
+But scorched is it even in the moist places.
+There is a woman forced to leave her husband;
+Ever flow her tears!
+Ever flow her tears!
+But of what avail is her lament?"

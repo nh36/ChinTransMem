@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-yongfeng-008__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-yongfeng-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄘風·008.1</prop>
+      <prop type="x-translation-ref">相鼠.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>相鼠有皮，人而無儀，人而無儀，不死何為。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Look at a rat, - it has its skin;
+But a man should be without dignity of demeanour.
+If a man have no dignity of demeanour,
+What should he but die?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-yongfeng-008__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-yongfeng-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄘風·008.2</prop>
+      <prop type="x-translation-ref">相鼠.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>相鼠有齒，人而無止，人而無止，不死何俟。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Look at a rat, - it has its teeth;
+But a man shall be without any right deportment.
+If a man have not right deportment,
+What should he wait for but death?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-yongfeng-008__003__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-yongfeng-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·鄘風·008.3</prop>
+      <prop type="x-translation-ref">相鼠.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>相鼠有體，人而無禮，人而無禮，胡不遄死。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Look at a rat, - it has its limbs;
+But a man shall be without any rules of propriety.
+If a man observe no rules of propriety,
+Why does he not quickly die?</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

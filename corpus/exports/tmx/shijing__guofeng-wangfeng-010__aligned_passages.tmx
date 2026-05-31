@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-wangfeng-010__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-wangfeng-010</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·王風·010.1</prop>
+      <prop type="x-translation-ref">丘中有麻.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>丘中有麻，彼留子嗟。彼留子嗟，將其來施施。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the mound where is the hemp,
+Some one is detaining Zijie.
+Some one is there detaining Zijie; -
+Would that he would come jauntily [to me]!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-wangfeng-010__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-wangfeng-010</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·王風·010.2</prop>
+      <prop type="x-translation-ref">丘中有麻.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>丘中有麥，彼留子國。彼留子國，將其來食。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the mound where is the wheat,
+Some one is detaining Ziguo.
+Some one is there detaining Ziguo; -
+Would that he would come and eat with me!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-wangfeng-010__003__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-wangfeng-010</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·王風·010.3</prop>
+      <prop type="x-translation-ref">丘中有麻.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>丘中有李，彼留之子。彼留之子，貽我佩玖。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the mound where are the plum trees,
+Some one is detaining those youths.
+Some one is there detaining those youths; -
+They will give me Jiu-stones for my girdle.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

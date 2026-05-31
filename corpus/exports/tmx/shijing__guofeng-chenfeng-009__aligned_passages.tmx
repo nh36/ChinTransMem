@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-chenfeng-009__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-chenfeng-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·陳風·009.1</prop>
+      <prop type="x-translation-ref">株林.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>胡為乎株林？從夏南。匪適株林，從夏南。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>What does he in Zhulin?
+He is going after Xianan.
+He is not going to Zhulin;
+He is going after Xianan.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-chenfeng-009__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-chenfeng-009</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·陳風·009.2</prop>
+      <prop type="x-translation-ref">株林.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>駕我乘馬，說于株野。乘我乘駒，朝食于株。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>' Yoke for me my team of horses;
+I will rest in the country about Zhu.
+I will drive my team of colts,
+And breakfast at Zhu.'</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

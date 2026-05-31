@@ -1,10 +1,11 @@
 {
   "work_id": "shijing",
   "section_count": 311,
-  "complete_sections": 289,
-  "exact_alignment_count": 718,
-  "warning_count": 22,
+  "complete_sections": 305,
+  "exact_alignment_count": 757,
+  "warning_count": 23,
   "warnings": [
+    "shijing: complete section guofeng-beifeng-010 may support stanza-level splitting but currently exports one poem-level alignment.",
     "shijing: complete section guofeng-zhengfeng-018 may support stanza-level splitting but currently exports one poem-level alignment.",
     "shijing: complete section guofeng-qifeng-007 may support stanza-level splitting but currently exports one poem-level alignment.",
     "shijing: complete section guofeng-tangfeng-009 may support stanza-level splitting but currently exports one poem-level alignment.",

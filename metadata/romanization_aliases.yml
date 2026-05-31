@@ -571,6 +571,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-zhaonan-006",
+    "alias": "行露",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-zhaonan-007",
     "alias": "羔羊",
     "romanization_system": "Legge-title"
@@ -619,6 +625,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-beifeng-001",
+    "alias": "柏舟",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-beifeng-002",
     "alias": "綠衣",
     "romanization_system": "Legge-title"
@@ -663,6 +675,12 @@
     "entity_type": "section",
     "entity_id": "guofeng-beifeng-009",
     "alias": "匏有苦葉",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-beifeng-010",
+    "alias": "國風‧邶‧谷風",
     "romanization_system": "Legge-title"
   },
   {
@@ -721,6 +739,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-beifeng-019",
+    "alias": "二子乘舟",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-yongfeng-001",
     "alias": "The Pai Kâu",
     "romanization_system": "Legge-title"
@@ -765,6 +789,12 @@
     "entity_type": "section",
     "entity_id": "guofeng-yongfeng-007",
     "alias": "蝃蝀",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-yongfeng-008",
+    "alias": "相鼠",
     "romanization_system": "Legge-title"
   },
   {
@@ -817,6 +847,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-weifeng-006",
+    "alias": "芄蘭",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-weifeng-007",
     "alias": "河廣",
     "romanization_system": "Legge-title"
@@ -865,6 +901,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-wangfeng-005",
+    "alias": "中谷有蓷",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-wangfeng-006",
     "alias": "兔爰",
     "romanization_system": "Legge-title"
@@ -895,8 +937,14 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-wangfeng-010",
+    "alias": "丘中有麻",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-zhengfeng-001",
-    "alias": "Tsze Î",
+    "alias": "緇衣",
     "romanization_system": "Legge-title"
   },
   {
@@ -938,13 +986,19 @@
   {
     "entity_type": "section",
     "entity_id": "guofeng-zhengfeng-008",
-    "alias": "Nü yüeh kî ming",
+    "alias": "女曰鷄鳴",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-zhengfeng-009",
+    "alias": "有女同車",
     "romanization_system": "Legge-title"
   },
   {
     "entity_type": "section",
     "entity_id": "guofeng-zhengfeng-010",
-    "alias": "Shan yû fû sû",
+    "alias": "山有扶蘇",
     "romanization_system": "Legge-title"
   },
   {
@@ -1010,7 +1064,7 @@
   {
     "entity_type": "section",
     "entity_id": "guofeng-zhengfeng-021",
-    "alias": "Chîn Wei",
+    "alias": "溱洧",
     "romanization_system": "Legge-title"
   },
   {
@@ -1023,6 +1077,12 @@
     "entity_type": "section",
     "entity_id": "guofeng-qifeng-002",
     "alias": "還",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-qifeng-003",
+    "alias": "著",
     "romanization_system": "Legge-title"
   },
   {
@@ -1081,6 +1141,18 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-weifeng-state-002",
+    "alias": "汾沮洳",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-weifeng-state-003",
+    "alias": "園有桃",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-weifeng-state-004",
     "alias": "陟岵",
     "romanization_system": "Legge-title"
@@ -1089,6 +1161,12 @@
     "entity_type": "section",
     "entity_id": "guofeng-weifeng-state-005",
     "alias": "十畝之間",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-weifeng-state-006",
+    "alias": "伐檀",
     "romanization_system": "Legge-title"
   },
   {
@@ -1125,6 +1203,12 @@
     "entity_type": "section",
     "entity_id": "guofeng-tangfeng-005",
     "alias": "綢繆",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-tangfeng-006",
+    "alias": "國風‧唐‧杕杜",
     "romanization_system": "Legge-title"
   },
   {
@@ -1291,6 +1375,12 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-chenfeng-009",
+    "alias": "株林",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-chenfeng-010",
     "alias": "澤陂",
     "romanization_system": "Legge-title"
@@ -1359,6 +1449,12 @@
     "entity_type": "section",
     "entity_id": "guofeng-binfeng-002",
     "alias": "鴟鴞",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-binfeng-003",
+    "alias": "東山",
     "romanization_system": "Legge-title"
   },
   {

@@ -301,7 +301,7 @@ class CorpusWorkflowTest(unittest.TestCase):
                 shijing_coverage_summary["complete_sections_by_witness_type"]["OCR-derived witness"],
                 0,
             )
-            self.assertLess(
+            self.assertLessEqual(
                 shijing_coverage_summary["units_with_verified_public_domain_english_source"],
                 shijing_coverage_summary["units_with_english_public_domain_witness"],
             )
@@ -323,6 +323,7 @@ class CorpusWorkflowTest(unittest.TestCase):
             )
             self.assertNotIn("section_group", shijing_tmx.read_text(encoding="utf-8"))
             exported_shijing_sections = {row["section_id"] for row in shijing_rows}
+            self.assertTrue(all("ephermeral" not in row["translation_text"] for row in shijing_rows))
             self.assertTrue(
                 all(
                     source["rights_status"] == "public_domain"
@@ -370,6 +371,7 @@ class CorpusWorkflowTest(unittest.TestCase):
         unresolved_witness_report = REPO_ROOT / "documentation" / "shijing_unresolved_witness_report.md"
         manifest = load_work_manifest("shijing")
         verification_ledger = load_json_compatible_yaml(REPO_ROOT / "metadata" / "shijing_verification_ledger.yml")
+        sources = load_json_compatible_yaml(METADATA_DIR / "sources.yml")
         hard_word_minimum = quality_report["thresholds"]["hard_english_word_minimum"]
         hard_ratio_maximum = quality_report["thresholds"]["hard_english_to_chinese_ratio_high_threshold"]
         self.assertEqual(quality_report["work_id"], "shijing")
@@ -483,13 +485,13 @@ class CorpusWorkflowTest(unittest.TestCase):
             "needs_better_witness",
             quality_report["progress"]["guofeng_queue_categories"],
         )
-        self.assertGreaterEqual(
+        self.assertEqual(
             len(quality_report["progress"]["known_unrecoverable_cases"]),
-            1,
+            quality_report["progress"]["remaining_known_unrecoverable_cases"],
         )
-        self.assertGreaterEqual(
+        self.assertEqual(
             len(quality_report["progress"]["cases_needing_better_witness"]),
-            1,
+            quality_report["progress"]["remaining_needs_better_witness_cases"],
         )
         self.assertEqual(
             quality_report["progress"]["ocr_sanity_sweep"]["checked_exportable_ocr_sections"],
@@ -511,27 +513,30 @@ class CorpusWorkflowTest(unittest.TestCase):
         )
         self.assertIn("remaining_queue_category_counts", quality_report["progress"])
         skipped_current_witness_sections = quality_report["progress"]["skipped_current_witness_sections"]
-        self.assertTrue(skipped_current_witness_sections)
-        self.assertTrue(
-            all(section["review_note"] for section in skipped_current_witness_sections)
-        )
-        self.assertTrue(
-            all(
-                section["review_note"] != "Public-domain witness located, but the English text is not yet verified clean enough for export."
-                for section in skipped_current_witness_sections
+        if skipped_current_witness_sections:
+            self.assertTrue(
+                all(section["review_note"] for section in skipped_current_witness_sections)
             )
-        )
-        skipped_section_ids = {section["section_id"] for section in skipped_current_witness_sections}
-        self.assertTrue({"guofeng-weifeng-006", "guofeng-wangfeng-005", "guofeng-wangfeng-010"} <= skipped_section_ids)
-        self.assertTrue(
-            {
-                "guofeng-zhengfeng-009",
-                "guofeng-weifeng-state-002",
-            }
-            <= skipped_section_ids
-        )
-        self.assertNotIn("guofeng-qifeng-002", skipped_section_ids)
-        self.assertNotIn("guofeng-tangfeng-002", skipped_section_ids)
+            self.assertTrue(
+                all(
+                    section["review_note"]
+                    != "Public-domain witness located, but the English text is not yet verified clean enough for export."
+                    for section in skipped_current_witness_sections
+                )
+            )
+            skipped_section_ids = {section["section_id"] for section in skipped_current_witness_sections}
+            self.assertTrue({"guofeng-weifeng-006", "guofeng-wangfeng-005", "guofeng-wangfeng-010"} <= skipped_section_ids)
+            self.assertTrue(
+                {
+                    "guofeng-zhengfeng-009",
+                    "guofeng-weifeng-state-002",
+                }
+                <= skipped_section_ids
+            )
+            self.assertNotIn("guofeng-qifeng-002", skipped_section_ids)
+            self.assertNotIn("guofeng-tangfeng-002", skipped_section_ids)
+        else:
+            self.assertEqual(quality_report["summary"]["non_exportable_extant_sections"], 0)
         self.assertFalse(any(section["english_word_count"] == 0 for section in quality_report["sections"]))
         self.assertFalse(
             any(
@@ -566,6 +571,7 @@ class CorpusWorkflowTest(unittest.TestCase):
         self.assertFalse(any(section["possible_commentary_leakage_markers"] for section in quality_report["sections"]))
         self.assertFalse(any(section["suspicious_ocr_artifact_markers"] for section in quality_report["sections"]))
         ledger_by_section = {entry["section_id"]: entry for entry in verification_ledger["entries"]}
+        sources_by_id = {source["source_id"]: source for source in sources}
         self.assertTrue(all(section["section_id"] in ledger_by_section for section in quality_report["sections"]))
         self.assertTrue(
             all(ledger_by_section[section["section_id"]]["decision"] == "export" for section in quality_report["sections"])
@@ -670,6 +676,27 @@ class CorpusWorkflowTest(unittest.TestCase):
                 if entry["decision"] == "export" and entry["english_witness_type"] == "fulltext_derived_witness"
             )
         )
+        fulltext_sections = [
+            section for section in quality_report["sections"] if section["english_witness_type"] == "fulltext_derived_witness"
+        ]
+        self.assertTrue(fulltext_sections)
+        for section in fulltext_sections:
+            section_id = section["section_id"]
+            entry = ledger_by_section[section_id]
+            source_id = f"{section_id}__legge-sbe-v3-1879-fulltext"
+            self.assertIn(source_id, sources_by_id)
+            source = sources_by_id[source_id]
+            self.assertEqual(source["source_name"], "ChineseNotes public-domain Legge transcription mirror")
+            self.assertTrue(source["source_url"].startswith("https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing"))
+            self.assertEqual(source["access_date"], "2026-05-31")
+            self.assertTrue(bool(source["displayed_title"]))
+            self.assertEqual(source["rights_status"], "public_domain")
+            self.assertIn("james-legge", source["author_or_translator_ids"])
+            self.assertTrue(str(entry["raw_source_path"]).startswith("corpus/raw/chinesenotes/"))
+            self.assertIn(
+                "__legge-sbe-v3-1879-fulltext__segments.jsonl",
+                str(entry["processed_translation_path"]),
+            )
         self.assertTrue(
             all(
                 entry["source_page_or_anchor"].startswith("http")
@@ -703,7 +730,7 @@ class CorpusWorkflowTest(unittest.TestCase):
         shijing_manifest = load_work_manifest("shijing")
         verification_ledger = load_json_compatible_yaml(REPO_ROOT / "metadata" / "shijing_verification_ledger.yml")
         shijing_export_rows = read_jsonl(corpus_export_paths("shijing")["jsonl"])
-        self.assertTrue(
+        self.assertFalse(
             any(section["english_witness_status"] == "extraction_failed_metadata_only" for section in shijing_manifest["sections"])
         )
         exported_sections = {section["section_id"] for section in shijing_manifest["sections"] if section["tmx_status"] == "complete"}

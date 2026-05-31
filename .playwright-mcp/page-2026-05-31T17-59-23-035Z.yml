@@ -1,0 +1,19 @@
+- generic [active] [ref=e1]:
+  - heading "File not found (error 404)" [level=1] [ref=e2]
+  - paragraph [ref=e3]:
+    - text: The page you requested from the
+    - link "Internet Internet Sacred Text Archive" [ref=e4] [cursor=pointer]:
+      - /url: https://www.sacred-texts.com/index.htm
+      - img [ref=e5]
+      - text: Internet Internet Sacred Text Archive
+    - text: was not found. The page was moved or the name was entered incorrectly. Click on the link above to access the main index.
+  - paragraph [ref=e6]:
+    - text: If you got to this page from an external site it is possible that the page you want is still at the sacred-texts.com. To find the page you linked to follow this link to the
+    - link "The Internet Sacred Archive search page." [ref=e7] [cursor=pointer]:
+      - /url: https://www.sacred-texts.com/search.htm
+    - text: You may also wish to notify the maintainer of the link which you followed.
+  - paragraph [ref=e8]:
+    - text: If you got this page by following a link at sacred-texts, please let
+    - link "click here to contact us" [ref=e9] [cursor=pointer]:
+      - /url: https://www.sacred-texts.com/contact.htm
+    - text: and let us know that there is a broken link.

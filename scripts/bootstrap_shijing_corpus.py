@@ -76,6 +76,11 @@ ZH_INDEX_URL = "https://zh.wikisource.org/wiki/詩經"
 ZH_INDEX_RAW_PATH = RAW_DIR / f"{WORK_ID}__index__{SOURCE_SUFFIX}__raw.wikitext"
 FULL_TEXT_WITNESS_URL = "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shih"
 FULL_TEXT_WITNESS_GUTENBERG_URL = "https://archive.org/download/theshihking09394gut/7shih10.txt"
+CHINESENOTES_SOURCE_NAME = "ChineseNotes public-domain Legge transcription mirror"
+CHINESENOTES_ACCESS_DATE = "2026-05-31"
+CHINESENOTES_PUBLIC_DOMAIN_MARKER = "本作品在全世界都属于公有领域"
+CHINESENOTES_TRANSLATOR_ATTRIBUTION = "English translation: James Legge"
+CHINESENOTES_BOUNDARY_MARKER_PREFIX = "< 詩經"
 SBE_ALLPAGES_URL = (
     "https://en.wikisource.org/w/api.php?"
     "action=query&list=allpages&apprefix=Sacred%20Books%20of%20the%20East/Volume%203/The%20Shih"
@@ -3667,18 +3672,14 @@ def legge_ocr_witness_for_entry(entry: dict[str, Any]) -> dict[str, str]:
     }
 
 
-REVIEWED_LEGGE_FULLTEXT_POEM_BLOCKS: dict[int, dict[str, Any]] = {
+REVIEWED_LEGGE_FULLTEXT_OVERRIDES: dict[int, dict[str, Any]] = {
+    17: {
+        "replacements": [
+            ("[have walked there]", "have walked there"),
+            ("[too]", "too"),
+        ],
+    },
     75: {
-        "legge_section_alias": "Tsze \u00ce",
-        "source_name": "ChineseNotes public-domain Legge transcription mirror",
-        "source_page_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing076.txt",
-        "source_text_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/master/corpus/shijing/shijing076.txt",
-        "source_access_date": "2026-05-31",
-        "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-001__legge-sbe-v3-1879-fulltext__raw.txt",
-        "review_note": (
-            "Verified the full poem against the ChineseNotes public-domain Legge transcription mirror and promoted it "
-            "from the blocked hOCR fallback to a reviewed fulltext witness."
-        ),
         "english_blocks": [
             "\n".join(
                 [
@@ -3707,16 +3708,6 @@ REVIEWED_LEGGE_FULLTEXT_POEM_BLOCKS: dict[int, dict[str, Any]] = {
         ],
     },
     82: {
-        "legge_section_alias": "N\u00fc y\u00fceh k\u00ee ming",
-        "source_name": "ChineseNotes public-domain Legge transcription mirror",
-        "source_page_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing083.txt",
-        "source_text_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/master/corpus/shijing/shijing083.txt",
-        "source_access_date": "2026-05-31",
-        "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-008__legge-sbe-v3-1879-fulltext__raw.txt",
-        "review_note": (
-            "Verified the full poem against the ChineseNotes public-domain Legge transcription mirror and promoted it "
-            "from the blocked hOCR fallback to a reviewed fulltext witness."
-        ),
         "english_blocks": [
             "\n".join(
                 [
@@ -3751,16 +3742,6 @@ REVIEWED_LEGGE_FULLTEXT_POEM_BLOCKS: dict[int, dict[str, Any]] = {
         ],
     },
     84: {
-        "legge_section_alias": "Shan y\u00fb f\u00fb s\u00fb",
-        "source_name": "ChineseNotes public-domain Legge transcription mirror",
-        "source_page_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing085.txt",
-        "source_text_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/master/corpus/shijing/shijing085.txt",
-        "source_access_date": "2026-05-31",
-        "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-010__legge-sbe-v3-1879-fulltext__raw.txt",
-        "review_note": (
-            "Verified the full poem against the ChineseNotes public-domain Legge transcription mirror and promoted it "
-            "from the blocked hOCR fallback to a reviewed fulltext witness."
-        ),
         "english_blocks": [
             "\n".join(
                 [
@@ -3781,16 +3762,6 @@ REVIEWED_LEGGE_FULLTEXT_POEM_BLOCKS: dict[int, dict[str, Any]] = {
         ],
     },
     95: {
-        "legge_section_alias": "Ch\u00een Wei",
-        "source_name": "ChineseNotes public-domain Legge transcription mirror",
-        "source_page_url": "https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing096.txt",
-        "source_text_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/master/corpus/shijing/shijing096.txt",
-        "source_access_date": "2026-05-31",
-        "raw_path": "corpus/raw/chinesenotes/shijing__guofeng-zhengfeng-021__legge-sbe-v3-1879-fulltext__raw.txt",
-        "review_note": (
-            "Verified the full poem against the ChineseNotes public-domain Legge transcription mirror and promoted it "
-            "from the blocked hOCR fallback to a reviewed fulltext witness."
-        ),
         "english_blocks": [
             "\n".join(
                 [
@@ -3826,7 +3797,71 @@ REVIEWED_LEGGE_FULLTEXT_POEM_BLOCKS: dict[int, dict[str, Any]] = {
             ),
         ],
     },
+    83: {
+        "replacements": [("ephermeral", "ephemeral")],
+    },
+    35: {
+        "replacements": [
+            ("[Husband and wife]", "Husband and wife"),
+            ("[Loving]", "Loving"),
+            ("[only]", "only"),
+        ],
+        "displayed_title": "國風‧邶‧谷風",
+    },
+    44: {
+        "replacements": [
+            ("[on the water]", "on the water"),
+            ("[on the stream]", "on the stream"),
+        ],
+    },
+    109: {
+        "replacements": [
+            ("[the cause of]", "the cause of"),
+            ("[They know it not]", "They know it not"),
+            ("[They do not know it]", "They do not know it"),
+        ],
+    },
+    119: {
+        "displayed_title": "國風‧唐‧杕杜",
+    },
 }
+
+
+def chinesenotes_file_number(sort_key: int) -> int:
+    return sort_key + 1
+
+
+def chinesenotes_reviewed_fulltext_for_poem(
+    poem: dict[str, Any],
+    verification_entry: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    section_id = section_id_for_catalog_entry(poem)
+    file_number = chinesenotes_file_number(poem["sort_key"])
+    reviewed = REVIEWED_LEGGE_FULLTEXT_OVERRIDES.get(poem["sort_key"], {})
+    return {
+        "source_name": CHINESENOTES_SOURCE_NAME,
+        "source_page_url": (
+            f"https://github.com/alexamies/chinesenotes.com/blob/master/corpus/shijing/shijing{file_number:03d}.txt"
+        ),
+        "source_text_url": (
+            f"https://raw.githubusercontent.com/alexamies/chinesenotes.com/master/corpus/shijing/shijing{file_number:03d}.txt"
+        ),
+        "source_access_date": CHINESENOTES_ACCESS_DATE,
+        "displayed_title": reviewed.get("displayed_title", poem["label"]),
+        "raw_path": str(
+            verification_entry.get("raw_source_path")
+            if verification_entry and verification_entry.get("raw_source_path")
+            else f"corpus/raw/chinesenotes/shijing__{section_id}__{FULLTEXT_TARGET_SOURCE_SUFFIX}__raw.txt"
+        ),
+        "review_note": reviewed.get(
+            "review_note",
+            (
+                "Verified the full poem against the ChineseNotes public-domain Legge transcription mirror and "
+                "promoted it from the blocked hOCR fallback to a reviewed fulltext witness."
+            ),
+        ),
+        **reviewed,
+    }
 
 
 def load_shijing_verification_index(*, skip_fetch: bool) -> dict[str, dict[str, Any]]:
@@ -4099,7 +4134,7 @@ def build_section_seed(
             ),
         }
     if english_witness == "legge_fulltext_reviewed":
-        reviewed = REVIEWED_LEGGE_FULLTEXT_POEM_BLOCKS[poem["sort_key"]]
+        reviewed = chinesenotes_reviewed_fulltext_for_poem(poem, verification_entry)
         return {
             "section_id": section_id_for_catalog_entry(poem),
             "label": poem["label"],
@@ -4108,11 +4143,11 @@ def build_section_seed(
             "major_division": poem["major_division"],
             "subdivision": poem["subdivision"],
             "poem_number": poem["local_index"],
-            "legge_section_alias": reviewed["legge_section_alias"],
+            "legge_section_alias": poem["label"],
             "zh_page_url": poem["page_url"],
             "zh_section_heading": poem["zh_section_heading"],
             "en_page_url": reviewed["source_page_url"],
-            "en_page_title": f"{reviewed['source_name']} ({reviewed['legge_section_alias']})",
+            "en_page_title": f"{reviewed['source_name']} ({poem['label']})",
             "target_source_suffix": FULLTEXT_TARGET_SOURCE_SUFFIX,
             "english_witness": english_witness,
             **witness_meta,
@@ -4122,7 +4157,9 @@ def build_section_seed(
             "candidate_en_source_id": FULLTEXT_TARGET_SOURCE_SUFFIX,
             "candidate_en_source_name": reviewed["source_name"],
             "candidate_en_access_date": reviewed["source_access_date"],
-            "reviewed_english_blocks": reviewed["english_blocks"],
+            "candidate_en_display_title": reviewed["displayed_title"],
+            "reviewed_english_blocks": reviewed.get("english_blocks"),
+            "reviewed_fulltext_replacements": reviewed.get("replacements", []),
             "force_poem_alignment": reviewed.get("force_poem_alignment", False),
             "review_note": reviewed.get("review_note"),
             "reviewed_fulltext_notes": (
@@ -4190,19 +4227,19 @@ def build_section_catalog(
         mapped_sections.append(section_seed)
         seen_sort_keys.add(poem["sort_key"])
     for poem in chinese_catalog:
+        verification_entry = verification_index[section_id_for_catalog_entry(poem)] if verification_index is not None else None
         if (
             poem["sort_key"] in seen_sort_keys
             or poem["sort_key"] in TITLE_ONLY_SORT_KEYS
-            or poem["sort_key"] in EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS
+            or (
+                poem["sort_key"] in EXTRACTION_FAILED_METADATA_ONLY_SORT_KEYS
+                and not (verification_entry and verification_entry_is_exportable(verification_entry))
+            )
         ):
             continue
-        verification_entry = verification_index[section_id_for_catalog_entry(poem)] if verification_index is not None else None
         english_witness = (
             "legge_fulltext_reviewed"
-            if (
-                poem["sort_key"] in REVIEWED_LEGGE_FULLTEXT_POEM_BLOCKS
-                or (verification_entry and verification_entry.get("verification_status") == "human_verified_fulltext")
-            )
+            if (verification_entry and verification_entry.get("verification_status") == "human_verified_fulltext")
             else (
                 "legge_ocr_reviewed"
                 if (
@@ -5060,7 +5097,19 @@ def extract_english_poem_blocks(
     if section["english_witness"] == "legge_ocr_reviewed":
         return list(section["reviewed_english_blocks"]), section["legge_section_alias"], section.get("pinyin_alias"), None
     if section["english_witness"] == "legge_fulltext_reviewed":
-        return list(section["reviewed_english_blocks"]), section["legge_section_alias"], section.get("pinyin_alias"), None
+        if section.get("reviewed_english_blocks"):
+            return (
+                list(section["reviewed_english_blocks"]),
+                section["legge_section_alias"],
+                section.get("pinyin_alias"),
+                None,
+            )
+        blocks, displayed_title = extract_chinesenotes_reviewed_fulltext_blocks(
+            raw_text,
+            fallback_title=section["label"],
+            replacements=section.get("reviewed_fulltext_replacements", []),
+        )
+        return blocks, displayed_title, section.get("pinyin_alias"), None
     if rendered_html is None:
         raise ValueError(f"Missing rendered HTML for SBE witness {section['section_id']}")
     lines = extract_rendered_text_lines(rendered_html)
@@ -5087,6 +5136,58 @@ def extract_english_poem_blocks_from_raw(raw_text: str) -> list[str]:
         if blocks:
             return blocks
     raise ValueError("Could not find an English <poem> block with content.")
+
+
+def extract_chinesenotes_reviewed_fulltext_blocks(
+    raw_text: str,
+    *,
+    fallback_title: str,
+    replacements: list[tuple[str, str]] | list[list[str]] | None = None,
+) -> tuple[list[str], str]:
+    lines = [line.rstrip() for line in raw_text.splitlines()]
+    if not any(CHINESENOTES_PUBLIC_DOMAIN_MARKER in line for line in lines):
+        raise ValueError("Missing ChineseNotes public-domain notice in reviewed fulltext witness.")
+    if CHINESENOTES_TRANSLATOR_ATTRIBUTION not in {line.strip() for line in lines}:
+        raise ValueError("Missing James Legge attribution in reviewed fulltext witness.")
+
+    body_end = next(
+        (index for index, line in enumerate(lines) if line.startswith(CHINESENOTES_BOUNDARY_MARKER_PREFIX)),
+        len(lines),
+    )
+    body_lines = lines[:body_end]
+
+    displayed_title = fallback_title
+    title_index: int | None = None
+    for index, line in enumerate(body_lines):
+        stripped = line.strip()
+        if not stripped or stripped.startswith("毛詩序：") or stripped.startswith("《") or re.search(r"[A-Za-z]", stripped):
+            continue
+        if len(stripped) <= 20 and "，" not in stripped and "。" not in stripped:
+            displayed_title = stripped
+            title_index = index
+            break
+
+    english_blocks: list[str] = []
+    current_block: list[str] = []
+    for line in body_lines[(title_index + 1) if title_index is not None else 0 :]:
+        stripped = line.strip()
+        if not stripped:
+            if current_block:
+                english_blocks.append("\n".join(current_block))
+                current_block = []
+            continue
+        if stripped.startswith("《") or CHINESENOTES_PUBLIC_DOMAIN_MARKER in stripped:
+            break
+        if re.search(r"[A-Za-z]", stripped):
+            normalized_line = stripped
+            for source_text, replacement_text in replacements or []:
+                normalized_line = normalized_line.replace(source_text, replacement_text)
+            current_block.append(normalized_line)
+    if current_block:
+        english_blocks.append("\n".join(current_block))
+    if not english_blocks:
+        raise ValueError("Could not extract English stanza blocks from reviewed ChineseNotes fulltext witness.")
+    return english_blocks, displayed_title
 
 
 def poem_lines(blocks: list[str]) -> list[str]:
@@ -5308,8 +5409,11 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
             "section_id": section["section_id"],
             "language_code": "zh-Hant",
             "source_kind": "wikisource",
+            "source_name": "Chinese Wikisource",
             "citation": f"{title_from_url(section['zh_page_url'])}, Chinese Wikisource, accessed {ACCESS_DATE}.",
             "source_url": section["zh_page_url"],
+            "access_date": ACCESS_DATE,
+            "displayed_title": title_from_url(section["zh_page_url"]),
             "raw_path": str(paths["zh_raw"].relative_to(REPO_ROOT)),
             "processed_path": str(paths["zh_segments"].relative_to(REPO_ROOT)),
             "rights_status": "public_domain",
@@ -5328,6 +5432,19 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
             "section_id": section["section_id"],
             "language_code": "en",
             "source_kind": "translation",
+            "source_name": (
+                "English Wikisource"
+                if section["english_witness"] == "standalone_sheking"
+                else (
+                    section.get("candidate_en_source_name", "public-domain fulltext witness")
+                    if section["english_witness"] == "legge_fulltext_reviewed"
+                    else (
+                        "Internet Archive"
+                        if section["english_witness"] in {"legge_ocr_reviewed", "legge_hocr"}
+                        else "English Wikisource"
+                    )
+                )
+            ),
             "citation": (
                 f"James Legge, The She King, '{section['legge_section_alias']}', English Wikisource, accessed {ACCESS_DATE}."
                 if section["english_witness"] == "standalone_sheking"
@@ -5353,6 +5470,20 @@ def build_sources(section: dict[str, Any], paths: dict[str, Path]) -> list[dict[
                 )
             ),
             "source_url": section["en_page_url"],
+            "access_date": (
+                ACCESS_DATE
+                if section["english_witness"] in {"standalone_sheking", "sbe_shih"}
+                else (
+                    section.get("candidate_en_access_date", ACCESS_DATE)
+                    if section["english_witness"] == "legge_fulltext_reviewed"
+                    else LEGGE_SHEKING_1871_OCR_ACCESS_DATE
+                )
+            ),
+            "displayed_title": (
+                section["legge_section_alias"]
+                if section["english_witness"] != "legge_fulltext_reviewed"
+                else section.get("candidate_en_display_title", section["legge_section_alias"])
+            ),
             "raw_path": str(paths["en_raw"].relative_to(REPO_ROOT)),
             "processed_path": str(paths["en_segments"].relative_to(REPO_ROOT)),
             "rights_status": "public_domain",

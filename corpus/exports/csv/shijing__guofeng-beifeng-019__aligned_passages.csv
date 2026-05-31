@@ -1,0 +1,9 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-beifeng-019__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-beifeng-019,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·邶風·019.1,二子乘舟，汎汎其景，願言思子，中心養養。,二子乘舟.1,"The two youths got into their boats,
+Whose shadows floated about on the water.
+I think longingly of them,
+And my heart is tossed about in uncertainty."
+shijing__guofeng-beifeng-019__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-beifeng-019,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·邶風·019.2,二子乘舟，汎汎其逝，願言思子，不瑕有害。,二子乘舟.2,"The two youths got into their boats,
+Which floated away on the stream.
+I think longingly of them,
+Did they not come to harm?"
