@@ -1870,6 +1870,39 @@
     "notes": "Bootstrap Shijing generation for 狼跋 with 2 exact stanza alignments."
   },
   {
+    "run_id": "bootstrap-xiaoya-luming-001-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-001",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-luming-001__zhwikisource-20260530",
+      "xiaoya-luming-001__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 鹿鳴 with 3 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-luming-003-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-003",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-luming-003__zhwikisource-20260530",
+      "xiaoya-luming-003__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 皇皇者華 with 5 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-luming-004-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-004",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-luming-004__zhwikisource-20260530",
+      "xiaoya-luming-004__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 常棣 with 8 exact stanza alignments."
+  },
+  {
     "run_id": "bootstrap-xiaoya-luming-005-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-luming-005",
@@ -1923,6 +1956,116 @@
       "xiaoya-nanyoujiayu-001__legge-sheking-1871-ocr"
     ],
     "notes": "Bootstrap Shijing generation for 南有嘉魚 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-nanyoujiayu-006-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-006",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-nanyoujiayu-006__zhwikisource-20260530",
+      "xiaoya-nanyoujiayu-006__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 蓼蕭 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-nanyoujiayu-007-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-007",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-nanyoujiayu-007__zhwikisource-20260530",
+      "xiaoya-nanyoujiayu-007__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 湛露 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-nanyoujiayu-008-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-008",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-nanyoujiayu-008__zhwikisource-20260530",
+      "xiaoya-nanyoujiayu-008__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 彤弓 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-nanyoujiayu-009-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-009",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-nanyoujiayu-009__zhwikisource-20260530",
+      "xiaoya-nanyoujiayu-009__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 菁菁者莪 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-nanyoujiayu-012-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-012",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-nanyoujiayu-012__zhwikisource-20260530",
+      "xiaoya-nanyoujiayu-012__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 車攻 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-hongyan-001-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-001",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-hongyan-001__zhwikisource-20260530",
+      "xiaoya-hongyan-001__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 鴻鴈 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-hongyan-002-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-002",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-hongyan-002__zhwikisource-20260530",
+      "xiaoya-hongyan-002__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 庭燎 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-hongyan-004-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-004",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-hongyan-004__zhwikisource-20260530",
+      "xiaoya-hongyan-004__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 鶴鳴 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-hongyan-006-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-006",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-hongyan-006__zhwikisource-20260530",
+      "xiaoya-hongyan-006__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 白駒 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-hongyan-008-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-008",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-hongyan-008__zhwikisource-20260530",
+      "xiaoya-hongyan-008__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 我行其野 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-xiaoya-hongyan-009-20260530",
@@ -2057,6 +2200,28 @@
     "notes": "Bootstrap Shijing generation for 大東 with 1 exact poem alignments."
   },
   {
+    "run_id": "bootstrap-xiaoya-gufeng-004-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-gufeng-004",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-gufeng-004__zhwikisource-20260530",
+      "xiaoya-gufeng-004__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 四月 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-gufeng-006-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-gufeng-006",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-gufeng-006__zhwikisource-20260530",
+      "xiaoya-gufeng-006__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 無將大車 with 1 exact poem alignments."
+  },
+  {
     "run_id": "bootstrap-xiaoya-gufeng-007-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-gufeng-007",
@@ -2112,6 +2277,28 @@
     "notes": "Bootstrap Shijing generation for 大田 with 1 exact poem alignments."
   },
   {
+    "run_id": "bootstrap-xiaoya-futian-003-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-003",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-futian-003__zhwikisource-20260530",
+      "xiaoya-futian-003__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 瞻彼洛矣 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-futian-004-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-004",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-futian-004__zhwikisource-20260530",
+      "xiaoya-futian-004__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 裳裳者華 with 1 exact poem alignments."
+  },
+  {
     "run_id": "bootstrap-xiaoya-futian-005-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-futian-005",
@@ -2121,6 +2308,50 @@
       "xiaoya-futian-005__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 桑扈 with 1 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-futian-006-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-006",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-futian-006__zhwikisource-20260530",
+      "xiaoya-futian-006__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 鴛鴦 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-futian-007-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-007",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-futian-007__zhwikisource-20260530",
+      "xiaoya-futian-007__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 頍弁 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-futian-008-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-008",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-futian-008__zhwikisource-20260530",
+      "xiaoya-futian-008__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 車舝 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-futian-009-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-009",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-futian-009__zhwikisource-20260530",
+      "xiaoya-futian-009__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 青蠅 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-xiaoya-futian-010-20260530",
@@ -2134,6 +2365,72 @@
     "notes": "Bootstrap Shijing generation for 賓之初筵 with 2 exact stanza alignments."
   },
   {
+    "run_id": "bootstrap-xiaoya-yuzao-001-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-001",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-yuzao-001__zhwikisource-20260530",
+      "xiaoya-yuzao-001__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 魚藻 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-yuzao-002-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-002",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-yuzao-002__zhwikisource-20260530",
+      "xiaoya-yuzao-002__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 采菽 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-yuzao-003-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-003",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-yuzao-003__zhwikisource-20260530",
+      "xiaoya-yuzao-003__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 角弓 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-yuzao-004-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-004",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-yuzao-004__zhwikisource-20260530",
+      "xiaoya-yuzao-004__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 菀柳 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-yuzao-006-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-006",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-yuzao-006__zhwikisource-20260530",
+      "xiaoya-yuzao-006__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 采綠 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-yuzao-008-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-008",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-yuzao-008__zhwikisource-20260530",
+      "xiaoya-yuzao-008__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 隰桑 with 1 exact poem alignments."
+  },
+  {
     "run_id": "bootstrap-xiaoya-yuzao-009-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-yuzao-009",
@@ -2143,6 +2440,39 @@
       "xiaoya-yuzao-009__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 白華 with 2 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-yuzao-011-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-011",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-yuzao-011__zhwikisource-20260530",
+      "xiaoya-yuzao-011__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 瓠葉 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-yuzao-012-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-012",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-yuzao-012__zhwikisource-20260530",
+      "xiaoya-yuzao-012__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 漸漸之石 with 1 exact poem alignments."
+  },
+  {
+    "run_id": "bootstrap-xiaoya-yuzao-013-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-013",
+    "status": "complete",
+    "source_ids": [
+      "xiaoya-yuzao-013__zhwikisource-20260530",
+      "xiaoya-yuzao-013__legge-sheking-1871-ocr"
+    ],
+    "notes": "Bootstrap Shijing generation for 苕之華 with 1 exact poem alignments."
   },
   {
     "run_id": "bootstrap-daya-wenwang-001-20260530",

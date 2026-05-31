@@ -1,0 +1,17 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-futian-009__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-futian-009,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·甫田之什·009.1,"營營青蠅，止於樊。豈弟君子，無信讒言。
+營營青蠅，止于棘。讒人罔極，交亂四國。
+營營青蠅，止于榛。讒人罔極，構我二人。",青蠅.1,"They buzz about, the blue flies,
+Lighting on the fences.
+O happy and courteous sovereign,
+Do not believe slanderous speeches.
+
+They buzz about, the blue flies,
+Lighting on the jujube trees.
+The slanderers observe no limits,
+And throw the whole kingdom into confusion.
+
+They buzz about, the blue flies,
+Lighting on the hazel trees.
+The slanderers observe no limits,
+And set us two at variance."

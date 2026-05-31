@@ -1,0 +1,20 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-hongyan-002__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-002,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·鴻鴈之什·002.1,"夜如何其？夜未央。庭燎之光，君子至止，鸞聲將將。
+夜如何其？夜未艾。庭燎晣晣，君子至止，鸞聲噦噦。
+夜如何其？夜鄉晨。庭燎有煇，君子至止，言觀其旂。",庭燎.1,"How goes the night?
+It is not yet midnight.
+The torch is blazing in the court-yard.
+My princely men are arriving; —
+There is the tinkling of their bells.
+
+How goes the night?
+The night is not yet througli.
+The torch is growing pale in the court-yard.
+My princely men are arriving; —
+There is the sound of their bells, regular and near.
+
+How goes the night?
+It is getting towards morning.
+The torch is smoking in the court-yard.
+My princely men are arriving; -
+I see their banners.!"

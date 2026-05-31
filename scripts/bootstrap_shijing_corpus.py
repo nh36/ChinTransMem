@@ -2708,9 +2708,13 @@ AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
     },
     96: {
         "line_replacements": {
+            "The court is full •": "The court is full.",
             "Bat it was not the east that was bright; —": "But it was not the east that was bright; —",
         },
-        "review_note": "Reviewed the part-1 hOCR witness directly and corrected the one obvious court-line OCR slip in the middle stanza.",
+        "review_note": (
+            "Reviewed the part-1 hOCR witness directly, corrected the one obvious court-line OCR slip in the middle "
+            "stanza, and restored the stanza-1 closing full stop after checking the public-domain transcription."
+        ),
     },
     101: {
         "line_replacements": {
@@ -2786,7 +2790,12 @@ AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
     137: {
         "line_replacements": {
             "Yuen-k^ew": "Yuen-k'ew",
+            "You give me a stalk of the pepper plant •": "You give me a stalk of the pepper plant.",
         },
+        "review_note": (
+            "Reviewed the part-1 hOCR witness directly and restored the closing full stop in the final line after "
+            "checking the public-domain transcription."
+        ),
     },
     142: {
         "line_replacements": {

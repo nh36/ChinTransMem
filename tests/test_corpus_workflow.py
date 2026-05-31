@@ -419,6 +419,15 @@ class CorpusWorkflowTest(unittest.TestCase):
             quality_report["progress"]["latest_repair_batch"],
             {batch["repair_batch"] for batch in quality_report["progress"]["human_verified_batches"]},
         )
+        current_batch_summary = quality_report["progress"]["current_batch_summary"]
+        self.assertEqual(
+            current_batch_summary["repair_batch"],
+            quality_report["progress"]["current_repair_batch"],
+        )
+        self.assertEqual(
+            current_batch_summary["newly_repaired_in_current_batch"],
+            quality_report["progress"]["newly_repaired_in_current_batch"],
+        )
         priority_remaining = quality_report["progress"]["remaining_priority_subdivisions"]
         for subdivision_key in (
             "國風 / 召南",
@@ -440,6 +449,50 @@ class CorpusWorkflowTest(unittest.TestCase):
             self.assertTrue(
                 all(section["review_note"] for section in priority_remaining[subdivision_key])
             )
+        self.assertIn("guofeng_queue_categories", quality_report["progress"])
+        self.assertIn("known_unrecoverable_cases", quality_report["progress"])
+        self.assertIn("cases_needing_better_witness", quality_report["progress"])
+        self.assertIn("ocr_sanity_sweep", quality_report["progress"])
+        self.assertTrue(
+            {
+                "remaining_guofeng_by_subdivision",
+                "remaining_xiaoya_by_subdivision",
+                "remaining_daya_song_by_subdivision",
+                "remaining_guofeng_sections",
+                "remaining_xiaoya_sections",
+                "remaining_daya_song_sections",
+                "previous_human_verified_batches",
+            }
+            <= set(quality_report["progress"])
+        )
+        self.assertIn(
+            "unrecoverable_with_current_witness",
+            quality_report["progress"]["guofeng_queue_categories"],
+        )
+        self.assertIn(
+            "likely_repairable_now",
+            quality_report["progress"]["guofeng_queue_categories"],
+        )
+        self.assertIn(
+            "needs_better_witness",
+            quality_report["progress"]["guofeng_queue_categories"],
+        )
+        self.assertGreaterEqual(
+            len(quality_report["progress"]["known_unrecoverable_cases"]),
+            1,
+        )
+        self.assertGreaterEqual(
+            len(quality_report["progress"]["cases_needing_better_witness"]),
+            1,
+        )
+        self.assertEqual(
+            quality_report["progress"]["ocr_sanity_sweep"]["checked_exportable_ocr_sections"],
+            quality_report["progress"]["all_human_verified_ocr_sections"],
+        )
+        self.assertEqual(
+            quality_report["progress"]["ocr_sanity_sweep"]["flagged_sections"],
+            quality_report["summary"]["sections_with_suspicious_ocr_artifacts"],
+        )
         skipped_current_witness_sections = quality_report["progress"]["skipped_current_witness_sections"]
         self.assertTrue(skipped_current_witness_sections)
         self.assertTrue(
@@ -507,6 +560,21 @@ class CorpusWorkflowTest(unittest.TestCase):
                 for section in quality_report["sections"]
             )
         )
+        quality_markdown = (REPO_ROOT / "documentation" / "shijing_completion_quality.md").read_text(
+            encoding="utf-8"
+        )
+        for heading in (
+            "## Current batch summary",
+            "## Newly repaired in current batch",
+            "## Previous OCR repair batches",
+            "## Remaining Guofeng items",
+            "## Remaining Xiaoya items",
+            "## Remaining Daya/Song items",
+            "## Known unrecoverable cases",
+            "## Cases needing a better witness",
+            "## OCR sanity sweep results",
+        ):
+            self.assertIn(heading, quality_markdown)
 
     def test_manifest_policy_and_exports_are_consistent(self) -> None:
         works = load_json_compatible_yaml(METADATA_DIR / "works.yml")

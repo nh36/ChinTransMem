@@ -1,0 +1,17 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-yuzao-001__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-001,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·001.1,"魚在在藻，有頒其首。王在在鎬，豈樂飲酒。
+魚在在藻，有莘其尾。王在在鎬，飲酒樂豈。
+魚在在藻，依于其蒲。王在在鎬，有那其居。",魚藻.1,"The fishes are there, there among the pondweed,
+Showing their large heads.
+The king is here, here in Haou,
+At ease and happy, while lie drinks.
+The fishes are there, there among the pondweed,
+Showing their long tails.
+DECADE OF SANG HOO.
+The king is here, here in Haou,
+Drinking, happy and at ease.
+
+The fishes are there, there among the pondweed,
+Sheltered by the rushes.
+The king is here, here in Haou,
+Dwelling in tranquillity."

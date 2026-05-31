@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-hongyan-006__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-hongyan-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鴻鴈之什·006.1</prop>
+      <prop type="x-translation-ref">白駒.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>皎皎白駒，食我場苗。縶之維之，以永今朝。所謂伊人，於焉逍遙。
+皎皎白駒，食我場藿。縶之維之，以永今夕。所謂伊人，於焉嘉客。
+皎皎白駒，賁然來思。爾公爾侯，逸豫無期。慎爾優游，勉爾遁思。
+皎皎白駒，在彼空谷，生芻一束。其人如玉，毋金玉爾音，而有遐心。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Let the brilliant white colt
+Feed on the young growth of my vegetable garden.
+Tether it by the foot, tie it by the collar,
+To prolong this morning.
+So may its owner of whom I think
+Spend his time here at his ease !
+
+Let the brilliant white colt
+Feed on the bean sprouts of my vegetable garden.
+Tether it by the foot, tie it by the collar,
+To prolong this evening.
+So may its owner of whom I think
+Be here, an admired guest !
+
+If you with the brilliant white colt
+Would brightly come to me,
+You should be a duke, you should be a marquis,
+Enjoying yourself without end.
+Be on your guard against idly wandering ;
+Deal vigorously with your thoughts of retirement.
+
+The brilliant white colt
+Is there in that empty valley,
+With a bundle of fresh grass.
+Its owner is like a gem.
+Do not make the news of you rare as gold and gems,-
+Indulging your purpose to abandon me.
+DECADE OF K'E FOO,</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

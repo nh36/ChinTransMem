@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-luming-003__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·003.1</prop>
+      <prop type="x-translation-ref">皇皇者華.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>皇皇者華，于彼原隰。駪駪征夫，每懷靡及。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Brilliant are the flowers,
+On those level heights and the low grounds.
+Complete and alert is the messenger, with his suite,
+Ever anxious lest he should not succeed.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-luming-003__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·003.2</prop>
+      <prop type="x-translation-ref">皇皇者華.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我馬維駒，六轡如濡。載馳載驅，周爰咨諏。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>My horses are young;
+The six reins look as if they were moistened.
+I gallop them, and urge them on,
+Everywhere pushing my inquiries.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-luming-003__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·003.3</prop>
+      <prop type="x-translation-ref">皇皇者華.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我馬維騏，六轡如絲。載馳載驅，周爰咨謀。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>My horses are piebald;
+The six reins are like silk.
+I gallop them, and urge them on,
+Everywhere seeking information and counsel,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-luming-003__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·003.4</prop>
+      <prop type="x-translation-ref">皇皇者華.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我馬維駱，六轡沃若。載馳載驅，周爰咨度。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>My horses are white and black-maned ;
+The six reins look glossy.
+I gallop them and urge them on,
+Everywhere seeking information and advice,</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-luming-003__005__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-luming-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·鹿鳴之什·003.5</prop>
+      <prop type="x-translation-ref">皇皇者華.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>我馬維駰，六轡既均。載馳載驅，周爰咨詢。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>My horses are greyj
+The six reins are well in hand.
+I gallop them and urge them on,
+Everywhere seeking information and suggestions.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

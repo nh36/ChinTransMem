@@ -1,0 +1,46 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-yuzao-003__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-003,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·003.1,"騂騂角弓，翩其反矣。兄弟昏姻，無胥遠矣。
+爾之遠矣，民胥然矣。爾之教矣，民胥傚矣。
+此令兄弟，綽綽有裕。不令兄弟，交相為瘉。
+民之無良，相怨一方。受爵不讓，至于已斯亡。
+老馬反為駒，不顧其後。如食宜饇，如酌孔取。
+毋教猱升木，如塗塗附。君子有徽猷，小人與屬。
+雨雪瀌瀌，見晛曰消。莫肯下遺，式居婁驕。
+雨雪浮浮，見晛曰流。如蠻如髦，我是用憂。",角弓.1,"Well fashioned is the bow adorned with horn,
+And swift is its recoil.
+Brothers and relatives by affinity
+Should not be treated distantly.
+DECADE OF SANG HOO.
+When you keep yours at a distance,
+The people all do the same with theirs.
+What you teach
+The people all imitate.
+Those brothers who are good
+Continue to display much generous feeling;
+But between brothers who are not good,
+Their intercourse is marked by troubles.
+People who have no conscience
+Repine against each other, each one holding his own point
+of view;
+Till they all come to ruin.
+
+the app. of being tempered and harmonized
+i. e., the bow is in all respects well made,
+An old horse, notwithstanding, thinks himself a colt,
+And has no regard to the future.
+It is like craving a superabundance of food,
+And an excess of drink.
+
+Do not teach a monkey to climb trees; —
+You act like adding mud to one in the mud.
+If the sovereign have good ways,
+The small people will accord with them.
+
+The snow may have fallen abundantly,
+But when it feels the sun's heat, it dissolves.
+You are not willing to discountenance those parties,
+And so they become more troublesome and arrogant.
+
+The snow may have fallen largely,
+But when it feels the sun?s heat, it flows away.
+This is what makes me sad."

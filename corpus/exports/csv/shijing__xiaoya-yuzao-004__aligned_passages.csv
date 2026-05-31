@@ -1,0 +1,23 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__xiaoya-yuzao-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-004,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·004.1,"有菀者柳，不尚息焉？上帝甚蹈，無自暱焉。俾予靖之，後予極焉。
+有菀者柳，不尚愒焉？上帝甚蹈，無自瘵焉。俾予靖之，後予邁焉。
+有鳥高飛，亦傅于天。彼人之心，于何其臻？曷予靖之？居以凶矜。",菀柳.1,"There is a luxuriant willow tree; —
+Who would not wish to rest under it?
+But this god is very changeable; —
+Do not approach him.
+If I were to try and order his affairs,
+His demands afterwards would be extreme.
+
+There is a luxuriant willow tree; —
+Who would not wish to take shelter under it ?
+But this god is very changeable,
+Do not get yourself into trouble with him.
+If I were to try and order his affairs,
+His demands on me afterwards would be beyond measure.
+
+There is a bird flying high,
+Even up to heaven.
+The heart of that man, —
+To what will it proceed?
+Why should I try to order his affairs?
+I should only find myself in pitiable misery."

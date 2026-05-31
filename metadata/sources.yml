@@ -6256,6 +6256,120 @@
     "needs_human_text_review": false
   },
   {
+    "source_id": "xiaoya-luming-001__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-001",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/鹿鳴, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B9%BF%E9%B3%B4",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-luming-001__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-luming-001__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-luming-001__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-001",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '鹿鳴', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-luming-001__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-luming-003__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-003",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/皇皇者華, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%9A%87%E7%9A%87%E8%80%85%E8%8F%AF",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-luming-003__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-luming-003__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-luming-003__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-003",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '皇皇者華', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-luming-003__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-luming-004__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-004",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/常棣, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B8%B8%E6%A3%A3",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-luming-004__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-luming-004__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-luming-004__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-luming-004",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '常棣', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-luming-004__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
     "source_id": "xiaoya-luming-005__zhwikisource-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-luming-005",
@@ -6436,6 +6550,386 @@
     "source_url": "https://archive.org/details/chineseclassics42legg",
     "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
     "processed_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-001__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-nanyoujiayu-006__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-006",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/蓼蕭, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%93%BC%E8%95%AD",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-nanyoujiayu-006__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-nanyoujiayu-006__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-nanyoujiayu-006__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-006",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '蓼蕭', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-006__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-nanyoujiayu-007__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-007",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/湛露, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B9%9B%E9%9C%B2",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-nanyoujiayu-007__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-nanyoujiayu-007__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-nanyoujiayu-007__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-007",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '湛露', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-007__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-nanyoujiayu-008__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-008",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/彤弓, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%BD%A4%E5%BC%93",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-nanyoujiayu-008__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-nanyoujiayu-008__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-nanyoujiayu-008__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-008",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '彤弓', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-008__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-nanyoujiayu-009__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-009",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/菁菁者莪, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8F%81%E8%8F%81%E8%80%85%E8%8E%AA",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-nanyoujiayu-009__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-nanyoujiayu-009__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-nanyoujiayu-009__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-009",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '菁菁者莪', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-009__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-nanyoujiayu-012__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-012",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/車攻, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BB%8A%E6%94%BB",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-nanyoujiayu-012__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-nanyoujiayu-012__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-nanyoujiayu-012__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-nanyoujiayu-012",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '車攻', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-012__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-hongyan-001__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-001",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/鴻鴈, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B4%BB%E9%B4%88",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-hongyan-001__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-hongyan-001__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-hongyan-001__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-001",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '鴻鴈', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-hongyan-001__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-hongyan-002__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-002",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/庭燎, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%BA%AD%E7%87%8E",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-hongyan-002__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-hongyan-002__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-hongyan-002__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-002",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '庭燎', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-hongyan-002__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-hongyan-004__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-004",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/鶴鳴, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B6%B4%E9%B3%B4",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-hongyan-004__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-hongyan-004__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-hongyan-004__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-004",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '鶴鳴', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-hongyan-004__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-hongyan-006__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-006",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/白駒, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%99%BD%E9%A7%92",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-hongyan-006__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-hongyan-006__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-hongyan-006__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-006",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '白駒', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-hongyan-006__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-hongyan-008__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-008",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/我行其野, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%88%91%E8%A1%8C%E5%85%B6%E9%87%8E",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-hongyan-008__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-hongyan-008__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-hongyan-008__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-hongyan-008",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '我行其野', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-hongyan-008__legge-sheking-1871-ocr__segments.jsonl",
     "rights_status": "public_domain",
     "author_or_translator_ids": [
       "james-legge"
@@ -6902,6 +7396,82 @@
     "needs_human_text_review": false
   },
   {
+    "source_id": "xiaoya-gufeng-004__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-gufeng-004",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/四月, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%9B%9B%E6%9C%88",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-gufeng-004__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-gufeng-004__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-gufeng-004__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-gufeng-004",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '四月', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-gufeng-004__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-gufeng-006__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-gufeng-006",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/無將大車, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%84%A1%E5%B0%87%E5%A4%A7%E8%BB%8A",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-gufeng-006__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-gufeng-006__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-gufeng-006__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-gufeng-006",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '無將大車', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-gufeng-006__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
     "source_id": "xiaoya-gufeng-007__zhwikisource-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-gufeng-007",
@@ -7092,6 +7662,82 @@
     "needs_human_text_review": false
   },
   {
+    "source_id": "xiaoya-futian-003__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-003",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/瞻彼洛矣, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%9E%BB%E5%BD%BC%E6%B4%9B%E7%9F%A3",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-futian-003__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-futian-003__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-003__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-003",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '瞻彼洛矣', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-futian-003__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-004__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-004",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/裳裳者華, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%A3%B3%E8%A3%B3%E8%80%85%E8%8F%AF",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-futian-004__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-futian-004__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-004__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-004",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '裳裳者華', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-futian-004__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
     "source_id": "xiaoya-futian-005__zhwikisource-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-futian-005",
@@ -7127,6 +7773,158 @@
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanza 1.",
     "witness_type": "sbe_transcluded_page",
     "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-006__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-006",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/鴛鴦, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B4%9B%E9%B4%A6",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-futian-006__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-futian-006__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-006__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-006",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '鴛鴦', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-futian-006__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-007__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-007",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/頍弁, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%A0%8D%E5%BC%81",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-futian-007__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-futian-007__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-007__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-007",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '頍弁', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-futian-007__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-008__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-008",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/車舝, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BB%8A%E8%88%9D",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-futian-008__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-futian-008__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-008__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-008",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '車舝', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-futian-008__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-009__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-009",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/青蠅, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9D%92%E8%A0%85",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-futian-009__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-futian-009__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-futian-009__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-futian-009",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '青蠅', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-futian-009__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
     "needs_human_text_review": false
   },
   {
@@ -7168,6 +7966,234 @@
     "needs_human_text_review": false
   },
   {
+    "source_id": "xiaoya-yuzao-001__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-001",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/魚藻, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%AD%9A%E8%97%BB",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-yuzao-001__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-yuzao-001__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-001__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-001",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '魚藻', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-yuzao-001__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-002__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-002",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/采菽, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E8%8F%BD",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-yuzao-002__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-yuzao-002__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-002__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-002",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '采菽', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-yuzao-002__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-003__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-003",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/角弓, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%A7%92%E5%BC%93",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-yuzao-003__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-yuzao-003__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-003__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-003",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '角弓', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-yuzao-003__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-004__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-004",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/菀柳, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8F%80%E6%9F%B3",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-yuzao-004__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-yuzao-004__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-004__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-004",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '菀柳', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-yuzao-004__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-006__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-006",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/采綠, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E7%B6%A0",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-yuzao-006__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-yuzao-006__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-006__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-006",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '采綠', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-yuzao-006__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-008__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-008",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/隰桑, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9A%B0%E6%A1%91",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-yuzao-008__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-yuzao-008__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-008__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-008",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '隰桑', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-yuzao-008__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
     "source_id": "xiaoya-yuzao-009__zhwikisource-20260530",
     "work_id": "shijing",
     "section_id": "xiaoya-yuzao-009",
@@ -7203,6 +8229,120 @@
     "notes": "Untouched raw capture preserves the transcluded English Wikisource page, while segmentation uses cached rendered HTML because the raw wikitext is only a <pages> transclusion. This witness is excerpted and only covers stanza selection Stanzas 1 and 2.",
     "witness_type": "sbe_transcluded_page",
     "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-011__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-011",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/瓠葉, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%93%A0%E8%91%89",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-yuzao-011__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-yuzao-011__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-011__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-011",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '瓠葉', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-yuzao-011__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-012__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-012",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/漸漸之石, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%BC%B8%E6%BC%B8%E4%B9%8B%E7%9F%B3",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-yuzao-012__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-yuzao-012__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-012__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-012",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '漸漸之石', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-yuzao-012__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-013__zhwikisource-20260530",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-013",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "詩經/苕之華, Chinese Wikisource, accessed 2026-05-30.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8B%95%E4%B9%8B%E8%8F%AF",
+    "raw_path": "corpus/raw/wikisource/shijing__xiaoya-yuzao-013__zhwikisource-20260530__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/shijing__xiaoya-yuzao-013__zhwikisource-20260530__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "shijing-anthologists"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export; processed segmentation keeps the poem text separate from translation and extracts subsection headings when multiple poems share a Chinese page.",
+    "witness_type": "zh_wikisource_page",
+    "text_review_status": "verified_transcribed_text",
+    "needs_human_text_review": false
+  },
+  {
+    "source_id": "xiaoya-yuzao-013__legge-sheking-1871-ocr",
+    "work_id": "shijing",
+    "section_id": "xiaoya-yuzao-013",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The She King, '苕之華', Chinese Classics, Vol. IV (1871), Internet Archive OCR witness, accessed 2026-05-30.",
+    "source_url": "https://archive.org/details/chineseclassics42legg",
+    "raw_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
+    "processed_path": "corpus/processed/translations/shijing__xiaoya-yuzao-013__legge-sheking-1871-ocr__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Reviewed section-level cleanup preserves the shared Legge 1871 Internet Archive OCR raw witness while keeping the exported alignment at poem scope until stanza-level OCR cleanup is safer.",
+    "witness_type": "fulltext_ocr_derived_witness",
+    "text_review_status": "human_verified_ocr",
     "needs_human_text_review": false
   },
   {

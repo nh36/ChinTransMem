@@ -1752,7 +1752,7 @@
     "label": "鹿鳴",
     "canonical_ref": "詩經·小雅·鹿鳴之什·001",
     "sort_key": 161,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
   },
   {
     "section_id": "xiaoya-luming-002",
@@ -1770,7 +1770,7 @@
     "label": "皇皇者華",
     "canonical_ref": "詩經·小雅·鹿鳴之什·003",
     "sort_key": 163,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-luming-004",
@@ -1779,7 +1779,7 @@
     "label": "常棣",
     "canonical_ref": "詩經·小雅·鹿鳴之什·004",
     "sort_key": 164,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-luming-005",
@@ -1914,7 +1914,7 @@
     "label": "蓼蕭",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·006",
     "sort_key": 179,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-007",
@@ -1923,7 +1923,7 @@
     "label": "湛露",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·007",
     "sort_key": 180,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-008",
@@ -1932,7 +1932,7 @@
     "label": "彤弓",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·008",
     "sort_key": 181,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-009",
@@ -1941,7 +1941,7 @@
     "label": "菁菁者莪",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·009",
     "sort_key": 182,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-010",
@@ -1968,7 +1968,7 @@
     "label": "車攻",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·012",
     "sort_key": 185,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-013",
@@ -1986,7 +1986,7 @@
     "label": "鴻鴈",
     "canonical_ref": "詩經·小雅·鴻鴈之什·001",
     "sort_key": 187,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-hongyan-002",
@@ -1995,7 +1995,7 @@
     "label": "庭燎",
     "canonical_ref": "詩經·小雅·鴻鴈之什·002",
     "sort_key": 188,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-hongyan-003",
@@ -2013,7 +2013,7 @@
     "label": "鶴鳴",
     "canonical_ref": "詩經·小雅·鴻鴈之什·004",
     "sort_key": 190,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-hongyan-005",
@@ -2031,7 +2031,7 @@
     "label": "白駒",
     "canonical_ref": "詩經·小雅·鴻鴈之什·006",
     "sort_key": 192,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-hongyan-007",
@@ -2049,7 +2049,7 @@
     "label": "我行其野",
     "canonical_ref": "詩經·小雅·鴻鴈之什·008",
     "sort_key": 194,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-hongyan-009",
@@ -2193,7 +2193,7 @@
     "label": "四月",
     "canonical_ref": "詩經·小雅·谷風之什·004",
     "sort_key": 210,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-gufeng-005",
@@ -2211,7 +2211,7 @@
     "label": "無將大車",
     "canonical_ref": "詩經·小雅·谷風之什·006",
     "sort_key": 212,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-gufeng-007",
@@ -2274,7 +2274,7 @@
     "label": "瞻彼洛矣",
     "canonical_ref": "詩經·小雅·甫田之什·003",
     "sort_key": 219,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-futian-004",
@@ -2283,7 +2283,7 @@
     "label": "裳裳者華",
     "canonical_ref": "詩經·小雅·甫田之什·004",
     "sort_key": 220,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-futian-005",
@@ -2301,7 +2301,7 @@
     "label": "鴛鴦",
     "canonical_ref": "詩經·小雅·甫田之什·006",
     "sort_key": 222,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-futian-007",
@@ -2310,7 +2310,7 @@
     "label": "頍弁",
     "canonical_ref": "詩經·小雅·甫田之什·007",
     "sort_key": 223,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-futian-008",
@@ -2319,7 +2319,7 @@
     "label": "車舝",
     "canonical_ref": "詩經·小雅·甫田之什·008",
     "sort_key": 224,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-futian-009",
@@ -2328,7 +2328,7 @@
     "label": "青蠅",
     "canonical_ref": "詩經·小雅·甫田之什·009",
     "sort_key": 225,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-futian-010",
@@ -2346,7 +2346,7 @@
     "label": "魚藻",
     "canonical_ref": "詩經·小雅·魚藻之什·001",
     "sort_key": 227,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-yuzao-002",
@@ -2355,7 +2355,7 @@
     "label": "采菽",
     "canonical_ref": "詩經·小雅·魚藻之什·002",
     "sort_key": 228,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-yuzao-003",
@@ -2364,7 +2364,7 @@
     "label": "角弓",
     "canonical_ref": "詩經·小雅·魚藻之什·003",
     "sort_key": 229,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-yuzao-004",
@@ -2373,7 +2373,7 @@
     "label": "菀柳",
     "canonical_ref": "詩經·小雅·魚藻之什·004",
     "sort_key": 230,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-yuzao-005",
@@ -2391,7 +2391,7 @@
     "label": "采綠",
     "canonical_ref": "詩經·小雅·魚藻之什·006",
     "sort_key": 232,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-yuzao-007",
@@ -2409,7 +2409,7 @@
     "label": "隰桑",
     "canonical_ref": "詩經·小雅·魚藻之什·008",
     "sort_key": 234,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-yuzao-009",
@@ -2436,7 +2436,7 @@
     "label": "瓠葉",
     "canonical_ref": "詩經·小雅·魚藻之什·011",
     "sort_key": 237,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-yuzao-012",
@@ -2445,7 +2445,7 @@
     "label": "漸漸之石",
     "canonical_ref": "詩經·小雅·魚藻之什·012",
     "sort_key": 238,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-yuzao-013",
@@ -2454,7 +2454,7 @@
     "label": "苕之華",
     "canonical_ref": "詩經·小雅·魚藻之什·013",
     "sort_key": 239,
-    "notes": "Legge witness located, but this poem is non-exportable until the English text is verified against source and cleaned of OCR/layout contamination."
+    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
   },
   {
     "section_id": "xiaoya-yuzao-014",

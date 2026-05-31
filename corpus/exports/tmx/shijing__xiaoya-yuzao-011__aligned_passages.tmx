@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-yuzao-011__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-011</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·011.1</prop>
+      <prop type="x-translation-ref">瓠葉.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>幡幡瓠葉，采之亨之。君子有酒，酌言嘗之。
+有兔斯首，炮之燔之。君子有酒，酌言獻之。
+有兔斯首，燔之炙之。君子有酒，酌言酢之。
+有兔斯首，燔之炮之。君子有酒，酌言醻之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Of the gourd leaves, waving about,
+Some are taken and boiled;
+Then the superior man, from his spirits,
+Pours out a cup, and tastes it.
+
+There is but a single rabbit,
+Baked, or roasted.
+But the superior man, from his spirits,
+Fills the cup and presents it to his guests.
+
+There is but a single rabbit,
+Roasted, or broiled.
+But from the spirits of the superior man,
+His guests fill the cup, and present it to him.
+
+There is but a single rabbit,
+Roasted or baked.
+But from the spirits of the superior man,
+His guests and he fill the cup and pledge one another.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

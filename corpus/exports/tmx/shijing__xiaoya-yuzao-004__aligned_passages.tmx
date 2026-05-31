@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__xiaoya-yuzao-004__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-yuzao-004</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·魚藻之什·004.1</prop>
+      <prop type="x-translation-ref">菀柳.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>有菀者柳，不尚息焉？上帝甚蹈，無自暱焉。俾予靖之，後予極焉。
+有菀者柳，不尚愒焉？上帝甚蹈，無自瘵焉。俾予靖之，後予邁焉。
+有鳥高飛，亦傅于天。彼人之心，于何其臻？曷予靖之？居以凶矜。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>There is a luxuriant willow tree; —
+Who would not wish to rest under it?
+But this god is very changeable; —
+Do not approach him.
+If I were to try and order his affairs,
+His demands afterwards would be extreme.
+
+There is a luxuriant willow tree; —
+Who would not wish to take shelter under it ?
+But this god is very changeable,
+Do not get yourself into trouble with him.
+If I were to try and order his affairs,
+His demands on me afterwards would be beyond measure.
+
+There is a bird flying high,
+Even up to heaven.
+The heart of that man, —
+To what will it proceed?
+Why should I try to order his affairs?
+I should only find myself in pitiable misery.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -85,6 +85,11 @@ OCR_SANITY_PATTERNS: tuple[tuple[str, str, re.Pattern[str]], ...] = (
         re.compile(r"\^"),
     ),
     (
+        "bullet_artifact",
+        "bullet or middle-dot artifact embedded in English text",
+        re.compile(r"[•·◦▪●]"),
+    ),
+    (
         "apostrophe_vw_artifact",
         "apostrophe-v/w OCR damage in an English word",
         re.compile(r"(?i)\b[A-Za-z]+['’][vw]\b"),
@@ -104,6 +109,47 @@ OCR_SANITY_PATTERNS: tuple[tuple[str, str, re.Pattern[str]], ...] = (
         "broken AV-prefixed OCR fragment inside an English word",
         re.compile(r"\bAV[a-z]+\b"),
     ),
+)
+
+GUOFENG_LEFTOVER_CLASSIFICATIONS: dict[str, str] = {
+    "guofeng-zhaonan-006": "needs_better_witness",
+    "guofeng-beifeng-001": "needs_better_witness",
+    "guofeng-beifeng-010": "needs_better_witness",
+    "guofeng-beifeng-017": "likely_repairable_now",
+    "guofeng-beifeng-019": "unrecoverable_with_current_witness",
+    "guofeng-yongfeng-008": "needs_better_witness",
+    "guofeng-weifeng-006": "needs_better_witness",
+    "guofeng-weifeng-010": "likely_repairable_now",
+    "guofeng-wangfeng-005": "needs_better_witness",
+    "guofeng-wangfeng-010": "needs_better_witness",
+    "guofeng-zhengfeng-001": "needs_better_witness",
+    "guofeng-zhengfeng-008": "needs_better_witness",
+    "guofeng-zhengfeng-009": "needs_better_witness",
+    "guofeng-zhengfeng-010": "needs_better_witness",
+    "guofeng-zhengfeng-021": "needs_better_witness",
+    "guofeng-qifeng-002": "likely_repairable_now",
+    "guofeng-qifeng-003": "needs_better_witness",
+    "guofeng-weifeng-state-002": "needs_better_witness",
+    "guofeng-weifeng-state-003": "needs_better_witness",
+    "guofeng-weifeng-state-006": "needs_better_witness",
+    "guofeng-tangfeng-002": "likely_repairable_now",
+    "guofeng-tangfeng-006": "needs_better_witness",
+    "guofeng-chenfeng-009": "unrecoverable_with_current_witness",
+    "guofeng-binfeng-003": "needs_better_witness",
+}
+
+QUEUE_CATEGORY_LABELS: dict[str, str] = {
+    "likely_repairable_now": "Likely repairable now",
+    "not_yet_investigated_in_detail": "Not yet investigated in detail",
+    "unrecoverable_with_current_witness": "Known unrecoverable with current witness",
+    "needs_better_witness": "Needs better witness",
+}
+
+QUEUE_CATEGORY_ORDER: tuple[str, ...] = (
+    "likely_repairable_now",
+    "not_yet_investigated_in_detail",
+    "unrecoverable_with_current_witness",
+    "needs_better_witness",
 )
 
 
@@ -269,6 +315,41 @@ def detect_suspicious_ocr_artifacts(
             }
         )
     return issues
+
+
+def classify_remaining_section(section_id: str, major_division: str, review_note: str) -> str:
+    if major_division == "國風" and section_id in GUOFENG_LEFTOVER_CLASSIFICATIONS:
+        return GUOFENG_LEFTOVER_CLASSIFICATIONS[section_id]
+    if not review_note or review_note == GENERIC_UNVERIFIED_NOTE:
+        return "not_yet_investigated_in_detail"
+    return "needs_better_witness"
+
+
+def build_remaining_section_record(
+    section: dict[str, Any],
+    verification: dict[str, Any] | None,
+) -> dict[str, Any]:
+    review_note = ""
+    if verification:
+        review_note = str(verification.get("reviewer_note") or "").strip()
+    queue_category = classify_remaining_section(
+        str(section.get("section_id") or ""),
+        str(section.get("major_division") or ""),
+        review_note,
+    )
+    return {
+        "section_id": section.get("section_id"),
+        "canonical_ref": section.get("canonical_ref"),
+        "title": section.get("title_zh") or section.get("label") or section.get("title"),
+        "major_division": section.get("major_division"),
+        "subdivision": section.get("subdivision"),
+        "source_page_or_anchor": (
+            verification.get("source_page_or_anchor") if verification else None
+        ),
+        "queue_category": queue_category,
+        "queue_category_label": QUEUE_CATEGORY_LABELS[queue_category],
+        "review_note": review_note or "No source-specific note recorded yet.",
+    }
 
 
 def substantial_chinese_in_english(section: dict[str, Any]) -> bool:
@@ -604,27 +685,57 @@ def build_shijing_quality_context(
     for section in non_exportable_extant_sections:
         subdivision_key = f"{section['major_division']} / {section['subdivision']}"
         remaining_by_subdivision[subdivision_key] = remaining_by_subdivision.get(subdivision_key, 0) + 1
+    remaining_section_records = [
+        build_remaining_section_record(
+            section,
+            verification_index.get(section["section_id"]),
+        )
+        for section in sorted(non_exportable_extant_sections, key=lambda item: item["canonical_ref"])
+    ]
     remaining_priority_subdivisions: dict[str, list[dict[str, str]]] = {}
     for major_division, subdivision in DETAILED_QUEUE_SUBDIVISIONS:
         subdivision_key = f"{major_division} / {subdivision}"
         remaining_priority_subdivisions[subdivision_key] = [
-            {
-                "section_id": section["section_id"],
-                "title": section["label"],
-                "canonical_ref": section["canonical_ref"],
-                "review_note": (
-                    verification_index.get(section["section_id"], {}).get("reviewer_note")
-                    or section.get("review_note")
-                    or section.get("notes")
-                    or "—"
-                ),
-            }
-            for section in sorted(
-                non_exportable_extant_sections,
-                key=lambda item: item["canonical_ref"],
-            )
-            if section["major_division"] == major_division and section["subdivision"] == subdivision
+            record
+            for record in remaining_section_records
+            if record["major_division"] == major_division and record["subdivision"] == subdivision
         ]
+    remaining_guofeng_sections = [
+        record for record in remaining_section_records if record["major_division"] == "國風"
+    ]
+    remaining_xiaoya_sections = [
+        record for record in remaining_section_records if record["major_division"] == "小雅"
+    ]
+    remaining_daya_song_sections = [
+        record
+        for record in remaining_section_records
+        if record["major_division"] in {"大雅", "頌"}
+    ]
+    guofeng_queue_categories = {
+        category: [
+            record
+            for record in remaining_guofeng_sections
+            if record["queue_category"] == category
+        ]
+        for category in QUEUE_CATEGORY_ORDER
+    }
+    remaining_guofeng_by_subdivision: dict[str, int] = {}
+    remaining_xiaoya_by_subdivision: dict[str, int] = {}
+    remaining_daya_song_by_subdivision: dict[str, int] = {}
+    for record in remaining_section_records:
+        subdivision_key = f"{record['major_division']} / {record['subdivision']}"
+        if record["major_division"] == "國風":
+            remaining_guofeng_by_subdivision[subdivision_key] = (
+                remaining_guofeng_by_subdivision.get(subdivision_key, 0) + 1
+            )
+        elif record["major_division"] == "小雅":
+            remaining_xiaoya_by_subdivision[subdivision_key] = (
+                remaining_xiaoya_by_subdivision.get(subdivision_key, 0) + 1
+            )
+        elif record["major_division"] in {"大雅", "頌"}:
+            remaining_daya_song_by_subdivision[subdivision_key] = (
+                remaining_daya_song_by_subdivision.get(subdivision_key, 0) + 1
+            )
     human_verified_sections = [
         section
         for section in section_records
@@ -691,18 +802,58 @@ def build_shijing_quality_context(
             for section in sorted(section_records, key=lambda section: section["canonical_ref"])
             if latest_review_date and section.get("review_date") == latest_review_date
         ]
-    skipped_current_witness_sections = [
+    previous_human_verified_batches = [
+        batch
+        for batch in sorted(
+            human_verified_batches.values(),
+            key=lambda batch: batch["repair_batch"],
+        )
+        if batch["repair_batch"] != latest_repair_batch
+    ]
+    current_batch_summary = {
+        "repair_batch": latest_repair_batch,
+        "latest_review_date": latest_review_date,
+        "newly_repaired_in_current_batch": len(latest_repaired_sections),
+        "human_verified_ocr_sections_in_current_batch": sum(
+            1
+            for section in latest_repaired_sections
+            if section["verification_status"] == "human_verified_ocr"
+        ),
+        "human_verified_fulltext_sections_in_current_batch": sum(
+            1
+            for section in latest_repaired_sections
+            if section["verification_status"] == "human_verified_fulltext"
+        ),
+    }
+    suspicious_ocr_sections = [
         {
             "section_id": section["section_id"],
-            "title": section["label"],
+            "title": section["title"],
             "canonical_ref": section["canonical_ref"],
-            "subdivision": f"{section['major_division']} / {section['subdivision']}",
-            "review_note": verification_index.get(section["section_id"], {}).get("reviewer_note") or "—",
+            "ocr_sanity_issue_records": section["ocr_sanity_issue_records"],
         }
-        for section in sorted(non_exportable_extant_sections, key=lambda item: item["canonical_ref"])
-        if (section["major_division"], section["subdivision"]) in DETAILED_QUEUE_SUBDIVISIONS
-        and (verification_index.get(section["section_id"], {}).get("reviewer_note") or "").strip()
-        and (verification_index.get(section["section_id"], {}).get("reviewer_note") or "").strip() != GENERIC_UNVERIFIED_NOTE
+        for section in section_records
+        if section["suspicious_ocr_artifact_markers"]
+    ]
+    ocr_sanity_sweep = {
+        "checked_exportable_ocr_sections": len(human_verified_ocr_sections),
+        "flagged_sections": len(suspicious_ocr_sections),
+        "flagged_section_records": suspicious_ocr_sections,
+    }
+    skipped_current_witness_sections = [
+        {
+            "section_id": record["section_id"],
+            "title": record["title"],
+            "canonical_ref": record["canonical_ref"],
+            "subdivision": f"{record['major_division']} / {record['subdivision']}",
+            "queue_category": record["queue_category"],
+            "queue_category_label": record["queue_category_label"],
+            "review_note": record["review_note"],
+        }
+        for record in remaining_section_records
+        if (record["major_division"], record["subdivision"]) in DETAILED_QUEUE_SUBDIVISIONS
+        and record["review_note"] != "No source-specific note recorded yet."
+        and record["review_note"] != GENERIC_UNVERIFIED_NOTE
     ]
 
     return {
@@ -753,13 +904,29 @@ def build_shijing_quality_context(
             "latest_review_date": latest_review_date,
             "newly_repaired_in_current_batch": len(latest_repaired_sections),
             "newly_repaired_in_latest_tranche": len(latest_repaired_sections),
+            "current_batch_summary": current_batch_summary,
             "latest_repaired_sections": latest_repaired_sections,
             "human_verified_batches": sorted(
                 human_verified_batches.values(),
                 key=lambda batch: batch["repair_batch"],
             ),
+            "previous_human_verified_batches": previous_human_verified_batches,
             "remaining_by_subdivision": remaining_by_subdivision,
             "remaining_priority_subdivisions": remaining_priority_subdivisions,
+            "remaining_guofeng_by_subdivision": remaining_guofeng_by_subdivision,
+            "remaining_xiaoya_by_subdivision": remaining_xiaoya_by_subdivision,
+            "remaining_daya_song_by_subdivision": remaining_daya_song_by_subdivision,
+            "remaining_guofeng_sections": remaining_guofeng_sections,
+            "remaining_xiaoya_sections": remaining_xiaoya_sections,
+            "remaining_daya_song_sections": remaining_daya_song_sections,
+            "guofeng_queue_categories": guofeng_queue_categories,
+            "known_unrecoverable_cases": guofeng_queue_categories["unrecoverable_with_current_witness"],
+            "cases_needing_better_witness": [
+                record
+                for record in remaining_section_records
+                if record["queue_category"] == "needs_better_witness"
+            ],
+            "ocr_sanity_sweep": ocr_sanity_sweep,
             "skipped_current_witness_sections": skipped_current_witness_sections,
         },
         "thresholds": {
@@ -829,6 +996,54 @@ def quality_markdown(context: dict[str, Any]) -> str:
         reverse=True,
     )[:10]
     most_flagged_sections = sorted(sections, key=lambda section: len(section["warnings"]), reverse=True)[:15]
+    def append_count_table(rows: list[tuple[str, object]]) -> None:
+        lines.extend(["| Metric | Count |", "| --- | ---: |"])
+        for label, value in rows:
+            lines.append(f"| {label} | {value} |")
+        if not rows:
+            lines.append("| — | 0 |")
+        lines.append("")
+
+    def append_queue_table(records: list[dict[str, Any]], *, include_category: bool = False) -> None:
+        if include_category:
+            lines.extend(
+                [
+                    "| Section | Title | Canonical ref | Queue category | Reason |",
+                    "| --- | --- | --- | --- | --- |",
+                ]
+            )
+        else:
+            lines.extend(
+                [
+                    "| Section | Title | Canonical ref | Reason |",
+                    "| --- | --- | --- | --- |",
+                ]
+            )
+        if records:
+            for record in records:
+                review_note = str(record["review_note"]).replace("\n", " ")
+                if include_category:
+                    lines.append(
+                        "| {section_id} | {title} | {canonical_ref} | {queue_category_label} | {review_note} |".format(
+                            section_id=record["section_id"],
+                            title=record["title"],
+                            canonical_ref=record["canonical_ref"],
+                            queue_category_label=record["queue_category_label"],
+                            review_note=review_note,
+                        )
+                    )
+                else:
+                    lines.append(
+                        "| {section_id} | {title} | {canonical_ref} | {review_note} |".format(
+                            section_id=record["section_id"],
+                            title=record["title"],
+                            canonical_ref=record["canonical_ref"],
+                            review_note=review_note,
+                        )
+                    )
+        else:
+            lines.append("| — | — | — | — |" + (" — |" if include_category else ""))
+        lines.append("")
 
     lines = [
         "# Shijing completion quality audit",
@@ -837,43 +1052,66 @@ def quality_markdown(context: dict[str, Any]) -> str:
         "",
         "## Summary",
         "",
-        "| Metric | Count |",
-        "| --- | ---: |",
-        f"| complete_sections | {summary['complete_sections']} |",
-        f"| metadata_only_sections | {summary['metadata_only_sections']} |",
-        f"| non_exportable_extant_sections | {summary['non_exportable_extant_sections']} |",
-        f"| exact_alignment_count | {summary['exact_alignment_count']} |",
-        f"| ocr_or_fulltext_derived_sections | {summary['ocr_or_fulltext_derived_sections']} |",
-        f"| sections_needing_human_text_review | {summary['sections_needing_human_text_review']} |",
-        f"| sections_with_coarse_alignment | {summary['sections_with_coarse_alignment']} |",
-        f"| sections_with_single_poem_alignment | {summary['sections_with_single_poem_alignment']} |",
-        f"| sections_with_extreme_length_ratio | {summary['sections_with_extreme_length_ratio']} |",
-        f"| sections_with_possible_commentary_leakage | {summary['sections_with_possible_commentary_leakage']} |",
-        f"| sections_with_suspicious_ocr_artifacts | {summary['sections_with_suspicious_ocr_artifacts']} |",
-        f"| sections_with_hard_failures | {summary['sections_with_hard_failures']} |",
-        f"| hard_failure_count | {summary['hard_failure_count']} |",
-        f"| warning_count | {summary['warning_count']} |",
-        "",
-        "## Progress",
-        "",
-        "| Metric | Count |",
-        "| --- | ---: |",
-        f"| total_extant_poems | {progress['total_extant_poems']} |",
-        f"| verified_exportable_poems | {progress['verified_exportable_poems']} |",
-        f"| all_human_verified_ocr_sections | {progress['all_human_verified_ocr_sections']} |",
-        f"| non_exportable_repair_queue_remaining | {progress['non_exportable_repair_queue_remaining']} |",
-        f"| current_repair_batch | {progress['current_repair_batch'] or '—'} |",
-        f"| newly_repaired_in_current_batch | {progress['newly_repaired_in_current_batch']} |",
-        "",
-        "## Latest repaired tranche",
-        "",
-        f"Latest repair batch: {progress['current_repair_batch'] or '—'}",
-        "",
-        f"Latest review date: {progress['latest_review_date'] or '—'}",
-        "",
-        "| Section | Title | Canonical ref | Verification status |",
-        "| --- | --- | --- | --- |",
     ]
+    append_count_table(
+        [
+            ("complete_sections", summary["complete_sections"]),
+            ("metadata_only_sections", summary["metadata_only_sections"]),
+            ("non_exportable_extant_sections", summary["non_exportable_extant_sections"]),
+            ("exact_alignment_count", summary["exact_alignment_count"]),
+            ("ocr_or_fulltext_derived_sections", summary["ocr_or_fulltext_derived_sections"]),
+            ("sections_needing_human_text_review", summary["sections_needing_human_text_review"]),
+            ("sections_with_coarse_alignment", summary["sections_with_coarse_alignment"]),
+            ("sections_with_single_poem_alignment", summary["sections_with_single_poem_alignment"]),
+            ("sections_with_extreme_length_ratio", summary["sections_with_extreme_length_ratio"]),
+            ("sections_with_possible_commentary_leakage", summary["sections_with_possible_commentary_leakage"]),
+            ("sections_with_suspicious_ocr_artifacts", summary["sections_with_suspicious_ocr_artifacts"]),
+            ("sections_with_hard_failures", summary["sections_with_hard_failures"]),
+            ("hard_failure_count", summary["hard_failure_count"]),
+            ("warning_count", summary["warning_count"]),
+        ]
+    )
+    lines.extend(["## Progress", ""])
+    append_count_table(
+        [
+            ("total_extant_poems", progress["total_extant_poems"]),
+            ("verified_exportable_poems", progress["verified_exportable_poems"]),
+            ("all_human_verified_ocr_sections", progress["all_human_verified_ocr_sections"]),
+            ("non_exportable_repair_queue_remaining", progress["non_exportable_repair_queue_remaining"]),
+            ("current_repair_batch", progress["current_repair_batch"] or "—"),
+            ("newly_repaired_in_current_batch", progress["newly_repaired_in_current_batch"]),
+        ]
+    )
+
+    current_batch_summary = progress["current_batch_summary"]
+    lines.extend(["## Current batch summary", ""])
+    append_count_table(
+        [
+            ("repair_batch", current_batch_summary["repair_batch"] or "—"),
+            ("latest_review_date", current_batch_summary["latest_review_date"] or "—"),
+            (
+                "newly_repaired_in_current_batch",
+                current_batch_summary["newly_repaired_in_current_batch"],
+            ),
+            (
+                "human_verified_ocr_sections_in_current_batch",
+                current_batch_summary["human_verified_ocr_sections_in_current_batch"],
+            ),
+            (
+                "human_verified_fulltext_sections_in_current_batch",
+                current_batch_summary["human_verified_fulltext_sections_in_current_batch"],
+            ),
+        ]
+    )
+
+    lines.extend(
+        [
+            "## Newly repaired in current batch",
+            "",
+            "| Section | Title | Canonical ref | Verification status |",
+            "| --- | --- | --- | --- |",
+        ]
+    )
     for section in progress["latest_repaired_sections"]:
         lines.append(
             "| {section_id} | {title} | {canonical_ref} | {verification_status} |".format(
@@ -885,16 +1123,17 @@ def quality_markdown(context: dict[str, Any]) -> str:
         )
     if not progress["latest_repaired_sections"]:
         lines.append("| — | — | — | — |")
+    lines.append("")
+
     lines.extend(
         [
-            "",
-            "## Human-verified OCR by batch",
+            "## Previous OCR repair batches",
             "",
             "| Repair batch | Section count | human_verified_ocr | human_verified_fulltext |",
             "| --- | ---: | ---: | ---: |",
         ]
     )
-    for batch in progress["human_verified_batches"]:
+    for batch in progress["previous_human_verified_batches"]:
         lines.append(
             "| {repair_batch} | {section_count} | {human_verified_ocr_count} | {human_verified_fulltext_count} |".format(
                 repair_batch=batch["repair_batch"],
@@ -903,84 +1142,70 @@ def quality_markdown(context: dict[str, Any]) -> str:
                 human_verified_fulltext_count=batch["human_verified_fulltext_count"],
             )
         )
-    if not progress["human_verified_batches"]:
+    if not progress["previous_human_verified_batches"]:
         lines.append("| — | 0 | 0 | 0 |")
-    lines.extend(
-        [
-            "",
-            "## Remaining repair queue by subdivision",
-            "",
-            "| Subdivision | Remaining poems |",
-            "| --- | ---: |",
-        ]
-    )
-    for subdivision, count in sorted(
-        progress["remaining_by_subdivision"].items(),
-        key=lambda item: (-item[1], item[0]),
-    ):
-        lines.append(f"| {subdivision} | {count} |")
-    if not progress["remaining_by_subdivision"]:
-        lines.append("| — | 0 |")
-    lines.extend(
-        [
-            "",
-            "## Detailed remaining queue in current subdivisions",
-            "",
-        ]
-    )
-    for subdivision_key in [f"{major_division} / {subdivision}" for major_division, subdivision in DETAILED_QUEUE_SUBDIVISIONS]:
-        lines.extend(
-            [
-                f"### {subdivision_key}",
-                "",
-                "| Section | Title | Canonical ref | Reason |",
-                "| --- | --- | --- | --- |",
-            ]
-        )
-        subdivision_sections = progress["remaining_priority_subdivisions"].get(subdivision_key, [])
-        if subdivision_sections:
-            for section in subdivision_sections:
-                lines.append(
-                    "| {section_id} | {title} | {canonical_ref} | {review_note} |".format(
-                        section_id=section["section_id"],
-                        title=section["title"],
-                        canonical_ref=section["canonical_ref"],
-                        review_note=section["review_note"].replace("\n", " "),
-                    )
-                )
-        else:
-            lines.append("| — | — | — | — |")
-        lines.append("")
-    lines.extend(
-        [
-            "## Skipped or unrecoverable in current witness",
-            "",
-            "| Section | Title | Subdivision | Canonical ref | Reason |",
-            "| --- | --- | --- | --- | --- |",
-        ]
-    )
-    for section in progress["skipped_current_witness_sections"]:
-        lines.append(
-            "| {section_id} | {title} | {subdivision} | {canonical_ref} | {review_note} |".format(
-                section_id=section["section_id"],
-                title=section["title"],
-                subdivision=section["subdivision"],
-                canonical_ref=section["canonical_ref"],
-                review_note=section["review_note"].replace("\n", " "),
-            )
-        )
-    if not progress["skipped_current_witness_sections"]:
-        lines.append("| — | — | — | — | — |")
     lines.append("")
-    suspicious_ocr_sections = [section for section in sections if section["suspicious_ocr_artifact_markers"]]
+
+    lines.extend(["## Remaining repair queue by subdivision", ""])
+    append_count_table(
+        sorted(
+            progress["remaining_by_subdivision"].items(),
+            key=lambda item: (-item[1], item[0]),
+        )
+    )
+
+    lines.extend(["## Remaining Guofeng items", ""])
+    append_count_table(
+        sorted(
+            progress["remaining_guofeng_by_subdivision"].items(),
+            key=lambda item: (-item[1], item[0]),
+        )
+    )
+    for category in QUEUE_CATEGORY_ORDER:
+        lines.extend([f"### {QUEUE_CATEGORY_LABELS[category]}", ""])
+        append_queue_table(progress["guofeng_queue_categories"][category])
+
+    lines.extend(["## Remaining Xiaoya items", ""])
+    append_count_table(
+        sorted(
+            progress["remaining_xiaoya_by_subdivision"].items(),
+            key=lambda item: (-item[1], item[0]),
+        )
+    )
+    append_queue_table(progress["remaining_xiaoya_sections"], include_category=True)
+
+    lines.extend(["## Remaining Daya/Song items", ""])
+    append_count_table(
+        sorted(
+            progress["remaining_daya_song_by_subdivision"].items(),
+            key=lambda item: (-item[1], item[0]),
+        )
+    )
+    append_queue_table(progress["remaining_daya_song_sections"], include_category=True)
+
+    lines.extend(["## Known unrecoverable cases", ""])
+    append_queue_table(progress["known_unrecoverable_cases"])
+
+    lines.extend(["## Cases needing a better witness", ""])
+    append_queue_table(progress["cases_needing_better_witness"], include_category=True)
+
+    lines.extend(["## OCR sanity sweep results", ""])
+    append_count_table(
+        [
+            (
+                "checked_exportable_ocr_sections",
+                progress["ocr_sanity_sweep"]["checked_exportable_ocr_sections"],
+            ),
+            ("flagged_sections", progress["ocr_sanity_sweep"]["flagged_sections"]),
+        ]
+    )
     lines.extend(
         [
-            "## OCR sanity warnings",
-            "",
             "| Section | Title | Canonical ref | Artifact markers | Matches |",
             "| --- | --- | --- | --- | --- |",
         ]
     )
+    suspicious_ocr_sections = progress["ocr_sanity_sweep"]["flagged_section_records"]
     if suspicious_ocr_sections:
         for section in suspicious_ocr_sections:
             matches = ", ".join(
@@ -991,7 +1216,7 @@ def quality_markdown(context: dict[str, Any]) -> str:
                     section_id=section["section_id"],
                     title=section["title"],
                     canonical_ref=section["canonical_ref"],
-                    markers=", ".join(section["suspicious_ocr_artifact_markers"]),
+                    markers=", ".join(issue["code"] for issue in section["ocr_sanity_issue_records"]),
                     matches=matches,
                 )
             )
