@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-qinfeng-008__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qinfeng-008</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·秦風·008.1</prop>
+      <prop type="x-translation-ref">無衣.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>豈曰無衣七兮、不如子之衣、安且吉兮。
+
+豈曰無衣六兮、不如子之衣、安且燠兮。
+
+豈曰無衣、與子同袍。
+王於興師、脩我戈矛、與子同仇。
+
+豈曰無衣、與子同澤。
+王於興師、脩我矛戟、與子偕作。
+
+豈曰無衣、與子同裳。
+王於興師、脩我甲兵、與子偕行。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How shall it be said that you have no clothes?
+I will share my long robes with you.
+The king is raising his forces;
+I will prepare my lance and spear,
+And will be your comrade.
+
+How shall it be said that you have no clothes?
+I will share my under clothes with you.
+The king is raising his forces;
+I will prepare my spear and lance,
+And will take the field with you.
+
+How shall it be said that you have no clothes?
+I will share my lower garments with you.
+The king is raising his forces;
+I will prepare my buff-coat and sharp weapons,
+And will march along with you.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

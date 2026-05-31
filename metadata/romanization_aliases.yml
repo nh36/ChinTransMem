@@ -1129,6 +1129,36 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-001",
+    "alias": "車鄰",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-002",
+    "alias": "駟驖",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-003",
+    "alias": "小戎",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-004",
+    "alias": "蒹葭",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-005",
+    "alias": "終南",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-qinfeng-006",
     "alias": "The Hwang Niâo",
     "romanization_system": "Legge-title"
@@ -1141,8 +1171,128 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-007",
+    "alias": "晨風",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-008",
+    "alias": "無衣",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-009",
+    "alias": "渭陽",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-qinfeng-010",
+    "alias": "權輿",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-chenfeng-001",
+    "alias": "宛丘",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-chenfeng-002",
+    "alias": "東門之枌",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-chenfeng-003",
+    "alias": "衡門",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-chenfeng-004",
+    "alias": "東門之池",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-chenfeng-005",
+    "alias": "東門之楊",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-chenfeng-006",
+    "alias": "墓門",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-chenfeng-007",
+    "alias": "防有鵲巢",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-chenfeng-008",
+    "alias": "月出",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-chenfeng-010",
+    "alias": "澤陂",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-kuaifeng-001",
+    "alias": "羔裘",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-kuaifeng-002",
+    "alias": "素冠",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-kuaifeng-003",
+    "alias": "隰有萇楚",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-kuaifeng-004",
     "alias": "匪風",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-caofeng-001",
+    "alias": "蜉蝣",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-caofeng-002",
+    "alias": "候人",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-caofeng-003",
+    "alias": "鳲鳩",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-caofeng-004",
+    "alias": "下泉",
     "romanization_system": "Legge-title"
   },
   {
@@ -1159,8 +1309,32 @@
   },
   {
     "entity_type": "section",
+    "entity_id": "guofeng-binfeng-002",
+    "alias": "鴟鴞",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-binfeng-004",
+    "alias": "破斧",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
     "entity_id": "guofeng-binfeng-005",
     "alias": "伐柯",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-binfeng-006",
+    "alias": "九罭",
+    "romanization_system": "Legge-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "guofeng-binfeng-007",
+    "alias": "狼跋",
     "romanization_system": "Legge-title"
   },
   {

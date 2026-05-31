@@ -29,7 +29,9 @@ def audit_shijing_completion_quality(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Audit Shijing completion quality and write review artifacts.")
+    parser = argparse.ArgumentParser(
+        description="Audit Shijing completion quality, including OCR sanity checks, and write review artifacts."
+    )
     parser.add_argument("--json-output", type=Path, default=QUALITY_JSON_PATH)
     parser.add_argument("--markdown-output", type=Path, default=QUALITY_MARKDOWN_PATH)
     parser.add_argument("--spotcheck-output", type=Path, default=SPOTCHECK_PACKET_PATH)

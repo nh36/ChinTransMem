@@ -1,0 +1,13 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-chenfeng-003__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·陳風·003.1,衡門之下，可以棲遲。泌之洋洋，可以樂飢。,衡門.1,"Beneath my door made of cross pieces of wood,
+I can rest at my leisure;
+By the wimpling stream from my fountain,
+I can joy amid my hunger."
+shijing__guofeng-chenfeng-003__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·陳風·003.2,豈其食魚，必河之魴。豈其取妻，必齊之姜。,衡門.2,"Why, in eating fish,
+Must we have bream from the Ho?
+Why, in taking a wife,
+Must we have a Keang of Tsfe?"
+shijing__guofeng-chenfeng-003__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·陳風·003.3,豈其食魚，必河之鯉。豈其取妻，必宋之子。,衡門.3,"Why, in eating fish,
+Must we have carp from the Ho?
+Why, in taking a wife,
+Must we have a Tsze of Sung?"

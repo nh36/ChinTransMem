@@ -401,6 +401,14 @@ class CorpusWorkflowTest(unittest.TestCase):
             len(quality_report["progress"]["latest_repaired_sections"]),
         )
         self.assertIsNotNone(quality_report["progress"]["latest_repair_batch"])
+        self.assertEqual(
+            quality_report["progress"]["current_repair_batch"],
+            quality_report["progress"]["latest_repair_batch"],
+        )
+        self.assertEqual(
+            quality_report["progress"]["newly_repaired_in_current_batch"],
+            quality_report["progress"]["newly_repaired_in_latest_tranche"],
+        )
         self.assertTrue(
             all(
                 section["repair_batch"] == quality_report["progress"]["latest_repair_batch"]
@@ -422,6 +430,11 @@ class CorpusWorkflowTest(unittest.TestCase):
             "國風 / 齊風",
             "國風 / 魏風",
             "國風 / 唐風",
+            "國風 / 陳風",
+            "國風 / 秦風",
+            "國風 / 豳風",
+            "國風 / 曹風",
+            "國風 / 檜風",
         ):
             self.assertIn(subdivision_key, priority_remaining)
             self.assertTrue(
@@ -472,6 +485,7 @@ class CorpusWorkflowTest(unittest.TestCase):
             )
         )
         self.assertFalse(any(section["needs_human_text_review"] for section in quality_report["sections"]))
+        self.assertEqual(quality_report["summary"]["sections_with_suspicious_ocr_artifacts"], 0)
         self.assertFalse(
             any(
                 section["english_witness_status"] in {"ocr_extracted_needs_review", "fulltext_extracted_needs_review"}
@@ -480,6 +494,7 @@ class CorpusWorkflowTest(unittest.TestCase):
         )
         self.assertFalse(any(section["suspiciously_extreme_length_ratio"] for section in quality_report["sections"]))
         self.assertFalse(any(section["possible_commentary_leakage_markers"] for section in quality_report["sections"]))
+        self.assertFalse(any(section["suspicious_ocr_artifact_markers"] for section in quality_report["sections"]))
         ledger_by_section = {entry["section_id"]: entry for entry in verification_ledger["entries"]}
         self.assertTrue(all(section["section_id"] in ledger_by_section for section in quality_report["sections"]))
         self.assertTrue(

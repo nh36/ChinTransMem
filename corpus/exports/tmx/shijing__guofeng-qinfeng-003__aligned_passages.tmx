@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-qinfeng-003__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-qinfeng-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·秦風·003.1</prop>
+      <prop type="x-translation-ref">小戎.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>小戎俴收，五楘梁輈，游環脅驅，陰靷鋈續，文茵暢轂，駕我騏馵。言念君子，溫其如玉。在其板屋，亂我心曲。
+四牡孔阜，六轡在手，騏駵是中，騧驪是驂，龍盾之合，鋈以觼軜。言念君子，溫其在邑。方何為期，胡然我念之。
+俴駟孔羣，厹矛鋈錞，蒙伐有苑，虎韔鏤膺，交韔二弓，竹閉緄縢。言念君子，載寢載興。厭厭良人，秩秩德音。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>[There is] his short war carriage; —
+With the ridge-like end of its pole, elegantly bound in five
+places;
+With its slip rings and side straps;
+And the traces attached by gilt rings to the masked transverse;
+With its beautiful mat of tiger's skin, and its long naves;
+With its piebalds, and horses with white left feet.
+When I think of my husband [thus],
+Looking bland and soft as a piece of jade;
+Living there in his plank house;
+It sends confusion into all the corners of my heart.
+His mail-covered team moves in great harmony;
+There are the trident spears with their gilt ends;
+And the beautiful feather-figured shield;
+With the tiger-skin bow-case, and the carved metal ornaments
+on its front.
+The two bows are placed in the case,
+Bound with string to their bamboo frames.
+I think of my husband,
+When I lie down and rise up.
+Tranquil and serene is the good man,
+With his virtuous fame spread far and near.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -38,6 +38,11 @@ DETAILED_QUEUE_SUBDIVISIONS: tuple[tuple[str, str], ...] = (
     ("國風", "齊風"),
     ("國風", "魏風"),
     ("國風", "唐風"),
+    ("國風", "陳風"),
+    ("國風", "秦風"),
+    ("國風", "豳風"),
+    ("國風", "曹風"),
+    ("國風", "檜風"),
 )
 GENERIC_UNVERIFIED_NOTE = "Public-domain witness located, but the English text is not yet verified clean enough for export."
 
@@ -51,6 +56,54 @@ QUALITY_MARKER_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("bracketed_editorial_note", re.compile(r"\[(?:[^\]]+\s+){2,}[^\]]+\]")),
     ("commentary_marker", re.compile(r"\b(?:commentary|preface|appendix|Mao|Ying-ta|Choo He|Zhu Xi)\b", re.I)),
     ("ocr_noise", re.compile(r"[〇^]|T4ANG|SI1AOU|PAIIT|thcde|tliere|K!ang|mu\.'-t|wiih|Tliere", re.I)),
+)
+
+OCR_SANITY_PATTERNS: tuple[tuple[str, str, re.Pattern[str]], ...] = (
+    (
+        "digit_letter_confusion",
+        "digit/letter confusion inside an English token",
+        re.compile(r"(?i)\b(?:[A-Za-z]+\d+[A-Za-z]*|\d+[A-Za-z][A-Za-z]*)\b"),
+    ),
+    (
+        "zero_vocative_confusion",
+        "zero used where an alphabetic O is expected",
+        re.compile(r"\b0\s+[A-Z][a-z]+"),
+    ),
+    (
+        "brace_artifact",
+        "brace artifact embedded in English text",
+        re.compile(r"[{}]"),
+    ),
+    (
+        "backslash_artifact",
+        "backslash artifact embedded in English text",
+        re.compile(r"\\"),
+    ),
+    (
+        "caret_artifact",
+        "caret artifact embedded in English text",
+        re.compile(r"\^"),
+    ),
+    (
+        "apostrophe_vw_artifact",
+        "apostrophe-v/w OCR damage in an English word",
+        re.compile(r"(?i)\b[A-Za-z]+['’][vw]\b"),
+    ),
+    (
+        "tli_wli_artifact",
+        "broken th/wh OCR fragment inside an English word",
+        re.compile(r"(?i)\b(?:tli[a-z]+|wli[a-z]+)\b"),
+    ),
+    (
+        "double_i_artifact",
+        "improbable double-i OCR fragment inside an English word",
+        re.compile(r"(?i)\b[a-z]+ii[a-z]+\b"),
+    ),
+    (
+        "av_prefix_artifact",
+        "broken AV-prefixed OCR fragment inside an English word",
+        re.compile(r"\bAV[a-z]+\b"),
+    ),
 )
 
 
@@ -167,6 +220,57 @@ def is_quality_override(override_map: dict[tuple[str, str], dict[str, Any]], sec
     return (section_id, warning_code) in override_map
 
 
+def build_ocr_sanity_override_index(
+    verification_index: dict[str, dict[str, Any]],
+) -> dict[str, dict[str, set[str]]]:
+    override_index: dict[str, dict[str, set[str]]] = {}
+    for section_id, entry in verification_index.items():
+        raw_overrides = entry.get("ocr_sanity_overrides") or []
+        if not raw_overrides:
+            continue
+        section_overrides: dict[str, set[str]] = {}
+        for raw_override in raw_overrides:
+            if isinstance(raw_override, str):
+                match_text = raw_override.strip()
+                warning_code = "*"
+            elif isinstance(raw_override, dict):
+                match_text = str(raw_override.get("match_text") or raw_override.get("text") or "").strip()
+                warning_code = str(raw_override.get("code") or raw_override.get("warning_code") or "*").strip() or "*"
+            else:
+                continue
+            if not match_text:
+                continue
+            section_overrides.setdefault(warning_code, set()).add(match_text)
+        if section_overrides:
+            override_index[section_id] = section_overrides
+    return override_index
+
+
+def detect_suspicious_ocr_artifacts(
+    text: str,
+    allowed_matches: dict[str, set[str]] | None = None,
+) -> list[dict[str, Any]]:
+    allowed_matches = allowed_matches or {}
+    wildcard_matches = allowed_matches.get("*", set())
+    issues: list[dict[str, Any]] = []
+    for warning_code, description, pattern in OCR_SANITY_PATTERNS:
+        matches = sorted({match.group(0) for match in pattern.finditer(text)})
+        if not matches:
+            continue
+        allowed_for_code = wildcard_matches | allowed_matches.get(warning_code, set())
+        unresolved_matches = [match for match in matches if match not in allowed_for_code]
+        if not unresolved_matches:
+            continue
+        issues.append(
+            {
+                "code": warning_code,
+                "description": description,
+                "matches": unresolved_matches,
+            }
+        )
+    return issues
+
+
 def substantial_chinese_in_english(section: dict[str, Any]) -> bool:
     english_text = section["_english_text"]
     cjk_count = len(CJK_RE.findall(english_text))
@@ -206,6 +310,7 @@ def build_shijing_quality_context(
     overrides = load_shijing_quality_overrides()
     override_map = build_override_map(overrides)
     verification_index = build_verification_index(load_shijing_verification_ledger())
+    ocr_sanity_override_index = build_ocr_sanity_override_index(verification_index)
     export_rows_by_section: dict[str, list[dict[str, Any]]] = {}
     for row in export_rows:
         export_rows_by_section.setdefault(row["section_id"], []).append(row)
@@ -288,6 +393,7 @@ def build_shijing_quality_context(
                 "extraction_method": verification["extraction_method"],
                 "review_date": verification.get("review_date"),
                 "repair_batch": verification.get("repair_batch"),
+                "ocr_sanity_overrides": verification.get("ocr_sanity_overrides") or [],
                 "remaining_warnings": verification["remaining_warnings"],
                 "exact_alignment_count": len(rows),
                 "alignment_granularity_values": granularity_values,
@@ -345,6 +451,14 @@ def build_shijing_quality_context(
             and section["chinese_stanza_count"] > 1
             and section["english_stanza_block_count"] > 1
         )
+        ocr_sanity_issues = (
+            detect_suspicious_ocr_artifacts(
+                section["_english_text"],
+                ocr_sanity_override_index.get(section["section_id"]),
+            )
+            if section["ocr_or_fulltext_derived"]
+            else []
+        )
         warnings: list[str] = []
         warning_codes: list[str] = []
         overridden_warning_codes: list[str] = []
@@ -380,6 +494,8 @@ def build_shijing_quality_context(
             add_warning("complete_needs_human_text_review", "complete section still needs human text review")
         if possible_stanza_split:
             add_warning("possible_stanza_split", "poem-level alignment may hide recoverable stanza segmentation")
+        if ocr_sanity_issues:
+            add_warning("suspicious_ocr_artifact", "suspicious OCR artifacts remain in the English text")
 
         if section["verification_decision"] != "export":
             add_hard_failure("complete_not_authorized_for_export", "complete section is not authorized for export in the verification ledger.")
@@ -428,6 +544,11 @@ def build_shijing_quality_context(
                 "complete_contains_commentary_or_page_furniture",
                 "complete section still contains commentary markers, page furniture, footnotes, or OCR debris.",
             )
+        if ocr_sanity_issues:
+            add_hard_failure(
+                "complete_contains_suspicious_ocr_artifact",
+                "complete section still contains suspicious OCR artifacts.",
+            )
         if section["english_to_chinese_length_ratio"] > very_high_ratio_threshold:
             if section["review_note"]:
                 add_warning(
@@ -462,6 +583,8 @@ def build_shijing_quality_context(
             {"suspiciously_low_length_ratio", "suspiciously_high_length_ratio"} & set(warning_codes)
         )
         section["possible_stanza_split"] = possible_stanza_split
+        section["ocr_sanity_issue_records"] = ocr_sanity_issues
+        section["suspicious_ocr_artifact_markers"] = [issue["code"] for issue in ocr_sanity_issues]
         section["warning_codes"] = warning_codes
         section["overridden_warning_codes"] = sorted(set(overridden_warning_codes))
         section["hard_failure_codes"] = hard_failure_codes
@@ -610,6 +733,9 @@ def build_shijing_quality_context(
             "sections_with_possible_commentary_leakage": sum(
                 1 for section in section_records if section["possible_commentary_leakage_markers"]
             ),
+            "sections_with_suspicious_ocr_artifacts": sum(
+                1 for section in section_records if section["suspicious_ocr_artifact_markers"]
+            ),
             "hard_failure_count": len(hard_failures),
             "warning_count": warning_count,
             "sections_with_hard_failures": sum(1 for section in section_records if section["has_hard_failure"]),
@@ -622,8 +748,10 @@ def build_shijing_quality_context(
             "verified_exportable_poems": len(section_records),
             "all_human_verified_ocr_sections": len(human_verified_ocr_sections),
             "non_exportable_repair_queue_remaining": len(non_exportable_extant_sections),
+            "current_repair_batch": latest_repair_batch,
             "latest_repair_batch": latest_repair_batch,
             "latest_review_date": latest_review_date,
+            "newly_repaired_in_current_batch": len(latest_repaired_sections),
             "newly_repaired_in_latest_tranche": len(latest_repaired_sections),
             "latest_repaired_sections": latest_repaired_sections,
             "human_verified_batches": sorted(
@@ -721,6 +849,7 @@ def quality_markdown(context: dict[str, Any]) -> str:
         f"| sections_with_single_poem_alignment | {summary['sections_with_single_poem_alignment']} |",
         f"| sections_with_extreme_length_ratio | {summary['sections_with_extreme_length_ratio']} |",
         f"| sections_with_possible_commentary_leakage | {summary['sections_with_possible_commentary_leakage']} |",
+        f"| sections_with_suspicious_ocr_artifacts | {summary['sections_with_suspicious_ocr_artifacts']} |",
         f"| sections_with_hard_failures | {summary['sections_with_hard_failures']} |",
         f"| hard_failure_count | {summary['hard_failure_count']} |",
         f"| warning_count | {summary['warning_count']} |",
@@ -733,12 +862,12 @@ def quality_markdown(context: dict[str, Any]) -> str:
         f"| verified_exportable_poems | {progress['verified_exportable_poems']} |",
         f"| all_human_verified_ocr_sections | {progress['all_human_verified_ocr_sections']} |",
         f"| non_exportable_repair_queue_remaining | {progress['non_exportable_repair_queue_remaining']} |",
-        f"| current_repair_batch | {progress['latest_repair_batch'] or '—'} |",
-        f"| newly_repaired_in_current_batch | {progress['newly_repaired_in_latest_tranche']} |",
+        f"| current_repair_batch | {progress['current_repair_batch'] or '—'} |",
+        f"| newly_repaired_in_current_batch | {progress['newly_repaired_in_current_batch']} |",
         "",
         "## Latest repaired tranche",
         "",
-        f"Latest repair batch: {progress['latest_repair_batch'] or '—'}",
+        f"Latest repair batch: {progress['current_repair_batch'] or '—'}",
         "",
         f"Latest review date: {progress['latest_review_date'] or '—'}",
         "",
@@ -799,7 +928,7 @@ def quality_markdown(context: dict[str, Any]) -> str:
             "",
         ]
     )
-    for subdivision_key in ("國風 / 召南", "國風 / 邶風", "國風 / 鄘風", "國風 / 衛風", "國風 / 王風"):
+    for subdivision_key in [f"{major_division} / {subdivision}" for major_division, subdivision in DETAILED_QUEUE_SUBDIVISIONS]:
         lines.extend(
             [
                 f"### {subdivision_key}",
@@ -841,6 +970,32 @@ def quality_markdown(context: dict[str, Any]) -> str:
             )
         )
     if not progress["skipped_current_witness_sections"]:
+        lines.append("| — | — | — | — | — |")
+    lines.append("")
+    suspicious_ocr_sections = [section for section in sections if section["suspicious_ocr_artifact_markers"]]
+    lines.extend(
+        [
+            "## OCR sanity warnings",
+            "",
+            "| Section | Title | Canonical ref | Artifact markers | Matches |",
+            "| --- | --- | --- | --- | --- |",
+        ]
+    )
+    if suspicious_ocr_sections:
+        for section in suspicious_ocr_sections:
+            matches = ", ".join(
+                match for issue in section["ocr_sanity_issue_records"] for match in issue["matches"]
+            )
+            lines.append(
+                "| {section_id} | {title} | {canonical_ref} | {markers} | {matches} |".format(
+                    section_id=section["section_id"],
+                    title=section["title"],
+                    canonical_ref=section["canonical_ref"],
+                    markers=", ".join(section["suspicious_ocr_artifact_markers"]),
+                    matches=matches,
+                )
+            )
+    else:
         lines.append("| — | — | — | — | — |")
     lines.append("")
     lines.extend(

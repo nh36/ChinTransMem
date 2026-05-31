@@ -1,0 +1,9 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-chenfeng-007__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·陳風·007.1,防有鵲巢，邛有旨苕。誰侜予美，心焉忉忉。,防有鵲巢.1,"On the embankment are magpies' nests;
+On the height grows the beautiful pea.
+Who has been imposing on the object of my admiration ?
+— My heart is full of sorrow."
+shijing__guofeng-chenfeng-007__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·陳風·007.2,中唐有甓，邛有旨鷊。誰侜予美，心焉惕惕。,防有鵲巢.2,"The middle path of the temple is covered with its tiles;
+On the height is the beautiful medallion plant.
+Who has been imposing on the object of my admiration?
+— My heart is full of trouble."

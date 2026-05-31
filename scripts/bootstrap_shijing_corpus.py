@@ -2372,6 +2372,282 @@ REVIEWED_LEGGE_OCR_POEM_BLOCKS: dict[int, dict[str, Any]] = {
             ),
         ],
     },
+    127: {
+        "legge_section_alias": "Sze feeh",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR pages 393-394 after removing the running page header "
+            "and keeping only the verse lines."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "His four iron-black horses are in very fine condition;",
+                    "The six reins are in the hand of the charioteer.",
+                    "The ruler's favourites",
+                    "Follow him to the chase.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The male animals of the season are made to present themselves,",
+                    "The males in season, of very large size.",
+                    "The ruler says, 'To the left of them;'",
+                    "Then he lets go his arrows and hits.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "He rambles in the northern park;",
+                    "His four horses display their training.",
+                    "Light carriages, with bells at the horses' bits,",
+                    "Convey the long and short-mouthed dogs.",
+                ]
+            ),
+        ],
+    },
+    128: {
+        "legge_section_alias": "Seaou jung",
+        "review_note": (
+            "Recovered the full poem block from part-1 hOCR pages 395-397 after restoring the omitted opening carriage "
+            "line and retaining poem-level alignment because the witness prints the poem as one continuous block."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "[There is] his short war carriage; —",
+                    "With the ridge-like end of its pole, elegantly bound in five",
+                    "places;",
+                    "With its slip rings and side straps;",
+                    "And the traces attached by gilt rings to the masked transverse;",
+                    "With its beautiful mat of tiger's skin, and its long naves;",
+                    "With its piebalds, and horses with white left feet.",
+                    "When I think of my husband [thus],",
+                    "Looking bland and soft as a piece of jade;",
+                    "Living there in his plank house;",
+                    "It sends confusion into all the corners of my heart.",
+                    "His mail-covered team moves in great harmony;",
+                    "There are the trident spears with their gilt ends;",
+                    "And the beautiful feather-figured shield;",
+                    "With the tiger-skin bow-case, and the carved metal ornaments",
+                    "on its front.",
+                    "The two bows are placed in the case,",
+                    "Bound with string to their bamboo frames.",
+                    "I think of my husband,",
+                    "When I lie down and rise up.",
+                    "Tranquil and serene is the good man,",
+                    "With his virtuous fame spread far and near.",
+                ]
+            ),
+        ],
+    },
+    130: {
+        "legge_section_alias": "Chung-nan",
+        "review_note": (
+            "Recovered the two stanza blocks from part-1 hOCR pages 399-400 after discarding the interleaved commentary "
+            "line and preserving only the verse text."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "What are there on Chung-nan?",
+                    "There are white firs and plum trees.",
+                    "Our prince has arrived at it,",
+                    "Wearing an embroidered robe over his fox-fur,",
+                    "And with his countenance rouged as with vermilion.",
+                    "May he prove a ruler indeed!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "What are there on Chung-nan?",
+                    "There are nooks and open glades.",
+                    "Our prince has arrived at it,",
+                    "With the symbol of distinction embroidered on his lower skirt,",
+                    "And the gems at his girdle emitting their tinkling.",
+                    "May long life and an endless name be his?",
+                ]
+            ),
+        ],
+    },
+    143: {
+        "legge_section_alias": "Yueh chLuh",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR page 414 after correcting OCR slips and excluding the "
+            "following poem title."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "The moon comes forth in her brightness;",
+                    "How lovely is that beautiful lady!",
+                    "O to have my deep longings for her relieved!",
+                    "How anxious is my toiled heart!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The moon comes forth in her splendour;",
+                    "How attractive is that beautiful lady!",
+                    "O to have my anxieties about her relieved!",
+                    "How agitated is my toiled heart!",
+                ]
+            ),
+            "\n".join(
+                [
+                    "The moon comes forth and shines;",
+                    "How brilliant is that beautiful lady!",
+                    "O to have the chains of my mind relaxed!",
+                    "How miserable is my toiled heart!",
+                ]
+            ),
+        ],
+    },
+    145: {
+        "legge_section_alias": "Tsih jp'o",
+        "review_note": (
+            "Recovered the three stanza blocks from part-1 hOCR pages 415-416 after restoring the closing pillow line "
+            "that the automatic verse-line heuristic had dropped."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "By the shores of that marsh,",
+                    "There are rushes and lotus plants.",
+                    "There is the beautiful lady; —",
+                    "I am tortured for her, but what avails it ?",
+                    "Waking or sleeping, I do nothing;",
+                    "From my eyes and nose the water streams.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "By the shores of that marsh,",
+                    "There are rushes and the valerian.",
+                    "There is the beautiful lady,",
+                    "Tall and large, and elegant.",
+                    "Waking or sleeping, I do nothing;",
+                    "My inmost heart is full of grief.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "By the shores of that marsh,",
+                    "There are rushes and lotus flowers.",
+                    "There is that beautiful lady,",
+                    "Tall and large, and majestic.",
+                    "Waking or sleeping, I do nothing;",
+                    "On my side, on my back, with my face on the pillow, I lie.",
+                ]
+            ),
+        ],
+    },
+    155: {
+        "legge_section_alias": "鴟鴞",
+        "review_note": (
+            "Recovered the four stanza blocks from part-1 hOCR pages 435-437 after restoring the split opening and "
+            "third-stanza closing lines from the witness."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "\n".join(
+                [
+                    "O owl, O owl,",
+                    "You have taken my young ones; —",
+                    "Do not [also] destroy my nest.",
+                    "With love and with toil",
+                    "I nourished them. — I am to",
+                    "be pitied.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "Before the sky was dark with rain,",
+                    "I gathered the roots of the mulberry tree,",
+                    "And bound round and round my window and door.",
+                    "Now ye people below,",
+                    "Dare any of you despise my house?",
+                ]
+            ),
+            "\n".join(
+                [
+                    "With my claws I tore and held.",
+                    "Through the rushes which I gathered,",
+                    "And all the materials I collected,",
+                    "My mouth was all sore; —",
+                    "I said to myself, 'I have not yet got my house complete.'",
+                ]
+            ),
+            "\n".join(
+                [
+                    "My wings are all-injured;",
+                    "My tail is all-broken;",
+                    "My house is in a perilous condition;",
+                    "It is tossed about in the wind and rain: —",
+                    "I can but cry out with this note of alarm.",
+                ]
+            ),
+        ],
+    },
+    157: {
+        "legge_section_alias": "P:〇 f〇〇",
+        "review_note": (
+            "Recovered the five stanza blocks from part-1 hOCR pages 440-442 after restoring the duke-of-Chow lines "
+            "that the automatic verse-line heuristic had dropped; kept poem-level alignment because the stanza "
+            "structures do not match cleanly."
+        ),
+        "english_blocks": [
+            "\n".join(
+                [
+                    "We broke our axes,",
+                    "And we splintered our hatchets;",
+                    "But the object of the duke of Chow, in marching to the east,",
+                    "Was to put the four States to rights.",
+                    "His compassion for us people",
+                    "Is very great.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "We broke our axes,",
+                    "And splintered our chisels;",
+                    "But the object of the duke of Chow, in marching to the east,",
+                    "Was to reform the four States.",
+                    "His compassion for us people",
+                    "Is very admirable.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "We broke our axes;",
+                    "And splintered our clubs.",
+                    "But the object of the duke of Chow, in marching to the east,",
+                    "Was to save the alliance of the four States.",
+                    "His compassion for us people",
+                    "Is very excellent.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "In hewing the wood for an axe-handle, how do you proceed?",
+                    "Without another axe it cannot be done.",
+                    "In taking a wife, how do you proceed?",
+                    "Without a go-between it cannot be done.",
+                ]
+            ),
+            "\n".join(
+                [
+                    "In hewing an axe-handle, in hewing an axe-handle,",
+                    "The pattern is not far off.",
+                    "I see the lady,",
+                    "And forthwith the vessels are arranged in rows.",
+                ]
+            ),
+        ],
+    },
 }
 
 AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
@@ -2390,9 +2666,29 @@ AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
             "His two insides have tlieir heads in a line,": "His two insides have their heads in a line,",
         },
     },
+    76: {
+        "line_replacements": {
+            "0 Chung": "O Chung",
+            "m}r": "my",
+        },
+    },
     79: {
         "line_replacements": {
-            "The men of Tscing are in P^ang;": "The men of Tscing are in P'ang;",
+            "The men of Tscing are in P^ang;": "The men of Ts'ing are in P'ang;",
+            "The men of Ts4ing are in Seaou;": "The men of Ts'ing are in Seaou;",
+            "Cho'v": "Chow",
+        },
+    },
+    80: {
+        "line_replacements": {
+            "His lambs fur": "His lamb's fur",
+            "\\vill": "will",
+            "Ho'v": "How",
+        },
+    },
+    88: {
+        "line_replacements": {
+            "0 Sir": "O Sir",
         },
     },
     89: {
@@ -2402,13 +2698,31 @@ AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
             "remains in the exportable text."
         ),
     },
+    93: {
+        "line_replacements": {
+            "Wliere": "Where",
+            "tliey": "they",
+            "silk7": "silk,",
+            "coiifure": "coiffure",
+        },
+    },
     96: {
         "line_replacements": {
             "Bat it was not the east that was bright; —": "But it was not the east that was bright; —",
         },
         "review_note": "Reviewed the part-1 hOCR witness directly and corrected the one obvious court-line OCR slip in the middle stanza.",
     },
+    101: {
+        "line_replacements": {
+            "Ts(e": "Ts'e",
+            "Ts4e": "Ts'e",
+        },
+    },
     104: {
+        "line_replacements": {
+            "Tsce": "Ts'e",
+            "Ts4e": "Ts'e",
+        },
         "review_note": "Reviewed the part-1 hOCR witness directly and dropped the trailing subdivision heading after the final verse stanza.",
     },
     113: {
@@ -2428,20 +2742,76 @@ AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
     },
     111: {
         "line_replacements": {
-            "Come, says one to another, 4I will go away with you.1": "Come, says one to another, I will go away with you.",
+            "4I": "I",
             "Come, says one to another, I will return with you.": "Come, says one to another, I will return with you.",
         },
     },
     116: {
+        "line_replacements": {
+            "princel}r": "princely",
+        },
         "review_note": "Reviewed the part-1 hOCR witness directly and removed the trailing ODES OF T‘ANG heading after the final stanza.",
     },
     105: {
         "line_replacements": {
             "AVith its screen of bamboos woven in squares, and its vermilion-": "With its screen of bamboos woven in squares, and its vermilion-",
             "And the daughter of Ts^ started on it in the evening.": "And the daughter of Ts'e started on it in the evening.",
+            "And the daughter of Tsce is delighted and complacent.": "And the daughter of Ts'e is delighted and complacent.",
+            "And the daughter of Ts4e moves on with unconcern.": "And the daughter of Ts'e moves on with unconcern.",
             "And the daughter of Ts^e moves on with unconcern.": "And the daughter of Ts'e moves on with unconcern.",
             "And the daughter of Ts^e proceeds at her ease,": "And the daughter of Ts'e proceeds at her ease,",
         },
+    },
+    126: {
+        "line_replacements": {
+            "He has many carriages, giving forth their lin-Un\\": "He has many carriages, giving forth their lin-lin.",
+        },
+    },
+    133: {
+        "line_replacements": {
+            "I will prepare my bufFcoat and sharp weapons,": "I will prepare my buff-coat and sharp weapons,",
+        },
+    },
+    134: {
+        "line_replacements": {
+            "I escorted my mother^ nephew,": "I escorted my mother's nephew,",
+            "I escorted my mothers nephew ;": "I escorted my mother's nephew;",
+        },
+    },
+    136: {
+        "line_replacements": {
+            "Yuen-k(ew": "Yuen-k'ew",
+        },
+    },
+    137: {
+        "line_replacements": {
+            "Yuen-k^ew": "Yuen-k'ew",
+        },
+    },
+    142: {
+        "line_replacements": {
+            "On the embankment are magpies5 nests ;": "On the embankment are magpies' nests;",
+        },
+        "drop_lines": ["; B C. 691 — 647), who believed slan-"],
+    },
+    146: {
+        "line_replacements": {
+            "In your lamb^ fur you saunter about;": "In your lamb's fur you saunter about;",
+            "In your fox?s fur you hold your court.": "In your fox's fur you hold your court.",
+            "In your lamVs fur you wander aimlessly about;": "In your lamb's fur you wander aimlessly about;",
+            "In your fox^ fur you appear in your ball.": "In your fox's fur you appear in your hall.",
+        },
+    },
+    148: {
+        "keep_blocks": [0, 1, 2],
+        "review_note": (
+            "Reviewed the part-1 hOCR witness directly and trimmed the following 匪風 carry-over blocks so only 隰有萇楚 "
+            "remains in the exportable text."
+        ),
+    },
+    152: {
+        "drop_lines": ["IV. Hea ts^euen. ,"],
+        "review_note": "Reviewed the part-1 hOCR witness directly and removed the following 下泉 title from the final stanza block.",
     },
     120: {
         "line_replacements": {
@@ -3725,7 +4095,12 @@ def sanitize_reviewed_hocr_line(text: str) -> str:
     cleaned = re.sub(r"([!?])\d+$", r"\1", cleaned)
     cleaned = cleaned.replace("；", ";").replace("，", ",")
     cleaned = cleaned.replace("[", "").replace("]", "")
-    cleaned = cleaned.replace("‘", "").replace("’", "").replace("“", "").replace("”", "")
+    cleaned = (
+        cleaned.replace("‘", "'")
+        .replace("’", "'")
+        .replace("“", '"')
+        .replace("”", '"')
+    )
     cleaned = cleaned.replace("/", "")
     cleaned = cleaned.rstrip("*•")
     return cleaned.strip(" \"'“”‘’")

@@ -1,0 +1,7 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-qinfeng-010__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qinfeng-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·秦風·010.1,於我乎，夏屋渠渠，今也每食無餘。于嗟乎！不承權輿。,權輿.1,"He assigned us a house large and spacious;
+But now at every meal there is nothing left.
+Alas that he could not continue as he began!"
+shijing__guofeng-qinfeng-010__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qinfeng-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·秦風·010.2,於我乎，每食四簋，今也每食不飽。于嗟乎！不承權輿。,權輿.2,"He assigned us at every meal four dishes of grain;
+But now at every meal we do not get our fill.
+Alas that he could not continue as he began!"

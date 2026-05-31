@@ -1,0 +1,16 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-chenfeng-001__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-001,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·陳風·001.1,"子之湯兮，宛丘之上兮，洵有情兮，而無望兮。
+坎其擊鼓，宛丘之下，無冬無夏，值其鷺羽。
+坎其擊缶，宛丘之道，無冬無夏，值其鷺翿。",宛丘.1,"How gay and dissipated you are,
+There on the top of Yuen-k'ew!
+You are full of kindly affection indeed,
+But you have nothing to make you looked up to!
+How your blows on the drum resound,
+At the foot of Yuen-k'ew!
+Be it winter, be it summer,
+You are holding your egret's feather!
+
+How you beat your earthen vessel,
+On the way to Yuen-k'ew!
+Be it winter, be it summer,
+You are holding your egret-fan!"

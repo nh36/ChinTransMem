@@ -1,0 +1,9 @@
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+shijing__guofeng-chenfeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·陳風·005.1,東門之楊，其葉牂牂。昏以為期，明星煌煌。,東門之楊.1,"On the willows at the east gate,
+The leaves are very luxuriant.
+The evening was the time agreed on,
+And the morning star is shining bright."
+shijing__guofeng-chenfeng-005__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·陳風·005.2,東門之楊，其葉肺肺。昏以為期，明星晢晢。,東門之楊.2,"On the willows at the east gate,
+The leaves are dense.
+The evening was the time agreed on,
+And the morning star is shining bright."

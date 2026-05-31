@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-chenfeng-006__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-chenfeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·陳風·006.1</prop>
+      <prop type="x-translation-ref">墓門.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>墓門有棘，斧以斯之。夫也不良，國人知之。知而不已，誰昔然矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>At the gate to the tombs there are jujube trees; —
+They should be cut away with an axe.
+That man is not good,
+And the people of the State know it.
+They know it, but he does not give over; —
+Long time has it been thus with him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-chenfeng-006__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-chenfeng-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·陳風·006.2</prop>
+      <prop type="x-translation-ref">墓門.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>墓門有梅，有鴞萃止。夫也不良，歌以誶之。訊予不顧，顛倒思予。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>At the gate to the tombs there are plum trees,
+And there are owls collecting on them.
+That man is not good,
+And I sing this song to admonish him.
+I admonish him, but he will not regard me; —
+When he is overthrown, he will think of me.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

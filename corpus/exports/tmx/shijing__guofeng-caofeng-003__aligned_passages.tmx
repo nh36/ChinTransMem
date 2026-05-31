@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-caofeng-003__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-caofeng-003</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">poem</prop>
+      <prop type="x-alignment-granularity">poem</prop>
+      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.95</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·曹風·003.1</prop>
+      <prop type="x-translation-ref">鳲鳩.1</prop>
+      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>&lt; 詩經‧國風‧曹‧鳲鳩
+毛詩序：「《鳲鳩》，刺不壹也。在位無君子，用心之不壹也。」
+===鳲鳩===
+《鳲鳩》，四章，章六句。
+!鳲鳩
+詩經‧國風‧曹
+鳲鳩在桑 其子七兮 淑人君子 其儀一兮 其儀一兮 心如結兮
+鳲鳩在桑 其子在梅 淑人君子 其帶伊絲 其帶伊絲 其弁伊騏
+鳲鳩在桑 其子在棘 淑人君子 其儀不忒 其儀不忒 正是四國
+鳲鳩在桑 其子在榛 淑人君子 正是國人 正是國人 胡不萬年</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The turtle dove is in the mulberry tree,
+And her young ones are seven.
+The virtuous man, the princely one,
+Is uniformly correct in his deportment.
+He is uniformly correct in his deportment,
+His heart is as if it were tied to what is correct.
+
+The turtle dove is in the mulberry tree,
+And her young ones are in the plum tree.
+The virtuous man, the princely one,
+Has his girdle of silk.
+His girdle is of silk,
+And his cap is of spotted deer-skin.
+
+The turtle dove is in the mulberry tree,
+And her young ones are in the jujube tree.
+The virtuous man, the princely one,
+Has nothing wrong in his deportment.
+He has nothing wrong in his deportment,
+And thus he rectifies the four quarters of the State.
+
+The turtle dove is in the mulberry tree,
+And her young ones are in the hazel tree.
+The virtuous man, the princely one,
+Rectifies the people of the State.
+May he continue for ten thousand years!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

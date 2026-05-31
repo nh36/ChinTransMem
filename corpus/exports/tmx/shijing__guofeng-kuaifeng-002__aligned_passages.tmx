@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-kuaifeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-kuaifeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·檜風·002.1</prop>
+      <prop type="x-translation-ref">素冠.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>庶見素冠兮，棘人欒欒兮，勞心慱慱兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If I could but see the white cap,
+My toiled heart is worn with grief!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-kuaifeng-002__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-kuaifeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·檜風·002.2</prop>
+      <prop type="x-translation-ref">素冠.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>庶見素衣兮，我心傷悲兮，聊與子同歸兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If I could but see the white lower dress! —
+My heart is wounded with sadness!
+I should be inclined to go and live with the wearer!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-kuaifeng-002__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-kuaifeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·檜風·002.3</prop>
+      <prop type="x-translation-ref">素冠.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>庶見素韠兮，我心蘊結兮，聊與子如一兮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If I could but see the white knee-covers! —
+Sorrow is knotted in my heart!
+I should almost feel as of one soul with "the wearer!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-binfeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-binfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·豳風·002.1</prop>
+      <prop type="x-translation-ref">鴟鴞.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鴟鴞鴟鴞，既取我子，無毀我室！恩斯勤斯，鬻子之閔斯。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>O owl, O owl,
+You have taken my young ones; —
+Do not [also] destroy my nest.
+With love and with toil
+I nourished them. — I am to
+be pitied.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-binfeng-002__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-binfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·豳風·002.2</prop>
+      <prop type="x-translation-ref">鴟鴞.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>迨天之未陰雨，徹彼桑土。綢繆牖戶。今女下民，或敢侮予。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Before the sky was dark with rain,
+I gathered the roots of the mulberry tree,
+And bound round and round my window and door.
+Now ye people below,
+Dare any of you despise my house?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-binfeng-002__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-binfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·豳風·002.3</prop>
+      <prop type="x-translation-ref">鴟鴞.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>予手拮据，予所捋荼。予所蓄租，予口卒瘏。曰予未有室家。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>With my claws I tore and held.
+Through the rushes which I gathered,
+And all the materials I collected,
+My mouth was all sore; —
+I said to myself, 'I have not yet got my house complete.'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-binfeng-002__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-binfeng-002</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·豳風·002.4</prop>
+      <prop type="x-translation-ref">鴟鴞.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>予羽譙譙，予尾翛翛。予室翹翹，風雨所漂搖。予維音嘵嘵。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>My wings are all-injured;
+My tail is all-broken;
+My house is in a perilous condition;
+It is tossed about in the wind and rain: —
+I can but cry out with this note of alarm.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

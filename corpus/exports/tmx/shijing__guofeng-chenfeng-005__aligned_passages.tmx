@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shijing__guofeng-chenfeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-chenfeng-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·陳風·005.1</prop>
+      <prop type="x-translation-ref">東門之楊.1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>東門之楊，其葉牂牂。昏以為期，明星煌煌。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the willows at the east gate,
+The leaves are very luxuriant.
+The evening was the time agreed on,
+And the morning star is shining bright.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__guofeng-chenfeng-005__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">guofeng-chenfeng-005</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·國風·陳風·005.2</prop>
+      <prop type="x-translation-ref">東門之楊.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>東門之楊，其葉肺肺。昏以為期，明星晢晢。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On the willows at the east gate,
+The leaves are dense.
+The evening was the time agreed on,
+And the morning star is shining bright.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
