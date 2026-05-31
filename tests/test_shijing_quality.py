@@ -60,17 +60,43 @@ class ShijingQualitySanityTest(unittest.TestCase):
             export_rows=[row],
         )
 
+    def _context_for_blocks(
+        self,
+        *,
+        chinese_blocks: list[str],
+        translation_blocks: list[str],
+    ) -> dict[str, object]:
+        rows = []
+        for index, (chinese_text, translation_text) in enumerate(zip(chinese_blocks, translation_blocks), start=1):
+            row = deepcopy(self.row)
+            row["alignment_id"] = f"test-alignment-{index}"
+            row["order"] = index
+            row["chinese_text"] = chinese_text
+            row["translation_text"] = translation_text
+            row["alignment_granularity"] = "stanza"
+            row["is_coarse_alignment"] = False
+            rows.append(row)
+        return build_shijing_quality_context(
+            manifest=self._single_section_manifest(),
+            export_rows=rows,
+        )
+
     def test_detect_suspicious_ocr_artifacts_flags_known_bad_examples(self) -> None:
         text = "\n".join(
             [
-                "0 Chung, the herald answers the call.",
-                "The m}r token should never survive source review.",
-                r"The \vill fragment is an OCR scar, not a word.",
-                "Ts4ing and silk7 both show digit contamination inside words.",
-                "Cho'v and Ho'v preserve apostrophe-v OCR damage.",
-                "Wliere tliey wander, the coiifure remains impossible English.",
-                "The Ae^-stone token still shows a stray caret.",
+                "You, 0 Chung, are to be loved.",
+                "But the words of m}r brothers.",
+                r"In the country \vill ever hold to the right.",
+                "The men of Ts4ing are in Seaou.",
+                "The men of Tsing are in Cho'v.",
+                "Ho'v splendid is his lambs fur.",
+                "Where the girls were like flowering rushes. Although tliey are like flowering rushes.",
+                "She in the thin white silk7.",
+                "They will give me beautiful Ae^-stone.",
+                "It is brothers who greatl)7 sympathize.",
+                "My horses are greyj.",
                 "A stray • bullet in running English should be reviewed.",
+                "The impossible coiifure survives the OCR pass.",
             ]
         )
 
@@ -83,10 +109,14 @@ class ShijingQualitySanityTest(unittest.TestCase):
         self.assertIn("0 Chung", issues_by_code["zero_vocative_confusion"]["matches"])
         self.assertIn("digit_letter_confusion", issues_by_code)
         self.assertTrue({"Ts4ing", "silk7"} <= set(issues_by_code["digit_letter_confusion"]["matches"]))
+        self.assertIn("paren_digit_intraword_artifact", issues_by_code)
+        self.assertIn("greatl)7", issues_by_code["paren_digit_intraword_artifact"]["matches"])
+        self.assertIn("trailing_j_artifact", issues_by_code)
+        self.assertIn("greyj", issues_by_code["trailing_j_artifact"]["matches"])
         self.assertIn("apostrophe_vw_artifact", issues_by_code)
         self.assertTrue({"Cho'v", "Ho'v"} <= set(issues_by_code["apostrophe_vw_artifact"]["matches"]))
         self.assertIn("tli_wli_artifact", issues_by_code)
-        self.assertTrue({"Wliere", "tliey"} <= set(issues_by_code["tli_wli_artifact"]["matches"]))
+        self.assertIn("tliey", issues_by_code["tli_wli_artifact"]["matches"])
         self.assertIn("double_i_artifact", issues_by_code)
         self.assertIn("coiifure", issues_by_code["double_i_artifact"]["matches"])
         self.assertIn("brace_artifact", issues_by_code)
@@ -103,6 +133,31 @@ class ShijingQualitySanityTest(unittest.TestCase):
             [],
         )
 
+    def test_detect_suspicious_ocr_artifacts_flags_truncated_final_stanza(self) -> None:
+        chinese_blocks = [
+            "呦呦鹿鳴\n食野之苹\n我有嘉賓\n鼓瑟吹笙\n吹笙鼓簧\n承筐是將\n人之好我\n示我周行",
+            "呦呦鹿鳴\n食野之蒿\n我有嘉賓\n德音孔昭\n視民不恌\n君子是則\n我有旨酒\n嘉賓式燕以敖",
+            "呦呦鹿鳴\n食野之芩\n我有嘉賓\n鼓瑟鼓琴\n鼓瑟鼓琴\n和樂且湛\n我有旨酒\n以燕樂嘉賓之心",
+        ]
+        translation_blocks = [
+            "With pleased sounds the deer call to one another,\nEating the celery of the fields.\nI have here admirable guests;\nThe lutes are struck, and the organ is blown for them.\nThe baskets of offerings also are presented to them.\nThe men love me,\nAnd will show me the perfect path.",
+            "With pleased sounds the deer call to one another,\nEating the southernwood of the fields.\nI have here admirable guests,\nWhose virtuous fame is grandly brilliant.\nThe officers have in them a pattern and model.\nI have good wine,\nWhich my admirable guests drink, enjoying themselves.",
+            "With pleased sounds the deer call to one another,\nEating the salsola of the fields.\nI have here admirable guests,",
+        ]
+
+        issues_by_code = {
+            issue["code"]: issue
+            for issue in detect_suspicious_ocr_artifacts(
+                "\n\n".join(translation_blocks),
+                chinese_blocks=chinese_blocks,
+                english_blocks=translation_blocks,
+            )
+        }
+
+        self.assertIn("terminal_truncation_punctuation", issues_by_code)
+        self.assertIn("I have here admirable guests,", issues_by_code["terminal_truncation_punctuation"]["matches"])
+        self.assertIn("truncated_final_stanza", issues_by_code)
+
     def test_exportable_ocr_text_with_suspicious_artifact_becomes_hard_failure(self) -> None:
         context = self._context_for_translation(
             "0 Chung, hear this faithful envoy and keep the willow court in peace while the bride • waits near the gate."
@@ -111,6 +166,26 @@ class ShijingQualitySanityTest(unittest.TestCase):
         section = context["sections"][0]
         self.assertIn("zero_vocative_confusion", section["suspicious_ocr_artifact_markers"])
         self.assertIn("bullet_artifact", section["suspicious_ocr_artifact_markers"])
+        self.assertIn("complete_contains_suspicious_ocr_artifact", section["hard_failure_codes"])
+        self.assertEqual(context["summary"]["sections_with_suspicious_ocr_artifacts"], 1)
+
+    def test_exportable_ocr_text_with_truncated_final_stanza_becomes_hard_failure(self) -> None:
+        context = self._context_for_blocks(
+            chinese_blocks=[
+                "呦呦鹿鳴\n食野之苹\n我有嘉賓\n鼓瑟吹笙\n吹笙鼓簧\n承筐是將\n人之好我\n示我周行",
+                "呦呦鹿鳴\n食野之蒿\n我有嘉賓\n德音孔昭\n視民不恌\n君子是則\n我有旨酒\n嘉賓式燕以敖",
+                "呦呦鹿鳴\n食野之芩\n我有嘉賓\n鼓瑟鼓琴\n鼓瑟鼓琴\n和樂且湛\n我有旨酒\n以燕樂嘉賓之心",
+            ],
+            translation_blocks=[
+                "With pleased sounds the deer call to one another,\nEating the celery of the fields.\nI have here admirable guests;\nThe lutes are struck, and the organ is blown for them.\nThe baskets of offerings also are presented to them.\nThe men love me,\nAnd will show me the perfect path.",
+                "With pleased sounds the deer call to one another,\nEating the southernwood of the fields.\nI have here admirable guests,\nWhose virtuous fame is grandly brilliant.\nThe officers have in them a pattern and model.\nI have good wine,\nWhich my admirable guests drink, enjoying themselves.",
+                "With pleased sounds the deer call to one another,\nEating the salsola of the fields.\nI have here admirable guests,",
+            ],
+        )
+
+        section = context["sections"][0]
+        self.assertIn("terminal_truncation_punctuation", section["suspicious_ocr_artifact_markers"])
+        self.assertIn("truncated_final_stanza", section["suspicious_ocr_artifact_markers"])
         self.assertIn("complete_contains_suspicious_ocr_artifact", section["hard_failure_codes"])
         self.assertEqual(context["summary"]["sections_with_suspicious_ocr_artifacts"], 1)
 

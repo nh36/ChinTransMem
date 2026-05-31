@@ -6,49 +6,100 @@
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-nanyoujiayu-006</prop>
       <prop type="x-section-unit">poem</prop>
-      <prop type="x-segment-type">poem</prop>
-      <prop type="x-alignment-granularity">poem</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.95</prop>
+      <prop type="x-confidence">0.99</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·006.1</prop>
       <prop type="x-translation-ref">蓼蕭.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>蓼彼蕭斯，零露湑兮。既見君子，我心寫兮。燕笑語兮，是以有譽處兮。
-蓼彼蕭斯，零露瀼瀼。既見君子，為龍為光。其德不爽，壽考不忘。
-蓼彼蕭斯，零露泥泥。既見君子，孔燕豈弟。宜兄宜弟，令德壽豈。
-蓼彼蕭斯，零露濃濃。既見君子，鞗革忡忡。和鸞雝雝，萬福攸同。</seg>
+        <seg>蓼彼蕭斯，零露湑兮。既見君子，我心寫兮。燕笑語兮，是以有譽處兮。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>How long grows the southernwood,
-With tLe dew lying on it so bright!
+With the dew lying on it so bright!
 Now that I see my noble men,
 My heart is entirely satisfied.
-As we feast, we laugh and talk; —
-It is right they should have fame and prosperity!
-
-How long grows the southernwood,
-With the dew lying on it so abundantly !
+As we feast, we laugh and talk; --
+It is right they should have fame and prosperity!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-006__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·006.2</prop>
+      <prop type="x-translation-ref">蓼蕭.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蓼彼蕭斯，零露瀼瀼。既見君子，為龍為光。其德不爽，壽考不忘。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How long grows the southernwood,
+With the dew lying on it so abundantly!
 Now that I see my noble men,
 I appreciate their favour and their brightness.
-Their virtue is without taint of error; —
-May they live long, and not be forgotten !
-
-How high is the southernwood,
+Their virtue is without taint of error; --
+May they live long, and not be forgotten!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-006__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·006.3</prop>
+      <prop type="x-translation-ref">蓼蕭.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蓼彼蕭斯，零露泥泥。既見君子，孔燕豈弟。宜兄宜弟，令德壽豈。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How high is the southernwood,
 All wet with the fallen dew!
 Now that I see my noble men,
 Grandly we feast, delighted and complacent.
 May their relations with their brothers be right!
-May they be happy in their excellent virtue to old age!
-How high is the southernwood,
+May they be happy in their excellent virtue to old age!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-nanyoujiayu-006__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-nanyoujiayu-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·南有嘉魚之什·006.4</prop>
+      <prop type="x-translation-ref">蓼蕭.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蓼彼蕭斯，零露濃濃。既見君子，鞗革忡忡。和鸞雝雝，萬福攸同。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How high is the southernwood,
 With the dew lying on it so richly!
 I have seen my noble men,
 With the ends of their reins hanging down,
 With the bells tinkling on their cross-boards and bits.
-May all happiness gather upon them ;</seg>
+May all happiness gather upon them.</seg>
       </tuv>
     </tu>
   </body>

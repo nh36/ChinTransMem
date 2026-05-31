@@ -6,7 +6,7 @@
     "complete_sections": 256,
     "metadata_only_sections": 55,
     "non_exportable_extant_sections": 49,
-    "exact_alignment_count": 581,
+    "exact_alignment_count": 591,
     "complete_sections_by_witness_type": {
       "standalone Wikisource": 1,
       "OCR-derived witness": 153,
@@ -18,8 +18,8 @@
     },
     "ocr_or_fulltext_derived_sections": 153,
     "sections_needing_human_text_review": 0,
-    "sections_with_coarse_alignment": 88,
-    "sections_with_single_poem_alignment": 95,
+    "sections_with_coarse_alignment": 84,
+    "sections_with_single_poem_alignment": 91,
     "sections_with_extreme_length_ratio": 0,
     "sections_with_possible_commentary_leakage": 0,
     "sections_with_suspicious_ocr_artifacts": 0,
@@ -1266,6 +1266,12 @@
         "review_note": "Public-domain witness located, but the English text is not yet verified clean enough for export."
       }
     ],
+    "remaining_queue_category_counts": {
+      "Likely repairable now": 4,
+      "Not yet investigated in detail": 24,
+      "Known unrecoverable with current witness": 2,
+      "Needs better witness": 19
+    },
     "guofeng_queue_categories": {
       "likely_repairable_now": [
         {
@@ -1777,7 +1783,125 @@
     "ocr_sanity_sweep": {
       "checked_exportable_ocr_sections": 153,
       "flagged_sections": 0,
-      "flagged_section_records": []
+      "flagged_section_records": [],
+      "regression_examples": [
+        {
+          "sample": "0 Chung",
+          "detector": "zero_vocative_confusion"
+        },
+        {
+          "sample": "m}r",
+          "detector": "brace_artifact"
+        },
+        {
+          "sample": "\\vill",
+          "detector": "backslash_artifact"
+        },
+        {
+          "sample": "Ts4ing",
+          "detector": "digit_letter_confusion"
+        },
+        {
+          "sample": "Cho'v",
+          "detector": "apostrophe_vw_artifact"
+        },
+        {
+          "sample": "Ho'v",
+          "detector": "apostrophe_vw_artifact"
+        },
+        {
+          "sample": "Wliere",
+          "detector": "tli_wli_artifact"
+        },
+        {
+          "sample": "tliey",
+          "detector": "tli_wli_artifact"
+        },
+        {
+          "sample": "coiifure",
+          "detector": "double_i_artifact"
+        },
+        {
+          "sample": "silk7",
+          "detector": "digit_letter_confusion"
+        },
+        {
+          "sample": "Ae^-stone",
+          "detector": "caret_artifact"
+        },
+        {
+          "sample": "greatl)7",
+          "detector": "paren_digit_intraword_artifact"
+        },
+        {
+          "sample": "greyj",
+          "detector": "trailing_j_artifact"
+        },
+        {
+          "sample": "I have here admirable guests,",
+          "detector": "terminal_truncation_punctuation"
+        }
+      ],
+      "corrected_sections": [
+        {
+          "section_id": "guofeng-tangfeng-004",
+          "title": "椒聊",
+          "canonical_ref": "詩經·國風·唐風·004",
+          "source_page_or_anchor": "part-1 hOCR page 381; CTI AnoShih.html 1.10.117",
+          "review_note": "OCR sanity sweep corrected: rechecked part-1 hOCR p.381 against CTI AnoShih.html 1.10.117, restored the opening refrain line, and split the two verified stanzas for stanza-level export."
+        },
+        {
+          "section_id": "guofeng-qifeng-010",
+          "title": "載驅",
+          "canonical_ref": "詩經·國風·齊風·010",
+          "source_page_or_anchor": "part-1 hOCR pages 362-363; CTI AnoShih.html 1.8.105",
+          "review_note": "OCR sanity sweep corrected: rechecked part-1 hOCR pp.362-363 against CTI AnoShih.html 1.8.105 and restored the stanza-4 closing full stop after preserving only the verse lines."
+        },
+        {
+          "section_id": "xiaoya-nanyoujiayu-006",
+          "title": "蓼蕭",
+          "canonical_ref": "詩經·小雅·南有嘉魚之什·006",
+          "source_page_or_anchor": "part-2 hOCR pages 38-40; CTI AnoShih.html 2.2.173",
+          "review_note": "OCR sanity sweep corrected: rechecked part-2 hOCR pages 38-40 against CTI AnoShih.html 2.2.173, fixed the opening OCR slip, restored the missing stanza break, and split the four verified stanzas for export."
+        },
+        {
+          "section_id": "xiaoya-futian-006",
+          "title": "鴛鴦",
+          "canonical_ref": "詩經·小雅·甫田之什·006",
+          "source_page_or_anchor": "part-2 hOCR pages 152-154; CTI AnoShih.html 2.7.216",
+          "review_note": "OCR sanity sweep corrected: rechecked part-2 hOCR pages 152-154 against CTI AnoShih.html 2.7.216, restored the missing opening stanza, removed the following KUI BIAN carry-over, and split the four verified stanzas for export."
+        },
+        {
+          "section_id": "xiaoya-hongyan-006",
+          "title": "白駒",
+          "canonical_ref": "詩經·小雅·鴻鴈之什·006",
+          "source_page_or_anchor": "part-2 hOCR pages 63-65; CTI AnoShih.html 2.4.186",
+          "review_note": "OCR sanity sweep corrected: rechecked part-2 hOCR pages 63-65 against CTI AnoShih.html 2.4.186, removed the trailing DECADE OF K'E FOO heading, and split the four verified stanza blocks for export."
+        },
+        {
+          "section_id": "xiaoya-luming-001",
+          "title": "鹿鳴",
+          "canonical_ref": "詩經·小雅·鹿鳴之什·001",
+          "source_page_or_anchor": "part-2 hOCR pages 9-11; CTI AnoShih 2.1.161",
+          "review_note": "OCR sanity sweep corrected: restored the truncated final stanza after checking part-2 hOCR pages 9-11 against the public-domain CTI transcription for AnoShih 2.1.161, while retaining stanza-level alignment."
+        },
+        {
+          "section_id": "xiaoya-luming-003",
+          "title": "皇皇者華",
+          "canonical_ref": "詩經·小雅·鹿鳴之什·003",
+          "source_page_or_anchor": "part-2 hOCR pages 13-14; CTI AnoShih 2.1.163",
+          "review_note": "OCR sanity sweep corrected: replaced the lingering greyj OCR corruption after checking part-2 hOCR pages 13-14 against the public-domain CTI transcription for AnoShih 2.1.163, while retaining stanza-level alignment."
+        },
+        {
+          "section_id": "xiaoya-luming-004",
+          "title": "常棣",
+          "canonical_ref": "詩經·小雅·鹿鳴之什·004",
+          "source_page_or_anchor": "part-2 hOCR pages 14-17; CTI AnoShih 2.1.164",
+          "review_note": "OCR sanity sweep corrected: fixed the greatl)7 OCR corruption and restored the missing closing line after checking part-2 hOCR pages 14-17 against the public-domain CTI transcription for AnoShih 2.1.164, while retaining stanza-level alignment."
+        }
+      ],
+      "demoted_sections": [],
+      "ledger_backed_overrides": []
     },
     "skipped_current_witness_sections": [
       {
@@ -3738,7 +3862,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-003__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
-      "review_date": "2026-05-30",
+      "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-01-zhaonan",
       "ocr_sanity_overrides": [],
       "remaining_warnings": [],
@@ -3857,7 +3981,7 @@
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-zhaonan-005__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
-      "review_date": "2026-05-30",
+      "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-01-zhaonan",
       "ocr_sanity_overrides": [],
       "remaining_warnings": [],
@@ -8229,11 +8353,11 @@
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-1 hOCR pages 362-363",
+      "source_page_or_anchor": "part-1 hOCR pages 362-363; CTI AnoShih.html 1.8.105",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-qifeng-010__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
-      "review_date": "2026-05-30",
+      "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-05-zheng-qi-wei-tang",
       "ocr_sanity_overrides": [],
       "remaining_warnings": [],
@@ -8717,32 +8841,32 @@
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-1 hOCR page 381",
+      "source_page_or_anchor": "part-1 hOCR page 381; CTI AnoShih.html 1.10.117",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-tangfeng-004__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
-      "review_date": "2026-05-30",
+      "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-05-zheng-qi-wei-tang",
       "ocr_sanity_overrides": [],
       "remaining_warnings": [],
-      "exact_alignment_count": 1,
+      "exact_alignment_count": 2,
       "alignment_granularity_values": [
-        "poem"
+        "stanza"
       ],
-      "has_coarse_alignment": true,
-      "is_single_poem_alignment": true,
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
       "chinese_character_count": 56,
-      "english_character_count": 263,
-      "english_word_count": 56,
-      "chinese_stanza_count": 1,
-      "english_stanza_block_count": 3,
-      "english_to_chinese_length_ratio": 4.696428571428571,
+      "english_character_count": 264,
+      "english_word_count": 57,
+      "chinese_stanza_count": 2,
+      "english_stanza_block_count": 2,
+      "english_to_chinese_length_ratio": 4.714285714285714,
       "possible_commentary_leakage_markers": [],
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Reviewed the part-1 hOCR witness directly, restored the opening pepper-plant refrain, and split the two verified stanzas for stanza-level export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A4%92%E8%81%8A",
         "https://archive.org/details/chineseclassics41legg",
@@ -11218,9 +11342,9 @@
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 9-11",
+      "source_page_or_anchor": "part-2 hOCR pages 9-11; CTI AnoShih 2.1.161",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-001__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-001__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
       "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-07-guofeng-cleanup-xiaoya-start",
@@ -11233,17 +11357,17 @@
       "has_coarse_alignment": false,
       "is_single_poem_alignment": false,
       "chinese_character_count": 127,
-      "english_character_count": 622,
-      "english_word_count": 135,
+      "english_character_count": 858,
+      "english_word_count": 182,
       "chinese_stanza_count": 3,
       "english_stanza_block_count": 3,
-      "english_to_chinese_length_ratio": 4.897637795275591,
+      "english_to_chinese_length_ratio": 6.755905511811024,
       "possible_commentary_leakage_markers": [],
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and restored the truncated final stanza after checking the public-domain CTI transcription for 小雅·鹿鳴 (AnoShih 2.1.161).",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B9%BF%E9%B3%B4",
         "https://archive.org/details/chineseclassics42legg",
@@ -11279,9 +11403,9 @@
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 13-14",
+      "source_page_or_anchor": "part-2 hOCR pages 13-14; CTI AnoShih 2.1.163",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-003__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-003__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
       "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-07-guofeng-cleanup-xiaoya-start",
@@ -11304,7 +11428,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and corrected the closing OCR damage in the final stanza after checking the public-domain CTI transcription for 小雅·皇皇者華 (AnoShih 2.1.163).",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%9A%87%E7%9A%87%E8%80%85%E8%8F%AF",
         "https://archive.org/details/chineseclassics42legg",
@@ -11340,9 +11464,9 @@
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 14-17",
+      "source_page_or_anchor": "part-2 hOCR pages 14-17; CTI AnoShih 2.1.164",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-004__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-004__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
       "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-07-guofeng-cleanup-xiaoya-start",
@@ -11355,17 +11479,17 @@
       "has_coarse_alignment": false,
       "is_single_poem_alignment": false,
       "chinese_character_count": 161,
-      "english_character_count": 965,
-      "english_word_count": 209,
+      "english_character_count": 991,
+      "english_word_count": 214,
       "chinese_stanza_count": 8,
       "english_stanza_block_count": 8,
-      "english_to_chinese_length_ratio": 5.9937888198757765,
+      "english_to_chinese_length_ratio": 6.15527950310559,
       "possible_commentary_leakage_markers": [],
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly, corrected the obvious OCR corruption in stanza 2, and restored the missing closing line in stanza 8 after checking the public-domain CTI transcription for 小雅·常棣 (AnoShih 2.1.164).",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B8%B8%E6%A3%A3",
         "https://archive.org/details/chineseclassics42legg",
@@ -11697,32 +11821,32 @@
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 38-40",
+      "source_page_or_anchor": "part-2 hOCR pages 38-40; CTI AnoShih.html 2.2.173",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-006__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-006__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
       "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-07-guofeng-cleanup-xiaoya-start",
       "ocr_sanity_overrides": [],
       "remaining_warnings": [],
-      "exact_alignment_count": 1,
+      "exact_alignment_count": 4,
       "alignment_granularity_values": [
-        "poem"
+        "stanza"
       ],
-      "has_coarse_alignment": true,
-      "is_single_poem_alignment": true,
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
       "chinese_character_count": 122,
-      "english_character_count": 743,
+      "english_character_count": 745,
       "english_word_count": 168,
-      "chinese_stanza_count": 1,
-      "english_stanza_block_count": 3,
-      "english_to_chinese_length_ratio": 6.090163934426229,
+      "chinese_stanza_count": 4,
+      "english_stanza_block_count": 4,
+      "english_to_chinese_length_ratio": 6.10655737704918,
       "possible_commentary_leakage_markers": [],
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the four stanza blocks for 蓼蕭 from the public-domain witness after the reviewed hOCR export collapsed the final stanza break and left an obvious OCR slip in the opening dew line.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%93%BC%E8%95%AD",
         "https://archive.org/details/chineseclassics42legg",
@@ -11783,7 +11907,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B9%9B%E9%9C%B2",
         "https://archive.org/details/chineseclassics42legg",
@@ -11844,7 +11968,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%BD%A4%E5%BC%93",
         "https://archive.org/details/chineseclassics42legg",
@@ -11905,7 +12029,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8F%81%E8%8F%81%E8%80%85%E8%8E%AA",
         "https://archive.org/details/chineseclassics42legg",
@@ -11966,7 +12090,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BB%8A%E6%94%BB",
         "https://archive.org/details/chineseclassics42legg",
@@ -12027,7 +12151,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B4%BB%E9%B4%88",
         "https://archive.org/details/chineseclassics42legg",
@@ -12088,7 +12212,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%BA%AD%E7%87%8E",
         "https://archive.org/details/chineseclassics42legg",
@@ -12149,7 +12273,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B6%B4%E9%B3%B4",
         "https://archive.org/details/chineseclassics42legg",
@@ -12185,32 +12309,32 @@
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 63-65",
+      "source_page_or_anchor": "part-2 hOCR pages 63-65; CTI AnoShih.html 2.4.186",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-hongyan-006__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-hongyan-006__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
       "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-07-guofeng-cleanup-xiaoya-start",
       "ocr_sanity_overrides": [],
       "remaining_warnings": [],
-      "exact_alignment_count": 1,
+      "exact_alignment_count": 4,
       "alignment_granularity_values": [
-        "poem"
+        "stanza"
       ],
-      "has_coarse_alignment": true,
-      "is_single_poem_alignment": true,
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
       "chinese_character_count": 121,
-      "english_character_count": 707,
-      "english_word_count": 168,
-      "chinese_stanza_count": 1,
+      "english_character_count": 693,
+      "english_word_count": 164,
+      "chinese_stanza_count": 4,
       "english_stanza_block_count": 4,
-      "english_to_chinese_length_ratio": 5.8429752066115705,
+      "english_to_chinese_length_ratio": 5.7272727272727275,
       "possible_commentary_leakage_markers": [],
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the four stanza blocks for 白駒 from the public-domain witness after the reviewed hOCR export picked up a trailing subdivision heading.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%99%BD%E9%A7%92",
         "https://archive.org/details/chineseclassics42legg",
@@ -12271,7 +12395,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%88%91%E8%A1%8C%E5%85%B6%E9%87%8E",
         "https://archive.org/details/chineseclassics42legg",
@@ -13052,7 +13176,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%9B%9B%E6%9C%88",
         "https://archive.org/details/chineseclassics42legg",
@@ -13113,7 +13237,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%84%A1%E5%B0%87%E5%A4%A7%E8%BB%8A",
         "https://archive.org/details/chineseclassics42legg",
@@ -13472,7 +13596,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%9E%BB%E5%BD%BC%E6%B4%9B%E7%9F%A3",
         "https://archive.org/details/chineseclassics42legg",
@@ -13533,7 +13657,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%A3%B3%E8%A3%B3%E8%80%85%E8%8F%AF",
         "https://archive.org/details/chineseclassics42legg",
@@ -13627,32 +13751,32 @@
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 152-154",
+      "source_page_or_anchor": "part-2 hOCR pages 152-154; CTI AnoShih.html 2.7.216",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-006__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-006__legge-sheking-1871-ocr__segments.jsonl",
       "extraction_method": "reviewed_hocr_extraction",
       "review_date": "2026-05-31",
       "repair_batch": "2026-05-30-07-guofeng-cleanup-xiaoya-start",
       "ocr_sanity_overrides": [],
       "remaining_warnings": [],
-      "exact_alignment_count": 1,
+      "exact_alignment_count": 4,
       "alignment_granularity_values": [
-        "poem"
+        "stanza"
       ],
-      "has_coarse_alignment": true,
-      "is_single_poem_alignment": true,
+      "has_coarse_alignment": false,
+      "is_single_poem_alignment": false,
       "chinese_character_count": 80,
-      "english_character_count": 570,
-      "english_word_count": 127,
-      "chinese_stanza_count": 1,
+      "english_character_count": 536,
+      "english_word_count": 115,
+      "chinese_stanza_count": 4,
       "english_stanza_block_count": 4,
-      "english_to_chinese_length_ratio": 7.125,
+      "english_to_chinese_length_ratio": 6.7,
       "possible_commentary_leakage_markers": [],
       "contains_chinese_in_english_segment": false,
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
+      "review_note": "Recovered the four stanza blocks for 鴛鴦 from the public-domain witness after the reviewed hOCR export dropped the opening stanza and ran into the following KUI BIAN heading.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B4%9B%E9%B4%A6",
         "https://archive.org/details/chineseclassics42legg",
@@ -13713,7 +13837,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%A0%8D%E5%BC%81",
         "https://archive.org/details/chineseclassics42legg",
@@ -13778,7 +13902,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BB%8A%E8%88%9D",
         "https://archive.org/details/chineseclassics42legg",
@@ -13839,7 +13963,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9D%92%E8%A0%85",
         "https://archive.org/details/chineseclassics42legg",
@@ -13958,7 +14082,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%AD%9A%E8%97%BB",
         "https://archive.org/details/chineseclassics42legg",
@@ -14019,7 +14143,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E8%8F%BD",
         "https://archive.org/details/chineseclassics42legg",
@@ -14084,7 +14208,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%A7%92%E5%BC%93",
         "https://archive.org/details/chineseclassics42legg",
@@ -14145,7 +14269,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8F%80%E6%9F%B3",
         "https://archive.org/details/chineseclassics42legg",
@@ -14206,7 +14330,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E7%B6%A0",
         "https://archive.org/details/chineseclassics42legg",
@@ -14267,7 +14391,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9A%B0%E6%A1%91",
         "https://archive.org/details/chineseclassics42legg",
@@ -14386,7 +14510,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%93%A0%E8%91%89",
         "https://archive.org/details/chineseclassics42legg",
@@ -14447,7 +14571,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%BC%B8%E6%BC%B8%E4%B9%8B%E7%9F%B3",
         "https://archive.org/details/chineseclassics42legg",
@@ -14508,7 +14632,7 @@
       "contains_untranslated_chinese_title": false,
       "complete_but_needs_human_text_review": false,
       "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "source_urls": [
         "https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8B%95%E4%B9%8B%E8%8F%AF",
         "https://archive.org/details/chineseclassics42legg",

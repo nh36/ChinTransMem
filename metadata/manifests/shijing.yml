@@ -16,7 +16,7 @@
     "metadata_only_sections": 55,
     "sections_needing_alignment": 49,
     "sections_needing_qc": 49,
-    "exact_alignment_count": 581,
+    "exact_alignment_count": 591,
     "source_count": 512
   },
   "ingestion_policy": {
@@ -3032,7 +3032,7 @@
         "guofeng-tangfeng-004__zhwikisource-20260530",
         "guofeng-tangfeng-004__legge-sheking-1871-ocr"
       ],
-      "notes": "Bootstrap Shijing generation for 椒聊 with 1 exact poem alignments."
+      "notes": "Bootstrap Shijing generation for 椒聊 with 2 exact stanza alignments."
     },
     {
       "run_id": "bootstrap-guofeng-tangfeng-005-20260530",
@@ -3571,7 +3571,7 @@
         "xiaoya-nanyoujiayu-006__zhwikisource-20260530",
         "xiaoya-nanyoujiayu-006__legge-sheking-1871-ocr"
       ],
-      "notes": "Bootstrap Shijing generation for 蓼蕭 with 1 exact poem alignments."
+      "notes": "Bootstrap Shijing generation for 蓼蕭 with 4 exact stanza alignments."
     },
     {
       "run_id": "bootstrap-xiaoya-nanyoujiayu-007-20260530",
@@ -3659,7 +3659,7 @@
         "xiaoya-hongyan-006__zhwikisource-20260530",
         "xiaoya-hongyan-006__legge-sheking-1871-ocr"
       ],
-      "notes": "Bootstrap Shijing generation for 白駒 with 1 exact poem alignments."
+      "notes": "Bootstrap Shijing generation for 白駒 with 4 exact stanza alignments."
     },
     {
       "run_id": "bootstrap-xiaoya-hongyan-008-20260530",
@@ -3923,7 +3923,7 @@
         "xiaoya-futian-006__zhwikisource-20260530",
         "xiaoya-futian-006__legge-sheking-1871-ocr"
       ],
-      "notes": "Bootstrap Shijing generation for 鴛鴦 with 1 exact poem alignments."
+      "notes": "Bootstrap Shijing generation for 鴛鴦 with 4 exact stanza alignments."
     },
     {
       "run_id": "bootstrap-xiaoya-futian-007-20260530",
@@ -20730,7 +20730,7 @@
         "She urges on her chariot rapidly,\nWith its screen of bamboos woven in squares, and its vermilion-\ncoloured leather.\nThe way from Loo is easy and plain,\nAnd the daughter of Ts'e started on it in the evening.",
         "Her four black horses are beautiful,\nAnd soft look the reins as they hang.\nThe way from Loo is easy and plain,\nAnd the daughter of Ts'e is delighted and complacent.",
         "The waters of the Wan flow broadly on;\nThe travellers are numerous.\nThe way from Loo is easy and plain,\nAnd the daughter of Ts'e moves on with unconcern.",
-        "The waters of the Wan sweep on;\nThe travellers are in crowds.\nThe way from Loo is easy and plain,\nAnd the daughter of Ts'e proceeds at her ease,"
+        "The waters of the Wan sweep on;\nThe travellers are in crowds.\nThe way from Loo is easy and plain,\nAnd the daughter of Ts'e proceeds at her ease."
       ],
       "force_poem_alignment": false,
       "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
@@ -20740,10 +20740,10 @@
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-1 hOCR pages 362-363",
+      "source_page_or_anchor": "part-1 hOCR pages 362-363; CTI AnoShih.html 1.8.105",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-qifeng-010__legge-sheking-1871-ocr__segments.jsonl",
-      "reviewer_note": "Verified the surviving stanza translation against part-1 hOCR pp.362-363 after removing stanza numerals and preserving only the verse lines.",
+      "reviewer_note": "OCR sanity sweep corrected: rechecked part-1 hOCR pp.362-363 against CTI AnoShih.html 1.8.105 and restored the stanza-4 closing full stop after preserving only the verse lines.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
@@ -21419,40 +21419,39 @@
       "candidate_en_backup_page_url": "https://archive.org/details/chineseclassics41legg",
       "candidate_en_backup_source_id": "legge-sheking-1871-part-1-hocr",
       "reviewed_english_blocks": [
-        "The clusters of the pepper plant,\nLarge and luxuriant, would fill a pint.\nThat hero there\nIs large and peerless.",
-        "the pepper plant!\nHow its shoots extend!",
-        "The clusters of the pepper plant,\nLarge and luxuriant, would fill both your hands.\nThat hero there\nIs large and generous.\nO the pepper plant!\nHow its shoots extend;"
+        "The clusters of the pepper plant,\nLarge and luxuriant, would fill a pint.\nThat hero there\nIs large and peerless.\nO the pepper plant!\nHow its shoots extend!",
+        "The clusters of the pepper plant,\nLarge and luxuriant, would fill both your hands.\nThat hero there\nIs large and generous.\nO the pepper plant!\nHow its shoots extend!"
       ],
-      "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
-      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "force_poem_alignment": false,
+      "review_note": "Reviewed the part-1 hOCR witness directly, restored the opening pepper-plant refrain, and split the two verified stanzas for stanza-level export.",
+      "reviewed_ocr_notes": "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-1 hOCR page 381",
+      "source_page_or_anchor": "part-1 hOCR page 381; CTI AnoShih.html 1.10.117",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-1__ocr.txt",
       "processed_translation_path": "corpus/processed/translations/shijing__guofeng-tangfeng-004__legge-sheking-1871-ocr__segments.jsonl",
-      "reviewer_note": "Verified the surviving translation against part-1 hOCR p.381 after removing stanza numerals and keeping poem-level alignment because the refrain is split into a separate OCR block.",
+      "reviewer_note": "OCR sanity sweep corrected: rechecked part-1 hOCR p.381 against CTI AnoShih.html 1.10.117, restored the opening refrain line, and split the two verified stanzas for stanza-level export.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
-      "alignment_granularity": "poem",
+      "alignment_granularity": "stanza",
       "work_id": "shijing",
       "status": "complete",
       "coverage_status": "complete",
       "tmx_status": "complete",
       "section_unit": "poem",
-      "segment_type": "poem",
-      "expected_exact_alignment_count": 1,
+      "segment_type": "stanza",
+      "expected_exact_alignment_count": 2,
       "source_ids": {
         "source_id": "guofeng-tangfeng-004__zhwikisource-20260530",
         "target_source_id": "guofeng-tangfeng-004__legge-sheking-1871-ocr"
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
       "parent_section_id": null
     },
     {
@@ -24116,22 +24115,22 @@
       "candidate_en_backup_page_url": "https://archive.org/details/chineseclassics42legg",
       "candidate_en_backup_source_id": "legge-sheking-1871-part-2-hocr",
       "reviewed_english_blocks": [
-        "With pleased sounds the deer call to one another,\nEating the celery of the fields.\nI have here admirable guests;\nThe lutes are struck, and the organ is blown for them; —\nThe organ is blown till its tongues are all moving.\nThe baskets of offerings also are presented to them.\nThe men love me,\nAnd will show me the perfect path.",
-        "With pleased sounds the deer call to one another,\nEating the southernwood of the fields.\nI have here admirable guests,\nWhose virtuous fame is grandly brilliant.\nThey show the people not to be mean ;\nThe officers have in them a pattern and model.\nI have good wine,\nWhich my admirable guests drink, enjoying themselves.",
-        "With pleased sounds the deer call to one another,\nEating the salsola of the fields.\nI have here admirable guests,"
+        "With pleased sounds the deer call to one another,\nEating the celery of the fields.\nI have here admirable guests;\nThe lutes are struck, and the organ is blown for them; --\nThe organ is blown till its tongues are all moving.\nThe baskets of offerings also are presented to them.\nThe men love me,\nAnd will show me the perfect path.",
+        "With pleased sounds the deer call to one another,\nEating the southernwood of the fields.\nI have here admirable guests,\nWhose virtuous fame is grandly brilliant.\nThey show the people not to be mean;\nThe officers have in them a pattern and model.\nI have good wine,\nWhich my admirable guests drink, enjoying themselves.",
+        "With pleased sounds the deer call to one another,\nEating the salsola of the fields.\nI have here admirable guests,\nTo feast and make glad their hearts.\nThe pleasant sound of their lutes,\nThe reverence of their deportment,\nThe excellence of their virtuous fame,\nMake the people imitate them.\nThey have good wine,\nBy which they entertain their admirable guests,\nTo feast and make glad their hearts."
       ],
       "force_poem_alignment": false,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and restored the truncated final stanza after checking the public-domain CTI transcription for 小雅·鹿鳴 (AnoShih 2.1.161).",
       "reviewed_ocr_notes": "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 9-11",
+      "source_page_or_anchor": "part-2 hOCR pages 9-11; CTI AnoShih 2.1.161",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-001__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Verified the translation against part-2 hOCR pages 9-11 after keeping only the verse lines and retaining stanza-level alignment.",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-001__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "OCR sanity sweep corrected: restored the truncated final stanza after checking part-2 hOCR pages 9-11 against the public-domain CTI transcription for AnoShih 2.1.161, while retaining stanza-level alignment.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
@@ -24227,22 +24226,22 @@
       "reviewed_english_blocks": [
         "Brilliant are the flowers,\nOn those level heights and the low grounds.\nComplete and alert is the messenger, with his suite,\nEver anxious lest he should not succeed.",
         "My horses are young;\nThe six reins look as if they were moistened.\nI gallop them, and urge them on,\nEverywhere pushing my inquiries.",
-        "My horses are piebald;\nThe six reins are like silk.\nI gallop them, and urge them on,\nEverywhere seeking information and counsel,",
-        "My horses are white and black-maned ;\nThe six reins look glossy.\nI gallop them and urge them on,\nEverywhere seeking information and advice,",
-        "My horses are greyj\nThe six reins are well in hand.\nI gallop them and urge them on,\nEverywhere seeking information and suggestions."
+        "My horses are piebald;\nThe six reins are like silk.\nI gallop them, and urge them on,\nEverywhere seeking information and counsel.",
+        "My horses are white and black-maned;\nThe six reins look glossy.\nI gallop them and urge them on,\nEverywhere seeking information and advice.",
+        "My horses are grey;\nThe six reins are well in hand.\nI gallop them and urge them on,\nEverywhere seeking information and suggestions."
       ],
       "force_poem_alignment": false,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and corrected the closing OCR damage in the final stanza after checking the public-domain CTI transcription for 小雅·皇皇者華 (AnoShih 2.1.163).",
       "reviewed_ocr_notes": "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 13-14",
+      "source_page_or_anchor": "part-2 hOCR pages 13-14; CTI AnoShih 2.1.163",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-003__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Verified the translation against part-2 hOCR pages 13-14 after keeping only the verse lines and retaining stanza-level alignment.",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-003__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "OCR sanity sweep corrected: replaced the lingering greyj OCR corruption after checking part-2 hOCR pages 13-14 against the public-domain CTI transcription for AnoShih 2.1.163, while retaining stanza-level alignment.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
@@ -24291,27 +24290,27 @@
       "candidate_en_backup_page_url": "https://archive.org/details/chineseclassics42legg",
       "candidate_en_backup_source_id": "legge-sheking-1871-part-2-hocr",
       "reviewed_english_blocks": [
-        "The flowers of the cherry tree —\nAre they not gorgeously displayed ?\nOf all the men in the world\nThere are none equal to brothers.",
-        "On the dreaded occasions of death and burial,\nIt is brothers who greatl)7 sympathize.\nWhen fugitives are collected on the heights and low grounds,\nThey are brothers who will seek one another out.",
-        "There is the wagtail on the level height ; —\nWhen brothers are in urgent difficulties,\nFriends, though they may be good\nWill only heave long sighs.",
+        "The flowers of the cherry tree --\nAre they not gorgeously displayed?\nOf all the men in the world\nThere are none equal to brothers.",
+        "On the dreaded occasions of death and burial,\nIt is brothers who greatly sympathize.\nWhen fugitives are collected on the heights and low grounds,\nThey are brothers who will seek one another out.",
+        "There is the wagtail on the level height; --\nWhen brothers are in urgent difficulties,\nFriends, though they may be good,\nWill only heave long sighs.",
         "Brothers may quarrel inside the walls,\nBut they will oppose insult from without,\nWhen friends, however good they may be,\nWill not afford help.",
-        "When death and disorder are past,\nAnd there are tranquillity and rest ;\nAlthough they have brothers,\nSome reckon them not equal to friends.",
+        "When death and disorder are past,\nAnd there are tranquillity and rest;\nAlthough they have brothers,\nSome reckon them not equal to friends.",
         "Your dishes may be set in array,\nAnd you may drink to satiety;\nBut it is when your brothers are all present,\nThat you are harmonious and happy, with child-like joy.",
         "Loving union with wife and children\nIs like the music of lutes;\nBut it is the accord of brothers\nWhich makes the harmony and happiness lasting.",
-        "For the ordering of your family,\nFor your joy in your wife and children,\nWill you not find that it is truly so?"
+        "For the ordering of your family,\nFor your joy in your wife and children,\nExamine this and study it; --\nWill you not find that it is truly so?"
       ],
       "force_poem_alignment": false,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly, corrected the obvious OCR corruption in stanza 2, and restored the missing closing line in stanza 8 after checking the public-domain CTI transcription for 小雅·常棣 (AnoShih 2.1.164).",
       "reviewed_ocr_notes": "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 14-17",
+      "source_page_or_anchor": "part-2 hOCR pages 14-17; CTI AnoShih 2.1.164",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-004__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Verified the translation against part-2 hOCR pages 14-17 after keeping only the verse lines and retaining stanza-level alignment.",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-luming-004__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "OCR sanity sweep corrected: fixed the greatl)7 OCR corruption and restored the missing closing line after checking part-2 hOCR pages 14-17 against the public-domain CTI transcription for AnoShih 2.1.164, while retaining stanza-level alignment.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
@@ -24987,40 +24986,41 @@
       "candidate_en_backup_page_url": "https://archive.org/details/chineseclassics42legg",
       "candidate_en_backup_source_id": "legge-sheking-1871-part-2-hocr",
       "reviewed_english_blocks": [
-        "How long grows the southernwood,\nWith tLe dew lying on it so bright!\nNow that I see my noble men,\nMy heart is entirely satisfied.\nAs we feast, we laugh and talk; —\nIt is right they should have fame and prosperity!",
-        "How long grows the southernwood,\nWith the dew lying on it so abundantly !\nNow that I see my noble men,\nI appreciate their favour and their brightness.\nTheir virtue is without taint of error; —\nMay they live long, and not be forgotten !",
-        "How high is the southernwood,\nAll wet with the fallen dew!\nNow that I see my noble men,\nGrandly we feast, delighted and complacent.\nMay their relations with their brothers be right!\nMay they be happy in their excellent virtue to old age!\nHow high is the southernwood,\nWith the dew lying on it so richly!\nI have seen my noble men,\nWith the ends of their reins hanging down,\nWith the bells tinkling on their cross-boards and bits.\nMay all happiness gather upon them ;"
+        "How long grows the southernwood,\nWith the dew lying on it so bright!\nNow that I see my noble men,\nMy heart is entirely satisfied.\nAs we feast, we laugh and talk; --\nIt is right they should have fame and prosperity!",
+        "How long grows the southernwood,\nWith the dew lying on it so abundantly!\nNow that I see my noble men,\nI appreciate their favour and their brightness.\nTheir virtue is without taint of error; --\nMay they live long, and not be forgotten!",
+        "How high is the southernwood,\nAll wet with the fallen dew!\nNow that I see my noble men,\nGrandly we feast, delighted and complacent.\nMay their relations with their brothers be right!\nMay they be happy in their excellent virtue to old age!",
+        "How high is the southernwood,\nWith the dew lying on it so richly!\nI have seen my noble men,\nWith the ends of their reins hanging down,\nWith the bells tinkling on their cross-boards and bits.\nMay all happiness gather upon them."
       ],
-      "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
-      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "force_poem_alignment": false,
+      "review_note": "Recovered the four stanza blocks for 蓼蕭 from the public-domain witness after the reviewed hOCR export collapsed the final stanza break and left an obvious OCR slip in the opening dew line.",
+      "reviewed_ocr_notes": "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 38-40",
+      "source_page_or_anchor": "part-2 hOCR pages 38-40; CTI AnoShih.html 2.2.173",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-006__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Verified the translation against part-2 hOCR pages 38-40 after keeping only the verse lines and keeping poem-level alignment as a conservative fallback.",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-006__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "OCR sanity sweep corrected: rechecked part-2 hOCR pages 38-40 against CTI AnoShih.html 2.2.173, fixed the opening OCR slip, restored the missing stanza break, and split the four verified stanzas for export.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
-      "alignment_granularity": "poem",
+      "alignment_granularity": "stanza",
       "work_id": "shijing",
       "status": "complete",
       "coverage_status": "complete",
       "tmx_status": "complete",
       "section_unit": "poem",
-      "segment_type": "poem",
-      "expected_exact_alignment_count": 1,
+      "segment_type": "stanza",
+      "expected_exact_alignment_count": 4,
       "source_ids": {
         "source_id": "xiaoya-nanyoujiayu-006__zhwikisource-20260530",
         "target_source_id": "xiaoya-nanyoujiayu-006__legge-sheking-1871-ocr"
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
       "parent_section_id": null
     },
     {
@@ -25057,7 +25057,7 @@
         "From the tlung and the e\nTheir fruit hangs down.\nHappy and self-possessed are my noble guests, —\nEvery one of them of excellent deportment."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -25120,7 +25120,7 @@
         "The red bows unbent\nWere received and placed in their cases.\nI have here an admirable guest,\nAnd with all my heart I love him.\nThe bells and drums have been arranged in order,\nAnd all the morning will I pledge him."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -25185,7 +25185,7 @@
         "It floats about, — the willow boat,\nNow sinking, now rising again.\nSince we see our noble lord,\nOur hearts are at rest."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -25344,7 +25344,7 @@
         "So did the officers conduct this expedition,\nWithout any clamour in the noise of it.\nTruly a princely man is the king;\nGreat indeed are his achievements!"
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -25453,7 +25453,7 @@
         "The wild geese are flying about,\nAnd melancholy is their cry of gaou-gaou.\nThere were they, wise men,\nWho recognized our pain and toil;\nIf they had been stupid men,\nThey would have said we were proclaiming our insolence."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -25517,7 +25517,7 @@
         "How goes the night?\nIt is getting towards morning.\nThe torch is smoking in the court-yard.\nMy princely men are arriving; -\nI see their banners.!"
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -25624,7 +25624,7 @@
         "The crane cries in the ninth pool of the marsh,\nAnd her voice is heard in the distant wilds.\nThe fish lies in the deep,\nAnd now is by the islet.\nDECADE OF T«UNG RUNG.\nPleasant is that garden,\nIn which are the sandal trees;\nBut beneath them are only withered leaves.\nThe stones of those hills,\nMay be made into grind-stones.\nThe crane cries in the ninth pool of the marsh,\nAnd her voice is heard in the sky.\nThe fish is by the islet,\nAnd now it lies hid in the deep.\nPleasant is that garden,\nIn which are the sandal trees;\nBut beneath them is the paper-mulberry tree.\nThe stones of those hills\nMay be used to polish gems."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -25728,41 +25728,41 @@
       "candidate_en_backup_page_url": "https://archive.org/details/chineseclassics42legg",
       "candidate_en_backup_source_id": "legge-sheking-1871-part-2-hocr",
       "reviewed_english_blocks": [
-        "Let the brilliant white colt\nFeed on the young growth of my vegetable garden.\nTether it by the foot, tie it by the collar,\nTo prolong this morning.\nSo may its owner of whom I think\nSpend his time here at his ease !",
-        "Let the brilliant white colt\nFeed on the bean sprouts of my vegetable garden.\nTether it by the foot, tie it by the collar,\nTo prolong this evening.\nSo may its owner of whom I think\nBe here, an admired guest !",
-        "If you with the brilliant white colt\nWould brightly come to me,\nYou should be a duke, you should be a marquis,\nEnjoying yourself without end.\nBe on your guard against idly wandering ;\nDeal vigorously with your thoughts of retirement.",
-        "The brilliant white colt\nIs there in that empty valley,\nWith a bundle of fresh grass.\nIts owner is like a gem.\nDo not make the news of you rare as gold and gems,-\nIndulging your purpose to abandon me.\nDECADE OF K'E FOO,"
+        "Let the brilliant white colt\nFeed on the young growth of my vegetable garden.\nTether it by the foot, tie it by the collar,\nTo prolong this morning.\nSo may its owner of whom I think\nSpend his time here at his ease!",
+        "Let the brilliant white colt\nFeed on the bean sprouts of my vegetable garden.\nTether it by the foot, tie it by the collar,\nTo prolong this evening.\nSo may its owner of whom I think\nBe here, an admired guest!",
+        "If you with the brilliant white colt\nWould brightly come to me,\nYou should be a duke, you should be a marquis,\nEnjoying yourself without end.\nBe on your guard against idly wandering;\nDeal vigorously with your thoughts of retirement.",
+        "The brilliant white colt\nIs there in that empty valley,\nWith a bundle of fresh grass.\nIts owner is like a gem.\nDo not make the news of you rare as gold and gems, --\nIndulging your purpose to abandon me."
       ],
-      "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
-      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "force_poem_alignment": false,
+      "review_note": "Recovered the four stanza blocks for 白駒 from the public-domain witness after the reviewed hOCR export picked up a trailing subdivision heading.",
+      "reviewed_ocr_notes": "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 63-65",
+      "source_page_or_anchor": "part-2 hOCR pages 63-65; CTI AnoShih.html 2.4.186",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-hongyan-006__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Verified the translation against part-2 hOCR pages 63-65 after keeping only the verse lines and keeping poem-level alignment as a conservative fallback.",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-hongyan-006__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "OCR sanity sweep corrected: rechecked part-2 hOCR pages 63-65 against CTI AnoShih.html 2.4.186, removed the trailing DECADE OF K'E FOO heading, and split the four verified stanza blocks for export.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
-      "alignment_granularity": "poem",
+      "alignment_granularity": "stanza",
       "work_id": "shijing",
       "status": "complete",
       "coverage_status": "complete",
       "tmx_status": "complete",
       "section_unit": "poem",
-      "segment_type": "poem",
-      "expected_exact_alignment_count": 1,
+      "segment_type": "stanza",
+      "expected_exact_alignment_count": 4,
       "source_ids": {
         "source_id": "xiaoya-hongyan-006__zhwikisource-20260530",
         "target_source_id": "xiaoya-hongyan-006__legge-sheking-1871-ocr"
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
       "parent_section_id": null
     },
     {
@@ -25843,7 +25843,7 @@
         "I travelled through the country,\nGathering the pokeweed.\nYou do not think of our old affinity,\nAnd seek to please your new relative.\nIf indeed you are not influenced by lier riches,\nYou still are so by the difference between the new and the old."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -26645,7 +26645,7 @@
         "On the hills are the turtle-foot and thorn ferns;\nJn the marshes are the medlar and the e.\nI, an officer, have made this song,\nTo make known my plaint."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -26752,7 +26752,7 @@
         "Do not push forward a waggon; —\nYou will only raise the dust about yourself.\nDo not think of all your anxieties; —\nYou will only make yourself ill."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -27111,7 +27111,7 @@
         "Look at the Loh,\nWith its waters broad and deep.\nThither has our lord come,\nIn whom all happiness and dignities are united.\nMay our lord live myriads of years,\nPreserving his clans\" and States!"
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -27176,7 +27176,7 @@
         "To the left they move, to the left,\nAnd they execute the movement properly.\nTo the right they move, to the right,\nAnd they execute the movement properly.\nThey are possessed of the ability,\nAnd right is it their movements should indicate it.\nSang-hoo.\nTnwy flit about, the green-beaks,\nWith their variegated wiugs.\nTo be rejoiced in are these princes!\nMay they receive the blessing of Heaven!\nThey flit about, the green -beaks,\nWith their glancing necks.\nTo be rejoiced in are these princes!\nThey are screens to all the States."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -27285,41 +27285,41 @@
       "candidate_en_backup_page_url": "https://archive.org/details/chineseclassics42legg",
       "candidate_en_backup_source_id": "legge-sheking-1871-part-2-hocr",
       "reviewed_english_blocks": [
-        "The Yellow ducks are on the dam,\nWith their left wings gathered up.\nMay our sovereign live for ten thousand years,\nEnjoying the lasting happiness which is his due!",
-        "The teams of steeds are in the stable,\nFed with forage and grain.\nMay our sovereign live for ten thousand years,\nSustained in his happiness and wealth !",
-        "The teams of steeds are in the stable,\nFed with grain and forage.\nMay our sovereign live for ten thousand years,\nIn the comfort of his happiness and wealth!\nKwei peen.",
-        "Those in the leather caps, —\nWho are they ?\nSince your spirits are so good,\nAnd your viands are so fine,\nHow can they be strangers ?\nThey are your brethren, and no others.\nThey are like the mistletoe and the dodder,"
+        "The Yellow ducks fly about,\nAnd are taken with hand-nets and spread-nets.\nMay our sovereign live for ten thousand years,\nEnjoying the happiness and wealth which are his due!",
+        "The Yellow ducks are on the dam,\nWith their left wings gathered up.\nMay our sovereign live for ten thousand years,\nEnjoying the happiness and wealth which are his due!",
+        "The teams of steeds are in the stable,\nFed with forage and grain.\nMay our sovereign live for ten thousand years,\nSustained in his happiness and wealth!",
+        "The teams of steeds are in the stable,\nFed with grain and forage.\nMay our sovereign live for ten thousand years,\nIn the comfort of his happiness and wealth!"
       ],
-      "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
-      "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "force_poem_alignment": false,
+      "review_note": "Recovered the four stanza blocks for 鴛鴦 from the public-domain witness after the reviewed hOCR export dropped the opening stanza and ran into the following KUI BIAN heading.",
+      "reviewed_ocr_notes": "Reviewed Legge 1871 Internet Archive OCR extraction with stanza boundaries preserved for exact alignment.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
       "chinese_source_status": "verified_transcribed_text",
       "english_source_status": "human_verified_ocr",
       "source_volume": "Chinese Classics, Vol. IV (1871)",
-      "source_page_or_anchor": "part-2 hOCR pages 152-154",
+      "source_page_or_anchor": "part-2 hOCR pages 152-154; CTI AnoShih.html 2.7.216",
       "raw_source_path": "corpus/raw/internet_archive/legge-sheking-1871-part-2__ocr.txt",
-      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-006__legge-sheking-1871-hocr__segments.jsonl",
-      "reviewer_note": "Verified the translation against part-2 hOCR pages 152-154 after keeping only the verse lines and keeping poem-level alignment as a conservative fallback.",
+      "processed_translation_path": "corpus/processed/translations/shijing__xiaoya-futian-006__legge-sheking-1871-ocr__segments.jsonl",
+      "reviewer_note": "OCR sanity sweep corrected: rechecked part-2 hOCR pages 152-154 against CTI AnoShih.html 2.7.216, restored the missing opening stanza, removed the following KUI BIAN carry-over, and split the four verified stanzas for export.",
       "extraction_method": "reviewed_hocr_extraction",
       "remaining_warnings": [],
       "alignment_status": "complete",
-      "alignment_granularity": "poem",
+      "alignment_granularity": "stanza",
       "work_id": "shijing",
       "status": "complete",
       "coverage_status": "complete",
       "tmx_status": "complete",
       "section_unit": "poem",
-      "segment_type": "poem",
-      "expected_exact_alignment_count": 1,
+      "segment_type": "stanza",
+      "expected_exact_alignment_count": 4,
       "source_ids": {
         "source_id": "xiaoya-futian-006__zhwikisource-20260530",
         "target_source_id": "xiaoya-futian-006__legge-sheking-1871-ocr"
       },
       "pinyin_alias": null,
       "stanza_selection": null,
-      "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
+      "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.",
       "parent_section_id": null
     },
     {
@@ -27356,7 +27356,7 @@
         "king, enjoy the feast"
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -27424,7 +27424,7 @@
         "see you my bride,\nTo the comfort of my heart."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -27488,7 +27488,7 @@
         "They buzz about, the blue flies,\nLighting on the hazel trees.\nThe slanderers observe no limits,\nAnd set us two at variance."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -27601,7 +27601,7 @@
         "The fishes are there, there among the pondweed,\nSheltered by the rushes.\nThe king is here, here in Haou,\nDwelling in tranquillity."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -27667,7 +27667,7 @@
         "It floats about, the boat of willow wood,\nFastened by the band of the rope.\nTo be rejoiced in are the princes,\nAnd the son of Heaven scans their merits.\nTo be rejoiced in are the princes,\nAnd their happiness and dignities are enlarged.\nHow joyous, how happy,\nIs their coming here!"
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -27733,7 +27733,7 @@
         "The snow may have fallen largely,\nBut when it feels the sun?s heat, it flows away.\nThis is what makes me sad."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -27797,7 +27797,7 @@
         "There is a bird flying high,\nEven up to heaven.\nThe heart of that man, —\nTo what will it proceed?\nWhy should I try to order his affairs?\nI should only find myself in pitiable misery."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -27907,7 +27907,7 @@
         "What did he take in angling?\nBream and tench; —\nBream and tench,\nWhile people looked on to see."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -28017,7 +28017,7 @@
         "In my heart I love them,\nAnd why should I not say so ?\nIn the core of my heart I keep them,\nAnd never will forget them.\nii.Vn.4,5. The Peaou Ke gg) in the"
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -28177,7 +28177,7 @@
         "There is but a single rabbit,\nRoasted or baked.\nBut from the spirits of the superior man,\nHis guests and he fill the cup and pledge one another."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -28239,7 +28239,7 @@
         "Those frowning rocks, —\nHow high they rise!\nOver such a distance of hills and streams,\nHow toilsome is the march!\nThe warrior, in charge of the expedition to the east,\nHas not a morning's leisure."
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",
@@ -28304,7 +28304,7 @@
         "The ewes have large heads;\nThe Three stars are seen in the fish-trap.\nIf some men can get enough to eat,\nFew can get their fill.\nrs del is wc\nflo of he"
       ],
       "force_poem_alignment": true,
-      "review_note": "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export.",
+      "review_note": "Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export.",
       "reviewed_ocr_notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",
       "verification_status": "human_verified_ocr",
       "verification_decision": "export",

@@ -1356,7 +1356,7 @@
     "label": "椒聊",
     "canonical_ref": "詩經·國風·唐風·004",
     "sort_key": 117,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "guofeng-tangfeng-005",
@@ -1914,7 +1914,7 @@
     "label": "蓼蕭",
     "canonical_ref": "詩經·小雅·南有嘉魚之什·006",
     "sort_key": 179,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-nanyoujiayu-007",
@@ -2031,7 +2031,7 @@
     "label": "白駒",
     "canonical_ref": "詩經·小雅·鴻鴈之什·006",
     "sort_key": 192,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-hongyan-007",
@@ -2301,7 +2301,7 @@
     "label": "鴛鴦",
     "canonical_ref": "詩經·小雅·甫田之什·006",
     "sort_key": 222,
-    "notes": "Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer."
+    "notes": "Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks."
   },
   {
     "section_id": "xiaoya-futian-007",

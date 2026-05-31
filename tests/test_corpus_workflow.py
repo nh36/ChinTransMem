@@ -493,6 +493,17 @@ class CorpusWorkflowTest(unittest.TestCase):
             quality_report["progress"]["ocr_sanity_sweep"]["flagged_sections"],
             quality_report["summary"]["sections_with_suspicious_ocr_artifacts"],
         )
+        self.assertIn("regression_examples", quality_report["progress"]["ocr_sanity_sweep"])
+        self.assertIn("corrected_sections", quality_report["progress"]["ocr_sanity_sweep"])
+        self.assertIn("demoted_sections", quality_report["progress"]["ocr_sanity_sweep"])
+        self.assertIn("ledger_backed_overrides", quality_report["progress"]["ocr_sanity_sweep"])
+        corrected_section_ids = {
+            section["section_id"] for section in quality_report["progress"]["ocr_sanity_sweep"]["corrected_sections"]
+        }
+        self.assertTrue(
+            {"xiaoya-luming-001", "xiaoya-luming-003", "xiaoya-luming-004"} <= corrected_section_ids
+        )
+        self.assertIn("remaining_queue_category_counts", quality_report["progress"])
         skipped_current_witness_sections = quality_report["progress"]["skipped_current_witness_sections"]
         self.assertTrue(skipped_current_witness_sections)
         self.assertTrue(
@@ -567,12 +578,17 @@ class CorpusWorkflowTest(unittest.TestCase):
             "## Current batch summary",
             "## Newly repaired in current batch",
             "## Previous OCR repair batches",
+            "## OCR sanity tests added",
+            "## Current OCR sweep result",
+            "## Sections corrected in this pass",
+            "## Sections moved back to non-exportable in this pass",
+            "## Ledger-backed OCR overrides",
+            "## Remaining unresolved sections by category",
             "## Remaining Guofeng items",
             "## Remaining Xiaoya items",
             "## Remaining Daya/Song items",
             "## Known unrecoverable cases",
             "## Cases needing a better witness",
-            "## OCR sanity sweep results",
         ):
             self.assertIn(heading, quality_markdown)
 

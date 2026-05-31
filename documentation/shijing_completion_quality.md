@@ -9,11 +9,11 @@ This report complements the structural preflight checks with verification-ledger
 | complete_sections | 256 |
 | metadata_only_sections | 55 |
 | non_exportable_extant_sections | 49 |
-| exact_alignment_count | 581 |
+| exact_alignment_count | 591 |
 | ocr_or_fulltext_derived_sections | 153 |
 | sections_needing_human_text_review | 0 |
-| sections_with_coarse_alignment | 88 |
-| sections_with_single_poem_alignment | 95 |
+| sections_with_coarse_alignment | 84 |
+| sections_with_single_poem_alignment | 91 |
 | sections_with_extreme_length_ratio | 0 |
 | sections_with_possible_commentary_leakage | 0 |
 | sections_with_suspicious_ocr_artifacts | 0 |
@@ -88,6 +88,70 @@ This report complements the structural preflight checks with verification-ledger
 | 2026-05-30-05-zheng-qi-wei-tang | 34 | 34 | 0 |
 | 2026-05-30-06-chen-qin-binfeng-cao-kuai-leftovers | 29 | 29 | 0 |
 | pre-batch verified | 20 | 20 | 0 |
+
+## OCR sanity tests added
+
+| Sample pattern | Detector |
+| --- | --- |
+| 0 Chung | zero_vocative_confusion |
+| m}r | brace_artifact |
+| \vill | backslash_artifact |
+| Ts4ing | digit_letter_confusion |
+| Cho'v | apostrophe_vw_artifact |
+| Ho'v | apostrophe_vw_artifact |
+| Wliere | tli_wli_artifact |
+| tliey | tli_wli_artifact |
+| coiifure | double_i_artifact |
+| silk7 | digit_letter_confusion |
+| Ae^-stone | caret_artifact |
+| greatl)7 | paren_digit_intraword_artifact |
+| greyj | trailing_j_artifact |
+| I have here admirable guests, | terminal_truncation_punctuation |
+
+## Current OCR sweep result
+
+| Metric | Count |
+| --- | ---: |
+| checked_exportable_ocr_sections | 153 |
+| flagged_sections | 0 |
+
+| Section | Title | Canonical ref | Artifact markers | Matches |
+| --- | --- | --- | --- | --- |
+| — | — | — | — | — |
+
+## Sections corrected in this pass
+
+| Section | Title | Canonical ref | Source anchor | Note |
+| --- | --- | --- | --- | --- |
+| guofeng-tangfeng-004 | 椒聊 | 詩經·國風·唐風·004 | part-1 hOCR page 381; CTI AnoShih.html 1.10.117 | OCR sanity sweep corrected: rechecked part-1 hOCR p.381 against CTI AnoShih.html 1.10.117, restored the opening refrain line, and split the two verified stanzas for stanza-level export. |
+| guofeng-qifeng-010 | 載驅 | 詩經·國風·齊風·010 | part-1 hOCR pages 362-363; CTI AnoShih.html 1.8.105 | OCR sanity sweep corrected: rechecked part-1 hOCR pp.362-363 against CTI AnoShih.html 1.8.105 and restored the stanza-4 closing full stop after preserving only the verse lines. |
+| xiaoya-nanyoujiayu-006 | 蓼蕭 | 詩經·小雅·南有嘉魚之什·006 | part-2 hOCR pages 38-40; CTI AnoShih.html 2.2.173 | OCR sanity sweep corrected: rechecked part-2 hOCR pages 38-40 against CTI AnoShih.html 2.2.173, fixed the opening OCR slip, restored the missing stanza break, and split the four verified stanzas for export. |
+| xiaoya-futian-006 | 鴛鴦 | 詩經·小雅·甫田之什·006 | part-2 hOCR pages 152-154; CTI AnoShih.html 2.7.216 | OCR sanity sweep corrected: rechecked part-2 hOCR pages 152-154 against CTI AnoShih.html 2.7.216, restored the missing opening stanza, removed the following KUI BIAN carry-over, and split the four verified stanzas for export. |
+| xiaoya-hongyan-006 | 白駒 | 詩經·小雅·鴻鴈之什·006 | part-2 hOCR pages 63-65; CTI AnoShih.html 2.4.186 | OCR sanity sweep corrected: rechecked part-2 hOCR pages 63-65 against CTI AnoShih.html 2.4.186, removed the trailing DECADE OF K'E FOO heading, and split the four verified stanza blocks for export. |
+| xiaoya-luming-001 | 鹿鳴 | 詩經·小雅·鹿鳴之什·001 | part-2 hOCR pages 9-11; CTI AnoShih 2.1.161 | OCR sanity sweep corrected: restored the truncated final stanza after checking part-2 hOCR pages 9-11 against the public-domain CTI transcription for AnoShih 2.1.161, while retaining stanza-level alignment. |
+| xiaoya-luming-003 | 皇皇者華 | 詩經·小雅·鹿鳴之什·003 | part-2 hOCR pages 13-14; CTI AnoShih 2.1.163 | OCR sanity sweep corrected: replaced the lingering greyj OCR corruption after checking part-2 hOCR pages 13-14 against the public-domain CTI transcription for AnoShih 2.1.163, while retaining stanza-level alignment. |
+| xiaoya-luming-004 | 常棣 | 詩經·小雅·鹿鳴之什·004 | part-2 hOCR pages 14-17; CTI AnoShih 2.1.164 | OCR sanity sweep corrected: fixed the greatl)7 OCR corruption and restored the missing closing line after checking part-2 hOCR pages 14-17 against the public-domain CTI transcription for AnoShih 2.1.164, while retaining stanza-level alignment. |
+
+## Sections moved back to non-exportable in this pass
+
+| Section | Title | Canonical ref | Source anchor | Note |
+| --- | --- | --- | --- | --- |
+| — | — | — | — | — |
+
+## Ledger-backed OCR overrides
+
+| Section | Title | Canonical ref | Source anchor | Override matches |
+| --- | --- | --- | --- | --- |
+| — | — | — | — | — |
+
+## Remaining unresolved sections by category
+
+| Metric | Count |
+| --- | ---: |
+| Not yet investigated in detail | 24 |
+| Needs better witness | 19 |
+| Likely repairable now | 4 |
+| Known unrecoverable with current witness | 2 |
 
 ## Remaining repair queue by subdivision
 
@@ -257,17 +321,6 @@ This report complements the structural preflight checks with verification-ledger
 | guofeng-weifeng-state-006 | 伐檀 | 詩經·國風·魏風·006 | Needs better witness | Checked part-1 hOCR pp.371-373. The second stanza breaks off at the page edge and the remaining witness does not preserve a clean continuation, so the poem stays non-exportable. |
 | guofeng-qifeng-003 | 著 | 詩經·國風·齊風·003 | Needs better witness | Checked part-1 hOCR pp.354-355. The key gem-name lines are OCR-corrupt in every stanza, so the translation cannot be normalized confidently from this witness alone. |
 | xiaoya-yuzao-014 | 何草不黃 | 詩經·小雅·魚藻之什·014 | Needs better witness | Public-domain witness located, but the English text is contaminated by an adjacent division heading and OCR debris, so it remains non-exportable. |
-
-## OCR sanity sweep results
-
-| Metric | Count |
-| --- | ---: |
-| checked_exportable_ocr_sections | 153 |
-| flagged_sections | 0 |
-
-| Section | Title | Canonical ref | Artifact markers | Matches |
-| --- | --- | --- | --- | --- |
-| — | — | — | — | — |
 
 
 ## Witness mix

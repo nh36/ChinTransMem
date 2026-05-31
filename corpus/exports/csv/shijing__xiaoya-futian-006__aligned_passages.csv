@@ -1,27 +1,17 @@
 alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-shijing__xiaoya-futian-006__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-futian-006,poem,poem,poem,True,Whole-poem fallback because Chinese and English stanza structures do not align safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·甫田之什·006.1,"鴛鴦于飛，畢之羅之。君子萬年，福祿宜之。
-鴛鴦在梁，戢其左翼。君子萬年，宜其遐福。
-乘馬在廏，摧之秣之。君子萬年，福祿艾之。
-乘馬在廏，秣之摧之。君子萬年，福祿綏之。",鴛鴦.1,"The Yellow ducks are on the dam,
+shijing__xiaoya-futian-006__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-futian-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·甫田之什·006.1,鴛鴦于飛，畢之羅之。君子萬年，福祿宜之。,鴛鴦.1,"The Yellow ducks fly about,
+And are taken with hand-nets and spread-nets.
+May our sovereign live for ten thousand years,
+Enjoying the happiness and wealth which are his due!"
+shijing__xiaoya-futian-006__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-futian-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·甫田之什·006.2,鴛鴦在梁，戢其左翼。君子萬年，宜其遐福。,鴛鴦.2,"The Yellow ducks are on the dam,
 With their left wings gathered up.
 May our sovereign live for ten thousand years,
-Enjoying the lasting happiness which is his due!
-
-The teams of steeds are in the stable,
+Enjoying the happiness and wealth which are his due!"
+shijing__xiaoya-futian-006__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-futian-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·甫田之什·006.3,乘馬在廏，摧之秣之。君子萬年，福祿艾之。,鴛鴦.3,"The teams of steeds are in the stable,
 Fed with forage and grain.
 May our sovereign live for ten thousand years,
-Sustained in his happiness and wealth !
-
-The teams of steeds are in the stable,
+Sustained in his happiness and wealth!"
+shijing__xiaoya-futian-006__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-futian-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·小雅·甫田之什·006.4,乘馬在廏，秣之摧之。君子萬年，福祿綏之。,鴛鴦.4,"The teams of steeds are in the stable,
 Fed with grain and forage.
 May our sovereign live for ten thousand years,
-In the comfort of his happiness and wealth!
-Kwei peen.
-
-Those in the leather caps, —
-Who are they ?
-Since your spirits are so good,
-And your viands are so fine,
-How can they be strangers ?
-They are your brethren, and no others.
-They are like the mistletoe and the dodder,"
+In the comfort of his happiness and wealth!"

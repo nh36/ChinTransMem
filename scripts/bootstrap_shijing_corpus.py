@@ -2763,8 +2763,29 @@ AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
             "And the daughter of Tsce is delighted and complacent.": "And the daughter of Ts'e is delighted and complacent.",
             "And the daughter of Ts4e moves on with unconcern.": "And the daughter of Ts'e moves on with unconcern.",
             "And the daughter of Ts^e moves on with unconcern.": "And the daughter of Ts'e moves on with unconcern.",
-            "And the daughter of Ts^e proceeds at her ease,": "And the daughter of Ts'e proceeds at her ease,",
+            "And the daughter of Ts^e proceeds at her ease,": "And the daughter of Ts'e proceeds at her ease.",
         },
+    },
+    117: {
+        "review_note": (
+            "Reviewed the part-1 hOCR witness directly, restored the opening pepper-plant refrain, and split the two "
+            "verified stanzas for stanza-level export."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "The clusters of the pepper plant,\n"
+            "Large and luxuriant, would fill a pint.\n"
+            "That hero there\n"
+            "Is large and peerless.\n"
+            "O the pepper plant!\n"
+            "How its shoots extend!",
+            "The clusters of the pepper plant,\n"
+            "Large and luxuriant, would fill both your hands.\n"
+            "That hero there\n"
+            "Is large and generous.\n"
+            "O the pepper plant!\n"
+            "How its shoots extend!",
+        ],
     },
     126: {
         "line_replacements": {
@@ -2821,6 +2842,201 @@ AUTO_REVIEWED_LEGGE_OCR_OVERRIDES: dict[int, dict[str, Any]] = {
     152: {
         "drop_lines": ["IV. Hea ts^euen. ,"],
         "review_note": "Reviewed the part-1 hOCR witness directly and removed the following 下泉 title from the final stanza block.",
+    },
+    161: {
+        "english_blocks": [
+            "With pleased sounds the deer call to one another,\n"
+            "Eating the celery of the fields.\n"
+            "I have here admirable guests;\n"
+            "The lutes are struck, and the organ is blown for them; --\n"
+            "The organ is blown till its tongues are all moving.\n"
+            "The baskets of offerings also are presented to them.\n"
+            "The men love me,\n"
+            "And will show me the perfect path.",
+            "With pleased sounds the deer call to one another,\n"
+            "Eating the southernwood of the fields.\n"
+            "I have here admirable guests,\n"
+            "Whose virtuous fame is grandly brilliant.\n"
+            "They show the people not to be mean;\n"
+            "The officers have in them a pattern and model.\n"
+            "I have good wine,\n"
+            "Which my admirable guests drink, enjoying themselves.",
+            "With pleased sounds the deer call to one another,\n"
+            "Eating the salsola of the fields.\n"
+            "I have here admirable guests,\n"
+            "To feast and make glad their hearts.\n"
+            "The pleasant sound of their lutes,\n"
+            "The reverence of their deportment,\n"
+            "The excellence of their virtuous fame,\n"
+            "Make the people imitate them.\n"
+            "They have good wine,\n"
+            "By which they entertain their admirable guests,\n"
+            "To feast and make glad their hearts.",
+        ],
+        "review_note": (
+            "Reviewed the part-2 hOCR witness directly and restored the truncated final stanza after checking the "
+            "public-domain CTI transcription for 小雅·鹿鳴 (AnoShih 2.1.161)."
+        ),
+    },
+    163: {
+        "english_blocks": [
+            "Brilliant are the flowers,\n"
+            "On those level heights and the low grounds.\n"
+            "Complete and alert is the messenger, with his suite,\n"
+            "Ever anxious lest he should not succeed.",
+            "My horses are young;\n"
+            "The six reins look as if they were moistened.\n"
+            "I gallop them, and urge them on,\n"
+            "Everywhere pushing my inquiries.",
+            "My horses are piebald;\n"
+            "The six reins are like silk.\n"
+            "I gallop them, and urge them on,\n"
+            "Everywhere seeking information and counsel.",
+            "My horses are white and black-maned;\n"
+            "The six reins look glossy.\n"
+            "I gallop them and urge them on,\n"
+            "Everywhere seeking information and advice.",
+            "My horses are grey;\n"
+            "The six reins are well in hand.\n"
+            "I gallop them and urge them on,\n"
+            "Everywhere seeking information and suggestions.",
+        ],
+        "review_note": (
+            "Reviewed the part-2 hOCR witness directly and corrected the closing OCR damage in the final stanza after "
+            "checking the public-domain CTI transcription for 小雅·皇皇者華 (AnoShih 2.1.163)."
+        ),
+    },
+    164: {
+        "english_blocks": [
+            "The flowers of the cherry tree --\n"
+            "Are they not gorgeously displayed?\n"
+            "Of all the men in the world\n"
+            "There are none equal to brothers.",
+            "On the dreaded occasions of death and burial,\n"
+            "It is brothers who greatly sympathize.\n"
+            "When fugitives are collected on the heights and low grounds,\n"
+            "They are brothers who will seek one another out.",
+            "There is the wagtail on the level height; --\n"
+            "When brothers are in urgent difficulties,\n"
+            "Friends, though they may be good,\n"
+            "Will only heave long sighs.",
+            "Brothers may quarrel inside the walls,\n"
+            "But they will oppose insult from without,\n"
+            "When friends, however good they may be,\n"
+            "Will not afford help.",
+            "When death and disorder are past,\n"
+            "And there are tranquillity and rest;\n"
+            "Although they have brothers,\n"
+            "Some reckon them not equal to friends.",
+            "Your dishes may be set in array,\n"
+            "And you may drink to satiety;\n"
+            "But it is when your brothers are all present,\n"
+            "That you are harmonious and happy, with child-like joy.",
+            "Loving union with wife and children\n"
+            "Is like the music of lutes;\n"
+            "But it is the accord of brothers\n"
+            "Which makes the harmony and happiness lasting.",
+            "For the ordering of your family,\n"
+            "For your joy in your wife and children,\n"
+            "Examine this and study it; --\n"
+            "Will you not find that it is truly so?",
+        ],
+        "review_note": (
+            "Reviewed the part-2 hOCR witness directly, corrected the obvious OCR corruption in stanza 2, and restored "
+            "the missing closing line in stanza 8 after checking the public-domain CTI transcription for 小雅·常棣 "
+            "(AnoShih 2.1.164)."
+        ),
+    },
+    179: {
+        "review_note": (
+            "Recovered the four stanza blocks for 蓼蕭 from the public-domain witness after the reviewed hOCR export "
+            "collapsed the final stanza break and left an obvious OCR slip in the opening dew line."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "How long grows the southernwood,\n"
+            "With the dew lying on it so bright!\n"
+            "Now that I see my noble men,\n"
+            "My heart is entirely satisfied.\n"
+            "As we feast, we laugh and talk; --\n"
+            "It is right they should have fame and prosperity!",
+            "How long grows the southernwood,\n"
+            "With the dew lying on it so abundantly!\n"
+            "Now that I see my noble men,\n"
+            "I appreciate their favour and their brightness.\n"
+            "Their virtue is without taint of error; --\n"
+            "May they live long, and not be forgotten!",
+            "How high is the southernwood,\n"
+            "All wet with the fallen dew!\n"
+            "Now that I see my noble men,\n"
+            "Grandly we feast, delighted and complacent.\n"
+            "May their relations with their brothers be right!\n"
+            "May they be happy in their excellent virtue to old age!",
+            "How high is the southernwood,\n"
+            "With the dew lying on it so richly!\n"
+            "I have seen my noble men,\n"
+            "With the ends of their reins hanging down,\n"
+            "With the bells tinkling on their cross-boards and bits.\n"
+            "May all happiness gather upon them.",
+        ],
+    },
+    192: {
+        "review_note": (
+            "Recovered the four stanza blocks for 白駒 from the public-domain witness after the reviewed hOCR export "
+            "picked up a trailing subdivision heading."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "Let the brilliant white colt\n"
+            "Feed on the young growth of my vegetable garden.\n"
+            "Tether it by the foot, tie it by the collar,\n"
+            "To prolong this morning.\n"
+            "So may its owner of whom I think\n"
+            "Spend his time here at his ease!",
+            "Let the brilliant white colt\n"
+            "Feed on the bean sprouts of my vegetable garden.\n"
+            "Tether it by the foot, tie it by the collar,\n"
+            "To prolong this evening.\n"
+            "So may its owner of whom I think\n"
+            "Be here, an admired guest!",
+            "If you with the brilliant white colt\n"
+            "Would brightly come to me,\n"
+            "You should be a duke, you should be a marquis,\n"
+            "Enjoying yourself without end.\n"
+            "Be on your guard against idly wandering;\n"
+            "Deal vigorously with your thoughts of retirement.",
+            "The brilliant white colt\n"
+            "Is there in that empty valley,\n"
+            "With a bundle of fresh grass.\n"
+            "Its owner is like a gem.\n"
+            "Do not make the news of you rare as gold and gems, --\n"
+            "Indulging your purpose to abandon me.",
+        ],
+    },
+    222: {
+        "review_note": (
+            "Recovered the four stanza blocks for 鴛鴦 from the public-domain witness after the reviewed hOCR export "
+            "dropped the opening stanza and ran into the following KUI BIAN heading."
+        ),
+        "force_poem_alignment": False,
+        "english_blocks": [
+            "The Yellow ducks fly about,\n"
+            "And are taken with hand-nets and spread-nets.\n"
+            "May our sovereign live for ten thousand years,\n"
+            "Enjoying the happiness and wealth which are his due!",
+            "The Yellow ducks are on the dam,\n"
+            "With their left wings gathered up.\n"
+            "May our sovereign live for ten thousand years,\n"
+            "Enjoying the happiness and wealth which are his due!",
+            "The teams of steeds are in the stable,\n"
+            "Fed with forage and grain.\n"
+            "May our sovereign live for ten thousand years,\n"
+            "Sustained in his happiness and wealth!",
+            "The teams of steeds are in the stable,\n"
+            "Fed with grain and forage.\n"
+            "May our sovereign live for ten thousand years,\n"
+            "In the comfort of his happiness and wealth!",
+        ],
     },
     120: {
         "line_replacements": {
@@ -4121,25 +4337,34 @@ def build_auto_reviewed_hocr_entry(
 ) -> dict[str, Any]:
     blocks, legge_alias = extract_hocr_poem_blocks(poem)
     override = AUTO_REVIEWED_LEGGE_OCR_OVERRIDES.get(poem["sort_key"], {})
+    ocr_part = "part-1" if poem["major_division"] == "國風" else "part-2"
     keep_blocks = override.get("keep_blocks")
     if keep_blocks:
         blocks = [blocks[index] for index in keep_blocks if index < len(blocks)]
-    drop_lines = set(override.get("drop_lines", []))
-    line_replacements = override.get("line_replacements", {})
     cleaned_blocks: list[str] = []
-    for block in blocks:
-        cleaned_lines: list[str] = []
-        for line in block.splitlines():
-            cleaned = sanitize_reviewed_hocr_line(line)
-            for before, after in line_replacements.items():
-                cleaned = cleaned.replace(before, after)
-            if not cleaned or cleaned in drop_lines:
-                continue
-            if re.match(r"^(?:ODES OF|PART I\.|FART I\.)", cleaned):
-                continue
-            cleaned_lines.append(cleaned)
-        if cleaned_lines:
-            cleaned_blocks.append("\n".join(cleaned_lines))
+    override_blocks = override.get("english_blocks")
+    if override_blocks:
+        for block in override_blocks:
+            cleaned_lines = [sanitize_reviewed_hocr_line(line) for line in str(block).splitlines()]
+            cleaned_lines = [line for line in cleaned_lines if line]
+            if cleaned_lines:
+                cleaned_blocks.append("\n".join(cleaned_lines))
+    else:
+        drop_lines = set(override.get("drop_lines", []))
+        line_replacements = override.get("line_replacements", {})
+        for block in blocks:
+            cleaned_lines = []
+            for line in block.splitlines():
+                cleaned = sanitize_reviewed_hocr_line(line)
+                for before, after in line_replacements.items():
+                    cleaned = cleaned.replace(before, after)
+                if not cleaned or cleaned in drop_lines:
+                    continue
+                if re.match(r"^(?:ODES OF|PART I\.|FART I\.)", cleaned):
+                    continue
+                cleaned_lines.append(cleaned)
+            if cleaned_lines:
+                cleaned_blocks.append("\n".join(cleaned_lines))
     if not cleaned_blocks:
         cleaned_blocks = [poem["label"]]
     return {
@@ -4147,7 +4372,7 @@ def build_auto_reviewed_hocr_entry(
         "translation_ref_label": poem["label"],
         "review_note": (
             override.get("review_note")
-            or "Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export."
+            or f"Reviewed the {ocr_part} hOCR witness directly and kept only the verse lines needed for export."
         ),
         "force_poem_alignment": override.get(
             "force_poem_alignment",

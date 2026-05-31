@@ -90,6 +90,16 @@ OCR_SANITY_PATTERNS: tuple[tuple[str, str, re.Pattern[str]], ...] = (
         re.compile(r"[•·◦▪●]"),
     ),
     (
+        "paren_digit_intraword_artifact",
+        "closing parenthesis/digit OCR damage inside an English word",
+        re.compile(r"(?i)\b[A-Za-z]+\)[0-9A-Za-z]+\b"),
+    ),
+    (
+        "trailing_j_artifact",
+        "improbable trailing j left on an English word",
+        re.compile(r"(?i)\b[a-z]{3,}j\b"),
+    ),
+    (
         "apostrophe_vw_artifact",
         "apostrophe-v/w OCR damage in an English word",
         re.compile(r"(?i)\b[A-Za-z]+['’][vw]\b"),
@@ -110,6 +120,27 @@ OCR_SANITY_PATTERNS: tuple[tuple[str, str, re.Pattern[str]], ...] = (
         re.compile(r"\bAV[a-z]+\b"),
     ),
 )
+
+OCR_SANITY_REGRESSION_EXAMPLES: tuple[tuple[str, str], ...] = (
+    ("0 Chung", "zero_vocative_confusion"),
+    ("m}r", "brace_artifact"),
+    (r"\vill", "backslash_artifact"),
+    ("Ts4ing", "digit_letter_confusion"),
+    ("Cho'v", "apostrophe_vw_artifact"),
+    ("Ho'v", "apostrophe_vw_artifact"),
+    ("Wliere", "tli_wli_artifact"),
+    ("tliey", "tli_wli_artifact"),
+    ("coiifure", "double_i_artifact"),
+    ("silk7", "digit_letter_confusion"),
+    ("Ae^-stone", "caret_artifact"),
+    ("greatl)7", "paren_digit_intraword_artifact"),
+    ("greyj", "trailing_j_artifact"),
+    ("I have here admirable guests,", "terminal_truncation_punctuation"),
+)
+
+OCR_SANITY_CORRECTED_PREFIX = "OCR sanity sweep corrected:"
+OCR_SANITY_DEMOTED_PREFIX = "OCR sanity sweep demoted:"
+TRUNCATION_TERMINATORS = (",", ";", ":")
 
 GUOFENG_LEFTOVER_CLASSIFICATIONS: dict[str, str] = {
     "guofeng-zhaonan-006": "needs_better_witness",
@@ -295,25 +326,58 @@ def build_ocr_sanity_override_index(
 def detect_suspicious_ocr_artifacts(
     text: str,
     allowed_matches: dict[str, set[str]] | None = None,
+    *,
+    chinese_blocks: list[str] | None = None,
+    english_blocks: list[str] | None = None,
 ) -> list[dict[str, Any]]:
     allowed_matches = allowed_matches or {}
     wildcard_matches = allowed_matches.get("*", set())
     issues: list[dict[str, Any]] = []
+
+    def append_issue(code: str, description: str, matches: list[str]) -> None:
+        allowed_for_code = wildcard_matches | allowed_matches.get(code, set())
+        unresolved_matches = [match for match in sorted(set(matches)) if match not in allowed_for_code]
+        if unresolved_matches:
+            issues.append(
+                {
+                    "code": code,
+                    "description": description,
+                    "matches": unresolved_matches,
+                }
+            )
+
+    def terminal_line(block_text: str) -> str:
+        lines = [line.strip() for line in block_text.strip().splitlines() if line.strip()]
+        return lines[-1] if lines else block_text.strip()
+
     for warning_code, description, pattern in OCR_SANITY_PATTERNS:
         matches = sorted({match.group(0) for match in pattern.finditer(text)})
         if not matches:
             continue
-        allowed_for_code = wildcard_matches | allowed_matches.get(warning_code, set())
-        unresolved_matches = [match for match in matches if match not in allowed_for_code]
-        if not unresolved_matches:
-            continue
-        issues.append(
-            {
-                "code": warning_code,
-                "description": description,
-                "matches": unresolved_matches,
-            }
+        append_issue(warning_code, description, matches)
+    stripped_text = text.rstrip()
+    if stripped_text.endswith(TRUNCATION_TERMINATORS):
+        append_issue(
+            "terminal_truncation_punctuation",
+            "section ends with punctuation that strongly suggests truncated extraction",
+            [terminal_line(stripped_text)],
         )
+    if chinese_blocks and english_blocks and len(chinese_blocks) == len(english_blocks) and len(english_blocks) >= 2:
+        comparison_counts = [english_word_count(block) for block in english_blocks[:-1] if english_word_count(block)]
+        final_block = english_blocks[-1].strip()
+        final_word_count = english_word_count(final_block)
+        if comparison_counts and final_block.rstrip().endswith(TRUNCATION_TERMINATORS):
+            reference_word_count = statistics.median(comparison_counts)
+            final_chinese_size = chinese_character_count(chinese_blocks[-1])
+            if (
+                final_word_count <= max(12, int(reference_word_count * 0.55))
+                and final_chinese_size >= 12
+            ):
+                append_issue(
+                    "truncated_final_stanza",
+                    "final stanza looks substantially shorter than the matching Chinese stanza",
+                    [terminal_line(final_block)],
+                )
     return issues
 
 
@@ -536,6 +600,8 @@ def build_shijing_quality_context(
             detect_suspicious_ocr_artifacts(
                 section["_english_text"],
                 ocr_sanity_override_index.get(section["section_id"]),
+                chinese_blocks=chinese_blocks,
+                english_blocks=english_blocks,
             )
             if section["ocr_or_fulltext_derived"]
             else []
@@ -839,6 +905,50 @@ def build_shijing_quality_context(
         "checked_exportable_ocr_sections": len(human_verified_ocr_sections),
         "flagged_sections": len(suspicious_ocr_sections),
         "flagged_section_records": suspicious_ocr_sections,
+        "regression_examples": [
+            {"sample": sample, "detector": detector}
+            for sample, detector in OCR_SANITY_REGRESSION_EXAMPLES
+        ],
+        "corrected_sections": [
+            {
+                "section_id": section["section_id"],
+                "title": section["title"],
+                "canonical_ref": section["canonical_ref"],
+                "source_page_or_anchor": section["source_page_or_anchor"],
+                "review_note": (
+                    verification_index.get(section["section_id"], {}).get("reviewer_note") or section["review_note"]
+                ),
+            }
+            for section in sorted(section_records, key=lambda section: section["canonical_ref"])
+            if str(
+                verification_index.get(section["section_id"], {}).get("reviewer_note") or section.get("review_note") or ""
+            ).startswith(OCR_SANITY_CORRECTED_PREFIX)
+        ],
+        "demoted_sections": [
+            {
+                "section_id": section["section_id"],
+                "title": section["label"],
+                "canonical_ref": section["canonical_ref"],
+                "source_page_or_anchor": verification_index.get(section["section_id"], {}).get("source_page_or_anchor"),
+                "review_note": verification_index.get(section["section_id"], {}).get("reviewer_note"),
+            }
+            for section in sorted(metadata_only_sections, key=lambda section: section["canonical_ref"])
+            if str(verification_index.get(section["section_id"], {}).get("reviewer_note") or "").startswith(
+                OCR_SANITY_DEMOTED_PREFIX
+            )
+        ],
+        "ledger_backed_overrides": [
+            {
+                "section_id": section["section_id"],
+                "title": section["title"],
+                "canonical_ref": section["canonical_ref"],
+                "source_page_or_anchor": section["source_page_or_anchor"],
+                "ocr_sanity_overrides": section["ocr_sanity_overrides"],
+                "review_note": section["review_note"],
+            }
+            for section in sorted(section_records, key=lambda section: section["canonical_ref"])
+            if section["ocr_sanity_overrides"]
+        ],
     }
     skipped_current_witness_sections = [
         {
@@ -919,6 +1029,12 @@ def build_shijing_quality_context(
             "remaining_guofeng_sections": remaining_guofeng_sections,
             "remaining_xiaoya_sections": remaining_xiaoya_sections,
             "remaining_daya_song_sections": remaining_daya_song_sections,
+            "remaining_queue_category_counts": {
+                QUEUE_CATEGORY_LABELS[category]: sum(
+                    1 for record in remaining_section_records if record["queue_category"] == category
+                )
+                for category in QUEUE_CATEGORY_ORDER
+            },
             "guofeng_queue_categories": guofeng_queue_categories,
             "known_unrecoverable_cases": guofeng_queue_categories["unrecoverable_with_current_witness"],
             "cases_needing_better_witness": [
@@ -1146,6 +1262,135 @@ def quality_markdown(context: dict[str, Any]) -> str:
         lines.append("| — | 0 | 0 | 0 |")
     lines.append("")
 
+    lines.extend(["## OCR sanity tests added", ""])
+    lines.extend(["| Sample pattern | Detector |", "| --- | --- |"])
+    for example in progress["ocr_sanity_sweep"]["regression_examples"]:
+        lines.append(f"| {example['sample']} | {example['detector']} |")
+    lines.append("")
+
+    lines.extend(["## Current OCR sweep result", ""])
+    append_count_table(
+        [
+            (
+                "checked_exportable_ocr_sections",
+                progress["ocr_sanity_sweep"]["checked_exportable_ocr_sections"],
+            ),
+            ("flagged_sections", progress["ocr_sanity_sweep"]["flagged_sections"]),
+        ]
+    )
+    lines.extend(
+        [
+            "| Section | Title | Canonical ref | Artifact markers | Matches |",
+            "| --- | --- | --- | --- | --- |",
+        ]
+    )
+    suspicious_ocr_sections = progress["ocr_sanity_sweep"]["flagged_section_records"]
+    if suspicious_ocr_sections:
+        for section in suspicious_ocr_sections:
+            matches = ", ".join(
+                match for issue in section["ocr_sanity_issue_records"] for match in issue["matches"]
+            )
+            lines.append(
+                "| {section_id} | {title} | {canonical_ref} | {markers} | {matches} |".format(
+                    section_id=section["section_id"],
+                    title=section["title"],
+                    canonical_ref=section["canonical_ref"],
+                    markers=", ".join(issue["code"] for issue in section["ocr_sanity_issue_records"]),
+                    matches=matches,
+                )
+            )
+    else:
+        lines.append("| — | — | — | — | — |")
+    lines.append("")
+
+    lines.extend(
+        [
+            "## Sections corrected in this pass",
+            "",
+            "| Section | Title | Canonical ref | Source anchor | Note |",
+            "| --- | --- | --- | --- | --- |",
+        ]
+    )
+    corrected_sections = progress["ocr_sanity_sweep"]["corrected_sections"]
+    if corrected_sections:
+        for section in corrected_sections:
+            lines.append(
+                "| {section_id} | {title} | {canonical_ref} | {source_page_or_anchor} | {review_note} |".format(
+                    section_id=section["section_id"],
+                    title=section["title"],
+                    canonical_ref=section["canonical_ref"],
+                    source_page_or_anchor=section["source_page_or_anchor"] or "—",
+                    review_note=str(section["review_note"]).replace("\n", " "),
+                )
+            )
+    else:
+        lines.append("| — | — | — | — | — |")
+    lines.append("")
+
+    lines.extend(
+        [
+            "## Sections moved back to non-exportable in this pass",
+            "",
+            "| Section | Title | Canonical ref | Source anchor | Note |",
+            "| --- | --- | --- | --- | --- |",
+        ]
+    )
+    demoted_sections = progress["ocr_sanity_sweep"]["demoted_sections"]
+    if demoted_sections:
+        for section in demoted_sections:
+            lines.append(
+                "| {section_id} | {title} | {canonical_ref} | {source_page_or_anchor} | {review_note} |".format(
+                    section_id=section["section_id"],
+                    title=section["title"],
+                    canonical_ref=section["canonical_ref"],
+                    source_page_or_anchor=section["source_page_or_anchor"] or "—",
+                    review_note=str(section["review_note"]).replace("\n", " "),
+                )
+            )
+    else:
+        lines.append("| — | — | — | — | — |")
+    lines.append("")
+
+    lines.extend(
+        [
+            "## Ledger-backed OCR overrides",
+            "",
+            "| Section | Title | Canonical ref | Source anchor | Override matches |",
+            "| --- | --- | --- | --- | --- |",
+        ]
+    )
+    ledger_backed_overrides = progress["ocr_sanity_sweep"]["ledger_backed_overrides"]
+    if ledger_backed_overrides:
+        for section in ledger_backed_overrides:
+            override_values: list[str] = []
+            for override in section["ocr_sanity_overrides"]:
+                if isinstance(override, str):
+                    override_values.append(override)
+                elif isinstance(override, dict):
+                    override_values.append(str(override.get("match_text") or override.get("text") or override))
+                else:
+                    override_values.append(str(override))
+            lines.append(
+                "| {section_id} | {title} | {canonical_ref} | {source_page_or_anchor} | {override_values} |".format(
+                    section_id=section["section_id"],
+                    title=section["title"],
+                    canonical_ref=section["canonical_ref"],
+                    source_page_or_anchor=section["source_page_or_anchor"] or "—",
+                    override_values=", ".join(override_values) or "—",
+                )
+            )
+    else:
+        lines.append("| — | — | — | — | — |")
+    lines.append("")
+
+    lines.extend(["## Remaining unresolved sections by category", ""])
+    append_count_table(
+        sorted(
+            progress["remaining_queue_category_counts"].items(),
+            key=lambda item: (-item[1], item[0]),
+        )
+    )
+
     lines.extend(["## Remaining repair queue by subdivision", ""])
     append_count_table(
         sorted(
@@ -1189,40 +1434,6 @@ def quality_markdown(context: dict[str, Any]) -> str:
     lines.extend(["## Cases needing a better witness", ""])
     append_queue_table(progress["cases_needing_better_witness"], include_category=True)
 
-    lines.extend(["## OCR sanity sweep results", ""])
-    append_count_table(
-        [
-            (
-                "checked_exportable_ocr_sections",
-                progress["ocr_sanity_sweep"]["checked_exportable_ocr_sections"],
-            ),
-            ("flagged_sections", progress["ocr_sanity_sweep"]["flagged_sections"]),
-        ]
-    )
-    lines.extend(
-        [
-            "| Section | Title | Canonical ref | Artifact markers | Matches |",
-            "| --- | --- | --- | --- | --- |",
-        ]
-    )
-    suspicious_ocr_sections = progress["ocr_sanity_sweep"]["flagged_section_records"]
-    if suspicious_ocr_sections:
-        for section in suspicious_ocr_sections:
-            matches = ", ".join(
-                match for issue in section["ocr_sanity_issue_records"] for match in issue["matches"]
-            )
-            lines.append(
-                "| {section_id} | {title} | {canonical_ref} | {markers} | {matches} |".format(
-                    section_id=section["section_id"],
-                    title=section["title"],
-                    canonical_ref=section["canonical_ref"],
-                    markers=", ".join(issue["code"] for issue in section["ocr_sanity_issue_records"]),
-                    matches=matches,
-                )
-            )
-    else:
-        lines.append("| — | — | — | — | — |")
-    lines.append("")
     lines.extend(
         [
             "",

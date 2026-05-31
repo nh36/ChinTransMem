@@ -863,7 +863,7 @@
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__guofeng-tangfeng-004__aligned_passages.tmx",
       "work_id": "shijing",
       "section_id": "guofeng-tangfeng-004",
-      "tu_count": 1,
+      "tu_count": 2,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -1304,7 +1304,7 @@
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__xiaoya-nanyoujiayu-006__aligned_passages.tmx",
       "work_id": "shijing",
       "section_id": "xiaoya-nanyoujiayu-006",
-      "tu_count": 1,
+      "tu_count": 4,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -1376,7 +1376,7 @@
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__xiaoya-hongyan-006__aligned_passages.tmx",
       "work_id": "shijing",
       "section_id": "xiaoya-hongyan-006",
-      "tu_count": 1,
+      "tu_count": 4,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -1592,7 +1592,7 @@
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__xiaoya-futian-006__aligned_passages.tmx",
       "work_id": "shijing",
       "section_id": "xiaoya-futian-006",
-      "tu_count": 1,
+      "tu_count": 4,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -2313,7 +2313,7 @@
     "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shijing__all__aligned_passages.tmx",
     "work_id": "shijing",
     "section_id": null,
-    "tu_count": 581,
+    "tu_count": 591,
     "source_language": "zh-Hant",
     "target_language": "en"
   }

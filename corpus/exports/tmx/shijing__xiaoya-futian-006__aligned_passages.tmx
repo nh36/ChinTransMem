@@ -6,46 +6,92 @@
       <prop type="x-work-id">shijing</prop>
       <prop type="x-section-id">xiaoya-futian-006</prop>
       <prop type="x-section-unit">poem</prop>
-      <prop type="x-segment-type">poem</prop>
-      <prop type="x-alignment-granularity">poem</prop>
-      <prop type="x-is-coarse-alignment">true</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.95</prop>
+      <prop type="x-confidence">0.99</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">詩經·小雅·甫田之什·006.1</prop>
       <prop type="x-translation-ref">鴛鴦.1</prop>
-      <prop type="x-coarse-alignment-reason">Whole-poem fallback because Chinese and English stanza structures do not align safely.</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>鴛鴦于飛，畢之羅之。君子萬年，福祿宜之。
-鴛鴦在梁，戢其左翼。君子萬年，宜其遐福。
-乘馬在廏，摧之秣之。君子萬年，福祿艾之。
-乘馬在廏，秣之摧之。君子萬年，福祿綏之。</seg>
+        <seg>鴛鴦于飛，畢之羅之。君子萬年，福祿宜之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Yellow ducks fly about,
+And are taken with hand-nets and spread-nets.
+May our sovereign live for ten thousand years,
+Enjoying the happiness and wealth which are his due!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-futian-006__002__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-futian-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·甫田之什·006.2</prop>
+      <prop type="x-translation-ref">鴛鴦.2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鴛鴦在梁，戢其左翼。君子萬年，宜其遐福。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>The Yellow ducks are on the dam,
 With their left wings gathered up.
 May our sovereign live for ten thousand years,
-Enjoying the lasting happiness which is his due!
-
-The teams of steeds are in the stable,
+Enjoying the happiness and wealth which are his due!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-futian-006__003__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-futian-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·甫田之什·006.3</prop>
+      <prop type="x-translation-ref">鴛鴦.3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>乘馬在廏，摧之秣之。君子萬年，福祿艾之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The teams of steeds are in the stable,
 Fed with forage and grain.
 May our sovereign live for ten thousand years,
-Sustained in his happiness and wealth !
-
-The teams of steeds are in the stable,
+Sustained in his happiness and wealth!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shijing__xiaoya-futian-006__004__zhwikisource-20260530__legge-sheking-1871-ocr">
+      <prop type="x-work-id">shijing</prop>
+      <prop type="x-section-id">xiaoya-futian-006</prop>
+      <prop type="x-section-unit">poem</prop>
+      <prop type="x-segment-type">stanza</prop>
+      <prop type="x-alignment-granularity">stanza</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.99</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">詩經·小雅·甫田之什·006.4</prop>
+      <prop type="x-translation-ref">鴛鴦.4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>乘馬在廏，秣之摧之。君子萬年，福祿綏之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The teams of steeds are in the stable,
 Fed with grain and forage.
 May our sovereign live for ten thousand years,
-In the comfort of his happiness and wealth!
-Kwei peen.
-
-Those in the leather caps, —
-Who are they ?
-Since your spirits are so good,
-And your viands are so fine,
-How can they be strangers ?
-They are your brethren, and no others.
-They are like the mistletoe and the dodder,</seg>
+In the comfort of his happiness and wealth!</seg>
       </tuv>
     </tu>
   </body>

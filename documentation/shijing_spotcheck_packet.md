@@ -7,7 +7,7 @@ This packet is a human-review sample built from the current Shijing corpus state
 | Category | Entries |
 | --- | ---: |
 | All Zhou Nan poems | 11 |
-| All poem-level/coarse alignments | 95 |
+| All poem-level/coarse alignments | 91 |
 | All title-only lost-text metadata entries | 55 |
 | Every repaired section | 153 |
 | Every section moved back to metadata-only | 49 |
@@ -6503,7 +6503,7 @@ And the daughter of Ts'e moves on with unconcern.
 The waters of the Wan sweep on;
 The travellers are in crowds.
 The way from Loo is easy and plain,
-And the daughter of Ts'e proceeds at her ease,
+And the daughter of Ts'e proceeds at her ease.
 ```
 
 ### guofeng-qifeng-011 — 猗嗟
@@ -7082,12 +7082,12 @@ And will not dare to inform any one of them.
 
 ### guofeng-tangfeng-004 — 椒聊
 
-- Categories: All poem-level/coarse alignments, Every repaired section
+- Categories: Every repaired section
 - section_id: `guofeng-tangfeng-004`
 - canonical_ref: `詩經·國風·唐風·004`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Reviewed the part-1 hOCR witness directly, restored the opening pepper-plant refrain, and split the two verified stanzas for stanza-level export. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%A4%92%E8%81%8A
   - https://archive.org/details/chineseclassics41legg
@@ -7099,6 +7099,7 @@ And will not dare to inform any one of them.
 
 ```text
 椒聊之實，蕃衍盈升。彼其之子，碩大無朋。椒聊且！遠條且！
+
 椒聊之實，蕃衍盈匊。彼其之子，碩大且篤。椒聊且！遠條且！
 ```
 
@@ -7109,8 +7110,7 @@ The clusters of the pepper plant,
 Large and luxuriant, would fill a pint.
 That hero there
 Is large and peerless.
-
-the pepper plant!
+O the pepper plant!
 How its shoots extend!
 
 The clusters of the pepper plant,
@@ -7118,7 +7118,7 @@ Large and luxuriant, would fill both your hands.
 That hero there
 Is large and generous.
 O the pepper plant!
-How its shoots extend;
+How its shoots extend!
 ```
 
 ### guofeng-tangfeng-005 — 綢繆
@@ -11612,7 +11612,7 @@ Lay hold of them, and put them in the blazing fire!
 - canonical_ref: `詩經·小雅·甫田之什·003`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%9E%BB%E5%BD%BC%E6%B4%9B%E7%9F%A3
   - https://archive.org/details/chineseclassics42legg
@@ -11661,7 +11661,7 @@ Preserving his clans" and States!
 - canonical_ref: `詩經·小雅·甫田之什·004`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%A3%B3%E8%A3%B3%E8%80%85%E8%8F%AF
   - https://archive.org/details/chineseclassics42legg
@@ -11721,12 +11721,12 @@ They are screens to all the States.
 
 ### xiaoya-futian-006 — 鴛鴦
 
-- Categories: All poem-level/coarse alignments, Every repaired section
+- Categories: Every repaired section
 - section_id: `xiaoya-futian-006`
 - canonical_ref: `詩經·小雅·甫田之什·006`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the four stanza blocks for 鴛鴦 from the public-domain witness after the reviewed hOCR export dropped the opening stanza and ran into the following KUI BIAN heading. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B4%9B%E9%B4%A6
   - https://archive.org/details/chineseclassics42legg
@@ -11738,37 +11738,36 @@ They are screens to all the States.
 
 ```text
 鴛鴦于飛，畢之羅之。君子萬年，福祿宜之。
+
 鴛鴦在梁，戢其左翼。君子萬年，宜其遐福。
+
 乘馬在廏，摧之秣之。君子萬年，福祿艾之。
+
 乘馬在廏，秣之摧之。君子萬年，福祿綏之。
 ```
 
 #### English text
 
 ```text
+The Yellow ducks fly about,
+And are taken with hand-nets and spread-nets.
+May our sovereign live for ten thousand years,
+Enjoying the happiness and wealth which are his due!
+
 The Yellow ducks are on the dam,
 With their left wings gathered up.
 May our sovereign live for ten thousand years,
-Enjoying the lasting happiness which is his due!
+Enjoying the happiness and wealth which are his due!
 
 The teams of steeds are in the stable,
 Fed with forage and grain.
 May our sovereign live for ten thousand years,
-Sustained in his happiness and wealth !
+Sustained in his happiness and wealth!
 
 The teams of steeds are in the stable,
 Fed with grain and forage.
 May our sovereign live for ten thousand years,
 In the comfort of his happiness and wealth!
-Kwei peen.
-
-Those in the leather caps, —
-Who are they ?
-Since your spirits are so good,
-And your viands are so fine,
-How can they be strangers ?
-They are your brethren, and no others.
-They are like the mistletoe and the dodder,
 ```
 
 ### xiaoya-futian-007 — 頍弁
@@ -11778,7 +11777,7 @@ They are like the mistletoe and the dodder,
 - canonical_ref: `詩經·小雅·甫田之什·007`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. poem-level alignment may hide recoverable stanza segmentation
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. poem-level alignment may hide recoverable stanza segmentation
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%A0%8D%E5%BC%81
   - https://archive.org/details/chineseclassics42legg
@@ -11914,7 +11913,7 @@ To the comfort of my heart.
 - canonical_ref: `詩經·小雅·甫田之什·008`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BB%8A%E8%88%9D
   - https://archive.org/details/chineseclassics42legg
@@ -11981,7 +11980,7 @@ To the comfort of my heart.
 - canonical_ref: `詩經·小雅·甫田之什·009`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9D%92%E8%A0%85
   - https://archive.org/details/chineseclassics42legg
@@ -12237,7 +12236,7 @@ Raising its handle in the west.
 - canonical_ref: `詩經·小雅·谷風之什·004`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%9B%9B%E6%9C%88
   - https://archive.org/details/chineseclassics42legg
@@ -12307,7 +12306,7 @@ To make known my plaint.
 - canonical_ref: `詩經·小雅·谷風之什·006`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `false`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%84%A1%E5%B0%87%E5%A4%A7%E8%BB%8A
   - https://archive.org/details/chineseclassics42legg
@@ -12399,7 +12398,7 @@ seeking to increase our bright happiness.
 - canonical_ref: `詩經·小雅·鴻鴈之什·001`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B4%BB%E9%B4%88
   - https://archive.org/details/chineseclassics42legg
@@ -12447,7 +12446,7 @@ They would have said we were proclaiming our insolence.
 - canonical_ref: `詩經·小雅·鴻鴈之什·002`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%BA%AD%E7%87%8E
   - https://archive.org/details/chineseclassics42legg
@@ -12492,7 +12491,7 @@ I see their banners.!
 - canonical_ref: `詩經·小雅·鴻鴈之什·004`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B6%B4%E9%B3%B4
   - https://archive.org/details/chineseclassics42legg
@@ -12536,12 +12535,12 @@ May be used to polish gems.
 
 ### xiaoya-hongyan-006 — 白駒
 
-- Categories: All poem-level/coarse alignments, Every repaired section
+- Categories: Every repaired section
 - section_id: `xiaoya-hongyan-006`
 - canonical_ref: `詩經·小雅·鴻鴈之什·006`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the four stanza blocks for 白駒 from the public-domain witness after the reviewed hOCR export picked up a trailing subdivision heading. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%99%BD%E9%A7%92
   - https://archive.org/details/chineseclassics42legg
@@ -12553,8 +12552,11 @@ May be used to polish gems.
 
 ```text
 皎皎白駒，食我場苗。縶之維之，以永今朝。所謂伊人，於焉逍遙。
+
 皎皎白駒，食我場藿。縶之維之，以永今夕。所謂伊人，於焉嘉客。
+
 皎皎白駒，賁然來思。爾公爾侯，逸豫無期。慎爾優游，勉爾遁思。
+
 皎皎白駒，在彼空谷，生芻一束。其人如玉，毋金玉爾音，而有遐心。
 ```
 
@@ -12566,29 +12568,28 @@ Feed on the young growth of my vegetable garden.
 Tether it by the foot, tie it by the collar,
 To prolong this morning.
 So may its owner of whom I think
-Spend his time here at his ease !
+Spend his time here at his ease!
 
 Let the brilliant white colt
 Feed on the bean sprouts of my vegetable garden.
 Tether it by the foot, tie it by the collar,
 To prolong this evening.
 So may its owner of whom I think
-Be here, an admired guest !
+Be here, an admired guest!
 
 If you with the brilliant white colt
 Would brightly come to me,
 You should be a duke, you should be a marquis,
 Enjoying yourself without end.
-Be on your guard against idly wandering ;
+Be on your guard against idly wandering;
 Deal vigorously with your thoughts of retirement.
 
 The brilliant white colt
 Is there in that empty valley,
 With a bundle of fresh grass.
 Its owner is like a gem.
-Do not make the news of you rare as gold and gems,-
+Do not make the news of you rare as gold and gems, --
 Indulging your purpose to abandon me.
-DECADE OF K'E FOO,
 ```
 
 ### xiaoya-hongyan-008 — 我行其野
@@ -12598,7 +12599,7 @@ DECADE OF K'E FOO,
 - canonical_ref: `詩經·小雅·鴻鴈之什·008`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%88%91%E8%A1%8C%E5%85%B6%E9%87%8E
   - https://archive.org/details/chineseclassics42legg
@@ -13221,7 +13222,7 @@ How I may be able to become good.
 - canonical_ref: `詩經·小雅·鹿鳴之什·001`
 - alignment_granularity: `stanza`
 - is_coarse_alignment: `false`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Aligned stanza by stanza from matching Chinese and English poem blocks.
+- notes: Reviewed the part-2 hOCR witness directly and restored the truncated final stanza after checking the public-domain CTI transcription for 小雅·鹿鳴 (AnoShih 2.1.161). Aligned stanza by stanza from matching Chinese and English poem blocks.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%B9%BF%E9%B3%B4
   - https://archive.org/details/chineseclassics42legg
@@ -13248,7 +13249,7 @@ How I may be able to become good.
 With pleased sounds the deer call to one another,
 Eating the celery of the fields.
 I have here admirable guests;
-The lutes are struck, and the organ is blown for them; —
+The lutes are struck, and the organ is blown for them; --
 The organ is blown till its tongues are all moving.
 The baskets of offerings also are presented to them.
 The men love me,
@@ -13258,7 +13259,7 @@ With pleased sounds the deer call to one another,
 Eating the southernwood of the fields.
 I have here admirable guests,
 Whose virtuous fame is grandly brilliant.
-They show the people not to be mean ;
+They show the people not to be mean;
 The officers have in them a pattern and model.
 I have good wine,
 Which my admirable guests drink, enjoying themselves.
@@ -13266,6 +13267,14 @@ Which my admirable guests drink, enjoying themselves.
 With pleased sounds the deer call to one another,
 Eating the salsola of the fields.
 I have here admirable guests,
+To feast and make glad their hearts.
+The pleasant sound of their lutes,
+The reverence of their deportment,
+The excellence of their virtuous fame,
+Make the people imitate them.
+They have good wine,
+By which they entertain their admirable guests,
+To feast and make glad their hearts.
 ```
 
 ### xiaoya-luming-003 — 皇皇者華
@@ -13275,7 +13284,7 @@ I have here admirable guests,
 - canonical_ref: `詩經·小雅·鹿鳴之什·003`
 - alignment_granularity: `stanza`
 - is_coarse_alignment: `false`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- notes: Reviewed the part-2 hOCR witness directly and corrected the closing OCR damage in the final stanza after checking the public-domain CTI transcription for 小雅·皇皇者華 (AnoShih 2.1.163). Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%9A%87%E7%9A%87%E8%80%85%E8%8F%AF
   - https://archive.org/details/chineseclassics42legg
@@ -13313,14 +13322,14 @@ Everywhere pushing my inquiries.
 My horses are piebald;
 The six reins are like silk.
 I gallop them, and urge them on,
-Everywhere seeking information and counsel,
+Everywhere seeking information and counsel.
 
-My horses are white and black-maned ;
+My horses are white and black-maned;
 The six reins look glossy.
 I gallop them and urge them on,
-Everywhere seeking information and advice,
+Everywhere seeking information and advice.
 
-My horses are greyj
+My horses are grey;
 The six reins are well in hand.
 I gallop them and urge them on,
 Everywhere seeking information and suggestions.
@@ -13333,7 +13342,7 @@ Everywhere seeking information and suggestions.
 - canonical_ref: `詩經·小雅·鹿鳴之什·004`
 - alignment_granularity: `stanza`
 - is_coarse_alignment: `false`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
+- notes: Reviewed the part-2 hOCR witness directly, corrected the obvious OCR corruption in stanza 2, and restored the missing closing line in stanza 8 after checking the public-domain CTI transcription for 小雅·常棣 (AnoShih 2.1.164). Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%B8%B8%E6%A3%A3
   - https://archive.org/details/chineseclassics42legg
@@ -13364,19 +13373,19 @@ Everywhere seeking information and suggestions.
 #### English text
 
 ```text
-The flowers of the cherry tree —
-Are they not gorgeously displayed ?
+The flowers of the cherry tree --
+Are they not gorgeously displayed?
 Of all the men in the world
 There are none equal to brothers.
 
 On the dreaded occasions of death and burial,
-It is brothers who greatl)7 sympathize.
+It is brothers who greatly sympathize.
 When fugitives are collected on the heights and low grounds,
 They are brothers who will seek one another out.
 
-There is the wagtail on the level height ; —
+There is the wagtail on the level height; --
 When brothers are in urgent difficulties,
-Friends, though they may be good
+Friends, though they may be good,
 Will only heave long sighs.
 
 Brothers may quarrel inside the walls,
@@ -13385,7 +13394,7 @@ When friends, however good they may be,
 Will not afford help.
 
 When death and disorder are past,
-And there are tranquillity and rest ;
+And there are tranquillity and rest;
 Although they have brothers,
 Some reckon them not equal to friends.
 
@@ -13401,6 +13410,7 @@ Which makes the harmony and happiness lasting.
 
 For the ordering of your family,
 For your joy in your wife and children,
+Examine this and study it; --
 Will you not find that it is truly so?
 ```
 
@@ -13514,12 +13524,12 @@ There are guests with lutes, large and small.
 
 ### xiaoya-nanyoujiayu-006 — 蓼蕭
 
-- Categories: All poem-level/coarse alignments, Every repaired section
+- Categories: Every repaired section
 - section_id: `xiaoya-nanyoujiayu-006`
 - canonical_ref: `詩經·小雅·南有嘉魚之什·006`
-- alignment_granularity: `poem`
-- is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- alignment_granularity: `stanza`
+- is_coarse_alignment: `false`
+- notes: Recovered the four stanza blocks for 蓼蕭 from the public-domain witness after the reviewed hOCR export collapsed the final stanza break and left an obvious OCR slip in the opening dew line. Aligned at stanza level by splitting the Chinese text into 1-line units to match Legge's printed stanza blocks.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%93%BC%E8%95%AD
   - https://archive.org/details/chineseclassics42legg
@@ -13531,8 +13541,11 @@ There are guests with lutes, large and small.
 
 ```text
 蓼彼蕭斯，零露湑兮。既見君子，我心寫兮。燕笑語兮，是以有譽處兮。
+
 蓼彼蕭斯，零露瀼瀼。既見君子，為龍為光。其德不爽，壽考不忘。
+
 蓼彼蕭斯，零露泥泥。既見君子，孔燕豈弟。宜兄宜弟，令德壽豈。
+
 蓼彼蕭斯，零露濃濃。既見君子，鞗革忡忡。和鸞雝雝，萬福攸同。
 ```
 
@@ -13540,18 +13553,18 @@ There are guests with lutes, large and small.
 
 ```text
 How long grows the southernwood,
-With tLe dew lying on it so bright!
+With the dew lying on it so bright!
 Now that I see my noble men,
 My heart is entirely satisfied.
-As we feast, we laugh and talk; —
+As we feast, we laugh and talk; --
 It is right they should have fame and prosperity!
 
 How long grows the southernwood,
-With the dew lying on it so abundantly !
+With the dew lying on it so abundantly!
 Now that I see my noble men,
 I appreciate their favour and their brightness.
-Their virtue is without taint of error; —
-May they live long, and not be forgotten !
+Their virtue is without taint of error; --
+May they live long, and not be forgotten!
 
 How high is the southernwood,
 All wet with the fallen dew!
@@ -13559,12 +13572,13 @@ Now that I see my noble men,
 Grandly we feast, delighted and complacent.
 May their relations with their brothers be right!
 May they be happy in their excellent virtue to old age!
+
 How high is the southernwood,
 With the dew lying on it so richly!
 I have seen my noble men,
 With the ends of their reins hanging down,
 With the bells tinkling on their cross-boards and bits.
-May all happiness gather upon them ;
+May all happiness gather upon them.
 ```
 
 ### xiaoya-nanyoujiayu-007 — 湛露
@@ -13574,7 +13588,7 @@ May all happiness gather upon them ;
 - canonical_ref: `詩經·小雅·南有嘉魚之什·007`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%B9%9B%E9%9C%B2
   - https://archive.org/details/chineseclassics42legg
@@ -13621,7 +13635,7 @@ Every one of them of excellent deportment.
 - canonical_ref: `詩經·小雅·南有嘉魚之什·008`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E5%BD%A4%E5%BC%93
   - https://archive.org/details/chineseclassics42legg
@@ -13668,7 +13682,7 @@ And all the morning will I pledge him.
 - canonical_ref: `詩經·小雅·南有嘉魚之什·009`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8F%81%E8%8F%81%E8%80%85%E8%8E%AA
   - https://archive.org/details/chineseclassics42legg
@@ -13788,7 +13802,7 @@ Great indeed are his achievements!
 - canonical_ref: `詩經·小雅·南有嘉魚之什·012`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%BB%8A%E6%94%BB
   - https://archive.org/details/chineseclassics42legg
@@ -13860,7 +13874,7 @@ Great indeed are his achievements!
 - canonical_ref: `詩經·小雅·魚藻之什·001`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%AD%9A%E8%97%BB
   - https://archive.org/details/chineseclassics42legg
@@ -13987,7 +14001,7 @@ Is their coming here!
 - canonical_ref: `詩經·小雅·魚藻之什·002`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. poem-level alignment may hide recoverable stanza segmentation
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. poem-level alignment may hide recoverable stanza segmentation
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E8%8F%BD
   - https://archive.org/details/chineseclassics42legg
@@ -14143,7 +14157,7 @@ This is what makes me sad.
 - canonical_ref: `詩經·小雅·魚藻之什·003`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%A7%92%E5%BC%93
   - https://archive.org/details/chineseclassics42legg
@@ -14214,7 +14228,7 @@ This is what makes me sad.
 - canonical_ref: `詩經·小雅·魚藻之什·004`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8F%80%E6%9F%B3
   - https://archive.org/details/chineseclassics42legg
@@ -14262,7 +14276,7 @@ I should only find myself in pitiable misery.
 - canonical_ref: `詩經·小雅·魚藻之什·006`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%87%87%E7%B6%A0
   - https://archive.org/details/chineseclassics42legg
@@ -14310,7 +14324,7 @@ While people looked on to see.
 - canonical_ref: `詩經·小雅·魚藻之什·008`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E9%9A%B0%E6%A1%91
   - https://archive.org/details/chineseclassics42legg
@@ -14359,7 +14373,7 @@ ii.Vn.4,5. The Peaou Ke gg) in the
 - canonical_ref: `詩經·小雅·魚藻之什·011`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E7%93%A0%E8%91%89
   - https://archive.org/details/chineseclassics42legg
@@ -14407,7 +14421,7 @@ His guests and he fill the cup and pledge one another.
 - canonical_ref: `詩經·小雅·魚藻之什·012`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `false`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E6%BC%B8%E6%BC%B8%E4%B9%8B%E7%9F%B3
   - https://archive.org/details/chineseclassics42legg
@@ -14441,7 +14455,7 @@ Has not a morning's leisure.
 - canonical_ref: `詩經·小雅·魚藻之什·013`
 - alignment_granularity: `poem`
 - is_coarse_alignment: `true`
-- notes: Reviewed the part-1 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
+- notes: Reviewed the part-2 hOCR witness directly and kept only the verse lines needed for export. Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.
 - source URLs:
   - https://zh.wikisource.org/wiki/%E8%A9%A9%E7%B6%93/%E8%8B%95%E4%B9%8B%E8%8F%AF
   - https://archive.org/details/chineseclassics42legg
