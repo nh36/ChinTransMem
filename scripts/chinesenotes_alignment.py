@@ -396,18 +396,36 @@ def render_completion_quality_markdown(
         "",
         "## Summary",
         "",
-        f"- Active sections: {summary['active_section_count']}",
-        f"- Exportable sections: {summary['exportable_section_count']}",
+    ]
+    if "work_state" in summary:
+        lines.append(f"- Work state: {summary['work_state']}")
+    if "total_section_count" in summary:
+        lines.append(f"- Total detected sections: {summary['total_section_count']}")
+    lines.extend(
+        [
+            f"- Active sections: {summary['active_section_count']}",
+            f"- Exportable sections: {summary['exportable_section_count']}",
+        ]
+    )
+    if "english_witness" in summary:
+        lines.append(f"- English witness: {summary['english_witness']}")
+    lines.extend(
+        [
         f"- Exact alignments: {summary['exact_alignment_count']}",
         f"- Automatic fine-grained alignments: {summary['automatic_alignment_count']}",
         f"- Curated override sections: {summary['curated_override_section_count']}",
         f"- Remaining coarse fallbacks: {summary['fallback_section_count']}",
         f"- Blocked sections: {summary['blocked_section_count']}",
         f"- Hard failures: {summary['hard_failure_count']}",
-        "",
-        "## Alignment granularity",
-        "",
-    ]
+        ]
+    )
+    if "pre_repair_corruption_issue_count" in summary:
+        lines.append(f"- Corruption issues before repair: {summary['pre_repair_corruption_issue_count']}")
+    if "corrected_corruption_issue_count" in summary:
+        lines.append(f"- Corruption issues corrected: {summary['corrected_corruption_issue_count']}")
+    if "remaining_corruption_issue_count" in summary:
+        lines.append(f"- Corruption issues remaining: {summary['remaining_corruption_issue_count']}")
+    lines.extend(["", "## Alignment granularity", ""])
     for granularity, count in sorted(summary["alignment_granularity_counts"].items()):
         lines.append(f"- {granularity}: {count}")
     fallback_sections = report.get("fallback_sections", [])

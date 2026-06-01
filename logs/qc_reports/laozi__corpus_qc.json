@@ -911,8 +911,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "f8d78a785791143e0592d1dc1ef87257396ca5738945af5e103edfc070a41417",
-    "metadata/sources.yml": "c5fda58ab756a1b6044b572e02a4071bb4b49490339c30e23cee8ba6ed84622c",
+    "metadata/sections.yml": "896eadaaef1b0a45c603bb8332b0f3cc6a71754842ea4c2cc70663d54083cde3",
+    "metadata/sources.yml": "a9ff7c1b157feaa9698bae0495e505f386665e267a70e427dc1c922228d16597",
     "metadata/manifests/laozi.yml": "b32b6fe4094f05a5366e16bb7bfc275f8fb89d27906b9b1a92b6e0d884c174aa",
     "corpus/exports/jsonl/laozi__laozi-chapter-001__aligned_passages.jsonl": "eaf2417063a8f9ac41e855ecf2227bad186fb15008b77a569fde045cce8ae2b5",
     "corpus/exports/csv/laozi__laozi-chapter-001__aligned_passages.csv": "a4eb1ccfd47b90e8e6aef602a31facd1dd3ebec46a70e834a30b472577435010",
@@ -1250,12 +1250,16 @@
     "translation_with_notice_sections": [],
     "translation_with_commentary_sections": [],
     "translation_with_heading_sections": [],
+    "translation_with_ocr_corruption_rows": [],
+    "translation_with_truncated_fragment_rows": [],
+    "translation_with_known_bad_forms_rows": [],
     "hard_failure_count": 0
   },
   "alignment_quality": {
     "false_precision_multi_clause_targets": [],
     "question_punctuation_mismatches": [],
     "suspicious_length_imbalance_rows": [],
+    "non_grouped_segmentation_mismatch_rows": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

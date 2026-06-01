@@ -1,6 +1,11 @@
 from __future__ import annotations
 
 import argparse
+import json
+import re
+import urllib.request
+from html import unescape
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
@@ -10,6 +15,7 @@ from chinesenotes_alignment import (
     render_completion_quality_markdown,
 )
 from common import DOCUMENTATION_DIR, METADATA_DIR, QC_REPORTS_DIR, REPO_ROOT, read_jsonl, repo_relative, sha256_file, write_json, write_jsonl
+from text_quality import detect_probable_ocr_corruption
 
 WORK_ID = "shangshu"
 WORK_LABEL = "Shangshu"
@@ -22,6 +28,7 @@ REVIEW_DATE = "2026-06-01"
 
 STAGING_ROOT = REPO_ROOT / "corpus" / "staging" / "chinesenotes" / WORK_ID
 RAW_ROOT = REPO_ROOT / "corpus" / "raw" / "chinesenotes"
+WIKISOURCE_RAW_ROOT = REPO_ROOT / "corpus" / "raw" / "wikisource"
 CHINESE_OUTPUT_ROOT = REPO_ROOT / "corpus" / "processed" / "chinese_base_texts"
 TRANSLATION_OUTPUT_ROOT = REPO_ROOT / "corpus" / "processed" / "translations"
 ALIGNMENT_OUTPUT_ROOT = REPO_ROOT / "corpus" / "processed" / "alignments"
@@ -31,6 +38,76 @@ LEDGER_PATH = METADATA_DIR / f"{WORK_ID}_verification_ledger.yml"
 OVERRIDES_PATH = METADATA_DIR / f"{WORK_ID}_alignment_overrides.yml"
 ALIGNMENT_QC_PATH = QC_REPORTS_DIR / f"{WORK_ID}__alignment_qc.json"
 COMPLETION_REPORT_PATH = DOCUMENTATION_DIR / f"{WORK_ID}_completion_quality.md"
+
+WIKISOURCE_BASE_URL = "https://en.wikisource.org"
+WIKISOURCE_VOLUME_PATH = "Sacred_Books_of_the_East/Volume_3"
+WIKISOURCE_WORK_PATH = f"{WIKISOURCE_VOLUME_PATH}/The_Shu"
+WIKISOURCE_TRANSLATION_SOURCE_KEY = "legge-sbe-wikisource-20260601"
+WIKISOURCE_TRANSLATION_LABEL = "Wikisource transcription of James Legge, Sacred Books of the East, Volume 3"
+WIKISOURCE_ACCESS_DATE = "2026-06-01"
+WIKISOURCE_USER_AGENT = "Mozilla/5.0"
+WIKISOURCE_TOC_LINK_RE = re.compile(
+    r'<a href="//en\.wikisource\.org(/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu[^"]+)"[^>]*>(.*?)</a>'
+)
+TRANSLATION_HEADING_RE = re.compile(r"^(?:THE SH[UÛ] KING\.?|PART\s+[IVXLC]+\.|Book\s+[IVXLC]+\.|Section\s+\d+\.)$")
+TRANSLATION_START_RE = re.compile(
+    r"^(?:"
+    r"\d+\.\s+|"
+    r"In the spring\b|On \(*the day\b|There was\b|Now\b|When\b|"
+    r"The king\b.*(?:said|spoke|declared)|"
+    r"The duke\b.*(?:said|spoke)|"
+    r"The marquis\b.*(?:said|spoke)|"
+    r"The count\b.*(?:said|spoke)|"
+    r"The prince\b.*(?:said|spoke)|"
+    r"King [A-Z].*|Duke [A-Z].*|"
+    r"[\"'])"
+)
+
+
+class _RenderedParagraphExtractor(HTMLParser):
+    SKIP_TAGS = {"style", "script", "table"}
+    SKIP_CLASSES = {"ws-noexport", "reference", "mw-editsection", "pagenum", "smallrefs", "error", "pr_quality"}
+
+    def __init__(self) -> None:
+        super().__init__()
+        self._skip_depth = 0
+        self._in_paragraph = False
+        self._current: list[str] = []
+        self.paragraphs: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        attr_map = {key: value or "" for key, value in attrs}
+        classes = set(attr_map.get("class", "").split())
+        if tag in self.SKIP_TAGS or classes & self.SKIP_CLASSES:
+            self._skip_depth += 1
+            return
+        if self._skip_depth:
+            return
+        if tag == "br" and self._in_paragraph:
+            self._current.append("\n")
+        if tag == "p":
+            self._in_paragraph = True
+            self._current = []
+
+    def handle_endtag(self, tag: str) -> None:
+        if self._skip_depth and tag in self.SKIP_TAGS | {"div", "span", "sup", "table"}:
+            self._skip_depth = max(0, self._skip_depth - 1)
+            return
+        if self._skip_depth:
+            return
+        if tag == "p" and self._in_paragraph:
+            text = unescape("".join(self._current)).replace("„", "")
+            text = re.sub(r"(?<=\w)\d+\]", "", text)
+            text = re.sub(r"\*+", "", text)
+            text = re.sub(r"\s+", " ", text).strip()
+            if text:
+                self.paragraphs.append(text)
+            self._in_paragraph = False
+            self._current = []
+
+    def handle_data(self, data: str) -> None:
+        if self._in_paragraph and not self._skip_depth:
+            self._current.append(data)
 
 
 def _load_staged_sections() -> tuple[list[dict[str, Any]], dict[str, list[str]], dict[str, list[str]]]:
@@ -42,6 +119,123 @@ def _load_staged_sections() -> tuple[list[dict[str, Any]], dict[str, list[str]],
     for record in read_jsonl(STAGING_ROOT / "english_blocks.jsonl"):
         english_blocks.setdefault(str(record["section_id"]), []).append(str(record["text_original"]))
     return sections, chinese_blocks, english_blocks
+
+
+def _fetch_wikisource_html(path: str) -> str:
+    url = f"{WIKISOURCE_BASE_URL}/w/index.php?title={path}&action=render"
+    request = urllib.request.Request(url, headers={"User-Agent": WIKISOURCE_USER_AGENT})
+    with urllib.request.urlopen(request, timeout=60) as response:
+        return response.read().decode("utf-8", "ignore")
+
+
+def _discover_wikisource_section_page_groups() -> list[list[dict[str, str]]]:
+    html = _fetch_wikisource_html(WIKISOURCE_VOLUME_PATH)
+    toc_links: list[tuple[str, str]] = []
+    for href, title_html in WIKISOURCE_TOC_LINK_RE.findall(html):
+        if "/Introduction/" in href or "#" in href:
+            continue
+        title = unescape(re.sub(r"<[^>]+>", "", title_html)).strip().replace("„", "")
+        toc_links.append((title, href.replace("/wiki/", "")))
+
+    groups: list[list[dict[str, str]]] = []
+    index = 0
+    while index < len(toc_links):
+        title, path = toc_links[index]
+        if path.endswith("Part_3/Book_1/Section_1"):
+            second_title, second_path = toc_links[index + 1]
+            groups.append(
+                [
+                    {"title": title, "path": path},
+                    {"title": second_title, "path": second_path},
+                ]
+            )
+            index += 2
+            continue
+        book_match = re.match(r"(.+/Book_\d+)$", path)
+        if book_match:
+            book_prefix = book_match.group(1)
+            lookahead = index + 1
+            section_paths: list[tuple[str, str]] = []
+            while lookahead < len(toc_links) and toc_links[lookahead][1].startswith(book_prefix + "/Section_"):
+                section_paths.append(toc_links[lookahead])
+                lookahead += 1
+            if section_paths:
+                for section_title, section_path in section_paths:
+                    groups.append([{"title": f"{title} {section_title}".strip(), "path": section_path}])
+                index = lookahead
+                continue
+        if "/Section_" not in path:
+            groups.append([{"title": title, "path": path}])
+        index += 1
+    return groups
+
+
+def _wikisource_translation_raw_capture_path(section_id: str) -> Path:
+    return WIKISOURCE_RAW_ROOT / f"{WORK_ID}__{section_id}__{WIKISOURCE_TRANSLATION_SOURCE_KEY}__raw.json"
+
+
+def _fetch_missing_wikisource_raw_captures(sections: list[dict[str, Any]]) -> None:
+    exportable_sections = [section for section in sections if section["status"] == "exportable_candidate"]
+    page_groups = _discover_wikisource_section_page_groups()
+    if len(exportable_sections) != len(page_groups):
+        raise ValueError(
+            f"Wikisource Shangshu section count mismatch: expected {len(exportable_sections)} exportable sections, found {len(page_groups)} page groups."
+        )
+    WIKISOURCE_RAW_ROOT.mkdir(parents=True, exist_ok=True)
+    for section_record, page_group in zip(exportable_sections, page_groups):
+        section_id = str(section_record["section_id"])
+        raw_capture_path = _wikisource_translation_raw_capture_path(section_id)
+        if raw_capture_path.exists():
+            continue
+        payload = {
+            "section_id": section_id,
+            "source_id": f"{section_id}__{WIKISOURCE_TRANSLATION_SOURCE_KEY}",
+            "source_name": WIKISOURCE_TRANSLATION_LABEL,
+            "source_url": f"{WIKISOURCE_BASE_URL}/wiki/{page_group[0]['path']}",
+            "access_date": WIKISOURCE_ACCESS_DATE,
+            "pages": [],
+        }
+        for page in page_group:
+            payload["pages"].append(
+                {
+                    "title": page["title"],
+                    "path": page["path"],
+                    "url": f"{WIKISOURCE_BASE_URL}/wiki/{page['path']}",
+                    "render_url": f"{WIKISOURCE_BASE_URL}/w/index.php?title={page['path']}&action=render",
+                    "html": _fetch_wikisource_html(page["path"]),
+                }
+            )
+        write_json(raw_capture_path, payload)
+
+
+def _extract_translation_blocks_from_rendered_html(rendered_html: str) -> list[str]:
+    extractor = _RenderedParagraphExtractor()
+    extractor.feed(rendered_html)
+    blocks: list[str] = []
+    started = False
+    for paragraph in extractor.paragraphs:
+        if not started:
+            if TRANSLATION_HEADING_RE.match(paragraph):
+                continue
+            if TRANSLATION_START_RE.match(paragraph):
+                started = True
+            else:
+                continue
+        blocks.append(paragraph)
+    return blocks
+
+
+def _load_wikisource_translation_blocks(section_id: str) -> tuple[list[str], dict[str, Any]]:
+    raw_capture_path = _wikisource_translation_raw_capture_path(section_id)
+    if not raw_capture_path.exists():
+        raise FileNotFoundError(f"Missing Shangshu Wikisource raw capture: {repo_relative(raw_capture_path)}")
+    payload = json.loads(raw_capture_path.read_text(encoding="utf-8"))
+    blocks: list[str] = []
+    for page in payload.get("pages", []):
+        blocks.extend(_extract_translation_blocks_from_rendered_html(str(page["html"])))
+    if not blocks:
+        raise ValueError(f"No Shangshu translation blocks extracted from {repo_relative(raw_capture_path)}")
+    return blocks, payload
 
 
 def _split_displayed_title(displayed_title: str) -> tuple[str, str | None]:
@@ -73,17 +267,13 @@ def _canonical_ref(section_record: dict[str, Any]) -> str:
 def _source_ids(section_id: str) -> tuple[str, str]:
     return (
         f"{section_id}__chinesenotes-shangshu-zh-{UPSTREAM_COMMIT_SHORT}",
-        f"{section_id}__legge-chinesenotes-shangshu-{UPSTREAM_COMMIT_SHORT}",
+        f"{section_id}__{WIKISOURCE_TRANSLATION_SOURCE_KEY}",
     )
 
 
 def _raw_capture_path(section_record: dict[str, Any]) -> Path:
     section_id = str(section_record["section_id"])
     return RAW_ROOT / f"{WORK_ID}__{section_id}__chinesenotes-{UPSTREAM_COMMIT_SHORT}__raw.txt"
-
-
-def _source_blob_url(section_record: dict[str, Any]) -> str:
-    return str(section_record["source_metadata"]["upstream_relative_path"])
 
 
 def _write_segments(
@@ -181,18 +371,27 @@ def _build_alignment_records(
     return records
 
 
-def _source_note(section_record: dict[str, Any], *, translation: bool) -> str:
+def _chinese_source_note(section_record: dict[str, Any]) -> str:
     metadata = section_record["source_metadata"]
-    notices = metadata["translator_notes"] if translation else metadata["rights_notes"]
-    notice_label = "Translator/source notes" if translation else "Rights/source notes"
-    translator_note = f" Translator note: {'; '.join(metadata['translator_notes'])}." if translation and metadata["translator_notes"] else ""
     return (
         f"ChineseNotes public-domain Shangshu mirror. Upstream repository: {UPSTREAM_REPOSITORY_URL} @ {UPSTREAM_COMMIT_SHA}. "
         f"Upstream relative path: {metadata['upstream_relative_path']}. Source SHA256: {metadata['source_sha256']}. "
         f"Review date: {REVIEW_DATE}. Repository-level licence basis: {metadata['license_basis']}. "
-        f"{notice_label} detected by parser: {'; '.join(notices) if notices else 'none'}."
-        f"{translator_note} Local raw capture: {repo_relative(_raw_capture_path(section_record))}. "
+        f"Rights/source notes detected by parser: {'; '.join(metadata['rights_notes']) if metadata['rights_notes'] else 'none'}. "
+        f"Local raw capture: {repo_relative(_raw_capture_path(section_record))}. "
         f"Local staging source: corpus/staging/chinesenotes/{WORK_ID}/sections.jsonl."
+    )
+
+
+def _translation_source_note(section_record: dict[str, Any], translation_payload: dict[str, Any]) -> str:
+    page_urls = [str(page["url"]) for page in translation_payload.get("pages", [])]
+    metadata = section_record["source_metadata"]
+    return (
+        f"{WIKISOURCE_TRANSLATION_LABEL}. Accessed {WIKISOURCE_ACCESS_DATE}. "
+        f"Page witness count: {len(page_urls)}. Witness pages: {'; '.join(page_urls)}. "
+        f"Translator/source notes detected in ChineseNotes staging and excluded from export: "
+        f"{'; '.join(metadata['translator_notes']) if metadata['translator_notes'] else 'none'}. "
+        f"Local raw capture: {repo_relative(_wikisource_translation_raw_capture_path(str(section_record['section_id'])))}."
     )
 
 
@@ -203,6 +402,7 @@ def _work_source_records(
     target_source_id: str | None,
     chinese_processed_path: Path,
     english_processed_path: Path | None,
+    translation_payload: dict[str, Any] | None,
 ) -> list[dict[str, Any]]:
     metadata = section_record["source_metadata"]
     source_url = f"{UPSTREAM_REPOSITORY_URL}/blob/{UPSTREAM_COMMIT_SHA}/{metadata['upstream_relative_path']}"
@@ -219,10 +419,11 @@ def _work_source_records(
             "author_or_translator_ids": ["shangshu-transmitters"],
             "raw_path": repo_relative(_raw_capture_path(section_record)),
             "processed_path": repo_relative(chinese_processed_path),
-            "notes": _source_note(section_record, translation=False),
+            "notes": _chinese_source_note(section_record),
         }
     ]
-    if target_source_id and english_processed_path:
+    if target_source_id and english_processed_path and translation_payload:
+        translation_pages = translation_payload.get("pages", [])
         records.append(
             {
                 "work_id": WORK_ID,
@@ -230,13 +431,13 @@ def _work_source_records(
                 "source_id": target_source_id,
                 "language_code": "en",
                 "source_kind": "translation",
-                "citation": f"James Legge translation for {_canonical_ref(section_record)}, mirrored in ChineseNotes and reviewed {REVIEW_DATE}.",
-                "source_url": source_url,
+                "citation": f"James Legge translation for {_canonical_ref(section_record)} in Sacred Books of the East, Volume 3, accessed via Wikisource on {WIKISOURCE_ACCESS_DATE}.",
+                "source_url": str(translation_pages[0]["url"]),
                 "rights_status": "public_domain",
                 "author_or_translator_ids": ["james-legge"],
-                "raw_path": repo_relative(_raw_capture_path(section_record)),
+                "raw_path": repo_relative(_wikisource_translation_raw_capture_path(str(section_record["section_id"]))),
                 "processed_path": repo_relative(english_processed_path),
-                "notes": _source_note(section_record, translation=True),
+                "notes": _translation_source_note(section_record, translation_payload),
             }
         )
     return records
@@ -269,8 +470,8 @@ def _inventory_entry(section_record: dict[str, Any], *, decision: str, reason: s
         "text_status": "extant",
         "coverage_status": "complete" if section_record["status"] == "exportable_candidate" else "partial",
         "zh_page_url": f"{UPSTREAM_REPOSITORY_URL}/blob/{UPSTREAM_COMMIT_SHA}/{metadata['upstream_relative_path']}",
-        "english_witness_status": "verified_transcribed_text" if decision == "export" else "missing_translation",
-        "verification_status": "verified_transcribed_text" if decision == "export" else "metadata_only",
+        "english_witness_status": "verified_rendered_transcription" if decision == "export" else "missing_translation",
+        "verification_status": "verified_rendered_transcription" if decision == "export" else "metadata_only",
         "source_volume": chinese_title.split()[0] if chinese_title else CANONICAL_TITLE,
         "translator": "James Legge" if decision == "export" else None,
         "decision": decision,
@@ -290,6 +491,7 @@ def _ledger_entry(
     target_source_id: str | None,
     chinese_processed_path: Path,
     english_processed_path: Path | None,
+    translation_payload: dict[str, Any] | None,
     alignment: dict[str, Any] | None,
     exact_alignment_count: int,
     reason: str | None,
@@ -302,6 +504,7 @@ def _ledger_entry(
         "canonical_ref": _canonical_ref(section_record),
         "source_volume": chinese_title.split()[0] if chinese_title else CANONICAL_TITLE,
         "source_page_or_anchor": f"{UPSTREAM_REPOSITORY_URL}/blob/{UPSTREAM_COMMIT_SHA}/{metadata['upstream_relative_path']}",
+        "translation_source_pages": [str(page["url"]) for page in (translation_payload or {}).get("pages", [])],
         "raw_source_path": repo_relative(_raw_capture_path(section_record)),
         "processed_source_path": repo_relative(chinese_processed_path),
         "processed_translation_path": repo_relative(english_processed_path) if english_processed_path else None,
@@ -315,9 +518,14 @@ def _ledger_entry(
         "translator_or_source_notes": metadata["translator_notes"],
         "local_staging_path": f"corpus/staging/chinesenotes/{WORK_ID}/sections.jsonl",
         "local_raw_capture_path": repo_relative(_raw_capture_path(section_record)),
-        "verification_status": "verified_transcribed_text" if decision == "export" else "metadata_only",
-        "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-        "extraction_method": "chinesenotes_public_domain_mirror",
+        "translation_raw_capture_path": (
+            repo_relative(_wikisource_translation_raw_capture_path(str(section_record["section_id"])))
+            if translation_payload
+            else None
+        ),
+        "verification_status": "verified_rendered_transcription" if decision == "export" else "metadata_only",
+        "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+        "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
         "alignment_status": "complete" if decision == "export" else "not_exported",
         "alignment_granularity": alignment["alignment_granularity"] if alignment else None,
         "alignment_strategy": alignment["strategy"] if alignment else None,
@@ -340,10 +548,9 @@ def _ledger_entry(
 
 
 def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
+    sections, chinese_blocks_by_section, staged_english_blocks_by_section = _load_staged_sections()
     if not skip_fetch:
-        raise ValueError("bootstrap_shangshu_corpus.py only supports --skip-fetch; use staged ChineseNotes inputs.")
-
-    sections, chinese_blocks_by_section, english_blocks_by_section = _load_staged_sections()
+        _fetch_missing_wikisource_raw_captures(sections)
     overrides = load_alignment_overrides(OVERRIDES_PATH)
 
     manifest_sections: list[dict[str, Any]] = []
@@ -363,6 +570,9 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
     alignment_granularity_counts: dict[str, int] = {}
     blocked_sections: list[dict[str, Any]] = []
     fallback_sections: list[dict[str, Any]] = []
+    pre_repair_corruption_issue_count = 0
+    remaining_corruption_issue_count = 0
+    repaired_corruption_issue_count = 0
 
     for section_record in sorted(sections, key=lambda item: int(item["source_row_index"])):
         section_id = str(section_record["section_id"])
@@ -389,7 +599,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
         canonical_ref = _canonical_ref(section_record)
         sort_key = _section_sort_key(section_record)
         chinese_blocks = chinese_blocks_by_section.get(section_id, [])
-        english_blocks = english_blocks_by_section.get(section_id, [])
+        staged_english_blocks = staged_english_blocks_by_section.get(section_id, [])
         source_id, target_source_id = _source_ids(section_id)
         chinese_processed_path = CHINESE_OUTPUT_ROOT / f"{WORK_ID}__{section_id}__{source_id.split('__', 1)[1]}__segments.jsonl"
         english_processed_path = TRANSLATION_OUTPUT_ROOT / f"{WORK_ID}__{section_id}__{target_source_id.split('__', 1)[1]}__segments.jsonl"
@@ -401,6 +611,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
         decision = "export"
         reason: str | None = None
         alignment: dict[str, Any] | None = None
+        translation_payload: dict[str, Any] | None = None
         chinese_segments = _write_segments(
             work_id=WORK_ID,
             section_id=section_id,
@@ -414,6 +625,12 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
         exact_count = 0
 
         if section_record["status"] == "exportable_candidate":
+            english_blocks, translation_payload = _load_wikisource_translation_blocks(section_id)
+            staged_corruption_issue_count = sum(len(detect_probable_ocr_corruption(block)) for block in staged_english_blocks)
+            pre_repair_corruption_issue_count += staged_corruption_issue_count
+            clean_corruption_issue_count = sum(len(detect_probable_ocr_corruption(block)) for block in english_blocks)
+            remaining_corruption_issue_count += clean_corruption_issue_count
+            repaired_corruption_issue_count += max(staged_corruption_issue_count - clean_corruption_issue_count, 0)
             english_segments = _write_segments(
                 work_id=WORK_ID,
                 section_id=section_id,
@@ -478,6 +695,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
                 target_source_id=target_source_id if decision == "export" else None,
                 chinese_processed_path=chinese_processed_path,
                 english_processed_path=english_processed_path if decision == "export" else None,
+                translation_payload=translation_payload if decision == "export" else None,
             )
         )
         inventory_units.append(_inventory_entry(section_record, decision=decision, reason=reason))
@@ -489,6 +707,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
                 target_source_id=target_source_id if decision == "export" else None,
                 chinese_processed_path=chinese_processed_path,
                 english_processed_path=english_processed_path if decision == "export" else None,
+                translation_payload=translation_payload if decision == "export" else None,
                 alignment=alignment,
                 exact_alignment_count=exact_count,
                 reason=reason,
@@ -500,7 +719,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
                 "section_number": int(section_record["source_row_index"]),
                 "title": label,
                 "chinese_block_count": len(chinese_blocks),
-                "english_block_count": len(english_blocks),
+                "english_block_count": len(english_segments or []),
                 "alignment_granularity": alignment["alignment_granularity"] if alignment else None,
                 "exact_alignment_count": exact_count,
                 "commentary_present_and_excluded": bool(section_record["commentary_present"]),
@@ -510,7 +729,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
                 "curated_override_used": bool(alignment and alignment["curated_override_used"]),
                 "decision": decision,
                 "blocking_reason": reason,
-                "hard_failure": False,
+                "hard_failure": bool(alignment and alignment["quality_issues"]),
             }
         )
 
@@ -519,7 +738,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
         "work_status": "complete",
         "source_pair_defaults": {
             "source_id": f"chinesenotes-shangshu-zh-{UPSTREAM_COMMIT_SHORT}",
-            "target_source_id": f"legge-chinesenotes-shangshu-{UPSTREAM_COMMIT_SHORT}",
+            "target_source_id": WIKISOURCE_TRANSLATION_SOURCE_KEY,
             "source_language": "zh-Hant",
             "target_language": "en",
         },
@@ -555,7 +774,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
             "rights_policy": "public_domain_only_for_export_with_explicit_chinesenotes_provenance",
             "allowed_export_rights_statuses": ["public_domain"],
             "section_group_export_policy": "forbidden",
-            "completion_definition": "A Shangshu section is complete only when the staged ChineseNotes witness is parsed into clean Chinese and English logical blocks, commentary/headings/notices are excluded, monotonic grouped alignment is attempted before any coarse fallback, and any non-exportable section carries an explicit blocker reason.",
+            "completion_definition": "A Shangshu section is complete only when the ChineseNotes Chinese witness is paired with a clean public-domain English witness, commentary/headings/notices are excluded, monotonic grouped alignment is attempted before any coarse fallback, OCR/corruption QC reports zero hard failures, and any non-exportable section carries an explicit blocker reason.",
         },
         "romanization_aliases": romanization_aliases,
         "sections": manifest_sections,
@@ -566,7 +785,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
                 "work_id": WORK_ID,
                 "stage": "bootstrap",
                 "status": "completed",
-                "notes": "Promoted Shangshu from staged ChineseNotes logical-block parses into the active corpus.",
+                "notes": "Rebuilt Shangshu with ChineseNotes Chinese text plus clean Wikisource-rendered SBE English witness; corrupted ChineseNotes English blocks remain staging-only.",
             }
         ],
     }
@@ -577,7 +796,8 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
     alignment_qc_report = {
         "work_id": WORK_ID,
         "summary": {
-            "active_section_count": len(manifest_sections),
+            "total_section_count": len(manifest_sections),
+            "active_section_count": len(manifest_sections) - len(blocked_sections),
             "exportable_section_count": len(manifest_sections) - len(blocked_sections),
             "exact_alignment_count": exact_alignment_count,
             "alignment_granularity_counts": alignment_granularity_counts,
@@ -585,6 +805,11 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
             "curated_override_section_count": len(curated_override_section_ids),
             "fallback_section_count": len(fallback_sections),
             "blocked_section_count": len(blocked_sections),
+            "english_witness": WIKISOURCE_TRANSLATION_LABEL,
+            "work_state": "active",
+            "pre_repair_corruption_issue_count": pre_repair_corruption_issue_count,
+            "corrected_corruption_issue_count": repaired_corruption_issue_count,
+            "remaining_corruption_issue_count": remaining_corruption_issue_count,
             "hard_failure_count": 0,
         },
         "curated_override_sections": curated_override_section_ids,
@@ -609,6 +834,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
         "exact_alignment_count": exact_alignment_count,
         "alignment_granularity_counts": alignment_granularity_counts,
         "curated_override_sections": len(curated_override_section_ids),
+        "english_witness": WIKISOURCE_TRANSLATION_LABEL,
     }
 
 

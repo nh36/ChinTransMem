@@ -1185,7 +1185,7 @@
     "label": "商書 太甲中 Shang Shu - Tai Jia II",
     "canonical_ref": "尚書·商書 太甲中",
     "sort_key": "017",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-018-shang-shu-tai-jia-iii",
@@ -1221,7 +1221,7 @@
     "label": "商書 盤庚中 Shang Shu - Pan Geng II",
     "canonical_ref": "尚書·商書 盤庚中",
     "sort_key": "021",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-022-shang-shu-pan-geng-iii",
@@ -1230,7 +1230,7 @@
     "label": "商書 盤庚下 Shang Shu - Pan Geng III",
     "canonical_ref": "尚書·商書 盤庚下",
     "sort_key": "022",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
@@ -1239,7 +1239,7 @@
     "label": "商書 說命上（僞） Shang Shu - Charge to Yue I (forged)",
     "canonical_ref": "尚書·商書 說命上（僞）",
     "sort_key": "023",
-    "notes": "Export uses monotonic grouped block alignment."
+    "notes": "Export uses exact block alignment."
   },
   {
     "section_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
@@ -1257,7 +1257,7 @@
     "label": "商書 說命下（僞） Shang Shu - Charge to Yue III (forged)",
     "canonical_ref": "尚書·商書 說命下（僞）",
     "sort_key": "025",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
@@ -1266,7 +1266,7 @@
     "label": "商書 高宗肜日 Shang Shu - Day of the Supplementary Sacrifice to Gao",
     "canonical_ref": "尚書·商書 高宗肜日",
     "sort_key": "026",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
@@ -1275,7 +1275,7 @@
     "label": "商書 西伯戡黎 Shang Shu - Chief of the west's Conquest of Li",
     "canonical_ref": "尚書·商書 西伯戡黎",
     "sort_key": "027",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-028-shang-shu-count-of-wei",
@@ -1284,7 +1284,7 @@
     "label": "商書 微子 Shang Shu - Count of Wei",
     "canonical_ref": "尚書·商書 微子",
     "sort_key": "028",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-029-zhou-shu-great-declaration-i",
@@ -1428,7 +1428,7 @@
     "label": "周書 多士 Zhou Shu - Numerous Officers",
     "canonical_ref": "尚書·周書 多士",
     "sort_key": "044",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-045-zhou-shu-against-luxurious-ease",
@@ -1455,7 +1455,7 @@
     "label": "周書 蔡仲之命 Zhou Shu - Charge to Zhong of Cai",
     "canonical_ref": "尚書·周書 蔡仲之命",
     "sort_key": "047",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-048-zhou-shu-numerous-regions",
@@ -1518,7 +1518,7 @@
     "label": "周書 畢命 Zhou Shu - Charge to the Duke of Bi",
     "canonical_ref": "尚書·周書 畢命",
     "sort_key": "054",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-055-zhou-shu-kun-ya",
@@ -1527,7 +1527,7 @@
     "label": "周書 君牙 Zhou Shu - Kun-ya",
     "canonical_ref": "尚書·周書 君牙",
     "sort_key": "055",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-056-zhou-shu-charge-to-jiong",
@@ -1563,7 +1563,7 @@
     "label": "周書 費誓 Zhou Shu - Speech at Bi",
     "canonical_ref": "尚書·周書 費誓",
     "sort_key": "059",
-    "notes": "Export uses exact block alignment."
+    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",

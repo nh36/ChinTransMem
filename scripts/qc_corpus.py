@@ -19,6 +19,11 @@ from common import (
     sha256_file,
     write_json,
 )
+from text_quality import (
+    detect_probable_ocr_corruption,
+    has_probable_leading_fragment,
+    has_probable_trailing_fragment,
+)
 
 CJK_RE = re.compile(r"[\u3400-\u9fff]")
 PARENTHETICAL_HEADING_RE = re.compile(r"^\([^()]{1,120}\)$")
@@ -39,6 +44,15 @@ LAOZI_NOTICE_MARKERS = (
     "legge 1891",
 )
 ENGLISH_CLAUSE_MARKER_RE = re.compile(r"[.;?!:]")
+STRUCTURAL_HEADING_RE = re.compile(r"^(?:Book|PART|Section)\b")
+KNOWN_SHANGSHU_BAD_FORMS = (
+    "inteuigent",
+    "without-effprt",
+    "cour- te-qus",
+    "rea,ched",
+    "black-liaired",
+    "1 can",
+)
 
 
 def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
@@ -48,21 +62,24 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
         "false_precision_multi_clause_targets": [],
         "question_punctuation_mismatches": [],
         "suspicious_length_imbalance_rows": [],
+        "non_grouped_segmentation_mismatch_rows": [],
     }
-    if work_id != "laozi":
+    if work_id not in {"laozi", "shangshu"}:
         return {**issues, "hard_failure_count": 0}
     for row in rows:
         source_text = str(row.get("chinese_text", "")).strip()
         translation_text = str(row.get("translation_text", "")).strip()
+        normalized_translation = re.sub(r"^\d+\.\s*", "", translation_text)
         source_segment_count = int(row.get("source_segment_count", 0) or 0)
         target_segment_count = int(row.get("target_segment_count", 0) or 0)
+        alignment_granularity = str(row.get("alignment_granularity", "") or "")
         if (
             source_segment_count == 1
             and target_segment_count == 1
-            and len(ENGLISH_CLAUSE_MARKER_RE.findall(translation_text)) >= 2
+            and len(ENGLISH_CLAUSE_MARKER_RE.findall(normalized_translation)) >= (2 if work_id == "laozi" else 3)
             and len(re.findall(r"[。；！？]", source_text)) <= 1
-            and len(re.findall(r"[A-Za-z']+", translation_text)) >= 16
-            and len(CJK_RE.findall(source_text)) <= 12
+            and len(re.findall(r"[A-Za-z']+", normalized_translation)) >= 16
+            and len(CJK_RE.findall(source_text)) <= (12 if work_id == "laozi" else 16)
         ):
             issues["false_precision_multi_clause_targets"].append(str(row["alignment_id"]))
         if source_segment_count == 1 and target_segment_count == 1 and (
@@ -72,10 +89,12 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
         if (
             source_segment_count == 1
             and target_segment_count == 1
-            and len(re.findall(r"[A-Za-z']+", translation_text)) >= 28
-            and len(CJK_RE.findall(source_text)) <= 8
+            and len(re.findall(r"[A-Za-z']+", translation_text)) >= (28 if work_id == "laozi" else 40)
+            and len(CJK_RE.findall(source_text)) <= (8 if work_id == "laozi" else 18)
         ):
             issues["suspicious_length_imbalance_rows"].append(str(row["alignment_id"]))
+        if alignment_granularity != "grouped" and source_segment_count != target_segment_count:
+            issues["non_grouped_segmentation_mismatch_rows"].append(str(row["alignment_id"]))
     hard_failure_count = sum(1 for value in issues.values() if value)
     return {**issues, "hard_failure_count": hard_failure_count}
 
@@ -90,9 +109,13 @@ def run_text_integrity_checks(work_id: str) -> dict[str, object]:
         "translation_with_notice_sections": set(),
         "translation_with_commentary_sections": set(),
         "translation_with_heading_sections": set(),
+        "translation_with_ocr_corruption_rows": [],
+        "translation_with_truncated_fragment_rows": [],
+        "translation_with_known_bad_forms_rows": [],
     }
-    for row in rows:
+    for index, row in enumerate(rows):
         section_id = str(row["section_id"])
+        alignment_id = str(row["alignment_id"])
         source_text = str(row.get("chinese_text", "")).strip()
         translation_text = str(row.get("translation_text", "")).strip()
         lowered = translation_text.lower()
@@ -104,6 +127,8 @@ def run_text_integrity_checks(work_id: str) -> dict[str, object]:
             issues["translation_with_chinese_sections"].add(section_id)
         if any(marker in lowered for marker in GENERIC_NOTICE_MARKERS):
             issues["translation_with_notice_sections"].add(section_id)
+        if STRUCTURAL_HEADING_RE.match(translation_text):
+            issues["translation_with_heading_sections"].add(section_id)
         if work_id == "laozi":
             if any(marker in translation_text for marker in LAOZI_COMMENTARY_MARKERS):
                 issues["translation_with_commentary_sections"].add(section_id)
@@ -111,6 +136,19 @@ def run_text_integrity_checks(work_id: str) -> dict[str, object]:
                 issues["translation_with_notice_sections"].add(section_id)
             if PARENTHETICAL_HEADING_RE.fullmatch(translation_text):
                 issues["translation_with_heading_sections"].add(section_id)
+        if work_id == "shangshu":
+            if detect_probable_ocr_corruption(translation_text):
+                issues["translation_with_ocr_corruption_rows"].append(alignment_id)
+            if any(marker in lowered for marker in KNOWN_SHANGSHU_BAD_FORMS):
+                issues["translation_with_known_bad_forms_rows"].append(alignment_id)
+            next_row = rows[index + 1] if index + 1 < len(rows) else None
+            if (
+                next_row
+                and str(next_row["section_id"]) == section_id
+                and has_probable_trailing_fragment(translation_text)
+                and has_probable_leading_fragment(str(next_row.get("translation_text", "")).strip())
+            ):
+                issues["translation_with_truncated_fragment_rows"].append(alignment_id)
     issue_lists = {key: sorted(value) for key, value in issues.items()}
     hard_failure_count = sum(1 for value in issue_lists.values() if value)
     return {

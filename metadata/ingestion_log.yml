@@ -386,7 +386,7 @@
     "work_id": "shangshu",
     "stage": "bootstrap",
     "status": "completed",
-    "notes": "Promoted Shangshu from staged ChineseNotes logical-block parses into the active corpus."
+    "notes": "Rebuilt Shangshu with ChineseNotes Chinese text plus clean Wikisource-rendered SBE English witness; corrupted ChineseNotes English blocks remain staging-only."
   },
   {
     "run_id": "bootstrap-guofeng-zhounan-001-guanju-20260530",

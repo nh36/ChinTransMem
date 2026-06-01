@@ -7,19 +7,19 @@
       <prop type="x-section-id">shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao</prop>
       <prop type="x-section-unit">section</prop>
       <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
       <prop type="x-chinese-ref">尚書·商書 高宗肜日 [1]</prop>
-      <prop type="x-translation-ref">尚書·商書 高宗肜日 [1]</prop>
+      <prop type="x-translation-ref">尚書·商書 高宗肜日 [1] - 尚書·商書 高宗肜日 [2]</prop>
       <tuv xml:lang="zh-Hant">
         <seg>高宗肜日，越有雊雉。祖己曰：「惟先格王，正厥事。」乃訓于王曰：「惟天監下民，典厥義。降年有永有不永；非天夭民，民中絕命。民有不若德，不聽罪；天既孚命正厥德，乃曰：『其如臺？』嗚呼！王司敬民；罔非天胤，典祀無豐于昵。」</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>On the day of the supplementary sacrifice of Gao Zong, there appeared a crowing pheasant. Zu Ji said, 'To rectify this affair, the king must first be corrected.' He delivered accordingly a lesson to the king, saying, 'In its inspection of men below, Heaven's first consideration is of their righteousness, and it bestows on them (accordingly) length of years or the contrary. It is not Heaven that cuts short men's lives; they bring them to an end themselves. Some men who have not complied with virtue will yet not acknowledge their offences, and when Heaven has by evident tokens charged them to correct their conduct, they still say, "What are these things to us?" Oh! our Majesty's business is to care reverently for the people. And all (your ancestors) were the heirs of (the kingdom by the gift of Heaven; in attending to the sacrifices (to them), be not so excessive in those to your father.'</seg>
+        <seg>On the day of the supplementary sacrifice of Kâo Zung, there appeared a crowing pheasant. Zû Kî said, 'To rectify this affair, the king must first be corrected.' He delivered accordingly a lesson to the king, saying, 'In its inspection of men below, Heaven's first consideration is of their righteousness, and it bestows on them (accordingly) length of years or the contrary. It is not Heaven that cuts short men's lives; they bring them to an end themselves. Some men who have not complied with virtue will yet not acknowledge their offences, and when Heaven has by evident tokens charged them to correct their conduct, they still say, "What are these things to us?" 'Oh! your Majesty's business is to care reverently for the people. And all (your ancestors) were the heirs of (the kingdom by the gift of) Heaven;—in attending to the sacrifices (to them), be not so excessive in those to your father.'</seg>
       </tuv>
     </tu>
   </body>

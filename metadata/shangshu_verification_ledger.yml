@@ -6,9 +6,12 @@
       "canonical_ref": "尚書·虞書 堯典",
       "source_volume": "虞書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu001.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_1/Book_1"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-001-yu-shu-canon-of-yao__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-001-yu-shu-canon-of-yao__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-001-yu-shu-canon-of-yao__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu001.txt",
@@ -24,9 +27,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-001-yu-shu-canon-of-yao__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -44,7 +48,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-001-yu-shu-canon-of-yao__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-001-yu-shu-canon-of-yao__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-002-yu-shu-dan-zhu-forged",
@@ -52,6 +56,7 @@
       "canonical_ref": "尚書·虞書 丹朱（伪）",
       "source_volume": "虞書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu002.txt",
+      "translation_source_pages": [],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-002-yu-shu-dan-zhu-forged__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-002-yu-shu-dan-zhu-forged__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
       "processed_translation_path": null,
@@ -67,9 +72,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-002-yu-shu-dan-zhu-forged__chinesenotes-1f6b1d3__raw.txt",
+      "translation_raw_capture_path": null,
       "verification_status": "metadata_only",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "not_exported",
       "alignment_granularity": null,
       "alignment_strategy": null,
@@ -95,9 +101,12 @@
       "canonical_ref": "尚書·虞書 舜典",
       "source_volume": "虞書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu003.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_2/Book_1"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-003-yu-shu-canon-of-shun__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-003-yu-shu-canon-of-shun__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-003-yu-shu-canon-of-shun__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-003-yu-shu-canon-of-shun__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu003.txt",
@@ -113,9 +122,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-003-yu-shu-canon-of-shun__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-003-yu-shu-canon-of-shun__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -133,7 +143,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-003-yu-shu-canon-of-shun__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-003-yu-shu-canon-of-shun__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-003-yu-shu-canon-of-shun__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
@@ -141,9 +151,12 @@
       "canonical_ref": "尚書·虞書 大禹謨",
       "source_volume": "虞書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu004.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_2/Book_2"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-004-yu-shu-counsels-of-the-great-yu__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-004-yu-shu-counsels-of-the-great-yu__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-004-yu-shu-counsels-of-the-great-yu__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-004-yu-shu-counsels-of-the-great-yu__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu004.txt",
@@ -159,14 +172,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-004-yu-shu-counsels-of-the-great-yu__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-004-yu-shu-counsels-of-the-great-yu__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 4,
+      "exact_alignment_count": 5,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -179,7 +193,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-004-yu-shu-counsels-of-the-great-yu__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-004-yu-shu-counsels-of-the-great-yu__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-004-yu-shu-counsels-of-the-great-yu__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao",
@@ -187,9 +201,12 @@
       "canonical_ref": "尚書·虞書 皐陶謨",
       "source_volume": "虞書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu005.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_2/Book_3"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-005-yu-shu-counsels-of-the-gao-yao__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-005-yu-shu-counsels-of-the-gao-yao__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-005-yu-shu-counsels-of-the-gao-yao__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-005-yu-shu-counsels-of-the-gao-yao__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu005.txt",
@@ -205,9 +222,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-005-yu-shu-counsels-of-the-gao-yao__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-005-yu-shu-counsels-of-the-gao-yao__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -225,7 +243,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-006-yu-shu-yi-and-ji",
@@ -233,9 +251,12 @@
       "canonical_ref": "尚書·虞書 益稷",
       "source_volume": "虞書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu006.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_2/Book_4"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-006-yu-shu-yi-and-ji__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-006-yu-shu-yi-and-ji__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-006-yu-shu-yi-and-ji__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-006-yu-shu-yi-and-ji__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu006.txt",
@@ -251,9 +272,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-006-yu-shu-yi-and-ji__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-006-yu-shu-yi-and-ji__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -271,7 +293,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-006-yu-shu-yi-and-ji__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-006-yu-shu-yi-and-ji__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-006-yu-shu-yi-and-ji__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-007-xia-shu-tribute-of-yu",
@@ -279,9 +301,13 @@
       "canonical_ref": "尚書·夏書 禹貢",
       "source_volume": "夏書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu007.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_3/Book_1/Section_1",
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_3/Book_1/Section_2"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-007-xia-shu-tribute-of-yu__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-007-xia-shu-tribute-of-yu__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-007-xia-shu-tribute-of-yu__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-007-xia-shu-tribute-of-yu__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu007.txt",
@@ -297,9 +323,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-007-xia-shu-tribute-of-yu__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-007-xia-shu-tribute-of-yu__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -317,7 +344,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-007-xia-shu-tribute-of-yu__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-007-xia-shu-tribute-of-yu__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-007-xia-shu-tribute-of-yu__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-008-xia-shu-yu-shi-forged",
@@ -325,6 +352,7 @@
       "canonical_ref": "尚書·夏書 禹誓（伪）",
       "source_volume": "夏書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu008.txt",
+      "translation_source_pages": [],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-008-xia-shu-yu-shi-forged__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-008-xia-shu-yu-shi-forged__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
       "processed_translation_path": null,
@@ -342,9 +370,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-008-xia-shu-yu-shi-forged__chinesenotes-1f6b1d3__raw.txt",
+      "translation_raw_capture_path": null,
       "verification_status": "metadata_only",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "not_exported",
       "alignment_granularity": null,
       "alignment_strategy": null,
@@ -370,9 +399,12 @@
       "canonical_ref": "尚書·夏書 甘誓",
       "source_volume": "夏書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu009.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_3/Book_2"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-009-xia-shu-speech-at-gan__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-009-xia-shu-speech-at-gan__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-009-xia-shu-speech-at-gan__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-009-xia-shu-speech-at-gan__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu009.txt",
@@ -388,9 +420,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-009-xia-shu-speech-at-gan__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-009-xia-shu-speech-at-gan__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -408,7 +441,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-009-xia-shu-speech-at-gan__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-009-xia-shu-speech-at-gan__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-009-xia-shu-speech-at-gan__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
@@ -416,9 +449,12 @@
       "canonical_ref": "尚書·夏書 五子之歌",
       "source_volume": "夏書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu010.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_3/Book_3"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-010-xia-shu-songs-of-the-five-sons__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-010-xia-shu-songs-of-the-five-sons__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-010-xia-shu-songs-of-the-five-sons__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-010-xia-shu-songs-of-the-five-sons__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu010.txt",
@@ -434,14 +470,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-010-xia-shu-songs-of-the-five-sons__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-010-xia-shu-songs-of-the-five-sons__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 4,
+      "exact_alignment_count": 2,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -454,7 +491,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-010-xia-shu-songs-of-the-five-sons__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-010-xia-shu-songs-of-the-five-sons__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-010-xia-shu-songs-of-the-five-sons__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-011-xia-shu-punitive-expedition-of-yin",
@@ -462,9 +499,12 @@
       "canonical_ref": "尚書·夏書 胤征",
       "source_volume": "夏書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu011.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_3/Book_4"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-011-xia-shu-punitive-expedition-of-yin__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-011-xia-shu-punitive-expedition-of-yin__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-011-xia-shu-punitive-expedition-of-yin__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-011-xia-shu-punitive-expedition-of-yin__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu011.txt",
@@ -480,9 +520,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-011-xia-shu-punitive-expedition-of-yin__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-011-xia-shu-punitive-expedition-of-yin__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -500,7 +541,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-011-xia-shu-punitive-expedition-of-yin__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-011-xia-shu-punitive-expedition-of-yin__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-011-xia-shu-punitive-expedition-of-yin__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-012-shang-shu-speech-of-tang",
@@ -508,9 +549,12 @@
       "canonical_ref": "尚書·商書 湯誓",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu012.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_1"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-012-shang-shu-speech-of-tang__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-012-shang-shu-speech-of-tang__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-012-shang-shu-speech-of-tang__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-012-shang-shu-speech-of-tang__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu012.txt",
@@ -526,9 +570,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-012-shang-shu-speech-of-tang__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-012-shang-shu-speech-of-tang__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -546,7 +591,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-012-shang-shu-speech-of-tang__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-012-shang-shu-speech-of-tang__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-012-shang-shu-speech-of-tang__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-013-shang-shu-announcement-of-zhong-hui",
@@ -554,9 +599,12 @@
       "canonical_ref": "尚書·商書 仲虺之誥",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu013.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_2"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-013-shang-shu-announcement-of-zhong-hui__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-013-shang-shu-announcement-of-zhong-hui__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-013-shang-shu-announcement-of-zhong-hui__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-013-shang-shu-announcement-of-zhong-hui__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu013.txt",
@@ -572,9 +620,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-013-shang-shu-announcement-of-zhong-hui__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-013-shang-shu-announcement-of-zhong-hui__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "block",
       "alignment_strategy": "exact_block_alignment",
@@ -592,7 +641,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-013-shang-shu-announcement-of-zhong-hui__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-013-shang-shu-announcement-of-zhong-hui__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-013-shang-shu-announcement-of-zhong-hui__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-014-shang-shu-announcement-of-tang",
@@ -600,9 +649,12 @@
       "canonical_ref": "尚書·商書 湯誥",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu014.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_3"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-014-shang-shu-announcement-of-tang__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-014-shang-shu-announcement-of-tang__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-014-shang-shu-announcement-of-tang__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-014-shang-shu-announcement-of-tang__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu014.txt",
@@ -618,9 +670,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-014-shang-shu-announcement-of-tang__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-014-shang-shu-announcement-of-tang__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -638,7 +691,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-014-shang-shu-announcement-of-tang__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-014-shang-shu-announcement-of-tang__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-014-shang-shu-announcement-of-tang__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-015-shang-shu-instructions-of-yi",
@@ -646,9 +699,12 @@
       "canonical_ref": "尚書·商書 伊訓",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu015.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_4"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-015-shang-shu-instructions-of-yi__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-015-shang-shu-instructions-of-yi__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-015-shang-shu-instructions-of-yi__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-015-shang-shu-instructions-of-yi__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu015.txt",
@@ -664,9 +720,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-015-shang-shu-instructions-of-yi__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-015-shang-shu-instructions-of-yi__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -684,7 +741,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-015-shang-shu-instructions-of-yi__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-015-shang-shu-instructions-of-yi__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-015-shang-shu-instructions-of-yi__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-016-shang-shu-tai-jia-i",
@@ -692,9 +749,12 @@
       "canonical_ref": "尚書·商書 太甲上",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu016.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_5/Section_1"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-016-shang-shu-tai-jia-i__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-016-shang-shu-tai-jia-i__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-016-shang-shu-tai-jia-i__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-016-shang-shu-tai-jia-i__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu016.txt",
@@ -710,9 +770,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-016-shang-shu-tai-jia-i__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-016-shang-shu-tai-jia-i__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -730,7 +791,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-016-shang-shu-tai-jia-i__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-016-shang-shu-tai-jia-i__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-016-shang-shu-tai-jia-i__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-017-shang-shu-tai-jia-ii",
@@ -738,9 +799,12 @@
       "canonical_ref": "尚書·商書 太甲中",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu017.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_5/Section_2"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-017-shang-shu-tai-jia-ii__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-017-shang-shu-tai-jia-ii__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-017-shang-shu-tai-jia-ii__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-017-shang-shu-tai-jia-ii__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu017.txt",
@@ -756,14 +820,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-017-shang-shu-tai-jia-ii__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-017-shang-shu-tai-jia-ii__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 3,
+      "exact_alignment_count": 1,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -776,7 +841,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-017-shang-shu-tai-jia-ii__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-017-shang-shu-tai-jia-ii__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-017-shang-shu-tai-jia-ii__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-018-shang-shu-tai-jia-iii",
@@ -784,9 +849,12 @@
       "canonical_ref": "尚書·商書 太甲下",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu018.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_5/Section_3"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-018-shang-shu-tai-jia-iii__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-018-shang-shu-tai-jia-iii__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-018-shang-shu-tai-jia-iii__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-018-shang-shu-tai-jia-iii__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu018.txt",
@@ -802,9 +870,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-018-shang-shu-tai-jia-iii__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-018-shang-shu-tai-jia-iii__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -822,7 +891,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-018-shang-shu-tai-jia-iii__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-018-shang-shu-tai-jia-iii__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-018-shang-shu-tai-jia-iii__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
@@ -830,9 +899,12 @@
       "canonical_ref": "尚書·商書 咸有一德",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu019.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_6"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-019-shang-shu-common-possession-of-pure-virtue__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-019-shang-shu-common-possession-of-pure-virtue__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-019-shang-shu-common-possession-of-pure-virtue__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-019-shang-shu-common-possession-of-pure-virtue__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu019.txt",
@@ -848,9 +920,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-019-shang-shu-common-possession-of-pure-virtue__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-019-shang-shu-common-possession-of-pure-virtue__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -868,7 +941,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-020-shang-shu-pan-geng-i",
@@ -876,9 +949,12 @@
       "canonical_ref": "尚書·商書 盤庚上",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu020.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_7/Section_1"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-020-shang-shu-pan-geng-i__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-020-shang-shu-pan-geng-i__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-020-shang-shu-pan-geng-i__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-020-shang-shu-pan-geng-i__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu020.txt",
@@ -894,9 +970,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-020-shang-shu-pan-geng-i__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-020-shang-shu-pan-geng-i__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -914,7 +991,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-020-shang-shu-pan-geng-i__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-020-shang-shu-pan-geng-i__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-020-shang-shu-pan-geng-i__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-021-shang-shu-pan-geng-ii",
@@ -922,9 +999,12 @@
       "canonical_ref": "尚書·商書 盤庚中",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu021.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_7/Section_2"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-021-shang-shu-pan-geng-ii__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-021-shang-shu-pan-geng-ii__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-021-shang-shu-pan-geng-ii__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-021-shang-shu-pan-geng-ii__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu021.txt",
@@ -940,101 +1020,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-021-shang-shu-pan-geng-ii__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
-      "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
-      "segment_granularity": "block",
-      "exact_alignment_count": 6,
-      "commentary_present_and_excluded": false,
-      "english_heading_present_and_excluded": false,
-      "excluded_english_headings": [],
-      "curated_override_used": false,
-      "reason_automatic_alignment_failed": null,
-      "curator_note": null,
-      "review_status": null,
-      "alignment_quality_issues": [],
-      "fallback_used": false,
-      "coarse_alignment_reason": null,
-      "decision": "export",
-      "source_id": "shangshu-021-shang-shu-pan-geng-ii__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-021-shang-shu-pan-geng-ii__legge-chinesenotes-shangshu-1f6b1d3"
-    },
-    {
-      "section_id": "shangshu-022-shang-shu-pan-geng-iii",
-      "title": "商書 盤庚下 Shang Shu - Pan Geng III",
-      "canonical_ref": "尚書·商書 盤庚下",
-      "source_volume": "商書",
-      "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu022.txt",
-      "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-022-shang-shu-pan-geng-iii__chinesenotes-1f6b1d3__raw.txt",
-      "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-022-shang-shu-pan-geng-iii__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-022-shang-shu-pan-geng-iii__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
-      "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
-      "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
-      "upstream_relative_path": "shangshu/shangshu022.txt",
-      "source_sha256": "0e25805f959aaca74f0ef58fa3af288351e51096d64fd7b8616ea2e9e252524d",
-      "repository_level_licence_basis": "Apache-2.0 for source code; CC BY-SA 3.0 assumed for dictionary and text files per upstream license.txt",
-      "translator_note": "English translation: James Legge; English translations",
-      "rights_or_source_notes": [
-        "本作品在全世界都属于公有领域，因为作者逝世已经超过100年，并且于1923年1月1日之前出版。"
-      ],
-      "translator_or_source_notes": [
-        "English translation: James Legge",
-        "English translations"
-      ],
-      "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
-      "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-022-shang-shu-pan-geng-iii__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
-      "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
-      "segment_granularity": "block",
-      "exact_alignment_count": 3,
-      "commentary_present_and_excluded": false,
-      "english_heading_present_and_excluded": false,
-      "excluded_english_headings": [],
-      "curated_override_used": false,
-      "reason_automatic_alignment_failed": null,
-      "curator_note": null,
-      "review_status": null,
-      "alignment_quality_issues": [],
-      "fallback_used": false,
-      "coarse_alignment_reason": null,
-      "decision": "export",
-      "source_id": "shangshu-022-shang-shu-pan-geng-iii__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-022-shang-shu-pan-geng-iii__legge-chinesenotes-shangshu-1f6b1d3"
-    },
-    {
-      "section_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
-      "title": "商書 說命上（僞） Shang Shu - Charge to Yue I (forged)",
-      "canonical_ref": "尚書·商書 說命上（僞）",
-      "source_volume": "商書",
-      "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu023.txt",
-      "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-023-shang-shu-charge-to-yue-i-forged__chinesenotes-1f6b1d3__raw.txt",
-      "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-023-shang-shu-charge-to-yue-i-forged__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-023-shang-shu-charge-to-yue-i-forged__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
-      "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
-      "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
-      "upstream_relative_path": "shangshu/shangshu023.txt",
-      "source_sha256": "7899944ecdb13f4d052d291acb1791a1b62c76b53808323d2ca760f5bc196e35",
-      "repository_level_licence_basis": "Apache-2.0 for source code; CC BY-SA 3.0 assumed for dictionary and text files per upstream license.txt",
-      "translator_note": "English translation: James Legge; English translations",
-      "rights_or_source_notes": [
-        "本作品在全世界都属于公有领域，因为作者逝世已经超过100年，并且于1923年1月1日之前出版。"
-      ],
-      "translator_or_source_notes": [
-        "English translation: James Legge",
-        "English translations"
-      ],
-      "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
-      "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-023-shang-shu-charge-to-yue-i-forged__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-021-shang-shu-pan-geng-ii__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1051,8 +1040,108 @@
       "fallback_used": false,
       "coarse_alignment_reason": null,
       "decision": "export",
+      "source_id": "shangshu-021-shang-shu-pan-geng-ii__chinesenotes-shangshu-zh-1f6b1d3",
+      "target_source_id": "shangshu-021-shang-shu-pan-geng-ii__legge-sbe-wikisource-20260601"
+    },
+    {
+      "section_id": "shangshu-022-shang-shu-pan-geng-iii",
+      "title": "商書 盤庚下 Shang Shu - Pan Geng III",
+      "canonical_ref": "尚書·商書 盤庚下",
+      "source_volume": "商書",
+      "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu022.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_7/Section_3"
+      ],
+      "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-022-shang-shu-pan-geng-iii__chinesenotes-1f6b1d3__raw.txt",
+      "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-022-shang-shu-pan-geng-iii__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-022-shang-shu-pan-geng-iii__legge-sbe-wikisource-20260601__segments.jsonl",
+      "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
+      "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+      "upstream_relative_path": "shangshu/shangshu022.txt",
+      "source_sha256": "0e25805f959aaca74f0ef58fa3af288351e51096d64fd7b8616ea2e9e252524d",
+      "repository_level_licence_basis": "Apache-2.0 for source code; CC BY-SA 3.0 assumed for dictionary and text files per upstream license.txt",
+      "translator_note": "English translation: James Legge; English translations",
+      "rights_or_source_notes": [
+        "本作品在全世界都属于公有领域，因为作者逝世已经超过100年，并且于1923年1月1日之前出版。"
+      ],
+      "translator_or_source_notes": [
+        "English translation: James Legge",
+        "English translations"
+      ],
+      "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
+      "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-022-shang-shu-pan-geng-iii__chinesenotes-1f6b1d3__raw.txt",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-022-shang-shu-pan-geng-iii__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
+      "alignment_status": "complete",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
+      "segment_granularity": "block",
+      "exact_alignment_count": 1,
+      "commentary_present_and_excluded": false,
+      "english_heading_present_and_excluded": false,
+      "excluded_english_headings": [],
+      "curated_override_used": false,
+      "reason_automatic_alignment_failed": null,
+      "curator_note": null,
+      "review_status": null,
+      "alignment_quality_issues": [],
+      "fallback_used": false,
+      "coarse_alignment_reason": null,
+      "decision": "export",
+      "source_id": "shangshu-022-shang-shu-pan-geng-iii__chinesenotes-shangshu-zh-1f6b1d3",
+      "target_source_id": "shangshu-022-shang-shu-pan-geng-iii__legge-sbe-wikisource-20260601"
+    },
+    {
+      "section_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
+      "title": "商書 說命上（僞） Shang Shu - Charge to Yue I (forged)",
+      "canonical_ref": "尚書·商書 說命上（僞）",
+      "source_volume": "商書",
+      "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu023.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_8/Section_1"
+      ],
+      "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-023-shang-shu-charge-to-yue-i-forged__chinesenotes-1f6b1d3__raw.txt",
+      "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-023-shang-shu-charge-to-yue-i-forged__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-023-shang-shu-charge-to-yue-i-forged__legge-sbe-wikisource-20260601__segments.jsonl",
+      "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
+      "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+      "upstream_relative_path": "shangshu/shangshu023.txt",
+      "source_sha256": "7899944ecdb13f4d052d291acb1791a1b62c76b53808323d2ca760f5bc196e35",
+      "repository_level_licence_basis": "Apache-2.0 for source code; CC BY-SA 3.0 assumed for dictionary and text files per upstream license.txt",
+      "translator_note": "English translation: James Legge; English translations",
+      "rights_or_source_notes": [
+        "本作品在全世界都属于公有领域，因为作者逝世已经超过100年，并且于1923年1月1日之前出版。"
+      ],
+      "translator_or_source_notes": [
+        "English translation: James Legge",
+        "English translations"
+      ],
+      "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
+      "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-023-shang-shu-charge-to-yue-i-forged__chinesenotes-1f6b1d3__raw.txt",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-023-shang-shu-charge-to-yue-i-forged__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
+      "alignment_status": "complete",
+      "alignment_granularity": "block",
+      "alignment_strategy": "exact_block_alignment",
+      "segment_granularity": "block",
+      "exact_alignment_count": 5,
+      "commentary_present_and_excluded": false,
+      "english_heading_present_and_excluded": false,
+      "excluded_english_headings": [],
+      "curated_override_used": false,
+      "reason_automatic_alignment_failed": null,
+      "curator_note": null,
+      "review_status": null,
+      "alignment_quality_issues": [],
+      "fallback_used": false,
+      "coarse_alignment_reason": null,
+      "decision": "export",
       "source_id": "shangshu-023-shang-shu-charge-to-yue-i-forged__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-023-shang-shu-charge-to-yue-i-forged__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-023-shang-shu-charge-to-yue-i-forged__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
@@ -1060,9 +1149,12 @@
       "canonical_ref": "尚書·商書 說命中（僞）",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu024.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_8/Section_2"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-024-shang-shu-charge-to-yue-ii-forged__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-024-shang-shu-charge-to-yue-ii-forged__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-024-shang-shu-charge-to-yue-ii-forged__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-024-shang-shu-charge-to-yue-ii-forged__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu024.txt",
@@ -1078,9 +1170,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-024-shang-shu-charge-to-yue-ii-forged__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-024-shang-shu-charge-to-yue-ii-forged__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1098,7 +1191,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
@@ -1106,9 +1199,12 @@
       "canonical_ref": "尚書·商書 說命下（僞）",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu025.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_8/Section_3"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-025-shang-shu-charge-to-yue-iii-forged__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-025-shang-shu-charge-to-yue-iii-forged__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-025-shang-shu-charge-to-yue-iii-forged__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-025-shang-shu-charge-to-yue-iii-forged__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu025.txt",
@@ -1124,14 +1220,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-025-shang-shu-charge-to-yue-iii-forged__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-025-shang-shu-charge-to-yue-iii-forged__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 4,
+      "exact_alignment_count": 1,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -1144,7 +1241,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
@@ -1152,9 +1249,12 @@
       "canonical_ref": "尚書·商書 高宗肜日",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu026.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_9"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu026.txt",
@@ -1170,12 +1270,13 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
       "exact_alignment_count": 1,
       "commentary_present_and_excluded": false,
@@ -1190,7 +1291,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
@@ -1198,9 +1299,12 @@
       "canonical_ref": "尚書·商書 西伯戡黎",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu027.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_10"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu027.txt",
@@ -1216,14 +1320,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 3,
+      "exact_alignment_count": 1,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -1236,7 +1341,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-028-shang-shu-count-of-wei",
@@ -1244,9 +1349,12 @@
       "canonical_ref": "尚書·商書 微子",
       "source_volume": "商書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu028.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_4/Book_11"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-028-shang-shu-count-of-wei__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-028-shang-shu-count-of-wei__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-028-shang-shu-count-of-wei__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-028-shang-shu-count-of-wei__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu028.txt",
@@ -1262,14 +1370,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-028-shang-shu-count-of-wei__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-028-shang-shu-count-of-wei__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 3,
+      "exact_alignment_count": 1,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -1282,7 +1391,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-028-shang-shu-count-of-wei__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-028-shang-shu-count-of-wei__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-028-shang-shu-count-of-wei__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-029-zhou-shu-great-declaration-i",
@@ -1290,9 +1399,12 @@
       "canonical_ref": "尚書·周書 泰誓上",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu029.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_1/Section_1"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-029-zhou-shu-great-declaration-i__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-029-zhou-shu-great-declaration-i__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-029-zhou-shu-great-declaration-i__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-029-zhou-shu-great-declaration-i__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu029.txt",
@@ -1308,9 +1420,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-029-zhou-shu-great-declaration-i__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-029-zhou-shu-great-declaration-i__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1328,7 +1441,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-029-zhou-shu-great-declaration-i__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-029-zhou-shu-great-declaration-i__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-029-zhou-shu-great-declaration-i__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-030-zhou-shu-great-declaration-ii",
@@ -1336,9 +1449,12 @@
       "canonical_ref": "尚書·周書 泰誓中",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu030.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_1/Section_2"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-030-zhou-shu-great-declaration-ii__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-030-zhou-shu-great-declaration-ii__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-030-zhou-shu-great-declaration-ii__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-030-zhou-shu-great-declaration-ii__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu030.txt",
@@ -1354,9 +1470,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-030-zhou-shu-great-declaration-ii__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-030-zhou-shu-great-declaration-ii__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "block",
       "alignment_strategy": "exact_block_alignment",
@@ -1374,7 +1491,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-030-zhou-shu-great-declaration-ii__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-030-zhou-shu-great-declaration-ii__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-030-zhou-shu-great-declaration-ii__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-031-zhou-shu-great-declaration-iii",
@@ -1382,9 +1499,12 @@
       "canonical_ref": "尚書·周書 泰誓下",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu031.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_1/Section_3"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-031-zhou-shu-great-declaration-iii__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-031-zhou-shu-great-declaration-iii__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-031-zhou-shu-great-declaration-iii__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-031-zhou-shu-great-declaration-iii__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu031.txt",
@@ -1400,9 +1520,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-031-zhou-shu-great-declaration-iii__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-031-zhou-shu-great-declaration-iii__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "block",
       "alignment_strategy": "exact_block_alignment",
@@ -1420,7 +1541,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-031-zhou-shu-great-declaration-iii__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-031-zhou-shu-great-declaration-iii__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-031-zhou-shu-great-declaration-iii__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-032-zhou-shu-speech-at-mu",
@@ -1428,9 +1549,12 @@
       "canonical_ref": "尚書·周書 牧誓",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu032.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_2"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-032-zhou-shu-speech-at-mu__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-032-zhou-shu-speech-at-mu__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-032-zhou-shu-speech-at-mu__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-032-zhou-shu-speech-at-mu__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu032.txt",
@@ -1446,9 +1570,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-032-zhou-shu-speech-at-mu__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-032-zhou-shu-speech-at-mu__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "block",
       "alignment_strategy": "exact_block_alignment",
@@ -1466,7 +1591,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-032-zhou-shu-speech-at-mu__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-032-zhou-shu-speech-at-mu__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-032-zhou-shu-speech-at-mu__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-033-zhou-shu-successful-completion-of-the-war",
@@ -1474,9 +1599,12 @@
       "canonical_ref": "尚書·周書 武成",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu033.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_3"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-033-zhou-shu-successful-completion-of-the-war__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-033-zhou-shu-successful-completion-of-the-war__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-033-zhou-shu-successful-completion-of-the-war__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-033-zhou-shu-successful-completion-of-the-war__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu033.txt",
@@ -1492,9 +1620,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-033-zhou-shu-successful-completion-of-the-war__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-033-zhou-shu-successful-completion-of-the-war__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1512,7 +1641,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-033-zhou-shu-successful-completion-of-the-war__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-033-zhou-shu-successful-completion-of-the-war__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-033-zhou-shu-successful-completion-of-the-war__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-034-zhou-shu-great-plan",
@@ -1520,9 +1649,12 @@
       "canonical_ref": "尚書·周書 洪範",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu034.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_4"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-034-zhou-shu-great-plan__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-034-zhou-shu-great-plan__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-034-zhou-shu-great-plan__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-034-zhou-shu-great-plan__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu034.txt",
@@ -1538,14 +1670,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-034-zhou-shu-great-plan__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-034-zhou-shu-great-plan__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 2,
+      "exact_alignment_count": 3,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -1558,7 +1691,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-034-zhou-shu-great-plan__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-034-zhou-shu-great-plan__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-034-zhou-shu-great-plan__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-035-zhou-shu-hounds-of-lu",
@@ -1566,9 +1699,12 @@
       "canonical_ref": "尚書·周書 旅獒",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu035.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_5"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-035-zhou-shu-hounds-of-lu__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-035-zhou-shu-hounds-of-lu__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-035-zhou-shu-hounds-of-lu__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-035-zhou-shu-hounds-of-lu__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu035.txt",
@@ -1584,9 +1720,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-035-zhou-shu-hounds-of-lu__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-035-zhou-shu-hounds-of-lu__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1604,7 +1741,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-035-zhou-shu-hounds-of-lu__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-035-zhou-shu-hounds-of-lu__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-035-zhou-shu-hounds-of-lu__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-036-zhou-shu-metal-bound-coffer",
@@ -1612,9 +1749,12 @@
       "canonical_ref": "尚書·周書 金縢",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu036.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_6"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-036-zhou-shu-metal-bound-coffer__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-036-zhou-shu-metal-bound-coffer__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-036-zhou-shu-metal-bound-coffer__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-036-zhou-shu-metal-bound-coffer__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu036.txt",
@@ -1630,9 +1770,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-036-zhou-shu-metal-bound-coffer__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-036-zhou-shu-metal-bound-coffer__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1650,7 +1791,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-036-zhou-shu-metal-bound-coffer__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-036-zhou-shu-metal-bound-coffer__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-036-zhou-shu-metal-bound-coffer__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-037-zhou-shu-great-announcement",
@@ -1658,9 +1799,12 @@
       "canonical_ref": "尚書·周書 大誥",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu037.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_7"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-037-zhou-shu-great-announcement__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-037-zhou-shu-great-announcement__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-037-zhou-shu-great-announcement__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-037-zhou-shu-great-announcement__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu037.txt",
@@ -1676,9 +1820,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-037-zhou-shu-great-announcement__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-037-zhou-shu-great-announcement__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1696,7 +1841,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-037-zhou-shu-great-announcement__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-037-zhou-shu-great-announcement__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-037-zhou-shu-great-announcement__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei",
@@ -1704,9 +1849,12 @@
       "canonical_ref": "尚書·周書 微子之命",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu038.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_8"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-038-zhou-shu-charge-to-the-count-of-wei__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-038-zhou-shu-charge-to-the-count-of-wei__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-038-zhou-shu-charge-to-the-count-of-wei__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-038-zhou-shu-charge-to-the-count-of-wei__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu038.txt",
@@ -1722,9 +1870,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-038-zhou-shu-charge-to-the-count-of-wei__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-038-zhou-shu-charge-to-the-count-of-wei__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1742,7 +1891,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
@@ -1750,9 +1899,12 @@
       "canonical_ref": "尚書·周書 康誥",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu039.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_9"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu039.txt",
@@ -1768,14 +1920,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 5,
+      "exact_alignment_count": 4,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -1788,7 +1941,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
@@ -1796,9 +1949,12 @@
       "canonical_ref": "尚書·周書 酒誥",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu040.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_10"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-040-zhou-shu-announcement-about-drunkenness__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-040-zhou-shu-announcement-about-drunkenness__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-040-zhou-shu-announcement-about-drunkenness__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-040-zhou-shu-announcement-about-drunkenness__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu040.txt",
@@ -1814,9 +1970,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-040-zhou-shu-announcement-about-drunkenness__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-040-zhou-shu-announcement-about-drunkenness__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1834,7 +1991,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-040-zhou-shu-announcement-about-drunkenness__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-040-zhou-shu-announcement-about-drunkenness__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-040-zhou-shu-announcement-about-drunkenness__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-041-zhou-shu-timber-of-the-rottlera",
@@ -1842,9 +1999,12 @@
       "canonical_ref": "尚書·周書 梓材",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu041.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_11"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-041-zhou-shu-timber-of-the-rottlera__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-041-zhou-shu-timber-of-the-rottlera__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-041-zhou-shu-timber-of-the-rottlera__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-041-zhou-shu-timber-of-the-rottlera__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu041.txt",
@@ -1860,9 +2020,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-041-zhou-shu-timber-of-the-rottlera__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-041-zhou-shu-timber-of-the-rottlera__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1880,7 +2041,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-041-zhou-shu-timber-of-the-rottlera__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-041-zhou-shu-timber-of-the-rottlera__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-041-zhou-shu-timber-of-the-rottlera__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
@@ -1888,9 +2049,12 @@
       "canonical_ref": "尚書·周書 召誥",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu042.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_12"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu042.txt",
@@ -1906,9 +2070,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1926,7 +2091,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-043-zhou-shu-announcement-concerning-luo",
@@ -1934,9 +2099,12 @@
       "canonical_ref": "尚書·周書 洛誥",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu043.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_13"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-043-zhou-shu-announcement-concerning-luo__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-043-zhou-shu-announcement-concerning-luo__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-043-zhou-shu-announcement-concerning-luo__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-043-zhou-shu-announcement-concerning-luo__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu043.txt",
@@ -1952,9 +2120,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-043-zhou-shu-announcement-concerning-luo__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-043-zhou-shu-announcement-concerning-luo__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -1972,7 +2141,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-043-zhou-shu-announcement-concerning-luo__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-043-zhou-shu-announcement-concerning-luo__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-043-zhou-shu-announcement-concerning-luo__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-044-zhou-shu-numerous-officers",
@@ -1980,9 +2149,12 @@
       "canonical_ref": "尚書·周書 多士",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu044.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_14"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-044-zhou-shu-numerous-officers__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-044-zhou-shu-numerous-officers__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-044-zhou-shu-numerous-officers__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-044-zhou-shu-numerous-officers__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu044.txt",
@@ -1998,14 +2170,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-044-zhou-shu-numerous-officers__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-044-zhou-shu-numerous-officers__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 9,
+      "exact_alignment_count": 2,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -2018,7 +2191,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-044-zhou-shu-numerous-officers__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-044-zhou-shu-numerous-officers__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-044-zhou-shu-numerous-officers__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-045-zhou-shu-against-luxurious-ease",
@@ -2026,9 +2199,12 @@
       "canonical_ref": "尚書·周書 無逸",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu045.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_15"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-045-zhou-shu-against-luxurious-ease__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-045-zhou-shu-against-luxurious-ease__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-045-zhou-shu-against-luxurious-ease__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-045-zhou-shu-against-luxurious-ease__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu045.txt",
@@ -2044,9 +2220,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-045-zhou-shu-against-luxurious-ease__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-045-zhou-shu-against-luxurious-ease__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "block",
       "alignment_strategy": "exact_block_alignment",
@@ -2064,7 +2241,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-045-zhou-shu-against-luxurious-ease__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-045-zhou-shu-against-luxurious-ease__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-045-zhou-shu-against-luxurious-ease__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-046-zhou-shu-prince-shi",
@@ -2072,9 +2249,12 @@
       "canonical_ref": "尚書·周書 君奭",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu046.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_16"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-046-zhou-shu-prince-shi__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-046-zhou-shu-prince-shi__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-046-zhou-shu-prince-shi__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-046-zhou-shu-prince-shi__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu046.txt",
@@ -2090,9 +2270,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-046-zhou-shu-prince-shi__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-046-zhou-shu-prince-shi__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "block",
       "alignment_strategy": "exact_block_alignment",
@@ -2110,7 +2291,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-046-zhou-shu-prince-shi__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-046-zhou-shu-prince-shi__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-046-zhou-shu-prince-shi__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
@@ -2118,9 +2299,12 @@
       "canonical_ref": "尚書·周書 蔡仲之命",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu047.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_17"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-047-zhou-shu-charge-to-zhong-of-cai__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-047-zhou-shu-charge-to-zhong-of-cai__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-047-zhou-shu-charge-to-zhong-of-cai__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-047-zhou-shu-charge-to-zhong-of-cai__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu047.txt",
@@ -2136,14 +2320,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-047-zhou-shu-charge-to-zhong-of-cai__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-047-zhou-shu-charge-to-zhong-of-cai__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 2,
+      "exact_alignment_count": 1,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -2156,7 +2341,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-048-zhou-shu-numerous-regions",
@@ -2164,9 +2349,12 @@
       "canonical_ref": "尚書·周書 多方",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu048.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_18"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-048-zhou-shu-numerous-regions__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-048-zhou-shu-numerous-regions__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-048-zhou-shu-numerous-regions__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-048-zhou-shu-numerous-regions__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu048.txt",
@@ -2182,9 +2370,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-048-zhou-shu-numerous-regions__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-048-zhou-shu-numerous-regions__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -2202,7 +2391,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-048-zhou-shu-numerous-regions__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-048-zhou-shu-numerous-regions__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-048-zhou-shu-numerous-regions__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-049-zhou-shu-establishment-of-government",
@@ -2210,9 +2399,12 @@
       "canonical_ref": "尚書·周書 立政",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu049.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_19"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-049-zhou-shu-establishment-of-government__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-049-zhou-shu-establishment-of-government__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-049-zhou-shu-establishment-of-government__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-049-zhou-shu-establishment-of-government__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu049.txt",
@@ -2228,9 +2420,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-049-zhou-shu-establishment-of-government__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-049-zhou-shu-establishment-of-government__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -2248,7 +2441,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-049-zhou-shu-establishment-of-government__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-049-zhou-shu-establishment-of-government__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-049-zhou-shu-establishment-of-government__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-050-zhou-shu-officers-of-zhou",
@@ -2256,9 +2449,12 @@
       "canonical_ref": "尚書·周書 周官",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu050.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_20"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-050-zhou-shu-officers-of-zhou__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-050-zhou-shu-officers-of-zhou__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-050-zhou-shu-officers-of-zhou__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-050-zhou-shu-officers-of-zhou__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu050.txt",
@@ -2274,9 +2470,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-050-zhou-shu-officers-of-zhou__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-050-zhou-shu-officers-of-zhou__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -2294,7 +2491,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-050-zhou-shu-officers-of-zhou__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-050-zhou-shu-officers-of-zhou__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-050-zhou-shu-officers-of-zhou__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-051-zhou-shu-jun-chen",
@@ -2302,9 +2499,12 @@
       "canonical_ref": "尚書·周書 君陳",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu051.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_21"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-051-zhou-shu-jun-chen__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-051-zhou-shu-jun-chen__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-051-zhou-shu-jun-chen__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-051-zhou-shu-jun-chen__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu051.txt",
@@ -2320,9 +2520,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-051-zhou-shu-jun-chen__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-051-zhou-shu-jun-chen__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -2340,7 +2541,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-051-zhou-shu-jun-chen__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-051-zhou-shu-jun-chen__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-051-zhou-shu-jun-chen__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-052-zhou-shu-testamentary-charge",
@@ -2348,9 +2549,12 @@
       "canonical_ref": "尚書·周書 顧命",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu052.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_22"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-052-zhou-shu-testamentary-charge__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-052-zhou-shu-testamentary-charge__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-052-zhou-shu-testamentary-charge__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-052-zhou-shu-testamentary-charge__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu052.txt",
@@ -2366,9 +2570,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-052-zhou-shu-testamentary-charge__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-052-zhou-shu-testamentary-charge__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -2386,7 +2591,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-052-zhou-shu-testamentary-charge__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-052-zhou-shu-testamentary-charge__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-052-zhou-shu-testamentary-charge__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-053-zhou-shu-announcement-of-king-kang",
@@ -2394,9 +2599,12 @@
       "canonical_ref": "尚書·周書 康王之誥",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu053.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_23"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-053-zhou-shu-announcement-of-king-kang__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-053-zhou-shu-announcement-of-king-kang__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-053-zhou-shu-announcement-of-king-kang__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-053-zhou-shu-announcement-of-king-kang__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu053.txt",
@@ -2412,9 +2620,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-053-zhou-shu-announcement-of-king-kang__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-053-zhou-shu-announcement-of-king-kang__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "block",
       "alignment_strategy": "exact_block_alignment",
@@ -2432,7 +2641,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-053-zhou-shu-announcement-of-king-kang__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-053-zhou-shu-announcement-of-king-kang__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-053-zhou-shu-announcement-of-king-kang__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
@@ -2440,9 +2649,12 @@
       "canonical_ref": "尚書·周書 畢命",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu054.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_24"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-054-zhou-shu-charge-to-the-duke-of-bi__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-054-zhou-shu-charge-to-the-duke-of-bi__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-054-zhou-shu-charge-to-the-duke-of-bi__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-054-zhou-shu-charge-to-the-duke-of-bi__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu054.txt",
@@ -2458,14 +2670,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-054-zhou-shu-charge-to-the-duke-of-bi__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-054-zhou-shu-charge-to-the-duke-of-bi__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 4,
+      "exact_alignment_count": 1,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -2478,7 +2691,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-055-zhou-shu-kun-ya",
@@ -2486,9 +2699,12 @@
       "canonical_ref": "尚書·周書 君牙",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu055.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_25"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-055-zhou-shu-kun-ya__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-055-zhou-shu-kun-ya__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-055-zhou-shu-kun-ya__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-055-zhou-shu-kun-ya__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu055.txt",
@@ -2504,14 +2720,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-055-zhou-shu-kun-ya__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-055-zhou-shu-kun-ya__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 2,
+      "exact_alignment_count": 1,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -2524,7 +2741,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-055-zhou-shu-kun-ya__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-055-zhou-shu-kun-ya__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-055-zhou-shu-kun-ya__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-056-zhou-shu-charge-to-jiong",
@@ -2532,9 +2749,12 @@
       "canonical_ref": "尚書·周書 冏命",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu056.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_26"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-056-zhou-shu-charge-to-jiong__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-056-zhou-shu-charge-to-jiong__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-056-zhou-shu-charge-to-jiong__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-056-zhou-shu-charge-to-jiong__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu056.txt",
@@ -2550,9 +2770,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-056-zhou-shu-charge-to-jiong__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-056-zhou-shu-charge-to-jiong__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -2570,7 +2791,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-056-zhou-shu-charge-to-jiong__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-056-zhou-shu-charge-to-jiong__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-056-zhou-shu-charge-to-jiong__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments",
@@ -2578,9 +2799,12 @@
       "canonical_ref": "尚書·周書 呂刑",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu057.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_27"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-057-zhou-shu-marquis-of-lu-on-punishments__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-057-zhou-shu-marquis-of-lu-on-punishments__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-057-zhou-shu-marquis-of-lu-on-punishments__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-057-zhou-shu-marquis-of-lu-on-punishments__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu057.txt",
@@ -2596,9 +2820,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-057-zhou-shu-marquis-of-lu-on-punishments__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-057-zhou-shu-marquis-of-lu-on-punishments__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -2616,7 +2841,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen",
@@ -2624,9 +2849,12 @@
       "canonical_ref": "尚書·周書 文侯之命",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu058.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_28"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-058-zhou-shu-charge-to-the-marquis-wen__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-058-zhou-shu-charge-to-the-marquis-wen__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-058-zhou-shu-charge-to-the-marquis-wen__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-058-zhou-shu-charge-to-the-marquis-wen__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu058.txt",
@@ -2642,9 +2870,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-058-zhou-shu-charge-to-the-marquis-wen__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-058-zhou-shu-charge-to-the-marquis-wen__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -2662,7 +2891,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-059-zhou-shu-speech-at-bi",
@@ -2670,9 +2899,12 @@
       "canonical_ref": "尚書·周書 費誓",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu059.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_29"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-059-zhou-shu-speech-at-bi__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-059-zhou-shu-speech-at-bi__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-059-zhou-shu-speech-at-bi__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-059-zhou-shu-speech-at-bi__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu059.txt",
@@ -2688,14 +2920,15 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-059-zhou-shu-speech-at-bi__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-059-zhou-shu-speech-at-bi__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
-      "alignment_granularity": "block",
-      "alignment_strategy": "exact_block_alignment",
+      "alignment_granularity": "grouped",
+      "alignment_strategy": "monotonic_grouped_auto_alignment",
       "segment_granularity": "block",
-      "exact_alignment_count": 2,
+      "exact_alignment_count": 1,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "excluded_english_headings": [],
@@ -2708,7 +2941,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-059-zhou-shu-speech-at-bi__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-059-zhou-shu-speech-at-bi__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-059-zhou-shu-speech-at-bi__legge-sbe-wikisource-20260601"
     },
     {
       "section_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",
@@ -2716,9 +2949,12 @@
       "canonical_ref": "尚書·周書 秦誓",
       "source_volume": "周書",
       "source_page_or_anchor": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu060.txt",
+      "translation_source_pages": [
+        "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_5/Book_30"
+      ],
       "raw_source_path": "corpus/raw/chinesenotes/shangshu__shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__chinesenotes-1f6b1d3__raw.txt",
       "processed_source_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
-      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__legge-chinesenotes-shangshu-1f6b1d3__segments.jsonl",
+      "processed_translation_path": "corpus/processed/translations/shangshu__shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__legge-sbe-wikisource-20260601__segments.jsonl",
       "upstream_repository_url": "https://github.com/alexamies/chinesenotes.com",
       "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
       "upstream_relative_path": "shangshu/shangshu060.txt",
@@ -2734,9 +2970,10 @@
       ],
       "local_staging_path": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
       "local_raw_capture_path": "corpus/raw/chinesenotes/shangshu__shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__chinesenotes-1f6b1d3__raw.txt",
-      "verification_status": "verified_transcribed_text",
-      "reviewer_note": "ChineseNotes bilingual file parsed into logical Shangshu blocks; headings, commentary, and notices were excluded from exportable text.",
-      "extraction_method": "chinesenotes_public_domain_mirror",
+      "translation_raw_capture_path": "corpus/raw/wikisource/shangshu__shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__legge-sbe-wikisource-20260601__raw.json",
+      "verification_status": "verified_rendered_transcription",
+      "reviewer_note": "ChineseNotes Chinese text was retained, while the English witness was rebuilt from clean Wikisource-rendered SBE pages; headings, commentary, and notices were excluded from exportable text.",
+      "extraction_method": "chinesenotes_chinese_plus_wikisource_legge_translation",
       "alignment_status": "complete",
       "alignment_granularity": "grouped",
       "alignment_strategy": "monotonic_grouped_auto_alignment",
@@ -2754,7 +2991,7 @@
       "coarse_alignment_reason": null,
       "decision": "export",
       "source_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__chinesenotes-shangshu-zh-1f6b1d3",
-      "target_source_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__legge-chinesenotes-shangshu-1f6b1d3"
+      "target_source_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__legge-sbe-wikisource-20260601"
     }
   ]
 }
