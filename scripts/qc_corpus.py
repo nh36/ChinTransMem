@@ -21,6 +21,7 @@ from common import (
     sha256_file,
     write_json,
 )
+from mozi_ocr import detect_mozi_ocr_issues
 from text_quality import (
     detect_probable_ocr_corruption,
     has_probable_leading_fragment,
@@ -279,8 +280,11 @@ def run_text_integrity_checks(work_id: str) -> dict[str, object]:
             if any(marker in lowered for marker in YIJING_COMMENTARY_MARKERS):
                 issues["translation_with_commentary_sections"].add(section_id)
         if work_id == "mozi":
-            if _severe_ocr_issues(translation_text):
+            mozi_issues = detect_mozi_ocr_issues(translation_text)
+            if mozi_issues or _severe_ocr_issues(translation_text):
                 issues["translation_with_ocr_corruption_rows"].append(alignment_id)
+            if any(issue["issue_type"] == "heading_residue" for issue in mozi_issues):
+                issues["translation_with_heading_sections"].add(section_id)
             if lowered.startswith(("chapter ", "book ")):
                 issues["translation_with_heading_sections"].add(section_id)
     issue_lists = {key: sorted(value) for key, value in issues.items()}
@@ -339,6 +343,14 @@ def run_qc(
             "sources": connection.execute("SELECT COUNT(*) FROM sources WHERE work_id = ?", (work_id,)).fetchone()[0],
             "segments": connection.execute("SELECT COUNT(*) FROM segments WHERE work_id = ?", (work_id,)).fetchone()[0],
             "alignments": connection.execute("SELECT COUNT(*) FROM alignments WHERE work_id = ?", (work_id,)).fetchone()[0],
+            "exact_alignment_records": connection.execute(
+                "SELECT COUNT(*) FROM alignments WHERE work_id = ? AND alignment_type = 'exact_or_near_exact'",
+                (work_id,),
+            ).fetchone()[0],
+            "section_group_alignment_records": connection.execute(
+                "SELECT COUNT(*) FROM alignments WHERE work_id = ? AND alignment_type = 'section_group'",
+                (work_id,),
+            ).fetchone()[0],
         }
 
         section_reports: list[dict[str, object]] = []
@@ -434,6 +446,11 @@ def run_qc(
         "work_id": work_id,
         "manifest_summary": manifest["summary"],
         "counts": counts,
+        "count_explanations": {
+            "alignments": "Total processed alignment records stored in SQLite, including non-exported section_group companion records.",
+            "exact_alignment_records": "Exportable exact_or_near_exact alignment records.",
+            "section_group_alignment_records": "Non-exported section_group companion records retained for bookkeeping and QC.",
+        },
         "sections": section_reports,
         "checksums": {repo_relative(path): sha256_file(path) for path in tracked_paths},
     }

@@ -21,6 +21,7 @@ from ingest_chinesenotes_work import (
     _extract_notice_lines,
     _parse_section_body,
 )
+from mozi_ocr import repair_mozi_ocr_text
 
 UPSTREAM_COMMIT_SHA = "1f6b1d3e7a40b6886a4b943c898125639e993544"
 UPSTREAM_BASE_URL = "https://raw.githubusercontent.com/craigbrelsford/ChineseNotes.com/{commit}/data/corpus/mozi.csv"
@@ -196,6 +197,26 @@ def _looks_like_short_title(line: str) -> bool:
     return True
 
 
+def _looks_like_running_header(line: str, english_title: str) -> bool:
+    stripped = line.strip()
+    if not stripped:
+        return False
+    words = ASCII_TOKEN_RE.findall(stripped)
+    if not words or len(words) > 12:
+        return False
+    letters = [char for char in stripped if char.isalpha()]
+    uppercase_ratio = (sum(1 for char in letters if char.isupper()) / len(letters)) if letters else 0.0
+    normalized = re.sub(r"[^A-Za-z ]+", " ", stripped).casefold()
+    normalized_title = re.sub(r"[^A-Za-z ]+", " ", english_title).casefold()
+    if "mots" in normalized and uppercase_ratio >= 0.55:
+        return True
+    if normalized_title and normalized_title in normalized and uppercase_ratio >= 0.55:
+        return True
+    if uppercase_ratio >= 0.8 and len(words) <= 8:
+        return True
+    return False
+
+
 def _strict_split_english_units(text: str) -> list[str]:
     parts = [part.strip(" ;") for part in STRICT_ENGLISH_UNIT_BOUNDARY_RE.split(text) if part.strip(" ;")]
     merged: list[str] = []
@@ -237,13 +258,26 @@ def _extract_mei_chapter_offsets(raw_text: str) -> dict[int, tuple[int, int]]:
     return offsets
 
 
-def _extract_mei_english_units(raw_text: str, chapter_offsets: tuple[int, int]) -> list[str]:
+def _extract_mei_english_units(
+    raw_text: str,
+    chapter_offsets: tuple[int, int],
+    *,
+    section_id: str,
+    english_title: str,
+    source_path: str,
+) -> tuple[list[str], list[dict[str, Any]], list[dict[str, str]], list[dict[str, str]]]:
     start, end = chapter_offsets
     chapter_text = raw_text[start:end].replace("\r", "")
     raw_lines: list[str] = []
     for raw_line in chapter_text.splitlines():
         stripped = raw_line.strip()
-        if not stripped or re.fullmatch(r"\d+", stripped) or HEADER_RE.match(stripped) or PAGE_HEADER_RE.match(stripped):
+        if (
+            not stripped
+            or re.fullmatch(r"\d+", stripped)
+            or HEADER_RE.match(stripped)
+            or PAGE_HEADER_RE.match(stripped)
+            or _looks_like_running_header(stripped, english_title)
+        ):
             raw_lines.append("")
             continue
         raw_lines.append(stripped)
@@ -286,12 +320,23 @@ def _extract_mei_english_units(raw_text: str, chapter_offsets: tuple[int, int]) 
     cleaned_text = MEI_FOOTNOTE_RESIDUE_RE.sub("", cleaned_text)
     cleaned_text = MEI_GLOSSARY_RESIDUE_RE.sub("", cleaned_text)
     cleaned_text = cleaned_text.replace("^", "").replace("®", "").replace("*", "").strip()
-    units = []
+    units: list[str] = []
+    repair_entries: list[dict[str, Any]] = []
+    pre_repair_issues: list[dict[str, str]] = []
+    remaining_issues: list[dict[str, str]] = []
     for unit in _strict_split_english_units(cleaned_text):
         cleaned_unit = _clean_mei_unit(unit)
+        cleaned_unit, unit_repairs, unit_pre_issues, unit_remaining_issues = repair_mozi_ocr_text(
+            cleaned_unit,
+            section_id=section_id,
+            source_path=source_path,
+        )
+        repair_entries.extend(unit_repairs)
+        pre_repair_issues.extend(unit_pre_issues)
+        remaining_issues.extend(unit_remaining_issues)
         if len(ASCII_TOKEN_RE.findall(cleaned_unit)) >= 3:
             units.append(cleaned_unit)
-    return units
+    return units, repair_entries, pre_repair_issues, remaining_issues
 
 
 def _sentence_segment_record(
@@ -491,12 +536,18 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
     staged_english_units: list[dict[str, Any]] = []
     qc_sections: list[dict[str, Any]] = []
     blocked_sections: list[dict[str, Any]] = []
+    fallback_sections: list[dict[str, Any]] = []
     source_url_entries = [WORK_SOURCE_URL.format(commit=UPSTREAM_COMMIT_SHA), ARCHIVE_ITEM_URL, ARCHIVE_DOWNLOAD_URL]
+    ocr_repair_entries: list[dict[str, Any]] = []
+    ocr_remaining_issues: list[dict[str, Any]] = []
 
     alignment_granularity_counts: dict[str, int] = {}
     exact_alignment_count = 0
     fallback_section_count = 0
     active_section_count = 0
+    pre_repair_corruption_issue_count = 0
+    automatic_correction_count = 0
+    curated_correction_count = 0
 
     archive_sha256 = _source_sha256(ARCHIVE_RAW_TEXT_PATH)
 
@@ -653,24 +704,62 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         }
 
         english_units = []
-        if canonical_chapter_number in mei_offsets:
-            english_units = _extract_mei_english_units(mei_raw_text, mei_offsets[canonical_chapter_number])
         if canonical_chapter_number in MEI_UNUSABLE_EXTRACT_CHAPTERS:
             english_units = []
+        elif canonical_chapter_number in mei_offsets:
+            english_units, unit_repairs, unit_pre_issues, unit_remaining_issues = _extract_mei_english_units(
+                mei_raw_text,
+                mei_offsets[canonical_chapter_number],
+                section_id=section_id,
+                english_title=english_title,
+                source_path=repo_relative(ARCHIVE_RAW_TEXT_PATH),
+            )
+            ocr_repair_entries.extend(unit_repairs)
+            pre_repair_corruption_issue_count += len(unit_pre_issues)
+            automatic_correction_count += sum(1 for entry in unit_repairs if entry["mode"] == "automatic")
+            curated_correction_count += sum(1 for entry in unit_repairs if entry["mode"] == "curated")
+            ocr_remaining_issues.extend(
+                {
+                    "section_id": section_id,
+                    "token": issue["token"],
+                    "issue_type": issue["issue_type"],
+                    "source_path": repo_relative(ARCHIVE_RAW_TEXT_PATH),
+                }
+                for issue in unit_remaining_issues
+            )
 
         if canonical_chapter_number in mei_offsets and english_units:
             target_source_id = f"{section_id}__{TARGET_WITNESS_SUFFIX}"
-            english_segments = [
-                _sentence_segment_record(
+            english_segments = []
+            for index, sentence in enumerate(english_units, start=1):
+                repaired_sentence, sentence_repairs, sentence_pre_issues, sentence_remaining_issues = repair_mozi_ocr_text(
+                    sentence,
                     section_id=section_id,
-                    source_id=target_source_id,
-                    segment_index=index,
-                    sentence_text=sentence,
-                    language="en",
-                    section_number=section_number,
+                    source_path=repo_relative(ARCHIVE_RAW_TEXT_PATH),
                 )
-                for index, sentence in enumerate(english_units, start=1)
-            ]
+                ocr_repair_entries.extend(sentence_repairs)
+                pre_repair_corruption_issue_count += len(sentence_pre_issues)
+                ocr_remaining_issues.extend(
+                    {
+                        "section_id": section_id,
+                        "token": issue["token"],
+                        "issue_type": issue["issue_type"],
+                        "source_path": repo_relative(ARCHIVE_RAW_TEXT_PATH),
+                    }
+                    for issue in sentence_remaining_issues
+                )
+                automatic_correction_count += sum(1 for entry in sentence_repairs if entry["mode"] == "automatic")
+                curated_correction_count += sum(1 for entry in sentence_repairs if entry["mode"] == "curated")
+                english_segments.append(
+                    _sentence_segment_record(
+                        section_id=section_id,
+                        source_id=target_source_id,
+                        segment_index=index,
+                        sentence_text=repaired_sentence,
+                        language="en",
+                        section_number=section_number,
+                    )
+                )
             english_segments_path = EN_SEGMENTS_DIR / f"{WORK_ID}__{section_id}__{target_source_id}__segments.jsonl"
             write_jsonl(english_segments_path, english_segments)
             staged_english_units.extend(
@@ -715,7 +804,17 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                     alignment_granularity_counts[granularity] = alignment_granularity_counts.get(granularity, 0) + 1
                 exact_alignment_count += len(exact_rows)
             except ValueError as exc:
-                fallback_reason = str(exc)
+                raw_fallback_reason = str(exc)
+                if len(source_segments) <= 2 and len(english_segments) >= 30:
+                    fallback_reason = (
+                        "ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; "
+                        "retained chapter-level fallback after OCR repair."
+                    )
+                else:
+                    fallback_reason = (
+                        "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped "
+                        f"alignment remained unreliable ({raw_fallback_reason})."
+                    )
                 fallback_section_count += 1
                 alignment_records = _build_section_fallback_alignment(
                     section_id=section_id,
@@ -728,6 +827,12 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                 )
                 exact_alignment_count += 1
                 alignment_granularity_counts["chapter"] = alignment_granularity_counts.get("chapter", 0) + 1
+                fallback_sections.append(
+                    {
+                        "section_id": section_id,
+                        "coarse_alignment_reason": fallback_reason,
+                    }
+                )
 
             source_suffix = source_id.split("__", 1)[1]
             target_suffix = target_source_id.split("__", 1)[1]
@@ -904,6 +1009,8 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         "blocked_section_count": len(source_rows) - active_section_count,
         "exact_alignment_count": exact_alignment_count,
         "automatic_alignment_count": exact_alignment_count,
+        "alignment_record_count": exact_alignment_count + active_section_count,
+        "section_group_alignment_record_count": active_section_count,
         "alignment_granularity_counts": alignment_granularity_counts,
         "curated_override_section_count": 0,
         "fallback_section_count": fallback_section_count,
@@ -913,7 +1020,12 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         "english_witness": "Archive.org DjVu OCR capture of Yi-Pao Mei, The Works of Motse from the Chinese (1929) for the translated chapter subset",
         "work_state": "proof_of_concept_partial_active",
         "hard_failure_count": 0,
-        "corruption_issue_count": 0,
+        "corruption_issue_count": len(ocr_remaining_issues),
+        "pre_repair_corruption_issue_count": pre_repair_corruption_issue_count,
+        "corrected_corruption_issue_count": automatic_correction_count + curated_correction_count,
+        "automatic_correction_count": automatic_correction_count,
+        "curated_correction_count": curated_correction_count,
+        "remaining_corruption_issue_count": len(ocr_remaining_issues),
         "remaining_drift_issue_count": 0,
     }
 
@@ -927,7 +1039,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         "release_status": PROOF_OF_CONCEPT_RELEASE_STATUS,
         "source_urls": source_url_entries,
         "source_audit_status": "complete",
-        "source_audit_note": "Proof-of-concept active subset built from ChineseNotes Chinese plus committed Archive.org OCR capture of Yi-Pao Mei 1929 where English is available and attributable.",
+        "source_audit_note": "Proof-of-concept active subset built from ChineseNotes Chinese plus committed Archive.org OCR capture of Yi-Pao Mei 1929. Alternate Archive.org OCR layers (ABBYY XML, DjVu XML, hOCR HTML, and search text) were reviewed, but no materially cleaner drop-in text layer was found; active exports therefore use the archived OCR text with deterministic repair rules and explicit repair logging.",
         "inventory_status": "complete",
         "ingestion_log_status": "complete",
         "alignment_status": "complete",
@@ -965,7 +1077,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
             "section_group_export_policy": "forbidden",
             "completion_definition": "A Mozi chapter is complete for proof-of-concept use only when the ChineseNotes Chinese base text and an attributable English witness are both captured cleanly enough for sentence-level or grouped alignment, source and rights metadata are explicit, and any coarse fallback is exported with a recorded reason. Release readiness remains separate from active proof-of-concept export.",
         },
-        "notes": "Mozi is active as a proof-of-concept corpus. Exportable chapters use ChineseNotes Chinese plus Archive.org OCR of Yi-Pao Mei 1929, with explicit rights-review metadata and release_status not_cleared. Remaining chapters stay metadata-only only for genuine witness-parsing or missing-English reasons.",
+        "notes": "Mozi is active as a proof-of-concept corpus. Exportable chapters use ChineseNotes Chinese plus Archive.org OCR of Yi-Pao Mei 1929, with explicit rights-review metadata, release_status not_cleared, and deterministic OCR repair logging. Remaining chapters stay metadata-only only for genuine witness-parsing or missing-English reasons.",
         "summary": summary,
         "romanization_aliases": romanization_aliases,
         "sources": manifest_sources,
@@ -976,6 +1088,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         "summary": summary,
         "sections": qc_sections,
         "blocked_sections": blocked_sections,
+        "fallback_sections": fallback_sections,
         "curated_override_sections": [],
     }
 
@@ -990,7 +1103,8 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
             "preferred_use": "proof_of_concept",
             "notes": (
                 f"ChineseNotes Chinese scaffold with Archive.org Mei 1929 OCR English for {active_section_count} proof-of-concept-active chapters; "
-                f"{len(source_rows) - active_section_count} chapters remain metadata-only pending a clean attributable English witness."
+                f"{len(source_rows) - active_section_count} chapters remain metadata-only pending a clean attributable English witness. "
+                "Available alternate Archive.org OCR layers were reviewed, but deterministic repair of the committed OCR text proved more reliable than switching layers."
             ),
             "generated_summary": summary,
         }
@@ -1001,6 +1115,30 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
     write_json(METADATA_DIR / "manifests" / "mozi.yml", manifest)
     write_json(METADATA_DIR / "mozi_inventory.yml", {"work_id": WORK_ID, "units": inventory_units})
     write_json(METADATA_DIR / "mozi_verification_ledger.yml", {"work_id": WORK_ID, "entries": verification_ledger})
+    write_json(
+        LOGS_DIR / "mozi__ocr_repair_log.json",
+        {
+            "summary": {
+                "issue_count_before_repair": pre_repair_corruption_issue_count,
+                "automatic_correction_count": automatic_correction_count,
+                "curated_correction_count": curated_correction_count,
+                "remaining_issue_count": len(ocr_remaining_issues),
+                "cleaner_source_layer_found": False,
+                "source_layer_audit": {
+                    "reviewed_layers": [
+                        "Archive.org DjVu OCR text",
+                        "Archive.org ABBYY XML",
+                        "Archive.org DjVu XML",
+                        "Archive.org hOCR HTML",
+                        "Archive.org hOCR search text",
+                    ],
+                    "selected_layer": "Archive.org DjVu OCR text with deterministic repair rules",
+                },
+            },
+            "repairs": ocr_repair_entries,
+            "remaining_issues": ocr_remaining_issues,
+        },
+    )
 
     existing_mapping = load_json_compatible_yaml(METADATA_DIR / "chinesenotes_work_mapping.yml")
     updated_mapping: list[dict[str, Any]] = []

@@ -12,6 +12,7 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 from common import corpus_export_paths
+from mozi_ocr import detect_mozi_ocr_issues
 from qc_corpus import _severe_ocr_issues
 
 
@@ -23,11 +24,42 @@ def load_jsonl(path: Path) -> list[dict[str, object]]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
+def load_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8")
+
+
 MOZI_NOTICE_MARKERS = (
     "the works of mots",
     "the neglected rival of confucius",
     "english translation:",
     "source notice",
+)
+MOZI_BAD_OCR_TOKENS = (
+    "Watcliing",
+    "sigked",
+    "Wiiat",
+    "wbat",
+    "difierent",
+    "oflflcial",
+    "quaMed",
+    "StoTiso",
+    "v/ODiucms",
+    "acHevemeat",
+    "triSe",
+    "sa3drLg",
+    "an3rwhere",
+    "Mots0",
+    "tliore",
+    "suffi.cient",
+    "otliers",
+    "Tlieieupoii",
+    "wliy",
+    "yoxmger",
+    "oj0S.cials",
+    "an3d3hing",
+    "ofiering",
+    "tbey",
+    "Ofiensive",
 )
 CJK_RE = re.compile(r"[\u3400-\u9fff]")
 
@@ -50,17 +82,22 @@ class MoziPromotionTest(unittest.TestCase):
         self.assertEqual(manifest["summary"]["section_count"], 52)
         self.assertEqual(manifest["summary"]["active_section_count"], 30)
         self.assertEqual(manifest["summary"]["metadata_only_section_count"], 22)
-        self.assertEqual(manifest["summary"]["exact_alignment_count"], 684)
-        self.assertEqual(manifest["summary"]["alignment_granularity_counts"], {"chapter": 8, "grouped": 676})
-        self.assertEqual(manifest["summary"]["fallback_section_count"], 8)
+        self.assertEqual(manifest["summary"]["exact_alignment_count"], 622)
+        self.assertEqual(manifest["summary"]["alignment_granularity_counts"], {"chapter": 9, "grouped": 613})
+        self.assertEqual(manifest["summary"]["fallback_section_count"], 9)
         self.assertEqual(manifest["summary"]["rights_review_required_section_count"], 30)
         self.assertEqual(manifest["summary"]["release_ready_section_count"], 0)
         self.assertEqual(len(manifest["sections"]), 52)
         self.assertEqual(len(inventory["units"]), 52)
         self.assertEqual(len(ledger["entries"]), 52)
-        self.assertEqual(len(sources), 82)
-        self.assertEqual(len(export_rows), 684)
+        self.assertEqual(len(export_rows), 622)
+        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 622)
+        self.assertEqual(alignment_qc["summary"]["alignment_record_count"], 652)
+        self.assertEqual(alignment_qc["summary"]["section_group_alignment_record_count"], 30)
         self.assertEqual(alignment_qc["summary"]["active_section_count"], 30)
+        self.assertEqual(corpus_qc["counts"]["alignments"], 652)
+        self.assertEqual(corpus_qc["counts"]["exact_alignment_records"], 622)
+        self.assertEqual(corpus_qc["counts"]["section_group_alignment_records"], 30)
         self.assertEqual(corpus_qc["status"], "pass")
         self.assertEqual(corpus_qc["hard_failure_count"], 0)
 
@@ -130,6 +167,14 @@ class MoziPromotionTest(unittest.TestCase):
                 self.assertTrue(unit["blocker_reason"])
                 self.assertNotIn("public-domain", unit["blocker_reason"].lower())
 
+        for source in sources:
+            self.assertTrue(source["rights_status"])
+            self.assertTrue(source["release_status"])
+            if source["work_id"] != "mozi":
+                continue
+            if source["rights_status"] == "public_domain_verified":
+                self.assertNotEqual(source["release_status"], "unknown")
+
     def test_mozi_exports_have_clean_traceable_proof_of_concept_text(self) -> None:
         manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "mozi.yml")
         corpus_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__corpus_qc.json")
@@ -145,8 +190,11 @@ class MoziPromotionTest(unittest.TestCase):
             self.assertTrue(translation_text.strip())
             self.assertFalse(CJK_RE.search(translation_text))
             self.assertEqual(_severe_ocr_issues(translation_text), [])
+            self.assertEqual(detect_mozi_ocr_issues(translation_text), [])
             for marker in MOZI_NOTICE_MARKERS:
                 self.assertNotIn(marker, lowered)
+            for bad_token in MOZI_BAD_OCR_TOKENS:
+                self.assertNotIn(bad_token.casefold(), lowered)
 
         self.assertEqual(corpus_qc["text_integrity"]["translation_with_chinese_sections"], [])
         self.assertEqual(corpus_qc["text_integrity"]["translation_with_notice_sections"], [])
@@ -157,20 +205,33 @@ class MoziPromotionTest(unittest.TestCase):
     def test_mozi_alignment_qc_and_fallbacks_are_explicit(self) -> None:
         alignment_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__alignment_qc.json")
         corpus_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__corpus_qc.json")
+        completion_doc = load_text(REPO_ROOT / "documentation" / "mozi_completion_quality.md")
+        coverage_doc = load_text(REPO_ROOT / "documentation" / "mozi_coverage_audit.md")
+        repair_log = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__ocr_repair_log.json")
 
         self.assertEqual(alignment_qc["summary"]["active_section_count"], 30)
         self.assertEqual(alignment_qc["summary"]["blocked_section_count"], 22)
-        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 684)
-        self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"chapter": 8, "grouped": 676})
-        self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 8)
+        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 622)
+        self.assertEqual(alignment_qc["summary"]["alignment_record_count"], 652)
+        self.assertEqual(alignment_qc["summary"]["section_group_alignment_record_count"], 30)
+        self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"chapter": 9, "grouped": 613})
+        self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 9)
         self.assertEqual(alignment_qc["summary"]["hard_failure_count"], 0)
         self.assertEqual(alignment_qc["summary"]["rights_review_required_section_count"], 30)
         self.assertEqual(alignment_qc["summary"]["release_ready_section_count"], 0)
         self.assertEqual(corpus_qc["alignment_quality"]["hard_failure_count"], 0)
         self.assertEqual(corpus_qc["source_traceability"]["hard_failure_count"], 0)
+        self.assertEqual(corpus_qc["status"], "pass")
+        self.assertEqual(repair_log["summary"]["issue_count_before_repair"], 304)
+        self.assertEqual(repair_log["summary"]["automatic_correction_count"], 439)
+        self.assertEqual(repair_log["summary"]["curated_correction_count"], 11)
+        self.assertEqual(repair_log["summary"]["remaining_issue_count"], 0)
+        self.assertFalse(repair_log["summary"]["cleaner_source_layer_found"])
+        self.assertGreater(len(repair_log["repairs"]), 0)
+        self.assertEqual(repair_log["remaining_issues"], [])
 
         fallback_sections = [section for section in alignment_qc["sections"] if section["fallback_used"]]
-        self.assertEqual(len(fallback_sections), 8)
+        self.assertEqual(len(fallback_sections), 9)
         for section in fallback_sections:
             self.assertTrue(section["fallback_reason"])
 
@@ -179,6 +240,13 @@ class MoziPromotionTest(unittest.TestCase):
         for section in blocked_sections:
             self.assertTrue(section["reason"])
             self.assertNotIn("not verified public domain", section["reason"].lower())
+
+        self.assertIn("- Exact alignments: 622", completion_doc)
+        self.assertIn("- Total processed alignment records: 652", completion_doc)
+        self.assertIn("- Remaining coarse fallbacks: 9", completion_doc)
+        self.assertIn("## Remaining fallbacks", completion_doc)
+        self.assertIn("| exact_alignment_count | 622 |", coverage_doc)
+        self.assertIn("| units_with_release_ready_english_source | 0 |", coverage_doc)
 
     def test_mozi_mapping_summary_matches_generated_outputs(self) -> None:
         mapping = load_json(REPO_ROOT / "metadata" / "chinesenotes_work_mapping.yml")
@@ -193,8 +261,16 @@ class MoziPromotionTest(unittest.TestCase):
         self.assertEqual(summary["active_section_count"], alignment_qc["summary"]["active_section_count"])
         self.assertEqual(summary["exportable_section_count"], alignment_qc["summary"]["exportable_section_count"])
         self.assertEqual(summary["exact_alignment_count"], alignment_qc["summary"]["exact_alignment_count"])
+        self.assertEqual(summary["alignment_record_count"], alignment_qc["summary"]["alignment_record_count"])
+        self.assertEqual(summary["section_group_alignment_record_count"], alignment_qc["summary"]["section_group_alignment_record_count"])
         self.assertEqual(summary["blocked_section_count"], alignment_qc["summary"]["blocked_section_count"])
         self.assertEqual(summary["fallback_section_count"], alignment_qc["summary"]["fallback_section_count"])
+        self.assertEqual(summary["corruption_issue_count"], alignment_qc["summary"]["corruption_issue_count"])
+        self.assertEqual(summary["pre_repair_corruption_issue_count"], alignment_qc["summary"]["pre_repair_corruption_issue_count"])
+        self.assertEqual(summary["corrected_corruption_issue_count"], alignment_qc["summary"]["corrected_corruption_issue_count"])
+        self.assertEqual(summary["automatic_correction_count"], alignment_qc["summary"]["automatic_correction_count"])
+        self.assertEqual(summary["curated_correction_count"], alignment_qc["summary"]["curated_correction_count"])
+        self.assertEqual(summary["remaining_corruption_issue_count"], alignment_qc["summary"]["remaining_corruption_issue_count"])
         self.assertEqual(summary["english_witness"], alignment_qc["summary"]["english_witness"])
         self.assertIn("30 proof-of-concept-active chapters", mozi_mapping["notes"])
         self.assertIn("22 chapters remain metadata-only", mozi_mapping["notes"])

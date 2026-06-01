@@ -11,6 +11,7 @@ Generated from `logs/qc_reports/shangshu__alignment_qc.json`.
 - English witness: Wikisource transcription of James Legge, Sacred Books of the East, Volume 3
 - Exact alignments: 135
 - Automatic fine-grained alignments: 135
+- Total processed alignment records: 135
 - Curated override sections: 0
 - Remaining coarse fallbacks: 0
 - Blocked sections: 2

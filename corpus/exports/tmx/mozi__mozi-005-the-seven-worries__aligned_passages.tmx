@@ -19,7 +19,7 @@
         <seg>子墨子曰：國有七患。七患者何？城郭溝池不可守，而治宮室，一患也。邊國至境，四鄰莫救，二患也。先盡民力無用之功，賞賜無能之人，民力盡於無用，財寶虛於待客，三患也。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Motse said : There are seven causes of worry to a state and they are : (1) When the outer and the inner city walls are not defensible ; (2) When an enemy state is approaching and yet one’s neighbours do not come to the rescue ; (3) When the resources of the people have all been spent on useless enterprises and gifts all squandered upon incapable men, when people’s resources are exhausted without producing any profit and the treasury is emptied by entertaining idle company; (4) When the officials value only their salaries, and the sophists  only friendship, and when the subordinates dare not remonstrate against the laws the ruler has made for persecution ; (5) When the lord is over-confident of his own wisdom and holds no consultation, when he feels he is secure and makes no preparations against attack, and when he does not know that he must be watchful while neighbours are planning against him ; (6) When those trusted are not loyal and the loyal are not trusted ; and (7) When the crops are not sufficient for food and the ministers can not be charged with responsibihties, and when awards fail to make people happy and punishment to make them afraid.</seg>
+        <seg>Motse said: There are seven causes of worry to a state and they are: (1) When the outer and the inner city walls are not defensible; (2) When an enemy state is approaching and yet one’s neighbours do not come to the rescue; (3) When the resources of the people have all been spent on useless enterprises and gifts all squandered upon incapable men, when people’s resources are exhausted without producing any profit and the treasury is emptied by entertaining idle company; (4) When the officials value only their salaries, and the sophists only friendship, and when the subordinates dare not remonstrate against the laws the ruler has made for persecution; (5) When the lord is over-confident of his own wisdom and holds no consultation, when he feels he is secure and makes no preparations against attack, and when he does not know that he must be watchful while neighbours are planning against him; (6) When those trusted are not loyal and the loyal are not trusted; and (7) When the crops are not sufficient for food and the ministers can not be charged with responsibihties, and when awards fail to make people happy and punishment to make them afraid.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0002">
@@ -51,38 +51,18 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">5.9 - 5.11</prop>
-      <prop type="x-translation-ref">5.3 - 5.4</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">5.9 - 5.13</prop>
+      <prop type="x-translation-ref">5.3 - 5.5</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>所信者不忠，所忠者不信，六患也。畜種菽粟不足以食之，大臣不足以事之。賞賜不能喜，誅罰不能威，七患也。</seg>
+        <seg>所信者不忠，所忠者不信，六患也。畜種菽粟不足以食之，大臣不足以事之。賞賜不能喜，誅罰不能威，七患也。以七患居國，必無社稷。以七患守城，敵至國傾。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>State will perish, and, in the defence of a city, the city will be reduced to ruin by the approaching enemy. Where-ever these seven causes are found, the country will face calamity.</seg>
+        <seg>c State will perish, and, in the defence of a city, the city will be reduced to ruin by the approaching enemy. Where-ever these seven causes are found, the country will face calamity. Now, the five grains are the people's mainstay and the source of the ruler’s revenue.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0004">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-005-the-seven-worries</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">5.12 - 5.13</prop>
-      <prop type="x-translation-ref">5.5</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>以七患居國，必無社稷。以七患守城，敵至國傾。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Now, the five grains  are the people's mainstay and the source of the ruler’s revenue.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0005">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -99,10 +79,10 @@
         <seg>七患之所當，國必有殃。凡五穀者，民之所仰也，君之所以爲養也。故民無仰則君無養，民無食則不可事。故食不可不務也，地不可不力也，用不可不節也。五穀盡收則五味盡御於主，不盡收則不盡御。一谷不收謂之饉，二谷不收謂之旱，三谷不收謂之凶，四谷不收謂之餽，五穀不收謂之饑。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>When the people lose their support the ruler cannot have any revenue either. And without food the people will not observe order. Therefore, food should be secured, land cultivated and espenditures cut down. ■\Tien all the five grains are gathered, all the five tastes 2 will be offered the ruler ; when not all gathered, the five tastes will not be all offered. Failure of one grain is called dearth  ; failure of two grains is called scarcity  ; failure of three grains is called cakmity m I failure of four grains is called want  ; and failure of all five grains is caUed famine When the country is in dearth, all the salaries of the officials below the rank of the minister will be reduced by one-fifth ; in scarcity, they will be reduced by two-fifths ; in calamity, they will be reduced by three-fifths; in want, they will be reduced by four-fifths ; and when famine is in the country there will be no salaries beyond their rations. Therefore when famine and dearth visit a country, the ruler will omit three from the five items of sacrifice, the officials will suspend the courts, and the scholars will not go to school and the lord will not put on his robe to give audience.</seg>
+        <seg>When the people lose their support the ruler cannot have any revenue either. And without food the people will not observe order. Therefore, food should be secured, land cultivated and espenditures cut down. ■\Tien all the five grains are gathered, all the five tastes 2 will be offered the ruler; when not all gathered, the five tastes will not be all offered. Failure of one grain is called dearth; failure of two grains is called scarcity; failure of three grains is called cakmity m I failure of four grains is called want; and failure of all five grains is called famine When the country is in dearth, all the salaries of the officials below the rank of the minister will be reduced by one-fifth; in scarcity, they will be reduced by two-fifths; in calamity, they will be reduced by three-fifths; in want, they will be reduced by four-fifths; and when famine is in the country there will be no salaries beyond their rations. Therefore when famine and dearth visit a country, the ruler will omit three from the five items of sacrifice, the officials will suspend the courts, and the scholars will not go to school and the lord will not put on his robe to give audience.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0006">
+    <tu tuid="mozi-005-the-seven-worries__align-0005">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -122,7 +102,7 @@
         <seg>Even envoys from other (3) millet of a different variety, (4) wheat, and (5) soy beans.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0007">
+    <tu tuid="mozi-005-the-seven-worries__align-0006">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -142,7 +122,7 @@
         <seg>tast include bitter, hot, sour, sweet, and salty.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0008">
+    <tu tuid="mozi-005-the-seven-worries__align-0007">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -159,10 +139,10 @@
         <seg>饑，則盡無祿，稟食而已矣。故凶饑存乎國，人君徹鼎食五分之五，大夫徹縣，士不入學，君朝之衣不革制，諸侯之客，四鄰之使，雍食而不盛，徹驂騑，塗不芸，馬不食粟，婢妾不衣帛，此告不足之至也。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>But openly it is used figuratively, signifying elaborate cooking and sumptuous THE SEVEN CAUSES OF ANXIETY feudal lords and messengers from, neighbouring states are entertained with cooked food only, and it is not sumptuous. The side-horses of the carriage-team are done awaj with and the walks (in the palace) are not weeded. Neither are the horses fed with grains, nor are the concubines and maids clothed with silk. And this is the sign of extreme scarcity-Now, if carrying her child and drawing water from a well, a woman dropped the child into the well, she would of course endeavour to get it out.</seg>
+        <seg>But openly it is used figuratively, signifying elaborate cooking and sumptuous feudal lords and messengers from, neighbouring states are entertained with cooked food only, and it is not sumptuous. The side-horses of the carriage-team are done awaj with and the walks (in the palace) are not weeded. Neither are the horses fed with grains, nor are the concubines and maids clothed with silk. And this is the sign of extreme scarcity-Now, if carrying her child and drawing water from a well, a woman dropped the child into the well, she would of course endeavour to get it out.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0009">
+    <tu tuid="mozi-005-the-seven-worries__align-0008">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -182,7 +162,7 @@
         <seg>But famine and dearth is a much greater calamity than the dropping of a child.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0010">
+    <tu tuid="mozi-005-the-seven-worries__align-0009">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -199,10 +179,10 @@
         <seg>今歲凶、民饑、道餓，重其子此疚於隊，其可無察邪？故時年歲善，則民仁且良；時年歲凶，則民吝且惡。夫民何常此之有？爲者疾，食者衆，則歲無豐。故曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Should there not be also endeavour (to prevent it) ? People are gentle and kind when the year is good, but selfish and vicious when it is bad. Yet, how can they be held responsible ? When many produce but few consume then there can be no bad year ; on the contrary, when few produce but many consume then there can be no good year. Thus it is said : scarcity of supply should stimulate study of the seasons and want of food demands economy of expenditures. The ancients produced wealth according to seasons.</seg>
+        <seg>Should there not be also endeavour (to prevent it)? People are gentle and kind when the year is good, but selfish and vicious when it is bad. Yet, how can they be held responsible? When many produce but few consume then there can be no bad year; on the contrary, when few produce but many consume then there can be no good year. Thus it is said: scarcity of supply should stimulate study of the seasons and want of food demands economy of expenditures. The ancients produced wealth according to seasons.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0011">
+    <tu tuid="mozi-005-the-seven-worries__align-0010">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -219,10 +199,10 @@
         <seg>「財不足則反之時，食不足則反之用。」故先民以時生財，固本而用財，則財足。故雖上世之聖王，豈能使五穀常收，而旱水不至哉！然而無凍餓之民者，何也？</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>They ascertained the source of wealth before they appropriated the products, and therefore they had plenty. Could even the ancient sage-kings cause the five grains invariably to ripen and be harvested and the floods and the droughts never to occur ? Yet, none were frozen or starved, why was it ?</seg>
+        <seg>They ascertained the source of wealth before they appropriated the products, and therefore they had plenty. Could even the ancient sage-kings cause the five grains invariably to ripen and be harvested and the floods and the droughts never to occur? Yet, none were frozen or starved, why was it?</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0012">
+    <tu tuid="mozi-005-the-seven-worries__align-0011">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -242,7 +222,7 @@
         <seg>It was because they made full use of the seasons and were frugal in their own maintenance.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0013">
+    <tu tuid="mozi-005-the-seven-worries__align-0012">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -262,7 +242,7 @@
         <seg>The history of Hsia says that the Deluge lasted seven years in the time of Yli and the history of Yin tells that a drought visited so? The reason lies in diligent production and thrifty consumption. Therefore, famine and dearth cannot be prepared against unless there are stored grains in the granaries, and justice cannot be maintained against the unjust unless there are ready weapons in the armoury.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0014">
+    <tu tuid="mozi-005-the-seven-worries__align-0013">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -282,7 +262,7 @@
         <seg>One cannot defend himself unless the inner and the outer city walls are in repair, and one cannot meet emergencies unless his ideas are well’ thought out. Thus Ch’ing Chi i was unprepared, and he should not have set out on the journey.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0015">
+    <tu tuid="mozi-005-the-seven-worries__align-0014">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -302,7 +282,7 @@
         <seg>Chieh made no preparations against T’ang and he was sent to exile.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0016">
+    <tu tuid="mozi-005-the-seven-worries__align-0015">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -322,7 +302,7 @@
         <seg>And Chow made to reward the undeserving, empty the treasury to acquire callages and horses, exhaust the labourers to build palaces and furmsh amusements.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0017">
+    <tu tuid="mozi-005-the-seven-worries__align-0016">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -342,7 +322,7 @@
         <seg>Upon their death, again, thick coffins and many coats and fur coats are to be furnished. it 1 » A U B i.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0018">
+    <tu tuid="mozi-005-the-seven-worries__align-0017">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -362,7 +342,7 @@
         <seg>to and was murdered on the wav.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0019">
+    <tu tuid="mozi-005-the-seven-worries__align-0018">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -379,10 +359,10 @@
         <seg>生時治臺榭，死又脩墳墓。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>A 11  IS equal to approximately J mile.</seg>
+        <seg>A 11 IS equal to approximately J mile.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0020">
+    <tu tuid="mozi-005-the-seven-worries__align-0019">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -399,10 +379,10 @@
         <seg>故民苦於外，府庫單於內。上不厭其樂，下不堪其苦。故國離寇敵則傷，民見凶饑則亡，此皆備不具之罪也。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>THE SEVEN CAUSES OF ANXIETY Porciies and pavilions are built for them while they are living, and tombs when they are dead. By this the people are embittered and the treasury is left lean.</seg>
+        <seg>Porciies and pavilions are built for them while they are living, and tombs when they are dead. By this the people are embittered and the treasury is left lean.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0021">
+    <tu tuid="mozi-005-the-seven-worries__align-0020">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-005-the-seven-worries</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -419,7 +399,7 @@
         <seg>且夫食者，聖人之所寶也。故《周書》曰：「國無三年之食者，國非其國也；家無三年之食者，子非其子也。」此之謂國備。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>While the amuse-ments are not yet satisfying to the superiors, the hardship already becomes unbearable for the subjects. Such a state will fall under any attack and such people will perish by famine. And all this is due to the absence of preparation. Moreover, food is what the sages treasured. The history of Chou says ; Without three years’ food (in store) a state cannot be a state (as it is in danger of losing its sovereignty). A family being without food in store to be suiB&amp;cient for three years its children cannot be its children (who are in danger of being abandoned or sold to others).” Such, then, is the preparation of a country.</seg>
+        <seg>While the amusements are not yet satisfying to the superiors, the hardship already becomes unbearable for the subjects. Such a state will fall under any attack and such people will perish by famine. And all this is due to the absence of preparation. Moreover, food is what the sages treasured. The history of Chou says; Without three years’ food (in store) a state cannot be a state (as it is in danger of losing its sovereignty). A family being without food in store to be suiB&amp;cient for three years its children cannot be its children (who are in danger of being abandoned or sold to others)." Such, then, is the preparation of a country.</seg>
       </tuv>
     </tu>
   </body>

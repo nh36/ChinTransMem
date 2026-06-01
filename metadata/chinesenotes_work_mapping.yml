@@ -181,7 +181,7 @@
       "english_coverage": "partial",
       "chinese_coverage": "complete",
       "preferred_use": "proof_of_concept",
-      "notes": "ChineseNotes Chinese scaffold with Archive.org Mei 1929 OCR English for 30 proof-of-concept-active chapters; 22 chapters remain metadata-only pending a clean attributable English witness.",
+      "notes": "ChineseNotes Chinese scaffold with Archive.org Mei 1929 OCR English for 30 proof-of-concept-active chapters; 22 chapters remain metadata-only pending a clean attributable English witness. Available alternate Archive.org OCR layers were reviewed, but deterministic repair of the committed OCR text proved more reliable than switching layers.",
       "generated_summary": {
         "work_id": "mozi",
         "work_title_zh": "墨子",
@@ -194,14 +194,16 @@
         "exportable_section_count": 30,
         "metadata_only_section_count": 22,
         "blocked_section_count": 22,
-        "exact_alignment_count": 684,
-        "automatic_alignment_count": 684,
+        "exact_alignment_count": 622,
+        "automatic_alignment_count": 622,
+        "alignment_record_count": 652,
+        "section_group_alignment_record_count": 30,
         "alignment_granularity_counts": {
-          "chapter": 8,
-          "grouped": 676
+          "chapter": 9,
+          "grouped": 613
         },
         "curated_override_section_count": 0,
-        "fallback_section_count": 8,
+        "fallback_section_count": 9,
         "rights_review_required_section_count": 30,
         "release_ready_section_count": 0,
         "genuine_blocker_count": 22,
@@ -209,6 +211,11 @@
         "work_state": "proof_of_concept_partial_active",
         "hard_failure_count": 0,
         "corruption_issue_count": 0,
+        "pre_repair_corruption_issue_count": 304,
+        "corrected_corruption_issue_count": 450,
+        "automatic_correction_count": 439,
+        "curated_correction_count": 11,
+        "remaining_corruption_issue_count": 0,
         "remaining_drift_issue_count": 0
       }
     },

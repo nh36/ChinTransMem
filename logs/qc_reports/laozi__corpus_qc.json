@@ -15,7 +15,14 @@
     "persons": 9,
     "sources": 162,
     "segments": 1971,
-    "alignments": 795
+    "alignments": 795,
+    "exact_alignment_records": 714,
+    "section_group_alignment_records": 81
+  },
+  "count_explanations": {
+    "alignments": "Total processed alignment records stored in SQLite, including non-exported section_group companion records.",
+    "exact_alignment_records": "Exportable exact_or_near_exact alignment records.",
+    "section_group_alignment_records": "Non-exported section_group companion records retained for bookkeeping and QC."
   },
   "sections": [
     {

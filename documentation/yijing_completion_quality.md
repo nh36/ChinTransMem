@@ -11,6 +11,7 @@ Generated from `logs/qc_reports/yijing__alignment_qc.json`.
 - English witness: ChineseNotes bilingual mirror of James Legge, Book of Changes (1882)
 - Exact alignments: 450
 - Automatic fine-grained alignments: 450
+- Total processed alignment records: 450
 - Curated override sections: 0
 - Remaining coarse fallbacks: 0
 - Blocked sections: 0

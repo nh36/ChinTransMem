@@ -555,6 +555,7 @@ def render_completion_quality_markdown(
         [
         f"- Exact alignments: {summary['exact_alignment_count']}",
         f"- Automatic fine-grained alignments: {summary['automatic_alignment_count']}",
+        f"- Total processed alignment records: {summary.get('alignment_record_count', summary['exact_alignment_count'])}",
         f"- Curated override sections: {summary['curated_override_section_count']}",
         f"- Remaining coarse fallbacks: {summary['fallback_section_count']}",
         f"- Blocked sections: {summary['blocked_section_count']}",
@@ -565,6 +566,10 @@ def render_completion_quality_markdown(
         lines.append(f"- Corruption issues before repair: {summary['pre_repair_corruption_issue_count']}")
     if "corrected_corruption_issue_count" in summary:
         lines.append(f"- Corruption issues corrected: {summary['corrected_corruption_issue_count']}")
+    if "automatic_correction_count" in summary:
+        lines.append(f"- Automatic OCR/token repairs: {summary['automatic_correction_count']}")
+    if "curated_correction_count" in summary:
+        lines.append(f"- Curated OCR/phrase repairs: {summary['curated_correction_count']}")
     if "remaining_corruption_issue_count" in summary:
         lines.append(f"- Corruption issues remaining: {summary['remaining_corruption_issue_count']}")
     if "drift_checks_run" in summary:

@@ -1,0 +1,4072 @@
+{
+  "summary": {
+    "issue_count_before_repair": 304,
+    "automatic_correction_count": 439,
+    "curated_correction_count": 11,
+    "remaining_issue_count": 0,
+    "cleaner_source_layer_found": false,
+    "source_layer_audit": {
+      "reviewed_layers": [
+        "Archive.org DjVu OCR text",
+        "Archive.org ABBYY XML",
+        "Archive.org DjVu XML",
+        "Archive.org hOCR HTML",
+        "Archive.org hOCR search text"
+      ],
+      "selected_layer": "Archive.org DjVu OCR text with deterministic repair rules"
+    }
+  },
+  "repairs": [
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "humilia-tion",
+      "corrected_token": "humiliation",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "siifiicient",
+      "corrected_token": "sufficient",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "Hs",
+      "corrected_token": "his",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "acHevemeat",
+      "corrected_token": "achievement",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "aSectionate",
+      "corrected_token": "affectionate",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "ranlc",
+      "corrected_token": "rank",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "triSe",
+      "corrected_token": "trifle",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-002-self-cultivation",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-002-self-cultivation",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-002-self-cultivation",
+      "raw_token": "efiective",
+      "corrected_token": "effective",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "Watcliing",
+      "corrected_token": "Watching",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "sigked",
+      "corrected_token": "sighed",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "Wiiat",
+      "corrected_token": "What",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "wbat",
+      "corrected_token": "what",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "difierent",
+      "corrected_token": "different",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "oflflcial",
+      "corrected_token": "official",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "quaMed",
+      "corrected_token": "qualified",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "StoTiso, An Ode says :",
+      "corrected_token": "An Ode says :",
+      "correction_type": "note_residue_repair",
+      "confidence": 0.96,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "raw_token": "\" Tu Kan Mu was a pupU of Tse Hsia, who was a noted disciple of v/ODiucms",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-004-methods-and-standards",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-004-methods-and-standards",
+      "raw_token": "There-upon",
+      "corrected_token": "Thereupon",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-005-the-seven-worries",
+      "raw_token": "Motse, the Neglected Rival of Confucius, chap. i.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-005-the-seven-worries",
+      "raw_token": "caUed",
+      "corrected_token": "called",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-005-the-seven-worries",
+      "raw_token": "amuse-ments",
+      "corrected_token": "amusements",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-006-indulgence-in-excess",
+      "raw_token": "There-upon",
+      "corrected_token": "Thereupon",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-006-indulgence-in-excess",
+      "raw_token": "tile",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-006-indulgence-in-excess",
+      "raw_token": "tbeir",
+      "corrected_token": "their",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-006-indulgence-in-excess",
+      "raw_token": "tbey",
+      "corrected_token": "they",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-006-indulgence-in-excess",
+      "raw_token": "difierent",
+      "corrected_token": "different",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-006-indulgence-in-excess",
+      "raw_token": "punish-ment",
+      "corrected_token": "punishment",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-007-threefold-argument",
+      "raw_token": "yti",
+      "corrected_token": "Yu",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-007-threefold-argument",
+      "raw_token": "institn",
+      "corrected_token": "institute",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-007-threefold-argument",
+      "raw_token": "Wn",
+      "corrected_token": "Wu",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-007-threefold-argument",
+      "raw_token": "compostion",
+      "corrected_token": "composition",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-007-threefold-argument",
+      "raw_token": "sage-Mngs",
+      "corrected_token": "sage-kings",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "juris-diction",
+      "corrected_token": "jurisdiction",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "govern-ment",
+      "corrected_token": "government",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "sa3drLg",
+      "corrected_token": "saying",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "unxighteousness",
+      "corrected_token": "unrighteousness",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "ttis",
+      "corrected_token": "this",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "discrimina-tion",
+      "corrected_token": "discrimination",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "Mm",
+      "corrected_token": "him",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "Mm",
+      "corrected_token": "him",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "Mm",
+      "corrected_token": "him",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "raw_token": "pages to refer to this work.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "per-inenoy",
+      "corrected_token": "permanency",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "stabilily",
+      "corrected_token": "stability",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "exalta-tion",
+      "corrected_token": "exaltation",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "founda-tion",
+      "corrected_token": "foundation",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "rebeUious",
+      "corrected_token": "rebellious",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "vntuous",
+      "corrected_token": "virtuous",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "pvernors",
+      "corrected_token": "governors",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "amshed",
+      "corrected_token": "banished",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "Who can handle virtue even at such an early time as that of Confucius The to sFow Fow in tFo: past tFe rulers could not do witFout befriending subordinates and helpers.",
+      "corrected_token": "Who can handle virtue even at such an early time as that of Confucius? This goes to show how in the past the rulers could not do without befriending subordinates and helpers.",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.99,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "bigb",
+      "corrected_token": "high",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "Tbe",
+      "corrected_token": "The",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "tlieni-selves",
+      "corrected_token": "themselves",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "ISrow",
+      "corrected_token": "Now",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "afectionate",
+      "corrected_token": "affectionate",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "tbeir",
+      "corrected_token": "their",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "ofier",
+      "corrected_token": "offer",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "punish-ment",
+      "corrected_token": "punishment",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "execu-tion",
+      "corrected_token": "execution",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "rardc",
+      "corrected_token": "rank",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "deprecia-tion",
+      "corrected_token": "depreciation",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "govern-ment",
+      "corrected_token": "government",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "FuTse",
+      "corrected_token": "Fu Tse",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "goyernment",
+      "corrected_token": "government",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "emplo3dng",
+      "corrected_token": "employing",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "governinent",
+      "corrected_token": "government",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "pnnislied",
+      "corrected_token": "punished",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "there-upon",
+      "corrected_token": "thereupon",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "witL",
+      "corrected_token": "with",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "enliglitemnent",
+      "corrected_token": "enlightenment",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "consolate",
+      "corrected_token": "console",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "Yti",
+      "corrected_token": "Yu",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "Tkiis",
+      "corrected_token": "Thus",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "tliis",
+      "corrected_token": "this",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "wken",
+      "corrected_token": "When",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "raw_token": "tke",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "Motse said : All tEe riders in tEe world desire tEeir states to be wealtEy, tEeir people to be inany> and tEeir government and jurisdiction to be orderly.",
+      "corrected_token": "Motse said : All the rulers in the world desire their states to be wealthy, their people to be many, and their government and jurisdiction to be orderly.",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.99,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEey",
+      "corrected_token": "they",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEeir",
+      "corrected_token": "their",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "TEey",
+      "corrected_token": "They",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "Eave",
+      "corrected_token": "have",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEis",
+      "corrected_token": "this",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEem",
+      "corrected_token": "them",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "Eis",
+      "corrected_token": "his",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "sEould",
+      "corrected_token": "should",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEose",
+      "corrected_token": "those",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "wEo",
+      "corrected_token": "who",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "sEoot",
+      "corrected_token": "shoot",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "witE",
+      "corrected_token": "with",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "cEariot",
+      "corrected_token": "chariot",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "sEall",
+      "corrected_token": "shall",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "Eonour",
+      "corrected_token": "honour",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEose",
+      "corrected_token": "those",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "wEo",
+      "corrected_token": "who",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "sEall",
+      "corrected_token": "shall",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "punisE",
+      "corrected_token": "punish",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEen",
+      "corrected_token": "then",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "sEouid",
+      "corrected_token": "should",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "wEo",
+      "corrected_token": "who",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "wEo",
+      "corrected_token": "who",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEose",
+      "corrected_token": "those",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "wEo",
+      "corrected_token": "who",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "sEoot",
+      "corrected_token": "shoot",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEose",
+      "corrected_token": "those",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "wEo",
+      "corrected_token": "who",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "Eave",
+      "corrected_token": "have",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEis",
+      "corrected_token": "this",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEem",
+      "corrected_token": "them",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "faitEful",
+      "corrected_token": "faithful",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "sEall",
+      "corrected_token": "shall",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "Eonour",
+      "corrected_token": "honour",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "unfaitEful",
+      "corrected_token": "unfaithful",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "sEall",
+      "corrected_token": "shall",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "punisE",
+      "corrected_token": "punish",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "sEould",
+      "corrected_token": "should",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "wEo",
+      "corrected_token": "who",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "wEo",
+      "corrected_token": "who",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "faitEful",
+      "corrected_token": "faithful",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "unfaitEful",
+      "corrected_token": "unfaithful",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tEe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "Eave",
+      "corrected_token": "have",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "ex-perienced",
+      "corrected_token": "experienced",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "exalta-tion",
+      "corrected_token": "exaltation",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-011-identification-with-the-superior-i",
+      "raw_token": "agree-ment",
+      "corrected_token": "agreement",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-011-identification-with-the-superior-i",
+      "raw_token": "bo",
+      "corrected_token": "be",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-011-identification-with-the-superior-i",
+      "raw_token": "punish-ments",
+      "corrected_token": "punishments",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "yoxmger",
+      "corrected_token": "younger",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "Emowing",
+      "corrected_token": "Knowing",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "condenmation",
+      "corrected_token": "condemnation",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "sage-Mngs",
+      "corrected_token": "sage-kings",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "diSerent",
+      "corrected_token": "different",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "oj0S.cials",
+      "corrected_token": "officials",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "Tbe",
+      "corrected_token": "The",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "wlien",
+      "corrected_token": "when",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "accoinplish",
+      "corrected_token": "accomplish",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "juris-diction",
+      "corrected_token": "jurisdiction",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "raw_token": "can-not",
+      "corrected_token": "cannot",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "Con-scious",
+      "corrected_token": "conscious",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "difierence",
+      "corrected_token": "difference",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "There-upon",
+      "corrected_token": "Thereupon",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "pxmish",
+      "corrected_token": "punish",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "Tlieieupoii",
+      "corrected_token": "Thereupon",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "administra-tion",
+      "corrected_token": "administration",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "whoeTeir",
+      "corrected_token": "whoever",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "Hs",
+      "corrected_token": "his",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "Mm",
+      "corrected_token": "him",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "wliat",
+      "corrected_token": "what",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "an3rwhere",
+      "corrected_token": "anywhere",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "raw_token": "punish-ments",
+      "corrected_token": "punishments",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-014-universal-love-i",
+      "raw_token": "difierent",
+      "corrected_token": "different",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-014-universal-love-i",
+      "raw_token": "Hs",
+      "corrected_token": "his",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "w-ant",
+      "corrected_token": "want",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "universaMove",
+      "corrected_token": "universal love",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "oj0S.cers",
+      "corrected_token": "officers",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "difierent",
+      "corrected_token": "different",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "Eiver",
+      "corrected_token": "River",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "Eiver",
+      "corrected_token": "River",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "Eiver",
+      "corrected_token": "River",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "Eiver",
+      "corrected_token": "River",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "Eivers",
+      "corrected_token": "Rivers",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "Eivers",
+      "corrected_token": "Rivers",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "Eiver",
+      "corrected_token": "River",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "Eiver",
+      "corrected_token": "River",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "Eiver",
+      "corrected_token": "River",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "Eivers",
+      "corrected_token": "Rivers",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "raw_token": "imiversalize",
+      "corrected_token": "universalize",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "raw_token": "afiection",
+      "corrected_token": "affection",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "raw_token": "magnani-mous",
+      "corrected_token": "magnanimous",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "raw_token": "liave",
+      "corrected_token": "have",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "raw_token": "tliat",
+      "corrected_token": "that",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "raw_token": "ofiering",
+      "corrected_token": "offering",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "raw_token": "WTiile",
+      "corrected_token": "While",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "raw_token": "efScient",
+      "corrected_token": "efficient",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-017-condemnation-of-offensive-war-i",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "wisli",
+      "corrected_token": "wish",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "inmimerable",
+      "corrected_token": "innumerable",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "inniimeraMe",
+      "corrected_token": "innumerable",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "ofi",
+      "corrected_token": "off",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "bo",
+      "corrected_token": "be",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "ranlc",
+      "corrected_token": "rank",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "tb©",
+      "corrected_token": "the",
+      "correction_type": "automatic_literal_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "bundred",
+      "corrected_token": "hundred",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "conimon",
+      "corrected_token": "common",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "ofScials",
+      "corrected_token": "officials",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "wdll",
+      "corrected_token": "will",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "ChuYung",
+      "corrected_token": "Chu Yung",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "jErom",
+      "corrected_token": "from",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "Eiver",
+      "corrected_token": "River",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "respec-tively",
+      "corrected_token": "respectively",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "termino-logy",
+      "corrected_token": "terminology",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "com-missioned",
+      "corrected_token": "commissioned",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "Ofiensive",
+      "corrected_token": "Offensive",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-019-economy-of-expenditures-i",
+      "raw_token": "taldng",
+      "corrected_token": "taking",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-019-economy-of-expenditures-i",
+      "raw_token": "an3d3hing",
+      "corrected_token": "anything",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-019-economy-of-expenditures-i",
+      "raw_token": "liave",
+      "corrected_token": "have",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-019-economy-of-expenditures-i",
+      "raw_token": "Wlien",
+      "corrected_token": "When",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-019-economy-of-expenditures-i",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-019-economy-of-expenditures-i",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-020-economy-of-expenditures-ii",
+      "raw_token": "dranlc",
+      "corrected_token": "drank",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "Mots0",
+      "corrected_token": "Motse",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "insufiS.cient",
+      "corrected_token": "insufficient",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "doubtfnl",
+      "corrected_token": "doubtful",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "admdnistration",
+      "corrected_token": "administration",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "tbeir",
+      "corrected_token": "their",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "clotking",
+      "corrected_token": "clothing",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "wffien",
+      "corrected_token": "when",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "govern-ment",
+      "corrected_token": "government",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "govern-ment",
+      "corrected_token": "government",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "difierence",
+      "corrected_token": "difference",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "coiBSn",
+      "corrected_token": "coffin",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "sulBiicient",
+      "corrected_token": "sufficient",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "Yi.2",
+      "corrected_token": "Yi.",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "Eingdom",
+      "corrected_token": "Kingdom",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "tliore",
+      "corrected_token": "there",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "discrinoination",
+      "corrected_token": "discrimination",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "raw_token": "suffi.cient",
+      "corrected_token": "sufficient",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "Mots",
+      "corrected_token": "Motse",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "TL",
+      "corrected_token": "The",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "gentlemon",
+      "corrected_token": "gentlemen",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "stiU",
+      "corrected_token": "still",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "ow, what does Heaven desire",
+      "corrected_token": "Now, what does Heaven desire",
+      "correction_type": "automatic_phrase_repair",
+      "confidence": 0.92,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "? desires righteousness",
+      "corrected_token": "? It desires righteousness",
+      "correction_type": "automatic_phrase_repair",
+      "confidence": 0.92,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "sage-Mngs",
+      "corrected_token": "sage-kings",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "Wn",
+      "corrected_token": "Wu",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "Heayen",
+      "corrected_token": "Heaven",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "Heawen",
+      "corrected_token": "Heaven",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "Yti",
+      "corrected_token": "Yu",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "Prom",
+      "corrected_token": "From",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "VTio",
+      "corrected_token": "Who",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "iimocent",
+      "corrected_token": "innocent",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "tradictory",
+      "corrected_token": "contrary",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "smaU",
+      "corrected_token": "small",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "smaU",
+      "corrected_token": "small",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "wih",
+      "corrected_token": "will",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "en-deavour",
+      "corrected_token": "endeavour",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "raw_token": "ofi",
+      "corrected_token": "off",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "Wken",
+      "corrected_token": "When",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "On the other hand, it desires people having energy to work for each other, those knowing the way to teach each other, These are the two opening lines of the ode “ Hsiao Ming ” in Shih Ching.",
+      "corrected_token": "On the other hand, it desires people having energy to work for each other, those knowing the way to teach each other, and those possessing wealth to share with each other.",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.98,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "Legge, vol. iv, p.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "363, renders it thus : — and those possessing wealth to share with each other.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "respec-tively",
+      "corrected_token": "respectively",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "govern-ment",
+      "corrected_token": "government",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "tonse",
+      "corrected_token": "house",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "com-mendation",
+      "corrected_token": "commendation",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "xmfortnnate",
+      "corrected_token": "unfortunate",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "Heayen",
+      "corrected_token": "Heaven",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "nmnagnanimons",
+      "corrected_token": "unmagnanimous",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "universaUy",
+      "corrected_token": "universally",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "stiU",
+      "corrected_token": "still",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "Who are those that love a Compare this them© of Motse’s with the foUowmg from Seneca, On Benefits, iv, 6 :  We can he thankful to a friend for a few acres, or a little money ; and yet for the freedom and command of the whole earth, and for the great benefits of our being, as life, health, and reason, we look upon ourselves as under no obligation.",
+      "corrected_token": "Who are those that love the people and benefit the people, obey the will of Heaven and obtain reward from Heaven?",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.97,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "If a man bestows upon us a house that is delicately beautified with painting, statues, gildings, and marbles, we make a mighty business of it, and yet it lies at the mercy of a pufi of wind, the snuff of a candle, and a hundred other accidents to lay it in the dust.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "And is it nothing now to sleep under the canopy of heaven, where we have the globe of the earth as our place of repose, and the glories of the heavens for our spectacle ?",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "Mm",
+      "corrected_token": "him",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "Tvere",
+      "corrected_token": "were",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "Besides this, some of its early kings.",
+      "corrected_token": "Besides this, it is also recorded on the bamboos and silk, cut in the metals and stones, and engraved on the plates and cups to be handed down to posterity.",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.97,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "According to Legge, vol. iv, p.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "virtne",
+      "corrected_token": "virtue",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "the bamboos and silk, cut in the metals and stones, and engraved on the plates and cups to be handed down to posterity.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.98,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "oSering",
+      "corrected_token": "offering",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "witli",
+      "corrected_token": "with",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "Hs",
+      "corrected_token": "his",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "Tliat",
+      "corrected_token": "That",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "wMch",
+      "corrected_token": "which",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "Imown",
+      "corrected_token": "known",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "raw_token": "464, the stanza reads: \" God said to King Wan; — ‘ I am pleased with your intelligent virtue, Not loudly proclaimed nor portrayed, Without extravagance or changeableness, Without consciousness of effort on your part, In accordance with the pattern of God.' \" it is also recorded on.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "under-stand",
+      "corrected_token": "understand",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "Yti",
+      "corrected_token": "Yu",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "con-demned",
+      "corrected_token": "condemned",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "doc-trine",
+      "corrected_token": "doctrine",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "benefi.cial",
+      "corrected_token": "beneficial",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "benefi.cial",
+      "corrected_token": "beneficial",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "benefi.cial",
+      "corrected_token": "beneficial",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "afiectionate",
+      "corrected_token": "affectionate",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "atrributed",
+      "corrected_token": "attributed",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "govern-ment",
+      "corrected_token": "government",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "magnani-mous",
+      "corrected_token": "magnanimous",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "unaSectionate",
+      "corrected_token": "unaffectionate",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "ofier",
+      "corrected_token": "offer",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "witli",
+      "corrected_token": "with",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "Tlien",
+      "corrected_token": "Then",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "bis",
+      "corrected_token": "his",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "raw_token": "under-stand",
+      "corrected_token": "understand",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "WitE",
+      "corrected_token": "with",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "Djhasties",
+      "corrected_token": "Dynasties",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "tliis",
+      "corrected_token": "this",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "tke",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "Tlierefore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "wliy",
+      "corrected_token": "why",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "lTiat",
+      "corrected_token": "that",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "Mm",
+      "corrected_token": "him",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "everjhere",
+      "corrected_token": "everywhere",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "Yti",
+      "corrected_token": "Yu",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "affec-tionate",
+      "corrected_token": "affectionate",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "punish-ment",
+      "corrected_token": "punishment",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "wdll",
+      "corrected_token": "will",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "punish-ments",
+      "corrected_token": "punishments",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "jSire",
+      "corrected_token": "fire",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "cliildren",
+      "corrected_token": "children",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "Mots",
+      "corrected_token": "Motse",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "there-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "raw_token": "Mots",
+      "corrected_token": "Motse",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "raw_token": "magnani-mous",
+      "corrected_token": "magnanimous",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "raw_token": "tMeves",
+      "corrected_token": "thieves",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "raw_token": "bimself",
+      "corrected_token": "himself",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "de-termining",
+      "corrected_token": "determining",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "barm",
+      "corrected_token": "harm",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "Tbe",
+      "corrected_token": "The",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "barm",
+      "corrected_token": "harm",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "oSer",
+      "corrected_token": "offer",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "bis",
+      "corrected_token": "his",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "worsliip",
+      "corrected_token": "worship",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "acknow-ledge",
+      "corrected_token": "acknowledge",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "oSering",
+      "corrected_token": "offering",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "worsliip",
+      "corrected_token": "worship",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "raw_token": "TOtuons",
+      "corrected_token": "multitudes",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-035-major-illustrations",
+      "raw_token": "administra-tion",
+      "corrected_token": "administration",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-035-major-illustrations",
+      "raw_token": "beginmng",
+      "corrected_token": "beginning",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-035-major-illustrations",
+      "raw_token": "con-tinue",
+      "corrected_token": "continue",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-035-major-illustrations",
+      "raw_token": "every-thing",
+      "corrected_token": "everything",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-035-major-illustrations",
+      "raw_token": "govern-ment",
+      "corrected_token": "government",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "ttere",
+      "corrected_token": "there",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "direc-tions",
+      "corrected_token": "directions",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "Djmasties",
+      "corrected_token": "Dynasties",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "Ghieh",
+      "corrected_token": "Chieh",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "Tben",
+      "corrected_token": "Then",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "tLe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "Yti",
+      "corrected_token": "Yu",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "frugahty",
+      "corrected_token": "frugality",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "tim",
+      "corrected_token": "him",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "djmasty",
+      "corrected_token": "dynasty",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "tli©",
+      "corrected_token": "the",
+      "correction_type": "automatic_literal_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "There-fore",
+      "corrected_token": "Therefore",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "weavmg",
+      "corrected_token": "weaving",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "bo",
+      "corrected_token": "be",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "wonld",
+      "corrected_token": "would",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "As to the result of the application of the i doctrine of fatalism to the government of the empire, to | worship Heaven and the spirits above with it Heaven and the spirits will not be pleased, and to nurture the people below with it they will not be benefited but will be demoralized and | cannot be employed.",
+      "corrected_token": "As to the result of applying the doctrine of fatalism to the government of the empire, Heaven and the spirits above will not be pleased, and the people below will not be benefited but demoralized and unemployable.",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.95,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "Therefore those who practise i' magnanimity and righteousness must examine it and V vigorously refute it.",
+      "corrected_token": "Therefore those who practise magnanimity and righteousness must examine it and vigorously refute it.",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.97,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": ",  '.V'/S.l'.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "discrimina-tion",
+      "corrected_token": "discrimination",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "pmods",
+      "corrected_token": "periods",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "When his parent dies he first lets him lie there without vol. i, p.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "| Therefore Motse said: If the gentlemen of the world really desire to procure benefits for the world and destroy its calamities they cannot but vigorously refute the doctrine ij of fatalism.",
+      "corrected_token": "Therefore Motse said: If the gentlemen of the world really desire to procure benefits for the world and destroy its calamities, they must vigorously refute the doctrine of fatalism.",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.97,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "[ The Confucianist says: Love among relations should depend upon the degree of relationship, and honour to the virtuous should be graded.2 This is to advocate a discrimination among the near and the distant relations and among the respectable and the humble.",
+      "corrected_token": "The Confucianists say that love among relations should depend on the degree of relationship, and honour to the virtuous should be graded. This advocates discrimination among near and distant relations and among the respectable and the humble.",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.95,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "raw_token": "270: \" The decreasing measures of the love due to relatives and the steps in the honour due to the worthy, are produced by the principle of propriety.’ r",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "Mm",
+      "corrected_token": "him",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "tbe",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "Oonfucianist",
+      "corrected_token": "Confucianist",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "Oonfucianist",
+      "corrected_token": "Confucianist",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "Oonfucianist",
+      "corrected_token": "Confucianist",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "YiLi",
+      "corrected_token": "Yi Li",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "otliers",
+      "corrected_token": "others",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "indireGtly",
+      "corrected_token": "indirectly",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "Ghing",
+      "corrected_token": "Ching",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "Ghing",
+      "corrected_token": "Ching",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "Ghing",
+      "corrected_token": "Ching",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "tlie",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "under-stand",
+      "corrected_token": "understand",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "afiected",
+      "corrected_token": "affected",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": " Tse Lu is another of the seventy-two best disciples of Confucius.",
+      "corrected_token": "",
+      "correction_type": "note_residue_removal",
+      "confidence": 0.99,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "Tse Lu were exhausted, and his followers became so ill that they were unable to rise/' ’",
+      "corrected_token": "Tse Lu was exhausted, and his followers became so ill that they were unable to rise.",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.97,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "woMd",
+      "corrected_token": "world",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "WTiy",
+      "corrected_token": "Why",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    }
+  ],
+  "remaining_issues": []
+}
