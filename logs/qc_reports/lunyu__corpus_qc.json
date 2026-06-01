@@ -12,7 +12,7 @@
   "counts": {
     "works": 1,
     "sections": 20,
-    "persons": 7,
+    "persons": 8,
     "sources": 40,
     "segments": 1002,
     "alignments": 521
@@ -240,8 +240,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "ee7dad34c8a752c6180205679d83d179f4e78f2c51a724d357dcbeb47bd4811e",
-    "metadata/sources.yml": "22f2ca3cf0f48683c606da6b42371f1bdf75ea5a3ec07331a81f5cb7390d9a8d",
+    "metadata/sections.yml": "5118fd0d890b63cb0793cd91f52c9bca12e80111b9a1b58852503e44093144cd",
+    "metadata/sources.yml": "0ca0df381f79b248b58017b73aaa56ba61f8202c70641f790cfb5a8a04d13080",
     "metadata/manifests/lunyu.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
     "metadata/corpus_manifest.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
     "corpus/exports/jsonl/lunyu__book-01-xueer__aligned_passages.jsonl": "dd599a60e11c5d52cf335d8f830fef872fc91f5033ff091f72ba6eff16faab64",

@@ -61,5 +61,14 @@
       "compiler"
     ],
     "notes": "Authority string for 易經 treats the received Zhouyi text as a transmitted classical work rather than attributing the corpus to a single modern editor."
+  },
+  {
+    "person_id": "mozi-transmitters",
+    "display_name": "《墨子》傳世編者",
+    "romanized_name": "Transmitters of the Mozi",
+    "roles": [
+      "compiler"
+    ],
+    "notes": "Authority string for 墨子 treats the received text as a transmitted classical compilation rather than attributing the corpus to a single modern editor."
   }
 ]

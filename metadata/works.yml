@@ -52,5 +52,14 @@
     "language_code": "zh-Hant",
     "default_citation": "易經",
     "notes": "Active Yijing corpus promoted from the ChineseNotes bilingual mirror, exporting only the Zhouyi judgment and line statements from each hexagram while excluding trigram headings and Ten Wings commentary from translation-memory outputs."
+  },
+  {
+    "work_id": "mozi",
+    "canonical_title": "墨子",
+    "english_title": "Mozi",
+    "work_type": "classical_text",
+    "language_code": "zh-Hant",
+    "default_citation": "墨子",
+    "notes": "Staged Mozi metadata-only scaffold built from the ChineseNotes Chinese chapters. Active export is blocked until a clean chapter-level public-domain English witness is captured and verified."
   }
 ]

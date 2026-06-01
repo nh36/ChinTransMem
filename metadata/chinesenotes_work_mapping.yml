@@ -177,11 +177,26 @@
         "data/corpus/mozi.csv",
         "corpus/mozi/"
       ],
-      "status": "needs_review",
-      "english_coverage": "unknown",
-      "chinese_coverage": "unknown",
+      "status": "staged",
+      "english_coverage": "blocked",
+      "chinese_coverage": "complete",
       "preferred_use": "metadata_only",
-      "notes": "Not yet staged; coverage and translator/rights details remain to be measured by an ingestion run."
+      "notes": "Staged from ChineseNotes `data/corpus/mozi.csv` at upstream commit `1f6b1d3e7a40b6886a4b943c898125639e993544`: 52 detected chapters, 0 active/exportable chapters, 52 metadata-only blockers, 2 chapters with embedded ChineseNotes English, and no clean public-domain English witness verified for export.",
+      "generated_summary": {
+        "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+        "total_section_count": 52,
+        "active_section_count": 0,
+        "exportable_section_count": 0,
+        "exact_alignment_count": 0,
+        "alignment_granularity_counts": {},
+        "curated_override_section_count": 0,
+        "fallback_section_count": 0,
+        "blocked_section_count": 52,
+        "remaining_drift_issue_count": 0,
+        "remaining_line_order_issue_count": 0,
+        "embedded_chinesenotes_english_section_count": 2,
+        "english_witness": "No exportable public-domain English witness verified; ChineseNotes English is incomplete, Wikisource Translation:Mozi is CC BY-SA/GFDL, and Chinese Text Project mixes Mei 1929 with Graham 1978."
+      }
     },
     {
       "chintransmem_work_id": "laozi",

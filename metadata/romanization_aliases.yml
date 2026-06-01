@@ -5068,5 +5068,647 @@
     "entity_id": "yijing-064-wei-ji",
     "romanization_system": "pinyin",
     "alias": "Wei Ji"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "mozi",
+    "romanization_system": "pinyin",
+    "alias": "Mozi"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "mozi",
+    "romanization_system": "historical",
+    "alias": "Mo Tzu"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "mozi",
+    "romanization_system": "english-title",
+    "alias": "Mozi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-001-make-close-the-scholars",
+    "romanization_system": "source-label",
+    "alias": "卷一 親士 Book 1 - Make Close the Scholars"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-001-make-close-the-scholars",
+    "romanization_system": "english-title",
+    "alias": "Make Close the Scholars"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-002-self-cultivation",
+    "romanization_system": "source-label",
+    "alias": "卷一 修身 Book 1 - Self-Cultivation"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-002-self-cultivation",
+    "romanization_system": "english-title",
+    "alias": "Self-Cultivation"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-003-that-which-is-affectable",
+    "romanization_system": "source-label",
+    "alias": "卷一 所染 Book 1 - That Which Is Affectable"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-003-that-which-is-affectable",
+    "romanization_system": "english-title",
+    "alias": "That Which Is Affectable"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-004-methods-and-standards",
+    "romanization_system": "source-label",
+    "alias": "卷一 法儀 Book 1 - Methods and Standards"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-004-methods-and-standards",
+    "romanization_system": "english-title",
+    "alias": "Methods and Standards"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-005-the-seven-worries",
+    "romanization_system": "source-label",
+    "alias": "卷一 七患 Book 1 - The Seven Worries"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-005-the-seven-worries",
+    "romanization_system": "english-title",
+    "alias": "The Seven Worries"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-006-indulgence-in-excess",
+    "romanization_system": "source-label",
+    "alias": "卷一 辭過 Book 1 - Indulgence in Excess"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-006-indulgence-in-excess",
+    "romanization_system": "english-title",
+    "alias": "Indulgence in Excess"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-007-threefold-argument",
+    "romanization_system": "source-label",
+    "alias": "卷一 三辯 Book 1 - Threefold Argument"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-007-threefold-argument",
+    "romanization_system": "english-title",
+    "alias": "Threefold Argument"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-008-exaltation-of-the-virtuous-i",
+    "romanization_system": "source-label",
+    "alias": "卷二 尚賢上 Book 2 - Exaltation of the Virtuous I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-008-exaltation-of-the-virtuous-i",
+    "romanization_system": "english-title",
+    "alias": "Exaltation of the Virtuous I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-009-exaltation-of-the-virtuous-ii",
+    "romanization_system": "source-label",
+    "alias": "卷二 尚賢中 Book 2 - Exaltation of the Virtuous II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-009-exaltation-of-the-virtuous-ii",
+    "romanization_system": "english-title",
+    "alias": "Exaltation of the Virtuous II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-010-exaltation-of-the-virtuous-iii",
+    "romanization_system": "source-label",
+    "alias": "卷二 尚賢下 Book 2 - Exaltation of the Virtuous III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-010-exaltation-of-the-virtuous-iii",
+    "romanization_system": "english-title",
+    "alias": "Exaltation of the Virtuous III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-011-identification-with-the-superior-i",
+    "romanization_system": "source-label",
+    "alias": "卷三 尚同上 Book 3 - Identification with the Superior I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-011-identification-with-the-superior-i",
+    "romanization_system": "english-title",
+    "alias": "Identification with the Superior I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-012-identification-with-the-superior-ii",
+    "romanization_system": "source-label",
+    "alias": "卷三 尚同中 Book 3 - Identification with the Superior II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-012-identification-with-the-superior-ii",
+    "romanization_system": "english-title",
+    "alias": "Identification with the Superior II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-013-identification-with-the-superior-iii",
+    "romanization_system": "source-label",
+    "alias": "卷三 尚同下 Book 3 - Identification with the Superior III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-013-identification-with-the-superior-iii",
+    "romanization_system": "english-title",
+    "alias": "Identification with the Superior III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-014-universal-love-i",
+    "romanization_system": "source-label",
+    "alias": "卷四 兼愛上 Book 4 - Universal Love I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-014-universal-love-i",
+    "romanization_system": "english-title",
+    "alias": "Universal Love I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-015-universal-love-ii",
+    "romanization_system": "source-label",
+    "alias": "卷四 兼愛中 Book 4 - Universal Love II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-015-universal-love-ii",
+    "romanization_system": "english-title",
+    "alias": "Universal Love II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-016-universal-love-iii",
+    "romanization_system": "source-label",
+    "alias": "卷四 兼愛下 Book 4 - Universal Love III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-016-universal-love-iii",
+    "romanization_system": "english-title",
+    "alias": "Universal Love III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-017-condemnation-of-offensive-war-i",
+    "romanization_system": "source-label",
+    "alias": "卷五 非攻上 Book 5 - Condemnation of Offensive War I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-017-condemnation-of-offensive-war-i",
+    "romanization_system": "english-title",
+    "alias": "Condemnation of Offensive War I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-018-condemnation-of-offensive-war-ii",
+    "romanization_system": "source-label",
+    "alias": "卷五 非攻中 Book 5 - Condemnation of Offensive War II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-018-condemnation-of-offensive-war-ii",
+    "romanization_system": "english-title",
+    "alias": "Condemnation of Offensive War II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-019-economy-of-expenditures-i",
+    "romanization_system": "source-label",
+    "alias": "卷六 節用上 Book 6 - Economy of Expenditures I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-019-economy-of-expenditures-i",
+    "romanization_system": "english-title",
+    "alias": "Economy of Expenditures I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-020-economy-of-expenditures-ii",
+    "romanization_system": "source-label",
+    "alias": "卷六 節用中 Book 6 - Economy of Expenditures II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-020-economy-of-expenditures-ii",
+    "romanization_system": "english-title",
+    "alias": "Economy of Expenditures II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-021-simplicity-in-funerals-iii",
+    "romanization_system": "source-label",
+    "alias": "卷六 節葬下 Book 6 - Simplicity in Funerals III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-021-simplicity-in-funerals-iii",
+    "romanization_system": "english-title",
+    "alias": "Simplicity in Funerals III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-022-will-of-heaven-i",
+    "romanization_system": "source-label",
+    "alias": "卷七 天志上 Book 7 - Will of Heaven I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-022-will-of-heaven-i",
+    "romanization_system": "english-title",
+    "alias": "Will of Heaven I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-023-will-of-heaven-ii",
+    "romanization_system": "source-label",
+    "alias": "卷七 天志中 Book 7 - Will of Heaven II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-023-will-of-heaven-ii",
+    "romanization_system": "english-title",
+    "alias": "Will of Heaven II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-024-will-of-heaven-iii",
+    "romanization_system": "source-label",
+    "alias": "卷七 天志下 Book 7 - Will of Heaven III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-024-will-of-heaven-iii",
+    "romanization_system": "english-title",
+    "alias": "Will of Heaven III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-025-on-ghosts-iii",
+    "romanization_system": "source-label",
+    "alias": "卷八 明鬼下 Book 8 - On Ghosts III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-025-on-ghosts-iii",
+    "romanization_system": "english-title",
+    "alias": "On Ghosts III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-026-condemnation-of-music-i",
+    "romanization_system": "source-label",
+    "alias": "卷八 非樂上 Book 8 - Condemnation of Music I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-026-condemnation-of-music-i",
+    "romanization_system": "english-title",
+    "alias": "Condemnation of Music I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-027-anti-fatalism-i",
+    "romanization_system": "source-label",
+    "alias": "卷九 非命上 Book 9 - Anti-Fatalism I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-027-anti-fatalism-i",
+    "romanization_system": "english-title",
+    "alias": "Anti-Fatalism I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-028-anti-fatalism-ii",
+    "romanization_system": "source-label",
+    "alias": "卷九 非命中 Book 9 - Anti-Fatalism II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-028-anti-fatalism-ii",
+    "romanization_system": "english-title",
+    "alias": "Anti-Fatalism II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-029-anti-fatalism-iii",
+    "romanization_system": "source-label",
+    "alias": "卷九 非命下 Book 9 - Anti-Fatalism III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-029-anti-fatalism-iii",
+    "romanization_system": "english-title",
+    "alias": "Anti-Fatalism III"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-030-anti-confucianism-ii",
+    "romanization_system": "source-label",
+    "alias": "卷九 非儒下 Book 9 - Anti-Confucianism II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-030-anti-confucianism-ii",
+    "romanization_system": "english-title",
+    "alias": "Anti-Confucianism II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-031-canon-i",
+    "romanization_system": "source-label",
+    "alias": "卷十 經上 Book 10 - Canon I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-031-canon-i",
+    "romanization_system": "english-title",
+    "alias": "Canon I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-032-canon-ii",
+    "romanization_system": "source-label",
+    "alias": "卷十 經下 Book 10 - Canon II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-032-canon-ii",
+    "romanization_system": "english-title",
+    "alias": "Canon II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-033-exposition-of-canon-i",
+    "romanization_system": "source-label",
+    "alias": "卷十 經說上 Book 10 - Exposition of Canon I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-033-exposition-of-canon-i",
+    "romanization_system": "english-title",
+    "alias": "Exposition of Canon I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-034-exposition-of-canon-ii",
+    "romanization_system": "source-label",
+    "alias": "卷十 經說下 Book 10 - Exposition of Canon II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-034-exposition-of-canon-ii",
+    "romanization_system": "english-title",
+    "alias": "Exposition of Canon II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-035-major-illustrations",
+    "romanization_system": "source-label",
+    "alias": "卷十一 大取 Book 11 - Major Illustrations"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-035-major-illustrations",
+    "romanization_system": "english-title",
+    "alias": "Major Illustrations"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-036-minor-illustrations",
+    "romanization_system": "source-label",
+    "alias": "卷十一 小取 Book 11 - Minor Illustrations"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-036-minor-illustrations",
+    "romanization_system": "english-title",
+    "alias": "Minor Illustrations"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-037-geng-zhu",
+    "romanization_system": "source-label",
+    "alias": "卷十一 耕柱 Book 11 - Geng Zhu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-037-geng-zhu",
+    "romanization_system": "english-title",
+    "alias": "Geng Zhu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-038-esteem-for-righteousness",
+    "romanization_system": "source-label",
+    "alias": "卷十二 貴義 Book 12 - Esteem for Righteousness"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-038-esteem-for-righteousness",
+    "romanization_system": "english-title",
+    "alias": "Esteem for Righteousness"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-039-gong-meng",
+    "romanization_system": "source-label",
+    "alias": "卷十二 公孟 Book 12 - Gong Meng"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-039-gong-meng",
+    "romanization_system": "english-title",
+    "alias": "Gong Meng"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-040-lu-s-question",
+    "romanization_system": "source-label",
+    "alias": "卷十三 魯問 Book 13 - Lu's Question"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-040-lu-s-question",
+    "romanization_system": "english-title",
+    "alias": "Lu's Question"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-041-gong-shu",
+    "romanization_system": "source-label",
+    "alias": "卷十三 公輸 Book 13 - Gong Shu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-041-gong-shu",
+    "romanization_system": "english-title",
+    "alias": "Gong Shu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-042-fortification-of-the-city-gate",
+    "romanization_system": "source-label",
+    "alias": "卷十四 備城門 Book 14 - Fortification of the City Gate"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-042-fortification-of-the-city-gate",
+    "romanization_system": "english-title",
+    "alias": "Fortification of the City Gate"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-043-defense-against-attack-from-an-elevation",
+    "romanization_system": "source-label",
+    "alias": "卷十四 備高臨 Book 14 - Defense against Attack from an Elevation"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-043-defense-against-attack-from-an-elevation",
+    "romanization_system": "english-title",
+    "alias": "Defense against Attack from an Elevation"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-044-defense-against-attack-with-ladders",
+    "romanization_system": "source-label",
+    "alias": "卷十四 備梯 Book 14 - Defense against Attack with Ladders"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-044-defense-against-attack-with-ladders",
+    "romanization_system": "english-title",
+    "alias": "Defense against Attack with Ladders"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-045-preparation-against-inundation",
+    "romanization_system": "source-label",
+    "alias": "卷十四 備水 Book 14 - Preparation against Inundation"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-045-preparation-against-inundation",
+    "romanization_system": "english-title",
+    "alias": "Preparation against Inundation"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-046-preparation-against-a-sally",
+    "romanization_system": "source-label",
+    "alias": "卷十四 備突 Book 14 - Preparation against a Sally"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-046-preparation-against-a-sally",
+    "romanization_system": "english-title",
+    "alias": "Preparation against a Sally"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-047-preparation-against-tunnelling",
+    "romanization_system": "source-label",
+    "alias": "卷十四 備穴 Book 14 - Preparation against Tunnelling"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-047-preparation-against-tunnelling",
+    "romanization_system": "english-title",
+    "alias": "Preparation against Tunnelling"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-048-defence-against-ant-rush",
+    "romanization_system": "source-label",
+    "alias": "卷十四 備蛾傅 Book 14 - Defence against Ant-Rush"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-048-defence-against-ant-rush",
+    "romanization_system": "english-title",
+    "alias": "Defence against Ant-Rush"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-049-the-sacrifice-against-the-coming-of-the-enemy",
+    "romanization_system": "source-label",
+    "alias": "卷十五 迎敵祠 Book 15 - The Sacrifice against the Coming of the Enemy"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-049-the-sacrifice-against-the-coming-of-the-enemy",
+    "romanization_system": "english-title",
+    "alias": "The Sacrifice against the Coming of the Enemy"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-050-flags-and-pennants",
+    "romanization_system": "source-label",
+    "alias": "卷十五 旗幟 Book 15 - Flags and Pennants"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-050-flags-and-pennants",
+    "romanization_system": "english-title",
+    "alias": "Flags and Pennants"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-051-commands-and-orders",
+    "romanization_system": "source-label",
+    "alias": "卷十五 號令 Book 15 - Commands and Orders"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-051-commands-and-orders",
+    "romanization_system": "english-title",
+    "alias": "Commands and Orders"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-052-miscellaneous-measures-in-defense",
+    "romanization_system": "source-label",
+    "alias": "卷十五 雜守 Book 15 - Miscellaneous Measures in Defense"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "mozi-052-miscellaneous-measures-in-defense",
+    "romanization_system": "english-title",
+    "alias": "Miscellaneous Measures in Defense"
   }
 ]

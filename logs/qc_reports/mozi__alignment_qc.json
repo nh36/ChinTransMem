@@ -1,0 +1,654 @@
+{
+  "work_id": "mozi",
+  "summary": {
+    "total_section_count": 52,
+    "active_section_count": 0,
+    "exportable_section_count": 0,
+    "exact_alignment_count": 0,
+    "alignment_granularity_counts": {},
+    "automatic_alignment_count": 0,
+    "curated_override_section_count": 0,
+    "fallback_section_count": 0,
+    "blocked_section_count": 52,
+    "english_witness": "No exportable public-domain English witness verified; ChineseNotes English is incomplete, Wikisource Translation:Mozi is CC BY-SA/GFDL, and Chinese Text Project mixes Mei 1929 with Graham 1978.",
+    "work_state": "staged_metadata_only",
+    "pre_repair_corruption_issue_count": 0,
+    "corrected_corruption_issue_count": 0,
+    "remaining_corruption_issue_count": 0,
+    "drift_checks_run": 0,
+    "drift_issue_count_before_repair": 0,
+    "repaired_drift_issue_count": 0,
+    "remaining_drift_issue_count": 0,
+    "hard_failure_count": 0
+  },
+  "curated_override_sections": [],
+  "fallback_sections": [],
+  "blocked_sections": [
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "reason": "Embedded ChineseNotes English was detected for this chapter, but it is not an exportable public-domain witness and no acceptable replacement witness was verified."
+    },
+    {
+      "section_id": "mozi-002-self-cultivation",
+      "reason": "Embedded ChineseNotes English was detected for this chapter, but it is not an exportable public-domain witness and no acceptable replacement witness was verified."
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-004-methods-and-standards",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-005-the-seven-worries",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-006-indulgence-in-excess",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-007-threefold-argument",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-011-identification-with-the-superior-i",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-014-universal-love-i",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-017-condemnation-of-offensive-war-i",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-019-economy-of-expenditures-i",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-020-economy-of-expenditures-ii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-021-simplicity-in-funerals-iii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-022-will-of-heaven-i",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-023-will-of-heaven-ii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-028-anti-fatalism-ii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-029-anti-fatalism-iii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-032-canon-ii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-033-exposition-of-canon-i",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-035-major-illustrations",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-037-geng-zhu",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-039-gong-meng",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-040-lu-s-question",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-041-gong-shu",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-042-fortification-of-the-city-gate",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-043-defense-against-attack-from-an-elevation",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-044-defense-against-attack-with-ladders",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-045-preparation-against-inundation",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-046-preparation-against-a-sally",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-047-preparation-against-tunnelling",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-048-defence-against-ant-rush",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-049-the-sacrifice-against-the-coming-of-the-enemy",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-050-flags-and-pennants",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-051-commands-and-orders",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    },
+    {
+      "section_id": "mozi-052-miscellaneous-measures-in-defense",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "decision": "metadata_only",
+      "reason": "Embedded ChineseNotes English was detected for this chapter, but it is not an exportable public-domain witness and no acceptable replacement witness was verified.",
+      "embedded_english_block_count": 13,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-002-self-cultivation",
+      "decision": "metadata_only",
+      "reason": "Embedded ChineseNotes English was detected for this chapter, but it is not an exportable public-domain witness and no acceptable replacement witness was verified.",
+      "embedded_english_block_count": 3,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-004-methods-and-standards",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-005-the-seven-worries",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-006-indulgence-in-excess",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-007-threefold-argument",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-011-identification-with-the-superior-i",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-014-universal-love-i",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-017-condemnation-of-offensive-war-i",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-019-economy-of-expenditures-i",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-020-economy-of-expenditures-ii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-021-simplicity-in-funerals-iii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-022-will-of-heaven-i",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-023-will-of-heaven-ii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-028-anti-fatalism-ii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-029-anti-fatalism-iii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-032-canon-ii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-033-exposition-of-canon-i",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-035-major-illustrations",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-037-geng-zhu",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-039-gong-meng",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-040-lu-s-question",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-041-gong-shu",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-042-fortification-of-the-city-gate",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-043-defense-against-attack-from-an-elevation",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-044-defense-against-attack-with-ladders",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-045-preparation-against-inundation",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-046-preparation-against-a-sally",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-047-preparation-against-tunnelling",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-048-defence-against-ant-rush",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-049-the-sacrifice-against-the-coming-of-the-enemy",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-050-flags-and-pennants",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-051-commands-and-orders",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    },
+    {
+      "section_id": "mozi-052-miscellaneous-measures-in-defense",
+      "decision": "metadata_only",
+      "reason": "No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed.",
+      "embedded_english_block_count": 0,
+      "commentary_present": false,
+      "english_headings": []
+    }
+  ]
+}

@@ -4894,5 +4894,473 @@
     "canonical_ref": "易經 64 未濟",
     "sort_key": 64,
     "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "mozi-001-make-close-the-scholars",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷一 親士 Book 1 - Make Close the Scholars",
+    "canonical_ref": "墨子·卷一 親士",
+    "sort_key": "001",
+    "notes": "Metadata-only Mozi chapter. Embedded ChineseNotes English was detected for this chapter, but it is not an exportable public-domain witness and no acceptable replacement witness was verified."
+  },
+  {
+    "section_id": "mozi-002-self-cultivation",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷一 修身 Book 1 - Self-Cultivation",
+    "canonical_ref": "墨子·卷一 修身",
+    "sort_key": "002",
+    "notes": "Metadata-only Mozi chapter. Embedded ChineseNotes English was detected for this chapter, but it is not an exportable public-domain witness and no acceptable replacement witness was verified."
+  },
+  {
+    "section_id": "mozi-003-that-which-is-affectable",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷一 所染 Book 1 - That Which Is Affectable",
+    "canonical_ref": "墨子·卷一 所染",
+    "sort_key": "003",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-004-methods-and-standards",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷一 法儀 Book 1 - Methods and Standards",
+    "canonical_ref": "墨子·卷一 法儀",
+    "sort_key": "004",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-005-the-seven-worries",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷一 七患 Book 1 - The Seven Worries",
+    "canonical_ref": "墨子·卷一 七患",
+    "sort_key": "005",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-006-indulgence-in-excess",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷一 辭過 Book 1 - Indulgence in Excess",
+    "canonical_ref": "墨子·卷一 辭過",
+    "sort_key": "006",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-007-threefold-argument",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷一 三辯 Book 1 - Threefold Argument",
+    "canonical_ref": "墨子·卷一 三辯",
+    "sort_key": "007",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷二 尚賢上 Book 2 - Exaltation of the Virtuous I",
+    "canonical_ref": "墨子·卷二 尚賢上",
+    "sort_key": "008",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷二 尚賢中 Book 2 - Exaltation of the Virtuous II",
+    "canonical_ref": "墨子·卷二 尚賢中",
+    "sort_key": "009",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷二 尚賢下 Book 2 - Exaltation of the Virtuous III",
+    "canonical_ref": "墨子·卷二 尚賢下",
+    "sort_key": "010",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-011-identification-with-the-superior-i",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷三 尚同上 Book 3 - Identification with the Superior I",
+    "canonical_ref": "墨子·卷三 尚同上",
+    "sort_key": "011",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-012-identification-with-the-superior-ii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷三 尚同中 Book 3 - Identification with the Superior II",
+    "canonical_ref": "墨子·卷三 尚同中",
+    "sort_key": "012",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-013-identification-with-the-superior-iii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷三 尚同下 Book 3 - Identification with the Superior III",
+    "canonical_ref": "墨子·卷三 尚同下",
+    "sort_key": "013",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-014-universal-love-i",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷四 兼愛上 Book 4 - Universal Love I",
+    "canonical_ref": "墨子·卷四 兼愛上",
+    "sort_key": "014",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-015-universal-love-ii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷四 兼愛中 Book 4 - Universal Love II",
+    "canonical_ref": "墨子·卷四 兼愛中",
+    "sort_key": "015",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-016-universal-love-iii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷四 兼愛下 Book 4 - Universal Love III",
+    "canonical_ref": "墨子·卷四 兼愛下",
+    "sort_key": "016",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-017-condemnation-of-offensive-war-i",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷五 非攻上 Book 5 - Condemnation of Offensive War I",
+    "canonical_ref": "墨子·卷五 非攻上",
+    "sort_key": "017",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷五 非攻中 Book 5 - Condemnation of Offensive War II",
+    "canonical_ref": "墨子·卷五 非攻中",
+    "sort_key": "018",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-019-economy-of-expenditures-i",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷六 節用上 Book 6 - Economy of Expenditures I",
+    "canonical_ref": "墨子·卷六 節用上",
+    "sort_key": "019",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-020-economy-of-expenditures-ii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷六 節用中 Book 6 - Economy of Expenditures II",
+    "canonical_ref": "墨子·卷六 節用中",
+    "sort_key": "020",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-021-simplicity-in-funerals-iii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷六 節葬下 Book 6 - Simplicity in Funerals III",
+    "canonical_ref": "墨子·卷六 節葬下",
+    "sort_key": "021",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-022-will-of-heaven-i",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷七 天志上 Book 7 - Will of Heaven I",
+    "canonical_ref": "墨子·卷七 天志上",
+    "sort_key": "022",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-023-will-of-heaven-ii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷七 天志中 Book 7 - Will of Heaven II",
+    "canonical_ref": "墨子·卷七 天志中",
+    "sort_key": "023",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-024-will-of-heaven-iii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷七 天志下 Book 7 - Will of Heaven III",
+    "canonical_ref": "墨子·卷七 天志下",
+    "sort_key": "024",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-025-on-ghosts-iii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷八 明鬼下 Book 8 - On Ghosts III",
+    "canonical_ref": "墨子·卷八 明鬼下",
+    "sort_key": "025",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-026-condemnation-of-music-i",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷八 非樂上 Book 8 - Condemnation of Music I",
+    "canonical_ref": "墨子·卷八 非樂上",
+    "sort_key": "026",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-027-anti-fatalism-i",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷九 非命上 Book 9 - Anti-Fatalism I",
+    "canonical_ref": "墨子·卷九 非命上",
+    "sort_key": "027",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-028-anti-fatalism-ii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷九 非命中 Book 9 - Anti-Fatalism II",
+    "canonical_ref": "墨子·卷九 非命中",
+    "sort_key": "028",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-029-anti-fatalism-iii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷九 非命下 Book 9 - Anti-Fatalism III",
+    "canonical_ref": "墨子·卷九 非命下",
+    "sort_key": "029",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-030-anti-confucianism-ii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷九 非儒下 Book 9 - Anti-Confucianism II",
+    "canonical_ref": "墨子·卷九 非儒下",
+    "sort_key": "030",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-031-canon-i",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十 經上 Book 10 - Canon I",
+    "canonical_ref": "墨子·卷十 經上",
+    "sort_key": "031",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-032-canon-ii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十 經下 Book 10 - Canon II",
+    "canonical_ref": "墨子·卷十 經下",
+    "sort_key": "032",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-033-exposition-of-canon-i",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十 經說上 Book 10 - Exposition of Canon I",
+    "canonical_ref": "墨子·卷十 經說上",
+    "sort_key": "033",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-034-exposition-of-canon-ii",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十 經說下 Book 10 - Exposition of Canon II",
+    "canonical_ref": "墨子·卷十 經說下",
+    "sort_key": "034",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-035-major-illustrations",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十一 大取 Book 11 - Major Illustrations",
+    "canonical_ref": "墨子·卷十一 大取",
+    "sort_key": "035",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-036-minor-illustrations",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十一 小取 Book 11 - Minor Illustrations",
+    "canonical_ref": "墨子·卷十一 小取",
+    "sort_key": "036",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-037-geng-zhu",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十一 耕柱 Book 11 - Geng Zhu",
+    "canonical_ref": "墨子·卷十一 耕柱",
+    "sort_key": "037",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-038-esteem-for-righteousness",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十二 貴義 Book 12 - Esteem for Righteousness",
+    "canonical_ref": "墨子·卷十二 貴義",
+    "sort_key": "038",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-039-gong-meng",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十二 公孟 Book 12 - Gong Meng",
+    "canonical_ref": "墨子·卷十二 公孟",
+    "sort_key": "039",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-040-lu-s-question",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十三 魯問 Book 13 - Lu's Question",
+    "canonical_ref": "墨子·卷十三 魯問",
+    "sort_key": "040",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-041-gong-shu",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十三 公輸 Book 13 - Gong Shu",
+    "canonical_ref": "墨子·卷十三 公輸",
+    "sort_key": "041",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-042-fortification-of-the-city-gate",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十四 備城門 Book 14 - Fortification of the City Gate",
+    "canonical_ref": "墨子·卷十四 備城門",
+    "sort_key": "042",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-043-defense-against-attack-from-an-elevation",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十四 備高臨 Book 14 - Defense against Attack from an Elevation",
+    "canonical_ref": "墨子·卷十四 備高臨",
+    "sort_key": "043",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-044-defense-against-attack-with-ladders",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十四 備梯 Book 14 - Defense against Attack with Ladders",
+    "canonical_ref": "墨子·卷十四 備梯",
+    "sort_key": "044",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-045-preparation-against-inundation",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十四 備水 Book 14 - Preparation against Inundation",
+    "canonical_ref": "墨子·卷十四 備水",
+    "sort_key": "045",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-046-preparation-against-a-sally",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十四 備突 Book 14 - Preparation against a Sally",
+    "canonical_ref": "墨子·卷十四 備突",
+    "sort_key": "046",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-047-preparation-against-tunnelling",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十四 備穴 Book 14 - Preparation against Tunnelling",
+    "canonical_ref": "墨子·卷十四 備穴",
+    "sort_key": "047",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-048-defence-against-ant-rush",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十四 備蛾傅 Book 14 - Defence against Ant-Rush",
+    "canonical_ref": "墨子·卷十四 備蛾傅",
+    "sort_key": "048",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-049-the-sacrifice-against-the-coming-of-the-enemy",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十五 迎敵祠 Book 15 - The Sacrifice against the Coming of the Enemy",
+    "canonical_ref": "墨子·卷十五 迎敵祠",
+    "sort_key": "049",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-050-flags-and-pennants",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十五 旗幟 Book 15 - Flags and Pennants",
+    "canonical_ref": "墨子·卷十五 旗幟",
+    "sort_key": "050",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-051-commands-and-orders",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十五 號令 Book 15 - Commands and Orders",
+    "canonical_ref": "墨子·卷十五 號令",
+    "sort_key": "051",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
+  },
+  {
+    "section_id": "mozi-052-miscellaneous-measures-in-defense",
+    "work_id": "mozi",
+    "parent_section_id": null,
+    "label": "卷十五 雜守 Book 15 - Miscellaneous Measures in Defense",
+    "canonical_ref": "墨子·卷十五 雜守",
+    "sort_key": "052",
+    "notes": "Metadata-only Mozi chapter. No clean exportable public-domain English witness was verified for this chapter; ChineseNotes is Chinese-only here and no acceptable replacement witness was confirmed."
   }
 ]

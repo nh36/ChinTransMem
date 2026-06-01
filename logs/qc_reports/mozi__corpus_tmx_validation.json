@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "work_id": "mozi",
+  "section_count": 0,
+  "sections": [],
+  "corpus": {
+    "status": "pass",
+    "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mozi__all__aligned_passages.tmx",
+    "work_id": "mozi",
+    "section_id": null,
+    "tu_count": 0,
+    "source_language": "zh-Hant",
+    "target_language": "en"
+  }
+}

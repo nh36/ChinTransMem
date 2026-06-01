@@ -12,7 +12,7 @@
   "counts": {
     "works": 1,
     "sections": 60,
-    "persons": 7,
+    "persons": 8,
     "sources": 118,
     "segments": 885,
     "alignments": 193
@@ -685,8 +685,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "ee7dad34c8a752c6180205679d83d179f4e78f2c51a724d357dcbeb47bd4811e",
-    "metadata/sources.yml": "22f2ca3cf0f48683c606da6b42371f1bdf75ea5a3ec07331a81f5cb7390d9a8d",
+    "metadata/sections.yml": "5118fd0d890b63cb0793cd91f52c9bca12e80111b9a1b58852503e44093144cd",
+    "metadata/sources.yml": "0ca0df381f79b248b58017b73aaa56ba61f8202c70641f790cfb5a8a04d13080",
     "metadata/manifests/shangshu.yml": "1c4a67c51211246d817db9a26de18225dde71b7d442f6384cf102bca9cecc40f",
     "corpus/exports/jsonl/shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.jsonl": "b652a314abedbfac3fd7e89ded2c9c10a4dac33efd562cab5c04612880799b98",
     "corpus/exports/csv/shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.csv": "1b96c971daabf321271494558628184c0f39ac1ec275ceb180525c715892a71a",

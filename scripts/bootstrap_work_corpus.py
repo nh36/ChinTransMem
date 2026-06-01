@@ -25,6 +25,7 @@ SUPPORTED_BOOTSTRAP_WORK_IDS = [
     "laozi",
     "shangshu",
     "yijing",
+    "mozi",
 ]
 
 
@@ -179,6 +180,20 @@ def bootstrap_work(work_id: str, *, skip_fetch: bool = False) -> dict[str, Any]:
         from bootstrap_yijing_corpus import bootstrap_corpus as bootstrap_yijing_corpus
 
         summary = bootstrap_yijing_corpus(skip_fetch=skip_fetch)
+        manifest = load_work_manifest(work_id)
+        return {
+            "work_id": work_id,
+            "summary": summary,
+            "manifest": manifest,
+            "sections": _manifest_sections(manifest),
+            "sources": list(manifest.get("sources", [])),
+            "aliases": list(manifest.get("romanization_aliases", [])),
+            "ingestion_log": list(manifest.get("ingestion_log", [])),
+        }
+    if work_id == "mozi":
+        from bootstrap_mozi_corpus import bootstrap_corpus as bootstrap_mozi_corpus
+
+        summary = bootstrap_mozi_corpus(skip_fetch=skip_fetch)
         manifest = load_work_manifest(work_id)
         return {
             "work_id": work_id,
