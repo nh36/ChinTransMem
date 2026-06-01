@@ -70,5 +70,14 @@
       "compiler"
     ],
     "notes": "Authority string for 墨子 treats the received text as a transmitted classical compilation rather than attributing the corpus to a single modern editor."
+  },
+  {
+    "person_id": "yi-pao-mei",
+    "display_name": "梅貽寳",
+    "romanized_name": "Yi-Pao Mei",
+    "roles": [
+      "translator"
+    ],
+    "notes": "Translator of The Works of Motse from the Chinese (1929), used here as the attributable proof-of-concept English witness for the active Mozi subset."
   }
 ]

@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-mozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="mozi-004-methods-and-standards__align-0001">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-chinese-ref">4.1 - 4.4</prop>
+      <prop type="x-translation-ref">4.1 - 4.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>子墨子曰：天下從事者，不可以無法儀。無法儀而其事能成者，無有也。雖至士之爲將相者皆有法，雖至百工從事者亦皆有法。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Oh the Necessity .oe Stahdaeds Motse said : To accomplish anjrthing whatsoever one must have standards. None has yet accomplished anything without them. The gentlemen fulfilling their duties as generals and councillors have their standards. Even the artisans performing their tasks also have their standards. The artisans make square objects according to the square, circular objects according to the compasses; they draw straight lines with the carpenter’s line and find the perpendicular by a pendulum.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0002">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">4.5</prop>
+      <prop type="x-translation-ref">4.6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>百工爲方以矩，爲圓以規，直以繩，正以縣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>All artisans, whether skilled or unskilled, employ these five standards.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0003">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">4.6</prop>
+      <prop type="x-translation-ref">4.7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>無巧工不巧工，皆以此五者爲法。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Only, the skilled workers are accurate.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0004">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">4.7 - 4.8</prop>
+      <prop type="x-translation-ref">4.8 - 4.10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>巧者能中之，不巧者雖不能中，放依以從事，猶逾己。故百工從事，皆有法所度。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Though the unskilled labourers have not attained accuracy, yet they do better by followiag these standards than otherwise. Thus all artisans follow the standards in their work. Now, the government of the empire and that of the large states do not observe their standards.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0005">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">4.9 - 4.10</prop>
+      <prop type="x-translation-ref">4.11 - 4.16</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>今大者治天下，其次治大國，而無法所度，此不若百工辯也。然則奚以爲治法而可？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>This shows the governors are even less intelligent than the artisans. What, then, should be taken as the proper standard m government? How will it do for everybody to imitate which is somehow here omitted, namely  find the level with water but few are magnanimous. For everybody to imitate Ms parents is to imitate the unmagnanimous. Imitating the unmagnanimous can not be said to be following the proper standard. How will it do for everybody to follow his teacher ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0006">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-chinese-ref">4.11 - 4.12</prop>
+      <prop type="x-translation-ref">4.17 - 4.21</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>當皆法其父母奚若？天下之爲父母者衆，而仁者寡，若皆法其父母，此法不仁也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>There are numerous teachers in the world but few are magnanimous. For everybody to imitate his teacher is to imitate the unmagnanimous. Imitating the un-magnanimous cannot be taken as following the proper standard. How will it do for everybody to imitate his ruler ? There are many rulers in the world but few are magnanimous.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0007">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">4.13 - 4.16</prop>
+      <prop type="x-translation-ref">4.22 - 4.27</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>法不仁，不可以爲法。當皆法其學奚若？天下之爲學者眾，而仁者寡，若皆法其學，此法不仁也。法不仁，不可以爲法。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>For everybody to imitate the ruler is to imitate the unmagnanimous. Imitating the iinmagnanimous cannot be taken as following the right standard. So then neither the parents nor the teacher nor the ruler should be accepted as the standard in government. What then should be taken as the standard in government ? Nothing better than following Heaven. Heaven is all-inclusive and impartial in its activities, abundant and unceasing in its blessings, and lasting and imtiring in its guidance.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0008">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">4.17 - 4.19</prop>
+      <prop type="x-translation-ref">4.28</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>當皆法其君奚若？天下之爲君者眾，而仁者寡，若皆法其君，此法不仁也。法不仁，不可以爲法。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>And, so, when the sage-kings had accepted Heaven as their standard, they measured every action and enterprise by Heaven.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0009">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">4.20 - 4.24</prop>
+      <prop type="x-translation-ref">4.29 - 4.31</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故父母、學、君三者，莫可以爲治法。然則奚以爲治法而可？故曰：莫若法天。天之行廣而無私，其施厚而不德，其明久而不衰，故聖王法之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>W“hat Heaven desired they would carry out, what Heaven abominated they refrained from. Now, what is it that Heaven desires, and what that it abominates ? Certainly Heaven desires to have men benefit and love one another and abominates to have them hate and harm one another.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0010">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">4.25 - 4.26</prop>
+      <prop type="x-translation-ref">4.32</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>旣以天爲法，動作有爲必度於天，天之所欲則爲之，天所不欲則止。然而天何欲何惡者也？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How do we know that Heaven desires to have men love and benefit one another and abominates to have them hate and harm one another ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0011">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">4.27</prop>
+      <prop type="x-translation-ref">4.33</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>天必欲人之相愛相利，而不欲人之相惡相賊也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Because it ON THE NECESSITY OF ' STANDAEDS 15 lo¥es and benefits men universally.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0012">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">4.28</prop>
+      <prop type="x-translation-ref">4.34</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>奚以知天之欲人之相愛相利，而不欲人之相惡相賊也？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How do we know that it loves and benefits men universally ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0013">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-chinese-ref">4.29 - 4.34</prop>
+      <prop type="x-translation-ref">4.35 - 4.39</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>以其兼而愛之、兼而利之也。奚以知天兼而愛之、兼而利之也？以其兼而有之、兼而食之也。今天下無小大國，皆天之邑也。人無幼長貴賤，皆天之臣也。此以莫不犓羊，豢犬豬，絜爲酒醴粢盛，以敬事天。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Because it claims all and accepts offerings from all. All states in tlie world, large or small, are cities of Heaven, and all people young or old, honourable or humble, are its subjects ; for they ail graze oxen and sheep, feed dogs and pigs, and prepare clean wine and cakes  to sacrifice to Heaven. Does this not mean that Heaven claims all and accepts offerings from all ? Since Heaven does claim all and accepts offerings from all, what then can make us say that it does not desire men to love and benefit one another ? Hence those who love and benefit others Heaven will bless.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0014">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">4.35 - 4.38</prop>
+      <prop type="x-translation-ref">4.40</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>此不爲兼而有之、兼而食之邪？天苟兼而有食之，夫奚說以不欲人之相愛相利也？故曰：「愛人利人者，天必福之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Those who hate and harm others Heaven will curse, for it is said that he who murders the innocent will be visited by misfortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0015">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">4.39 - 4.41</prop>
+      <prop type="x-translation-ref">4.41</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>惡人賊人者，天必禍之。日殺不辜者，得不祥焉。」夫奚說人爲其相殺而天與禍乎？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How else can we explain the fact that men, murdering each other, will be cursed by Heaven ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0016">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">4.42 - 4.43</prop>
+      <prop type="x-translation-ref">4.42 - 4.45</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以知天欲人相愛相利，而不欲人相惡相賊也。昔之聖王禹、湯、文、武，兼愛天下之百姓，率以尊天事鬼，其利人多，故天福之，使立爲天子，天下諸侯皆賓事之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Thus we are certain that Heaven desires to have men love and benefit one another and abominates to have them hate and harm one another. The ancient sage-kings, Yii, T’ang, Wen, and Wu loved the people of the world universally, leading them to reverence Heaven and worship the spirits. Many were their benefits to the people. And, thereupon Heaven blessed them, establishing them emperors ; and all the feudal lords of the empire showed them respect.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-004-methods-and-standards__align-0017">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-004-methods-and-standards</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">4.44 - 4.47</prop>
+      <prop type="x-translation-ref">4.46 - 4.51</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>暴王桀、紂、幽、厲，兼惡天下之百姓，率以詬天侮鬼，其賊人多，故天禍之，使遂失其國家，身死爲僇於天下，後世子孫毀之，至今不息。故爲不善以得禍者，桀、紂、幽、厲是也；愛人利人以得福者，禹、湯、文、武是也。愛人利人以得福者有矣，惡人賊人以得禍者亦有矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(On the other hand) the wicked kings, CSbieh, Chow, Yu, and Li, hated all the people in the world, seducing the people to curse Heaven and ridicule the spirits. Great were their injuries to the people. There-upon Heaven brought them calamity, depriving them of their empire and their lives ; and posterity condemned them to this day. Chieh, Chow, Yu, and Li, then, are those that committed evil and were visited by calamities. And, Yii, T’ang, Wen, and Wii are those that loved and benefited the people and obtained blessings. Thus we have those who obtained blessings because they loved and benefited the people as well as those who were visited by calamities because they hated and harmed the people.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

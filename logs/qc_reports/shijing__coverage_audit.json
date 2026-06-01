@@ -5,14 +5,14 @@
   "complete_sections": 305,
   "metadata_only_sections": 0,
   "units_with_chinese_source": 305,
-  "units_with_english_public_domain_witness": 305,
-  "units_with_verified_public_domain_english_source": 305,
+  "units_with_english_witness": 305,
+  "units_with_release_ready_english_source": 305,
   "units_with_at_least_one_exact_alignment": 305,
   "exact_alignment_count": 757,
   "source_record_count": 610,
   "missing_from_manifest": [],
   "present_but_metadata_only": [],
-  "present_without_verified_public_domain_translation": [],
+  "present_without_release_ready_translation": [],
   "sections_with_coarse_or_nonpreferred_alignment": [
     "daya-dang-002",
     "daya-dang-007",
@@ -105,6 +105,9 @@
     "xiaoya-yuzao-011",
     "xiaoya-yuzao-013"
   ],
+  "units_with_english_public_domain_witness": 305,
+  "units_with_verified_public_domain_english_source": 305,
+  "present_without_verified_public_domain_translation": [],
   "complete_sections_by_witness_type": {
     "standalone Wikisource": 1,
     "OCR-derived witness": 182,

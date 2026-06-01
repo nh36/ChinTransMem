@@ -12,7 +12,7 @@
   "counts": {
     "works": 1,
     "sections": 64,
-    "persons": 8,
+    "persons": 9,
     "sources": 128,
     "segments": 900,
     "alignments": 514
@@ -724,8 +724,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "5118fd0d890b63cb0793cd91f52c9bca12e80111b9a1b58852503e44093144cd",
-    "metadata/sources.yml": "0ca0df381f79b248b58017b73aaa56ba61f8202c70641f790cfb5a8a04d13080",
+    "metadata/sections.yml": "b41cd2f4bd1df34412b0ad65c472330a6bb6f9d23476605e5b9997c203ab387c",
+    "metadata/sources.yml": "254f2bacffe9733ae01c495ec4534c4d02283ac38f6201c1f17b43598aac92c5",
     "metadata/manifests/yijing.yml": "ae50e0f9e69011718b9a7f055bce47edae0e77bcfcebf4ad44000dc3954319bf",
     "corpus/exports/jsonl/yijing__yijing-001-qian__aligned_passages.jsonl": "ba2afb999c7cba410d0e38537cfd2493737cfb63ddafc21bb7f821ef87ac355f",
     "corpus/exports/csv/yijing__yijing-001-qian__aligned_passages.csv": "0b8c9465c7390740b1c7511ae053f35a539bfab48f1c9334320debafedf7052c",
@@ -1007,6 +1007,13 @@
     "non_grouped_segmentation_mismatch_rows": [],
     "alignment_drift_issues": [],
     "line_order_issues": [],
+    "hard_failure_count": 0
+  },
+  "source_traceability": {
+    "missing_source_url_sources": [],
+    "missing_rights_status_sources": [],
+    "missing_release_status_sources": [],
+    "missing_rights_note_sources": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

@@ -16,7 +16,7 @@
   "counts": {
     "works": 1,
     "sections": 305,
-    "persons": 8,
+    "persons": 9,
     "sources": 610,
     "segments": 1514,
     "alignments": 1062
@@ -3379,8 +3379,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "5118fd0d890b63cb0793cd91f52c9bca12e80111b9a1b58852503e44093144cd",
-    "metadata/sources.yml": "0ca0df381f79b248b58017b73aaa56ba61f8202c70641f790cfb5a8a04d13080",
+    "metadata/sections.yml": "b41cd2f4bd1df34412b0ad65c472330a6bb6f9d23476605e5b9997c203ab387c",
+    "metadata/sources.yml": "254f2bacffe9733ae01c495ec4534c4d02283ac38f6201c1f17b43598aac92c5",
     "metadata/manifests/shijing.yml": "f39c8945b070e89776bc241dac6511606d9ed55337e8759df33d512c692cf155",
     "corpus/exports/jsonl/shijing__guofeng-zhounan-001-guanju__aligned_passages.jsonl": "201232fd9cde0d03fd0629b7025a46e9c69d7a1bd6fd60084d61ca1396b8e8bc",
     "corpus/exports/csv/shijing__guofeng-zhounan-001-guanju__aligned_passages.csv": "c70b004cfed024219665b23df005f578f65867981a49f80498c8324e27bdecad",
@@ -4626,6 +4626,13 @@
     "non_grouped_segmentation_mismatch_rows": [],
     "alignment_drift_issues": [],
     "line_order_issues": [],
+    "hard_failure_count": 0
+  },
+  "source_traceability": {
+    "missing_source_url_sources": [],
+    "missing_rights_status_sources": [],
+    "missing_release_status_sources": [],
+    "missing_rights_note_sources": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-mozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="mozi-014-universal-love-i__align-0001">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-chinese-ref">14.1 - 14.2</prop>
+      <prop type="x-translation-ref">14.1 - 14.5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>聖人以治天下爲事者也，必知亂之所自起，焉能治之。不知亂之所自起，則不能治。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Uhiveesal Lo?b (I)  ' j The wise man who has charge of governing the empire j should know the cause of disorder before he can put it in order. Unless he knows its cause, he cannot regulate it. It is similar to the problem of a physician who is attending a patient. He has to know the cause of the ailment before he can cure it. Unless he knows its cause he cannot cure it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0002">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">14.3 - 14.7</prop>
+      <prop type="x-translation-ref">14.6 - 14.11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>譬之如醫之攻人之疾者然，必知疾之所自起，焉能攻之。不知疾之所自起，則弗能攻。治亂者何獨不然？必知亂之所自起，焉能治之。不知亂之所自起，則弗能治。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>How is the situation difierent for him who is to regulate disorder ? He too has to know the cause of the disorder before he can regulate it. Unless he knows its cause he cannot regulate it. The wise man who has charge of governing the empire must, then, investigate the cause of disorder. Suppose we try to locate the cause of disorder, we shall j find it lies in the want of mutual love. What is called disorder ; is just the lack of filial piety on the part of the minister : and the son towards the emperor and the father.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0003">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">14.8 - 14.10</prop>
+      <prop type="x-translation-ref">14.12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>聖人以治天下爲事者也，不可不察亂之所自起。當察亂何自起？起不相愛。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>As he loves himself and not his father the son benefits himself to the disadvantage of his father.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0004">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">14.11 - 14.16</prop>
+      <prop type="x-translation-ref">14.13 - 14.18</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>臣子之不孝君父，所謂亂也。子自愛，不愛父，故虧父而自利。弟自愛，不愛兄，故虧兄而自利。臣自愛，不愛君，故虧君而自利。此所謂亂也。雖父之不慈子，兄之不慈弟，君之不慈臣，此亦天下之所謂亂也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>As he lo'ves himself and not his elder brother, the younger brother benefits himself to the disadvantage of his elder brother. As he loves himself and not his emperor, the minister benefits himself to the reading of that edition is also incorrect on a few points. / UNIVERSAL LOVE (I) disadvantage of his emperor. And these are what is called disorder. When the father shows no affection to the son, when the elder brother shows no affection to the younger brother, and when the emperor shows no affection to the minister, on the other hand, it is also called disorder. When the father loves only himself and not the son, he benefits himself to the disadvantage of the son.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0005">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">14.17 - 14.21</prop>
+      <prop type="x-translation-ref">14.19 - 14.20</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>父自愛也，不愛子，故虧子而自利。兄自愛也，不愛弟，故虧弟而自利。君自愛也，不愛臣，故虧臣而自利。是何也？皆起不相愛。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When the elder brother loves only himself and not his younger brother, he benefits himself to the disadvantage of the younger brother. When the emperor loves only himself and not his minister, he benefits himself to the disadvantage of his minister, and the reason for all these is want of mutual love.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0006">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">14.22</prop>
+      <prop type="x-translation-ref">14.21</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>雖至天下之爲盜賊者亦然。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>This is true even among thieves and robbers.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0007">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">14.23 - 14.26</prop>
+      <prop type="x-translation-ref">14.22 - 14.23</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>盜愛其室，不愛其異室，故竊異室以利其室。賊愛其身，不愛人，故賊人以利其身。此何也？皆起不相愛。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>As he loves only his own family and not other families, the thief steals from other families to profit his own family. As he loves only his own person and not others, the robber does violence to others to profit himself.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0008">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">14.27</prop>
+      <prop type="x-translation-ref">14.24</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>雖至大夫之相亂家、諸侯之相攻國者亦然。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>And the reason for all this is want of love.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0009">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">14.28 - 14.31</prop>
+      <prop type="x-translation-ref">14.25 - 14.30</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>大夫各愛其家，不愛異家，故亂異家以利其家。諸侯各愛其國，不愛異國，故攻異國以利其國。天下之亂物，具此而已矣！察此何自起，皆起不相愛。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>This again is true in the mutual disturbance among the houses of the ministers and the mutual invasions among the states of the feudal lords. As he loves only his own house and not the others, the minister disturbs the other houses to profit his own. As he loves only his own state and not the others, the feudal lord attacks the other states to profit his own. These instances exhaust the confusion in the world. And when we look into the causes we find they all arise from want of mutual love. Suppose everybody in the world loves universally, loving others as one’s self.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0010">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">14.32 - 14.34</prop>
+      <prop type="x-translation-ref">14.31 - 14.32</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>若使天下兼相愛，愛人若愛其身，猶有不孝者乎？視父、兄與君若其身，惡施不孝？猶有不慈者乎？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Will there yet be any unfilial individual ? When every one regards his father, elder brother, and emperor i as himself, whereto can he direct any unfilial feeling ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0011">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">14.35 - 14.38</prop>
+      <prop type="x-translation-ref">14.33 - 14.36</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>視弟子與臣若其身，惡施不慈？故不孝、不慈、亡有，猶有盜賊乎？故視人之室若其室，誰竊？視人身若其身，誰賊？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Will THEIWORKS OF MOTSl there still be any unaffeetionate incliviclnal ? When, every one regards Hs younger brother son., and niiiiistor as himself, whereto can he direct any disaffection ? Therefore there will not be any nnfilial feeling or disaffection. Will there then be any thieves and robbers ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0012">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">14.39 - 14.40</prop>
+      <prop type="x-translation-ref">14.37</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故盜賊亡有。猶有大夫之相亂家、諸侯之相攻國者乎？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When every one regards other families as his own family, who will steal ?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0013">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">14.41 - 14.43</prop>
+      <prop type="x-translation-ref">14.38</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>視人家若其家，誰亂？視人國若其國，誰攻？故大夫之相亂家、諸侯之相攻國者亡有。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When every one regards other persons as his own person, who will rob 1 Therefore there will not he any thieves or robbers.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0014">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">14.44 - 14.46</prop>
+      <prop type="x-translation-ref">14.39 - 14.44</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>若使人下兼相愛，國與國不相攻，家與家不相亂，盜賊無有，君臣父子皆能孝慈，若此則天下治。故聖人以治天下爲事者，惡得不禁惡而勸愛？故天下兼相愛則治，交相惡則亂。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Will there be mutual disturbance among the houses of the ministers and invasion among the states of the feudal lords ? When every one regards the houses of others as one’s own, who will he disturbing 1 When every one regards the states of others as one’s own, who will invade ? Therefore there will be neither disturbances among the houses of the ministers nor invasion among the states of the feudal lords. If every one in the world will love uiiivervsally ; states not attacking one another; houses not disturbing one another ; thieves and robbers becoming extinct ; emperor and ministers, fathers and sons, all being affectionate and filial — if all this comes to pass the world will be orderly. Therefore, how can the wise man who has charge of governing the empire fail to restrain hate and encourage love ? So, when there is universal love in the world it will be orderly, and when there is mutual hate in the world it will be dis-orderly.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0015">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">14.47</prop>
+      <prop type="x-translation-ref">14.45</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故子墨子曰不可以不勸愛人者，此也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>This is why Motse insisted on persuading people to love others.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

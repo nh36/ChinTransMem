@@ -12,7 +12,7 @@
   "counts": {
     "works": 1,
     "sections": 20,
-    "persons": 8,
+    "persons": 9,
     "sources": 40,
     "segments": 1002,
     "alignments": 521
@@ -240,8 +240,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "5118fd0d890b63cb0793cd91f52c9bca12e80111b9a1b58852503e44093144cd",
-    "metadata/sources.yml": "0ca0df381f79b248b58017b73aaa56ba61f8202c70641f790cfb5a8a04d13080",
+    "metadata/sections.yml": "b41cd2f4bd1df34412b0ad65c472330a6bb6f9d23476605e5b9997c203ab387c",
+    "metadata/sources.yml": "254f2bacffe9733ae01c495ec4534c4d02283ac38f6201c1f17b43598aac92c5",
     "metadata/manifests/lunyu.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
     "metadata/corpus_manifest.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
     "corpus/exports/jsonl/lunyu__book-01-xueer__aligned_passages.jsonl": "dd599a60e11c5d52cf335d8f830fef872fc91f5033ff091f72ba6eff16faab64",
@@ -348,6 +348,13 @@
     "non_grouped_segmentation_mismatch_rows": [],
     "alignment_drift_issues": [],
     "line_order_issues": [],
+    "hard_failure_count": 0
+  },
+  "source_traceability": {
+    "missing_source_url_sources": [],
+    "missing_rights_status_sources": [],
+    "missing_release_status_sources": [],
+    "missing_rights_note_sources": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

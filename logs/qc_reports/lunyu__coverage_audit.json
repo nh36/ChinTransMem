@@ -5,14 +5,14 @@
   "complete_sections": 20,
   "metadata_only_sections": 0,
   "units_with_chinese_source": 20,
-  "units_with_english_public_domain_witness": 20,
-  "units_with_verified_public_domain_english_source": 0,
+  "units_with_english_witness": 20,
+  "units_with_release_ready_english_source": 0,
   "units_with_at_least_one_exact_alignment": 20,
   "exact_alignment_count": 501,
   "source_record_count": 40,
   "missing_from_manifest": [],
   "present_but_metadata_only": [],
-  "present_without_verified_public_domain_translation": [
+  "present_without_release_ready_translation": [
     "book-01-xueer",
     "book-02-weizheng",
     "book-03-bayi",
@@ -34,5 +34,29 @@
     "book-19-zizhang",
     "book-20-yaoyue"
   ],
-  "sections_with_coarse_or_nonpreferred_alignment": []
+  "sections_with_coarse_or_nonpreferred_alignment": [],
+  "units_with_english_public_domain_witness": 20,
+  "units_with_verified_public_domain_english_source": 0,
+  "present_without_verified_public_domain_translation": [
+    "book-01-xueer",
+    "book-02-weizheng",
+    "book-03-bayi",
+    "book-04-liren",
+    "book-05-gongyechang",
+    "book-06-yongye",
+    "book-07-shuer",
+    "book-08-taibo",
+    "book-09-zihan",
+    "book-10-xiangdang",
+    "book-11-xianjin",
+    "book-12-yanyuan",
+    "book-13-zilu",
+    "book-14-xianwen",
+    "book-15-weilinggong",
+    "book-16-jishi",
+    "book-17-yanghuo",
+    "book-18-weizi",
+    "book-19-zizhang",
+    "book-20-yaoyue"
+  ]
 }

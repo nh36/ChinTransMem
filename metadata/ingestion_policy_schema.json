@@ -45,7 +45,8 @@
   ],
   "allowed_rights_policies": [
     "public_domain_only_for_export",
-    "public_domain_only_for_export_with_explicit_chinesenotes_provenance"
+    "public_domain_only_for_export_with_explicit_chinesenotes_provenance",
+    "proof_of_concept_export_allowed_with_explicit_rights_review"
   ],
   "allowed_missing_text_policies": [
     "block_export_if_clean_chinese_or_english_text_is_missing",

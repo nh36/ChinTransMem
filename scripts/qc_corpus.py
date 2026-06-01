@@ -12,6 +12,7 @@ from common import (
     REPO_ROOT,
     connect_db,
     corpus_export_paths,
+    load_sources,
     load_work_manifest,
     manifest_sections,
     read_jsonl,
@@ -68,6 +69,18 @@ YIJING_NOTICE_MARKERS = (
 )
 YIJING_CANONICAL_ORDER = ("judgment", "first", "second", "third", "fourth", "fifth", "top", "use")
 YIJING_USE_LINE_SECTION_IDS = {"yijing-001-qian", "yijing-002-kun"}
+MOZI_SEVERE_OCR_MARKERS = ("the works of mots", "the neglected rival of confucius")
+MOZI_FOOTNOTE_RESIDUE_MARKERS = ("comparison with the list of chronological table appended",)
+
+
+def _severe_ocr_issues(text: str) -> list[str]:
+    lowered = " ".join(text.casefold().split())
+    severe_issues: list[str] = []
+    if any(marker in lowered for marker in MOZI_SEVERE_OCR_MARKERS):
+        severe_issues.append("page_header_residue")
+    if any(marker in lowered for marker in MOZI_FOOTNOTE_RESIDUE_MARKERS):
+        severe_issues.append("footnote_residue")
+    return sorted(set(severe_issues))
 
 
 def _yijing_line_position_from_chinese(source_text: str) -> str | None:
@@ -126,7 +139,7 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
         "alignment_drift_issues": [],
         "line_order_issues": [],
     }
-    if work_id not in {"laozi", "shangshu", "yijing"}:
+    if work_id not in {"laozi", "shangshu", "yijing", "mozi"}:
         return {**issues, "hard_failure_count": 0}
     for row in rows:
         source_text = str(row.get("chinese_text", "")).strip()
@@ -135,6 +148,8 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
         source_segment_count = int(row.get("source_segment_count", 0) or 0)
         target_segment_count = int(row.get("target_segment_count", 0) or 0)
         alignment_granularity = str(row.get("alignment_granularity", "") or "")
+        is_coarse_alignment = bool(row.get("is_coarse_alignment"))
+        coarse_alignment_reason = str(row.get("coarse_alignment_reason", "") or "")
         if work_id in {"laozi", "shangshu"} and (
             source_segment_count == 1
             and target_segment_count == 1
@@ -156,7 +171,11 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
             and len(CJK_RE.findall(source_text)) <= (8 if work_id == "laozi" else (18 if work_id == "shangshu" else 24))
         ):
             issues["suspicious_length_imbalance_rows"].append(str(row["alignment_id"]))
-        if alignment_granularity != "grouped" and source_segment_count != target_segment_count:
+        if (
+            alignment_granularity != "grouped"
+            and source_segment_count != target_segment_count
+            and not (work_id == "mozi" and is_coarse_alignment and coarse_alignment_reason)
+        ):
             issues["non_grouped_segmentation_mismatch_rows"].append(str(row["alignment_id"]))
     if work_id == "shangshu":
         anchor_maps = load_alignment_anchor_maps(SHANGSHU_ALIGNMENT_ANCHORS_PATH)
@@ -259,12 +278,48 @@ def run_text_integrity_checks(work_id: str) -> dict[str, object]:
                 issues["translation_with_notice_sections"].add(section_id)
             if any(marker in lowered for marker in YIJING_COMMENTARY_MARKERS):
                 issues["translation_with_commentary_sections"].add(section_id)
+        if work_id == "mozi":
+            if _severe_ocr_issues(translation_text):
+                issues["translation_with_ocr_corruption_rows"].append(alignment_id)
+            if lowered.startswith(("chapter ", "book ")):
+                issues["translation_with_heading_sections"].add(section_id)
     issue_lists = {key: sorted(value) for key, value in issues.items()}
     hard_failure_count = sum(1 for value in issue_lists.values() if value)
     return {
         **issue_lists,
         "hard_failure_count": hard_failure_count,
     }
+
+
+def run_source_traceability_checks(work_id: str) -> dict[str, object]:
+    issues = {
+        "missing_source_url_sources": [],
+        "missing_rights_status_sources": [],
+        "missing_release_status_sources": [],
+        "missing_rights_note_sources": [],
+    }
+    if work_id != "mozi":
+        return {**issues, "hard_failure_count": 0}
+    source_map = {source["source_id"]: source for source in load_sources(work_id)}
+    for section in manifest_sections(work_id):
+        if section.get("tmx_status") != "complete":
+            continue
+        source_ids = section.get("source_ids", {})
+        for source_id in (source_ids.get("source_id"), source_ids.get("target_source_id")):
+            if not source_id:
+                continue
+            source = source_map.get(source_id, {})
+            if not source.get("source_url"):
+                issues["missing_source_url_sources"].append(source_id)
+            if not source.get("rights_status"):
+                issues["missing_rights_status_sources"].append(source_id)
+            if not source.get("release_status"):
+                issues["missing_release_status_sources"].append(source_id)
+            if not (source.get("rights_note") or source.get("notes")):
+                issues["missing_rights_note_sources"].append(source_id)
+    deduped = {key: sorted(set(value)) for key, value in issues.items()}
+    hard_failure_count = sum(1 for value in deduped.values() if value)
+    return {**deduped, "hard_failure_count": hard_failure_count}
 
 
 def run_qc(
@@ -386,7 +441,13 @@ def run_qc(
     report["text_integrity"] = text_integrity
     alignment_quality = run_alignment_quality_checks(work_id)
     report["alignment_quality"] = alignment_quality
-    report["hard_failure_count"] = int(text_integrity["hard_failure_count"]) + int(alignment_quality["hard_failure_count"])
+    source_traceability = run_source_traceability_checks(work_id)
+    report["source_traceability"] = source_traceability
+    report["hard_failure_count"] = (
+        int(text_integrity["hard_failure_count"])
+        + int(alignment_quality["hard_failure_count"])
+        + int(source_traceability["hard_failure_count"])
+    )
     if report["hard_failure_count"]:
         report["status"] = "fail"
     write_json(report_output, report)

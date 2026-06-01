@@ -12,7 +12,7 @@
   "counts": {
     "works": 1,
     "sections": 81,
-    "persons": 8,
+    "persons": 9,
     "sources": 162,
     "segments": 1971,
     "alignments": 795
@@ -911,8 +911,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "5118fd0d890b63cb0793cd91f52c9bca12e80111b9a1b58852503e44093144cd",
-    "metadata/sources.yml": "0ca0df381f79b248b58017b73aaa56ba61f8202c70641f790cfb5a8a04d13080",
+    "metadata/sections.yml": "b41cd2f4bd1df34412b0ad65c472330a6bb6f9d23476605e5b9997c203ab387c",
+    "metadata/sources.yml": "254f2bacffe9733ae01c495ec4534c4d02283ac38f6201c1f17b43598aac92c5",
     "metadata/manifests/laozi.yml": "b32b6fe4094f05a5366e16bb7bfc275f8fb89d27906b9b1a92b6e0d884c174aa",
     "corpus/exports/jsonl/laozi__laozi-chapter-001__aligned_passages.jsonl": "eaf2417063a8f9ac41e855ecf2227bad186fb15008b77a569fde045cce8ae2b5",
     "corpus/exports/csv/laozi__laozi-chapter-001__aligned_passages.csv": "a4eb1ccfd47b90e8e6aef602a31facd1dd3ebec46a70e834a30b472577435010",
@@ -1262,6 +1262,13 @@
     "non_grouped_segmentation_mismatch_rows": [],
     "alignment_drift_issues": [],
     "line_order_issues": [],
+    "hard_failure_count": 0
+  },
+  "source_traceability": {
+    "missing_source_url_sources": [],
+    "missing_rights_status_sources": [],
+    "missing_release_status_sources": [],
+    "missing_rights_note_sources": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

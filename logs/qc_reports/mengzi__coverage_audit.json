@@ -5,14 +5,14 @@
   "complete_sections": 14,
   "metadata_only_sections": 0,
   "units_with_chinese_source": 14,
-  "units_with_english_public_domain_witness": 14,
-  "units_with_verified_public_domain_english_source": 0,
+  "units_with_english_witness": 14,
+  "units_with_release_ready_english_source": 0,
   "units_with_at_least_one_exact_alignment": 14,
   "exact_alignment_count": 260,
   "source_record_count": 28,
   "missing_from_manifest": [],
   "present_but_metadata_only": [],
-  "present_without_verified_public_domain_translation": [
+  "present_without_release_ready_translation": [
     "book-01-lianghuiwang-shang",
     "book-02-lianghuiwang-xia",
     "book-03-gongsunchou-shang",
@@ -28,5 +28,23 @@
     "book-13-jinxin-shang",
     "book-14-jinxin-xia"
   ],
-  "sections_with_coarse_or_nonpreferred_alignment": []
+  "sections_with_coarse_or_nonpreferred_alignment": [],
+  "units_with_english_public_domain_witness": 14,
+  "units_with_verified_public_domain_english_source": 0,
+  "present_without_verified_public_domain_translation": [
+    "book-01-lianghuiwang-shang",
+    "book-02-lianghuiwang-xia",
+    "book-03-gongsunchou-shang",
+    "book-04-gongsunchou-xia",
+    "book-05-tengwengong-shang",
+    "book-06-tengwengong-xia",
+    "book-07-lilou-shang",
+    "book-08-lilou-xia",
+    "book-09-wanzhang-shang",
+    "book-10-wanzhang-xia",
+    "book-11-gaozi-shang",
+    "book-12-gaozi-xia",
+    "book-13-jinxin-shang",
+    "book-14-jinxin-xia"
+  ]
 }

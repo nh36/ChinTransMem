@@ -44,7 +44,7 @@ def unit_has_chinese_source(unit: dict[str, Any]) -> bool:
     return bool(unit.get("zh_page_url") or unit.get("text_status") == "extant" or unit.get("status"))
 
 
-def unit_has_public_domain_english_witness(unit: dict[str, Any]) -> bool:
+def unit_has_recorded_english_witness(unit: dict[str, Any]) -> bool:
     if unit.get("text_status") in {"lost_text", "title_only_missing_text"}:
         return False
     if unit.get("coverage_status") == "title_only_lost_text":
@@ -69,6 +69,13 @@ def unit_has_verified_english_witness(unit: dict[str, Any]) -> bool:
     return english_status in {"verified_transcribed_text", "sbe_transcluded_verified", "human_reviewed_ocr"}
 
 
+def unit_is_release_ready(unit: dict[str, Any]) -> bool:
+    release_status = str(unit.get("release_status", ""))
+    if release_status:
+        return release_status == "cleared"
+    return unit_has_verified_english_witness(unit)
+
+
 def write_markdown_report(path: Path, report: dict[str, Any]) -> None:
     lines = [
         f"# {report['work_id']} coverage audit",
@@ -82,8 +89,8 @@ def write_markdown_report(path: Path, report: dict[str, Any]) -> None:
         "complete_sections",
         "metadata_only_sections",
         "units_with_chinese_source",
-        "units_with_english_public_domain_witness",
-        "units_with_verified_public_domain_english_source",
+        "units_with_english_witness",
+        "units_with_release_ready_english_source",
         "units_with_at_least_one_exact_alignment",
         "exact_alignment_count",
     ):
@@ -95,7 +102,7 @@ def write_markdown_report(path: Path, report: dict[str, Any]) -> None:
             "",
             f"- Missing from manifest: {len(report['missing_from_manifest'])}",
             f"- Present but metadata-only: {len(report['present_but_metadata_only'])}",
-            f"- Present without verified public-domain translation: {len(report['present_without_verified_public_domain_translation'])}",
+            f"- Present without release-ready translation: {len(report['present_without_release_ready_translation'])}",
             f"- Present with coarse or non-preferred exact alignment: {len(report['sections_with_coarse_or_nonpreferred_alignment'])}",
         ]
     )
@@ -147,8 +154,8 @@ def audit_work_coverage(
         "complete_sections": sum(1 for section in manifest["sections"] if section.get("tmx_status") == "complete"),
         "metadata_only_sections": sum(1 for section in manifest["sections"] if section.get("tmx_status") != "complete"),
         "units_with_chinese_source": sum(1 for unit in units if unit_has_chinese_source(unit)),
-        "units_with_english_public_domain_witness": sum(1 for unit in units if unit_has_public_domain_english_witness(unit)),
-        "units_with_verified_public_domain_english_source": sum(1 for unit in units if unit_has_verified_english_witness(unit)),
+        "units_with_english_witness": sum(1 for unit in units if unit_has_recorded_english_witness(unit)),
+        "units_with_release_ready_english_source": sum(1 for unit in units if unit_is_release_ready(unit)),
         "units_with_at_least_one_exact_alignment": sum(1 for section_id in inventory_sections if exact_alignment_counts.get(section_id, 0) > 0),
         "exact_alignment_count": exact_alignment_count,
         "source_record_count": len(source_records),
@@ -158,13 +165,16 @@ def audit_work_coverage(
             for section_id, section in manifest_sections.items()
             if section.get("tmx_status") != "complete"
         ),
-        "present_without_verified_public_domain_translation": sorted(
+        "present_without_release_ready_translation": sorted(
             section_id
             for section_id, unit in inventory_sections.items()
-            if not unit_has_verified_english_witness(unit)
+            if not unit_is_release_ready(unit)
         ),
         "sections_with_coarse_or_nonpreferred_alignment": sorted(coarse_sections),
     }
+    report["units_with_english_public_domain_witness"] = report["units_with_english_witness"]
+    report["units_with_verified_public_domain_english_source"] = report["units_with_release_ready_english_source"]
+    report["present_without_verified_public_domain_translation"] = report["present_without_release_ready_translation"]
     if work_id == "shijing":
         quality_context = build_shijing_quality_context(manifest=manifest)
         report.update(

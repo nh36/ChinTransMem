@@ -3749,12 +3749,5 @@
     "stage": "bootstrap",
     "status": "completed",
     "notes": "Promoted Yijing from ChineseNotes as a 64-hexagram active work using structural judgment-plus-line parsing and commentary exclusion."
-  },
-  {
-    "run_id": "bootstrap-mozi-2026-06-01",
-    "work_id": "mozi",
-    "stage": "bootstrap",
-    "status": "completed",
-    "notes": "Staged Mozi as a metadata-only ChineseNotes scaffold because no clean exportable public-domain English witness was verified."
   }
 ]

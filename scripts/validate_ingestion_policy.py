@@ -150,10 +150,19 @@ def validate_sources(work_id: str, manifest: dict[str, Any]) -> list[str]:
         if section.get("tmx_status") != "complete":
             continue
         source_ids = section.get("source_ids") or {}
-        for key in ("source_id", "target_source_id"):
-            source_id = source_ids.get(key)
+        if isinstance(source_ids, dict):
+            referenced_source_ids = [
+                source_id
+                for source_id in (source_ids.get("source_id"), source_ids.get("target_source_id"))
+                if source_id
+            ]
+        else:
+            referenced_source_ids = [source_id for source_id in source_ids if source_id]
+        if not referenced_source_ids:
+            errors.append(f"{work_id}: exportable section {section['section_id']} is missing source_ids.")
+            continue
+        for source_id in referenced_source_ids:
             if not source_id:
-                errors.append(f"{work_id}: exportable section {section['section_id']} is missing {key}.")
                 continue
             source = source_map.get(source_id)
             if source is None:
@@ -164,6 +173,13 @@ def validate_sources(work_id: str, manifest: dict[str, Any]) -> list[str]:
                     f"{work_id}: exportable section {section['section_id']} uses non-exportable rights status "
                     f"{source.get('rights_status')} for {source_id}."
                 )
+            if policy["rights_policy"] == "proof_of_concept_export_allowed_with_explicit_rights_review":
+                if not source.get("release_status"):
+                    errors.append(f"{work_id}: proof-of-concept export source {source_id} is missing release_status.")
+                if not (source.get("rights_note") or source.get("notes")):
+                    errors.append(f"{work_id}: proof-of-concept export source {source_id} is missing rights_note/notes.")
+                if not source.get("processed_path"):
+                    errors.append(f"{work_id}: proof-of-concept export source {source_id} is missing processed_path.")
 
     return errors
 

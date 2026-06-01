@@ -60,6 +60,6 @@
     "work_type": "classical_text",
     "language_code": "zh-Hant",
     "default_citation": "墨子",
-    "notes": "Staged Mozi metadata-only scaffold built from the ChineseNotes Chinese chapters. Active export is blocked until a clean chapter-level public-domain English witness is captured and verified."
+    "notes": "Active proof-of-concept Mozi corpus built from the ChineseNotes Chinese chapters plus a committed Archive.org OCR capture of Yi-Pao Mei 1929 for the clean attributable chapter subset. Exportable chapters remain not_cleared and rights_review_required until later release review, while chapters without a clean attributable English witness stay metadata-only."
   }
 ]

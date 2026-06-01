@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -11,6 +12,7 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 from common import corpus_export_paths
+from qc_corpus import _severe_ocr_issues
 
 
 def load_json(path: Path) -> object:
@@ -21,75 +23,162 @@ def load_jsonl(path: Path) -> list[dict[str, object]]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
-class MoziStagingTest(unittest.TestCase):
-    def test_mozi_is_staged_metadata_only_with_provenance(self) -> None:
+MOZI_NOTICE_MARKERS = (
+    "the works of mots",
+    "the neglected rival of confucius",
+    "english translation:",
+    "source notice",
+)
+CJK_RE = re.compile(r"[\u3400-\u9fff]")
+
+
+class MoziPromotionTest(unittest.TestCase):
+    def test_mozi_manifest_inventory_ledger_and_exports_agree(self) -> None:
         works = load_json(REPO_ROOT / "metadata" / "works.yml")
         manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "mozi.yml")
         inventory = load_json(REPO_ROOT / "metadata" / "mozi_inventory.yml")
         ledger = load_json(REPO_ROOT / "metadata" / "mozi_verification_ledger.yml")
         sources = [row for row in load_json(REPO_ROOT / "metadata" / "sources.yml") if row["work_id"] == "mozi"]
+        export_rows = load_jsonl(corpus_export_paths("mozi")["jsonl"])
+        alignment_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__alignment_qc.json")
+        corpus_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__corpus_qc.json")
 
         self.assertIn("mozi", {work["work_id"] for work in works})
-        self.assertEqual(manifest["status"], "staged")
+        self.assertEqual(manifest["status"], "active")
+        self.assertEqual(manifest["corpus_use_status"], "proof_of_concept")
+        self.assertEqual(manifest["release_status"], "not_cleared")
         self.assertEqual(manifest["summary"]["section_count"], 52)
-        self.assertEqual(manifest["summary"]["complete_sections"], 0)
-        self.assertEqual(manifest["summary"]["metadata_only_sections"], 52)
-        self.assertEqual(manifest["summary"]["exact_alignment_count"], 0)
+        self.assertEqual(manifest["summary"]["active_section_count"], 30)
+        self.assertEqual(manifest["summary"]["metadata_only_section_count"], 22)
+        self.assertEqual(manifest["summary"]["exact_alignment_count"], 684)
+        self.assertEqual(manifest["summary"]["alignment_granularity_counts"], {"chapter": 8, "grouped": 676})
+        self.assertEqual(manifest["summary"]["fallback_section_count"], 8)
+        self.assertEqual(manifest["summary"]["rights_review_required_section_count"], 30)
+        self.assertEqual(manifest["summary"]["release_ready_section_count"], 0)
         self.assertEqual(len(manifest["sections"]), 52)
         self.assertEqual(len(inventory["units"]), 52)
         self.assertEqual(len(ledger["entries"]), 52)
-        self.assertEqual(len(sources), 52)
+        self.assertEqual(len(sources), 82)
+        self.assertEqual(len(export_rows), 684)
+        self.assertEqual(alignment_qc["summary"]["active_section_count"], 30)
+        self.assertEqual(corpus_qc["status"], "pass")
+        self.assertEqual(corpus_qc["hard_failure_count"], 0)
 
-        self.assertEqual({entry["decision"] for entry in ledger["entries"]}, {"metadata_only"})
-        for entry in ledger["entries"]:
-            self.assertEqual(len(entry["upstream_commit_sha"]), 40)
-            self.assertEqual(entry["upstream_repository_url"], "https://github.com/alexamies/chinesenotes.com")
-            self.assertEqual(entry["decision"], "metadata_only")
-            self.assertEqual(entry["alignment_status"], "not_exported")
-            self.assertIsNone(entry["processed_translation_path"])
-            self.assertIsNone(entry["processed_alignment_path"])
-            self.assertTrue(entry["local_raw_capture_path"].startswith("corpus/raw/chinesenotes/"))
-            self.assertTrue(entry["processed_source_path"].startswith("corpus/processed/chinese_base_texts/"))
-            self.assertTrue((REPO_ROOT / entry["local_raw_capture_path"]).exists())
+        active_sections = [section for section in manifest["sections"] if section["export_status"] == "active"]
+        blocked_sections = [section for section in manifest["sections"] if section["export_status"] == "metadata_only"]
+        active_entries = [entry for entry in ledger["entries"] if entry["export_status"] == "active"]
+        blocked_entries = [entry for entry in ledger["entries"] if entry["export_status"] == "metadata_only"]
+        source_map = {row["source_id"]: row for row in sources}
+
+        self.assertEqual(len(active_sections), 30)
+        self.assertEqual(len(blocked_sections), 22)
+        self.assertEqual(len(active_entries), 30)
+        self.assertEqual(len(blocked_entries), 22)
+
+        for section in active_sections:
+            source_ids = section["source_ids"]
+            self.assertEqual(section["corpus_use_status"], "proof_of_concept")
+            self.assertEqual(section["release_status"], "not_cleared")
+            self.assertEqual(section["alignment_status"], "complete")
+            self.assertEqual(section["tmx_status"], "complete")
+            self.assertTrue(section["translation_processed_path"])
+            self.assertTrue(section["alignment_processed_path"])
+            self.assertTrue((REPO_ROOT / section["source_processed_path"]).exists())
+            self.assertTrue((REPO_ROOT / section["translation_processed_path"]).exists())
+            self.assertTrue((REPO_ROOT / section["alignment_processed_path"]).exists())
+            for source_id in (source_ids["source_id"], source_ids["target_source_id"]):
+                source = source_map[source_id]
+                self.assertTrue(source["source_url"])
+                self.assertTrue(source["rights_status"])
+                self.assertTrue(source["release_status"])
+                self.assertTrue(source["rights_note"] or source["notes"])
+                self.assertTrue((REPO_ROOT / source["raw_path"]).exists())
+                self.assertTrue((REPO_ROOT / source["processed_path"]).exists())
+
+        for entry in active_entries:
+            self.assertEqual(entry["decision"], "proof_of_concept_export")
+            self.assertEqual(entry["corpus_use_status"], "proof_of_concept")
+            self.assertEqual(entry["release_status"], "not_cleared")
+            self.assertEqual(entry["rights_status"], "rights_review_required")
+            self.assertTrue(entry["source_url"])
+            self.assertTrue(entry["translation_source_url"])
+            self.assertTrue(entry["rights_note"])
+            self.assertTrue((REPO_ROOT / entry["source_path"]).exists())
+            self.assertTrue((REPO_ROOT / entry["translation_source_path"]).exists())
             self.assertTrue((REPO_ROOT / entry["processed_source_path"]).exists())
-            self.assertTrue(entry["reason_automatic_alignment_failed"])
+            self.assertTrue((REPO_ROOT / entry["processed_translation_path"]).exists())
+            self.assertTrue((REPO_ROOT / entry["processed_alignment_path"]).exists())
 
-        for source in sources:
-            self.assertEqual(source["rights_status"], "public_domain")
-            self.assertTrue(source["source_url"].startswith("https://github.com/alexamies/chinesenotes.com/blob/"))
-            self.assertTrue((REPO_ROOT / source["raw_path"]).exists())
-            self.assertTrue((REPO_ROOT / source["processed_path"]).exists())
+        for entry in blocked_entries:
+            self.assertEqual(entry["decision"], "metadata_only")
+            self.assertEqual(entry["export_status"], "metadata_only")
+            self.assertTrue(entry["rights_note"])
+            self.assertTrue(entry["reviewer_note"])
+            self.assertNotIn("public-domain", entry["reviewer_note"].lower())
 
         for unit in inventory["units"]:
-            self.assertEqual(unit["decision"], "metadata_only")
-            self.assertEqual(unit["verification_status"], "metadata_only")
-            self.assertEqual(unit["english_witness_status"], "unverified_or_missing")
-            self.assertTrue(unit["reason"])
+            self.assertIn(unit["decision"], {"proof_of_concept_export", "metadata_only"})
+            self.assertTrue(unit["release_status"])
+            self.assertTrue(unit["rights_status"])
+            if unit["export_status"] == "active":
+                self.assertEqual(unit["rights_status"], "rights_review_required")
+                self.assertEqual(unit["release_status"], "not_cleared")
+                self.assertTrue(unit["target_source_id"])
+                self.assertEqual(unit["blocker_reason"], "")
+            else:
+                self.assertEqual(unit["export_status"], "metadata_only")
+                self.assertTrue(unit["blocker_reason"])
+                self.assertNotIn("public-domain", unit["blocker_reason"].lower())
 
-    def test_mozi_exports_and_qc_remain_empty_but_clean(self) -> None:
-        export_paths = corpus_export_paths("mozi")
-        qc_report = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__corpus_qc.json")
+    def test_mozi_exports_have_clean_traceable_proof_of_concept_text(self) -> None:
+        manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "mozi.yml")
+        corpus_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__corpus_qc.json")
+        rows = load_jsonl(corpus_export_paths("mozi")["jsonl"])
+
+        active_section_ids = {section["section_id"] for section in manifest["sections"] if section["export_status"] == "active"}
+        exported_section_ids = {row["section_id"] for row in rows}
+        self.assertEqual(exported_section_ids, active_section_ids)
+
+        for row in rows:
+            translation_text = str(row["translation_text"])
+            lowered = translation_text.casefold()
+            self.assertTrue(translation_text.strip())
+            self.assertFalse(CJK_RE.search(translation_text))
+            self.assertEqual(_severe_ocr_issues(translation_text), [])
+            for marker in MOZI_NOTICE_MARKERS:
+                self.assertNotIn(marker, lowered)
+
+        self.assertEqual(corpus_qc["text_integrity"]["translation_with_chinese_sections"], [])
+        self.assertEqual(corpus_qc["text_integrity"]["translation_with_notice_sections"], [])
+        self.assertEqual(corpus_qc["text_integrity"]["translation_with_commentary_sections"], [])
+        self.assertEqual(corpus_qc["text_integrity"]["translation_with_heading_sections"], [])
+        self.assertEqual(corpus_qc["text_integrity"]["translation_with_ocr_corruption_rows"], [])
+
+    def test_mozi_alignment_qc_and_fallbacks_are_explicit(self) -> None:
         alignment_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__alignment_qc.json")
-        tmx_validation = load_json(export_paths["tmx_validation"])
-        rows = load_jsonl(export_paths["jsonl"])
+        corpus_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__corpus_qc.json")
 
-        self.assertTrue(export_paths["jsonl"].exists())
-        self.assertTrue(export_paths["csv"].exists())
-        self.assertTrue(export_paths["tmx"].exists())
-        self.assertEqual(rows, [])
-        self.assertEqual(qc_report["status"], "pass")
-        self.assertEqual(qc_report["hard_failure_count"], 0)
-        self.assertEqual(qc_report["counts"]["alignments"], 0)
-        self.assertEqual(tmx_validation["status"], "pass")
-        self.assertEqual(tmx_validation["section_count"], 0)
-        self.assertEqual(tmx_validation["corpus"]["tu_count"], 0)
-        self.assertEqual(alignment_qc["summary"]["total_section_count"], 52)
-        self.assertEqual(alignment_qc["summary"]["active_section_count"], 0)
-        self.assertEqual(alignment_qc["summary"]["exportable_section_count"], 0)
-        self.assertEqual(alignment_qc["summary"]["blocked_section_count"], 52)
-        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 0)
-        self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 0)
+        self.assertEqual(alignment_qc["summary"]["active_section_count"], 30)
+        self.assertEqual(alignment_qc["summary"]["blocked_section_count"], 22)
+        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 684)
+        self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"chapter": 8, "grouped": 676})
+        self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 8)
         self.assertEqual(alignment_qc["summary"]["hard_failure_count"], 0)
+        self.assertEqual(alignment_qc["summary"]["rights_review_required_section_count"], 30)
+        self.assertEqual(alignment_qc["summary"]["release_ready_section_count"], 0)
+        self.assertEqual(corpus_qc["alignment_quality"]["hard_failure_count"], 0)
+        self.assertEqual(corpus_qc["source_traceability"]["hard_failure_count"], 0)
+
+        fallback_sections = [section for section in alignment_qc["sections"] if section["fallback_used"]]
+        self.assertEqual(len(fallback_sections), 8)
+        for section in fallback_sections:
+            self.assertTrue(section["fallback_reason"])
+
+        blocked_sections = alignment_qc["blocked_sections"]
+        self.assertEqual(len(blocked_sections), 22)
+        for section in blocked_sections:
+            self.assertTrue(section["reason"])
+            self.assertNotIn("not verified public domain", section["reason"].lower())
 
     def test_mozi_mapping_summary_matches_generated_outputs(self) -> None:
         mapping = load_json(REPO_ROOT / "metadata" / "chinesenotes_work_mapping.yml")
@@ -98,8 +187,8 @@ class MoziStagingTest(unittest.TestCase):
         alignment_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "mozi__alignment_qc.json")
         summary = mozi_mapping["generated_summary"]
 
-        self.assertEqual(mozi_mapping["status"], "staged")
-        self.assertEqual(mozi_mapping["preferred_use"], "metadata_only")
+        self.assertEqual(mozi_mapping["status"], "proof_of_concept_ingested")
+        self.assertEqual(mozi_mapping["preferred_use"], "proof_of_concept")
         self.assertEqual(summary["total_section_count"], manifest["summary"]["section_count"])
         self.assertEqual(summary["active_section_count"], alignment_qc["summary"]["active_section_count"])
         self.assertEqual(summary["exportable_section_count"], alignment_qc["summary"]["exportable_section_count"])
@@ -107,10 +196,8 @@ class MoziStagingTest(unittest.TestCase):
         self.assertEqual(summary["blocked_section_count"], alignment_qc["summary"]["blocked_section_count"])
         self.assertEqual(summary["fallback_section_count"], alignment_qc["summary"]["fallback_section_count"])
         self.assertEqual(summary["english_witness"], alignment_qc["summary"]["english_witness"])
-        self.assertEqual(summary["embedded_chinesenotes_english_section_count"], 2)
-        self.assertIn("52 detected chapters", mozi_mapping["notes"])
-        self.assertIn("0 active/exportable chapters", mozi_mapping["notes"])
-        self.assertIn("no clean public-domain English witness", mozi_mapping["notes"])
+        self.assertIn("30 proof-of-concept-active chapters", mozi_mapping["notes"])
+        self.assertIn("22 chapters remain metadata-only", mozi_mapping["notes"])
 
     def test_existing_work_guardrails_remain_stable(self) -> None:
         laozi_manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "laozi.yml")

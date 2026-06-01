@@ -5084,6 +5084,12 @@
   {
     "entity_type": "work",
     "entity_id": "mozi",
+    "romanization_system": "historical",
+    "alias": "Motse"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "mozi",
     "romanization_system": "english-title",
     "alias": "Mozi"
   },
