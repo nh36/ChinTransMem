@@ -66,6 +66,8 @@ YIJING_NOTICE_MARKERS = (
     "public domain",
     "legge 1882",
 )
+YIJING_CANONICAL_ORDER = ("judgment", "first", "second", "third", "fourth", "fifth", "top", "use")
+YIJING_USE_LINE_SECTION_IDS = {"yijing-001-qian", "yijing-002-kun"}
 
 
 def _yijing_line_position_from_chinese(source_text: str) -> str | None:
@@ -106,6 +108,13 @@ def _yijing_line_position_from_translation(translation_text: str) -> str | None:
     return None
 
 
+def _yijing_expected_order(section_id: str) -> list[str]:
+    order = list(YIJING_CANONICAL_ORDER[:7])
+    if section_id in YIJING_USE_LINE_SECTION_IDS:
+        order.append("use")
+    return order
+
+
 def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
     export_path = corpus_export_paths(work_id)["jsonl"]
     rows = read_jsonl(export_path) if export_path.exists() else []
@@ -115,6 +124,7 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
         "suspicious_length_imbalance_rows": [],
         "non_grouped_segmentation_mismatch_rows": [],
         "alignment_drift_issues": [],
+        "line_order_issues": [],
     }
     if work_id not in {"laozi", "shangshu", "yijing"}:
         return {**issues, "hard_failure_count": 0}
@@ -163,9 +173,12 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
                     f"{section_id}:{issue['anchor_id']}:{issue['issue']}"
                 )
     if work_id == "yijing":
+        rows_by_section: dict[str, list[dict[str, object]]] = {}
         for row in rows:
             source_text = str(row.get("chinese_text", "")).strip()
             translation_text = str(row.get("translation_text", "")).strip()
+            section_id = str(row["section_id"])
+            rows_by_section.setdefault(section_id, []).append(row)
             source_position = _yijing_line_position_from_chinese(source_text)
             if source_position is None:
                 continue
@@ -173,6 +186,17 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
             if source_position != target_position:
                 issues["alignment_drift_issues"].append(
                     f"{row['section_id']}:{row['alignment_id']}:line_position_mismatch:{source_position}->{target_position or 'none'}"
+                )
+        for section_id, section_rows in rows_by_section.items():
+            ordered_rows = sorted(section_rows, key=lambda row: int(row.get("order", 0) or 0))
+            observed_order: list[str] = []
+            for row in ordered_rows:
+                source_position = _yijing_line_position_from_chinese(str(row.get("chinese_text", "")).strip())
+                observed_order.append("judgment" if source_position is None else source_position)
+            expected_order = _yijing_expected_order(section_id)
+            if observed_order != expected_order:
+                issues["line_order_issues"].append(
+                    f"{section_id}:expected={'/'.join(expected_order)}:observed={'/'.join(observed_order)}"
                 )
     hard_failure_count = sum(1 for value in issues.values() if value)
     return {**issues, "hard_failure_count": hard_failure_count}

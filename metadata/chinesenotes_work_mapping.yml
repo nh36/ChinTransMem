@@ -2,7 +2,10 @@
   "works": [
     {
       "chintransmem_work_id": "shijing",
-      "chinesenotes_paths": ["data/corpus/shijing.csv", "corpus/shijing/"],
+      "chinesenotes_paths": [
+        "data/corpus/shijing.csv",
+        "corpus/shijing/"
+      ],
       "status": "already_ingested",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
@@ -11,7 +14,10 @@
     },
     {
       "chintransmem_work_id": "lunyu",
-      "chinesenotes_paths": ["data/corpus/lunyu.csv", "corpus/lunyu/"],
+      "chinesenotes_paths": [
+        "data/corpus/lunyu.csv",
+        "corpus/lunyu/"
+      ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
@@ -20,7 +26,10 @@
     },
     {
       "chintransmem_work_id": "mengzi",
-      "chinesenotes_paths": ["data/corpus/mengzi.csv", "corpus/mengzi/"],
+      "chinesenotes_paths": [
+        "data/corpus/mengzi.csv",
+        "corpus/mengzi/"
+      ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
@@ -29,7 +38,10 @@
     },
     {
       "chintransmem_work_id": "zhuangzi",
-      "chinesenotes_paths": ["data/corpus/zhuangzi.csv", "corpus/zhuangzi/"],
+      "chinesenotes_paths": [
+        "data/corpus/zhuangzi.csv",
+        "corpus/zhuangzi/"
+      ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
@@ -38,7 +50,10 @@
     },
     {
       "chintransmem_work_id": "xunzi",
-      "chinesenotes_paths": ["data/corpus/xunzi.csv", "corpus/xunzi/"],
+      "chinesenotes_paths": [
+        "data/corpus/xunzi.csv",
+        "corpus/xunzi/"
+      ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
@@ -47,7 +62,10 @@
     },
     {
       "chintransmem_work_id": "hanfeizi",
-      "chinesenotes_paths": ["data/corpus/hanfeizi.csv", "corpus/hanfeizi/"],
+      "chinesenotes_paths": [
+        "data/corpus/hanfeizi.csv",
+        "corpus/hanfeizi/"
+      ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
@@ -56,7 +74,10 @@
     },
     {
       "chintransmem_work_id": "zuozhuan",
-      "chinesenotes_paths": ["data/corpus/zuozhuan.csv", "corpus/zuozhuan/"],
+      "chinesenotes_paths": [
+        "data/corpus/zuozhuan.csv",
+        "corpus/zuozhuan/"
+      ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
@@ -65,7 +86,10 @@
     },
     {
       "chintransmem_work_id": "shiji",
-      "chinesenotes_paths": ["data/corpus/shiji.csv", "corpus/shiji/"],
+      "chinesenotes_paths": [
+        "data/corpus/shiji.csv",
+        "corpus/shiji/"
+      ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
@@ -74,7 +98,10 @@
     },
     {
       "chintransmem_work_id": "liji",
-      "chinesenotes_paths": ["data/corpus/liji.csv", "corpus/liji/"],
+      "chinesenotes_paths": [
+        "data/corpus/liji.csv",
+        "corpus/liji/"
+      ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
@@ -83,7 +110,10 @@
     },
     {
       "chintransmem_work_id": "shangshu",
-      "chinesenotes_paths": ["data/corpus/shangshu.csv", "corpus/shangshu/"],
+      "chinesenotes_paths": [
+        "data/corpus/shangshu.csv",
+        "corpus/shangshu/"
+      ],
       "status": "already_ingested",
       "english_coverage": "mostly_complete",
       "chinese_coverage": "complete",
@@ -114,7 +144,10 @@
     },
     {
       "chintransmem_work_id": "yijing",
-      "chinesenotes_paths": ["data/corpus/yijing.csv", "corpus/yijing/"],
+      "chinesenotes_paths": [
+        "data/corpus/yijing.csv",
+        "corpus/yijing/"
+      ],
       "status": "already_ingested",
       "english_coverage": "complete",
       "chinese_coverage": "complete",
@@ -132,13 +165,18 @@
         "fallback_section_count": 0,
         "blocked_section_count": 0,
         "remaining_drift_issue_count": 0,
+        "line_order_checks_run": 64,
+        "remaining_line_order_issue_count": 0,
         "english_witness": "ChineseNotes bilingual mirror of James Legge, Book of Changes (1882)"
       },
-      "notes": "Promoted from ChineseNotes `data/corpus/yijing.csv` at upstream commit `1f6b1d3e7a40b6886a4b943c898125639e993544`: 64 active hexagrams, 450 exact alignments, 450 block alignments, 0 curated override sections, 0 section-level fallbacks, 0 blocked sections, 0 remaining corruption issues, 0 remaining drift issues, and Ten Wings commentary and trigram headings excluded from exportable translation-memory text."
+      "notes": "Promoted from ChineseNotes `data/corpus/yijing.csv` at upstream commit `1f6b1d3e7a40b6886a4b943c898125639e993544`: 64 active hexagrams, 450 exact alignments, 450 block alignments, 0 curated override sections, 0 section-level fallbacks, 0 blocked sections, 0 remaining corruption issues, 0 remaining drift issues, 0 remaining line-order issues, and Ten Wings commentary and trigram headings excluded from exportable translation-memory text."
     },
     {
       "chintransmem_work_id": "mozi",
-      "chinesenotes_paths": ["data/corpus/mozi.csv", "corpus/mozi/"],
+      "chinesenotes_paths": [
+        "data/corpus/mozi.csv",
+        "corpus/mozi/"
+      ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
@@ -147,7 +185,10 @@
     },
     {
       "chintransmem_work_id": "laozi",
-      "chinesenotes_paths": ["data/corpus/daodejing.csv", "corpus/daodejing/"],
+      "chinesenotes_paths": [
+        "data/corpus/daodejing.csv",
+        "corpus/daodejing/"
+      ],
       "status": "already_ingested",
       "english_coverage": "complete",
       "chinese_coverage": "complete",
@@ -171,7 +212,10 @@
     },
     {
       "chintransmem_work_id": "liezi",
-      "chinesenotes_paths": ["data/corpus/liezi.csv", "corpus/liezi/"],
+      "chinesenotes_paths": [
+        "data/corpus/liezi.csv",
+        "corpus/liezi/"
+      ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",

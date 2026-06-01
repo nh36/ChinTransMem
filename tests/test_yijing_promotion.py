@@ -28,6 +28,8 @@ YIJING_NOTICE_MARKERS = (
 OCR_MARKER_RE = re.compile(
     r"\b[a-z]{2,}[A-Z][a-z]{2,}\b|\b[a-z]{2,}-\s+[A-Za-z]{2,}\b|\b[A-Za-z]{2,}[,;:_^][A-Za-z]{2,}\b|\b1\s+[a-z]{2,}\b"
 )
+CANONICAL_YIJING_ORDER = ["judgment", "first", "second", "third", "fourth", "fifth", "top"]
+USE_LINE_SECTION_IDS = {"yijing-001-qian", "yijing-002-kun"}
 
 
 def load_json(path: Path) -> object:
@@ -74,6 +76,15 @@ def line_position_from_translation(translation_text: str) -> str | None:
     if "first" in prefix or "lowest" in prefix:
         return "first"
     return None
+
+
+def observed_section_order(rows: list[dict[str, object]]) -> list[str]:
+    ordered_rows = sorted(rows, key=lambda row: int(row.get("order", 0) or 0))
+    positions: list[str] = []
+    for row in ordered_rows:
+        source_position = line_position_from_chinese(str(row["chinese_text"]).strip())
+        positions.append("judgment" if source_position is None else source_position)
+    return positions
 
 
 class YijingPromotionTest(unittest.TestCase):
@@ -142,6 +153,7 @@ class YijingPromotionTest(unittest.TestCase):
         self.assertFalse(qc_report["alignment_quality"]["suspicious_length_imbalance_rows"])
         self.assertFalse(qc_report["alignment_quality"]["non_grouped_segmentation_mismatch_rows"])
         self.assertFalse(qc_report["alignment_quality"]["alignment_drift_issues"])
+        self.assertFalse(qc_report["alignment_quality"]["line_order_issues"])
 
         self.assertEqual(alignment_qc["summary"]["total_section_count"], 64)
         self.assertEqual(alignment_qc["summary"]["active_section_count"], 64)
@@ -153,6 +165,7 @@ class YijingPromotionTest(unittest.TestCase):
         self.assertEqual(alignment_qc["summary"]["blocked_section_count"], 0)
         self.assertEqual(alignment_qc["summary"]["remaining_corruption_issue_count"], 0)
         self.assertEqual(alignment_qc["summary"]["remaining_drift_issue_count"], 0)
+        self.assertEqual(alignment_qc["summary"]["remaining_line_order_issue_count"], 0)
         self.assertEqual(alignment_qc["summary"]["hard_failure_count"], 0)
         self.assertEqual(len(rows), 450)
         self.assertEqual(len({row["section_id"] for row in rows}), 64)
@@ -182,6 +195,32 @@ class YijingPromotionTest(unittest.TestCase):
                 msg=f"Line-position drift in {row['alignment_id']}: {source_text!r} vs {translation_text!r}",
             )
 
+    def test_yijing_canonical_line_order(self) -> None:
+        rows = load_jsonl(corpus_export_paths("yijing")["jsonl"])
+        rows_by_section: dict[str, list[dict[str, object]]] = {}
+        for row in rows:
+            rows_by_section.setdefault(str(row["section_id"]), []).append(row)
+
+        self.assertEqual(
+            observed_section_order(rows_by_section["yijing-001-qian"]),
+            CANONICAL_YIJING_ORDER + ["use"],
+        )
+        self.assertEqual(
+            observed_section_order(rows_by_section["yijing-002-kun"]),
+            CANONICAL_YIJING_ORDER + ["use"],
+        )
+
+        sections_with_use: set[str] = set()
+        for section_id, section_rows in rows_by_section.items():
+            order = observed_section_order(section_rows)
+            if section_id in USE_LINE_SECTION_IDS:
+                self.assertEqual(order, CANONICAL_YIJING_ORDER + ["use"], msg=section_id)
+                sections_with_use.add(section_id)
+                continue
+            self.assertEqual(order, CANONICAL_YIJING_ORDER, msg=section_id)
+            self.assertNotIn("use", order, msg=section_id)
+        self.assertEqual(sections_with_use, USE_LINE_SECTION_IDS)
+
     def test_yijing_mapping_summary_matches_generated_outputs(self) -> None:
         mapping = load_json(REPO_ROOT / "metadata" / "chinesenotes_work_mapping.yml")
         yijing_mapping = next(item for item in mapping["works"] if item["chintransmem_work_id"] == "yijing")
@@ -202,6 +241,11 @@ class YijingPromotionTest(unittest.TestCase):
         self.assertEqual(summary["fallback_section_count"], alignment_qc["summary"]["fallback_section_count"])
         self.assertEqual(summary["blocked_section_count"], alignment_qc["summary"]["blocked_section_count"])
         self.assertEqual(summary["remaining_drift_issue_count"], alignment_qc["summary"]["remaining_drift_issue_count"])
+        self.assertEqual(summary["line_order_checks_run"], alignment_qc["summary"]["line_order_checks_run"])
+        self.assertEqual(
+            summary["remaining_line_order_issue_count"],
+            alignment_qc["summary"]["remaining_line_order_issue_count"],
+        )
         self.assertEqual(summary["english_witness"], alignment_qc["summary"]["english_witness"])
         self.assertIn("64 active hexagrams", yijing_mapping["notes"])
         self.assertIn("450 exact alignments", yijing_mapping["notes"])

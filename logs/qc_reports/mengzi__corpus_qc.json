@@ -256,6 +256,7 @@
     "suspicious_length_imbalance_rows": [],
     "non_grouped_segmentation_mismatch_rows": [],
     "alignment_drift_issues": [],
+    "line_order_issues": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

@@ -10,7 +10,7 @@ from pathlib import Path
 from urllib.request import urlopen
 
 from chinesenotes_alignment import render_completion_quality_markdown
-from common import REPO_ROOT, repo_relative, sha256_file, write_json, write_jsonl
+from common import REPO_ROOT, load_json_compatible_yaml, repo_relative, sha256_file, write_json, write_jsonl
 from text_quality import detect_probable_ocr_corruption
 
 WORK_ID = "yijing"
@@ -35,6 +35,7 @@ INVENTORY_PATH = REPO_ROOT / "metadata" / f"{WORK_ID}_inventory.yml"
 LEDGER_PATH = REPO_ROOT / "metadata" / f"{WORK_ID}_verification_ledger.yml"
 ALIGNMENT_QC_PATH = REPO_ROOT / "logs" / "qc_reports" / f"{WORK_ID}__alignment_qc.json"
 COMPLETION_REPORT_PATH = REPO_ROOT / "documentation" / f"{WORK_ID}_completion_quality.md"
+CHINESENOTES_WORK_MAPPING_PATH = REPO_ROOT / "metadata" / "chinesenotes_work_mapping.yml"
 
 LINE_MARKER_RE = re.compile(r"^(初[六九]|[六九][二三四五]|上[六九]|用[六九])[，：,:]")
 COMMENTARY_MARKER_RE = re.compile(r"^(彖曰|象曰|文言曰)")
@@ -56,6 +57,9 @@ YIJING_COMMENTARY_ENGLISH_MARKERS = (
     "the trigram representing",
     "this shows",
 )
+CANONICAL_LINE_ORDER = ("judgment", "first", "second", "third", "fourth", "fifth", "top", "use")
+CANONICAL_LINE_ORDER_INDEX = {label: index for index, label in enumerate(CANONICAL_LINE_ORDER)}
+USE_LINE_SECTION_NUMBERS = {1, 2}
 UPSTREAM_TITLE_OVERRIDES: dict[str, tuple[str, str]] = {
     "yijing/yijing041.txt": ("損", "Sun"),
 }
@@ -94,6 +98,40 @@ def _fetch_text(url: str) -> str:
 def _write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
+
+
+def _update_chinesenotes_work_mapping(summary: dict[str, object]) -> None:
+    mapping = load_json_compatible_yaml(CHINESENOTES_WORK_MAPPING_PATH)
+    entry = next(item for item in mapping["works"] if item["chintransmem_work_id"] == WORK_ID)
+    entry["generated_summary"] = {
+        "upstream_commit_sha": UPSTREAM_COMMIT_SHA,
+        "total_section_count": summary["total_section_count"],
+        "active_section_count": summary["active_section_count"],
+        "exportable_section_count": summary["exportable_section_count"],
+        "exact_alignment_count": summary["exact_alignment_count"],
+        "alignment_granularity_counts": summary["alignment_granularity_counts"],
+        "curated_override_section_count": summary["curated_override_section_count"],
+        "fallback_section_count": summary["fallback_section_count"],
+        "blocked_section_count": summary["blocked_section_count"],
+        "remaining_drift_issue_count": summary["remaining_drift_issue_count"],
+        "line_order_checks_run": summary["line_order_checks_run"],
+        "remaining_line_order_issue_count": summary["remaining_line_order_issue_count"],
+        "english_witness": summary["english_witness"],
+    }
+    entry["notes"] = (
+        "Promoted from ChineseNotes `data/corpus/yijing.csv` at upstream commit "
+        f"`{UPSTREAM_COMMIT_SHA}`: {summary['active_section_count']} active hexagrams, "
+        f"{summary['exact_alignment_count']} exact alignments, "
+        f"{summary['alignment_granularity_counts']['block']} block alignments, "
+        f"{summary['curated_override_section_count']} curated override sections, "
+        f"{summary['fallback_section_count']} section-level fallbacks, "
+        f"{summary['blocked_section_count']} blocked sections, "
+        f"{summary['remaining_corruption_issue_count']} remaining corruption issues, "
+        f"{summary['remaining_drift_issue_count']} remaining drift issues, "
+        f"{summary['remaining_line_order_issue_count']} remaining line-order issues, "
+        "and Ten Wings commentary and trigram headings excluded from exportable translation-memory text."
+    )
+    write_json(CHINESENOTES_WORK_MAPPING_PATH, mapping)
 
 
 def _ensure_raw_capture(relative_path: str, url: str, *, skip_fetch: bool) -> Path:
@@ -170,11 +208,46 @@ def _expected_position_match(position_key: str, english_text: str) -> bool:
     return False
 
 
-def _next_english_line(lines: list[str], start_index: int) -> tuple[int, str] | None:
+def _canonical_line_label(unit: ExtractedUnit) -> str:
+    return "judgment" if unit.line_position_key is None else unit.line_position_key
+
+
+def _canonical_unit_sort_key(unit: ExtractedUnit) -> int:
+    return CANONICAL_LINE_ORDER_INDEX[_canonical_line_label(unit)]
+
+
+def _expected_section_order(section_number: int) -> list[str]:
+    order = list(CANONICAL_LINE_ORDER[:7])
+    if section_number in USE_LINE_SECTION_NUMBERS:
+        order.append("use")
+    return order
+
+
+def _is_heading_like_english_line(line: str) -> bool:
+    normalized = " ".join(line.replace("\t", " ").split())
+    if not normalized.endswith(":"):
+        return False
+    tokens = normalized[:-1].split()
+    return 1 <= len(tokens) <= 4 and all(token[:1].isupper() for token in tokens)
+
+
+def _find_translation_text(lines: list[str], start_index: int, position_key: str | None) -> tuple[str, bool] | None:
+    skipped_heading_like = False
     for index in range(start_index + 1, len(lines)):
         candidate = lines[index]
-        if ASCII_RE.search(candidate):
-            return index, candidate
+        if candidate.startswith(NOTICE_PREFIXES):
+            continue
+        if CJK_RE.search(candidate) and not ASCII_RE.search(candidate):
+            break
+        if not ASCII_RE.search(candidate):
+            continue
+        if _is_heading_like_english_line(candidate):
+            skipped_heading_like = True
+            continue
+        if position_key is None:
+            return candidate, skipped_heading_like
+        if _expected_position_match(position_key, candidate):
+            return candidate, skipped_heading_like
     return None
 
 
@@ -188,6 +261,7 @@ def _extract_english_title(english_text: str, fallback: str) -> str:
 
 def _parse_source_file(
     row: SourceRow,
+    section_number: int,
     text: str,
 ) -> tuple[str, str, str | None, list[ExtractedUnit], dict[str, object]]:
     lines = [line.strip() for line in text.splitlines() if line.strip()]
@@ -202,6 +276,7 @@ def _parse_source_file(
     commentary_headers: list[str] = []
     notice_lines: list[str] = []
     commentary_english_hits = 0
+    line_order_repair_needed = False
     for index in range(start_index, len(lines)):
         line = lines[index]
         if line.startswith(NOTICE_PREFIXES):
@@ -212,13 +287,18 @@ def _parse_source_file(
             continue
         if not CJK_RE.search(line) or ASCII_RE.search(line):
             continue
-        next_english = _next_english_line(lines, index)
-        if next_english is None:
+        position_key = _line_position_key(line)
+        translation_match = _find_translation_text(lines, index, position_key)
+        if translation_match is None:
+            if position_key is not None:
+                commentary_english_hits += 1
             continue
-        _, translation_text = next_english
+        translation_text, skipped_heading_like = translation_match
+        if skipped_heading_like and position_key is not None:
+            line_order_repair_needed = True
         if detect_probable_ocr_corruption(translation_text):
             raise ValueError(f"OCR-like corruption detected in Yijing translation row: {translation_text}")
-        if not judgment_seen and _line_position_key(line) is None:
+        if not judgment_seen and position_key is None:
             units.append(
                 ExtractedUnit(
                     role="judgment",
@@ -230,11 +310,7 @@ def _parse_source_file(
             )
             judgment_seen = True
             continue
-        position_key = _line_position_key(line)
         if position_key is None or position_key in seen_positions:
-            continue
-        if not _expected_position_match(position_key, translation_text):
-            commentary_english_hits += 1
             continue
         seen_positions.add(position_key)
         units.append(
@@ -255,6 +331,16 @@ def _parse_source_file(
     if not expected_positions.issubset(seen_positions):
         missing_positions = sorted(expected_positions - seen_positions)
         raise ValueError(f"Missing Yijing line statements for {row.file_path}: {missing_positions}")
+    observed_order = [_canonical_line_label(unit) for unit in units]
+    expected_order = _expected_section_order(section_number)
+    if observed_order != expected_order:
+        line_order_repair_needed = True
+    units = sorted(units, key=_canonical_unit_sort_key)
+    repaired_order = [_canonical_line_label(unit) for unit in units]
+    if repaired_order != expected_order:
+        raise ValueError(
+            f"Unable to repair Yijing canonical order for {row.file_path}: expected {expected_order}, found {repaired_order}"
+        )
 
     judgment_prefix = re.split(r"[，：,:。]", units[0].chinese_text, maxsplit=1)[0]
     chinese_title = (
@@ -273,6 +359,8 @@ def _parse_source_file(
         "notice_count": len(notice_lines),
         "commentary_headers": commentary_headers,
         "commentary_english_hits": commentary_english_hits,
+        "line_order_issue_count_before_repair": int(line_order_repair_needed),
+        "remaining_line_order_issue_count": 0,
         "translator_note": next((line for line in notice_lines if line.startswith("English translation:")), "English translation: Legge 1882"),
         "rights_note": next(
             (line for line in notice_lines if line.startswith("本作品在全世界都属于公有领域")),
@@ -393,6 +481,8 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, object]:
     trigram_heading_exclusion_count = 0
     commentary_exclusion_count = 0
     exact_alignment_count = 0
+    line_order_issue_count_before_repair = 0
+    repaired_line_order_issue_count = 0
 
     stage_records: list[dict[str, object]] = []
     intro_text = intro_raw_path.read_text(encoding="utf-8")
@@ -410,7 +500,11 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, object]:
             skip_fetch=skip_fetch,
         )
         text = staged_raw_path.read_text(encoding="utf-8")
-        chinese_title, english_title, trigram_heading, units, parse_metadata = _parse_source_file(row, text)
+        chinese_title, english_title, trigram_heading, units, parse_metadata = _parse_source_file(
+            row,
+            section_number,
+            text,
+        )
         section_slug = _slugify_ascii(english_title)
         section_id = f"{WORK_ID}-{section_number:03d}-{section_slug}"
         label = f"{chinese_title} {english_title}".strip()
@@ -422,6 +516,8 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, object]:
             trigram_heading_exclusion_count += 1
         if parse_metadata["commentary_header_count"] or parse_metadata["commentary_english_hits"]:
             commentary_exclusion_count += 1
+        line_order_issue_count_before_repair += int(parse_metadata["line_order_issue_count_before_repair"])
+        repaired_line_order_issue_count += int(parse_metadata["line_order_issue_count_before_repair"])
 
         chinese_source_id = _source_id(section_id, f"zh-chinesenotes-{UPSTREAM_COMMIT_SHA[:7]}")
         translation_source_id = _source_id(section_id, f"legge-cc-v1-1882")
@@ -590,7 +686,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, object]:
                 "rights_note": parse_metadata["rights_note"],
                 "reviewer_note": (
                     "Exported only the judgment and line statements. "
-                    "Excluded trigram headings plus 彖曰/象曰/文言曰 commentary."
+                    "Excluded trigram headings plus 彖曰/象曰/文言曰 commentary, and enforced canonical line order."
                 ),
             }
         )
@@ -605,6 +701,8 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, object]:
                 "fallback_used": False,
                 "drift_issue_count_before_repair": 0,
                 "remaining_drift_issue_count": 0,
+                "line_order_issue_count_before_repair": parse_metadata["line_order_issue_count_before_repair"],
+                "remaining_line_order_issue_count": parse_metadata["remaining_line_order_issue_count"],
                 "corruption_issue_count": 0,
                 "commentary_present_and_excluded": True,
                 "trigram_heading_present_and_excluded": bool(trigram_heading),
@@ -679,6 +777,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, object]:
                 "commentary_headers": parse_metadata["commentary_headers"],
                 "trigram_heading": trigram_heading,
                 "export_unit_count": len(units),
+                "line_order_issue_count_before_repair": parse_metadata["line_order_issue_count_before_repair"],
             }
         )
         for unit in units:
@@ -711,6 +810,10 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, object]:
             "drift_issue_count_before_repair": 0,
             "repaired_drift_issue_count": 0,
             "remaining_drift_issue_count": 0,
+            "line_order_checks_run": len(manifest_sections),
+            "line_order_issue_count_before_repair": line_order_issue_count_before_repair,
+            "repaired_line_order_issue_count": repaired_line_order_issue_count,
+            "remaining_line_order_issue_count": 0,
             "hard_failure_count": 0,
             "commentary_exclusion_count": commentary_exclusion_count,
             "trigram_heading_exclusion_count": trigram_heading_exclusion_count,
@@ -760,7 +863,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, object]:
             "rights_policy": "public_domain_only_for_export_with_explicit_chinesenotes_provenance",
             "allowed_export_rights_statuses": ["public_domain"],
             "section_group_export_policy": "forbidden",
-            "completion_definition": "A Yijing hexagram is complete only when the ChineseNotes bilingual witness yields a clean judgment plus line-statement extract, commentary/headings/notices are excluded from exportable text, every active row passes line-position drift checks, and QC reports zero hard failures.",
+            "completion_definition": "A Yijing hexagram is complete only when the ChineseNotes bilingual witness yields a clean judgment plus line-statement extract, commentary/headings/notices are excluded from exportable text, every active row passes line-position drift checks, canonical line-order QC is clean, and QC reports zero hard failures.",
         },
         "romanization_aliases": romanization_aliases,
         "sections": manifest_sections,
@@ -787,6 +890,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, object]:
     )
     write_json(LEDGER_PATH, {"entries": ledger_entries})
     write_json(ALIGNMENT_QC_PATH, alignment_qc_report)
+    _update_chinesenotes_work_mapping(alignment_qc_report["summary"])
     COMPLETION_REPORT_PATH.write_text(
         render_completion_quality_markdown(
             alignment_qc_report,

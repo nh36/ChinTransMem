@@ -21,6 +21,10 @@
     "drift_issue_count_before_repair": 0,
     "repaired_drift_issue_count": 0,
     "remaining_drift_issue_count": 0,
+    "line_order_checks_run": 64,
+    "line_order_issue_count_before_repair": 1,
+    "repaired_line_order_issue_count": 1,
+    "remaining_line_order_issue_count": 0,
     "hard_failure_count": 0,
     "commentary_exclusion_count": 64,
     "trigram_heading_exclusion_count": 63
@@ -41,6 +45,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 1,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -57,6 +63,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -73,6 +81,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -89,6 +99,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -105,6 +117,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -121,6 +135,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -137,6 +153,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -153,6 +171,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -169,6 +189,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -185,6 +207,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -201,6 +225,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -217,6 +243,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -233,6 +261,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -249,6 +279,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -265,6 +297,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -281,6 +315,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -297,6 +333,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -313,6 +351,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": false
@@ -329,6 +369,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -345,6 +387,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -361,6 +405,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -377,6 +423,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -393,6 +441,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -409,6 +459,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -425,6 +477,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -441,6 +495,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -457,6 +513,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -473,6 +531,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -489,6 +549,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -505,6 +567,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -521,6 +585,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -537,6 +603,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -553,6 +621,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -569,6 +639,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -585,6 +657,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -601,6 +675,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -617,6 +693,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -633,6 +711,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -649,6 +729,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -665,6 +747,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -681,6 +765,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -697,6 +783,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -713,6 +801,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -729,6 +819,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -745,6 +837,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -761,6 +855,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -777,6 +873,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -793,6 +891,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -809,6 +909,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -825,6 +927,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -841,6 +945,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -857,6 +963,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -873,6 +981,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -889,6 +999,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -905,6 +1017,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -921,6 +1035,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -937,6 +1053,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -953,6 +1071,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -969,6 +1089,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -985,6 +1107,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -1001,6 +1125,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -1017,6 +1143,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -1033,6 +1161,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true
@@ -1049,6 +1179,8 @@
       "fallback_used": false,
       "drift_issue_count_before_repair": 0,
       "remaining_drift_issue_count": 0,
+      "line_order_issue_count_before_repair": 0,
+      "remaining_line_order_issue_count": 0,
       "corruption_issue_count": 0,
       "commentary_present_and_excluded": true,
       "trigram_heading_present_and_excluded": true

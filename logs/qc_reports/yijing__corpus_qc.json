@@ -726,10 +726,10 @@
   "checksums": {
     "metadata/sections.yml": "ee7dad34c8a752c6180205679d83d179f4e78f2c51a724d357dcbeb47bd4811e",
     "metadata/sources.yml": "22f2ca3cf0f48683c606da6b42371f1bdf75ea5a3ec07331a81f5cb7390d9a8d",
-    "metadata/manifests/yijing.yml": "f869edfbe38c889e36c60d407022ca280eb8acd899e605551eeda1f2c49307a1",
-    "corpus/exports/jsonl/yijing__yijing-001-qian__aligned_passages.jsonl": "8237cd6d2241bed6bbb0b952b30f9903cd1bacb9eabd477d565ee6f152ae6f46",
-    "corpus/exports/csv/yijing__yijing-001-qian__aligned_passages.csv": "597fa3c83c5f1fd0bce1f4116f9ad00e973a212900c8f89775dda5ad9b3394c1",
-    "corpus/exports/tmx/yijing__yijing-001-qian__aligned_passages.tmx": "ce620293fd182fbd86dc7f7c256638a631007a78c72476a8378c40280eb8bdc3",
+    "metadata/manifests/yijing.yml": "ae50e0f9e69011718b9a7f055bce47edae0e77bcfcebf4ad44000dc3954319bf",
+    "corpus/exports/jsonl/yijing__yijing-001-qian__aligned_passages.jsonl": "ba2afb999c7cba410d0e38537cfd2493737cfb63ddafc21bb7f821ef87ac355f",
+    "corpus/exports/csv/yijing__yijing-001-qian__aligned_passages.csv": "0b8c9465c7390740b1c7511ae053f35a539bfab48f1c9334320debafedf7052c",
+    "corpus/exports/tmx/yijing__yijing-001-qian__aligned_passages.tmx": "56751e9263f3ec4cc96e75cc44ffea5f5d2512d52be4de2d303009976f9ef3bc",
     "logs/qc_reports/yijing__yijing-001-qian__tmx_validation.json": "f97af27878eacd04ba858452fac1a2e1b89b82f64b2548a8364f69d8a8a061fb",
     "corpus/exports/jsonl/yijing__yijing-002-kun__aligned_passages.jsonl": "ce75fdf603140be3906b55183c80cb973d6b6d035192db33295fef4b374bfa96",
     "corpus/exports/csv/yijing__yijing-002-kun__aligned_passages.csv": "34e604a26c67fc76acd8a45380ca2f5aa42d6410900074f656ce0accf7fe36bd",
@@ -983,9 +983,9 @@
     "corpus/exports/csv/yijing__yijing-064-wei-ji__aligned_passages.csv": "68b812ed04044cd96261fb464da12247958a447e3429673627457cd2500c5cc0",
     "corpus/exports/tmx/yijing__yijing-064-wei-ji__aligned_passages.tmx": "92296ff9dd115bbff093fa5a4f57af0b88799376e85f1ad2e1b7c01ef910c06a",
     "logs/qc_reports/yijing__yijing-064-wei-ji__tmx_validation.json": "196683c7b4a3cf8be0c40a8ded45bb85aa6dffda6f4191b84ba8826da2b487ca",
-    "corpus/exports/jsonl/yijing__all__aligned_passages.jsonl": "8397677430d58935f65bde2f33e0d4adefc6fd4342a0660accb60e40448ec21d",
-    "corpus/exports/csv/yijing__all__aligned_passages.csv": "ca676903f756ba54e1dd67cbb5c4deb3abf21de5d898d84578947b9ef5388e94",
-    "corpus/exports/tmx/yijing__all__aligned_passages.tmx": "21e0e1927f155ff7a8e0f29f0e2971fc0617a31cbfd81f554f0ef316f4a51a43",
+    "corpus/exports/jsonl/yijing__all__aligned_passages.jsonl": "42e1f8150efd731f5a192fc4ca2fc08528b892ca16edf8110e83ee684038930d",
+    "corpus/exports/csv/yijing__all__aligned_passages.csv": "6d1ded7fd6cf4b480ce36b792e9228b3cb5489c391fdedca0c416ba53799a288",
+    "corpus/exports/tmx/yijing__all__aligned_passages.tmx": "3d94bc225c33b4d901c555bb9bd46dd6a7f6a93bd2237f0589498df685e603bf",
     "logs/qc_reports/yijing__corpus_tmx_validation.json": "b67a2ab50820c8e59f39bc5bd789b73109ea6c7843c513be86db609b4a2eb6dc"
   },
   "text_integrity": {
@@ -1006,6 +1006,7 @@
     "suspicious_length_imbalance_rows": [],
     "non_grouped_segmentation_mismatch_rows": [],
     "alignment_drift_issues": [],
+    "line_order_issues": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

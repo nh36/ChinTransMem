@@ -73,6 +73,26 @@
       <prop type="x-confidence">1.00</prop>
       <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 1 九三</prop>
+      <prop type="x-translation-ref">易經 1 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三，君子終日乾乾，夕惕若，厲，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the third NINE, undivided, (we see its subject as) the superior man active and vigilant all the day, and in the evening still careful and apprehensive. (The position is) dangerous, but there will be no mistake.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-001-qian__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-001-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">易經 1 九四</prop>
       <prop type="x-translation-ref">易經 1 九四</prop>
       <tuv xml:lang="zh-Hant">
@@ -82,7 +102,7 @@
         <seg>In the fourth NINE, undivided, (we see its subject as the dragon looking) as if he were leaping up, but still in the deep. There will be no mistake.</seg>
       </tuv>
     </tu>
-    <tu tuid="yijing-001-qian__alignment-005">
+    <tu tuid="yijing-001-qian__alignment-006">
       <prop type="x-work-id">yijing</prop>
       <prop type="x-section-id">yijing-001-qian</prop>
       <prop type="x-section-unit">section</prop>
@@ -102,7 +122,7 @@
         <seg>In the fifth NINE, undivided, (we see its subject as) the dragon on the wing in the sky. It will be advantageous to meet with the great man</seg>
       </tuv>
     </tu>
-    <tu tuid="yijing-001-qian__alignment-006">
+    <tu tuid="yijing-001-qian__alignment-007">
       <prop type="x-work-id">yijing</prop>
       <prop type="x-section-id">yijing-001-qian</prop>
       <prop type="x-section-unit">section</prop>
@@ -122,7 +142,7 @@
         <seg>In the sixth (or topmost) NINE, undivided, (we see its subject as) the dragon exceeding the proper limits. There will be occasion for repentance.</seg>
       </tuv>
     </tu>
-    <tu tuid="yijing-001-qian__alignment-007">
+    <tu tuid="yijing-001-qian__alignment-008">
       <prop type="x-work-id">yijing</prop>
       <prop type="x-section-id">yijing-001-qian</prop>
       <prop type="x-section-unit">section</prop>
@@ -140,26 +160,6 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>(The lines of this hexagram are all strong and undivided, as appears from) the use of the number NINE. If the host of dragons (thus) appearing were to divest themselves of their heads, there would be good fortune.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="yijing-001-qian__alignment-008">
-      <prop type="x-work-id">yijing</prop>
-      <prop type="x-section-id">yijing-001-qian</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">易經 1 九三</prop>
-      <prop type="x-translation-ref">易經 1 九三</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>九三，重剛而不中，上不在天，下不在田；故乾乾因其時而惕，雖危，无咎矣。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>In the third NINE, there is a twofold symbol of) strength, but (the position) is not central. (Its occupant) is not in heaven above, nor is he in the field beneath. Therefore there must be active vigilance and cautious apprehension as the time requires; and. though (the position be) perilous, there will be no mistake.</seg>
       </tuv>
     </tu>
   </body>

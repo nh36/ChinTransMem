@@ -575,6 +575,14 @@ def render_completion_quality_markdown(
         lines.append(f"- Drift issues repaired: {summary['repaired_drift_issue_count']}")
     if "remaining_drift_issue_count" in summary:
         lines.append(f"- Drift issues remaining: {summary['remaining_drift_issue_count']}")
+    if "line_order_checks_run" in summary:
+        lines.append(f"- Canonical line-order checks run: {summary['line_order_checks_run']}")
+    if "line_order_issue_count_before_repair" in summary:
+        lines.append(f"- Line-order issues before repair: {summary['line_order_issue_count_before_repair']}")
+    if "repaired_line_order_issue_count" in summary:
+        lines.append(f"- Line-order issues repaired: {summary['repaired_line_order_issue_count']}")
+    if "remaining_line_order_issue_count" in summary:
+        lines.append(f"- Line-order issues remaining: {summary['remaining_line_order_issue_count']}")
     lines.extend(["", "## Alignment granularity", ""])
     for granularity, count in sorted(summary["alignment_granularity_counts"].items()):
         lines.append(f"- {granularity}: {count}")

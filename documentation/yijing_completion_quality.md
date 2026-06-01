@@ -22,6 +22,10 @@ Generated from `logs/qc_reports/yijing__alignment_qc.json`.
 - Drift issues before repair: 0
 - Drift issues repaired: 0
 - Drift issues remaining: 0
+- Canonical line-order checks run: 64
+- Line-order issues before repair: 1
+- Line-order issues repaired: 1
+- Line-order issues remaining: 0
 
 ## Alignment granularity
 

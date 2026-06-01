@@ -51,7 +51,7 @@
       "public_domain"
     ],
     "section_group_export_policy": "forbidden",
-    "completion_definition": "A Yijing hexagram is complete only when the ChineseNotes bilingual witness yields a clean judgment plus line-statement extract, commentary/headings/notices are excluded from exportable text, every active row passes line-position drift checks, and QC reports zero hard failures."
+    "completion_definition": "A Yijing hexagram is complete only when the ChineseNotes bilingual witness yields a clean judgment plus line-statement extract, commentary/headings/notices are excluded from exportable text, every active row passes line-position drift checks, canonical line-order QC is clean, and QC reports zero hard failures."
   },
   "romanization_aliases": [
     {
