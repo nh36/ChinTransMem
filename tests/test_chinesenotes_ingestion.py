@@ -135,6 +135,77 @@ class ChineseNotesIngestionTest(unittest.TestCase):
         self.assertEqual(report["summary"]["sections_that_could_become_tm_exports_now"], 81)
         self.assertEqual(report["summary"]["sections_requiring_manual_boundary_review"], 0)
 
+    def test_stage_chinesenotes_work_supports_single_file_sections(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_path = Path(temp_dir)
+            source_root = temp_path / "chinesenotes"
+            (source_root / "data" / "corpus").mkdir(parents=True)
+            (source_root / "corpus" / "shangshu").mkdir(parents=True)
+
+            (source_root / "data" / "corpus" / "collections.csv").write_text(
+                "\n".join(
+                    [
+                        "# Collection File, HTML Gloss File, Title, Description, Introduction File, Corpus, Language, Format, Period",
+                        "shangshu.csv\tshangshu.html\tShangshu 《尚書》\tFixture source\t\tLiterary Chinese\tMixed\tPre-Han\tHistory",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            (source_root / "data" / "corpus" / "shangshu.csv").write_text(
+                "\n".join(
+                    [
+                        "# Source file, Gloss output file, title",
+                        "shangshu/shangshu001.txt\tshangshu/shangshu001.html\t虞書 堯典 Yu Shu - Canon of Yao",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            (source_root / "corpus" / "shangshu" / "shangshu001.txt").write_text(
+                "\n".join(
+                    [
+                        "欽明文思安安。",
+                        "允恭克讓，",
+                        "光被四表。",
+                        "[p. 15] He was reverential, intelligent, accomplished, and thoughtful.",
+                        "Naturally, and without effort,",
+                        "his virtue was all-embracing.",
+                        "English translation: James Legge",
+                        "本作品在全世界都属于公有领域。",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+
+            output_root = temp_path / "staging"
+            report_root = temp_path / "reports"
+            report = stage_chinesenotes_work(
+                source_root=source_root,
+                work_id="shangshu",
+                mode="staging",
+                output_root=output_root,
+                report_root=report_root,
+            )
+            sections = read_jsonl(output_root / "shangshu" / "sections.jsonl")
+            chinese_blocks = read_jsonl(output_root / "shangshu" / "chinese_blocks.jsonl")
+            english_blocks = read_jsonl(output_root / "shangshu" / "english_blocks.jsonl")
+
+        self.assertEqual(report["summary"]["sections_detected"], 1)
+        self.assertEqual(report["summary"]["sections_with_both"], 1)
+        self.assertEqual(report["summary"]["sections_that_could_become_tm_exports_now"], 1)
+        self.assertEqual(sections[0]["section_id"], "shangshu-001-yu-shu-canon-of-yao")
+        self.assertEqual(sections[0]["section_unit"], "section")
+        self.assertEqual([record["text_original"] for record in chinese_blocks], ["欽明文思安安。", "允恭克讓，光被四表。"])
+        self.assertEqual(
+            [record["text_original"] for record in english_blocks],
+            [
+                "He was reverential, intelligent, accomplished, and thoughtful.",
+                "Naturally, and without effort, his virtue was all-embracing.",
+            ],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

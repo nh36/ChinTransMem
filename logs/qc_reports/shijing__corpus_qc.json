@@ -16,7 +16,7 @@
   "counts": {
     "works": 1,
     "sections": 305,
-    "persons": 5,
+    "persons": 6,
     "sources": 610,
     "segments": 1514,
     "alignments": 1062
@@ -3379,8 +3379,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "bb2bf594a919ad62b7479b68cd4901d3bc1d7842e7624b29b1097d97fd514b81",
-    "metadata/sources.yml": "7f63b13237a3b9746a8aee8ff33e712560e2f2639005be6acd1d644bd2f56366",
+    "metadata/sections.yml": "f8d78a785791143e0592d1dc1ef87257396ca5738945af5e103edfc070a41417",
+    "metadata/sources.yml": "c5fda58ab756a1b6044b572e02a4071bb4b49490339c30e23cee8ba6ed84622c",
     "metadata/manifests/shijing.yml": "f39c8945b070e89776bc241dac6511606d9ed55337e8759df33d512c692cf155",
     "corpus/exports/jsonl/shijing__guofeng-zhounan-001-guanju__aligned_passages.jsonl": "201232fd9cde0d03fd0629b7025a46e9c69d7a1bd6fd60084d61ca1396b8e8bc",
     "corpus/exports/csv/shijing__guofeng-zhounan-001-guanju__aligned_passages.csv": "c70b004cfed024219665b23df005f578f65867981a49f80498c8324e27bdecad",

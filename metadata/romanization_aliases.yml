@@ -943,6 +943,744 @@
   },
   {
     "entity_type": "work",
+    "entity_id": "shangshu",
+    "alias": "Shangshu",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shangshu",
+    "alias": "Book of Documents",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shangshu",
+    "alias": "Classic of Documents",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-001-yu-shu-canon-of-yao",
+    "alias": "虞書 堯典 Yu Shu - Canon of Yao",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-001-yu-shu-canon-of-yao",
+    "alias": "Canon of Yao",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-002-yu-shu-dan-zhu-forged",
+    "alias": "虞書 丹朱（伪） Yu Shu - Dan Zhu (forged)",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-002-yu-shu-dan-zhu-forged",
+    "alias": "Dan Zhu (forged)",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-003-yu-shu-canon-of-shun",
+    "alias": "虞書 舜典 Yu Shu - Canon of Shun",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-003-yu-shu-canon-of-shun",
+    "alias": "Canon of Shun",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
+    "alias": "虞書 大禹謨 Yu Shu - Counsels of the Great Yu",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
+    "alias": "Counsels of the Great Yu",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao",
+    "alias": "虞書 皐陶謨 Yu Shu - Counsels of the Gao Yao",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao",
+    "alias": "Counsels of the Gao Yao",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-006-yu-shu-yi-and-ji",
+    "alias": "虞書 益稷 Yu Shu - Yi and Ji",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-006-yu-shu-yi-and-ji",
+    "alias": "Yi and Ji",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-007-xia-shu-tribute-of-yu",
+    "alias": "夏書 禹貢 Xia Shu - Tribute of Yu",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-007-xia-shu-tribute-of-yu",
+    "alias": "Tribute of Yu",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-008-xia-shu-yu-shi-forged",
+    "alias": "夏書 禹誓（伪） Xia Shu - Yu Shi (forged)",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-008-xia-shu-yu-shi-forged",
+    "alias": "Yu Shi (forged)",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-009-xia-shu-speech-at-gan",
+    "alias": "夏書 甘誓 Xia Shu - Speech at Gan",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-009-xia-shu-speech-at-gan",
+    "alias": "Speech at Gan",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
+    "alias": "夏書 五子之歌 Xia Shu - Songs of the Five Sons",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
+    "alias": "Songs of the Five Sons",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-011-xia-shu-punitive-expedition-of-yin",
+    "alias": "夏書 胤征 Xia Shu - Punitive Expedition of Yin",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-011-xia-shu-punitive-expedition-of-yin",
+    "alias": "Punitive Expedition of Yin",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-012-shang-shu-speech-of-tang",
+    "alias": "商書 湯誓 Shang Shu - Speech of Tang",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-012-shang-shu-speech-of-tang",
+    "alias": "Speech of Tang",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-013-shang-shu-announcement-of-zhong-hui",
+    "alias": "商書 仲虺之誥 Shang Shu - Announcement of Zhong-hui",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-013-shang-shu-announcement-of-zhong-hui",
+    "alias": "Announcement of Zhong-hui",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-014-shang-shu-announcement-of-tang",
+    "alias": "商書 湯誥 Shang Shu - Announcement of Tang",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-014-shang-shu-announcement-of-tang",
+    "alias": "Announcement of Tang",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-015-shang-shu-instructions-of-yi",
+    "alias": "商書 伊訓 Shang Shu - Instructions of Yi",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-015-shang-shu-instructions-of-yi",
+    "alias": "Instructions of Yi",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-016-shang-shu-tai-jia-i",
+    "alias": "商書 太甲上 Shang Shu - Tai Jia I",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-016-shang-shu-tai-jia-i",
+    "alias": "Tai Jia I",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-017-shang-shu-tai-jia-ii",
+    "alias": "商書 太甲中 Shang Shu - Tai Jia II",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-017-shang-shu-tai-jia-ii",
+    "alias": "Tai Jia II",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-018-shang-shu-tai-jia-iii",
+    "alias": "商書 太甲下 Shang Shu - Tai Jia III",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-018-shang-shu-tai-jia-iii",
+    "alias": "Tai Jia III",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
+    "alias": "商書 咸有一德 Shang Shu - Common Possession of Pure Virtue",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
+    "alias": "Common Possession of Pure Virtue",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-020-shang-shu-pan-geng-i",
+    "alias": "商書 盤庚上 Shang Shu - Pan Geng I",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-020-shang-shu-pan-geng-i",
+    "alias": "Pan Geng I",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-021-shang-shu-pan-geng-ii",
+    "alias": "商書 盤庚中 Shang Shu - Pan Geng II",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-021-shang-shu-pan-geng-ii",
+    "alias": "Pan Geng II",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-022-shang-shu-pan-geng-iii",
+    "alias": "商書 盤庚下 Shang Shu - Pan Geng III",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-022-shang-shu-pan-geng-iii",
+    "alias": "Pan Geng III",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
+    "alias": "商書 說命上（僞） Shang Shu - Charge to Yue I (forged)",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
+    "alias": "Charge to Yue I (forged)",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
+    "alias": "商書 說命中（僞） Shang Shu - Charge to Yue II (forged)",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
+    "alias": "Charge to Yue II (forged)",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
+    "alias": "商書 說命下（僞） Shang Shu - Charge to Yue III (forged)",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
+    "alias": "Charge to Yue III (forged)",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
+    "alias": "商書 高宗肜日 Shang Shu - Day of the Supplementary Sacrifice to Gao",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
+    "alias": "Day of the Supplementary Sacrifice to Gao",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
+    "alias": "商書 西伯戡黎 Shang Shu - Chief of the west's Conquest of Li",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
+    "alias": "Chief of the west's Conquest of Li",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-028-shang-shu-count-of-wei",
+    "alias": "商書 微子 Shang Shu - Count of Wei",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-028-shang-shu-count-of-wei",
+    "alias": "Count of Wei",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-029-zhou-shu-great-declaration-i",
+    "alias": "周書 泰誓上 Zhou Shu - Great Declaration I",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-029-zhou-shu-great-declaration-i",
+    "alias": "Great Declaration I",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-030-zhou-shu-great-declaration-ii",
+    "alias": "周書 泰誓中 Zhou Shu - Great Declaration II",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-030-zhou-shu-great-declaration-ii",
+    "alias": "Great Declaration II",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-031-zhou-shu-great-declaration-iii",
+    "alias": "周書 泰誓下 Zhou Shu - Great Declaration III",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-031-zhou-shu-great-declaration-iii",
+    "alias": "Great Declaration III",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-032-zhou-shu-speech-at-mu",
+    "alias": "周書 牧誓 Zhou Shu - Speech at Mu",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-032-zhou-shu-speech-at-mu",
+    "alias": "Speech at Mu",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-033-zhou-shu-successful-completion-of-the-war",
+    "alias": "周書 武成 Zhou Shu - Successful Completion of the War",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-033-zhou-shu-successful-completion-of-the-war",
+    "alias": "Successful Completion of the War",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-034-zhou-shu-great-plan",
+    "alias": "周書 洪範 Zhou Shu - Great Plan",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-034-zhou-shu-great-plan",
+    "alias": "Great Plan",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-035-zhou-shu-hounds-of-lu",
+    "alias": "周書 旅獒 Zhou Shu - Hounds of Lu",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-035-zhou-shu-hounds-of-lu",
+    "alias": "Hounds of Lu",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-036-zhou-shu-metal-bound-coffer",
+    "alias": "周書 金縢 Zhou Shu - Metal-bound Coffer",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-036-zhou-shu-metal-bound-coffer",
+    "alias": "Metal-bound Coffer",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-037-zhou-shu-great-announcement",
+    "alias": "周書 大誥 Zhou Shu - Great Announcement",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-037-zhou-shu-great-announcement",
+    "alias": "Great Announcement",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei",
+    "alias": "周書 微子之命 Zhou Shu - Charge to the Count of Wei",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei",
+    "alias": "Charge to the Count of Wei",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
+    "alias": "周書 康誥 Zhou Shu - Announcement to the Prince of Kang",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
+    "alias": "Announcement to the Prince of Kang",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
+    "alias": "周書 酒誥 Zhou Shu - Announcement about Drunkenness",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
+    "alias": "Announcement about Drunkenness",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-041-zhou-shu-timber-of-the-rottlera",
+    "alias": "周書 梓材 Zhou Shu - Timber of the Rottlera",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-041-zhou-shu-timber-of-the-rottlera",
+    "alias": "Timber of the Rottlera",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
+    "alias": "周書 召誥 Zhou Shu - Announcement of the Duke of Shao",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
+    "alias": "Announcement of the Duke of Shao",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-043-zhou-shu-announcement-concerning-luo",
+    "alias": "周書 洛誥 Zhou Shu - Announcement concerning Luo",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-043-zhou-shu-announcement-concerning-luo",
+    "alias": "Announcement concerning Luo",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-044-zhou-shu-numerous-officers",
+    "alias": "周書 多士 Zhou Shu - Numerous Officers",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-044-zhou-shu-numerous-officers",
+    "alias": "Numerous Officers",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-045-zhou-shu-against-luxurious-ease",
+    "alias": "周書 無逸 Zhou Shu - Against Luxurious Ease",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-045-zhou-shu-against-luxurious-ease",
+    "alias": "Against Luxurious Ease",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-046-zhou-shu-prince-shi",
+    "alias": "周書 君奭 Zhou Shu - Prince Shi",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-046-zhou-shu-prince-shi",
+    "alias": "Prince Shi",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
+    "alias": "周書 蔡仲之命 Zhou Shu - Charge to Zhong of Cai",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
+    "alias": "Charge to Zhong of Cai",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-048-zhou-shu-numerous-regions",
+    "alias": "周書 多方 Zhou Shu - Numerous Regions",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-048-zhou-shu-numerous-regions",
+    "alias": "Numerous Regions",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-049-zhou-shu-establishment-of-government",
+    "alias": "周書 立政 Zhou Shu - Establishment of Government",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-049-zhou-shu-establishment-of-government",
+    "alias": "Establishment of Government",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-050-zhou-shu-officers-of-zhou",
+    "alias": "周書 周官 Zhou Shu - Officers of Zhou",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-050-zhou-shu-officers-of-zhou",
+    "alias": "Officers of Zhou",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-051-zhou-shu-jun-chen",
+    "alias": "周書 君陳 Zhou Shu - Jun-chen",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-051-zhou-shu-jun-chen",
+    "alias": "Jun-chen",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-052-zhou-shu-testamentary-charge",
+    "alias": "周書 顧命 Zhou Shu - Testamentary Charge",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-052-zhou-shu-testamentary-charge",
+    "alias": "Testamentary Charge",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-053-zhou-shu-announcement-of-king-kang",
+    "alias": "周書 康王之誥 Zhou Shu - Announcement of King Kang",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-053-zhou-shu-announcement-of-king-kang",
+    "alias": "Announcement of King Kang",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
+    "alias": "周書 畢命 Zhou Shu - Charge to the Duke of Bi",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
+    "alias": "Charge to the Duke of Bi",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-055-zhou-shu-kun-ya",
+    "alias": "周書 君牙 Zhou Shu - Kun-ya",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-055-zhou-shu-kun-ya",
+    "alias": "Kun-ya",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-056-zhou-shu-charge-to-jiong",
+    "alias": "周書 冏命 Zhou Shu - Charge to Jiong",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-056-zhou-shu-charge-to-jiong",
+    "alias": "Charge to Jiong",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments",
+    "alias": "周書 呂刑 Zhou Shu - Marquis of Lu on Punishments",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments",
+    "alias": "Marquis of Lu on Punishments",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen",
+    "alias": "周書 文侯之命 Zhou Shu - Charge to the Marquis Wen",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen",
+    "alias": "Charge to the Marquis Wen",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-059-zhou-shu-speech-at-bi",
+    "alias": "周書 費誓 Zhou Shu - Speech at Bi",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-059-zhou-shu-speech-at-bi",
+    "alias": "Speech at Bi",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",
+    "alias": "周書 秦誓 Zhou Shu - Speech of the Marquis of Qin",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",
+    "alias": "Speech of the Marquis of Qin",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "work",
     "entity_id": "shijing",
     "alias": "Shijing",
     "romanization_system": "pinyin"

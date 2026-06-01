@@ -134,15 +134,17 @@ class LaoziPromotionTest(unittest.TestCase):
 
         self.assertEqual(alignment_qc["active_chapter_count"], 81)
         self.assertEqual(alignment_qc["counts_by_granularity"], dict(granularity_counts))
-        self.assertGreater(alignment_qc["exact_alignment_count"], 260)
-        self.assertGreater(alignment_qc["automatic_fine_grained_alignment_count"], 0)
-        self.assertGreaterEqual(alignment_qc["curated_override_chapter_count"], 1)
+        self.assertEqual(alignment_qc["exact_alignment_count"], 714)
+        self.assertEqual(alignment_qc["counts_by_granularity"], {"grouped": 690, "sentence": 24})
+        self.assertEqual(alignment_qc["automatic_fine_grained_alignment_count"], 704)
+        self.assertEqual(alignment_qc["curated_override_alignment_count"], 10)
+        self.assertEqual(alignment_qc["curated_override_chapter_count"], 1)
         self.assertIn("laozi-chapter-062", {item["section_id"] for item in alignment_qc["curated_override_sections"]})
-        self.assertLess(alignment_qc["chapter_fallback_count"], 47)
+        self.assertEqual(alignment_qc["chapter_fallback_count"], 0)
         self.assertEqual(len(alignment_qc["chapter_fallbacks"]), alignment_qc["chapter_fallback_count"])
         self.assertEqual(alignment_qc["blocked_chapter_count"], 0)
         self.assertEqual(alignment_qc["hard_failure_count"], 0)
-        self.assertGreater(granularity_counts["sentence"] + granularity_counts["block"] + granularity_counts["grouped"], 0)
+        self.assertEqual(sum(granularity_counts.values()), 714)
         self.assertTrue(all(item["coarse_alignment_reason"] for item in alignment_qc["chapter_fallbacks"]))
         self.assertEqual(lunyu_qc["status"], "pass")
         self.assertEqual(mengzi_qc["status"], "pass")
@@ -150,6 +152,28 @@ class LaoziPromotionTest(unittest.TestCase):
         self.assertEqual(manifest["summary"]["section_count"], 305)
         self.assertEqual(manifest["summary"]["complete_sections"], 305)
         self.assertEqual(manifest["summary"]["metadata_only_sections"], 0)
+
+    def test_laozi_mapping_summary_matches_generated_qc(self) -> None:
+        mapping = load_json(REPO_ROOT / "metadata" / "chinesenotes_work_mapping.yml")
+        laozi_mapping = next(item for item in mapping["works"] if item["chintransmem_work_id"] == "laozi")
+        alignment_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "laozi__alignment_qc.json")
+        manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "laozi.yml")
+        summary = laozi_mapping["generated_summary"]
+
+        self.assertEqual(laozi_mapping["status"], "already_ingested")
+        self.assertEqual(laozi_mapping["english_coverage"], "complete")
+        self.assertEqual(laozi_mapping["chinese_coverage"], "complete")
+        self.assertEqual(laozi_mapping["preferred_use"], "base_text")
+        self.assertEqual(summary["active_section_count"], alignment_qc["active_chapter_count"])
+        self.assertEqual(summary["exact_alignment_count"], alignment_qc["exact_alignment_count"])
+        self.assertEqual(summary["alignment_granularity_counts"], alignment_qc["counts_by_granularity"])
+        self.assertEqual(summary["curated_override_section_count"], alignment_qc["curated_override_chapter_count"])
+        self.assertEqual(summary["fallback_section_count"], alignment_qc["chapter_fallback_count"])
+        self.assertEqual(summary["blocked_section_count"], alignment_qc["blocked_chapter_count"])
+        self.assertEqual(summary["active_section_count"], manifest["summary"]["section_count"])
+        self.assertIn("714 exact alignments", laozi_mapping["notes"])
+        self.assertIn("0 chapter-level fallbacks", laozi_mapping["notes"])
+        self.assertIn("laozi-chapter-062", laozi_mapping["notes"])
 
 
 if __name__ == "__main__":

@@ -1,0 +1,36 @@
+{
+  "work_id": "shangshu",
+  "mode": "staging",
+  "generated_at": "2026-05-31T23:54:00+00:00",
+  "upstream_repository": "https://github.com/alexamies/chinesenotes.com",
+  "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+  "source_root": "local_sources/chinesenotes",
+  "metadata_csv_path": "data/corpus/shangshu.csv",
+  "collection_title": "Book of Documents 尚書",
+  "staging_files": {
+    "source_pointers": "corpus/staging/chinesenotes/shangshu/source_pointers.jsonl",
+    "sections": "corpus/staging/chinesenotes/shangshu/sections.jsonl",
+    "chinese_blocks": "corpus/staging/chinesenotes/shangshu/chinese_blocks.jsonl",
+    "english_blocks": "corpus/staging/chinesenotes/shangshu/english_blocks.jsonl",
+    "alignments": "corpus/staging/chinesenotes/shangshu/alignments.jsonl",
+    "staging_report": "corpus/staging/chinesenotes/shangshu/staging_coverage_report.json",
+    "qc_report": "logs/qc_reports/chinesenotes__shangshu__staging_report.json"
+  },
+  "summary": {
+    "total_metadata_rows": 60,
+    "source_files_found": 60,
+    "source_files_missing": 0,
+    "source_files_parsed_successfully": 60,
+    "sections_detected": 60,
+    "sections_with_chinese": 60,
+    "sections_with_english": 58,
+    "sections_with_both": 58,
+    "sections_with_translator_attribution": 60,
+    "sections_with_public_domain_or_other_notice": 59,
+    "sections_parsed_into_clean_candidate_segments": 58,
+    "sections_requiring_manual_boundary_review": 0,
+    "sections_that_could_become_tm_exports_now": 58,
+    "sections_blocked": 2,
+    "candidate_alignment_count": 58
+  }
+}

@@ -33,6 +33,15 @@
     "work_type": "classical_text",
     "language_code": "zh-Hant",
     "default_citation": "老子",
-    "notes": "Active Laozi corpus promoted from the ChineseNotes bilingual Daodejing mirror, with ChineseNotes provenance, James Legge 1891 attribution, deterministic fine-grained alignment where safe, and explicit chapter-level fallback reasons where refinement remained unsafe."
+    "notes": "Active Laozi corpus promoted from the ChineseNotes bilingual Daodejing mirror, with ChineseNotes provenance, James Legge 1891 attribution, reusable grouped fine-grained alignment, and a first-class curated override for chapter 62."
+  },
+  {
+    "work_id": "shangshu",
+    "canonical_title": "尚書",
+    "english_title": "Book of Documents",
+    "work_type": "classical_text",
+    "language_code": "zh-Hant",
+    "default_citation": "尚書",
+    "notes": "Active Shangshu corpus promoted from the ChineseNotes bilingual Shangshu mirror, using logical-block parsing plus monotonic grouped alignment for exportable sections while retaining the two forged Chinese-only sections as explicit metadata-only entries."
   }
 ]

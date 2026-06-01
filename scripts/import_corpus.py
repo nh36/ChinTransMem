@@ -69,7 +69,8 @@ def _load_alignments(manifests: list[dict[str, object]]) -> list[dict[str, objec
     alignments: list[dict[str, object]] = []
     for manifest in manifests:
         for section in manifest["sections"]:
-            if not section.get("source_ids"):
+            source_ids = section.get("source_ids") or {}
+            if not source_ids or "target_source_id" not in source_ids:
                 continue
             alignments.extend(read_jsonl(alignment_path_for_section(section)))
     return alignments
@@ -202,7 +203,7 @@ def import_corpus(db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, object]:
             alignment_path_for_section(section)
             for manifest in manifests
             for section in manifest["sections"]
-            if section.get("source_ids")
+            if (section.get("source_ids") or {}).get("target_source_id")
         )
         details = {
             "work_count": len(works),

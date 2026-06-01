@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shangshu" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__alignment-001">
+      <prop type="x-work-id">shangshu</prop>
+      <prop type="x-section-id">shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">尚書·商書 西伯戡黎 [1]</prop>
+      <prop type="x-translation-ref">尚書·商書 西伯戡黎 [1]</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>西伯既戡黎，祖伊恐，奔告于王。曰：「天子！天既訖我殷命；格人元龜，罔敢知吉。非先王不相我後人，惟王淫戲用自絕。故天棄我；不有康食，不虞天性，不迪率典。今我民罔弗欲喪，曰：『天曷不降威？大命不摯。』今王其如臺！」</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Chief of the West having subdued Li, Zu Yi was afraid, and hastened to report it to the king. He said, 'Son of Heaven, Heaven is bringing to an end the dynasty of Yin; the wisest men and the shell of the great tortoise do not presume to know anything fortunate for it. It is not that the former kings do not aid us, the men of this later time but by your dissoluteness and sport you are bringing on the end yourself. On this account Heaven has cast us off, and there are no good harvests to supply us with food. Men have no regard to their heavenly nature, and pay no obedience to the statutes (of the kingdom). (Yea), our people now all wish (the dynasty) to perish, saying, "Why does not Heaven send down its indignation? Why does not (some one with) its great appointment make his appearance? What has the present king to do with us?"'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__alignment-002">
+      <prop type="x-work-id">shangshu</prop>
+      <prop type="x-section-id">shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">尚書·商書 西伯戡黎 [2]</prop>
+      <prop type="x-translation-ref">尚書·商書 西伯戡黎 [2]</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>王曰：「嗚呼！我生不有命在天？」</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The king said, 'Oh! was not my birth in accordance with the appointment of Heaven (in favour of my House)?'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__alignment-003">
+      <prop type="x-work-id">shangshu</prop>
+      <prop type="x-section-id">shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">尚書·商書 西伯戡黎 [3]</prop>
+      <prop type="x-translation-ref">尚書·商書 西伯戡黎 [3]</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>祖伊反曰：「嗚呼！乃罪多參在上，乃能責命于天！殷之即喪，指乃功；不無戮于爾邦。」</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(On this) Zu Yi returned (to his own city), and said, 'Your, crimes, which are many, are registered above, and can you still appeal to the appointment of Heaven in your favour? Yin will perish very shortly. As to all your deeds, can they but bring ruin on your country?'</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

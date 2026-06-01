@@ -84,11 +84,28 @@
     {
       "chintransmem_work_id": "shangshu",
       "chinesenotes_paths": ["data/corpus/shangshu.csv", "corpus/shangshu/"],
-      "status": "needs_review",
-      "english_coverage": "unknown",
-      "chinese_coverage": "unknown",
-      "preferred_use": "metadata_only",
-      "notes": "Not yet staged; keep as a possible follow-on target after Laozi if the structure proves suitable."
+      "status": "already_ingested",
+      "english_coverage": "mostly_complete",
+      "chinese_coverage": "complete",
+      "preferred_use": "base_text",
+      "generated_summary": {
+        "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+        "active_section_count": 60,
+        "exportable_section_count": 58,
+        "exact_alignment_count": 156,
+        "alignment_granularity_counts": {
+          "block": 78,
+          "grouped": 78
+        },
+        "curated_override_section_count": 0,
+        "fallback_section_count": 0,
+        "blocked_section_count": 2,
+        "blocked_section_ids": [
+          "shangshu-002-yu-shu-dan-zhu-forged",
+          "shangshu-008-xia-shu-yu-shi-forged"
+        ]
+      },
+      "notes": "Promoted from ChineseNotes data/corpus/shangshu.csv at upstream commit 1f6b1d3e7a40b6886a4b943c898125639e993544: 60 active sections, 58 exportable bilingual sections, 156 exact alignments, 78 grouped alignments, 78 block alignments, 0 section-level fallbacks, 0 curated override sections, and 2 blocked forged Chinese-only sections (`shangshu-002-yu-shu-dan-zhu-forged`, `shangshu-008-xia-shu-yu-shi-forged`)."
     },
     {
       "chintransmem_work_id": "yijing",
@@ -115,7 +132,22 @@
       "english_coverage": "complete",
       "chinese_coverage": "complete",
       "preferred_use": "base_text",
-      "notes": "Promoted on 2026-05-31 from data/corpus/daodejing.csv at upstream commit 1f6b1d3e7a40b6886a4b943c898125639e993544: 81 chapters are active in ChinTransMem with 260 exact alignments, 34 chapters refined beyond chapter level, and 47 chapter-level fallbacks carrying explicit coarse_alignment_reason values."
+      "generated_summary": {
+        "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+        "active_section_count": 81,
+        "exact_alignment_count": 714,
+        "alignment_granularity_counts": {
+          "grouped": 690,
+          "sentence": 24
+        },
+        "curated_override_section_count": 1,
+        "curated_override_section_ids": [
+          "laozi-chapter-062"
+        ],
+        "fallback_section_count": 0,
+        "blocked_section_count": 0
+      },
+      "notes": "Promoted from ChineseNotes data/corpus/daodejing.csv at upstream commit 1f6b1d3e7a40b6886a4b943c898125639e993544: 81 active chapters, 714 exact alignments, 690 grouped alignments, 24 sentence alignments, 0 chapter-level fallbacks, 0 blocked chapters, and 1 curated override chapter: `laozi-chapter-062`."
     },
     {
       "chintransmem_work_id": "liezi",

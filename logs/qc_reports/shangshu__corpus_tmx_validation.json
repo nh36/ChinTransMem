@@ -1,0 +1,538 @@
+{
+  "status": "pass",
+  "work_id": "shangshu",
+  "section_count": 58,
+  "sections": [
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-001-yu-shu-canon-of-yao",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-003-yu-shu-canon-of-shun__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-003-yu-shu-canon-of-shun",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-004-yu-shu-counsels-of-the-great-yu__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-005-yu-shu-counsels-of-the-gao-yao__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-006-yu-shu-yi-and-ji__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-006-yu-shu-yi-and-ji",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-007-xia-shu-tribute-of-yu__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-007-xia-shu-tribute-of-yu",
+      "tu_count": 6,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-009-xia-shu-speech-at-gan__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-009-xia-shu-speech-at-gan",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-010-xia-shu-songs-of-the-five-sons__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-011-xia-shu-punitive-expedition-of-yin__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-011-xia-shu-punitive-expedition-of-yin",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-012-shang-shu-speech-of-tang__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-012-shang-shu-speech-of-tang",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-013-shang-shu-announcement-of-zhong-hui__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-013-shang-shu-announcement-of-zhong-hui",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-014-shang-shu-announcement-of-tang__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-014-shang-shu-announcement-of-tang",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-015-shang-shu-instructions-of-yi__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-015-shang-shu-instructions-of-yi",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-016-shang-shu-tai-jia-i__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-016-shang-shu-tai-jia-i",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-017-shang-shu-tai-jia-ii__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-017-shang-shu-tai-jia-ii",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-018-shang-shu-tai-jia-iii__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-018-shang-shu-tai-jia-iii",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-019-shang-shu-common-possession-of-pure-virtue__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-020-shang-shu-pan-geng-i__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-020-shang-shu-pan-geng-i",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-021-shang-shu-pan-geng-ii__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-021-shang-shu-pan-geng-ii",
+      "tu_count": 6,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-022-shang-shu-pan-geng-iii__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-022-shang-shu-pan-geng-iii",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-023-shang-shu-charge-to-yue-i-forged__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-024-shang-shu-charge-to-yue-ii-forged__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-025-shang-shu-charge-to-yue-iii-forged__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-028-shang-shu-count-of-wei__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-028-shang-shu-count-of-wei",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-029-zhou-shu-great-declaration-i__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-029-zhou-shu-great-declaration-i",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-030-zhou-shu-great-declaration-ii__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-030-zhou-shu-great-declaration-ii",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-031-zhou-shu-great-declaration-iii__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-031-zhou-shu-great-declaration-iii",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-032-zhou-shu-speech-at-mu__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-032-zhou-shu-speech-at-mu",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-033-zhou-shu-successful-completion-of-the-war__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-033-zhou-shu-successful-completion-of-the-war",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-034-zhou-shu-great-plan__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-034-zhou-shu-great-plan",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-035-zhou-shu-hounds-of-lu__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-035-zhou-shu-hounds-of-lu",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-036-zhou-shu-metal-bound-coffer__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-036-zhou-shu-metal-bound-coffer",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-037-zhou-shu-great-announcement__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-037-zhou-shu-great-announcement",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-038-zhou-shu-charge-to-the-count-of-wei__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-040-zhou-shu-announcement-about-drunkenness__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-041-zhou-shu-timber-of-the-rottlera__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-041-zhou-shu-timber-of-the-rottlera",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
+      "tu_count": 3,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-043-zhou-shu-announcement-concerning-luo__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-043-zhou-shu-announcement-concerning-luo",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-044-zhou-shu-numerous-officers__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-044-zhou-shu-numerous-officers",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-045-zhou-shu-against-luxurious-ease__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-045-zhou-shu-against-luxurious-ease",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-046-zhou-shu-prince-shi__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-046-zhou-shu-prince-shi",
+      "tu_count": 11,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-047-zhou-shu-charge-to-zhong-of-cai__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-048-zhou-shu-numerous-regions__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-048-zhou-shu-numerous-regions",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-049-zhou-shu-establishment-of-government__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-049-zhou-shu-establishment-of-government",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-050-zhou-shu-officers-of-zhou__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-050-zhou-shu-officers-of-zhou",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-051-zhou-shu-jun-chen__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-051-zhou-shu-jun-chen",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-052-zhou-shu-testamentary-charge__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-052-zhou-shu-testamentary-charge",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-053-zhou-shu-announcement-of-king-kang__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-053-zhou-shu-announcement-of-king-kang",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-054-zhou-shu-charge-to-the-duke-of-bi__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-055-zhou-shu-kun-ya__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-055-zhou-shu-kun-ya",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-056-zhou-shu-charge-to-jiong__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-056-zhou-shu-charge-to-jiong",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-057-zhou-shu-marquis-of-lu-on-punishments__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-058-zhou-shu-charge-to-the-marquis-wen__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-059-zhou-shu-speech-at-bi__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-059-zhou-shu-speech-at-bi",
+      "tu_count": 2,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__aligned_passages.tmx",
+      "work_id": "shangshu",
+      "section_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    }
+  ],
+  "corpus": {
+    "status": "pass",
+    "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__all__aligned_passages.tmx",
+    "work_id": "shangshu",
+    "section_id": null,
+    "tu_count": 156,
+    "source_language": "zh-Hant",
+    "target_language": "en"
+  }
+}

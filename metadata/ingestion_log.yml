@@ -382,6 +382,13 @@
     "notes": "Bootstrap corpus generation for 盡心下 with 38 exact alignments and alignment status complete."
   },
   {
+    "run_id": "bootstrap-shangshu-2026-06-01",
+    "work_id": "shangshu",
+    "stage": "bootstrap",
+    "status": "completed",
+    "notes": "Promoted Shangshu from staged ChineseNotes logical-block parses into the active corpus."
+  },
+  {
     "run_id": "bootstrap-guofeng-zhounan-001-guanju-20260530",
     "work_id": "shijing",
     "section_id": "guofeng-zhounan-001-guanju",

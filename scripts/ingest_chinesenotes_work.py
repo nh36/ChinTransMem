@@ -24,12 +24,23 @@ DEFAULT_MAPPING_PATH = REPO_ROOT / "metadata" / "chinesenotes_work_mapping.yml"
 DEFAULT_STAGING_ROOT = REPO_ROOT / "corpus" / "staging" / "chinesenotes"
 DEFAULT_REPORT_ROOT = QC_REPORTS_DIR
 HTML_TAG_RE = re.compile(r"<[^>]+>")
+PAGE_PREFIX_RE = re.compile(r"^\[p\.\s*\d+\]\s*")
 CHAPTER_HEADING_RE = re.compile(r"^([一二三四五六七八九十百]+)章$")
 ASCII_WORD_RE = re.compile(r"\b[A-Za-z][A-Za-z'’-]{1,}\b")
 CJK_RE = re.compile(r"[\u3400-\u9fff]")
 ASCII_LETTER_RE = re.compile(r"[A-Za-z]")
 SOURCE_HEADER_RE = re.compile(r"(《道德經》[上下]篇|張氏原本|王弼注)")
 APPENDIX_START_RE = re.compile(r"^(跋(?:\[\d+\])?|晁說之跋|熊克跋|經典釋文|老子道經音義|老子德經音義|注釋)")
+ENGLISH_TERMINAL_RE = re.compile(r"[.!?;:]$|[\"')\]]$")
+CHINESE_TERMINAL_RE = re.compile(r"[。！？；：]$|[」』）】]$")
+ENGLISH_CONTINUATION_START_RE = re.compile(
+    r"^(?:and|or|but|nor|for|yet|so|as|because|with|when|while|who|which|that|"
+    r"whose|whom|where|whereas|therefore|thereupon|thus|then|if|though|although|"
+    r"before|after|from|to|of|in|on|at|by|into|upon|under|over|among|through|"
+    r"against|without|within|is|are|was|were|be|been|being|he|she|they|it|his|her|"
+    r"their|him|them|its)\b",
+    re.IGNORECASE,
+)
 
 CHINESE_NUMERAL_DIGITS = {
     "零": 0,
@@ -53,7 +64,7 @@ def _display_path(path: Path) -> str:
 
 
 def _strip_html(text: str) -> str:
-    return html.unescape(HTML_TAG_RE.sub("", text)).strip()
+    return html.unescape(PAGE_PREFIX_RE.sub("", HTML_TAG_RE.sub("", text))).strip()
 
 
 def _contains_cjk(text: str) -> bool:
@@ -66,6 +77,35 @@ def _contains_english(text: str) -> bool:
 
 def _contains_ascii_letter(text: str) -> bool:
     return bool(ASCII_LETTER_RE.search(text))
+
+
+def _slugify_ascii(value: str) -> str:
+    slug = re.sub(r"[^A-Za-z0-9]+", "-", value).strip("-").lower()
+    return slug or "section"
+
+
+def _append_logical_line(blocks: list[str], line: str, language: str, *, merge_wrapped_lines: bool) -> None:
+    if not line:
+        return
+    if not blocks or not merge_wrapped_lines:
+        blocks.append(line)
+        return
+    previous = blocks[-1]
+    if language == "zh":
+        if not CHINESE_TERMINAL_RE.search(previous):
+            blocks[-1] = f"{previous}{line}"
+            return
+    elif not ENGLISH_TERMINAL_RE.search(previous) and ENGLISH_CONTINUATION_START_RE.match(line):
+        blocks[-1] = f"{previous} {line}"
+        return
+    blocks.append(line)
+
+
+def _section_id_from_source_record(source_record: dict[str, Any], work_id: str | None = None) -> str:
+    row_index = int(source_record["row_index"])
+    displayed_title = str(source_record.get("displayed_title") or "").strip()
+    resolved_work_id = work_id or str(source_record.get("work_id") or "")
+    return f"{resolved_work_id}-{row_index:03d}-{_slugify_ascii(displayed_title)}"
 
 
 def _extract_notice_lines(text: str, pattern: re.Pattern[str]) -> list[str]:
@@ -174,6 +214,9 @@ def _parse_section_body(
     inherited_translator_notes: list[str],
     inherited_rights_notes: list[str],
     source_record: dict[str, Any],
+    section_id: str | None = None,
+    section_unit: str = "chapter",
+    merge_wrapped_lines: bool = False,
 ) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     chinese_lines: list[str] = []
     english_lines: list[str] = []
@@ -213,10 +256,10 @@ def _parse_section_body(
             english_headings.append(line)
             continue
         if kind == "chinese":
-            chinese_lines.append(line)
+            _append_logical_line(chinese_lines, line, "zh", merge_wrapped_lines=merge_wrapped_lines)
             continue
         if kind == "english":
-            english_lines.append(line)
+            _append_logical_line(english_lines, line, "en", merge_wrapped_lines=merge_wrapped_lines)
             continue
         uncategorized_lines.append(line)
 
@@ -247,11 +290,11 @@ def _parse_section_body(
         status = "parse_failed"
         blocking_reason = "No Chinese or English blocks detected after parsing"
 
-    section_id = f"{work_id}-chapter-{section_number:03d}"
+    resolved_section_id = section_id or f"{work_id}-chapter-{section_number:03d}"
     chinese_block_records = [
         {
-            "section_id": section_id,
-            "block_id": f"{section_id}__zh-{index:03d}",
+            "section_id": resolved_section_id,
+            "block_id": f"{resolved_section_id}__zh-{index:03d}",
             "block_index": index,
             "text_original": text,
         }
@@ -259,8 +302,8 @@ def _parse_section_body(
     ]
     english_block_records = [
         {
-            "section_id": section_id,
-            "block_id": f"{section_id}__en-{index:03d}",
+            "section_id": resolved_section_id,
+            "block_id": f"{resolved_section_id}__en-{index:03d}",
             "block_index": index,
             "text_original": text,
         }
@@ -270,20 +313,21 @@ def _parse_section_body(
     if status == "exportable_candidate":
         alignment_records.append(
             {
-                "section_id": section_id,
-                "alignment_id": f"{section_id}__candidate-alignment-001",
-                "alignment_scope": "chapter",
+                "section_id": resolved_section_id,
+                "alignment_id": f"{resolved_section_id}__candidate-alignment-001",
+                "alignment_scope": section_unit,
                 "source_block_ids": [block["block_id"] for block in chinese_block_records],
                 "target_block_ids": [block["block_id"] for block in english_block_records],
-                "confidence": "safe_chapter_level_candidate",
-                "note": "Whole-chapter candidate alignment generated from a clean bilingual parse.",
+                "confidence": f"safe_{section_unit}_level_candidate",
+                "note": f"Whole-{section_unit} candidate alignment generated from a clean bilingual parse.",
             }
         )
 
     section_record = {
-        "section_id": section_id,
+        "section_id": resolved_section_id,
         "section_label": heading,
         "section_number": section_number,
+        "section_unit": section_unit,
         "source_row_index": source_record["row_index"],
         "source_relative_path": source_record["source_relative_path"],
         "displayed_title": source_record["displayed_title"],
@@ -419,14 +463,26 @@ def stage_chinesenotes_work(
         rights_notes = sorted(dict.fromkeys(inherited_rights_notes + _extract_notice_lines(source_text, PUBLIC_DOMAIN_RE)))
         section_pairs = _split_chapter_sections(source_text)
         if not section_pairs:
-            source_files_parsed_successfully += 0
-            section_records.append(
-                {
-                    **_synthetic_missing_section(work_id, source_record),
-                    "status": "parse_failed",
-                    "blocking_reason": "No chapter-like section boundaries detected in source file",
-                }
+            section_record, zh_blocks, en_blocks, section_alignments = _parse_section_body(
+                work_id=work_id,
+                section_number=int(source_record["row_index"]),
+                heading=str(source_record["displayed_title"] or Path(source_relative_path).stem),
+                body=source_text,
+                inherited_translator_notes=translator_notes,
+                inherited_rights_notes=rights_notes,
+                source_record=source_record,
+                section_id=_section_id_from_source_record(source_record, work_id),
+                section_unit="section",
+                merge_wrapped_lines=True,
             )
+            section_records.append(section_record)
+            chinese_blocks.extend(zh_blocks)
+            english_blocks.extend(en_blocks)
+            alignment_records.extend(section_alignments)
+            if section_record["status"] == "parse_failed":
+                source_files_parsed_successfully += 0
+            else:
+                source_files_parsed_successfully += 1
             continue
 
         source_files_parsed_successfully += 1
