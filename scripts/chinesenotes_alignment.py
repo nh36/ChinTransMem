@@ -238,6 +238,148 @@ def load_alignment_overrides(path: Path) -> dict[str, dict[str, Any]]:
     return overrides
 
 
+def load_alignment_anchor_maps(path: Path) -> dict[str, dict[str, Any]]:
+    if not path.exists():
+        return {}
+    data = load_json_compatible_yaml(path)
+    sections = data.get("sections", [])
+    return {str(entry["section_id"]): entry for entry in sections}
+
+
+def _text_contains_required_terms(text: str, terms: list[str], *, language: str) -> bool:
+    haystack = text if language == "zh" else text.lower()
+    for term in terms:
+        needle = term if language == "zh" else term.lower()
+        if needle not in haystack:
+            return False
+    return True
+
+
+def _find_anchor_boundary(text: str, terms: list[str], *, language: str, search_start: int) -> int:
+    if not terms:
+        raise ValueError("Anchor boundary terms are required for non-initial anchor partitioning.")
+    candidates: list[int] = []
+    for term in terms:
+        if language == "zh":
+            index = text.find(term, search_start)
+            if index >= 0:
+                candidates.append(index)
+            continue
+        match = re.search(re.escape(term), text[search_start:], re.IGNORECASE)
+        if match is not None:
+            candidates.append(search_start + match.start())
+    if not candidates:
+        raise ValueError(f"Unable to locate anchor boundary terms {terms!r} after offset {search_start}.")
+    return min(candidates)
+
+
+def _partition_joined_text_by_anchors(
+    text: str,
+    anchors: list[dict[str, Any]],
+    *,
+    language: str,
+) -> list[str]:
+    ordered_anchors = sorted(anchors, key=lambda anchor: int(anchor["expected_order"]))
+    if not ordered_anchors:
+        return [text.strip()] if text.strip() else []
+    starts: list[int] = [0]
+    search_start = 0
+    boundary_key = "source_boundary_terms" if language == "zh" else "target_boundary_terms"
+    required_key = "source_required_terms" if language == "zh" else "target_required_terms"
+    for anchor in ordered_anchors[1:]:
+        boundary_terms = list(anchor.get(boundary_key) or anchor.get(required_key) or [])
+        anchor_start = _find_anchor_boundary(text, boundary_terms, language=language, search_start=search_start)
+        starts.append(anchor_start)
+        search_start = anchor_start + 1
+    starts.append(len(text))
+    segments = [text[starts[index] : starts[index + 1]].strip() for index in range(len(ordered_anchors))]
+    for anchor, segment in zip(ordered_anchors, segments, strict=True):
+        required_terms = list(anchor.get(required_key) or [])
+        if required_terms and not _text_contains_required_terms(segment, required_terms, language=language):
+            anchor_id = str(anchor.get("source_anchor_id") or anchor.get("anchor_id") or anchor["expected_order"])
+            raise ValueError(
+                f"Anchor partition for {anchor_id} did not retain the required {language} terms {required_terms!r}."
+            )
+    return segments
+
+
+def partition_block_texts_by_anchors(
+    chinese_blocks: list[str],
+    english_blocks: list[str],
+    anchor_map: dict[str, Any],
+) -> tuple[list[str], list[str]]:
+    anchors = list(anchor_map.get("anchors", []))
+    if not anchors:
+        return chinese_blocks, english_blocks
+    chinese_text = "".join(block.strip() for block in chinese_blocks if block.strip())
+    english_text = " ".join(block.strip() for block in english_blocks if block.strip())
+    return (
+        _partition_joined_text_by_anchors(chinese_text, anchors, language="zh"),
+        _partition_joined_text_by_anchors(english_text, anchors, language="en"),
+    )
+
+
+def find_anchor_drift_issues(
+    rows: list[dict[str, Any]],
+    anchors: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    ordered_anchors = sorted(anchors, key=lambda anchor: int(anchor["expected_order"]))
+    issues: list[dict[str, Any]] = []
+    for anchor in ordered_anchors:
+        anchor_id = str(anchor.get("source_anchor_id") or anchor.get("anchor_id") or anchor["expected_order"])
+        source_matches = [
+            row
+            for row in rows
+            if _text_contains_required_terms(
+                str(row.get("chinese_text", "")),
+                list(anchor.get("source_required_terms") or []),
+                language="zh",
+            )
+        ]
+        target_matches = [
+            row
+            for row in rows
+            if _text_contains_required_terms(
+                str(row.get("translation_text", "")),
+                list(anchor.get("target_required_terms") or []),
+                language="en",
+            )
+        ]
+        if len(source_matches) != 1:
+            issues.append(
+                {
+                    "anchor_id": anchor_id,
+                    "issue": "missing_or_ambiguous_source_anchor",
+                    "matching_alignment_ids": [str(row.get("alignment_id")) for row in source_matches],
+                    "note": anchor.get("note"),
+                }
+            )
+            continue
+        if len(target_matches) != 1:
+            issues.append(
+                {
+                    "anchor_id": anchor_id,
+                    "issue": "missing_or_ambiguous_target_anchor",
+                    "matching_alignment_ids": [str(row.get("alignment_id")) for row in target_matches],
+                    "note": anchor.get("note"),
+                }
+            )
+            continue
+        source_alignment_id = str(source_matches[0].get("alignment_id"))
+        target_alignment_id = str(target_matches[0].get("alignment_id"))
+        if source_alignment_id != target_alignment_id:
+            issues.append(
+                {
+                    "anchor_id": anchor_id,
+                    "issue": "crossed_anchor_alignment",
+                    "source_alignment_id": source_alignment_id,
+                    "target_alignment_id": target_alignment_id,
+                    "note": anchor.get("note"),
+                }
+            )
+    return issues
+
+
 def build_override_alignment(
     section_id: str,
     chinese_blocks: list[str],
@@ -425,6 +567,14 @@ def render_completion_quality_markdown(
         lines.append(f"- Corruption issues corrected: {summary['corrected_corruption_issue_count']}")
     if "remaining_corruption_issue_count" in summary:
         lines.append(f"- Corruption issues remaining: {summary['remaining_corruption_issue_count']}")
+    if "drift_checks_run" in summary:
+        lines.append(f"- Alignment drift checks run: {summary['drift_checks_run']}")
+    if "drift_issue_count_before_repair" in summary:
+        lines.append(f"- Drift issues before repair: {summary['drift_issue_count_before_repair']}")
+    if "repaired_drift_issue_count" in summary:
+        lines.append(f"- Drift issues repaired: {summary['repaired_drift_issue_count']}")
+    if "remaining_drift_issue_count" in summary:
+        lines.append(f"- Drift issues remaining: {summary['remaining_drift_issue_count']}")
     lines.extend(["", "## Alignment granularity", ""])
     for granularity, count in sorted(summary["alignment_granularity_counts"].items()):
         lines.append(f"- {granularity}: {count}")

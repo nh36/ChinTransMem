@@ -1,0 +1,82 @@
+{
+  "sections": [
+    {
+      "section_id": "shangshu-001-yu-shu-canon-of-yao",
+      "segmentation_strategy": "anchor_partition",
+      "anchors": [
+        {
+          "source_anchor_id": "opening-spring",
+          "source_required_terms": ["帝堯", "羲仲", "暘谷", "仲春"],
+          "target_required_terms": ["Fang-hsün", "Bright Valley", "mid-spring"],
+          "source_boundary_terms": ["昔在帝堯", "曰若稽古帝堯"],
+          "target_boundary_terms": ["1. Examining into antiquity"],
+          "expected_order": 1,
+          "note": "Opening Yao virtues through the spring appointment."
+        },
+        {
+          "source_anchor_id": "summer-appointment",
+          "source_required_terms": ["羲叔", "南交", "仲夏"],
+          "target_required_terms": ["Nan-kiâo", "mid-summer"],
+          "source_boundary_terms": ["申命羲叔"],
+          "target_boundary_terms": ["He further commanded the third brother Hsî"],
+          "expected_order": 2,
+          "note": "Summer appointment must stay with Nan-kiao and mid-summer."
+        },
+        {
+          "source_anchor_id": "autumn-appointment",
+          "source_required_terms": ["和仲", "昧谷", "仲秋"],
+          "target_required_terms": ["Dark Valley", "mid-autumn"],
+          "source_boundary_terms": ["分命和仲"],
+          "target_boundary_terms": ["He separately commanded the second brother Ho"],
+          "expected_order": 3,
+          "note": "Autumn appointment must stay with Dark Valley and mid-autumn."
+        },
+        {
+          "source_anchor_id": "winter-appointment",
+          "source_required_terms": ["和叔", "朔方", "仲冬"],
+          "target_required_terms": ["Sombre Capital", "mid-winter"],
+          "source_boundary_terms": ["申命和叔"],
+          "target_boundary_terms": ["He further commanded the third brother Ho"],
+          "expected_order": 4,
+          "note": "Winter appointment must stay with Sombre Capital and mid-winter."
+        },
+        {
+          "source_anchor_id": "year-command",
+          "source_required_terms": ["羲暨和", "閏月", "成歲"],
+          "target_required_terms": ["intercalary month", "complete (the period of) the year"],
+          "source_boundary_terms": ["帝曰：「咨！汝羲暨和"],
+          "target_boundary_terms": ["The Tî said, 'Ah! you, Hsîs and Hos"],
+          "expected_order": 5,
+          "note": "Intercalary-month command should remain separate from the winter appointment."
+        },
+        {
+          "source_anchor_id": "employment-and-rejections",
+          "source_required_terms": ["登庸", "共工"],
+          "target_required_terms": ["search out (for me) a man according to the times", "Minister of Works"],
+          "source_boundary_terms": ["帝曰：「疇咨若時登庸？"],
+          "target_boundary_terms": ["3. The Tî said, 'Who will search out (for me) a man according to the times"],
+          "expected_order": 6,
+          "note": "Rejected candidates must remain before the flood consultation."
+        },
+        {
+          "source_anchor_id": "flood-and-gun",
+          "source_required_terms": ["洪水", "鯀"],
+          "target_required_terms": ["waters of the inundation", "Khwǎn"],
+          "source_boundary_terms": ["帝曰：「咨！四岳，湯湯洪水方割"],
+          "target_boundary_terms": ["The Tî said, 'Ho! (President of) the Four Mountains, destructive in their overflow are the waters of the inundation"],
+          "expected_order": 7,
+          "note": "Flood and Gun material must not be pulled backward into the seasonal appointments."
+        },
+        {
+          "source_anchor_id": "shun-family-daughters",
+          "source_required_terms": ["有鰥", "二女", "媯汭"],
+          "target_required_terms": ["Shun of Yü", "two daughters", "Kwei"],
+          "source_boundary_terms": ["帝曰：「咨！四岳。朕在位七十載"],
+          "target_boundary_terms": ["The Tî said, 'Ho! (President of) the Four Mountains, I have been on the throne seventy years"],
+          "expected_order": 8,
+          "note": "Shun and the daughters should remain in the closing appointment block."
+        }
+      ]
+    }
+  ]
+}

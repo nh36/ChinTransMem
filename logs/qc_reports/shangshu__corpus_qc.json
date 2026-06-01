@@ -7,15 +7,15 @@
     "metadata_only_sections": 2,
     "sections_needing_alignment": 0,
     "sections_needing_qc": 0,
-    "exact_alignment_count": 130
+    "exact_alignment_count": 135
   },
   "counts": {
     "works": 1,
     "sections": 60,
     "persons": 6,
     "sources": 118,
-    "segments": 895,
-    "alignments": 188
+    "segments": 885,
+    "alignments": 193
   },
   "sections": [
     {
@@ -23,8 +23,8 @@
       "alignment_status": "complete",
       "tmx_status": "complete",
       "status": "pass",
-      "expected_exact_alignment_count": 3,
-      "exact_alignment_count": 3,
+      "expected_exact_alignment_count": 8,
+      "exact_alignment_count": 8,
       "grouped_alignment_count": 1,
       "unmatched_chinese_segment_ids": [],
       "unmatched_translation_segment_ids": []
@@ -685,13 +685,13 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "896eadaaef1b0a45c603bb8332b0f3cc6a71754842ea4c2cc70663d54083cde3",
+    "metadata/sections.yml": "1aab0ad0874aece63210b73b9d80188bf7c205803622da1c1ddf573ced35c21b",
     "metadata/sources.yml": "a9ff7c1b157feaa9698bae0495e505f386665e267a70e427dc1c922228d16597",
-    "metadata/manifests/shangshu.yml": "bc746cc17cdec4e34d2d4c670d091cfb9657e7c212ea39fc87e645b9d48d1d5b",
-    "corpus/exports/jsonl/shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.jsonl": "46a62c995bad5687baca341f2d39ac4e72b00472f74ef3994c757deec69d0739",
-    "corpus/exports/csv/shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.csv": "cdfa33c8cf4b5bd913dff0f4ff615cfee4af3853462ab121c520b0f694ee8f4f",
-    "corpus/exports/tmx/shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.tmx": "b44ea857704f316bdc0aabb873ca5dddbafd0acb986e04e423a962a124b5b55d",
-    "logs/qc_reports/shangshu__shangshu-001-yu-shu-canon-of-yao__tmx_validation.json": "84a22bf9d244a6ff349398d3a5d38ffcace26306277e7d930528484062d995ac",
+    "metadata/manifests/shangshu.yml": "1c4a67c51211246d817db9a26de18225dde71b7d442f6384cf102bca9cecc40f",
+    "corpus/exports/jsonl/shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.jsonl": "b652a314abedbfac3fd7e89ded2c9c10a4dac33efd562cab5c04612880799b98",
+    "corpus/exports/csv/shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.csv": "1b96c971daabf321271494558628184c0f39ac1ec275ceb180525c715892a71a",
+    "corpus/exports/tmx/shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.tmx": "525827bfff8b0e8c09b4f0624d3876f8ee5988c9ed2d178600fe26c67c70c4d4",
+    "logs/qc_reports/shangshu__shangshu-001-yu-shu-canon-of-yao__tmx_validation.json": "9a2f92a88a0f03b629ee5373778be7a5a28cbd3e1723ccc4e31067a0a440835c",
     "corpus/exports/jsonl/shangshu__shangshu-003-yu-shu-canon-of-shun__aligned_passages.jsonl": "0cd4b33b6dd92b3bc4fa71059ebd923766d7b180fb78930ed10dea79de23e977",
     "corpus/exports/csv/shangshu__shangshu-003-yu-shu-canon-of-shun__aligned_passages.csv": "0feeb574ee4c596239e25fc0d8997cc4e3af9fb7ac7c0ef746776c9f8c40c256",
     "corpus/exports/tmx/shangshu__shangshu-003-yu-shu-canon-of-shun__aligned_passages.tmx": "65acebf4a86d417451d8ee72f84d6bd59f958cdca1d095bf2b29318b62f03f9a",
@@ -920,10 +920,10 @@
     "corpus/exports/csv/shangshu__shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__aligned_passages.csv": "47124bf674df8ce547a18614f2b0d0463bac741aa64c26e9d1ee29cc45712ea5",
     "corpus/exports/tmx/shangshu__shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__aligned_passages.tmx": "e58df84989b73edb300ac7e0049705abfe7787383128f0e38799f11d0f0bccb2",
     "logs/qc_reports/shangshu__shangshu-060-zhou-shu-speech-of-the-marquis-of-qin__tmx_validation.json": "96ca88d8fec176e61bd58af6298bc3d4071ff3cd1d75ece710cf9107341e5de1",
-    "corpus/exports/jsonl/shangshu__all__aligned_passages.jsonl": "dbcd63a2fbb4ebec9096f3a6f1c1a840c04cc9152f167c0a0b4e0cd6732f840d",
-    "corpus/exports/csv/shangshu__all__aligned_passages.csv": "4bec779022aefc1549a4223fd6fa4dcee3edf07ead983e2f1d8fcde19455133e",
-    "corpus/exports/tmx/shangshu__all__aligned_passages.tmx": "05de7bba945460b567e3e69c94d337a5a7c569c8d857365a6d5fa96ad7d8a536",
-    "logs/qc_reports/shangshu__corpus_tmx_validation.json": "a4175ae3c4879e83c6f582699c8798af715eea08bdc9ecc68d0b923498b5c425"
+    "corpus/exports/jsonl/shangshu__all__aligned_passages.jsonl": "29f78dd605bb97b56c18384b9973bf1368b1e7fb2de38c3d9c1fa23c2b991426",
+    "corpus/exports/csv/shangshu__all__aligned_passages.csv": "8228cc2ed02066432712abbbc8a33bad69bcc541c5d858f0f37c827af982f97b",
+    "corpus/exports/tmx/shangshu__all__aligned_passages.tmx": "34e98182a0c9361f403e0115cfe0e7618620899b14d63bf8d2fbf91c0769735c",
+    "logs/qc_reports/shangshu__corpus_tmx_validation.json": "1792ee2487d0dfeb3e05dc89760107080834d5e39fc0f455615e055c4188aab1"
   },
   "text_integrity": {
     "empty_source_sections": [],
@@ -942,6 +942,7 @@
     "question_punctuation_mismatches": [],
     "suspicious_length_imbalance_rows": [],
     "non_grouped_segmentation_mismatch_rows": [],
+    "alignment_drift_issues": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

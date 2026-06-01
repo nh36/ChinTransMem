@@ -5,6 +5,7 @@ import json
 import re
 from pathlib import Path
 
+from chinesenotes_alignment import find_anchor_drift_issues, load_alignment_anchor_maps
 from common import (
     DEFAULT_DB_PATH,
     DEFAULT_WORK_ID,
@@ -53,6 +54,7 @@ KNOWN_SHANGSHU_BAD_FORMS = (
     "black-liaired",
     "1 can",
 )
+SHANGSHU_ALIGNMENT_ANCHORS_PATH = REPO_ROOT / "metadata" / "shangshu_alignment_anchors.yml"
 
 
 def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
@@ -63,6 +65,7 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
         "question_punctuation_mismatches": [],
         "suspicious_length_imbalance_rows": [],
         "non_grouped_segmentation_mismatch_rows": [],
+        "alignment_drift_issues": [],
     }
     if work_id not in {"laozi", "shangshu"}:
         return {**issues, "hard_failure_count": 0}
@@ -95,6 +98,20 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
             issues["suspicious_length_imbalance_rows"].append(str(row["alignment_id"]))
         if alignment_granularity != "grouped" and source_segment_count != target_segment_count:
             issues["non_grouped_segmentation_mismatch_rows"].append(str(row["alignment_id"]))
+    if work_id == "shangshu":
+        anchor_maps = load_alignment_anchor_maps(SHANGSHU_ALIGNMENT_ANCHORS_PATH)
+        rows_by_section: dict[str, list[dict[str, object]]] = {}
+        for row in rows:
+            rows_by_section.setdefault(str(row["section_id"]), []).append(row)
+        for section_id, section_rows in rows_by_section.items():
+            anchor_map = anchor_maps.get(section_id)
+            if not anchor_map:
+                continue
+            section_issues = find_anchor_drift_issues(section_rows, list(anchor_map.get("anchors", [])))
+            for issue in section_issues:
+                issues["alignment_drift_issues"].append(
+                    f"{section_id}:{issue['anchor_id']}:{issue['issue']}"
+                )
     hard_failure_count = sum(1 for value in issues.values() if value)
     return {**issues, "hard_failure_count": hard_failure_count}
 

@@ -34,6 +34,23 @@ def load_jsonl(path: Path) -> list[dict[str, object]]:
 
 
 class ShangshuPromotionTest(unittest.TestCase):
+    def _load_canon_of_yao_rows(self) -> list[dict[str, object]]:
+        return load_jsonl(
+            REPO_ROOT
+            / "corpus"
+            / "exports"
+            / "jsonl"
+            / "shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.jsonl"
+        )
+
+    def _find_translation_row(self, rows: list[dict[str, object]], *terms: str) -> dict[str, object]:
+        lowered_terms = [term.casefold() for term in terms]
+        for row in rows:
+            translation = str(row["translation_text"]).casefold()
+            if all(term in translation for term in lowered_terms):
+                return row
+        self.fail(f"No Shangshu row contained all target terms: {terms!r}")
+
     def test_shangshu_is_active_with_exportable_and_metadata_only_sections(self) -> None:
         works = load_json(REPO_ROOT / "metadata" / "works.yml")
         manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "shangshu.yml")
@@ -45,7 +62,7 @@ class ShangshuPromotionTest(unittest.TestCase):
         self.assertEqual(manifest["summary"]["section_count"], 60)
         self.assertEqual(manifest["summary"]["complete_sections"], 58)
         self.assertEqual(manifest["summary"]["metadata_only_sections"], 2)
-        self.assertEqual(manifest["summary"]["exact_alignment_count"], 130)
+        self.assertEqual(manifest["summary"]["exact_alignment_count"], 135)
         self.assertEqual(len(manifest["sections"]), 60)
         self.assertEqual(len(inventory["units"]), 60)
         self.assertEqual(len(ledger["entries"]), 60)
@@ -117,22 +134,26 @@ class ShangshuPromotionTest(unittest.TestCase):
         self.assertFalse(qc_report["text_integrity"]["translation_with_known_bad_forms_rows"])
         self.assertFalse(qc_report["alignment_quality"]["false_precision_multi_clause_targets"])
         self.assertFalse(qc_report["alignment_quality"]["non_grouped_segmentation_mismatch_rows"])
+        self.assertFalse(qc_report["alignment_quality"]["alignment_drift_issues"])
 
         self.assertEqual(alignment_qc["summary"]["total_section_count"], 60)
         self.assertEqual(alignment_qc["summary"]["active_section_count"], 58)
         self.assertEqual(alignment_qc["summary"]["exportable_section_count"], 58)
-        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 130)
-        self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"block": 41, "grouped": 89})
+        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 135)
+        self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"block": 49, "grouped": 86})
         self.assertEqual(alignment_qc["summary"]["curated_override_section_count"], 0)
         self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 0)
         self.assertEqual(alignment_qc["summary"]["blocked_section_count"], 2)
         self.assertEqual(alignment_qc["summary"]["remaining_corruption_issue_count"], 0)
+        self.assertEqual(alignment_qc["summary"]["drift_issue_count_before_repair"], 5)
+        self.assertEqual(alignment_qc["summary"]["repaired_drift_issue_count"], 5)
+        self.assertEqual(alignment_qc["summary"]["remaining_drift_issue_count"], 0)
         self.assertEqual(
             alignment_qc["summary"]["english_witness"],
             "Wikisource transcription of James Legge, Sacred Books of the East, Volume 3",
         )
         self.assertEqual(alignment_qc["summary"]["hard_failure_count"], 0)
-        self.assertEqual(len(rows), 130)
+        self.assertEqual(len(rows), 135)
         self.assertEqual(len({row["section_id"] for row in rows}), 58)
         self.assertFalse(
             {"shangshu-002-yu-shu-dan-zhu-forged", "shangshu-008-xia-shu-yu-shi-forged"}
@@ -150,6 +171,34 @@ class ShangshuPromotionTest(unittest.TestCase):
             self.assertIsNone(PARENTHETICAL_HEADING_RE.fullmatch(translation_text))
             self.assertFalse(any(marker in lowered for marker in BAD_FORMS))
             self.assertFalse(translation_text.startswith(("Book ", "PART ", "Section ")))
+
+    def test_canon_of_yao_anchor_boundaries_remain_aligned(self) -> None:
+        rows = self._load_canon_of_yao_rows()
+
+        summer_row = self._find_translation_row(rows, "nan-kiâo", "mid-summer")
+        summer_source = str(summer_row["chinese_text"])
+        self.assertTrue(any(term in summer_source for term in ("羲叔", "南交", "仲夏")))
+        self.assertFalse(any(term in summer_source for term in ("和叔", "朔方", "幽都", "仲冬")))
+
+        autumn_row = self._find_translation_row(rows, "dark valley", "mid-autumn")
+        autumn_source = str(autumn_row["chinese_text"])
+        self.assertTrue(any(term in autumn_source for term in ("和仲", "昧谷", "仲秋")))
+        self.assertFalse(any(term in autumn_source for term in ("洪水", "鯀", "舜", "二女", "媯汭")))
+
+        winter_row = self._find_translation_row(rows, "sombre capital", "mid-winter")
+        winter_source = str(winter_row["chinese_text"])
+        self.assertTrue(any(term in winter_source for term in ("和叔", "朔方", "幽都", "仲冬")))
+        self.assertFalse(any(term in winter_source for term in ("洪水", "鯀", "舜", "二女", "媯汭")))
+
+        flood_row = self._find_translation_row(rows, "waters of the inundation", "khwǎn")
+        flood_source = str(flood_row["chinese_text"])
+        self.assertTrue(any(term in flood_source for term in ("洪水", "鯀")))
+        self.assertFalse(any(term in flood_source for term in ("和仲", "昧谷", "仲秋", "和叔", "朔方", "幽都", "仲冬")))
+
+        shun_row = self._find_translation_row(rows, "shun of yü", "two daughters")
+        shun_source = str(shun_row["chinese_text"])
+        self.assertTrue(any(term in shun_source for term in ("舜", "二女", "媯汭")))
+        self.assertFalse(any(term in shun_source for term in ("洪水", "鯀")))
 
     def test_shangshu_mapping_metadata_matches_generated_qc(self) -> None:
         mapping = load_json(REPO_ROOT / "metadata" / "chinesenotes_work_mapping.yml")
@@ -169,8 +218,12 @@ class ShangshuPromotionTest(unittest.TestCase):
         self.assertEqual(summary["fallback_section_count"], alignment_qc["summary"]["fallback_section_count"])
         self.assertEqual(summary["blocked_section_count"], alignment_qc["summary"]["blocked_section_count"])
         self.assertEqual(summary["english_witness"], alignment_qc["summary"]["english_witness"])
+        self.assertEqual(summary["drift_issue_count_before_repair"], alignment_qc["summary"]["drift_issue_count_before_repair"])
+        self.assertEqual(summary["repaired_drift_issue_count"], alignment_qc["summary"]["repaired_drift_issue_count"])
+        self.assertEqual(summary["remaining_drift_issue_count"], alignment_qc["summary"]["remaining_drift_issue_count"])
         self.assertIn("Wikisource transcription of James Legge", shangshu_mapping["notes"])
-        self.assertIn("130 exact alignments", shangshu_mapping["notes"])
+        self.assertIn("135 exact alignments", shangshu_mapping["notes"])
+        self.assertIn("Canon of Yao anchor drift repaired", shangshu_mapping["notes"])
         self.assertIn("2 blocked forged Chinese-only sections", shangshu_mapping["notes"])
 
 

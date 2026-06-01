@@ -10,7 +10,11 @@ from pathlib import Path
 from typing import Any
 
 from chinesenotes_alignment import (
+    find_anchor_drift_issues,
+    join_unit_texts,
+    load_alignment_anchor_maps,
     load_alignment_overrides,
+    partition_block_texts_by_anchors,
     refine_alignment,
     render_completion_quality_markdown,
 )
@@ -36,6 +40,7 @@ MANIFEST_PATH = METADATA_DIR / "manifests" / f"{WORK_ID}.yml"
 INVENTORY_PATH = METADATA_DIR / f"{WORK_ID}_inventory.yml"
 LEDGER_PATH = METADATA_DIR / f"{WORK_ID}_verification_ledger.yml"
 OVERRIDES_PATH = METADATA_DIR / f"{WORK_ID}_alignment_overrides.yml"
+ANCHOR_MAP_PATH = METADATA_DIR / f"{WORK_ID}_alignment_anchors.yml"
 ALIGNMENT_QC_PATH = QC_REPORTS_DIR / f"{WORK_ID}__alignment_qc.json"
 COMPLETION_REPORT_PATH = DOCUMENTATION_DIR / f"{WORK_ID}_completion_quality.md"
 
@@ -324,6 +329,8 @@ def _build_alignment_records(
             notes.append("Curated override alignment.")
             if group.get("curator_note"):
                 notes.append(str(group["curator_note"]))
+        elif alignment["strategy"] == "anchor_partition_auto_alignment":
+            notes.append("Anchor-partitioned exact block alignment.")
         else:
             notes.append("Deterministic ChineseNotes monotonic grouped alignment.")
         records.append(
@@ -369,6 +376,24 @@ def _build_alignment_records(
         }
     )
     return records
+
+
+def _alignment_preview_rows(section_id: str, alignment: dict[str, Any]) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for index, group in enumerate(alignment["groups"], start=1):
+        rows.append(
+            {
+                "alignment_id": f"{section_id}__preview-alignment-{index:03d}",
+                "section_id": section_id,
+                "chinese_text": join_unit_texts(
+                    alignment["source_units"], list(group["source_unit_indices"]), "zh"
+                ),
+                "translation_text": join_unit_texts(
+                    alignment["target_units"], list(group["target_unit_indices"]), "en"
+                ),
+            }
+        )
+    return rows
 
 
 def _chinese_source_note(section_record: dict[str, Any]) -> str:
@@ -451,6 +476,8 @@ def _section_notes(section_record: dict[str, Any], *, decision: str, alignment: 
         notes.append(f"Excluded English headings: {', '.join(section_record['english_headings'])}.")
     if decision != "export":
         notes.append(str(section_record["blocking_reason"]))
+    elif alignment and alignment["strategy"] == "anchor_partition_auto_alignment":
+        notes.append("Export uses anchor-partitioned exact block alignment.")
     elif alignment and alignment["alignment_granularity"] == "grouped":
         notes.append("Export uses monotonic grouped block alignment.")
     else:
@@ -529,6 +556,8 @@ def _ledger_entry(
         "alignment_status": "complete" if decision == "export" else "not_exported",
         "alignment_granularity": alignment["alignment_granularity"] if alignment else None,
         "alignment_strategy": alignment["strategy"] if alignment else None,
+        "alignment_anchor_map_used": bool(alignment and alignment.get("anchor_map_used")),
+        "alignment_anchor_count": int(alignment.get("anchor_count", 0)) if alignment else 0,
         "segment_granularity": alignment["segment_granularity"] if alignment else None,
         "exact_alignment_count": exact_alignment_count,
         "commentary_present_and_excluded": bool(section_record["commentary_present"]),
@@ -552,6 +581,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
     if not skip_fetch:
         _fetch_missing_wikisource_raw_captures(sections)
     overrides = load_alignment_overrides(OVERRIDES_PATH)
+    anchor_maps = load_alignment_anchor_maps(ANCHOR_MAP_PATH)
 
     manifest_sections: list[dict[str, Any]] = []
     manifest_sources: list[dict[str, Any]] = []
@@ -573,6 +603,10 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
     pre_repair_corruption_issue_count = 0
     remaining_corruption_issue_count = 0
     repaired_corruption_issue_count = 0
+    drift_checks_run = 0
+    drift_issue_count_before_repair = 0
+    repaired_drift_issue_count = 0
+    remaining_drift_issue_count = 0
 
     for section_record in sorted(sections, key=lambda item: int(item["source_row_index"])):
         section_id = str(section_record["section_id"])
@@ -612,38 +646,68 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
         reason: str | None = None
         alignment: dict[str, Any] | None = None
         translation_payload: dict[str, Any] | None = None
-        chinese_segments = _write_segments(
-            work_id=WORK_ID,
-            section_id=section_id,
-            source_id=source_id,
-            canonical_ref=canonical_ref,
-            texts=chinese_blocks,
-            language="zh-Hant",
-            output_path=chinese_processed_path,
-        )
+        anchor_map = anchor_maps.get(section_id)
+        final_chinese_blocks = list(chinese_blocks)
+        final_english_blocks: list[str] = []
+        chinese_segments: list[dict[str, Any]] = []
         english_segments: list[dict[str, Any]] | None = None
         exact_count = 0
 
         if section_record["status"] == "exportable_candidate":
             english_blocks, translation_payload = _load_wikisource_translation_blocks(section_id)
+            final_english_blocks = list(english_blocks)
             staged_corruption_issue_count = sum(len(detect_probable_ocr_corruption(block)) for block in staged_english_blocks)
             pre_repair_corruption_issue_count += staged_corruption_issue_count
             clean_corruption_issue_count = sum(len(detect_probable_ocr_corruption(block)) for block in english_blocks)
             remaining_corruption_issue_count += clean_corruption_issue_count
             repaired_corruption_issue_count += max(staged_corruption_issue_count - clean_corruption_issue_count, 0)
+            preview_drift_issues: list[dict[str, Any]] = []
+            if anchor_map:
+                drift_checks_run += 1
+                preview_alignment = refine_alignment(
+                    section_id,
+                    chinese_blocks,
+                    english_blocks,
+                    default_segment_granularity="block",
+                    block_alignment_granularity="block",
+                    max_source_group_size=6,
+                    max_target_group_size=16,
+                    override=overrides.get(section_id),
+                    false_precision_segment_granularities=frozenset({"sentence", "line"}),
+                )
+                preview_drift_issues = find_anchor_drift_issues(
+                    _alignment_preview_rows(section_id, preview_alignment),
+                    list(anchor_map.get("anchors", [])),
+                )
+                drift_issue_count_before_repair += len(preview_drift_issues)
+                if str(anchor_map.get("segmentation_strategy") or "") == "anchor_partition":
+                    final_chinese_blocks, final_english_blocks = partition_block_texts_by_anchors(
+                        chinese_blocks,
+                        english_blocks,
+                        anchor_map,
+                    )
+            chinese_segments = _write_segments(
+                work_id=WORK_ID,
+                section_id=section_id,
+                source_id=source_id,
+                canonical_ref=canonical_ref,
+                texts=final_chinese_blocks,
+                language="zh-Hant",
+                output_path=chinese_processed_path,
+            )
             english_segments = _write_segments(
                 work_id=WORK_ID,
                 section_id=section_id,
                 source_id=target_source_id,
                 canonical_ref=canonical_ref,
-                texts=english_blocks,
+                texts=final_english_blocks,
                 language="en",
                 output_path=english_processed_path,
             )
             alignment = refine_alignment(
                 section_id,
-                chinese_blocks,
-                english_blocks,
+                final_chinese_blocks,
+                final_english_blocks,
                 default_segment_granularity="block",
                 block_alignment_granularity="block",
                 max_source_group_size=6,
@@ -651,6 +715,27 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
                 override=overrides.get(section_id),
                 false_precision_segment_granularities=frozenset({"sentence", "line"}),
             )
+            if anchor_map:
+                anchor_drift_issues = find_anchor_drift_issues(
+                    _alignment_preview_rows(section_id, alignment),
+                    list(anchor_map.get("anchors", [])),
+                )
+                remaining_drift_issue_count += len(anchor_drift_issues)
+                repaired_drift_issue_count += max(len(preview_drift_issues) - len(anchor_drift_issues), 0)
+                if anchor_drift_issues:
+                    raise ValueError(
+                        f"Anchor drift remains in {section_id}: "
+                        + "; ".join(
+                            f"{issue['anchor_id']} ({issue['issue']})" for issue in anchor_drift_issues
+                        )
+                    )
+                alignment["anchor_map_used"] = True
+                alignment["anchor_count"] = len(anchor_map.get("anchors", []))
+                if str(anchor_map.get("segmentation_strategy") or "") == "anchor_partition":
+                    alignment["strategy"] = "anchor_partition_auto_alignment"
+            else:
+                alignment["anchor_map_used"] = False
+                alignment["anchor_count"] = 0
             alignment_records = _build_alignment_records(
                 section_id=section_id,
                 source_id=source_id,
@@ -672,6 +757,15 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
         else:
             decision = "metadata_only"
             reason = str(section_record["blocking_reason"])
+            chinese_segments = _write_segments(
+                work_id=WORK_ID,
+                section_id=section_id,
+                source_id=source_id,
+                canonical_ref=canonical_ref,
+                texts=final_chinese_blocks,
+                language="zh-Hant",
+                output_path=chinese_processed_path,
+            )
             blocked_sections.append({"section_id": section_id, "reason": reason})
 
         manifest_sections.append(
@@ -722,6 +816,7 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
                 "english_block_count": len(english_segments or []),
                 "alignment_granularity": alignment["alignment_granularity"] if alignment else None,
                 "exact_alignment_count": exact_count,
+                "alignment_anchor_map_used": bool(alignment and alignment.get("anchor_map_used")),
                 "commentary_present_and_excluded": bool(section_record["commentary_present"]),
                 "english_heading_present_and_excluded": bool(section_record["english_headings"]),
                 "fallback_used": False,
@@ -810,6 +905,11 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
             "pre_repair_corruption_issue_count": pre_repair_corruption_issue_count,
             "corrected_corruption_issue_count": repaired_corruption_issue_count,
             "remaining_corruption_issue_count": remaining_corruption_issue_count,
+            "drift_checks_run": len(manifest_sections) - len(blocked_sections),
+            "anchor_mapped_section_count": drift_checks_run,
+            "drift_issue_count_before_repair": drift_issue_count_before_repair,
+            "repaired_drift_issue_count": repaired_drift_issue_count,
+            "remaining_drift_issue_count": remaining_drift_issue_count,
             "hard_failure_count": 0,
         },
         "curated_override_sections": curated_override_section_ids,

@@ -174,7 +174,7 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "896eadaaef1b0a45c603bb8332b0f3cc6a71754842ea4c2cc70663d54083cde3",
+    "metadata/sections.yml": "1aab0ad0874aece63210b73b9d80188bf7c205803622da1c1ddf573ced35c21b",
     "metadata/sources.yml": "a9ff7c1b157feaa9698bae0495e505f386665e267a70e427dc1c922228d16597",
     "metadata/manifests/mengzi.yml": "3eb3cf8cf4c5a4ec77402ab107a4d7db2e40130a5b7dfe83ec844d1fa0a094b4",
     "corpus/exports/jsonl/mengzi__book-01-lianghuiwang-shang__aligned_passages.jsonl": "7ed4a345c3639ac993f6fd13b2278a1d7b5325c8d6dd19ea75a2be2dd6b691ea",
@@ -255,6 +255,7 @@
     "question_punctuation_mismatches": [],
     "suspicious_length_imbalance_rows": [],
     "non_grouped_segmentation_mismatch_rows": [],
+    "alignment_drift_issues": [],
     "hard_failure_count": 0
   },
   "hard_failure_count": 0

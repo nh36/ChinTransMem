@@ -8,7 +8,7 @@
   "units_with_english_public_domain_witness": 60,
   "units_with_verified_public_domain_english_source": 0,
   "units_with_at_least_one_exact_alignment": 58,
-  "exact_alignment_count": 130,
+  "exact_alignment_count": 135,
   "source_record_count": 118,
   "missing_from_manifest": [],
   "present_but_metadata_only": [
@@ -78,7 +78,6 @@
     "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin"
   ],
   "sections_with_coarse_or_nonpreferred_alignment": [
-    "shangshu-001-yu-shu-canon-of-yao",
     "shangshu-003-yu-shu-canon-of-shun",
     "shangshu-004-yu-shu-counsels-of-the-great-yu",
     "shangshu-005-yu-shu-counsels-of-the-gao-yao",
