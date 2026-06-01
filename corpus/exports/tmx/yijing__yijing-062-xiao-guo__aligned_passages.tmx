@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-062-xiao-guo__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-062-xiao-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 62 judgment</prop>
+      <prop type="x-translation-ref">易經 62 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>小過，亨，利貞，可小事，不可大事。飛鳥遺之音，不宜上宜下，大吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Xiao Guo indicates that (in the circumstances which it implies) there will be progress and attainment. But it will be advantageous to be firm and correct. (What the name denotes) may be done in small affairs, but not in great affairs. (It is like) the notes that come down from a bird on the wing - to descend is better than to ascend. There will (in this way) be great good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-062-xiao-guo__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-062-xiao-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 62 初六</prop>
+      <prop type="x-translation-ref">易經 62 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：飛鳥以凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, suggests (the idea of) a bird flying, (and ascending) till the issue is evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-062-xiao-guo__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-062-xiao-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 62 六二</prop>
+      <prop type="x-translation-ref">易經 62 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：過其祖，遇其妣；不及其君，遇其臣；无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows its subject passing by his grandfather, and meeting with his grandmother; not attempting anything against his ruler, but meeting him as his minister. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-062-xiao-guo__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-062-xiao-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 62 九三</prop>
+      <prop type="x-translation-ref">易經 62 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：弗過防之，從或戕之，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows its subject taking no extraordinary precautions against danger; and some in consequence finding opportunity to assail and injure him. There will be evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-062-xiao-guo__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-062-xiao-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 62 九四</prop>
+      <prop type="x-translation-ref">易經 62 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：无咎，弗過遇之。往厲必戒，勿用永貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject falling into no error, but meeting (the exigency of his situation), without exceeding (in his natural. course). If he go forward, there will be peril, and he must be cautious. There is no occasion to be using firmness perpetually.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-062-xiao-guo__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-062-xiao-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 62 六五</prop>
+      <prop type="x-translation-ref">易經 62 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：密云不雨，自我西郊，公弋取彼在穴。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, (suggests the idea) of dense clouds, but no rain, coming from our borders in the west. It also (shows) the prince shooting his arrow, and taking the bird in a cave.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-062-xiao-guo__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-062-xiao-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 62 上六</prop>
+      <prop type="x-translation-ref">易經 62 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：弗遇過之，飛鳥離之，凶，是謂災眚。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth SIX, divided, shows. its subject not meeting (the exigency of his situation), and exceeding (his proper course). (It suggests the idea of) a bird flying far aloft. There will be evil. The case is what is called one of calamity and self-produced injury.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

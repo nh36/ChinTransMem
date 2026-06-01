@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-050-ding__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-050-ding</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 50 judgment</prop>
+      <prop type="x-translation-ref">易經 50 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>鼎，元吉，亨。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ding gives the intimation of great progress and success.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-050-ding__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-050-ding</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 50 初六</prop>
+      <prop type="x-translation-ref">易經 50 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：鼎顛趾，利出否，得妾以其子，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows the caldron overthrown and its feet turned up. (But) there will be advantage in its getting rid of what was bad in it. (Or it shows us) the concubine (whose position is improved) by means of her son. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-050-ding__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-050-ding</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 50 九二</prop>
+      <prop type="x-translation-ref">易經 50 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：鼎有實，我仇有疾，不我能即，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows the caldron with the things (to be cooked) in it. (If its subject can say), 'My enemy dislikes me, but he cannot approach me,' there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-050-ding__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-050-ding</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 50 九三</prop>
+      <prop type="x-translation-ref">易經 50 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：鼎耳革，其行塞，雉膏不食，方雨虧悔，終吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows the caldron with (the places of) its ears changed. The progress (of its subject) is (thus) stopped. The fat flesh of the pheasant (which is in the caldron) will not be eaten. But the (genial) rain will come, and the grounds for repentance will disappear. There will be good fortune in the end.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-050-ding__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-050-ding</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 50 九四</prop>
+      <prop type="x-translation-ref">易經 50 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：鼎折足，覆公餗，其形渥，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows the caldron with its feet broken; and its contents, designed for the ruler's use, overturned and spilt. Its Subject will be made to blush for shame. There will be evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-050-ding__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-050-ding</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 50 六五</prop>
+      <prop type="x-translation-ref">易經 50 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：鼎黃耳金鉉，利貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth six, divided, shows the caldron with yellow ears and rings of metal in them. There will be advantage through being firm and correct.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-050-ding__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-050-ding</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 50 上九</prop>
+      <prop type="x-translation-ref">易經 50 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：鼎玉鉉，大吉，无不利。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, shows the caldron with rings of jade. There will be great good fortune, and all action taken will be in every way advantageous.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

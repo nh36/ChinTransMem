@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-059-huan__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-059-huan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 59 judgment</prop>
+      <prop type="x-translation-ref">易經 59 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>渙，亨。王假有廟，利涉大川，利貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Huan intimates that (under its conditions) there will be progress and success. The king goes to his ancestral temple; and it will be advantageous to cross the great stream. It will be advantageous to be firm and correct.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-059-huan__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-059-huan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 59 初六</prop>
+      <prop type="x-translation-ref">易經 59 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：用拯馬壯，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows its subject engaged in rescuing (from the impending evil) and having (the assistance of) a strong horse. There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-059-huan__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-059-huan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 59 九二</prop>
+      <prop type="x-translation-ref">易經 59 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：渙奔其机，悔亡。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows its subject, amid the dispersion, hurrying to his contrivance (for security). All occasion for repentance will disappear.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-059-huan__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-059-huan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 59 六三</prop>
+      <prop type="x-translation-ref">易經 59 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：渙其躬，无悔。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows its subject discarding any regard to his own person. There will be no occasion for repentance.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-059-huan__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-059-huan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 59 六四</prop>
+      <prop type="x-translation-ref">易經 59 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：渙其群，元吉。渙有丘，匪夷所思。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows its subject scattering the (different) parties (in the state); which leads to great good fortune. From the dispersion (he collects again good men standing out, a crowd) like a mound, which is what ordinary men would not have thought of.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-059-huan__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-059-huan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 59 九五</prop>
+      <prop type="x-translation-ref">易經 59 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：渙汗其大號，渙王居，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows its subject amidst the dispersion issuing his great announcements as the perspiration (flows from his body). He scatters abroad (also) the accumulations in the royal granaries. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-059-huan__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-059-huan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 59 上九</prop>
+      <prop type="x-translation-ref">易經 59 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：渙其血，去逖出，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost NINE, undivided, shows its subject disposing of (what may be called) its bloody wounds, and going and separating himself from its anxious fears. There will be no error.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

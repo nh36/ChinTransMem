@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-046-sheng__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-046-sheng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 46 judgment</prop>
+      <prop type="x-translation-ref">易經 46 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>升，元亨，用見大人，勿恤，南征吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Sheng indicates that (under its conditions) there will be great progress and success. Seeking by (the qualities implied in it) to meet with the great man, its subject need have no anxiety. Advance to the south will be fortunate.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-046-sheng__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-046-sheng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 46 初六</prop>
+      <prop type="x-translation-ref">易經 46 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：允升，大吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows its subject advancing upwards with the welcome (of those above him). There will be great good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-046-sheng__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-046-sheng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 46 九二</prop>
+      <prop type="x-translation-ref">易經 46 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：孚乃利用禴，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows its subject with that sincerity which will make even the (small) offerings of the vernal sacrifice acceptable. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-046-sheng__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-046-sheng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 46 九三</prop>
+      <prop type="x-translation-ref">易經 46 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：升虛邑。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows its subject ascending upwards (as into) an empty city.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-046-sheng__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-046-sheng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 46 六四</prop>
+      <prop type="x-translation-ref">易經 46 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：王用亨于岐山，吉无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows its subject employed by the king to present his offerings on mount Kh?. There will be good fortune; there will be no mistake.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-046-sheng__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-046-sheng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 46 六五</prop>
+      <prop type="x-translation-ref">易經 46 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：貞吉，升階。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth six, divided, shows its subject firmly correct, and therefore enjoying good fortune. He ascends the stairs (with all due ceremony).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-046-sheng__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-046-sheng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 46 上六</prop>
+      <prop type="x-translation-ref">易經 46 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：冥升，利于不息之貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth six, divided, shows its subject advancing upwards blindly. Advantage will be found in a ceaseless maintenance of firm correctness.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-028-da-guo__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-028-da-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 28 judgment</prop>
+      <prop type="x-translation-ref">易經 28 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>大過，棟橈，利有攸往，亨。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Da Guo suggests to us a beam that is weak. There will be advantage in moving (under its conditions) in any direction whatever; there will be success.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-028-da-guo__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-028-da-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 28 初六</prop>
+      <prop type="x-translation-ref">易經 28 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：藉用白茅，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows one placing mats of the white m?o grass under things set on the ground. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-028-da-guo__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-028-da-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 28 九二</prop>
+      <prop type="x-translation-ref">易經 28 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：枯楊生稊，老夫得其女妻，无不利。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows a decayed willow producing shoots, or an old husband in possession of his young wife. There will be advantage in every way.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-028-da-guo__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-028-da-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 28 九三</prop>
+      <prop type="x-translation-ref">易經 28 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：棟橈，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows a beam that is weak. There will be evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-028-da-guo__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-028-da-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 28 九四</prop>
+      <prop type="x-translation-ref">易經 28 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：棟隆，吉。有它吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows a beam curving upwards. There will be good fortune. If (the subject of it) looks for other (help but that of line one), there will be cause for regret.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-028-da-guo__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-028-da-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 28 九五</prop>
+      <prop type="x-translation-ref">易經 28 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：枯楊生華，老婦得士夫，无咎无譽。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows a decayed willow producing flowers, or an old wife in possession of her young husband. There will be occasion neither for blame nor for praise.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-028-da-guo__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-028-da-guo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 28 上六</prop>
+      <prop type="x-translation-ref">易經 28 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：過涉滅頂，凶，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost SIX, divided, shows its subject with extraordinary (boldness) wading through a stream, till the water hides the crown of his head. There will be evil, but no ground for blame.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

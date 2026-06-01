@@ -220,14 +220,6 @@
     "notes": "Bootstrap corpus generation for 堯曰第二十 with 3 exact alignments and alignment status complete."
   },
   {
-    "run_id": "bootstrap-laozi-20260531",
-    "work_id": "laozi",
-    "timestamp": "2026-05-31T00:00:00+00:00",
-    "method": "bootstrap_laozi_corpus",
-    "status": "complete",
-    "notes": "Improved Laozi fine-grained alignment using grouped monotonic auto-alignment plus curated overrides for chapters that failed the automatic QC heuristics."
-  },
-  {
     "run_id": "bootstrap-book-01-lianghuiwang-shang-20260530",
     "work_id": "mengzi",
     "section_id": "book-01-lianghuiwang-shang",
@@ -380,13 +372,6 @@
       "book-14-jinxin-xia__legge-cc-v2-1895"
     ],
     "notes": "Bootstrap corpus generation for 盡心下 with 38 exact alignments and alignment status complete."
-  },
-  {
-    "run_id": "bootstrap-shangshu-2026-06-01",
-    "work_id": "shangshu",
-    "stage": "bootstrap",
-    "status": "completed",
-    "notes": "Rebuilt Shangshu with ChineseNotes Chinese text plus clean Wikisource-rendered SBE English witness; corrupted ChineseNotes English blocks remain staging-only."
   },
   {
     "run_id": "bootstrap-guofeng-zhounan-001-guanju-20260530",
@@ -3742,5 +3727,27 @@
       "song-shangsong-005__legge-sbe-v3-1879"
     ],
     "notes": "Bootstrap Shijing generation for 殷武 with 6 exact stanza alignments."
+  },
+  {
+    "run_id": "bootstrap-laozi-20260531",
+    "work_id": "laozi",
+    "timestamp": "2026-05-31T00:00:00+00:00",
+    "method": "bootstrap_laozi_corpus",
+    "status": "complete",
+    "notes": "Improved Laozi fine-grained alignment using grouped monotonic auto-alignment plus curated overrides for chapters that failed the automatic QC heuristics."
+  },
+  {
+    "run_id": "bootstrap-shangshu-2026-06-01",
+    "work_id": "shangshu",
+    "stage": "bootstrap",
+    "status": "completed",
+    "notes": "Rebuilt Shangshu with ChineseNotes Chinese text plus clean Wikisource-rendered SBE English witness; corrupted ChineseNotes English blocks remain staging-only."
+  },
+  {
+    "run_id": "bootstrap-yijing-2026-06-01",
+    "work_id": "yijing",
+    "stage": "bootstrap",
+    "status": "completed",
+    "notes": "Promoted Yijing from ChineseNotes as a 64-hexagram active work using structural judgment-plus-line parsing and commentary exclusion."
   }
 ]

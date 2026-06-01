@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-039-jian__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-039-jian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 39 judgment</prop>
+      <prop type="x-translation-ref">易經 39 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蹇，利西南，不利東北；利見大人，貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In (the state indicated by) Jian advantage will be found in the south-west, and the contrary in the north-east. It will be advantageous (also) to meet with the great man. (In these circumstances), with firmness and correctness, there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-039-jian__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-039-jian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 39 初六</prop>
+      <prop type="x-translation-ref">易經 39 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：往蹇，來譽。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>From the first SIX, divided, we learn that advance (on the part of its subject) will lead to (greater) difficulties, while remaining stationary will afford ground for praise.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-039-jian__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-039-jian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 39 六二</prop>
+      <prop type="x-translation-ref">易經 39 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：王臣蹇蹇，匪躬之故。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows the minister of the king struggling with difficulty on difficulty, and not with a view to his own advantage.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-039-jian__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-039-jian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 39 九三</prop>
+      <prop type="x-translation-ref">易經 39 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：往蹇來反。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows its subject advancing, (but only) to (greater) difficulties. He remains stationary, and returns (to his former associates).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-039-jian__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-039-jian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 39 六四</prop>
+      <prop type="x-translation-ref">易經 39 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：往蹇來連。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows its subject advancing, (but only) to (greater) difficulties. He remains stationary, and unites (with the subject of the line above).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-039-jian__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-039-jian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 39 九五</prop>
+      <prop type="x-translation-ref">易經 39 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：大蹇朋來。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows its subject struggling with the greatest difficulties, while friends are coming to help him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-039-jian__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-039-jian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 39 上六</prop>
+      <prop type="x-translation-ref">易經 39 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：往蹇來碩，吉；利見大人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost SIX, divided, shows its subject going forward, (only to increase) the difficulties, while his remaining stationary will be (productive of) great (merit). There will be good fortune, and it will be advantageous to meet with the great man.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

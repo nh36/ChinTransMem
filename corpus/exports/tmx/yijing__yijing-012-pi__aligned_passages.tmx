@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-012-pi__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-012-pi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 12 judgment</prop>
+      <prop type="x-translation-ref">易經 12 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>否之匪人，不利君子貞，大往小來。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In Pi there is the want of good understanding between the (different classes of) men, and its indication is unfavourable to the firm and correct course of the superior man. We see in it the great gone and the little come.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-012-pi__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-012-pi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 12 初六</prop>
+      <prop type="x-translation-ref">易經 12 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六，拔茅茹以其彙，貞吉。亨。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, suggests the idea of grass pulled up, and bringing with it other stalks with whose roots it is connected. With firm correctness (on the part of its subject), there will be good fortune and progress.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-012-pi__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-012-pi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 12 六二</prop>
+      <prop type="x-translation-ref">易經 12 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二，包承，小人吉，大人否。亨。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows its subject patient and obedient. To the small man (comporting himself so) there will be good fortune. If the great man (comport himself) as the distress and obstruction require, he will have success.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-012-pi__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-012-pi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 12 六三</prop>
+      <prop type="x-translation-ref">易經 12 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三，包羞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows its subject ashamed of the purpose folded (in his breast).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-012-pi__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-012-pi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 12 九四</prop>
+      <prop type="x-translation-ref">易經 12 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四，有命，无咎，疇離祉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject acting in accordance with the ordination (of Heaven), and committing no error. His companions will come and share in his happiness.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-012-pi__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-012-pi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 12 九五</prop>
+      <prop type="x-translation-ref">易經 12 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五，休否，大人吉。其亡其亡，繫于苞桑。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the fifth NINE, undivided, we see him who brings the distress and obstruction to a close,--the great man and fortunate. (But let him say), 'We may perish! We may perish!' (so shall the state of things become firm, as if) bound to a clump of bushy mulberry trees.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-012-pi__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-012-pi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 12 上九</prop>
+      <prop type="x-translation-ref">易經 12 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九，傾否，先否後喜。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, shows the overthrow (and removal of) the condition of distress and obstruction. Before this there was that condition. Hereafter there will be joy.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

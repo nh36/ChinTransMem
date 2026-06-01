@@ -115,11 +115,26 @@
     {
       "chintransmem_work_id": "yijing",
       "chinesenotes_paths": ["data/corpus/yijing.csv", "corpus/yijing/"],
-      "status": "needs_review",
-      "english_coverage": "unknown",
-      "chinese_coverage": "unknown",
-      "preferred_use": "metadata_only",
-      "notes": "Not yet staged; keep as a likely follow-on pilot candidate after Laozi if the boundary model looks clean."
+      "status": "already_ingested",
+      "english_coverage": "complete",
+      "chinese_coverage": "complete",
+      "preferred_use": "base_text",
+      "generated_summary": {
+        "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+        "total_section_count": 64,
+        "active_section_count": 64,
+        "exportable_section_count": 64,
+        "exact_alignment_count": 450,
+        "alignment_granularity_counts": {
+          "block": 450
+        },
+        "curated_override_section_count": 0,
+        "fallback_section_count": 0,
+        "blocked_section_count": 0,
+        "remaining_drift_issue_count": 0,
+        "english_witness": "ChineseNotes bilingual mirror of James Legge, Book of Changes (1882)"
+      },
+      "notes": "Promoted from ChineseNotes `data/corpus/yijing.csv` at upstream commit `1f6b1d3e7a40b6886a4b943c898125639e993544`: 64 active hexagrams, 450 exact alignments, 450 block alignments, 0 curated override sections, 0 section-level fallbacks, 0 blocked sections, 0 remaining corruption issues, 0 remaining drift issues, and Ten Wings commentary and trigram headings excluded from exportable translation-memory text."
     },
     {
       "chintransmem_work_id": "mozi",

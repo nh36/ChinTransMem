@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-014-da-you__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-014-da-you</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 14 judgment</prop>
+      <prop type="x-translation-ref">易經 14 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>大有，元亨。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Da You indicates that, (under the circumstances which it implies), there will be great progress and success.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-014-da-you__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-014-da-you</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 14 初九</prop>
+      <prop type="x-translation-ref">易經 14 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：无交害，匪咎，艱則无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the first NINE, undivided, there is no approach to what is injurious, and there is no error. Let there be a realisation of the difficulty (and danger of the position), and there will be no error (to the end).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-014-da-you__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-014-da-you</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 14 九二</prop>
+      <prop type="x-translation-ref">易經 14 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：大車以載，有攸往，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the second NINE, undivided, we have a large waggon with its load. In whatever direction advance is made, there will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-014-da-you__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-014-da-you</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 14 九三</prop>
+      <prop type="x-translation-ref">易經 14 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：公用亨于天子，小人弗克。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows us a feudal prince presenting his offerings to the Son of Heaven. A small man would be unequal (to such a duty).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-014-da-you__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-014-da-you</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 14 九四</prop>
+      <prop type="x-translation-ref">易經 14 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：匪其彭，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject keeping his great resources under restraint. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-014-da-you__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-014-da-you</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 14 六五</prop>
+      <prop type="x-translation-ref">易經 14 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：厥孚交如，威如；吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows the sincerity of its subject reciprocated by that of all the others (represented in the hexagram). Let him display a proper majesty, and there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-014-da-you__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-014-da-you</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 14 上九</prop>
+      <prop type="x-translation-ref">易經 14 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：自天佑之，吉无不利。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost NINE, undivided, shows its subject with help accorded to him from Heaven. There will be good fortune, advantage in every respect.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

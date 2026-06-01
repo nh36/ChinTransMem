@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-051-zhen__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-051-zhen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 51 judgment</prop>
+      <prop type="x-translation-ref">易經 51 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>震，亨。震來虩虩，笑言啞啞。震驚百里，不喪匕鬯。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Zhen gives the intimation of ease and development. When (the time of) movement (which it indicates) comes, (the subject of the hexagram) will be found looking out with apprehension, and yet smiling and talking cheerfully. When the movement (like a crash of thunder) terrifies all within a hundred Li, he will be (like the sincere worshipper) who is not (startled into) letting go his ladle and (cup of) sacrificial spirits.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-051-zhen__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-051-zhen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 51 初九</prop>
+      <prop type="x-translation-ref">易經 51 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：震來虩虩，后笑言啞啞，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows its subject, when the movement approaches, looking out and around with apprehension, and afterwards smiling and talking cheerfully. There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-051-zhen__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-051-zhen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 51 六二</prop>
+      <prop type="x-translation-ref">易經 51 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：震來厲，億喪貝，躋于九陵，勿逐，七日得。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows its subject, when the movement approaches, in a position of peril. He judges it better to let go the articles (in his possession), and to ascend a very lofty height. There is no occasion for him to pursue after (the things he has let go); in seven days he will find them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-051-zhen__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-051-zhen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 51 六三</prop>
+      <prop type="x-translation-ref">易經 51 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：震蘇蘇，震行无眚。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third six, divided, shows its subject distraught amid the startling movements going on. If those movements excite him to (right) action, there will be no mistake.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-051-zhen__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-051-zhen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 51 九四</prop>
+      <prop type="x-translation-ref">易經 51 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：震遂泥。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject, amid the startling movements, supinely sinking (deeper) in the mud.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-051-zhen__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-051-zhen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 51 六五</prop>
+      <prop type="x-translation-ref">易經 51 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：震往來厲，億无喪，有事。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows its subject going and coming amidst the startling movements (of the time), and always in peril; but perhaps he will not incur loss, and find business (which he can accomplish).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-051-zhen__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-051-zhen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 51 上六</prop>
+      <prop type="x-translation-ref">易經 51 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：震索索，視矍矍，征凶。震不于其躬，于其鄰，无咎。婚媾有言。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost SIX, divided, shows its subject, amidst the startling movements (of the time), in breathless dismay and looking round him with trembling apprehension. If he take action, there will be evil. If, while the startling movements have not reached his own person and his neighbourhood, (he were to take precautions), there would be no error, though his relatives might (still) speak against him.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

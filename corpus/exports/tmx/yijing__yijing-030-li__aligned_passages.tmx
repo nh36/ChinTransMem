@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-030-li__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-030-li</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 30 judgment</prop>
+      <prop type="x-translation-ref">易經 30 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>離，利貞，亨。畜牝牛，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Li indicates that, (in regard to what it denotes), it will be advantageous to be firm and correct, and that thus there will be free course and success. Let (its subject) also nourish (a docility like that of) the cow, and there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-030-li__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-030-li</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 30 初九</prop>
+      <prop type="x-translation-ref">易經 30 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：履錯然，敬之无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows one ready to move with confused steps. But he treads at the same time reverently, and there will be no mistake.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-030-li__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-030-li</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 30 六二</prop>
+      <prop type="x-translation-ref">易經 30 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：黃離，元吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows its subject in his place in yellow. There will be great good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-030-li__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-030-li</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 30 九三</prop>
+      <prop type="x-translation-ref">易經 30 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：日昃之離，不鼓缶而歌，則大耋之嗟，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows its subject in a position like that of the declining sun. Instead of playing on his instrument of earthenware, and singing to it, he utters the groans of an old man of eighty. There will be evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-030-li__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-030-li</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 30 九四</prop>
+      <prop type="x-translation-ref">易經 30 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：突如其來如，焚如，死如，棄如。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows the manner of its subject's coming. How abrupt it is, as with fire, with death, to be rejected (by all)!</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-030-li__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-030-li</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 30 六五</prop>
+      <prop type="x-translation-ref">易經 30 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：出涕沱若，戚嗟若，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows its subject as one with tears flowing in torrents, and groaning in sorrow. There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-030-li__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-030-li</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 30 上九</prop>
+      <prop type="x-translation-ref">易經 30 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：王用出征，有嘉折首，獲其匪丑，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost NINE, undivided, shows the king employing its subject in his punitive expeditions. Achieving admirable (merit), he breaks (only) the chiefs (of the rebels). Where his prisoners were not their associates, he does not punish. There will be no error.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

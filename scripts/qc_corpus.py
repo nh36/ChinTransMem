@@ -55,6 +55,55 @@ KNOWN_SHANGSHU_BAD_FORMS = (
     "1 can",
 )
 SHANGSHU_ALIGNMENT_ANCHORS_PATH = REPO_ROOT / "metadata" / "shangshu_alignment_anchors.yml"
+YIJING_COMMENTARY_MARKERS = (
+    "the superior man, in accordance with this",
+    "what is the meaning of the words under",
+    "the trigram representing",
+    "this shows",
+)
+YIJING_NOTICE_MARKERS = (
+    "english translation:",
+    "public domain",
+    "legge 1882",
+)
+
+
+def _yijing_line_position_from_chinese(source_text: str) -> str | None:
+    if source_text.startswith(("初九", "初六")):
+        return "first"
+    if source_text.startswith(("九二", "六二")):
+        return "second"
+    if source_text.startswith(("九三", "六三")):
+        return "third"
+    if source_text.startswith(("九四", "六四")):
+        return "fourth"
+    if source_text.startswith(("九五", "六五")):
+        return "fifth"
+    if source_text.startswith(("上九", "上六")):
+        return "top"
+    if source_text.startswith(("用九", "用六")):
+        return "use"
+    return None
+
+
+def _yijing_line_position_from_translation(translation_text: str) -> str | None:
+    lowered = " ".join(translation_text.casefold().split())
+    prefix = lowered[:80]
+    if "use of the number" in lowered:
+        return "use"
+    if "topmost" in prefix or "the sixth" in prefix or "in the sixth" in prefix:
+        return "top"
+    if "fifth" in prefix:
+        return "fifth"
+    if "fourth" in prefix:
+        return "fourth"
+    if "third" in prefix:
+        return "third"
+    if "second" in prefix:
+        return "second"
+    if "first" in prefix or "lowest" in prefix:
+        return "first"
+    return None
 
 
 def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
@@ -67,7 +116,7 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
         "non_grouped_segmentation_mismatch_rows": [],
         "alignment_drift_issues": [],
     }
-    if work_id not in {"laozi", "shangshu"}:
+    if work_id not in {"laozi", "shangshu", "yijing"}:
         return {**issues, "hard_failure_count": 0}
     for row in rows:
         source_text = str(row.get("chinese_text", "")).strip()
@@ -76,24 +125,25 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
         source_segment_count = int(row.get("source_segment_count", 0) or 0)
         target_segment_count = int(row.get("target_segment_count", 0) or 0)
         alignment_granularity = str(row.get("alignment_granularity", "") or "")
-        if (
+        if work_id in {"laozi", "shangshu"} and (
             source_segment_count == 1
             and target_segment_count == 1
-            and len(ENGLISH_CLAUSE_MARKER_RE.findall(normalized_translation)) >= (2 if work_id == "laozi" else 3)
+            and len(ENGLISH_CLAUSE_MARKER_RE.findall(normalized_translation))
+            >= (2 if work_id == "laozi" else (3 if work_id == "shangshu" else 4))
             and len(re.findall(r"[。；！？]", source_text)) <= 1
             and len(re.findall(r"[A-Za-z']+", normalized_translation)) >= 16
-            and len(CJK_RE.findall(source_text)) <= (12 if work_id == "laozi" else 16)
+            and len(CJK_RE.findall(source_text)) <= (12 if work_id == "laozi" else (16 if work_id == "shangshu" else 20))
         ):
             issues["false_precision_multi_clause_targets"].append(str(row["alignment_id"]))
-        if source_segment_count == 1 and target_segment_count == 1 and (
+        if work_id in {"laozi", "shangshu"} and source_segment_count == 1 and target_segment_count == 1 and (
             source_text.endswith(("?", "？")) != translation_text.endswith("?")
         ):
             issues["question_punctuation_mismatches"].append(str(row["alignment_id"]))
-        if (
+        if work_id in {"laozi", "shangshu"} and (
             source_segment_count == 1
             and target_segment_count == 1
-            and len(re.findall(r"[A-Za-z']+", translation_text)) >= (28 if work_id == "laozi" else 40)
-            and len(CJK_RE.findall(source_text)) <= (8 if work_id == "laozi" else 18)
+            and len(re.findall(r"[A-Za-z']+", translation_text)) >= (28 if work_id == "laozi" else (40 if work_id == "shangshu" else 50))
+            and len(CJK_RE.findall(source_text)) <= (8 if work_id == "laozi" else (18 if work_id == "shangshu" else 24))
         ):
             issues["suspicious_length_imbalance_rows"].append(str(row["alignment_id"]))
         if alignment_granularity != "grouped" and source_segment_count != target_segment_count:
@@ -111,6 +161,18 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
             for issue in section_issues:
                 issues["alignment_drift_issues"].append(
                     f"{section_id}:{issue['anchor_id']}:{issue['issue']}"
+                )
+    if work_id == "yijing":
+        for row in rows:
+            source_text = str(row.get("chinese_text", "")).strip()
+            translation_text = str(row.get("translation_text", "")).strip()
+            source_position = _yijing_line_position_from_chinese(source_text)
+            if source_position is None:
+                continue
+            target_position = _yijing_line_position_from_translation(translation_text)
+            if source_position != target_position:
+                issues["alignment_drift_issues"].append(
+                    f"{row['section_id']}:{row['alignment_id']}:line_position_mismatch:{source_position}->{target_position or 'none'}"
                 )
     hard_failure_count = sum(1 for value in issues.values() if value)
     return {**issues, "hard_failure_count": hard_failure_count}
@@ -166,6 +228,13 @@ def run_text_integrity_checks(work_id: str) -> dict[str, object]:
                 and has_probable_leading_fragment(str(next_row.get("translation_text", "")).strip())
             ):
                 issues["translation_with_truncated_fragment_rows"].append(alignment_id)
+        if work_id == "yijing":
+            if detect_probable_ocr_corruption(translation_text):
+                issues["translation_with_ocr_corruption_rows"].append(alignment_id)
+            if any(marker in lowered for marker in YIJING_NOTICE_MARKERS):
+                issues["translation_with_notice_sections"].add(section_id)
+            if any(marker in lowered for marker in YIJING_COMMENTARY_MARKERS):
+                issues["translation_with_commentary_sections"].add(section_id)
     issue_lists = {key: sorted(value) for key, value in issues.items()}
     hard_failure_count = sum(1 for value in issue_lists.values() if value)
     return {

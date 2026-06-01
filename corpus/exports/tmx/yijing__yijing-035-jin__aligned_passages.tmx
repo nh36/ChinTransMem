@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-035-jin__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-035-jin</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 35 judgment</prop>
+      <prop type="x-translation-ref">易經 35 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>晉，康侯用錫馬蕃庶，晝日三接。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In Jin we see a prince who secures the tranquillity (of the people) presented on that account with numerous horses (by the king), and three times in a day received at interviews.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-035-jin__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-035-jin</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 35 初六</prop>
+      <prop type="x-translation-ref">易經 35 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：晉如，摧如，貞吉。罔孚，裕无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows one wishing to advance, and (at the same time) kept back. Let him be firm and correct, and there will be good fortune. If trust be not reposed in him, let him maintain a large and generous mind, and there will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-035-jin__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-035-jin</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 35 六二</prop>
+      <prop type="x-translation-ref">易經 35 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：晉如，愁如，貞吉。受茲介福，于其王母。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows its subject with the appearance of advancing, and yet of being sorrowful. If he be firm and correct, there will be good fortune. He will receive this great blessing from his grandmother.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-035-jin__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-035-jin</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 35 六三</prop>
+      <prop type="x-translation-ref">易經 35 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：眾允，悔亡。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows its subject trusted by all (around him). All occasion for repentance will disappear.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-035-jin__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-035-jin</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 35 九四</prop>
+      <prop type="x-translation-ref">易經 35 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：晉如碩鼠，貞厲。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject with the appearance of advancing, but like a marmot. However firm and correct he may be, the position is one of peril.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-035-jin__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-035-jin</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 35 六五</prop>
+      <prop type="x-translation-ref">易經 35 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：悔亡，失得勿恤，往吉无不利。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows how all occasion for repentance disappears (from its subject). (But) let him not concern himself about whether he shall fail or succeed. To advance will be fortunate, and in every way advantageous.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-035-jin__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-035-jin</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 35 上九</prop>
+      <prop type="x-translation-ref">易經 35 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：晉其角，維用伐邑，厲吉无咎，貞吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost NINE, undivided, shows one advancing his horns. But he only uses them to punish the (rebellious people of his own) city. The position is perilous, but there will be good fortune. (Yet) however firm and correct he may be, there will be occasion for regret.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

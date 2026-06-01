@@ -1,0 +1,1057 @@
+{
+  "work_id": "yijing",
+  "summary": {
+    "total_section_count": 64,
+    "active_section_count": 64,
+    "exportable_section_count": 64,
+    "exact_alignment_count": 450,
+    "alignment_granularity_counts": {
+      "block": 450
+    },
+    "automatic_alignment_count": 450,
+    "curated_override_section_count": 0,
+    "fallback_section_count": 0,
+    "blocked_section_count": 0,
+    "english_witness": "ChineseNotes bilingual mirror of James Legge, Book of Changes (1882)",
+    "work_state": "active",
+    "pre_repair_corruption_issue_count": 0,
+    "corrected_corruption_issue_count": 0,
+    "remaining_corruption_issue_count": 0,
+    "drift_checks_run": 64,
+    "drift_issue_count_before_repair": 0,
+    "repaired_drift_issue_count": 0,
+    "remaining_drift_issue_count": 0,
+    "hard_failure_count": 0,
+    "commentary_exclusion_count": 64,
+    "trigram_heading_exclusion_count": 63
+  },
+  "curated_override_sections": [],
+  "fallback_sections": [],
+  "blocked_sections": [],
+  "sections": [
+    {
+      "section_id": "yijing-001-qian",
+      "title": "乾 Qian",
+      "decision": "export",
+      "exact_alignment_count": 8,
+      "alignment_granularity_counts": {
+        "block": 8
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-002-kun",
+      "title": "坤 Kun",
+      "decision": "export",
+      "exact_alignment_count": 8,
+      "alignment_granularity_counts": {
+        "block": 8
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-003-zhun",
+      "title": "屯 Zhun",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-004-meng",
+      "title": "蒙 Meng",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-005-xu",
+      "title": "需 Xu",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-006-song",
+      "title": "訟 Song",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-007-shi",
+      "title": "師 Shi",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-008-bi",
+      "title": "比 Bi",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-009-xiao-xu",
+      "title": "小畜 Xiao Xu",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-010-lu",
+      "title": "履 Lu",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-011-tai",
+      "title": "泰 Tai",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-012-pi",
+      "title": "否 Pi",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-013-tong-ren",
+      "title": "同人 Tong Ren",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-014-da-you",
+      "title": "大有 Da You",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-015-qian",
+      "title": "謙 Qian",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-016-yu",
+      "title": "豫 Yu",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-017-sui",
+      "title": "隨 Sui",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-018-gu",
+      "title": "蠱 Gu",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": false
+    },
+    {
+      "section_id": "yijing-019-lin",
+      "title": "臨 Lin",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-020-guan",
+      "title": "觀 Guan",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-021-shi-he",
+      "title": "噬嗑 Shi He",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-022-bi",
+      "title": "賁 Bi",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-023-bo",
+      "title": "剝 Bo",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-024-fu",
+      "title": "復 Fu",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-025-wu-wang",
+      "title": "无妄 Wu Wang",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-026-da-xu",
+      "title": "大畜 Da Xu",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-027-yi",
+      "title": "頤 Yi",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-028-da-guo",
+      "title": "大過 Da Guo",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-029-kan",
+      "title": "坎 Kan",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-030-li",
+      "title": "離 Li",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-031-xian",
+      "title": "咸 Xian",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-032-heng",
+      "title": "恆 Heng",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-033-dun",
+      "title": "遯 Dun",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-034-da-zhuang",
+      "title": "大壯 Da Zhuang",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-035-jin",
+      "title": "晉 Jin",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-036-ming-yi",
+      "title": "明夷 Ming Yi",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-037-jia-ren",
+      "title": "家人 Jia Ren",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-038-kui",
+      "title": "睽 Kui",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-039-jian",
+      "title": "蹇 Jian",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-040-jie",
+      "title": "解 Jie",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-041-sun",
+      "title": "損 Sun",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-042-yi",
+      "title": "益 Yi",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-043-guai",
+      "title": "夬 Guai",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-044-gou",
+      "title": "姤 Gou",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-045-cui",
+      "title": "萃 Cui",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-046-sheng",
+      "title": "升 Sheng",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-047-kun",
+      "title": "困 Kun",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-048-jing",
+      "title": "井 Jing",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-049-ge",
+      "title": "革 Ge",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-050-ding",
+      "title": "鼎 Ding",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-051-zhen",
+      "title": "震 Zhen",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-052-gen",
+      "title": "艮 Gen",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-053-jian",
+      "title": "漸 Jian",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-054-gui-mei",
+      "title": "歸妹 Gui Mei",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-055-feng",
+      "title": "豐 Feng",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-056-lu",
+      "title": "旅 Lu",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-057-xun",
+      "title": "巽 Xun",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-058-dui",
+      "title": "兌 Dui",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-059-huan",
+      "title": "渙 Huan",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-060-jie",
+      "title": "節 Jie",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-061-zhong-fu",
+      "title": "中孚 Zhong Fu",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-062-xiao-guo",
+      "title": "小過 Xiao Guo",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-063-ji-ji",
+      "title": "既濟 Ji Ji",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    },
+    {
+      "section_id": "yijing-064-wei-ji",
+      "title": "未濟 Wei Ji",
+      "decision": "export",
+      "exact_alignment_count": 7,
+      "alignment_granularity_counts": {
+        "block": 7
+      },
+      "curated_override_used": false,
+      "fallback_used": false,
+      "drift_issue_count_before_repair": 0,
+      "remaining_drift_issue_count": 0,
+      "corruption_issue_count": 0,
+      "commentary_present_and_excluded": true,
+      "trigram_heading_present_and_excluded": true
+    }
+  ]
+}

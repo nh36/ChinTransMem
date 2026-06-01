@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-043-guai__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-043-guai</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 43 judgment</prop>
+      <prop type="x-translation-ref">易經 43 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>夬，揚于王庭，孚號，有厲，告自邑，不利即戎，利有攸往。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Guai requires (in him who would fulfil its meaning) the exhibition (of the culprit's guilt) in the royal court, and a sincere and earnest appeal (for sympathy and support), with a consciousness of the peril (involved in cutting off the criminal). He should (also) make announcement in his own city, and show that it will not be well to have recourse at once to arms. (In this way) there will be advantage in whatever he shall go forward to.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-043-guai__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-043-guai</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 43 初九</prop>
+      <prop type="x-translation-ref">易經 43 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：壯于前趾，往不勝為吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows its subject in (the pride of) strength advancing with his toes. He goes forward, but will not succeed. There will be ground for blame.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-043-guai__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-043-guai</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 43 九二</prop>
+      <prop type="x-translation-ref">易經 43 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：惕號，莫夜有戎，勿恤。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows its subject full of apprehension and appealing (for sympathy and help). Late at night hostile measures may be (taken against him), but he need not be anxious about them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-043-guai__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-043-guai</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 43 九三</prop>
+      <prop type="x-translation-ref">易經 43 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：壯于頄，有凶。君子夬夬，獨行遇雨，若濡有慍，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows its subject (about to advance) with strong (and determined) looks. There will be evil. (But) the superior man, bent on cutting off (the criminal), will walk alone and encounter the rain, (till he be hated by his proper associates) as if he were contaminated (by the others). (In the end) there will be no blame against him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-043-guai__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-043-guai</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 43 九四</prop>
+      <prop type="x-translation-ref">易經 43 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：臀无膚，其行次且。牽羊悔亡，聞言不信。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows one from whose buttocks the skin has been stripped, and who walks slowly and with difficulty. (If he could act) like. a sheep led (after its companions), occasion for repentance would disappear. But though he hear these words, he will not believe them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-043-guai__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-043-guai</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 43 九五</prop>
+      <prop type="x-translation-ref">易經 43 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：莧陸夬夬，中行无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows (the small men like) a bed of purslain, which ought to be uprooted with the utmost determination. (The subject of the line having such determination), his action, in harmony with his central position, will lead to no error or blame.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-043-guai__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-043-guai</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 43 上六</prop>
+      <prop type="x-translation-ref">易經 43 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：无號，終有凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth SIX, divided, shows its subject without any (helpers) on whom to call. His end will be evil.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

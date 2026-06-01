@@ -18,6 +18,14 @@ SECTIONS_PATH = METADATA_DIR / "sections.yml"
 SOURCES_PATH = METADATA_DIR / "sources.yml"
 ALIASES_PATH = METADATA_DIR / "romanization_aliases.yml"
 INGESTION_LOG_PATH = METADATA_DIR / "ingestion_log.yml"
+SUPPORTED_BOOTSTRAP_WORK_IDS = [
+    "lunyu",
+    "mengzi",
+    "shijing",
+    "laozi",
+    "shangshu",
+    "yijing",
+]
 
 
 def _load_json_list(path: Path) -> list[dict[str, Any]]:
@@ -167,6 +175,20 @@ def bootstrap_work(work_id: str, *, skip_fetch: bool = False) -> dict[str, Any]:
             "aliases": list(manifest.get("romanization_aliases", [])),
             "ingestion_log": list(manifest.get("ingestion_log", [])),
         }
+    if work_id == "yijing":
+        from bootstrap_yijing_corpus import bootstrap_corpus as bootstrap_yijing_corpus
+
+        summary = bootstrap_yijing_corpus(skip_fetch=skip_fetch)
+        manifest = load_work_manifest(work_id)
+        return {
+            "work_id": work_id,
+            "summary": summary,
+            "manifest": manifest,
+            "sections": _manifest_sections(manifest),
+            "sources": list(manifest.get("sources", [])),
+            "aliases": list(manifest.get("romanization_aliases", [])),
+            "ingestion_log": list(manifest.get("ingestion_log", [])),
+        }
 
     manifest = load_work_manifest(work_id)
 
@@ -183,14 +205,21 @@ def bootstrap_work(work_id: str, *, skip_fetch: bool = False) -> dict[str, Any]:
 
 def bootstrap_all_manifests(*, skip_fetch: bool = False, work_id: str | None = None) -> dict[str, Any]:
     work_manifests = load_work_manifests()
-    work_ids = [str(manifest["work_id"]) for manifest in work_manifests]
+    manifest_work_ids = [str(manifest["work_id"]) for manifest in work_manifests]
+    work_ids: list[str] = []
+    for candidate in SUPPORTED_BOOTSTRAP_WORK_IDS + manifest_work_ids:
+        if candidate not in work_ids:
+            work_ids.append(candidate)
     if work_id is not None and work_id not in work_ids:
         raise KeyError(f"Unknown work_id: {work_id}")
+    manifest_by_work_id = {str(manifest["work_id"]): manifest for manifest in work_manifests}
     bootstrapped: list[dict[str, Any]] = []
-    for manifest in work_manifests:
-        current_work_id = str(manifest["work_id"])
+    for current_work_id in work_ids:
+        manifest = manifest_by_work_id.get(current_work_id)
         if work_id is None or current_work_id == work_id:
             bootstrapped.append(bootstrap_work(current_work_id, skip_fetch=skip_fetch))
+            continue
+        if manifest is None:
             continue
         bootstrapped.append(
             {

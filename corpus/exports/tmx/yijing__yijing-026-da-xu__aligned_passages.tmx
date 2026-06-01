@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-026-da-xu__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-026-da-xu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 26 judgment</prop>
+      <prop type="x-translation-ref">易經 26 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>大畜，利貞，不家食吉，利涉大川。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Under the conditions of Da Xu it will be advantageous to be firm and correct. (If its subject do not seek to) enjoy his revenues in his own family (without taking service at court), there will be good fortune. It will be advantageous for him to cross the great stream.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-026-da-xu__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-026-da-xu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 26 初九</prop>
+      <prop type="x-translation-ref">易經 26 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：有厲利已。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows its subject in a position of peril. It will be advantageous for him to stop his advance.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-026-da-xu__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-026-da-xu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 26 九二</prop>
+      <prop type="x-translation-ref">易經 26 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：輿說輻。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows a carriage with the strap under it removed.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-026-da-xu__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-026-da-xu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 26 九三</prop>
+      <prop type="x-translation-ref">易經 26 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：良馬逐，利艱貞。曰閑輿衛，利有攸往。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows its subject urging his way with good horses. It will be advantageous for him to realise the difficulty (of his course), and to be firm and correct, exercising himself daily in his charioteering and methods of defence; then there will be advantage in whatever direction he may advance.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-026-da-xu__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-026-da-xu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 26 六四</prop>
+      <prop type="x-translation-ref">易經 26 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：童豕之牿，元吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth six, divided, shows the young bull, (and yet) having the piece of wood over his horns. There will be great good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-026-da-xu__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-026-da-xu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 26 六五</prop>
+      <prop type="x-translation-ref">易經 26 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：豶豕之牙，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth six, divided, shows the teeth of a castrated hog. There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-026-da-xu__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-026-da-xu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 26 上九</prop>
+      <prop type="x-translation-ref">易經 26 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：何天之衢，亨。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, shows its subject (as) in command of the firmament of heaven. There will be progress.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

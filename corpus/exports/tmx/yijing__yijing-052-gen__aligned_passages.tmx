@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-052-gen__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-052-gen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 52 judgment</prop>
+      <prop type="x-translation-ref">易經 52 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>艮，艮其背，不獲其身，行其庭，不見其人，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When one's resting is like that of the back, and he loses all consciousness of self; when he walks in his courtyard, and does not see any (of the persons) in it,--there will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-052-gen__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-052-gen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 52 初六</prop>
+      <prop type="x-translation-ref">易經 52 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：艮其趾，无咎，利永貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows its subject keeping his toes at rest. There will be no error; but it will be advantageous for him to be persistently firm and correct.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-052-gen__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-052-gen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 52 六二</prop>
+      <prop type="x-translation-ref">易經 52 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：艮其腓，不拯其隨，其心不快。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows its subject keeping the calves of his legs at rest. He cannot help (the subject of the line above) whom he follows, and is dissatisfied in his mind.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-052-gen__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-052-gen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 52 九三</prop>
+      <prop type="x-translation-ref">易經 52 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：艮其限，列其夤，厲薰心。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows its subject keeping his loins at rest, and separating the ribs (from the body below). The situation is perilous, and the heart glows with suppressed excitement.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-052-gen__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-052-gen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 52 六四</prop>
+      <prop type="x-translation-ref">易經 52 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：艮其身，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows its subject keeping his trunk at rest. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-052-gen__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-052-gen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 52 六五</prop>
+      <prop type="x-translation-ref">易經 52 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：艮其輔，言有序，悔亡。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S. The fifth SIX, divided, shows its subject keeping his jawbones at rest, so that his words are (all) orderly. Occasion for repentance will disappear.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-052-gen__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-052-gen</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 52 上九</prop>
+      <prop type="x-translation-ref">易經 52 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：敦艮，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, shows its subject devotedly maintaining his restfulness. There will be good fortune.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-021-shi-he__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-021-shi-he</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 21 judgment</prop>
+      <prop type="x-translation-ref">易經 21 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>噬嗑，亨。利用獄。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Shi He indicates successful progress (in the condition of things which it supposes). It will be advantageous to use legal constraints.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-021-shi-he__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-021-shi-he</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 21 初九</prop>
+      <prop type="x-translation-ref">易經 21 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：屨校滅趾，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows one with his feet in the stocks and deprived of his toes. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-021-shi-he__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-021-shi-he</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 21 六二</prop>
+      <prop type="x-translation-ref">易經 21 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：噬膚滅鼻，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows one biting through the soft flesh, and (going on to) bite off the nose. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-021-shi-he__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-021-shi-he</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 21 六三</prop>
+      <prop type="x-translation-ref">易經 21 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：噬臘肉，遇毒；小吝，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows one gnawing dried flesh, and meeting with what is disagreeable. There will be occasion for some small regret, but no (great) error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-021-shi-he__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-021-shi-he</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 21 九四</prop>
+      <prop type="x-translation-ref">易經 21 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：噬乾胏，得金矢，利艱貞，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows one gnawing the flesh dried on the bone, and getting the pledges of money and arrows. It will be advantageous to him to realise the difficulty of his task and be firm,--in which case there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-021-shi-he__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-021-shi-he</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 21 六五</prop>
+      <prop type="x-translation-ref">易經 21 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：噬乾肉，得黃金，貞厲，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows one gnawing at dried flesh, and finding the yellow gold. Let him be firm and correct, realising the peril (of his position). There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-021-shi-he__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-021-shi-he</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 21 上九</prop>
+      <prop type="x-translation-ref">易經 21 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：何校滅耳，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, shows one wearing the cangue, and deprived of his ears. There will be evil.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

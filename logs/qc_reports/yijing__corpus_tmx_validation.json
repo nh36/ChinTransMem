@@ -1,0 +1,592 @@
+{
+  "status": "pass",
+  "work_id": "yijing",
+  "section_count": 64,
+  "sections": [
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-001-qian__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-001-qian",
+      "tu_count": 8,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-002-kun__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-002-kun",
+      "tu_count": 8,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-003-zhun__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-003-zhun",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-004-meng__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-004-meng",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-005-xu__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-005-xu",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-006-song__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-006-song",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-007-shi__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-007-shi",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-008-bi__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-008-bi",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-009-xiao-xu__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-009-xiao-xu",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-010-lu__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-010-lu",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-011-tai__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-011-tai",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-012-pi__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-012-pi",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-013-tong-ren__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-013-tong-ren",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-014-da-you__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-014-da-you",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-015-qian__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-015-qian",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-016-yu__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-016-yu",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-017-sui__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-017-sui",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-018-gu__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-018-gu",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-019-lin__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-019-lin",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-020-guan__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-020-guan",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-021-shi-he__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-021-shi-he",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-022-bi__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-022-bi",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-023-bo__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-023-bo",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-024-fu__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-024-fu",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-025-wu-wang__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-025-wu-wang",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-026-da-xu__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-026-da-xu",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-027-yi__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-027-yi",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-028-da-guo__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-028-da-guo",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-029-kan__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-029-kan",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-030-li__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-030-li",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-031-xian__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-031-xian",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-032-heng__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-032-heng",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-033-dun__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-033-dun",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-034-da-zhuang__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-034-da-zhuang",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-035-jin__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-035-jin",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-036-ming-yi__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-036-ming-yi",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-037-jia-ren__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-037-jia-ren",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-038-kui__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-038-kui",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-039-jian__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-039-jian",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-040-jie__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-040-jie",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-041-sun__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-041-sun",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-042-yi__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-042-yi",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-043-guai__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-043-guai",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-044-gou__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-044-gou",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-045-cui__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-045-cui",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-046-sheng__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-046-sheng",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-047-kun__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-047-kun",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-048-jing__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-048-jing",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-049-ge__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-049-ge",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-050-ding__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-050-ding",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-051-zhen__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-051-zhen",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-052-gen__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-052-gen",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-053-jian__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-053-jian",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-054-gui-mei__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-054-gui-mei",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-055-feng__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-055-feng",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-056-lu__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-056-lu",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-057-xun__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-057-xun",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-058-dui__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-058-dui",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-059-huan__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-059-huan",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-060-jie__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-060-jie",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-061-zhong-fu__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-061-zhong-fu",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-062-xiao-guo__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-062-xiao-guo",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-063-ji-ji__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-063-ji-ji",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__yijing-064-wei-ji__aligned_passages.tmx",
+      "work_id": "yijing",
+      "section_id": "yijing-064-wei-ji",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    }
+  ],
+  "corpus": {
+    "status": "pass",
+    "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/yijing__all__aligned_passages.tmx",
+    "work_id": "yijing",
+    "section_id": null,
+    "tu_count": 450,
+    "source_language": "zh-Hant",
+    "target_language": "en"
+  }
+}

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-044-gou__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-044-gou</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 44 judgment</prop>
+      <prop type="x-translation-ref">易經 44 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>姤，女壯，勿用取女。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Gou shows a female who is bold and strong. It will not be good to marry (such) a female.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-044-gou__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-044-gou</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 44 初六</prop>
+      <prop type="x-translation-ref">易經 44 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：系于金柅，貞吉，有攸往，見凶，羸豕踟躅。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows how its subject should be kept (like a carriage) tied and fastened to a metal drag, in which case with firm correctness there will be good fortune. (But) if he move in any direction, evil will appear. He will be (like) a lean pig, which is sure to keep jumping about.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-044-gou__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-044-gou</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 44 九二</prop>
+      <prop type="x-translation-ref">易經 44 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：包有魚，无咎，不利賓。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows its subject with a wallet of fish. There will be no error. But it will not be well to let (the subject of the first line) go forward to the guests.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-044-gou__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-044-gou</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 44 九三</prop>
+      <prop type="x-translation-ref">易經 44 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：臀无膚，其行次且，厲，无大咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows one from whose buttocks the skin has been stripped so that he walks with difficulty. The position is perilous, but there will be no great error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-044-gou__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-044-gou</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 44 九四</prop>
+      <prop type="x-translation-ref">易經 44 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：包无魚，起凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject with his wallet, but no fish in it. This will give rise to evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-044-gou__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-044-gou</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 44 九五</prop>
+      <prop type="x-translation-ref">易經 44 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：以杞包瓜，含章，有隕自天。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, (shows its subject as) a medlar tree overspreading the gourd (beneath it). If he keep his brilliant qualities concealed, (a good issue) will descend (as) from Heaven.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-044-gou__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-044-gou</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 44 上九</prop>
+      <prop type="x-translation-ref">易經 44 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：姤其角，吝，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, shows its subject receiving others on his horns. There will be occasion for regret, but there will be no error.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

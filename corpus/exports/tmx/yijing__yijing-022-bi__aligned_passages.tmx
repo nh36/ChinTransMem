@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-022-bi__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-022-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 22 judgment</prop>
+      <prop type="x-translation-ref">易經 22 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>賁，亨。小利有攸往。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bi indicates that there should be free course (in what it denotes). There will be little advantage (however) if it be allowed to advance (and take the lead).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-022-bi__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-022-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 22 初九</prop>
+      <prop type="x-translation-ref">易經 22 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：賁其趾，舍車而徒。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows one adorning (the way of) his feet. He can discard a carriage and walk on foot.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-022-bi__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-022-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 22 六二</prop>
+      <prop type="x-translation-ref">易經 22 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：賁其須。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows one adorning his beard.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-022-bi__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-022-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 22 九三</prop>
+      <prop type="x-translation-ref">易經 22 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：賁如濡如，永貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows its subject with the appearance of being adorned and bedewed (with rich favours). But let him ever maintain his firm correctness, and there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-022-bi__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-022-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 22 六四</prop>
+      <prop type="x-translation-ref">易經 22 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：賁如皤如，白馬翰如，匪寇婚媾。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows one looking as if adorned, but only in white. As if (mounted on) a white horse, and furnished with wings, (he seeks union with the subject of the first line), while (the intervening third pursues), not as a robber, but intent on a matrimonial alliance.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-022-bi__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-022-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 22 六五</prop>
+      <prop type="x-translation-ref">易經 22 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：賁於丘園，束帛戔戔，吝，終吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows its subject adorned by (the occupants of) the heights and gardens. He bears his roll of silk, small and slight. He may appear stingy; but there will be good fortune in the end.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-022-bi__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-022-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 22 上九</prop>
+      <prop type="x-translation-ref">易經 22 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：白賁，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, shows one with white as his (only) ornament. There will be no error.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

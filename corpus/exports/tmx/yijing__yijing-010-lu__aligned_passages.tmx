@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-010-lu__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-010-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 10 judgment</prop>
+      <prop type="x-translation-ref">易經 10 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>履虎尾，不咥人，亨。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(Lu suggests the idea of) one treading on the tail of a tiger, which does not bite him. There will be progress and success.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-010-lu__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-010-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 10 初九</prop>
+      <prop type="x-translation-ref">易經 10 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九，素履，往无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows its subject treading his accustomed path. If he go forward, there will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-010-lu__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-010-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 10 九二</prop>
+      <prop type="x-translation-ref">易經 10 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二，履道坦坦，幽人貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows its subject treading the path that is level and easy - a quiet and solitary man, to whom, if he be firm and correct, there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-010-lu__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-010-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 10 六三</prop>
+      <prop type="x-translation-ref">易經 10 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三，眇能視，跛能履，履虎尾，咥人，凶。武人為于大君。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows a one-eyed man (who thinks he) can see; a lame man (who thinks he) can walk well; one who treads on the tail of a tiger and is bitten. (All this indicates) ill fortune. We have a (mere) bravo acting the part of a great ruler.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-010-lu__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-010-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 10 九四</prop>
+      <prop type="x-translation-ref">易經 10 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四，履虎尾，愬愬終吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject treading on the tail of a tiger. He becomes full of apprehensive caution, and in the end there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-010-lu__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-010-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 10 九五</prop>
+      <prop type="x-translation-ref">易經 10 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五，夬履，貞厲。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows the resolute tread of its subject. Though he be firm and correct, there will be peril.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-010-lu__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-010-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 10 上九</prop>
+      <prop type="x-translation-ref">易經 10 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九，視履考祥，其旋元吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, tells us to look at (the whole course) that is trodden, and examine the presage which that gives. If it be complete and without failure, there will be great good fortune.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

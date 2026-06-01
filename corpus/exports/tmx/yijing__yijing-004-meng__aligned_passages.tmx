@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-004-meng__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-004-meng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 4 judgment</prop>
+      <prop type="x-translation-ref">易經 4 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蒙，亨。匪我求童蒙，童蒙求我。初筮告，再三瀆，瀆則不告。利貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Meng (indicates that in the case which it presupposes) there will be progress and success. I do not (go and) seek the youthful and inexperienced, but he comes and seeks me. When he shows (the sincerity that marks) the first recourse to divination, I instruct him. If he apply a second and third time, that is troublesome; and I do not instruct the troublesome. There will be advantage in being firm and correct.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-004-meng__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-004-meng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 4 初六</prop>
+      <prop type="x-translation-ref">易經 4 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六，發蒙，利用刑人，用說桎梏，以往吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, (has respect to) the dispelling of ignorance. It will be advantageous to use punishment (for that purpose), and to remove the shackles (from the mind). But going on in that way (of punishment) will give occasion for regret.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-004-meng__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-004-meng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 4 九二</prop>
+      <prop type="x-translation-ref">易經 4 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二，包蒙吉，納婦吉，子克家。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, (shows its subject) exercising forbearance with the ignorant, in which there will be good fortune; and admitting (even the goodness of women, which will also be fortunate. (He may be described also as) a son able to (sustain the burden of) his family.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-004-meng__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-004-meng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 4 六三</prop>
+      <prop type="x-translation-ref">易經 4 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三，勿用取女，見金夫，不有躬，无攸利。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, (seems to say) that one should not marry a woman whose emblem it might be, for that, when she sees a man of wealth, she will not keep her person from him, and in no wise will advantage come from her.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-004-meng__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-004-meng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 4 六四</prop>
+      <prop type="x-translation-ref">易經 4 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四，困蒙，吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, (shows its subject as if) bound in chains of ignorance. There will be occasion for regret.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-004-meng__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-004-meng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 4 六五</prop>
+      <prop type="x-translation-ref">易經 4 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五，童蒙，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows its subject as a simple lad without experience. There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-004-meng__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-004-meng</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 4 上九</prop>
+      <prop type="x-translation-ref">易經 4 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九，擊蒙，不利為寇，利禦寇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the topmost NINE, undivided, we see one smiting the ignorant (youth). But no advantage will come from doing him an injury. Advantage would come from warding off injury from him.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

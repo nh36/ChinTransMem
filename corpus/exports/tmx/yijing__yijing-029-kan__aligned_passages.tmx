@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-029-kan__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-029-kan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 29 judgment</prop>
+      <prop type="x-translation-ref">易經 29 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>坎，習坎，有孚維心，亨。行有尚。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Kan, here repeated, shows the possession of sincerity, through which the mind is. penetrating. Action (in accordance with this) will be of high value.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-029-kan__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-029-kan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 29 初六</prop>
+      <prop type="x-translation-ref">易經 29 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：習坎，入于坎窞，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows its subject in the double defile, and (yet) entering a cavern within it. There will be evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-029-kan__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-029-kan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 29 九二</prop>
+      <prop type="x-translation-ref">易經 29 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：坎有險，求小得。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows its subject in all the peril of the defile. He will, however, get a little (of the deliverance) that he seeks.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-029-kan__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-029-kan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 29 六三</prop>
+      <prop type="x-translation-ref">易經 29 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：來之坎坎，險且枕，入于坎窞，勿用。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows its subject, whether he comes or goes ( =descends or ascends), confronted by a defile. All is peril to him and unrest. (His endeavours) will lead him into the cavern of the pit. There should be no action (in such a case).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-029-kan__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-029-kan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 29 六四</prop>
+      <prop type="x-translation-ref">易經 29 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：樽酒簋貳，用缶，納約自牖，終无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows its subject (at a feast), with (simply) a bottle of spirits, and a subsidiary basket of rice, while (the cups and bowls) are (only) of earthenware. He introduces his important lessons (as his ruler's) intelligence admits. There will in the end be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-029-kan__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-029-kan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 29 九五</prop>
+      <prop type="x-translation-ref">易經 29 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：坎不盈，只既平，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows the water of the defile not yet full, (so that it might flow away); but order will (soon) be brought about. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-029-kan__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-029-kan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 29 上六</prop>
+      <prop type="x-translation-ref">易經 29 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：用徽纆，置于叢棘，三歲不得，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost SIX, divided, shows its subject bound with cords of three strands or two strands, and placed in the thicket of thorns. But in three years he does not learn the course for him to pursue. There will be evil.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

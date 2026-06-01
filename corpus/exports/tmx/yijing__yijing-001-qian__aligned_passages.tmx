@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-001-qian__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-001-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 1 judgment</prop>
+      <prop type="x-translation-ref">易經 1 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>乾，元、亨、利、貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Qian (represents) what is great and originating, penetrating, advantageous, correct and firm.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-001-qian__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-001-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 1 初九</prop>
+      <prop type="x-translation-ref">易經 1 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九，潛龍，勿用。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the first (or lowest) NINE, undivided, (we see its subject as) the dragon lying hid (in the deep). It is not the time for active doing.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-001-qian__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-001-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 1 九二</prop>
+      <prop type="x-translation-ref">易經 1 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二，見龍在田，利見大人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the second NINE, undivided, (we see its subject as) the dragon appearing in the field. It will be advantageous to meet with the great man.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-001-qian__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-001-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 1 九四</prop>
+      <prop type="x-translation-ref">易經 1 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四，或躍在淵，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the fourth NINE, undivided, (we see its subject as the dragon looking) as if he were leaping up, but still in the deep. There will be no mistake.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-001-qian__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-001-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 1 九五</prop>
+      <prop type="x-translation-ref">易經 1 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五，飛龍在天，利見大人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the fifth NINE, undivided, (we see its subject as) the dragon on the wing in the sky. It will be advantageous to meet with the great man</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-001-qian__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-001-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 1 上九</prop>
+      <prop type="x-translation-ref">易經 1 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九，亢龍，有悔。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the sixth (or topmost) NINE, undivided, (we see its subject as) the dragon exceeding the proper limits. There will be occasion for repentance.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-001-qian__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-001-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 1 用九</prop>
+      <prop type="x-translation-ref">易經 1 用九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>用九，見羣龍无首，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(The lines of this hexagram are all strong and undivided, as appears from) the use of the number NINE. If the host of dragons (thus) appearing were to divest themselves of their heads, there would be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-001-qian__alignment-008">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-001-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 1 九三</prop>
+      <prop type="x-translation-ref">易經 1 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三，重剛而不中，上不在天，下不在田；故乾乾因其時而惕，雖危，无咎矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the third NINE, there is a twofold symbol of) strength, but (the position) is not central. (Its occupant) is not in heaven above, nor is he in the field beneath. Therefore there must be active vigilance and cautious apprehension as the time requires; and. though (the position be) perilous, there will be no mistake.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

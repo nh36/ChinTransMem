@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-034-da-zhuang__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-034-da-zhuang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 34 judgment</prop>
+      <prop type="x-translation-ref">易經 34 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>大壯，利貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Da Zhuang indicates that (under the conditions which it symbolises) it will be advantageous to be firm and correct.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-034-da-zhuang__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-034-da-zhuang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 34 初九</prop>
+      <prop type="x-translation-ref">易經 34 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：壯于趾，征凶，有孚。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows its subject manifesting his strength in his toes. But advance will lead to evil,--most certainly.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-034-da-zhuang__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-034-da-zhuang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 34 九二</prop>
+      <prop type="x-translation-ref">易經 34 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows that with firm correctness there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-034-da-zhuang__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-034-da-zhuang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 34 九三</prop>
+      <prop type="x-translation-ref">易經 34 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：小人用壯，君子用罔，貞厲。羝羊觸藩，羸其角。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows, in the case of a small man, one using all his strength; and in the case of a superior man, one whose rule is not to do so. Even with firm correctness the position would be perilous. (The exercise of strength in it might be compared to the case of) a ram butting against a fence, and getting his horns entangled.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-034-da-zhuang__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-034-da-zhuang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 34 九四</prop>
+      <prop type="x-translation-ref">易經 34 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：貞吉悔亡，藩決不羸，壯于大輿之輹。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows (a case in which) firm correctness leads to good fortune, and occasion for repentance disappears. (We see) the fence opened without the horns being entangled. The strength is like that in the wheel-spokes of a large waggon.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-034-da-zhuang__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-034-da-zhuang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 34 六五</prop>
+      <prop type="x-translation-ref">易經 34 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：喪羊于易，无悔。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows one who loses his ram(-like strength) in the ease of his position. (But) there will be no occasion for repentance.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-034-da-zhuang__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-034-da-zhuang</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 34 上六</prop>
+      <prop type="x-translation-ref">易經 34 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：羝羊觸藩，不能退，不能遂，无攸利，艱則吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth SIX, divided, shows (one who may be compared to) the ram butting against the fence, and unable either to retreat, or to advance as he would fain do. There will not be advantage in any respect; but if he realise the difficulty (of his position), there will be good fortune.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-045-cui__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-045-cui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 45 judgment</prop>
+      <prop type="x-translation-ref">易經 45 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>萃，亨。王假有廟，利見大人，亨，利貞。用大牲吉，利有攸往。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In (the state denoted by) Cui, the king will repair to his ancestral temple. It will be advantageous (also) to meet with the great man; and then there will be progress and success, though the advantage must come through firm correctness. The use of great victims will conduce to good fortune; and in whatever direction movement is made, it will be advantageous.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-045-cui__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-045-cui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 45 初六</prop>
+      <prop type="x-translation-ref">易經 45 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：有孚不終，乃亂乃萃，若號一握為笑，勿恤，往无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows its subject with a sincere desire (for union), but unable to carry it out, so that disorder is brought into the sphere of his union. If he cry out (for help to his proper correlate), all at once (his tears) will give place to smiles. He need not mind (the temporary difficulty); as he goes forward, there will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-045-cui__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-045-cui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 45 六二</prop>
+      <prop type="x-translation-ref">易經 45 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：引吉，无咎，孚乃利用禴。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows its subject led forward (by his correlate). There will be good fortune, and freedom from error. There is entire sincerity, and in that case (even the small offerings of) the vernal sacrifice are acceptable.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-045-cui__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-045-cui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 45 六三</prop>
+      <prop type="x-translation-ref">易經 45 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：萃如，嗟如，无攸利，往无咎，小吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows its subject striving after union and seeming to sigh, yet nowhere finding any advantage. If he go forward, he will not err, though there may be some small cause for regret.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-045-cui__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-045-cui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 45 九四</prop>
+      <prop type="x-translation-ref">易經 45 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：大吉，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject in such a state that, if he be greatly fortunate, he will receive no blame.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-045-cui__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-045-cui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 45 九五</prop>
+      <prop type="x-translation-ref">易經 45 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：萃有位，无咎。匪孚，元永貞，悔亡。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows the union (of all) under its subject in the place of dignity. There will be no error. If any do not have confidence in him, let him see to it that (his virtue) be great, long-continued, and firmly correct, and all occasion for repentance will disappear.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-045-cui__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-045-cui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 45 上六</prop>
+      <prop type="x-translation-ref">易經 45 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：齎咨涕洟，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost SIX, divided, shows its subject sighing and weeping; but there will be no error.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

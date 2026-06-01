@@ -180,735 +180,6 @@
     "notes": "Chinese Wikisource labels this section 堯曰第二十; Legge labels the same unit Book 20."
   },
   {
-    "section_id": "laozi-chapter-001",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "一章",
-    "canonical_ref": "老子 1",
-    "sort_key": "001",
-    "notes": "Excluded English headings: Embodying the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-002",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二章",
-    "canonical_ref": "老子 2",
-    "sort_key": "002",
-    "notes": "Excluded English headings: The nourishment of the person. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-003",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三章",
-    "canonical_ref": "老子 3",
-    "sort_key": "003",
-    "notes": "Excluded English headings: Keeping the people at rest. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-004",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四章",
-    "canonical_ref": "老子 4",
-    "sort_key": "004",
-    "notes": "Excluded English headings: The fountainless. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-005",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五章",
-    "canonical_ref": "老子 5",
-    "sort_key": "005",
-    "notes": "Excluded English headings: The use of emptiness. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-006",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六章",
-    "canonical_ref": "老子 6",
-    "sort_key": "006",
-    "notes": "Excluded English headings: The completion of material forms. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-007",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七章",
-    "canonical_ref": "老子 7",
-    "sort_key": "007",
-    "notes": "Excluded English headings: Sheathing the light. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-008",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "八章",
-    "canonical_ref": "老子 8",
-    "sort_key": "008",
-    "notes": "Excluded English headings: The placid and contented nature. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-009",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "九章",
-    "canonical_ref": "老子 9",
-    "sort_key": "009",
-    "notes": "Excluded English headings: Fulness and complacency contrary to the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-010",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "十章",
-    "canonical_ref": "老子 10",
-    "sort_key": "010",
-    "notes": "Excluded English headings: Possibilities through the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-011",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "十一章",
-    "canonical_ref": "老子 11",
-    "sort_key": "011",
-    "notes": "Excluded English headings: The use of what has no substantive existence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-012",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "十二章",
-    "canonical_ref": "老子 12",
-    "sort_key": "012",
-    "notes": "Excluded English headings: The repression of the desires. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-013",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "十三章",
-    "canonical_ref": "老子 13",
-    "sort_key": "013",
-    "notes": "Excluded English headings: Loathing shame. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-014",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "十四章",
-    "canonical_ref": "老子 14",
-    "sort_key": "014",
-    "notes": "Excluded English headings: The manifestation of the mystery. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-015",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "十五章",
-    "canonical_ref": "老子 15",
-    "sort_key": "015",
-    "notes": "Excluded English headings: The exhibition of the qualities of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-016",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "十六章",
-    "canonical_ref": "老子 16",
-    "sort_key": "016",
-    "notes": "Excluded English headings: Returning to the root. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-017",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "十七章",
-    "canonical_ref": "老子 17",
-    "sort_key": "017",
-    "notes": "Excluded English headings: The unadulterated influence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-018",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "十八章",
-    "canonical_ref": "老子 18",
-    "sort_key": "018",
-    "notes": "Excluded English headings: The decay of manners. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-019",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "十九章",
-    "canonical_ref": "老子 19",
-    "sort_key": "019",
-    "notes": "Excluded English headings: Returning to the unadulterated influence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-020",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二十章",
-    "canonical_ref": "老子 20",
-    "sort_key": "020",
-    "notes": "Excluded English headings: Being different from ordinary men. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-021",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二十一章",
-    "canonical_ref": "老子 21",
-    "sort_key": "021",
-    "notes": "Excluded English headings: The empty heart, or the Dao in its operation. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-022",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二十二章",
-    "canonical_ref": "老子 22",
-    "sort_key": "022",
-    "notes": "Excluded English headings: The increase granted to humility. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-023",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二十三章",
-    "canonical_ref": "老子 23",
-    "sort_key": "023",
-    "notes": "Excluded English headings: Absolute vacancy. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-024",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二十四章",
-    "canonical_ref": "老子 24",
-    "sort_key": "024",
-    "notes": "Excluded English headings: Painful graciousness. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-025",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二十五章",
-    "canonical_ref": "老子 25",
-    "sort_key": "025",
-    "notes": "Excluded English headings: Representations of the mystery. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-026",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二十六章",
-    "canonical_ref": "老子 26",
-    "sort_key": "026",
-    "notes": "Excluded English headings: The quality of gravity. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-027",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二十七章",
-    "canonical_ref": "老子 27",
-    "sort_key": "027",
-    "notes": "Excluded English headings: Dexterity in using the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-028",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二十八章",
-    "canonical_ref": "老子 28",
-    "sort_key": "028",
-    "notes": "Excluded English headings: Returning to simplicity. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-029",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "二十九章",
-    "canonical_ref": "老子 29",
-    "sort_key": "029",
-    "notes": "Excluded English headings: Taking no action. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-030",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三十章",
-    "canonical_ref": "老子 30",
-    "sort_key": "030",
-    "notes": "Excluded English headings: A caveat against war. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-031",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三十一章",
-    "canonical_ref": "老子 31",
-    "sort_key": "031",
-    "notes": "Excluded English headings: Stilling war."
-  },
-  {
-    "section_id": "laozi-chapter-032",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三十二章",
-    "canonical_ref": "老子 32",
-    "sort_key": "032",
-    "notes": "Excluded English headings: The Dao with no name. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-033",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三十三章",
-    "canonical_ref": "老子 33",
-    "sort_key": "033",
-    "notes": "Excluded English headings: Discriminating between attributes. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-034",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三十四章",
-    "canonical_ref": "老子 34",
-    "sort_key": "034",
-    "notes": "Excluded English headings: The task of achievement. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-035",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三十五章",
-    "canonical_ref": "老子 35",
-    "sort_key": "035",
-    "notes": "Excluded English headings: The attribute of benevolence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-036",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三十六章",
-    "canonical_ref": "老子 36",
-    "sort_key": "036",
-    "notes": "Excluded English headings: Minimising the light. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-037",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三十七章",
-    "canonical_ref": "老子 37",
-    "sort_key": "037",
-    "notes": "Excluded English headings: The exercise of government. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-038",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三十八章",
-    "canonical_ref": "老子 38",
-    "sort_key": "038",
-    "notes": "Excluded English headings: About the attributes of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-039",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "三十九章",
-    "canonical_ref": "老子 39",
-    "sort_key": "039",
-    "notes": "Excluded English headings: The origin of the law. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-040",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四十章",
-    "canonical_ref": "老子 40",
-    "sort_key": "040",
-    "notes": "Excluded English headings: Dispensing with the use (of means). Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-041",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四十一章",
-    "canonical_ref": "老子 41",
-    "sort_key": "041",
-    "notes": "Excluded English headings: Sameness and difference. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-042",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四十二章",
-    "canonical_ref": "老子 42",
-    "sort_key": "042",
-    "notes": "Excluded English headings: The transformations of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-043",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四十三章",
-    "canonical_ref": "老子 43",
-    "sort_key": "043",
-    "notes": "Excluded English headings: The universal use (of the action in weakness of the Dao). Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-044",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四十四章",
-    "canonical_ref": "老子 44",
-    "sort_key": "044",
-    "notes": "Excluded English headings: Cautions. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-045",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四十五章",
-    "canonical_ref": "老子 45",
-    "sort_key": "045",
-    "notes": "Excluded English headings: Great or overflowing virtue. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-046",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四十六章",
-    "canonical_ref": "老子 46",
-    "sort_key": "046",
-    "notes": "Excluded English headings: The moderating of desire or ambition. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-047",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四十七章",
-    "canonical_ref": "老子 47",
-    "sort_key": "047",
-    "notes": "Excluded English headings: Surveying what is far-off. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-048",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四十八章",
-    "canonical_ref": "老子 48",
-    "sort_key": "048",
-    "notes": "Excluded English headings: Forgetting knowledge. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-049",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "四十九章",
-    "canonical_ref": "老子 49",
-    "sort_key": "049",
-    "notes": "Excluded English headings: The quality of indulgence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-050",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五十章",
-    "canonical_ref": "老子 50",
-    "sort_key": "050",
-    "notes": "Excluded English headings: The value set on life. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-051",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五十一章",
-    "canonical_ref": "老子 51",
-    "sort_key": "051",
-    "notes": "Excluded English headings: The operation (of the Dao) in nourishing things. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-052",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五十二章",
-    "canonical_ref": "老子 52",
-    "sort_key": "052",
-    "notes": "Excluded English headings: Returning to the source. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-053",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五十三章",
-    "canonical_ref": "老子 53",
-    "sort_key": "053",
-    "notes": "Excluded English headings: Increase of evidence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-054",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五十四章",
-    "canonical_ref": "老子 54",
-    "sort_key": "054",
-    "notes": "Excluded English headings: The cultivation (of the Dao), and the observation (of its effects). Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-055",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五十五章",
-    "canonical_ref": "老子 55",
-    "sort_key": "055",
-    "notes": "Excluded English headings: The mysterious charm; False) is the strength, (and o'er it we should mourn.. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-056",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五十六章",
-    "canonical_ref": "老子 56",
-    "sort_key": "056",
-    "notes": "Excluded English headings: The mysterious excellence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-057",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五十七章",
-    "canonical_ref": "老子 57",
-    "sort_key": "057",
-    "notes": "Excluded English headings: The genuine influence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-058",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五十八章",
-    "canonical_ref": "老子 58",
-    "sort_key": "058",
-    "notes": "Excluded English headings: Transformation according to circumstances. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-059",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "五十九章",
-    "canonical_ref": "老子 59",
-    "sort_key": "059",
-    "notes": "Excluded English headings: Guarding the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-060",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六十章",
-    "canonical_ref": "老子 60",
-    "sort_key": "060",
-    "notes": "Excluded English headings: Occupying the throne. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-061",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六十一章",
-    "canonical_ref": "老子 61",
-    "sort_key": "061",
-    "notes": "Excluded English headings: The attribute of humility. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-062",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六十二章",
-    "canonical_ref": "老子 62",
-    "sort_key": "062",
-    "notes": "Excluded English headings: Practising the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text. Curated grouped override applied after automatic alignment failed section-level QC."
-  },
-  {
-    "section_id": "laozi-chapter-063",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六十三章",
-    "canonical_ref": "老子 63",
-    "sort_key": "063",
-    "notes": "Excluded English headings: Thinking in the beginning. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-064",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六十四章",
-    "canonical_ref": "老子 64",
-    "sort_key": "064",
-    "notes": "Excluded English headings: Guarding the minute. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-065",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六十五章",
-    "canonical_ref": "老子 65",
-    "sort_key": "065",
-    "notes": "Excluded English headings: Pure, unmixed excellence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-066",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六十六章",
-    "canonical_ref": "老子 66",
-    "sort_key": "066",
-    "notes": "Excluded English headings: Putting one's self last."
-  },
-  {
-    "section_id": "laozi-chapter-067",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六十七章",
-    "canonical_ref": "老子 67",
-    "sort_key": "067",
-    "notes": "Excluded English headings: Three precious things. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-068",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六十八章",
-    "canonical_ref": "老子 68",
-    "sort_key": "068",
-    "notes": "Excluded English headings: Matching heaven. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-069",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "六十九章",
-    "canonical_ref": "老子 69",
-    "sort_key": "069",
-    "notes": "Excluded English headings: The use of the mysterious (Dao). Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-070",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七十章",
-    "canonical_ref": "老子 70",
-    "sort_key": "070",
-    "notes": "Excluded English headings: The difficulty of being (rightly) known. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-071",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七十一章",
-    "canonical_ref": "老子 71",
-    "sort_key": "071",
-    "notes": "Excluded English headings: The disease of knowing. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-072",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七十二章",
-    "canonical_ref": "老子 72",
-    "sort_key": "072",
-    "notes": "Excluded English headings: Loving one's self. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-073",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七十三章",
-    "canonical_ref": "老子 73",
-    "sort_key": "073",
-    "notes": "Excluded English headings: Allowing men to take their course. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-074",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七十四章",
-    "canonical_ref": "老子 74",
-    "sort_key": "074",
-    "notes": "Excluded English headings: Restraining delusion. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-075",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七十五章",
-    "canonical_ref": "老子 75",
-    "sort_key": "075",
-    "notes": "Excluded English headings: How greediness injures. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-076",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七十六章",
-    "canonical_ref": "老子 76",
-    "sort_key": "076",
-    "notes": "Excluded English headings: A warning against (trusting in) strength. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-077",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七十七章",
-    "canonical_ref": "老子 77",
-    "sort_key": "077",
-    "notes": "Excluded English headings: The way of heaven. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-078",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七十八章",
-    "canonical_ref": "老子 78",
-    "sort_key": "078",
-    "notes": "Excluded English headings: Things to be believed. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-079",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "七十九章",
-    "canonical_ref": "老子 79",
-    "sort_key": "079",
-    "notes": "Excluded English headings: Adherence to bond or covenant. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-080",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "八十章",
-    "canonical_ref": "老子 80",
-    "sort_key": "080",
-    "notes": "Excluded English headings: Standing alone. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
-    "section_id": "laozi-chapter-081",
-    "work_id": "laozi",
-    "parent_section_id": null,
-    "label": "八十一章",
-    "canonical_ref": "老子 81",
-    "sort_key": "081",
-    "notes": "Excluded English headings: The manifestation of simplicity. Chinese commentary lines were present in the raw source and excluded from exported segment text."
-  },
-  {
     "section_id": "book-01-lianghuiwang-shang",
     "work_id": "mengzi",
     "parent_section_id": null,
@@ -1033,546 +304,6 @@
     "canonical_ref": "孟子 7B",
     "sort_key": 14,
     "notes": "Chinese witness segmented by top-level numbered passages; English witness grouped by Legge's embedded Chinese quotation blocks with conservative variant-insensitive comparison."
-  },
-  {
-    "section_id": "shangshu-001-yu-shu-canon-of-yao",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "虞書 堯典 Yu Shu - Canon of Yao",
-    "canonical_ref": "尚書·虞書 堯典",
-    "sort_key": "001",
-    "notes": "Export uses anchor-partitioned exact block alignment."
-  },
-  {
-    "section_id": "shangshu-002-yu-shu-dan-zhu-forged",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "虞書 丹朱（伪） Yu Shu - Dan Zhu (forged)",
-    "canonical_ref": "尚書·虞書 丹朱（伪）",
-    "sort_key": "002",
-    "notes": "Chinese text detected without English text"
-  },
-  {
-    "section_id": "shangshu-003-yu-shu-canon-of-shun",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "虞書 舜典 Yu Shu - Canon of Shun",
-    "canonical_ref": "尚書·虞書 舜典",
-    "sort_key": "003",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "虞書 大禹謨 Yu Shu - Counsels of the Great Yu",
-    "canonical_ref": "尚書·虞書 大禹謨",
-    "sort_key": "004",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "虞書 皐陶謨 Yu Shu - Counsels of the Gao Yao",
-    "canonical_ref": "尚書·虞書 皐陶謨",
-    "sort_key": "005",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-006-yu-shu-yi-and-ji",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "虞書 益稷 Yu Shu - Yi and Ji",
-    "canonical_ref": "尚書·虞書 益稷",
-    "sort_key": "006",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-007-xia-shu-tribute-of-yu",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "夏書 禹貢 Xia Shu - Tribute of Yu",
-    "canonical_ref": "尚書·夏書 禹貢",
-    "sort_key": "007",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-008-xia-shu-yu-shi-forged",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "夏書 禹誓（伪） Xia Shu - Yu Shi (forged)",
-    "canonical_ref": "尚書·夏書 禹誓（伪）",
-    "sort_key": "008",
-    "notes": "Chinese text detected without English text"
-  },
-  {
-    "section_id": "shangshu-009-xia-shu-speech-at-gan",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "夏書 甘誓 Xia Shu - Speech at Gan",
-    "canonical_ref": "尚書·夏書 甘誓",
-    "sort_key": "009",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "夏書 五子之歌 Xia Shu - Songs of the Five Sons",
-    "canonical_ref": "尚書·夏書 五子之歌",
-    "sort_key": "010",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-011-xia-shu-punitive-expedition-of-yin",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "夏書 胤征 Xia Shu - Punitive Expedition of Yin",
-    "canonical_ref": "尚書·夏書 胤征",
-    "sort_key": "011",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-012-shang-shu-speech-of-tang",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 湯誓 Shang Shu - Speech of Tang",
-    "canonical_ref": "尚書·商書 湯誓",
-    "sort_key": "012",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-013-shang-shu-announcement-of-zhong-hui",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 仲虺之誥 Shang Shu - Announcement of Zhong-hui",
-    "canonical_ref": "尚書·商書 仲虺之誥",
-    "sort_key": "013",
-    "notes": "Export uses exact block alignment."
-  },
-  {
-    "section_id": "shangshu-014-shang-shu-announcement-of-tang",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 湯誥 Shang Shu - Announcement of Tang",
-    "canonical_ref": "尚書·商書 湯誥",
-    "sort_key": "014",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-015-shang-shu-instructions-of-yi",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 伊訓 Shang Shu - Instructions of Yi",
-    "canonical_ref": "尚書·商書 伊訓",
-    "sort_key": "015",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-016-shang-shu-tai-jia-i",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 太甲上 Shang Shu - Tai Jia I",
-    "canonical_ref": "尚書·商書 太甲上",
-    "sort_key": "016",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-017-shang-shu-tai-jia-ii",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 太甲中 Shang Shu - Tai Jia II",
-    "canonical_ref": "尚書·商書 太甲中",
-    "sort_key": "017",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-018-shang-shu-tai-jia-iii",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 太甲下 Shang Shu - Tai Jia III",
-    "canonical_ref": "尚書·商書 太甲下",
-    "sort_key": "018",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 咸有一德 Shang Shu - Common Possession of Pure Virtue",
-    "canonical_ref": "尚書·商書 咸有一德",
-    "sort_key": "019",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-020-shang-shu-pan-geng-i",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 盤庚上 Shang Shu - Pan Geng I",
-    "canonical_ref": "尚書·商書 盤庚上",
-    "sort_key": "020",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-021-shang-shu-pan-geng-ii",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 盤庚中 Shang Shu - Pan Geng II",
-    "canonical_ref": "尚書·商書 盤庚中",
-    "sort_key": "021",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-022-shang-shu-pan-geng-iii",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 盤庚下 Shang Shu - Pan Geng III",
-    "canonical_ref": "尚書·商書 盤庚下",
-    "sort_key": "022",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 說命上（僞） Shang Shu - Charge to Yue I (forged)",
-    "canonical_ref": "尚書·商書 說命上（僞）",
-    "sort_key": "023",
-    "notes": "Export uses exact block alignment."
-  },
-  {
-    "section_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 說命中（僞） Shang Shu - Charge to Yue II (forged)",
-    "canonical_ref": "尚書·商書 說命中（僞）",
-    "sort_key": "024",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 說命下（僞） Shang Shu - Charge to Yue III (forged)",
-    "canonical_ref": "尚書·商書 說命下（僞）",
-    "sort_key": "025",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 高宗肜日 Shang Shu - Day of the Supplementary Sacrifice to Gao",
-    "canonical_ref": "尚書·商書 高宗肜日",
-    "sort_key": "026",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 西伯戡黎 Shang Shu - Chief of the west's Conquest of Li",
-    "canonical_ref": "尚書·商書 西伯戡黎",
-    "sort_key": "027",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-028-shang-shu-count-of-wei",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "商書 微子 Shang Shu - Count of Wei",
-    "canonical_ref": "尚書·商書 微子",
-    "sort_key": "028",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-029-zhou-shu-great-declaration-i",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 泰誓上 Zhou Shu - Great Declaration I",
-    "canonical_ref": "尚書·周書 泰誓上",
-    "sort_key": "029",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-030-zhou-shu-great-declaration-ii",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 泰誓中 Zhou Shu - Great Declaration II",
-    "canonical_ref": "尚書·周書 泰誓中",
-    "sort_key": "030",
-    "notes": "Export uses exact block alignment."
-  },
-  {
-    "section_id": "shangshu-031-zhou-shu-great-declaration-iii",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 泰誓下 Zhou Shu - Great Declaration III",
-    "canonical_ref": "尚書·周書 泰誓下",
-    "sort_key": "031",
-    "notes": "Export uses exact block alignment."
-  },
-  {
-    "section_id": "shangshu-032-zhou-shu-speech-at-mu",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 牧誓 Zhou Shu - Speech at Mu",
-    "canonical_ref": "尚書·周書 牧誓",
-    "sort_key": "032",
-    "notes": "Export uses exact block alignment."
-  },
-  {
-    "section_id": "shangshu-033-zhou-shu-successful-completion-of-the-war",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 武成 Zhou Shu - Successful Completion of the War",
-    "canonical_ref": "尚書·周書 武成",
-    "sort_key": "033",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-034-zhou-shu-great-plan",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 洪範 Zhou Shu - Great Plan",
-    "canonical_ref": "尚書·周書 洪範",
-    "sort_key": "034",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-035-zhou-shu-hounds-of-lu",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 旅獒 Zhou Shu - Hounds of Lu",
-    "canonical_ref": "尚書·周書 旅獒",
-    "sort_key": "035",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-036-zhou-shu-metal-bound-coffer",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 金縢 Zhou Shu - Metal-bound Coffer",
-    "canonical_ref": "尚書·周書 金縢",
-    "sort_key": "036",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-037-zhou-shu-great-announcement",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 大誥 Zhou Shu - Great Announcement",
-    "canonical_ref": "尚書·周書 大誥",
-    "sort_key": "037",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 微子之命 Zhou Shu - Charge to the Count of Wei",
-    "canonical_ref": "尚書·周書 微子之命",
-    "sort_key": "038",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 康誥 Zhou Shu - Announcement to the Prince of Kang",
-    "canonical_ref": "尚書·周書 康誥",
-    "sort_key": "039",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 酒誥 Zhou Shu - Announcement about Drunkenness",
-    "canonical_ref": "尚書·周書 酒誥",
-    "sort_key": "040",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-041-zhou-shu-timber-of-the-rottlera",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 梓材 Zhou Shu - Timber of the Rottlera",
-    "canonical_ref": "尚書·周書 梓材",
-    "sort_key": "041",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 召誥 Zhou Shu - Announcement of the Duke of Shao",
-    "canonical_ref": "尚書·周書 召誥",
-    "sort_key": "042",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-043-zhou-shu-announcement-concerning-luo",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 洛誥 Zhou Shu - Announcement concerning Luo",
-    "canonical_ref": "尚書·周書 洛誥",
-    "sort_key": "043",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-044-zhou-shu-numerous-officers",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 多士 Zhou Shu - Numerous Officers",
-    "canonical_ref": "尚書·周書 多士",
-    "sort_key": "044",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-045-zhou-shu-against-luxurious-ease",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 無逸 Zhou Shu - Against Luxurious Ease",
-    "canonical_ref": "尚書·周書 無逸",
-    "sort_key": "045",
-    "notes": "Export uses exact block alignment."
-  },
-  {
-    "section_id": "shangshu-046-zhou-shu-prince-shi",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 君奭 Zhou Shu - Prince Shi",
-    "canonical_ref": "尚書·周書 君奭",
-    "sort_key": "046",
-    "notes": "Export uses exact block alignment."
-  },
-  {
-    "section_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 蔡仲之命 Zhou Shu - Charge to Zhong of Cai",
-    "canonical_ref": "尚書·周書 蔡仲之命",
-    "sort_key": "047",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-048-zhou-shu-numerous-regions",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 多方 Zhou Shu - Numerous Regions",
-    "canonical_ref": "尚書·周書 多方",
-    "sort_key": "048",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-049-zhou-shu-establishment-of-government",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 立政 Zhou Shu - Establishment of Government",
-    "canonical_ref": "尚書·周書 立政",
-    "sort_key": "049",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-050-zhou-shu-officers-of-zhou",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 周官 Zhou Shu - Officers of Zhou",
-    "canonical_ref": "尚書·周書 周官",
-    "sort_key": "050",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-051-zhou-shu-jun-chen",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 君陳 Zhou Shu - Jun-chen",
-    "canonical_ref": "尚書·周書 君陳",
-    "sort_key": "051",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-052-zhou-shu-testamentary-charge",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 顧命 Zhou Shu - Testamentary Charge",
-    "canonical_ref": "尚書·周書 顧命",
-    "sort_key": "052",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-053-zhou-shu-announcement-of-king-kang",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 康王之誥 Zhou Shu - Announcement of King Kang",
-    "canonical_ref": "尚書·周書 康王之誥",
-    "sort_key": "053",
-    "notes": "Export uses exact block alignment."
-  },
-  {
-    "section_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 畢命 Zhou Shu - Charge to the Duke of Bi",
-    "canonical_ref": "尚書·周書 畢命",
-    "sort_key": "054",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-055-zhou-shu-kun-ya",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 君牙 Zhou Shu - Kun-ya",
-    "canonical_ref": "尚書·周書 君牙",
-    "sort_key": "055",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-056-zhou-shu-charge-to-jiong",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 冏命 Zhou Shu - Charge to Jiong",
-    "canonical_ref": "尚書·周書 冏命",
-    "sort_key": "056",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 呂刑 Zhou Shu - Marquis of Lu on Punishments",
-    "canonical_ref": "尚書·周書 呂刑",
-    "sort_key": "057",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 文侯之命 Zhou Shu - Charge to the Marquis Wen",
-    "canonical_ref": "尚書·周書 文侯之命",
-    "sort_key": "058",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-059-zhou-shu-speech-at-bi",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 費誓 Zhou Shu - Speech at Bi",
-    "canonical_ref": "尚書·周書 費誓",
-    "sort_key": "059",
-    "notes": "Export uses monotonic grouped block alignment."
-  },
-  {
-    "section_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",
-    "work_id": "shangshu",
-    "parent_section_id": null,
-    "label": "周書 秦誓 Zhou Shu - Speech of the Marquis of Qin",
-    "canonical_ref": "尚書·周書 秦誓",
-    "sort_key": "060",
-    "notes": "Export uses monotonic grouped block alignment."
   },
   {
     "section_id": "guofeng-zhounan-001-guanju",
@@ -4318,5 +3049,1850 @@
     "canonical_ref": "詩經·頌·商頌·005",
     "sort_key": 311,
     "notes": "Aligned stanza by stanza from matching Chinese and English poem blocks."
+  },
+  {
+    "section_id": "laozi-chapter-001",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "一章",
+    "canonical_ref": "老子 1",
+    "sort_key": "001",
+    "notes": "Excluded English headings: Embodying the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-002",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二章",
+    "canonical_ref": "老子 2",
+    "sort_key": "002",
+    "notes": "Excluded English headings: The nourishment of the person. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-003",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三章",
+    "canonical_ref": "老子 3",
+    "sort_key": "003",
+    "notes": "Excluded English headings: Keeping the people at rest. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-004",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四章",
+    "canonical_ref": "老子 4",
+    "sort_key": "004",
+    "notes": "Excluded English headings: The fountainless. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-005",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五章",
+    "canonical_ref": "老子 5",
+    "sort_key": "005",
+    "notes": "Excluded English headings: The use of emptiness. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-006",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六章",
+    "canonical_ref": "老子 6",
+    "sort_key": "006",
+    "notes": "Excluded English headings: The completion of material forms. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-007",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七章",
+    "canonical_ref": "老子 7",
+    "sort_key": "007",
+    "notes": "Excluded English headings: Sheathing the light. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-008",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "八章",
+    "canonical_ref": "老子 8",
+    "sort_key": "008",
+    "notes": "Excluded English headings: The placid and contented nature. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-009",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "九章",
+    "canonical_ref": "老子 9",
+    "sort_key": "009",
+    "notes": "Excluded English headings: Fulness and complacency contrary to the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-010",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十章",
+    "canonical_ref": "老子 10",
+    "sort_key": "010",
+    "notes": "Excluded English headings: Possibilities through the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-011",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十一章",
+    "canonical_ref": "老子 11",
+    "sort_key": "011",
+    "notes": "Excluded English headings: The use of what has no substantive existence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-012",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十二章",
+    "canonical_ref": "老子 12",
+    "sort_key": "012",
+    "notes": "Excluded English headings: The repression of the desires. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-013",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十三章",
+    "canonical_ref": "老子 13",
+    "sort_key": "013",
+    "notes": "Excluded English headings: Loathing shame. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-014",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十四章",
+    "canonical_ref": "老子 14",
+    "sort_key": "014",
+    "notes": "Excluded English headings: The manifestation of the mystery. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-015",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十五章",
+    "canonical_ref": "老子 15",
+    "sort_key": "015",
+    "notes": "Excluded English headings: The exhibition of the qualities of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-016",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十六章",
+    "canonical_ref": "老子 16",
+    "sort_key": "016",
+    "notes": "Excluded English headings: Returning to the root. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-017",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十七章",
+    "canonical_ref": "老子 17",
+    "sort_key": "017",
+    "notes": "Excluded English headings: The unadulterated influence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-018",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十八章",
+    "canonical_ref": "老子 18",
+    "sort_key": "018",
+    "notes": "Excluded English headings: The decay of manners. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-019",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "十九章",
+    "canonical_ref": "老子 19",
+    "sort_key": "019",
+    "notes": "Excluded English headings: Returning to the unadulterated influence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-020",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十章",
+    "canonical_ref": "老子 20",
+    "sort_key": "020",
+    "notes": "Excluded English headings: Being different from ordinary men. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-021",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十一章",
+    "canonical_ref": "老子 21",
+    "sort_key": "021",
+    "notes": "Excluded English headings: The empty heart, or the Dao in its operation. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-022",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十二章",
+    "canonical_ref": "老子 22",
+    "sort_key": "022",
+    "notes": "Excluded English headings: The increase granted to humility. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-023",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十三章",
+    "canonical_ref": "老子 23",
+    "sort_key": "023",
+    "notes": "Excluded English headings: Absolute vacancy. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-024",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十四章",
+    "canonical_ref": "老子 24",
+    "sort_key": "024",
+    "notes": "Excluded English headings: Painful graciousness. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-025",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十五章",
+    "canonical_ref": "老子 25",
+    "sort_key": "025",
+    "notes": "Excluded English headings: Representations of the mystery. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-026",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十六章",
+    "canonical_ref": "老子 26",
+    "sort_key": "026",
+    "notes": "Excluded English headings: The quality of gravity. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-027",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十七章",
+    "canonical_ref": "老子 27",
+    "sort_key": "027",
+    "notes": "Excluded English headings: Dexterity in using the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-028",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十八章",
+    "canonical_ref": "老子 28",
+    "sort_key": "028",
+    "notes": "Excluded English headings: Returning to simplicity. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-029",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "二十九章",
+    "canonical_ref": "老子 29",
+    "sort_key": "029",
+    "notes": "Excluded English headings: Taking no action. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-030",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十章",
+    "canonical_ref": "老子 30",
+    "sort_key": "030",
+    "notes": "Excluded English headings: A caveat against war. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-031",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十一章",
+    "canonical_ref": "老子 31",
+    "sort_key": "031",
+    "notes": "Excluded English headings: Stilling war."
+  },
+  {
+    "section_id": "laozi-chapter-032",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十二章",
+    "canonical_ref": "老子 32",
+    "sort_key": "032",
+    "notes": "Excluded English headings: The Dao with no name. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-033",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十三章",
+    "canonical_ref": "老子 33",
+    "sort_key": "033",
+    "notes": "Excluded English headings: Discriminating between attributes. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-034",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十四章",
+    "canonical_ref": "老子 34",
+    "sort_key": "034",
+    "notes": "Excluded English headings: The task of achievement. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-035",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十五章",
+    "canonical_ref": "老子 35",
+    "sort_key": "035",
+    "notes": "Excluded English headings: The attribute of benevolence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-036",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十六章",
+    "canonical_ref": "老子 36",
+    "sort_key": "036",
+    "notes": "Excluded English headings: Minimising the light. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-037",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十七章",
+    "canonical_ref": "老子 37",
+    "sort_key": "037",
+    "notes": "Excluded English headings: The exercise of government. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-038",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十八章",
+    "canonical_ref": "老子 38",
+    "sort_key": "038",
+    "notes": "Excluded English headings: About the attributes of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-039",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "三十九章",
+    "canonical_ref": "老子 39",
+    "sort_key": "039",
+    "notes": "Excluded English headings: The origin of the law. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-040",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十章",
+    "canonical_ref": "老子 40",
+    "sort_key": "040",
+    "notes": "Excluded English headings: Dispensing with the use (of means). Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-041",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十一章",
+    "canonical_ref": "老子 41",
+    "sort_key": "041",
+    "notes": "Excluded English headings: Sameness and difference. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-042",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十二章",
+    "canonical_ref": "老子 42",
+    "sort_key": "042",
+    "notes": "Excluded English headings: The transformations of the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-043",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十三章",
+    "canonical_ref": "老子 43",
+    "sort_key": "043",
+    "notes": "Excluded English headings: The universal use (of the action in weakness of the Dao). Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-044",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十四章",
+    "canonical_ref": "老子 44",
+    "sort_key": "044",
+    "notes": "Excluded English headings: Cautions. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-045",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十五章",
+    "canonical_ref": "老子 45",
+    "sort_key": "045",
+    "notes": "Excluded English headings: Great or overflowing virtue. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-046",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十六章",
+    "canonical_ref": "老子 46",
+    "sort_key": "046",
+    "notes": "Excluded English headings: The moderating of desire or ambition. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-047",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十七章",
+    "canonical_ref": "老子 47",
+    "sort_key": "047",
+    "notes": "Excluded English headings: Surveying what is far-off. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-048",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十八章",
+    "canonical_ref": "老子 48",
+    "sort_key": "048",
+    "notes": "Excluded English headings: Forgetting knowledge. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-049",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "四十九章",
+    "canonical_ref": "老子 49",
+    "sort_key": "049",
+    "notes": "Excluded English headings: The quality of indulgence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-050",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十章",
+    "canonical_ref": "老子 50",
+    "sort_key": "050",
+    "notes": "Excluded English headings: The value set on life. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-051",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十一章",
+    "canonical_ref": "老子 51",
+    "sort_key": "051",
+    "notes": "Excluded English headings: The operation (of the Dao) in nourishing things. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-052",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十二章",
+    "canonical_ref": "老子 52",
+    "sort_key": "052",
+    "notes": "Excluded English headings: Returning to the source. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-053",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十三章",
+    "canonical_ref": "老子 53",
+    "sort_key": "053",
+    "notes": "Excluded English headings: Increase of evidence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-054",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十四章",
+    "canonical_ref": "老子 54",
+    "sort_key": "054",
+    "notes": "Excluded English headings: The cultivation (of the Dao), and the observation (of its effects). Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-055",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十五章",
+    "canonical_ref": "老子 55",
+    "sort_key": "055",
+    "notes": "Excluded English headings: The mysterious charm; False) is the strength, (and o'er it we should mourn.. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-056",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十六章",
+    "canonical_ref": "老子 56",
+    "sort_key": "056",
+    "notes": "Excluded English headings: The mysterious excellence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-057",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十七章",
+    "canonical_ref": "老子 57",
+    "sort_key": "057",
+    "notes": "Excluded English headings: The genuine influence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-058",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十八章",
+    "canonical_ref": "老子 58",
+    "sort_key": "058",
+    "notes": "Excluded English headings: Transformation according to circumstances. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-059",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "五十九章",
+    "canonical_ref": "老子 59",
+    "sort_key": "059",
+    "notes": "Excluded English headings: Guarding the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-060",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十章",
+    "canonical_ref": "老子 60",
+    "sort_key": "060",
+    "notes": "Excluded English headings: Occupying the throne. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-061",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十一章",
+    "canonical_ref": "老子 61",
+    "sort_key": "061",
+    "notes": "Excluded English headings: The attribute of humility. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-062",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十二章",
+    "canonical_ref": "老子 62",
+    "sort_key": "062",
+    "notes": "Excluded English headings: Practising the Dao. Chinese commentary lines were present in the raw source and excluded from exported segment text. Curated grouped override applied after automatic alignment failed section-level QC."
+  },
+  {
+    "section_id": "laozi-chapter-063",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十三章",
+    "canonical_ref": "老子 63",
+    "sort_key": "063",
+    "notes": "Excluded English headings: Thinking in the beginning. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-064",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十四章",
+    "canonical_ref": "老子 64",
+    "sort_key": "064",
+    "notes": "Excluded English headings: Guarding the minute. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-065",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十五章",
+    "canonical_ref": "老子 65",
+    "sort_key": "065",
+    "notes": "Excluded English headings: Pure, unmixed excellence. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-066",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十六章",
+    "canonical_ref": "老子 66",
+    "sort_key": "066",
+    "notes": "Excluded English headings: Putting one's self last."
+  },
+  {
+    "section_id": "laozi-chapter-067",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十七章",
+    "canonical_ref": "老子 67",
+    "sort_key": "067",
+    "notes": "Excluded English headings: Three precious things. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-068",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十八章",
+    "canonical_ref": "老子 68",
+    "sort_key": "068",
+    "notes": "Excluded English headings: Matching heaven. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-069",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "六十九章",
+    "canonical_ref": "老子 69",
+    "sort_key": "069",
+    "notes": "Excluded English headings: The use of the mysterious (Dao). Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-070",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十章",
+    "canonical_ref": "老子 70",
+    "sort_key": "070",
+    "notes": "Excluded English headings: The difficulty of being (rightly) known. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-071",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十一章",
+    "canonical_ref": "老子 71",
+    "sort_key": "071",
+    "notes": "Excluded English headings: The disease of knowing. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-072",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十二章",
+    "canonical_ref": "老子 72",
+    "sort_key": "072",
+    "notes": "Excluded English headings: Loving one's self. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-073",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十三章",
+    "canonical_ref": "老子 73",
+    "sort_key": "073",
+    "notes": "Excluded English headings: Allowing men to take their course. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-074",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十四章",
+    "canonical_ref": "老子 74",
+    "sort_key": "074",
+    "notes": "Excluded English headings: Restraining delusion. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-075",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十五章",
+    "canonical_ref": "老子 75",
+    "sort_key": "075",
+    "notes": "Excluded English headings: How greediness injures. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-076",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十六章",
+    "canonical_ref": "老子 76",
+    "sort_key": "076",
+    "notes": "Excluded English headings: A warning against (trusting in) strength. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-077",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十七章",
+    "canonical_ref": "老子 77",
+    "sort_key": "077",
+    "notes": "Excluded English headings: The way of heaven. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-078",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十八章",
+    "canonical_ref": "老子 78",
+    "sort_key": "078",
+    "notes": "Excluded English headings: Things to be believed. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-079",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "七十九章",
+    "canonical_ref": "老子 79",
+    "sort_key": "079",
+    "notes": "Excluded English headings: Adherence to bond or covenant. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-080",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "八十章",
+    "canonical_ref": "老子 80",
+    "sort_key": "080",
+    "notes": "Excluded English headings: Standing alone. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "laozi-chapter-081",
+    "work_id": "laozi",
+    "parent_section_id": null,
+    "label": "八十一章",
+    "canonical_ref": "老子 81",
+    "sort_key": "081",
+    "notes": "Excluded English headings: The manifestation of simplicity. Chinese commentary lines were present in the raw source and excluded from exported segment text."
+  },
+  {
+    "section_id": "shangshu-001-yu-shu-canon-of-yao",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "虞書 堯典 Yu Shu - Canon of Yao",
+    "canonical_ref": "尚書·虞書 堯典",
+    "sort_key": "001",
+    "notes": "Export uses anchor-partitioned exact block alignment."
+  },
+  {
+    "section_id": "shangshu-002-yu-shu-dan-zhu-forged",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "虞書 丹朱（伪） Yu Shu - Dan Zhu (forged)",
+    "canonical_ref": "尚書·虞書 丹朱（伪）",
+    "sort_key": "002",
+    "notes": "Chinese text detected without English text"
+  },
+  {
+    "section_id": "shangshu-003-yu-shu-canon-of-shun",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "虞書 舜典 Yu Shu - Canon of Shun",
+    "canonical_ref": "尚書·虞書 舜典",
+    "sort_key": "003",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "虞書 大禹謨 Yu Shu - Counsels of the Great Yu",
+    "canonical_ref": "尚書·虞書 大禹謨",
+    "sort_key": "004",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "虞書 皐陶謨 Yu Shu - Counsels of the Gao Yao",
+    "canonical_ref": "尚書·虞書 皐陶謨",
+    "sort_key": "005",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-006-yu-shu-yi-and-ji",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "虞書 益稷 Yu Shu - Yi and Ji",
+    "canonical_ref": "尚書·虞書 益稷",
+    "sort_key": "006",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-007-xia-shu-tribute-of-yu",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "夏書 禹貢 Xia Shu - Tribute of Yu",
+    "canonical_ref": "尚書·夏書 禹貢",
+    "sort_key": "007",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-008-xia-shu-yu-shi-forged",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "夏書 禹誓（伪） Xia Shu - Yu Shi (forged)",
+    "canonical_ref": "尚書·夏書 禹誓（伪）",
+    "sort_key": "008",
+    "notes": "Chinese text detected without English text"
+  },
+  {
+    "section_id": "shangshu-009-xia-shu-speech-at-gan",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "夏書 甘誓 Xia Shu - Speech at Gan",
+    "canonical_ref": "尚書·夏書 甘誓",
+    "sort_key": "009",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "夏書 五子之歌 Xia Shu - Songs of the Five Sons",
+    "canonical_ref": "尚書·夏書 五子之歌",
+    "sort_key": "010",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-011-xia-shu-punitive-expedition-of-yin",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "夏書 胤征 Xia Shu - Punitive Expedition of Yin",
+    "canonical_ref": "尚書·夏書 胤征",
+    "sort_key": "011",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-012-shang-shu-speech-of-tang",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 湯誓 Shang Shu - Speech of Tang",
+    "canonical_ref": "尚書·商書 湯誓",
+    "sort_key": "012",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-013-shang-shu-announcement-of-zhong-hui",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 仲虺之誥 Shang Shu - Announcement of Zhong-hui",
+    "canonical_ref": "尚書·商書 仲虺之誥",
+    "sort_key": "013",
+    "notes": "Export uses exact block alignment."
+  },
+  {
+    "section_id": "shangshu-014-shang-shu-announcement-of-tang",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 湯誥 Shang Shu - Announcement of Tang",
+    "canonical_ref": "尚書·商書 湯誥",
+    "sort_key": "014",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-015-shang-shu-instructions-of-yi",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 伊訓 Shang Shu - Instructions of Yi",
+    "canonical_ref": "尚書·商書 伊訓",
+    "sort_key": "015",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-016-shang-shu-tai-jia-i",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 太甲上 Shang Shu - Tai Jia I",
+    "canonical_ref": "尚書·商書 太甲上",
+    "sort_key": "016",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-017-shang-shu-tai-jia-ii",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 太甲中 Shang Shu - Tai Jia II",
+    "canonical_ref": "尚書·商書 太甲中",
+    "sort_key": "017",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-018-shang-shu-tai-jia-iii",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 太甲下 Shang Shu - Tai Jia III",
+    "canonical_ref": "尚書·商書 太甲下",
+    "sort_key": "018",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 咸有一德 Shang Shu - Common Possession of Pure Virtue",
+    "canonical_ref": "尚書·商書 咸有一德",
+    "sort_key": "019",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-020-shang-shu-pan-geng-i",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 盤庚上 Shang Shu - Pan Geng I",
+    "canonical_ref": "尚書·商書 盤庚上",
+    "sort_key": "020",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-021-shang-shu-pan-geng-ii",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 盤庚中 Shang Shu - Pan Geng II",
+    "canonical_ref": "尚書·商書 盤庚中",
+    "sort_key": "021",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-022-shang-shu-pan-geng-iii",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 盤庚下 Shang Shu - Pan Geng III",
+    "canonical_ref": "尚書·商書 盤庚下",
+    "sort_key": "022",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 說命上（僞） Shang Shu - Charge to Yue I (forged)",
+    "canonical_ref": "尚書·商書 說命上（僞）",
+    "sort_key": "023",
+    "notes": "Export uses exact block alignment."
+  },
+  {
+    "section_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 說命中（僞） Shang Shu - Charge to Yue II (forged)",
+    "canonical_ref": "尚書·商書 說命中（僞）",
+    "sort_key": "024",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 說命下（僞） Shang Shu - Charge to Yue III (forged)",
+    "canonical_ref": "尚書·商書 說命下（僞）",
+    "sort_key": "025",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 高宗肜日 Shang Shu - Day of the Supplementary Sacrifice to Gao",
+    "canonical_ref": "尚書·商書 高宗肜日",
+    "sort_key": "026",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 西伯戡黎 Shang Shu - Chief of the west's Conquest of Li",
+    "canonical_ref": "尚書·商書 西伯戡黎",
+    "sort_key": "027",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-028-shang-shu-count-of-wei",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "商書 微子 Shang Shu - Count of Wei",
+    "canonical_ref": "尚書·商書 微子",
+    "sort_key": "028",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-029-zhou-shu-great-declaration-i",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 泰誓上 Zhou Shu - Great Declaration I",
+    "canonical_ref": "尚書·周書 泰誓上",
+    "sort_key": "029",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-030-zhou-shu-great-declaration-ii",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 泰誓中 Zhou Shu - Great Declaration II",
+    "canonical_ref": "尚書·周書 泰誓中",
+    "sort_key": "030",
+    "notes": "Export uses exact block alignment."
+  },
+  {
+    "section_id": "shangshu-031-zhou-shu-great-declaration-iii",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 泰誓下 Zhou Shu - Great Declaration III",
+    "canonical_ref": "尚書·周書 泰誓下",
+    "sort_key": "031",
+    "notes": "Export uses exact block alignment."
+  },
+  {
+    "section_id": "shangshu-032-zhou-shu-speech-at-mu",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 牧誓 Zhou Shu - Speech at Mu",
+    "canonical_ref": "尚書·周書 牧誓",
+    "sort_key": "032",
+    "notes": "Export uses exact block alignment."
+  },
+  {
+    "section_id": "shangshu-033-zhou-shu-successful-completion-of-the-war",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 武成 Zhou Shu - Successful Completion of the War",
+    "canonical_ref": "尚書·周書 武成",
+    "sort_key": "033",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-034-zhou-shu-great-plan",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 洪範 Zhou Shu - Great Plan",
+    "canonical_ref": "尚書·周書 洪範",
+    "sort_key": "034",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-035-zhou-shu-hounds-of-lu",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 旅獒 Zhou Shu - Hounds of Lu",
+    "canonical_ref": "尚書·周書 旅獒",
+    "sort_key": "035",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-036-zhou-shu-metal-bound-coffer",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 金縢 Zhou Shu - Metal-bound Coffer",
+    "canonical_ref": "尚書·周書 金縢",
+    "sort_key": "036",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-037-zhou-shu-great-announcement",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 大誥 Zhou Shu - Great Announcement",
+    "canonical_ref": "尚書·周書 大誥",
+    "sort_key": "037",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 微子之命 Zhou Shu - Charge to the Count of Wei",
+    "canonical_ref": "尚書·周書 微子之命",
+    "sort_key": "038",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 康誥 Zhou Shu - Announcement to the Prince of Kang",
+    "canonical_ref": "尚書·周書 康誥",
+    "sort_key": "039",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 酒誥 Zhou Shu - Announcement about Drunkenness",
+    "canonical_ref": "尚書·周書 酒誥",
+    "sort_key": "040",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-041-zhou-shu-timber-of-the-rottlera",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 梓材 Zhou Shu - Timber of the Rottlera",
+    "canonical_ref": "尚書·周書 梓材",
+    "sort_key": "041",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 召誥 Zhou Shu - Announcement of the Duke of Shao",
+    "canonical_ref": "尚書·周書 召誥",
+    "sort_key": "042",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-043-zhou-shu-announcement-concerning-luo",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 洛誥 Zhou Shu - Announcement concerning Luo",
+    "canonical_ref": "尚書·周書 洛誥",
+    "sort_key": "043",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-044-zhou-shu-numerous-officers",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 多士 Zhou Shu - Numerous Officers",
+    "canonical_ref": "尚書·周書 多士",
+    "sort_key": "044",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-045-zhou-shu-against-luxurious-ease",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 無逸 Zhou Shu - Against Luxurious Ease",
+    "canonical_ref": "尚書·周書 無逸",
+    "sort_key": "045",
+    "notes": "Export uses exact block alignment."
+  },
+  {
+    "section_id": "shangshu-046-zhou-shu-prince-shi",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 君奭 Zhou Shu - Prince Shi",
+    "canonical_ref": "尚書·周書 君奭",
+    "sort_key": "046",
+    "notes": "Export uses exact block alignment."
+  },
+  {
+    "section_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 蔡仲之命 Zhou Shu - Charge to Zhong of Cai",
+    "canonical_ref": "尚書·周書 蔡仲之命",
+    "sort_key": "047",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-048-zhou-shu-numerous-regions",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 多方 Zhou Shu - Numerous Regions",
+    "canonical_ref": "尚書·周書 多方",
+    "sort_key": "048",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-049-zhou-shu-establishment-of-government",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 立政 Zhou Shu - Establishment of Government",
+    "canonical_ref": "尚書·周書 立政",
+    "sort_key": "049",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-050-zhou-shu-officers-of-zhou",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 周官 Zhou Shu - Officers of Zhou",
+    "canonical_ref": "尚書·周書 周官",
+    "sort_key": "050",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-051-zhou-shu-jun-chen",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 君陳 Zhou Shu - Jun-chen",
+    "canonical_ref": "尚書·周書 君陳",
+    "sort_key": "051",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-052-zhou-shu-testamentary-charge",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 顧命 Zhou Shu - Testamentary Charge",
+    "canonical_ref": "尚書·周書 顧命",
+    "sort_key": "052",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-053-zhou-shu-announcement-of-king-kang",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 康王之誥 Zhou Shu - Announcement of King Kang",
+    "canonical_ref": "尚書·周書 康王之誥",
+    "sort_key": "053",
+    "notes": "Export uses exact block alignment."
+  },
+  {
+    "section_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 畢命 Zhou Shu - Charge to the Duke of Bi",
+    "canonical_ref": "尚書·周書 畢命",
+    "sort_key": "054",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-055-zhou-shu-kun-ya",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 君牙 Zhou Shu - Kun-ya",
+    "canonical_ref": "尚書·周書 君牙",
+    "sort_key": "055",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-056-zhou-shu-charge-to-jiong",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 冏命 Zhou Shu - Charge to Jiong",
+    "canonical_ref": "尚書·周書 冏命",
+    "sort_key": "056",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 呂刑 Zhou Shu - Marquis of Lu on Punishments",
+    "canonical_ref": "尚書·周書 呂刑",
+    "sort_key": "057",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 文侯之命 Zhou Shu - Charge to the Marquis Wen",
+    "canonical_ref": "尚書·周書 文侯之命",
+    "sort_key": "058",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-059-zhou-shu-speech-at-bi",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 費誓 Zhou Shu - Speech at Bi",
+    "canonical_ref": "尚書·周書 費誓",
+    "sort_key": "059",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",
+    "work_id": "shangshu",
+    "parent_section_id": null,
+    "label": "周書 秦誓 Zhou Shu - Speech of the Marquis of Qin",
+    "canonical_ref": "尚書·周書 秦誓",
+    "sort_key": "060",
+    "notes": "Export uses monotonic grouped block alignment."
+  },
+  {
+    "section_id": "yijing-001-qian",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "乾 Qian",
+    "canonical_ref": "易經 1 乾",
+    "sort_key": 1,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-002-kun",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "坤 Kun",
+    "canonical_ref": "易經 2 坤",
+    "sort_key": 2,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-003-zhun",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "屯 Zhun",
+    "canonical_ref": "易經 3 屯",
+    "sort_key": 3,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-004-meng",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "蒙 Meng",
+    "canonical_ref": "易經 4 蒙",
+    "sort_key": 4,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-005-xu",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "需 Xu",
+    "canonical_ref": "易經 5 需",
+    "sort_key": 5,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-006-song",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "訟 Song",
+    "canonical_ref": "易經 6 訟",
+    "sort_key": 6,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-007-shi",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "師 Shi",
+    "canonical_ref": "易經 7 師",
+    "sort_key": 7,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-008-bi",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "比 Bi",
+    "canonical_ref": "易經 8 比",
+    "sort_key": 8,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-009-xiao-xu",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "小畜 Xiao Xu",
+    "canonical_ref": "易經 9 小畜",
+    "sort_key": 9,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-010-lu",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "履 Lu",
+    "canonical_ref": "易經 10 履",
+    "sort_key": 10,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-011-tai",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "泰 Tai",
+    "canonical_ref": "易經 11 泰",
+    "sort_key": 11,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-012-pi",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "否 Pi",
+    "canonical_ref": "易經 12 否",
+    "sort_key": 12,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-013-tong-ren",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "同人 Tong Ren",
+    "canonical_ref": "易經 13 同人",
+    "sort_key": 13,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-014-da-you",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "大有 Da You",
+    "canonical_ref": "易經 14 大有",
+    "sort_key": 14,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-015-qian",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "謙 Qian",
+    "canonical_ref": "易經 15 謙",
+    "sort_key": 15,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-016-yu",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "豫 Yu",
+    "canonical_ref": "易經 16 豫",
+    "sort_key": 16,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-017-sui",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "隨 Sui",
+    "canonical_ref": "易經 17 隨",
+    "sort_key": 17,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-018-gu",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "蠱 Gu",
+    "canonical_ref": "易經 18 蠱",
+    "sort_key": 18,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-019-lin",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "臨 Lin",
+    "canonical_ref": "易經 19 臨",
+    "sort_key": 19,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-020-guan",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "觀 Guan",
+    "canonical_ref": "易經 20 觀",
+    "sort_key": 20,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-021-shi-he",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "噬嗑 Shi He",
+    "canonical_ref": "易經 21 噬嗑",
+    "sort_key": 21,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-022-bi",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "賁 Bi",
+    "canonical_ref": "易經 22 賁",
+    "sort_key": 22,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-023-bo",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "剝 Bo",
+    "canonical_ref": "易經 23 剝",
+    "sort_key": 23,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-024-fu",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "復 Fu",
+    "canonical_ref": "易經 24 復",
+    "sort_key": 24,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-025-wu-wang",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "无妄 Wu Wang",
+    "canonical_ref": "易經 25 无妄",
+    "sort_key": 25,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-026-da-xu",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "大畜 Da Xu",
+    "canonical_ref": "易經 26 大畜",
+    "sort_key": 26,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-027-yi",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "頤 Yi",
+    "canonical_ref": "易經 27 頤",
+    "sort_key": 27,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-028-da-guo",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "大過 Da Guo",
+    "canonical_ref": "易經 28 大過",
+    "sort_key": 28,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-029-kan",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "坎 Kan",
+    "canonical_ref": "易經 29 坎",
+    "sort_key": 29,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-030-li",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "離 Li",
+    "canonical_ref": "易經 30 離",
+    "sort_key": 30,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-031-xian",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "咸 Xian",
+    "canonical_ref": "易經 31 咸",
+    "sort_key": 31,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-032-heng",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "恆 Heng",
+    "canonical_ref": "易經 32 恆",
+    "sort_key": 32,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-033-dun",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "遯 Dun",
+    "canonical_ref": "易經 33 遯",
+    "sort_key": 33,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-034-da-zhuang",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "大壯 Da Zhuang",
+    "canonical_ref": "易經 34 大壯",
+    "sort_key": 34,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-035-jin",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "晉 Jin",
+    "canonical_ref": "易經 35 晉",
+    "sort_key": 35,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-036-ming-yi",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "明夷 Ming Yi",
+    "canonical_ref": "易經 36 明夷",
+    "sort_key": 36,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-037-jia-ren",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "家人 Jia Ren",
+    "canonical_ref": "易經 37 家人",
+    "sort_key": 37,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-038-kui",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "睽 Kui",
+    "canonical_ref": "易經 38 睽",
+    "sort_key": 38,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-039-jian",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "蹇 Jian",
+    "canonical_ref": "易經 39 蹇",
+    "sort_key": 39,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-040-jie",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "解 Jie",
+    "canonical_ref": "易經 40 解",
+    "sort_key": 40,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-041-sun",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "損 Sun",
+    "canonical_ref": "易經 41 損",
+    "sort_key": 41,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-042-yi",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "益 Yi",
+    "canonical_ref": "易經 42 益",
+    "sort_key": 42,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-043-guai",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "夬 Guai",
+    "canonical_ref": "易經 43 夬",
+    "sort_key": 43,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-044-gou",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "姤 Gou",
+    "canonical_ref": "易經 44 姤",
+    "sort_key": 44,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-045-cui",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "萃 Cui",
+    "canonical_ref": "易經 45 萃",
+    "sort_key": 45,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-046-sheng",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "升 Sheng",
+    "canonical_ref": "易經 46 升",
+    "sort_key": 46,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-047-kun",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "困 Kun",
+    "canonical_ref": "易經 47 困",
+    "sort_key": 47,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-048-jing",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "井 Jing",
+    "canonical_ref": "易經 48 井",
+    "sort_key": 48,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-049-ge",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "革 Ge",
+    "canonical_ref": "易經 49 革",
+    "sort_key": 49,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-050-ding",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "鼎 Ding",
+    "canonical_ref": "易經 50 鼎",
+    "sort_key": 50,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-051-zhen",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "震 Zhen",
+    "canonical_ref": "易經 51 震",
+    "sort_key": 51,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-052-gen",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "艮 Gen",
+    "canonical_ref": "易經 52 艮",
+    "sort_key": 52,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-053-jian",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "漸 Jian",
+    "canonical_ref": "易經 53 漸",
+    "sort_key": 53,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-054-gui-mei",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "歸妹 Gui Mei",
+    "canonical_ref": "易經 54 歸妹",
+    "sort_key": 54,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-055-feng",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "豐 Feng",
+    "canonical_ref": "易經 55 豐",
+    "sort_key": 55,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-056-lu",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "旅 Lu",
+    "canonical_ref": "易經 56 旅",
+    "sort_key": 56,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-057-xun",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "巽 Xun",
+    "canonical_ref": "易經 57 巽",
+    "sort_key": 57,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-058-dui",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "兌 Dui",
+    "canonical_ref": "易經 58 兌",
+    "sort_key": 58,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-059-huan",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "渙 Huan",
+    "canonical_ref": "易經 59 渙",
+    "sort_key": 59,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-060-jie",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "節 Jie",
+    "canonical_ref": "易經 60 節",
+    "sort_key": 60,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-061-zhong-fu",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "中孚 Zhong Fu",
+    "canonical_ref": "易經 61 中孚",
+    "sort_key": 61,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-062-xiao-guo",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "小過 Xiao Guo",
+    "canonical_ref": "易經 62 小過",
+    "sort_key": 62,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-063-ji-ji",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "既濟 Ji Ji",
+    "canonical_ref": "易經 63 既濟",
+    "sort_key": 63,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
+  },
+  {
+    "section_id": "yijing-064-wei-ji",
+    "work_id": "yijing",
+    "parent_section_id": null,
+    "label": "未濟 Wei Ji",
+    "canonical_ref": "易經 64 未濟",
+    "sort_key": 64,
+    "notes": "ChineseNotes provides the bilingual hexagram file and provenance scaffold. Active exports keep only the Zhouyi judgment and line statements; trigram headings and Ten Wings commentary are excluded."
   }
 ]

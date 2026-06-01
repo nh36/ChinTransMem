@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-057-xun__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-057-xun</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 57 judgment</prop>
+      <prop type="x-translation-ref">易經 57 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>巽，小亨，利攸往，利見大人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Xun intimates that (under the conditions which it denotes) there will be some little attainment and progress. There will be advantage in movement onward in whatever direction. It will be advantageous (also) to see the great man.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-057-xun__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-057-xun</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 57 初六</prop>
+      <prop type="x-translation-ref">易經 57 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：進退，利武人之貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows its subject (now) advancing, (now) receding. It would be advantageous for him to have the firm correctness of a brave soldier.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-057-xun__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-057-xun</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 57 九二</prop>
+      <prop type="x-translation-ref">易經 57 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：巽在牀下，用史巫紛若，吉无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows the representative of Sun beneath a couch, and employing diviners and exorcists in a way bordering on confusion. There will be good fortune and no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-057-xun__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-057-xun</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 57 九三</prop>
+      <prop type="x-translation-ref">易經 57 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：頻巽，吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows its subject penetrating (only) by violent and repeated efforts. There will be occasion for regret.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-057-xun__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-057-xun</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 57 六四</prop>
+      <prop type="x-translation-ref">易經 57 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：悔亡，田獲三品。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows all occasion for repentance (in its subject) passed away. He takes game for its threefold use in his hunting.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-057-xun__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-057-xun</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 57 九五</prop>
+      <prop type="x-translation-ref">易經 57 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：貞吉悔亡，无不利。无初有終，先庚三日，后庚三日，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows that with firm correctness there will be good fortune (to its subject). All occasion for repentance will disappear, and all his movements will be advantageous. There may have been no (good) beginning, but there will be a (good) end. Three days before making any changes, (let him give notice of them); and three days after, (let him reconsider them). There will (thus) be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-057-xun__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-057-xun</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 57 上九</prop>
+      <prop type="x-translation-ref">易經 57 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：巽在牀下，喪其資斧，貞凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, shows the representative of penetration beneath a couch, and having lost the axe with which he executed his decisions. However firm and correct he may (try to) be, there will be evil.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

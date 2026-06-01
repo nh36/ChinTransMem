@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-054-gui-mei__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-054-gui-mei</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 54 judgment</prop>
+      <prop type="x-translation-ref">易經 54 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>歸妹，征凶，无攸利。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Gui Mei indicates that (under the conditions which it denotes) action will be evil, and in no wise advantageous.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-054-gui-mei__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-054-gui-mei</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 54 初九</prop>
+      <prop type="x-translation-ref">易經 54 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：歸妹以娣，跛能履，征吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows the younger sister married off in a position ancillary to the real wife. (It suggests the idea of) a person lame on one leg who yet manages to tramp along. Going forward will be fortunate.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-054-gui-mei__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-054-gui-mei</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 54 九二</prop>
+      <prop type="x-translation-ref">易經 54 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：眇能視，利幽人之貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows her blind of one eye, and yet able to see. There will be advantage in her maintaining the firm correctness of a solitary widow.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-054-gui-mei__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-054-gui-mei</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 54 六三</prop>
+      <prop type="x-translation-ref">易經 54 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：歸妹以須，反歸以娣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows the younger sister who was to be married off in a mean position. She returns and accepts an ancillary position.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-054-gui-mei__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-054-gui-mei</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 54 九四</prop>
+      <prop type="x-translation-ref">易經 54 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：歸妹愆期，遲歸有時。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows the younger sister who is to be married off protracting the time. She may be late in being married, but the time will come.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-054-gui-mei__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-054-gui-mei</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 54 六五</prop>
+      <prop type="x-translation-ref">易經 54 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：帝乙歸妹，其君之袂，不如其娣之袂良，月几望，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, reminds us of the marrying of the younger sister of (king) Di-yi, when the sleeves of her the princess were not equal to those of the (still) younger sister who accompanied her in an inferior capacity. (The case suggests the thought of) the moon almost full. There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-054-gui-mei__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-054-gui-mei</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 54 上六</prop>
+      <prop type="x-translation-ref">易經 54 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：女承筐无實，士刲羊无血，无攸利。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth SIX, divided, shows the young lady bearing the basket, but without anything in it, and the gentleman slaughtering the sheep, but without blood flowing from it. There will be no advantage in any way.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

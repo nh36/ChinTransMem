@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-006-song__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-006-song</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 6 judgment</prop>
+      <prop type="x-translation-ref">易經 6 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>訟，有孚，窒，惕，中吉，終凶。利見大人，不利涉大川。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Song intimates how, though there is sincerity in one's contention, he will yet meet with opposition and obstruction; but if he cherish an apprehensive caution, there will be good fortune, while, if he must prosecute the contention to the (bitter) end, there will be evil. It will be advantageous to see the great man; it will not be advantageous to cross the great stream.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-006-song__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-006-song</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 6 初六</prop>
+      <prop type="x-translation-ref">易經 6 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六，不永所事，小有言，終吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows its subject not perpetuating the matter about which (the contention is). He will suffer the small (injury) of being spoken against, but the end will be fortunate.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-006-song__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-006-song</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 6 九二</prop>
+      <prop type="x-translation-ref">易經 6 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二，不克訟，歸而逋，其邑人三百戶无眚。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows its subject unequal to the contention. If he retire and keep concealed (where) the inhabitants of his city are (only) three hundred families, he will fall into no mistake.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-006-song__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-006-song</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 6 六三</prop>
+      <prop type="x-translation-ref">易經 6 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三，食舊德，貞厲，終吉。或從王事，无成。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows its subject keeping in the old place assigned for his support, and firmly correct. Perilous as the position is, there will be good fortune in the end. Should he perchance engage in the king's business, he will not (claim the merit of) achievement.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-006-song__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-006-song</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 6 九四</prop>
+      <prop type="x-translation-ref">易經 6 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四，不克訟，復即命渝，安貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject unequal to the contention. He returns to (the study of Heaven's) ordinances, changes (his wish to contend), and rests in being firm and correct. There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-006-song__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-006-song</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 6 九五</prop>
+      <prop type="x-translation-ref">易經 6 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五，訟，元吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>S. The fifth NINE, undivided, shows its subject contending - and with great good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-006-song__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-006-song</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 6 上九</prop>
+      <prop type="x-translation-ref">易經 6 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九，或錫之鞶帶，終朝三褫之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost NINE, undivided, shows how its subject may have the leathern belt conferred on him (by the sovereign), and thrice it shall be taken from him in a morning.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

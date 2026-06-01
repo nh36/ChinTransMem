@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-036-ming-yi__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-036-ming-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 36 judgment</prop>
+      <prop type="x-translation-ref">易經 36 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>明夷，利艱貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ming Yi indicates that (in the circumstances which it denotes) it will be advantageous to realise the difficulty (of the position), and maintain firm correctness.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-036-ming-yi__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-036-ming-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 36 初九</prop>
+      <prop type="x-translation-ref">易經 36 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：明夷于飛，垂其翼。君子于行，三日不食，有攸往，主人有言。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows its subject, (in the condition indicated by) Ming Yi, flying, but with drooping wings. When the superior man (is revolving) his going away, he may be for three days without eating. Wherever he goes, the people there may speak (derisively of him).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-036-ming-yi__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-036-ming-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 36 六二</prop>
+      <prop type="x-translation-ref">易經 36 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：明夷，夷于左股，用拯馬壯，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows its subject, (in the condition indicated by) Ming Yi, wounded in the left thigh. He saves himself by the strength of a (swift) horse; and is fortunate.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-036-ming-yi__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-036-ming-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 36 九三</prop>
+      <prop type="x-translation-ref">易經 36 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：明夷于南狩，得其大首，不可疾貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows its subject, (in the condition indicated by) Ming Yi, hunting in the south, and taking the great chief (of the darkness). He should not be eager to make (all) correct (at once).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-036-ming-yi__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-036-ming-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 36 六四</prop>
+      <prop type="x-translation-ref">易經 36 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：入于左腹，獲明夷之心，出于門庭。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth six, divided, shows its subject (just) entered into the left side of the belly (of the dark land). (But) he is able to carry out the mind appropriate (in the condition indicated by) Ming Yi, quitting the gate and courtyard (of the lord of darkness).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-036-ming-yi__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-036-ming-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 36 六五</prop>
+      <prop type="x-translation-ref">易經 36 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：箕子之明夷，利貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth six, divided, shows how the count of K? fulfilled the condition indicated by Ming Yi. It will be advantageous to be firm and correct.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-036-ming-yi__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-036-ming-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 36 上六</prop>
+      <prop type="x-translation-ref">易經 36 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：不明晦，初登于天，后入于地。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth six, divided, shows the case where there is no light, but (only) obscurity. (Its subject) had at first ascended to (the top of) the sky; his future shall be to go into the earth.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

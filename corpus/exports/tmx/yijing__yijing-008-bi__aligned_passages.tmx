@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-008-bi__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-008-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 8 judgment</prop>
+      <prop type="x-translation-ref">易經 8 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>比，吉。原筮元永貞，无咎。不寧方來，後夫凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bi indicates that (under the conditions which it supposes) there is good fortune. But let (the principal party intended in it) re-examine himself, (as if) by divination, whether his virtue be great, unintermitting, and firm. If it be so, there will be no error. Those who have not rest will then come to him; and with those who are (too) late in coming it will be ill.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-008-bi__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-008-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 8 初六</prop>
+      <prop type="x-translation-ref">易經 8 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六，有孚，比之，无咎。有孚盈缶，終來有它，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows its subject seeking by his sincerity to win the attachment of his object. There will be no error. Let (the breast) be full of sincerity as an earthenware vessel is of its contents, and it will in the end bring other advantages.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-008-bi__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-008-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 8 六二</prop>
+      <prop type="x-translation-ref">易經 8 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二，比之自內，貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the second SIX, divided, we see the movement towards union and attachment proceeding from the inward (mind). With firm correctness there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-008-bi__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-008-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 8 六三</prop>
+      <prop type="x-translation-ref">易經 8 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三，比之匪人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the third SIX, divided, we see its subject seeking for union with such as ought not to be associated with.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-008-bi__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-008-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 8 六四</prop>
+      <prop type="x-translation-ref">易經 8 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四，外比之，貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the fourth SIX, divided, we see its subject seeking for union with the one beyond himself. With firm correctness there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-008-bi__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-008-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 8 九五</prop>
+      <prop type="x-translation-ref">易經 8 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五，顯比。王用三驅，失前禽，邑人不誡，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, affords the most illustrious instance of seeking union and attachment. (We seem to see in it) the king urging his pursuit of the game (only) in three directions, and allowing the escape of all the animals before him, while the people of his towns do not warn one another (to prevent it). There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-008-bi__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-008-bi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 8 上六</prop>
+      <prop type="x-translation-ref">易經 8 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六，比之无首，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the topmost SIX, divided, we see one seeking union and attachment without having taken the first step (to such an end). There will be evil.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

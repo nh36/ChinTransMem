@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-049-ge__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-049-ge</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 49 judgment</prop>
+      <prop type="x-translation-ref">易經 49 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>革，己日乃孚，元亨，利貞，悔亡。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(What takes place as indicated by) Ge is believed in only after it has been accomplished. There will be great progress and success. Advantage will come from being firm and correct. (In that case) occasion for repentance will disappear.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-049-ge__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-049-ge</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 49 初九</prop>
+      <prop type="x-translation-ref">易經 49 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：鞏用黃牛之革。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows its subject (as if he were) bound with the skin of a yellow ox.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-049-ge__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-049-ge</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 49 六二</prop>
+      <prop type="x-translation-ref">易經 49 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：己日乃革之，征吉，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows its subject making his changes after some time has passed. Action taken will be fortunate. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-049-ge__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-049-ge</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 49 九三</prop>
+      <prop type="x-translation-ref">易經 49 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：征凶，貞厲，革言三就，有孚。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows that action taken by its subject will be evil. Though he be firm and correct, his position is perilous. If the change (he contemplates) have been three times fully discussed, he will be believed in.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-049-ge__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-049-ge</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 49 九四</prop>
+      <prop type="x-translation-ref">易經 49 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：悔亡，有孚改命，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows occasion for repentance disappearing (from its subject). Let him be believed in; and though he change (existing) ordinances, there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-049-ge__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-049-ge</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 49 九五</prop>
+      <prop type="x-translation-ref">易經 49 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：大人虎變，未占有孚。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows the great man (producing his changes) as the tiger (does when he) changes (his stripes). Before he divines (and proceeds to action), faith has been reposed in him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-049-ge__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-049-ge</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 49 上六</prop>
+      <prop type="x-translation-ref">易經 49 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：君子豹變，小人革面，征凶，居貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth SIX, divided, shows the superior man producing his changes as the leopard (does when he) changes (his spots), while small men change their faces (and show their obedience). To go forward (now) would lead to evil, but there will be good fortune in abiding firm and correct.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

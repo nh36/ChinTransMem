@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-040-jie__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-040-jie</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 40 judgment</prop>
+      <prop type="x-translation-ref">易經 40 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>解，利西南，无所往，其來復吉。有攸往，夙吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In (the state indicated by) Jie advantage will be found in the south-west. If no (further) operations be called for, there will be good fortune in coming back (to the old conditions). If some operations be called for, there will be good fortune in the early conducting of them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-040-jie__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-040-jie</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 40 初六</prop>
+      <prop type="x-translation-ref">易經 40 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows that its subject will commit no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-040-jie__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-040-jie</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 40 九二</prop>
+      <prop type="x-translation-ref">易經 40 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：田獲三狐，得黃矢，貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows its subject catch, in hunting, three foxes, and obtain the yellow (= golden) arrows. With firm correctness there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-040-jie__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-040-jie</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 40 六三</prop>
+      <prop type="x-translation-ref">易經 40 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：負且乘，致寇至，貞吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows a porter with his burden, (yet) riding in a carriage. He will (only) tempt robbers to attack him. However firm and correct he may (try to) be, there will be cause for regret.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-040-jie__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-040-jie</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 40 九四</prop>
+      <prop type="x-translation-ref">易經 40 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：解而拇，朋至斯孚。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>(To the subject of) the fourth NINE, undivided, (it is said), 'Remove your toes. Friends will (then) come, between you and whom there will be mutual confidence.'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-040-jie__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-040-jie</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 40 六五</prop>
+      <prop type="x-translation-ref">易經 40 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：君子維有解，吉；有孚于小人。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows (its subject), the superior man (= the ruler), executing his function of removing (whatever is injurious to the idea of the hexagram), in which case there will he good fortune, and confidence in him will be shown even by the small men.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-040-jie__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-040-jie</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 40 上六</prop>
+      <prop type="x-translation-ref">易經 40 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：公用射隼，于高墉之上，獲之，无不利。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the sixth SIX, divided, we see a feudal prince (with his bow) shooting at a falcon on the top of a high wall, and hitting it. (The effect of his action) will be in every way advantageous.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

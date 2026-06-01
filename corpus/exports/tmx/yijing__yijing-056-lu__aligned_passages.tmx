@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-056-lu__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-056-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 56 judgment</prop>
+      <prop type="x-translation-ref">易經 56 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>旅，小亨，旅貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Lu intimates that (in the condition which it denotes) there may be some little attainment and progress. If the stranger or traveller be firm and correct as he ought to be, there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-056-lu__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-056-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 56 初六</prop>
+      <prop type="x-translation-ref">易經 56 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：旅瑣瑣，斯其所取災。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows the stranger mean and meanly occupied. It is thus that he brings on himself (further) calamity.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-056-lu__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-056-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 56 六二</prop>
+      <prop type="x-translation-ref">易經 56 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：旅即次，懷其資，得童僕貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows the stranger, occupying his lodging-house, carrying with him his means of livelihood, and provided with good and trusty servants.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-056-lu__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-056-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 56 九三</prop>
+      <prop type="x-translation-ref">易經 56 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：旅焚其次，喪其童僕，貞厲。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows the stranger, burning his lodging-house, and having lost his servants. However firm and correct he (try to) be, he will be in peril.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-056-lu__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-056-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 56 九四</prop>
+      <prop type="x-translation-ref">易經 56 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：旅于處，得其資斧，我心不快。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows the traveller in a resting-place, having (also) the means of livelihood and the axe, (but still saying), 'I am not at ease in my mind.'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-056-lu__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-056-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 56 六五</prop>
+      <prop type="x-translation-ref">易經 56 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：射雉一矢亡，終以譽命。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows its subject shooting a pheasant. He will lose his arrow, but in the end he will obtain praise and a (high) charge.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-056-lu__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-056-lu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 56 上九</prop>
+      <prop type="x-translation-ref">易經 56 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：鳥焚其巢，旅人先笑后號啕。喪牛于易，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, suggests the idea of a bird burning its nest. The stranger, (thus represented), first laughs and then cries out. He has lost his ox(-like docility) too readily and easily. There will be evil.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

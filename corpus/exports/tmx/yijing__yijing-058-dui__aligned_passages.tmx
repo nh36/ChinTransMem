@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-058-dui__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-058-dui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 58 judgment</prop>
+      <prop type="x-translation-ref">易經 58 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>兌，亨，利貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Dui intimates that (under its conditions) there will be progress and attainment. (But) it will be advantageous to be firm and correct.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-058-dui__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-058-dui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 58 初九</prop>
+      <prop type="x-translation-ref">易經 58 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：和兌，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows the pleasure of (inward) harmony. There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-058-dui__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-058-dui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 58 九二</prop>
+      <prop type="x-translation-ref">易經 58 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：孚兌，吉，悔亡。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows the pleasure arising from (inward) sincerity. There will be good fortune. Occasion for repentance will disappear.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-058-dui__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-058-dui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 58 六三</prop>
+      <prop type="x-translation-ref">易經 58 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：來兌，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows its subject bringing round himself whatever can give pleasure. There will be evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-058-dui__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-058-dui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 58 九四</prop>
+      <prop type="x-translation-ref">易經 58 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：商兌，未寧，介疾有喜。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject deliberating about what to seek his pleasure in, and not at rest. He borders on what would be injurious, but there will be cause for joy.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-058-dui__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-058-dui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 58 九五</prop>
+      <prop type="x-translation-ref">易經 58 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：孚于剝，有厲。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows its subject trusting in one who would injure him. The situation is perilous.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-058-dui__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-058-dui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 58 上六</prop>
+      <prop type="x-translation-ref">易經 58 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：引兌。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost SIX, divided, shows the pleasure of its subject in leading and attracting others.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

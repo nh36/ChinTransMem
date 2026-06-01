@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-061-zhong-fu__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-061-zhong-fu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 61 judgment</prop>
+      <prop type="x-translation-ref">易經 61 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>中孚，豚魚吉，利涉大川，利貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Zhong Fu (moves even) pigs and fish, and leads to good fortune. There will be advantage in crossing the great stream. There will be advantage in being firm and correct.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-061-zhong-fu__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-061-zhong-fu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 61 初九</prop>
+      <prop type="x-translation-ref">易經 61 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：虞吉，有他不燕。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>I. The first NINE, undivided, shows its subject resting (in himself). There will be good fortune. If he sought to any other, he would not find rest.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-061-zhong-fu__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-061-zhong-fu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 61 九二</prop>
+      <prop type="x-translation-ref">易經 61 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：鳴鶴在陰，其子和之，我有好爵，吾與爾靡之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows its subject (like) the crane crying out in her hidden retirement, and her young ones responding to her. (It is as if it were said), 'I have a cup of good spirits,' (and the response were), 'I will partake of it with you.'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-061-zhong-fu__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-061-zhong-fu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 61 六三</prop>
+      <prop type="x-translation-ref">易經 61 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：得敵，或鼓或罷，或泣或歌。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows its subject having met with his mate. Now he beats his drum, and now he leaves off. Now he weeps, and now he sings.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-061-zhong-fu__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-061-zhong-fu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 61 六四</prop>
+      <prop type="x-translation-ref">易經 61 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：月几望，馬匹亡，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows its subject (like) the moon nearly full, and (like) a horse (in a chariot) whose fellow disappears. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-061-zhong-fu__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-061-zhong-fu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 61 九五</prop>
+      <prop type="x-translation-ref">易經 61 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：有孚攣如，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows its subject perfectly sincere, and linking (others) to him in closest union. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-061-zhong-fu__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-061-zhong-fu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 61 上九</prop>
+      <prop type="x-translation-ref">易經 61 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：翰音登于天，貞凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost NINE, undivided, shows its subject in chanticleer (trying to) mount to heaven. Even with firm correctness there will be evil.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-020-guan__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-020-guan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 20 judgment</prop>
+      <prop type="x-translation-ref">易經 20 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>觀，盥而不荐，有孚顒若。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Guan shows (how he whom it represents should be like) the worshipper who has washed his hands, but not (yet) presented his offerings - with sincerity and an appearance of dignity (commanding reverent regard).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-020-guan__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-020-guan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 20 初六</prop>
+      <prop type="x-translation-ref">易經 20 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：童觀，小人无咎，君子吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows the looking of a lad - not blamable in men of inferior rank, but matter for regret in superior men.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-020-guan__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-020-guan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 20 六二</prop>
+      <prop type="x-translation-ref">易經 20 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：窺觀，利女貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows one peeping out from a door. It would be advantageous if it were (merely) the firm correctness of a female.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-020-guan__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-020-guan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 20 六三</prop>
+      <prop type="x-translation-ref">易經 20 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：觀我生，進退。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows one looking at (the course of) his own life, to advance or recede (accordingly).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-020-guan__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-020-guan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 20 六四</prop>
+      <prop type="x-translation-ref">易經 20 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：觀國之光，利用賓于王。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows one contemplating the glory of the kingdom. It will be advantageous for him, being such as he is, (to seek) to be a guest of the king.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-020-guan__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-020-guan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 20 九五</prop>
+      <prop type="x-translation-ref">易經 20 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：觀我生，君子无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows its subject contemplating his own life(-course). A superior man, he will (thus) fall into no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-020-guan__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-020-guan</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 20 上九</prop>
+      <prop type="x-translation-ref">易經 20 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：觀其生，君子无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, shows its subject contemplating his character to see if it be indeed that of a superior man. He will not fall into error.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

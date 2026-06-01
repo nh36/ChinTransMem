@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-042-yi__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-042-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 42 judgment</prop>
+      <prop type="x-translation-ref">易經 42 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>益，利有攸往，利涉大川。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Yi indicates that (in the state which it denotes) there will be advantage in every movement which shall be undertaken, that it will be advantageous (even) to cross the great stream.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-042-yi__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-042-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 42 初九</prop>
+      <prop type="x-translation-ref">易經 42 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：利用為大作，元吉，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows that it will be advantageous for its subject in his position to make a great movement. If it be greatly fortunate, no blame will be imputed to him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-042-yi__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-042-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 42 六二</prop>
+      <prop type="x-translation-ref">易經 42 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：或益之，十朋之龜弗克違，永貞吉。王用享于帝，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows parties adding to the stores of its subject ten pairs of tortoise shells whose oracles cannot be opposed. Let him persevere in being firm and correct, and there will be good fortune. Let the king, (having the virtues thus distinguished), employ them in presenting his offerings to God, and there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-042-yi__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-042-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 42 六三</prop>
+      <prop type="x-translation-ref">易經 42 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：益之用凶事，无咎。有孚中行，告公用圭。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows increase given to its subject by means of what is evil, so that he shall (be led to good), and be without blame. Let him be sincere and pursue the path of the Mean, (so shall he secure the recognition of the ruler, like) an officer who announces himself to his prince by the symbol of his rank.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-042-yi__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-042-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 42 六四</prop>
+      <prop type="x-translation-ref">易經 42 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：中行，告公從。利用為依遷國。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows its subject pursuing the due course. His advice to his prince is followed. He can with advantage be relied on in such a movement as that of removing the capital.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-042-yi__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-042-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 42 九五</prop>
+      <prop type="x-translation-ref">易經 42 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：有孚惠心，勿問元吉。有孚惠我德。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows its subject with sincere heart seeking to benefit (all below). There need be no question about it; the result will be great good fortune. (All below) will with sincere heart acknowledge his goodness.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-042-yi__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-042-yi</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 42 上九</prop>
+      <prop type="x-translation-ref">易經 42 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：莫益之，或擊之，立心勿恆，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the sixth NINE, undivided, we see one to whose increase none will contribute, while many will seek to assail him. He observes no regular rule in the ordering of his heart. There will be evil.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

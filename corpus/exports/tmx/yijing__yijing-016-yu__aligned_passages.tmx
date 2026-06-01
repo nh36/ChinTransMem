@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-016-yu__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-016-yu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 16 judgment</prop>
+      <prop type="x-translation-ref">易經 16 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>豫，利建侯行師。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Yu indicates that, (in the state which it implies), feudal princes may be set up, and the hosts put in motion, with advantage.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-016-yu__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-016-yu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 16 初六</prop>
+      <prop type="x-translation-ref">易經 16 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：鳴豫，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows its subject proclaiming his pleasure and satisfaction. There will be evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-016-yu__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-016-yu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 16 六二</prop>
+      <prop type="x-translation-ref">易經 16 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：介于石，不終日，貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows one who is firm as a rock. (He sees a thing) without waiting till it has come to pass; with his firm correctness there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-016-yu__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-016-yu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 16 六三</prop>
+      <prop type="x-translation-ref">易經 16 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：盱豫，悔。遲有悔。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows one looking up (for favours), while he indulges the feeling of pleasure and satisfaction. If he would understand!--If he be late in doing so, there will indeed be occasion for repentance.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-016-yu__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-016-yu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 16 九四</prop>
+      <prop type="x-translation-ref">易經 16 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：由豫，大有得。勿疑。朋盍簪。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows him from whom the harmony and satisfaction come. Great is the success which he obtains. Let him not allow suspicions to enter his mind, and thus friends will gather around him.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-016-yu__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-016-yu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 16 六五</prop>
+      <prop type="x-translation-ref">易經 16 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：貞疾，恆不死。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth six, divided, shows one with a chronic complaint, but who lives on without dying.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-016-yu__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-016-yu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 16 上六</prop>
+      <prop type="x-translation-ref">易經 16 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：冥豫，成有渝，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost six, divided, shows its subject with darkened mind devoted to the pleasure and satisfaction (of the time); but if he change his course even when (it may be considered as) completed, there will be no error.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

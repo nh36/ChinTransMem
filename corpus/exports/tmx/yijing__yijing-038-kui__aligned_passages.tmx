@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-038-kui__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-038-kui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 38 judgment</prop>
+      <prop type="x-translation-ref">易經 38 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>睽，小事吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Kui indicates that, (notwithstanding the condition of things which it denotes), in small matters there will (still) be good success.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-038-kui__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-038-kui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 38 初九</prop>
+      <prop type="x-translation-ref">易經 38 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：悔亡，喪馬勿逐，自復；見惡人无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, shows that (to its subject) occasion for repentance will disappear. He has lost his horses, but let him not seek for them - they will return of themselves. Should he meet with bad men, he will not err (in communicating with them).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-038-kui__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-038-kui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 38 九二</prop>
+      <prop type="x-translation-ref">易經 38 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：遇主于巷，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows its subject happening to meet with his lord in a bye-passage. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-038-kui__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-038-kui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 38 六三</prop>
+      <prop type="x-translation-ref">易經 38 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：見輿曳，其牛掣，其人天且劓，无初有終。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the third SIX, divided, we see one whose carriage is dragged back, while the oxen in it are pushed back, and he is himself subjected to the shaving of his head and the cutting off of his nose. There is no good beginning, but there will be a good end.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-038-kui__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-038-kui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 38 九四</prop>
+      <prop type="x-translation-ref">易經 38 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：睽孤，遇元夫，交孚，厲无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows its subject solitary amidst the (prevailing) disunion. (But) he meets with the good man (represented by the first line), and they blend their sincere desires together. The position is one of peril, but there will be no mistake.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-038-kui__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-038-kui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 38 六五</prop>
+      <prop type="x-translation-ref">易經 38 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：悔亡，厥宗噬膚，往何咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows that (to its subject) occasion for repentance will disappear. With his relative (and minister he unites closely and readily) as if he were biting through a piece of skin. When he goes forward (with this help), what error can there be?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-038-kui__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-038-kui</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 38 上九</prop>
+      <prop type="x-translation-ref">易經 38 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：睽孤， 見豕負涂，載鬼一車， 先張之弧，后說之弧，匪寇婚媾，往遇雨則吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost NINE, undivided, shows its subject solitary amidst the (prevailing) disunion. (In the subject of the third line, he seems to) see a pig bearing on its back a load of mud, (or fancies) there is a carriage full of ghosts. He first bends his bow against him, and afterwards unbends it, (for he discovers) that he is not an assailant to injure, but a near relative. Going forward, he shall meet with (genial) rain, and there will be good fortune.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

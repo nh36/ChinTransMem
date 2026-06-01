@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-063-ji-ji__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-063-ji-ji</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 63 judgment</prop>
+      <prop type="x-translation-ref">易經 63 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>既濟，亨，小利貞，初吉終亂。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ji Ji intimates progress and success in small matters. There will be advantage in being firm and correct. There has been good fortune in the beginning; there may be disorder in the end.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-063-ji-ji__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-063-ji-ji</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 63 初九</prop>
+      <prop type="x-translation-ref">易經 63 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：曳其輪，濡其尾，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, (shows its subject as a driver) who drags back his wheel, (or as a fox) which has wet his tail. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-063-ji-ji__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-063-ji-ji</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 63 六二</prop>
+      <prop type="x-translation-ref">易經 63 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：婦喪其茀，勿逐，七日得。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, (shows its subject as) a wife who has lost her (carriage-)screen. There is no occasion to go in pursuit of it. In seven days she will find it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-063-ji-ji__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-063-ji-ji</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 63 九三</prop>
+      <prop type="x-translation-ref">易經 63 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：高宗伐鬼方，三年克之，小人勿用。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, (suggests the case of) K?o ?ung, who attacked the Demon region, but was three years in subduing it. Small men should not be employed (in such enterprises).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-063-ji-ji__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-063-ji-ji</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 63 六四</prop>
+      <prop type="x-translation-ref">易經 63 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：繻有衣袽，終日戒。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows its subject with rags provided against any leak (in his boat), and on his guard all day long.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-063-ji-ji__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-063-ji-ji</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 63 九五</prop>
+      <prop type="x-translation-ref">易經 63 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：東鄰殺牛，不如西鄰之禴祭，實受其福。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows its subject (as) the neighbour in the east who slaughters an ox (for his sacrifice); but this is not equal to the (small) spring sacrifice of the neighbour in the west, whose sincerity receives the blessing.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-063-ji-ji__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-063-ji-ji</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 63 上六</prop>
+      <prop type="x-translation-ref">易經 63 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：濡其首，厲。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost SIX, divided, shows its subject with (even) his head immersed. The position is perilous.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

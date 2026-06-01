@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-013-tong-ren__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-013-tong-ren</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 13 judgment</prop>
+      <prop type="x-translation-ref">易經 13 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>同人于野，亨。 利涉大川，利君子貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Tong Ren (or 'Union of men') appears here (as we find it) in the (remote districts of the) country, indicating progress and success. It will be advantageous to cross the great stream. It will be advantageous to maintain the firm correctness of the superior man.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-013-tong-ren__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-013-tong-ren</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 13 初九</prop>
+      <prop type="x-translation-ref">易經 13 初九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初九：同人于門，無咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first NINE, undivided, (shows the representative of) the union of men just issuing from his gate. There will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-013-tong-ren__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-013-tong-ren</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 13 六二</prop>
+      <prop type="x-translation-ref">易經 13 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：同人于宗，吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, (shows the representative of) the union of men in relation with his kindred. There will be occasion for regret.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-013-tong-ren__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-013-tong-ren</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 13 九三</prop>
+      <prop type="x-translation-ref">易經 13 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：伏戎于莽，升其高陵，三歲不興。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, (shows its subject) with his arms hidden in the thick grass, and at the top of a high mound. (But) for three years he makes no demonstration.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-013-tong-ren__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-013-tong-ren</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 13 九四</prop>
+      <prop type="x-translation-ref">易經 13 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：乘其墉，弗克，攻吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, (shows its subject) mounted on the city wall; but he does not proceed to make the attack (he contemplates). There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-013-tong-ren__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-013-tong-ren</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 13 九五</prop>
+      <prop type="x-translation-ref">易經 13 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：同人，先號啕而后笑。大師克相遇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the fifth NINE, undivided, (the representative of) the union of men first wails and cries out, and then laughs. His great host conquers, and he (and the subject of the second line) meet together.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-013-tong-ren__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-013-tong-ren</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 13 上九</prop>
+      <prop type="x-translation-ref">易經 13 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：同人于郊，無悔。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost NINE, undivided, (shows the representative of) the union of men in the suburbs. There will be no occasion for repentance.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

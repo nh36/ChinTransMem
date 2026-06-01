@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-031-xian__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-031-xian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 31 judgment</prop>
+      <prop type="x-translation-ref">易經 31 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>咸，亨，利貞，取女吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Xian indicates that, (on the fulfilment of the conditions implied in it), there will be free course and success. Its advantageousness will depend on the being firm and correct, (as) in marrying a young lady. There will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-031-xian__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-031-xian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 31 初六</prop>
+      <prop type="x-translation-ref">易經 31 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：咸其拇。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first six, divided, shows one moving his great toes.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-031-xian__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-031-xian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 31 六二</prop>
+      <prop type="x-translation-ref">易經 31 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：咸其腓，凶，居吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows one moving the calves of his leg. There will be evil. If he abide (quiet in his place), there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-031-xian__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-031-xian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 31 九三</prop>
+      <prop type="x-translation-ref">易經 31 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：咸其股，執其隨，往吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows one moving his thighs, and keeping close hold of those whom he follows. Going forward (in this way) will cause regret.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-031-xian__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-031-xian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 31 九四</prop>
+      <prop type="x-translation-ref">易經 31 九四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九四：貞吉悔亡，憧憧往來，朋從爾思。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth NINE, undivided, shows that firm correctness whi.ch will lead to good fortune, and prevent all occasion for repentance. If its subject be unsettled in his movements, (only) his friends will follow his purpose.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-031-xian__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-031-xian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 31 九五</prop>
+      <prop type="x-translation-ref">易經 31 九五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九五：咸其脢，无悔。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth NINE, undivided, shows one moving the flesh along the spine above the heart. There will be no occasion for repentance.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-031-xian__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-031-xian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 31 上六</prop>
+      <prop type="x-translation-ref">易經 31 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：咸其輔，頰，舌。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth six, divided, shows one moving his jaws and tongue.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

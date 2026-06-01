@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-023-bo__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-023-bo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 23 judgment</prop>
+      <prop type="x-translation-ref">易經 23 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>剝，不利有攸往。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Bo indicates that (in the state which it symbolises) it will not be advantageous to make a movement in any direction whatever.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-023-bo__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-023-bo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 23 初六</prop>
+      <prop type="x-translation-ref">易經 23 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：剝牀以足，蔑貞凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows one overturning the couch by injuring its legs. (The injury will go on to) the destruction of (all) firm correctness, and there will be evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-023-bo__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-023-bo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 23 六二</prop>
+      <prop type="x-translation-ref">易經 23 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：剝牀以辨，蔑貞凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows one overthrowing the couch by injuring its frame. (The injury will go on to) the destruction of (all) firm correctness, and there will be evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-023-bo__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-023-bo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 23 六三</prop>
+      <prop type="x-translation-ref">易經 23 六三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六三：剝之，无咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third SIX, divided, shows its subject among the overthrowers; but there will be no error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-023-bo__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-023-bo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 23 六四</prop>
+      <prop type="x-translation-ref">易經 23 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：剝牀以膚，凶。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows its subject having overthrown the couch, and (going to injure) the skin (of him who lies on it). There will be evil.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-023-bo__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-023-bo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 23 六五</prop>
+      <prop type="x-translation-ref">易經 23 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：貫魚，以宮人寵，无不利。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows (its subject leading on the others like) a string of fishes, and (obtaining for them) the favour that lights on the inmates of the palace. There will be advantage in every way.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-023-bo__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-023-bo</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 23 上九</prop>
+      <prop type="x-translation-ref">易經 23 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：碩果不食，君子得輿，小人剝廬。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The topmost NINE, undivided, shows its subject (as) a great fruit which has not been eaten. The superior man finds (the people again) as a chariot carrying him. The small men (by their course) overthrow their own dwellings.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

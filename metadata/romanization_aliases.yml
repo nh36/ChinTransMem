@@ -253,516 +253,6 @@
   },
   {
     "entity_type": "work",
-    "entity_id": "laozi",
-    "alias": "Laozi",
-    "romanization_system": "pinyin"
-  },
-  {
-    "entity_type": "work",
-    "entity_id": "laozi",
-    "alias": "Daodejing",
-    "romanization_system": "pinyin"
-  },
-  {
-    "entity_type": "work",
-    "entity_id": "laozi",
-    "alias": "Dao De Jing",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "work",
-    "entity_id": "laozi",
-    "alias": "Tao Te Ching",
-    "romanization_system": "Legge-Wade-Giles"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-001",
-    "alias": "Chapter 1",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-002",
-    "alias": "Chapter 2",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-003",
-    "alias": "Chapter 3",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-004",
-    "alias": "Chapter 4",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-005",
-    "alias": "Chapter 5",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-006",
-    "alias": "Chapter 6",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-007",
-    "alias": "Chapter 7",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-008",
-    "alias": "Chapter 8",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-009",
-    "alias": "Chapter 9",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-010",
-    "alias": "Chapter 10",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-011",
-    "alias": "Chapter 11",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-012",
-    "alias": "Chapter 12",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-013",
-    "alias": "Chapter 13",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-014",
-    "alias": "Chapter 14",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-015",
-    "alias": "Chapter 15",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-016",
-    "alias": "Chapter 16",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-017",
-    "alias": "Chapter 17",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-018",
-    "alias": "Chapter 18",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-019",
-    "alias": "Chapter 19",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-020",
-    "alias": "Chapter 20",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-021",
-    "alias": "Chapter 21",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-022",
-    "alias": "Chapter 22",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-023",
-    "alias": "Chapter 23",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-024",
-    "alias": "Chapter 24",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-025",
-    "alias": "Chapter 25",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-026",
-    "alias": "Chapter 26",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-027",
-    "alias": "Chapter 27",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-028",
-    "alias": "Chapter 28",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-029",
-    "alias": "Chapter 29",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-030",
-    "alias": "Chapter 30",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-031",
-    "alias": "Chapter 31",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-032",
-    "alias": "Chapter 32",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-033",
-    "alias": "Chapter 33",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-034",
-    "alias": "Chapter 34",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-035",
-    "alias": "Chapter 35",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-036",
-    "alias": "Chapter 36",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-037",
-    "alias": "Chapter 37",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-038",
-    "alias": "Chapter 38",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-039",
-    "alias": "Chapter 39",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-040",
-    "alias": "Chapter 40",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-041",
-    "alias": "Chapter 41",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-042",
-    "alias": "Chapter 42",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-043",
-    "alias": "Chapter 43",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-044",
-    "alias": "Chapter 44",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-045",
-    "alias": "Chapter 45",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-046",
-    "alias": "Chapter 46",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-047",
-    "alias": "Chapter 47",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-048",
-    "alias": "Chapter 48",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-049",
-    "alias": "Chapter 49",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-050",
-    "alias": "Chapter 50",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-051",
-    "alias": "Chapter 51",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-052",
-    "alias": "Chapter 52",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-053",
-    "alias": "Chapter 53",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-054",
-    "alias": "Chapter 54",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-055",
-    "alias": "Chapter 55",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-056",
-    "alias": "Chapter 56",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-057",
-    "alias": "Chapter 57",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-058",
-    "alias": "Chapter 58",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-059",
-    "alias": "Chapter 59",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-060",
-    "alias": "Chapter 60",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-061",
-    "alias": "Chapter 61",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-062",
-    "alias": "Chapter 62",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-063",
-    "alias": "Chapter 63",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-064",
-    "alias": "Chapter 64",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-065",
-    "alias": "Chapter 65",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-066",
-    "alias": "Chapter 66",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-067",
-    "alias": "Chapter 67",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-068",
-    "alias": "Chapter 68",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-069",
-    "alias": "Chapter 69",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-070",
-    "alias": "Chapter 70",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-071",
-    "alias": "Chapter 71",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-072",
-    "alias": "Chapter 72",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-073",
-    "alias": "Chapter 73",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-074",
-    "alias": "Chapter 74",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-075",
-    "alias": "Chapter 75",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-076",
-    "alias": "Chapter 76",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-077",
-    "alias": "Chapter 77",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-078",
-    "alias": "Chapter 78",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-079",
-    "alias": "Chapter 79",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-080",
-    "alias": "Chapter 80",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "laozi-chapter-081",
-    "alias": "Chapter 81",
-    "romanization_system": "english-reference"
-  },
-  {
-    "entity_type": "work",
     "entity_id": "mengzi",
     "alias": "Mengzi",
     "romanization_system": "pinyin"
@@ -940,744 +430,6 @@
     "entity_id": "book-14-jinxin-xia",
     "alias": "Jin Xin II",
     "romanization_system": "Legge-Wade-Giles"
-  },
-  {
-    "entity_type": "work",
-    "entity_id": "shangshu",
-    "alias": "Shangshu",
-    "romanization_system": "pinyin"
-  },
-  {
-    "entity_type": "work",
-    "entity_id": "shangshu",
-    "alias": "Book of Documents",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "work",
-    "entity_id": "shangshu",
-    "alias": "Classic of Documents",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-001-yu-shu-canon-of-yao",
-    "alias": "虞書 堯典 Yu Shu - Canon of Yao",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-001-yu-shu-canon-of-yao",
-    "alias": "Canon of Yao",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-002-yu-shu-dan-zhu-forged",
-    "alias": "虞書 丹朱（伪） Yu Shu - Dan Zhu (forged)",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-002-yu-shu-dan-zhu-forged",
-    "alias": "Dan Zhu (forged)",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-003-yu-shu-canon-of-shun",
-    "alias": "虞書 舜典 Yu Shu - Canon of Shun",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-003-yu-shu-canon-of-shun",
-    "alias": "Canon of Shun",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
-    "alias": "虞書 大禹謨 Yu Shu - Counsels of the Great Yu",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
-    "alias": "Counsels of the Great Yu",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao",
-    "alias": "虞書 皐陶謨 Yu Shu - Counsels of the Gao Yao",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao",
-    "alias": "Counsels of the Gao Yao",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-006-yu-shu-yi-and-ji",
-    "alias": "虞書 益稷 Yu Shu - Yi and Ji",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-006-yu-shu-yi-and-ji",
-    "alias": "Yi and Ji",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-007-xia-shu-tribute-of-yu",
-    "alias": "夏書 禹貢 Xia Shu - Tribute of Yu",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-007-xia-shu-tribute-of-yu",
-    "alias": "Tribute of Yu",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-008-xia-shu-yu-shi-forged",
-    "alias": "夏書 禹誓（伪） Xia Shu - Yu Shi (forged)",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-008-xia-shu-yu-shi-forged",
-    "alias": "Yu Shi (forged)",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-009-xia-shu-speech-at-gan",
-    "alias": "夏書 甘誓 Xia Shu - Speech at Gan",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-009-xia-shu-speech-at-gan",
-    "alias": "Speech at Gan",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
-    "alias": "夏書 五子之歌 Xia Shu - Songs of the Five Sons",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
-    "alias": "Songs of the Five Sons",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-011-xia-shu-punitive-expedition-of-yin",
-    "alias": "夏書 胤征 Xia Shu - Punitive Expedition of Yin",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-011-xia-shu-punitive-expedition-of-yin",
-    "alias": "Punitive Expedition of Yin",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-012-shang-shu-speech-of-tang",
-    "alias": "商書 湯誓 Shang Shu - Speech of Tang",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-012-shang-shu-speech-of-tang",
-    "alias": "Speech of Tang",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-013-shang-shu-announcement-of-zhong-hui",
-    "alias": "商書 仲虺之誥 Shang Shu - Announcement of Zhong-hui",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-013-shang-shu-announcement-of-zhong-hui",
-    "alias": "Announcement of Zhong-hui",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-014-shang-shu-announcement-of-tang",
-    "alias": "商書 湯誥 Shang Shu - Announcement of Tang",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-014-shang-shu-announcement-of-tang",
-    "alias": "Announcement of Tang",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-015-shang-shu-instructions-of-yi",
-    "alias": "商書 伊訓 Shang Shu - Instructions of Yi",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-015-shang-shu-instructions-of-yi",
-    "alias": "Instructions of Yi",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-016-shang-shu-tai-jia-i",
-    "alias": "商書 太甲上 Shang Shu - Tai Jia I",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-016-shang-shu-tai-jia-i",
-    "alias": "Tai Jia I",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-017-shang-shu-tai-jia-ii",
-    "alias": "商書 太甲中 Shang Shu - Tai Jia II",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-017-shang-shu-tai-jia-ii",
-    "alias": "Tai Jia II",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-018-shang-shu-tai-jia-iii",
-    "alias": "商書 太甲下 Shang Shu - Tai Jia III",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-018-shang-shu-tai-jia-iii",
-    "alias": "Tai Jia III",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
-    "alias": "商書 咸有一德 Shang Shu - Common Possession of Pure Virtue",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
-    "alias": "Common Possession of Pure Virtue",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-020-shang-shu-pan-geng-i",
-    "alias": "商書 盤庚上 Shang Shu - Pan Geng I",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-020-shang-shu-pan-geng-i",
-    "alias": "Pan Geng I",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-021-shang-shu-pan-geng-ii",
-    "alias": "商書 盤庚中 Shang Shu - Pan Geng II",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-021-shang-shu-pan-geng-ii",
-    "alias": "Pan Geng II",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-022-shang-shu-pan-geng-iii",
-    "alias": "商書 盤庚下 Shang Shu - Pan Geng III",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-022-shang-shu-pan-geng-iii",
-    "alias": "Pan Geng III",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
-    "alias": "商書 說命上（僞） Shang Shu - Charge to Yue I (forged)",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
-    "alias": "Charge to Yue I (forged)",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
-    "alias": "商書 說命中（僞） Shang Shu - Charge to Yue II (forged)",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
-    "alias": "Charge to Yue II (forged)",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
-    "alias": "商書 說命下（僞） Shang Shu - Charge to Yue III (forged)",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
-    "alias": "Charge to Yue III (forged)",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
-    "alias": "商書 高宗肜日 Shang Shu - Day of the Supplementary Sacrifice to Gao",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
-    "alias": "Day of the Supplementary Sacrifice to Gao",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
-    "alias": "商書 西伯戡黎 Shang Shu - Chief of the west's Conquest of Li",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
-    "alias": "Chief of the west's Conquest of Li",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-028-shang-shu-count-of-wei",
-    "alias": "商書 微子 Shang Shu - Count of Wei",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-028-shang-shu-count-of-wei",
-    "alias": "Count of Wei",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-029-zhou-shu-great-declaration-i",
-    "alias": "周書 泰誓上 Zhou Shu - Great Declaration I",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-029-zhou-shu-great-declaration-i",
-    "alias": "Great Declaration I",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-030-zhou-shu-great-declaration-ii",
-    "alias": "周書 泰誓中 Zhou Shu - Great Declaration II",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-030-zhou-shu-great-declaration-ii",
-    "alias": "Great Declaration II",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-031-zhou-shu-great-declaration-iii",
-    "alias": "周書 泰誓下 Zhou Shu - Great Declaration III",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-031-zhou-shu-great-declaration-iii",
-    "alias": "Great Declaration III",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-032-zhou-shu-speech-at-mu",
-    "alias": "周書 牧誓 Zhou Shu - Speech at Mu",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-032-zhou-shu-speech-at-mu",
-    "alias": "Speech at Mu",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-033-zhou-shu-successful-completion-of-the-war",
-    "alias": "周書 武成 Zhou Shu - Successful Completion of the War",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-033-zhou-shu-successful-completion-of-the-war",
-    "alias": "Successful Completion of the War",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-034-zhou-shu-great-plan",
-    "alias": "周書 洪範 Zhou Shu - Great Plan",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-034-zhou-shu-great-plan",
-    "alias": "Great Plan",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-035-zhou-shu-hounds-of-lu",
-    "alias": "周書 旅獒 Zhou Shu - Hounds of Lu",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-035-zhou-shu-hounds-of-lu",
-    "alias": "Hounds of Lu",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-036-zhou-shu-metal-bound-coffer",
-    "alias": "周書 金縢 Zhou Shu - Metal-bound Coffer",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-036-zhou-shu-metal-bound-coffer",
-    "alias": "Metal-bound Coffer",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-037-zhou-shu-great-announcement",
-    "alias": "周書 大誥 Zhou Shu - Great Announcement",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-037-zhou-shu-great-announcement",
-    "alias": "Great Announcement",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei",
-    "alias": "周書 微子之命 Zhou Shu - Charge to the Count of Wei",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei",
-    "alias": "Charge to the Count of Wei",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
-    "alias": "周書 康誥 Zhou Shu - Announcement to the Prince of Kang",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
-    "alias": "Announcement to the Prince of Kang",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
-    "alias": "周書 酒誥 Zhou Shu - Announcement about Drunkenness",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
-    "alias": "Announcement about Drunkenness",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-041-zhou-shu-timber-of-the-rottlera",
-    "alias": "周書 梓材 Zhou Shu - Timber of the Rottlera",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-041-zhou-shu-timber-of-the-rottlera",
-    "alias": "Timber of the Rottlera",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
-    "alias": "周書 召誥 Zhou Shu - Announcement of the Duke of Shao",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
-    "alias": "Announcement of the Duke of Shao",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-043-zhou-shu-announcement-concerning-luo",
-    "alias": "周書 洛誥 Zhou Shu - Announcement concerning Luo",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-043-zhou-shu-announcement-concerning-luo",
-    "alias": "Announcement concerning Luo",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-044-zhou-shu-numerous-officers",
-    "alias": "周書 多士 Zhou Shu - Numerous Officers",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-044-zhou-shu-numerous-officers",
-    "alias": "Numerous Officers",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-045-zhou-shu-against-luxurious-ease",
-    "alias": "周書 無逸 Zhou Shu - Against Luxurious Ease",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-045-zhou-shu-against-luxurious-ease",
-    "alias": "Against Luxurious Ease",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-046-zhou-shu-prince-shi",
-    "alias": "周書 君奭 Zhou Shu - Prince Shi",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-046-zhou-shu-prince-shi",
-    "alias": "Prince Shi",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
-    "alias": "周書 蔡仲之命 Zhou Shu - Charge to Zhong of Cai",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
-    "alias": "Charge to Zhong of Cai",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-048-zhou-shu-numerous-regions",
-    "alias": "周書 多方 Zhou Shu - Numerous Regions",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-048-zhou-shu-numerous-regions",
-    "alias": "Numerous Regions",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-049-zhou-shu-establishment-of-government",
-    "alias": "周書 立政 Zhou Shu - Establishment of Government",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-049-zhou-shu-establishment-of-government",
-    "alias": "Establishment of Government",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-050-zhou-shu-officers-of-zhou",
-    "alias": "周書 周官 Zhou Shu - Officers of Zhou",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-050-zhou-shu-officers-of-zhou",
-    "alias": "Officers of Zhou",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-051-zhou-shu-jun-chen",
-    "alias": "周書 君陳 Zhou Shu - Jun-chen",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-051-zhou-shu-jun-chen",
-    "alias": "Jun-chen",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-052-zhou-shu-testamentary-charge",
-    "alias": "周書 顧命 Zhou Shu - Testamentary Charge",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-052-zhou-shu-testamentary-charge",
-    "alias": "Testamentary Charge",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-053-zhou-shu-announcement-of-king-kang",
-    "alias": "周書 康王之誥 Zhou Shu - Announcement of King Kang",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-053-zhou-shu-announcement-of-king-kang",
-    "alias": "Announcement of King Kang",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
-    "alias": "周書 畢命 Zhou Shu - Charge to the Duke of Bi",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
-    "alias": "Charge to the Duke of Bi",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-055-zhou-shu-kun-ya",
-    "alias": "周書 君牙 Zhou Shu - Kun-ya",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-055-zhou-shu-kun-ya",
-    "alias": "Kun-ya",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-056-zhou-shu-charge-to-jiong",
-    "alias": "周書 冏命 Zhou Shu - Charge to Jiong",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-056-zhou-shu-charge-to-jiong",
-    "alias": "Charge to Jiong",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments",
-    "alias": "周書 呂刑 Zhou Shu - Marquis of Lu on Punishments",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments",
-    "alias": "Marquis of Lu on Punishments",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen",
-    "alias": "周書 文侯之命 Zhou Shu - Charge to the Marquis Wen",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen",
-    "alias": "Charge to the Marquis Wen",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-059-zhou-shu-speech-at-bi",
-    "alias": "周書 費誓 Zhou Shu - Speech at Bi",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-059-zhou-shu-speech-at-bi",
-    "alias": "Speech at Bi",
-    "romanization_system": "english-title"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",
-    "alias": "周書 秦誓 Zhou Shu - Speech of the Marquis of Qin",
-    "romanization_system": "source-label"
-  },
-  {
-    "entity_type": "section",
-    "entity_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",
-    "alias": "Speech of the Marquis of Qin",
-    "romanization_system": "english-title"
   },
   {
     "entity_type": "work",
@@ -3892,5 +2644,2429 @@
     "entity_id": "song-shangsong-005",
     "alias": "Yīn Wǔ",
     "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "laozi",
+    "alias": "Laozi",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "laozi",
+    "alias": "Daodejing",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "laozi",
+    "alias": "Dao De Jing",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "laozi",
+    "alias": "Tao Te Ching",
+    "romanization_system": "Legge-Wade-Giles"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-001",
+    "alias": "Chapter 1",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-002",
+    "alias": "Chapter 2",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-003",
+    "alias": "Chapter 3",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-004",
+    "alias": "Chapter 4",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-005",
+    "alias": "Chapter 5",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-006",
+    "alias": "Chapter 6",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-007",
+    "alias": "Chapter 7",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-008",
+    "alias": "Chapter 8",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-009",
+    "alias": "Chapter 9",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-010",
+    "alias": "Chapter 10",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-011",
+    "alias": "Chapter 11",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-012",
+    "alias": "Chapter 12",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-013",
+    "alias": "Chapter 13",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-014",
+    "alias": "Chapter 14",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-015",
+    "alias": "Chapter 15",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-016",
+    "alias": "Chapter 16",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-017",
+    "alias": "Chapter 17",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-018",
+    "alias": "Chapter 18",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-019",
+    "alias": "Chapter 19",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-020",
+    "alias": "Chapter 20",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-021",
+    "alias": "Chapter 21",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-022",
+    "alias": "Chapter 22",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-023",
+    "alias": "Chapter 23",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-024",
+    "alias": "Chapter 24",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-025",
+    "alias": "Chapter 25",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-026",
+    "alias": "Chapter 26",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-027",
+    "alias": "Chapter 27",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-028",
+    "alias": "Chapter 28",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-029",
+    "alias": "Chapter 29",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-030",
+    "alias": "Chapter 30",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-031",
+    "alias": "Chapter 31",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-032",
+    "alias": "Chapter 32",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-033",
+    "alias": "Chapter 33",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-034",
+    "alias": "Chapter 34",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-035",
+    "alias": "Chapter 35",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-036",
+    "alias": "Chapter 36",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-037",
+    "alias": "Chapter 37",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-038",
+    "alias": "Chapter 38",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-039",
+    "alias": "Chapter 39",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-040",
+    "alias": "Chapter 40",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-041",
+    "alias": "Chapter 41",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-042",
+    "alias": "Chapter 42",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-043",
+    "alias": "Chapter 43",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-044",
+    "alias": "Chapter 44",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-045",
+    "alias": "Chapter 45",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-046",
+    "alias": "Chapter 46",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-047",
+    "alias": "Chapter 47",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-048",
+    "alias": "Chapter 48",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-049",
+    "alias": "Chapter 49",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-050",
+    "alias": "Chapter 50",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-051",
+    "alias": "Chapter 51",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-052",
+    "alias": "Chapter 52",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-053",
+    "alias": "Chapter 53",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-054",
+    "alias": "Chapter 54",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-055",
+    "alias": "Chapter 55",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-056",
+    "alias": "Chapter 56",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-057",
+    "alias": "Chapter 57",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-058",
+    "alias": "Chapter 58",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-059",
+    "alias": "Chapter 59",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-060",
+    "alias": "Chapter 60",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-061",
+    "alias": "Chapter 61",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-062",
+    "alias": "Chapter 62",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-063",
+    "alias": "Chapter 63",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-064",
+    "alias": "Chapter 64",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-065",
+    "alias": "Chapter 65",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-066",
+    "alias": "Chapter 66",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-067",
+    "alias": "Chapter 67",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-068",
+    "alias": "Chapter 68",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-069",
+    "alias": "Chapter 69",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-070",
+    "alias": "Chapter 70",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-071",
+    "alias": "Chapter 71",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-072",
+    "alias": "Chapter 72",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-073",
+    "alias": "Chapter 73",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-074",
+    "alias": "Chapter 74",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-075",
+    "alias": "Chapter 75",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-076",
+    "alias": "Chapter 76",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-077",
+    "alias": "Chapter 77",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-078",
+    "alias": "Chapter 78",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-079",
+    "alias": "Chapter 79",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-080",
+    "alias": "Chapter 80",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "laozi-chapter-081",
+    "alias": "Chapter 81",
+    "romanization_system": "english-reference"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shangshu",
+    "alias": "Shangshu",
+    "romanization_system": "pinyin"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shangshu",
+    "alias": "Book of Documents",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shangshu",
+    "alias": "Classic of Documents",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-001-yu-shu-canon-of-yao",
+    "alias": "虞書 堯典 Yu Shu - Canon of Yao",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-001-yu-shu-canon-of-yao",
+    "alias": "Canon of Yao",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-002-yu-shu-dan-zhu-forged",
+    "alias": "虞書 丹朱（伪） Yu Shu - Dan Zhu (forged)",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-002-yu-shu-dan-zhu-forged",
+    "alias": "Dan Zhu (forged)",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-003-yu-shu-canon-of-shun",
+    "alias": "虞書 舜典 Yu Shu - Canon of Shun",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-003-yu-shu-canon-of-shun",
+    "alias": "Canon of Shun",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
+    "alias": "虞書 大禹謨 Yu Shu - Counsels of the Great Yu",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
+    "alias": "Counsels of the Great Yu",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao",
+    "alias": "虞書 皐陶謨 Yu Shu - Counsels of the Gao Yao",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-005-yu-shu-counsels-of-the-gao-yao",
+    "alias": "Counsels of the Gao Yao",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-006-yu-shu-yi-and-ji",
+    "alias": "虞書 益稷 Yu Shu - Yi and Ji",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-006-yu-shu-yi-and-ji",
+    "alias": "Yi and Ji",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-007-xia-shu-tribute-of-yu",
+    "alias": "夏書 禹貢 Xia Shu - Tribute of Yu",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-007-xia-shu-tribute-of-yu",
+    "alias": "Tribute of Yu",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-008-xia-shu-yu-shi-forged",
+    "alias": "夏書 禹誓（伪） Xia Shu - Yu Shi (forged)",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-008-xia-shu-yu-shi-forged",
+    "alias": "Yu Shi (forged)",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-009-xia-shu-speech-at-gan",
+    "alias": "夏書 甘誓 Xia Shu - Speech at Gan",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-009-xia-shu-speech-at-gan",
+    "alias": "Speech at Gan",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
+    "alias": "夏書 五子之歌 Xia Shu - Songs of the Five Sons",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
+    "alias": "Songs of the Five Sons",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-011-xia-shu-punitive-expedition-of-yin",
+    "alias": "夏書 胤征 Xia Shu - Punitive Expedition of Yin",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-011-xia-shu-punitive-expedition-of-yin",
+    "alias": "Punitive Expedition of Yin",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-012-shang-shu-speech-of-tang",
+    "alias": "商書 湯誓 Shang Shu - Speech of Tang",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-012-shang-shu-speech-of-tang",
+    "alias": "Speech of Tang",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-013-shang-shu-announcement-of-zhong-hui",
+    "alias": "商書 仲虺之誥 Shang Shu - Announcement of Zhong-hui",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-013-shang-shu-announcement-of-zhong-hui",
+    "alias": "Announcement of Zhong-hui",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-014-shang-shu-announcement-of-tang",
+    "alias": "商書 湯誥 Shang Shu - Announcement of Tang",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-014-shang-shu-announcement-of-tang",
+    "alias": "Announcement of Tang",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-015-shang-shu-instructions-of-yi",
+    "alias": "商書 伊訓 Shang Shu - Instructions of Yi",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-015-shang-shu-instructions-of-yi",
+    "alias": "Instructions of Yi",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-016-shang-shu-tai-jia-i",
+    "alias": "商書 太甲上 Shang Shu - Tai Jia I",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-016-shang-shu-tai-jia-i",
+    "alias": "Tai Jia I",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-017-shang-shu-tai-jia-ii",
+    "alias": "商書 太甲中 Shang Shu - Tai Jia II",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-017-shang-shu-tai-jia-ii",
+    "alias": "Tai Jia II",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-018-shang-shu-tai-jia-iii",
+    "alias": "商書 太甲下 Shang Shu - Tai Jia III",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-018-shang-shu-tai-jia-iii",
+    "alias": "Tai Jia III",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
+    "alias": "商書 咸有一德 Shang Shu - Common Possession of Pure Virtue",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
+    "alias": "Common Possession of Pure Virtue",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-020-shang-shu-pan-geng-i",
+    "alias": "商書 盤庚上 Shang Shu - Pan Geng I",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-020-shang-shu-pan-geng-i",
+    "alias": "Pan Geng I",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-021-shang-shu-pan-geng-ii",
+    "alias": "商書 盤庚中 Shang Shu - Pan Geng II",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-021-shang-shu-pan-geng-ii",
+    "alias": "Pan Geng II",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-022-shang-shu-pan-geng-iii",
+    "alias": "商書 盤庚下 Shang Shu - Pan Geng III",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-022-shang-shu-pan-geng-iii",
+    "alias": "Pan Geng III",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
+    "alias": "商書 說命上（僞） Shang Shu - Charge to Yue I (forged)",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
+    "alias": "Charge to Yue I (forged)",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
+    "alias": "商書 說命中（僞） Shang Shu - Charge to Yue II (forged)",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-024-shang-shu-charge-to-yue-ii-forged",
+    "alias": "Charge to Yue II (forged)",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
+    "alias": "商書 說命下（僞） Shang Shu - Charge to Yue III (forged)",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
+    "alias": "Charge to Yue III (forged)",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
+    "alias": "商書 高宗肜日 Shang Shu - Day of the Supplementary Sacrifice to Gao",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-026-shang-shu-day-of-the-supplementary-sacrifice-to-gao",
+    "alias": "Day of the Supplementary Sacrifice to Gao",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
+    "alias": "商書 西伯戡黎 Shang Shu - Chief of the west's Conquest of Li",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
+    "alias": "Chief of the west's Conquest of Li",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-028-shang-shu-count-of-wei",
+    "alias": "商書 微子 Shang Shu - Count of Wei",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-028-shang-shu-count-of-wei",
+    "alias": "Count of Wei",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-029-zhou-shu-great-declaration-i",
+    "alias": "周書 泰誓上 Zhou Shu - Great Declaration I",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-029-zhou-shu-great-declaration-i",
+    "alias": "Great Declaration I",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-030-zhou-shu-great-declaration-ii",
+    "alias": "周書 泰誓中 Zhou Shu - Great Declaration II",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-030-zhou-shu-great-declaration-ii",
+    "alias": "Great Declaration II",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-031-zhou-shu-great-declaration-iii",
+    "alias": "周書 泰誓下 Zhou Shu - Great Declaration III",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-031-zhou-shu-great-declaration-iii",
+    "alias": "Great Declaration III",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-032-zhou-shu-speech-at-mu",
+    "alias": "周書 牧誓 Zhou Shu - Speech at Mu",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-032-zhou-shu-speech-at-mu",
+    "alias": "Speech at Mu",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-033-zhou-shu-successful-completion-of-the-war",
+    "alias": "周書 武成 Zhou Shu - Successful Completion of the War",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-033-zhou-shu-successful-completion-of-the-war",
+    "alias": "Successful Completion of the War",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-034-zhou-shu-great-plan",
+    "alias": "周書 洪範 Zhou Shu - Great Plan",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-034-zhou-shu-great-plan",
+    "alias": "Great Plan",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-035-zhou-shu-hounds-of-lu",
+    "alias": "周書 旅獒 Zhou Shu - Hounds of Lu",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-035-zhou-shu-hounds-of-lu",
+    "alias": "Hounds of Lu",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-036-zhou-shu-metal-bound-coffer",
+    "alias": "周書 金縢 Zhou Shu - Metal-bound Coffer",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-036-zhou-shu-metal-bound-coffer",
+    "alias": "Metal-bound Coffer",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-037-zhou-shu-great-announcement",
+    "alias": "周書 大誥 Zhou Shu - Great Announcement",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-037-zhou-shu-great-announcement",
+    "alias": "Great Announcement",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei",
+    "alias": "周書 微子之命 Zhou Shu - Charge to the Count of Wei",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-038-zhou-shu-charge-to-the-count-of-wei",
+    "alias": "Charge to the Count of Wei",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
+    "alias": "周書 康誥 Zhou Shu - Announcement to the Prince of Kang",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
+    "alias": "Announcement to the Prince of Kang",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
+    "alias": "周書 酒誥 Zhou Shu - Announcement about Drunkenness",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
+    "alias": "Announcement about Drunkenness",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-041-zhou-shu-timber-of-the-rottlera",
+    "alias": "周書 梓材 Zhou Shu - Timber of the Rottlera",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-041-zhou-shu-timber-of-the-rottlera",
+    "alias": "Timber of the Rottlera",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
+    "alias": "周書 召誥 Zhou Shu - Announcement of the Duke of Shao",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
+    "alias": "Announcement of the Duke of Shao",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-043-zhou-shu-announcement-concerning-luo",
+    "alias": "周書 洛誥 Zhou Shu - Announcement concerning Luo",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-043-zhou-shu-announcement-concerning-luo",
+    "alias": "Announcement concerning Luo",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-044-zhou-shu-numerous-officers",
+    "alias": "周書 多士 Zhou Shu - Numerous Officers",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-044-zhou-shu-numerous-officers",
+    "alias": "Numerous Officers",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-045-zhou-shu-against-luxurious-ease",
+    "alias": "周書 無逸 Zhou Shu - Against Luxurious Ease",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-045-zhou-shu-against-luxurious-ease",
+    "alias": "Against Luxurious Ease",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-046-zhou-shu-prince-shi",
+    "alias": "周書 君奭 Zhou Shu - Prince Shi",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-046-zhou-shu-prince-shi",
+    "alias": "Prince Shi",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
+    "alias": "周書 蔡仲之命 Zhou Shu - Charge to Zhong of Cai",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
+    "alias": "Charge to Zhong of Cai",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-048-zhou-shu-numerous-regions",
+    "alias": "周書 多方 Zhou Shu - Numerous Regions",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-048-zhou-shu-numerous-regions",
+    "alias": "Numerous Regions",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-049-zhou-shu-establishment-of-government",
+    "alias": "周書 立政 Zhou Shu - Establishment of Government",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-049-zhou-shu-establishment-of-government",
+    "alias": "Establishment of Government",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-050-zhou-shu-officers-of-zhou",
+    "alias": "周書 周官 Zhou Shu - Officers of Zhou",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-050-zhou-shu-officers-of-zhou",
+    "alias": "Officers of Zhou",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-051-zhou-shu-jun-chen",
+    "alias": "周書 君陳 Zhou Shu - Jun-chen",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-051-zhou-shu-jun-chen",
+    "alias": "Jun-chen",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-052-zhou-shu-testamentary-charge",
+    "alias": "周書 顧命 Zhou Shu - Testamentary Charge",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-052-zhou-shu-testamentary-charge",
+    "alias": "Testamentary Charge",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-053-zhou-shu-announcement-of-king-kang",
+    "alias": "周書 康王之誥 Zhou Shu - Announcement of King Kang",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-053-zhou-shu-announcement-of-king-kang",
+    "alias": "Announcement of King Kang",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
+    "alias": "周書 畢命 Zhou Shu - Charge to the Duke of Bi",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
+    "alias": "Charge to the Duke of Bi",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-055-zhou-shu-kun-ya",
+    "alias": "周書 君牙 Zhou Shu - Kun-ya",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-055-zhou-shu-kun-ya",
+    "alias": "Kun-ya",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-056-zhou-shu-charge-to-jiong",
+    "alias": "周書 冏命 Zhou Shu - Charge to Jiong",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-056-zhou-shu-charge-to-jiong",
+    "alias": "Charge to Jiong",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments",
+    "alias": "周書 呂刑 Zhou Shu - Marquis of Lu on Punishments",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-057-zhou-shu-marquis-of-lu-on-punishments",
+    "alias": "Marquis of Lu on Punishments",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen",
+    "alias": "周書 文侯之命 Zhou Shu - Charge to the Marquis Wen",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-058-zhou-shu-charge-to-the-marquis-wen",
+    "alias": "Charge to the Marquis Wen",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-059-zhou-shu-speech-at-bi",
+    "alias": "周書 費誓 Zhou Shu - Speech at Bi",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-059-zhou-shu-speech-at-bi",
+    "alias": "Speech at Bi",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",
+    "alias": "周書 秦誓 Zhou Shu - Speech of the Marquis of Qin",
+    "romanization_system": "source-label"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin",
+    "alias": "Speech of the Marquis of Qin",
+    "romanization_system": "english-title"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "yijing",
+    "romanization_system": "pinyin",
+    "alias": "Yijing"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "yijing",
+    "romanization_system": "historical",
+    "alias": "I Ching"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "yijing",
+    "romanization_system": "historical",
+    "alias": "Book of Changes"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "yijing",
+    "romanization_system": "pinyin",
+    "alias": "Zhouyi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-001-qian",
+    "romanization_system": "source-label",
+    "alias": "乾 Qian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-001-qian",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 1"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-001-qian",
+    "romanization_system": "pinyin",
+    "alias": "Qian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-002-kun",
+    "romanization_system": "source-label",
+    "alias": "坤 Kun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-002-kun",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 2"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-002-kun",
+    "romanization_system": "pinyin",
+    "alias": "Kun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-003-zhun",
+    "romanization_system": "source-label",
+    "alias": "屯 Zhun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-003-zhun",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 3"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-003-zhun",
+    "romanization_system": "pinyin",
+    "alias": "Zhun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-004-meng",
+    "romanization_system": "source-label",
+    "alias": "蒙 Meng"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-004-meng",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 4"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-004-meng",
+    "romanization_system": "pinyin",
+    "alias": "Meng"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-005-xu",
+    "romanization_system": "source-label",
+    "alias": "需 Xu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-005-xu",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 5"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-005-xu",
+    "romanization_system": "pinyin",
+    "alias": "Xu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-006-song",
+    "romanization_system": "source-label",
+    "alias": "訟 Song"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-006-song",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 6"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-006-song",
+    "romanization_system": "pinyin",
+    "alias": "Song"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-007-shi",
+    "romanization_system": "source-label",
+    "alias": "師 Shi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-007-shi",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 7"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-007-shi",
+    "romanization_system": "pinyin",
+    "alias": "Shi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-008-bi",
+    "romanization_system": "source-label",
+    "alias": "比 Bi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-008-bi",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 8"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-008-bi",
+    "romanization_system": "pinyin",
+    "alias": "Bi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-009-xiao-xu",
+    "romanization_system": "source-label",
+    "alias": "小畜 Xiao Xu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-009-xiao-xu",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 9"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-009-xiao-xu",
+    "romanization_system": "pinyin",
+    "alias": "Xiao Xu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-010-lu",
+    "romanization_system": "source-label",
+    "alias": "履 Lu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-010-lu",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 10"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-010-lu",
+    "romanization_system": "pinyin",
+    "alias": "Lu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-011-tai",
+    "romanization_system": "source-label",
+    "alias": "泰 Tai"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-011-tai",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 11"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-011-tai",
+    "romanization_system": "pinyin",
+    "alias": "Tai"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-012-pi",
+    "romanization_system": "source-label",
+    "alias": "否 Pi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-012-pi",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 12"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-012-pi",
+    "romanization_system": "pinyin",
+    "alias": "Pi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-013-tong-ren",
+    "romanization_system": "source-label",
+    "alias": "同人 Tong Ren"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-013-tong-ren",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 13"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-013-tong-ren",
+    "romanization_system": "pinyin",
+    "alias": "Tong Ren"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-014-da-you",
+    "romanization_system": "source-label",
+    "alias": "大有 Da You"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-014-da-you",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 14"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-014-da-you",
+    "romanization_system": "pinyin",
+    "alias": "Da You"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-015-qian",
+    "romanization_system": "source-label",
+    "alias": "謙 Qian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-015-qian",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 15"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-015-qian",
+    "romanization_system": "pinyin",
+    "alias": "Qian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-016-yu",
+    "romanization_system": "source-label",
+    "alias": "豫 Yu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-016-yu",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 16"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-016-yu",
+    "romanization_system": "pinyin",
+    "alias": "Yu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-017-sui",
+    "romanization_system": "source-label",
+    "alias": "隨 Sui"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-017-sui",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 17"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-017-sui",
+    "romanization_system": "pinyin",
+    "alias": "Sui"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-018-gu",
+    "romanization_system": "source-label",
+    "alias": "蠱 Gu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-018-gu",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 18"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-018-gu",
+    "romanization_system": "pinyin",
+    "alias": "Gu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-019-lin",
+    "romanization_system": "source-label",
+    "alias": "臨 Lin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-019-lin",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 19"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-019-lin",
+    "romanization_system": "pinyin",
+    "alias": "Lin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-020-guan",
+    "romanization_system": "source-label",
+    "alias": "觀 Guan"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-020-guan",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 20"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-020-guan",
+    "romanization_system": "pinyin",
+    "alias": "Guan"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-021-shi-he",
+    "romanization_system": "source-label",
+    "alias": "噬嗑 Shi He"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-021-shi-he",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 21"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-021-shi-he",
+    "romanization_system": "pinyin",
+    "alias": "Shi He"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-022-bi",
+    "romanization_system": "source-label",
+    "alias": "賁 Bi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-022-bi",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 22"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-022-bi",
+    "romanization_system": "pinyin",
+    "alias": "Bi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-023-bo",
+    "romanization_system": "source-label",
+    "alias": "剝 Bo"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-023-bo",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 23"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-023-bo",
+    "romanization_system": "pinyin",
+    "alias": "Bo"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-024-fu",
+    "romanization_system": "source-label",
+    "alias": "復 Fu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-024-fu",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 24"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-024-fu",
+    "romanization_system": "pinyin",
+    "alias": "Fu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-025-wu-wang",
+    "romanization_system": "source-label",
+    "alias": "无妄 Wu Wang"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-025-wu-wang",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 25"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-025-wu-wang",
+    "romanization_system": "pinyin",
+    "alias": "Wu Wang"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-026-da-xu",
+    "romanization_system": "source-label",
+    "alias": "大畜 Da Xu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-026-da-xu",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 26"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-026-da-xu",
+    "romanization_system": "pinyin",
+    "alias": "Da Xu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-027-yi",
+    "romanization_system": "source-label",
+    "alias": "頤 Yi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-027-yi",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 27"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-027-yi",
+    "romanization_system": "pinyin",
+    "alias": "Yi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-028-da-guo",
+    "romanization_system": "source-label",
+    "alias": "大過 Da Guo"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-028-da-guo",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 28"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-028-da-guo",
+    "romanization_system": "pinyin",
+    "alias": "Da Guo"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-029-kan",
+    "romanization_system": "source-label",
+    "alias": "坎 Kan"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-029-kan",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 29"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-029-kan",
+    "romanization_system": "pinyin",
+    "alias": "Kan"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-030-li",
+    "romanization_system": "source-label",
+    "alias": "離 Li"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-030-li",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 30"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-030-li",
+    "romanization_system": "pinyin",
+    "alias": "Li"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-031-xian",
+    "romanization_system": "source-label",
+    "alias": "咸 Xian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-031-xian",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 31"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-031-xian",
+    "romanization_system": "pinyin",
+    "alias": "Xian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-032-heng",
+    "romanization_system": "source-label",
+    "alias": "恆 Heng"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-032-heng",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 32"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-032-heng",
+    "romanization_system": "pinyin",
+    "alias": "Heng"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-033-dun",
+    "romanization_system": "source-label",
+    "alias": "遯 Dun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-033-dun",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 33"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-033-dun",
+    "romanization_system": "pinyin",
+    "alias": "Dun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-034-da-zhuang",
+    "romanization_system": "source-label",
+    "alias": "大壯 Da Zhuang"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-034-da-zhuang",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 34"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-034-da-zhuang",
+    "romanization_system": "pinyin",
+    "alias": "Da Zhuang"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-035-jin",
+    "romanization_system": "source-label",
+    "alias": "晉 Jin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-035-jin",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 35"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-035-jin",
+    "romanization_system": "pinyin",
+    "alias": "Jin"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-036-ming-yi",
+    "romanization_system": "source-label",
+    "alias": "明夷 Ming Yi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-036-ming-yi",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 36"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-036-ming-yi",
+    "romanization_system": "pinyin",
+    "alias": "Ming Yi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-037-jia-ren",
+    "romanization_system": "source-label",
+    "alias": "家人 Jia Ren"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-037-jia-ren",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 37"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-037-jia-ren",
+    "romanization_system": "pinyin",
+    "alias": "Jia Ren"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-038-kui",
+    "romanization_system": "source-label",
+    "alias": "睽 Kui"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-038-kui",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 38"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-038-kui",
+    "romanization_system": "pinyin",
+    "alias": "Kui"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-039-jian",
+    "romanization_system": "source-label",
+    "alias": "蹇 Jian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-039-jian",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 39"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-039-jian",
+    "romanization_system": "pinyin",
+    "alias": "Jian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-040-jie",
+    "romanization_system": "source-label",
+    "alias": "解 Jie"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-040-jie",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 40"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-040-jie",
+    "romanization_system": "pinyin",
+    "alias": "Jie"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-041-sun",
+    "romanization_system": "source-label",
+    "alias": "損 Sun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-041-sun",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 41"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-041-sun",
+    "romanization_system": "pinyin",
+    "alias": "Sun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-042-yi",
+    "romanization_system": "source-label",
+    "alias": "益 Yi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-042-yi",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 42"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-042-yi",
+    "romanization_system": "pinyin",
+    "alias": "Yi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-043-guai",
+    "romanization_system": "source-label",
+    "alias": "夬 Guai"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-043-guai",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 43"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-043-guai",
+    "romanization_system": "pinyin",
+    "alias": "Guai"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-044-gou",
+    "romanization_system": "source-label",
+    "alias": "姤 Gou"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-044-gou",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 44"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-044-gou",
+    "romanization_system": "pinyin",
+    "alias": "Gou"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-045-cui",
+    "romanization_system": "source-label",
+    "alias": "萃 Cui"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-045-cui",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 45"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-045-cui",
+    "romanization_system": "pinyin",
+    "alias": "Cui"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-046-sheng",
+    "romanization_system": "source-label",
+    "alias": "升 Sheng"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-046-sheng",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 46"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-046-sheng",
+    "romanization_system": "pinyin",
+    "alias": "Sheng"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-047-kun",
+    "romanization_system": "source-label",
+    "alias": "困 Kun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-047-kun",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 47"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-047-kun",
+    "romanization_system": "pinyin",
+    "alias": "Kun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-048-jing",
+    "romanization_system": "source-label",
+    "alias": "井 Jing"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-048-jing",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 48"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-048-jing",
+    "romanization_system": "pinyin",
+    "alias": "Jing"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-049-ge",
+    "romanization_system": "source-label",
+    "alias": "革 Ge"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-049-ge",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 49"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-049-ge",
+    "romanization_system": "pinyin",
+    "alias": "Ge"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-050-ding",
+    "romanization_system": "source-label",
+    "alias": "鼎 Ding"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-050-ding",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 50"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-050-ding",
+    "romanization_system": "pinyin",
+    "alias": "Ding"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-051-zhen",
+    "romanization_system": "source-label",
+    "alias": "震 Zhen"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-051-zhen",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 51"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-051-zhen",
+    "romanization_system": "pinyin",
+    "alias": "Zhen"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-052-gen",
+    "romanization_system": "source-label",
+    "alias": "艮 Gen"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-052-gen",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 52"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-052-gen",
+    "romanization_system": "pinyin",
+    "alias": "Gen"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-053-jian",
+    "romanization_system": "source-label",
+    "alias": "漸 Jian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-053-jian",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 53"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-053-jian",
+    "romanization_system": "pinyin",
+    "alias": "Jian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-054-gui-mei",
+    "romanization_system": "source-label",
+    "alias": "歸妹 Gui Mei"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-054-gui-mei",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 54"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-054-gui-mei",
+    "romanization_system": "pinyin",
+    "alias": "Gui Mei"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-055-feng",
+    "romanization_system": "source-label",
+    "alias": "豐 Feng"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-055-feng",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 55"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-055-feng",
+    "romanization_system": "pinyin",
+    "alias": "Feng"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-056-lu",
+    "romanization_system": "source-label",
+    "alias": "旅 Lu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-056-lu",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 56"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-056-lu",
+    "romanization_system": "pinyin",
+    "alias": "Lu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-057-xun",
+    "romanization_system": "source-label",
+    "alias": "巽 Xun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-057-xun",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 57"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-057-xun",
+    "romanization_system": "pinyin",
+    "alias": "Xun"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-058-dui",
+    "romanization_system": "source-label",
+    "alias": "兌 Dui"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-058-dui",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 58"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-058-dui",
+    "romanization_system": "pinyin",
+    "alias": "Dui"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-059-huan",
+    "romanization_system": "source-label",
+    "alias": "渙 Huan"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-059-huan",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 59"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-059-huan",
+    "romanization_system": "pinyin",
+    "alias": "Huan"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-060-jie",
+    "romanization_system": "source-label",
+    "alias": "節 Jie"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-060-jie",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 60"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-060-jie",
+    "romanization_system": "pinyin",
+    "alias": "Jie"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-061-zhong-fu",
+    "romanization_system": "source-label",
+    "alias": "中孚 Zhong Fu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-061-zhong-fu",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 61"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-061-zhong-fu",
+    "romanization_system": "pinyin",
+    "alias": "Zhong Fu"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-062-xiao-guo",
+    "romanization_system": "source-label",
+    "alias": "小過 Xiao Guo"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-062-xiao-guo",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 62"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-062-xiao-guo",
+    "romanization_system": "pinyin",
+    "alias": "Xiao Guo"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-063-ji-ji",
+    "romanization_system": "source-label",
+    "alias": "既濟 Ji Ji"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-063-ji-ji",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 63"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-063-ji-ji",
+    "romanization_system": "pinyin",
+    "alias": "Ji Ji"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-064-wei-ji",
+    "romanization_system": "source-label",
+    "alias": "未濟 Wei Ji"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-064-wei-ji",
+    "romanization_system": "english-reference",
+    "alias": "Hexagram 64"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "yijing-064-wei-ji",
+    "romanization_system": "pinyin",
+    "alias": "Wei Ji"
   }
 ]

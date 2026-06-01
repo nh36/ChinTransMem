@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-018-gu__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-018-gu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 18 judgment</prop>
+      <prop type="x-translation-ref">易經 18 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>蠱，元亨，利涉大川。先甲三日，後甲三日。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Gu indicates great progress and success (to him who deals properly with the condition represented by it). There will be advantage in (efforts like that of) crossing the great stream. (He should weigh well, however, the events of) three days before the turning point, and those (to be done) three days after it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-018-gu__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-018-gu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 18 初六</prop>
+      <prop type="x-translation-ref">易經 18 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：幹父之蠱，有子考，无咎，厲終吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows (a son) dealing with the troubles caused by his father. If he be an (able) son, the father will escape the blame of having erred. The position is perilous, but there will be good fortune in the end.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-018-gu__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-018-gu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 18 九二</prop>
+      <prop type="x-translation-ref">易經 18 九二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九二：幹母之蠱，不可貞。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second NINE, undivided, shows (a son) dealing with the troubles caused by his mother. He should not (carry) his firm correctness (to the utmost).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-018-gu__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-018-gu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 18 九三</prop>
+      <prop type="x-translation-ref">易經 18 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：幹父之蠱，小有悔，无大咎。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows (a son) dealing with the troubles caused by his father. There may be some small occasion for repentance, but there will not be any great error.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-018-gu__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-018-gu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 18 六四</prop>
+      <prop type="x-translation-ref">易經 18 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：裕父之蠱，往見吝。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows (a son) viewing indulgently the troubles caused by his father. If he go forward, he will find cause to regret it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-018-gu__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-018-gu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 18 六五</prop>
+      <prop type="x-translation-ref">易經 18 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：幹父之蠱，用譽。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows (a son) dealing with the troubles caused by his father. He obtains the praise of using (the fit instrument for his work).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-018-gu__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-018-gu</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 18 上九</prop>
+      <prop type="x-translation-ref">易經 18 上九</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上九：不事王侯，高尚其事。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth NINE, undivided, shows us one who does not serve either king or feudal lord, but in a lofty spirit prefers (to attend to) his own affairs.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

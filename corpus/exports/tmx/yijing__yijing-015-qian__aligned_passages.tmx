@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-yijing" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="yijing-015-qian__alignment-001">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-015-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 15 judgment</prop>
+      <prop type="x-translation-ref">易經 15 judgment</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>謙，亨，君子有終。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Qian indicates progress and success. The superior man, (being humble as it implies), will have a (good) issue (to his undertakings).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-015-qian__alignment-002">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-015-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 15 初六</prop>
+      <prop type="x-translation-ref">易經 15 初六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>初六：謙謙君子，用涉大川，吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The first SIX, divided, shows us the superior man who adds humility to humility. (Even) the great stream may be crossed with this, and there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-015-qian__alignment-003">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-015-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 15 六二</prop>
+      <prop type="x-translation-ref">易經 15 六二</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六二：鳴謙，貞吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The second SIX, divided, shows us humility that has made itself recognised. With firm correctness there will be good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-015-qian__alignment-004">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-015-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 15 九三</prop>
+      <prop type="x-translation-ref">易經 15 九三</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>九三：勞謙君子，有終吉。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The third NINE, undivided, shows the superior man of (acknowledged) merit. He will maintain his success to the end, and have good fortune.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-015-qian__alignment-005">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-015-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 15 六四</prop>
+      <prop type="x-translation-ref">易經 15 六四</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六四：无不利，撝謙。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fourth SIX, divided, shows one, whose action would be in every way advantageous, stirring up (the more) his humility.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-015-qian__alignment-006">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-015-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 15 六五</prop>
+      <prop type="x-translation-ref">易經 15 六五</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>六五：不富，以其鄰，利用侵伐，无不利。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The fifth SIX, divided, shows one who, without being rich, is able to employ his neighbours. He may advantageously use the force of arms. All his movements will be advantageous.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="yijing-015-qian__alignment-007">
+      <prop type="x-work-id">yijing</prop>
+      <prop type="x-section-id">yijing-015-qian</prop>
+      <prop type="x-section-unit">section</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">1.00</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">易經 15 上六</prop>
+      <prop type="x-translation-ref">易經 15 上六</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>上六：鳴謙，利用行師，征邑國。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The sixth SIX, divided, shows us humility that has made itself recognised. The subject of it will with advantage put his hosts in motion; but (he will only) punish his own towns and state.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
