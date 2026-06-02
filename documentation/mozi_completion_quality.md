@@ -9,40 +9,49 @@ Generated from `logs/qc_reports/mozi__alignment_qc.json`.
 - Active sections: 30
 - Exportable sections: 30
 - English witness: Archive.org DjVu OCR capture of Yi-Pao Mei, The Works of Motse from the Chinese (1929) for the translated chapter subset
-- Exact alignments: 622
-- Automatic fine-grained alignments: 622
-- Total processed alignment records: 652
-- Curated override sections: 0
-- Remaining coarse fallbacks: 9
+- Exact alignments: 663
+- Automatic fine-grained alignments: 663
+- Total processed alignment records: 693
+- Curated override sections: 1
+- Remaining coarse fallbacks: 8
 - Blocked sections: 22
 - Hard failures: 0
-- Corruption issues before repair: 304
-- Corruption issues corrected: 450
-- Automatic OCR/token repairs: 439
-- Curated OCR/phrase repairs: 11
+- Corruption issues before repair: 310
+- Corruption issues corrected: 468
+- Automatic OCR/token repairs: 458
+- Curated OCR/phrase repairs: 10
 - Corruption issues remaining: 0
+- Note/commentary leakage issues before repair: 0
+- Note/commentary leakage issues repaired: 0
+- Note/commentary leakage issues remaining: 0
+- Alignment drift checks run: 30
+- Drift issues before repair: 2
+- Drift issues repaired: 2
 - Drift issues remaining: 0
 
 ## Alignment granularity
 
-- chapter: 9
-- grouped: 613
+- chapter: 8
+- grouped: 655
 
 ## Remaining fallbacks
 
 - `mozi-001-make-close-the-scholars`: ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; retained chapter-level fallback after OCR repair.
 - `mozi-002-self-cultivation`: ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; retained chapter-level fallback after OCR repair.
-- `mozi-018-condemnation-of-offensive-war-ii`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 20: target segment length/structure imbalance suggests missing grouping; group 30: target segment length/structure imbalance suggests missing grouping; group 34: target segment length/structure imbalance suggests missing grouping; group 36: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping).
-- `mozi-025-on-ghosts-iii`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 21: source segment length/structure imbalance suggests missing grouping; group 23: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？' vs 'While the scholars should spare no pains at work, they may not make the standard at will. There are the ministers and secretaries to give them the standard.')).
+- `mozi-018-condemnation-of-offensive-war-ii`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 18: target segment length/structure imbalance suggests missing grouping; group 31: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping; group 39: target segment length/structure imbalance suggests missing grouping; group 40: target segment length/structure imbalance suggests missing grouping).
+- `mozi-025-on-ghosts-iii`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 25: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？春秋冬夏選失時？' vs 'While the ministers and secretaries should spare no pains at work, they may not make the standard at will There are the high duke and feudal lords to give them the standard.')).
 - `mozi-027-anti-fatalism-i`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-027-anti-fatalism-i: group 30: target segment length/structure imbalance suggests missing grouping).
-- `mozi-030-anti-confucianism-ii`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-030-anti-confucianism-ii: group 13: target segment length/structure imbalance suggests missing grouping).
-- `mozi-031-canon-i`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-031-canon-i: group 1: target segment length/structure imbalance suggests missing grouping; group 3: target segment length/structure imbalance suggests missing grouping; group 4: target segment length/structure imbalance suggests missing grouping; group 7: target segment length/structure imbalance suggests missing grouping; group 13: target segment length/structure imbalance suggests missing grouping; group 14: target segment length/structure imbalance suggests missing grouping).
-- `mozi-035-major-illustrations`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-035-major-illustrations: group 25: source/target question punctuation mismatch ('小圜之圜，與大圜之圜同。不至尺之不至也，與不至千里之不至不異，其不至同者，遠近之謂也。是璜也，是玉也。意楹，非意木也，意是楹之木也。意指之人也，非意人也。' vs 'Why do you, sir, now oppose it? " (In answer,) Motse asked: Was it from the sages and good men of the Three Dynasties or from the wicked and the vicious of the Three Dynasties that the fatalistic doctrine came? How can we find this out?')).
+- `mozi-031-canon-i`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-031-canon-i: group 1: target segment length/structure imbalance suggests missing grouping; group 7: target segment length/structure imbalance suggests missing grouping; group 13: target segment length/structure imbalance suggests missing grouping; group 14: target segment length/structure imbalance suggests missing grouping).
+- `mozi-035-major-illustrations`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-035-major-illustrations: group 25: source/target question punctuation mismatch ('小圜之圜，與大圜之圜同。不至尺之不至也，與不至千里之不至不異，其不至同者，遠近之謂也。是璜也，是玉也。意楹，非意木也，意是楹之木也。意指之人也，非意人也。意獲也，乃意禽也。' vs 'Why do you, sir, now oppose it? " (In answer,) Motse asked: Was it from the sages and good men of the Three Dynasties or from the wicked and the vicious of the Three Dynasties that the fatalistic doctrine came?')).
 - `mozi-036-minor-illustrations`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-036-minor-illustrations: group 3: target segment length/structure imbalance suggests missing grouping).
 
 ## Curated override sections
 
-- None.
+- `mozi-003-that-which-is-affectable`
+
+## Anchor-mapped sections
+
+- `mozi-003-that-which-is-affectable`
 
 ## Blocked sections
 

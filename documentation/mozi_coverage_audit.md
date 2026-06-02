@@ -10,7 +10,7 @@
 | units_with_english_witness | 30 |
 | units_with_release_ready_english_source | 0 |
 | units_with_at_least_one_exact_alignment | 30 |
-| exact_alignment_count | 622 |
+| exact_alignment_count | 663 |
 
 ## Exceptions
 

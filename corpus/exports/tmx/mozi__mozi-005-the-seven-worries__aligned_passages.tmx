@@ -172,14 +172,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">6</prop>
-      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-target-segment-count">5</prop>
       <prop type="x-chinese-ref">5.27 - 5.32</prop>
-      <prop type="x-translation-ref">5.19 - 5.24</prop>
+      <prop type="x-translation-ref">5.19 - 5.23</prop>
       <tuv xml:lang="zh-Hant">
         <seg>今歲凶、民饑、道餓，重其子此疚於隊，其可無察邪？故時年歲善，則民仁且良；時年歲凶，則民吝且惡。夫民何常此之有？爲者疾，食者衆，則歲無豐。故曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Should there not be also endeavour (to prevent it)? People are gentle and kind when the year is good, but selfish and vicious when it is bad. Yet, how can they be held responsible? When many produce but few consume then there can be no bad year; on the contrary, when few produce but many consume then there can be no good year. Thus it is said: scarcity of supply should stimulate study of the seasons and want of food demands economy of expenditures. The ancients produced wealth according to seasons.</seg>
+        <seg>Should there not be also endeavour (to prevent it)? People are gentle and kind when the year is good, but selfish and vicious when it is bad. Yet, how can they be held responsible? When many produce but few consume then there can be no bad year; on the contrary, when few produce but many consume then there can be no good year. Thus it is said: scarcity of supply should stimulate study of the seasons and want of food demands economy of expenditures.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0010">
@@ -191,15 +191,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">3</prop>
-      <prop type="x-chinese-ref">5.33 - 5.36</prop>
-      <prop type="x-translation-ref">5.25 - 5.27</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">5.33 - 5.37</prop>
+      <prop type="x-translation-ref">5.24 - 5.29</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>「財不足則反之時，食不足則反之用。」故先民以時生財，固本而用財，則財足。故雖上世之聖王，豈能使五穀常收，而旱水不至哉！然而無凍餓之民者，何也？</seg>
+        <seg>「財不足則反之時，食不足則反之用。」故先民以時生財，固本而用財，則財足。故雖上世之聖王，豈能使五穀常收，而旱水不至哉！然而無凍餓之民者，何也？其力時急，而自養儉也。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>They ascertained the source of wealth before they appropriated the products, and therefore they had plenty. Could even the ancient sage-kings cause the five grains invariably to ripen and be harvested and the floods and the droughts never to occur? Yet, none were frozen or starved, why was it?</seg>
+        <seg>The ancients produced wealth according to seasons. They ascertained the source of wealth before they appropriated the products, and therefore they had plenty. Could even the ancient sage-kings cause the five grains invariably to ripen and be harvested and the floods and the droughts never to occur? Yet, none were frozen or starved, why was it? It was because they made full use of the seasons and were frugal in their own maintenance. The history of Hsia says that the Deluge lasted seven years in the time of Yli and the history of Yin tells that a drought visited T’ang for five yeare.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0011">
@@ -211,15 +211,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-source-segment-count">1</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">5.37 - 5.40</prop>
-      <prop type="x-translation-ref">5.28</prop>
+      <prop type="x-chinese-ref">5.38</prop>
+      <prop type="x-translation-ref">5.30</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>其力時急，而自養儉也。故《夏書》曰「禹七年水。」《殷書》曰「湯五年旱。」此其離凶餓甚矣。</seg>
+        <seg>故《夏書》曰「禹七年水。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>It was because they made full use of the seasons and were frugal in their own maintenance.</seg>
+        <seg>These are the extremes of disasters.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0012">
@@ -231,15 +231,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">6</prop>
-      <prop type="x-target-segment-count">3</prop>
-      <prop type="x-chinese-ref">5.41 - 5.46</prop>
-      <prop type="x-translation-ref">5.29 - 5.31</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">5.39 - 5.40</prop>
+      <prop type="x-translation-ref">5.31</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>然而民不凍餓者，何也？其生財密，其用之節也。故倉無備粟，不可以待凶饑；庫無備兵，雖有義不能征無義。城郭不備全，不可以自守。心無備慮，不可以應卒。</seg>
+        <seg>」《殷書》曰「湯五年旱。」此其離凶餓甚矣。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The history of Hsia says that the Deluge lasted seven years in the time of Yli and the history of Yin tells that a drought visited so? The reason lies in diligent production and thrifty consumption. Therefore, famine and dearth cannot be prepared against unless there are stored grains in the granaries, and justice cannot be maintained against the unjust unless there are ready weapons in the armoury.</seg>
+        <seg>Yet the people were not frozen or starved.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0013">
@@ -251,15 +251,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">5.47 - 5.50</prop>
-      <prop type="x-translation-ref">5.32 - 5.33</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">5.41</prop>
+      <prop type="x-translation-ref">5.32</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>是若慶忌無去之心，不能輕出。夫桀無待湯之備，故放。紂無待武王之備，故殺。桀、紂貴爲天子，富有天下。</seg>
+        <seg>然而民不凍餓者，何也？</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>One cannot defend himself unless the inner and the outer city walls are in repair, and one cannot meet emergencies unless his ideas are well’ thought out. Thus Ch’ing Chi i was unprepared, and he should not have set out on the journey.</seg>
+        <seg>Why was this so?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0014">
@@ -271,15 +271,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">5.51 - 5.52</prop>
-      <prop type="x-translation-ref">5.34</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">5.42 - 5.45</prop>
+      <prop type="x-translation-ref">5.33 - 5.34</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>然而皆滅亡於百里之君者，何也？有富貴而不爲備也。</seg>
+        <seg>其生財密，其用之節也。故倉無備粟，不可以待凶饑；庫無備兵，雖有義不能征無義。城郭不備全，不可以自守。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Chieh made no preparations against T’ang and he was sent to exile.</seg>
+        <seg>The reason lies in diligent production and thrifty consumption. Therefore, famine and dearth cannot be prepared against unless there are stored grains in the granaries, and justice cannot be maintained against the unjust unless there are ready weapons in the armoury.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0015">
@@ -291,15 +291,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">5.53 - 5.55</prop>
-      <prop type="x-translation-ref">5.35</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">5.46 - 5.50</prop>
+      <prop type="x-translation-ref">5.35 - 5.37</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>故備者國之重也。食者國之寶也，兵者國之爪也，城者所以自守也，此三者國之具也。故曰：</seg>
+        <seg>心無備慮，不可以應卒。是若慶忌無去之心，不能輕出。夫桀無待湯之備，故放。紂無待武王之備，故殺。桀、紂貴爲天子，富有天下。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>And Chow made to reward the undeserving, empty the treasury to acquire callages and horses, exhaust the labourers to build palaces and furmsh amusements.</seg>
+        <seg>One cannot defend himself unless the inner and the outer city walls are in repair, and one cannot meet emergencies unless his ideas are well’ thought out. Thus Ch’ing Chi i was unprepared, and he should not have set out on the journey. Chieh made no preparations against T’ang and he was sent to exile.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0016">
@@ -311,15 +311,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-source-segment-count">5</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">5.56 - 5.57</prop>
-      <prop type="x-translation-ref">5.36</prop>
+      <prop type="x-chinese-ref">5.51 - 5.55</prop>
+      <prop type="x-translation-ref">5.38</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>以其極賞，以賜無功，虛其府庫，以備車馬衣裘奇怪。苦其役徒，以治宮室觀樂。</seg>
+        <seg>然而皆滅亡於百里之君者，何也？有富貴而不爲備也。故備者國之重也。食者國之寶也，兵者國之爪也，城者所以自守也，此三者國之具也。故曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Upon their death, again, thick coffins and many coats and fur coats are to be furnished. it 1 » A U B i.</seg>
+        <seg>And Chow made (The present rulers) squander great amounts of wealth to reward the undeserving, empty the treasury to acquire callages and horses, exhaust the labourers to build palaces and furmsh amusements.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0017">
@@ -331,15 +331,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">5.58</prop>
-      <prop type="x-translation-ref">5.37</prop>
+      <prop type="x-chinese-ref">5.56 - 5.57</prop>
+      <prop type="x-translation-ref">5.39</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>死又厚爲棺槨，多爲衣裘。</seg>
+        <seg>以其極賞，以賜無功，虛其府庫，以備車馬衣裘奇怪。苦其役徒，以治宮室觀樂。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>to and was murdered on the wav.</seg>
+        <seg>Upon their death, again, thick coffins and many coats and fur coats are to be furnished.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0018">
@@ -351,15 +351,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">5.59</prop>
-      <prop type="x-translation-ref">5.38</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">5.58 - 5.61</prop>
+      <prop type="x-translation-ref">5.40 - 5.42</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>生時治臺榭，死又脩墳墓。</seg>
+        <seg>死又厚爲棺槨，多爲衣裘。生時治臺榭，死又脩墳墓。故民苦於外，府庫單於內。上不厭其樂，下不堪其苦。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>A 11 IS equal to approximately J mile.</seg>
+        <seg>it 1 A 11 IS equal to approximately J mile. Porciies and pavilions are built for them while they are living, and tombs when they are dead. By this the people are embittered and the treasury is left lean.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-005-the-seven-worries__align-0019">
@@ -371,32 +371,12 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">5.60 - 5.62</prop>
-      <prop type="x-translation-ref">5.39 - 5.40</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>故民苦於外，府庫單於內。上不厭其樂，下不堪其苦。故國離寇敵則傷，民見凶饑則亡，此皆備不具之罪也。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Porciies and pavilions are built for them while they are living, and tombs when they are dead. By this the people are embittered and the treasury is left lean.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-005-the-seven-worries__align-0020">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-005-the-seven-worries</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-source-segment-count">6</prop>
       <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">5.63 - 5.67</prop>
-      <prop type="x-translation-ref">5.41 - 5.46</prop>
+      <prop type="x-chinese-ref">5.62 - 5.67</prop>
+      <prop type="x-translation-ref">5.43 - 5.48</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>且夫食者，聖人之所寶也。故《周書》曰：「國無三年之食者，國非其國也；家無三年之食者，子非其子也。」此之謂國備。</seg>
+        <seg>故國離寇敵則傷，民見凶饑則亡，此皆備不具之罪也。且夫食者，聖人之所寶也。故《周書》曰：「國無三年之食者，國非其國也；家無三年之食者，子非其子也。」此之謂國備。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>While the amusements are not yet satisfying to the superiors, the hardship already becomes unbearable for the subjects. Such a state will fall under any attack and such people will perish by famine. And all this is due to the absence of preparation. Moreover, food is what the sages treasured. The history of Chou says; Without three years’ food (in store) a state cannot be a state (as it is in danger of losing its sovereignty). A family being without food in store to be suiB&amp;cient for three years its children cannot be its children (who are in danger of being abandoned or sold to others)." Such, then, is the preparation of a country.</seg>

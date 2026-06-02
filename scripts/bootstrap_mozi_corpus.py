@@ -10,6 +10,9 @@ from pathlib import Path
 from typing import Any
 
 from chinesenotes_alignment import (
+    find_anchor_drift_issues,
+    load_alignment_anchor_maps,
+    load_alignment_overrides,
     refine_alignment,
     render_completion_quality_markdown,
     split_chinese_units,
@@ -21,7 +24,7 @@ from ingest_chinesenotes_work import (
     _extract_notice_lines,
     _parse_section_body,
 )
-from mozi_ocr import repair_mozi_ocr_text
+from mozi_ocr import detect_mozi_leakage_issues, looks_like_mozi_note_line, repair_mozi_ocr_text
 
 UPSTREAM_COMMIT_SHA = "1f6b1d3e7a40b6886a4b943c898125639e993544"
 UPSTREAM_BASE_URL = "https://raw.githubusercontent.com/craigbrelsford/ChineseNotes.com/{commit}/data/corpus/mozi.csv"
@@ -41,6 +44,8 @@ STAGING_DIR = REPO_ROOT / "corpus" / "staging" / "chinesenotes" / "mozi"
 METADATA_DIR = REPO_ROOT / "metadata"
 LOGS_DIR = REPO_ROOT / "logs" / "qc_reports"
 DOCS_DIR = REPO_ROOT / "documentation"
+ALIGNMENT_ANCHORS_PATH = METADATA_DIR / "mozi_alignment_anchors.yml"
+ALIGNMENT_OVERRIDES_PATH = METADATA_DIR / "mozi_alignment_overrides.yml"
 
 WORK_ID = "mozi"
 WORK_TITLE_ZH = "墨子"
@@ -102,7 +107,7 @@ MEI_UNUSABLE_EXTRACT_CHAPTERS = {46, 47, 48, 49, 50}
 
 HEADER_RE = re.compile(r"^(?:BOOK|CHAP\w*)\b", re.IGNORECASE)
 PAGE_HEADER_RE = re.compile(r"^(?:TH[LEI]\s+WOE?R?KS?\s+(?:OF|OP)\s+MOTSE)\b", re.IGNORECASE)
-FOOTNOTE_MARKER_RE = re.compile(r"^[\^®*\d]")
+FOOTNOTE_MARKER_RE = re.compile(r'^[\^®*»«°"\d]')
 STRICT_ENGLISH_UNIT_BOUNDARY_RE = re.compile(r"(?<=[.!?])\s+")
 ASCII_TOKEN_RE = re.compile(r"[A-Za-z]+(?:'[A-Za-z]+)?")
 MEI_HEADER_RESIDUE_RE = re.compile(
@@ -221,9 +226,10 @@ def _strict_split_english_units(text: str) -> list[str]:
     parts = [part.strip(" ;") for part in STRICT_ENGLISH_UNIT_BOUNDARY_RE.split(text) if part.strip(" ;")]
     merged: list[str] = []
     for part in parts:
-        if merged and part and part[0].islower() and len(ASCII_TOKEN_RE.findall(part)) <= 5:
-            merged[-1] = f"{merged[-1]} {part}"
-            continue
+        if merged and part and part[0].islower():
+            if part.startswith(("of ", "under ", "and ", "to ", "for ")) or len(ASCII_TOKEN_RE.findall(part)) <= 5:
+                merged[-1] = f"{merged[-1]} {part}"
+                continue
         merged.append(part)
     return merged
 
@@ -233,6 +239,68 @@ def _clean_mei_unit(text: str) -> str:
     cleaned = MEI_FOOTNOTE_RESIDUE_RE.sub("", cleaned)
     cleaned = MEI_GLOSSARY_RESIDUE_RE.sub("", cleaned)
     return cleaned.strip(" ;")
+
+
+def _mozi_leakage_issue_entries(text: str) -> list[dict[str, str]]:
+    issues = detect_mozi_leakage_issues(text)
+    if issues:
+        return issues
+    normalized = " ".join(text.split())
+    return [{"token": normalized[:120], "issue_type": "note_commentary_leakage"}]
+
+
+def _mozi_leakage_repair_entry(
+    *,
+    section_id: str,
+    raw_text: str,
+    correction_type: str,
+    source_path: str,
+    confidence: float = 0.99,
+) -> dict[str, Any]:
+    return {
+        "section_id": section_id,
+        "raw_token": " ".join(raw_text.split())[:200],
+        "corrected_token": "",
+        "correction_type": correction_type,
+        "confidence": confidence,
+        "mode": "automatic",
+        "source_path": source_path,
+    }
+
+
+def _alignment_preview_rows(section_id: str, alignment: dict[str, Any]) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for index, group in enumerate(alignment["groups"], start=1):
+        chinese_text = "".join(
+            str(alignment["source_units"][unit_index]["text"]).strip()
+            for unit_index in group["source_unit_indices"]
+        )
+        translation_text = " ".join(
+            str(alignment["target_units"][unit_index]["text"]).strip()
+            for unit_index in group["target_unit_indices"]
+        )
+        rows.append(
+            {
+                "alignment_id": f"{section_id}__preview-alignment-{index:03d}",
+                "section_id": section_id,
+                "chinese_text": chinese_text,
+                "translation_text": translation_text,
+            }
+        )
+    return rows
+
+
+def _existing_export_rows(section_id: str) -> list[dict[str, Any]]:
+    export_path = REPO_ROOT / "corpus" / "exports" / "jsonl" / f"{WORK_ID}__{section_id}__aligned_passages.jsonl"
+    if not export_path.exists():
+        return []
+    rows: list[dict[str, Any]] = []
+    for line in export_path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        rows.append(json.loads(stripped))
+    return rows
 
 
 def _extract_mei_chapter_offsets(raw_text: str) -> dict[int, tuple[int, int]]:
@@ -265,7 +333,15 @@ def _extract_mei_english_units(
     section_id: str,
     english_title: str,
     source_path: str,
-) -> tuple[list[str], list[dict[str, Any]], list[dict[str, str]], list[dict[str, str]]]:
+) -> tuple[
+    list[str],
+    list[dict[str, Any]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+    list[dict[str, Any]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+]:
     start, end = chapter_offsets
     chapter_text = raw_text[start:end].replace("\r", "")
     raw_lines: list[str] = []
@@ -285,22 +361,62 @@ def _extract_mei_english_units(
     kept_lines: list[str] = []
     skipping_note_block = False
     after_blank_line = False
+    leakage_repair_entries: list[dict[str, Any]] = []
+    pre_leakage_issues: list[dict[str, str]] = []
     for line in raw_lines:
         if skipping_note_block:
             if not line:
                 after_blank_line = True
                 continue
             if FOOTNOTE_MARKER_RE.match(line):
+                pre_leakage_issues.extend(_mozi_leakage_issue_entries(line))
+                leakage_repair_entries.append(
+                    _mozi_leakage_repair_entry(
+                        section_id=section_id,
+                        raw_text=line,
+                        correction_type="automatic_footnote_marker_removal",
+                        source_path=source_path,
+                    )
+                )
                 after_blank_line = False
                 continue
-            if after_blank_line and line[:1].islower():
+            if after_blank_line and not looks_like_mozi_note_line(line):
                 skipping_note_block = False
                 after_blank_line = False
             else:
+                pre_leakage_issues.extend(_mozi_leakage_issue_entries(line))
+                leakage_repair_entries.append(
+                    _mozi_leakage_repair_entry(
+                        section_id=section_id,
+                        raw_text=line,
+                        correction_type="automatic_note_block_removal",
+                        source_path=source_path,
+                    )
+                )
                 continue
         if FOOTNOTE_MARKER_RE.match(line):
+            pre_leakage_issues.extend(_mozi_leakage_issue_entries(line))
+            leakage_repair_entries.append(
+                _mozi_leakage_repair_entry(
+                    section_id=section_id,
+                    raw_text=line,
+                    correction_type="automatic_footnote_marker_removal",
+                    source_path=source_path,
+                )
+            )
             skipping_note_block = True
             after_blank_line = False
+            continue
+        if looks_like_mozi_note_line(line):
+            pre_leakage_issues.extend(_mozi_leakage_issue_entries(line))
+            leakage_repair_entries.append(
+                _mozi_leakage_repair_entry(
+                    section_id=section_id,
+                    raw_text=line,
+                    correction_type="automatic_note_line_removal",
+                    source_path=source_path,
+                )
+            )
             continue
         if line:
             kept_lines.append(line)
@@ -320,10 +436,16 @@ def _extract_mei_english_units(
     cleaned_text = MEI_FOOTNOTE_RESIDUE_RE.sub("", cleaned_text)
     cleaned_text = MEI_GLOSSARY_RESIDUE_RE.sub("", cleaned_text)
     cleaned_text = cleaned_text.replace("^", "").replace("®", "").replace("*", "").strip()
+    cleaned_text = re.sub(
+        r"(?<![.!?])\s+(Now these (?:four|five|six) (?:kings|lords|princes)\b)",
+        r". \1",
+        cleaned_text,
+    )
     units: list[str] = []
     repair_entries: list[dict[str, Any]] = []
     pre_repair_issues: list[dict[str, str]] = []
     remaining_issues: list[dict[str, str]] = []
+    remaining_leakage_issues: list[dict[str, str]] = []
     for unit in _strict_split_english_units(cleaned_text):
         cleaned_unit = _clean_mei_unit(unit)
         cleaned_unit, unit_repairs, unit_pre_issues, unit_remaining_issues = repair_mozi_ocr_text(
@@ -334,9 +456,116 @@ def _extract_mei_english_units(
         repair_entries.extend(unit_repairs)
         pre_repair_issues.extend(unit_pre_issues)
         remaining_issues.extend(unit_remaining_issues)
+        leakage_issues = detect_mozi_leakage_issues(cleaned_unit)
+        if leakage_issues and looks_like_mozi_note_line(cleaned_unit):
+            pre_leakage_issues.extend(leakage_issues)
+            leakage_repair_entries.append(
+                _mozi_leakage_repair_entry(
+                    section_id=section_id,
+                    raw_text=cleaned_unit,
+                    correction_type="automatic_note_unit_removal",
+                    source_path=source_path,
+                )
+            )
+            continue
+        remaining_leakage_issues.extend(leakage_issues)
         if len(ASCII_TOKEN_RE.findall(cleaned_unit)) >= 3:
             units.append(cleaned_unit)
-    return units, repair_entries, pre_repair_issues, remaining_issues
+    return (
+        units,
+        repair_entries,
+        pre_repair_issues,
+        remaining_issues,
+        leakage_repair_entries,
+        pre_leakage_issues,
+        remaining_leakage_issues,
+    )
+
+
+def _apply_curated_mozi_unit_overrides(
+    *,
+    section_id: str,
+    units: list[str],
+    source_path: str,
+) -> tuple[list[str], list[dict[str, Any]]]:
+    if section_id != "mozi-003-that-which-is-affectable":
+        return units, []
+
+    corrected_units: list[str] = []
+    repairs: list[dict[str, Any]] = []
+    six_bad_princes_written = False
+    for unit in units:
+        normalized = " ".join(unit.split())
+        replacement: str | None = None
+        remove_unit = False
+        if "of Hsia came under the influence of Kan Hsin" in normalized:
+            replacement = (
+                "Chieh of Hsia came under the influence of Kan Hsin and T’uei Yi; "
+                "Chow of Yin, under that of the Duke of Gh'ungi and Lai; "
+                "King Li, under that of Chhng Fu, Duke Li, and Yi Chung of the State of Jung; "
+                "and King Yu, under that of Yi, Duke of Fu, and Ku, Duke of Ta’ai."
+            )
+        elif normalized.startswith("Lord Huan of Ch’i came under the influence"):
+            replacement = (
+                "Lord Huan of Ch’i came under the influence of Kuan Chung and Pao Shu; "
+                "Lord Wen of Chin, under that of Uncle Fan and Kao Yen; "
+                "Lord Chuang of Ch’u, under that of Sun Shu and the Minister of Shen; "
+                "Ho Lu of Wu, under that of Wu Yuan and Wen Yi; "
+                "and Kou Chien of Yueh, under that of Pan Li and Minister Chimg."
+            )
+        elif normalized.startswith("Fan Chi She came under the influence"):
+            replacement = (
+                "Fan Chi She came under the influence of Ch’ang Liu Shuo and Wang Sheng; "
+                "Chung Hsing Yin, under that of Chi Ch’in and Kao Chiang; "
+                "Pu Ch’a, under that of Wang Sun Lo and Minister P’i; "
+                "Chih Po Yao, under that of Chih Kuo and Chang Wu; "
+                "Shang of Chung Shan, under that of Wei Yi and Yen Ch'ang; "
+                "and Lord K'ang of Sung, under that of T'ang Yang and Tien Pu Li."
+            )
+            six_bad_princes_written = True
+        elif six_bad_princes_written and (
+            normalized.startswith("under that of Wang")
+            or normalized.startswith("Chih Kuo and Chang Wu")
+        ):
+            remove_unit = True
+        elif "Tu Kan Mu was a pupil of Tse Hsia" in normalized or normalized.startswith("For full story see p."):
+            remove_unit = True
+        elif normalized.startswith("Examples of such are"):
+            replacement = "Examples of such are Tuan Kan Mu, Ch’intse, and Fu Yueh."
+        elif normalized.startswith("And, examples of such are Tse HsL"):
+            replacement = "Examples of such are Tse Hsi, Yi Ya, and Shu Tiao."
+        elif normalized.startswith("An Ode says:") and normalized.endswith(" Confucius"):
+            replacement = normalized.rsplit(" Confucius", 1)[0]
+
+        if remove_unit:
+            repairs.append(
+                {
+                    "section_id": section_id,
+                    "raw_token": normalized[:200],
+                    "corrected_token": "",
+                    "correction_type": "curated_section_unit_removal",
+                    "confidence": 0.99,
+                    "mode": "curated",
+                    "source_path": source_path,
+                }
+            )
+            continue
+        if replacement and replacement != normalized:
+            repairs.append(
+                {
+                    "section_id": section_id,
+                    "raw_token": normalized[:200],
+                    "corrected_token": replacement,
+                    "correction_type": "curated_section_unit_override",
+                    "confidence": 0.99,
+                    "mode": "curated",
+                    "source_path": source_path,
+                }
+            )
+            corrected_units.append(replacement)
+            continue
+        corrected_units.append(unit)
+    return corrected_units, repairs
 
 
 def _sentence_segment_record(
@@ -521,6 +750,8 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
 
     mei_raw_text = ARCHIVE_RAW_TEXT_PATH.read_text(encoding="utf-8", errors="replace")
     mei_offsets = _extract_mei_chapter_offsets(mei_raw_text)
+    alignment_anchor_maps = load_alignment_anchor_maps(ALIGNMENT_ANCHORS_PATH)
+    alignment_overrides = load_alignment_overrides(ALIGNMENT_OVERRIDES_PATH)
 
     manifest_sections: list[dict[str, Any]] = []
     manifest_sources: list[dict[str, Any]] = []
@@ -539,15 +770,36 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
     fallback_sections: list[dict[str, Any]] = []
     source_url_entries = [WORK_SOURCE_URL.format(commit=UPSTREAM_COMMIT_SHA), ARCHIVE_ITEM_URL, ARCHIVE_DOWNLOAD_URL]
     ocr_repair_entries: list[dict[str, Any]] = []
+    leakage_repair_entries: list[dict[str, Any]] = []
     ocr_remaining_issues: list[dict[str, Any]] = []
+    leakage_remaining_issues: list[dict[str, Any]] = []
 
     alignment_granularity_counts: dict[str, int] = {}
     exact_alignment_count = 0
     fallback_section_count = 0
     active_section_count = 0
     pre_repair_corruption_issue_count = 0
+    pre_repair_leakage_issue_count = 0
     automatic_correction_count = 0
     curated_correction_count = 0
+    repaired_leakage_issue_count = 0
+    drift_checks_run = 0
+    drift_issue_count_before_repair = 0
+    remaining_drift_issue_count = 0
+    anchor_mapped_section_ids: list[str] = []
+    curated_override_section_ids: list[str] = []
+    preexisting_active_section_count = 0
+
+    for row in source_rows:
+        chinese_title, english_title = _parse_displayed_title(row["displayed_title"])
+        section_id = _section_id(row["row_index"], english_title)
+        existing_rows = _existing_export_rows(section_id)
+        if not existing_rows:
+            continue
+        preexisting_active_section_count += 1
+        pre_repair_leakage_issue_count += sum(
+            len(detect_mozi_leakage_issues(str(existing_row.get("translation_text", "")))) for existing_row in existing_rows
+        )
 
     archive_sha256 = _source_sha256(ARCHIVE_RAW_TEXT_PATH)
 
@@ -707,7 +959,15 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         if canonical_chapter_number in MEI_UNUSABLE_EXTRACT_CHAPTERS:
             english_units = []
         elif canonical_chapter_number in mei_offsets:
-            english_units, unit_repairs, unit_pre_issues, unit_remaining_issues = _extract_mei_english_units(
+            (
+                english_units,
+                unit_repairs,
+                unit_pre_issues,
+                unit_remaining_issues,
+                unit_leakage_repairs,
+                _unit_pre_leakage_issues,
+                unit_remaining_leakage_issues,
+            ) = _extract_mei_english_units(
                 mei_raw_text,
                 mei_offsets[canonical_chapter_number],
                 section_id=section_id,
@@ -715,6 +975,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                 source_path=repo_relative(ARCHIVE_RAW_TEXT_PATH),
             )
             ocr_repair_entries.extend(unit_repairs)
+            leakage_repair_entries.extend(unit_leakage_repairs)
             pre_repair_corruption_issue_count += len(unit_pre_issues)
             automatic_correction_count += sum(1 for entry in unit_repairs if entry["mode"] == "automatic")
             curated_correction_count += sum(1 for entry in unit_repairs if entry["mode"] == "curated")
@@ -727,6 +988,21 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                 }
                 for issue in unit_remaining_issues
             )
+            leakage_remaining_issues.extend(
+                {
+                    "section_id": section_id,
+                    "token": issue["token"],
+                    "issue_type": issue["issue_type"],
+                    "source_path": repo_relative(ARCHIVE_RAW_TEXT_PATH),
+                }
+                for issue in unit_remaining_leakage_issues
+            )
+            english_units, curated_unit_repairs = _apply_curated_mozi_unit_overrides(
+                section_id=section_id,
+                units=english_units,
+                source_path=repo_relative(ARCHIVE_RAW_TEXT_PATH),
+            )
+            leakage_repair_entries.extend(curated_unit_repairs)
 
         if canonical_chapter_number in mei_offsets and english_units:
             target_source_id = f"{section_id}__{TARGET_WITNESS_SUFFIX}"
@@ -750,6 +1026,15 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                 )
                 automatic_correction_count += sum(1 for entry in sentence_repairs if entry["mode"] == "automatic")
                 curated_correction_count += sum(1 for entry in sentence_repairs if entry["mode"] == "curated")
+                leakage_remaining_issues.extend(
+                    {
+                        "section_id": section_id,
+                        "token": issue["token"],
+                        "issue_type": issue["issue_type"],
+                        "source_path": repo_relative(ARCHIVE_RAW_TEXT_PATH),
+                    }
+                    for issue in detect_mozi_leakage_issues(repaired_sentence)
+                )
                 english_segments.append(
                     _sentence_segment_record(
                         section_id=section_id,
@@ -776,7 +1061,35 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
             )
 
             fallback_reason = ""
+            anchor_map = alignment_anchor_maps.get(section_id)
+            override = alignment_overrides.get(section_id)
+            alignment_anchor_map_used = False
+            alignment_curated_override_used = False
+            alignment_strategy = "monotonic_sentence_grouping"
+            drift_checks_run += 1
             try:
+                if anchor_map and override:
+                    try:
+                        auto_alignment = refine_alignment(
+                            section_id,
+                            chinese_units,
+                            english_units,
+                            source_splitter=None,
+                            target_splitter=None,
+                            default_segment_granularity="sentence",
+                            block_alignment_granularity="sentence",
+                            max_source_group_size=6,
+                            max_target_group_size=6,
+                            override=None,
+                        )
+                        drift_issue_count_before_repair += len(
+                            find_anchor_drift_issues(
+                                _alignment_preview_rows(section_id, auto_alignment),
+                                list(anchor_map.get("anchors", [])),
+                            )
+                        )
+                    except ValueError:
+                        pass
                 alignment = refine_alignment(
                     section_id,
                     chinese_units,
@@ -787,7 +1100,30 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                     block_alignment_granularity="sentence",
                     max_source_group_size=6,
                     max_target_group_size=6,
+                    override=override,
                 )
+                alignment_strategy = str(alignment.get("strategy") or alignment_strategy)
+                alignment_curated_override_used = bool(alignment.get("curated_override_used"))
+                if alignment_curated_override_used:
+                    curated_override_section_ids.append(section_id)
+                if anchor_map:
+                    anchor_drift_issues = find_anchor_drift_issues(
+                        _alignment_preview_rows(section_id, alignment),
+                        list(anchor_map.get("anchors", [])),
+                    )
+                    alignment_anchor_map_used = True
+                    anchor_mapped_section_ids.append(section_id)
+                    remaining_drift_issue_count += len(anchor_drift_issues)
+                    if anchor_drift_issues:
+                        raise ValueError(
+                            "Anchor drift remains after repair: "
+                            + "; ".join(f"{issue['anchor_id']} ({issue['issue']})" for issue in anchor_drift_issues)
+                        )
+                    alignment["anchor_map_used"] = True
+                    alignment["anchor_count"] = len(anchor_map.get("anchors", []))
+                else:
+                    alignment["anchor_map_used"] = False
+                    alignment["anchor_count"] = 0
                 alignment_records = _build_alignment_records(
                     section_id=section_id,
                     source_id=source_id,
@@ -797,6 +1133,16 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                     english_segments=english_segments,
                     alignment=alignment,
                     notes="Monotonic sentence alignment over ChineseNotes Chinese and Mei OCR English sentence units.",
+                )
+                leakage_remaining_issues.extend(
+                    {
+                        "section_id": section_id,
+                        "token": issue["token"],
+                        "issue_type": issue["issue_type"],
+                        "source_path": repo_relative(ARCHIVE_RAW_TEXT_PATH),
+                    }
+                    for record in alignment_records
+                    for issue in detect_mozi_leakage_issues(str(record.get("translation_text", "")))
                 )
                 exact_rows = [record for record in alignment_records if record["alignment_type"] == "exact_or_near_exact"]
                 for record in exact_rows:
@@ -914,7 +1260,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                     "processed_source_path": repo_relative(source_segments_path),
                     "processed_translation_path": repo_relative(english_segments_path),
                     "processed_alignment_path": repo_relative(alignments_path),
-                    "alignment_strategy": "monotonic_sentence_grouping",
+                    "alignment_strategy": alignment_strategy,
                     "alignment_fallback_reason": fallback_reason or "",
                     "translator_attribution": "Yi-Pao Mei",
                     "rights_note": "Proof-of-concept export retained for TM research while release clearance remains pending.",
@@ -931,6 +1277,8 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                     "exact_alignment_count": manifest_section["expected_exact_alignment_count"],
                     "fallback_used": bool(fallback_reason),
                     "fallback_reason": fallback_reason,
+                    "alignment_anchor_map_used": alignment_anchor_map_used,
+                    "curated_override_used": alignment_curated_override_used,
                     "rights_status": PROOF_OF_CONCEPT_RIGHTS_STATUS,
                     "release_status": PROOF_OF_CONCEPT_RELEASE_STATUS,
                 }
@@ -995,6 +1343,9 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         manifest_sections.append(manifest_section)
         inventory_units.append(inventory_unit)
 
+    repaired_leakage_issue_count = max(pre_repair_leakage_issue_count - len(leakage_remaining_issues), 0)
+    repaired_drift_issue_count = max(drift_issue_count_before_repair - remaining_drift_issue_count, 0)
+
     summary = {
         "work_id": WORK_ID,
         "work_title_zh": WORK_TITLE_ZH,
@@ -1012,7 +1363,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         "alignment_record_count": exact_alignment_count + active_section_count,
         "section_group_alignment_record_count": active_section_count,
         "alignment_granularity_counts": alignment_granularity_counts,
-        "curated_override_section_count": 0,
+        "curated_override_section_count": len(curated_override_section_ids),
         "fallback_section_count": fallback_section_count,
         "rights_review_required_section_count": active_section_count,
         "release_ready_section_count": 0,
@@ -1026,7 +1377,14 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         "automatic_correction_count": automatic_correction_count,
         "curated_correction_count": curated_correction_count,
         "remaining_corruption_issue_count": len(ocr_remaining_issues),
-        "remaining_drift_issue_count": 0,
+        "pre_repair_leakage_issue_count": pre_repair_leakage_issue_count,
+        "repaired_leakage_issue_count": repaired_leakage_issue_count,
+        "remaining_leakage_issue_count": len(leakage_remaining_issues),
+        "drift_checks_run": drift_checks_run,
+        "anchor_mapped_section_count": len(anchor_mapped_section_ids),
+        "drift_issue_count_before_repair": drift_issue_count_before_repair,
+        "repaired_drift_issue_count": repaired_drift_issue_count,
+        "remaining_drift_issue_count": remaining_drift_issue_count,
     }
 
     manifest = {
@@ -1077,7 +1435,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
             "section_group_export_policy": "forbidden",
             "completion_definition": "A Mozi chapter is complete for proof-of-concept use only when the ChineseNotes Chinese base text and an attributable English witness are both captured cleanly enough for sentence-level or grouped alignment, source and rights metadata are explicit, and any coarse fallback is exported with a recorded reason. Release readiness remains separate from active proof-of-concept export.",
         },
-        "notes": "Mozi is active as a proof-of-concept corpus. Exportable chapters use ChineseNotes Chinese plus Archive.org OCR of Yi-Pao Mei 1929, with explicit rights-review metadata, release_status not_cleared, and deterministic OCR repair logging. Remaining chapters stay metadata-only only for genuine witness-parsing or missing-English reasons.",
+        "notes": "Mozi is active as a proof-of-concept corpus. Exportable chapters use ChineseNotes Chinese plus Archive.org OCR of Yi-Pao Mei 1929, with explicit rights-review metadata, release_status not_cleared, deterministic OCR repair logging, and note/commentary leakage exclusion before alignment. Remaining chapters stay metadata-only only for genuine witness-parsing or missing-English reasons.",
         "summary": summary,
         "romanization_aliases": romanization_aliases,
         "sources": manifest_sources,
@@ -1089,7 +1447,8 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         "sections": qc_sections,
         "blocked_sections": blocked_sections,
         "fallback_sections": fallback_sections,
-        "curated_override_sections": [],
+        "curated_override_sections": curated_override_section_ids,
+        "anchor_mapped_sections": anchor_mapped_section_ids,
     }
 
     coverage_mapping = _mapping_entry_template()
@@ -1123,6 +1482,11 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                 "automatic_correction_count": automatic_correction_count,
                 "curated_correction_count": curated_correction_count,
                 "remaining_issue_count": len(ocr_remaining_issues),
+                "pre_repair_leakage_issue_count": pre_repair_leakage_issue_count,
+                "repaired_leakage_issue_count": repaired_leakage_issue_count,
+                "remaining_leakage_issue_count": len(leakage_remaining_issues),
+                "automatic_leakage_repair_count": len(leakage_repair_entries),
+                "remaining_total_issue_count": len(ocr_remaining_issues) + len(leakage_remaining_issues),
                 "cleaner_source_layer_found": False,
                 "source_layer_audit": {
                     "reviewed_layers": [
@@ -1135,8 +1499,8 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                     "selected_layer": "Archive.org DjVu OCR text with deterministic repair rules",
                 },
             },
-            "repairs": ocr_repair_entries,
-            "remaining_issues": ocr_remaining_issues,
+            "repairs": ocr_repair_entries + leakage_repair_entries,
+            "remaining_issues": ocr_remaining_issues + leakage_remaining_issues,
         },
     )
 

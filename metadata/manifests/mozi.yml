@@ -66,7 +66,7 @@
     "section_group_export_policy": "forbidden",
     "completion_definition": "A Mozi chapter is complete for proof-of-concept use only when the ChineseNotes Chinese base text and an attributable English witness are both captured cleanly enough for sentence-level or grouped alignment, source and rights metadata are explicit, and any coarse fallback is exported with a recorded reason. Release readiness remains separate from active proof-of-concept export."
   },
-  "notes": "Mozi is active as a proof-of-concept corpus. Exportable chapters use ChineseNotes Chinese plus Archive.org OCR of Yi-Pao Mei 1929, with explicit rights-review metadata, release_status not_cleared, and deterministic OCR repair logging. Remaining chapters stay metadata-only only for genuine witness-parsing or missing-English reasons.",
+  "notes": "Mozi is active as a proof-of-concept corpus. Exportable chapters use ChineseNotes Chinese plus Archive.org OCR of Yi-Pao Mei 1929, with explicit rights-review metadata, release_status not_cleared, deterministic OCR repair logging, and note/commentary leakage exclusion before alignment. Remaining chapters stay metadata-only only for genuine witness-parsing or missing-English reasons.",
   "summary": {
     "work_id": "mozi",
     "work_title_zh": "墨子",
@@ -79,16 +79,16 @@
     "exportable_section_count": 30,
     "metadata_only_section_count": 22,
     "blocked_section_count": 22,
-    "exact_alignment_count": 622,
-    "automatic_alignment_count": 622,
-    "alignment_record_count": 652,
+    "exact_alignment_count": 663,
+    "automatic_alignment_count": 663,
+    "alignment_record_count": 693,
     "section_group_alignment_record_count": 30,
     "alignment_granularity_counts": {
-      "chapter": 9,
-      "grouped": 613
+      "chapter": 8,
+      "grouped": 655
     },
-    "curated_override_section_count": 0,
-    "fallback_section_count": 9,
+    "curated_override_section_count": 1,
+    "fallback_section_count": 8,
     "rights_review_required_section_count": 30,
     "release_ready_section_count": 0,
     "genuine_blocker_count": 22,
@@ -96,11 +96,18 @@
     "work_state": "proof_of_concept_partial_active",
     "hard_failure_count": 0,
     "corruption_issue_count": 0,
-    "pre_repair_corruption_issue_count": 304,
-    "corrected_corruption_issue_count": 450,
-    "automatic_correction_count": 439,
-    "curated_correction_count": 11,
+    "pre_repair_corruption_issue_count": 310,
+    "corrected_corruption_issue_count": 468,
+    "automatic_correction_count": 458,
+    "curated_correction_count": 10,
     "remaining_corruption_issue_count": 0,
+    "pre_repair_leakage_issue_count": 0,
+    "repaired_leakage_issue_count": 0,
+    "remaining_leakage_issue_count": 0,
+    "drift_checks_run": 30,
+    "anchor_mapped_section_count": 1,
+    "drift_issue_count_before_repair": 2,
+    "repaired_drift_issue_count": 2,
     "remaining_drift_issue_count": 0
   },
   "romanization_aliases": [
@@ -2210,7 +2217,7 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-003-that-which-is-affectable__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 9,
+      "expected_exact_alignment_count": 10,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
       "fallback_reason": null
@@ -2239,7 +2246,7 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-004-methods-and-standards__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 18,
+      "expected_exact_alignment_count": 17,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
       "fallback_reason": null
@@ -2268,7 +2275,7 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-005-the-seven-worries__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 20,
+      "expected_exact_alignment_count": 19,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
       "fallback_reason": null
@@ -2355,7 +2362,7 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-008-exaltation-of-the-virtuous-i__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 22,
+      "expected_exact_alignment_count": 19,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
       "fallback_reason": null
@@ -2384,7 +2391,7 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-009-exaltation-of-the-virtuous-ii__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 47,
+      "expected_exact_alignment_count": 49,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
       "fallback_reason": null
@@ -2471,7 +2478,7 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-012-identification-with-the-superior-ii__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 45,
+      "expected_exact_alignment_count": 42,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
       "fallback_reason": null
@@ -2500,7 +2507,7 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-013-identification-with-the-superior-iii__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 35,
+      "expected_exact_alignment_count": 36,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
       "fallback_reason": null
@@ -2587,7 +2594,7 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-016-universal-love-iii__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 57,
+      "expected_exact_alignment_count": 60,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
       "fallback_reason": null
@@ -2648,7 +2655,7 @@
       "expected_exact_alignment_count": 1,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 20: target segment length/structure imbalance suggests missing grouping; group 30: target segment length/structure imbalance suggests missing grouping; group 34: target segment length/structure imbalance suggests missing grouping; group 36: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping)."
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 18: target segment length/structure imbalance suggests missing grouping; group 31: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping; group 39: target segment length/structure imbalance suggests missing grouping; group 40: target segment length/structure imbalance suggests missing grouping)."
     },
     {
       "section_id": "mozi-019-economy-of-expenditures-i",
@@ -2851,7 +2858,7 @@
       "expected_exact_alignment_count": 1,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 21: source segment length/structure imbalance suggests missing grouping; group 23: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？' vs 'While the scholars should spare no pains at work, they may not make the standard at will. There are the ministers and secretaries to give them the standard.'))."
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 25: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？春秋冬夏選失時？' vs 'While the ministers and secretaries should spare no pains at work, they may not make the standard at will There are the high duke and feudal lords to give them the standard.'))."
     },
     {
       "section_id": "mozi-026-condemnation-of-music-i",
@@ -2993,10 +3000,10 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-030-anti-confucianism-ii__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 1,
+      "expected_exact_alignment_count": 44,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-030-anti-confucianism-ii: group 13: target segment length/structure imbalance suggests missing grouping)."
+      "fallback_reason": null
     },
     {
       "section_id": "mozi-031-canon-i",
@@ -3025,7 +3032,7 @@
       "expected_exact_alignment_count": 1,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-031-canon-i: group 1: target segment length/structure imbalance suggests missing grouping; group 3: target segment length/structure imbalance suggests missing grouping; group 4: target segment length/structure imbalance suggests missing grouping; group 7: target segment length/structure imbalance suggests missing grouping; group 13: target segment length/structure imbalance suggests missing grouping; group 14: target segment length/structure imbalance suggests missing grouping)."
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-031-canon-i: group 1: target segment length/structure imbalance suggests missing grouping; group 7: target segment length/structure imbalance suggests missing grouping; group 13: target segment length/structure imbalance suggests missing grouping; group 14: target segment length/structure imbalance suggests missing grouping)."
     },
     {
       "section_id": "mozi-032-canon-ii",
@@ -3141,7 +3148,7 @@
       "expected_exact_alignment_count": 1,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-035-major-illustrations: group 25: source/target question punctuation mismatch ('小圜之圜，與大圜之圜同。不至尺之不至也，與不至千里之不至不異，其不至同者，遠近之謂也。是璜也，是玉也。意楹，非意木也，意是楹之木也。意指之人也，非意人也。' vs 'Why do you, sir, now oppose it? \" (In answer,) Motse asked: Was it from the sages and good men of the Three Dynasties or from the wicked and the vicious of the Three Dynasties that the fatalistic doctrine came? How can we find this out?'))."
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-035-major-illustrations: group 25: source/target question punctuation mismatch ('小圜之圜，與大圜之圜同。不至尺之不至也，與不至千里之不至不異，其不至同者，遠近之謂也。是璜也，是玉也。意楹，非意木也，意是楹之木也。意指之人也，非意人也。意獲也，乃意禽也。' vs 'Why do you, sir, now oppose it? \" (In answer,) Motse asked: Was it from the sages and good men of the Three Dynasties or from the wicked and the vicious of the Three Dynasties that the fatalistic doctrine came?'))."
     },
     {
       "section_id": "mozi-036-minor-illustrations",
@@ -3225,7 +3232,7 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-038-esteem-for-righteousness__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 45,
+      "expected_exact_alignment_count": 44,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
       "fallback_reason": null

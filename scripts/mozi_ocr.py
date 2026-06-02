@@ -206,21 +206,35 @@ MOZI_SUSPICIOUS_HYPHENATED_TOKENS = {
 }
 
 MOZI_TOKEN_REPAIRS = {
+    "CMeh": "Chieh",
+    "Chill": "Chih",
+    "Confuoian": "Confucian",
+    "IdBgs": "kings",
+    "Le<rve": "Legge",
     "Watcliing": "Watching",
     "sigked": "sighed",
     "Wiiat": "What",
     "wbat": "what",
     "difierent": "different",
     "difierence": "difference",
+    "foUowhiff": "following",
+    "witFoiit": "without",
+    "sFow": "show",
+    "tFo": "the",
+    "sucli": "such",
     "There-fore": "Therefore",
     "There-upon": "Thereupon",
     "oflflcial": "official",
     "quaMed": "qualified",
     "StoTiso": "",
     "v/ODiucms": "Confucius",
+    "virtnons": "virtuous",
     "acHevemeat": "achievement",
     "triSe": "trifle",
     "pupU": "pupil",
+    "TFis": "This",
+    "Fis": "His",
+    "Fands": "hands",
     "tEe": "the",
     "tEeir": "their",
     "tEose": "those",
@@ -459,6 +473,8 @@ MOZI_TOKEN_REPAIRS_CASEFOLDED = {token.casefold(): replacement for token, replac
 MOZI_LITERAL_REPAIRS = {
     "tli©": "the",
     "tb©": "the",
+    "«": "",
+    "°": "",
 }
 
 MOZI_PHRASE_REPAIRS: list[dict[str, Any]] = [
@@ -792,6 +808,29 @@ MOZI_NOTE_RESIDUE_MARKERS = (
     "vol. i, p.",
 )
 
+MOZI_NOTE_LEAKAGE_PATTERNS: list[tuple[str, re.Pattern[str]]] = [
+    ("note_gloss_fragment", re.compile(r"\bThese are the noted\b", re.IGNORECASE)),
+    ("note_gloss_fragment", re.compile(r"\bThese are the able assistants\b", re.IGNORECASE)),
+    ("note_gloss_fragment", re.compile(r"\bMany historical figures\b", re.IGNORECASE)),
+    ("note_gloss_fragment", re.compile(r"\bnoted disciple of Confucius\b", re.IGNORECASE)),
+    ("note_gloss_fragment", re.compile(r"\bFor full story see p\.\b", re.IGNORECASE)),
+    ("note_gloss_fragment", re.compile(r"\bAccording to the translation of James\b", re.IGNORECASE)),
+    ("note_gloss_fragment", re.compile(r"\bThe edition used is that of Hongkong\b", re.IGNORECASE)),
+    ("note_gloss_fragment", re.compile(r"\bThis Confuoian tenet\b", re.IGNORECASE)),
+    ("note_gloss_fragment", re.compile(r"\bcomparison with the list of chronological table appended\b", re.IGNORECASE)),
+    ("footnote_all_caps_intrusion", re.compile(r"\bWHO are\b")),
+    ("footnote_artifact_word", re.compile(r"\bhistorj-\b", re.IGNORECASE)),
+    ("footnote_artifact_word", re.compile(r"\bmstrumental\b", re.IGNORECASE)),
+]
+MOZI_FOOTNOTE_ARTIFACT_RE = re.compile(r"[«°]")
+MOZI_DANGLING_FOOTNOTE_DIGIT_RE = re.compile(
+    r"\b([A-Z][A-Za-z'’.-]{1,40})\s+([1-4])(?=(?:\s+(?:and|or|of|under|to)\b|[;,.]|$))"
+)
+MOZI_NOTE_LINE_START_RE = re.compile(
+    r"^(?:These are the noted|These are the able assistants|Many historical figures|This comparison with|In Chinese\b|The former\b|The latter\b|For full story see p\.|Tu Kan Mu was a pupil|According to the translation of James|The edition used is that of Hongkong|The seventh ode|I consists of three stanzas|This Confuoian tenet)",
+    re.IGNORECASE,
+)
+
 TOKEN_RE = re.compile(r"\b[A-Za-z][A-Za-z0-9'/<>\-:.’]*[A-Za-z0-9]\b")
 
 
@@ -825,6 +864,36 @@ def detect_mozi_ocr_issues(text: str) -> list[dict[str, str]]:
     ):
         return issues
     return issues
+
+
+def detect_mozi_leakage_issues(text: str) -> list[dict[str, str]]:
+    normalized = " ".join(text.split())
+    issues: list[dict[str, str]] = []
+    for issue_type, pattern in MOZI_NOTE_LEAKAGE_PATTERNS:
+        if pattern.search(normalized):
+            issues.append({"token": normalized[:120], "issue_type": issue_type})
+    if MOZI_FOOTNOTE_ARTIFACT_RE.search(normalized):
+        issues.append({"token": normalized[:120], "issue_type": "footnote_artifact_symbol"})
+    if MOZI_DANGLING_FOOTNOTE_DIGIT_RE.search(normalized):
+        issues.append({"token": normalized[:120], "issue_type": "dangling_footnote_digit"})
+    deduped: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for issue in issues:
+        key = (issue["issue_type"], issue["token"])
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(issue)
+    return deduped
+
+
+def looks_like_mozi_note_line(text: str) -> bool:
+    normalized = " ".join(text.split())
+    if not normalized:
+        return False
+    if MOZI_NOTE_LINE_START_RE.search(normalized):
+        return True
+    return bool(detect_mozi_leakage_issues(normalized))
 
 
 def repair_mozi_ocr_text(
@@ -875,6 +944,24 @@ def repair_mozi_ocr_text(
                 "corrected_token": replacement,
                 "correction_type": "automatic_literal_repair",
                 "confidence": 0.95,
+                "mode": "automatic",
+                "source_path": source_path,
+            }
+        )
+    while True:
+        match = MOZI_DANGLING_FOOTNOTE_DIGIT_RE.search(cleaned)
+        if match is None:
+            break
+        raw_value = match.group(0)
+        corrected_value = match.group(1)
+        cleaned = f"{cleaned[:match.start()]}{corrected_value}{cleaned[match.end():]}"
+        repairs.append(
+            {
+                "section_id": section_id,
+                "raw_token": raw_value.strip(),
+                "corrected_token": corrected_value,
+                "correction_type": "automatic_footnote_digit_removal",
+                "confidence": 0.98,
                 "mode": "automatic",
                 "source_path": source_path,
             }

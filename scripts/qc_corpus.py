@@ -21,7 +21,7 @@ from common import (
     sha256_file,
     write_json,
 )
-from mozi_ocr import detect_mozi_ocr_issues
+from mozi_ocr import detect_mozi_leakage_issues, detect_mozi_ocr_issues
 from text_quality import (
     detect_probable_ocr_corruption,
     has_probable_leading_fragment,
@@ -57,6 +57,7 @@ KNOWN_SHANGSHU_BAD_FORMS = (
     "1 can",
 )
 SHANGSHU_ALIGNMENT_ANCHORS_PATH = REPO_ROOT / "metadata" / "shangshu_alignment_anchors.yml"
+MOZI_ALIGNMENT_ANCHORS_PATH = REPO_ROOT / "metadata" / "mozi_alignment_anchors.yml"
 YIJING_COMMENTARY_MARKERS = (
     "the superior man, in accordance with this",
     "what is the meaning of the words under",
@@ -70,16 +71,26 @@ YIJING_NOTICE_MARKERS = (
 )
 YIJING_CANONICAL_ORDER = ("judgment", "first", "second", "third", "fourth", "fifth", "top", "use")
 YIJING_USE_LINE_SECTION_IDS = {"yijing-001-qian", "yijing-002-kun"}
-MOZI_SEVERE_OCR_MARKERS = ("the works of mots", "the neglected rival of confucius")
-MOZI_FOOTNOTE_RESIDUE_MARKERS = ("comparison with the list of chronological table appended",)
+MOZI_SEVERE_OCR_PATTERNS = (
+    re.compile(r"the works of mots", re.IGNORECASE),
+    re.compile(r"the neglected rival of confucius", re.IGNORECASE),
+    re.compile(r"these are the noted", re.IGNORECASE),
+    re.compile(r"these are the able assistants", re.IGNORECASE),
+    re.compile(r"\bWHO are\b"),
+    re.compile(r"\bhistorj-\b", re.IGNORECASE),
+    re.compile(r"\bmstrumental\b", re.IGNORECASE),
+)
+MOZI_FOOTNOTE_RESIDUE_PATTERNS = (
+    re.compile(r"comparison with the list of chronological table appended", re.IGNORECASE),
+    re.compile(r"[«°]"),
+)
 
 
 def _severe_ocr_issues(text: str) -> list[str]:
-    lowered = " ".join(text.casefold().split())
     severe_issues: list[str] = []
-    if any(marker in lowered for marker in MOZI_SEVERE_OCR_MARKERS):
+    if any(pattern.search(text) for pattern in MOZI_SEVERE_OCR_PATTERNS):
         severe_issues.append("page_header_residue")
-    if any(marker in lowered for marker in MOZI_FOOTNOTE_RESIDUE_MARKERS):
+    if any(pattern.search(text) for pattern in MOZI_FOOTNOTE_RESIDUE_PATTERNS):
         severe_issues.append("footnote_residue")
     return sorted(set(severe_issues))
 
@@ -192,6 +203,20 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
                 issues["alignment_drift_issues"].append(
                     f"{section_id}:{issue['anchor_id']}:{issue['issue']}"
                 )
+    if work_id == "mozi":
+        anchor_maps = load_alignment_anchor_maps(MOZI_ALIGNMENT_ANCHORS_PATH)
+        rows_by_section: dict[str, list[dict[str, object]]] = {}
+        for row in rows:
+            rows_by_section.setdefault(str(row["section_id"]), []).append(row)
+        for section_id, section_rows in rows_by_section.items():
+            anchor_map = anchor_maps.get(section_id)
+            if not anchor_map:
+                continue
+            section_issues = find_anchor_drift_issues(section_rows, list(anchor_map.get("anchors", [])))
+            for issue in section_issues:
+                issues["alignment_drift_issues"].append(
+                    f"{section_id}:{issue['anchor_id']}:{issue['issue']}"
+                )
     if work_id == "yijing":
         rows_by_section: dict[str, list[dict[str, object]]] = {}
         for row in rows:
@@ -281,10 +306,13 @@ def run_text_integrity_checks(work_id: str) -> dict[str, object]:
                 issues["translation_with_commentary_sections"].add(section_id)
         if work_id == "mozi":
             mozi_issues = detect_mozi_ocr_issues(translation_text)
-            if mozi_issues or _severe_ocr_issues(translation_text):
+            leakage_issues = detect_mozi_leakage_issues(translation_text)
+            if mozi_issues or leakage_issues or _severe_ocr_issues(translation_text):
                 issues["translation_with_ocr_corruption_rows"].append(alignment_id)
             if any(issue["issue_type"] == "heading_residue" for issue in mozi_issues):
                 issues["translation_with_heading_sections"].add(section_id)
+            if leakage_issues:
+                issues["translation_with_commentary_sections"].add(section_id)
             if lowered.startswith(("chapter ", "book ")):
                 issues["translation_with_heading_sections"].add(section_id)
     issue_lists = {key: sorted(value) for key, value in issues.items()}

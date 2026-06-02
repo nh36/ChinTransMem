@@ -1,0 +1,72 @@
+{
+  "sections": [
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "anchors": [
+        {
+          "source_anchor_id": "opening-dyeing-analogy",
+          "source_required_terms": ["染絲者", "染於蒼", "染於黃"],
+          "target_required_terms": ["dyer of silk", "dyed in blue", "dyed in yellow"],
+          "expected_order": 1,
+          "note": "The opening dyeing analogy must stay with the dyer and colour-change explanation."
+        },
+        {
+          "source_anchor_id": "four-good-kings",
+          "source_required_terms": ["舜染於許由", "武王染於太公"],
+          "target_required_terms": ["Shun came under the influences", "King Wu"],
+          "expected_order": 2,
+          "note": "The four sage kings must align with good influences."
+        },
+        {
+          "source_anchor_id": "four-bad-kings",
+          "source_required_terms": ["夏桀染於干辛", "幽王染於傅公夷"],
+          "target_required_terms": ["Now these four kings had been under bad influences", "King Yu"],
+          "expected_order": 3,
+          "note": "The four bad kings must stay with the bad-influence passage."
+        },
+        {
+          "source_anchor_id": "five-hegemons",
+          "source_required_terms": ["齊桓染於管仲", "越句踐染於范蠡"],
+          "target_required_terms": ["Lord Huan of Ch’i", "Kou Chien of Yueh"],
+          "expected_order": 4,
+          "note": "The five good lords must remain before the six bad princes."
+        },
+        {
+          "source_anchor_id": "six-bad-princes",
+          "source_required_terms": ["范吉射染於長柳朔", "宋康染於唐鞅"],
+          "target_required_terms": ["Fan Chi She came under the influence", "Lord K'ang of Sung"],
+          "expected_order": 5,
+          "note": "The six bad princes list must not be displaced by footnotes."
+        },
+        {
+          "source_anchor_id": "ruin-execution-greedy",
+          "source_required_terms": ["國家殘亡", "貪暴苛擾"],
+          "target_required_terms": ["their states were ruined and they were executed", "most greedy and disturbing people"],
+          "expected_order": 6,
+          "note": "The ruin and greedy-disturbing people passage must follow the bad-princes list."
+        },
+        {
+          "source_anchor_id": "rulers-obtaining-security",
+          "source_required_terms": ["凡君之所以安者"],
+          "target_required_terms": ["rulers obtain security", "following the right way"],
+          "expected_order": 7,
+          "note": "The ruler-security question must not inherit the ruined-states material."
+        },
+        {
+          "source_anchor_id": "good-friends",
+          "source_required_terms": ["其友皆好仁義", "段干木"],
+          "target_required_terms": ["friends none but those who love magnanimity", "properly qualified"],
+          "expected_order": 8,
+          "note": "The good-friends passage must align with the prosperous family / qualified official translation."
+        },
+        {
+          "source_anchor_id": "bad-friends-and-ode",
+          "source_required_terms": ["其友皆好矜奮", "《詩》曰"],
+          "target_required_terms": ["proud and quarrelsome", "An Ode says"],
+          "expected_order": 9,
+          "note": "The bad-friends warning and Ode quotation must remain at the end."
+        }
+      ]
+    }
+  ]
+}

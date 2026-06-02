@@ -37,6 +37,10 @@ Generated from `logs/qc_reports/shangshu__alignment_qc.json`.
 
 - None.
 
+## Anchor-mapped sections
+
+- None.
+
 ## Blocked sections
 
 - `shangshu-002-yu-shu-dan-zhu-forged`: Chinese text detected without English text

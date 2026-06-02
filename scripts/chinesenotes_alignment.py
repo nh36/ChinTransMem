@@ -572,6 +572,12 @@ def render_completion_quality_markdown(
         lines.append(f"- Curated OCR/phrase repairs: {summary['curated_correction_count']}")
     if "remaining_corruption_issue_count" in summary:
         lines.append(f"- Corruption issues remaining: {summary['remaining_corruption_issue_count']}")
+    if "pre_repair_leakage_issue_count" in summary:
+        lines.append(f"- Note/commentary leakage issues before repair: {summary['pre_repair_leakage_issue_count']}")
+    if "repaired_leakage_issue_count" in summary:
+        lines.append(f"- Note/commentary leakage issues repaired: {summary['repaired_leakage_issue_count']}")
+    if "remaining_leakage_issue_count" in summary:
+        lines.append(f"- Note/commentary leakage issues remaining: {summary['remaining_leakage_issue_count']}")
     if "drift_checks_run" in summary:
         lines.append(f"- Alignment drift checks run: {summary['drift_checks_run']}")
     if "drift_issue_count_before_repair" in summary:
@@ -602,6 +608,13 @@ def render_completion_quality_markdown(
     lines.extend(["", "## Curated override sections", ""])
     if curated_sections:
         for section_id in curated_sections:
+            lines.append(f"- `{section_id}`")
+    else:
+        lines.append("- None.")
+    anchor_sections = report.get("anchor_mapped_sections", [])
+    lines.extend(["", "## Anchor-mapped sections", ""])
+    if anchor_sections:
+        for section_id in anchor_sections:
             lines.append(f"- `{section_id}`")
     else:
         lines.append("- None.")

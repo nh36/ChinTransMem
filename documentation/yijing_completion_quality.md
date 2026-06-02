@@ -40,6 +40,10 @@ Generated from `logs/qc_reports/yijing__alignment_qc.json`.
 
 - None.
 
+## Anchor-mapped sections
+
+- None.
+
 ## Blocked sections
 
 - None.

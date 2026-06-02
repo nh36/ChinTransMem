@@ -11,16 +11,16 @@
     "exportable_section_count": 30,
     "metadata_only_section_count": 22,
     "blocked_section_count": 22,
-    "exact_alignment_count": 622,
-    "automatic_alignment_count": 622,
-    "alignment_record_count": 652,
+    "exact_alignment_count": 663,
+    "automatic_alignment_count": 663,
+    "alignment_record_count": 693,
     "section_group_alignment_record_count": 30,
     "alignment_granularity_counts": {
-      "chapter": 9,
-      "grouped": 613
+      "chapter": 8,
+      "grouped": 655
     },
-    "curated_override_section_count": 0,
-    "fallback_section_count": 9,
+    "curated_override_section_count": 1,
+    "fallback_section_count": 8,
     "rights_review_required_section_count": 30,
     "release_ready_section_count": 0,
     "genuine_blocker_count": 22,
@@ -28,11 +28,18 @@
     "work_state": "proof_of_concept_partial_active",
     "hard_failure_count": 0,
     "corruption_issue_count": 0,
-    "pre_repair_corruption_issue_count": 304,
-    "corrected_corruption_issue_count": 450,
-    "automatic_correction_count": 439,
-    "curated_correction_count": 11,
+    "pre_repair_corruption_issue_count": 310,
+    "corrected_corruption_issue_count": 468,
+    "automatic_correction_count": 458,
+    "curated_correction_count": 10,
     "remaining_corruption_issue_count": 0,
+    "pre_repair_leakage_issue_count": 0,
+    "repaired_leakage_issue_count": 0,
+    "remaining_leakage_issue_count": 0,
+    "drift_checks_run": 30,
+    "anchor_mapped_section_count": 1,
+    "drift_issue_count_before_repair": 2,
+    "repaired_drift_issue_count": 2,
     "remaining_drift_issue_count": 0
   },
   "sections": [
@@ -41,10 +48,12 @@
       "canonical_chapter_number": 1,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 2,
-      "target_sentence_count": 41,
+      "target_sentence_count": 42,
       "exact_alignment_count": 1,
       "fallback_used": true,
       "fallback_reason": "ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; retained chapter-level fallback after OCR repair.",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -57,6 +66,8 @@
       "exact_alignment_count": 1,
       "fallback_used": true,
       "fallback_reason": "ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; retained chapter-level fallback after OCR repair.",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -65,10 +76,12 @@
       "canonical_chapter_number": 3,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 27,
-      "target_sentence_count": 36,
-      "exact_alignment_count": 9,
+      "target_sentence_count": 35,
+      "exact_alignment_count": 10,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": true,
+      "curated_override_used": true,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -77,10 +90,12 @@
       "canonical_chapter_number": 4,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 47,
-      "target_sentence_count": 51,
-      "exact_alignment_count": 18,
+      "target_sentence_count": 52,
+      "exact_alignment_count": 17,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -89,10 +104,12 @@
       "canonical_chapter_number": 5,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 67,
-      "target_sentence_count": 46,
-      "exact_alignment_count": 20,
+      "target_sentence_count": 48,
+      "exact_alignment_count": 19,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -105,6 +122,8 @@
       "exact_alignment_count": 29,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -117,6 +136,8 @@
       "exact_alignment_count": 6,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -125,10 +146,12 @@
       "canonical_chapter_number": 8,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 54,
-      "target_sentence_count": 64,
-      "exact_alignment_count": 22,
+      "target_sentence_count": 63,
+      "exact_alignment_count": 19,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -137,10 +160,12 @@
       "canonical_chapter_number": 9,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 156,
-      "target_sentence_count": 149,
-      "exact_alignment_count": 47,
+      "target_sentence_count": 153,
+      "exact_alignment_count": 49,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -149,10 +174,12 @@
       "canonical_chapter_number": 10,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 93,
-      "target_sentence_count": 73,
+      "target_sentence_count": 75,
       "exact_alignment_count": 27,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -165,6 +192,8 @@
       "exact_alignment_count": 17,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -174,9 +203,11 @@
       "decision": "proof_of_concept_export",
       "source_sentence_count": 149,
       "target_sentence_count": 119,
-      "exact_alignment_count": 45,
+      "exact_alignment_count": 42,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -186,9 +217,11 @@
       "decision": "proof_of_concept_export",
       "source_sentence_count": 116,
       "target_sentence_count": 107,
-      "exact_alignment_count": 35,
+      "exact_alignment_count": 36,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -201,6 +234,8 @@
       "exact_alignment_count": 16,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -213,6 +248,8 @@
       "exact_alignment_count": 32,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -221,10 +258,12 @@
       "canonical_chapter_number": 16,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 197,
-      "target_sentence_count": 162,
-      "exact_alignment_count": 57,
+      "target_sentence_count": 163,
+      "exact_alignment_count": 60,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -237,6 +276,8 @@
       "exact_alignment_count": 8,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -245,10 +286,12 @@
       "canonical_chapter_number": 18,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 78,
-      "target_sentence_count": 205,
+      "target_sentence_count": 211,
       "exact_alignment_count": 1,
       "fallback_used": true,
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 20: target segment length/structure imbalance suggests missing grouping; group 30: target segment length/structure imbalance suggests missing grouping; group 34: target segment length/structure imbalance suggests missing grouping; group 36: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping).",
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 18: target segment length/structure imbalance suggests missing grouping; group 31: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping; group 39: target segment length/structure imbalance suggests missing grouping; group 40: target segment length/structure imbalance suggests missing grouping).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -261,6 +304,8 @@
       "exact_alignment_count": 15,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -273,6 +318,8 @@
       "exact_alignment_count": 9,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -317,10 +364,12 @@
       "canonical_chapter_number": 25,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 155,
-      "target_sentence_count": 169,
+      "target_sentence_count": 170,
       "exact_alignment_count": 47,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -329,10 +378,12 @@
       "canonical_chapter_number": 26,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 216,
-      "target_sentence_count": 100,
+      "target_sentence_count": 102,
       "exact_alignment_count": 1,
       "fallback_used": true,
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 21: source segment length/structure imbalance suggests missing grouping; group 23: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？' vs 'While the scholars should spare no pains at work, they may not make the standard at will. There are the ministers and secretaries to give them the standard.')).",
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 25: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？春秋冬夏選失時？' vs 'While the ministers and secretaries should spare no pains at work, they may not make the standard at will There are the high duke and feudal lords to give them the standard.')).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -341,10 +392,12 @@
       "canonical_chapter_number": 27,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 92,
-      "target_sentence_count": 138,
+      "target_sentence_count": 139,
       "exact_alignment_count": 33,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -357,6 +410,8 @@
       "exact_alignment_count": 1,
       "fallback_used": true,
       "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-027-anti-fatalism-i: group 30: target segment length/structure imbalance suggests missing grouping).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -389,10 +444,12 @@
       "canonical_chapter_number": 31,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 131,
-      "target_sentence_count": 217,
-      "exact_alignment_count": 1,
-      "fallback_used": true,
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-030-anti-confucianism-ii: group 13: target segment length/structure imbalance suggests missing grouping).",
+      "target_sentence_count": 215,
+      "exact_alignment_count": 44,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -401,10 +458,12 @@
       "canonical_chapter_number": 32,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 78,
-      "target_sentence_count": 87,
+      "target_sentence_count": 89,
       "exact_alignment_count": 1,
       "fallback_used": true,
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-031-canon-i: group 1: target segment length/structure imbalance suggests missing grouping; group 3: target segment length/structure imbalance suggests missing grouping; group 4: target segment length/structure imbalance suggests missing grouping; group 7: target segment length/structure imbalance suggests missing grouping; group 13: target segment length/structure imbalance suggests missing grouping; group 14: target segment length/structure imbalance suggests missing grouping).",
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-031-canon-i: group 1: target segment length/structure imbalance suggests missing grouping; group 7: target segment length/structure imbalance suggests missing grouping; group 13: target segment length/structure imbalance suggests missing grouping; group 14: target segment length/structure imbalance suggests missing grouping).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -441,6 +500,8 @@
       "exact_alignment_count": 76,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -449,10 +510,12 @@
       "canonical_chapter_number": 36,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 147,
-      "target_sentence_count": 65,
+      "target_sentence_count": 60,
       "exact_alignment_count": 1,
       "fallback_used": true,
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-035-major-illustrations: group 25: source/target question punctuation mismatch ('小圜之圜，與大圜之圜同。不至尺之不至也，與不至千里之不至不異，其不至同者，遠近之謂也。是璜也，是玉也。意楹，非意木也，意是楹之木也。意指之人也，非意人也。' vs 'Why do you, sir, now oppose it? \" (In answer,) Motse asked: Was it from the sages and good men of the Three Dynasties or from the wicked and the vicious of the Three Dynasties that the fatalistic doctrine came? How can we find this out?')).",
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-035-major-illustrations: group 25: source/target question punctuation mismatch ('小圜之圜，與大圜之圜同。不至尺之不至也，與不至千里之不至不異，其不至同者，遠近之謂也。是璜也，是玉也。意楹，非意木也，意是楹之木也。意指之人也，非意人也。意獲也，乃意禽也。' vs 'Why do you, sir, now oppose it? \" (In answer,) Motse asked: Was it from the sages and good men of the Three Dynasties or from the wicked and the vicious of the Three Dynasties that the fatalistic doctrine came?')).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -465,6 +528,8 @@
       "exact_alignment_count": 1,
       "fallback_used": true,
       "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-036-minor-illustrations: group 3: target segment length/structure imbalance suggests missing grouping).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -485,10 +550,12 @@
       "canonical_chapter_number": 39,
       "decision": "proof_of_concept_export",
       "source_sentence_count": 162,
-      "target_sentence_count": 155,
-      "exact_alignment_count": 45,
+      "target_sentence_count": 153,
+      "exact_alignment_count": 44,
       "fallback_used": false,
       "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
       "rights_status": "rights_review_required",
       "release_status": "not_cleared"
     },
@@ -784,32 +851,33 @@
     },
     {
       "section_id": "mozi-018-condemnation-of-offensive-war-ii",
-      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 20: target segment length/structure imbalance suggests missing grouping; group 30: target segment length/structure imbalance suggests missing grouping; group 34: target segment length/structure imbalance suggests missing grouping; group 36: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping)."
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 18: target segment length/structure imbalance suggests missing grouping; group 31: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping; group 39: target segment length/structure imbalance suggests missing grouping; group 40: target segment length/structure imbalance suggests missing grouping)."
     },
     {
       "section_id": "mozi-025-on-ghosts-iii",
-      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 21: source segment length/structure imbalance suggests missing grouping; group 23: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？' vs 'While the scholars should spare no pains at work, they may not make the standard at will. There are the ministers and secretaries to give them the standard.'))."
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 25: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？春秋冬夏選失時？' vs 'While the ministers and secretaries should spare no pains at work, they may not make the standard at will There are the high duke and feudal lords to give them the standard.'))."
     },
     {
       "section_id": "mozi-027-anti-fatalism-i",
       "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-027-anti-fatalism-i: group 30: target segment length/structure imbalance suggests missing grouping)."
     },
     {
-      "section_id": "mozi-030-anti-confucianism-ii",
-      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-030-anti-confucianism-ii: group 13: target segment length/structure imbalance suggests missing grouping)."
-    },
-    {
       "section_id": "mozi-031-canon-i",
-      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-031-canon-i: group 1: target segment length/structure imbalance suggests missing grouping; group 3: target segment length/structure imbalance suggests missing grouping; group 4: target segment length/structure imbalance suggests missing grouping; group 7: target segment length/structure imbalance suggests missing grouping; group 13: target segment length/structure imbalance suggests missing grouping; group 14: target segment length/structure imbalance suggests missing grouping)."
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-031-canon-i: group 1: target segment length/structure imbalance suggests missing grouping; group 7: target segment length/structure imbalance suggests missing grouping; group 13: target segment length/structure imbalance suggests missing grouping; group 14: target segment length/structure imbalance suggests missing grouping)."
     },
     {
       "section_id": "mozi-035-major-illustrations",
-      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-035-major-illustrations: group 25: source/target question punctuation mismatch ('小圜之圜，與大圜之圜同。不至尺之不至也，與不至千里之不至不異，其不至同者，遠近之謂也。是璜也，是玉也。意楹，非意木也，意是楹之木也。意指之人也，非意人也。' vs 'Why do you, sir, now oppose it? \" (In answer,) Motse asked: Was it from the sages and good men of the Three Dynasties or from the wicked and the vicious of the Three Dynasties that the fatalistic doctrine came? How can we find this out?'))."
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-035-major-illustrations: group 25: source/target question punctuation mismatch ('小圜之圜，與大圜之圜同。不至尺之不至也，與不至千里之不至不異，其不至同者，遠近之謂也。是璜也，是玉也。意楹，非意木也，意是楹之木也。意指之人也，非意人也。意獲也，乃意禽也。' vs 'Why do you, sir, now oppose it? \" (In answer,) Motse asked: Was it from the sages and good men of the Three Dynasties or from the wicked and the vicious of the Three Dynasties that the fatalistic doctrine came?'))."
     },
     {
       "section_id": "mozi-036-minor-illustrations",
       "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-036-minor-illustrations: group 3: target segment length/structure imbalance suggests missing grouping)."
     }
   ],
-  "curated_override_sections": []
+  "curated_override_sections": [
+    "mozi-003-that-which-is-affectable"
+  ],
+  "anchor_mapped_sections": [
+    "mozi-003-that-which-is-affectable"
+  ]
 }

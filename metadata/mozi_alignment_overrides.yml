@@ -1,0 +1,62 @@
+{
+  "sections": [
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "reason_automatic_alignment_failed": "Archive.org OCR note leakage and page-break fragmentation shifted the chapter-3 semantic groups; keep a curated grouped mapping until a more general monotonic regrouping heuristic can reproduce it reliably.",
+      "curator_note": "Pins the chapter-3 semantic units so the bad-kings, six-bad-princes, ruler-security, good-friends, and Ode passages remain in order after note removal.",
+      "review_status": "curated_for_export",
+      "alignments": [
+        {
+          "source_unit_indices": [0, 1, 2, 3, 4, 5],
+          "target_unit_indices": [0, 1, 2, 3, 4, 5],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "source_unit_indices": [6, 7],
+          "target_unit_indices": [6, 7, 8, 9],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "source_unit_indices": [8, 9],
+          "target_unit_indices": [10, 11, 12],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "source_unit_indices": [10],
+          "target_unit_indices": [13],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "source_unit_indices": [11, 12],
+          "target_unit_indices": [14, 15, 16],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "source_unit_indices": [13],
+          "target_unit_indices": [17],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "source_unit_indices": [14, 15],
+          "target_unit_indices": [18, 19, 20, 21],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "source_unit_indices": [16, 17, 18, 19],
+          "target_unit_indices": [22, 23, 24, 25, 26],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "source_unit_indices": [20, 21, 22, 23],
+          "target_unit_indices": [27, 28, 29, 30, 31],
+          "alignment_granularity": "grouped"
+        },
+        {
+          "source_unit_indices": [24, 25, 26],
+          "target_unit_indices": [32, 33, 34],
+          "alignment_granularity": "grouped"
+        }
+      ]
+    }
+  ]
+}
