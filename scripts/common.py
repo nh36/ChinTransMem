@@ -17,6 +17,8 @@ METADATA_DIR = REPO_ROOT / "metadata"
 MANIFESTS_DIR = METADATA_DIR / "manifests"
 DOCUMENTATION_DIR = REPO_ROOT / "documentation"
 QC_REPORTS_DIR = REPO_ROOT / "logs" / "qc_reports"
+AI_REVIEWS_DIR = REPO_ROOT / "logs" / "ai_reviews"
+CANDIDATE_CORPUS_DIR = REPO_ROOT / "corpus" / "candidates"
 LEGACY_DEFAULT_MANIFEST_PATH = METADATA_DIR / "corpus_manifest.yml"
 DEFAULT_DB_PATH = REPO_ROOT / "db" / "chinese_classics_tm.sqlite3"
 DEFAULT_WORK_ID = "lunyu"
@@ -355,6 +357,56 @@ def corpus_export_paths(work_id: str = DEFAULT_WORK_ID) -> dict[str, Path]:
         "tmx": REPO_ROOT / "corpus" / "exports" / "tmx" / f"{stem}.tmx",
         "tmx_validation": REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__corpus_tmx_validation.json",
     }
+
+
+def candidate_work_dir(work_id: str = DEFAULT_WORK_ID) -> Path:
+    return CANDIDATE_CORPUS_DIR / work_id
+
+
+def candidate_section_export_paths(section_id: str, work_id: str = DEFAULT_WORK_ID) -> dict[str, Path]:
+    stem = section_export_stem(section_id, work_id)
+    root = candidate_work_dir(work_id)
+    return {
+        "jsonl": root / "exports" / "jsonl" / f"{stem}.jsonl",
+        "csv": root / "exports" / "csv" / f"{stem}.csv",
+        "tmx": root / "exports" / "tmx" / f"{stem}.tmx",
+        "tmx_validation": root / "reports" / "tmx_validation" / f"{stem}.json",
+    }
+
+
+def candidate_corpus_export_paths(work_id: str = DEFAULT_WORK_ID) -> dict[str, Path]:
+    stem = work_export_stem(work_id)
+    root = candidate_work_dir(work_id)
+    return {
+        "jsonl": root / "exports" / "jsonl" / f"{stem}.jsonl",
+        "csv": root / "exports" / "csv" / f"{stem}.csv",
+        "tmx": root / "exports" / "tmx" / f"{stem}.tmx",
+        "tmx_validation": root / "reports" / "tmx_validation" / f"{work_id}__corpus_tmx_validation.json",
+    }
+
+
+def candidate_state_path(work_id: str = DEFAULT_WORK_ID) -> Path:
+    return candidate_work_dir(work_id) / "candidate_state.json"
+
+
+def candidate_alignment_snapshot_path(work_id: str = DEFAULT_WORK_ID) -> Path:
+    return candidate_work_dir(work_id) / "reports" / f"{work_id}__alignment_qc.json"
+
+
+def candidate_repair_log_path(work_id: str = DEFAULT_WORK_ID) -> Path:
+    return candidate_work_dir(work_id) / "repair_logs" / f"{work_id}__ocr_repair_log.json"
+
+
+def candidate_qc_report_path(work_id: str = DEFAULT_WORK_ID) -> Path:
+    return QC_REPORTS_DIR / f"{work_id}__candidate_qc.json"
+
+
+def candidate_ai_review_path(work_id: str = DEFAULT_WORK_ID) -> Path:
+    return AI_REVIEWS_DIR / f"{work_id}__alignment_review.jsonl"
+
+
+def candidate_report_path(work_id: str = DEFAULT_WORK_ID) -> Path:
+    return DOCUMENTATION_DIR / f"{work_id}_candidate_report.md"
 
 
 def read_jsonl(path: Path | str) -> list[dict[str, Any]]:

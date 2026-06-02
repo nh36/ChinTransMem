@@ -1,0 +1,883 @@
+{
+  "summary": {
+    "work_id": "mozi",
+    "work_title_zh": "墨子",
+    "work_title_en": "Mozi",
+    "section_count": 52,
+    "complete_sections": 30,
+    "metadata_only_sections": 22,
+    "total_section_count": 52,
+    "active_section_count": 30,
+    "exportable_section_count": 30,
+    "metadata_only_section_count": 22,
+    "blocked_section_count": 22,
+    "exact_alignment_count": 663,
+    "automatic_alignment_count": 663,
+    "alignment_record_count": 693,
+    "section_group_alignment_record_count": 30,
+    "alignment_granularity_counts": {
+      "chapter": 8,
+      "grouped": 655
+    },
+    "curated_override_section_count": 1,
+    "fallback_section_count": 8,
+    "rights_review_required_section_count": 30,
+    "release_ready_section_count": 0,
+    "genuine_blocker_count": 22,
+    "english_witness": "Archive.org DjVu OCR capture of Yi-Pao Mei, The Works of Motse from the Chinese (1929) for the translated chapter subset",
+    "work_state": "proof_of_concept_partial_active",
+    "hard_failure_count": 0,
+    "corruption_issue_count": 0,
+    "pre_repair_corruption_issue_count": 310,
+    "corrected_corruption_issue_count": 468,
+    "automatic_correction_count": 458,
+    "curated_correction_count": 10,
+    "remaining_corruption_issue_count": 0,
+    "pre_repair_leakage_issue_count": 0,
+    "repaired_leakage_issue_count": 0,
+    "remaining_leakage_issue_count": 0,
+    "drift_checks_run": 30,
+    "anchor_mapped_section_count": 1,
+    "drift_issue_count_before_repair": 2,
+    "repaired_drift_issue_count": 2,
+    "remaining_drift_issue_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "canonical_chapter_number": 1,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 2,
+      "target_sentence_count": 42,
+      "exact_alignment_count": 1,
+      "fallback_used": true,
+      "fallback_reason": "ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; retained chapter-level fallback after OCR repair.",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-002-self-cultivation",
+      "canonical_chapter_number": 2,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 1,
+      "target_sentence_count": 35,
+      "exact_alignment_count": 1,
+      "fallback_used": true,
+      "fallback_reason": "ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; retained chapter-level fallback after OCR repair.",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-003-that-which-is-affectable",
+      "canonical_chapter_number": 3,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 27,
+      "target_sentence_count": 35,
+      "exact_alignment_count": 10,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": true,
+      "curated_override_used": true,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-004-methods-and-standards",
+      "canonical_chapter_number": 4,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 47,
+      "target_sentence_count": 52,
+      "exact_alignment_count": 17,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-005-the-seven-worries",
+      "canonical_chapter_number": 5,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 67,
+      "target_sentence_count": 48,
+      "exact_alignment_count": 19,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-006-indulgence-in-excess",
+      "canonical_chapter_number": 6,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 81,
+      "target_sentence_count": 87,
+      "exact_alignment_count": 29,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-007-threefold-argument",
+      "canonical_chapter_number": 7,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 25,
+      "target_sentence_count": 20,
+      "exact_alignment_count": 6,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "canonical_chapter_number": 8,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 54,
+      "target_sentence_count": 63,
+      "exact_alignment_count": 19,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-009-exaltation-of-the-virtuous-ii",
+      "canonical_chapter_number": 9,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 156,
+      "target_sentence_count": 153,
+      "exact_alignment_count": 49,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-010-exaltation-of-the-virtuous-iii",
+      "canonical_chapter_number": 10,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 93,
+      "target_sentence_count": 75,
+      "exact_alignment_count": 27,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-011-identification-with-the-superior-i",
+      "canonical_chapter_number": 11,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 61,
+      "target_sentence_count": 46,
+      "exact_alignment_count": 17,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-012-identification-with-the-superior-ii",
+      "canonical_chapter_number": 12,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 149,
+      "target_sentence_count": 119,
+      "exact_alignment_count": 42,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-013-identification-with-the-superior-iii",
+      "canonical_chapter_number": 13,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 116,
+      "target_sentence_count": 107,
+      "exact_alignment_count": 36,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-014-universal-love-i",
+      "canonical_chapter_number": 14,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 47,
+      "target_sentence_count": 45,
+      "exact_alignment_count": 16,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-015-universal-love-ii",
+      "canonical_chapter_number": 15,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 105,
+      "target_sentence_count": 95,
+      "exact_alignment_count": 32,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-016-universal-love-iii",
+      "canonical_chapter_number": 16,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 197,
+      "target_sentence_count": 163,
+      "exact_alignment_count": 60,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-017-condemnation-of-offensive-war-i",
+      "canonical_chapter_number": 17,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 28,
+      "target_sentence_count": 25,
+      "exact_alignment_count": 8,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "canonical_chapter_number": 18,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 78,
+      "target_sentence_count": 211,
+      "exact_alignment_count": 1,
+      "fallback_used": true,
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 18: target segment length/structure imbalance suggests missing grouping; group 31: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping; group 39: target segment length/structure imbalance suggests missing grouping; group 40: target segment length/structure imbalance suggests missing grouping).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-019-economy-of-expenditures-i",
+      "canonical_chapter_number": 20,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 43,
+      "target_sentence_count": 45,
+      "exact_alignment_count": 15,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-020-economy-of-expenditures-ii",
+      "canonical_chapter_number": 21,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 34,
+      "target_sentence_count": 32,
+      "exact_alignment_count": 9,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-021-simplicity-in-funerals-iii",
+      "canonical_chapter_number": 22,
+      "decision": "metadata_only",
+      "source_sentence_count": 174,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-022-will-of-heaven-i",
+      "canonical_chapter_number": 23,
+      "decision": "metadata_only",
+      "source_sentence_count": 110,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-023-will-of-heaven-ii",
+      "canonical_chapter_number": 24,
+      "decision": "metadata_only",
+      "source_sentence_count": 160,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-024-will-of-heaven-iii",
+      "canonical_chapter_number": 25,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 155,
+      "target_sentence_count": 170,
+      "exact_alignment_count": 47,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "canonical_chapter_number": 26,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 216,
+      "target_sentence_count": 102,
+      "exact_alignment_count": 1,
+      "fallback_used": true,
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 25: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？春秋冬夏選失時？' vs 'While the ministers and secretaries should spare no pains at work, they may not make the standard at will There are the high duke and feudal lords to give them the standard.')).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "canonical_chapter_number": 27,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 92,
+      "target_sentence_count": 139,
+      "exact_alignment_count": 33,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "canonical_chapter_number": 28,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 97,
+      "target_sentence_count": 141,
+      "exact_alignment_count": 1,
+      "fallback_used": true,
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-027-anti-fatalism-i: group 30: target segment length/structure imbalance suggests missing grouping).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-028-anti-fatalism-ii",
+      "canonical_chapter_number": 29,
+      "decision": "metadata_only",
+      "source_sentence_count": 71,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-029-anti-fatalism-iii",
+      "canonical_chapter_number": 30,
+      "decision": "metadata_only",
+      "source_sentence_count": 103,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "canonical_chapter_number": 31,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 131,
+      "target_sentence_count": 215,
+      "exact_alignment_count": 44,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "canonical_chapter_number": 32,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 78,
+      "target_sentence_count": 89,
+      "exact_alignment_count": 1,
+      "fallback_used": true,
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-031-canon-i: group 1: target segment length/structure imbalance suggests missing grouping; group 7: target segment length/structure imbalance suggests missing grouping; group 13: target segment length/structure imbalance suggests missing grouping; group 14: target segment length/structure imbalance suggests missing grouping).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-032-canon-ii",
+      "canonical_chapter_number": 33,
+      "decision": "metadata_only",
+      "source_sentence_count": 91,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-033-exposition-of-canon-i",
+      "canonical_chapter_number": 34,
+      "decision": "metadata_only",
+      "source_sentence_count": 162,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-034-exposition-of-canon-ii",
+      "canonical_chapter_number": 35,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 311,
+      "target_sentence_count": 93,
+      "exact_alignment_count": 76,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-035-major-illustrations",
+      "canonical_chapter_number": 36,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 147,
+      "target_sentence_count": 60,
+      "exact_alignment_count": 1,
+      "fallback_used": true,
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-035-major-illustrations: group 25: source/target question punctuation mismatch ('小圜之圜，與大圜之圜同。不至尺之不至也，與不至千里之不至不異，其不至同者，遠近之謂也。是璜也，是玉也。意楹，非意木也，意是楹之木也。意指之人也，非意人也。意獲也，乃意禽也。' vs 'Why do you, sir, now oppose it? \" (In answer,) Motse asked: Was it from the sages and good men of the Three Dynasties or from the wicked and the vicious of the Three Dynasties that the fatalistic doctrine came?')).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "canonical_chapter_number": 37,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 89,
+      "target_sentence_count": 104,
+      "exact_alignment_count": 1,
+      "fallback_used": true,
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-036-minor-illustrations: group 3: target segment length/structure imbalance suggests missing grouping).",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-037-geng-zhu",
+      "canonical_chapter_number": 38,
+      "decision": "metadata_only",
+      "source_sentence_count": 216,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "canonical_chapter_number": 39,
+      "decision": "proof_of_concept_export",
+      "source_sentence_count": 162,
+      "target_sentence_count": 153,
+      "exact_alignment_count": 44,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "alignment_anchor_map_used": false,
+      "curated_override_used": false,
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-039-gong-meng",
+      "canonical_chapter_number": 40,
+      "decision": "metadata_only",
+      "source_sentence_count": 281,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-040-lu-s-question",
+      "canonical_chapter_number": 41,
+      "decision": "metadata_only",
+      "source_sentence_count": 259,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-041-gong-shu",
+      "canonical_chapter_number": 42,
+      "decision": "metadata_only",
+      "source_sentence_count": 65,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-042-fortification-of-the-city-gate",
+      "canonical_chapter_number": 43,
+      "decision": "metadata_only",
+      "source_sentence_count": 204,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-043-defense-against-attack-from-an-elevation",
+      "canonical_chapter_number": 44,
+      "decision": "metadata_only",
+      "source_sentence_count": 21,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-044-defense-against-attack-with-ladders",
+      "canonical_chapter_number": 45,
+      "decision": "metadata_only",
+      "source_sentence_count": 39,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-045-preparation-against-inundation",
+      "canonical_chapter_number": 46,
+      "decision": "metadata_only",
+      "source_sentence_count": 6,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-046-preparation-against-a-sally",
+      "canonical_chapter_number": 47,
+      "decision": "metadata_only",
+      "source_sentence_count": 4,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-047-preparation-against-tunnelling",
+      "canonical_chapter_number": 48,
+      "decision": "metadata_only",
+      "source_sentence_count": 78,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-048-defence-against-ant-rush",
+      "canonical_chapter_number": 49,
+      "decision": "metadata_only",
+      "source_sentence_count": 44,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-049-the-sacrifice-against-the-coming-of-the-enemy",
+      "canonical_chapter_number": 50,
+      "decision": "metadata_only",
+      "source_sentence_count": 48,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-050-flags-and-pennants",
+      "canonical_chapter_number": 51,
+      "decision": "metadata_only",
+      "source_sentence_count": 32,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-051-commands-and-orders",
+      "canonical_chapter_number": 52,
+      "decision": "metadata_only",
+      "source_sentence_count": 247,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    },
+    {
+      "section_id": "mozi-052-miscellaneous-measures-in-defense",
+      "canonical_chapter_number": 53,
+      "decision": "metadata_only",
+      "source_sentence_count": 106,
+      "target_sentence_count": 0,
+      "exact_alignment_count": 0,
+      "fallback_used": false,
+      "fallback_reason": "",
+      "rights_status": "unknown_rights_review_required",
+      "release_status": "not_cleared"
+    }
+  ],
+  "blocked_sections": [
+    {
+      "section_id": "mozi-021-simplicity-in-funerals-iii",
+      "canonical_chapter_number": 22,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-022-will-of-heaven-i",
+      "canonical_chapter_number": 23,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-023-will-of-heaven-ii",
+      "canonical_chapter_number": 24,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-028-anti-fatalism-ii",
+      "canonical_chapter_number": 29,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-029-anti-fatalism-iii",
+      "canonical_chapter_number": 30,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-032-canon-ii",
+      "canonical_chapter_number": 33,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-033-exposition-of-canon-i",
+      "canonical_chapter_number": 34,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-037-geng-zhu",
+      "canonical_chapter_number": 38,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-039-gong-meng",
+      "canonical_chapter_number": 40,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-040-lu-s-question",
+      "canonical_chapter_number": 41,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-041-gong-shu",
+      "canonical_chapter_number": 42,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-042-fortification-of-the-city-gate",
+      "canonical_chapter_number": 43,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-043-defense-against-attack-from-an-elevation",
+      "canonical_chapter_number": 44,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-044-defense-against-attack-with-ladders",
+      "canonical_chapter_number": 45,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-045-preparation-against-inundation",
+      "canonical_chapter_number": 46,
+      "reason": "The committed Mei 1929 OCR witness contains this chapter number, but the extracted English resolves to unrelated dialogue or glossary material instead of the matching Mozi chapter. Leave this chapter metadata-only until a clean attributable English witness is captured."
+    },
+    {
+      "section_id": "mozi-046-preparation-against-a-sally",
+      "canonical_chapter_number": 47,
+      "reason": "The committed Mei 1929 OCR witness contains this chapter number, but the extracted English resolves to unrelated dialogue or glossary material instead of the matching Mozi chapter. Leave this chapter metadata-only until a clean attributable English witness is captured."
+    },
+    {
+      "section_id": "mozi-047-preparation-against-tunnelling",
+      "canonical_chapter_number": 48,
+      "reason": "The committed Mei 1929 OCR witness contains this chapter number, but the extracted English resolves to unrelated dialogue or glossary material instead of the matching Mozi chapter. Leave this chapter metadata-only until a clean attributable English witness is captured."
+    },
+    {
+      "section_id": "mozi-048-defence-against-ant-rush",
+      "canonical_chapter_number": 49,
+      "reason": "The committed Mei 1929 OCR witness contains this chapter number, but the extracted English resolves to unrelated dialogue or glossary material instead of the matching Mozi chapter. Leave this chapter metadata-only until a clean attributable English witness is captured."
+    },
+    {
+      "section_id": "mozi-049-the-sacrifice-against-the-coming-of-the-enemy",
+      "canonical_chapter_number": 50,
+      "reason": "The committed Mei 1929 OCR witness contains this chapter number, but the extracted English resolves to unrelated dialogue or glossary material instead of the matching Mozi chapter. Leave this chapter metadata-only until a clean attributable English witness is captured."
+    },
+    {
+      "section_id": "mozi-050-flags-and-pennants",
+      "canonical_chapter_number": 51,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-051-commands-and-orders",
+      "canonical_chapter_number": 52,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    },
+    {
+      "section_id": "mozi-052-miscellaneous-measures-in-defense",
+      "canonical_chapter_number": 53,
+      "reason": "No clean attributed English witness has been captured for this chapter. The committed Mei 1929 OCR witness does not cover this chapter and no secondary witness has been staged."
+    }
+  ],
+  "fallback_sections": [
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "coarse_alignment_reason": "ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; retained chapter-level fallback after OCR repair."
+    },
+    {
+      "section_id": "mozi-002-self-cultivation",
+      "coarse_alignment_reason": "ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; retained chapter-level fallback after OCR repair."
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 18: target segment length/structure imbalance suggests missing grouping; group 31: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping; group 39: target segment length/structure imbalance suggests missing grouping; group 40: target segment length/structure imbalance suggests missing grouping)."
+    },
+    {
+      "section_id": "mozi-025-on-ghosts-iii",
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 25: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？春秋冬夏選失時？' vs 'While the ministers and secretaries should spare no pains at work, they may not make the standard at will There are the high duke and feudal lords to give them the standard.'))."
+    },
+    {
+      "section_id": "mozi-027-anti-fatalism-i",
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-027-anti-fatalism-i: group 30: target segment length/structure imbalance suggests missing grouping)."
+    },
+    {
+      "section_id": "mozi-031-canon-i",
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-031-canon-i: group 1: target segment length/structure imbalance suggests missing grouping; group 7: target segment length/structure imbalance suggests missing grouping; group 13: target segment length/structure imbalance suggests missing grouping; group 14: target segment length/structure imbalance suggests missing grouping)."
+    },
+    {
+      "section_id": "mozi-035-major-illustrations",
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-035-major-illustrations: group 25: source/target question punctuation mismatch ('小圜之圜，與大圜之圜同。不至尺之不至也，與不至千里之不至不異，其不至同者，遠近之謂也。是璜也，是玉也。意楹，非意木也，意是楹之木也。意指之人也，非意人也。意獲也，乃意禽也。' vs 'Why do you, sir, now oppose it? \" (In answer,) Motse asked: Was it from the sages and good men of the Three Dynasties or from the wicked and the vicious of the Three Dynasties that the fatalistic doctrine came?'))."
+    },
+    {
+      "section_id": "mozi-036-minor-illustrations",
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-036-minor-illustrations: group 3: target segment length/structure imbalance suggests missing grouping)."
+    }
+  ],
+  "curated_override_sections": [
+    "mozi-003-that-which-is-affectable"
+  ],
+  "anchor_mapped_sections": [
+    "mozi-003-that-which-is-affectable"
+  ]
+}

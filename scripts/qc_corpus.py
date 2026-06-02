@@ -140,9 +140,10 @@ def _yijing_expected_order(section_id: str) -> list[str]:
     return order
 
 
-def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
-    export_path = corpus_export_paths(work_id)["jsonl"]
-    rows = read_jsonl(export_path) if export_path.exists() else []
+def run_alignment_quality_checks(work_id: str, rows: list[dict[str, object]] | None = None) -> dict[str, object]:
+    if rows is None:
+        export_path = corpus_export_paths(work_id)["jsonl"]
+        rows = read_jsonl(export_path) if export_path.exists() else []
     issues = {
         "false_precision_multi_clause_targets": [],
         "question_punctuation_mismatches": [],
@@ -247,9 +248,10 @@ def run_alignment_quality_checks(work_id: str) -> dict[str, object]:
     return {**issues, "hard_failure_count": hard_failure_count}
 
 
-def run_text_integrity_checks(work_id: str) -> dict[str, object]:
-    export_path = corpus_export_paths(work_id)["jsonl"]
-    rows = read_jsonl(export_path) if export_path.exists() else []
+def run_text_integrity_checks(work_id: str, rows: list[dict[str, object]] | None = None) -> dict[str, object]:
+    if rows is None:
+        export_path = corpus_export_paths(work_id)["jsonl"]
+        rows = read_jsonl(export_path) if export_path.exists() else []
     issues = {
         "empty_source_sections": set(),
         "empty_translation_sections": set(),
