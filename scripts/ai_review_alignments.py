@@ -35,6 +35,13 @@ def _english_word_count(text: str) -> int:
     return sum(1 for token in text.replace("’", "'").split() if any(character.isalpha() for character in token))
 
 
+def _excerpt(text: str, *, limit: int = 180) -> str:
+    normalized = " ".join(str(text).split())
+    if len(normalized) <= limit:
+        return normalized
+    return f"{normalized[: limit - 1].rstrip()}…"
+
+
 def _risk_alignment_ids(qc_report: dict[str, Any]) -> set[str]:
     if not qc_report:
         return set()
@@ -56,18 +63,11 @@ def _risk_alignment_ids(qc_report: dict[str, Any]) -> set[str]:
 
 
 def _sections_with_repairs(repair_log: dict[str, Any]) -> set[str]:
-    repairs = repair_log.get("repairs", [])
-    high_risk_repairs = {
+    return {
         str(repair["section_id"])
-        for repair in repairs
+        for repair in repair_log.get("repairs", [])
         if repair.get("section_id")
-        and (
-            str(repair.get("mode", "")) == "curated"
-            or "note" in str(repair.get("correction_type", ""))
-            or "leakage" in str(repair.get("correction_type", ""))
-        )
     }
-    return high_risk_repairs
 
 
 def _suspicious_length_ratio(row: dict[str, Any]) -> bool:
@@ -148,7 +148,7 @@ def _candidate_sample_alignment_ids(
     rows: list[dict[str, Any]],
     *,
     risk_alignment_ids: set[str],
-    repaired_sections: set[str],
+    reviewed_sections: set[str],
     sample_size: int,
     seed: int,
 ) -> set[str]:
@@ -161,6 +161,9 @@ def _candidate_sample_alignment_ids(
         selected_ids.add(str(section_rows[-1]["alignment_id"]))
     for row in rows:
         alignment_id = str(row["alignment_id"])
+        section_id = str(row["section_id"])
+        if section_id in reviewed_sections:
+            selected_ids.add(alignment_id)
         if row.get("is_coarse_alignment"):
             selected_ids.add(alignment_id)
         if alignment_id in risk_alignment_ids:
@@ -236,14 +239,50 @@ def classify_alignment_review(
         repair_suggestion = "Regroup the alignment around clause boundaries and re-run deterministic QC."
 
     high_risk = bool(risk_reasons) or classification in FAILING_CLASSIFICATIONS or bool(row.get("is_coarse_alignment"))
+    if classification == "ocr_issue":
+        explanation = (
+            f"Flagged for OCR corruption because the English excerpt still shows "
+            f"{', '.join(sorted({*(issue['issue_type'] for issue in ocr_issues), *severe_issues}))}."
+        )
+    elif classification == "note_leakage":
+        explanation = (
+            f"Flagged for note leakage because the English excerpt still shows "
+            f"{', '.join(sorted({issue['issue_type'] for issue in leakage_issues}))}."
+        )
+    elif classification == "semantic_drift":
+        anchor_summary = ", ".join(sorted(set(risk_reasons))) or "anchor ordering drift"
+        explanation = f"Flagged for semantic drift because the source/target anchor cues do not stay in the same order ({anchor_summary})."
+    elif classification == "fallback_justified":
+        explanation = (
+            "Reviewed chapter-level fallback passed: no obvious OCR corruption, note leakage, or drift remains, "
+            f"and finer grouping is still unsafe because {str(row.get('coarse_alignment_reason') or '').strip()}."
+        )
+    elif classification == "too_coarse_but_usable":
+        explanation = "The fallback text itself looks coherent, but promotion still needs an explicit recorded reason for why finer grouping is unsafe."
+    elif classification == "needs_regrouping":
+        explanation = (
+            f"Flagged for regrouping because deterministic QC still marked this alignment high-risk "
+            f"({', '.join(sorted(set(risk_reasons)))})."
+        )
+    else:
+        review_basis = ", ".join(sorted(set(risk_reasons))) if risk_reasons else "deterministic sample"
+        explanation = (
+            f"Reviewed because this alignment is high-risk by {review_basis}. "
+            "No obvious OCR corruption, note leakage, or anchor drift is visible in the inspected excerpts."
+        )
     return {
         "work_id": str(row["work_id"]),
         "section_id": section_id,
         "alignment_id": alignment_id,
         "classification": classification,
+        "review_method": "heuristic_rule_based",
         "high_risk": high_risk,
         "risk_reasons": sorted(set(risk_reasons)),
+        "high_risk_reason_summary": ", ".join(sorted(set(risk_reasons))) if risk_reasons else "deterministic sample",
+        "review_explanation": explanation,
         "repair_suggestion": repair_suggestion,
+        "chinese_excerpt": _excerpt(str(row.get("chinese_text", ""))),
+        "translation_excerpt": _excerpt(translation_text),
         "source_segment_count": int(row.get("source_segment_count", 0) or 0),
         "target_segment_count": int(row.get("target_segment_count", 0) or 0),
         "is_coarse_alignment": bool(row.get("is_coarse_alignment")),
@@ -273,10 +312,13 @@ def review_alignment_rows(
     repaired_sections = _sections_with_repairs(repair_payload)
     anchor_issue_map = _anchor_issue_map(work_id, rows)
     row_anchor_orders = _row_anchor_orders(work_id, rows)
+    reviewed_sections = set(repaired_sections)
+    if work_id == "mozi":
+        reviewed_sections.update({"mozi-001-make-close-the-scholars", "mozi-003-that-which-is-affectable"})
     selected_ids = _candidate_sample_alignment_ids(
         rows,
         risk_alignment_ids=risk_alignment_ids | set(anchor_issue_map),
-        repaired_sections=repaired_sections,
+        reviewed_sections=reviewed_sections,
         sample_size=sample_size,
         seed=seed,
     )
@@ -309,6 +351,8 @@ def summarize_reviews(reviews: list[dict[str, Any]]) -> dict[str, Any]:
         if review["high_risk"] and classification in FAILING_CLASSIFICATIONS:
             failed_high_risk += 1
     return {
+        "review_method": "heuristic_rule_based",
+        "heuristic_only": True,
         "review_count": len(reviews),
         "classification_counts": classification_counts,
         "failed_high_risk_alignment_count": failed_high_risk,

@@ -72,6 +72,12 @@ MOZI_ALLOWED_HYPHENATED_TOKENS = {
 }
 
 MOZI_SUSPICIOUS_EXACT_TOKENS = {
+    "chna",
+    "chh",
+    "tte",
+    "fmr",
+    "harest",
+    "soimd",
     "watcliing",
     "sigked",
     "wiiat",
@@ -193,6 +199,7 @@ MOZI_SUSPICIOUS_HYPHENATED_TOKENS = {
     "exalta-tion",
     "founda-tion",
     "govern-ment",
+    "fuada-mentai",
     "humilia-tion",
     "juris-diction",
     "magnani-mous",
@@ -206,6 +213,8 @@ MOZI_SUSPICIOUS_HYPHENATED_TOKENS = {
 }
 
 MOZI_TOKEN_REPAIRS = {
+    "CHna": "China",
+    "Chh": "Ch'i",
     "CMeh": "Chieh",
     "Chill": "Chih",
     "Confuoian": "Confucian",
@@ -332,8 +341,11 @@ MOZI_TOKEN_REPAIRS = {
     "can-not": "cannot",
     "rebeUious": "rebellious",
     "FuTse": "Fu Tse",
+    "fuada-mentai": "fundamental",
+    "fmr": "fur",
     "there-upon": "thereupon",
     "tEem": "them",
+    "tte": "the",
     "whoeTeir": "whoever",
     "universaMove": "universal love",
     "inniimeraMe": "innumerable",
@@ -467,6 +479,8 @@ MOZI_TOKEN_REPAIRS = {
     "graded.2": "graded.",
     "Ofiensive": "Offensive",
     "tb©": "the",
+    "harest": "harvest",
+    "soimd": "sound",
 }
 
 MOZI_TOKEN_REPAIRS_CASEFOLDED = {token.casefold(): replacement for token, replacement in MOZI_TOKEN_REPAIRS.items()}
@@ -478,6 +492,41 @@ MOZI_LITERAL_REPAIRS = {
 }
 
 MOZI_PHRASE_REPAIRS: list[dict[str, Any]] = [
+    {
+        "pattern": re.compile(r"\bwas tom alive\b", re.IGNORECASE),
+        "replacement": "was torn alive",
+        "correction_type": "automatic_phrase_repair",
+        "confidence": 0.97,
+        "mode": "automatic",
+        "section_ids": None,
+    },
+    {
+        "pattern": re.compile(r"\bfollows-\s+must\b", re.IGNORECASE),
+        "replacement": "follows must",
+        "correction_type": "automatic_phrase_repair",
+        "confidence": 0.95,
+        "mode": "automatic",
+        "section_ids": None,
+    },
+    {
+        "pattern": re.compile(
+            r"worth a thousand yi:coBiposeci:\s+of (?:tte|the) white (?:fmr|fur) of a single fox",
+            re.IGNORECASE,
+        ),
+        "replacement": "worth a thousand yi is not from the white fur of a single fox",
+        "correction_type": "curated_phrase_repair",
+        "confidence": 0.99,
+        "mode": "curated",
+        "section_ids": {"mozi-001-make-close-the-scholars"},
+    },
+    {
+        "pattern": re.compile(r'tyrant\s+" among the feudal lords', re.IGNORECASE),
+        "replacement": "tyrant among the feudal lords",
+        "correction_type": "automatic_phrase_repair",
+        "confidence": 0.94,
+        "mode": "automatic",
+        "section_ids": None,
+    },
     {
         "pattern": re.compile(
             r"Motse said : All tEe riders in tEe world desire tEeir states to be wealtEy, tEeir people to be inany> and tEeir government and jurisdiction to be orderly\."
@@ -832,6 +881,12 @@ MOZI_NOTE_LINE_START_RE = re.compile(
 )
 
 TOKEN_RE = re.compile(r"\b[A-Za-z][A-Za-z0-9'/<>\-:.’]*[A-Za-z0-9]\b")
+MOZI_GENERIC_OCR_ISSUE_TYPES = {
+    "internal_capital_substitution",
+    "broken_hyphenation",
+    "internal_punctuation",
+    "digit_for_letter_substitution",
+}
 
 
 def _apply_case(template: str, replacement: str) -> str:
@@ -845,25 +900,43 @@ def _apply_case(template: str, replacement: str) -> str:
 
 
 def detect_mozi_ocr_issues(text: str) -> list[dict[str, str]]:
-    issues = find_suspicious_ocr_tokens(
+    suspicious_token_issues = find_suspicious_ocr_tokens(
         text,
         allowed_tokens=MOZI_ALLOWED_TOKENS | MOZI_ALLOWED_HYPHENATED_TOKENS,
         suspicious_exact_tokens=MOZI_SUSPICIOUS_EXACT_TOKENS,
         suspicious_hyphenated_tokens=MOZI_SUSPICIOUS_HYPHENATED_TOKENS,
     )
+    issues = list(suspicious_token_issues)
     lowered = " ".join(text.casefold().split())
     if MOZI_HEADING_RESIDUE_RE.search(lowered):
         issues.append({"token": text[:80], "issue_type": "heading_residue"})
     if any(marker.casefold() in lowered for marker in MOZI_NOTE_RESIDUE_MARKERS):
         issues.append({"token": text[:80], "issue_type": "note_residue"})
-    if detect_probable_ocr_corruption(
+    generic_issue_types = detect_probable_ocr_corruption(
         text,
         allowed_tokens=MOZI_ALLOWED_TOKENS | MOZI_ALLOWED_HYPHENATED_TOKENS,
         suspicious_exact_tokens=MOZI_SUSPICIOUS_EXACT_TOKENS,
         suspicious_hyphenated_tokens=MOZI_SUSPICIOUS_HYPHENATED_TOKENS,
+    )
+    issues.extend(
+        {"token": text[:120], "issue_type": issue_type}
+        for issue_type in generic_issue_types
+        if issue_type in MOZI_GENERIC_OCR_ISSUE_TYPES
+    )
+    if len(suspicious_token_issues) >= 2 or (
+        suspicious_token_issues
+        and any(issue_type in {"internal_punctuation", "broken_hyphenation", "internal_capital_substitution"} for issue_type in generic_issue_types)
     ):
-        return issues
-    return issues
+        issues.append({"token": text[:120], "issue_type": "nonsense_token_density"})
+    deduped: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for issue in issues:
+        key = (issue["issue_type"], issue["token"])
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(issue)
+    return deduped
 
 
 def detect_mozi_leakage_issues(text: str) -> list[dict[str, str]]:

@@ -16,10 +16,10 @@ Generated from `logs/qc_reports/mozi__alignment_qc.json`.
 - Remaining coarse fallbacks: 8
 - Blocked sections: 22
 - Hard failures: 0
-- Corruption issues before repair: 310
-- Corruption issues corrected: 468
-- Automatic OCR/token repairs: 458
-- Curated OCR/phrase repairs: 10
+- Corruption issues before repair: 532
+- Corruption issues corrected: 482
+- Automatic OCR/token repairs: 471
+- Curated OCR/phrase repairs: 11
 - Corruption issues remaining: 0
 - Note/commentary leakage issues before repair: 0
 - Note/commentary leakage issues repaired: 0

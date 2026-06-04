@@ -35,7 +35,7 @@ from common import (
 )
 from export_corpus import load_exact_alignment_rows, write_tabular_exports, write_tmx
 from import_corpus import import_corpus
-from qc_corpus import run_alignment_quality_checks, run_source_traceability_checks, run_text_integrity_checks
+from qc_corpus import run_alignment_quality_checks, run_qc, run_source_traceability_checks, run_text_integrity_checks
 from validate_tmx import validate_tmx_file
 
 CANDIDATE_STATES = {
@@ -200,6 +200,99 @@ def _candidate_rows_by_section(work_id: str) -> tuple[list[dict[str, Any]], dict
     for row in corpus_rows:
         rows_by_section.setdefault(str(row["section_id"]), []).append(row)
     return corpus_rows, rows_by_section
+
+
+def _active_rows(work_id: str) -> list[dict[str, Any]]:
+    return [dict(row) for row in _load_review_rows(corpus_export_paths(work_id)["jsonl"])]
+
+
+def compare_candidate_and_active_exports(
+    work_id: str,
+    *,
+    candidate_qc: dict[str, Any] | None = None,
+    active_qc: dict[str, Any] | None = None,
+    candidate_rows: list[dict[str, Any]] | None = None,
+    active_rows: list[dict[str, Any]] | None = None,
+    candidate_alignment_snapshot: dict[str, Any] | None = None,
+    active_alignment_snapshot: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    candidate_report = candidate_qc or _load_json(candidate_qc_report_path(work_id))
+    active_report = active_qc or _load_json(REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__corpus_qc.json")
+    candidate_alignment = candidate_alignment_snapshot or _load_json(candidate_alignment_snapshot_path(work_id))
+    active_alignment = active_alignment_snapshot or _load_json(REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__alignment_qc.json")
+    candidate_export_rows = candidate_rows or _load_review_rows(candidate_corpus_export_paths(work_id)["jsonl"])
+    active_export_rows = active_rows or _active_rows(work_id)
+
+    mismatches: list[str] = []
+    candidate_section_ids = sorted({str(row["section_id"]) for row in candidate_export_rows})
+    active_section_ids = sorted({str(row["section_id"]) for row in active_export_rows})
+    if candidate_section_ids != active_section_ids:
+        mismatches.append("candidate and active promoted section ids differ")
+    if len(candidate_export_rows) != len(active_export_rows):
+        mismatches.append("candidate and active exact alignment counts differ")
+    if sum(1 for row in candidate_export_rows if row.get("is_coarse_alignment")) != sum(
+        1 for row in active_export_rows if row.get("is_coarse_alignment")
+    ):
+        mismatches.append("candidate and active fallback counts differ")
+
+    candidate_alignment_summary = candidate_alignment.get("summary", {})
+    active_alignment_summary = active_alignment.get("summary", {})
+    for label, candidate_value, active_value in (
+        ("promoted section count", len(candidate_section_ids), len(active_section_ids)),
+        ("exact alignment count", len(candidate_export_rows), len(active_export_rows)),
+        (
+            "fallback count",
+            sum(1 for row in candidate_export_rows if row.get("is_coarse_alignment")),
+            sum(1 for row in active_export_rows if row.get("is_coarse_alignment")),
+        ),
+        (
+            "OCR issue count",
+            int(candidate_alignment_summary.get("remaining_corruption_issue_count", 0)),
+            int(active_alignment_summary.get("remaining_corruption_issue_count", 0)),
+        ),
+        (
+            "leakage issue count",
+            int(candidate_alignment_summary.get("remaining_leakage_issue_count", 0)),
+            int(active_alignment_summary.get("remaining_leakage_issue_count", 0)),
+        ),
+        (
+            "drift issue count",
+            int(candidate_alignment_summary.get("remaining_drift_issue_count", 0)),
+            int(active_alignment_summary.get("remaining_drift_issue_count", 0)),
+        ),
+    ):
+        if candidate_value != active_value:
+            mismatches.append(f"candidate and active {label} differ ({candidate_value} != {active_value})")
+
+    for key in ("hard_failure_count",):
+        if int(candidate_report.get(key, 0)) != int(active_report.get(key, 0)):
+            mismatches.append(f"candidate and active corpus QC {key} differ")
+
+    for candidate_path, active_path in (
+        (candidate_corpus_export_paths(work_id)["jsonl"], corpus_export_paths(work_id)["jsonl"]),
+        (candidate_corpus_export_paths(work_id)["csv"], corpus_export_paths(work_id)["csv"]),
+        (candidate_corpus_export_paths(work_id)["tmx"], corpus_export_paths(work_id)["tmx"]),
+    ):
+        if candidate_path.exists() and active_path.exists() and sha256_file(candidate_path) != sha256_file(active_path):
+            mismatches.append(f"candidate and active corpus export differ for {candidate_path.suffix.lstrip('.')}")
+    for section_id in candidate_section_ids:
+        candidate_paths = candidate_section_export_paths(section_id, work_id)
+        active_paths = section_export_paths(section_id, work_id)
+        for key in ("jsonl", "csv", "tmx"):
+            if candidate_paths[key].exists() and active_paths[key].exists() and sha256_file(candidate_paths[key]) != sha256_file(active_paths[key]):
+                mismatches.append(f"candidate and active section export differ for {section_id} ({key})")
+
+    return {
+        "work_id": work_id,
+        "matches": not mismatches,
+        "mismatches": sorted(set(mismatches)),
+        "candidate_section_count": len(candidate_section_ids),
+        "active_section_count": len(active_section_ids),
+        "candidate_exact_alignment_count": len(candidate_export_rows),
+        "active_exact_alignment_count": len(active_export_rows),
+        "candidate_fallback_count": sum(1 for row in candidate_export_rows if row.get("is_coarse_alignment")),
+        "active_fallback_count": sum(1 for row in active_export_rows if row.get("is_coarse_alignment")),
+    }
 
 
 def run_candidate_qc(work_id: str, *, db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, Any]:
@@ -399,7 +492,9 @@ def evaluate_promotion_gates(
     if int(alignment_summary.get("remaining_drift_issue_count", 0)):
         blockers.append("remaining alignment drift issues are nonzero")
     if review_summary["failed_high_risk_alignment_count"]:
-        blockers.append(f"AI review found {review_summary['failed_high_risk_alignment_count']} failed high-risk alignments")
+        blockers.append(
+            f"alignment review found {review_summary['failed_high_risk_alignment_count']} failed high-risk alignments"
+        )
     fallback_alignment_ids = sorted(str(row["alignment_id"]) for row in rows if row.get("is_coarse_alignment"))
     reviewed_fallback_alignment_ids = {
         str(review["alignment_id"])
@@ -464,9 +559,18 @@ def promote_candidate(work_id: str) -> dict[str, Any]:
         update_candidate_state(work_id, gate_summary["next_state"], details={"blockers": gate_summary["blockers"]})
         raise ValueError("; ".join(gate_summary["blockers"]))
     copied_paths = _copy_candidate_exports_to_active(work_id)
+    active_qc = run_qc(DEFAULT_DB_PATH, work_id=work_id)
+    comparison = compare_candidate_and_active_exports(
+        work_id,
+        candidate_qc=_load_json(candidate_qc_report_path(work_id)),
+        active_qc=active_qc,
+    )
+    if not comparison["matches"]:
+        update_candidate_state(work_id, "candidate_qc_failed", details={"blockers": comparison["mismatches"]})
+        raise ValueError("; ".join(comparison["mismatches"]))
     state = _active_state_for_manifest(load_work_manifest(work_id))
-    update_candidate_state(work_id, state, details={"copied_paths": copied_paths})
-    return {"work_id": work_id, "state": state, "copied_paths": copied_paths}
+    update_candidate_state(work_id, state, details={"copied_paths": copied_paths, "comparison": comparison})
+    return {"work_id": work_id, "state": state, "copied_paths": copied_paths, "comparison": comparison}
 
 
 def write_candidate_report(work_id: str) -> dict[str, Any]:
@@ -476,12 +580,21 @@ def write_candidate_report(work_id: str) -> dict[str, Any]:
     ai_summary = summarize_reviews(ai_reviews)
     alignment_snapshot = _load_json(candidate_alignment_snapshot_path(work_id))
     repair_log = _load_json(candidate_repair_log_path(work_id))
+    active_qc = _load_json(REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__corpus_qc.json")
+    active_alignment = _load_json(REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__alignment_qc.json")
     gate_summary = evaluate_promotion_gates(
         work_id,
         candidate_qc=candidate_qc,
         ai_reviews=ai_reviews,
         alignment_snapshot=alignment_snapshot,
         repair_log=repair_log,
+    )
+    active_comparison = compare_candidate_and_active_exports(
+        work_id,
+        candidate_qc=candidate_qc,
+        active_qc=active_qc,
+        candidate_alignment_snapshot=alignment_snapshot,
+        active_alignment_snapshot=active_alignment,
     )
     lines = [
         f"# {work_id} candidate report",
@@ -491,8 +604,9 @@ def write_candidate_report(work_id: str) -> dict[str, Any]:
         f"- Deterministic QC status: {candidate_qc.get('status', 'missing')}",
         f"- Deterministic QC hard failures: {candidate_qc.get('hard_failure_count', 0)}",
         f"- Deterministic QC issue count: {candidate_qc.get('deterministic_issue_count', 0)}",
-        f"- AI review count: {ai_summary['review_count']}",
-        f"- AI failed high-risk alignments: {ai_summary['failed_high_risk_alignment_count']}",
+        f"- Alignment review method: heuristic rule-based review (no remote LLM reviewer used)",
+        f"- Alignment review count: {ai_summary['review_count']}",
+        f"- Alignment review failed high-risk alignments: {ai_summary['failed_high_risk_alignment_count']}",
         f"- Reviewed fallback alignments: {ai_summary['reviewed_fallback_alignment_count']}",
         f"- Automatic repairs applied: {repair_log.get('summary', {}).get('automatic_correction_count', 0)}",
         f"- Curated repairs applied: {repair_log.get('summary', {}).get('curated_correction_count', 0)}",
@@ -500,8 +614,11 @@ def write_candidate_report(work_id: str) -> dict[str, Any]:
         f"- Remaining leakage issues: {alignment_snapshot.get('summary', {}).get('remaining_leakage_issue_count', 0)}",
         f"- Remaining drift issues: {alignment_snapshot.get('summary', {}).get('remaining_drift_issue_count', 0)}",
         f"- Promotion ready: {gate_summary['can_promote']}",
+        f"- Promotion target state: {gate_summary['next_state']}",
+        f"- Active corpus QC status: {active_qc.get('status', 'missing')}",
+        f"- Candidate/active export agreement: {active_comparison['matches']}",
         "",
-        "## AI review classifications",
+        "## Alignment review classifications",
         "",
     ]
     for classification, count in sorted(ai_summary["classification_counts"].items()):
@@ -511,6 +628,11 @@ def write_candidate_report(work_id: str) -> dict[str, Any]:
         lines.extend(f"- {blocker}" for blocker in gate_summary["blockers"])
     else:
         lines.append("- None")
+    lines.extend(["", "## Candidate vs active agreement", ""])
+    if active_comparison["mismatches"]:
+        lines.extend(f"- {mismatch}" for mismatch in active_comparison["mismatches"])
+    else:
+        lines.append("- Candidate and active promoted exports match on counts and file content.")
     path = candidate_report_path(work_id)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -1,8 +1,8 @@
 {
   "summary": {
-    "issue_count_before_repair": 310,
-    "automatic_correction_count": 458,
-    "curated_correction_count": 10,
+    "issue_count_before_repair": 532,
+    "automatic_correction_count": 471,
+    "curated_correction_count": 11,
     "remaining_issue_count": 0,
     "pre_repair_leakage_issue_count": 0,
     "repaired_leakage_issue_count": 0,
@@ -22,6 +22,24 @@
     }
   },
   "repairs": [
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "Chh",
+      "corrected_token": "Ch'i",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "CHna",
+      "corrected_token": "China",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
     {
       "section_id": "mozi-001-make-close-the-scholars",
       "raw_token": "humilia-tion",
@@ -60,6 +78,15 @@
     },
     {
       "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "was tom alive",
+      "corrected_token": "was torn alive",
+      "correction_type": "automatic_phrase_repair",
+      "confidence": 0.97,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
       "raw_token": "acHevemeat",
       "corrected_token": "achievement",
       "correction_type": "automatic_token_repair",
@@ -89,6 +116,69 @@
       "section_id": "mozi-001-make-close-the-scholars",
       "raw_token": "triSe",
       "corrected_token": "trifle",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "tte",
+      "corrected_token": "the",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "fmr",
+      "corrected_token": "fur",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "tyrant \" among the feudal lords",
+      "corrected_token": "tyrant among the feudal lords",
+      "correction_type": "automatic_phrase_repair",
+      "confidence": 0.94,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-001-make-close-the-scholars",
+      "raw_token": "worth a thousand yi:coBiposeci: of the white fur of a single fox",
+      "corrected_token": "worth a thousand yi is not from the white fur of a single fox",
+      "correction_type": "curated_phrase_repair",
+      "confidence": 0.99,
+      "mode": "curated",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-002-self-cultivation",
+      "raw_token": "fuada-mentai",
+      "corrected_token": "fundamental",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-002-self-cultivation",
+      "raw_token": "harest",
+      "corrected_token": "harvest",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-002-self-cultivation",
+      "raw_token": "soimd",
+      "corrected_token": "sound",
       "correction_type": "automatic_token_repair",
       "confidence": 0.95,
       "mode": "automatic",
@@ -2202,6 +2292,15 @@
     },
     {
       "section_id": "mozi-018-condemnation-of-offensive-war-ii",
+      "raw_token": "Chh",
+      "corrected_token": "Ch'i",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-018-condemnation-of-offensive-war-ii",
       "raw_token": "Wliat",
       "corrected_token": "What",
       "correction_type": "automatic_token_repair",
@@ -3273,6 +3372,15 @@
     },
     {
       "section_id": "mozi-030-anti-confucianism-ii",
+      "raw_token": "Chh",
+      "corrected_token": "Ch'i",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-030-anti-confucianism-ii",
       "raw_token": "everjhere",
       "corrected_token": "everywhere",
       "correction_type": "automatic_token_repair",
@@ -4137,6 +4245,15 @@
     },
     {
       "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "follows- must",
+      "corrected_token": "follows must",
+      "correction_type": "automatic_phrase_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
       "raw_token": "indireGtly",
       "corrected_token": "indirectly",
       "correction_type": "automatic_token_repair",
@@ -4193,6 +4310,15 @@
       "section_id": "mozi-038-esteem-for-righteousness",
       "raw_token": "afiected",
       "corrected_token": "affected",
+      "correction_type": "automatic_token_repair",
+      "confidence": 0.95,
+      "mode": "automatic",
+      "source_path": "corpus/raw/archiveorg/mozi__mei-1929__archiveorg-in-ernet-dli-2015-283868__raw.txt"
+    },
+    {
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "raw_token": "Chh",
+      "corrected_token": "Ch'i",
       "correction_type": "automatic_token_repair",
       "confidence": 0.95,
       "mode": "automatic",

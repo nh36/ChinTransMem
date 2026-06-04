@@ -24,7 +24,7 @@ from ingest_chinesenotes_work import (
     _extract_notice_lines,
     _parse_section_body,
 )
-from mozi_ocr import detect_mozi_leakage_issues, looks_like_mozi_note_line, repair_mozi_ocr_text
+from mozi_ocr import detect_mozi_leakage_issues, detect_mozi_ocr_issues, looks_like_mozi_note_line, repair_mozi_ocr_text
 
 UPSTREAM_COMMIT_SHA = "1f6b1d3e7a40b6886a4b943c898125639e993544"
 UPSTREAM_BASE_URL = "https://raw.githubusercontent.com/craigbrelsford/ChineseNotes.com/{commit}/data/corpus/mozi.csv"
@@ -773,6 +773,8 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
     leakage_repair_entries: list[dict[str, Any]] = []
     ocr_remaining_issues: list[dict[str, Any]] = []
     leakage_remaining_issues: list[dict[str, Any]] = []
+    final_ocr_remaining_issues: list[dict[str, Any]] = []
+    final_leakage_remaining_issues: list[dict[str, Any]] = []
 
     alignment_granularity_counts: dict[str, int] = {}
     exact_alignment_count = 0
@@ -1145,6 +1147,28 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                     for issue in detect_mozi_leakage_issues(str(record.get("translation_text", "")))
                 )
                 exact_rows = [record for record in alignment_records if record["alignment_type"] == "exact_or_near_exact"]
+                final_ocr_remaining_issues.extend(
+                    {
+                        "section_id": section_id,
+                        "alignment_id": str(record["alignment_id"]),
+                        "token": issue["token"],
+                        "issue_type": issue["issue_type"],
+                        "source_path": repo_relative(ARCHIVE_RAW_TEXT_PATH),
+                    }
+                    for record in exact_rows
+                    for issue in detect_mozi_ocr_issues(str(record.get("translation_text", "")))
+                )
+                final_leakage_remaining_issues.extend(
+                    {
+                        "section_id": section_id,
+                        "alignment_id": str(record["alignment_id"]),
+                        "token": issue["token"],
+                        "issue_type": issue["issue_type"],
+                        "source_path": repo_relative(ARCHIVE_RAW_TEXT_PATH),
+                    }
+                    for record in exact_rows
+                    for issue in detect_mozi_leakage_issues(str(record.get("translation_text", "")))
+                )
                 for record in exact_rows:
                     granularity = record["alignment_granularity"]
                     alignment_granularity_counts[granularity] = alignment_granularity_counts.get(granularity, 0) + 1
@@ -1343,7 +1367,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         manifest_sections.append(manifest_section)
         inventory_units.append(inventory_unit)
 
-    repaired_leakage_issue_count = max(pre_repair_leakage_issue_count - len(leakage_remaining_issues), 0)
+    repaired_leakage_issue_count = max(pre_repair_leakage_issue_count - len(final_leakage_remaining_issues), 0)
     repaired_drift_issue_count = max(drift_issue_count_before_repair - remaining_drift_issue_count, 0)
 
     summary = {
@@ -1371,15 +1395,15 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         "english_witness": "Archive.org DjVu OCR capture of Yi-Pao Mei, The Works of Motse from the Chinese (1929) for the translated chapter subset",
         "work_state": "proof_of_concept_partial_active",
         "hard_failure_count": 0,
-        "corruption_issue_count": len(ocr_remaining_issues),
+        "corruption_issue_count": len(final_ocr_remaining_issues),
         "pre_repair_corruption_issue_count": pre_repair_corruption_issue_count,
         "corrected_corruption_issue_count": automatic_correction_count + curated_correction_count,
         "automatic_correction_count": automatic_correction_count,
         "curated_correction_count": curated_correction_count,
-        "remaining_corruption_issue_count": len(ocr_remaining_issues),
+        "remaining_corruption_issue_count": len(final_ocr_remaining_issues),
         "pre_repair_leakage_issue_count": pre_repair_leakage_issue_count,
         "repaired_leakage_issue_count": repaired_leakage_issue_count,
-        "remaining_leakage_issue_count": len(leakage_remaining_issues),
+        "remaining_leakage_issue_count": len(final_leakage_remaining_issues),
         "drift_checks_run": drift_checks_run,
         "anchor_mapped_section_count": len(anchor_mapped_section_ids),
         "drift_issue_count_before_repair": drift_issue_count_before_repair,
@@ -1481,12 +1505,12 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                 "issue_count_before_repair": pre_repair_corruption_issue_count,
                 "automatic_correction_count": automatic_correction_count,
                 "curated_correction_count": curated_correction_count,
-                "remaining_issue_count": len(ocr_remaining_issues),
+                "remaining_issue_count": len(final_ocr_remaining_issues),
                 "pre_repair_leakage_issue_count": pre_repair_leakage_issue_count,
                 "repaired_leakage_issue_count": repaired_leakage_issue_count,
-                "remaining_leakage_issue_count": len(leakage_remaining_issues),
+                "remaining_leakage_issue_count": len(final_leakage_remaining_issues),
                 "automatic_leakage_repair_count": len(leakage_repair_entries),
-                "remaining_total_issue_count": len(ocr_remaining_issues) + len(leakage_remaining_issues),
+                "remaining_total_issue_count": len(final_ocr_remaining_issues) + len(final_leakage_remaining_issues),
                 "cleaner_source_layer_found": False,
                 "source_layer_audit": {
                     "reviewed_layers": [
@@ -1500,7 +1524,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                 },
             },
             "repairs": ocr_repair_entries + leakage_repair_entries,
-            "remaining_issues": ocr_remaining_issues + leakage_remaining_issues,
+            "remaining_issues": final_ocr_remaining_issues + final_leakage_remaining_issues,
         },
     )
 
