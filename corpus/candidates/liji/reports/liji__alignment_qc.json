@@ -5,11 +5,11 @@
     "active_section_count": 49,
     "exportable_section_count": 49,
     "english_witness": "ChineseNotes bilingual mirror of James Legge's Li Ki / Book of Rites translation",
-    "exact_alignment_count": 1813,
-    "automatic_alignment_count": 1813,
-    "alignment_record_count": 1862,
+    "exact_alignment_count": 1876,
+    "automatic_alignment_count": 1876,
+    "alignment_record_count": 1925,
     "curated_override_section_count": 0,
-    "fallback_section_count": 4,
+    "fallback_section_count": 0,
     "blocked_section_count": 0,
     "hard_failure_count": 0,
     "pre_repair_corruption_issue_count": 0,
@@ -22,31 +22,17 @@
     "remaining_leakage_issue_count": 0,
     "remaining_drift_issue_count": 0,
     "alignment_granularity_counts": {
-      "block": 1613,
-      "chapter": 4,
-      "grouped": 196
+      "block": 1637,
+      "grouped": 239
     }
   },
-  "fallback_sections": [
-    {
-      "section_id": "liji-015-record-of-small-matters-in-the-dress-of",
-      "coarse_alignment_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
-    },
-    {
-      "section_id": "liji-019-record-of-music",
-      "coarse_alignment_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
-    },
-    {
-      "section_id": "liji-031-the-state-of-equilibrium-and-harmony",
-      "coarse_alignment_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
-    },
-    {
-      "section_id": "liji-042-the-great-learning",
-      "coarse_alignment_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
-    }
-  ],
+  "fallback_sections": [],
   "curated_override_sections": [],
-  "anchor_mapped_sections": [],
+  "anchor_mapped_sections": [
+    "liji-019-record-of-music",
+    "liji-031-the-state-of-equilibrium-and-harmony",
+    "liji-042-the-great-learning"
+  ],
   "blocked_sections": [],
   "sections": [
     {
@@ -194,10 +180,10 @@
       "title_zh": "《喪服小記》",
       "title_en": "Record of Small Matters in the Dress of Mourning",
       "export_status": "active",
-      "alignment_mode": "section_fallback",
-      "alignment_granularity": "section",
-      "exact_alignment_count": 1,
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+      "alignment_mode": "deterministic",
+      "alignment_granularity": "grouped",
+      "exact_alignment_count": 43,
+      "fallback_reason": null
     },
     {
       "section_id": "liji-016-the-great-treatise",
@@ -234,10 +220,10 @@
       "title_zh": "《樂記》",
       "title_en": "Record of Music",
       "export_status": "active",
-      "alignment_mode": "section_fallback",
-      "alignment_granularity": "section",
-      "exact_alignment_count": 1,
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+      "alignment_mode": "deterministic",
+      "alignment_granularity": "block",
+      "exact_alignment_count": 8,
+      "fallback_reason": null
     },
     {
       "section_id": "liji-020-miscellaneous-records-i",
@@ -354,10 +340,10 @@
       "title_zh": "《中庸》",
       "title_en": "The State of Equilibrium and Harmony, also known as the Doctrine of the Mean",
       "export_status": "active",
-      "alignment_mode": "section_fallback",
-      "alignment_granularity": "section",
-      "exact_alignment_count": 1,
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+      "alignment_mode": "deterministic",
+      "alignment_granularity": "block",
+      "exact_alignment_count": 8,
+      "fallback_reason": null
     },
     {
       "section_id": "liji-032-the-record-on-example",
@@ -464,10 +450,10 @@
       "title_zh": "《大學》",
       "title_en": "The Great Learning",
       "export_status": "active",
-      "alignment_mode": "section_fallback",
-      "alignment_granularity": "section",
-      "exact_alignment_count": 1,
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+      "alignment_mode": "deterministic",
+      "alignment_granularity": "block",
+      "exact_alignment_count": 8,
+      "fallback_reason": null
     },
     {
       "section_id": "liji-043-the-meaning-of-the-ceremony-of-capping",

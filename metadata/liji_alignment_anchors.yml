@@ -1,0 +1,238 @@
+{
+  "sections": [
+    {
+      "section_id": "liji-019-record-of-music",
+      "segmentation_strategy": "anchor_partition",
+      "anchors": [
+        {
+          "anchor_id": "sound-and-heart",
+          "expected_order": 1,
+          "source_required_terms": ["凡音之起", "人心生也", "謂之樂"],
+          "target_required_terms": ["modulations of the voice arise from the mind", "constitutes what we call music"],
+          "source_boundary_terms": ["凡音之起"],
+          "target_boundary_terms": ["All the modulations of the voice arise from the mind"],
+          "note": "Opening account of sound, feeling, and the origin of music."
+        },
+        {
+          "anchor_id": "age-and-government",
+          "expected_order": 2,
+          "source_required_terms": ["治世之音", "鄭衛之音", "桑間濮上之音"],
+          "target_required_terms": ["airs of an age of good order", "airs of Zheng and Wei", "mulberry forest"],
+          "source_boundary_terms": ["凡音者，生人心者也"],
+          "target_boundary_terms": ["All modulations of the voice spring from the minds of men"],
+          "note": "Government, disorder, and the notorious Zheng/Wei examples."
+        },
+        {
+          "anchor_id": "ritual-not-sensory",
+          "expected_order": 3,
+          "source_required_terms": ["樂之隆", "先王之制禮樂", "反人道之正"],
+          "target_required_terms": ["greatest achievements of music", "institution of ceremonies and music", "normal course of humanity"],
+          "source_boundary_terms": ["是故樂之隆"],
+          "target_boundary_terms": ["Hence the greatest achievements of music"],
+          "note": "Music and ceremony as moral training rather than sensory indulgence."
+        },
+        {
+          "anchor_id": "desire-and-disorder",
+          "expected_order": 4,
+          "source_required_terms": ["人生而靜", "好惡無節", "大亂之道"],
+          "target_required_terms": ["nature of man", "likings and dislikings are not subject to regulation", "great disorder that ensues"],
+          "source_boundary_terms": ["人生而靜"],
+          "target_boundary_terms": ["It belongs to the nature of man"],
+          "note": "Human nature, desire, and resulting social disorder."
+        },
+        {
+          "anchor_id": "instituting-rites-music",
+          "expected_order": 5,
+          "source_required_terms": ["先王之制禮樂", "禮樂刑政", "王道備矣"],
+          "target_required_terms": ["ancient kings, when they instituted their ceremonies and music", "ceremonies, music, laws, and punishments", "kingly rule was complete"],
+          "source_boundary_terms": ["是故先王之制禮樂，人為之節"],
+          "target_boundary_terms": ["Therefore the ancient kings, when they instituted their ceremonies and music"],
+          "note": "Institutional role of ritual, music, law, and punishment."
+        },
+        {
+          "anchor_id": "heaven-earth-harmony",
+          "expected_order": 6,
+          "source_required_terms": ["樂由中出", "大樂與天地同和", "天地之道"],
+          "target_required_terms": ["Music comes from within", "music of the grandest style", "interaction of heaven and earth"],
+          "source_boundary_terms": ["樂由中出"],
+          "target_boundary_terms": ["Music comes from within"],
+          "note": "Inner/outer distinction and harmony with Heaven and Earth."
+        },
+        {
+          "anchor_id": "wei-marquis-dialogue",
+          "expected_order": 7,
+          "source_required_terms": ["魏文侯問於子夏", "鄭音好濫淫志", "鐘聲鏗"],
+          "target_required_terms": ["marquis Wen of Wei asked Zi-xia", "airs of Zheng go to a wild excess", "bells give out a clanging sound"],
+          "source_boundary_terms": ["魏文侯問於子夏曰"],
+          "target_boundary_terms": ["The marquis Wen of Wei asked Zi-xia"],
+          "note": "The Marquis Wen dialogue on ancient versus new music."
+        },
+        {
+          "anchor_id": "wu-performance",
+          "expected_order": 8,
+          "source_required_terms": ["賓牟賈侍坐於孔子", "牧野之語", "武王克殷反商"],
+          "target_required_terms": ["Bin-mou Jia was sitting with Confucius", "accounts of Mu-ye", "King Wu, after the victory over Yin"],
+          "source_boundary_terms": ["賓牟賈侍坐於孔子"],
+          "target_boundary_terms": ["Bin-mou Jia was sitting with Confucius"],
+          "note": "The Wu performance dialogue and Mu-ye historical exemplum."
+        }
+      ]
+    },
+    {
+      "section_id": "liji-031-the-state-of-equilibrium-and-harmony",
+      "segmentation_strategy": "anchor_partition",
+      "anchors": [
+        {
+          "anchor_id": "opening-equilibrium",
+          "expected_order": 1,
+          "source_required_terms": ["天命之謂性", "喜怒哀樂", "中也者", "和也者"],
+          "target_required_terms": ["What Heaven has conferred", "Equilibrium", "Harmony"],
+          "source_boundary_terms": ["天命之謂性"],
+          "target_boundary_terms": ["What Heaven has conferred"],
+          "note": "Opening Heaven/nature passage through equilibrium and harmony."
+        },
+        {
+          "anchor_id": "superior-man-mean",
+          "expected_order": 2,
+          "source_required_terms": ["君子中庸", "小人反中庸"],
+          "target_required_terms": ["course of the Mean"],
+          "source_boundary_terms": ["仲尼曰：「君子中庸"],
+          "target_boundary_terms": ["Zhong-ni said, \"The superior man embodies the course of the Mean"],
+          "note": "Core superior-man Mean formulation."
+        },
+        {
+          "anchor_id": "hidden-way",
+          "expected_order": 3,
+          "source_required_terms": ["君子之道費而隱", "夫婦之愚", "察乎天地"],
+          "target_required_terms": ["The way which the superior man pursues", "common men and women", "heaven and earth"],
+          "source_boundary_terms": ["君子之道費而隱"],
+          "target_boundary_terms": ["The way which the superior man pursues"],
+          "note": "The hidden yet expansive way of the superior man."
+        },
+        {
+          "anchor_id": "spirits-sincerity",
+          "expected_order": 4,
+          "source_required_terms": ["鬼神之為德", "誠之不可掩"],
+          "target_required_terms": ["spiritual beings display", "outgoings of sincerity"],
+          "source_boundary_terms": ["子曰：「鬼神之為德"],
+          "target_boundary_terms": ["The Master said, \"How abundantly do spiritual beings display"],
+          "note": "Spirits and the visible force of sincerity."
+        },
+        {
+          "anchor_id": "governance-nine-rules",
+          "expected_order": 5,
+          "source_required_terms": ["哀公問政", "天下之達道五", "九經"],
+          "target_required_terms": ["The Duke Ai asked about government", "duties of universal obligation", "nine standard rules"],
+          "source_boundary_terms": ["哀公問政"],
+          "target_boundary_terms": ["The Duke Ai asked about government"],
+          "note": "Governance, universal obligations, and the nine standard rules."
+        },
+        {
+          "anchor_id": "sincerity-heaven",
+          "expected_order": 6,
+          "source_required_terms": ["誠者，天之道也", "博學之", "篤行之"],
+          "target_required_terms": ["Sincerity is the way of Heaven", "extensive study", "earnest practice"],
+          "source_boundary_terms": ["「凡事豫則立"],
+          "target_boundary_terms": ["In all things success depends on previous preparation"],
+          "note": "Preparation, sincerity, and disciplined learning."
+        },
+        {
+          "anchor_id": "perfect-sincerity",
+          "expected_order": 7,
+          "source_required_terms": ["自誠明", "唯天下至誠", "至誠無息"],
+          "target_required_terms": ["intelligence resulting from sincerity", "most complete sincerity", "ceaselessness"],
+          "source_boundary_terms": ["自誠明"],
+          "target_boundary_terms": ["When we have intelligence resulting from sincerity"],
+          "note": "Perfect sincerity, transformation, and ceaselessness."
+        },
+        {
+          "anchor_id": "sage-and-heaven-earth",
+          "expected_order": 8,
+          "source_required_terms": ["天地之道", "大哉，聖人之道", "王天下有三重焉"],
+          "target_required_terms": ["The way of Heaven and Earth", "path proper to the Sage", "three important things"],
+          "source_boundary_terms": ["天地之道，可壹言而盡也"],
+          "target_boundary_terms": ["The way of Heaven and Earth may be completely declared in one sentence"],
+          "note": "Closing Heaven-and-Earth, sage, and rulership material."
+        }
+      ]
+    },
+    {
+      "section_id": "liji-042-the-great-learning",
+      "segmentation_strategy": "anchor_partition",
+      "anchors": [
+        {
+          "anchor_id": "illustrious-virtue",
+          "expected_order": 1,
+          "source_required_terms": ["大學之道", "明明德", "止於至善"],
+          "target_required_terms": ["Great Learning teaches", "illustrate illustrious virtue", "highest excellence"],
+          "source_boundary_terms": ["大學之道"],
+          "target_boundary_terms": ["What the Great Learning teaches"],
+          "note": "Opening illustrious-virtue statement."
+        },
+        {
+          "anchor_id": "investigation-knowledge",
+          "expected_order": 2,
+          "source_required_terms": ["古之欲明明德", "格物", "知之至也"],
+          "target_required_terms": ["The ancients who wished to illustrate illustrious virtue", "investigation of things", "knowledge became complete"],
+          "source_boundary_terms": ["古之欲明明德於天下者"],
+          "target_boundary_terms": ["The ancients who wished to illustrate illustrious virtue"],
+          "note": "Investigation of things and extension of knowledge."
+        },
+        {
+          "anchor_id": "sincerity-thoughts",
+          "expected_order": 3,
+          "source_required_terms": ["所謂誠其意者", "毋自欺也", "十目所視"],
+          "target_required_terms": ["making the thoughts sincere", "allowing no self-deception", "What ten eyes behold"],
+          "source_boundary_terms": ["所謂誠其意者"],
+          "target_boundary_terms": ["What is meant by \"making the thoughts sincere.\""],
+          "note": "Sincerity of thoughts and solitary vigilance."
+        },
+        {
+          "anchor_id": "renewal-resting",
+          "expected_order": 4,
+          "source_required_terms": ["湯之盤銘", "日日新", "於止"],
+          "target_required_terms": ["On the bathing tub of Tang", "day to day", "When it rests, it knows where to rest"],
+          "source_boundary_terms": ["湯之盤銘曰"],
+          "target_boundary_terms": ["On the bathing tub of Tang"],
+          "note": "Renewal, resting place, and the ruler's moral station."
+        },
+        {
+          "anchor_id": "rectify-heart",
+          "expected_order": 5,
+          "source_required_terms": ["所謂修身在正其心者", "身有所忿懥", "心不在焉"],
+          "target_required_terms": ["cultivation of the person depends on rectifying the mind", "influence of passion", "mind is not present"],
+          "source_boundary_terms": ["所謂修身在正其心者"],
+          "target_boundary_terms": ["What is meant by, \"The cultivation of the person depends on rectifying the mind"],
+          "note": "Rectification of the heart."
+        },
+        {
+          "anchor_id": "regulate-family",
+          "expected_order": 6,
+          "source_required_terms": ["所謂齊其家在修其身者", "人莫知其子之惡"],
+          "target_required_terms": ["regulation of one's family depends on the cultivation of his person", "wickedness of his son"],
+          "source_boundary_terms": ["所謂齊其家在修其身者"],
+          "target_boundary_terms": ["What is meant by \"The regulation of one's family depends on the cultivation of his person"],
+          "note": "Regulation of the family."
+        },
+        {
+          "anchor_id": "order-state",
+          "expected_order": 7,
+          "source_required_terms": ["所謂治國必先齊其家者", "如保赤子", "治國在齊其家"],
+          "target_required_terms": ["In order rightly to govern the state", "watching over an infant", "government of the state depends on the regulation of the family"],
+          "source_boundary_terms": ["所謂治國必先齊其家者"],
+          "target_boundary_terms": ["What is meant by \"In order rightly to govern the state"],
+          "note": "Ordering the state from the family outward."
+        },
+        {
+          "anchor_id": "peace-kingdom",
+          "expected_order": 8,
+          "source_required_terms": ["所謂平天下在治其國者", "絜矩之道", "楚國無以為寶"],
+          "target_required_terms": ["whole kingdom peaceful and happy", "measuring square", "kingdom of Chu does not consider that to be valuable"],
+          "source_boundary_terms": ["所謂平天下在治其國者"],
+          "target_boundary_terms": ["What is meant by \"The making the whole kingdom peaceful and happy"],
+          "note": "Ordering the kingdom, wealth, and ministerial worth."
+        }
+      ]
+    }
+  ]
+}

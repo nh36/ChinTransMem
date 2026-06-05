@@ -345,9 +345,17 @@ class IngestionGauntletTest(unittest.TestCase):
     def test_liji_active_exports_are_clean_and_fallbacks_reviewed(self) -> None:
         candidate_qc = load_json(candidate_qc_report_path("liji"))
         candidate_report = candidate_report_path("liji").read_text(encoding="utf-8")
+        completion_report = (REPO_ROOT / "documentation" / "liji_completion_quality.md").read_text(encoding="utf-8")
+        manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "liji.yml")
         reviews = load_jsonl(candidate_ai_review_path("liji"))
         active_rows = load_jsonl(corpus_export_paths("liji")["jsonl"])
         active_text_integrity = run_text_integrity_checks("liji", rows=active_rows)
+        former_fallback_sections = {
+            "liji-015-record-of-small-matters-in-the-dress-of",
+            "liji-019-record-of-music",
+            "liji-031-the-state-of-equilibrium-and-harmony",
+            "liji-042-the-great-learning",
+        }
 
         self.assertEqual(candidate_qc["hard_failure_count"], 0)
         self.assertEqual(active_text_integrity["hard_failure_count"], 0)
@@ -357,13 +365,21 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertEqual(candidate_qc["text_integrity"]["translation_with_heading_sections"], [])
         self.assertEqual(
             {review["classification"] for review in reviews},
-            {"pass", "fallback_justified"},
+            {"pass"},
         )
-        fallback_reviews = [review for review in reviews if review["classification"] == "fallback_justified"]
-        self.assertEqual(len(fallback_reviews), 4)
-        self.assertTrue(all(review["coarse_alignment_reason"] for review in fallback_reviews))
+        self.assertTrue(
+            former_fallback_sections.issubset({review["section_id"] for review in reviews})
+        )
+        self.assertTrue(
+            all(not section["fallback_used"] for section in manifest["sections"] if section["section_id"] in former_fallback_sections)
+        )
+        self.assertIn("Reviewed fallback alignments: 0", candidate_report)
         self.assertIn("Current state: active_proof_of_concept", candidate_report)
         self.assertIn("Candidate and active promoted exports match on counts and file content.", candidate_report)
+        self.assertIn("Remaining coarse fallbacks: 0", completion_report)
+        self.assertIn("liji-031-the-state-of-equilibrium-and-harmony", completion_report)
+        self.assertIn("liji-042-the-great-learning", completion_report)
+        self.assertIn("scope: resolved", completion_report)
 
     def test_liji_mapping_and_reports_agree(self) -> None:
         manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "liji.yml")
@@ -378,17 +394,18 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertEqual(mapping_entry["preferred_use"], "aligned_passages")
         self.assertEqual(manifest["summary"]["section_count"], 49)
         self.assertEqual(manifest["summary"]["active_section_count"], 49)
-        self.assertEqual(manifest["summary"]["exact_alignment_count"], 1813)
-        self.assertEqual(manifest["summary"]["fallback_section_count"], 4)
+        self.assertEqual(manifest["summary"]["exact_alignment_count"], 1876)
+        self.assertEqual(manifest["summary"]["fallback_section_count"], 0)
         self.assertEqual(candidate_qc["status"], "pass")
-        self.assertEqual(candidate_qc["counts"]["exact_alignment_records"], 1813)
-        self.assertEqual(active_qc["manifest_summary"]["exact_alignment_count"], 1813)
-        self.assertEqual(active_qc["manifest_summary"]["fallback_section_count"], 4)
+        self.assertEqual(candidate_qc["counts"]["exact_alignment_records"], 1876)
+        self.assertEqual(active_qc["manifest_summary"]["exact_alignment_count"], 1876)
+        self.assertEqual(active_qc["manifest_summary"]["fallback_section_count"], 0)
         self.assertEqual(active_qc["manifest_summary"]["remaining_corruption_issue_count"], 0)
         self.assertEqual(active_qc["manifest_summary"]["remaining_leakage_issue_count"], 0)
         self.assertEqual(active_qc["manifest_summary"]["remaining_drift_issue_count"], 0)
-        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 1813)
-        self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 4)
+        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 1876)
+        self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 0)
+        self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"block": 1637, "grouped": 239})
         self.assertEqual(mozi_completion.splitlines()[0], "# Mozi completion quality")
 
 

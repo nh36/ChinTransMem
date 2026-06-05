@@ -18,5 +18,5 @@
 ## Current promotion shape
 
 - Total chapters detected: 49
-- Reviewed fallback chapters: 4
+- Reviewed fallback chapters: 0
 - Metadata-only blockers: 0

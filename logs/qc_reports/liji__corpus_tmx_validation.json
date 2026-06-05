@@ -134,7 +134,7 @@
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-015-record-of-small-matters-in-the-dress-of__aligned_passages.tmx",
       "work_id": "liji",
       "section_id": "liji-015-record-of-small-matters-in-the-dress-of",
-      "tu_count": 1,
+      "tu_count": 43,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -170,7 +170,7 @@
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-019-record-of-music__aligned_passages.tmx",
       "work_id": "liji",
       "section_id": "liji-019-record-of-music",
-      "tu_count": 1,
+      "tu_count": 8,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -278,7 +278,7 @@
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-031-the-state-of-equilibrium-and-harmony__aligned_passages.tmx",
       "work_id": "liji",
       "section_id": "liji-031-the-state-of-equilibrium-and-harmony",
-      "tu_count": 1,
+      "tu_count": 8,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -377,7 +377,7 @@
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-042-the-great-learning__aligned_passages.tmx",
       "work_id": "liji",
       "section_id": "liji-042-the-great-learning",
-      "tu_count": 1,
+      "tu_count": 8,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -450,7 +450,7 @@
     "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__all__aligned_passages.tmx",
     "work_id": "liji",
     "section_id": null,
-    "tu_count": 1813,
+    "tu_count": 1876,
     "source_language": "zh-Hant",
     "target_language": "en"
   }

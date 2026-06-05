@@ -74,25 +74,24 @@
     "active_section_count": 49,
     "exportable_section_count": 49,
     "metadata_only_blocked_section_count": 0,
-    "exact_alignment_count": 1813,
+    "exact_alignment_count": 1876,
     "section_group_alignment_count": 49,
     "section_group_alignment_record_count": 49,
-    "alignment_record_count": 1862,
-    "fallback_alignment_count": 4,
-    "fallback_section_count": 4,
-    "automatic_alignment_count": 1813,
+    "alignment_record_count": 1925,
+    "fallback_alignment_count": 0,
+    "fallback_section_count": 0,
+    "automatic_alignment_count": 1876,
     "curated_override_section_count": 0,
+    "anchor_mapped_section_count": 3,
     "blocked_section_count": 0,
     "hard_failure_count": 0,
     "alignment_granularity_counts": {
-      "block": 1613,
-      "chapter": 4,
-      "grouped": 196
+      "block": 1637,
+      "grouped": 239
     },
     "granularity_counts": {
-      "block": 1613,
-      "chapter": 4,
-      "grouped": 196
+      "block": 1637,
+      "grouped": 239
     },
     "pre_repair_corruption_issue_count": 0,
     "corrected_corruption_issue_count": 0,
@@ -103,9 +102,9 @@
     "remaining_drift_issue_count": 0,
     "automatic_correction_count": 4,
     "curated_correction_count": 0,
-    "active_exportable_alignment_count": 1813
+    "active_exportable_alignment_count": 1876
   },
-  "notes": "Liji is promoted through the candidate-ingestion gauntlet as a proof-of-concept ChineseNotes/Legge corpus. 4 structurally uneven chapters retain reviewed section-level fallbacks.",
+  "notes": "Liji is promoted through the candidate-ingestion gauntlet as a proof-of-concept ChineseNotes/Legge corpus. 0 structurally uneven chapters retain reviewed section-level fallbacks.",
   "sources": [
     {
       "source_id": "liji-001-summary-of-the-rules-of-propriety-part-1__cn-zh-1f6b1d3",
@@ -2047,10 +2046,10 @@
       "base_text_processed_path": "corpus/processed/base_texts/liji__liji-015-record-of-small-matters-in-the-dress-of__liji-015-record-of-small-matters-in-the-dress-of__cn-zh-1f6b1d3__segments.jsonl",
       "translation_processed_path": "corpus/processed/translations/liji__liji-015-record-of-small-matters-in-the-dress-of__liji-015-record-of-small-matters-in-the-dress-of__legge-en-1f6b1d3__segments.jsonl",
       "alignment_processed_path": "corpus/processed/alignments/liji__liji-015-record-of-small-matters-in-the-dress-of__cn-zh-1f6b1d3__legge-en-1f6b1d3__alignments.jsonl",
-      "fallback_used": true,
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping.",
-      "expected_exact_alignment_count": 1,
-      "notes": "Proof-of-concept chapter promoted with reviewed section-level fallback."
+      "fallback_used": false,
+      "fallback_reason": null,
+      "expected_exact_alignment_count": 43,
+      "notes": "ChineseNotes bilingual chapter processed into proof-of-concept aligned passages."
     },
     {
       "section_id": "liji-016-the-great-treatise",
@@ -2147,10 +2146,10 @@
       "base_text_processed_path": "corpus/processed/base_texts/liji__liji-019-record-of-music__liji-019-record-of-music__cn-zh-1f6b1d3__segments.jsonl",
       "translation_processed_path": "corpus/processed/translations/liji__liji-019-record-of-music__liji-019-record-of-music__legge-en-1f6b1d3__segments.jsonl",
       "alignment_processed_path": "corpus/processed/alignments/liji__liji-019-record-of-music__cn-zh-1f6b1d3__legge-en-1f6b1d3__alignments.jsonl",
-      "fallback_used": true,
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping.",
-      "expected_exact_alignment_count": 1,
-      "notes": "Proof-of-concept chapter promoted with reviewed section-level fallback."
+      "fallback_used": false,
+      "fallback_reason": null,
+      "expected_exact_alignment_count": 8,
+      "notes": "ChineseNotes bilingual chapter processed into proof-of-concept aligned passages."
     },
     {
       "section_id": "liji-020-miscellaneous-records-i",
@@ -2447,10 +2446,10 @@
       "base_text_processed_path": "corpus/processed/base_texts/liji__liji-031-the-state-of-equilibrium-and-harmony__liji-031-the-state-of-equilibrium-and-harmony__cn-zh-1f6b1d3__segments.jsonl",
       "translation_processed_path": "corpus/processed/translations/liji__liji-031-the-state-of-equilibrium-and-harmony__liji-031-the-state-of-equilibrium-and-harmony__legge-en-1f6b1d3__segments.jsonl",
       "alignment_processed_path": "corpus/processed/alignments/liji__liji-031-the-state-of-equilibrium-and-harmony__cn-zh-1f6b1d3__legge-en-1f6b1d3__alignments.jsonl",
-      "fallback_used": true,
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping.",
-      "expected_exact_alignment_count": 1,
-      "notes": "Proof-of-concept chapter promoted with reviewed section-level fallback."
+      "fallback_used": false,
+      "fallback_reason": null,
+      "expected_exact_alignment_count": 8,
+      "notes": "ChineseNotes bilingual chapter processed into proof-of-concept aligned passages."
     },
     {
       "section_id": "liji-032-the-record-on-example",
@@ -2722,10 +2721,10 @@
       "base_text_processed_path": "corpus/processed/base_texts/liji__liji-042-the-great-learning__liji-042-the-great-learning__cn-zh-1f6b1d3__segments.jsonl",
       "translation_processed_path": "corpus/processed/translations/liji__liji-042-the-great-learning__liji-042-the-great-learning__legge-en-1f6b1d3__segments.jsonl",
       "alignment_processed_path": "corpus/processed/alignments/liji__liji-042-the-great-learning__cn-zh-1f6b1d3__legge-en-1f6b1d3__alignments.jsonl",
-      "fallback_used": true,
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping.",
-      "expected_exact_alignment_count": 1,
-      "notes": "Proof-of-concept chapter promoted with reviewed section-level fallback."
+      "fallback_used": false,
+      "fallback_reason": null,
+      "expected_exact_alignment_count": 8,
+      "notes": "ChineseNotes bilingual chapter processed into proof-of-concept aligned passages."
     },
     {
       "section_id": "liji-043-the-meaning-of-the-ceremony-of-capping",

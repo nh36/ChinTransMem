@@ -12,6 +12,9 @@ from urllib.request import urlopen
 
 from common import REPO_ROOT, load_json_compatible_yaml, repo_relative, sha256_file, write_json, write_jsonl
 from chinesenotes_alignment import (
+    load_alignment_anchor_maps,
+    load_alignment_overrides,
+    partition_block_texts_by_anchors,
     refine_alignment,
     render_completion_quality_markdown,
     split_chinese_units,
@@ -42,18 +45,40 @@ INVENTORY_PATH = METADATA_ROOT / f"{WORK_ID}_inventory.yml"
 LEDGER_PATH = METADATA_ROOT / f"{WORK_ID}_verification_ledger.yml"
 COMPLETION_DOC_PATH = DOC_ROOT / f"{WORK_ID}_completion_quality.md"
 INGESTION_PLAN_PATH = DOC_ROOT / f"{WORK_ID}_ingestion_plan.md"
+ANCHOR_MAP_PATH = METADATA_ROOT / f"{WORK_ID}_alignment_anchors.yml"
+OVERRIDES_PATH = METADATA_ROOT / f"{WORK_ID}_alignment_overrides.yml"
 INDEX_RELATIVE_PATH = "data/corpus/liji.csv"
 INTRO_RELATIVE_PATH = "corpus/liji/liji000.txt"
-SECTION_FALLBACK_IDS = {
-    "liji-015-record-of-smaller-matters-in-dress-of-mourning",
+FORMER_FALLBACK_IDS = {
+    "liji-015-record-of-small-matters-in-the-dress-of",
     "liji-019-record-of-music",
     "liji-031-the-state-of-equilibrium-and-harmony",
     "liji-042-the-great-learning",
 }
-SECTION_FALLBACK_REASON = (
-    "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic "
-    "cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
-)
+SECTION_ALIGNMENT_LIMITS: dict[str, tuple[int, int]] = {
+    "liji-015-record-of-small-matters-in-the-dress-of": (6, 6),
+    "liji-019-record-of-music": (6, 6),
+    "liji-031-the-state-of-equilibrium-and-harmony": (6, 6),
+    "liji-042-the-great-learning": (6, 6),
+}
+FALLBACK_DIAGNOSTICS: dict[str, dict[str, str]] = {
+    "liji-015-record-of-small-matters-in-the-dress-of": {
+        "diagnosis": "The Chinese and English chapter files share the same 73 paragraph blocks, but a few English paragraphs merge adjacent mourning-rule cases, so 4-target monotonic grouping was too tight. The mismatch is local rather than global.",
+        "resolution": "Raised the grouped-alignment window to permit slightly larger English clusters while keeping the original order.",
+    },
+    "liji-019-record-of-music": {
+        "diagnosis": "The later half of the English witness merges long conceptual runs around music, ritual, government, and the Marquis Wen / Wu dialogue, so direct sentence grouping drifted across topic boundaries. The mismatch is global across major topic shifts rather than a heading or note leak.",
+        "resolution": "Partitioned the joined chapter by deterministic anchor topics, then aligned the resulting macro-blocks safely.",
+    },
+    "liji-031-the-state-of-equilibrium-and-harmony": {
+        "diagnosis": "The Chinese and English files stay parallel in broad order, but Legge's prose runs more continuously across the sincerity, governance, and sagely-power expositions, so unguided grouping drifted late in the chapter. The mismatch is global across major conceptual units rather than local page furniture.",
+        "resolution": "Partitioned the chapter by doctrinal anchors for equilibrium/harmony, the superior man, spirits, governance, sincerity, and the closing sage material before alignment.",
+    },
+    "liji-042-the-great-learning": {
+        "diagnosis": "The English witness compresses several governance and wealth-policy passages into longer macro-paragraphs, and the raw chapter has 16 Chinese blocks against 17 English blocks. The mismatch is structural but still ordered, with stable internal divisions available.",
+        "resolution": "Partitioned the chapter by the classic Great Learning progression from illustrious virtue through family, state, and kingdom governance before alignment.",
+    },
+}
 
 
 @dataclass
@@ -445,10 +470,12 @@ def bootstrap_liji_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
     qc_sections: list[dict[str, Any]] = []
     repair_entries: list[dict[str, Any]] = []
     completion_sections: list[dict[str, Any]] = []
+    refinement_sections: list[dict[str, Any]] = []
     alignment_granularity_counts: Counter[str] = Counter()
     section_status_counts: Counter[str] = Counter()
     blocked_sections: list[str] = []
     fallback_sections: list[str] = []
+    anchor_mapped_sections: list[str] = []
     exact_alignment_count = 0
     section_group_alignment_count = 0
     grouped_alignment_count = 0
@@ -461,6 +488,8 @@ def bootstrap_liji_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
     REPORT_ROOT.mkdir(parents=True, exist_ok=True)
     DOC_ROOT.mkdir(parents=True, exist_ok=True)
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
+    alignment_anchor_maps = load_alignment_anchor_maps(ANCHOR_MAP_PATH)
+    alignment_overrides = load_alignment_overrides(OVERRIDES_PATH)
 
     for section in sections:
         raw_path = _ensure_raw_capture(section.source_file, skip_fetch=skip_fetch)
@@ -581,20 +610,40 @@ def bootstrap_liji_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         target_units: list[str] = []
         for block in parsed["english_blocks"]:
             target_units.extend(split_english_units(block))
+        anchor_map = alignment_anchor_maps.get(section_id)
+        override = alignment_overrides.get(section_id)
+        final_chinese_blocks = list(parsed["chinese_blocks"])
+        final_english_blocks = list(parsed["english_blocks"])
+        if anchor_map and str(anchor_map.get("segmentation_strategy") or "") == "anchor_partition":
+            final_chinese_blocks, final_english_blocks = partition_block_texts_by_anchors(
+                final_chinese_blocks,
+                final_english_blocks,
+                anchor_map,
+            )
+            anchor_mapped_sections.append(section_id)
+        max_source_group_size, max_target_group_size = SECTION_ALIGNMENT_LIMITS.get(section_id, (4, 4))
         fallback_reason: str | None = None
         try:
             alignment = refine_alignment(
                 section_id,
-                parsed["chinese_blocks"],
-                parsed["english_blocks"],
+                final_chinese_blocks,
+                final_english_blocks,
                 source_splitter=split_chinese_units,
                 target_splitter=split_english_units,
+                max_source_group_size=max_source_group_size,
+                max_target_group_size=max_target_group_size,
+                override=override,
             )
-            if section_id in SECTION_FALLBACK_IDS:
-                raise ValueError("Curated chapter-level fallback retained for structurally uneven chapter.")
-        except ValueError:
+        except ValueError as exc:
             alignment = None
-            fallback_reason = SECTION_FALLBACK_REASON
+            refinement_note = FALLBACK_DIAGNOSTICS.get(section_id, {})
+            fallback_reason = (
+                f"Deterministic regrouping remained unsafe after "
+                f"{'anchor-partitioned ' if section_id in anchor_mapped_sections else ''}"
+                f"alignment: {exc}"
+            )
+            if refinement_note:
+                fallback_reason = f"{refinement_note['diagnosis']} {fallback_reason}"
             fallback_sections.append(section_id)
 
         base_text_path = BASE_TEXT_ROOT / (
@@ -613,7 +662,7 @@ def bootstrap_liji_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                 section_id=section_id,
                 source_id=zh_source_id,
                 canonical_ref=canonical_ref,
-                blocks=parsed["chinese_blocks"],
+                blocks=final_chinese_blocks,
                 text_language="zh",
                 prefix="zh",
             )
@@ -622,7 +671,7 @@ def bootstrap_liji_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                 section_id=section_id,
                 source_id=en_source_id,
                 canonical_ref=canonical_ref,
-                blocks=parsed["english_blocks"],
+                blocks=final_english_blocks,
                 text_language="en",
                 prefix="en",
             )
@@ -905,6 +954,30 @@ def bootstrap_liji_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
                 "fallback_reason": fallback_reason,
             }
         )
+        if section_id in FORMER_FALLBACK_IDS or section_id in FALLBACK_DIAGNOSTICS:
+            refinement_note = FALLBACK_DIAGNOSTICS.get(section_id, {})
+            refinement_sections.append(
+                {
+                    "section_id": section_id,
+                    "title_zh": section.title_zh,
+                    "title_en": section.title_en,
+                    "chinese_block_count": len(parsed["chinese_blocks"]),
+                    "english_block_count": len(parsed["english_blocks"]),
+                    "chinese_segment_count": len(source_units),
+                    "english_segment_count": len(target_units),
+                    "stable_internal_divisions": bool(anchor_map),
+                    "title_or_notice_interference": bool(parsed["excluded_heading_lines"] or parsed["excluded_notice_lines"]),
+                    "merged_english_paragraphs": len(target_units) > len(source_units),
+                    "coarse_chinese_segmentation": len(source_units) < len(target_units),
+                    "mismatch_scope": "resolved" if not fallback_reason else "remaining",
+                    "resolution": refinement_note.get("resolution", "Retained baseline deterministic alignment."),
+                    "diagnosis": refinement_note.get("diagnosis", ""),
+                    "anchor_partition_used": section_id in anchor_mapped_sections,
+                    "fallback_reason": fallback_reason,
+                    "exact_alignment_count": len(exact_records),
+                    "alignment_granularity": exact_records[0]["alignment_granularity"],
+                }
+            )
 
     active_section_count = section_status_counts["active_exportable"]
     blocked_section_count = section_status_counts["metadata_only_blocked"]
@@ -984,6 +1057,7 @@ def bootstrap_liji_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
             "fallback_section_count": section_fallback_count,
             "automatic_alignment_count": exact_alignment_count,
             "curated_override_section_count": 0,
+            "anchor_mapped_section_count": len(anchor_mapped_sections),
             "blocked_section_count": blocked_section_count,
             "hard_failure_count": 0,
             "alignment_granularity_counts": dict(sorted(alignment_granularity_counts.items())),
@@ -1065,7 +1139,7 @@ def bootstrap_liji_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
             for section_id in fallback_sections
         ],
         "curated_override_sections": [],
-        "anchor_mapped_sections": [],
+        "anchor_mapped_sections": anchor_mapped_sections,
         "blocked_sections": [
             {"section_id": section_id, "reason": "Boundary cleanup incomplete."}
             for section_id in blocked_sections
@@ -1082,6 +1156,20 @@ def bootstrap_liji_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
         ),
         encoding="utf-8",
     )
+    if refinement_sections:
+        with COMPLETION_DOC_PATH.open("a", encoding="utf-8") as handle:
+            handle.write("\n## Former fallback diagnostics\n\n")
+            for section in refinement_sections:
+                handle.write(
+                    f"- `{section['section_id']}`: zh blocks {section['chinese_block_count']}, "
+                    f"en blocks {section['english_block_count']}, zh segments {section['chinese_segment_count']}, "
+                    f"en segments {section['english_segment_count']}; stable internal divisions: "
+                    f"{'yes' if section['stable_internal_divisions'] else 'no'}; "
+                    f"title/notices interfering: {'yes' if section['title_or_notice_interference'] else 'no'}; "
+                    f"merged English paragraphs: {'yes' if section['merged_english_paragraphs'] else 'no'}; "
+                    f"Chinese segmentation too coarse: {'yes' if section['coarse_chinese_segmentation'] else 'no'}; "
+                    f"scope: {section['mismatch_scope']}. {section['diagnosis']} {section['resolution']}\n"
+                )
 
     INGESTION_PLAN_PATH.write_text(
         "\n".join(

@@ -6,7 +6,7 @@
     "section_count": 49,
     "active_exportable_section_count": 49,
     "metadata_only_blocked_section_count": 0,
-    "fallback_alignment_count": 4,
+    "fallback_alignment_count": 0,
     "remaining_blocker_count": 0
   },
   "sections": [
@@ -127,8 +127,8 @@
       "title_zh": "《喪服小記》",
       "title_en": "Record of Small Matters in the Dress of Mourning",
       "export_status": "active",
-      "verification_status": "reviewed_section_fallback",
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
     },
     {
       "section_id": "liji-016-the-great-treatise",
@@ -159,8 +159,8 @@
       "title_zh": "《樂記》",
       "title_en": "Record of Music",
       "export_status": "active",
-      "verification_status": "reviewed_section_fallback",
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
     },
     {
       "section_id": "liji-020-miscellaneous-records-i",
@@ -255,8 +255,8 @@
       "title_zh": "《中庸》",
       "title_en": "The State of Equilibrium and Harmony, also known as the Doctrine of the Mean",
       "export_status": "active",
-      "verification_status": "reviewed_section_fallback",
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
     },
     {
       "section_id": "liji-032-the-record-on-example",
@@ -343,8 +343,8 @@
       "title_zh": "《大學》",
       "title_en": "The Great Learning",
       "export_status": "active",
-      "verification_status": "reviewed_section_fallback",
-      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
     },
     {
       "section_id": "liji-043-the-meaning-of-the-ceremony-of-capping",

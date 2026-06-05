@@ -330,6 +330,10 @@ def review_alignment_rows(
             {
                 "liji-001-summary-of-the-rules-of-propriety-part-1",
                 "liji-003-tan-gong-i",
+                "liji-015-record-of-small-matters-in-the-dress-of",
+                "liji-019-record-of-music",
+                "liji-031-the-state-of-equilibrium-and-harmony",
+                "liji-042-the-great-learning",
             }
         )
     selected_ids = _candidate_sample_alignment_ids(

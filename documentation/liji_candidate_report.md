@@ -6,9 +6,9 @@
 - Deterministic QC hard failures: 0
 - Deterministic QC issue count: 0
 - Alignment review method: heuristic rule-based review (no remote LLM reviewer used)
-- Alignment review count: 415
+- Alignment review count: 478
 - Alignment review failed high-risk alignments: 0
-- Reviewed fallback alignments: 4
+- Reviewed fallback alignments: 0
 - Automatic repairs applied: 4
 - Curated repairs applied: 0
 - Remaining OCR issues: 0
@@ -21,8 +21,7 @@
 
 ## Alignment review classifications
 
-- `fallback_justified`: 4
-- `pass`: 411
+- `pass`: 478
 
 ## Promotion blockers
 
