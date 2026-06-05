@@ -1,0 +1,43 @@
+{
+  "work_id": "shiji",
+  "title_zh": "史記",
+  "title_en": "Records of the Grand Historian",
+  "source_index": "corpus/raw/chinesenotes/shiji__shiji__chinesenotes-1f6b1d3__raw.txt",
+  "upstream_commit": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+  "section_count": 3,
+  "units": [
+    {
+      "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+      "section_number": 1,
+      "batch_id": "benji",
+      "title_zh": "《本紀‧五帝本紀》",
+      "title_en": "Annals - Annals of the Five Emperors",
+      "source_file": "corpus/shiji/shiji001.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji001.txt",
+      "status": "captured",
+      "english_witness": "Chinese Notes bilingual English witness"
+    },
+    {
+      "section_id": "shiji-002-annals-of-xia",
+      "section_number": 2,
+      "batch_id": "benji",
+      "title_zh": "《夏本紀》",
+      "title_en": "Annals of Xia",
+      "source_file": "corpus/shiji/shiji002.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji002.txt",
+      "status": "captured",
+      "english_witness": "Chinese Notes bilingual English witness"
+    },
+    {
+      "section_id": "shiji-003-annals-of-yin",
+      "section_number": 3,
+      "batch_id": "benji",
+      "title_zh": "《殷本紀》",
+      "title_en": "Annals of Yin",
+      "source_file": "corpus/shiji/shiji003.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji003.txt",
+      "status": "captured",
+      "english_witness": "Chinese Notes bilingual English witness"
+    }
+  ]
+}

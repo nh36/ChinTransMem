@@ -6022,5 +6022,35 @@
     "entity_id": "liji-049-the-four-principles-underlying-the-dress",
     "romanization_system": "english-title",
     "alias": "The Four Principles Underlying the Dress of Mourning"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shiji",
+    "romanization_system": "pinyin",
+    "alias": "Shiji"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "shiji",
+    "romanization_system": "english-title",
+    "alias": "Records of the Grand Historian"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shiji-001-annals-annals-of-the-five-emperors",
+    "romanization_system": "english-title",
+    "alias": "Annals - Annals of the Five Emperors"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shiji-002-annals-of-xia",
+    "romanization_system": "english-title",
+    "alias": "Annals of Xia"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "shiji-003-annals-of-yin",
+    "romanization_system": "english-title",
+    "alias": "Annals of Yin"
   }
 ]

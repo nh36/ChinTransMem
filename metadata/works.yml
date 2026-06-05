@@ -54,6 +54,15 @@
     "notes": "Active Shangshu corpus using ChineseNotes for the Chinese base text and provenance scaffold, plus a clean Wikisource / Sacred Books of the East Legge witness for the English translation, with logical-block parsing and monotonic grouped alignment for exportable sections while retaining the two forged Chinese-only sections as explicit metadata-only entries."
   },
   {
+    "work_id": "shiji",
+    "canonical_title": "史記",
+    "english_title": "Records of the Grand Historian",
+    "work_type": "classical_text",
+    "language_code": "zh-Hant",
+    "default_citation": "史記",
+    "notes": "Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with 2 active sections and 1 metadata-only blockers."
+  },
+  {
     "work_id": "shijing",
     "canonical_title": "詩經",
     "english_title": "Classic of Poetry",

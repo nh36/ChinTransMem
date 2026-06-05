@@ -21,7 +21,12 @@ from common import (
     sha256_file,
     write_json,
 )
-from liji_quality import detect_liji_leakage_issues, detect_liji_ocr_issues
+from liji_quality import (
+    detect_chinesenotes_leakage_issues,
+    detect_chinesenotes_ocr_issues,
+    detect_liji_leakage_issues,
+    detect_liji_ocr_issues,
+)
 from mozi_ocr import detect_mozi_leakage_issues, detect_mozi_ocr_issues
 from text_quality import (
     detect_probable_ocr_corruption,
@@ -329,6 +334,17 @@ def run_text_integrity_checks(work_id: str, rows: list[dict[str, object]] | None
                 issues["translation_with_notice_sections"].add(section_id)
             if any(issue["issue_type"] == "footnote_residue" for issue in liji_leakage_issues):
                 issues["translation_with_commentary_sections"].add(section_id)
+        if work_id == "shiji":
+            shiji_ocr_issues = detect_chinesenotes_ocr_issues(translation_text)
+            shiji_leakage_issues = detect_chinesenotes_leakage_issues(translation_text)
+            if shiji_ocr_issues:
+                issues["translation_with_ocr_corruption_rows"].append(alignment_id)
+            if any(issue["issue_type"] == "heading_residue" for issue in shiji_leakage_issues):
+                issues["translation_with_heading_sections"].add(section_id)
+            if any(issue["issue_type"] == "notice_residue" for issue in shiji_leakage_issues):
+                issues["translation_with_notice_sections"].add(section_id)
+            if any(issue["issue_type"] == "footnote_residue" for issue in shiji_leakage_issues):
+                issues["translation_with_commentary_sections"].add(section_id)
     issue_lists = {key: sorted(value) for key, value in issues.items()}
     hard_failure_count = sum(1 for value in issue_lists.values() if value)
     return {
@@ -337,7 +353,7 @@ def run_text_integrity_checks(work_id: str, rows: list[dict[str, object]] | None
     }
 
 
-def run_source_traceability_checks(work_id: str) -> dict[str, object]:
+def run_source_traceability_checks(work_id: str, *, section_ids: list[str] | None = None) -> dict[str, object]:
     issues = {
         "missing_source_url_sources": [],
         "missing_rights_status_sources": [],
@@ -347,7 +363,10 @@ def run_source_traceability_checks(work_id: str) -> dict[str, object]:
     if work_id not in {"mozi", "liji"}:
         return {**issues, "hard_failure_count": 0}
     source_map = {source["source_id"]: source for source in load_sources(work_id)}
+    selected_section_ids = set(section_ids or [])
     for section in manifest_sections(work_id):
+        if selected_section_ids and section["section_id"] not in selected_section_ids:
+            continue
         if section.get("tmx_status") != "complete":
             continue
         source_ids = section.get("source_ids", {})

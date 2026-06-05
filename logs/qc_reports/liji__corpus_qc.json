@@ -43,7 +43,7 @@
   "counts": {
     "works": 1,
     "sections": 49,
-    "persons": 10,
+    "persons": 11,
     "sources": 98,
     "segments": 4710,
     "alignments": 1925,
@@ -597,8 +597,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "abb75b98028b82bb188dec0079b9111726be0e68f7ed3ca457e2bb30752d53d6",
-    "metadata/sources.yml": "516c10f65785e4d2dab5f6f8911dec770c83a4eff39e988dabbf5696fa3acc5a",
+    "metadata/sections.yml": "e7b9f4e412d04f653e074690f1afacf1d66a3cf4786fdb288aa250668a952e79",
+    "metadata/sources.yml": "1f3a736f1abd721704b35b15f543a6f2a38a41bdbe1e20ae7790f966143b292b",
     "metadata/manifests/liji.yml": "1f3f317d4981bda146e699e21a77dbd630ff57b864529002181b6de89462db39",
     "corpus/exports/jsonl/liji__liji-001-summary-of-the-rules-of-propriety-part-1__aligned_passages.jsonl": "911d9367e08c3502947eb9edb7e8db4dfa3c1bba1cae1ce1b33ca93b94bb087c",
     "corpus/exports/csv/liji__liji-001-summary-of-the-rules-of-propriety-part-1__aligned_passages.csv": "bfb29863693204063b441b104529771f4644ebf7c87179bf6e43ff0ee3987eda",

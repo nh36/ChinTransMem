@@ -182,11 +182,11 @@
         "data/corpus/shiji.csv",
         "corpus/shiji/"
       ],
-      "status": "needs_review",
-      "english_coverage": "unknown",
-      "chinese_coverage": "unknown",
-      "preferred_use": "metadata_only",
-      "notes": "Not yet staged; keep out of scope for the pilot importer because of structural size and complexity."
+      "status": "already_ingested",
+      "english_coverage": "pilot_partial",
+      "chinese_coverage": "pilot_partial",
+      "preferred_use": "aligned_passages",
+      "notes": "Shiji now uses a batch-aware candidate gauntlet. The initial benji pilot stages chapters [1, 2, 3] and currently promotes 2 active proof-of-concept sections."
     },
     {
       "chintransmem_work_id": "shijing",

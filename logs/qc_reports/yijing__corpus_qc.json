@@ -12,7 +12,7 @@
   "counts": {
     "works": 1,
     "sections": 64,
-    "persons": 10,
+    "persons": 11,
     "sources": 128,
     "segments": 900,
     "alignments": 514,
@@ -731,8 +731,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "abb75b98028b82bb188dec0079b9111726be0e68f7ed3ca457e2bb30752d53d6",
-    "metadata/sources.yml": "516c10f65785e4d2dab5f6f8911dec770c83a4eff39e988dabbf5696fa3acc5a",
+    "metadata/sections.yml": "e7b9f4e412d04f653e074690f1afacf1d66a3cf4786fdb288aa250668a952e79",
+    "metadata/sources.yml": "1f3a736f1abd721704b35b15f543a6f2a38a41bdbe1e20ae7790f966143b292b",
     "metadata/manifests/yijing.yml": "ae50e0f9e69011718b9a7f055bce47edae0e77bcfcebf4ad44000dc3954319bf",
     "corpus/exports/jsonl/yijing__yijing-001-qian__aligned_passages.jsonl": "ba2afb999c7cba410d0e38537cfd2493737cfb63ddafc21bb7f821ef87ac355f",
     "corpus/exports/csv/yijing__yijing-001-qian__aligned_passages.csv": "0b8c9465c7390740b1c7511ae053f35a539bfab48f1c9334320debafedf7052c",

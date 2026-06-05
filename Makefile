@@ -1,6 +1,7 @@
 PYTHON ?= python3
 TEST ?= tests.test_corpus_workflow.CorpusWorkflowTest.test_lunyu_workflow_counts_and_qc
 WORK ?= lunyu
+BATCH ?=
 
 .PHONY: bootstrap-corpus bootstrap-work bootstrap-lunyu bootstrap-mengzi bootstrap-shijing bootstrap-laozi bootstrap-shangshu bootstrap-yijing bootstrap-mozi bootstrap-liji ingest-candidate qc-candidate ai-review-candidate refine-candidate promote-candidate ingestion-gauntlet corpus corpus-work pilot init-db import-corpus import-pilot export-corpus export-pilot validate-policy audit-coverage validate-granularity audit-shijing-quality preflight-work validate-tmx qc-corpus qc-pilot regression install-hooks serve-api test single-test
 
@@ -35,22 +36,22 @@ bootstrap-liji:
 	$(PYTHON) scripts/bootstrap_liji_corpus.py --skip-fetch
 
 ingest-candidate:
-	$(PYTHON) scripts/ingestion_gauntlet.py ingest --work-id $(WORK) --skip-fetch
+	$(PYTHON) scripts/ingestion_gauntlet.py ingest --work-id $(WORK) $(if $(BATCH),--batch-id $(BATCH),) --skip-fetch
 
 qc-candidate:
-	$(PYTHON) scripts/ingestion_gauntlet.py qc --work-id $(WORK)
+	$(PYTHON) scripts/ingestion_gauntlet.py qc --work-id $(WORK) $(if $(BATCH),--batch-id $(BATCH),)
 
 ai-review-candidate:
-	$(PYTHON) scripts/ingestion_gauntlet.py ai-review --work-id $(WORK)
+	$(PYTHON) scripts/ingestion_gauntlet.py ai-review --work-id $(WORK) $(if $(BATCH),--batch-id $(BATCH),)
 
 refine-candidate:
-	$(PYTHON) scripts/ingestion_gauntlet.py refine --work-id $(WORK) --skip-fetch
+	$(PYTHON) scripts/ingestion_gauntlet.py refine --work-id $(WORK) $(if $(BATCH),--batch-id $(BATCH),) --skip-fetch
 
 promote-candidate:
-	$(PYTHON) scripts/ingestion_gauntlet.py promote --work-id $(WORK)
+	$(PYTHON) scripts/ingestion_gauntlet.py promote --work-id $(WORK) $(if $(BATCH),--batch-id $(BATCH),)
 
 ingestion-gauntlet:
-	$(PYTHON) scripts/ingestion_gauntlet.py run --work-id $(WORK) --skip-fetch
+	$(PYTHON) scripts/ingestion_gauntlet.py run --work-id $(WORK) $(if $(BATCH),--batch-id $(BATCH),) --skip-fetch
 
 corpus:
 	$(PYTHON) scripts/corpus_workflow.py --work-id lunyu

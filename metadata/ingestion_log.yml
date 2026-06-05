@@ -3756,5 +3756,12 @@
     "stage": "bootstrap",
     "status": "completed",
     "notes": "Generated processed Liji chapters and manifest from ChineseNotes bilingual source files."
+  },
+  {
+    "run_id": "shiji-bootstrap-active-1f6b1d3",
+    "work_id": "shiji",
+    "stage": "bootstrap",
+    "status": "completed",
+    "notes": "Generated the Shiji active pilot manifest from ChineseNotes chapter files."
   }
 ]

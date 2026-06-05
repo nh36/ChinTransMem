@@ -1,0 +1,760 @@
+{
+  "work_id": "shiji",
+  "batch_id": "benji",
+  "current_state": "active_proof_of_concept",
+  "history": [
+    {
+      "state": "candidate_ingested",
+      "timestamp": "2026-06-05T16:46:23+00:00",
+      "details": {
+        "bootstrap_summary": {
+          "work_id": "shiji",
+          "title_zh": "史記",
+          "title_en": "Records of the Grand Historian",
+          "section_count": 3,
+          "complete_sections": 2,
+          "metadata_only_sections": 1,
+          "total_section_count": 3,
+          "active_exportable_section_count": 2,
+          "active_section_count": 2,
+          "exportable_section_count": 2,
+          "metadata_only_blocked_section_count": 1,
+          "exact_alignment_count": 70,
+          "section_group_alignment_count": 2,
+          "section_group_alignment_record_count": 2,
+          "alignment_record_count": 72,
+          "fallback_alignment_count": 0,
+          "fallback_section_count": 0,
+          "automatic_alignment_count": 70,
+          "curated_override_section_count": 0,
+          "blocked_section_count": 1,
+          "hard_failure_count": 0,
+          "alignment_granularity_counts": {
+            "block": 70
+          },
+          "pre_repair_corruption_issue_count": 0,
+          "corrected_corruption_issue_count": 0,
+          "remaining_corruption_issue_count": 0,
+          "pre_repair_leakage_issue_count": 0,
+          "repaired_leakage_issue_count": 0,
+          "remaining_leakage_issue_count": 0,
+          "remaining_drift_issue_count": 0,
+          "automatic_correction_count": 0,
+          "curated_correction_count": 0,
+          "active_exportable_alignment_count": 70
+        },
+        "candidate_export": {
+          "work_id": "shiji",
+          "batch_id": "benji",
+          "rows_exported": 70,
+          "section_count": 2,
+          "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__all__aligned_passages.jsonl",
+          "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__all__aligned_passages.csv",
+          "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__all__aligned_passages.tmx",
+          "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__benji__corpus_tmx_validation.json",
+          "sections": [
+            {
+              "section_id": "shiji-002-annals-of-xia",
+              "rows_exported": 35,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-002-annals-of-xia__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-002-annals-of-xia__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-002-annals-of-xia__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-002-annals-of-xia__aligned_passages.json",
+              "tmx_status": "pass"
+            },
+            {
+              "section_id": "shiji-003-annals-of-yin",
+              "rows_exported": 35,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-003-annals-of-yin__aligned_passages.json",
+              "tmx_status": "pass"
+            }
+          ],
+          "corpus_tmx_status": "pass"
+        }
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T16:46:23+00:00",
+      "details": {
+        "hard_failure_count": 2
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T16:46:23+00:00",
+      "details": {
+        "failed_high_risk_alignment_count": 2
+      }
+    },
+    {
+      "state": "candidate_ingested",
+      "timestamp": "2026-06-05T17:00:35+00:00",
+      "details": {
+        "bootstrap_summary": {
+          "work_id": "shiji",
+          "title_zh": "史記",
+          "title_en": "Records of the Grand Historian",
+          "section_count": 3,
+          "complete_sections": 2,
+          "metadata_only_sections": 1,
+          "total_section_count": 3,
+          "active_exportable_section_count": 2,
+          "active_section_count": 2,
+          "exportable_section_count": 2,
+          "metadata_only_blocked_section_count": 1,
+          "exact_alignment_count": 70,
+          "section_group_alignment_count": 2,
+          "section_group_alignment_record_count": 2,
+          "alignment_record_count": 72,
+          "fallback_alignment_count": 0,
+          "fallback_section_count": 0,
+          "automatic_alignment_count": 70,
+          "curated_override_section_count": 0,
+          "blocked_section_count": 1,
+          "hard_failure_count": 0,
+          "alignment_granularity_counts": {
+            "block": 70
+          },
+          "pre_repair_corruption_issue_count": 0,
+          "corrected_corruption_issue_count": 0,
+          "remaining_corruption_issue_count": 0,
+          "pre_repair_leakage_issue_count": 0,
+          "repaired_leakage_issue_count": 0,
+          "remaining_leakage_issue_count": 0,
+          "remaining_drift_issue_count": 0,
+          "automatic_correction_count": 0,
+          "curated_correction_count": 0,
+          "active_exportable_alignment_count": 70
+        },
+        "candidate_export": {
+          "work_id": "shiji",
+          "batch_id": "benji",
+          "rows_exported": 70,
+          "section_count": 2,
+          "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__all__aligned_passages.jsonl",
+          "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__all__aligned_passages.csv",
+          "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__all__aligned_passages.tmx",
+          "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__benji__corpus_tmx_validation.json",
+          "sections": [
+            {
+              "section_id": "shiji-002-annals-of-xia",
+              "rows_exported": 35,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-002-annals-of-xia__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-002-annals-of-xia__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-002-annals-of-xia__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-002-annals-of-xia__aligned_passages.json",
+              "tmx_status": "pass"
+            },
+            {
+              "section_id": "shiji-003-annals-of-yin",
+              "rows_exported": 35,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-003-annals-of-yin__aligned_passages.json",
+              "tmx_status": "pass"
+            }
+          ],
+          "corpus_tmx_status": "pass"
+        }
+      }
+    },
+    {
+      "state": "candidate_repaired",
+      "timestamp": "2026-06-05T17:00:35+00:00",
+      "details": {
+        "candidate_export_rows": 70
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T17:00:35+00:00",
+      "details": {
+        "hard_failure_count": 2
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T17:00:35+00:00",
+      "details": {
+        "failed_high_risk_alignment_count": 2
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T17:00:35+00:00",
+      "details": {
+        "blockers": [
+          "deterministic candidate QC has 2 hard failures",
+          "alignment review found 2 failed high-risk alignments"
+        ]
+      }
+    },
+    {
+      "state": "candidate_ingested",
+      "timestamp": "2026-06-05T17:25:06+00:00",
+      "details": {
+        "bootstrap_summary": {
+          "work_id": "shiji",
+          "title_zh": "史記",
+          "title_en": "Records of the Grand Historian",
+          "section_count": 3,
+          "complete_sections": 2,
+          "metadata_only_sections": 1,
+          "total_section_count": 3,
+          "active_exportable_section_count": 2,
+          "active_section_count": 2,
+          "exportable_section_count": 2,
+          "metadata_only_blocked_section_count": 1,
+          "exact_alignment_count": 113,
+          "section_group_alignment_count": 2,
+          "section_group_alignment_record_count": 2,
+          "alignment_record_count": 115,
+          "fallback_alignment_count": 0,
+          "fallback_section_count": 0,
+          "automatic_alignment_count": 113,
+          "curated_override_section_count": 0,
+          "blocked_section_count": 1,
+          "hard_failure_count": 0,
+          "alignment_granularity_counts": {
+            "block": 29,
+            "grouped": 84
+          },
+          "pre_repair_corruption_issue_count": 0,
+          "corrected_corruption_issue_count": 0,
+          "remaining_corruption_issue_count": 0,
+          "pre_repair_leakage_issue_count": 0,
+          "repaired_leakage_issue_count": 0,
+          "remaining_leakage_issue_count": 0,
+          "remaining_drift_issue_count": 0,
+          "automatic_correction_count": 0,
+          "curated_correction_count": 0,
+          "active_exportable_alignment_count": 113
+        },
+        "candidate_export": {
+          "work_id": "shiji",
+          "batch_id": "benji",
+          "rows_exported": 113,
+          "section_count": 2,
+          "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__all__aligned_passages.jsonl",
+          "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__all__aligned_passages.csv",
+          "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__all__aligned_passages.tmx",
+          "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__benji__corpus_tmx_validation.json",
+          "sections": [
+            {
+              "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+              "rows_exported": 29,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.json",
+              "tmx_status": "pass"
+            },
+            {
+              "section_id": "shiji-003-annals-of-yin",
+              "rows_exported": 84,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-003-annals-of-yin__aligned_passages.json",
+              "tmx_status": "pass"
+            }
+          ],
+          "corpus_tmx_status": "pass"
+        }
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T17:25:06+00:00",
+      "details": {
+        "hard_failure_count": 1
+      }
+    },
+    {
+      "state": "candidate_ingested",
+      "timestamp": "2026-06-05T17:41:04+00:00",
+      "details": {
+        "bootstrap_summary": {
+          "work_id": "shiji",
+          "title_zh": "史記",
+          "title_en": "Records of the Grand Historian",
+          "section_count": 3,
+          "complete_sections": 2,
+          "metadata_only_sections": 1,
+          "total_section_count": 3,
+          "active_exportable_section_count": 2,
+          "active_section_count": 2,
+          "exportable_section_count": 2,
+          "metadata_only_blocked_section_count": 1,
+          "exact_alignment_count": 113,
+          "section_group_alignment_count": 2,
+          "section_group_alignment_record_count": 2,
+          "alignment_record_count": 115,
+          "fallback_alignment_count": 0,
+          "fallback_section_count": 0,
+          "automatic_alignment_count": 113,
+          "curated_override_section_count": 0,
+          "blocked_section_count": 1,
+          "hard_failure_count": 0,
+          "alignment_granularity_counts": {
+            "block": 29,
+            "grouped": 84
+          },
+          "pre_repair_corruption_issue_count": 0,
+          "corrected_corruption_issue_count": 0,
+          "remaining_corruption_issue_count": 0,
+          "pre_repair_leakage_issue_count": 0,
+          "repaired_leakage_issue_count": 0,
+          "remaining_leakage_issue_count": 0,
+          "remaining_drift_issue_count": 0,
+          "automatic_correction_count": 0,
+          "curated_correction_count": 0,
+          "active_exportable_alignment_count": 113
+        },
+        "candidate_export": {
+          "work_id": "shiji",
+          "batch_id": "benji",
+          "rows_exported": 113,
+          "section_count": 2,
+          "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__all__aligned_passages.jsonl",
+          "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__all__aligned_passages.csv",
+          "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__all__aligned_passages.tmx",
+          "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__benji__corpus_tmx_validation.json",
+          "sections": [
+            {
+              "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+              "rows_exported": 29,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.json",
+              "tmx_status": "pass"
+            },
+            {
+              "section_id": "shiji-003-annals-of-yin",
+              "rows_exported": 84,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-003-annals-of-yin__aligned_passages.json",
+              "tmx_status": "pass"
+            }
+          ],
+          "corpus_tmx_status": "pass"
+        }
+      }
+    },
+    {
+      "state": "candidate_repaired",
+      "timestamp": "2026-06-05T17:41:04+00:00",
+      "details": {
+        "candidate_export_rows": 113
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T17:41:04+00:00",
+      "details": {
+        "hard_failure_count": 1
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T17:41:04+00:00",
+      "details": {
+        "blockers": [
+          "deterministic candidate QC has 1 hard failures"
+        ]
+      }
+    },
+    {
+      "state": "candidate_ingested",
+      "timestamp": "2026-06-05T21:37:41+00:00",
+      "details": {
+        "bootstrap_summary": {
+          "work_id": "shiji",
+          "title_zh": "史記",
+          "title_en": "Records of the Grand Historian",
+          "section_count": 3,
+          "complete_sections": 2,
+          "metadata_only_sections": 1,
+          "total_section_count": 3,
+          "active_exportable_section_count": 2,
+          "active_section_count": 2,
+          "exportable_section_count": 2,
+          "metadata_only_blocked_section_count": 1,
+          "exact_alignment_count": 113,
+          "section_group_alignment_count": 2,
+          "section_group_alignment_record_count": 2,
+          "alignment_record_count": 115,
+          "fallback_alignment_count": 0,
+          "fallback_section_count": 0,
+          "automatic_alignment_count": 113,
+          "curated_override_section_count": 0,
+          "blocked_section_count": 1,
+          "hard_failure_count": 0,
+          "alignment_granularity_counts": {
+            "block": 29,
+            "grouped": 84
+          },
+          "pre_repair_corruption_issue_count": 0,
+          "corrected_corruption_issue_count": 0,
+          "remaining_corruption_issue_count": 0,
+          "pre_repair_leakage_issue_count": 0,
+          "repaired_leakage_issue_count": 0,
+          "remaining_leakage_issue_count": 0,
+          "remaining_drift_issue_count": 0,
+          "automatic_correction_count": 0,
+          "curated_correction_count": 0,
+          "active_exportable_alignment_count": 113
+        },
+        "candidate_export": {
+          "work_id": "shiji",
+          "batch_id": "benji",
+          "rows_exported": 113,
+          "section_count": 2,
+          "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__all__aligned_passages.jsonl",
+          "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__all__aligned_passages.csv",
+          "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__all__aligned_passages.tmx",
+          "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__benji__corpus_tmx_validation.json",
+          "sections": [
+            {
+              "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+              "rows_exported": 29,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.json",
+              "tmx_status": "pass"
+            },
+            {
+              "section_id": "shiji-003-annals-of-yin",
+              "rows_exported": 84,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-003-annals-of-yin__aligned_passages.json",
+              "tmx_status": "pass"
+            }
+          ],
+          "corpus_tmx_status": "pass"
+        }
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T21:37:41+00:00",
+      "details": {
+        "hard_failure_count": 1
+      }
+    },
+    {
+      "state": "candidate_ingested",
+      "timestamp": "2026-06-05T21:53:44+00:00",
+      "details": {
+        "bootstrap_summary": {
+          "work_id": "shiji",
+          "title_zh": "史記",
+          "title_en": "Records of the Grand Historian",
+          "section_count": 3,
+          "complete_sections": 2,
+          "metadata_only_sections": 1,
+          "total_section_count": 3,
+          "active_exportable_section_count": 2,
+          "active_section_count": 2,
+          "exportable_section_count": 2,
+          "metadata_only_blocked_section_count": 1,
+          "exact_alignment_count": 113,
+          "section_group_alignment_count": 2,
+          "section_group_alignment_record_count": 2,
+          "alignment_record_count": 115,
+          "fallback_alignment_count": 0,
+          "fallback_section_count": 0,
+          "automatic_alignment_count": 113,
+          "curated_override_section_count": 0,
+          "blocked_section_count": 1,
+          "hard_failure_count": 0,
+          "alignment_granularity_counts": {
+            "block": 29,
+            "grouped": 84
+          },
+          "pre_repair_corruption_issue_count": 0,
+          "corrected_corruption_issue_count": 0,
+          "remaining_corruption_issue_count": 0,
+          "pre_repair_leakage_issue_count": 0,
+          "repaired_leakage_issue_count": 0,
+          "remaining_leakage_issue_count": 0,
+          "remaining_drift_issue_count": 0,
+          "automatic_correction_count": 0,
+          "curated_correction_count": 0,
+          "active_exportable_alignment_count": 113
+        },
+        "candidate_export": {
+          "work_id": "shiji",
+          "batch_id": "benji",
+          "rows_exported": 113,
+          "section_count": 2,
+          "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__all__aligned_passages.jsonl",
+          "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__all__aligned_passages.csv",
+          "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__all__aligned_passages.tmx",
+          "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__benji__corpus_tmx_validation.json",
+          "sections": [
+            {
+              "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+              "rows_exported": 29,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.json",
+              "tmx_status": "pass"
+            },
+            {
+              "section_id": "shiji-003-annals-of-yin",
+              "rows_exported": 84,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-003-annals-of-yin__aligned_passages.json",
+              "tmx_status": "pass"
+            }
+          ],
+          "corpus_tmx_status": "pass"
+        }
+      }
+    },
+    {
+      "state": "candidate_repaired",
+      "timestamp": "2026-06-05T21:53:44+00:00",
+      "details": {
+        "candidate_export_rows": 113
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T21:53:44+00:00",
+      "details": {
+        "hard_failure_count": 1
+      }
+    },
+    {
+      "state": "candidate_qc_failed",
+      "timestamp": "2026-06-05T21:53:44+00:00",
+      "details": {
+        "blockers": [
+          "deterministic candidate QC has 1 hard failures"
+        ]
+      }
+    },
+    {
+      "state": "candidate_ingested",
+      "timestamp": "2026-06-05T22:10:53+00:00",
+      "details": {
+        "bootstrap_summary": {
+          "work_id": "shiji",
+          "title_zh": "史記",
+          "title_en": "Records of the Grand Historian",
+          "section_count": 3,
+          "complete_sections": 2,
+          "metadata_only_sections": 1,
+          "total_section_count": 3,
+          "active_exportable_section_count": 2,
+          "active_section_count": 2,
+          "exportable_section_count": 2,
+          "metadata_only_blocked_section_count": 1,
+          "exact_alignment_count": 113,
+          "section_group_alignment_count": 2,
+          "section_group_alignment_record_count": 2,
+          "alignment_record_count": 115,
+          "fallback_alignment_count": 0,
+          "fallback_section_count": 0,
+          "automatic_alignment_count": 113,
+          "curated_override_section_count": 0,
+          "blocked_section_count": 1,
+          "hard_failure_count": 0,
+          "alignment_granularity_counts": {
+            "block": 29,
+            "grouped": 84
+          },
+          "pre_repair_corruption_issue_count": 0,
+          "corrected_corruption_issue_count": 0,
+          "remaining_corruption_issue_count": 0,
+          "pre_repair_leakage_issue_count": 0,
+          "repaired_leakage_issue_count": 0,
+          "remaining_leakage_issue_count": 0,
+          "remaining_drift_issue_count": 0,
+          "automatic_correction_count": 0,
+          "curated_correction_count": 0,
+          "active_exportable_alignment_count": 113
+        },
+        "candidate_export": {
+          "work_id": "shiji",
+          "batch_id": "benji",
+          "rows_exported": 113,
+          "section_count": 2,
+          "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__all__aligned_passages.jsonl",
+          "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__all__aligned_passages.csv",
+          "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__all__aligned_passages.tmx",
+          "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__benji__corpus_tmx_validation.json",
+          "sections": [
+            {
+              "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+              "rows_exported": 29,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.json",
+              "tmx_status": "pass"
+            },
+            {
+              "section_id": "shiji-003-annals-of-yin",
+              "rows_exported": 84,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-003-annals-of-yin__aligned_passages.json",
+              "tmx_status": "pass"
+            }
+          ],
+          "corpus_tmx_status": "pass"
+        }
+      }
+    },
+    {
+      "state": "active_proof_of_concept",
+      "timestamp": "2026-06-05T22:10:54+00:00",
+      "details": {
+        "copied_paths": [
+          "corpus/exports/jsonl/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.jsonl",
+          "corpus/exports/csv/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.csv",
+          "corpus/exports/tmx/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.tmx",
+          "corpus/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl",
+          "corpus/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv",
+          "corpus/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx",
+          "/Users/nathanhill/Code/ChinTransMem/corpus/exports/jsonl/shiji__all__aligned_passages.jsonl",
+          "/Users/nathanhill/Code/ChinTransMem/corpus/exports/csv/shiji__all__aligned_passages.csv",
+          "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shiji__all__aligned_passages.tmx"
+        ],
+        "comparison": {
+          "work_id": "shiji",
+          "batch_id": "benji",
+          "matches": true,
+          "mismatches": [],
+          "candidate_section_count": 2,
+          "active_section_count": 2,
+          "candidate_exact_alignment_count": 113,
+          "active_exact_alignment_count": 113,
+          "candidate_fallback_count": 0,
+          "active_fallback_count": 0
+        }
+      }
+    },
+    {
+      "state": "candidate_ingested",
+      "timestamp": "2026-06-05T22:36:29+00:00",
+      "details": {
+        "bootstrap_summary": {
+          "work_id": "shiji",
+          "title_zh": "史記",
+          "title_en": "Records of the Grand Historian",
+          "section_count": 3,
+          "complete_sections": 2,
+          "metadata_only_sections": 1,
+          "total_section_count": 3,
+          "active_exportable_section_count": 2,
+          "active_section_count": 2,
+          "exportable_section_count": 2,
+          "metadata_only_blocked_section_count": 1,
+          "exact_alignment_count": 113,
+          "section_group_alignment_count": 2,
+          "section_group_alignment_record_count": 2,
+          "alignment_record_count": 115,
+          "fallback_alignment_count": 0,
+          "fallback_section_count": 0,
+          "automatic_alignment_count": 113,
+          "curated_override_section_count": 0,
+          "blocked_section_count": 1,
+          "hard_failure_count": 0,
+          "alignment_granularity_counts": {
+            "block": 29,
+            "grouped": 84
+          },
+          "pre_repair_corruption_issue_count": 0,
+          "corrected_corruption_issue_count": 0,
+          "remaining_corruption_issue_count": 0,
+          "pre_repair_leakage_issue_count": 0,
+          "repaired_leakage_issue_count": 0,
+          "remaining_leakage_issue_count": 0,
+          "remaining_drift_issue_count": 0,
+          "automatic_correction_count": 0,
+          "curated_correction_count": 0,
+          "active_exportable_alignment_count": 113
+        },
+        "candidate_export": {
+          "work_id": "shiji",
+          "batch_id": "benji",
+          "rows_exported": 113,
+          "section_count": 2,
+          "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__all__aligned_passages.jsonl",
+          "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__all__aligned_passages.csv",
+          "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__all__aligned_passages.tmx",
+          "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__benji__corpus_tmx_validation.json",
+          "sections": [
+            {
+              "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+              "rows_exported": 29,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.json",
+              "tmx_status": "pass"
+            },
+            {
+              "section_id": "shiji-003-annals-of-yin",
+              "rows_exported": 84,
+              "jsonl_output": "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl",
+              "csv_output": "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv",
+              "tmx_output": "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx",
+              "tmx_validation_output": "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-003-annals-of-yin__aligned_passages.json",
+              "tmx_status": "pass"
+            }
+          ],
+          "corpus_tmx_status": "pass"
+        }
+      }
+    },
+    {
+      "state": "active_proof_of_concept",
+      "timestamp": "2026-06-05T22:36:29+00:00",
+      "details": {
+        "copied_paths": [
+          "corpus/exports/jsonl/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.jsonl",
+          "corpus/exports/csv/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.csv",
+          "corpus/exports/tmx/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.tmx",
+          "corpus/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl",
+          "corpus/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv",
+          "corpus/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx",
+          "/Users/nathanhill/Code/ChinTransMem/corpus/exports/jsonl/shiji__all__aligned_passages.jsonl",
+          "/Users/nathanhill/Code/ChinTransMem/corpus/exports/csv/shiji__all__aligned_passages.csv",
+          "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shiji__all__aligned_passages.tmx"
+        ],
+        "comparison": {
+          "work_id": "shiji",
+          "batch_id": "benji",
+          "matches": true,
+          "mismatches": [],
+          "candidate_section_count": 2,
+          "active_section_count": 2,
+          "candidate_exact_alignment_count": 113,
+          "active_exact_alignment_count": 113,
+          "candidate_fallback_count": 0,
+          "active_fallback_count": 0
+        }
+      }
+    }
+  ]
+}

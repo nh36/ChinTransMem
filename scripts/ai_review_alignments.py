@@ -336,6 +336,8 @@ def review_alignment_rows(
                 "liji-042-the-great-learning",
             }
         )
+    if work_id == "shiji":
+        reviewed_sections.update({str(row["section_id"]) for row in rows})
     selected_ids = _candidate_sample_alignment_ids(
         rows,
         risk_alignment_ids=risk_alignment_ids | set(anchor_issue_map),

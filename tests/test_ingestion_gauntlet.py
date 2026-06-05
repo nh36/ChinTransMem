@@ -55,6 +55,22 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertEqual(candidate_ai_review_path("liji").name, "liji__alignment_review.jsonl")
         self.assertEqual(candidate_report_path("liji").name, "liji_candidate_report.md")
 
+    def test_shiji_batch_candidate_outputs_are_separate_from_active_exports(self) -> None:
+        active_paths = corpus_export_paths("shiji")
+        candidate_paths = candidate_corpus_export_paths("shiji", "benji")
+
+        self.assertNotEqual(candidate_paths["jsonl"], active_paths["jsonl"])
+        self.assertNotEqual(candidate_paths["csv"], active_paths["csv"])
+        self.assertNotEqual(candidate_paths["tmx"], active_paths["tmx"])
+        self.assertIn("/corpus/candidates/shiji/benji/", str(candidate_paths["jsonl"]))
+        self.assertEqual(candidate_qc_report_path("shiji", "benji").name, "shiji__benji__candidate_qc.json")
+        self.assertEqual(candidate_ai_review_path("shiji", "benji").name, "shiji__benji__alignment_review.jsonl")
+        self.assertEqual(candidate_report_path("shiji", "benji").name, "shiji_benji_candidate_report.md")
+
+    def test_shiji_batch_scope_is_required(self) -> None:
+        with self.assertRaises(ValueError):
+            evaluate_promotion_gates("shiji")
+
     def test_promotion_fails_if_candidate_qc_has_hard_failures(self) -> None:
         gate = evaluate_promotion_gates(
             "fixture-work",
@@ -407,6 +423,85 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 0)
         self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"block": 1637, "grouped": 239})
         self.assertEqual(mozi_completion.splitlines()[0], "# Mozi completion quality")
+
+    def test_shiji_active_sections_have_provenance_and_rights_metadata(self) -> None:
+        manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "shiji.yml")
+        sources = {
+            source["source_id"]: source
+            for source in load_json(REPO_ROOT / "metadata" / "sources.yml")
+            if source.get("work_id") == "shiji"
+        }
+        active_sections = [section for section in manifest["sections"] if section["export_status"] == "active"]
+
+        self.assertEqual(manifest["summary"]["section_count"], 3)
+        self.assertEqual(manifest["summary"]["active_section_count"], 2)
+        self.assertEqual(manifest["summary"]["metadata_only_blocked_section_count"], 1)
+        for section in active_sections:
+            self.assertEqual(section["rights_status"], "rights_review_required")
+            self.assertEqual(section["release_status"], "not_cleared")
+            source_ids = section["source_ids"]
+            self.assertIn("source_id", source_ids)
+            self.assertIn("target_source_id", source_ids)
+            for source_id in (source_ids["source_id"], source_ids["target_source_id"]):
+                source = sources[source_id]
+                self.assertTrue(source["source_url"])
+                self.assertEqual(source["rights_status"], "rights_review_required")
+                self.assertEqual(source["release_status"], "not_cleared")
+                self.assertTrue(source.get("rights_note") or source.get("notes"))
+
+    def test_shiji_batch_exports_are_clean_and_agree_with_active(self) -> None:
+        candidate_qc = load_json(candidate_qc_report_path("shiji", "benji"))
+        candidate_report = candidate_report_path("shiji", "benji").read_text(encoding="utf-8")
+        reviews = load_jsonl(candidate_ai_review_path("shiji", "benji"))
+        active_rows = load_jsonl(corpus_export_paths("shiji")["jsonl"])
+        active_text_integrity = run_text_integrity_checks("shiji", rows=active_rows)
+        comparison = compare_candidate_and_active_exports("shiji", batch_id="benji")
+
+        self.assertEqual(candidate_qc["hard_failure_count"], 0)
+        self.assertEqual(active_text_integrity["hard_failure_count"], 0)
+        self.assertEqual(candidate_qc["text_integrity"]["translation_with_ocr_corruption_rows"], [])
+        self.assertEqual(candidate_qc["text_integrity"]["translation_with_notice_sections"], [])
+        self.assertEqual(candidate_qc["text_integrity"]["translation_with_commentary_sections"], [])
+        self.assertEqual(candidate_qc["text_integrity"]["translation_with_heading_sections"], [])
+        self.assertEqual({review["classification"] for review in reviews}, {"pass"})
+        self.assertTrue(comparison["matches"])
+        self.assertEqual(comparison["candidate_fallback_count"], 0)
+        self.assertEqual(comparison["active_fallback_count"], 0)
+        self.assertIn("Batch id: benji", candidate_report)
+        self.assertIn("Current state: active_proof_of_concept", candidate_report)
+        self.assertIn("Candidate and active promoted exports match on counts and file content.", candidate_report)
+
+    def test_shiji_mapping_and_reports_agree(self) -> None:
+        manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "shiji.yml")
+        mapping = load_json(REPO_ROOT / "metadata" / "chinesenotes_work_mapping.yml")
+        batch_mapping = load_json(REPO_ROOT / "metadata" / "shiji_batch_mapping.yml")
+        verification = load_json(REPO_ROOT / "metadata" / "shiji_verification_ledger.yml")
+        candidate_qc = load_json(candidate_qc_report_path("shiji", "benji"))
+        active_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "shiji__corpus_qc.json")
+        alignment_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "shiji__alignment_qc.json")
+
+        mapping_entry = next(entry for entry in mapping["works"] if entry["chintransmem_work_id"] == "shiji")
+        benji_batch = next(entry for entry in batch_mapping["batches"] if entry["batch_id"] == "benji")
+        self.assertEqual(mapping_entry["status"], "already_ingested")
+        self.assertEqual(mapping_entry["preferred_use"], "aligned_passages")
+        self.assertEqual(benji_batch["selected_chapter_numbers"], [1, 2, 3])
+        self.assertEqual(manifest["summary"]["section_count"], 3)
+        self.assertEqual(manifest["summary"]["active_section_count"], 2)
+        self.assertEqual(manifest["summary"]["metadata_only_blocked_section_count"], 1)
+        self.assertEqual(manifest["summary"]["exact_alignment_count"], 113)
+        self.assertEqual(manifest["summary"]["fallback_section_count"], 0)
+        self.assertEqual(manifest["summary"]["alignment_granularity_counts"], {"block": 29, "grouped": 84})
+        self.assertEqual(candidate_qc["status"], "pass")
+        self.assertEqual(candidate_qc["counts"]["exact_alignment_records"], 113)
+        self.assertEqual(active_qc["manifest_summary"]["exact_alignment_count"], 113)
+        self.assertEqual(active_qc["manifest_summary"]["fallback_section_count"], 0)
+        self.assertEqual(active_qc["manifest_summary"]["remaining_corruption_issue_count"], 0)
+        self.assertEqual(active_qc["manifest_summary"]["remaining_leakage_issue_count"], 0)
+        self.assertEqual(active_qc["manifest_summary"]["remaining_drift_issue_count"], 0)
+        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 113)
+        self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 0)
+        self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"block": 29, "grouped": 84})
+        self.assertEqual(verification["summary"]["active_exportable_section_count"], 2)
 
 
 if __name__ == "__main__":

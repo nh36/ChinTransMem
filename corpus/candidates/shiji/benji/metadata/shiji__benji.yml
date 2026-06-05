@@ -1,0 +1,323 @@
+{
+  "work_id": "shiji",
+  "title_zh": "史記",
+  "title_en": "Records of the Grand Historian",
+  "source_of_truth": "ChineseNotes chapter files staged through a batch-aware gauntlet.",
+  "status": "active",
+  "corpus_use_status": "proof_of_concept",
+  "rights_status": "rights_review_required",
+  "release_status": "not_cleared",
+  "source_audit_status": "complete",
+  "inventory_status": "complete",
+  "ingestion_log_status": "complete",
+  "alignment_status": "complete",
+  "tmx_status": "complete",
+  "title_variants": [
+    "Shiji",
+    "Records of the Grand Historian"
+  ],
+  "source_urls": [
+    "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/data/corpus/shiji.csv",
+    "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/"
+  ],
+  "source_audit_note": "Shiji is staged by batch. The initial benji pilot uses only the first three annals because later annals in the first division lack stable bilingual paragraph structure in the current ChineseNotes witness.",
+  "ingestion_policy": {
+    "status": "aligned_or_metadata_only",
+    "inventory_required": true,
+    "inventory_path": "metadata/shiji_inventory.yml",
+    "inventory_unit_key": "units",
+    "ingestion_plan_required": true,
+    "ingestion_plan_path": "documentation/shiji_ingestion_plan.md",
+    "source_audit_required": true,
+    "source_audit_path": "documentation/shiji_ingestion_plan.md",
+    "granularity_policy_required": true,
+    "granularity_policy_path": "documentation/alignment_granularity_policy.md",
+    "section_unit": "chapter",
+    "preferred_segment_unit": "sentence",
+    "minimum_required_alignment_scope": "chapter",
+    "maximum_exact_alignment_scope": "chapter",
+    "allowed_segment_units": [
+      "sentence",
+      "grouped",
+      "block",
+      "chapter"
+    ],
+    "coarse_alignment_units": [
+      "chapter"
+    ],
+    "granularity_order": [
+      "sentence",
+      "grouped",
+      "block",
+      "chapter"
+    ],
+    "metadata_only_allowed": true,
+    "rights_policy": "proof_of_concept_export_allowed_with_explicit_rights_review",
+    "allowed_export_rights_statuses": [
+      "public_domain",
+      "rights_review_required",
+      "mixed_source_review_required",
+      "unknown_rights_review_required"
+    ],
+    "missing_text_policy": "block_export_if_clean_chinese_or_english_text_is_missing",
+    "commentary_policy": "exclude_commentary_headings_and_notice_lines_from_exportable_segments_before_alignment",
+    "section_group_export_policy": "forbidden",
+    "completion_definition": "A Shiji batch section is complete when a provenance-tagged ChineseNotes chapter file yields clean Chinese and attributable provisional English text, deterministic alignment passes the candidate gauntlet, and any structurally unsafe section is left metadata-only."
+  },
+  "summary": {
+    "work_id": "shiji",
+    "title_zh": "史記",
+    "title_en": "Records of the Grand Historian",
+    "section_count": 3,
+    "complete_sections": 2,
+    "metadata_only_sections": 1,
+    "total_section_count": 3,
+    "active_exportable_section_count": 2,
+    "active_section_count": 2,
+    "exportable_section_count": 2,
+    "metadata_only_blocked_section_count": 1,
+    "exact_alignment_count": 113,
+    "section_group_alignment_count": 2,
+    "section_group_alignment_record_count": 2,
+    "alignment_record_count": 115,
+    "fallback_alignment_count": 0,
+    "fallback_section_count": 0,
+    "automatic_alignment_count": 113,
+    "curated_override_section_count": 0,
+    "blocked_section_count": 1,
+    "hard_failure_count": 0,
+    "alignment_granularity_counts": {
+      "block": 29,
+      "grouped": 84
+    },
+    "pre_repair_corruption_issue_count": 0,
+    "corrected_corruption_issue_count": 0,
+    "remaining_corruption_issue_count": 0,
+    "pre_repair_leakage_issue_count": 0,
+    "repaired_leakage_issue_count": 0,
+    "remaining_leakage_issue_count": 0,
+    "remaining_drift_issue_count": 0,
+    "automatic_correction_count": 0,
+    "curated_correction_count": 0,
+    "active_exportable_alignment_count": 113
+  },
+  "notes": "Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with 2 active sections and 1 metadata-only blockers.",
+  "sources": [
+    {
+      "source_id": "shiji-001-annals-annals-of-the-five-emperors__cn-zh-1f6b1d3",
+      "work_id": "shiji",
+      "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+      "source_type": "base_text",
+      "language": "zh",
+      "title": "《本紀‧五帝本紀》 ChineseNotes chapter text",
+      "translator_or_editor": "Chinese Notes / Chinese Text Project mirror",
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared",
+      "provenance_type": "digital_transcription",
+      "provenance_ref": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji001.txt",
+      "provenance_note": "ChineseNotes Shiji chapter file pinned to the upstream commit.",
+      "raw_path": "corpus/raw/chinesenotes/shiji__shiji001__chinesenotes-1f6b1d3__raw.txt",
+      "checksum_sha256": "6e23988f8ba322e918b1a6ffe2f706957f40b33a86627705b1154a73b1455ef1"
+    },
+    {
+      "source_id": "shiji-001-annals-annals-of-the-five-emperors__cn-en-1f6b1d3",
+      "work_id": "shiji",
+      "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+      "source_type": "translation",
+      "language": "en",
+      "title": "Annals - Annals of the Five Emperors ChineseNotes English witness",
+      "translator_or_editor": "Chinese Notes bilingual English witness (translator unresolved)",
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared",
+      "provenance_type": "digital_transcription",
+      "provenance_ref": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji001.txt",
+      "provenance_note": "ChineseNotes-hosted bilingual English witness. Translator attribution is not yet resolved from the source file and remains provisional.",
+      "raw_path": "corpus/raw/chinesenotes/shiji__shiji001__chinesenotes-1f6b1d3__raw.txt",
+      "checksum_sha256": "6e23988f8ba322e918b1a6ffe2f706957f40b33a86627705b1154a73b1455ef1"
+    },
+    {
+      "source_id": "shiji-002-annals-of-xia__cn-zh-1f6b1d3",
+      "work_id": "shiji",
+      "section_id": "shiji-002-annals-of-xia",
+      "source_type": "base_text",
+      "language": "zh",
+      "title": "《夏本紀》 ChineseNotes chapter text",
+      "translator_or_editor": "Chinese Notes / Chinese Text Project mirror",
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared",
+      "provenance_type": "digital_transcription",
+      "provenance_ref": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji002.txt",
+      "provenance_note": "ChineseNotes Shiji chapter file pinned to the upstream commit.",
+      "raw_path": "corpus/raw/chinesenotes/shiji__shiji002__chinesenotes-1f6b1d3__raw.txt",
+      "checksum_sha256": "518c9ab0a52e1d18f200fd91716aa6b9164d05891c079480042a73bbaaffc885"
+    },
+    {
+      "source_id": "shiji-002-annals-of-xia__cn-en-1f6b1d3",
+      "work_id": "shiji",
+      "section_id": "shiji-002-annals-of-xia",
+      "source_type": "translation",
+      "language": "en",
+      "title": "Annals of Xia ChineseNotes English witness",
+      "translator_or_editor": "Chinese Notes bilingual English witness (translator unresolved)",
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared",
+      "provenance_type": "digital_transcription",
+      "provenance_ref": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji002.txt",
+      "provenance_note": "ChineseNotes-hosted bilingual English witness. Translator attribution is not yet resolved from the source file and remains provisional.",
+      "raw_path": "corpus/raw/chinesenotes/shiji__shiji002__chinesenotes-1f6b1d3__raw.txt",
+      "checksum_sha256": "518c9ab0a52e1d18f200fd91716aa6b9164d05891c079480042a73bbaaffc885"
+    },
+    {
+      "source_id": "shiji-003-annals-of-yin__cn-zh-1f6b1d3",
+      "work_id": "shiji",
+      "section_id": "shiji-003-annals-of-yin",
+      "source_type": "base_text",
+      "language": "zh",
+      "title": "《殷本紀》 ChineseNotes chapter text",
+      "translator_or_editor": "Chinese Notes / Chinese Text Project mirror",
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared",
+      "provenance_type": "digital_transcription",
+      "provenance_ref": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji003.txt",
+      "provenance_note": "ChineseNotes Shiji chapter file pinned to the upstream commit.",
+      "raw_path": "corpus/raw/chinesenotes/shiji__shiji003__chinesenotes-1f6b1d3__raw.txt",
+      "checksum_sha256": "65bc249b190d586691c701fe8ee316f631a4412245cd693f9a70bf1c6e5bb429"
+    },
+    {
+      "source_id": "shiji-003-annals-of-yin__cn-en-1f6b1d3",
+      "work_id": "shiji",
+      "section_id": "shiji-003-annals-of-yin",
+      "source_type": "translation",
+      "language": "en",
+      "title": "Annals of Yin ChineseNotes English witness",
+      "translator_or_editor": "Chinese Notes bilingual English witness (translator unresolved)",
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared",
+      "provenance_type": "digital_transcription",
+      "provenance_ref": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji003.txt",
+      "provenance_note": "ChineseNotes-hosted bilingual English witness. Translator attribution is not yet resolved from the source file and remains provisional.",
+      "raw_path": "corpus/raw/chinesenotes/shiji__shiji003__chinesenotes-1f6b1d3__raw.txt",
+      "checksum_sha256": "65bc249b190d586691c701fe8ee316f631a4412245cd693f9a70bf1c6e5bb429"
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+      "batch_id": "benji",
+      "title_zh": "《本紀‧五帝本紀》",
+      "title_en": "Annals - Annals of the Five Emperors",
+      "label": "《本紀‧五帝本紀》",
+      "sort_key": "001",
+      "canonical_ref": "史記·《本紀‧五帝本紀》",
+      "source_ids": {
+        "source_id": "shiji-001-annals-annals-of-the-five-emperors__cn-zh-1f6b1d3",
+        "target_source_id": "shiji-001-annals-annals-of-the-five-emperors__cn-en-1f6b1d3"
+      },
+      "corpus_use_status": "proof_of_concept",
+      "export_status": "active",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared",
+      "base_text_processed_path": "corpus/processed/base_texts/shiji__shiji-001-annals-annals-of-the-five-emperors__shiji-001-annals-annals-of-the-five-emperors__cn-zh-1f6b1d3__segments.jsonl",
+      "translation_processed_path": "corpus/processed/translations/shiji__shiji-001-annals-annals-of-the-five-emperors__shiji-001-annals-annals-of-the-five-emperors__cn-en-1f6b1d3__segments.jsonl",
+      "alignment_processed_path": "corpus/processed/alignments/shiji__shiji-001-annals-annals-of-the-five-emperors__cn-zh-1f6b1d3__cn-en-1f6b1d3__alignments.jsonl",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "expected_exact_alignment_count": 29,
+      "notes": "Batch-scoped Shiji proof-of-concept export from the benji pilot tranche."
+    },
+    {
+      "section_id": "shiji-002-annals-of-xia",
+      "batch_id": "benji",
+      "title_zh": "《夏本紀》",
+      "title_en": "Annals of Xia",
+      "label": "《夏本紀》",
+      "sort_key": "002",
+      "canonical_ref": "史記·《夏本紀》",
+      "source_ids": {
+        "source_id": "shiji-002-annals-of-xia__cn-zh-1f6b1d3"
+      },
+      "corpus_use_status": "blocked",
+      "export_status": "metadata_only",
+      "alignment_status": "blocked",
+      "tmx_status": "not_ready",
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared",
+      "base_text_processed_path": "corpus/processed/base_texts/shiji__shiji-002-annals-of-xia__shiji-002-annals-of-xia__cn-zh-1f6b1d3__segments.jsonl",
+      "translation_processed_path": "corpus/processed/translations/shiji__shiji-002-annals-of-xia__shiji-002-annals-of-xia__cn-en-1f6b1d3__segments.jsonl",
+      "alignment_processed_path": null,
+      "fallback_used": false,
+      "fallback_reason": "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: Alignment QC failed for shiji-002-annals-of-xia: group 36: target segment length/structure imbalance suggests missing grouping; group 41: target segment length/structure imbalance suggests missing grouping; group 57: target segment length/structure imbalance suggests missing grouping",
+      "expected_exact_alignment_count": 0,
+      "notes": "Retained as metadata-only until a more reliable Shiji English witness or safer segmentation path is available."
+    },
+    {
+      "section_id": "shiji-003-annals-of-yin",
+      "batch_id": "benji",
+      "title_zh": "《殷本紀》",
+      "title_en": "Annals of Yin",
+      "label": "《殷本紀》",
+      "sort_key": "003",
+      "canonical_ref": "史記·《殷本紀》",
+      "source_ids": {
+        "source_id": "shiji-003-annals-of-yin__cn-zh-1f6b1d3",
+        "target_source_id": "shiji-003-annals-of-yin__cn-en-1f6b1d3"
+      },
+      "corpus_use_status": "proof_of_concept",
+      "export_status": "active",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "rights_status": "rights_review_required",
+      "release_status": "not_cleared",
+      "base_text_processed_path": "corpus/processed/base_texts/shiji__shiji-003-annals-of-yin__shiji-003-annals-of-yin__cn-zh-1f6b1d3__segments.jsonl",
+      "translation_processed_path": "corpus/processed/translations/shiji__shiji-003-annals-of-yin__shiji-003-annals-of-yin__cn-en-1f6b1d3__segments.jsonl",
+      "alignment_processed_path": "corpus/processed/alignments/shiji__shiji-003-annals-of-yin__cn-zh-1f6b1d3__cn-en-1f6b1d3__alignments.jsonl",
+      "fallback_used": false,
+      "fallback_reason": null,
+      "expected_exact_alignment_count": 84,
+      "notes": "Batch-scoped Shiji proof-of-concept export from the benji pilot tranche."
+    }
+  ],
+  "romanization_aliases": [
+    {
+      "entity_type": "work",
+      "entity_id": "shiji",
+      "romanization_system": "pinyin",
+      "alias": "Shiji"
+    },
+    {
+      "entity_type": "work",
+      "entity_id": "shiji",
+      "romanization_system": "english-title",
+      "alias": "Records of the Grand Historian"
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "shiji-001-annals-annals-of-the-five-emperors",
+      "romanization_system": "english-title",
+      "alias": "Annals - Annals of the Five Emperors"
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "shiji-002-annals-of-xia",
+      "romanization_system": "english-title",
+      "alias": "Annals of Xia"
+    },
+    {
+      "entity_type": "section",
+      "entity_id": "shiji-003-annals-of-yin",
+      "romanization_system": "english-title",
+      "alias": "Annals of Yin"
+    }
+  ],
+  "ingestion_log": [
+    {
+      "run_id": "shiji-bootstrap-active-1f6b1d3",
+      "work_id": "shiji",
+      "stage": "bootstrap",
+      "status": "completed",
+      "notes": "Generated the Shiji active pilot manifest from ChineseNotes chapter files."
+    }
+  ]
+}

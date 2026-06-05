@@ -24,16 +24,18 @@ from common import (
     candidate_work_dir,
     connect_db,
     corpus_export_paths,
+    load_work_batch_mapping,
     load_sources,
     load_work_manifest,
     manifest_sections,
     repo_relative,
+    scope_key,
     section_export_paths,
     sha256_file,
     utc_now_iso,
     write_json,
 )
-from export_corpus import load_exact_alignment_rows, write_tabular_exports, write_tmx
+from export_corpus import export_corpus, load_exact_alignment_rows, write_tabular_exports, write_tmx
 from import_corpus import import_corpus
 from qc_corpus import run_alignment_quality_checks, run_qc, run_source_traceability_checks, run_text_integrity_checks
 from validate_tmx import validate_tmx_file
@@ -49,6 +51,82 @@ CANDIDATE_STATES = {
 }
 
 
+def _require_batch_scope(work_id: str, batch_id: str | None = None) -> None:
+    if work_id == "shiji" and not batch_id:
+        raise ValueError("Shiji candidate ingestion is batch-only. Provide --batch-id (for example, --batch-id benji).")
+
+
+def _batch_entry(work_id: str, batch_id: str | None = None) -> dict[str, Any] | None:
+    if not batch_id:
+        return None
+    mapping = load_work_batch_mapping(work_id)
+    for entry in mapping.get("batches", []):
+        if str(entry.get("batch_id")) == batch_id:
+            return dict(entry)
+    raise KeyError(f"Unknown batch_id {batch_id!r} for work {work_id!r}.")
+
+
+def _batch_section_ids(work_id: str, batch_id: str | None = None) -> list[str]:
+    entry = _batch_entry(work_id, batch_id)
+    if entry is None:
+        return [str(section["section_id"]) for section in manifest_sections(work_id)]
+    section_ids = [str(section_id) for section_id in entry.get("section_ids", [])]
+    if not section_ids:
+        section_ids = [
+            str(section["section_id"])
+            for section in manifest_sections(work_id)
+            if str(section.get("batch_id") or "") == batch_id
+        ]
+    if not section_ids:
+        raise KeyError(f"Batch {batch_id!r} for {work_id!r} does not define section_ids.")
+    return section_ids
+
+
+def _scoped_manifest(work_id: str, batch_id: str | None = None) -> dict[str, Any]:
+    manifest = load_work_manifest(work_id)
+    if not batch_id:
+        return manifest
+    section_ids = set(_batch_section_ids(work_id, batch_id))
+    sections = [section for section in manifest["sections"] if str(section["section_id"]) in section_ids]
+    exact_alignment_count = sum(int(section.get("expected_exact_alignment_count", 0) or 0) for section in sections)
+    active_sections = [section for section in sections if section.get("tmx_status") == "complete"]
+    fallback_sections = [section for section in sections if section.get("fallback_used")]
+    scoped = dict(manifest)
+    scoped["sections"] = sections
+    scoped["summary"] = {
+        **dict(manifest.get("summary", {})),
+        "section_count": len(sections),
+        "complete_sections": len(active_sections),
+        "metadata_only_sections": len(sections) - len(active_sections),
+        "total_section_count": len(sections),
+        "active_exportable_section_count": len(active_sections),
+        "active_section_count": len(active_sections),
+        "exportable_section_count": len(active_sections),
+        "metadata_only_blocked_section_count": len(sections) - len(active_sections),
+        "blocked_section_count": len(sections) - len(active_sections),
+        "exact_alignment_count": exact_alignment_count,
+        "active_exportable_alignment_count": exact_alignment_count,
+        "fallback_alignment_count": len(fallback_sections),
+        "fallback_section_count": len(fallback_sections),
+        "section_group_alignment_record_count": len(active_sections),
+        "alignment_record_count": exact_alignment_count + len(active_sections),
+    }
+    return scoped
+
+
+def _filter_rows_to_scope(rows: list[dict[str, Any]], work_id: str, batch_id: str | None = None) -> list[dict[str, Any]]:
+    if not batch_id:
+        return rows
+    section_ids = set(_batch_section_ids(work_id, batch_id))
+    return [row for row in rows if str(row.get("section_id")) in section_ids]
+
+
+def _scope_title(work_id: str, batch_id: str | None = None) -> str:
+    if not batch_id:
+        return work_id
+    return f"{work_id} {batch_id}"
+
+
 def _load_json(path: Path | None) -> dict[str, Any]:
     if path is None or not path.exists():
         return {}
@@ -61,12 +139,12 @@ def _load_review_rows(path: Path | None) -> list[dict[str, Any]]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
-def _candidate_snapshot_paths(work_id: str) -> dict[str, Path]:
-    root = candidate_work_dir(work_id)
+def _candidate_snapshot_paths(work_id: str, batch_id: str | None = None) -> dict[str, Path]:
+    root = candidate_work_dir(work_id, batch_id)
     return {
-        "manifest": root / "metadata" / f"{work_id}.yml",
-        "alignment_qc": candidate_alignment_snapshot_path(work_id),
-        "repair_log": candidate_repair_log_path(work_id),
+        "manifest": root / "metadata" / f"{scope_key(work_id, batch_id)}.yml",
+        "alignment_qc": candidate_alignment_snapshot_path(work_id, batch_id),
+        "repair_log": candidate_repair_log_path(work_id, batch_id),
     }
 
 
@@ -76,18 +154,25 @@ def _active_state_for_manifest(manifest: dict[str, Any]) -> str:
     return "active_proof_of_concept"
 
 
-def _load_candidate_state(work_id: str) -> dict[str, Any]:
-    path = candidate_state_path(work_id)
+def _load_candidate_state(work_id: str, batch_id: str | None = None) -> dict[str, Any]:
+    path = candidate_state_path(work_id, batch_id)
     if not path.exists():
-        return {"work_id": work_id, "current_state": None, "history": []}
+        return {"work_id": work_id, "batch_id": batch_id, "current_state": None, "history": []}
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def update_candidate_state(work_id: str, state: str, *, details: dict[str, Any] | None = None) -> dict[str, Any]:
+def update_candidate_state(
+    work_id: str,
+    state: str,
+    *,
+    batch_id: str | None = None,
+    details: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     if state not in CANDIDATE_STATES:
         raise ValueError(f"Unsupported candidate state: {state}")
-    payload = _load_candidate_state(work_id)
+    payload = _load_candidate_state(work_id, batch_id)
     payload["work_id"] = work_id
+    payload["batch_id"] = batch_id
     payload["current_state"] = state
     payload.setdefault("history", []).append(
         {
@@ -96,12 +181,12 @@ def update_candidate_state(work_id: str, state: str, *, details: dict[str, Any] 
             "details": details or {},
         }
     )
-    write_json(candidate_state_path(work_id), payload)
+    write_json(candidate_state_path(work_id, batch_id), payload)
     return payload
 
 
-def _reset_candidate_workspace(work_id: str) -> None:
-    root = candidate_work_dir(work_id)
+def _reset_candidate_workspace(work_id: str, batch_id: str | None = None) -> None:
+    root = candidate_work_dir(work_id, batch_id)
     root.mkdir(parents=True, exist_ok=True)
     for name in ("exports", "reports", "repair_logs", "metadata"):
         shutil.rmtree(root / name, ignore_errors=True)
@@ -114,8 +199,8 @@ def _copy_if_exists(source: Path, destination: Path) -> None:
     shutil.copy2(source, destination)
 
 
-def _snapshot_candidate_inputs(work_id: str) -> dict[str, str]:
-    snapshots = _candidate_snapshot_paths(work_id)
+def _snapshot_candidate_inputs(work_id: str, batch_id: str | None = None) -> dict[str, str]:
+    snapshots = _candidate_snapshot_paths(work_id, batch_id)
     manifest_path = REPO_ROOT / "metadata" / "manifests" / f"{work_id}.yml"
     alignment_qc_path = REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__alignment_qc.json"
     repair_log_path = REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__ocr_repair_log.json"
@@ -125,14 +210,19 @@ def _snapshot_candidate_inputs(work_id: str) -> dict[str, str]:
     return {key: repo_relative(path) for key, path in snapshots.items() if path.exists()}
 
 
-def write_candidate_exports(work_id: str, *, db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, Any]:
-    root_paths = candidate_corpus_export_paths(work_id)
+def write_candidate_exports(
+    work_id: str,
+    *,
+    db_path: Path | str = DEFAULT_DB_PATH,
+    batch_id: str | None = None,
+) -> dict[str, Any]:
+    root_paths = candidate_corpus_export_paths(work_id, batch_id)
     per_section: list[dict[str, Any]] = []
-    for section in manifest_sections(work_id):
+    for section in _scoped_manifest(work_id, batch_id)["sections"]:
         if section.get("tmx_status", "complete") != "complete":
             continue
         rows = load_exact_alignment_rows(db_path, work_id, section["section_id"])
-        paths = candidate_section_export_paths(section["section_id"], work_id)
+        paths = candidate_section_export_paths(section["section_id"], work_id, batch_id)
         write_tabular_exports(rows, paths["jsonl"], paths["csv"])
         write_tmx(rows, paths["tmx"], work_id=work_id)
         validation = validate_tmx_file(db_path, paths["tmx"], paths["tmx_validation"], section["section_id"], work_id=work_id)
@@ -147,12 +237,14 @@ def write_candidate_exports(work_id: str, *, db_path: Path | str = DEFAULT_DB_PA
                 "tmx_status": validation["status"],
             }
         )
-    corpus_rows = load_exact_alignment_rows(db_path, work_id)
+    section_ids = {section["section_id"] for section in _scoped_manifest(work_id, batch_id)["sections"]}
+    corpus_rows = [row for row in load_exact_alignment_rows(db_path, work_id) if row["section_id"] in section_ids]
     write_tabular_exports(corpus_rows, root_paths["jsonl"], root_paths["csv"])
     write_tmx(corpus_rows, root_paths["tmx"], work_id=work_id)
     corpus_validation = validate_tmx_file(db_path, root_paths["tmx"], root_paths["tmx_validation"], work_id=work_id)
     return {
         "work_id": work_id,
+        "batch_id": batch_id,
         "rows_exported": len(corpus_rows),
         "section_count": len(per_section),
         "jsonl_output": repo_relative(root_paths["jsonl"]),
@@ -164,18 +256,24 @@ def write_candidate_exports(work_id: str, *, db_path: Path | str = DEFAULT_DB_PA
     }
 
 
-def ingest_candidate(work_id: str, *, skip_fetch: bool = True) -> dict[str, Any]:
-    _reset_candidate_workspace(work_id)
+def ingest_candidate(work_id: str, *, skip_fetch: bool = True, batch_id: str | None = None) -> dict[str, Any]:
+    _require_batch_scope(work_id, batch_id)
+    _reset_candidate_workspace(work_id, batch_id)
+    if work_id == "shiji" and batch_id:
+        from bootstrap_shiji_corpus import bootstrap_shiji_corpus
+
+        bootstrap_shiji_corpus(skip_fetch=skip_fetch, batch_id=batch_id)
     bootstrap_summary = bootstrap_all_manifests(skip_fetch=skip_fetch)
     bootstrap_work_summary = next(
         work_summary["summary"] for work_summary in bootstrap_summary["works"] if work_summary["work_id"] == work_id
     )
     import_summary = import_corpus(DEFAULT_DB_PATH)
-    export_summary = write_candidate_exports(work_id, db_path=DEFAULT_DB_PATH)
-    snapshots = _snapshot_candidate_inputs(work_id)
+    export_summary = write_candidate_exports(work_id, db_path=DEFAULT_DB_PATH, batch_id=batch_id)
+    snapshots = _snapshot_candidate_inputs(work_id, batch_id)
     state = update_candidate_state(
         work_id,
         "candidate_ingested",
+        batch_id=batch_id,
         details={
             "bootstrap_summary": bootstrap_work_summary,
             "candidate_export": export_summary,
@@ -183,6 +281,7 @@ def ingest_candidate(work_id: str, *, skip_fetch: bool = True) -> dict[str, Any]
     )
     return {
         "work_id": work_id,
+        "batch_id": batch_id,
         "state": state["current_state"],
         "bootstrap_summary": bootstrap_work_summary,
         "import_summary": import_summary["work_summaries"][work_id]["summary"],
@@ -191,24 +290,30 @@ def ingest_candidate(work_id: str, *, skip_fetch: bool = True) -> dict[str, Any]
     }
 
 
-def _candidate_rows_by_section(work_id: str) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
+def _candidate_rows_by_section(
+    work_id: str,
+    batch_id: str | None = None,
+) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
     corpus_rows = [
         dict(row)
-        for row in _load_review_rows(candidate_corpus_export_paths(work_id)["jsonl"])
+        for row in _load_review_rows(candidate_corpus_export_paths(work_id, batch_id)["jsonl"])
     ]
+    corpus_rows = _filter_rows_to_scope(corpus_rows, work_id, batch_id)
     rows_by_section: dict[str, list[dict[str, Any]]] = {}
     for row in corpus_rows:
         rows_by_section.setdefault(str(row["section_id"]), []).append(row)
     return corpus_rows, rows_by_section
 
 
-def _active_rows(work_id: str) -> list[dict[str, Any]]:
-    return [dict(row) for row in _load_review_rows(corpus_export_paths(work_id)["jsonl"])]
+def _active_rows(work_id: str, batch_id: str | None = None) -> list[dict[str, Any]]:
+    rows = [dict(row) for row in _load_review_rows(corpus_export_paths(work_id)["jsonl"])]
+    return _filter_rows_to_scope(rows, work_id, batch_id)
 
 
 def compare_candidate_and_active_exports(
     work_id: str,
     *,
+    batch_id: str | None = None,
     candidate_qc: dict[str, Any] | None = None,
     active_qc: dict[str, Any] | None = None,
     candidate_rows: list[dict[str, Any]] | None = None,
@@ -216,12 +321,13 @@ def compare_candidate_and_active_exports(
     candidate_alignment_snapshot: dict[str, Any] | None = None,
     active_alignment_snapshot: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
-    candidate_report = candidate_qc or _load_json(candidate_qc_report_path(work_id))
+    candidate_report = candidate_qc or _load_json(candidate_qc_report_path(work_id, batch_id))
     active_report = active_qc or _load_json(REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__corpus_qc.json")
-    candidate_alignment = candidate_alignment_snapshot or _load_json(candidate_alignment_snapshot_path(work_id))
+    candidate_alignment = candidate_alignment_snapshot or _load_json(candidate_alignment_snapshot_path(work_id, batch_id))
     active_alignment = active_alignment_snapshot or _load_json(REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__alignment_qc.json")
-    candidate_export_rows = candidate_rows or _load_review_rows(candidate_corpus_export_paths(work_id)["jsonl"])
-    active_export_rows = active_rows or _active_rows(work_id)
+    candidate_export_rows = candidate_rows or _load_review_rows(candidate_corpus_export_paths(work_id, batch_id)["jsonl"])
+    candidate_export_rows = _filter_rows_to_scope(candidate_export_rows, work_id, batch_id)
+    active_export_rows = active_rows or _active_rows(work_id, batch_id)
 
     mismatches: list[str] = []
     candidate_section_ids = sorted({str(row["section_id"]) for row in candidate_export_rows})
@@ -268,15 +374,16 @@ def compare_candidate_and_active_exports(
         if int(candidate_report.get(key, 0)) != int(active_report.get(key, 0)):
             mismatches.append(f"candidate and active corpus QC {key} differ")
 
-    for candidate_path, active_path in (
-        (candidate_corpus_export_paths(work_id)["jsonl"], corpus_export_paths(work_id)["jsonl"]),
-        (candidate_corpus_export_paths(work_id)["csv"], corpus_export_paths(work_id)["csv"]),
-        (candidate_corpus_export_paths(work_id)["tmx"], corpus_export_paths(work_id)["tmx"]),
-    ):
-        if candidate_path.exists() and active_path.exists() and sha256_file(candidate_path) != sha256_file(active_path):
-            mismatches.append(f"candidate and active corpus export differ for {candidate_path.suffix.lstrip('.')}")
+    if batch_id is None:
+        for candidate_path, active_path in (
+            (candidate_corpus_export_paths(work_id)["jsonl"], corpus_export_paths(work_id)["jsonl"]),
+            (candidate_corpus_export_paths(work_id)["csv"], corpus_export_paths(work_id)["csv"]),
+            (candidate_corpus_export_paths(work_id)["tmx"], corpus_export_paths(work_id)["tmx"]),
+        ):
+            if candidate_path.exists() and active_path.exists() and sha256_file(candidate_path) != sha256_file(active_path):
+                mismatches.append(f"candidate and active corpus export differ for {candidate_path.suffix.lstrip('.')}")
     for section_id in candidate_section_ids:
-        candidate_paths = candidate_section_export_paths(section_id, work_id)
+        candidate_paths = candidate_section_export_paths(section_id, work_id, batch_id)
         active_paths = section_export_paths(section_id, work_id)
         for key in ("jsonl", "csv", "tmx"):
             if candidate_paths[key].exists() and active_paths[key].exists() and sha256_file(candidate_paths[key]) != sha256_file(active_paths[key]):
@@ -284,6 +391,7 @@ def compare_candidate_and_active_exports(
 
     return {
         "work_id": work_id,
+        "batch_id": batch_id,
         "matches": not mismatches,
         "mismatches": sorted(set(mismatches)),
         "candidate_section_count": len(candidate_section_ids),
@@ -295,29 +403,49 @@ def compare_candidate_and_active_exports(
     }
 
 
-def run_candidate_qc(work_id: str, *, db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, Any]:
-    manifest = load_work_manifest(work_id)
-    corpus_rows, rows_by_section = _candidate_rows_by_section(work_id)
+def run_candidate_qc(
+    work_id: str,
+    *,
+    db_path: Path | str = DEFAULT_DB_PATH,
+    batch_id: str | None = None,
+) -> dict[str, Any]:
+    _require_batch_scope(work_id, batch_id)
+    manifest = _scoped_manifest(work_id, batch_id)
+    section_ids = [section["section_id"] for section in manifest["sections"]]
+    corpus_rows, rows_by_section = _candidate_rows_by_section(work_id, batch_id)
+    placeholders = ",".join("?" for _ in section_ids) or "''"
     with connect_db(db_path) as connection:
         counts = {
             "works": connection.execute("SELECT COUNT(*) FROM works WHERE work_id = ?", (work_id,)).fetchone()[0],
-            "sections": connection.execute("SELECT COUNT(*) FROM sections WHERE work_id = ?", (work_id,)).fetchone()[0],
+            "sections": connection.execute(
+                f"SELECT COUNT(*) FROM sections WHERE work_id = ? AND section_id IN ({placeholders})",
+                (work_id, *section_ids),
+            ).fetchone()[0],
             "persons": connection.execute("SELECT COUNT(*) FROM persons").fetchone()[0],
-            "sources": connection.execute("SELECT COUNT(*) FROM sources WHERE work_id = ?", (work_id,)).fetchone()[0],
-            "segments": connection.execute("SELECT COUNT(*) FROM segments WHERE work_id = ?", (work_id,)).fetchone()[0],
-            "alignments": connection.execute("SELECT COUNT(*) FROM alignments WHERE work_id = ?", (work_id,)).fetchone()[0],
+            "sources": connection.execute(
+                f"SELECT COUNT(*) FROM sources WHERE work_id = ? AND section_id IN ({placeholders})",
+                (work_id, *section_ids),
+            ).fetchone()[0],
+            "segments": connection.execute(
+                f"SELECT COUNT(*) FROM segments WHERE work_id = ? AND section_id IN ({placeholders})",
+                (work_id, *section_ids),
+            ).fetchone()[0],
+            "alignments": connection.execute(
+                f"SELECT COUNT(*) FROM alignments WHERE work_id = ? AND section_id IN ({placeholders})",
+                (work_id, *section_ids),
+            ).fetchone()[0],
             "exact_alignment_records": connection.execute(
-                "SELECT COUNT(*) FROM alignments WHERE work_id = ? AND alignment_type = 'exact_or_near_exact'",
-                (work_id,),
+                f"SELECT COUNT(*) FROM alignments WHERE work_id = ? AND section_id IN ({placeholders}) AND alignment_type = 'exact_or_near_exact'",
+                (work_id, *section_ids),
             ).fetchone()[0],
             "section_group_alignment_records": connection.execute(
-                "SELECT COUNT(*) FROM alignments WHERE work_id = ? AND alignment_type = 'section_group'",
-                (work_id,),
+                f"SELECT COUNT(*) FROM alignments WHERE work_id = ? AND section_id IN ({placeholders}) AND alignment_type = 'section_group'",
+                (work_id, *section_ids),
             ).fetchone()[0],
         }
         section_reports: list[dict[str, Any]] = []
         overall_status = "pass"
-        for section in manifest_sections(work_id):
+        for section in manifest["sections"]:
             segment_rows = connection.execute(
                 """
                 SELECT segment_id, source_id
@@ -382,7 +510,7 @@ def run_candidate_qc(work_id: str, *, db_path: Path | str = DEFAULT_DB_PATH) -> 
             )
     text_integrity = run_text_integrity_checks(work_id, rows=corpus_rows)
     alignment_quality = run_alignment_quality_checks(work_id, rows=corpus_rows)
-    source_traceability = run_source_traceability_checks(work_id)
+    source_traceability = run_source_traceability_checks(work_id, section_ids=section_ids)
     count_disagreement_errors: list[str] = []
     if manifest["summary"]["exact_alignment_count"] != len(corpus_rows):
         count_disagreement_errors.append(
@@ -398,16 +526,19 @@ def run_candidate_qc(work_id: str, *, db_path: Path | str = DEFAULT_DB_PATH) -> 
             f"{manifest['summary']['section_group_alignment_record_count']} != sqlite section_group count {counts['section_group_alignment_records']}"
         )
     candidate_paths: list[Path] = []
-    for section in manifest_sections(work_id):
+    for section in manifest["sections"]:
         if section.get("tmx_status") != "complete":
             continue
-        candidate_paths.extend(path for path in candidate_section_export_paths(section["section_id"], work_id).values() if path.exists())
-    candidate_paths.extend(path for path in candidate_corpus_export_paths(work_id).values() if path.exists())
-    snapshot_paths = [path for path in _candidate_snapshot_paths(work_id).values() if path.exists()]
+        candidate_paths.extend(
+            path for path in candidate_section_export_paths(section["section_id"], work_id, batch_id).values() if path.exists()
+        )
+    candidate_paths.extend(path for path in candidate_corpus_export_paths(work_id, batch_id).values() if path.exists())
+    snapshot_paths = [path for path in _candidate_snapshot_paths(work_id, batch_id).values() if path.exists()]
     report = {
         "status": overall_status,
         "work_id": work_id,
-        "candidate_export_root": repo_relative(candidate_work_dir(work_id)),
+        "batch_id": batch_id,
+        "candidate_export_root": repo_relative(candidate_work_dir(work_id, batch_id)),
         "manifest_summary": manifest["summary"],
         "counts": counts,
         "sections": section_reports,
@@ -435,28 +566,39 @@ def run_candidate_qc(work_id: str, *, db_path: Path | str = DEFAULT_DB_PATH) -> 
         update_candidate_state(
             work_id,
             "candidate_qc_failed",
+            batch_id=batch_id,
             details={"hard_failure_count": report["hard_failure_count"]},
         )
-    write_json(candidate_qc_report_path(work_id), report)
+    write_json(candidate_qc_report_path(work_id, batch_id), report)
     return report
 
 
-def run_candidate_ai_review(work_id: str) -> dict[str, Any]:
-    summary = review_candidate_alignments(work_id)
+def run_candidate_ai_review(work_id: str, *, batch_id: str | None = None) -> dict[str, Any]:
+    _require_batch_scope(work_id, batch_id)
+    summary = review_candidate_alignments(
+        work_id,
+        input_jsonl=candidate_corpus_export_paths(work_id, batch_id)["jsonl"],
+        output_path=candidate_ai_review_path(work_id, batch_id),
+        qc_report_path=candidate_qc_report_path(work_id, batch_id),
+        repair_log_path=candidate_repair_log_path(work_id, batch_id),
+    )
     if summary["failed_high_risk_alignment_count"]:
         update_candidate_state(
             work_id,
             "candidate_qc_failed",
+            batch_id=batch_id,
             details={"failed_high_risk_alignment_count": summary["failed_high_risk_alignment_count"]},
         )
     return summary
 
 
-def refine_candidate(work_id: str, *, skip_fetch: bool = True) -> dict[str, Any]:
-    summary = ingest_candidate(work_id, skip_fetch=skip_fetch)
+def refine_candidate(work_id: str, *, skip_fetch: bool = True, batch_id: str | None = None) -> dict[str, Any]:
+    _require_batch_scope(work_id, batch_id)
+    summary = ingest_candidate(work_id, skip_fetch=skip_fetch, batch_id=batch_id)
     update_candidate_state(
         work_id,
         "candidate_repaired",
+        batch_id=batch_id,
         details={"candidate_export_rows": summary["candidate_export"]["rows_exported"]},
     )
     return summary
@@ -465,6 +607,7 @@ def refine_candidate(work_id: str, *, skip_fetch: bool = True) -> dict[str, Any]
 def evaluate_promotion_gates(
     work_id: str,
     *,
+    batch_id: str | None = None,
     candidate_qc: dict[str, Any] | None = None,
     ai_reviews: list[dict[str, Any]] | None = None,
     alignment_snapshot: dict[str, Any] | None = None,
@@ -472,12 +615,14 @@ def evaluate_promotion_gates(
     manifest: dict[str, Any] | None = None,
     candidate_rows: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
-    qc_report = candidate_qc or _load_json(candidate_qc_report_path(work_id))
-    review_rows = ai_reviews or _load_review_rows(candidate_ai_review_path(work_id))
-    alignment_payload = alignment_snapshot or _load_json(candidate_alignment_snapshot_path(work_id))
-    repair_payload = repair_log or _load_json(candidate_repair_log_path(work_id))
-    current_manifest = manifest or load_work_manifest(work_id)
-    rows = candidate_rows or _load_review_rows(candidate_corpus_export_paths(work_id)["jsonl"])
+    _require_batch_scope(work_id, batch_id)
+    qc_report = candidate_qc or _load_json(candidate_qc_report_path(work_id, batch_id))
+    review_rows = ai_reviews or _load_review_rows(candidate_ai_review_path(work_id, batch_id))
+    alignment_payload = alignment_snapshot or _load_json(candidate_alignment_snapshot_path(work_id, batch_id))
+    repair_payload = repair_log or _load_json(candidate_repair_log_path(work_id, batch_id))
+    current_manifest = manifest or _scoped_manifest(work_id, batch_id)
+    rows = candidate_rows or _load_review_rows(candidate_corpus_export_paths(work_id, batch_id)["jsonl"])
+    rows = _filter_rows_to_scope(rows, work_id, batch_id)
     review_summary = summarize_reviews(review_rows)
     blockers: list[str] = []
     if not rows:
@@ -525,6 +670,7 @@ def evaluate_promotion_gates(
     )
     return {
         "work_id": work_id,
+        "batch_id": batch_id,
         "can_promote": not blockers,
         "next_state": state,
         "blockers": blockers,
@@ -535,55 +681,65 @@ def evaluate_promotion_gates(
     }
 
 
-def _copy_candidate_exports_to_active(work_id: str) -> list[str]:
+def _copy_candidate_exports_to_active(work_id: str, batch_id: str | None = None) -> list[str]:
     copied: list[str] = []
-    for section in manifest_sections(work_id):
+    for section in _scoped_manifest(work_id, batch_id)["sections"]:
         if section.get("tmx_status") != "complete":
             continue
-        candidate_paths = candidate_section_export_paths(section["section_id"], work_id)
+        candidate_paths = candidate_section_export_paths(section["section_id"], work_id, batch_id)
         active_paths = section_export_paths(section["section_id"], work_id)
         for key in ("jsonl", "csv", "tmx"):
             shutil.copy2(candidate_paths[key], active_paths[key])
             copied.append(repo_relative(active_paths[key]))
-    candidate_corpus_paths = candidate_corpus_export_paths(work_id)
-    active_corpus_paths = corpus_export_paths(work_id)
-    for key in ("jsonl", "csv", "tmx"):
-        shutil.copy2(candidate_corpus_paths[key], active_corpus_paths[key])
-        copied.append(repo_relative(active_corpus_paths[key]))
+    if batch_id is None:
+        candidate_corpus_paths = candidate_corpus_export_paths(work_id)
+        active_corpus_paths = corpus_export_paths(work_id)
+        for key in ("jsonl", "csv", "tmx"):
+            shutil.copy2(candidate_corpus_paths[key], active_corpus_paths[key])
+            copied.append(repo_relative(active_corpus_paths[key]))
+    else:
+        active_export = export_corpus(DEFAULT_DB_PATH, work_id=work_id)
+        copied.append(active_export["jsonl_output"])
+        copied.append(active_export["csv_output"])
+        copied.append(active_export["tmx_output"])
     return copied
 
 
-def promote_candidate(work_id: str) -> dict[str, Any]:
-    gate_summary = evaluate_promotion_gates(work_id)
+def promote_candidate(work_id: str, *, batch_id: str | None = None) -> dict[str, Any]:
+    _require_batch_scope(work_id, batch_id)
+    gate_summary = evaluate_promotion_gates(work_id, batch_id=batch_id)
     if not gate_summary["can_promote"]:
-        update_candidate_state(work_id, gate_summary["next_state"], details={"blockers": gate_summary["blockers"]})
+        update_candidate_state(work_id, gate_summary["next_state"], batch_id=batch_id, details={"blockers": gate_summary["blockers"]})
         raise ValueError("; ".join(gate_summary["blockers"]))
-    copied_paths = _copy_candidate_exports_to_active(work_id)
+    copied_paths = _copy_candidate_exports_to_active(work_id, batch_id)
     active_qc = run_qc(DEFAULT_DB_PATH, work_id=work_id)
     comparison = compare_candidate_and_active_exports(
         work_id,
-        candidate_qc=_load_json(candidate_qc_report_path(work_id)),
+        batch_id=batch_id,
+        candidate_qc=_load_json(candidate_qc_report_path(work_id, batch_id)),
         active_qc=active_qc,
     )
     if not comparison["matches"]:
-        update_candidate_state(work_id, "candidate_qc_failed", details={"blockers": comparison["mismatches"]})
+        update_candidate_state(work_id, "candidate_qc_failed", batch_id=batch_id, details={"blockers": comparison["mismatches"]})
         raise ValueError("; ".join(comparison["mismatches"]))
     state = _active_state_for_manifest(load_work_manifest(work_id))
-    update_candidate_state(work_id, state, details={"copied_paths": copied_paths, "comparison": comparison})
-    return {"work_id": work_id, "state": state, "copied_paths": copied_paths, "comparison": comparison}
+    update_candidate_state(work_id, state, batch_id=batch_id, details={"copied_paths": copied_paths, "comparison": comparison})
+    return {"work_id": work_id, "batch_id": batch_id, "state": state, "copied_paths": copied_paths, "comparison": comparison}
 
 
-def write_candidate_report(work_id: str) -> dict[str, Any]:
-    state = _load_candidate_state(work_id)
-    candidate_qc = _load_json(candidate_qc_report_path(work_id))
-    ai_reviews = _load_review_rows(candidate_ai_review_path(work_id))
+def write_candidate_report(work_id: str, *, batch_id: str | None = None) -> dict[str, Any]:
+    _require_batch_scope(work_id, batch_id)
+    state = _load_candidate_state(work_id, batch_id)
+    candidate_qc = _load_json(candidate_qc_report_path(work_id, batch_id))
+    ai_reviews = _load_review_rows(candidate_ai_review_path(work_id, batch_id))
     ai_summary = summarize_reviews(ai_reviews)
-    alignment_snapshot = _load_json(candidate_alignment_snapshot_path(work_id))
-    repair_log = _load_json(candidate_repair_log_path(work_id))
+    alignment_snapshot = _load_json(candidate_alignment_snapshot_path(work_id, batch_id))
+    repair_log = _load_json(candidate_repair_log_path(work_id, batch_id))
     active_qc = _load_json(REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__corpus_qc.json")
     active_alignment = _load_json(REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__alignment_qc.json")
     gate_summary = evaluate_promotion_gates(
         work_id,
+        batch_id=batch_id,
         candidate_qc=candidate_qc,
         ai_reviews=ai_reviews,
         alignment_snapshot=alignment_snapshot,
@@ -591,16 +747,20 @@ def write_candidate_report(work_id: str) -> dict[str, Any]:
     )
     active_comparison = compare_candidate_and_active_exports(
         work_id,
+        batch_id=batch_id,
         candidate_qc=candidate_qc,
         active_qc=active_qc,
         candidate_alignment_snapshot=alignment_snapshot,
         active_alignment_snapshot=active_alignment,
     )
+    title = _scope_title(work_id, batch_id)
     lines = [
-        f"# {work_id} candidate report",
+        f"# {title} candidate report",
         "",
+        f"- Work id: {work_id}",
+        f"- Batch id: {batch_id}" if batch_id else "- Batch id: none",
         f"- Current state: {state.get('current_state')}",
-        f"- Candidate export root: `{repo_relative(candidate_work_dir(work_id))}`",
+        f"- Candidate export root: `{repo_relative(candidate_work_dir(work_id, batch_id))}`",
         f"- Deterministic QC status: {candidate_qc.get('status', 'missing')}",
         f"- Deterministic QC hard failures: {candidate_qc.get('hard_failure_count', 0)}",
         f"- Deterministic QC issue count: {candidate_qc.get('deterministic_issue_count', 0)}",
@@ -633,32 +793,34 @@ def write_candidate_report(work_id: str) -> dict[str, Any]:
         lines.extend(f"- {mismatch}" for mismatch in active_comparison["mismatches"])
     else:
         lines.append("- Candidate and active promoted exports match on counts and file content.")
-    path = candidate_report_path(work_id)
+    path = candidate_report_path(work_id, batch_id)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    return {"work_id": work_id, "report_path": repo_relative(path), "can_promote": gate_summary["can_promote"]}
+    return {"work_id": work_id, "batch_id": batch_id, "report_path": repo_relative(path), "can_promote": gate_summary["can_promote"]}
 
 
-def run_ingestion_gauntlet(work_id: str, *, skip_fetch: bool = True) -> dict[str, Any]:
-    ingest_summary = ingest_candidate(work_id, skip_fetch=skip_fetch)
-    candidate_qc = run_candidate_qc(work_id)
-    ai_summary = run_candidate_ai_review(work_id)
-    gate_summary = evaluate_promotion_gates(work_id)
+def run_ingestion_gauntlet(work_id: str, *, skip_fetch: bool = True, batch_id: str | None = None) -> dict[str, Any]:
+    _require_batch_scope(work_id, batch_id)
+    ingest_summary = ingest_candidate(work_id, skip_fetch=skip_fetch, batch_id=batch_id)
+    candidate_qc = run_candidate_qc(work_id, batch_id=batch_id)
+    ai_summary = run_candidate_ai_review(work_id, batch_id=batch_id)
+    gate_summary = evaluate_promotion_gates(work_id, batch_id=batch_id)
     repaired = False
     if not gate_summary["can_promote"]:
-        refine_candidate(work_id, skip_fetch=skip_fetch)
+        refine_candidate(work_id, skip_fetch=skip_fetch, batch_id=batch_id)
         repaired = True
-        candidate_qc = run_candidate_qc(work_id)
-        ai_summary = run_candidate_ai_review(work_id)
-        gate_summary = evaluate_promotion_gates(work_id)
+        candidate_qc = run_candidate_qc(work_id, batch_id=batch_id)
+        ai_summary = run_candidate_ai_review(work_id, batch_id=batch_id)
+        gate_summary = evaluate_promotion_gates(work_id, batch_id=batch_id)
     if gate_summary["can_promote"]:
-        promote_summary = promote_candidate(work_id)
+        promote_summary = promote_candidate(work_id, batch_id=batch_id)
     else:
-        update_candidate_state(work_id, gate_summary["next_state"], details={"blockers": gate_summary["blockers"]})
-        promote_summary = {"work_id": work_id, "state": gate_summary["next_state"], "copied_paths": []}
-    report_summary = write_candidate_report(work_id)
+        update_candidate_state(work_id, gate_summary["next_state"], batch_id=batch_id, details={"blockers": gate_summary["blockers"]})
+        promote_summary = {"work_id": work_id, "batch_id": batch_id, "state": gate_summary["next_state"], "copied_paths": []}
+    report_summary = write_candidate_report(work_id, batch_id=batch_id)
     return {
         "work_id": work_id,
+        "batch_id": batch_id,
         "ingest": ingest_summary,
         "candidate_qc": {
             "status": candidate_qc["status"],
@@ -670,7 +832,7 @@ def run_ingestion_gauntlet(work_id: str, *, skip_fetch: bool = True) -> dict[str
         "promotion_gate": gate_summary,
         "promotion": promote_summary,
         "candidate_report": report_summary,
-        "current_state": _load_candidate_state(work_id).get("current_state"),
+        "current_state": _load_candidate_state(work_id, batch_id).get("current_state"),
     }
 
 
@@ -678,21 +840,22 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Run the candidate ingestion gauntlet for a work.")
     parser.add_argument("command", choices=("ingest", "qc", "ai-review", "refine", "promote", "run"))
     parser.add_argument("--work-id", default=DEFAULT_WORK_ID, help="Work identifier to process.")
+    parser.add_argument("--batch-id", default=None, help="Optional batch identifier for batch-scoped candidate runs.")
     parser.add_argument("--skip-fetch", action="store_true", help="Reuse local captures instead of refetching.")
     args = parser.parse_args()
 
     if args.command == "ingest":
-        result = ingest_candidate(args.work_id, skip_fetch=args.skip_fetch)
+        result = ingest_candidate(args.work_id, skip_fetch=args.skip_fetch, batch_id=args.batch_id)
     elif args.command == "qc":
-        result = run_candidate_qc(args.work_id)
+        result = run_candidate_qc(args.work_id, batch_id=args.batch_id)
     elif args.command == "ai-review":
-        result = run_candidate_ai_review(args.work_id)
+        result = run_candidate_ai_review(args.work_id, batch_id=args.batch_id)
     elif args.command == "refine":
-        result = refine_candidate(args.work_id, skip_fetch=args.skip_fetch)
+        result = refine_candidate(args.work_id, skip_fetch=args.skip_fetch, batch_id=args.batch_id)
     elif args.command == "promote":
-        result = promote_candidate(args.work_id)
+        result = promote_candidate(args.work_id, batch_id=args.batch_id)
     else:
-        result = run_ingestion_gauntlet(args.work_id, skip_fetch=args.skip_fetch)
+        result = run_ingestion_gauntlet(args.work_id, skip_fetch=args.skip_fetch, batch_id=args.batch_id)
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 

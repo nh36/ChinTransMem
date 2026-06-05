@@ -13,10 +13,12 @@ CJK_RE = re.compile(r"[\u3400-\u9fff]")
 ASCII_WORD_RE = re.compile(r"\b[A-Za-z][A-Za-z'’-]{1,}\b")
 SHORT_HEADING_RE = re.compile(r"^[A-Z][A-Za-z0-9 .,'’()/-]{1,48}:$")
 FOOTNOTE_RE = re.compile(r"^\d+\.\s+.*(?:Originally read|Corrected to|Original text)", re.IGNORECASE)
+SPEECH_ATTRIBUTION_RE = re.compile(r"^[A-Z][A-Za-z .'-]{0,48}\bsaid:$")
 NOTICE_MARKERS = (
     "source: chinese text project",
     "english translation",
     "sacred books of the east",
+    "partial translation adapted from",
 )
 COMMENTARY_MARKERS = (
     "originally read:",
@@ -36,7 +38,7 @@ def contains_english(text: str) -> bool:
     return len(ASCII_WORD_RE.findall(text)) >= 2
 
 
-def parse_liji_bilingual_text(raw_text: str, displayed_title: str) -> dict[str, Any]:
+def parse_chinesenotes_bilingual_text(raw_text: str, displayed_title: str) -> dict[str, Any]:
     chinese_lines: list[str] = []
     english_lines: list[str] = []
     translator_notes: list[str] = []
@@ -65,10 +67,13 @@ def parse_liji_bilingual_text(raw_text: str, displayed_title: str) -> dict[str, 
             rights_notes.append(line)
             excluded_notice_lines.append(line)
             continue
+        if any(marker in line.casefold() for marker in NOTICE_MARKERS):
+            excluded_notice_lines.append(line)
+            continue
         if FOOTNOTE_RE.match(line):
             excluded_footnote_lines.append(line)
             continue
-        if SHORT_HEADING_RE.match(line):
+        if SHORT_HEADING_RE.match(line) and not SPEECH_ATTRIBUTION_RE.match(line):
             excluded_heading_lines.append(line)
             continue
         has_cjk = contains_cjk(line)
@@ -96,11 +101,15 @@ def parse_liji_bilingual_text(raw_text: str, displayed_title: str) -> dict[str, 
     }
 
 
-def detect_liji_leakage_issues(text: str) -> list[dict[str, str]]:
+def parse_liji_bilingual_text(raw_text: str, displayed_title: str) -> dict[str, Any]:
+    return parse_chinesenotes_bilingual_text(raw_text, displayed_title)
+
+
+def detect_chinesenotes_leakage_issues(text: str) -> list[dict[str, str]]:
     stripped = " ".join(text.split())
     lowered = stripped.casefold()
     issues: list[dict[str, str]] = []
-    if SHORT_HEADING_RE.fullmatch(stripped):
+    if SHORT_HEADING_RE.fullmatch(stripped) and not SPEECH_ATTRIBUTION_RE.fullmatch(stripped):
         issues.append({"token": stripped, "issue_type": "heading_residue"})
     for marker in NOTICE_MARKERS:
         if marker in lowered:
@@ -113,5 +122,13 @@ def detect_liji_leakage_issues(text: str) -> list[dict[str, str]]:
     return issues
 
 
-def detect_liji_ocr_issues(text: str) -> list[dict[str, str]]:
+def detect_liji_leakage_issues(text: str) -> list[dict[str, str]]:
+    return detect_chinesenotes_leakage_issues(text)
+
+
+def detect_chinesenotes_ocr_issues(text: str) -> list[dict[str, str]]:
     return find_suspicious_ocr_tokens(text)
+
+
+def detect_liji_ocr_issues(text: str) -> list[dict[str, str]]:
+    return detect_chinesenotes_ocr_issues(text)

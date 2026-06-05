@@ -335,6 +335,29 @@ def work_export_stem(work_id: str = DEFAULT_WORK_ID) -> str:
     return f"{work_id}__all__aligned_passages"
 
 
+def work_batch_mapping_path(work_id: str = DEFAULT_WORK_ID) -> Path:
+    return METADATA_DIR / f"{work_id}_batch_mapping.yml"
+
+
+def load_work_batch_mapping(work_id: str = DEFAULT_WORK_ID) -> dict[str, Any]:
+    path = work_batch_mapping_path(work_id)
+    if not path.exists():
+        return {"work_id": work_id, "batches": []}
+    return load_json_compatible_yaml(path)
+
+
+def scope_key(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> str:
+    if not batch_id:
+        return work_id
+    return f"{work_id}__{batch_id}"
+
+
+def scope_report_stem(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> str:
+    if not batch_id:
+        return work_id
+    return f"{work_id}__{batch_id}"
+
+
 def section_export_stem(section_id: str, work_id: str = DEFAULT_WORK_ID) -> str:
     return f"{work_id}__{section_id}__aligned_passages"
 
@@ -359,13 +382,20 @@ def corpus_export_paths(work_id: str = DEFAULT_WORK_ID) -> dict[str, Path]:
     }
 
 
-def candidate_work_dir(work_id: str = DEFAULT_WORK_ID) -> Path:
-    return CANDIDATE_CORPUS_DIR / work_id
+def candidate_work_dir(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> Path:
+    root = CANDIDATE_CORPUS_DIR / work_id
+    if batch_id:
+        return root / batch_id
+    return root
 
 
-def candidate_section_export_paths(section_id: str, work_id: str = DEFAULT_WORK_ID) -> dict[str, Path]:
+def candidate_section_export_paths(
+    section_id: str,
+    work_id: str = DEFAULT_WORK_ID,
+    batch_id: str | None = None,
+) -> dict[str, Path]:
     stem = section_export_stem(section_id, work_id)
-    root = candidate_work_dir(work_id)
+    root = candidate_work_dir(work_id, batch_id)
     return {
         "jsonl": root / "exports" / "jsonl" / f"{stem}.jsonl",
         "csv": root / "exports" / "csv" / f"{stem}.csv",
@@ -374,39 +404,42 @@ def candidate_section_export_paths(section_id: str, work_id: str = DEFAULT_WORK_
     }
 
 
-def candidate_corpus_export_paths(work_id: str = DEFAULT_WORK_ID) -> dict[str, Path]:
+def candidate_corpus_export_paths(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> dict[str, Path]:
     stem = work_export_stem(work_id)
-    root = candidate_work_dir(work_id)
+    root = candidate_work_dir(work_id, batch_id)
+    report_stem = scope_report_stem(work_id, batch_id)
     return {
         "jsonl": root / "exports" / "jsonl" / f"{stem}.jsonl",
         "csv": root / "exports" / "csv" / f"{stem}.csv",
         "tmx": root / "exports" / "tmx" / f"{stem}.tmx",
-        "tmx_validation": root / "reports" / "tmx_validation" / f"{work_id}__corpus_tmx_validation.json",
+        "tmx_validation": root / "reports" / "tmx_validation" / f"{report_stem}__corpus_tmx_validation.json",
     }
 
 
-def candidate_state_path(work_id: str = DEFAULT_WORK_ID) -> Path:
-    return candidate_work_dir(work_id) / "candidate_state.json"
+def candidate_state_path(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> Path:
+    return candidate_work_dir(work_id, batch_id) / "candidate_state.json"
 
 
-def candidate_alignment_snapshot_path(work_id: str = DEFAULT_WORK_ID) -> Path:
-    return candidate_work_dir(work_id) / "reports" / f"{work_id}__alignment_qc.json"
+def candidate_alignment_snapshot_path(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> Path:
+    return candidate_work_dir(work_id, batch_id) / "reports" / f"{scope_report_stem(work_id, batch_id)}__alignment_qc.json"
 
 
-def candidate_repair_log_path(work_id: str = DEFAULT_WORK_ID) -> Path:
-    return candidate_work_dir(work_id) / "repair_logs" / f"{work_id}__ocr_repair_log.json"
+def candidate_repair_log_path(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> Path:
+    return candidate_work_dir(work_id, batch_id) / "repair_logs" / f"{scope_report_stem(work_id, batch_id)}__ocr_repair_log.json"
 
 
-def candidate_qc_report_path(work_id: str = DEFAULT_WORK_ID) -> Path:
-    return QC_REPORTS_DIR / f"{work_id}__candidate_qc.json"
+def candidate_qc_report_path(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> Path:
+    return QC_REPORTS_DIR / f"{scope_report_stem(work_id, batch_id)}__candidate_qc.json"
 
 
-def candidate_ai_review_path(work_id: str = DEFAULT_WORK_ID) -> Path:
-    return AI_REVIEWS_DIR / f"{work_id}__alignment_review.jsonl"
+def candidate_ai_review_path(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> Path:
+    return AI_REVIEWS_DIR / f"{scope_report_stem(work_id, batch_id)}__alignment_review.jsonl"
 
 
-def candidate_report_path(work_id: str = DEFAULT_WORK_ID) -> Path:
-    return DOCUMENTATION_DIR / f"{work_id}_candidate_report.md"
+def candidate_report_path(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> Path:
+    if not batch_id:
+        return DOCUMENTATION_DIR / f"{work_id}_candidate_report.md"
+    return DOCUMENTATION_DIR / f"{work_id}_{batch_id}_candidate_report.md"
 
 
 def read_jsonl(path: Path | str) -> list[dict[str, Any]]:

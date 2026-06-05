@@ -12,7 +12,7 @@
   "counts": {
     "works": 1,
     "sections": 14,
-    "persons": 10,
+    "persons": 11,
     "sources": 28,
     "segments": 520,
     "alignments": 274,
@@ -181,8 +181,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "abb75b98028b82bb188dec0079b9111726be0e68f7ed3ca457e2bb30752d53d6",
-    "metadata/sources.yml": "516c10f65785e4d2dab5f6f8911dec770c83a4eff39e988dabbf5696fa3acc5a",
+    "metadata/sections.yml": "e7b9f4e412d04f653e074690f1afacf1d66a3cf4786fdb288aa250668a952e79",
+    "metadata/sources.yml": "1f3a736f1abd721704b35b15f543a6f2a38a41bdbe1e20ae7790f966143b292b",
     "metadata/manifests/mengzi.yml": "3eb3cf8cf4c5a4ec77402ab107a4d7db2e40130a5b7dfe83ec844d1fa0a094b4",
     "corpus/exports/jsonl/mengzi__book-01-lianghuiwang-shang__aligned_passages.jsonl": "7ed4a345c3639ac993f6fd13b2278a1d7b5325c8d6dd19ea75a2be2dd6b691ea",
     "corpus/exports/csv/mengzi__book-01-lianghuiwang-shang__aligned_passages.csv": "ae74a7cdebf45997b41e13934a0a3abb0d458530a741e525fa11af0f753093ba",

@@ -1,0 +1,61 @@
+{
+  "work_id": "shiji",
+  "title_zh": "史記",
+  "title_en": "Records of the Grand Historian",
+  "source_index_path": "data/corpus/shiji.csv",
+  "source_root": "corpus/shiji/",
+  "upstream_commit": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+  "notes": "Shiji is staged and promoted by batch from the start. Batch ids follow the traditional divisions where possible, but each batch may begin with a smaller pilot tranche if the available English witness is too uneven for a monolithic division-level ingestion.",
+  "batches": [
+    {
+      "batch_id": "benji",
+      "label_zh": "本紀",
+      "label_en": "Annals",
+      "section_number_range": [1, 12],
+      "selected_chapter_numbers": [1, 2, 3],
+      "status": "active_proof_of_concept",
+      "selection_rationale": "ChineseNotes provides clearly bilingual chapter files for shiji001-shiji003. Later annals in shiji004-shiji012 collapse the English witness into summary-level prose or near-empty parallel structure, so the first benji tranche is limited to the first three chapters.",
+      "notes": "This initial benji tranche is intentionally smaller than the full annals division. Future benji tranches should add later annals only after a stronger English witness or a more reliable parser is available."
+    },
+    {
+      "batch_id": "biao",
+      "label_zh": "表",
+      "label_en": "Tables",
+      "section_number_range": [13, 22],
+      "selected_chapter_numbers": [],
+      "status": "planned",
+      "selection_rationale": "Deferred until the annals pilot proves the ChineseNotes batch gauntlet on Shiji.",
+      "notes": "Likely structurally difficult because tabular material may not align naturally with the English witness."
+    },
+    {
+      "batch_id": "shu",
+      "label_zh": "書",
+      "label_en": "Treatises",
+      "section_number_range": [23, 30],
+      "selected_chapter_numbers": [],
+      "status": "planned",
+      "selection_rationale": "Deferred until the annals pilot establishes witness quality and reusable alignment policy.",
+      "notes": "Treatises may need topic-specific anchor maps and named-entity drift checks."
+    },
+    {
+      "batch_id": "shijia",
+      "label_zh": "世家",
+      "label_en": "Hereditary Houses",
+      "section_number_range": [31, 60],
+      "selected_chapter_numbers": [],
+      "status": "planned",
+      "selection_rationale": "Deferred until the annals pilot clarifies witness consistency across longer narrative files.",
+      "notes": "Likely suitable for later grouped sub-batches."
+    },
+    {
+      "batch_id": "liezhuan",
+      "label_zh": "列傳",
+      "label_en": "Biographies",
+      "section_number_range": [61, 130],
+      "selected_chapter_numbers": [],
+      "status": "planned",
+      "selection_rationale": "Deferred because of scale and likely witness variability.",
+      "notes": "Expect later liezhuan work to use smaller named-entity-aware tranches."
+    }
+  ]
+}

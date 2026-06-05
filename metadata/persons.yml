@@ -72,6 +72,15 @@
     "notes": "Authority string for 詩經 captures the transmitted anthology rather than a single named modern editor."
   },
   {
+    "person_id": "sima-qian",
+    "display_name": "司馬遷",
+    "romanized_name": "Sima Qian",
+    "roles": [
+      "compiler"
+    ],
+    "notes": "Traditional compiler of the received Shiji."
+  },
+  {
     "person_id": "yi-pao-mei",
     "display_name": "梅貽寳",
     "romanized_name": "Yi-Pao Mei",

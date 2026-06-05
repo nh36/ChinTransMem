@@ -5950,5 +5950,32 @@
     "canonical_ref": "禮記·《喪服四制》",
     "sort_key": "049",
     "notes": "ChineseNotes bilingual Liji chapter promoted through the candidate gauntlet."
+  },
+  {
+    "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+    "work_id": "shiji",
+    "parent_section_id": null,
+    "label": "《本紀‧五帝本紀》",
+    "canonical_ref": "史記·《本紀‧五帝本紀》",
+    "sort_key": "001",
+    "notes": "Shiji batch-scoped section metadata."
+  },
+  {
+    "section_id": "shiji-002-annals-of-xia",
+    "work_id": "shiji",
+    "parent_section_id": null,
+    "label": "《夏本紀》",
+    "canonical_ref": "史記·《夏本紀》",
+    "sort_key": "002",
+    "notes": "Shiji batch-scoped section metadata."
+  },
+  {
+    "section_id": "shiji-003-annals-of-yin",
+    "work_id": "shiji",
+    "parent_section_id": null,
+    "label": "《殷本紀》",
+    "canonical_ref": "史記·《殷本紀》",
+    "sort_key": "003",
+    "notes": "Shiji batch-scoped section metadata."
   }
 ]

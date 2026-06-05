@@ -27,6 +27,7 @@ SUPPORTED_BOOTSTRAP_WORK_IDS = [
     "yijing",
     "mozi",
     "liji",
+    "shiji",
 ]
 
 
@@ -107,7 +108,7 @@ def _merge_ingestion_log(records_by_work: list[tuple[str, list[dict[str, Any]]]]
     return merged
 
 
-def bootstrap_work(work_id: str, *, skip_fetch: bool = False) -> dict[str, Any]:
+def bootstrap_work(work_id: str, *, skip_fetch: bool = False, batch_id: str | None = None) -> dict[str, Any]:
     if work_id == "lunyu":
         from bootstrap_lunyu_corpus import bootstrap_corpus as bootstrap_lunyu_corpus
 
@@ -219,6 +220,20 @@ def bootstrap_work(work_id: str, *, skip_fetch: bool = False) -> dict[str, Any]:
             "aliases": result["romanization_aliases"],
             "ingestion_log": result["ingestion_log"],
         }
+    if work_id == "shiji":
+        from bootstrap_shiji_corpus import bootstrap_shiji_corpus
+
+        result = bootstrap_shiji_corpus(skip_fetch=skip_fetch, batch_id=batch_id)
+        manifest = load_work_manifest(work_id)
+        return {
+            "work_id": work_id,
+            "summary": result["summary"],
+            "manifest": manifest,
+            "sections": result["import_sections"],
+            "sources": result["import_sources"],
+            "aliases": result["romanization_aliases"],
+            "ingestion_log": result["ingestion_log"],
+        }
 
     manifest = load_work_manifest(work_id)
 
@@ -233,7 +248,12 @@ def bootstrap_work(work_id: str, *, skip_fetch: bool = False) -> dict[str, Any]:
     }
 
 
-def bootstrap_all_manifests(*, skip_fetch: bool = False, work_id: str | None = None) -> dict[str, Any]:
+def bootstrap_all_manifests(
+    *,
+    skip_fetch: bool = False,
+    work_id: str | None = None,
+    batch_id: str | None = None,
+) -> dict[str, Any]:
     work_manifests = load_work_manifests()
     manifest_work_ids = [str(manifest["work_id"]) for manifest in work_manifests]
     work_ids: list[str] = []
@@ -247,7 +267,13 @@ def bootstrap_all_manifests(*, skip_fetch: bool = False, work_id: str | None = N
     for current_work_id in work_ids:
         manifest = manifest_by_work_id.get(current_work_id)
         if work_id is None or current_work_id == work_id:
-            bootstrapped.append(bootstrap_work(current_work_id, skip_fetch=skip_fetch))
+            bootstrapped.append(
+                bootstrap_work(
+                    current_work_id,
+                    skip_fetch=skip_fetch,
+                    batch_id=batch_id if current_work_id == work_id else None,
+                )
+            )
             continue
         if manifest is None:
             continue

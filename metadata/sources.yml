@@ -24170,5 +24170,107 @@
     ],
     "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
     "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "shiji-001-annals-annals-of-the-five-emperors__cn-zh-1f6b1d3",
+    "work_id": "shiji",
+    "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Shiji chapter text, 《本紀‧五帝本紀》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji001.txt",
+    "raw_path": "corpus/raw/chinesenotes/shiji__shiji001__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/shiji__shiji-001-annals-annals-of-the-five-emperors__shiji-001-annals-annals-of-the-five-emperors__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "sima-qian"
+    ],
+    "rights_note": "Proof-of-concept Shiji Chinese witness retained with explicit provenance while release review remains outstanding.",
+    "notes": "ChineseNotes Shiji chapter text pinned to the upstream commit."
+  },
+  {
+    "source_id": "shiji-001-annals-annals-of-the-five-emperors__cn-en-1f6b1d3",
+    "work_id": "shiji",
+    "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "ChineseNotes bilingual Shiji English witness, Annals - Annals of the Five Emperors.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji001.txt",
+    "raw_path": "corpus/raw/chinesenotes/shiji__shiji001__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/shiji__shiji-001-annals-annals-of-the-five-emperors__shiji-001-annals-annals-of-the-five-emperors__cn-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while translator attribution and release review remain unresolved.",
+    "notes": "ChineseNotes-hosted bilingual English witness for the Shiji pilot tranche."
+  },
+  {
+    "source_id": "shiji-002-annals-of-xia__cn-zh-1f6b1d3",
+    "work_id": "shiji",
+    "section_id": "shiji-002-annals-of-xia",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Shiji chapter text, 《夏本紀》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji002.txt",
+    "raw_path": "corpus/raw/chinesenotes/shiji__shiji002__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/shiji__shiji-002-annals-of-xia__shiji-002-annals-of-xia__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "sima-qian"
+    ],
+    "rights_note": "Proof-of-concept Shiji Chinese witness retained with explicit provenance while release review remains outstanding.",
+    "notes": "ChineseNotes Shiji chapter text pinned to the upstream commit."
+  },
+  {
+    "source_id": "shiji-002-annals-of-xia__cn-en-1f6b1d3",
+    "work_id": "shiji",
+    "section_id": "shiji-002-annals-of-xia",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "ChineseNotes bilingual Shiji English witness, Annals of Xia.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji002.txt",
+    "raw_path": "corpus/raw/chinesenotes/shiji__shiji002__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/shiji__shiji-002-annals-of-xia__shiji-002-annals-of-xia__cn-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while translator attribution and release review remain unresolved.",
+    "notes": "ChineseNotes-hosted bilingual English witness for the Shiji pilot tranche."
+  },
+  {
+    "source_id": "shiji-003-annals-of-yin__cn-zh-1f6b1d3",
+    "work_id": "shiji",
+    "section_id": "shiji-003-annals-of-yin",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Shiji chapter text, 《殷本紀》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji003.txt",
+    "raw_path": "corpus/raw/chinesenotes/shiji__shiji003__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/shiji__shiji-003-annals-of-yin__shiji-003-annals-of-yin__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "sima-qian"
+    ],
+    "rights_note": "Proof-of-concept Shiji Chinese witness retained with explicit provenance while release review remains outstanding.",
+    "notes": "ChineseNotes Shiji chapter text pinned to the upstream commit."
+  },
+  {
+    "source_id": "shiji-003-annals-of-yin__cn-en-1f6b1d3",
+    "work_id": "shiji",
+    "section_id": "shiji-003-annals-of-yin",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "ChineseNotes bilingual Shiji English witness, Annals of Yin.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji003.txt",
+    "raw_path": "corpus/raw/chinesenotes/shiji__shiji003__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/shiji__shiji-003-annals-of-yin__shiji-003-annals-of-yin__cn-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while translator attribution and release review remain unresolved.",
+    "notes": "ChineseNotes-hosted bilingual English witness for the Shiji pilot tranche."
   }
 ]

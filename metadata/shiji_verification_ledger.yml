@@ -1,0 +1,36 @@
+{
+  "work_id": "shiji",
+  "title_zh": "史記",
+  "title_en": "Records of the Grand Historian",
+  "summary": {
+    "section_count": 3,
+    "active_exportable_section_count": 2,
+    "metadata_only_blocked_section_count": 1
+  },
+  "sections": [
+    {
+      "section_id": "shiji-001-annals-annals-of-the-five-emperors",
+      "batch_id": "benji",
+      "title_zh": "《本紀‧五帝本紀》",
+      "title_en": "Annals - Annals of the Five Emperors",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment"
+    },
+    {
+      "section_id": "shiji-002-annals-of-xia",
+      "batch_id": "benji",
+      "title_zh": "《夏本紀》",
+      "title_en": "Annals of Xia",
+      "export_status": "metadata_only",
+      "blocker_note": "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: Alignment QC failed for shiji-002-annals-of-xia: group 36: target segment length/structure imbalance suggests missing grouping; group 41: target segment length/structure imbalance suggests missing grouping; group 57: target segment length/structure imbalance suggests missing grouping"
+    },
+    {
+      "section_id": "shiji-003-annals-of-yin",
+      "batch_id": "benji",
+      "title_zh": "《殷本紀》",
+      "title_en": "Annals of Yin",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment"
+    }
+  ]
+}
