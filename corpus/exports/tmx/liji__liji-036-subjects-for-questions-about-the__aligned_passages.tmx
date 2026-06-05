@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-liji" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-001">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 1</prop>
+      <prop type="x-translation-ref">禮記·《服問》 1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>傳曰：「有從輕而重，公子之妻為其皇姑。有從重而輕，為妻之父母。有從無服而有服，公子之妻為公子之外兄弟。有從有服而無服，公子為其妻之父母。」</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Directory for Mourning says, 'There are cases in which parties wear deep mourning, while those, in consequence of their connexion with whom they assume it, wear only light.' Such is the mourning for her husband's mother by the wife of the son of a ruler (by a concubine). There are cases in which parties wear light mourning, while those, in consequence of their connexion with whom they assume it, wear deep mourning.' Such is the mourning of a husband for the father or mother of his wife. There are cases in which parties wear mourning, while those, in consequence of their connexion with whom they have a relation with the deceased, wear none.' Such is the case of the wife of a ruler's son with the cousins of her husband on the female side. There are cases in which parties wear no mourning, while those, in consequence of their connexion with whom they have a relation with the deceased, do wear mourning.' Such is the case of a ruler's son with regard to the father and mother of his wife.'</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-002">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 2</prop>
+      <prop type="x-translation-ref">禮記·《服問》 2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>傳曰：「母出，則為繼母之黨服；母死，則為其母之黨服。」為其母之黨服，則不為繼母之黨服。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The Directory of Mourning says, 'When his mother has been divorced, the son wears mourning for the relatives of the wife whom his father has taken in his mother's place.' When his mother has died (without being divorced), a son wears mourning for her relatives. Wearing mourning for his own mother's relatives, he does not do so for those of the step-mother, whom his father may have taken in her place.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-003">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 3</prop>
+      <prop type="x-translation-ref">禮記·《服問》 3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>三年之喪，既練矣，有期之喪，既葬矣，則帶其故葛帶，絰期之絰，服其功衰。有大功之喪，亦如之。小功，無變也。麻之有本者，變三年之葛。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>After the sacrifice at the end of the first year, during the three years' rites, and after the interment has taken place, during those of one year (occurring at the same time), the mourner puts on the old sash of dolychos cloth, and the headband of the one year's mourning, wearing (at the same time) the sackcloth of the mourning for nine months. The same thing is done (after the interment) during the nine months' mourning. No change is made (after the interment) during the five months' mourning. Where they wore the sash with the roots of hemp wrought into the cloth, they changed it for the dolychos cloth of the three years' mourning.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-004">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 4</prop>
+      <prop type="x-translation-ref">禮記·《服問》 4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>既練，遇麻斷本者，於免，絰之；既免，去絰。每可以絰必絰；既絰，則去之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>After the sacrifice at the end of a year, if there occurred an occasion for using the hempen sash with the roots cut off, (the mourner) put on the proper band along with the higher cincture. When the cincture was no longer worn, he put off the band. When it was proper to use the band, the rule was to wear it; and when the occasion for it was over, it was put off.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-005">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 5</prop>
+      <prop type="x-translation-ref">禮記·《服問》 5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>小功不易喪之練冠，如免，則絰其緦小功之絰，因其初葛帶。緦之麻，不變小功之葛；小功之麻，不變大功之葛。以有本為稅。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In the mourning for five months they did not change the cap worn for the sacrifice at the end of a year. If there were occasion to wear the cincture, then they employed the band proper for the mourning of three months or five months; still keeping on the first dolychos sash. The linen of the three months' mourning did not make it necessary to change the dolychos cloth of the five months; nor the linen of the five months to change the dolychos cloth of the nine months. Where the roots were woven with the cloth, they made a change.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-006">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 6</prop>
+      <prop type="x-translation-ref">禮記·《服問》 6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>殤：長、中，變三年之葛。終殤之月算，而反三年之葛。是非重麻，為其無卒哭之稅。下殤則否。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>On occasion of mourning for a minor, if he were of the highest grade or the middle, they changed the dolychos cloth of the three years' mourning, assuming it when they had completed the months of these intervening rites. This was done not because of the value set on the linen, but because no change was made at the conclusion of the wailing. They did not observe this rule on the death of a minor of the third or lowest grade.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-007">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 7</prop>
+      <prop type="x-translation-ref">禮記·《服問》 7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>君為天子三年，夫人如外宗之為君也。世子不為天子服。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The ruler of a state mourned for the son of Heaven for the three years. His wife observed the rule of a lady of her husband's house who had gone to her own married home in mourning for the ruler. The heir-son of a ruler did not wear mourning for the son of Heaven.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-008">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 8</prop>
+      <prop type="x-translation-ref">禮記·《服問》 8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>君所主：夫人、妻、大子適婦。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A ruler acted as presiding mourner at the mourning rites for his wife, his eldest son, and that son's wife.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-009">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 9</prop>
+      <prop type="x-translation-ref">禮記·《服問》 9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>大夫之適子為君、夫人、大子，如士服。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The eldest son of a Great officer, by his proper wife, wore the mourning of an ordinary officer for the ruler, and for the ruler's wife and eldest son.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-010">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 10</prop>
+      <prop type="x-translation-ref">禮記·《服問》 10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>君之母，非夫人，則群臣無服。唯近臣及仆驂乘從服，唯君所服，服也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When the mother of a ruler had not been the wife (of the former ruler), the body of the ministers did not wear mourning (on her death). Only the officers of the harem, the charioteer and the man-at-arms who sat on the left, followed the example of the ruler, wearing the same mourning as he did.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-011">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 11</prop>
+      <prop type="x-translation-ref">禮記·《服問》 11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>公為卿大夫錫衰以居，出亦如之。當事則弁絰。大夫相為，亦然。為其妻，往則服之，出則否。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>For a high minister or Great officer, (during the mourning rites for him), the ruler wore in his place the coarse glazed linen, and also when he went out (on business not connected with the rites). If it were on business connected with them, he wore also the skin-cap and the band round it. Great officers dressed in the same way for one another. At the mourning rites for their wives, they wore the same dress, when they were going to be present at those rites; if they went out (on other business), they did not wear it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-036-subjects-for-questions-about-the__aligned-012">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-036-subjects-for-questions-about-the</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《服問》 12</prop>
+      <prop type="x-translation-ref">禮記·《服問》 12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>凡見人無免絰，雖朝於君，無免絰。唯公門有稅齊衰。傳曰：「君子不奪人之喪，亦不可奪喪也。」傳曰：「罪多而刑五，喪多而服五，上附下附列也。」</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In all cases of going to see others, the visitor (being in mourning for his parents) did not put off his headband. Even when he was going to the ruler's court, he did not put it off; it was only at the ruler's gate that (in certain circumstances) he put off his sackcloth. The Directory of Mourning says, 'A superior man will not take away from others their mourning rites;' and so it was deemed wrong to put off this mourning. The Directory of Mourning says, 'Crimes are many, but the punishments are only five. The occasions for mourning are many, but there are only five varieties of the mourning dress. The occasions must be arranged, according as they are classed in the upper grade or in the lower.'</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

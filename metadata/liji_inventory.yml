@@ -1,0 +1,647 @@
+{
+  "work_id": "liji",
+  "title_zh": "禮記",
+  "title_en": "Book of Rites",
+  "source_index": "corpus/raw/chinesenotes/liji__liji__chinesenotes-1f6b1d3__raw.txt",
+  "upstream_commit": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+  "section_count": 49,
+  "units": [
+    {
+      "section_id": "liji-001-summary-of-the-rules-of-propriety-part-1",
+      "title_zh": "《曲禮上》",
+      "title_en": "Summary of the Rules of Propriety Part 1",
+      "source_file": "corpus/liji/liji001.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji001.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-002-summary-of-the-rules-of-propriety-part-2",
+      "title_zh": "《曲禮下》",
+      "title_en": "Summary of the Rules of Propriety Part 2",
+      "source_file": "corpus/liji/liji002.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji002.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-003-tan-gong-i",
+      "title_zh": "《檀弓上》",
+      "title_en": "Tan Gong I",
+      "source_file": "corpus/liji/liji003.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji003.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-004-tan-gong-ii",
+      "title_zh": "《檀弓下》",
+      "title_en": "Tan Gong II",
+      "source_file": "corpus/liji/liji004.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji004.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-005-royal-regulations",
+      "title_zh": "《王制》",
+      "title_en": "Royal Regulations",
+      "source_file": "corpus/liji/liji005.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji005.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-006-proceedings-of-government-in-the",
+      "title_zh": "《月令》",
+      "title_en": "Proceedings of Government in the Different Months",
+      "source_file": "corpus/liji/liji006.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji006.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-007-the-questions-of-zeng-zi",
+      "title_zh": "《曾子問》",
+      "title_en": "The Questions of Zeng-zi",
+      "source_file": "corpus/liji/liji007.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji007.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-008-king-wen-as-son-and-heir",
+      "title_zh": "《文王世子》",
+      "title_en": "King Wen as Son and Heir",
+      "source_file": "corpus/liji/liji008.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji008.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-009-ceremonial-usages-their-origins",
+      "title_zh": "《禮運》",
+      "title_en": "Ceremonial Usages; their Origins, Development, and Intention",
+      "source_file": "corpus/liji/liji009.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji009.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-010-rites-in-the-formation-of-character",
+      "title_zh": "《禮器》",
+      "title_en": "Rites in the Formation of Character",
+      "source_file": "corpus/liji/liji010.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji010.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-011-the-single-victim-at-the-border",
+      "title_zh": "《郊特牲》",
+      "title_en": "The Single Victim at the Border Sacrifices",
+      "source_file": "corpus/liji/liji011.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji011.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-012-the-pattern-of-the-family",
+      "title_zh": "《內則》",
+      "title_en": "The Pattern of the Family",
+      "source_file": "corpus/liji/liji012.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji012.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-013-the-jade-bead-pendants-of-the-royal-cap",
+      "title_zh": "《玉藻》",
+      "title_en": "The Jade-Bead Pendants of the Royal Cap",
+      "source_file": "corpus/liji/liji013.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji013.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-014-the-places-in-the-hall-of-distinction",
+      "title_zh": "《明堂位》",
+      "title_en": "The Places in the Hall of Distinction",
+      "source_file": "corpus/liji/liji014.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji014.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-015-record-of-small-matters-in-the-dress-of",
+      "title_zh": "《喪服小記》",
+      "title_en": "Record of Small Matters in the Dress of Mourning",
+      "source_file": "corpus/liji/liji015.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji015.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-016-the-great-treatise",
+      "title_zh": "《大傳》",
+      "title_en": "The Great Treatise",
+      "source_file": "corpus/liji/liji016.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji016.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-017-smaller-rules-of-demeanour",
+      "title_zh": "《少儀》",
+      "title_en": "Smaller Rules of Demeanour",
+      "source_file": "corpus/liji/liji017.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji017.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-018-record-on-the-subject-of-education",
+      "title_zh": "《學記》",
+      "title_en": "Record on the Subject of Education",
+      "source_file": "corpus/liji/liji018.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji018.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-019-record-of-music",
+      "title_zh": "《樂記》",
+      "title_en": "Record of Music",
+      "source_file": "corpus/liji/liji019.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji019.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-020-miscellaneous-records-i",
+      "title_zh": "《雜記上》",
+      "title_en": "Miscellaneous Records I",
+      "source_file": "corpus/liji/liji020.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji020.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-021-miscellaneous-records-ii",
+      "title_zh": "《雜記下》",
+      "title_en": "Miscellaneous Records II",
+      "source_file": "corpus/liji/liji021.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji021.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-022-the-greater-record-of-mourning-rites",
+      "title_zh": "《喪大記》",
+      "title_en": "The Greater Record of Mourning Rites",
+      "source_file": "corpus/liji/liji022.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji022.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-023-the-law-of-sacrifices",
+      "title_zh": "《祭法》",
+      "title_en": "The Law of Sacrifices",
+      "source_file": "corpus/liji/liji023.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji023.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-024-the-meaning-of-sacrifices",
+      "title_zh": "《祭義》",
+      "title_en": "The Meaning of Sacrifices",
+      "source_file": "corpus/liji/liji024.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji024.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-025-a-summary-account-of-sacrifices",
+      "title_zh": "《祭統》",
+      "title_en": "A Summary Account of Sacrifices",
+      "source_file": "corpus/liji/liji025.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji025.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-026-the-different-teachings-of-the-different",
+      "title_zh": "《經解》",
+      "title_en": "The Different Teachings of the Different Kings",
+      "source_file": "corpus/liji/liji026.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji026.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-027-questions-of-duke-ai",
+      "title_zh": "《哀公問》",
+      "title_en": "Questions of Duke Ai",
+      "source_file": "corpus/liji/liji027.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji027.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-028-zhong-ni-at-home-at-ease",
+      "title_zh": "《仲尼燕居》",
+      "title_en": "Zhong-ni at Home at Ease",
+      "source_file": "corpus/liji/liji028.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji028.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-029-confucius-at-home-at-leisure",
+      "title_zh": "《孔子閒居》",
+      "title_en": "Confucius at Home at Leisure",
+      "source_file": "corpus/liji/liji029.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji029.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-030-record-of-the-dykes",
+      "title_zh": "《坊記》",
+      "title_en": "Record of the Dykes",
+      "source_file": "corpus/liji/liji030.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji030.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-031-the-state-of-equilibrium-and-harmony",
+      "title_zh": "《中庸》",
+      "title_en": "The State of Equilibrium and Harmony, also known as the Doctrine of the Mean",
+      "source_file": "corpus/liji/liji031.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji031.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-032-the-record-on-example",
+      "title_zh": "《表記》",
+      "title_en": "The Record on Example",
+      "source_file": "corpus/liji/liji032.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji032.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-033-the-black-robes",
+      "title_zh": "《緇衣》",
+      "title_en": "The Black Robes",
+      "source_file": "corpus/liji/liji033.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji033.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-034-rules-on-hurrying-to-the-mourning-rites",
+      "title_zh": "《奔喪》",
+      "title_en": "Rules on Hurrying to the Mourning Rites",
+      "source_file": "corpus/liji/liji034.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji034.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-035-questions-about-mourning-rites",
+      "title_zh": "《問喪》",
+      "title_en": "Questions about Mourning Rites",
+      "source_file": "corpus/liji/liji035.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji035.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-036-subjects-for-questions-about-the",
+      "title_zh": "《服問》",
+      "title_en": "Subjects for Questions about the Mourning Dress",
+      "source_file": "corpus/liji/liji036.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji036.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-037-treatise-on-subsidiary-points-in",
+      "title_zh": "《間傳》",
+      "title_en": "Treatise on Subsidiary Points in Mourning Usages",
+      "source_file": "corpus/liji/liji037.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji037.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-038-questions-about-the-mourning-for-three",
+      "title_zh": "《三年問》",
+      "title_en": "Questions about the Mourning for Three Years",
+      "source_file": "corpus/liji/liji038.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji038.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-039-the-long-dress-in-one-piece",
+      "title_zh": "《深衣》",
+      "title_en": "The Long Dress in One Piece",
+      "source_file": "corpus/liji/liji039.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji039.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-040-the-game-of-pitch-pot",
+      "title_zh": "《投壺》",
+      "title_en": "The Game of Pitch-Pot",
+      "source_file": "corpus/liji/liji040.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji040.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-041-the-conduct-of-the-scholar",
+      "title_zh": "《儒行》",
+      "title_en": "The Conduct of the Scholar",
+      "source_file": "corpus/liji/liji041.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji041.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-042-the-great-learning",
+      "title_zh": "《大學》",
+      "title_en": "The Great Learning",
+      "source_file": "corpus/liji/liji042.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji042.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-043-the-meaning-of-the-ceremony-of-capping",
+      "title_zh": "《冠義》",
+      "title_en": "The Meaning of the Ceremony of Capping",
+      "source_file": "corpus/liji/liji043.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji043.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-044-the-meaning-of-the-marriage-ceremony",
+      "title_zh": "《昏義》",
+      "title_en": "The Meaning of the Marriage Ceremony",
+      "source_file": "corpus/liji/liji044.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji044.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-045-the-meaning-of-the-drinking-festivity-in",
+      "title_zh": "《鄉飲酒義》",
+      "title_en": "The Meaning of the Drinking Festivity in the Districts",
+      "source_file": "corpus/liji/liji045.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji045.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-046-the-meaning-of-the-ceremony-of-archery",
+      "title_zh": "《射義》",
+      "title_en": "The Meaning of the Ceremony of Archery",
+      "source_file": "corpus/liji/liji046.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji046.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-047-the-meaning-of-the-banquet",
+      "title_zh": "《燕義》",
+      "title_en": "The Meaning of the Banquet",
+      "source_file": "corpus/liji/liji047.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji047.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-048-the-meaning-of-the-interchange-of",
+      "title_zh": "《聘義》",
+      "title_en": "The Meaning of the Interchange of Missions Beteween Different Courts",
+      "source_file": "corpus/liji/liji048.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji048.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    },
+    {
+      "section_id": "liji-049-the-four-principles-underlying-the-dress",
+      "title_zh": "《喪服四制》",
+      "title_en": "The Four Principles Underlying the Dress of Mourning",
+      "source_file": "corpus/liji/liji049.txt",
+      "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji049.txt",
+      "status": "captured",
+      "has_parallel_chinese": true,
+      "has_parallel_english": true,
+      "translator_note": [
+        "Source: Chinese Text Project http://ctext.org/liji. English translation \"Sacred Books of the East, volume 28, part 4: The Li Ki\", James Legge, 1885"
+      ]
+    }
+  ]
+}

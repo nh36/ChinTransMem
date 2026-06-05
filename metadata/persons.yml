@@ -18,24 +18,6 @@
     "notes": "Translator of the public-domain witnesses used for Lunyu, Mengzi, Shangshu, and Yijing."
   },
   {
-    "person_id": "mengzi-disciples",
-    "display_name": "孟子及其弟子",
-    "romanized_name": "Mencius and his transmitters",
-    "roles": [
-      "compiler"
-    ],
-    "notes": "Authority string for 孟子 follows standard traditional attribution used by Chinese Wikisource."
-  },
-  {
-    "person_id": "shijing-anthologists",
-    "display_name": "《詩經》傳世編者",
-    "romanized_name": "Transmitters of the Classic of Poetry",
-    "roles": [
-      "compiler"
-    ],
-    "notes": "Authority string for 詩經 captures the transmitted anthology rather than a single named modern editor."
-  },
-  {
     "person_id": "laozi-tradition",
     "display_name": "《老子》傳世編者",
     "romanized_name": "Transmitters of the Laozi",
@@ -45,22 +27,22 @@
     "notes": "Authority string for 老子 treats the received text as a transmitted classical work rather than naming a single modern editor."
   },
   {
-    "person_id": "shangshu-transmitters",
-    "display_name": "《尚書》傳世編者",
-    "romanized_name": "Transmitters of the Shangshu",
+    "person_id": "liji-transmitters",
+    "display_name": "《禮記》傳世編者",
+    "romanized_name": "Traditional transmitters of the Liji",
     "roles": [
       "compiler"
     ],
-    "notes": "Authority string for 尚書 treats the received text as a transmitted classical compilation rather than attributing the corpus to a single modern editor."
+    "notes": "Conventional transmitters cited for the received Liji chapter compilation."
   },
   {
-    "person_id": "yijing-transmitters",
-    "display_name": "《易經》傳世編者",
-    "romanized_name": "Transmitters of the Yijing",
+    "person_id": "mengzi-disciples",
+    "display_name": "孟子及其弟子",
+    "romanized_name": "Mencius and his transmitters",
     "roles": [
       "compiler"
     ],
-    "notes": "Authority string for 易經 treats the received Zhouyi text as a transmitted classical work rather than attributing the corpus to a single modern editor."
+    "notes": "Authority string for 孟子 follows standard traditional attribution used by Chinese Wikisource."
   },
   {
     "person_id": "mozi-transmitters",
@@ -72,6 +54,24 @@
     "notes": "Authority string for 墨子 treats the received text as a transmitted classical compilation rather than attributing the corpus to a single modern editor."
   },
   {
+    "person_id": "shangshu-transmitters",
+    "display_name": "《尚書》傳世編者",
+    "romanized_name": "Transmitters of the Shangshu",
+    "roles": [
+      "compiler"
+    ],
+    "notes": "Authority string for 尚書 treats the received text as a transmitted classical compilation rather than attributing the corpus to a single modern editor."
+  },
+  {
+    "person_id": "shijing-anthologists",
+    "display_name": "《詩經》傳世編者",
+    "romanized_name": "Transmitters of the Classic of Poetry",
+    "roles": [
+      "compiler"
+    ],
+    "notes": "Authority string for 詩經 captures the transmitted anthology rather than a single named modern editor."
+  },
+  {
     "person_id": "yi-pao-mei",
     "display_name": "梅貽寳",
     "romanized_name": "Yi-Pao Mei",
@@ -79,5 +79,14 @@
       "translator"
     ],
     "notes": "Translator of The Works of Motse from the Chinese (1929), used here as the attributable proof-of-concept English witness for the active Mozi subset."
+  },
+  {
+    "person_id": "yijing-transmitters",
+    "display_name": "《易經》傳世編者",
+    "romanized_name": "Transmitters of the Yijing",
+    "roles": [
+      "compiler"
+    ],
+    "notes": "Authority string for 易經 treats the received Zhouyi text as a transmitted classical work rather than attributing the corpus to a single modern editor."
   }
 ]

@@ -1,0 +1,457 @@
+{
+  "status": "pass",
+  "work_id": "liji",
+  "section_count": 49,
+  "sections": [
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-001-summary-of-the-rules-of-propriety-part-1__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-001-summary-of-the-rules-of-propriety-part-1",
+      "tu_count": 78,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-002-summary-of-the-rules-of-propriety-part-2__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-002-summary-of-the-rules-of-propriety-part-2",
+      "tu_count": 50,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-003-tan-gong-i__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-003-tan-gong-i",
+      "tu_count": 124,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-004-tan-gong-ii__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-004-tan-gong-ii",
+      "tu_count": 97,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-005-royal-regulations__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-005-royal-regulations",
+      "tu_count": 83,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-006-proceedings-of-government-in-the__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-006-proceedings-of-government-in-the",
+      "tu_count": 109,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-007-the-questions-of-zeng-zi__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-007-the-questions-of-zeng-zi",
+      "tu_count": 100,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-008-king-wen-as-son-and-heir__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-008-king-wen-as-son-and-heir",
+      "tu_count": 32,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-009-ceremonial-usages-their-origins__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-009-ceremonial-usages-their-origins",
+      "tu_count": 33,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-010-rites-in-the-formation-of-character__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-010-rites-in-the-formation-of-character",
+      "tu_count": 36,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-011-the-single-victim-at-the-border__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-011-the-single-victim-at-the-border",
+      "tu_count": 57,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-012-the-pattern-of-the-family__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-012-the-pattern-of-the-family",
+      "tu_count": 83,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-013-the-jade-bead-pendants-of-the-royal-cap__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-013-the-jade-bead-pendants-of-the-royal-cap",
+      "tu_count": 55,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-014-the-places-in-the-hall-of-distinction__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-014-the-places-in-the-hall-of-distinction",
+      "tu_count": 32,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-015-record-of-small-matters-in-the-dress-of__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-015-record-of-small-matters-in-the-dress-of",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-016-the-great-treatise__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-016-the-great-treatise",
+      "tu_count": 18,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-017-smaller-rules-of-demeanour__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-017-smaller-rules-of-demeanour",
+      "tu_count": 38,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-018-record-on-the-subject-of-education__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-018-record-on-the-subject-of-education",
+      "tu_count": 42,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-019-record-of-music__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-019-record-of-music",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-020-miscellaneous-records-i__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-020-miscellaneous-records-i",
+      "tu_count": 60,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-021-miscellaneous-records-ii__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-021-miscellaneous-records-ii",
+      "tu_count": 83,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-022-the-greater-record-of-mourning-rites__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-022-the-greater-record-of-mourning-rites",
+      "tu_count": 70,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-023-the-law-of-sacrifices__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-023-the-law-of-sacrifices",
+      "tu_count": 19,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-024-the-meaning-of-sacrifices__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-024-the-meaning-of-sacrifices",
+      "tu_count": 115,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-025-a-summary-account-of-sacrifices__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-025-a-summary-account-of-sacrifices",
+      "tu_count": 33,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-026-the-different-teachings-of-the-different__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-026-the-different-teachings-of-the-different",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-027-questions-of-duke-ai__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-027-questions-of-duke-ai",
+      "tu_count": 17,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-028-zhong-ni-at-home-at-ease__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-028-zhong-ni-at-home-at-ease",
+      "tu_count": 10,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-029-confucius-at-home-at-leisure__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-029-confucius-at-home-at-leisure",
+      "tu_count": 7,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-030-record-of-the-dykes__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-030-record-of-the-dykes",
+      "tu_count": 39,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-031-the-state-of-equilibrium-and-harmony__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-031-the-state-of-equilibrium-and-harmony",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-032-the-record-on-example__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-032-the-record-on-example",
+      "tu_count": 56,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-033-the-black-robes__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-033-the-black-robes",
+      "tu_count": 25,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-034-rules-on-hurrying-to-the-mourning-rites__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-034-rules-on-hurrying-to-the-mourning-rites",
+      "tu_count": 28,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-035-questions-about-mourning-rites__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-035-questions-about-mourning-rites",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-036-subjects-for-questions-about-the__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-036-subjects-for-questions-about-the",
+      "tu_count": 12,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-037-treatise-on-subsidiary-points-in__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-037-treatise-on-subsidiary-points-in",
+      "tu_count": 10,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-038-questions-about-the-mourning-for-three__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-038-questions-about-the-mourning-for-three",
+      "tu_count": 6,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-039-the-long-dress-in-one-piece__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-039-the-long-dress-in-one-piece",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-040-the-game-of-pitch-pot__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-040-the-game-of-pitch-pot",
+      "tu_count": 8,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-041-the-conduct-of-the-scholar__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-041-the-conduct-of-the-scholar",
+      "tu_count": 20,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-042-the-great-learning__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-042-the-great-learning",
+      "tu_count": 1,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-043-the-meaning-of-the-ceremony-of-capping__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-043-the-meaning-of-the-ceremony-of-capping",
+      "tu_count": 4,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-044-the-meaning-of-the-marriage-ceremony__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-044-the-meaning-of-the-marriage-ceremony",
+      "tu_count": 9,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-045-the-meaning-of-the-drinking-festivity-in__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-045-the-meaning-of-the-drinking-festivity-in",
+      "tu_count": 20,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-046-the-meaning-of-the-ceremony-of-archery__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-046-the-meaning-of-the-ceremony-of-archery",
+      "tu_count": 39,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-047-the-meaning-of-the-banquet__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-047-the-meaning-of-the-banquet",
+      "tu_count": 5,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-048-the-meaning-of-the-interchange-of__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-048-the-meaning-of-the-interchange-of",
+      "tu_count": 12,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    },
+    {
+      "status": "pass",
+      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__liji-049-the-four-principles-underlying-the-dress__aligned_passages.tmx",
+      "work_id": "liji",
+      "section_id": "liji-049-the-four-principles-underlying-the-dress",
+      "tu_count": 12,
+      "source_language": "zh-Hant",
+      "target_language": "en"
+    }
+  ],
+  "corpus": {
+    "status": "pass",
+    "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/liji__all__aligned_passages.tmx",
+    "work_id": "liji",
+    "section_id": null,
+    "tu_count": 1813,
+    "source_language": "zh-Hant",
+    "target_language": "en"
+  }
+}

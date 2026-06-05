@@ -21,6 +21,7 @@ from common import (
     sha256_file,
     write_json,
 )
+from liji_quality import detect_liji_leakage_issues, detect_liji_ocr_issues
 from mozi_ocr import detect_mozi_leakage_issues, detect_mozi_ocr_issues
 from text_quality import (
     detect_probable_ocr_corruption,
@@ -152,7 +153,7 @@ def run_alignment_quality_checks(work_id: str, rows: list[dict[str, object]] | N
         "alignment_drift_issues": [],
         "line_order_issues": [],
     }
-    if work_id not in {"laozi", "shangshu", "yijing", "mozi"}:
+    if work_id not in {"laozi", "shangshu", "yijing", "mozi", "liji"}:
         return {**issues, "hard_failure_count": 0}
     for row in rows:
         source_text = str(row.get("chinese_text", "")).strip()
@@ -187,7 +188,7 @@ def run_alignment_quality_checks(work_id: str, rows: list[dict[str, object]] | N
         if (
             alignment_granularity != "grouped"
             and source_segment_count != target_segment_count
-            and not (work_id == "mozi" and is_coarse_alignment and coarse_alignment_reason)
+            and not (is_coarse_alignment and coarse_alignment_reason)
         ):
             issues["non_grouped_segmentation_mismatch_rows"].append(str(row["alignment_id"]))
     if work_id == "shangshu":
@@ -317,6 +318,17 @@ def run_text_integrity_checks(work_id: str, rows: list[dict[str, object]] | None
                 issues["translation_with_commentary_sections"].add(section_id)
             if lowered.startswith(("chapter ", "book ")):
                 issues["translation_with_heading_sections"].add(section_id)
+        if work_id == "liji":
+            liji_ocr_issues = detect_liji_ocr_issues(translation_text)
+            liji_leakage_issues = detect_liji_leakage_issues(translation_text)
+            if liji_ocr_issues:
+                issues["translation_with_ocr_corruption_rows"].append(alignment_id)
+            if any(issue["issue_type"] == "heading_residue" for issue in liji_leakage_issues):
+                issues["translation_with_heading_sections"].add(section_id)
+            if any(issue["issue_type"] == "notice_residue" for issue in liji_leakage_issues):
+                issues["translation_with_notice_sections"].add(section_id)
+            if any(issue["issue_type"] == "footnote_residue" for issue in liji_leakage_issues):
+                issues["translation_with_commentary_sections"].add(section_id)
     issue_lists = {key: sorted(value) for key, value in issues.items()}
     hard_failure_count = sum(1 for value in issue_lists.values() if value)
     return {
@@ -332,7 +344,7 @@ def run_source_traceability_checks(work_id: str) -> dict[str, object]:
         "missing_release_status_sources": [],
         "missing_rights_note_sources": [],
     }
-    if work_id != "mozi":
+    if work_id not in {"mozi", "liji"}:
         return {**issues, "hard_failure_count": 0}
     source_map = {source["source_id"]: source for source in load_sources(work_id)}
     for section in manifest_sections(work_id):

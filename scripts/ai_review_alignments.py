@@ -16,6 +16,7 @@ from common import (
     read_jsonl,
     write_jsonl,
 )
+from liji_quality import detect_liji_leakage_issues, detect_liji_ocr_issues
 from mozi_ocr import detect_mozi_leakage_issues, detect_mozi_ocr_issues
 from qc_corpus import _severe_ocr_issues
 
@@ -182,6 +183,7 @@ def classify_alignment_review(
     *,
     risk_alignment_ids: set[str],
     repaired_sections: set[str],
+    priority_sections: set[str],
     anchor_issue_map: dict[str, list[dict[str, Any]]],
     row_anchor_orders: dict[str, dict[str, list[int]]],
 ) -> dict[str, Any]:
@@ -197,8 +199,16 @@ def classify_alignment_review(
         risk_reasons.append("suspicious_length_ratio")
     if section_id in repaired_sections:
         risk_reasons.append("section_with_repairs")
-    leakage_issues = detect_mozi_leakage_issues(translation_text) if section_id.startswith("mozi-") else []
-    ocr_issues = detect_mozi_ocr_issues(translation_text) if section_id.startswith("mozi-") else []
+    if section_id in priority_sections:
+        risk_reasons.append("priority_section_review")
+    leakage_issues: list[dict[str, str]] = []
+    ocr_issues: list[dict[str, str]] = []
+    if section_id.startswith("mozi-"):
+        leakage_issues = detect_mozi_leakage_issues(translation_text)
+        ocr_issues = detect_mozi_ocr_issues(translation_text)
+    elif section_id.startswith("liji-"):
+        leakage_issues = detect_liji_leakage_issues(translation_text)
+        ocr_issues = detect_liji_ocr_issues(translation_text)
     severe_issues = _severe_ocr_issues(translation_text) if section_id.startswith("mozi-") else []
     anchor_issues = anchor_issue_map.get(alignment_id, [])
     for issue in anchor_issues:
@@ -315,6 +325,13 @@ def review_alignment_rows(
     reviewed_sections = set(repaired_sections)
     if work_id == "mozi":
         reviewed_sections.update({"mozi-001-make-close-the-scholars", "mozi-003-that-which-is-affectable"})
+    if work_id == "liji":
+        reviewed_sections.update(
+            {
+                "liji-001-summary-of-the-rules-of-propriety-part-1",
+                "liji-003-tan-gong-i",
+            }
+        )
     selected_ids = _candidate_sample_alignment_ids(
         rows,
         risk_alignment_ids=risk_alignment_ids | set(anchor_issue_map),
@@ -332,6 +349,7 @@ def review_alignment_rows(
                 row,
                 risk_alignment_ids=risk_alignment_ids,
                 repaired_sections=repaired_sections,
+                priority_sections=reviewed_sections,
                 anchor_issue_map=anchor_issue_map,
                 row_anchor_orders=row_anchor_orders,
             )

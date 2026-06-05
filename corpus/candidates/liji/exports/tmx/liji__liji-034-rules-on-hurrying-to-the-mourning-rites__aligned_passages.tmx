@@ -1,0 +1,566 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tmx version="1.4">
+  <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-liji" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
+  <body>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-001">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 1</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 1</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>奔喪之禮：始聞親喪，以哭答使者，盡哀；問故，又哭盡哀。遂行，日行百里，不以夜行。唯父母之喪，見星而行，見星而舍。若未得行，則成服而後行。過國至竟，哭盡哀而止。哭辟市朝。望其國竟哭。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>According to the rules for hurrying to attend the mourning rites, when one first heard that the mourning rites for a relative were going on, he wailed as he answered the messenger, and gave full vent to his sorrow. Having asked all the particulars, he wailed again, with a similar burst of grief, and immediately arranged to go (to the place). He went 100 li a day, not travelling in the night. Only when the rites were those for a father or a mother did he travel while he could yet see the stars, and rested when he (again) saw them. If it was impossible for him to go (at once), he assumed the mourning dress, and then went (as soon as he could). When he had passed through be state (where he was), and reached its frontier, he stopped and wailed, giving full vent to his sorrow. He avoided wailing in the market-place and when near the court. He looked towards the frontier of his own state when he wailed.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-002">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 2</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 2</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>至於家，入門左，升自西階，殯東，西面坐，哭盡哀，括髮袒，降堂東即位，西鄉哭，成踴，襲絰于序東，絞帶。反位，拜賓成踴，送賓，反位；有賓後至者，則拜之，成踴、送賓皆如初。眾主人兄弟皆出門，出門哭止；闔門，相者告就次。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When he came to the house, he entered the gate at the left side of it, (passed through the court), and ascended to the hall by the steps on the west. He knelt on the east of the coffin, with his face to the west, and wailed, giving full vent to his grief. He (then) tied up his hair in a knot, bared his arms, and went down from the hall, proceeding to his place on the east, where he wailed towards the west. Having completed the leaping, he covered his arms and put on his sash of sackcloth in the corridor on the east; and after tucking up the ends of his sash, he returned to his place. He bowed to the visitors, leaping with them, and escorted them (to the gate), returning (afterwards) to his place. When other visitors arrived, he bowed to them, leaped with them, and escorted them - all in the same way. (After this), all the principal mourners, with their cousins, went out at the gate, stopping there while they wailed. The gate was then closed, and the director told them to go to the mourning shed.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-003">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 3</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 3</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>於又哭，括髮袒成踴；於三哭，猶括髮袒成踴。三日，成服，拜賓、送賓皆如初。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>At the next wailing, the day after, they tied up their hair, bared their arms, and went through the leaping. At the third wailing next day, they again tied up their hair, bared their arms, and went through the leaping. On these three days, the finishing the mourning dress, bowing to and escorting the visitors, took place as in the first case.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-004">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 4</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 4</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>奔喪者非主人，則主人為之拜賓送賓。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If he who has hurried to be present at the rites were not the presiding mourner on the occasion, then that presiding mourner, instead of him, bowed to the visitors and escorted them.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-005">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 5</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 5</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>奔喪者自齊衰以下，入門左中庭北面哭盡哀，免麻于序東，即位袒，與主人哭成踴。於又哭、三哭皆免袒，有賓則主人拜賓、送賓。丈夫婦人之待之也，皆如朝夕哭，位無變也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When one hurried to the rites, even where they were less than those for a mother or father, which required the wearing of sackcloth, with even edge or frayed, he entered the gate at the left side of it, and stood in the middle of the court-yard with his face to the north, wailing and giving full vent to his sorrow. He put on the cincture for the head and the sackcloth girdle in the corridor on the east, and repaired to his place, where he bared his arms. Then he wailed along with the presiding mourner, and went through the leaping. For the wailing on the second day and the third, they wore the cincture and bared the arms. If there were visitors, the presiding mourner bowed to them on their arrival, and escorted them. The husbands and wives (of the family) waited for him at the wailing-places for every morning and evening, without making any change.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-006">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 6</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 6</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>奔母之喪，西面哭盡哀，括髮袒，降堂東即位，西鄉哭，成踴，襲免絰于序東，拜賓、送賓，皆如奔父之禮，於又哭不括髮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When one hurries to the mourning rites for a mother, he wails with his face to the west, giving full vent to his sorrow. He then ties up his hair, bares his arms, descends from the hall, and goes to his station on the east, where, with his face to the west, he wails and goes through the leaping. After that, he covers his arms and puts on the cincture and sash in the corridor on the east. He bows to the visitors, and escorts them (to the gate) in the same way as if he had hurried to the rites for his father. At the wailing on the day after, he does not tie up his hair.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-007">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 7</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 7</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>婦人奔喪，升自東階，殯東，西面坐，哭盡哀；東髽，即位，與主人拾踴。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When a wife hurried to the mourning rites, she went up to the hall by the (side) steps on the east, and knelt on the east of the coffin with, her face to the west. There she wailed, giving full vent to her grief. Having put on the lower cincture on the east, she went to the station (for wailing), and there leaped alternately with the presiding mourner.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-008">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 8</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 8</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>奔喪者不及殯，先之墓，北面坐，哭盡哀。主人之待之也，即位於墓左，婦人墓右，成踴盡哀括髮，東即主人位，絰絞帶，哭成踴，拜賓，反位，成踴，相者告事畢。遂冠歸，入門左，北面哭盡哀，括髮袒成踴，東即位，拜賓成踴。賓出，主人拜送；有賓後至者則拜之成踴；送賓如初。眾主人兄弟皆出門，出門哭止，相者告就次。於又哭，括髮成踴；於三哭，猶括髮成踴。三日成服，於五哭，相者告事畢。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When one, hurrying to the mourning rites, did not arrive while the coffin with the body was still in the house, he first went to the grave; and there kneeling with his face to the north, he wailed, giving full vent to his sorrow. The principal mourners have been waiting for him (at the grave), and have taken their stations - the men on the left of it, and the wives on the right. Having gone through the leaping, and given full expression to his sorrow, he tied up his hair, and went to the station of the principal mourners on the east. In his headband of sackcloth, and sash with the ends tucked up, he wailed and went through the leaping. He then bowed to the visitors, and returned to his station, going (again) through the leaping, after which the director announced that the business was over. He then put on the cap, and returned to the house. There he entered at the left side of the door, and, with his face to the north, wailed and gave full vent to his sorrow. He then tied up his hair, bared his arms, and went through the leaping. Going to his station on the east, he bowed to the visitors, and went through the leaping. When the visitors went out, the presiding mourner bowed to them, and escorted them. When other visitors afterwards arrived, he bowed to them, went through the leaping, and escorted them in the same way. All the principal mourners and their cousins went out at the gate, wailed there and stopped, when the directors instructed them to go to the shed. At the wailing next day, he bound up his hair and went through the leaping. At the third wailing, he did the same. On the third day he completed his mourning dress (as was required). After the fifth wailing, the director announced that the business was over.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-009">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 9</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 9</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>為母所以異於父者，壹括髮，其餘免以終事，他如奔父之禮。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wherein the usages at the rites for a mother differed from those at the rites for a father, was that there was but one tying up of the hair. After that the cincture was worn to the end of the business. In other respects the usages were the same as at the rites for a father.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-010">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 10</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 10</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>齊衰以下不及殯：先之墓，西面哭盡哀，免麻于東方，即位，與主人哭成踴，襲。有賓則主人拜賓、送賓；賓有後至者，拜之如初。相者告事畢。遂冠歸，入門左，北面哭盡哀，免袒成踴，東即位，拜賓成踴，賓出，主人拜送。於又哭，免袒成踴；於三哭，猶免袒成踴。三日成服，於五哭，相者告事畢。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>At the rites for other relations, after those for the mother or father, the mourner who did not arrive while the coffin was in the house, first went to the grave, and there wailed with his face to the west, giving full vent to his sorrow. He then put on the cincture and hempen sash, and went to his station on the east, where he wailed with the presiding mourner, and went through the leaping. After this he covered his arms; and if there were visitors, the presiding mourner bowed to them and escorted them away. If any other visitors afterwards came, he bowed to them, as in the former case, and the director announced that the business was over. Immediately after he put on the cap, and returned to the house. Entering at the left side of the door, he wailed with his face to the north, giving full vent to his sorrow. He then put on the cincture, bared his arms, and went through the leaping. Going then to the station on the east, he bowed to the visitors, and went through the leaping again. When the visitors went out, the presiding mourner bowed to them and escorted them. At the wailing next day, he wore the cincture, bared his arms, and went through the leaping. At the third wailing he did the same. On the third day, he put on his mourning-garb; and at the fifth wailing, the director announced that the business was over.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-011">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 11</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 11</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>聞喪不得奔喪，哭盡哀；問故，又哭盡哀。乃為位，括髮袒成踴，襲絰絞帶即位，拜賓反位成踴。賓出，主人拜送于門外，反位；若有賓後至者，拜之成踴，送賓如初。於又哭，括髮袒成踴，於三哭，猶括髮袒成踴，三日成服，於五哭，拜賓送賓如初。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When one heard of the mourning rites, and it was impossible (in his circumstances) to hurry to be present at them, he wailed and gave full vent to his grief. He then asked the particulars, and (on hearing them) wailed again, and gave full vent to his grief. He then made a place (for his mourning) .where he was, tied up his hair, bared his arms, and went through the leaping. Having covered his arms, and put on the higher cincture and his sash with the ends tucked up, he went (back) to his place. After bowing to (any visitors that arrived), he returned to the place, and went through the leaping. When the visitors went out, he, as the presiding mourner, bowed to them, and escorted them outside the gate, returning then to his station. If any other visitors came afterwards, he bowed to them and went through the leaping, then escorting them as before. At the wailing next day, he tied up his hair, bared his arms, and went through the leaping. At the third wailing he did the same. On the third day, he put on his mourning-garb, wailed, bowed to his visitors, and escorted them as before.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-012">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 12</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 12</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>若除喪而後歸，則之墓，哭成踴，東括髮袒絰，拜賓成踴，送賓反位，又哭盡哀，遂除，於家不哭。主人之待之也，無變於服，與之哭，不踴。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If one returned home after the mourning rites had been completed, he went to the grave, and there wailed and went through the leaping. On the east of it, he tied up his hair, bared his arms, put on the cincture for the head, bowed to the visitors, and went (again) through the leaping. Having escorted the visitors, he returned to his place, and again wailed, giving full vent to his grief With this he put off his mourning. In the house he did not wail. The principal mourner, in his treatment of him, made no change in his dress; and though he wailed with him (at the grave), he did not leap.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-013">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 13</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 13</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>自齊衰以下，所以異者，免麻。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Wherein at other observances than those for the death of a mother or father, the usages (of such a mourner) differed from the above, were in the cincture for the head and the hempen sash.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-014">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 14</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 14</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>凡為位，非親喪，齊衰以下，皆即位哭盡哀，而東免絰，即位，袒、成踴、襲，拜賓反位，哭成踴，送賓反位，相者告就次。三日，五哭卒，主人出送賓；眾主人兄弟皆出門，哭止。相者告事畢。成服拜賓。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In all cases where one made a place for his mourning (away from home), if it were not on occasion of the death of a parent, but for some relative of the classes not so nearly related, he went to the station, and wailed, giving full vent to his sorrow. Having put on the cincture for the head and the girdle on the east, he came back to the station, bared his arms, and went through the leaping. He then covered his arms, bowed to the visitors, went back to the station, wailed, and went through the leaping. (After this), he escorted the guests away, and came back to the station, when the director told him to go to the shed. When the fifth wailing was ended, on the third day, the presiding mourner came forth and escorted the visitors away. All the principal mourners and their cousins went out at the gate, wailed, and stopped there. The director announced to them that the business was ended. He put on his full mourning-garb, and bowed to the visitors.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-015">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 15</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 15</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>若所為位家遠，則成服而往。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If the home were far distant from the place which an absent mourner has selected (for his wailing), they completed all their arrangements about dress before they went to it.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-016">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 16</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 16</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>齊衰，望鄉而哭；大功，望門而哭；小功，至門而哭；緦麻，即位而哭。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>One hurrying to mourning rites, if they were for a parent, wailed when he looked towards the district (where they had lived); if they were for a relation for whom nine months' mourning was due, he wailed when he could see the gate of his house; if for one to whom five months' mourning was due, he wailed when he got to the door; if for one to whom but three months' mourning was due, he wailed when he took his station.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-017">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 17</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 17</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>哭父之黨於廟；母妻之黨於寢；師於廟門外；朋友於寢門外；所識於野張帷。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>For one of his father's relations (for whom he did not need to go into mourning) a man wailed in the ancestral temple; for one of his mother or wife's relatives, in the back chamber of the temple; for his teacher, outside the gate of the temple; for a friend, outside the door of the back-chamber; for an acquaintance, in the open country, having pitched a tent for the occasion. Some say the wailing for a mother's relation was in the temple.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-018">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 18</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 18</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>凡為位不奠。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In all cases where a station was selected, away from the house of mourning, for paying funeral rites, no offerings were put down (for the departed).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-019">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 19</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 19</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>哭天子九，諸侯七，卿大夫五，士三。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>For the son of Heaven they wailed nine days; for a feudal prince, seven; for a high minister and Great officer, five; for another officer, three.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-020">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 20</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 20</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>大夫哭諸侯，不敢拜賓。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>A Great officer, in wailing for the ruler of his state, did not presume to bow to the visitors.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-021">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 21</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 21</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>諸臣在他國，為位而哭，不敢拜賓。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Ministers in other states, when they selected a station (for their wailing), did not presume to bow to the visitors.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-022">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 22</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 22</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>與諸侯為兄弟，亦為位而哭。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Officers, of the same surname with a feudal prince, (but who were serving in other states), also made a place at which to wail for him (on his death).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-023">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 23</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 23</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>凡為位者壹袒。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In all cases where one made a place (at a distance) at which to wail, he bared his arms (only) once.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-024">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 24</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 24</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>所識者吊，先哭于家而後之墓，皆為之成踴，從主人北面而踴。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In condoling with (the relations of) an acquaintance (after he has been buried), one first wailed in his house, and afterwards went to the grave, in both cases accompanying the wailing with the leaping. He alternated his leaping with that of the presiding mourner, keeping his face towards the north.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-025">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 25</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 25</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>凡喪，父在父為主；父沒，兄弟同居，各主其喪。親同，長者主之；不同，親者主之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>At all mourning rites (in a household), if the father were alive, he acted as presiding mourner; if he were dead, and brothers lived together in the house, each presided at the mourning for one of his own family-circle. If two brothers were equally related to the deceased for whom rites were necessary, the eldest presided at those rites; if they were not equally related, the one most nearly so presided.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-026">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 26</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 26</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>聞遠兄弟之喪，既除喪而後聞喪，免袒成踴，拜賓則尚左手。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When one heard of the death of a brother or cousin at a distance, but the news did not arrive till the time which his own mourning for him would have taken had expired, he (notwithstanding) put on the mourning cincture, bared his arms, and went through the leaping. He bowed to his visitors, however, with the left hand uppermost.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-027">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 27</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 27</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>無服而為位者，唯嫂叔；及婦人降而無服者麻。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The only case in which a place was chosen in which to wail for one for whom mourning was not worn, was the death of a sister-in-law, the wife of an elder brother. For a female member of the family who had married, and for whom therefore mourning was not worn, the hempen sash was assumed.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="liji-034-rules-on-hurrying-to-the-mourning-rites__aligned-028">
+      <prop type="x-work-id">liji</prop>
+      <prop type="x-section-id">liji-034-rules-on-hurrying-to-the-mourning-rites</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">block</prop>
+      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.96</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">禮記·《奔喪》 28</prop>
+      <prop type="x-translation-ref">禮記·《奔喪》 28</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>凡奔喪，有大夫至，袒，拜之，成踴而後襲；於士，襲而後拜之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When one had hurried to the mourning rites, and a Great officer came (to condole with him), he bared his arms, and bowed to him. When he had gone through the leaping, he covered his arms. In the case of a similar visit from an ordinary officer, he covered his arms, and then bowed to him.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

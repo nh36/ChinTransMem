@@ -1,0 +1,406 @@
+{
+  "work_id": "liji",
+  "title_zh": "禮記",
+  "title_en": "Book of Rites",
+  "summary": {
+    "section_count": 49,
+    "active_exportable_section_count": 49,
+    "metadata_only_blocked_section_count": 0,
+    "fallback_alignment_count": 4,
+    "remaining_blocker_count": 0
+  },
+  "sections": [
+    {
+      "section_id": "liji-001-summary-of-the-rules-of-propriety-part-1",
+      "title_zh": "《曲禮上》",
+      "title_en": "Summary of the Rules of Propriety Part 1",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-002-summary-of-the-rules-of-propriety-part-2",
+      "title_zh": "《曲禮下》",
+      "title_en": "Summary of the Rules of Propriety Part 2",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-003-tan-gong-i",
+      "title_zh": "《檀弓上》",
+      "title_en": "Tan Gong I",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-004-tan-gong-ii",
+      "title_zh": "《檀弓下》",
+      "title_en": "Tan Gong II",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-005-royal-regulations",
+      "title_zh": "《王制》",
+      "title_en": "Royal Regulations",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-006-proceedings-of-government-in-the",
+      "title_zh": "《月令》",
+      "title_en": "Proceedings of Government in the Different Months",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-007-the-questions-of-zeng-zi",
+      "title_zh": "《曾子問》",
+      "title_en": "The Questions of Zeng-zi",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-008-king-wen-as-son-and-heir",
+      "title_zh": "《文王世子》",
+      "title_en": "King Wen as Son and Heir",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-009-ceremonial-usages-their-origins",
+      "title_zh": "《禮運》",
+      "title_en": "Ceremonial Usages; their Origins, Development, and Intention",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-010-rites-in-the-formation-of-character",
+      "title_zh": "《禮器》",
+      "title_en": "Rites in the Formation of Character",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-011-the-single-victim-at-the-border",
+      "title_zh": "《郊特牲》",
+      "title_en": "The Single Victim at the Border Sacrifices",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-012-the-pattern-of-the-family",
+      "title_zh": "《內則》",
+      "title_en": "The Pattern of the Family",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-013-the-jade-bead-pendants-of-the-royal-cap",
+      "title_zh": "《玉藻》",
+      "title_en": "The Jade-Bead Pendants of the Royal Cap",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-014-the-places-in-the-hall-of-distinction",
+      "title_zh": "《明堂位》",
+      "title_en": "The Places in the Hall of Distinction",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-015-record-of-small-matters-in-the-dress-of",
+      "title_zh": "《喪服小記》",
+      "title_en": "Record of Small Matters in the Dress of Mourning",
+      "export_status": "active",
+      "verification_status": "reviewed_section_fallback",
+      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+    },
+    {
+      "section_id": "liji-016-the-great-treatise",
+      "title_zh": "《大傳》",
+      "title_en": "The Great Treatise",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-017-smaller-rules-of-demeanour",
+      "title_zh": "《少儀》",
+      "title_en": "Smaller Rules of Demeanour",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-018-record-on-the-subject-of-education",
+      "title_zh": "《學記》",
+      "title_en": "Record on the Subject of Education",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-019-record-of-music",
+      "title_zh": "《樂記》",
+      "title_en": "Record of Music",
+      "export_status": "active",
+      "verification_status": "reviewed_section_fallback",
+      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+    },
+    {
+      "section_id": "liji-020-miscellaneous-records-i",
+      "title_zh": "《雜記上》",
+      "title_en": "Miscellaneous Records I",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-021-miscellaneous-records-ii",
+      "title_zh": "《雜記下》",
+      "title_en": "Miscellaneous Records II",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-022-the-greater-record-of-mourning-rites",
+      "title_zh": "《喪大記》",
+      "title_en": "The Greater Record of Mourning Rites",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-023-the-law-of-sacrifices",
+      "title_zh": "《祭法》",
+      "title_en": "The Law of Sacrifices",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-024-the-meaning-of-sacrifices",
+      "title_zh": "《祭義》",
+      "title_en": "The Meaning of Sacrifices",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-025-a-summary-account-of-sacrifices",
+      "title_zh": "《祭統》",
+      "title_en": "A Summary Account of Sacrifices",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-026-the-different-teachings-of-the-different",
+      "title_zh": "《經解》",
+      "title_en": "The Different Teachings of the Different Kings",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-027-questions-of-duke-ai",
+      "title_zh": "《哀公問》",
+      "title_en": "Questions of Duke Ai",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-028-zhong-ni-at-home-at-ease",
+      "title_zh": "《仲尼燕居》",
+      "title_en": "Zhong-ni at Home at Ease",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-029-confucius-at-home-at-leisure",
+      "title_zh": "《孔子閒居》",
+      "title_en": "Confucius at Home at Leisure",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-030-record-of-the-dykes",
+      "title_zh": "《坊記》",
+      "title_en": "Record of the Dykes",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-031-the-state-of-equilibrium-and-harmony",
+      "title_zh": "《中庸》",
+      "title_en": "The State of Equilibrium and Harmony, also known as the Doctrine of the Mean",
+      "export_status": "active",
+      "verification_status": "reviewed_section_fallback",
+      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+    },
+    {
+      "section_id": "liji-032-the-record-on-example",
+      "title_zh": "《表記》",
+      "title_en": "The Record on Example",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-033-the-black-robes",
+      "title_zh": "《緇衣》",
+      "title_en": "The Black Robes",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-034-rules-on-hurrying-to-the-mourning-rites",
+      "title_zh": "《奔喪》",
+      "title_en": "Rules on Hurrying to the Mourning Rites",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-035-questions-about-mourning-rites",
+      "title_zh": "《問喪》",
+      "title_en": "Questions about Mourning Rites",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-036-subjects-for-questions-about-the",
+      "title_zh": "《服問》",
+      "title_en": "Subjects for Questions about the Mourning Dress",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-037-treatise-on-subsidiary-points-in",
+      "title_zh": "《間傳》",
+      "title_en": "Treatise on Subsidiary Points in Mourning Usages",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-038-questions-about-the-mourning-for-three",
+      "title_zh": "《三年問》",
+      "title_en": "Questions about the Mourning for Three Years",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-039-the-long-dress-in-one-piece",
+      "title_zh": "《深衣》",
+      "title_en": "The Long Dress in One Piece",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-040-the-game-of-pitch-pot",
+      "title_zh": "《投壺》",
+      "title_en": "The Game of Pitch-Pot",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-041-the-conduct-of-the-scholar",
+      "title_zh": "《儒行》",
+      "title_en": "The Conduct of the Scholar",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-042-the-great-learning",
+      "title_zh": "《大學》",
+      "title_en": "The Great Learning",
+      "export_status": "active",
+      "verification_status": "reviewed_section_fallback",
+      "fallback_reason": "ChineseNotes bilingual paragraphing stays structurally imbalanced in this chapter after deterministic cleanup, so the candidate gauntlet retains a reviewed chapter-level fallback rather than forcing unsafe regrouping."
+    },
+    {
+      "section_id": "liji-043-the-meaning-of-the-ceremony-of-capping",
+      "title_zh": "《冠義》",
+      "title_en": "The Meaning of the Ceremony of Capping",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-044-the-meaning-of-the-marriage-ceremony",
+      "title_zh": "《昏義》",
+      "title_en": "The Meaning of the Marriage Ceremony",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-045-the-meaning-of-the-drinking-festivity-in",
+      "title_zh": "《鄉飲酒義》",
+      "title_en": "The Meaning of the Drinking Festivity in the Districts",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-046-the-meaning-of-the-ceremony-of-archery",
+      "title_zh": "《射義》",
+      "title_en": "The Meaning of the Ceremony of Archery",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-047-the-meaning-of-the-banquet",
+      "title_zh": "《燕義》",
+      "title_en": "The Meaning of the Banquet",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-048-the-meaning-of-the-interchange-of",
+      "title_zh": "《聘義》",
+      "title_en": "The Meaning of the Interchange of Missions Beteween Different Courts",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    },
+    {
+      "section_id": "liji-049-the-four-principles-underlying-the-dress",
+      "title_zh": "《喪服四制》",
+      "title_en": "The Four Principles Underlying the Dress of Mourning",
+      "export_status": "active",
+      "verification_status": "deterministic_alignment",
+      "fallback_reason": null
+    }
+  ]
+}

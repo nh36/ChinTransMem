@@ -1,16 +1,67 @@
 {
   "works": [
     {
-      "chintransmem_work_id": "shijing",
+      "chintransmem_work_id": "hanfeizi",
       "chinesenotes_paths": [
-        "data/corpus/shijing.csv",
-        "corpus/shijing/"
+        "data/corpus/hanfeizi.csv",
+        "corpus/hanfeizi/"
       ],
-      "status": "already_ingested",
+      "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
-      "preferred_use": "english_witness",
-      "notes": "Already used for selected Shijing recovery witnesses; keep ChineseNotes as a source-witness layer and cross-check, not as a replacement corpus."
+      "preferred_use": "metadata_only",
+      "notes": "Not yet staged; hold this as a metadata-discovery candidate only."
+    },
+    {
+      "chintransmem_work_id": "laozi",
+      "chinesenotes_paths": [
+        "data/corpus/daodejing.csv",
+        "corpus/daodejing/"
+      ],
+      "status": "already_ingested",
+      "english_coverage": "complete",
+      "chinese_coverage": "complete",
+      "preferred_use": "base_text",
+      "generated_summary": {
+        "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+        "active_section_count": 81,
+        "exact_alignment_count": 714,
+        "alignment_granularity_counts": {
+          "grouped": 690,
+          "sentence": 24
+        },
+        "curated_override_section_count": 1,
+        "curated_override_section_ids": [
+          "laozi-chapter-062"
+        ],
+        "fallback_section_count": 0,
+        "blocked_section_count": 0
+      },
+      "notes": "Promoted from ChineseNotes data/corpus/daodejing.csv at upstream commit 1f6b1d3e7a40b6886a4b943c898125639e993544: 81 active chapters, 714 exact alignments, 690 grouped alignments, 24 sentence alignments, 0 chapter-level fallbacks, 0 blocked chapters, and 1 curated override chapter: `laozi-chapter-062`."
+    },
+    {
+      "chintransmem_work_id": "liezi",
+      "chinesenotes_paths": [
+        "data/corpus/liezi.csv",
+        "corpus/liezi/"
+      ],
+      "status": "needs_review",
+      "english_coverage": "unknown",
+      "chinese_coverage": "unknown",
+      "preferred_use": "metadata_only",
+      "notes": "Not yet staged; keep as a discovery target only until a work-level ingestion run verifies structure and coverage."
+    },
+    {
+      "chintransmem_work_id": "liji",
+      "chinesenotes_paths": [
+        "data/corpus/liji.csv",
+        "corpus/liji/"
+      ],
+      "status": "already_ingested",
+      "english_coverage": "complete",
+      "chinese_coverage": "complete",
+      "preferred_use": "aligned_passages",
+      "notes": "Liji now runs through the reusable candidate gauntlet with 49 active proof-of-concept chapters, 4 reviewed chapter-level fallbacks, and rights-status metadata on every active English witness."
     },
     {
       "chintransmem_work_id": "lunyu",
@@ -35,141 +86,6 @@
       "chinese_coverage": "unknown",
       "preferred_use": "cross_check",
       "notes": "Existing ChinTransMem Mengzi data remains authoritative; ChineseNotes has not yet been staged work-wide."
-    },
-    {
-      "chintransmem_work_id": "zhuangzi",
-      "chinesenotes_paths": [
-        "data/corpus/zhuangzi.csv",
-        "corpus/zhuangzi/"
-      ],
-      "status": "needs_review",
-      "english_coverage": "unknown",
-      "chinese_coverage": "unknown",
-      "preferred_use": "metadata_only",
-      "notes": "Not yet staged; keep this mapping entry as a discovery target until a work-level staging run measures actual coverage."
-    },
-    {
-      "chintransmem_work_id": "xunzi",
-      "chinesenotes_paths": [
-        "data/corpus/xunzi.csv",
-        "corpus/xunzi/"
-      ],
-      "status": "needs_review",
-      "english_coverage": "unknown",
-      "chinese_coverage": "unknown",
-      "preferred_use": "metadata_only",
-      "notes": "Not yet staged; do not assume reusable English coverage until a work-level staging run confirms it."
-    },
-    {
-      "chintransmem_work_id": "hanfeizi",
-      "chinesenotes_paths": [
-        "data/corpus/hanfeizi.csv",
-        "corpus/hanfeizi/"
-      ],
-      "status": "needs_review",
-      "english_coverage": "unknown",
-      "chinese_coverage": "unknown",
-      "preferred_use": "metadata_only",
-      "notes": "Not yet staged; hold this as a metadata-discovery candidate only."
-    },
-    {
-      "chintransmem_work_id": "zuozhuan",
-      "chinesenotes_paths": [
-        "data/corpus/zuozhuan.csv",
-        "corpus/zuozhuan/"
-      ],
-      "status": "needs_review",
-      "english_coverage": "unknown",
-      "chinese_coverage": "unknown",
-      "preferred_use": "metadata_only",
-      "notes": "Not yet staged; use only as a possible future discovery target until coverage is measured from an ingestion run."
-    },
-    {
-      "chintransmem_work_id": "shiji",
-      "chinesenotes_paths": [
-        "data/corpus/shiji.csv",
-        "corpus/shiji/"
-      ],
-      "status": "needs_review",
-      "english_coverage": "unknown",
-      "chinese_coverage": "unknown",
-      "preferred_use": "metadata_only",
-      "notes": "Not yet staged; keep out of scope for the pilot importer because of structural size and complexity."
-    },
-    {
-      "chintransmem_work_id": "liji",
-      "chinesenotes_paths": [
-        "data/corpus/liji.csv",
-        "corpus/liji/"
-      ],
-      "status": "needs_review",
-      "english_coverage": "unknown",
-      "chinese_coverage": "unknown",
-      "preferred_use": "metadata_only",
-      "notes": "Not yet staged; do not treat collection metadata as proof of reusable bilingual coverage."
-    },
-    {
-      "chintransmem_work_id": "shangshu",
-      "chinesenotes_paths": [
-        "data/corpus/shangshu.csv",
-        "corpus/shangshu/"
-      ],
-      "status": "already_ingested",
-      "english_coverage": "mostly_complete",
-      "chinese_coverage": "complete",
-      "preferred_use": "base_text",
-      "generated_summary": {
-        "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
-        "total_section_count": 60,
-        "active_section_count": 58,
-        "exportable_section_count": 58,
-        "exact_alignment_count": 135,
-        "alignment_granularity_counts": {
-          "block": 49,
-          "grouped": 86
-        },
-        "curated_override_section_count": 0,
-        "fallback_section_count": 0,
-        "blocked_section_count": 2,
-        "drift_issue_count_before_repair": 5,
-        "repaired_drift_issue_count": 5,
-        "remaining_drift_issue_count": 0,
-        "blocked_section_ids": [
-          "shangshu-002-yu-shu-dan-zhu-forged",
-          "shangshu-008-xia-shu-yu-shi-forged"
-        ],
-        "english_witness": "Wikisource transcription of James Legge, Sacred Books of the East, Volume 3"
-      },
-      "notes": "Rebuilt from ChineseNotes `data/corpus/shangshu.csv` plus a clean Wikisource transcription of James Legge's *Sacred Books of the East*, Volume 3, after rejecting corrupted ChineseNotes English at upstream commit 1f6b1d3e7a40b6886a4b943c898125639e993544: 60 detected sections, 58 active/exportable bilingual sections, 135 exact alignments, 86 grouped alignments, 49 block alignments, 0 section-level fallbacks, 0 curated override sections, Canon of Yao anchor drift repaired with 5 detected issues and 0 remaining drift issues, and 2 blocked forged Chinese-only sections (`shangshu-002-yu-shu-dan-zhu-forged`, `shangshu-008-xia-shu-yu-shi-forged`)."
-    },
-    {
-      "chintransmem_work_id": "yijing",
-      "chinesenotes_paths": [
-        "data/corpus/yijing.csv",
-        "corpus/yijing/"
-      ],
-      "status": "already_ingested",
-      "english_coverage": "complete",
-      "chinese_coverage": "complete",
-      "preferred_use": "base_text",
-      "generated_summary": {
-        "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
-        "total_section_count": 64,
-        "active_section_count": 64,
-        "exportable_section_count": 64,
-        "exact_alignment_count": 450,
-        "alignment_granularity_counts": {
-          "block": 450
-        },
-        "curated_override_section_count": 0,
-        "fallback_section_count": 0,
-        "blocked_section_count": 0,
-        "remaining_drift_issue_count": 0,
-        "line_order_checks_run": 64,
-        "remaining_line_order_issue_count": 0,
-        "english_witness": "ChineseNotes bilingual mirror of James Legge, Book of Changes (1882)"
-      },
-      "notes": "Promoted from ChineseNotes `data/corpus/yijing.csv` at upstream commit `1f6b1d3e7a40b6886a4b943c898125639e993544`: 64 active hexagrams, 450 exact alignments, 450 block alignments, 0 curated override sections, 0 section-level fallbacks, 0 blocked sections, 0 remaining corruption issues, 0 remaining drift issues, 0 remaining line-order issues, and Ten Wings commentary and trigram headings excluded from exportable translation-memory text."
     },
     {
       "chintransmem_work_id": "mozi",
@@ -227,10 +143,80 @@
       }
     },
     {
-      "chintransmem_work_id": "laozi",
+      "chintransmem_work_id": "shangshu",
       "chinesenotes_paths": [
-        "data/corpus/daodejing.csv",
-        "corpus/daodejing/"
+        "data/corpus/shangshu.csv",
+        "corpus/shangshu/"
+      ],
+      "status": "already_ingested",
+      "english_coverage": "mostly_complete",
+      "chinese_coverage": "complete",
+      "preferred_use": "base_text",
+      "generated_summary": {
+        "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
+        "total_section_count": 60,
+        "active_section_count": 58,
+        "exportable_section_count": 58,
+        "exact_alignment_count": 135,
+        "alignment_granularity_counts": {
+          "block": 49,
+          "grouped": 86
+        },
+        "curated_override_section_count": 0,
+        "fallback_section_count": 0,
+        "blocked_section_count": 2,
+        "drift_issue_count_before_repair": 5,
+        "repaired_drift_issue_count": 5,
+        "remaining_drift_issue_count": 0,
+        "blocked_section_ids": [
+          "shangshu-002-yu-shu-dan-zhu-forged",
+          "shangshu-008-xia-shu-yu-shi-forged"
+        ],
+        "english_witness": "Wikisource transcription of James Legge, Sacred Books of the East, Volume 3"
+      },
+      "notes": "Rebuilt from ChineseNotes `data/corpus/shangshu.csv` plus a clean Wikisource transcription of James Legge's *Sacred Books of the East*, Volume 3, after rejecting corrupted ChineseNotes English at upstream commit 1f6b1d3e7a40b6886a4b943c898125639e993544: 60 detected sections, 58 active/exportable bilingual sections, 135 exact alignments, 86 grouped alignments, 49 block alignments, 0 section-level fallbacks, 0 curated override sections, Canon of Yao anchor drift repaired with 5 detected issues and 0 remaining drift issues, and 2 blocked forged Chinese-only sections (`shangshu-002-yu-shu-dan-zhu-forged`, `shangshu-008-xia-shu-yu-shi-forged`)."
+    },
+    {
+      "chintransmem_work_id": "shiji",
+      "chinesenotes_paths": [
+        "data/corpus/shiji.csv",
+        "corpus/shiji/"
+      ],
+      "status": "needs_review",
+      "english_coverage": "unknown",
+      "chinese_coverage": "unknown",
+      "preferred_use": "metadata_only",
+      "notes": "Not yet staged; keep out of scope for the pilot importer because of structural size and complexity."
+    },
+    {
+      "chintransmem_work_id": "shijing",
+      "chinesenotes_paths": [
+        "data/corpus/shijing.csv",
+        "corpus/shijing/"
+      ],
+      "status": "already_ingested",
+      "english_coverage": "unknown",
+      "chinese_coverage": "unknown",
+      "preferred_use": "english_witness",
+      "notes": "Already used for selected Shijing recovery witnesses; keep ChineseNotes as a source-witness layer and cross-check, not as a replacement corpus."
+    },
+    {
+      "chintransmem_work_id": "xunzi",
+      "chinesenotes_paths": [
+        "data/corpus/xunzi.csv",
+        "corpus/xunzi/"
+      ],
+      "status": "needs_review",
+      "english_coverage": "unknown",
+      "chinese_coverage": "unknown",
+      "preferred_use": "metadata_only",
+      "notes": "Not yet staged; do not assume reusable English coverage until a work-level staging run confirms it."
+    },
+    {
+      "chintransmem_work_id": "yijing",
+      "chinesenotes_paths": [
+        "data/corpus/yijing.csv",
+        "corpus/yijing/"
       ],
       "status": "already_ingested",
       "english_coverage": "complete",
@@ -238,32 +224,46 @@
       "preferred_use": "base_text",
       "generated_summary": {
         "upstream_commit_sha": "1f6b1d3e7a40b6886a4b943c898125639e993544",
-        "active_section_count": 81,
-        "exact_alignment_count": 714,
+        "total_section_count": 64,
+        "active_section_count": 64,
+        "exportable_section_count": 64,
+        "exact_alignment_count": 450,
         "alignment_granularity_counts": {
-          "grouped": 690,
-          "sentence": 24
+          "block": 450
         },
-        "curated_override_section_count": 1,
-        "curated_override_section_ids": [
-          "laozi-chapter-062"
-        ],
+        "curated_override_section_count": 0,
         "fallback_section_count": 0,
-        "blocked_section_count": 0
+        "blocked_section_count": 0,
+        "remaining_drift_issue_count": 0,
+        "line_order_checks_run": 64,
+        "remaining_line_order_issue_count": 0,
+        "english_witness": "ChineseNotes bilingual mirror of James Legge, Book of Changes (1882)"
       },
-      "notes": "Promoted from ChineseNotes data/corpus/daodejing.csv at upstream commit 1f6b1d3e7a40b6886a4b943c898125639e993544: 81 active chapters, 714 exact alignments, 690 grouped alignments, 24 sentence alignments, 0 chapter-level fallbacks, 0 blocked chapters, and 1 curated override chapter: `laozi-chapter-062`."
+      "notes": "Promoted from ChineseNotes `data/corpus/yijing.csv` at upstream commit `1f6b1d3e7a40b6886a4b943c898125639e993544`: 64 active hexagrams, 450 exact alignments, 450 block alignments, 0 curated override sections, 0 section-level fallbacks, 0 blocked sections, 0 remaining corruption issues, 0 remaining drift issues, 0 remaining line-order issues, and Ten Wings commentary and trigram headings excluded from exportable translation-memory text."
     },
     {
-      "chintransmem_work_id": "liezi",
+      "chintransmem_work_id": "zhuangzi",
       "chinesenotes_paths": [
-        "data/corpus/liezi.csv",
-        "corpus/liezi/"
+        "data/corpus/zhuangzi.csv",
+        "corpus/zhuangzi/"
       ],
       "status": "needs_review",
       "english_coverage": "unknown",
       "chinese_coverage": "unknown",
       "preferred_use": "metadata_only",
-      "notes": "Not yet staged; keep as a discovery target only until a work-level ingestion run verifies structure and coverage."
+      "notes": "Not yet staged; keep this mapping entry as a discovery target until a work-level staging run measures actual coverage."
+    },
+    {
+      "chintransmem_work_id": "zuozhuan",
+      "chinesenotes_paths": [
+        "data/corpus/zuozhuan.csv",
+        "corpus/zuozhuan/"
+      ],
+      "status": "needs_review",
+      "english_coverage": "unknown",
+      "chinese_coverage": "unknown",
+      "preferred_use": "metadata_only",
+      "notes": "Not yet staged; use only as a possible future discovery target until coverage is measured from an ingestion run."
     }
   ]
 }

@@ -43,6 +43,18 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertEqual(candidate_ai_review_path("mozi").name, "mozi__alignment_review.jsonl")
         self.assertEqual(candidate_report_path("mozi").name, "mozi_candidate_report.md")
 
+    def test_liji_candidate_outputs_are_separate_from_active_exports(self) -> None:
+        active_paths = corpus_export_paths("liji")
+        candidate_paths = candidate_corpus_export_paths("liji")
+
+        self.assertNotEqual(candidate_paths["jsonl"], active_paths["jsonl"])
+        self.assertNotEqual(candidate_paths["csv"], active_paths["csv"])
+        self.assertNotEqual(candidate_paths["tmx"], active_paths["tmx"])
+        self.assertIn("/corpus/candidates/liji/", str(candidate_paths["jsonl"]))
+        self.assertEqual(candidate_qc_report_path("liji").name, "liji__candidate_qc.json")
+        self.assertEqual(candidate_ai_review_path("liji").name, "liji__alignment_review.jsonl")
+        self.assertEqual(candidate_report_path("liji").name, "liji_candidate_report.md")
+
     def test_promotion_fails_if_candidate_qc_has_hard_failures(self) -> None:
         gate = evaluate_promotion_gates(
             "fixture-work",
@@ -288,6 +300,7 @@ class IngestionGauntletTest(unittest.TestCase):
         shangshu_alignment = load_json(REPO_ROOT / "logs" / "qc_reports" / "shangshu__alignment_qc.json")
         yijing_manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "yijing.yml")
         yijing_alignment = load_json(REPO_ROOT / "logs" / "qc_reports" / "yijing__alignment_qc.json")
+        mozi_manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "mozi.yml")
 
         self.assertEqual(shijing_manifest["summary"]["section_count"], 305)
         self.assertEqual(shijing_manifest["summary"]["complete_sections"], 305)
@@ -303,6 +316,80 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertEqual(yijing_alignment["summary"]["exact_alignment_count"], 450)
         self.assertEqual(yijing_alignment["summary"]["fallback_section_count"], 0)
         self.assertEqual(yijing_alignment["summary"]["remaining_line_order_issue_count"], 0)
+        self.assertEqual(mozi_manifest["summary"]["active_section_count"], 30)
+
+    def test_liji_active_sections_have_provenance_and_rights_metadata(self) -> None:
+        manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "liji.yml")
+        sources = {
+            source["source_id"]: source
+            for source in load_json(REPO_ROOT / "metadata" / "sources.yml")
+            if source.get("work_id") == "liji"
+        }
+
+        self.assertEqual(manifest["summary"]["active_section_count"], 49)
+        self.assertEqual(len(sources), 98)
+        for section in manifest["sections"]:
+            self.assertEqual(section["export_status"], "active")
+            self.assertEqual(section["rights_status"], "rights_review_required")
+            self.assertEqual(section["release_status"], "not_cleared")
+            source_ids = section["source_ids"]
+            self.assertIn("source_id", source_ids)
+            self.assertIn("target_source_id", source_ids)
+            for source_id in (source_ids["source_id"], source_ids["target_source_id"]):
+                source = sources[source_id]
+                self.assertTrue(source["source_url"])
+                self.assertEqual(source["rights_status"], "rights_review_required")
+                self.assertEqual(source["release_status"], "not_cleared")
+                self.assertTrue(source.get("rights_note") or source.get("notes"))
+
+    def test_liji_active_exports_are_clean_and_fallbacks_reviewed(self) -> None:
+        candidate_qc = load_json(candidate_qc_report_path("liji"))
+        candidate_report = candidate_report_path("liji").read_text(encoding="utf-8")
+        reviews = load_jsonl(candidate_ai_review_path("liji"))
+        active_rows = load_jsonl(corpus_export_paths("liji")["jsonl"])
+        active_text_integrity = run_text_integrity_checks("liji", rows=active_rows)
+
+        self.assertEqual(candidate_qc["hard_failure_count"], 0)
+        self.assertEqual(active_text_integrity["hard_failure_count"], 0)
+        self.assertEqual(candidate_qc["text_integrity"]["translation_with_ocr_corruption_rows"], [])
+        self.assertEqual(candidate_qc["text_integrity"]["translation_with_notice_sections"], [])
+        self.assertEqual(candidate_qc["text_integrity"]["translation_with_commentary_sections"], [])
+        self.assertEqual(candidate_qc["text_integrity"]["translation_with_heading_sections"], [])
+        self.assertEqual(
+            {review["classification"] for review in reviews},
+            {"pass", "fallback_justified"},
+        )
+        fallback_reviews = [review for review in reviews if review["classification"] == "fallback_justified"]
+        self.assertEqual(len(fallback_reviews), 4)
+        self.assertTrue(all(review["coarse_alignment_reason"] for review in fallback_reviews))
+        self.assertIn("Current state: active_proof_of_concept", candidate_report)
+        self.assertIn("Candidate and active promoted exports match on counts and file content.", candidate_report)
+
+    def test_liji_mapping_and_reports_agree(self) -> None:
+        manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "liji.yml")
+        mapping = load_json(REPO_ROOT / "metadata" / "chinesenotes_work_mapping.yml")
+        candidate_qc = load_json(candidate_qc_report_path("liji"))
+        active_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "liji__corpus_qc.json")
+        alignment_qc = load_json(REPO_ROOT / "logs" / "qc_reports" / "liji__alignment_qc.json")
+        mozi_completion = (REPO_ROOT / "documentation" / "mozi_completion_quality.md").read_text(encoding="utf-8")
+
+        mapping_entry = next(entry for entry in mapping["works"] if entry["chintransmem_work_id"] == "liji")
+        self.assertEqual(mapping_entry["status"], "already_ingested")
+        self.assertEqual(mapping_entry["preferred_use"], "aligned_passages")
+        self.assertEqual(manifest["summary"]["section_count"], 49)
+        self.assertEqual(manifest["summary"]["active_section_count"], 49)
+        self.assertEqual(manifest["summary"]["exact_alignment_count"], 1813)
+        self.assertEqual(manifest["summary"]["fallback_section_count"], 4)
+        self.assertEqual(candidate_qc["status"], "pass")
+        self.assertEqual(candidate_qc["counts"]["exact_alignment_records"], 1813)
+        self.assertEqual(active_qc["manifest_summary"]["exact_alignment_count"], 1813)
+        self.assertEqual(active_qc["manifest_summary"]["fallback_section_count"], 4)
+        self.assertEqual(active_qc["manifest_summary"]["remaining_corruption_issue_count"], 0)
+        self.assertEqual(active_qc["manifest_summary"]["remaining_leakage_issue_count"], 0)
+        self.assertEqual(active_qc["manifest_summary"]["remaining_drift_issue_count"], 0)
+        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 1813)
+        self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 4)
+        self.assertEqual(mozi_completion.splitlines()[0], "# Mozi completion quality")
 
 
 if __name__ == "__main__":

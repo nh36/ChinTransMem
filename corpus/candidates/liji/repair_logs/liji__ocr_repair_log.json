@@ -1,0 +1,52 @@
+{
+  "work_id": "liji",
+  "summary": {
+    "pre_repair_corruption_issue_count": 0,
+    "corrected_corruption_issue_count": 0,
+    "remaining_corruption_issue_count": 0,
+    "pre_repair_leakage_issue_count": 4,
+    "repaired_leakage_issue_count": 4,
+    "remaining_leakage_issue_count": 0,
+    "automatic_correction_count": 4,
+    "curated_correction_count": 0
+  },
+  "repairs": [
+    {
+      "section_id": "liji-001-summary-of-the-rules-of-propriety-part-1",
+      "source_file": "corpus/liji/liji001.txt",
+      "issue_type": "heading_leakage",
+      "raw_text": "Qu Li I:",
+      "corrected_text": "",
+      "correction_type": "automatic_heading_exclusion",
+      "confidence": "deterministic"
+    },
+    {
+      "section_id": "liji-001-summary-of-the-rules-of-propriety-part-1",
+      "source_file": "corpus/liji/liji001.txt",
+      "issue_type": "heading_leakage",
+      "raw_text": "Qu Li I:",
+      "corrected_text": "",
+      "correction_type": "automatic_heading_exclusion",
+      "confidence": "deterministic"
+    },
+    {
+      "section_id": "liji-005-royal-regulations",
+      "source_file": "corpus/liji/liji005.txt",
+      "issue_type": "heading_leakage",
+      "raw_text": "Wang Zhi:",
+      "corrected_text": "",
+      "correction_type": "automatic_heading_exclusion",
+      "confidence": "deterministic"
+    },
+    {
+      "section_id": "liji-008-king-wen-as-son-and-heir",
+      "source_file": "corpus/liji/liji008.txt",
+      "issue_type": "footnote_leakage",
+      "raw_text": "1. 脫 : Originally read: \"說\".",
+      "corrected_text": "",
+      "correction_type": "automatic_commentary_exclusion",
+      "confidence": "deterministic"
+    }
+  ],
+  "remaining_issues": []
+}

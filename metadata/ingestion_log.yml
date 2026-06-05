@@ -3749,5 +3749,12 @@
     "stage": "bootstrap",
     "status": "completed",
     "notes": "Promoted Yijing from ChineseNotes as a 64-hexagram active work using structural judgment-plus-line parsing and commentary exclusion."
+  },
+  {
+    "run_id": "liji-bootstrap-1f6b1d3",
+    "work_id": "liji",
+    "stage": "bootstrap",
+    "status": "completed",
+    "notes": "Generated processed Liji chapters and manifest from ChineseNotes bilingual source files."
   }
 ]

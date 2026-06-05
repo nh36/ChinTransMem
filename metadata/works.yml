@@ -1,5 +1,23 @@
 [
   {
+    "work_id": "laozi",
+    "canonical_title": "老子",
+    "english_title": "Dao De Jing",
+    "work_type": "classical_text",
+    "language_code": "zh-Hant",
+    "default_citation": "老子",
+    "notes": "Active Laozi corpus promoted from the ChineseNotes bilingual Daodejing mirror, with ChineseNotes provenance, James Legge 1891 attribution, reusable grouped fine-grained alignment, and a first-class curated override for chapter 62."
+  },
+  {
+    "work_id": "liji",
+    "canonical_title": "禮記",
+    "english_title": "Book of Rites",
+    "work_type": "classical_text",
+    "language_code": "zh-Hant",
+    "default_citation": "禮記",
+    "notes": "Liji is promoted through the candidate-ingestion gauntlet as a proof-of-concept ChineseNotes/Legge corpus. 4 structurally uneven chapters retain reviewed section-level fallbacks."
+  },
+  {
     "work_id": "lunyu",
     "canonical_title": "論語",
     "english_title": "Confucian Analects",
@@ -18,22 +36,13 @@
     "notes": "Public-domain Mengzi corpus aligned against James Legge's The Chinese Classics, Volume 2."
   },
   {
-    "work_id": "shijing",
-    "canonical_title": "詩經",
-    "english_title": "Classic of Poetry",
+    "work_id": "mozi",
+    "canonical_title": "墨子",
+    "english_title": "Mozi",
     "work_type": "classical_text",
     "language_code": "zh-Hant",
-    "default_citation": "詩經",
-    "notes": "Full extant public-domain Shijing corpus aligned against James Legge's public-domain witnesses. The corpus model excludes the six traditional title-only/lost-text Xiaoya placeholders because they have no poem text."
-  },
-  {
-    "work_id": "laozi",
-    "canonical_title": "老子",
-    "english_title": "Dao De Jing",
-    "work_type": "classical_text",
-    "language_code": "zh-Hant",
-    "default_citation": "老子",
-    "notes": "Active Laozi corpus promoted from the ChineseNotes bilingual Daodejing mirror, with ChineseNotes provenance, James Legge 1891 attribution, reusable grouped fine-grained alignment, and a first-class curated override for chapter 62."
+    "default_citation": "墨子",
+    "notes": "Active proof-of-concept Mozi corpus built from the ChineseNotes Chinese chapters plus a committed Archive.org OCR capture of Yi-Pao Mei 1929 for the clean attributable chapter subset. Exportable chapters remain not_cleared and rights_review_required until later release review, while chapters without a clean attributable English witness stay metadata-only."
   },
   {
     "work_id": "shangshu",
@@ -45,6 +54,15 @@
     "notes": "Active Shangshu corpus using ChineseNotes for the Chinese base text and provenance scaffold, plus a clean Wikisource / Sacred Books of the East Legge witness for the English translation, with logical-block parsing and monotonic grouped alignment for exportable sections while retaining the two forged Chinese-only sections as explicit metadata-only entries."
   },
   {
+    "work_id": "shijing",
+    "canonical_title": "詩經",
+    "english_title": "Classic of Poetry",
+    "work_type": "classical_text",
+    "language_code": "zh-Hant",
+    "default_citation": "詩經",
+    "notes": "Full extant public-domain Shijing corpus aligned against James Legge's public-domain witnesses. The corpus model excludes the six traditional title-only/lost-text Xiaoya placeholders because they have no poem text."
+  },
+  {
     "work_id": "yijing",
     "canonical_title": "易經",
     "english_title": "Book of Changes",
@@ -52,14 +70,5 @@
     "language_code": "zh-Hant",
     "default_citation": "易經",
     "notes": "Active Yijing corpus promoted from the ChineseNotes bilingual mirror, exporting only the Zhouyi judgment and line statements from each hexagram while excluding trigram headings and Ten Wings commentary from translation-memory outputs."
-  },
-  {
-    "work_id": "mozi",
-    "canonical_title": "墨子",
-    "english_title": "Mozi",
-    "work_type": "classical_text",
-    "language_code": "zh-Hant",
-    "default_citation": "墨子",
-    "notes": "Active proof-of-concept Mozi corpus built from the ChineseNotes Chinese chapters plus a committed Archive.org OCR capture of Yi-Pao Mei 1929 for the clean attributable chapter subset. Exportable chapters remain not_cleared and rights_review_required until later release review, while chapters without a clean attributable English witness stay metadata-only."
   }
 ]

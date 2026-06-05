@@ -5716,5 +5716,311 @@
     "entity_id": "mozi-052-miscellaneous-measures-in-defense",
     "romanization_system": "english-title",
     "alias": "Miscellaneous Measures in Defense"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "liji",
+    "romanization_system": "wade-giles",
+    "alias": "Li Chi"
+  },
+  {
+    "entity_type": "work",
+    "entity_id": "liji",
+    "romanization_system": "english-title",
+    "alias": "Book of Rites"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-001-summary-of-the-rules-of-propriety-part-1",
+    "romanization_system": "english-title",
+    "alias": "Summary of the Rules of Propriety Part 1"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-002-summary-of-the-rules-of-propriety-part-2",
+    "romanization_system": "english-title",
+    "alias": "Summary of the Rules of Propriety Part 2"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-003-tan-gong-i",
+    "romanization_system": "english-title",
+    "alias": "Tan Gong I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-004-tan-gong-ii",
+    "romanization_system": "english-title",
+    "alias": "Tan Gong II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-005-royal-regulations",
+    "romanization_system": "english-title",
+    "alias": "Royal Regulations"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-006-proceedings-of-government-in-the",
+    "romanization_system": "english-title",
+    "alias": "Proceedings of Government in the Different Months"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-007-the-questions-of-zeng-zi",
+    "romanization_system": "english-title",
+    "alias": "The Questions of Zeng-zi"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-008-king-wen-as-son-and-heir",
+    "romanization_system": "english-title",
+    "alias": "King Wen as Son and Heir"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-009-ceremonial-usages-their-origins",
+    "romanization_system": "english-title",
+    "alias": "Ceremonial Usages; their Origins, Development, and Intention"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-010-rites-in-the-formation-of-character",
+    "romanization_system": "english-title",
+    "alias": "Rites in the Formation of Character"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-011-the-single-victim-at-the-border",
+    "romanization_system": "english-title",
+    "alias": "The Single Victim at the Border Sacrifices"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-012-the-pattern-of-the-family",
+    "romanization_system": "english-title",
+    "alias": "The Pattern of the Family"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-013-the-jade-bead-pendants-of-the-royal-cap",
+    "romanization_system": "english-title",
+    "alias": "The Jade-Bead Pendants of the Royal Cap"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-014-the-places-in-the-hall-of-distinction",
+    "romanization_system": "english-title",
+    "alias": "The Places in the Hall of Distinction"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-015-record-of-small-matters-in-the-dress-of",
+    "romanization_system": "english-title",
+    "alias": "Record of Small Matters in the Dress of Mourning"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-016-the-great-treatise",
+    "romanization_system": "english-title",
+    "alias": "The Great Treatise"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-017-smaller-rules-of-demeanour",
+    "romanization_system": "english-title",
+    "alias": "Smaller Rules of Demeanour"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-018-record-on-the-subject-of-education",
+    "romanization_system": "english-title",
+    "alias": "Record on the Subject of Education"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-019-record-of-music",
+    "romanization_system": "english-title",
+    "alias": "Record of Music"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-020-miscellaneous-records-i",
+    "romanization_system": "english-title",
+    "alias": "Miscellaneous Records I"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-021-miscellaneous-records-ii",
+    "romanization_system": "english-title",
+    "alias": "Miscellaneous Records II"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-022-the-greater-record-of-mourning-rites",
+    "romanization_system": "english-title",
+    "alias": "The Greater Record of Mourning Rites"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-023-the-law-of-sacrifices",
+    "romanization_system": "english-title",
+    "alias": "The Law of Sacrifices"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-024-the-meaning-of-sacrifices",
+    "romanization_system": "english-title",
+    "alias": "The Meaning of Sacrifices"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-025-a-summary-account-of-sacrifices",
+    "romanization_system": "english-title",
+    "alias": "A Summary Account of Sacrifices"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-026-the-different-teachings-of-the-different",
+    "romanization_system": "english-title",
+    "alias": "The Different Teachings of the Different Kings"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-027-questions-of-duke-ai",
+    "romanization_system": "english-title",
+    "alias": "Questions of Duke Ai"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-028-zhong-ni-at-home-at-ease",
+    "romanization_system": "english-title",
+    "alias": "Zhong-ni at Home at Ease"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-029-confucius-at-home-at-leisure",
+    "romanization_system": "english-title",
+    "alias": "Confucius at Home at Leisure"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-030-record-of-the-dykes",
+    "romanization_system": "english-title",
+    "alias": "Record of the Dykes"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-031-the-state-of-equilibrium-and-harmony",
+    "romanization_system": "english-title",
+    "alias": "The State of Equilibrium and Harmony, also known as the Doctrine of the Mean"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-032-the-record-on-example",
+    "romanization_system": "english-title",
+    "alias": "The Record on Example"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-033-the-black-robes",
+    "romanization_system": "english-title",
+    "alias": "The Black Robes"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-034-rules-on-hurrying-to-the-mourning-rites",
+    "romanization_system": "english-title",
+    "alias": "Rules on Hurrying to the Mourning Rites"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-035-questions-about-mourning-rites",
+    "romanization_system": "english-title",
+    "alias": "Questions about Mourning Rites"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-036-subjects-for-questions-about-the",
+    "romanization_system": "english-title",
+    "alias": "Subjects for Questions about the Mourning Dress"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-037-treatise-on-subsidiary-points-in",
+    "romanization_system": "english-title",
+    "alias": "Treatise on Subsidiary Points in Mourning Usages"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-038-questions-about-the-mourning-for-three",
+    "romanization_system": "english-title",
+    "alias": "Questions about the Mourning for Three Years"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-039-the-long-dress-in-one-piece",
+    "romanization_system": "english-title",
+    "alias": "The Long Dress in One Piece"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-040-the-game-of-pitch-pot",
+    "romanization_system": "english-title",
+    "alias": "The Game of Pitch-Pot"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-041-the-conduct-of-the-scholar",
+    "romanization_system": "english-title",
+    "alias": "The Conduct of the Scholar"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-042-the-great-learning",
+    "romanization_system": "english-title",
+    "alias": "The Great Learning"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-043-the-meaning-of-the-ceremony-of-capping",
+    "romanization_system": "english-title",
+    "alias": "The Meaning of the Ceremony of Capping"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-044-the-meaning-of-the-marriage-ceremony",
+    "romanization_system": "english-title",
+    "alias": "The Meaning of the Marriage Ceremony"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-045-the-meaning-of-the-drinking-festivity-in",
+    "romanization_system": "english-title",
+    "alias": "The Meaning of the Drinking Festivity in the Districts"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-046-the-meaning-of-the-ceremony-of-archery",
+    "romanization_system": "english-title",
+    "alias": "The Meaning of the Ceremony of Archery"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-047-the-meaning-of-the-banquet",
+    "romanization_system": "english-title",
+    "alias": "The Meaning of the Banquet"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-048-the-meaning-of-the-interchange-of",
+    "romanization_system": "english-title",
+    "alias": "The Meaning of the Interchange of Missions Beteween Different Courts"
+  },
+  {
+    "entity_type": "section",
+    "entity_id": "liji-049-the-four-principles-underlying-the-dress",
+    "romanization_system": "english-title",
+    "alias": "The Four Principles Underlying the Dress of Mourning"
   }
 ]

@@ -1544,7 +1544,7 @@ def bootstrap_corpus(*, skip_fetch: bool = False) -> dict[str, Any]:
     write_json(LOGS_DIR / "mozi__alignment_qc.json", alignment_qc_report)
     completion_markdown = render_completion_quality_markdown(
         alignment_qc_report,
-        work_label="Mozi completion quality",
+        work_label="Mozi",
         report_path=repo_relative(LOGS_DIR / "mozi__alignment_qc.json"),
     )
     completion_markdown += (

@@ -1,4 +1,4 @@
-# Mozi completion quality completion quality
+# Mozi completion quality
 
 Generated from `logs/qc_reports/mozi__alignment_qc.json`.
 

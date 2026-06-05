@@ -22406,5 +22406,1769 @@
     "release_status": "not_cleared",
     "rights_note": "Ancient Chinese source text is public domain, but this proof-of-concept export still depends on a later English witness that remains under rights review.",
     "notes": "ChineseNotes-derived Mozi base text used for proof-of-concept TM research. Release clearance is tracked at the combined work level and remains pending."
+  },
+  {
+    "source_id": "liji-001-summary-of-the-rules-of-propriety-part-1__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-001-summary-of-the-rules-of-propriety-part-1",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《曲禮上》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji001.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji001__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-001-summary-of-the-rules-of-propriety-part-1__liji-001-summary-of-the-rules-of-propriety-part-1__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-001-summary-of-the-rules-of-propriety-part-1__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-001-summary-of-the-rules-of-propriety-part-1",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Summary of the Rules of Propriety Part 1.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji001.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji001__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-001-summary-of-the-rules-of-propriety-part-1__liji-001-summary-of-the-rules-of-propriety-part-1__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-002-summary-of-the-rules-of-propriety-part-2__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-002-summary-of-the-rules-of-propriety-part-2",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《曲禮下》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji002.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji002__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-002-summary-of-the-rules-of-propriety-part-2__liji-002-summary-of-the-rules-of-propriety-part-2__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-002-summary-of-the-rules-of-propriety-part-2__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-002-summary-of-the-rules-of-propriety-part-2",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Summary of the Rules of Propriety Part 2.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji002.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji002__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-002-summary-of-the-rules-of-propriety-part-2__liji-002-summary-of-the-rules-of-propriety-part-2__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-003-tan-gong-i__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-003-tan-gong-i",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《檀弓上》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji003.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji003__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-003-tan-gong-i__liji-003-tan-gong-i__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-003-tan-gong-i__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-003-tan-gong-i",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Tan Gong I.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji003.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji003__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-003-tan-gong-i__liji-003-tan-gong-i__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-004-tan-gong-ii__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-004-tan-gong-ii",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《檀弓下》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji004.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji004__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-004-tan-gong-ii__liji-004-tan-gong-ii__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-004-tan-gong-ii__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-004-tan-gong-ii",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Tan Gong II.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji004.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji004__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-004-tan-gong-ii__liji-004-tan-gong-ii__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-005-royal-regulations__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-005-royal-regulations",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《王制》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji005.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji005__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-005-royal-regulations__liji-005-royal-regulations__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-005-royal-regulations__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-005-royal-regulations",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Royal Regulations.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji005.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji005__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-005-royal-regulations__liji-005-royal-regulations__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-006-proceedings-of-government-in-the__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-006-proceedings-of-government-in-the",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《月令》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji006.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji006__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-006-proceedings-of-government-in-the__liji-006-proceedings-of-government-in-the__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-006-proceedings-of-government-in-the__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-006-proceedings-of-government-in-the",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Proceedings of Government in the Different Months.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji006.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji006__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-006-proceedings-of-government-in-the__liji-006-proceedings-of-government-in-the__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-007-the-questions-of-zeng-zi__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-007-the-questions-of-zeng-zi",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《曾子問》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji007.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji007__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-007-the-questions-of-zeng-zi__liji-007-the-questions-of-zeng-zi__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-007-the-questions-of-zeng-zi__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-007-the-questions-of-zeng-zi",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Questions of Zeng-zi.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji007.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji007__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-007-the-questions-of-zeng-zi__liji-007-the-questions-of-zeng-zi__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-008-king-wen-as-son-and-heir__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-008-king-wen-as-son-and-heir",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《文王世子》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji008.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji008__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-008-king-wen-as-son-and-heir__liji-008-king-wen-as-son-and-heir__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-008-king-wen-as-son-and-heir__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-008-king-wen-as-son-and-heir",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, King Wen as Son and Heir.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji008.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji008__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-008-king-wen-as-son-and-heir__liji-008-king-wen-as-son-and-heir__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-009-ceremonial-usages-their-origins__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-009-ceremonial-usages-their-origins",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《禮運》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji009.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji009__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-009-ceremonial-usages-their-origins__liji-009-ceremonial-usages-their-origins__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-009-ceremonial-usages-their-origins__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-009-ceremonial-usages-their-origins",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Ceremonial Usages; their Origins, Development, and Intention.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji009.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji009__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-009-ceremonial-usages-their-origins__liji-009-ceremonial-usages-their-origins__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-010-rites-in-the-formation-of-character__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-010-rites-in-the-formation-of-character",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《禮器》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji010.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji010__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-010-rites-in-the-formation-of-character__liji-010-rites-in-the-formation-of-character__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-010-rites-in-the-formation-of-character__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-010-rites-in-the-formation-of-character",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Rites in the Formation of Character.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji010.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji010__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-010-rites-in-the-formation-of-character__liji-010-rites-in-the-formation-of-character__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-011-the-single-victim-at-the-border__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-011-the-single-victim-at-the-border",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《郊特牲》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji011.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji011__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-011-the-single-victim-at-the-border__liji-011-the-single-victim-at-the-border__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-011-the-single-victim-at-the-border__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-011-the-single-victim-at-the-border",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Single Victim at the Border Sacrifices.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji011.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji011__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-011-the-single-victim-at-the-border__liji-011-the-single-victim-at-the-border__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-012-the-pattern-of-the-family__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-012-the-pattern-of-the-family",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《內則》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji012.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji012__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-012-the-pattern-of-the-family__liji-012-the-pattern-of-the-family__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-012-the-pattern-of-the-family__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-012-the-pattern-of-the-family",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Pattern of the Family.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji012.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji012__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-012-the-pattern-of-the-family__liji-012-the-pattern-of-the-family__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-013-the-jade-bead-pendants-of-the-royal-cap__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-013-the-jade-bead-pendants-of-the-royal-cap",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《玉藻》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji013.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji013__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-013-the-jade-bead-pendants-of-the-royal-cap__liji-013-the-jade-bead-pendants-of-the-royal-cap__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-013-the-jade-bead-pendants-of-the-royal-cap__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-013-the-jade-bead-pendants-of-the-royal-cap",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Jade-Bead Pendants of the Royal Cap.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji013.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji013__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-013-the-jade-bead-pendants-of-the-royal-cap__liji-013-the-jade-bead-pendants-of-the-royal-cap__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-014-the-places-in-the-hall-of-distinction__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-014-the-places-in-the-hall-of-distinction",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《明堂位》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji014.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji014__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-014-the-places-in-the-hall-of-distinction__liji-014-the-places-in-the-hall-of-distinction__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-014-the-places-in-the-hall-of-distinction__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-014-the-places-in-the-hall-of-distinction",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Places in the Hall of Distinction.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji014.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji014__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-014-the-places-in-the-hall-of-distinction__liji-014-the-places-in-the-hall-of-distinction__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-015-record-of-small-matters-in-the-dress-of__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-015-record-of-small-matters-in-the-dress-of",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《喪服小記》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji015.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji015__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-015-record-of-small-matters-in-the-dress-of__liji-015-record-of-small-matters-in-the-dress-of__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-015-record-of-small-matters-in-the-dress-of__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-015-record-of-small-matters-in-the-dress-of",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Record of Small Matters in the Dress of Mourning.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji015.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji015__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-015-record-of-small-matters-in-the-dress-of__liji-015-record-of-small-matters-in-the-dress-of__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-016-the-great-treatise__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-016-the-great-treatise",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《大傳》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji016.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji016__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-016-the-great-treatise__liji-016-the-great-treatise__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-016-the-great-treatise__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-016-the-great-treatise",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Great Treatise.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji016.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji016__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-016-the-great-treatise__liji-016-the-great-treatise__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-017-smaller-rules-of-demeanour__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-017-smaller-rules-of-demeanour",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《少儀》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji017.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji017__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-017-smaller-rules-of-demeanour__liji-017-smaller-rules-of-demeanour__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-017-smaller-rules-of-demeanour__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-017-smaller-rules-of-demeanour",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Smaller Rules of Demeanour.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji017.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji017__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-017-smaller-rules-of-demeanour__liji-017-smaller-rules-of-demeanour__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-018-record-on-the-subject-of-education__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-018-record-on-the-subject-of-education",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《學記》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji018.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji018__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-018-record-on-the-subject-of-education__liji-018-record-on-the-subject-of-education__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-018-record-on-the-subject-of-education__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-018-record-on-the-subject-of-education",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Record on the Subject of Education.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji018.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji018__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-018-record-on-the-subject-of-education__liji-018-record-on-the-subject-of-education__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-019-record-of-music__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-019-record-of-music",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《樂記》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji019.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji019__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-019-record-of-music__liji-019-record-of-music__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-019-record-of-music__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-019-record-of-music",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Record of Music.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji019.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji019__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-019-record-of-music__liji-019-record-of-music__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-020-miscellaneous-records-i__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-020-miscellaneous-records-i",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《雜記上》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji020.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji020__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-020-miscellaneous-records-i__liji-020-miscellaneous-records-i__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-020-miscellaneous-records-i__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-020-miscellaneous-records-i",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Miscellaneous Records I.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji020.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji020__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-020-miscellaneous-records-i__liji-020-miscellaneous-records-i__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-021-miscellaneous-records-ii__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-021-miscellaneous-records-ii",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《雜記下》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji021.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji021__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-021-miscellaneous-records-ii__liji-021-miscellaneous-records-ii__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-021-miscellaneous-records-ii__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-021-miscellaneous-records-ii",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Miscellaneous Records II.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji021.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji021__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-021-miscellaneous-records-ii__liji-021-miscellaneous-records-ii__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-022-the-greater-record-of-mourning-rites__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-022-the-greater-record-of-mourning-rites",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《喪大記》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji022.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji022__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-022-the-greater-record-of-mourning-rites__liji-022-the-greater-record-of-mourning-rites__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-022-the-greater-record-of-mourning-rites__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-022-the-greater-record-of-mourning-rites",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Greater Record of Mourning Rites.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji022.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji022__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-022-the-greater-record-of-mourning-rites__liji-022-the-greater-record-of-mourning-rites__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-023-the-law-of-sacrifices__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-023-the-law-of-sacrifices",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《祭法》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji023.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji023__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-023-the-law-of-sacrifices__liji-023-the-law-of-sacrifices__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-023-the-law-of-sacrifices__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-023-the-law-of-sacrifices",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Law of Sacrifices.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji023.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji023__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-023-the-law-of-sacrifices__liji-023-the-law-of-sacrifices__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-024-the-meaning-of-sacrifices__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-024-the-meaning-of-sacrifices",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《祭義》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji024.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji024__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-024-the-meaning-of-sacrifices__liji-024-the-meaning-of-sacrifices__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-024-the-meaning-of-sacrifices__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-024-the-meaning-of-sacrifices",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Meaning of Sacrifices.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji024.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji024__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-024-the-meaning-of-sacrifices__liji-024-the-meaning-of-sacrifices__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-025-a-summary-account-of-sacrifices__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-025-a-summary-account-of-sacrifices",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《祭統》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji025.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji025__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-025-a-summary-account-of-sacrifices__liji-025-a-summary-account-of-sacrifices__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-025-a-summary-account-of-sacrifices__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-025-a-summary-account-of-sacrifices",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, A Summary Account of Sacrifices.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji025.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji025__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-025-a-summary-account-of-sacrifices__liji-025-a-summary-account-of-sacrifices__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-026-the-different-teachings-of-the-different__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-026-the-different-teachings-of-the-different",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《經解》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji026.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji026__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-026-the-different-teachings-of-the-different__liji-026-the-different-teachings-of-the-different__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-026-the-different-teachings-of-the-different__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-026-the-different-teachings-of-the-different",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Different Teachings of the Different Kings.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji026.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji026__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-026-the-different-teachings-of-the-different__liji-026-the-different-teachings-of-the-different__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-027-questions-of-duke-ai__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-027-questions-of-duke-ai",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《哀公問》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji027.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji027__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-027-questions-of-duke-ai__liji-027-questions-of-duke-ai__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-027-questions-of-duke-ai__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-027-questions-of-duke-ai",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Questions of Duke Ai.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji027.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji027__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-027-questions-of-duke-ai__liji-027-questions-of-duke-ai__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-028-zhong-ni-at-home-at-ease__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-028-zhong-ni-at-home-at-ease",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《仲尼燕居》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji028.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji028__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-028-zhong-ni-at-home-at-ease__liji-028-zhong-ni-at-home-at-ease__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-028-zhong-ni-at-home-at-ease__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-028-zhong-ni-at-home-at-ease",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Zhong-ni at Home at Ease.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji028.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji028__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-028-zhong-ni-at-home-at-ease__liji-028-zhong-ni-at-home-at-ease__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-029-confucius-at-home-at-leisure__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-029-confucius-at-home-at-leisure",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《孔子閒居》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji029.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji029__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-029-confucius-at-home-at-leisure__liji-029-confucius-at-home-at-leisure__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-029-confucius-at-home-at-leisure__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-029-confucius-at-home-at-leisure",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Confucius at Home at Leisure.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji029.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji029__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-029-confucius-at-home-at-leisure__liji-029-confucius-at-home-at-leisure__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-030-record-of-the-dykes__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-030-record-of-the-dykes",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《坊記》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji030.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji030__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-030-record-of-the-dykes__liji-030-record-of-the-dykes__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-030-record-of-the-dykes__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-030-record-of-the-dykes",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Record of the Dykes.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji030.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji030__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-030-record-of-the-dykes__liji-030-record-of-the-dykes__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-031-the-state-of-equilibrium-and-harmony__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-031-the-state-of-equilibrium-and-harmony",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《中庸》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji031.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji031__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-031-the-state-of-equilibrium-and-harmony__liji-031-the-state-of-equilibrium-and-harmony__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-031-the-state-of-equilibrium-and-harmony__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-031-the-state-of-equilibrium-and-harmony",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The State of Equilibrium and Harmony, also known as the Doctrine of the Mean.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji031.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji031__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-031-the-state-of-equilibrium-and-harmony__liji-031-the-state-of-equilibrium-and-harmony__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-032-the-record-on-example__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-032-the-record-on-example",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《表記》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji032.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji032__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-032-the-record-on-example__liji-032-the-record-on-example__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-032-the-record-on-example__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-032-the-record-on-example",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Record on Example.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji032.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji032__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-032-the-record-on-example__liji-032-the-record-on-example__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-033-the-black-robes__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-033-the-black-robes",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《緇衣》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji033.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji033__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-033-the-black-robes__liji-033-the-black-robes__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-033-the-black-robes__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-033-the-black-robes",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Black Robes.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji033.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji033__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-033-the-black-robes__liji-033-the-black-robes__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-034-rules-on-hurrying-to-the-mourning-rites__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-034-rules-on-hurrying-to-the-mourning-rites",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《奔喪》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji034.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji034__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-034-rules-on-hurrying-to-the-mourning-rites__liji-034-rules-on-hurrying-to-the-mourning-rites__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-034-rules-on-hurrying-to-the-mourning-rites__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-034-rules-on-hurrying-to-the-mourning-rites",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Rules on Hurrying to the Mourning Rites.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji034.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji034__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-034-rules-on-hurrying-to-the-mourning-rites__liji-034-rules-on-hurrying-to-the-mourning-rites__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-035-questions-about-mourning-rites__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-035-questions-about-mourning-rites",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《問喪》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji035.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji035__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-035-questions-about-mourning-rites__liji-035-questions-about-mourning-rites__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-035-questions-about-mourning-rites__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-035-questions-about-mourning-rites",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Questions about Mourning Rites.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji035.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji035__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-035-questions-about-mourning-rites__liji-035-questions-about-mourning-rites__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-036-subjects-for-questions-about-the__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-036-subjects-for-questions-about-the",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《服問》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji036.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji036__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-036-subjects-for-questions-about-the__liji-036-subjects-for-questions-about-the__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-036-subjects-for-questions-about-the__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-036-subjects-for-questions-about-the",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Subjects for Questions about the Mourning Dress.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji036.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji036__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-036-subjects-for-questions-about-the__liji-036-subjects-for-questions-about-the__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-037-treatise-on-subsidiary-points-in__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-037-treatise-on-subsidiary-points-in",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《間傳》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji037.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji037__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-037-treatise-on-subsidiary-points-in__liji-037-treatise-on-subsidiary-points-in__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-037-treatise-on-subsidiary-points-in__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-037-treatise-on-subsidiary-points-in",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Treatise on Subsidiary Points in Mourning Usages.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji037.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji037__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-037-treatise-on-subsidiary-points-in__liji-037-treatise-on-subsidiary-points-in__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-038-questions-about-the-mourning-for-three__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-038-questions-about-the-mourning-for-three",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《三年問》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji038.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji038__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-038-questions-about-the-mourning-for-three__liji-038-questions-about-the-mourning-for-three__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-038-questions-about-the-mourning-for-three__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-038-questions-about-the-mourning-for-three",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, Questions about the Mourning for Three Years.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji038.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji038__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-038-questions-about-the-mourning-for-three__liji-038-questions-about-the-mourning-for-three__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-039-the-long-dress-in-one-piece__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-039-the-long-dress-in-one-piece",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《深衣》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji039.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji039__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-039-the-long-dress-in-one-piece__liji-039-the-long-dress-in-one-piece__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-039-the-long-dress-in-one-piece__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-039-the-long-dress-in-one-piece",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Long Dress in One Piece.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji039.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji039__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-039-the-long-dress-in-one-piece__liji-039-the-long-dress-in-one-piece__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-040-the-game-of-pitch-pot__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-040-the-game-of-pitch-pot",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《投壺》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji040.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji040__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-040-the-game-of-pitch-pot__liji-040-the-game-of-pitch-pot__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-040-the-game-of-pitch-pot__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-040-the-game-of-pitch-pot",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Game of Pitch-Pot.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji040.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji040__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-040-the-game-of-pitch-pot__liji-040-the-game-of-pitch-pot__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-041-the-conduct-of-the-scholar__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-041-the-conduct-of-the-scholar",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《儒行》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji041.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji041__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-041-the-conduct-of-the-scholar__liji-041-the-conduct-of-the-scholar__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-041-the-conduct-of-the-scholar__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-041-the-conduct-of-the-scholar",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Conduct of the Scholar.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji041.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji041__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-041-the-conduct-of-the-scholar__liji-041-the-conduct-of-the-scholar__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-042-the-great-learning__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-042-the-great-learning",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《大學》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji042.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji042__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-042-the-great-learning__liji-042-the-great-learning__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-042-the-great-learning__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-042-the-great-learning",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Great Learning.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji042.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji042__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-042-the-great-learning__liji-042-the-great-learning__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-043-the-meaning-of-the-ceremony-of-capping__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-043-the-meaning-of-the-ceremony-of-capping",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《冠義》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji043.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji043__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-043-the-meaning-of-the-ceremony-of-capping__liji-043-the-meaning-of-the-ceremony-of-capping__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-043-the-meaning-of-the-ceremony-of-capping__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-043-the-meaning-of-the-ceremony-of-capping",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Meaning of the Ceremony of Capping.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji043.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji043__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-043-the-meaning-of-the-ceremony-of-capping__liji-043-the-meaning-of-the-ceremony-of-capping__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-044-the-meaning-of-the-marriage-ceremony__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-044-the-meaning-of-the-marriage-ceremony",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《昏義》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji044.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji044__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-044-the-meaning-of-the-marriage-ceremony__liji-044-the-meaning-of-the-marriage-ceremony__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-044-the-meaning-of-the-marriage-ceremony__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-044-the-meaning-of-the-marriage-ceremony",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Meaning of the Marriage Ceremony.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji044.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji044__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-044-the-meaning-of-the-marriage-ceremony__liji-044-the-meaning-of-the-marriage-ceremony__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-045-the-meaning-of-the-drinking-festivity-in__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-045-the-meaning-of-the-drinking-festivity-in",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《鄉飲酒義》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji045.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji045__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-045-the-meaning-of-the-drinking-festivity-in__liji-045-the-meaning-of-the-drinking-festivity-in__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-045-the-meaning-of-the-drinking-festivity-in__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-045-the-meaning-of-the-drinking-festivity-in",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Meaning of the Drinking Festivity in the Districts.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji045.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji045__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-045-the-meaning-of-the-drinking-festivity-in__liji-045-the-meaning-of-the-drinking-festivity-in__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-046-the-meaning-of-the-ceremony-of-archery__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-046-the-meaning-of-the-ceremony-of-archery",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《射義》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji046.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji046__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-046-the-meaning-of-the-ceremony-of-archery__liji-046-the-meaning-of-the-ceremony-of-archery__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-046-the-meaning-of-the-ceremony-of-archery__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-046-the-meaning-of-the-ceremony-of-archery",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Meaning of the Ceremony of Archery.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji046.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji046__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-046-the-meaning-of-the-ceremony-of-archery__liji-046-the-meaning-of-the-ceremony-of-archery__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-047-the-meaning-of-the-banquet__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-047-the-meaning-of-the-banquet",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《燕義》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji047.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji047__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-047-the-meaning-of-the-banquet__liji-047-the-meaning-of-the-banquet__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-047-the-meaning-of-the-banquet__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-047-the-meaning-of-the-banquet",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Meaning of the Banquet.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji047.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji047__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-047-the-meaning-of-the-banquet__liji-047-the-meaning-of-the-banquet__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-048-the-meaning-of-the-interchange-of__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-048-the-meaning-of-the-interchange-of",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《聘義》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji048.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji048__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-048-the-meaning-of-the-interchange-of__liji-048-the-meaning-of-the-interchange-of__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-048-the-meaning-of-the-interchange-of__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-048-the-meaning-of-the-interchange-of",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Meaning of the Interchange of Missions Beteween Different Courts.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji048.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji048__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-048-the-meaning-of-the-interchange-of__liji-048-the-meaning-of-the-interchange-of__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
+  },
+  {
+    "source_id": "liji-049-the-four-principles-underlying-the-dress__cn-zh-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-049-the-four-principles-underlying-the-dress",
+    "language_code": "zh-Hant",
+    "source_kind": "digital_transcription",
+    "citation": "ChineseNotes Liji chapter text, 《喪服四制》.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji049.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji049__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/base_texts/liji__liji-049-the-four-principles-underlying-the-dress__liji-049-the-four-principles-underlying-the-dress__cn-zh-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "liji-transmitters"
+    ],
+    "rights_note": "Proof-of-concept ChineseNotes witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes Liji chapter text pinned to upstream commit."
+  },
+  {
+    "source_id": "liji-049-the-four-principles-underlying-the-dress__legge-en-1f6b1d3",
+    "work_id": "liji",
+    "section_id": "liji-049-the-four-principles-underlying-the-dress",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge via Chinese Notes, The Four Principles Underlying the Dress of Mourning.",
+    "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/liji/liji049.txt",
+    "raw_path": "corpus/raw/chinesenotes/liji__liji049__chinesenotes-1f6b1d3__raw.txt",
+    "processed_path": "corpus/processed/translations/liji__liji-049-the-four-principles-underlying-the-dress__liji-049-the-four-principles-underlying-the-dress__legge-en-1f6b1d3__segments.jsonl",
+    "rights_status": "rights_review_required",
+    "release_status": "not_cleared",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "rights_note": "Proof-of-concept English witness retained with explicit provenance while rights/release review remains outstanding.",
+    "notes": "ChineseNotes bilingual mirror of James Legge's Li Ki chapter text."
   }
 ]
