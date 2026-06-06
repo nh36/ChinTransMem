@@ -19,7 +19,7 @@ from common import (
 from liji_quality import detect_liji_leakage_issues, detect_liji_ocr_issues
 from mozi_ocr import detect_mozi_leakage_issues, detect_mozi_ocr_issues
 from qc_corpus import _severe_ocr_issues
-from shiji_quality import compare_shiji_entity_sequences
+from shiji_quality import compare_shiji_entity_sequences, detect_shiji_witness_quality_issues
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MOZI_ALIGNMENT_ANCHORS_PATH = REPO_ROOT / "metadata" / "mozi_alignment_anchors.yml"
@@ -45,6 +45,15 @@ def _excerpt(text: str, *, limit: int = 180) -> str:
     return f"{normalized[: limit - 1].rstrip()}…"
 
 
+def _shiji_succession_formula_verdict(chinese_text: str, translation_text: str) -> tuple[bool, bool, str]:
+    source_has_formula = "卒，子" in chinese_text or "卒子" in chinese_text
+    if not source_has_formula:
+        return False, False, "not_applicable"
+    lowered = translation_text.casefold()
+    target_has_formula = "died" in lowered and ("succeeded" in lowered or "his son" in lowered)
+    return source_has_formula, target_has_formula, "pass" if target_has_formula else "mismatch"
+
+
 def _risk_alignment_ids(qc_report: dict[str, Any]) -> set[str]:
     if not qc_report:
         return set()
@@ -59,6 +68,7 @@ def _risk_alignment_ids(qc_report: dict[str, Any]) -> set[str]:
         "translation_with_ocr_corruption_rows",
         "translation_with_truncated_fragment_rows",
         "translation_with_known_bad_forms_rows",
+        "translation_with_shiji_witness_quality_rows",
     ):
         for alignment_id in alignment_quality.get(key, []) + text_integrity.get(key, []):
             risk_ids.add(str(alignment_id))
@@ -213,6 +223,13 @@ def classify_alignment_review(
         leakage_issues = detect_liji_leakage_issues(translation_text)
         ocr_issues = detect_liji_ocr_issues(translation_text)
     severe_issues = _severe_ocr_issues(translation_text) if section_id.startswith("mozi-") else []
+    shiji_witness_issues: list[dict[str, str]] = []
+    if section_id.startswith("shiji-"):
+        shiji_witness_issues = detect_shiji_witness_quality_issues(translation_text)
+        if shiji_witness_issues:
+            risk_reasons.append(
+                "witness_quality:" + ",".join(sorted({issue["issue_type"] for issue in shiji_witness_issues}))
+            )
     anchor_issues = anchor_issue_map.get(alignment_id, [])
     for issue in anchor_issues:
         risk_reasons.append(f"anchor:{issue['anchor_id']}:{issue['issue']}")
@@ -237,6 +254,12 @@ def classify_alignment_review(
             verdict = str(entity_sequence_details["entity_sequence_verdict"])
             if verdict not in {"pass", "not_applicable"}:
                 risk_reasons.append(f"entity_sequence:{verdict}")
+    succession_source, succession_target, succession_verdict = _shiji_succession_formula_verdict(
+        str(row.get("chinese_text", "")),
+        translation_text,
+    )
+    if succession_verdict == "mismatch":
+        risk_reasons.append("succession_formula_mismatch")
 
     anchor_orders = row_anchor_orders.get(alignment_id, {"source_orders": [], "target_orders": []})
     if anchor_orders["source_orders"] and anchor_orders["target_orders"]:
@@ -257,11 +280,17 @@ def classify_alignment_review(
     elif ocr_issues or severe_issues:
         classification = "ocr_issue"
         repair_suggestion = "Apply deterministic OCR repairs to the flagged tokens and regenerate the candidate export."
-    elif anchor_issues or any(reason.startswith("anchor_range_mismatch:") for reason in risk_reasons) or any(
-        reason.startswith("entity_sequence:") for reason in risk_reasons
+    elif (
+        anchor_issues
+        or any(reason.startswith("anchor_range_mismatch:") for reason in risk_reasons)
+        or any(reason.startswith("entity_sequence:") for reason in risk_reasons)
+        or "succession_formula_mismatch" in risk_reasons
     ):
         classification = "semantic_drift"
         repair_suggestion = "Regroup the affected source and target units or apply a curated override that restores anchor and entity order."
+    elif shiji_witness_issues:
+        classification = "ocr_issue"
+        repair_suggestion = "Normalize the English witness, strip name-attached glosses, and regenerate the candidate export."
     elif row.get("is_coarse_alignment"):
         coarse_reason = str(row.get("coarse_alignment_reason", "") or "")
         if coarse_reason:
@@ -329,6 +358,10 @@ def classify_alignment_review(
         "entity_sequence_target_anchor_ids": entity_sequence_details["entity_sequence_target_anchor_ids"],
         "entity_sequence_verdict": entity_sequence_details["entity_sequence_verdict"],
         "drift_explanation": entity_sequence_details["drift_explanation"],
+        "succession_formula_source": succession_source,
+        "succession_formula_target": succession_target,
+        "succession_formula_verdict": succession_verdict,
+        "detected_witness_quality_issue_types": sorted({issue["issue_type"] for issue in shiji_witness_issues}),
         "chinese_excerpt": _excerpt(str(row.get("chinese_text", ""))),
         "translation_excerpt": _excerpt(translation_text),
         "source_segment_count": int(row.get("source_segment_count", 0) or 0),

@@ -239,11 +239,49 @@ def load_alignment_overrides(path: Path) -> dict[str, dict[str, Any]]:
 
 
 def load_alignment_anchor_maps(path: Path) -> dict[str, dict[str, Any]]:
+    """Load anchor maps and ensure target-side required/boundary terms are normalized.
+
+    This will populate 'normalized_target_required_terms' and 'normalized_target_boundary_terms'
+    for anchors that lack them by running the Shiji witness normalizer. Doing this here keeps
+    downstream checks robust even if the committed anchor YAML lacks pre-normalized fields.
+    """
     if not path.exists():
         return {}
     data = load_json_compatible_yaml(path)
     sections = data.get("sections", [])
-    return {str(entry["section_id"]): entry for entry in sections}
+    anchor_maps: dict[str, dict[str, Any]] = {}
+    # Local import to avoid top-level dependency cycles in some workflows
+    try:
+        from shiji_quality import normalize_shiji_witness_text
+    except Exception:
+        normalize_shiji_witness_text = None  # type: ignore
+
+    for entry in sections:
+        entry_copy = dict(entry)
+        anchors = list(entry_copy.get("anchors", []))
+        normalized_anchors: list[dict[str, Any]] = []
+        for anchor in anchors:
+            anchor_copy = dict(anchor)
+            # Normalize target required/boundary terms if missing and normalizer is available
+            if normalize_shiji_witness_text is not None:
+                if not anchor_copy.get("normalized_target_required_terms") and anchor_copy.get("target_required_terms"):
+                    normalized_target_required: list[str] = []
+                    for term in list(anchor_copy.get("target_required_terms", [])):
+                        cleaned, _ = normalize_shiji_witness_text(str(term))
+                        normalized_target_required.append(cleaned)
+                    if normalized_target_required:
+                        anchor_copy["normalized_target_required_terms"] = normalized_target_required
+                if not anchor_copy.get("normalized_target_boundary_terms") and anchor_copy.get("target_boundary_terms"):
+                    normalized_target_boundary: list[str] = []
+                    for term in list(anchor_copy.get("target_boundary_terms", [])):
+                        cleaned, _ = normalize_shiji_witness_text(str(term))
+                        normalized_target_boundary.append(cleaned)
+                    if normalized_target_boundary:
+                        anchor_copy["normalized_target_boundary_terms"] = normalized_target_boundary
+            normalized_anchors.append(anchor_copy)
+        entry_copy["anchors"] = normalized_anchors
+        anchor_maps[str(entry_copy["section_id"])] = entry_copy
+    return anchor_maps
 
 
 def _text_contains_required_terms(text: str, terms: list[str], *, language: str) -> bool:
@@ -284,17 +322,35 @@ def _partition_joined_text_by_anchors(
         return [text.strip()] if text.strip() else []
     starts: list[int] = [0]
     search_start = 0
-    boundary_key = "source_boundary_terms" if language == "zh" else "target_boundary_terms"
-    required_key = "source_required_terms" if language == "zh" else "target_required_terms"
+    if language == "zh":
+        boundary_key = "source_boundary_terms"
+        required_key = "source_required_terms"
+    else:
+        boundary_key = "normalized_target_boundary_terms"
+        required_key = "normalized_target_required_terms"
+        legacy_boundary_key = "target_boundary_terms"
+        legacy_required_key = "target_required_terms"
     for anchor in ordered_anchors[1:]:
-        boundary_terms = list(anchor.get(boundary_key) or anchor.get(required_key) or [])
+        if language == "zh":
+            boundary_terms = list(anchor.get(boundary_key) or anchor.get(required_key) or [])
+        else:
+            boundary_terms = list(
+                anchor.get(boundary_key)
+                or anchor.get(required_key)
+                or anchor.get(legacy_boundary_key)
+                or anchor.get(legacy_required_key)
+                or []
+            )
         anchor_start = _find_anchor_boundary(text, boundary_terms, language=language, search_start=search_start)
         starts.append(anchor_start)
         search_start = anchor_start + 1
     starts.append(len(text))
     segments = [text[starts[index] : starts[index + 1]].strip() for index in range(len(ordered_anchors))]
     for anchor, segment in zip(ordered_anchors, segments, strict=True):
-        required_terms = list(anchor.get(required_key) or [])
+        if language == "zh":
+            required_terms = list(anchor.get(required_key) or [])
+        else:
+            required_terms = list(anchor.get(required_key) or anchor.get(legacy_required_key) or [])
         if required_terms and not _text_contains_required_terms(segment, required_terms, language=language):
             anchor_id = str(anchor.get("source_anchor_id") or anchor.get("anchor_id") or anchor["expected_order"])
             raise ValueError(
@@ -341,7 +397,7 @@ def find_anchor_drift_issues(
             for row in rows
             if _text_contains_required_terms(
                 str(row.get("translation_text", "")),
-                list(anchor.get("target_required_terms") or []),
+                list(anchor.get("normalized_target_required_terms") or anchor.get("target_required_terms") or []),
                 language="en",
             )
         ]

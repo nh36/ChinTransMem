@@ -125,6 +125,7 @@ def load_exact_alignment_rows(
                 "chinese_text": _combined_text(chinese_segments, joiner=""),
                 "translation_ref": _combined_ref(translation_segments),
                 "translation_text": _combined_text(translation_segments, joiner=" "),
+                "translation_text_raw": " ".join(str(segment["text_original"]) for segment in translation_segments),
             }
         )
 
