@@ -28,7 +28,7 @@ from liji_quality import (
     detect_liji_ocr_issues,
 )
 from mozi_ocr import detect_mozi_leakage_issues, detect_mozi_ocr_issues
-from shiji_quality import compare_shiji_entity_sequences
+from shiji_quality import compare_shiji_entity_sequences, detect_shiji_witness_quality_issues
 from text_quality import (
     detect_probable_ocr_corruption,
     has_probable_leading_fragment,
@@ -296,6 +296,7 @@ def run_text_integrity_checks(work_id: str, rows: list[dict[str, object]] | None
         "translation_with_ocr_corruption_rows": [],
         "translation_with_truncated_fragment_rows": [],
         "translation_with_known_bad_forms_rows": [],
+        "translation_with_shiji_witness_quality_rows": [],
     }
     for index, row in enumerate(rows):
         section_id = str(row["section_id"])
@@ -365,6 +366,22 @@ def run_text_integrity_checks(work_id: str, rows: list[dict[str, object]] | None
         if work_id == "shiji":
             shiji_ocr_issues = detect_chinesenotes_ocr_issues(translation_text)
             shiji_leakage_issues = detect_chinesenotes_leakage_issues(translation_text)
+            # Run witness-quality checks on both the cleaned translation_text and the raw witness text
+            shiji_witness_issues = detect_shiji_witness_quality_issues(translation_text)
+            raw_translation_text = str(row.get("translation_text_raw", "")).strip()
+            shiji_witness_issues_raw = detect_shiji_witness_quality_issues(raw_translation_text)
+            # Merge and dedupe issue records by (token, issue_type)
+            combined_issues = []
+            seen_issues = set()
+            for issue in (shiji_witness_issues or []) + (shiji_witness_issues_raw or []):
+                token = str(issue.get("token", ""))
+                issue_type = str(issue.get("issue_type", ""))
+                key = (token, issue_type)
+                if key in seen_issues:
+                    continue
+                seen_issues.add(key)
+                combined_issues.append(issue)
+
             if shiji_ocr_issues:
                 issues["translation_with_ocr_corruption_rows"].append(alignment_id)
             if any(issue["issue_type"] == "heading_residue" for issue in shiji_leakage_issues):
@@ -373,6 +390,10 @@ def run_text_integrity_checks(work_id: str, rows: list[dict[str, object]] | None
                 issues["translation_with_notice_sections"].add(section_id)
             if any(issue["issue_type"] == "footnote_residue" for issue in shiji_leakage_issues):
                 issues["translation_with_commentary_sections"].add(section_id)
+            if combined_issues:
+                issues["translation_with_shiji_witness_quality_rows"].append(alignment_id)
+                if any(issue["issue_type"] in {"known_bad_form", "romanization_inconsistency", "capitalization_drift", "name_gloss_intrusion"} for issue in combined_issues):
+                    issues["translation_with_known_bad_forms_rows"].append(alignment_id)
     issue_lists = {key: sorted(value) for key, value in issues.items()}
     hard_failure_count = sum(1 for value in issue_lists.values() if value)
     return {

@@ -16,7 +16,14 @@ from common import (
     manifest_sections,
     section_export_paths,
     write_jsonl,
+    write_json,
+    QC_REPORTS_DIR,
 )
+# Import Shiji normalizer for witness-specific normalization and repair logging
+try:
+    from shiji_quality import normalize_shiji_witness_text
+except Exception:  # pragma: no cover - graceful fallback when module not available
+    normalize_shiji_witness_text = None
 
 XML_NAMESPACE = "http://www.w3.org/XML/1998/namespace"
 
@@ -106,6 +113,18 @@ def load_exact_alignment_rows(
         chinese_segments.sort(key=lambda segment: segment["segment_order"])
         translation_segments.sort(key=lambda segment: segment["segment_order"])
         segment_type = row["segment_type"] or chinese_segments[0]["segment_type"]
+        translation_text_raw = " ".join(str(segment["text_original"]) for segment in translation_segments)
+        # For Shiji proofs, normalize witness text for translation_text while preserving raw text.
+        witness_repairs = []
+        if work_id == "shiji" and normalize_shiji_witness_text is not None:
+            try:
+                normalized_text, witness_repairs = normalize_shiji_witness_text(translation_text_raw)
+            except Exception:
+                normalized_text, witness_repairs = translation_text_raw, []
+            translation_text_value = normalized_text
+        else:
+            translation_text_value = _combined_text(translation_segments, joiner=" ")
+
         export_rows.append(
             {
                 "alignment_id": row["alignment_id"],
@@ -124,8 +143,9 @@ def load_exact_alignment_rows(
                 "chinese_ref": _combined_ref(chinese_segments),
                 "chinese_text": _combined_text(chinese_segments, joiner=""),
                 "translation_ref": _combined_ref(translation_segments),
-                "translation_text": _combined_text(translation_segments, joiner=" "),
-                "translation_text_raw": " ".join(str(segment["text_original"]) for segment in translation_segments),
+                "translation_text": translation_text_value,
+                "translation_text_raw": translation_text_raw,
+                "witness_repairs": witness_repairs,
             }
         )
 
@@ -217,6 +237,7 @@ def write_tabular_exports(export_rows: list[dict[str, object]], jsonl_output: Pa
                 "translation_ref",
                 "translation_text",
                 "translation_text_raw",
+                "witness_repairs",
             ],
         )
         writer.writeheader()
@@ -263,6 +284,29 @@ def export_corpus(
     corpus_rows = load_exact_alignment_rows(db_path, work_id)
     write_tabular_exports(corpus_rows, corpus_jsonl_output, corpus_csv_output)
     write_tmx(corpus_rows, corpus_tmx_output, work_id=work_id)
+
+    # If Shiji, write a witness repair log summarizing any automatic repairs applied
+    if work_id == "shiji":
+        repairs = []
+        for row in corpus_rows:
+            if row.get("witness_repairs"):
+                for r in row.get("witness_repairs"):
+                    entry = {
+                        "section_id": row.get("section_id"),
+                        "alignment_id": row.get("alignment_id"),
+                        "raw_form": r.get("raw_form"),
+                        "normalized_form": r.get("corrected_form") or r.get("corrected_form") or r.get("corrected_form"),
+                        "repair_type": r.get("issue_type"),
+                        "reason": r.get("reason"),
+                        "confidence": r.get("confidence"),
+                        "automatic_or_curated": r.get("automatic_or_curated"),
+                        "raw_preserved": True,
+                    }
+                    repairs.append(entry)
+        if repairs:
+            repair_path = QC_REPORTS_DIR / "shiji__witness_repair_log.json"
+            write_json(repair_path, {"repairs": repairs})
+
     return {
         "work_id": work_id,
         "section_count": len(per_section),

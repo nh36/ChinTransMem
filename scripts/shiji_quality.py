@@ -12,25 +12,26 @@ ANCHOR_SEQUENCE_KEYS = {
     "target": "target_entity_sequence",
 }
 SHIJI_NAME_GLOSS_RE = re.compile(
-    r"\b([A-Z][A-Za-z'’.-]*(?:\s+[A-Z][A-Za-z'’.-]*){0,2})\s+\(([^()]{1,40})\)"
+    r"\b([A-Za-z][A-Za-z'’.-]*(?:\s+[A-Za-z][A-Za-z'’.-]*){0,2})\s+\(([^()]{1,40})\)",
+    re.IGNORECASE,
 )
 SHIJI_WITNESS_FIXES: list[dict[str, Any]] = [
     {
-        "pattern": re.compile(r"\bsucceseful\b"),
+        "pattern": re.compile(r"\bsucceseful\b", re.IGNORECASE),
         "replacement": "successful",
         "issue_type": "known_bad_form",
         "reason": "Known Shiji witness misspelling.",
         "confidence": 0.99,
     },
     {
-        "pattern": re.compile(r"\bZao Yu\b"),
+        "pattern": re.compile(r"\bZao\s+Yu\b", re.IGNORECASE),
         "replacement": "Cao Yu",
         "issue_type": "romanization_inconsistency",
         "reason": "Witness spelling disagrees with the surrounding Cao Yu succession anchor.",
         "confidence": 0.97,
     },
     {
-        "pattern": re.compile(r"\bZhu gui\b"),
+        "pattern": re.compile(r"\bZhu\s+gui\b", re.IGNORECASE),
         "replacement": "Zhu Gui",
         "issue_type": "capitalization_drift",
         "reason": "Witness capitalization is inconsistent within the same succession chain.",
@@ -38,8 +39,8 @@ SHIJI_WITNESS_FIXES: list[dict[str, Any]] = [
     },
 ]
 SHIJI_KNOWN_BAD_FORM_RE = re.compile(r"\bsucceseful\b", re.IGNORECASE)
-SHIJI_ZAO_YU_RE = re.compile(r"\bZao Yu\b")
-SHIJI_ZHU_GUI_RE = re.compile(r"\bZhu gui\b")
+SHIJI_ZAO_YU_RE = re.compile(r"\bZao\s+Yu\b", re.IGNORECASE)
+SHIJI_ZHU_GUI_RE = re.compile(r"\bZhu\s+gui\b", re.IGNORECASE)
 
 
 def _dedupe_consecutive(tokens: list[str]) -> list[str]:
@@ -88,6 +89,8 @@ def normalize_shiji_witness_text(text: str) -> tuple[str, list[dict[str, Any]]]:
     def _strip_name_gloss(match: re.Match[str]) -> str:
         raw_form = match.group(0)
         corrected_form = match.group(1).strip()
+        # Normalize capitalization for name-like forms when stripping glosses
+        corrected_form = corrected_form.title()
         repairs.append(
             {
                 "raw_form": raw_form,

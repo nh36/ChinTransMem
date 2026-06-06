@@ -308,7 +308,35 @@ def bootstrap_all_manifests(
     merged_ingestion = _merge_ingestion_log(ingestion_by_work)
 
     write_json(SECTIONS_PATH, merged_sections)
-    write_json(SOURCES_PATH, merged_sources)
+
+    # Perform a safe merge when writing sources.yml: preserve any existing source
+    # records that are unrelated to the current bootstrap run, update existing
+    # records when the same source_id is present in the new set, and append any
+    # genuinely new source records. This prevents accidental truncation when a
+    # subset of works are bootstrapped in isolation.
+    def _safe_write_sources(new_sources: list[dict[str, Any]]) -> None:
+        try:
+            existing = load_json_compatible_yaml(SOURCES_PATH)
+        except Exception:
+            existing = []
+        new_by_id = {str(s["source_id"]): s for s in new_sources}
+        final: list[dict[str, Any]] = []
+        # Preserve existing order, updating records that appear in new_sources
+        for s in existing:
+            sid = str(s["source_id"])
+            if sid in new_by_id:
+                merged = dict(s)
+                merged.update(new_by_id[sid])
+                final.append(merged)
+                del new_by_id[sid]
+            else:
+                final.append(s)
+        # Append any remaining new sources not already preserved
+        for sid, s in new_by_id.items():
+            final.append(s)
+        write_json(SOURCES_PATH, final)
+
+    _safe_write_sources(merged_sources)
     write_json(ALIASES_PATH, merged_aliases)
     write_json(INGESTION_LOG_PATH, merged_ingestion)
 

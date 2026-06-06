@@ -303,9 +303,36 @@ def _find_anchor_boundary(text: str, terms: list[str], *, language: str, search_
             if index >= 0:
                 candidates.append(index)
             continue
+        # Try exact literal match first (case-insensitive)
         match = re.search(re.escape(term), text[search_start:], re.IGNORECASE)
         if match is not None:
             candidates.append(search_start + match.start())
+            continue
+        # Try without parenthetical groups (e.g., "Who will search out (for me) a man" -> "Who will search out  a man")
+        term_no_paren = re.sub(r"\([^)]*\)", "", term).strip()
+        if term_no_paren:
+            match = re.search(re.escape(term_no_paren), text[search_start:], re.IGNORECASE)
+            if match is not None:
+                candidates.append(search_start + match.start())
+                continue
+        # Fallback: alphanumeric+space-only matching to tolerate punctuation/diacritic differences
+        def _clean_alpha_space(s: str) -> str:
+            return "".join(ch.lower() for ch in s if ch.isalnum() or ch.isspace())
+
+        cleaned_term = _clean_alpha_space(term)
+        if cleaned_term:
+            hay = text[search_start:]
+            cleaned_hay = _clean_alpha_space(hay)
+            pos = cleaned_hay.find(cleaned_term)
+            if pos >= 0:
+                # Map cleaned position back to original hay index
+                cleaned_count = 0
+                for i, ch in enumerate(hay):
+                    if ch.isalnum() or ch.isspace():
+                        if cleaned_count == pos:
+                            candidates.append(search_start + i)
+                            break
+                        cleaned_count += 1
     if not candidates:
         raise ValueError(f"Unable to locate anchor boundary terms {terms!r} after offset {search_start}.")
     return min(candidates)
@@ -332,16 +359,24 @@ def _partition_joined_text_by_anchors(
         legacy_required_key = "target_required_terms"
     for anchor in ordered_anchors[1:]:
         if language == "zh":
-            boundary_terms = list(anchor.get(boundary_key) or anchor.get(required_key) or [])
+            primary_terms = list(anchor.get(boundary_key) or anchor.get(required_key) or [])
+            fallback_terms = list(anchor.get(required_key) or [])
         else:
-            boundary_terms = list(
+            primary_terms = list(
                 anchor.get(boundary_key)
                 or anchor.get(required_key)
                 or anchor.get(legacy_boundary_key)
                 or anchor.get(legacy_required_key)
                 or []
             )
-        anchor_start = _find_anchor_boundary(text, boundary_terms, language=language, search_start=search_start)
+            fallback_terms = list(anchor.get(required_key) or anchor.get(legacy_required_key) or [])
+        try:
+            anchor_start = _find_anchor_boundary(text, primary_terms, language=language, search_start=search_start)
+        except ValueError:
+            if fallback_terms:
+                anchor_start = _find_anchor_boundary(text, fallback_terms, language=language, search_start=search_start)
+            else:
+                raise
         starts.append(anchor_start)
         search_start = anchor_start + 1
     starts.append(len(text))
