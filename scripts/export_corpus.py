@@ -216,6 +216,7 @@ def write_tabular_exports(export_rows: list[dict[str, object]], jsonl_output: Pa
                 "chinese_text",
                 "translation_ref",
                 "translation_text",
+                "translation_text_raw",
             ],
         )
         writer.writeheader()

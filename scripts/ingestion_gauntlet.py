@@ -29,6 +29,7 @@ from common import (
     load_work_manifest,
     manifest_sections,
     repo_relative,
+    repair_log_suffix,
     scope_key,
     section_export_paths,
     sha256_file,
@@ -203,7 +204,9 @@ def _snapshot_candidate_inputs(work_id: str, batch_id: str | None = None) -> dic
     snapshots = _candidate_snapshot_paths(work_id, batch_id)
     manifest_path = REPO_ROOT / "metadata" / "manifests" / f"{work_id}.yml"
     alignment_qc_path = REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__alignment_qc.json"
-    repair_log_path = REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__ocr_repair_log.json"
+    repair_log_path = REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__{repair_log_suffix(work_id)}.json"
+    if not repair_log_path.exists():
+        repair_log_path = REPO_ROOT / "logs" / "qc_reports" / f"{work_id}__ocr_repair_log.json"
     _copy_if_exists(manifest_path, snapshots["manifest"])
     _copy_if_exists(alignment_qc_path, snapshots["alignment_qc"])
     _copy_if_exists(repair_log_path, snapshots["repair_log"])
@@ -365,6 +368,11 @@ def compare_candidate_and_active_exports(
             "drift issue count",
             int(candidate_alignment_summary.get("remaining_drift_issue_count", 0)),
             int(active_alignment_summary.get("remaining_drift_issue_count", 0)),
+        ),
+        (
+            "witness-quality issue count",
+            int(candidate_alignment_summary.get("remaining_witness_quality_issue_count", 0)),
+            int(active_alignment_summary.get("remaining_witness_quality_issue_count", 0)),
         ),
     ):
         if candidate_value != active_value:
@@ -636,6 +644,8 @@ def evaluate_promotion_gates(
         blockers.append("remaining note/commentary leakage issues are nonzero")
     if int(alignment_summary.get("remaining_drift_issue_count", 0)):
         blockers.append("remaining alignment drift issues are nonzero")
+    if int(alignment_summary.get("remaining_witness_quality_issue_count", 0)):
+        blockers.append("remaining Shiji witness-quality issues are nonzero")
     if review_summary["failed_high_risk_alignment_count"]:
         blockers.append(
             f"alignment review found {review_summary['failed_high_risk_alignment_count']} failed high-risk alignments"
@@ -682,23 +692,42 @@ def evaluate_promotion_gates(
 
 
 def _copy_candidate_exports_to_active(work_id: str, batch_id: str | None = None) -> list[str]:
+    """Copy candidate exports into the active export paths.
+
+    For batch promotions, regenerate the corpus-level exports first (so corpus-level
+    artifacts exist), then overwrite per-section active exports with the candidate
+    per-section exports. This ensures per-section active files match the candidate
+    while also keeping a regenerated corpus-level snapshot.
+    """
     copied: list[str] = []
-    for section in _scoped_manifest(work_id, batch_id)["sections"]:
-        if section.get("tmx_status") != "complete":
-            continue
-        candidate_paths = candidate_section_export_paths(section["section_id"], work_id, batch_id)
-        active_paths = section_export_paths(section["section_id"], work_id)
-        for key in ("jsonl", "csv", "tmx"):
-            shutil.copy2(candidate_paths[key], active_paths[key])
-            copied.append(repo_relative(active_paths[key]))
     if batch_id is None:
+        # Full-corpus promotion: copy candidate corpus and per-section files directly
+        for section in _scoped_manifest(work_id, batch_id)["sections"]:
+            if section.get("tmx_status") != "complete":
+                continue
+            candidate_paths = candidate_section_export_paths(section["section_id"], work_id, batch_id)
+            active_paths = section_export_paths(section["section_id"], work_id)
+            for key in ("jsonl", "csv", "tmx"):
+                shutil.copy2(candidate_paths[key], active_paths[key])
+                copied.append(repo_relative(active_paths[key]))
         candidate_corpus_paths = candidate_corpus_export_paths(work_id)
         active_corpus_paths = corpus_export_paths(work_id)
         for key in ("jsonl", "csv", "tmx"):
             shutil.copy2(candidate_corpus_paths[key], active_corpus_paths[key])
             copied.append(repo_relative(active_corpus_paths[key]))
     else:
+        # Batch promotion: regenerate active corpus artifacts first, then overwrite
+        # per-section exports with the approved candidate per-section files.
         active_export = export_corpus(DEFAULT_DB_PATH, work_id=work_id)
+        for section in _scoped_manifest(work_id, batch_id)["sections"]:
+            if section.get("tmx_status") != "complete":
+                continue
+            candidate_paths = candidate_section_export_paths(section["section_id"], work_id, batch_id)
+            active_paths = section_export_paths(section["section_id"], work_id)
+            for key in ("jsonl", "csv", "tmx"):
+                shutil.copy2(candidate_paths[key], active_paths[key])
+                copied.append(repo_relative(active_paths[key]))
+        # Include regenerated corpus-level exports in the list for bookkeeping
         copied.append(active_export["jsonl_output"])
         copied.append(active_export["csv_output"])
         copied.append(active_export["tmx_output"])
@@ -766,7 +795,7 @@ def write_candidate_report(work_id: str, *, batch_id: str | None = None) -> dict
         f"- Deterministic QC status: {candidate_qc.get('status', 'missing')}",
         f"- Deterministic QC hard failures: {candidate_qc.get('hard_failure_count', 0)}",
         f"- Deterministic QC issue count: {candidate_qc.get('deterministic_issue_count', 0)}",
-        f"- Alignment review method: heuristic rule-based review (no remote LLM reviewer used)",
+        f"- Alignment review method: heuristic high-risk review (entity sequence, succession formula, witness quality, and anchor order; no remote LLM reviewer used)",
         f"- Alignment review count: {ai_summary['review_count']}",
         f"- Alignment review failed high-risk alignments: {ai_summary['failed_high_risk_alignment_count']}",
         f"- Reviewed fallback alignments: {ai_summary['reviewed_fallback_alignment_count']}",
@@ -775,6 +804,10 @@ def write_candidate_report(work_id: str, *, batch_id: str | None = None) -> dict
         f"- Named-entity drift issues repaired: {alignment_snapshot.get('summary', {}).get('repaired_drift_issue_count', 0)}",
         f"- Named-entity drift issues remaining: {alignment_snapshot.get('summary', {}).get('remaining_drift_issue_count', 0)}",
         f"- Shiji 003 succession sequence passed entity-order validation: {alignment_snapshot.get('summary', {}).get('entity_sequence_validation_passed', False)}",
+        f"- Shiji witness-quality issues detected: {alignment_snapshot.get('summary', {}).get('pre_repair_witness_quality_issue_count', 0)}",
+        f"- Shiji witness-quality issues repaired: {alignment_snapshot.get('summary', {}).get('repaired_witness_quality_issue_count', 0)}",
+        f"- Shiji witness-quality issues remaining: {alignment_snapshot.get('summary', {}).get('remaining_witness_quality_issue_count', 0)}",
+        f"- Name-gloss handling: {alignment_snapshot.get('summary', {}).get('witness_gloss_handling', 'not_reported')}",
         f"- Automatic repairs applied: {repair_log.get('summary', {}).get('automatic_correction_count', 0)}",
         f"- Curated repairs applied: {repair_log.get('summary', {}).get('curated_correction_count', 0)}",
         f"- Remaining OCR issues: {alignment_snapshot.get('summary', {}).get('remaining_corruption_issue_count', 0)}",
