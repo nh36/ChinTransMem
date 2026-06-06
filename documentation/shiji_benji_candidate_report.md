@@ -8,16 +8,20 @@
 - Deterministic QC status: pass
 - Deterministic QC hard failures: 0
 - Deterministic QC issue count: 0
-- Alignment review method: heuristic rule-based review (no remote LLM reviewer used)
+- Alignment review method: heuristic high-risk review (entity sequence, succession formula, witness quality, and anchor order; no remote LLM reviewer used)
 - Alignment review count: 46
 - Alignment review failed high-risk alignments: 0
 - Reviewed fallback alignments: 0
 - Named-entity drift reviews run: 46
-- Named-entity drift issues detected: 9
-- Named-entity drift issues repaired: 9
+- Named-entity drift issues detected: 1
+- Named-entity drift issues repaired: 1
 - Named-entity drift issues remaining: 0
 - Shiji 003 succession sequence passed entity-order validation: True
-- Automatic repairs applied: 0
+- Shiji witness-quality issues detected: 77
+- Shiji witness-quality issues repaired: 77
+- Shiji witness-quality issues remaining: 0
+- Name-gloss handling: stripped_from_translation_text_raw_preserved
+- Automatic repairs applied: 79
 - Curated repairs applied: 0
 - Remaining OCR issues: 0
 - Remaining leakage issues: 0

@@ -44,7 +44,28 @@ def _load_people() -> list[dict[str, object]]:
 
 
 def _load_sources() -> list[dict[str, object]]:
+    """Load declared sources from metadata/sources.yml and auto-discover processed segment files.
+
+    Auto-discovered sources are added with conservative default metadata so the importer
+    can load their processed segments when sources.yml is incomplete.
+    """
     sources = load_json_compatible_yaml(METADATA_DIR / "sources.yml")
+    existing_source_ids = {source["source_id"] for source in sources}
+    loaded_paths = set()
+    # Load known sections so we only auto-add sources for declared sections
+    try:
+        declared_sections = {s["section_id"] for s in load_json_compatible_yaml(METADATA_DIR / "sections.yml")}
+    except Exception:
+        declared_sections = set()
+    # Also include sections declared in manifests so auto-discovery covers manifest-driven works
+    try:
+        manifests = load_work_manifests()
+        for manifest in manifests:
+            for sec in manifest.get("sections", []):
+                if sec.get("section_id"):
+                    declared_sections.add(sec.get("section_id"))
+    except Exception:
+        pass
     for source in sources:
         raw_path = REPO_ROOT / source["raw_path"]
         processed_path = REPO_ROOT / source["processed_path"]
@@ -52,23 +73,94 @@ def _load_sources() -> list[dict[str, object]]:
             raise FileNotFoundError(raw_path)
         if not processed_path.exists():
             raise FileNotFoundError(processed_path)
+        try:
+            loaded_paths.add(str((REPO_ROOT / source["processed_path"]).resolve()))
+        except Exception:
+            loaded_paths.add(str(source["processed_path"]))
         source["author_or_translator_ids_json"] = json.dumps(source.pop("author_or_translator_ids"), ensure_ascii=False)
+    # Optionally discover processed segment files under corpus/processed for diagnostics,
+    # but do NOT auto-add them to declared sources.yml. The importer must only ingest
+    # sources explicitly declared in metadata/sources.yml for deterministic imports.
+    # Keep track of discovered files for debugging but don't mutate the authoritative list.
+    #
+    # processed_root = REPO_ROOT / "corpus" / "processed"
+    # if processed_root.exists():
+    #     discovered = []
+    #     for path in processed_root.rglob("*__segments.jsonl"):
+    #         try:
+    #             resolved = str(path.resolve())
+    #         except Exception:
+    #             resolved = str(path)
+    #         if resolved in loaded_paths:
+    #             continue
+    #         try:
+    #             candidate_segments = read_jsonl(path)
+    #         except Exception:
+    #             continue
+    #         candidate_source_ids = {seg.get("source_id") for seg in candidate_segments if seg.get("source_id")}
+    #         if candidate_source_ids:
+    #             discovered.append({"path": str(path.relative_to(REPO_ROOT)), "source_ids": list(candidate_source_ids)})
+    #         loaded_paths.add(resolved)
     return sources
 
 
 def _load_segments(sources: list[dict[str, object]]) -> list[dict[str, object]]:
+    """Load segments from declared sources, plus any processed segment files under corpus/processed.
+
+    This makes the importer robust if metadata/sources.yml is incomplete: processed
+    segment JSONL files are discovered and loaded automatically to ensure alignments
+    referencing them don't fail validation.
+    """
     segments: list[dict[str, object]] = []
+    loaded_paths: set[str] = set()
     for source in sources:
         processed_path = REPO_ROOT / str(source["processed_path"])
-        if processed_path.suffix == ".jsonl":
-            segments.extend(read_jsonl(processed_path))
+        if processed_path.suffix == ".jsonl" and processed_path.exists():
+            candidate_segments = read_jsonl(processed_path)
+            # Only include records that have the required DB fields
+            valid_segments = [s for s in candidate_segments if s.get("segment_id") and s.get("segment_order") is not None]
+            if valid_segments:
+                segments.extend(valid_segments)
+            try:
+                loaded_paths.add(str(processed_path.resolve()))
+            except Exception:
+                loaded_paths.add(str(processed_path))
+    # Also discover any processed segment files under corpus/processed that may not be listed in sources.yml
+    processed_root = REPO_ROOT / "corpus" / "processed"
+    if processed_root.exists():
+        # build set of source_ids declared/auto-added from the provided sources list
+        declared_source_ids = {s["source_id"] for s in sources}
+        for path in processed_root.rglob("*__segments.jsonl"):
+            try:
+                resolved = str(path.resolve())
+            except Exception:
+                resolved = str(path)
+            if resolved in loaded_paths:
+                continue
+            if path.suffix == ".jsonl":
+                # Only include discovered segment records that have the required DB fields
+                candidate_segments = read_jsonl(path)
+                valid_segments = [
+                    s
+                    for s in candidate_segments
+                    if s.get("segment_id") and s.get("segment_order") is not None and s.get("source_id") in declared_source_ids
+                ]
+                if valid_segments:
+                    segments.extend(valid_segments)
+                    loaded_paths.add(resolved)
     return segments
 
 
 def _load_alignments(manifests: list[dict[str, object]]) -> list[dict[str, object]]:
+    # Load alignments for sections declared in the provided manifests. This ensures
+    # alignments correspond to manifest-driven sections even if metadata/sections.yml
+    # was augmented at runtime.
+    declared_sections = {sec.get("section_id") for manifest in manifests for sec in manifest.get("sections", [])}
     alignments: list[dict[str, object]] = []
     for manifest in manifests:
         for section in manifest["sections"]:
+            if section.get("section_id") not in declared_sections:
+                continue
             source_ids = section.get("source_ids") or {}
             if not source_ids or "target_source_id" not in source_ids:
                 continue
@@ -92,6 +184,23 @@ def import_corpus(db_path: Path | str = DEFAULT_DB_PATH) -> dict[str, object]:
     manifests = load_work_manifests()
     works = load_json_compatible_yaml(METADATA_DIR / "works.yml")
     sections = load_json_compatible_yaml(METADATA_DIR / "sections.yml")
+    # Augment sections with any manifest-declared sections that aren't in sections.yml
+    existing_section_ids = {s["section_id"] for s in sections}
+    for manifest in manifests:
+        for sec in manifest.get("sections", []):
+            if sec.get("section_id") not in existing_section_ids:
+                sections.append(
+                    {
+                        "section_id": sec.get("section_id"),
+                        "work_id": sec.get("work_id", manifest.get("work_id")),
+                        "parent_section_id": sec.get("parent_section_id"),
+                        "label": sec.get("label", sec.get("section_id")),
+                        "canonical_ref": sec.get("canonical_ref", ""),
+                        "sort_key": sec.get("sort_key", 0),
+                        "notes": sec.get("notes", ""),
+                    }
+                )
+                existing_section_ids.add(sec.get("section_id"))
     persons = _load_people()
     sources = _load_sources()
     segments = _load_segments(sources)

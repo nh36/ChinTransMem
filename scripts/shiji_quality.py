@@ -11,6 +11,35 @@ ANCHOR_SEQUENCE_KEYS = {
     "source": "source_entity_sequence",
     "target": "target_entity_sequence",
 }
+SHIJI_NAME_GLOSS_RE = re.compile(
+    r"\b([A-Z][A-Za-z'’.-]*(?:\s+[A-Z][A-Za-z'’.-]*){0,2})\s+\(([^()]{1,40})\)"
+)
+SHIJI_WITNESS_FIXES: list[dict[str, Any]] = [
+    {
+        "pattern": re.compile(r"\bsucceseful\b"),
+        "replacement": "successful",
+        "issue_type": "known_bad_form",
+        "reason": "Known Shiji witness misspelling.",
+        "confidence": 0.99,
+    },
+    {
+        "pattern": re.compile(r"\bZao Yu\b"),
+        "replacement": "Cao Yu",
+        "issue_type": "romanization_inconsistency",
+        "reason": "Witness spelling disagrees with the surrounding Cao Yu succession anchor.",
+        "confidence": 0.97,
+    },
+    {
+        "pattern": re.compile(r"\bZhu gui\b"),
+        "replacement": "Zhu Gui",
+        "issue_type": "capitalization_drift",
+        "reason": "Witness capitalization is inconsistent within the same succession chain.",
+        "confidence": 0.96,
+    },
+]
+SHIJI_KNOWN_BAD_FORM_RE = re.compile(r"\bsucceseful\b", re.IGNORECASE)
+SHIJI_ZAO_YU_RE = re.compile(r"\bZao Yu\b")
+SHIJI_ZHU_GUI_RE = re.compile(r"\bZhu gui\b")
 
 
 def _dedupe_consecutive(tokens: list[str]) -> list[str]:
@@ -34,6 +63,76 @@ def _required_terms_present(text: str, terms: list[str], *, language: str) -> bo
     return True
 
 
+def normalize_shiji_witness_text(text: str) -> tuple[str, list[dict[str, Any]]]:
+    normalized = text
+    repairs: list[dict[str, Any]] = []
+    for entry in SHIJI_WITNESS_FIXES:
+        pattern = entry["pattern"]
+        replacement = str(entry["replacement"])
+
+        def _replace(match: re.Match[str]) -> str:
+            repairs.append(
+                {
+                    "raw_form": match.group(0),
+                    "corrected_form": replacement,
+                    "issue_type": str(entry["issue_type"]),
+                    "reason": str(entry["reason"]),
+                    "confidence": float(entry["confidence"]),
+                    "automatic_or_curated": "automatic",
+                }
+            )
+            return replacement
+
+        normalized = pattern.sub(_replace, normalized)
+
+    def _strip_name_gloss(match: re.Match[str]) -> str:
+        raw_form = match.group(0)
+        corrected_form = match.group(1).strip()
+        repairs.append(
+            {
+                "raw_form": raw_form,
+                "corrected_form": corrected_form,
+                "issue_type": "name_gloss_intrusion",
+                "reason": "Strip parenthetical glosses attached to name-like English witness forms.",
+                "confidence": 0.92,
+                "automatic_or_curated": "automatic",
+            }
+        )
+        return corrected_form
+
+    while True:
+        updated = SHIJI_NAME_GLOSS_RE.sub(_strip_name_gloss, normalized)
+        if updated == normalized:
+            break
+        normalized = updated
+    normalized = re.sub(r"\s+", " ", normalized)
+    normalized = re.sub(r"\s+([,.;:!?])", r"\1", normalized)
+    return normalized.strip(), repairs
+
+
+def detect_shiji_witness_quality_issues(text: str) -> list[dict[str, str]]:
+    issues: list[dict[str, str]] = []
+    for match in SHIJI_KNOWN_BAD_FORM_RE.finditer(text):
+        issues.append({"token": match.group(0), "issue_type": "known_bad_form"})
+    for match in SHIJI_ZAO_YU_RE.finditer(text):
+        issues.append({"token": match.group(0), "issue_type": "romanization_inconsistency"})
+    for match in SHIJI_ZHU_GUI_RE.finditer(text):
+        issues.append({"token": match.group(0), "issue_type": "capitalization_drift"})
+    for match in SHIJI_NAME_GLOSS_RE.finditer(text):
+        issues.append({"token": match.group(0), "issue_type": "name_gloss_intrusion"})
+    deduped: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for issue in issues:
+        token = str(issue.get("token", ""))
+        issue_type = str(issue.get("issue_type", ""))
+        key = (token, issue_type)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append({"token": token, "issue_type": issue_type})
+    return deduped
+
+
 def _matched_anchor_sequence(
     text: str,
     anchors: list[dict[str, Any]],
@@ -43,9 +142,24 @@ def _matched_anchor_sequence(
     sequence: list[str] = []
     matched_anchor_ids: list[str] = []
     ordered_anchors = sorted(anchors, key=lambda anchor: int(anchor["expected_order"]))
+    # For target-language matching, normalize the witness text once (strip name glosses, fix known bad forms)
+    match_text = text
+    if language == "target":
+        match_text, _ = normalize_shiji_witness_text(text)
     for anchor in ordered_anchors:
-        required_terms = list(anchor.get(ANCHOR_REQUIRED_KEYS[language]) or [])
-        if not _required_terms_present(text, required_terms, language=language):
+        if language == "target":
+            # Prefer pre-normalized target terms, but normalize legacy committed terms at runtime
+            required_terms = list(anchor.get("normalized_target_required_terms") or anchor.get(ANCHOR_REQUIRED_KEYS[language]) or [])
+            if required_terms and not anchor.get("normalized_target_required_terms"):
+                # Normalize legacy target terms using the Shiji witness normalizer to strip name-gloss parentheticals
+                normalized_required: list[str] = []
+                for term in required_terms:
+                    cleaned, _ = normalize_shiji_witness_text(str(term))
+                    normalized_required.append(cleaned)
+                required_terms = normalized_required
+        else:
+            required_terms = list(anchor.get(ANCHOR_REQUIRED_KEYS[language]) or [])
+        if not _required_terms_present(match_text, required_terms, language=language):
             continue
         matched_anchor_ids.append(str(anchor.get("source_anchor_id") or anchor.get("anchor_id") or anchor["expected_order"]))
         sequence.extend(str(token) for token in anchor.get(ANCHOR_SEQUENCE_KEYS[language]) or [])
