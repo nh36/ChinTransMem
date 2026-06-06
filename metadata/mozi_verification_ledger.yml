@@ -74,7 +74,7 @@
       "processed_translation_path": "corpus/processed/translations/mozi__mozi-003-that-which-is-affectable__mozi-003-that-which-is-affectable__mei-archiveocr-v1-1929__segments.jsonl",
       "processed_alignment_path": "corpus/processed/alignments/mozi__mozi-003-that-which-is-affectable__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_strategy": "curated_override",
-      "alignment_fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Anchor drift remains after repair: four-good-kings (missing_or_ambiguous_target_anchor); four-bad-kings (missing_or_ambiguous_target_anchor); six-bad-princes (missing_or_ambiguous_target_anchor); good-friends (missing_or_ambiguous_target_anchor)).",
+      "alignment_fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Anchor drift remains after repair: four-good-kings (resolved_ambiguous_anchor); four-bad-kings (resolved_ambiguous_anchor); six-bad-princes (resolved_ambiguous_anchor); good-friends (resolved_ambiguous_anchor)).",
       "translator_attribution": "Yi-Pao Mei",
       "rights_note": "Proof-of-concept export retained for TM research while release clearance remains pending.",
       "reviewer_note": "Clean usable English captured from committed Mei OCR witness."

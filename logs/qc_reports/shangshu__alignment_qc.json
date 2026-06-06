@@ -2,36 +2,32 @@
   "work_id": "shangshu",
   "summary": {
     "total_section_count": 60,
-    "active_section_count": 57,
-    "exportable_section_count": 57,
-    "exact_alignment_count": 127,
+    "active_section_count": 58,
+    "exportable_section_count": 58,
+    "exact_alignment_count": 129,
     "alignment_granularity_counts": {
-      "grouped": 86,
+      "grouped": 88,
       "block": 41
     },
-    "automatic_alignment_count": 127,
+    "automatic_alignment_count": 129,
     "curated_override_section_count": 0,
     "fallback_section_count": 0,
-    "blocked_section_count": 3,
+    "blocked_section_count": 2,
     "english_witness": "Wikisource transcription of James Legge, Sacred Books of the East, Volume 3",
     "work_state": "active",
     "pre_repair_corruption_issue_count": 14,
     "corrected_corruption_issue_count": 14,
     "remaining_corruption_issue_count": 0,
-    "drift_checks_run": 57,
+    "drift_checks_run": 58,
     "anchor_mapped_section_count": 1,
-    "drift_issue_count_before_repair": 5,
-    "repaired_drift_issue_count": 2,
-    "remaining_drift_issue_count": 3,
+    "drift_issue_count_before_repair": 0,
+    "repaired_drift_issue_count": 0,
+    "remaining_drift_issue_count": 0,
     "hard_failure_count": 0
   },
   "curated_override_sections": [],
   "fallback_sections": [],
   "blocked_sections": [
-    {
-      "section_id": "shangshu-001-yu-shu-canon-of-yao",
-      "reason": "anchor_drift: summer-appointment (crossed_anchor_alignment); autumn-appointment (crossed_anchor_alignment); winter-appointment (crossed_anchor_alignment)"
-    },
     {
       "section_id": "shangshu-002-yu-shu-dan-zhu-forged",
       "reason": "Chinese text detected without English text"
@@ -48,16 +44,16 @@
       "title": "虞書 堯典 Yu Shu - Canon of Yao",
       "chinese_block_count": 14,
       "english_block_count": 8,
-      "alignment_granularity": null,
-      "exact_alignment_count": 0,
-      "alignment_anchor_map_used": false,
+      "alignment_granularity": "grouped",
+      "exact_alignment_count": 2,
+      "alignment_anchor_map_used": true,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,
       "fallback_used": false,
       "coarse_alignment_reason": null,
       "curated_override_used": false,
-      "decision": "metadata_only",
-      "blocking_reason": "anchor_drift: summer-appointment (crossed_anchor_alignment); autumn-appointment (crossed_anchor_alignment); winter-appointment (crossed_anchor_alignment)",
+      "decision": "export",
+      "blocking_reason": null,
       "hard_failure": false
     },
     {

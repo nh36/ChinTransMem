@@ -247,8 +247,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "103ac1bdbb8c41482339989ab2298e2fd04994005ab08ab69598abc52325e509",
-    "metadata/sources.yml": "b783275d5df93b38c519b5662b5a3c2ed22ceb86f9aaea33ee9d9067868be25e",
+    "metadata/sections.yml": "e7b9f4e412d04f653e074690f1afacf1d66a3cf4786fdb288aa250668a952e79",
+    "metadata/sources.yml": "f27e0560b7acd41e43958f5fc177d1dfb7f08c4bf02e4e4dd33dcbe9806aa141",
     "metadata/manifests/lunyu.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
     "metadata/corpus_manifest.yml": "6f0d27a3804f640318483f1872a1a31d9f042d4c31ad89ee6200f8264a2fff39",
     "corpus/exports/jsonl/lunyu__book-01-xueer__aligned_passages.jsonl": "19a2880493e936d83541ad191679ab72bc87b27eb675980f7e56715fca91b857",

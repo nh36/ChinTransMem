@@ -79,7 +79,7 @@
       "target_sentence_count": 35,
       "exact_alignment_count": 1,
       "fallback_used": true,
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Anchor drift remains after repair: four-good-kings (missing_or_ambiguous_target_anchor); four-bad-kings (missing_or_ambiguous_target_anchor); six-bad-princes (missing_or_ambiguous_target_anchor); good-friends (missing_or_ambiguous_target_anchor)).",
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Anchor drift remains after repair: four-good-kings (resolved_ambiguous_anchor); four-bad-kings (resolved_ambiguous_anchor); six-bad-princes (resolved_ambiguous_anchor); good-friends (resolved_ambiguous_anchor)).",
       "alignment_anchor_map_used": true,
       "curated_override_used": true,
       "rights_status": "rights_review_required",
@@ -851,7 +851,7 @@
     },
     {
       "section_id": "mozi-003-that-which-is-affectable",
-      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Anchor drift remains after repair: four-good-kings (missing_or_ambiguous_target_anchor); four-bad-kings (missing_or_ambiguous_target_anchor); six-bad-princes (missing_or_ambiguous_target_anchor); good-friends (missing_or_ambiguous_target_anchor))."
+      "coarse_alignment_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Anchor drift remains after repair: four-good-kings (resolved_ambiguous_anchor); four-bad-kings (resolved_ambiguous_anchor); six-bad-princes (resolved_ambiguous_anchor); good-friends (resolved_ambiguous_anchor))."
     },
     {
       "section_id": "mozi-018-condemnation-of-offensive-war-ii",

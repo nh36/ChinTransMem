@@ -2,19 +2,19 @@
   "summary": {
     "work_state": "proof_of_concept_active",
     "total_section_count": 3,
-    "active_section_count": 1,
-    "exportable_section_count": 1,
+    "active_section_count": 2,
+    "exportable_section_count": 2,
     "english_witness": "ChineseNotes-hosted bilingual English witness (translator attribution unresolved; gloss-enriched source normalized for active TM exports)",
-    "exact_alignment_count": 29,
-    "automatic_alignment_count": 29,
-    "alignment_record_count": 30,
+    "exact_alignment_count": 46,
+    "automatic_alignment_count": 46,
+    "alignment_record_count": 48,
     "curated_override_section_count": 0,
     "fallback_section_count": 0,
-    "blocked_section_count": 2,
+    "blocked_section_count": 1,
     "hard_failure_count": 0,
-    "drift_checks_run": 0,
-    "drift_issue_count_before_repair": 0,
-    "repaired_drift_issue_count": 0,
+    "drift_checks_run": 17,
+    "drift_issue_count_before_repair": 1,
+    "repaired_drift_issue_count": 1,
     "remaining_drift_issue_count": 0,
     "entity_sequence_validation_passed": true,
     "anchor_mapped_section_count": 1,
@@ -37,7 +37,7 @@
     "repaired_leakage_issue_count": 0,
     "remaining_leakage_issue_count": 0,
     "alignment_granularity_counts": {
-      "block": 29
+      "block": 46
     }
   },
   "fallback_sections": [],
@@ -49,10 +49,6 @@
     {
       "section_id": "shiji-002-annals-of-xia",
       "reason": "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: Alignment QC failed for shiji-002-annals-of-xia: group 36: target segment length/structure imbalance suggests missing grouping; group 41: target segment length/structure imbalance suggests missing grouping; group 57: target segment length/structure imbalance suggests missing grouping"
-    },
-    {
-      "section_id": "shiji-003-annals-of-yin",
-      "reason": "Named-entity succession drift remains after anchor-partitioned alignment: 15 issue(s) across the Qi-to-Tang chain."
     }
   ],
   "sections": [
@@ -64,6 +60,16 @@
       "alignment_mode": "deterministic",
       "alignment_granularity": "block",
       "exact_alignment_count": 29,
+      "fallback_reason": null
+    },
+    {
+      "section_id": "shiji-003-annals-of-yin",
+      "title_zh": "《殷本紀》",
+      "title_en": "Annals of Yin",
+      "export_status": "active",
+      "alignment_mode": "deterministic",
+      "alignment_granularity": "block",
+      "exact_alignment_count": 17,
       "fallback_reason": null
     }
   ]

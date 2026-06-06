@@ -3386,8 +3386,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "103ac1bdbb8c41482339989ab2298e2fd04994005ab08ab69598abc52325e509",
-    "metadata/sources.yml": "b783275d5df93b38c519b5662b5a3c2ed22ceb86f9aaea33ee9d9067868be25e",
+    "metadata/sections.yml": "e7b9f4e412d04f653e074690f1afacf1d66a3cf4786fdb288aa250668a952e79",
+    "metadata/sources.yml": "f27e0560b7acd41e43958f5fc177d1dfb7f08c4bf02e4e4dd33dcbe9806aa141",
     "metadata/manifests/shijing.yml": "f39c8945b070e89776bc241dac6511606d9ed55337e8759df33d512c692cf155",
     "corpus/exports/jsonl/shijing__guofeng-zhounan-001-guanju__aligned_passages.jsonl": "02921423df5af9978e8d28cc3fe23db8f0fdf3c28f8904b0bd5a84513e1ee4df",
     "corpus/exports/csv/shijing__guofeng-zhounan-001-guanju__aligned_passages.csv": "f6b5ab681140df34cf646790f110c43b83da5ecca123b300914efd0bd33f6787",

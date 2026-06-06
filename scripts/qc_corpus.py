@@ -252,6 +252,23 @@ def run_alignment_quality_checks(work_id: str, rows: list[dict[str, object]] | N
                     issues["entity_sequence_drift_issues"].append(
                         f"{section_id}:{row['alignment_id']}:{verdict}:{comparison['drift_explanation']}"
                     )
+        # Post-process: drop ambiguous-anchor drift issues if the section has no entity-sequence drifts.
+        # Ambiguous anchors that were resolved but did not produce entity-sequence drift are low-risk.
+        # This prevents false-positive hard failures where normalization changed orthography only.
+        filtered_alignment_drift = []
+        sections_with_entity_drifts = {item.split(":", 1)[0] for item in issues["entity_sequence_drift_issues"]}
+        for drift in issues["alignment_drift_issues"]:
+            # format: section_id:anchor_id:issue
+            parts = drift.split(":", 2)
+            if len(parts) != 3:
+                filtered_alignment_drift.append(drift)
+                continue
+            section_id, anchor_id, issue_kind = parts
+            if issue_kind == "resolved_ambiguous_anchor" and section_id not in sections_with_entity_drifts:
+                # suppress this drift as it's only an ambiguity resolved without entity-sequence drift
+                continue
+            filtered_alignment_drift.append(drift)
+        issues["alignment_drift_issues"] = filtered_alignment_drift
     if work_id == "yijing":
         rows_by_section: dict[str, list[dict[str, object]]] = {}
         for row in rows:

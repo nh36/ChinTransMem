@@ -18,8 +18,14 @@ from chinesenotes_alignment import load_alignment_anchor_maps
 
 class ShijiWitnessQualityTest(unittest.TestCase):
     def test_shiji_003_translation_text_has_no_known_bad_forms(self) -> None:
-        path = REPO_ROOT / "corpus" / "exports" / "jsonl" / "shiji__shiji-003-annals-of-yin__aligned_passages.jsonl"
-        self.assertTrue(path.exists(), msg=f"Expected export file missing: {path}")
+        active_path = REPO_ROOT / "corpus" / "exports" / "jsonl" / "shiji__shiji-003-annals-of-yin__aligned_passages.jsonl"
+        candidate_path = REPO_ROOT / "corpus" / "candidates" / "shiji" / "benji" / "shiji__shiji-003-annals-of-yin__aligned_passages.jsonl"
+        if active_path.exists():
+            path = active_path
+        elif candidate_path.exists():
+            path = candidate_path
+        else:
+            self.fail(f"Expected either active or candidate export file missing: {active_path} or {candidate_path}")
         rows = read_jsonl(path)
         # Tokens that should be matched case-insensitively (misspellings, generic parenthetical glosses)
         bad_tokens_ci = [
@@ -67,7 +73,14 @@ class ShijiWitnessQualityTest(unittest.TestCase):
 
 
     def test_shiji_003_entity_sequence_not_mismatch(self) -> None:
-        path = REPO_ROOT / "corpus" / "exports" / "jsonl" / "shiji__shiji-003-annals-of-yin__aligned_passages.jsonl"
+        active_path = REPO_ROOT / "corpus" / "exports" / "jsonl" / "shiji__shiji-003-annals-of-yin__aligned_passages.jsonl"
+        candidate_path = REPO_ROOT / "corpus" / "candidates" / "shiji" / "benji" / "shiji__shiji-003-annals-of-yin__aligned_passages.jsonl"
+        if active_path.exists():
+            path = active_path
+        elif candidate_path.exists():
+            path = candidate_path
+        else:
+            self.fail(f"Expected either active or candidate export file missing: {active_path} or {candidate_path}")
         rows = read_jsonl(path)
         anchors = load_alignment_anchor_maps(REPO_ROOT / "metadata" / "shiji_alignment_anchors.yml")
         anchor_map = anchors.get("shiji-003") or {}

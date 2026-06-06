@@ -42,8 +42,8 @@
       "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji003.txt",
       "status": "captured",
       "english_witness": "Chinese Notes bilingual English witness",
-      "export_status": "metadata_only",
-      "blocker_note": "Named-entity succession drift remains after anchor-partitioned alignment: 15 issue(s) across the Qi-to-Tang chain."
+      "export_status": "active",
+      "blocker_note": null
     }
   ]
 }

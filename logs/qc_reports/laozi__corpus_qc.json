@@ -918,8 +918,8 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "103ac1bdbb8c41482339989ab2298e2fd04994005ab08ab69598abc52325e509",
-    "metadata/sources.yml": "b783275d5df93b38c519b5662b5a3c2ed22ceb86f9aaea33ee9d9067868be25e",
+    "metadata/sections.yml": "e7b9f4e412d04f653e074690f1afacf1d66a3cf4786fdb288aa250668a952e79",
+    "metadata/sources.yml": "f27e0560b7acd41e43958f5fc177d1dfb7f08c4bf02e4e4dd33dcbe9806aa141",
     "metadata/manifests/laozi.yml": "b32b6fe4094f05a5366e16bb7bfc275f8fb89d27906b9b1a92b6e0d884c174aa",
     "corpus/exports/jsonl/laozi__laozi-chapter-001__aligned_passages.jsonl": "10ee70371cd42f0830091bc5d5b14305829d725e2769b3136919a6e983cbeb86",
     "corpus/exports/csv/laozi__laozi-chapter-001__aligned_passages.csv": "d032ea9fe286af90cb49f2bf9175405c7928f86407e075698a19c943a97ff971",

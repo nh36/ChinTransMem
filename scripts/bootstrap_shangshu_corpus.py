@@ -728,11 +728,23 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
                         + "; ".join(f"{issue['anchor_id']} ({issue['issue']})" for issue in anchor_drift_issues)
                     )
                     print(f"Warning: Anchor drift remains in {section_id}: {reason}")
-                    # Treat as metadata-only for now and continue; record blocked section
-                    decision = "metadata_only"
-                    blocked_sections.append({"section_id": section_id, "reason": reason})
-                    alignment = None
-                    exact_count = 0
+                    # Block only if the drift indicates missing/ambiguous anchors; allow
+                    # non-severe issues (e.g., crossed_anchor_alignment) to export with a warning.
+                    severe_issues = {"missing_or_ambiguous_source_anchor", "missing_or_ambiguous_target_anchor"}
+                    issue_types = {str(issue.get("issue")) for issue in anchor_drift_issues}
+                    if issue_types & severe_issues:
+                        # Treat as metadata-only for now and continue; record blocked section
+                        decision = "metadata_only"
+                        blocked_sections.append({"section_id": section_id, "reason": reason})
+                        alignment = None
+                        exact_count = 0
+                    else:
+                        # Non-severe drift: keep the alignment/export but record the warning
+                        alignment["anchor_map_used"] = True
+                        alignment["anchor_count"] = len(anchor_map.get("anchors", []))
+                        alignment["anchor_drift_warning"] = reason
+                        if str(anchor_map.get("segmentation_strategy") or "") == "anchor_partition":
+                            alignment["strategy"] = "anchor_partition_auto_alignment"
                 else:
                     alignment["anchor_map_used"] = True
                     alignment["anchor_count"] = len(anchor_map.get("anchors", []))

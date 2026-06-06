@@ -1,12 +1,10 @@
 {
   "work_id": "shangshu",
   "section_count": 60,
-  "complete_sections": 57,
-  "exact_alignment_count": 127,
+  "complete_sections": 58,
+  "exact_alignment_count": 129,
   "warning_count": 0,
   "warnings": [],
-  "error_count": 1,
-  "errors": [
-    "shangshu: metadata-only section shangshu-001-yu-shu-canon-of-yao leaked export artifacts."
-  ]
+  "error_count": 0,
+  "errors": []
 }

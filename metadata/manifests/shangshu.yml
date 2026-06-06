@@ -9,11 +9,11 @@
   },
   "summary": {
     "section_count": 60,
-    "complete_sections": 57,
-    "metadata_only_sections": 3,
+    "complete_sections": 58,
+    "metadata_only_sections": 2,
     "sections_needing_alignment": 0,
     "sections_needing_qc": 0,
-    "exact_alignment_count": 127
+    "exact_alignment_count": 129
   },
   "ingestion_policy": {
     "inventory_required": true,
@@ -801,12 +801,13 @@
       "canonical_ref": "尚書·虞書 堯典",
       "sort_key": "001",
       "source_ids": {
-        "source_id": "shangshu-001-yu-shu-canon-of-yao__chinesenotes-shangshu-zh-1f6b1d3"
+        "source_id": "shangshu-001-yu-shu-canon-of-yao__chinesenotes-shangshu-zh-1f6b1d3",
+        "target_source_id": "shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601"
       },
-      "alignment_status": "metadata_only",
-      "tmx_status": "not_exported",
-      "expected_exact_alignment_count": 0,
-      "notes": ""
+      "alignment_status": "complete",
+      "tmx_status": "complete",
+      "expected_exact_alignment_count": 2,
+      "notes": "Export uses anchor-partitioned exact block alignment."
     },
     {
       "section_id": "shangshu-002-yu-shu-dan-zhu-forged",
@@ -1708,6 +1709,22 @@
       "raw_path": "corpus/raw/chinesenotes/shangshu__shangshu-001-yu-shu-canon-of-yao__chinesenotes-1f6b1d3__raw.txt",
       "processed_path": "corpus/processed/chinese_base_texts/shangshu__shangshu-001-yu-shu-canon-of-yao__chinesenotes-shangshu-zh-1f6b1d3__segments.jsonl",
       "notes": "ChineseNotes public-domain Shangshu mirror. Upstream repository: https://github.com/alexamies/chinesenotes.com @ 1f6b1d3e7a40b6886a4b943c898125639e993544. Upstream relative path: shangshu/shangshu001.txt. Source SHA256: 8f162dbab654a5fb05153b5d4e9f91cd95ac1a1697ded61d16e14afe986f711a. Review date: 2026-06-01. Repository-level licence basis: Apache-2.0 for source code; CC BY-SA 3.0 assumed for dictionary and text files per upstream license.txt. Rights/source notes detected by parser: 本作品在全世界都属于公有领域，因为作者逝世已经超过100年，并且于1923年1月1日之前出版。. Local raw capture: corpus/raw/chinesenotes/shangshu__shangshu-001-yu-shu-canon-of-yao__chinesenotes-1f6b1d3__raw.txt. Local staging source: corpus/staging/chinesenotes/shangshu/sections.jsonl."
+    },
+    {
+      "work_id": "shangshu",
+      "section_id": "shangshu-001-yu-shu-canon-of-yao",
+      "source_id": "shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601",
+      "language_code": "en",
+      "source_kind": "translation",
+      "citation": "James Legge translation for 尚書·虞書 堯典 in Sacred Books of the East, Volume 3, accessed via Wikisource on 2026-06-01.",
+      "source_url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_1/Book_1",
+      "rights_status": "public_domain",
+      "author_or_translator_ids": [
+        "james-legge"
+      ],
+      "raw_path": "corpus/raw/wikisource/shangshu__shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601__raw.json",
+      "processed_path": "corpus/processed/translations/shangshu__shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601__segments.jsonl",
+      "notes": "Wikisource transcription of James Legge, Sacred Books of the East, Volume 3. Accessed 2026-06-01. Page witness count: 1. Witness pages: https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_1/Book_1. Translator/source notes detected in ChineseNotes staging and excluded from export: English translation: James Legge; English translations. Local raw capture: corpus/raw/wikisource/shangshu__shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601__raw.json."
     },
     {
       "work_id": "shangshu",

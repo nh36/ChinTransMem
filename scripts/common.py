@@ -464,8 +464,43 @@ def write_jsonl(path: Path | str, records: Iterable[dict[str, Any]]) -> None:
 
 
 def write_json(path: Path | str, payload: Any) -> None:
+    """
+    Write JSON payload to path. For metadata/sources.yml perform a safe merge instead
+    of a blind overwrite to avoid accidental truncation when individual bootstraps
+    write a subset of sources.
+    """
     output_path = Path(path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # If writing the central sources registry, merge by source_id instead of
+    # overwriting the file. This ensures incremental bootstraps cannot truncate
+    # unrelated records.
+    try:
+        if output_path.resolve() == (METADATA_DIR / "sources.yml").resolve():
+            try:
+                existing = load_json_compatible_yaml(output_path)
+            except Exception:
+                existing = []
+            new_sources = list(payload) if isinstance(payload, list) else list(payload)
+            new_by_id = {str(s["source_id"]): s for s in new_sources}
+            final: list[dict[str, Any]] = []
+            for s in existing:
+                sid = str(s.get("source_id"))
+                if sid in new_by_id:
+                    merged = dict(s)
+                    merged.update(new_by_id[sid])
+                    final.append(merged)
+                    del new_by_id[sid]
+                else:
+                    final.append(s)
+            for sid, s in new_by_id.items():
+                final.append(s)
+            output_path.write_text(json.dumps(final, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+            return
+    except Exception:
+        # Fall back to simple write on any unexpected error to avoid failing callers.
+        pass
+
     output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 

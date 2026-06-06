@@ -2,17 +2,16 @@
   "work_id": "shangshu",
   "total_canonical_units": 60,
   "manifest_section_count": 60,
-  "complete_sections": 57,
-  "metadata_only_sections": 3,
+  "complete_sections": 58,
+  "metadata_only_sections": 2,
   "units_with_chinese_source": 60,
   "units_with_english_witness": 60,
   "units_with_release_ready_english_source": 0,
-  "units_with_at_least_one_exact_alignment": 57,
-  "exact_alignment_count": 127,
-  "source_record_count": 117,
+  "units_with_at_least_one_exact_alignment": 58,
+  "exact_alignment_count": 129,
+  "source_record_count": 118,
   "missing_from_manifest": [],
   "present_but_metadata_only": [
-    "shangshu-001-yu-shu-canon-of-yao",
     "shangshu-002-yu-shu-dan-zhu-forged",
     "shangshu-008-xia-shu-yu-shi-forged"
   ],
@@ -79,6 +78,7 @@
     "shangshu-060-zhou-shu-speech-of-the-marquis-of-qin"
   ],
   "sections_with_coarse_or_nonpreferred_alignment": [
+    "shangshu-001-yu-shu-canon-of-yao",
     "shangshu-003-yu-shu-canon-of-shun",
     "shangshu-004-yu-shu-counsels-of-the-great-yu",
     "shangshu-005-yu-shu-counsels-of-the-gao-yao",

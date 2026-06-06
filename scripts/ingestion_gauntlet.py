@@ -698,34 +698,55 @@ def _copy_candidate_exports_to_active(work_id: str, batch_id: str | None = None)
     artifacts exist), then overwrite per-section active exports with the candidate
     per-section exports. This ensures per-section active files match the candidate
     while also keeping a regenerated corpus-level snapshot.
+
+    Safety: never copy candidate per-section exports into the active tree for
+    sections that the *active* manifest marks as metadata-only (tmx_status != 'complete').
     """
     copied: list[str] = []
+    # Load the active manifest to guard against copying metadata-only sections
+    active_manifest = load_work_manifest(work_id)
+    active_sections_map = {str(s["section_id"]): s for s in active_manifest.get("sections", [])}
+
     if batch_id is None:
         # Full-corpus promotion: copy candidate corpus and per-section files directly
         for section in _scoped_manifest(work_id, batch_id)["sections"]:
-            if section.get("tmx_status") != "complete":
+            section_id = section["section_id"]
+            active_section = active_sections_map.get(section_id, {})
+            if active_section.get("tmx_status") != "complete":
+                # Skip copying per-section exports for sections that are metadata-only in the active manifest
                 continue
-            candidate_paths = candidate_section_export_paths(section["section_id"], work_id, batch_id)
-            active_paths = section_export_paths(section["section_id"], work_id)
+            candidate_paths = candidate_section_export_paths(section_id, work_id, batch_id)
+            active_paths = section_export_paths(section_id, work_id)
             for key in ("jsonl", "csv", "tmx"):
-                shutil.copy2(candidate_paths[key], active_paths[key])
+                src = candidate_paths[key]
+                if not src.exists():
+                    continue
+                shutil.copy2(src, active_paths[key])
                 copied.append(repo_relative(active_paths[key]))
-        candidate_corpus_paths = candidate_corpus_export_paths(work_id)
+        candidate_corpus_paths = candidate_corpus_export_paths(work_id, batch_id)
         active_corpus_paths = corpus_export_paths(work_id)
         for key in ("jsonl", "csv", "tmx"):
-            shutil.copy2(candidate_corpus_paths[key], active_corpus_paths[key])
+            src = candidate_corpus_paths[key]
+            if not src.exists():
+                continue
+            shutil.copy2(src, active_corpus_paths[key])
             copied.append(repo_relative(active_corpus_paths[key]))
     else:
         # Batch promotion: regenerate active corpus artifacts first, then overwrite
         # per-section exports with the approved candidate per-section files.
         active_export = export_corpus(DEFAULT_DB_PATH, work_id=work_id)
         for section in _scoped_manifest(work_id, batch_id)["sections"]:
-            if section.get("tmx_status") != "complete":
+            section_id = section["section_id"]
+            active_section = active_sections_map.get(section_id, {})
+            if active_section.get("tmx_status") != "complete":
                 continue
-            candidate_paths = candidate_section_export_paths(section["section_id"], work_id, batch_id)
-            active_paths = section_export_paths(section["section_id"], work_id)
+            candidate_paths = candidate_section_export_paths(section_id, work_id, batch_id)
+            active_paths = section_export_paths(section_id, work_id)
             for key in ("jsonl", "csv", "tmx"):
-                shutil.copy2(candidate_paths[key], active_paths[key])
+                src = candidate_paths[key]
+                if not src.exists():
+                    continue
+                shutil.copy2(src, active_paths[key])
                 copied.append(repo_relative(active_paths[key]))
         # Include regenerated corpus-level exports in the list for bookkeeping
         copied.append(active_export["jsonl_output"])

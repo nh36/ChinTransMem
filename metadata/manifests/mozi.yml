@@ -2220,7 +2220,7 @@
       "expected_exact_alignment_count": 1,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
-      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Anchor drift remains after repair: four-good-kings (missing_or_ambiguous_target_anchor); four-bad-kings (missing_or_ambiguous_target_anchor); six-bad-princes (missing_or_ambiguous_target_anchor); good-friends (missing_or_ambiguous_target_anchor))."
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Anchor drift remains after repair: four-good-kings (resolved_ambiguous_anchor); four-bad-kings (resolved_ambiguous_anchor); six-bad-princes (resolved_ambiguous_anchor); good-friends (resolved_ambiguous_anchor))."
     },
     {
       "section_id": "mozi-004-methods-and-standards",

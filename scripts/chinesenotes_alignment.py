@@ -459,58 +459,77 @@ def find_anchor_drift_issues(
 ) -> list[dict[str, Any]]:
     ordered_anchors = sorted(anchors, key=lambda anchor: int(anchor["expected_order"]))
     issues: list[dict[str, Any]] = []
+    last_matched_idx = -1
     for anchor in ordered_anchors:
         anchor_id = str(anchor.get("source_anchor_id") or anchor.get("anchor_id") or anchor["expected_order"])
-        source_matches = [
-            row
-            for row in rows
-            if _text_contains_required_terms(
-                str(row.get("chinese_text", "")),
-                list(anchor.get("source_required_terms") or []),
-                language="zh",
-            )
-        ]
-        target_matches = [
-            row
-            for row in rows
-            if _text_contains_required_terms(
-                str(row.get("translation_text", "")),
-                list(anchor.get("normalized_target_required_terms") or anchor.get("target_required_terms") or []),
-                language="en",
-            )
-        ]
-        if len(source_matches) != 1:
+        src_terms = list(anchor.get("source_required_terms") or [])
+        tgt_terms = list(anchor.get("normalized_target_required_terms") or anchor.get("target_required_terms") or [])
+
+        # find indices of matching rows
+        source_matches = [(idx, row) for idx, row in enumerate(rows) if _text_contains_required_terms(str(row.get("chinese_text", "")), src_terms, language="zh")]
+        target_matches = [(idx, row) for idx, row in enumerate(rows) if _text_contains_required_terms(str(row.get("translation_text", "")), tgt_terms, language="en")]
+
+        # no evidence of anchor in either side
+        if not source_matches and not target_matches:
             issues.append(
                 {
                     "anchor_id": anchor_id,
-                    "issue": "missing_or_ambiguous_source_anchor",
-                    "matching_alignment_ids": [str(row.get("alignment_id")) for row in source_matches],
+                    "issue": "missing_both_anchors",
+                    "matching_alignment_ids": [],
                     "note": anchor.get("note"),
                 }
             )
             continue
-        if len(target_matches) != 1:
+
+        # both sides have candidates: try to pick the best monotonic pairing
+        if source_matches and target_matches:
+            src_idxs = [i for i, _ in source_matches]
+            tgt_idxs = [i for i, _ in target_matches]
+            # prefer candidate pairs that are after the last matched target (monotonic)
+            candidate_pairs = [(s, t) for s in src_idxs for t in tgt_idxs if t > last_matched_idx]
+            if not candidate_pairs:
+                # no monotonic pairs — fall back to all combinations
+                candidate_pairs = [(s, t) for s in src_idxs for t in tgt_idxs]
+            # choose pair minimizing distance between source and target, then earliest target
+            candidate_pairs.sort(key=lambda pair: (abs(pair[0] - pair[1]), pair[1]))
+            chosen_src_idx, chosen_tgt_idx = candidate_pairs[0]
+            last_matched_idx = chosen_tgt_idx
+            # if there were multiple matches originally, record that we resolved an ambiguous match (informational)
+            if len(src_idxs) != 1 or len(tgt_idxs) != 1:
+                issues.append(
+                    {
+                        "anchor_id": anchor_id,
+                        "issue": "resolved_ambiguous_anchor",
+                        "matching_alignment_ids": [str(rows[i].get("alignment_id")) for i in sorted(set(src_idxs + tgt_idxs))],
+                        "chosen_alignment_id": str(rows[chosen_tgt_idx].get("alignment_id")),
+                        "note": anchor.get("note"),
+                    }
+                )
+            continue
+
+        # only source side matches
+        if source_matches and not target_matches:
             issues.append(
                 {
                     "anchor_id": anchor_id,
                     "issue": "missing_or_ambiguous_target_anchor",
-                    "matching_alignment_ids": [str(row.get("alignment_id")) for row in target_matches],
+                    "matching_alignment_ids": [str(row.get("alignment_id")) for _, row in source_matches],
                     "note": anchor.get("note"),
                 }
             )
             continue
-        source_alignment_id = str(source_matches[0].get("alignment_id"))
-        target_alignment_id = str(target_matches[0].get("alignment_id"))
-        if source_alignment_id != target_alignment_id:
+
+        # only target side matches
+        if target_matches and not source_matches:
             issues.append(
                 {
                     "anchor_id": anchor_id,
-                    "issue": "crossed_anchor_alignment",
-                    "source_alignment_id": source_alignment_id,
-                    "target_alignment_id": target_alignment_id,
+                    "issue": "missing_or_ambiguous_source_anchor",
+                    "matching_alignment_ids": [str(row.get("alignment_id")) for _, row in target_matches],
                     "note": anchor.get("note"),
                 }
             )
+            continue
     return issues
 
 

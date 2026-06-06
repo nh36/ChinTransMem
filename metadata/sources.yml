@@ -24256,5 +24256,21 @@
     "author_or_translator_ids": [],
     "rights_note": "Proof-of-concept English witness retained with explicit provenance while translator attribution and release review remain unresolved. The witness is gloss-enriched and not release-ready.",
     "notes": "ChineseNotes-hosted bilingual English witness for the Shiji pilot tranche. Exported translation_text strips parenthetical name glosses to keep the active TM stream usable."
+  },
+  {
+    "source_id": "shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601",
+    "work_id": "shangshu",
+    "section_id": "shangshu-001-yu-shu-canon-of-yao",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, Sacred Books of the East, Volume 3: The Shu, Yu Shu - Canon of Yao, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/Sacred_Books_of_the_East/Volume_3/The_Shu/Part_2/Book_1",
+    "raw_path": "corpus/raw/wikisource/shangshu__shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601__raw.json",
+    "processed_path": "corpus/processed/translations/shangshu__shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "Wikisource transcription of James Legge, Sacred Books of the East, Volume 3. Local raw capture: corpus/raw/wikisource/shangshu__shangshu-001-yu-shu-canon-of-yao__legge-sbe-wikisource-20260601__raw.json. Added to ensure manifest target source exists."
   }
 ]

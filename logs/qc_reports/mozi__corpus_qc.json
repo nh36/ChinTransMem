@@ -3177,9 +3177,9 @@
     }
   ],
   "checksums": {
-    "metadata/sections.yml": "103ac1bdbb8c41482339989ab2298e2fd04994005ab08ab69598abc52325e509",
-    "metadata/sources.yml": "b783275d5df93b38c519b5662b5a3c2ed22ceb86f9aaea33ee9d9067868be25e",
-    "metadata/manifests/mozi.yml": "24f8db746dee77790fdfd146c261ffcddb4c7e32664cf4bb78164b6faacde222",
+    "metadata/sections.yml": "e7b9f4e412d04f653e074690f1afacf1d66a3cf4786fdb288aa250668a952e79",
+    "metadata/sources.yml": "f27e0560b7acd41e43958f5fc177d1dfb7f08c4bf02e4e4dd33dcbe9806aa141",
+    "metadata/manifests/mozi.yml": "5caeaaa2250a11f7177fd4accdf20b6111f4115c095598ccccf729c569b76246",
     "corpus/exports/jsonl/mozi__mozi-001-make-close-the-scholars__aligned_passages.jsonl": "893a63bca54cb16099299568d847568b4907dd0f87d2cbd7e33b469748fe24db",
     "corpus/exports/csv/mozi__mozi-001-make-close-the-scholars__aligned_passages.csv": "7067da291fc2c3ef770dabe8eb7cc5d406586246a27e3ec8e58099e15ddeef27",
     "corpus/exports/tmx/mozi__mozi-001-make-close-the-scholars__aligned_passages.tmx": "4303fbf4e91c16c834eec3febda04466a51ab99e92747d63c6eac8ee04c63f23",
@@ -3188,9 +3188,9 @@
     "corpus/exports/csv/mozi__mozi-002-self-cultivation__aligned_passages.csv": "ba5e92c9a78b843258c49030b1f0c179c6aa960c61f127564a839a3008ea3502",
     "corpus/exports/tmx/mozi__mozi-002-self-cultivation__aligned_passages.tmx": "70f448261fff5c4041341baaf6ce921b272b6498a524c30fb44356a3bc11ff24",
     "logs/qc_reports/mozi__mozi-002-self-cultivation__tmx_validation.json": "c1b3f022cbafadde20ead664f42aef4e957713851cc7cd84c622f75ab9447fe4",
-    "corpus/exports/jsonl/mozi__mozi-003-that-which-is-affectable__aligned_passages.jsonl": "ccb72f951fe9a5e8bd3a380a426336fbd31eeed81ef2c5f05ba09f667c5b8ac7",
-    "corpus/exports/csv/mozi__mozi-003-that-which-is-affectable__aligned_passages.csv": "21b6b04af1ad14a705ef547ac39a7f291003ab124686f2f392b56647661fc218",
-    "corpus/exports/tmx/mozi__mozi-003-that-which-is-affectable__aligned_passages.tmx": "7113b5cc8b7c7734c76d549251aa5d3db2f4e4415a448e6689a1f203ece772a7",
+    "corpus/exports/jsonl/mozi__mozi-003-that-which-is-affectable__aligned_passages.jsonl": "caa5c4a4604a8dd6e16efe2679d3f560d1cd07303b95fe4e215e3f2ffaffa03d",
+    "corpus/exports/csv/mozi__mozi-003-that-which-is-affectable__aligned_passages.csv": "0312702dfe129177e3a217f6333d83d6424c5275c34ed924829a2fb10799c99f",
+    "corpus/exports/tmx/mozi__mozi-003-that-which-is-affectable__aligned_passages.tmx": "1636d6a54d82597b7303e316b50738c6977072506ab3e3277df6727ebdea16aa",
     "logs/qc_reports/mozi__mozi-003-that-which-is-affectable__tmx_validation.json": "1d26bb3c1f1c08881ae04b1717961cd8aef1dc2adf3ea4e2af43fceb92a81bb2",
     "corpus/exports/jsonl/mozi__mozi-004-methods-and-standards__aligned_passages.jsonl": "22111db6e791bed7947cf8f66a5821feb6e2a798774910bd7e321604375a0e6d",
     "corpus/exports/csv/mozi__mozi-004-methods-and-standards__aligned_passages.csv": "c5228b7b33632275ea737570d9d1feb0e303c44ca42866196241389470661c39",
@@ -3300,9 +3300,9 @@
     "corpus/exports/csv/mozi__mozi-038-esteem-for-righteousness__aligned_passages.csv": "78a39208991c6f4bc48797217a3d25b2ca8ee08ed4b5c8f980c4f2a1c4565176",
     "corpus/exports/tmx/mozi__mozi-038-esteem-for-righteousness__aligned_passages.tmx": "05e7bff5c922db4f1393fd53d0c88e3ef022e4b4a12b654488c81d68dbe25353",
     "logs/qc_reports/mozi__mozi-038-esteem-for-righteousness__tmx_validation.json": "c8fd03f7693d5557393f9a6ef9782021ccb0e718dda6ccb7263e3ee0c332e67c",
-    "corpus/exports/jsonl/mozi__all__aligned_passages.jsonl": "4a0ad545a5d54e925bce85c5025c063f47107e29967b12f1921467be6ec18022",
-    "corpus/exports/csv/mozi__all__aligned_passages.csv": "64f6e3d3f622a437ed71f6d6617bbb8a5c7209b7b99035346511d4df1d2decba",
-    "corpus/exports/tmx/mozi__all__aligned_passages.tmx": "78dfaa1e6d2c413fb93d69982e1412402b851a5bbf85e2697ed7d73bfb647053",
+    "corpus/exports/jsonl/mozi__all__aligned_passages.jsonl": "3ee6a45ab960af081b91b76e0f7386973decfdfd584a7e9a0b423ffe31dfd083",
+    "corpus/exports/csv/mozi__all__aligned_passages.csv": "58ebae1c0fde415ed231675f710b4cb99b17fae09359e6cd73931e7c15c160c5",
+    "corpus/exports/tmx/mozi__all__aligned_passages.tmx": "fa8260dc6c029b6dbadc1a93a09fda86edd8e220a44bdc99536804f290d169de",
     "logs/qc_reports/mozi__corpus_tmx_validation.json": "e6345e726f13760183431f0c99eb7a24ac0264c99c8be8639a0f192532307637"
   },
   "text_integrity": {

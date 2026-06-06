@@ -70,29 +70,29 @@
     "title_zh": "史記",
     "title_en": "Records of the Grand Historian",
     "section_count": 3,
-    "complete_sections": 1,
-    "metadata_only_sections": 2,
+    "complete_sections": 2,
+    "metadata_only_sections": 1,
     "total_section_count": 3,
-    "active_exportable_section_count": 1,
-    "active_section_count": 1,
-    "exportable_section_count": 1,
-    "metadata_only_blocked_section_count": 2,
-    "exact_alignment_count": 29,
-    "section_group_alignment_count": 1,
-    "section_group_alignment_record_count": 1,
-    "alignment_record_count": 30,
+    "active_exportable_section_count": 2,
+    "active_section_count": 2,
+    "exportable_section_count": 2,
+    "metadata_only_blocked_section_count": 1,
+    "exact_alignment_count": 46,
+    "section_group_alignment_count": 2,
+    "section_group_alignment_record_count": 2,
+    "alignment_record_count": 48,
     "fallback_alignment_count": 0,
     "fallback_section_count": 0,
-    "automatic_alignment_count": 29,
+    "automatic_alignment_count": 46,
     "curated_override_section_count": 0,
-    "blocked_section_count": 2,
+    "blocked_section_count": 1,
     "hard_failure_count": 0,
     "alignment_granularity_counts": {
-      "block": 29
+      "block": 46
     },
-    "drift_checks_run": 0,
-    "drift_issue_count_before_repair": 0,
-    "repaired_drift_issue_count": 0,
+    "drift_checks_run": 17,
+    "drift_issue_count_before_repair": 1,
+    "repaired_drift_issue_count": 1,
     "remaining_drift_issue_count": 0,
     "entity_sequence_validation_passed": true,
     "anchor_mapped_section_count": 1,
@@ -114,9 +114,9 @@
     "remaining_leakage_issue_count": 0,
     "automatic_correction_count": 89,
     "curated_correction_count": 0,
-    "active_exportable_alignment_count": 29
+    "active_exportable_alignment_count": 46
   },
-  "notes": "Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with 1 active sections, 2 metadata-only blockers, and 1 anchor-mapped sections. The witness is gloss-enriched and remains not release-ready pending attribution and source-quality audit.",
+  "notes": "Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with 2 active sections, 1 metadata-only blockers, and 1 anchor-mapped sections. The witness is gloss-enriched and remains not release-ready pending attribution and source-quality audit.",
   "sources": [
     {
       "source_id": "shiji-001-annals-annals-of-the-five-emperors__cn-zh-1f6b1d3",
@@ -281,22 +281,23 @@
       "sort_key": "003",
       "canonical_ref": "史記·《殷本紀》",
       "source_ids": {
-        "source_id": "shiji-003-annals-of-yin__cn-zh-1f6b1d3"
+        "source_id": "shiji-003-annals-of-yin__cn-zh-1f6b1d3",
+        "target_source_id": "shiji-003-annals-of-yin__cn-en-1f6b1d3"
       },
-      "corpus_use_status": "blocked",
-      "export_status": "metadata_only",
-      "alignment_status": "blocked",
-      "tmx_status": "not_ready",
+      "corpus_use_status": "proof_of_concept",
+      "export_status": "active",
+      "alignment_status": "complete",
+      "tmx_status": "complete",
       "rights_status": "rights_review_required",
       "release_status": "not_cleared",
       "base_text_processed_path": "corpus/processed/base_texts/shiji__shiji-003-annals-of-yin__shiji-003-annals-of-yin__cn-zh-1f6b1d3__segments.jsonl",
       "translation_processed_path": "corpus/processed/translations/shiji__shiji-003-annals-of-yin__shiji-003-annals-of-yin__cn-en-1f6b1d3__segments.jsonl",
-      "alignment_processed_path": null,
+      "alignment_processed_path": "corpus/processed/alignments/shiji__shiji-003-annals-of-yin__cn-zh-1f6b1d3__cn-en-1f6b1d3__alignments.jsonl",
       "fallback_used": false,
-      "fallback_reason": "Named-entity succession drift remains after anchor-partitioned alignment: 15 issue(s) across the Qi-to-Tang chain.",
-      "expected_exact_alignment_count": 0,
-      "notes": "Retained as metadata-only until deterministic grouping is safe for this chapter and witness-quality gates pass.",
-      "alignment_anchor_map_used": false
+      "fallback_reason": null,
+      "expected_exact_alignment_count": 17,
+      "alignment_anchor_map_used": true,
+      "notes": "Batch-scoped Shiji proof-of-concept export from the benji pilot tranche. The English witness is gloss-enriched and normalized for translation-memory use; raw provenance remains preserved."
     }
   ],
   "romanization_aliases": [
@@ -333,11 +334,11 @@
   ],
   "ingestion_log": [
     {
-      "run_id": "shiji-bootstrap-active-1f6b1d3",
+      "run_id": "shiji-bootstrap-benji-1f6b1d3",
       "work_id": "shiji",
       "stage": "bootstrap",
       "status": "completed",
-      "notes": "Generated the Shiji active pilot manifest from ChineseNotes chapter files."
+      "notes": "Generated the Shiji benji pilot manifest from ChineseNotes chapter files."
     }
   ]
 }

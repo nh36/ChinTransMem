@@ -616,8 +616,10 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                             target_source_id=en_source_id,
                         )
                         preview_issues = find_anchor_drift_issues(preview_rows, list(anchor_map.get("anchors", [])))
+                        # Treat resolved_ambiguous_anchor as informational only; do not count it as a blocking drift.
+                        preview_issues_hard = [iss for iss in preview_issues if iss.get("issue") not in {"resolved_ambiguous_anchor"}]
                         entity_issues = _entity_drift_issues(preview_rows, list(anchor_map.get("anchors", [])))
-                        preview_issue_alignment_ids = _issue_alignment_ids([*preview_issues, *entity_issues])
+                        preview_issue_alignment_ids = _issue_alignment_ids([*preview_issues_hard, *entity_issues])
                         section_drift_issue_count_before_repair = len(preview_issue_alignment_ids)
                     if alignment is None or section_drift_issue_count_before_repair:
                         partitioned_chinese_blocks, partitioned_english_blocks = partition_block_texts_by_anchors(
@@ -648,8 +650,10 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                 )
                 if use_anchor_partition:
                     final_anchor_issues = find_anchor_drift_issues(final_preview_rows, list(anchor_map.get("anchors", [])))
+                    # Filter out informational resolved_ambiguous_anchor entries before counting remaining issues
+                    final_anchor_issues_hard = [iss for iss in final_anchor_issues if iss.get("issue") not in {"resolved_ambiguous_anchor"}]
                     final_entity_issues = _entity_drift_issues(final_preview_rows, list(anchor_map.get("anchors", [])))
-                    final_issue_alignment_ids = _issue_alignment_ids([*final_anchor_issues, *final_entity_issues])
+                    final_issue_alignment_ids = _issue_alignment_ids([*final_anchor_issues_hard, *final_entity_issues])
                     section_remaining_drift_issue_count = len(final_issue_alignment_ids)
                     section_repaired_drift_issue_count = max(
                         0,
