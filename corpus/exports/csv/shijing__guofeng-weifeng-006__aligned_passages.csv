@@ -1,13 +1,23 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-weifeng-006__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-weifeng-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·衛風·006.1,芄蘭之支，童子佩觿，雖則佩觿，能不我知，容兮遂兮，垂帶悸兮。,芄蘭.1,"There are the branches of the sparrow-gourd; -
 There is that lad, with the spike at his girdle.
 Though he carries a spike at his girdle,
 He does not know us.
 How easy and conceited is his manner,
-With the ends of his girdle hanging down as they do!"
+With the ends of his girdle hanging down as they do!","There are the branches of the sparrow-gourd; -
+There is that lad, with the spike at his girdle.
+Though he carries a spike at his girdle,
+He does not know us.
+How easy and conceited is his manner,
+With the ends of his girdle hanging down as they do!",[]
 shijing__guofeng-weifeng-006__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-weifeng-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·衛風·006.2,芄蘭之葉，童子佩韘，雖則佩韘，能不我甲，容兮遂兮，垂帶悸兮。,芄蘭.2,"There are the leaves of the sparrow-gourd; -
 There is that lad with the archer's thimble at his girdle.
 Though he carries an archer's thimble at his girdle,
 He is not superior to us.
 How easy and conceited is his manner,
-With the ends of his girdle hanging down as they do!"
+With the ends of his girdle hanging down as they do!","There are the leaves of the sparrow-gourd; -
+There is that lad with the archer's thimble at his girdle.
+Though he carries an archer's thimble at his girdle,
+He is not superior to us.
+How easy and conceited is his manner,
+With the ends of his girdle hanging down as they do!",[]

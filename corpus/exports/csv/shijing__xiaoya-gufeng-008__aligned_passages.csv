@@ -1,21 +1,37 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-gufeng-008__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-gufeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·谷風之什·008.1,鼓鍾將將，淮水湯湯。憂心且傷。淑人君子，懷允不忘。,鼓鍾.1,"His bells ring out jiang-jiang,
 While the waters of the Huai go sweeping on;
 Sad is my heart and wouded.
 The virtuous sovereigns of old, --
-In my heart, indeed, I cannot forget them."
+In my heart, indeed, I cannot forget them.","His bells ring out jiang-jiang,
+While the waters of the Huai go sweeping on;
+Sad is my heart and wouded.
+The virtuous sovereigns of old, --
+In my heart, indeed, I cannot forget them.",[]
 shijing__xiaoya-gufeng-008__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-gufeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·谷風之什·008.2,鼓鍾喈喈，淮水湝湝。憂心且悲。淑人君子，其德不回。,鼓鍾.2,"His drums ring out jie-jie,
 While the waters of the Huai rush along;
 My heart is sad and grieved.
 Of the virtuous sovereigns of old,
-The virtue was without flaw."
+The virtue was without flaw.","His drums ring out jie-jie,
+While the waters of the Huai rush along;
+My heart is sad and grieved.
+Of the virtuous sovereigns of old,
+The virtue was without flaw.",[]
 shijing__xiaoya-gufeng-008__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-gufeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·谷風之什·008.3,鼓鍾伐鼛，淮有三洲。憂心且妯。淑人君子，其德不猶。,鼓鍾.3,"His bells ring out, his large drums resound,
 There are the three islands in the Huai;
 Sad is my heart and moved.
 Of the virtuous sovereigns of old,
-The virtue was different from this."
+The virtue was different from this.","His bells ring out, his large drums resound,
+There are the three islands in the Huai;
+Sad is my heart and moved.
+Of the virtuous sovereigns of old,
+The virtue was different from this.",[]
 shijing__xiaoya-gufeng-008__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-gufeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·小雅·谷風之什·008.4,鼓鍾欽欽，鼓瑟鼓琴。笙磬同音。以雅以南，以籥不僭。,鼓鍾.4,"His bells ring out qin-qin;
 His lutes, large and small, give their notes;
 The tones of his organs and sounding stones are in unison.
 They sing the Ya and the Nan,
-Dancing to their flutes without error."
+Dancing to their flutes without error.","His bells ring out qin-qin;
+His lutes, large and small, give their notes;
+The tones of his organs and sounding stones are in unison.
+They sing the Ya and the Nan,
+Dancing to their flutes without error.",[]

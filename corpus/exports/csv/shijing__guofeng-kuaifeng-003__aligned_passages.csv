@@ -1,13 +1,22 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-kuaifeng-003__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-kuaifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·檜風·003.1,隰有萇楚，猗儺其枝。夭之沃沃，樂子之無知。,隰有萇楚.1,"In the low wet grounds is the carambola tree;
 Soft and pliant are its branches,
 With the glossiness of tender beauty.
-I should rejoice to be like you, 0 tree, without consciousness."
+I should rejoice to be like you, 0 tree, without consciousness.","In the low wet grounds is the carambola tree;
+Soft and pliant are its branches,
+With the glossiness of tender beauty.
+I should rejoice to be like you, 0 tree, without consciousness.",[]
 shijing__guofeng-kuaifeng-003__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-kuaifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·檜風·003.2,隰有萇楚，猗儺其華。夭之沃沃，樂子之無家。,隰有萇楚.2,"In the low, damp grounds is the carambola tree ;
 Soft and delicate are its flowers,
 With the glossiness of its tender beauty.
-I should rejoice to be like you, 0 tree, without a family."
+I should rejoice to be like you, 0 tree, without a family.","In the low, damp grounds is the carambola tree ;
+Soft and delicate are its flowers,
+With the glossiness of its tender beauty.
+I should rejoice to be like you, 0 tree, without a family.",[]
 shijing__guofeng-kuaifeng-003__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-kuaifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·檜風·003.3,隰有萇楚，猗儺其實。夭之沃沃，樂子之無室。,隰有萇楚.3,"In the low, damp grounds is the carambola tree ;
 Soft and delicate is its fruit,
 With the glossiness of its tender beauty.
-I should rejoice to be like you, 0 tree, without a household."
+I should rejoice to be like you, 0 tree, without a household.","In the low, damp grounds is the carambola tree ;
+Soft and delicate is its fruit,
+With the glossiness of its tender beauty.
+I should rejoice to be like you, 0 tree, without a household.",[]

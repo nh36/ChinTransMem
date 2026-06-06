@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-qingmiao-008__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-qingmiao-008,poem,poem,poem,True,Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.,1,1,exact_or_near_exact,0.95,1,詩經·頌·清廟之什·008.1,"時邁其邦，昊天其子之。
 實右序有周，薄言震之，莫不震疊。
 懷柔百神，及河喬嶽。允王維后。
@@ -21,4 +21,20 @@ He has called in shields and spears;
 He has returned to their cases bows and arrows.
 I will cultivate admirable virtue,
 And display it throughout these great regions.
-Truly will the king preserve the appointment."
+Truly will the king preserve the appointment.","Now is he making a progress through his states;
+May Heaven deal with him as its son!
+
+Truly are the honour and succession come from it to the House of Kâu.
+To his movements
+All respond with tremulous awe.
+He has attracted and given rest to all spiritual beings,
+Even to (the spirits of) the Ho and the highest hills.
+Truly is the king our sovereign lord.
+
+Brilliant and illustrious is the House of Kâu.
+He has regulated the positions of the princes;
+He has called in shields and spears;
+He has returned to their cases bows and arrows.
+I will cultivate admirable virtue,
+And display it throughout these great regions.
+Truly will the king preserve the appointment.",[]

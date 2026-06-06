@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-shangsong-004__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-shangsong-004,poem,poem,poem,True,Whole-poem fallback because the English witness merges 7 Chinese stanzas into 3 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·頌·商頌·004.1,"濬哲維商，長發其祥，洪水芒芒，禹敷下土方。
 外大國是疆，幅隕既長。有娀方將，帝立子生商。
 
@@ -34,4 +34,20 @@ Charged with a large state, he commanded success.
 He followed his rules of conduct without error;
 Wherever he inspected (the people), they responded (to his instructions).
 (Then came) Hsiang-thû all ardent,
-And all within the four seas, beyond (the middle regions), acknowledged his restraints."
+And all within the four seas, beyond (the middle regions), acknowledged his restraints.","Profoundly wise were (the lords of) Shang,
+And long had there appeared the omens (of their dignity).
+
+When the waters of the deluge spread vast abroad,
+Yü arranged and divided the regions of the land,
+And assigned to the exterior great states their boundaries,
+With their borders extending all over (the kingdom).
+(Even) then the chief of Sung was beginning to be great,
+And God raised up the son (of his daughter), and founded (the line of) Shang.
+
+The dark king exercised an effective sway.
+Charged with a small state, he commanded success;
+Charged with a large state, he commanded success.
+He followed his rules of conduct without error;
+Wherever he inspected (the people), they responded (to his instructions).
+(Then came) Hsiang-thû all ardent,
+And all within the four seas, beyond (the middle regions), acknowledged his restraints.",[]

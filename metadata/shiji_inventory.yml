@@ -15,7 +15,9 @@
       "source_file": "corpus/shiji/shiji001.txt",
       "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji001.txt",
       "status": "captured",
-      "english_witness": "Chinese Notes bilingual English witness"
+      "english_witness": "Chinese Notes bilingual English witness",
+      "export_status": "active",
+      "blocker_note": null
     },
     {
       "section_id": "shiji-002-annals-of-xia",
@@ -26,7 +28,9 @@
       "source_file": "corpus/shiji/shiji002.txt",
       "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji002.txt",
       "status": "captured",
-      "english_witness": "Chinese Notes bilingual English witness"
+      "english_witness": "Chinese Notes bilingual English witness",
+      "export_status": "metadata_only",
+      "blocker_note": "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: Alignment QC failed for shiji-002-annals-of-xia: group 36: target segment length/structure imbalance suggests missing grouping; group 41: target segment length/structure imbalance suggests missing grouping; group 57: target segment length/structure imbalance suggests missing grouping"
     },
     {
       "section_id": "shiji-003-annals-of-yin",
@@ -37,7 +41,9 @@
       "source_file": "corpus/shiji/shiji003.txt",
       "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji003.txt",
       "status": "captured",
-      "english_witness": "Chinese Notes bilingual English witness"
+      "english_witness": "Chinese Notes bilingual English witness",
+      "export_status": "metadata_only",
+      "blocker_note": "Named-entity succession drift remains after anchor-partitioned alignment: 15 issue(s) across the Qi-to-Tang chain."
     }
   ]
 }

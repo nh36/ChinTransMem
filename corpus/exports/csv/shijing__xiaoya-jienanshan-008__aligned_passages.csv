@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-jienanshan-008__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·節南山之什·008.1,"悠悠昊天，曰父母且。無罪無辜，亂如此幠。
 昊天已威，予慎無罪。昊天大幠，予慎無辜。",巧言.1,"O vast and distant Heaven,
 Who art called our parent,
@@ -7,4 +7,11 @@ I should suffer from disorders thus great!
 The terrors of great Heaven are excessive,
 But indeed I have committed no crime.
 (The terrors of) great Heaven are very excessive,
-But indeed I have committed no offence."
+But indeed I have committed no offence.","O vast and distant Heaven,
+Who art called our parent,
+That, without crime or offence,
+I should suffer from disorders thus great!
+The terrors of great Heaven are excessive,
+But indeed I have committed no crime.
+(The terrors of) great Heaven are very excessive,
+But indeed I have committed no offence.",[]

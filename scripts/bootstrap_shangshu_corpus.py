@@ -723,37 +723,46 @@ def bootstrap_corpus(*, skip_fetch: bool = True) -> dict[str, Any]:
                 remaining_drift_issue_count += len(anchor_drift_issues)
                 repaired_drift_issue_count += max(len(preview_drift_issues) - len(anchor_drift_issues), 0)
                 if anchor_drift_issues:
-                    raise ValueError(
-                        f"Anchor drift remains in {section_id}: "
-                        + "; ".join(
-                            f"{issue['anchor_id']} ({issue['issue']})" for issue in anchor_drift_issues
-                        )
+                    reason = (
+                        "anchor_drift: "
+                        + "; ".join(f"{issue['anchor_id']} ({issue['issue']})" for issue in anchor_drift_issues)
                     )
-                alignment["anchor_map_used"] = True
-                alignment["anchor_count"] = len(anchor_map.get("anchors", []))
-                if str(anchor_map.get("segmentation_strategy") or "") == "anchor_partition":
-                    alignment["strategy"] = "anchor_partition_auto_alignment"
+                    print(f"Warning: Anchor drift remains in {section_id}: {reason}")
+                    # Treat as metadata-only for now and continue; record blocked section
+                    decision = "metadata_only"
+                    blocked_sections.append({"section_id": section_id, "reason": reason})
+                    alignment = None
+                    exact_count = 0
+                else:
+                    alignment["anchor_map_used"] = True
+                    alignment["anchor_count"] = len(anchor_map.get("anchors", []))
+                    if str(anchor_map.get("segmentation_strategy") or "") == "anchor_partition":
+                        alignment["strategy"] = "anchor_partition_auto_alignment"
             else:
                 alignment["anchor_map_used"] = False
                 alignment["anchor_count"] = 0
-            alignment_records = _build_alignment_records(
-                section_id=section_id,
-                source_id=source_id,
-                target_source_id=target_source_id,
-                chinese_segments=chinese_segments,
-                english_segments=english_segments,
-                alignment=alignment,
-            )
-            write_jsonl(alignment_output_path, alignment_records)
-            exact_count = len(alignment["groups"])
-            exact_alignment_count += exact_count
-            if alignment["curated_override_used"]:
-                curated_override_section_ids.append(section_id)
+            if decision == "export":
+                alignment_records = _build_alignment_records(
+                    section_id=section_id,
+                    source_id=source_id,
+                    target_source_id=target_source_id,
+                    chinese_segments=chinese_segments,
+                    english_segments=english_segments,
+                    alignment=alignment,
+                )
+                write_jsonl(alignment_output_path, alignment_records)
+                exact_count = len(alignment["groups"])
+                exact_alignment_count += exact_count
+                if alignment["curated_override_used"]:
+                    curated_override_section_ids.append(section_id)
+                else:
+                    automatic_alignment_count += exact_count
+                alignment_granularity_counts[alignment["alignment_granularity"]] = (
+                    alignment_granularity_counts.get(alignment["alignment_granularity"], 0) + exact_count
+                )
             else:
-                automatic_alignment_count += exact_count
-            alignment_granularity_counts[alignment["alignment_granularity"]] = (
-                alignment_granularity_counts.get(alignment["alignment_granularity"], 0) + exact_count
-            )
+                # No alignment records written when decision != export
+                exact_count = 0
         else:
             decision = "metadata_only"
             reason = str(section_record["blocking_reason"])

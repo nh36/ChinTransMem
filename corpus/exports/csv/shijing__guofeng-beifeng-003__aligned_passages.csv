@@ -1,25 +1,45 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-beifeng-003__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·邶風·003.1,燕燕于飛，差池其羽，之子于歸，遠送于野，瞻望弗及，泣涕如雨。,燕燕.1,"The swallows go flying about,
 With their wings unevenly displayed.
 The lady was returning to her native state,
 And I escorted her far into the country.
 I looked till I could no longer see her,
-And my tears fell down like rain."
+And my tears fell down like rain.","The swallows go flying about,
+With their wings unevenly displayed.
+The lady was returning to her native state,
+And I escorted her far into the country.
+I looked till I could no longer see her,
+And my tears fell down like rain.",[]
 shijing__guofeng-beifeng-003__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·邶風·003.2,燕燕于飛，頡之頏之，之子于歸，遠于將之，瞻望弗及，佇立以泣。,燕燕.2,"The swallows go flying about,
 Now up, now down.
 The lady was returning to her native state,
 And far did I accompany her.
 I looked till I could no longer see her,
-And long I stood and wept."
+And long I stood and wept.","The swallows go flying about,
+Now up, now down.
+The lady was returning to her native state,
+And far did I accompany her.
+I looked till I could no longer see her,
+And long I stood and wept.",[]
 shijing__guofeng-beifeng-003__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·邶風·003.3,燕燕于飛，下上其音，之子于歸，遠送于南，瞻望弗及，實勞我心。,燕燕.3,"The swallows go flying about;
 From below, from above, comes their twittering.
 The lady was returning to her native state,
 And far did I escort her to the south.
 I looked till I could no longer see her,
-And great was the grief of my heart."
+And great was the grief of my heart.","The swallows go flying about;
+From below, from above, comes their twittering.
+The lady was returning to her native state,
+And far did I escort her to the south.
+I looked till I could no longer see her,
+And great was the grief of my heart.",[]
 shijing__guofeng-beifeng-003__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·國風·邶風·003.4,仲氏任只，其心塞淵，終溫且惠，淑慎其身，先君之思，以勗寡人。,燕燕.4,"Lovingly confiding was the lady Chung;
 Truly deep was her feeling.
 Both gentle was she and docile,
 Virtuously careful of her person.
 In thinking of our deceased lord,
-She stimulated worthless me."
+She stimulated worthless me.","Lovingly confiding was the lady Chung;
+Truly deep was her feeling.
+Both gentle was she and docile,
+Virtuously careful of her person.
+In thinking of our deceased lord,
+She stimulated worthless me.",[]

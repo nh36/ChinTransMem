@@ -1,25 +1,45 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-nanyoujiayu-013__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-nanyoujiayu-013,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·南有嘉魚之什·013.1,吉日維戊，既伯既禱。田車既好，四牡孔阜。升彼大阜，從其羣醜。,吉日.1,"A lucky day was wu,
 And we sacrificed on it to the Ruler of horses, and prayed.
 Our hunting carriages were good;
 The team for each was in fine condition.
 We would ascend the greatest heights,
-And pursue the herds of the game."
+And pursue the herds of the game.","A lucky day was wu,
+And we sacrificed on it to the Ruler of horses, and prayed.
+Our hunting carriages were good;
+The team for each was in fine condition.
+We would ascend the greatest heights,
+And pursue the herds of the game.",[]
 shijing__xiaoya-nanyoujiayu-013__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-nanyoujiayu-013,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·南有嘉魚之什·013.2,吉日庚午，既差我馬。獸之所同，麀鹿麌麌。漆沮之從，天子之所。,吉日.2,"A lucky day was geng-wu.
 We had selected our horses;
 The haunts of the animals,
 Where the does and stags lay numerous,
 The grounds by the Qi and the Ju, --
-That was the place for the son of Heaven to hunt."
+That was the place for the son of Heaven to hunt.","A lucky day was geng-wu.
+We had selected our horses;
+The haunts of the animals,
+Where the does and stags lay numerous,
+The grounds by the Qi and the Ju, --
+That was the place for the son of Heaven to hunt.",[]
 shijing__xiaoya-nanyoujiayu-013__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-nanyoujiayu-013,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·南有嘉魚之什·013.3,瞻彼中原，其祁孔有。儦儦俟俟，或羣或友。悉率左右，以燕天子。,吉日.3,"We looked to the midst of the plain,
 Where the animals were large and abundant,
 Now rushing about, now waiting together,
 Here in threes, there in twos.
 We led on all our attendants,
-To give pleasure to the son of Heaven."
+To give pleasure to the son of Heaven.","We looked to the midst of the plain,
+Where the animals were large and abundant,
+Now rushing about, now waiting together,
+Here in threes, there in twos.
+We led on all our attendants,
+To give pleasure to the son of Heaven.",[]
 shijing__xiaoya-nanyoujiayu-013__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-nanyoujiayu-013,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·小雅·南有嘉魚之什·013.4,既張我弓，既挾我矢。發彼小豝，殪此大兕。以御賓客，且以酌醴。,吉日.4,"We have bent our bows;
 We have our arrows on the string.
 Here is a small boar transfixed;
 There is a large rhinoceros killed.
 The spoil will be presented to the visitors and guests,
-Along with the cup of sweet wine."
+Along with the cup of sweet wine.","We have bent our bows;
+We have our arrows on the string.
+Here is a small boar transfixed;
+There is a large rhinoceros killed.
+The spoil will be presented to the visitors and guests,
+Along with the cup of sweet wine.",[]

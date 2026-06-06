@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-hongyan-001__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-001,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·小雅·鴻鴈之什·001.1,"鴻鴈于飛，肅肅其羽。之子于征，劬勞于野。爰及矜人，哀此鰥寡。
 鴻鴈于飛，集于中澤。之子于垣，百堵皆作。雖則劬勞，其究安宅。
 鴻鴈于飛，哀鳴嗸嗸。維此哲人，謂我劬勞。維彼愚人，謂我宣驕。",鴻鴈.1,"The wild geese are flying about;
@@ -20,4 +20,23 @@ And melancholy is their cry of gaou-gaou.
 There were they, wise men,
 Who recognized our pain and toil;
 If they had been stupid men,
-They would have said we were proclaiming our insolence."
+They would have said we were proclaiming our insolence.","The wild geese are flying about;
+Suh-suh goes the rustle of their wings.
+There were those officers engaged on the commission.
+Pained were we and toiled in the open fields;
+All were objects of pity,
+But alas for those wifeless and widows!
+
+The wild geese are flying about,
+And they settle in the midst of the marsh.
+There were those officers directing the rearing of the walls; —
+Five thousand cubits of them arose at once.
+Though there was pain and toil,
+In the end we had rest in our dwellings.
+
+The wild geese are flying about,
+And melancholy is their cry of gaou-gaou.
+There were they, wise men,
+Who recognized our pain and toil;
+If they had been stupid men,
+They would have said we were proclaiming our insolence.",[]

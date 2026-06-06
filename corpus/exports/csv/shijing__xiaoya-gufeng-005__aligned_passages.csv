@@ -1,31 +1,55 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-gufeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-gufeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·谷風之什·005.1,陟彼北山，言采其杞。偕偕士子，朝夕從事。王事靡盬，憂我父母。,北山.1,"I ascend that northern hill,
 And gather the medlars.
 An officer, strong and vigorous,
 Morning and evening I am engaged in service.
 The king's business is not to be slackly performed;
-And my parents are left in sorrow."
+And my parents are left in sorrow.","I ascend that northern hill,
+And gather the medlars.
+An officer, strong and vigorous,
+Morning and evening I am engaged in service.
+The king's business is not to be slackly performed;
+And my parents are left in sorrow.",[]
 shijing__xiaoya-gufeng-005__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-gufeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·谷風之什·005.2,溥天之下，莫非王土。率土之濱，莫非王臣。大夫不均，我從事獨賢。,北山.2,"Under the wide heaven,
 All is the king's land.
 Within the sea-boundaries of the land,
 All are the king's servants.
 His great officers are unfair, --
-Making me serve thus as if I alone were worthy."
+Making me serve thus as if I alone were worthy.","Under the wide heaven,
+All is the king's land.
+Within the sea-boundaries of the land,
+All are the king's servants.
+His great officers are unfair, --
+Making me serve thus as if I alone were worthy.",[]
 shijing__xiaoya-gufeng-005__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-gufeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·谷風之什·005.3,四牡彭彭，王事傍傍。嘉我未老，鮮我方將。旅力方剛，經營四方。,北山.3,"My four horses never halt;
 The king's business allows no rest.
 They praise me as not yet old;
 They think few like me in vigour.
 While the backbone retains its strength,
-I must plan and labour in all parts of the kingdom."
+I must plan and labour in all parts of the kingdom.","My four horses never halt;
+The king's business allows no rest.
+They praise me as not yet old;
+They think few like me in vigour.
+While the backbone retains its strength,
+I must plan and labour in all parts of the kingdom.",[]
 shijing__xiaoya-gufeng-005__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-gufeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·小雅·谷風之什·005.4,或燕燕居息，或盡瘁事國；或息偃在牀，或不已于行。,北山.4,"Some enjoy their ease and rest,
 And some are worn out in the service of the State;
 Some rest and loll upon their couches,
-And some never cease marching about."
+And some never cease marching about.","Some enjoy their ease and rest,
+And some are worn out in the service of the State;
+Some rest and loll upon their couches,
+And some never cease marching about.",[]
 shijing__xiaoya-gufeng-005__005__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-gufeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,5,詩經·小雅·谷風之什·005.5,或不知叫號，或慘慘劬勞；或棲遲偃仰，或王事鞅掌。,北山.5,"Some never hear a sound,
 And some are cruelly toiled;
 Some lazily roost, on their backs looking up,
-And some are all-bustled in the service of the king."
+And some are all-bustled in the service of the king.","Some never hear a sound,
+And some are cruelly toiled;
+Some lazily roost, on their backs looking up,
+And some are all-bustled in the service of the king.",[]
 shijing__xiaoya-gufeng-005__006__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-gufeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,6,詩經·小雅·谷風之什·005.6,或湛樂飲酒，或慘慘畏咎；或出入風議，或靡事不為。,北山.6,"Some indulge long in pleasure and drinking,
 And some are miserable, in apprehension of blame;
 Some, at home and abroad, pass critical remarks,
-And some have everything to do."
+And some have everything to do.","Some indulge long in pleasure and drinking,
+And some are miserable, in apprehension of blame;
+Some, at home and abroad, pass critical remarks,
+And some have everything to do.",[]

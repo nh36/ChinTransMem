@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-futian-002__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-futian-002,poem,poem,poem,True,Whole-poem fallback because the English witness merges 4 Chinese stanzas into 2 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·甫田之什·002.1,"大田多稼，既種既戒。既備乃事，以我覃耜。
 俶載南畝，播厥百穀。既庭且碩，曾孫是若。
 
@@ -26,4 +26,20 @@ We remove the insects that eat the heart and the leaf,
 And those that eat the roots and the joints,
 So that they shall not hurt the young plants of our fields.
 May the spirit, the Father of Husbandry,
-Lay hold of them, and put them in the blazing fire!"
+Lay hold of them, and put them in the blazing fire!","Large are the fields, and various is the work to be done.
+Having selected the seed, and looked after the implements,
+So that all preparations have been made for our labour,
+We take our sharp plough-shares,
+And commence on the south-lying acres.
+We sow all the kinds of grain,
+Which grow up straight and large,
+So that the wish of the distant descendant is satisfied.
+
+It ears and the fruit lies soft in its sheath;
+It hardens and is of good quality;
+There is no wolf's-tail grass nor darnel.
+We remove the insects that eat the heart and the leaf,
+And those that eat the roots and the joints,
+So that they shall not hurt the young plants of our fields.
+May the spirit, the Father of Husbandry,
+Lay hold of them, and put them in the blazing fire!",[]

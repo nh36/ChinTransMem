@@ -1,25 +1,45 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-beifeng-014__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-014,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·邶風·014.1,毖彼泉水，亦流于淇，有懷于衞，靡日不思，孌彼諸姬，聊與之謀。,泉水.1,"How the water bubbles up from that spring,
 And flows away to the K'e!
 My heart is in Wei;
 There is not a day I do not think of it.
 Admirable are those, my cousins;
-I will take counsel with them."
+I will take counsel with them.","How the water bubbles up from that spring,
+And flows away to the K'e!
+My heart is in Wei;
+There is not a day I do not think of it.
+Admirable are those, my cousins;
+I will take counsel with them.",[]
 shijing__guofeng-beifeng-014__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-014,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·邶風·014.2,出宿于泲，飲餞于禰，女子有行，遠父母兄弟，問我諸姑，遂及伯姊。,泉水.2,"When I came forth, I lodged in Tse,
 And we drank the cup of convoy at Ne.
 When a young lady goes to be married,
 She leaves her parents and brothers;
 [But] I would ask for my aunts,
-And then for my elder sister."
+And then for my elder sister.","When I came forth, I lodged in Tse,
+And we drank the cup of convoy at Ne.
+When a young lady goes to be married,
+She leaves her parents and brothers;
+[But] I would ask for my aunts,
+And then for my elder sister.",[]
 shijing__guofeng-beifeng-014__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-014,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·邶風·014.3,出宿于干，飲餞于言，載脂載舝，還車言邁，遄臻于衞，不瑕有害。,泉水.3,"I will go forth and lodge in Kan,
 And we will drink the cup of convoy at Yen.
 I will grease the axle and fix the pin,
 And the returning chariot will proceed.
 Quickly shall we arrive in Wei; —
-But would not this be wrong?"
+But would not this be wrong?","I will go forth and lodge in Kan,
+And we will drink the cup of convoy at Yen.
+I will grease the axle and fix the pin,
+And the returning chariot will proceed.
+Quickly shall we arrive in Wei; —
+But would not this be wrong?",[]
 shijing__guofeng-beifeng-014__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-beifeng-014,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·國風·邶風·014.4,我思肥泉，茲之永歎，思須與漕，我心悠悠，駕言出遊，以寫我憂。,泉水.4,"I think of the Fei-ts'euen,
 I am ever sighing about it.
 I think of Seu and Ts'aou,
 Long, long, my heart dwells with them.
 Let me drive forth and travel there,
-To dissipate my sorrow."
+To dissipate my sorrow.","I think of the Fei-ts'euen,
+I am ever sighing about it.
+I think of Seu and Ts'aou,
+Long, long, my heart dwells with them.
+Let me drive forth and travel there,
+To dissipate my sorrow.",[]

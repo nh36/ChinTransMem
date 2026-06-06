@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-weifeng-010__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-010,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·衛風·010.1,"|title =詩經
 |section =國風‧衞‧木瓜
 |previous =有狐
@@ -26,4 +26,17 @@ But that our friendship might be lasting.
 There was presented to me a plum,
 And I returned for it a beautiful Jiu-gem;
 Not as a return for it,
-But that our friendship might be lasting."
+But that our friendship might be lasting.","There was presented to me a papaya,
+And I returned for it a beautiful Ju-gem;
+Not as a return for it,
+But that our friendship might be lasting.
+
+There was presented to me a peach,
+And I returned for it a beautiful Yao-gem;
+Not as a return for it,
+But that our friendship might be lasting.
+
+There was presented to me a plum,
+And I returned for it a beautiful Jiu-gem;
+Not as a return for it,
+But that our friendship might be lasting.",[]

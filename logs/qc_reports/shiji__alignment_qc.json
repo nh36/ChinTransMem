@@ -2,35 +2,42 @@
   "summary": {
     "work_state": "proof_of_concept_active",
     "total_section_count": 3,
-    "active_section_count": 2,
-    "exportable_section_count": 2,
-    "english_witness": "ChineseNotes-hosted bilingual English witness (translator attribution unresolved)",
-    "exact_alignment_count": 46,
-    "automatic_alignment_count": 46,
-    "alignment_record_count": 48,
+    "active_section_count": 1,
+    "exportable_section_count": 1,
+    "english_witness": "ChineseNotes-hosted bilingual English witness (translator attribution unresolved; gloss-enriched source normalized for active TM exports)",
+    "exact_alignment_count": 29,
+    "automatic_alignment_count": 29,
+    "alignment_record_count": 30,
     "curated_override_section_count": 0,
     "fallback_section_count": 0,
-    "blocked_section_count": 1,
+    "blocked_section_count": 2,
     "hard_failure_count": 0,
-    "drift_checks_run": 17,
-    "drift_issue_count_before_repair": 9,
-    "repaired_drift_issue_count": 9,
+    "drift_checks_run": 0,
+    "drift_issue_count_before_repair": 0,
+    "repaired_drift_issue_count": 0,
     "remaining_drift_issue_count": 0,
     "entity_sequence_validation_passed": true,
     "anchor_mapped_section_count": 1,
     "anchor_mapped_sections": [
       "shiji-003-annals-of-yin"
     ],
+    "pre_repair_witness_quality_issue_count": 88,
+    "repaired_witness_quality_issue_count": 88,
+    "remaining_witness_quality_issue_count": 0,
+    "pre_repair_name_gloss_issue_count": 85,
+    "remaining_name_gloss_issue_count": 0,
+    "witness_gloss_handling": "stripped_from_translation_text_raw_preserved",
+    "witness_quality_validation_passed": true,
     "pre_repair_corruption_issue_count": 0,
     "corrected_corruption_issue_count": 0,
-    "automatic_correction_count": 0,
+    "automatic_correction_count": 89,
     "curated_correction_count": 0,
     "remaining_corruption_issue_count": 0,
     "pre_repair_leakage_issue_count": 0,
     "repaired_leakage_issue_count": 0,
     "remaining_leakage_issue_count": 0,
     "alignment_granularity_counts": {
-      "block": 46
+      "block": 29
     }
   },
   "fallback_sections": [],
@@ -42,6 +49,10 @@
     {
       "section_id": "shiji-002-annals-of-xia",
       "reason": "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: Alignment QC failed for shiji-002-annals-of-xia: group 36: target segment length/structure imbalance suggests missing grouping; group 41: target segment length/structure imbalance suggests missing grouping; group 57: target segment length/structure imbalance suggests missing grouping"
+    },
+    {
+      "section_id": "shiji-003-annals-of-yin",
+      "reason": "Named-entity succession drift remains after anchor-partitioned alignment: 15 issue(s) across the Qi-to-Tang chain."
     }
   ],
   "sections": [
@@ -53,16 +64,6 @@
       "alignment_mode": "deterministic",
       "alignment_granularity": "block",
       "exact_alignment_count": 29,
-      "fallback_reason": null
-    },
-    {
-      "section_id": "shiji-003-annals-of-yin",
-      "title_zh": "《殷本紀》",
-      "title_en": "Annals of Yin",
-      "export_status": "active",
-      "alignment_mode": "deterministic",
-      "alignment_granularity": "block",
-      "exact_alignment_count": 17,
       "fallback_reason": null
     }
   ]

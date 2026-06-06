@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__daya-shengmin-005__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-shengmin-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·大雅·生民之什·005.1,"假樂君子，顯顯令德。宜民宜人，受祿于天。保右命之，自天申之。
 干祿百福，子孫千億。穆穆皇皇，宜君宜王。不愆不忘，率由舊章。
 威儀抑抑，德音秩秩。無怨無惡，率由羣匹。受福無疆，四方之綱。
@@ -7,4 +7,9 @@ Most illustrious is the excellent virtue.
 He orders rightly the people, orders rightly the officers,
 And receives his dignity from Heaven,
 Which protects and helps him, and (confirms) his appointment,
-By repeated acts of renewal from heaven."
+By repeated acts of renewal from heaven.","Of our admirable, amiable sovereign
+Most illustrious is the excellent virtue.
+He orders rightly the people, orders rightly the officers,
+And receives his dignity from Heaven,
+Which protects and helps him, and (confirms) his appointment,
+By repeated acts of renewal from heaven.",[]

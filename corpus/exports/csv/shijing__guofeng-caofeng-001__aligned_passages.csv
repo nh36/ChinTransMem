@@ -1,11 +1,18 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-caofeng-001__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-caofeng-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·曹風·001.1,蜉蝣之羽，衣裳楚楚。心之憂矣，於我歸處。,蜉蝣.1,"The wings of the ephemera
 Are robes, bright and splendid.
-Would they but come and abide with me!"
+Would they but come and abide with me!","The wings of the ephemera
+Are robes, bright and splendid.
+Would they but come and abide with me!",[]
 shijing__guofeng-caofeng-001__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-caofeng-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·曹風·001.2,蜉蝣之翼，采采衣服。心之憂矣，於我歸息。,蜉蝣.2,"The wings of the ephemera
 Are robes, variously adorned.
-Would they but come and rest with me!"
+Would they but come and rest with me!","The wings of the ephemera
+Are robes, variously adorned.
+Would they but come and rest with me!",[]
 shijing__guofeng-caofeng-001__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-caofeng-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·曹風·001.3,蜉蝣掘閱，麻衣如雪。心之憂矣，於我歸說。,蜉蝣.3,"The ephemera bursts from its hole,
 With a robe of hemp like snow.
 My heart is grieved; —
-Would they but come and lodge with me!"
+Would they but come and lodge with me!","The ephemera bursts from its hole,
+With a robe of hemp like snow.
+My heart is grieved; —
+Would they but come and lodge with me!",[]

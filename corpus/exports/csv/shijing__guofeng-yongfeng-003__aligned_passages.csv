@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-yongfeng-003__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-yongfeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄘風·003.1,"君子偕老，副笄六珈，委委佗佗，如山如河，象服是宜，子之不淑，云如之何。
 玼兮玼兮，其之翟也，鬒髮如雲，不屑髢也，玉之瑱也，象之揥也，揚且之晳也，胡然而天也，胡然而帝也。
 瑳兮瑳兮，其之展也，蒙彼縐絺，是紲袢也，子之清揚，揚且之顏也，展如之人兮，邦之媛也。",君子偕老.1,"How rich and splendid
@@ -10,4 +10,13 @@ There are her earplugs of jade,
 Her comb-pin of ivory,
 And her high forehead, so white.
 She appears like a visitant from heaven!
-She appears like a goddess."
+She appears like a goddess.","How rich and splendid
+Is her pheasant-figured
+​robe!
+Her black hair in masses like clouds,
+No false locks does she descend to.
+There are her earplugs of jade,
+Her comb-pin of ivory,
+And her high forehead, so white.
+She appears like a visitant from heaven!
+She appears like a goddess.",[]

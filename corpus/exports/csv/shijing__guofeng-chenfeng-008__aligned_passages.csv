@@ -1,13 +1,22 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-chenfeng-008__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·陳風·008.1,月出皎兮，佼人僚兮，舒窈糾兮，勞心悄兮。,月出.1,"The moon comes forth in her brightness;
 How lovely is that beautiful lady!
 O to have my deep longings for her relieved!
-How anxious is my toiled heart!"
+How anxious is my toiled heart!","The moon comes forth in her brightness;
+How lovely is that beautiful lady!
+O to have my deep longings for her relieved!
+How anxious is my toiled heart!",[]
 shijing__guofeng-chenfeng-008__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·陳風·008.2,月出皓兮，佼人懰兮，舒懮受兮，勞心慅兮。,月出.2,"The moon comes forth in her splendour;
 How attractive is that beautiful lady!
 O to have my anxieties about her relieved!
-How agitated is my toiled heart!"
+How agitated is my toiled heart!","The moon comes forth in her splendour;
+How attractive is that beautiful lady!
+O to have my anxieties about her relieved!
+How agitated is my toiled heart!",[]
 shijing__guofeng-chenfeng-008__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·陳風·008.3,月出照兮，佼人燎兮，舒夭紹兮，勞心慘兮。,月出.3,"The moon comes forth and shines;
 How brilliant is that beautiful lady!
 O to have the chains of my mind relaxed!
-How miserable is my toiled heart!"
+How miserable is my toiled heart!","The moon comes forth and shines;
+How brilliant is that beautiful lady!
+O to have the chains of my mind relaxed!
+How miserable is my toiled heart!",[]

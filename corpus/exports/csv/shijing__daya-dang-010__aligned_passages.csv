@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__daya-dang-010__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-dang-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·大雅·蕩之什·010.1,"瞻卬昊天，則不我惠。孔填不寧，降此大厲。
 邦靡有定，士民其瘵。
 蟊賊蟊疾，靡有夷屆。罪罟不收，靡有夷瘳。",瞻卬.1,"I look up to great Heaven,
@@ -10,7 +10,16 @@ Officers and people are in distress.
 Through the insects from without and from within,
 There is no peace or limit (to our misery).
 The net of crime is not taken up,
-And there is no peace nor cure (for our state)."
+And there is no peace nor cure (for our state).","I look up to great Heaven,
+But it shows us no kindness.
+Very long have we been disquieted,
+And these great calamities are sent down (upon us).
+There is nothing settled in the country;
+Officers and people are in distress.
+Through the insects from without and from within,
+There is no peace or limit (to our misery).
+The net of crime is not taken up,
+And there is no peace nor cure (for our state).",[]
 shijing__daya-dang-010__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-dang-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·大雅·蕩之什·010.2,"天何以刺？何神不富？舍爾介狄，維予胥忌。
 不弔不祥，威儀不類。人之云亡，邦國殄瘁。",瞻卬.2,"Why is it that Heaven is (thus) reproving (you)?
 Why is it that Heaven is not blessing (you)?
@@ -19,7 +28,14 @@ And regard me with hatred.
 You are regardless of the evil omens (that abound),
 And your demeanour is all unseemly.
 (Good) men are going away,
-And the country is sure to go to ruin."
+And the country is sure to go to ruin.","Why is it that Heaven is (thus) reproving (you)?
+Why is it that Heaven is not blessing (you)?
+You neglect your great barbarian (foes),
+And regard me with hatred.
+You are regardless of the evil omens (that abound),
+And your demeanour is all unseemly.
+(Good) men are going away,
+And the country is sure to go to ruin.",[]
 shijing__daya-dang-010__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-dang-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·大雅·蕩之什·010.3,"天之降罔，維其優矣。人之云亡，心之憂矣。
 天之降罔，維其幾矣。人之云亡，心之悲矣。",瞻卬.3,"Heaven is letting down its net,
 And many (are the calamities in it).
@@ -29,7 +45,15 @@ Heaven is letting down
 ​its net,
 And soon (all will be caught in it).
 (Good) men are going away,
-And my heart is sad."
+And my heart is sad.","Heaven is letting down its net,
+And many (are the calamities in it).
+(Good) men are going away,
+And my heart is sorrowful.
+Heaven is letting down
+​its net,
+And soon (all will be caught in it).
+(Good) men are going away,
+And my heart is sad.",[]
 shijing__daya-dang-010__004__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-dang-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·大雅·蕩之什·010.4,"觱沸檻泉，維其深矣。心之憂矣，寧自今矣。
 不自我先，不自我後。藐藐昊天，無不克鞏。
 無忝皇祖，式救爾後。",瞻卬.4,"Right from the spring comes the water bubbling,
@@ -43,4 +67,15 @@ But mysteriously great Heaven
 Is able to strengthen anything.
 Do not disgrace your great ancestors:—
 This
-will save your posterity."
+will save your posterity.","Right from the spring comes the water bubbling,
+Revealing its depth.
+The sorrow of my heart,—
+Is
+it (only) of to-day?
+Why were these things not before me?
+Or why were they not after me?
+But mysteriously great Heaven
+Is able to strengthen anything.
+Do not disgrace your great ancestors:—
+This
+will save your posterity.",[]

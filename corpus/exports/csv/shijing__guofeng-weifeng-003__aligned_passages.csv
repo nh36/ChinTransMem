@@ -1,11 +1,17 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-weifeng-003__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·衛風·003.1,碩人其頎，衣錦褧衣，齊侯之子，衛侯之妻，東宮之妹，邢侯之姨，譚公維私。,碩人.1,"Large was she and tall,
 In her embroidered robe, with a single garment over it: —
 The daughter of the marquis of Ts'e,
 The wife of the marquis of Wei,
 The sister of the heir-son of Ts'e,
 The sister-in-law of the marquis of Hing,
-The viscount of Tan also her brother-in-law."
+The viscount of Tan also her brother-in-law.","Large was she and tall,
+In her embroidered robe, with a single garment over it: —
+The daughter of the marquis of Ts'e,
+The wife of the marquis of Wei,
+The sister of the heir-son of Ts'e,
+The sister-in-law of the marquis of Hing,
+The viscount of Tan also her brother-in-law.",[]
 shijing__guofeng-weifeng-003__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·衛風·003.2,手如柔荑，膚如凝脂，領如蝤蠐，齒如瓠犀，螓首蛾眉，巧笑倩兮，美目盻兮。,碩人.2,"Her fingers were like the blades of the young white-grass;
 Her skin was like congealed ointment;
 Her neck was like the tree-grub;
@@ -13,7 +19,14 @@ Her teeth were like melon seeds;
 Her forehead cicada-like; her eyebrows like the silkworm moth;
 What dimples, as she artfully smiled!
 How beautiful were her clear black eyes!
-O beautiful woman, so large and tall!"
+O beautiful woman, so large and tall!","Her fingers were like the blades of the young white-grass;
+Her skin was like congealed ointment;
+Her neck was like the tree-grub;
+Her teeth were like melon seeds;
+Her forehead cicada-like; her eyebrows like the silkworm moth;
+What dimples, as she artfully smiled!
+How beautiful were her clear black eyes!
+O beautiful woman, so large and tall!",[]
 shijing__guofeng-weifeng-003__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·衛風·003.3,碩人敖敖，說于農郊，四牡有驕，朱幩鑣鑣，翟茀以朝，大夫夙退，無使君勞。,碩人.3,"Large was she and tall,
 When she halted in the cultivated suburbs.
 Strong looked her four horses,
@@ -21,11 +34,24 @@ With the red ornaments so rich about their bits.
 Thus in her carriage, with its screens of pheasant feathers,
 she proceeded to our court.
 Early retire, ye great officers,
-And do not make the marquis fatigued!"
+And do not make the marquis fatigued!","Large was she and tall,
+When she halted in the cultivated suburbs.
+Strong looked her four horses,
+With the red ornaments so rich about their bits.
+Thus in her carriage, with its screens of pheasant feathers,
+she proceeded to our court.
+Early retire, ye great officers,
+And do not make the marquis fatigued!",[]
 shijing__guofeng-weifeng-003__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·國風·衛風·003.4,河水洋洋，北流活活，施罛濊濊，鱣鮪發發，葭菼揭揭，庶姜孽孽，庶士有朅。,碩人.4,"The waters of the Ho, wide and deep,
 Flow northwards in majestic course.
 The nets are dropt into them with a plashing sound,
 Among shoals of sturgeon, large and small,
 While the rushes and sedges are rank about.
 Splendidly adorned were her sister ladies;
-Martial looked the attendant officers."
+Martial looked the attendant officers.","The waters of the Ho, wide and deep,
+Flow northwards in majestic course.
+The nets are dropt into them with a plashing sound,
+Among shoals of sturgeon, large and small,
+While the rushes and sedges are rank about.
+Splendidly adorned were her sister ladies;
+Martial looked the attendant officers.",[]

@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-beifeng-004__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-beifeng-004,poem,poem,poem,True,Whole-poem fallback because the English witness expands 1 Chinese stanzas into 3 English blocks that cannot be matched safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·邶風·004.1,"日居月諸，照臨下土，乃如之人兮，逝不古處，胡能有定，寧不我顧。
 日居月諸，下土是冒，乃如之人兮，逝不相好，胡能有定，寧不我報。
 日居月諸，出自東方，乃如之人兮，德音無良，胡能有定，俾也可忘。
@@ -21,4 +21,23 @@ Which come forth from the east!
 Here is this man,
 With virtuous words, but really not good.
 How can he get his mind settled?
-Would he then allow me to be forgotten?"
+Would he then allow me to be forgotten?","O sun, O moon,
+Which enlighten this lower earth!
+Here is this man,
+Who treats me not according to the ancient rule.
+How can he get his mind settled?
+Would he then not regard me?
+
+O sun, O moon,
+Which overshadow this lower earth!
+Here is this man,
+Who will not be friendly with me.
+How can he get his mind settled?
+Would he then not respond to me?
+
+O sun, O moon,
+Which come forth from the east!
+Here is this man,
+With virtuous words, but really not good.
+How can he get his mind settled?
+Would he then allow me to be forgotten?",[]

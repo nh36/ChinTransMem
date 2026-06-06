@@ -424,8 +424,14 @@ def candidate_alignment_snapshot_path(work_id: str = DEFAULT_WORK_ID, batch_id: 
     return candidate_work_dir(work_id, batch_id) / "reports" / f"{scope_report_stem(work_id, batch_id)}__alignment_qc.json"
 
 
+def repair_log_suffix(work_id: str = DEFAULT_WORK_ID) -> str:
+    if work_id == "shiji":
+        return "witness_repair_log"
+    return "ocr_repair_log"
+
+
 def candidate_repair_log_path(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> Path:
-    return candidate_work_dir(work_id, batch_id) / "repair_logs" / f"{scope_report_stem(work_id, batch_id)}__ocr_repair_log.json"
+    return candidate_work_dir(work_id, batch_id) / "repair_logs" / f"{scope_report_stem(work_id, batch_id)}__{repair_log_suffix(work_id)}.json"
 
 
 def candidate_qc_report_path(work_id: str = DEFAULT_WORK_ID, batch_id: str | None = None) -> Path:

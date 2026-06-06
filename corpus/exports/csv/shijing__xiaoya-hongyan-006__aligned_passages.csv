@@ -1,25 +1,45 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-hongyan-006__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·鴻鴈之什·006.1,皎皎白駒，食我場苗。縶之維之，以永今朝。所謂伊人，於焉逍遙。,白駒.1,"Let the brilliant white colt
 Feed on the young growth of my vegetable garden.
 Tether it by the foot, tie it by the collar,
 To prolong this morning.
 So may its owner of whom I think
-Spend his time here at his ease!"
+Spend his time here at his ease!","Let the brilliant white colt
+Feed on the young growth of my vegetable garden.
+Tether it by the foot, tie it by the collar,
+To prolong this morning.
+So may its owner of whom I think
+Spend his time here at his ease!",[]
 shijing__xiaoya-hongyan-006__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·鴻鴈之什·006.2,皎皎白駒，食我場藿。縶之維之，以永今夕。所謂伊人，於焉嘉客。,白駒.2,"Let the brilliant white colt
 Feed on the bean sprouts of my vegetable garden.
 Tether it by the foot, tie it by the collar,
 To prolong this evening.
 So may its owner of whom I think
-Be here, an admired guest!"
+Be here, an admired guest!","Let the brilliant white colt
+Feed on the bean sprouts of my vegetable garden.
+Tether it by the foot, tie it by the collar,
+To prolong this evening.
+So may its owner of whom I think
+Be here, an admired guest!",[]
 shijing__xiaoya-hongyan-006__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·鴻鴈之什·006.3,皎皎白駒，賁然來思。爾公爾侯，逸豫無期。慎爾優游，勉爾遁思。,白駒.3,"If you with the brilliant white colt
 Would brightly come to me,
 You should be a duke, you should be a marquis,
 Enjoying yourself without end.
 Be on your guard against idly wandering;
-Deal vigorously with your thoughts of retirement."
+Deal vigorously with your thoughts of retirement.","If you with the brilliant white colt
+Would brightly come to me,
+You should be a duke, you should be a marquis,
+Enjoying yourself without end.
+Be on your guard against idly wandering;
+Deal vigorously with your thoughts of retirement.",[]
 shijing__xiaoya-hongyan-006__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·小雅·鴻鴈之什·006.4,皎皎白駒，在彼空谷，生芻一束。其人如玉，毋金玉爾音，而有遐心。,白駒.4,"The brilliant white colt
 Is there in that empty valley,
 With a bundle of fresh grass.
 Its owner is like a gem.
 Do not make the news of you rare as gold and gems, --
-Indulging your purpose to abandon me."
+Indulging your purpose to abandon me.","The brilliant white colt
+Is there in that empty valley,
+With a bundle of fresh grass.
+Its owner is like a gem.
+Do not make the news of you rare as gold and gems, --
+Indulging your purpose to abandon me.",[]

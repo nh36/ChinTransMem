@@ -110,16 +110,16 @@
         "exportable_section_count": 30,
         "metadata_only_section_count": 22,
         "blocked_section_count": 22,
-        "exact_alignment_count": 663,
-        "automatic_alignment_count": 663,
-        "alignment_record_count": 693,
+        "exact_alignment_count": 654,
+        "automatic_alignment_count": 654,
+        "alignment_record_count": 684,
         "section_group_alignment_record_count": 30,
         "alignment_granularity_counts": {
-          "chapter": 8,
-          "grouped": 655
+          "chapter": 9,
+          "grouped": 645
         },
         "curated_override_section_count": 1,
-        "fallback_section_count": 8,
+        "fallback_section_count": 9,
         "rights_review_required_section_count": 30,
         "release_ready_section_count": 0,
         "genuine_blocker_count": 22,
@@ -137,9 +137,9 @@
         "remaining_leakage_issue_count": 0,
         "drift_checks_run": 30,
         "anchor_mapped_section_count": 1,
-        "drift_issue_count_before_repair": 2,
-        "repaired_drift_issue_count": 2,
-        "remaining_drift_issue_count": 0
+        "drift_issue_count_before_repair": 3,
+        "repaired_drift_issue_count": 0,
+        "remaining_drift_issue_count": 4
       }
     },
     {
@@ -186,7 +186,7 @@
       "english_coverage": "pilot_partial",
       "chinese_coverage": "pilot_partial",
       "preferred_use": "aligned_passages",
-      "notes": "Shiji now uses a batch-aware candidate gauntlet. The initial benji pilot stages chapters [1, 2, 3] and currently promotes 2 active proof-of-concept sections. Chapter 3 is anchor-mapped for succession-order repair, while chapter 2 remains metadata-only because its English witness still fails deterministic grouping around the middle of the chapter."
+      "notes": "Shiji now uses a batch-aware candidate gauntlet. The initial benji pilot stages chapters [1, 2, 3] and currently promotes 1 active proof-of-concept sections. Chapter 3 is anchor-mapped for succession-order repair, while chapter 2 remains metadata-only because its English witness still fails deterministic grouping around the middle of the chapter. The ChineseNotes English witness is gloss-enriched and translator attribution remains unresolved; batch exports strip name-gloss intrusions for translation-memory use but keep raw provenance unchanged."
     },
     {
       "chintransmem_work_id": "shijing",

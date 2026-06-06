@@ -1,13 +1,22 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-zhaonan-004__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-zhaonan-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·召南·004.1,于以采蘋？南澗之濱，于以采藻？于彼行潦。,采蘋.1,"She gathers the large duckweed,
 By the banks of the stream in the southern valley.
 She gathers the pondweed,
-In those pools left by the floods."
+In those pools left by the floods.","She gathers the large duckweed,
+By the banks of the stream in the southern valley.
+She gathers the pondweed,
+In those pools left by the floods.",[]
 shijing__guofeng-zhaonan-004__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-zhaonan-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·召南·004.2,于以盛之？維筐及筥，于以湘之？維錡及釜。,采蘋.2,"She deposits what she gathers,
 In her square baskets and round ones.
 She boils it,
-In her tripods and pans."
+In her tripods and pans.","She deposits what she gathers,
+In her square baskets and round ones.
+She boils it,
+In her tripods and pans.",[]
 shijing__guofeng-zhaonan-004__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-zhaonan-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·召南·004.3,于以奠之？宗室牖下，誰其尸之？有齊季女。,采蘋.3,"She sets forth her preparations,
 Under the window in the ancestral chamber.
 Who superintends the business?
-It is (this) reverent young lady."
+It is (this) reverent young lady.","She sets forth her preparations,
+Under the window in the ancestral chamber.
+Who superintends the business?
+It is (this) reverent young lady.",[]

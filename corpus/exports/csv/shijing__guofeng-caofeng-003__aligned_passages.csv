@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-caofeng-003__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-caofeng-003,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·曹風·003.1,"< 詩經‧國風‧曹‧鳲鳩
 毛詩序：「《鳲鳩》，刺不壹也。在位無君子，用心之不壹也。」
 ===鳲鳩===
@@ -33,4 +33,29 @@ The turtle dove is in the mulberry tree,
 And her young ones are in the hazel tree.
 The virtuous man, the princely one,
 Rectifies the people of the State.
-May he continue for ten thousand years!"
+May he continue for ten thousand years!","The turtle dove is in the mulberry tree,
+And her young ones are seven.
+The virtuous man, the princely one,
+Is uniformly correct in his deportment.
+He is uniformly correct in his deportment,
+His heart is as if it were tied to what is correct.
+
+The turtle dove is in the mulberry tree,
+And her young ones are in the plum tree.
+The virtuous man, the princely one,
+Has his girdle of silk.
+His girdle is of silk,
+And his cap is of spotted deer-skin.
+
+The turtle dove is in the mulberry tree,
+And her young ones are in the jujube tree.
+The virtuous man, the princely one,
+Has nothing wrong in his deportment.
+He has nothing wrong in his deportment,
+And thus he rectifies the four quarters of the State.
+
+The turtle dove is in the mulberry tree,
+And her young ones are in the hazel tree.
+The virtuous man, the princely one,
+Rectifies the people of the State.
+May he continue for ten thousand years!",[]

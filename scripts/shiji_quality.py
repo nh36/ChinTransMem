@@ -24,14 +24,16 @@ SHIJI_WITNESS_FIXES: list[dict[str, Any]] = [
         "confidence": 0.99,
     },
     {
-        "pattern": re.compile(r"\bZao\s+Yu\b", re.IGNORECASE),
+        # Match the specific raw romanization error (case-sensitive) so corrected forms aren't re-flagged
+        "pattern": re.compile(r"\bZao\s+Yu\b"),
         "replacement": "Cao Yu",
         "issue_type": "romanization_inconsistency",
         "reason": "Witness spelling disagrees with the surrounding Cao Yu succession anchor.",
         "confidence": 0.97,
     },
     {
-        "pattern": re.compile(r"\bZhu\s+gui\b", re.IGNORECASE),
+        # Match the lowercase 'gui' error specifically (case-sensitive)
+        "pattern": re.compile(r"\bZhu\s+gui\b"),
         "replacement": "Zhu Gui",
         "issue_type": "capitalization_drift",
         "reason": "Witness capitalization is inconsistent within the same succession chain.",
@@ -39,8 +41,9 @@ SHIJI_WITNESS_FIXES: list[dict[str, Any]] = [
     },
 ]
 SHIJI_KNOWN_BAD_FORM_RE = re.compile(r"\bsucceseful\b", re.IGNORECASE)
-SHIJI_ZAO_YU_RE = re.compile(r"\bZao\s+Yu\b", re.IGNORECASE)
-SHIJI_ZHU_GUI_RE = re.compile(r"\bZhu\s+gui\b", re.IGNORECASE)
+# Case-sensitive detection for the two romanization/capitalization issues so normalized forms are not matched
+SHIJI_ZAO_YU_RE = re.compile(r"\bZao\s+Yu\b")
+SHIJI_ZHU_GUI_RE = re.compile(r"\bZhu\s+gui\b")
 
 
 def _dedupe_consecutive(tokens: list[str]) -> list[str]:

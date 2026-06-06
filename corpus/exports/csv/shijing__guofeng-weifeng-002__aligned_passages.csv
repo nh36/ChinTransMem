@@ -1,13 +1,22 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-weifeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·衛風·002.1,考槃在澗，碩人之寬，獨寐寤言，永矢弗諼。,考槃.1,"He has reared his hut by the stream in the valley,
 That large man, so much at his ease.
 Alone he sleeps, and wakes, and talks.
-He swears he will never forget his true joy."
+He swears he will never forget his true joy.","He has reared his hut by the stream in the valley,
+That large man, so much at his ease.
+Alone he sleeps, and wakes, and talks.
+He swears he will never forget his true joy.",[]
 shijing__guofeng-weifeng-002__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·衛風·002.2,考槃在阿，碩人之薖，獨寐寤歌，永矢弗過。,考槃.2,"He has reared his hut in the bend of the mound,
 That large man, with such an air of indifference.
 Alone, he sleeps and wakes, and sings.
-He swears he will never pass from this spot."
+He swears he will never pass from this spot.","He has reared his hut in the bend of the mound,
+That large man, with such an air of indifference.
+Alone, he sleeps and wakes, and sings.
+He swears he will never pass from this spot.",[]
 shijing__guofeng-weifeng-002__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·衛風·002.3,考槃在陸，碩人之軸，獨寐寤宿，永矢弗告。,考槃.3,"He has reared his hut on the level height,
 That large man, so self-collected.
 Alone, he sleeps and wakes, and sleeps again.
-He swears he will never tell of his delight."
+He swears he will never tell of his delight.","He has reared his hut on the level height,
+That large man, so self-collected.
+Alone, he sleeps and wakes, and sleeps again.
+He swears he will never tell of his delight.",[]

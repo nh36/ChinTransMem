@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-hongyan-003__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·鴻鴈之什·003.1,"沔彼流水，朝宗于海。鴥彼飛隼，載飛載止。
 嗟我兄弟，邦人諸友。莫肯念亂，誰無父母？",沔水.1,"In large volume, those flowing waters,
 Go to the court of the sea.
@@ -7,7 +7,14 @@ Now soaring, now resting.
 Alas! among my brethren,
 My countrymen, my friends,
 No one is willing to think of the prevailing disorder;
-But who has not parents to suffer from it?"
+But who has not parents to suffer from it?","In large volume, those flowing waters,
+Go to the court of the sea.
+Rapid is that flying falcon,
+Now soaring, now resting.
+Alas! among my brethren,
+My countrymen, my friends,
+No one is willing to think of the prevailing disorder;
+But who has not parents to suffer from it?",[]
 shijing__xiaoya-hongyan-003__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·鴻鴈之什·003.2,"沔彼流水，其流湯湯。鴥彼飛隼，載飛載揚。
 念彼不蹟，載起載行。心之憂矣，不可弭忘。",沔水.2,"In large volume, those flowing waters,
 Roll on their swollen flood.
@@ -16,11 +23,23 @@ Now soaring, now rising higher.
 When I think of those lawless men,
 Now I rise up, now I walk about.
 The sorrow of my heart,
-Cannot be repressed nor forgotten."
+Cannot be repressed nor forgotten.","In large volume, those flowing waters,
+Roll on their swollen flood.
+Rapid is that flying falcon,
+Now soaring, now rising higher.
+When I think of those lawless men,
+Now I rise up, now I walk about.
+The sorrow of my heart,
+Cannot be repressed nor forgotten.",[]
 shijing__xiaoya-hongyan-003__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-hongyan-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·鴻鴈之什·003.3,"鴥彼飛隼，率彼中陵。
 民之訛言，寧莫之懲？我友敬矣，讒言其興。",沔水.3,"Rapid is that flying falcon,
 Yet he keeps along the middle of the height.
 The talk of the people, --
 Is there no means of stopping it?
 If my friends would reverently watch over themselves,
-Would slanderous speeches be made?"
+Would slanderous speeches be made?","Rapid is that flying falcon,
+Yet he keeps along the middle of the height.
+The talk of the people, --
+Is there no means of stopping it?
+If my friends would reverently watch over themselves,
+Would slanderous speeches be made?",[]

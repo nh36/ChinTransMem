@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-weifeng-state-003__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-weifeng-state-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·魏風·003.1,園有桃，其實之殽。心之憂矣，我歌且謠。不知我者，謂我士也驕。彼人是哉，子曰何其？心之憂矣！其誰知之？其誰知之？蓋亦勿思！,園有桃.1,"Of the peach trees in the garden,
 The fruit may be used as food.
 My heart is grieved,
@@ -10,7 +10,18 @@ What do you mean by your words?'
 My heart is grieved;
 Who knows the cause of it?
 Who knows the cause of it?
-They know it not, because they will not think."
+They know it not, because they will not think.","Of the peach trees in the garden,
+The fruit may be used as food.
+My heart is grieved,
+And I play and sing.
+Those who do not know me,
+Say I am a scholar venting his pride.
+'Those men are right;
+What do you mean by your words?'
+My heart is grieved;
+Who knows the cause of it?
+Who knows the cause of it?
+They know it not, because they will not think.",[]
 shijing__guofeng-weifeng-state-003__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-weifeng-state-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·魏風·003.2,園有棘，其實之食。心之憂矣，聊以行國。不我知者，謂我士也罔極。彼人是哉，子曰何其？心之憂矣！其誰知之？其誰知之？蓋亦勿思！,園有桃.2,"Of the jujube trees in the garden,
 The fruit may be used as food.
 My heart is grieved,
@@ -22,4 +33,15 @@ What do you mean by your words? '
 My heart is grieved;
 Who knows the cause of it?
 Who knows the cause of it?
-They do not know it, because they will not think."
+They do not know it, because they will not think.","Of the jujube trees in the garden,
+The fruit may be used as food.
+My heart is grieved,
+And I think I must travel about through the State.
+Those who do not know me,
+Say I am an officer going to the verge of license.
+' Those men are right;
+What do you mean by your words? '
+My heart is grieved;
+Who knows the cause of it?
+Who knows the cause of it?
+They do not know it, because they will not think.",[]

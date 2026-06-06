@@ -1,9 +1,15 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-yongfeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-yongfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄘風·005.1,鶉之奔奔，鵲之彊彊，人之無良，我以為兄。,鶉之奔奔.1,"Boldly faithful in their pairings are quails;
 Vigorously so are magpies.
 This man is all vicious,
-And I consider him my brother!"
+And I consider him my brother!","Boldly faithful in their pairings are quails;
+Vigorously so are magpies.
+This man is all vicious,
+And I consider him my brother!",[]
 shijing__guofeng-yongfeng-005__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-yongfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄘風·005.2,鵲之彊彊，鶉之奔奔，人之無良，我以為君。,鶉之奔奔.2,"Vigorously faithful in their pairings are magpies;
 Boldly so are quails.
 This woman is all vicious,
-And I regard her as marchioness!"
+And I regard her as marchioness!","Vigorously faithful in their pairings are magpies;
+Boldly so are quails.
+This woman is all vicious,
+And I regard her as marchioness!",[]

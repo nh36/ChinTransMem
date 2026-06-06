@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__daya-shengmin-010__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-shengmin-010,poem,poem,poem,True,Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·大雅·生民之什·010.1,"上帝板板，下民卒癉。出話不然，為猶不遠。
 靡聖管管，不實於亶。猶之未遠，是用大諫。
 
@@ -51,4 +51,34 @@ Do
 not think them matter for laughter.
 The ancients had a saying:—
 'Consult
-the gatherers of grass and firewood.'"
+the gatherers of grass and firewood.'","God has reversed (his usual course of procedure),
+And the lower people are full of distress.
+The words which you utter are not right;
+The plans which you form are not far-reaching.
+As there are not sages, you think you have no guidance;—
+You
+have no real sincerity.
+(Thus) your plans do not reach far,
+And I therefore strongly admonish you.
+
+Heaven is now sending down calamities;—
+Do
+not be so complacent.
+Heaven is now producing such movements;—
+Do
+not be so indifferent.
+If your words were harmonious,
+The people would become united.
+If your words were gentle and kind,
+The people would be settled.
+
+Though my duties are different from yours,
+I am your fellow-servant.
+I come to advise with you,
+And you hear me with contemptuous indifference,
+My words are about the (present urgent) affairs;—
+Do
+not think them matter for laughter.
+The ancients had a saying:—
+'Consult
+the gatherers of grass and firewood.'",[]

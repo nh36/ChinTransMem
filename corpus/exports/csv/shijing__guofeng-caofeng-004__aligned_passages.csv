@@ -1,17 +1,29 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-caofeng-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-caofeng-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·曹風·004.1,洌彼下泉，浸彼苞稂。愾我寤嘆，念彼周京。,下泉.1,"Cold come the waters down from that spring,
 * And overflow the bushy wolfs-tail grass
 Ah me! I awake and sigh,
-Thinking of that capital of Chow."
+Thinking of that capital of Chow.","Cold come the waters down from that spring,
+* And overflow the bushy wolfs-tail grass
+Ah me! I awake and sigh,
+Thinking of that capital of Chow.",[]
 shijing__guofeng-caofeng-004__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-caofeng-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·曹風·004.2,洌彼下泉，浸彼苞蕭。愾我寤嘆，念彼京周。,下泉.2,"Cold come the waters down from that spring,
 And overflow the bushy southernwood.
 Ah me! I awake and sigh,
-Thinking of that capital of Chow."
+Thinking of that capital of Chow.","Cold come the waters down from that spring,
+And overflow the bushy southernwood.
+Ah me! I awake and sigh,
+Thinking of that capital of Chow.",[]
 shijing__guofeng-caofeng-004__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-caofeng-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·曹風·004.3,洌彼下泉，浸彼苞蓍。愾我寤嘆，念彼京師。,下泉.3,"Cold come the waters down from that spring,
 Arid overflow the bushy divining plants.
 Ah me! 1 awake and sigh,
-Thinking of that capital- city."
+Thinking of that capital- city.","Cold come the waters down from that spring,
+Arid overflow the bushy divining plants.
+Ah me! 1 awake and sigh,
+Thinking of that capital- city.",[]
 shijing__guofeng-caofeng-004__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-caofeng-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·國風·曹風·004.4,芃芃黍苗，陰雨膏之。四國有王，郇伯勞之。,下泉.4,"Beautifully grew the fields of young millet,
 Enriched by fertilizing rains.
 The States had their sovereign, ,
-And there was the chief of Seun to reward their princes."
+And there was the chief of Seun to reward their princes.","Beautifully grew the fields of young millet,
+Enriched by fertilizing rains.
+The States had their sovereign, ,
+And there was the chief of Seun to reward their princes.",[]

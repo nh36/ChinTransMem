@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-futian-004__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-futian-004,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·小雅·甫田之什·004.1,"裳裳者華，其葉湑兮。我覯之子，我心寫兮。我心寫兮，是以有譽處兮。
 裳裳者華，芸其黃矣。我覯之子，維其有章矣。維其有章矣，是以有慶矣。
 裳裳者華，或黃或白。我覯之子，乘其四駱。乘其四駱，六轡沃若。
@@ -37,4 +37,39 @@ May they receive the blessing of Heaven!
 They flit about, the green -beaks,
 With their glancing necks.
 To be rejoiced in are these princes!
-They are screens to all the States."
+They are screens to all the States.","Splendid are the flowers,
+And the leaves are luxuriant.
+I see these princes,
+And my heart is entirely satisfied.
+My heart is entirely satisfied; —
+Right is it they should have praise and prosperity !
+
+Splendid are the flowers,
+And deep is their yellow.
+I see these princes,
+Full of all elegance.
+They are full of all elegance; —
+Right is it they should have every blessing!
+
+Splendid are the flowers,
+Some yellow, some white.
+I see these princes,
+Drawn by their four white steeds, black-maned.
+They are drawn by their four white steeds, black-maned,
+And the six reins are glossy!
+
+To the left they move, to the left,
+And they execute the movement properly.
+To the right they move, to the right,
+And they execute the movement properly.
+They are possessed of the ability,
+And right is it their movements should indicate it.
+Sang-hoo.
+Tnwy flit about, the green-beaks,
+With their variegated wiugs.
+To be rejoiced in are these princes!
+May they receive the blessing of Heaven!
+They flit about, the green -beaks,
+With their glancing necks.
+To be rejoiced in are these princes!
+They are screens to all the States.",[]

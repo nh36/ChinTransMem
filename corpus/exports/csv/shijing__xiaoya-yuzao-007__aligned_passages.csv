@@ -1,21 +1,36 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-yuzao-007__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·魚藻之什·007.1,芃芃黍苗，陰雨膏之。悠悠南行，召伯勞之。,黍苗.1,"Tall and strong grows the young millet,
 Fattened by the genial rains.
 Very long was our journey to the south,
-But the earl of Zhou encouraged and cheered us."
+But the earl of Zhou encouraged and cheered us.","Tall and strong grows the young millet,
+Fattened by the genial rains.
+Very long was our journey to the south,
+But the earl of Zhou encouraged and cheered us.",[]
 shijing__xiaoya-yuzao-007__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·魚藻之什·007.2,我任我輦，我車我牛。我行既集，蓋云歸哉。,黍苗.2,"We carried our burdens; we pushed along our barrows;
 We drove our waggons; we led our oxen.
 When our expedition was accomplished,
-We knew we should return."
+We knew we should return.","We carried our burdens; we pushed along our barrows;
+We drove our waggons; we led our oxen.
+When our expedition was accomplished,
+We knew we should return.",[]
 shijing__xiaoya-yuzao-007__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·魚藻之什·007.3,我徒我御，我師我旅。我行既集，蓋云歸處。,黍苗.3,"We went along on foot; we rode in our chariots; --
 Our whole host, and our battalions.
 When our expedition was accomplished,
-We knew we should return home."
+We knew we should return home.","We went along on foot; we rode in our chariots; --
+Our whole host, and our battalions.
+When our expedition was accomplished,
+We knew we should return home.",[]
 shijing__xiaoya-yuzao-007__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·小雅·魚藻之什·007.4,肅肅謝功，召伯營之。烈烈征師，召伯成之。,黍苗.4,"Severe was the work at Su,
 But the earl of Zhou built the city.
 Majestic was the march of our host; --
-The earl of Zhou directed it."
+The earl of Zhou directed it.","Severe was the work at Su,
+But the earl of Zhou built the city.
+Majestic was the march of our host; --
+The earl of Zhou directed it.",[]
 shijing__xiaoya-yuzao-007__005__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,5,詩經·小雅·魚藻之什·007.5,原隰既平，泉流既清。召伯有成，王心則寧。,黍苗.5,"The plains and low lands were regulated; --
 The springs and streams were cleared.
 The earl of Zhou completed his work,
-And the heart of the king was at rest."
+And the heart of the king was at rest.","The plains and low lands were regulated; --
+The springs and streams were cleared.
+The earl of Zhou completed his work,
+And the heart of the king was at rest.",[]

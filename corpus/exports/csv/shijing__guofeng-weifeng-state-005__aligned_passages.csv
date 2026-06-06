@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-weifeng-state-005__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-state-005,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·魏風·005.1,"十畝之間兮，桑者閑閑兮。行與子還兮。
 十畝之外兮，桑者泄泄兮。行與子逝兮。",十畝之間.1,"Among their ten acres
 The mulberry-planters stand idly about.
@@ -7,4 +7,11 @@ Come,' says one to another, 'I will return with you.
 Beyond those ten acres,
 The mulberry-planters move idly about.
 
-Come says one to another, I will go away with you.1"
+Come says one to another, I will go away with you.1","Among their ten acres
+The mulberry-planters stand idly about.
+Come,' says one to another, 'I will return with you.
+
+Beyond those ten acres,
+The mulberry-planters move idly about.
+
+Come says one to another, I will go away with you.1",[]

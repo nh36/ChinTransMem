@@ -20,7 +20,7 @@
     "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/data/corpus/shiji.csv",
     "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/"
   ],
-  "source_audit_note": "Shiji is staged by batch. The initial benji pilot uses only the first three annals because later annals in the first division lack stable bilingual paragraph structure in the current ChineseNotes witness.",
+  "source_audit_note": "Shiji is staged by batch. The initial benji pilot uses only the first three annals because later annals in the first division lack stable bilingual paragraph structure in the current ChineseNotes witness. The active ChineseNotes English witness is gloss-enriched; active exports strip name-gloss intrusions while preserving raw provenance.",
   "ingestion_policy": {
     "status": "aligned_or_metadata_only",
     "inventory_required": true,
@@ -61,6 +61,7 @@
     ],
     "missing_text_policy": "block_export_if_clean_chinese_or_english_text_is_missing",
     "commentary_policy": "exclude_commentary_headings_and_notice_lines_from_exportable_segments_before_alignment",
+    "witness_quality_policy": "normalize_gloss_enriched_name_parentheticals_and_block_if_known_witness_artifacts_remain",
     "section_group_export_policy": "forbidden",
     "completion_definition": "A Shiji batch section is complete when a provenance-tagged ChineseNotes chapter file yields clean Chinese and attributable provisional English text, deterministic alignment passes the candidate gauntlet, and any structurally unsafe section is left metadata-only."
   },
@@ -69,46 +70,53 @@
     "title_zh": "史記",
     "title_en": "Records of the Grand Historian",
     "section_count": 3,
-    "complete_sections": 2,
-    "metadata_only_sections": 1,
+    "complete_sections": 1,
+    "metadata_only_sections": 2,
     "total_section_count": 3,
-    "active_exportable_section_count": 2,
-    "active_section_count": 2,
-    "exportable_section_count": 2,
-    "metadata_only_blocked_section_count": 1,
-    "exact_alignment_count": 46,
-    "section_group_alignment_count": 2,
-    "section_group_alignment_record_count": 2,
-    "alignment_record_count": 48,
+    "active_exportable_section_count": 1,
+    "active_section_count": 1,
+    "exportable_section_count": 1,
+    "metadata_only_blocked_section_count": 2,
+    "exact_alignment_count": 29,
+    "section_group_alignment_count": 1,
+    "section_group_alignment_record_count": 1,
+    "alignment_record_count": 30,
     "fallback_alignment_count": 0,
     "fallback_section_count": 0,
-    "automatic_alignment_count": 46,
+    "automatic_alignment_count": 29,
     "curated_override_section_count": 0,
-    "blocked_section_count": 1,
+    "blocked_section_count": 2,
     "hard_failure_count": 0,
     "alignment_granularity_counts": {
-      "block": 46
+      "block": 29
     },
-    "drift_checks_run": 17,
-    "drift_issue_count_before_repair": 9,
-    "repaired_drift_issue_count": 9,
+    "drift_checks_run": 0,
+    "drift_issue_count_before_repair": 0,
+    "repaired_drift_issue_count": 0,
     "remaining_drift_issue_count": 0,
     "entity_sequence_validation_passed": true,
     "anchor_mapped_section_count": 1,
     "anchor_mapped_sections": [
       "shiji-003-annals-of-yin"
     ],
+    "pre_repair_witness_quality_issue_count": 88,
+    "repaired_witness_quality_issue_count": 88,
+    "remaining_witness_quality_issue_count": 0,
+    "pre_repair_name_gloss_issue_count": 85,
+    "remaining_name_gloss_issue_count": 0,
+    "witness_gloss_handling": "stripped_from_translation_text_raw_preserved",
+    "witness_quality_validation_passed": true,
     "pre_repair_corruption_issue_count": 0,
     "corrected_corruption_issue_count": 0,
     "remaining_corruption_issue_count": 0,
     "pre_repair_leakage_issue_count": 0,
     "repaired_leakage_issue_count": 0,
     "remaining_leakage_issue_count": 0,
-    "automatic_correction_count": 0,
+    "automatic_correction_count": 89,
     "curated_correction_count": 0,
-    "active_exportable_alignment_count": 46
+    "active_exportable_alignment_count": 29
   },
-  "notes": "Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with 2 active sections, 1 metadata-only blockers, and 1 anchor-mapped sections.",
+  "notes": "Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with 1 active sections, 2 metadata-only blockers, and 1 anchor-mapped sections. The witness is gloss-enriched and remains not release-ready pending attribution and source-quality audit.",
   "sources": [
     {
       "source_id": "shiji-001-annals-annals-of-the-five-emperors__cn-zh-1f6b1d3",
@@ -138,7 +146,8 @@
       "release_status": "not_cleared",
       "provenance_type": "digital_transcription",
       "provenance_ref": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji001.txt",
-      "provenance_note": "ChineseNotes-hosted bilingual English witness. Translator attribution is not yet resolved from the source file and remains provisional.",
+      "witness_quality_classification": "gloss_enriched_witness_normalized_for_tm",
+      "provenance_note": "ChineseNotes-hosted bilingual English witness. Translator attribution is not yet resolved from the source file and remains provisional. The raw witness contains parenthetical name glosses; active exports strip those gloss intrusions from translation_text while preserving the raw capture.",
       "raw_path": "corpus/raw/chinesenotes/shiji__shiji001__chinesenotes-1f6b1d3__raw.txt",
       "checksum_sha256": "6e23988f8ba322e918b1a6ffe2f706957f40b33a86627705b1154a73b1455ef1"
     },
@@ -170,7 +179,8 @@
       "release_status": "not_cleared",
       "provenance_type": "digital_transcription",
       "provenance_ref": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji002.txt",
-      "provenance_note": "ChineseNotes-hosted bilingual English witness. Translator attribution is not yet resolved from the source file and remains provisional.",
+      "witness_quality_classification": "gloss_enriched_witness_normalized_for_tm",
+      "provenance_note": "ChineseNotes-hosted bilingual English witness. Translator attribution is not yet resolved from the source file and remains provisional. The raw witness contains parenthetical name glosses; active exports strip those gloss intrusions from translation_text while preserving the raw capture.",
       "raw_path": "corpus/raw/chinesenotes/shiji__shiji002__chinesenotes-1f6b1d3__raw.txt",
       "checksum_sha256": "518c9ab0a52e1d18f200fd91716aa6b9164d05891c079480042a73bbaaffc885"
     },
@@ -202,7 +212,8 @@
       "release_status": "not_cleared",
       "provenance_type": "digital_transcription",
       "provenance_ref": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji003.txt",
-      "provenance_note": "ChineseNotes-hosted bilingual English witness. Translator attribution is not yet resolved from the source file and remains provisional.",
+      "witness_quality_classification": "gloss_enriched_witness_normalized_for_tm",
+      "provenance_note": "ChineseNotes-hosted bilingual English witness. Translator attribution is not yet resolved from the source file and remains provisional. The raw witness contains parenthetical name glosses; active exports strip those gloss intrusions from translation_text while preserving the raw capture.",
       "raw_path": "corpus/raw/chinesenotes/shiji__shiji003__chinesenotes-1f6b1d3__raw.txt",
       "checksum_sha256": "65bc249b190d586691c701fe8ee316f631a4412245cd693f9a70bf1c6e5bb429"
     }
@@ -233,7 +244,7 @@
       "fallback_reason": null,
       "expected_exact_alignment_count": 29,
       "alignment_anchor_map_used": false,
-      "notes": "Batch-scoped Shiji proof-of-concept export from the benji pilot tranche."
+      "notes": "Batch-scoped Shiji proof-of-concept export from the benji pilot tranche. The English witness is gloss-enriched and normalized for translation-memory use; raw provenance remains preserved."
     },
     {
       "section_id": "shiji-002-annals-of-xia",
@@ -258,7 +269,7 @@
       "fallback_used": false,
       "fallback_reason": "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: Alignment QC failed for shiji-002-annals-of-xia: group 36: target segment length/structure imbalance suggests missing grouping; group 41: target segment length/structure imbalance suggests missing grouping; group 57: target segment length/structure imbalance suggests missing grouping",
       "expected_exact_alignment_count": 0,
-      "notes": "Retained as metadata-only until a more reliable Shiji English witness or safer segmentation path is available.",
+      "notes": "Retained as metadata-only until deterministic grouping is safe for this chapter and witness-quality gates pass.",
       "alignment_anchor_map_used": false
     },
     {
@@ -270,23 +281,22 @@
       "sort_key": "003",
       "canonical_ref": "史記·《殷本紀》",
       "source_ids": {
-        "source_id": "shiji-003-annals-of-yin__cn-zh-1f6b1d3",
-        "target_source_id": "shiji-003-annals-of-yin__cn-en-1f6b1d3"
+        "source_id": "shiji-003-annals-of-yin__cn-zh-1f6b1d3"
       },
-      "corpus_use_status": "proof_of_concept",
-      "export_status": "active",
-      "alignment_status": "complete",
-      "tmx_status": "complete",
+      "corpus_use_status": "blocked",
+      "export_status": "metadata_only",
+      "alignment_status": "blocked",
+      "tmx_status": "not_ready",
       "rights_status": "rights_review_required",
       "release_status": "not_cleared",
       "base_text_processed_path": "corpus/processed/base_texts/shiji__shiji-003-annals-of-yin__shiji-003-annals-of-yin__cn-zh-1f6b1d3__segments.jsonl",
       "translation_processed_path": "corpus/processed/translations/shiji__shiji-003-annals-of-yin__shiji-003-annals-of-yin__cn-en-1f6b1d3__segments.jsonl",
-      "alignment_processed_path": "corpus/processed/alignments/shiji__shiji-003-annals-of-yin__cn-zh-1f6b1d3__cn-en-1f6b1d3__alignments.jsonl",
+      "alignment_processed_path": null,
       "fallback_used": false,
-      "fallback_reason": null,
-      "expected_exact_alignment_count": 17,
-      "alignment_anchor_map_used": true,
-      "notes": "Batch-scoped Shiji proof-of-concept export from the benji pilot tranche."
+      "fallback_reason": "Named-entity succession drift remains after anchor-partitioned alignment: 15 issue(s) across the Qi-to-Tang chain.",
+      "expected_exact_alignment_count": 0,
+      "notes": "Retained as metadata-only until deterministic grouping is safe for this chapter and witness-quality gates pass.",
+      "alignment_anchor_map_used": false
     }
   ],
   "romanization_aliases": [

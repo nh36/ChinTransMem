@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-weifeng-state-006__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-weifeng-state-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·魏風·006.1,坎坎伐檀兮，寘之河之干兮，河水清且漣猗。不稼不穡，胡取禾三百廛兮！不狩不獵，胡瞻爾庭有縣貆兮。彼君子兮，不素餐兮。,伐檀.1,"Kan-kan go his blows on the sandal trees,
 And he places what he hews on the river's bank,
 Whose waters flow clear and rippling.
@@ -7,7 +7,15 @@ How do you get the produce of those three hundred farms?
 You do not follow the chase; -
 How do we see the badgers hanging up in your court-yards?
 O that superior man!
-He would not eat the bread of idleness!"
+He would not eat the bread of idleness!","Kan-kan go his blows on the sandal trees,
+And he places what he hews on the river's bank,
+Whose waters flow clear and rippling.
+You sow not nor reap; -
+How do you get the produce of those three hundred farms?
+You do not follow the chase; -
+How do we see the badgers hanging up in your court-yards?
+O that superior man!
+He would not eat the bread of idleness!",[]
 shijing__guofeng-weifeng-state-006__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-weifeng-state-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·魏風·006.2,坎坎伐輻兮，寘之河之側兮，河水清且直猗。不稼不穡，胡取禾三百億兮！不狩不獵，胡瞻爾庭有縣特兮。彼君子兮，不素食兮。,伐檀.2,"Kan-kan go his blows on the wood for his spokes,
 And he places it by the side of the river,
 Whose waters flow clear and even.
@@ -16,7 +24,15 @@ How do you get your three millions of sheaves?
 You do not follow the chase; -
 How do we see those three-year-olds hanging in your court-yards?
 O that superior man!
-He would not eat the bread of idleness!"
+He would not eat the bread of idleness!","Kan-kan go his blows on the wood for his spokes,
+And he places it by the side of the river,
+Whose waters flow clear and even.
+You sow not nor reap; -
+How do you get your three millions of sheaves?
+You do not follow the chase; -
+How do we see those three-year-olds hanging in your court-yards?
+O that superior man!
+He would not eat the bread of idleness!",[]
 shijing__guofeng-weifeng-state-006__003__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-weifeng-state-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·魏風·006.3,坎坎伐輪兮，寘之河之漘兮，河水清且淪猗。不稼不穡，胡取禾三百囷兮！不狩不獵，胡瞻爾庭有縣鶉兮。彼君子兮，不素飧兮。,伐檀.3,"Kan-kan go his blows on the wood for his wheels,
 And he places it by the lip of the river,
 Whose waters flow clear in rippling circles.
@@ -25,4 +41,12 @@ How do you get the paddy for your three hundred round binns?
 You do not follow the chase; -
 How do we see the quails hanging in your court-yards?
 O that superior man!
-He would not eat the bread of idleness!"
+He would not eat the bread of idleness!","Kan-kan go his blows on the wood for his wheels,
+And he places it by the lip of the river,
+Whose waters flow clear in rippling circles.
+You sow not nor reap; -
+How do you get the paddy for your three hundred round binns?
+You do not follow the chase; -
+How do we see the quails hanging in your court-yards?
+O that superior man!
+He would not eat the bread of idleness!",[]

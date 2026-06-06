@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-luming-009__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-luming-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·鹿鳴之什·009.1,"有杕之杜，有睆其實。王事靡盬，繼嗣我日。日月陽止，女心傷止，征夫遑止。
 有杕之杜，其葉萋萋。王事靡盬，我心傷悲。卉木萋止，女心悲止，征夫歸止。
 陟彼北山，言采其杞。王事靡盬，憂我父母。檀車幝幝，四牡痯痯，征夫不遠。
@@ -8,4 +8,10 @@ The time is past, and he is not here,
 To the multiplication of my sorrows.
 Both by the tortoise-shell and the reeds have I divined,
 And they unite in saying he is near.
-My warrior is at hand."
+My warrior is at hand.","They have not packed up, they do not come.
+My sorrowing heart is greatly distressed.
+The time is past, and he is not here,
+To the multiplication of my sorrows.
+Both by the tortoise-shell and the reeds have I divined,
+And they unite in saying he is near.
+My warrior is at hand.",[]

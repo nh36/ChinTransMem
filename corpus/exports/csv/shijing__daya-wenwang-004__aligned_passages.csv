@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__daya-wenwang-004__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-004,poem,poem,poem,True,Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.,1,1,exact_or_near_exact,0.95,1,詩經·大雅·文王之什·004.1,"芃芃棫樸，薪之槱之。濟濟辟王，左右趣之。
 濟濟辟王，左右奉璋。奉璋峨峨，髦士攸宜。
 淠彼涇舟，烝徒楫之。周王于邁，六師及之。
@@ -12,4 +12,13 @@ Elegant and dignified was our prince and king;
 On his left and his right they bore their half-mace (libation-cups):—
 They
 bore them with solemn gravity,
-As beseemed such eminent officers."
+As beseemed such eminent officers.","Abundant is the growth of the buckthorn and shrubby trees,
+Supplying firewood; yea, stores of it.
+Elegant and dignified was our prince and king;
+On the left and the right they hastened to him.
+
+Elegant and dignified was our prince and king;
+On his left and his right they bore their half-mace (libation-cups):—
+They
+bore them with solemn gravity,
+As beseemed such eminent officers.",[]

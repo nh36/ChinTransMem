@@ -1,0 +1,642 @@
+[
+  {
+    "source_id": "book-01-xueer__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-01-xueer",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/學而第一, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/學而第一",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-01-xueer__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-01-xueer__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-01-xueer__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-01-xueer",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 1, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/I",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-01-xueer__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-01-xueer__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-02-weizheng__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-02-weizheng",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/爲政第二, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/爲政第二",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-02-weizheng__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-02-weizheng__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-02-weizheng__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-02-weizheng",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 2, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/II",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-02-weizheng__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-02-weizheng__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-03-bayi__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-03-bayi",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/八佾第三, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/八佾第三",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-03-bayi__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-03-bayi__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-03-bayi__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-03-bayi",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 3, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/III",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-03-bayi__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-03-bayi__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-04-liren__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-04-liren",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/里仁第四, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/里仁第四",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-04-liren__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-04-liren__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-04-liren__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-04-liren",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 4, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/IV",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-04-liren__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-04-liren__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-05-gongyechang__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-05-gongyechang",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/公冶長第五, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/公冶長第五",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-05-gongyechang__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-05-gongyechang__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-05-gongyechang__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-05-gongyechang",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 5, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/V",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-05-gongyechang__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-05-gongyechang__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-06-yongye__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-06-yongye",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/雍也第六, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/雍也第六",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-06-yongye__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-06-yongye__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-06-yongye__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-06-yongye",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 6, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/VI",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-06-yongye__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-06-yongye__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-07-shuer__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-07-shuer",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/述而第七, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/述而第七",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-07-shuer__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-07-shuer__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-07-shuer__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-07-shuer",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 7, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/VII",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-07-shuer__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-07-shuer__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-08-taibo__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-08-taibo",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/泰伯第八, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/泰伯第八",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-08-taibo__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-08-taibo__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-08-taibo__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-08-taibo",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 8, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/VIII",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-08-taibo__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-08-taibo__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-09-zihan__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-09-zihan",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/子罕第九, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/子罕第九",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-09-zihan__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-09-zihan__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-09-zihan__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-09-zihan",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 9, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/IX",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-09-zihan__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-09-zihan__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-10-xiangdang__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-10-xiangdang",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/鄉黨第十, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/鄉黨第十",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-10-xiangdang__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-10-xiangdang__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-10-xiangdang__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-10-xiangdang",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 10, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/X",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-10-xiangdang__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-10-xiangdang__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-11-xianjin__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-11-xianjin",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/先進第十一, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/先進第十一",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-11-xianjin__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-11-xianjin__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-11-xianjin__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-11-xianjin",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 11, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XI",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-11-xianjin__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-11-xianjin__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-12-yanyuan__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-12-yanyuan",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/顏淵第十二, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/顏淵第十二",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-12-yanyuan__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-12-yanyuan__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-12-yanyuan__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-12-yanyuan",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 12, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XII",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-12-yanyuan__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-12-yanyuan__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-13-zilu__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-13-zilu",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/子路第十三, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/子路第十三",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-13-zilu__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-13-zilu__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-13-zilu__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-13-zilu",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 13, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XIII",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-13-zilu__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-13-zilu__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-14-xianwen__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-14-xianwen",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/憲問第十四, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/憲問第十四",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-14-xianwen__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-14-xianwen__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-14-xianwen__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-14-xianwen",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 14, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XIV",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-14-xianwen__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-14-xianwen__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-15-weilinggong__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-15-weilinggong",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/衞靈公第十五, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/%E8%AB%96%E8%AA%9E/%E8%A1%9E%E9%9D%88%E5%85%AC%E7%AC%AC%E5%8D%81%E4%BA%94",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-15-weilinggong__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-15-weilinggong__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-15-weilinggong__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-15-weilinggong",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 15, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XV",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-15-weilinggong__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-15-weilinggong__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-16-jishi__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-16-jishi",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/季氏第十六, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/季氏第十六",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-16-jishi__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-16-jishi__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-16-jishi__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-16-jishi",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 16, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XVI",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-16-jishi__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-16-jishi__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-17-yanghuo__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-17-yanghuo",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/陽貨第十七, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/陽貨第十七",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-17-yanghuo__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-17-yanghuo__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-17-yanghuo__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-17-yanghuo",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 17, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XVII",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-17-yanghuo__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-17-yanghuo__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-18-weizi__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-18-weizi",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/微子第十八, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/微子第十八",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-18-weizi__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-18-weizi__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-18-weizi__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-18-weizi",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 18, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XVIII",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-18-weizi__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-18-weizi__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-19-zizhang__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-19-zizhang",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/子張第十九, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/子張第十九",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-19-zizhang__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-19-zizhang__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-19-zizhang__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-19-zizhang",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 19, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XIX",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-19-zizhang__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-19-zizhang__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  },
+  {
+    "source_id": "book-20-yaoyue__zhwikisource-20260529",
+    "work_id": "lunyu",
+    "section_id": "book-20-yaoyue",
+    "language_code": "zh-Hant",
+    "source_kind": "wikisource",
+    "citation": "論語/堯曰第二十, Chinese Wikisource, accessed 2026-05-29.",
+    "source_url": "https://zh.wikisource.org/wiki/論語/堯曰第二十",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-20-yaoyue__zhwikisource-20260529__raw.wikitext",
+    "processed_path": "corpus/processed/chinese_base_texts/lunyu__book-20-yaoyue__zhwikisource-20260529__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "confucius-disciples"
+    ],
+    "notes": "Untouched raw capture comes from the page's action=raw export."
+  },
+  {
+    "source_id": "book-20-yaoyue__legge-cc-v1-1893",
+    "work_id": "lunyu",
+    "section_id": "book-20-yaoyue",
+    "language_code": "en",
+    "source_kind": "translation",
+    "citation": "James Legge, The Chinese Classics, Volume 1: Confucian Analects, Book 20, via English Wikisource.",
+    "source_url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects/XX",
+    "raw_path": "corpus/raw/wikisource/lunyu__book-20-yaoyue__legge-cc-v1-1893__raw.wikitext",
+    "processed_path": "corpus/processed/translations/lunyu__book-20-yaoyue__legge-cc-v1-1893__segments.jsonl",
+    "rights_status": "public_domain",
+    "author_or_translator_ids": [
+      "james-legge"
+    ],
+    "notes": "English Wikisource hosts the public-domain translation page for this book."
+  }
+]

@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-tangfeng-001__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-tangfeng-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·唐風·001.1,蟋蟀在堂，歲聿其莫。今我不樂，日月其除。無已大康，職思其居。好樂無荒，良士瞿瞿。,蟋蟀.1,"The cricket is in the ball,
 And the year is drawing to a close.
 If we do not enjoy ourselves now,
@@ -6,7 +6,14 @@ The days and months will be leaving us.
 But let us not go to great excess;
 Let us first think of the duties of our position ;
 Let us not be wild in our love of enjoyment.
-The good man is anxiously thoughtful."
+The good man is anxiously thoughtful.","The cricket is in the ball,
+And the year is drawing to a close.
+If we do not enjoy ourselves now,
+The days and months will be leaving us.
+But let us not go to great excess;
+Let us first think of the duties of our position ;
+Let us not be wild in our love of enjoyment.
+The good man is anxiously thoughtful.",[]
 shijing__guofeng-tangfeng-001__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-tangfeng-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·唐風·001.2,蟋蟀在堂，歲聿其逝。今我不樂，日月其邁。無已大康，職思其外。好樂無荒，良士蹶蹶。,蟋蟀.2,"The cricket is in the hall,
 And the year is passing away.
 If we do not enjoy ourselves now,
@@ -14,7 +21,14 @@ The days and months will have gone.
 But let us not go to great excess;
 Let us first send our thoughts beyond the present;
 Let us not be wild in our love of enjoyment.
-The good man is ever diligent."
+The good man is ever diligent.","The cricket is in the hall,
+And the year is passing away.
+If we do not enjoy ourselves now,
+The days and months will have gone.
+But let us not go to great excess;
+Let us first send our thoughts beyond the present;
+Let us not be wild in our love of enjoyment.
+The good man is ever diligent.",[]
 shijing__guofeng-tangfeng-001__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-tangfeng-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·唐風·001.3,蟋蟀在堂，役車其休。今我不樂，日月其慆。無已大康，職思其憂。好樂無荒，良士休休。,蟋蟀.3,"The cricket is in the hall,
 And our carts stand unemployed.
 If we do not enjoy ourselves now,
@@ -22,4 +36,11 @@ The days and months will have gone by,
 But let us not go to an excess;
 Let us first think of the griefs that may arise;
 Let us not be wild in our love of enjoyment.
-The good man is quiet and serene."
+The good man is quiet and serene.","The cricket is in the hall,
+And our carts stand unemployed.
+If we do not enjoy ourselves now,
+The days and months will have gone by,
+But let us not go to an excess;
+Let us first think of the griefs that may arise;
+Let us not be wild in our love of enjoyment.
+The good man is quiet and serene.",[]

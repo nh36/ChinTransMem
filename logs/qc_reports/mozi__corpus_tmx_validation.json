@@ -26,7 +26,7 @@
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mozi__mozi-003-that-which-is-affectable__aligned_passages.tmx",
       "work_id": "mozi",
       "section_id": "mozi-003-that-which-is-affectable",
-      "tu_count": 10,
+      "tu_count": 1,
       "source_language": "zh-Hant",
       "target_language": "en"
     },
@@ -279,7 +279,7 @@
     "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/mozi__all__aligned_passages.tmx",
     "work_id": "mozi",
     "section_id": null,
-    "tu_count": 663,
+    "tu_count": 654,
     "source_language": "zh-Hant",
     "target_language": "en"
   }

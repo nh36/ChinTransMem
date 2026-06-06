@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-chengong-002__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·臣工之什·002.1,"噫嘻成王，既昭假爾，率時農夫，播厥百穀。
 駿發爾私，終三十里，亦服爾耕，十千維耦。",噫嘻.1,"Oh! yes, king Khăng
 Brightly brought himself near.
@@ -7,4 +7,11 @@ To sow their various kinds of grain,
 Going vigorously to work ​on your private fields,
 All over the thirty lî.
 Attend to your ploughing,
-With your ten thousand men all in pairs."
+With your ten thousand men all in pairs.","Oh! yes, king Khăng
+Brightly brought himself near.
+Lead your husbandmen
+To sow their various kinds of grain,
+Going vigorously to work ​on your private fields,
+All over the thirty lî.
+Attend to your ploughing,
+With your ten thousand men all in pairs.",[]

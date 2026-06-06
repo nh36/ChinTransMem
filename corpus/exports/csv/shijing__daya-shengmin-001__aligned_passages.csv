@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__daya-shengmin-001__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-shengmin-001,poem,poem,poem,True,Whole-poem fallback because the English witness merges 8 Chinese stanzas into 3 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·大雅·生民之什·001.1,"厥初生民，時維姜嫄。生民如何？克禋克祀，以弗無子。
 履帝武敏歆，攸介攸止。載震載夙，載生載育。時維后稷。
 
@@ -51,4 +51,34 @@ And a bird screened and supported him with its wings.
 When the bird went away,
 Hâu-kî began to wail.
 His cry was long and loud,
-So that his voice filled the whole way."
+So that his voice filled the whole way.","The first birth of (our) people
+Was from Kiang Yüan.
+How did she give birth to (our) people?
+She had presented a pure offering and sacrificed,
+​That her childlessness might be taken away.
+She then trod on a toe-print made by God, and was moved,
+In the large place where she rested.
+She became pregnant; she dwelt retired;
+She gave birth to, and nourished (a son),
+Who was Hâu-kî.
+
+When she had fulfilled her months,
+Her firstborn son (came forth) like a lamb.
+There was no bursting, nor rending,
+No injury, no hurt;
+Showing how wonderful he would be.
+Did not God give her the comfort?
+w
+Had he not accepted her pure offering and sacrifice,
+So that thus easily she brought forth her son?
+
+He was placed in a narrow lane,
+But the sheep and oxen protected him with loving care.
+He was placed in a wide forest,
+Where he was met with by the wood-cutters.
+He was placed on the cold ice,
+And a bird screened and supported him with its wings.
+When the bird went away,
+Hâu-kî began to wail.
+His cry was long and loud,
+So that his voice filled the whole way.",[]

@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-beifeng-015__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-beifeng-015,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·邶風·015.1,"出自北門，憂心殷殷，終窶且貧，莫知我艱，已焉哉，天實為之，謂之何哉。
 王事適我，政事一埤益我，我入自外，室人交徧讁我，已焉哉，天實為之，謂之何哉。
 王事敦我，政事一埤遺我，我入自外，室人交徧摧我，已焉哉，天實為之，謂之何哉。",北門.1,"I go out at the north gate,
@@ -8,4 +8,11 @@ And no one takes knowledge of my distress.
 So it is!
 Heaven has done it;—
 What
-then shall I say?"
+then shall I say?","I go out at the north gate,
+With my heart full of sorrow.
+Straitened am I and poor,
+And no one takes knowledge of my distress.
+So it is!
+Heaven has done it;—
+What
+then shall I say?",[]

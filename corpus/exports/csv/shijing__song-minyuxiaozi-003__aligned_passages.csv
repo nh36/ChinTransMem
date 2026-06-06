@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-minyuxiaozi-003__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-minyuxiaozi-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·閔予小子之什·003.1,"敬之敬之，天維顯思。
 命不易哉！無曰高高在上。
 陟降厥士，日監在茲。",敬之.1,"Let me be reverent! Let me be reverent!
@@ -6,7 +6,12 @@ shijing__song-minyuxiaozi-003__001__zhwikisource-20260530__legge-sbe-v3-1879,shi
 And its appointment ​is not easily preserved.
 Let me not say that it is high aloft above me.
 It ascends and descends about our doings;
-It daily inspects us wherever we are."
+It daily inspects us wherever we are.","Let me be reverent! Let me be reverent!
+(The way of) Heaven is evident,
+And its appointment ​is not easily preserved.
+Let me not say that it is high aloft above me.
+It ascends and descends about our doings;
+It daily inspects us wherever we are.",[]
 shijing__song-minyuxiaozi-003__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-minyuxiaozi-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·頌·閔予小子之什·003.2,"維予小子，不聦敬止？
 日就月將，學有緝熙于光明。
 佛時仔肩，示我顯德行。",敬之.2,"I am a little child,
@@ -14,4 +19,9 @@ Without intelligence to be reverently (attentive to my duties);
 But by daily progress and monthly advance,
 I will learn to hold fast the gleams (of knowledge), till I arrive at bright intelligence.
 Assist me to bear the burden (of my position),
-And show me how to display a virtuous conduct."
+And show me how to display a virtuous conduct.","I am a little child,
+Without intelligence to be reverently (attentive to my duties);
+But by daily progress and monthly advance,
+I will learn to hold fast the gleams (of knowledge), till I arrive at bright intelligence.
+Assist me to bear the burden (of my position),
+And show me how to display a virtuous conduct.",[]

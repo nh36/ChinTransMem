@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-luming-001__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-luming-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·鹿鳴之什·001.1,"呦呦鹿鳴，食野之苹。我有嘉賓，鼓瑟吹笙。
 吹笙鼓簧，承筐是將。人之好我，示我周行。",鹿鳴.1,"With pleased sounds the deer call to one another,
 Eating the celery of the fields.
@@ -7,7 +7,14 @@ The lutes are struck, and the organ is blown for them; --
 The organ is blown till its tongues are all moving.
 The baskets of offerings also are presented to them.
 The men love me,
-And will show me the perfect path."
+And will show me the perfect path.","With pleased sounds the deer call to one another,
+Eating the celery of the fields.
+I have here admirable guests;
+The lutes are struck, and the organ is blown for them; --
+The organ is blown till its tongues are all moving.
+The baskets of offerings also are presented to them.
+The men love me,
+And will show me the perfect path.",[]
 shijing__xiaoya-luming-001__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-luming-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·鹿鳴之什·001.2,"呦呦鹿鳴，食野之蒿。我有嘉賓，德音孔昭。
 視民不恌，君子是則是傚。我有旨酒，嘉賓式燕以敖。",鹿鳴.2,"With pleased sounds the deer call to one another,
 Eating the southernwood of the fields.
@@ -16,7 +23,14 @@ Whose virtuous fame is grandly brilliant.
 They show the people not to be mean;
 The officers have in them a pattern and model.
 I have good wine,
-Which my admirable guests drink, enjoying themselves."
+Which my admirable guests drink, enjoying themselves.","With pleased sounds the deer call to one another,
+Eating the southernwood of the fields.
+I have here admirable guests,
+Whose virtuous fame is grandly brilliant.
+They show the people not to be mean;
+The officers have in them a pattern and model.
+I have good wine,
+Which my admirable guests drink, enjoying themselves.",[]
 shijing__xiaoya-luming-001__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-luming-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·鹿鳴之什·001.3,"呦呦鹿鳴，食野之芩。我有嘉賓，鼓瑟鼓琴。
 鼓瑟鼓琴，和樂且湛。我有旨酒，以燕樂嘉賓之心。",鹿鳴.3,"With pleased sounds the deer call to one another,
 Eating the salsola of the fields.
@@ -28,4 +42,14 @@ The excellence of their virtuous fame,
 Make the people imitate them.
 They have good wine,
 By which they entertain their admirable guests,
-To feast and make glad their hearts."
+To feast and make glad their hearts.","With pleased sounds the deer call to one another,
+Eating the salsola of the fields.
+I have here admirable guests,
+To feast and make glad their hearts.
+The pleasant sound of their lutes,
+The reverence of their deportment,
+The excellence of their virtuous fame,
+Make the people imitate them.
+They have good wine,
+By which they entertain their admirable guests,
+To feast and make glad their hearts.",[]

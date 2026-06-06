@@ -1,12 +1,20 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-zhaonan-012__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-012,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·召南·012.1,野有死麕，白茅包之，有女懷春，吉士誘之。,野有死麕.1,"In the wild there is a dead antelope,
 And it is wrapped up with the white grass.
 There is a young lady with thoughts natural to the spring,
-And a fine gentleman would lead her astray."
+And a fine gentleman would lead her astray.","In the wild there is a dead antelope,
+And it is wrapped up with the white grass.
+There is a young lady with thoughts natural to the spring,
+And a fine gentleman would lead her astray.",[]
 shijing__guofeng-zhaonan-012__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-012,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·召南·012.2,林有樸樕，野有死鹿，白茅純束，有女如玉。,野有死麕.2,"In the forest there are the scrubby oaks ;
 In the wild there is a dead deer,
 And it is bound round with the white grass.
-There is a young lady like a gem."
+There is a young lady like a gem.","In the forest there are the scrubby oaks ;
+In the wild there is a dead deer,
+And it is bound round with the white grass.
+There is a young lady like a gem.",[]
 shijing__guofeng-zhaonan-012__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-012,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·召南·012.3,舒而脫脫兮，無感我帨兮，無使尨也吠。,野有死麕.3,"[She says], Slowly, gently, gently;
 Do not move my handkerchief;
-Do not make my dog bark."
+Do not make my dog bark.","[She says], Slowly, gently, gently;
+Do not move my handkerchief;
+Do not make my dog bark.",[]

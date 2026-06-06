@@ -1,25 +1,45 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-nanyoujiayu-006__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-nanyoujiayu-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·南有嘉魚之什·006.1,蓼彼蕭斯，零露湑兮。既見君子，我心寫兮。燕笑語兮，是以有譽處兮。,蓼蕭.1,"How long grows the southernwood,
 With the dew lying on it so bright!
 Now that I see my noble men,
 My heart is entirely satisfied.
 As we feast, we laugh and talk; --
-It is right they should have fame and prosperity!"
+It is right they should have fame and prosperity!","How long grows the southernwood,
+With the dew lying on it so bright!
+Now that I see my noble men,
+My heart is entirely satisfied.
+As we feast, we laugh and talk; --
+It is right they should have fame and prosperity!",[]
 shijing__xiaoya-nanyoujiayu-006__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-nanyoujiayu-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·南有嘉魚之什·006.2,蓼彼蕭斯，零露瀼瀼。既見君子，為龍為光。其德不爽，壽考不忘。,蓼蕭.2,"How long grows the southernwood,
 With the dew lying on it so abundantly!
 Now that I see my noble men,
 I appreciate their favour and their brightness.
 Their virtue is without taint of error; --
-May they live long, and not be forgotten!"
+May they live long, and not be forgotten!","How long grows the southernwood,
+With the dew lying on it so abundantly!
+Now that I see my noble men,
+I appreciate their favour and their brightness.
+Their virtue is without taint of error; --
+May they live long, and not be forgotten!",[]
 shijing__xiaoya-nanyoujiayu-006__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-nanyoujiayu-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·南有嘉魚之什·006.3,蓼彼蕭斯，零露泥泥。既見君子，孔燕豈弟。宜兄宜弟，令德壽豈。,蓼蕭.3,"How high is the southernwood,
 All wet with the fallen dew!
 Now that I see my noble men,
 Grandly we feast, delighted and complacent.
 May their relations with their brothers be right!
-May they be happy in their excellent virtue to old age!"
+May they be happy in their excellent virtue to old age!","How high is the southernwood,
+All wet with the fallen dew!
+Now that I see my noble men,
+Grandly we feast, delighted and complacent.
+May their relations with their brothers be right!
+May they be happy in their excellent virtue to old age!",[]
 shijing__xiaoya-nanyoujiayu-006__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-nanyoujiayu-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·小雅·南有嘉魚之什·006.4,蓼彼蕭斯，零露濃濃。既見君子，鞗革忡忡。和鸞雝雝，萬福攸同。,蓼蕭.4,"How high is the southernwood,
 With the dew lying on it so richly!
 I have seen my noble men,
 With the ends of their reins hanging down,
 With the bells tinkling on their cross-boards and bits.
-May all happiness gather upon them."
+May all happiness gather upon them.","How high is the southernwood,
+With the dew lying on it so richly!
+I have seen my noble men,
+With the ends of their reins hanging down,
+With the bells tinkling on their cross-boards and bits.
+May all happiness gather upon them.",[]

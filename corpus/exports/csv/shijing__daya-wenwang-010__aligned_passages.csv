@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__daya-wenwang-010__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·大雅·文王之什·010.1,"文王有聲，遹駿有聲。遹求厥寧，遹觀厥成。文王烝哉。
 文王受命，有此武功。既伐于崇，作邑于豐。文王烝哉。
 築城伊淢，作豐伊匹。匪棘其欲，遹追來孝。王后烝哉。
@@ -6,7 +6,11 @@ shijing__daya-wenwang-010__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing
 Yea, he is very famous.
 What he sought was the repose (of the people);
 What he saw was the completion (of his work).
-A sovereign true was king Wăn!"
+A sovereign true was king Wăn!","King Wăn is famous;
+Yea, he is very famous.
+What he sought was the repose (of the people);
+What he saw was the completion (of his work).
+A sovereign true was king Wăn!",[]
 shijing__daya-wenwang-010__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·大雅·文王之什·010.2,"豐水東注，維禹之績。四方攸同，皇王維辟。皇王烝哉。
 鎬京辟廱，自西自東。自南自北，無思不服。皇王烝哉。
 考卜維王，宅是鎬京。維龜正之，武王成之。武王烝哉。
@@ -14,4 +18,8 @@ shijing__daya-wenwang-010__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing
 And achieved his martial success.
 Having overthrown Khung
 He fixed his (capital) city in Făng.
-A sovereign true was king Wăn!"
+A sovereign true was king Wăn!","King Wăn received the appointment (from Heaven),
+And achieved his martial success.
+Having overthrown Khung
+He fixed his (capital) city in Făng.
+A sovereign true was king Wăn!",[]

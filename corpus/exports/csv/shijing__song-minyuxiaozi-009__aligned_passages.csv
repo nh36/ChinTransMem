@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-minyuxiaozi-009__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-minyuxiaozi-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·閔予小子之什·009.1,"綏萬邦，婁豐年，天命匪解。
 桓桓武王，保有厥士，于以四方。克定厥家。
 於昭于天，皇以間之。",桓.1,"There is peace throughout our myriad regions.
@@ -10,4 +10,13 @@ Maintained (the confidence of) his officers,
 And employed them all over the kingdom,
 So securing the establishment of his family.
 Oh! glorious was he in the sight of Heaven,
-Which kinged him in the room (of Shang)."
+Which kinged him in the room (of Shang).","There is peace throughout our myriad regions.
+There has been a succession of plentiful years:—
+Heaven
+does not weary in its favour.
+The martial king Wû
+Maintained (the confidence of) his officers,
+And employed them all over the kingdom,
+So securing the establishment of his family.
+Oh! glorious was he in the sight of Heaven,
+Which kinged him in the room (of Shang).",[]

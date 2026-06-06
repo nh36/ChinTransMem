@@ -1,10 +1,14 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-chengong-001__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·臣工之什·001.1,"嗟嗟臣工，敬爾在公。王釐爾成，來咨來茹。
 嗟嗟保介，維莫之春，亦又何求？如何新畬？",臣工.1,"Ah! ah! ministers and officers,
 Reverently attend to your public duties.
 The king has given you perfect rules;—
 Consult
-about them, and consider them."
+about them, and consider them.","Ah! ah! ministers and officers,
+Reverently attend to your public duties.
+The king has given you perfect rules;—
+Consult
+about them, and consider them.",[]
 shijing__song-chengong-001__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·頌·臣工之什·001.2,"於皇來牟，將受厥明。明昭上帝，迄用康年。
 命我衆人，庤乃錢鎛。奄觀銍艾。",臣工.2,"Ah! ah! ye assistants,
 It is now the end of ​spring;
@@ -16,4 +20,14 @@ Will in them give us a good year.
 Order all our men
 To be provided with their spuds and hoes:—
 Anon
-we shall see the sickles at work."
+we shall see the sickles at work.","Ah! ah! ye assistants,
+It is now the end of ​spring;
+And what have ye to seek for?
+(Only) how to manage the new fields and those of the third year.
+How beautiful are the wheat and the barley!
+The bright and glorious God
+Will in them give us a good year.
+Order all our men
+To be provided with their spuds and hoes:—
+Anon
+we shall see the sickles at work.",[]

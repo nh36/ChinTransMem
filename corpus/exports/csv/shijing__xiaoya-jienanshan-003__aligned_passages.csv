@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-jienanshan-003__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-003,poem,poem,poem,True,Whole-poem fallback because the English witness merges 8 Chinese stanzas into 6 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·節南山之什·003.1,"十月之交，朔月辛卯。日有食之，亦孔之醜。
 彼月而微，此日而微。今此下民，亦孔之哀。
 
@@ -75,4 +75,58 @@ All of them possessed of great wealth.
 He could not bring himself to leave a single minister,
 Who might guard our king.
 He (also) selected those who had chariots and horses,
-To go and reside in Hsiang."
+To go and reside in Hsiang.","At the conjunction (of the sun and moon) in the tenth month,
+On the first day of the moon, which was hsin-mâo,
+The sun was eclipsed,
+A thing of very evil omen.
+Before, the moon became small,
+And now the sun became small.
+Henceforth the lower people
+Will be in a very deplorable case.
+
+The sun and moon announce evil,
+Not keeping to their proper paths.
+Throughout the kingdom there is no (proper) government,
+Because the good are not employed.
+For the moon to be eclipsed
+Is but an ordinary matter.
+Now that the sun has been eclipsed,—
+How
+bad it is!
+
+Grandly flashes the lightning of the thunder.
+There is a want of rest, a want of good.
+The streams all bubble up and overflow.
+The crags on the hill-tops fall down.
+High banks become valleys;
+Deep valleys become hills.
+Alas for the men of this time!
+How does (the king) not stop these things?
+
+Hwang-fû is the President;
+Fan is the Minister
+​of Instruction;
+Kiâ-po is the (chief) Administrator;
+Kung-yün is the chief Cook;
+Zâu is the Recorder of the Interior;
+Khwei is Master of the Horse;
+Yü is Captain of the Guards;
+And the beautiful wife blazes, now in possession of her place.
+
+This Hwang-fû
+Will not acknowledge that he is acting out of season.
+But why does he call us to move,
+Without coming and consulting with us?
+He has removed our walls and roofs;
+And our fields are all either a marsh or a moor.
+He says, 'I am not injuring you;
+The laws require that thus it should be.'
+
+Hwang-fû is very wise;
+He has built a great city for himself in Hsiang.
+He chose three men as his ministers,
+All of them possessed of great wealth.
+He could not bring himself to leave a single minister,
+Who might guard our king.
+He (also) selected those who had chariots and horses,
+To go and reside in Hsiang.",[]

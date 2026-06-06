@@ -1,11 +1,11 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
-laozi-chapter-045__align-001,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,1,老子 45.1,大成若缺，,老子 45.1,Who thinks his great achievements poor
-laozi-chapter-045__align-002,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,2,老子 45.2,其用不弊。,老子 45.2,Shall find his vigour long endure.
-laozi-chapter-045__align-003,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,3,老子 45.3,大盈若沖，,老子 45.3,"Of greatest fulness, deemed a void,"
-laozi-chapter-045__align-004,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,4,老子 45.4,其用不窮。,老子 45.4,Exhaustion never shall stem the tide.
-laozi-chapter-045__align-005,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,5,老子 45.5,大直若屈，,老子 45.5,Do thou what's straight still crooked deem;
-laozi-chapter-045__align-006,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,6,老子 45.6,大巧若拙，,老子 45.6,"Thy greatest art still stupid seem,"
-laozi-chapter-045__align-007,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,7,老子 45.7,大辯若訥。,老子 45.7,And eloquence a stammering scream.
-laozi-chapter-045__align-008,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,8,老子 45.8,躁勝寒，,老子 45.8,Constant action overcomes cold;
-laozi-chapter-045__align-009,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,9,老子 45.9,靜勝熱。,老子 45.9,being still overcomes heat.
-laozi-chapter-045__align-010,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,10,老子 45.10,清靜為天下正。,老子 45.10,Purity and stillness give the correct law to all under heaven.
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
+laozi-chapter-045__align-001,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,1,老子 45.1,大成若缺，,老子 45.1,Who thinks his great achievements poor,Who thinks his great achievements poor,[]
+laozi-chapter-045__align-002,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,2,老子 45.2,其用不弊。,老子 45.2,Shall find his vigour long endure.,Shall find his vigour long endure.,[]
+laozi-chapter-045__align-003,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,3,老子 45.3,大盈若沖，,老子 45.3,"Of greatest fulness, deemed a void,","Of greatest fulness, deemed a void,",[]
+laozi-chapter-045__align-004,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,4,老子 45.4,其用不窮。,老子 45.4,Exhaustion never shall stem the tide.,Exhaustion never shall stem the tide.,[]
+laozi-chapter-045__align-005,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,5,老子 45.5,大直若屈，,老子 45.5,Do thou what's straight still crooked deem;,Do thou what's straight still crooked deem;,[]
+laozi-chapter-045__align-006,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,6,老子 45.6,大巧若拙，,老子 45.6,"Thy greatest art still stupid seem,","Thy greatest art still stupid seem,",[]
+laozi-chapter-045__align-007,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,7,老子 45.7,大辯若訥。,老子 45.7,And eloquence a stammering scream.,And eloquence a stammering scream.,[]
+laozi-chapter-045__align-008,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,8,老子 45.8,躁勝寒，,老子 45.8,Constant action overcomes cold;,Constant action overcomes cold;,[]
+laozi-chapter-045__align-009,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,9,老子 45.9,靜勝熱。,老子 45.9,being still overcomes heat.,being still overcomes heat.,[]
+laozi-chapter-045__align-010,laozi,laozi-chapter-045,chapter,sentence,sentence,False,,1,1,exact_or_near_exact,1.0,10,老子 45.10,清靜為天下正。,老子 45.10,Purity and stillness give the correct law to all under heaven.,Purity and stillness give the correct law to all under heaven.,[]

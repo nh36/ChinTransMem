@@ -1,9 +1,15 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-qinfeng-009__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qinfeng-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·秦風·009.1,我送舅氏，曰至渭陽。何以贈之，路車乘黃。,渭陽.1,"I escorted my mother's nephew,
 To the north of the Wei
 What did I present to him ?
-Four bay horses for his carriage of state."
+Four bay horses for his carriage of state.","I escorted my mother's nephew,
+To the north of the Wei
+What did I present to him ?
+Four bay horses for his carriage of state.",[]
 shijing__guofeng-qinfeng-009__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qinfeng-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·秦風·009.2,我送舅氏，悠悠我思。何以贈之，瓊瑰玉佩。,渭陽.2,"I escorted my mother's nephew;
 Long, long did I think of him.
 What did I present to him ?
-A precious jasper, and gems for his girdle-pendant."
+A precious jasper, and gems for his girdle-pendant.","I escorted my mother's nephew;
+Long, long did I think of him.
+What did I present to him ?
+A precious jasper, and gems for his girdle-pendant.",[]

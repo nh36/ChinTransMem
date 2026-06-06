@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-minyuxiaozi-008__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-minyuxiaozi-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·閔予小子之什·008.1,"於鑠王師，遵養時晦。時純熙矣，是用大介。
 我龍受之，蹻蹻王之造。載用有嗣，實維爾公。
 允師。",酌.1,"Oh! powerful was the king's army,
@@ -8,4 +8,11 @@ He thereupon donned his grand armour.
 We have been favoured to receive
 What the martial king accomplished.
 To deal aright with what we have inherited,
-We have to be sincere imitators of thy course, (O king)."
+We have to be sincere imitators of thy course, (O king).","Oh! powerful was the king's army,
+But he nursed it, in obedience to circumstances, while the ​time was yet dark.
+When the time was clearly bright,
+He thereupon donned his grand armour.
+We have been favoured to receive
+What the martial king accomplished.
+To deal aright with what we have inherited,
+We have to be sincere imitators of thy course, (O king).",[]

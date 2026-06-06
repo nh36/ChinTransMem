@@ -1,10 +1,16 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-qifeng-003__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-qifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·齊風·003.1,俟我於著乎而，充耳以素乎而，尚之以瓊華乎而。,著.1,"He was waiting for me between the door and the screen.
 The strings of his ear-stoppers were of white silk,
-And there were appended to them beautiful Hua-stones."
+And there were appended to them beautiful Hua-stones.","He was waiting for me between the door and the screen.
+The strings of his ear-stoppers were of white silk,
+And there were appended to them beautiful Hua-stones.",[]
 shijing__guofeng-qifeng-003__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-qifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·齊風·003.2,俟我於庭乎而，充耳以青乎而，尚之以瓊瑩乎而。,著.2,"He was waiting for me in the open court.
 The strings of his ear-stoppers were of green silk,
-And there were appended to them beautiful Ying-stones."
+And there were appended to them beautiful Ying-stones.","He was waiting for me in the open court.
+The strings of his ear-stoppers were of green silk,
+And there were appended to them beautiful Ying-stones.",[]
 shijing__guofeng-qifeng-003__003__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-qifeng-003,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·齊風·003.3,俟我於堂乎而，充耳以黃乎而，尚之以瓊英乎而。,著.3,"He was waiting for me in the hall.
 The strings of his ear-stoppers were of yellow silk,
-And there were appended to them beautiful Ying-stones."
+And there were appended to them beautiful Ying-stones.","He was waiting for me in the hall.
+The strings of his ear-stoppers were of yellow silk,
+And there were appended to them beautiful Ying-stones.",[]

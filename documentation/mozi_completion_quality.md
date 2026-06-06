@@ -9,11 +9,11 @@ Generated from `logs/qc_reports/mozi__alignment_qc.json`.
 - Active sections: 30
 - Exportable sections: 30
 - English witness: Archive.org DjVu OCR capture of Yi-Pao Mei, The Works of Motse from the Chinese (1929) for the translated chapter subset
-- Exact alignments: 663
-- Automatic fine-grained alignments: 663
-- Total processed alignment records: 693
+- Exact alignments: 654
+- Automatic fine-grained alignments: 654
+- Total processed alignment records: 684
 - Curated override sections: 1
-- Remaining coarse fallbacks: 8
+- Remaining coarse fallbacks: 9
 - Blocked sections: 22
 - Hard failures: 0
 - Corruption issues before repair: 532
@@ -25,19 +25,20 @@ Generated from `logs/qc_reports/mozi__alignment_qc.json`.
 - Note/commentary leakage issues repaired: 0
 - Note/commentary leakage issues remaining: 0
 - Alignment drift checks run: 30
-- Drift issues before repair: 2
-- Drift issues repaired: 2
-- Drift issues remaining: 0
+- Drift issues before repair: 3
+- Drift issues repaired: 0
+- Drift issues remaining: 4
 
 ## Alignment granularity
 
-- chapter: 8
-- grouped: 655
+- chapter: 9
+- grouped: 645
 
 ## Remaining fallbacks
 
 - `mozi-001-make-close-the-scholars`: ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; retained chapter-level fallback after OCR repair.
 - `mozi-002-self-cultivation`: ChineseNotes source segmentation remains too coarse for grouped alignment at this chapter scale; retained chapter-level fallback after OCR repair.
+- `mozi-003-that-which-is-affectable`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Anchor drift remains after repair: four-good-kings (missing_or_ambiguous_target_anchor); four-bad-kings (missing_or_ambiguous_target_anchor); six-bad-princes (missing_or_ambiguous_target_anchor); good-friends (missing_or_ambiguous_target_anchor)).
 - `mozi-018-condemnation-of-offensive-war-ii`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-018-condemnation-of-offensive-war-ii: group 18: target segment length/structure imbalance suggests missing grouping; group 31: target segment length/structure imbalance suggests missing grouping; group 38: target segment length/structure imbalance suggests missing grouping; group 39: target segment length/structure imbalance suggests missing grouping; group 40: target segment length/structure imbalance suggests missing grouping).
 - `mozi-025-on-ghosts-iii`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-025-on-ghosts-iii: group 25: source/target question punctuation mismatch ('非惟若書之說為然也，昔者宋文君鮑之時，有臣曰礻後觀辜固嘗從事於厲，祩子杖揖出與言曰：「觀辜！是何珪璧之不滿度量？酒醴粢盛之不淨潔也？犧牲之不全肥？春秋冬夏選失時？' vs 'While the ministers and secretaries should spare no pains at work, they may not make the standard at will There are the high duke and feudal lords to give them the standard.')).
 - `mozi-027-anti-fatalism-i`: English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Alignment QC failed for mozi-027-anti-fatalism-i: group 30: target segment length/structure imbalance suggests missing grouping).

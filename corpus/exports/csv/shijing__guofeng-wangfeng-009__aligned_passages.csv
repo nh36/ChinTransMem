@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-wangfeng-009__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-wangfeng-009,poem,poem,poem,True,Whole-poem fallback because the English witness expands 1 Chinese stanzas into 2 English blocks that cannot be matched safely.,1,1,exact_or_near_exact,0.95,1,詩經·國風·王風·009.1,"大車檻檻，毳衣如菼。豈不爾思，畏子不敢。
 大車啍啍，毳衣如璊。豈不爾思，畏子不奔。
 穀則異室，死則同穴。謂予不信，有如皦日。",大車.1,"His great carriage rolls along,
@@ -9,4 +9,12 @@ But I am afraid of this officer, and dare not (fly to you).
 While living we may have to occupy different apartments;
 But, when dead, we shall share the same grave.
 If you say that I am not sincere,
-By the bright sun I swear that I am."
+By the bright sun I swear that I am.","His great carriage rolls along,
+And his robes of rank glitter like the young sedge.
+Do I not think of you?
+But I am afraid of this officer, and dare not (fly to you).
+
+While living we may have to occupy different apartments;
+But, when dead, we shall share the same grave.
+If you say that I am not sincere,
+By the bright sun I swear that I am.",[]

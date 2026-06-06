@@ -1,13 +1,22 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-zhaonan-009__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·召南·009.1,摽有梅，其實七兮，求我庶士，迨其吉兮。,摽有梅.1,"Dropping are the fruits from the plum-tree;
 There are [but] seven [tenths] of them left !
 For the gentlemen who seek me,
-This is the fortunate time !"
+This is the fortunate time !","Dropping are the fruits from the plum-tree;
+There are [but] seven [tenths] of them left !
+For the gentlemen who seek me,
+This is the fortunate time !",[]
 shijing__guofeng-zhaonan-009__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·召南·009.2,摽有梅，其實三兮，求我庶士，迨其今兮。,摽有梅.2,"Dropping are the fruits from the plum-tree ;
 There are [but] three [tenths] of them left !
 For the gentlemen who seek me,
-Now is the time."
+Now is the time.","Dropping are the fruits from the plum-tree ;
+There are [but] three [tenths] of them left !
+For the gentlemen who seek me,
+Now is the time.",[]
 shijing__guofeng-zhaonan-009__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·召南·009.3,摽有梅，頃筐塈之，求我庶士，迨其謂之。,摽有梅.3,"Dropt are the fruits from the plum-tree ;
 In my shallow basket I have collected them.
 Would the gentlemen who seek me
-[Only] speak about it !"
+[Only] speak about it !","Dropt are the fruits from the plum-tree ;
+In my shallow basket I have collected them.
+Would the gentlemen who seek me
+[Only] speak about it !",[]

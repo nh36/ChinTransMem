@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-luming-005__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-luming-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·鹿鳴之什·005.1,"伐木丁丁，鳥鳴嚶嚶。出自幽谷，遷于喬木。嚶其鳴矣，求其友聲。
 相彼鳥矣，猶求友聲。矧伊人矣，不求友生。神之聽之，終和且平。
 伐木許許，釃酒有藇。既有肥羜，以速諸父。寧適不來？微我弗顧。
@@ -15,4 +15,15 @@ Bird as it is, seeking with its voice its companion;
 And shall a man
 Not seek to have his friends?
 Spiritual beings will then hearken to him;
-He shall have harmony and peace."
+He shall have harmony and peace.","On the trees go the blows kăng-kăng;
+And the birds cry out ying-ying.
+One issues from the dark valley,
+And removes to the lofty tree.
+Ying goes its cry,
+Seeking with its voice its companion.
+Look at the bird,
+Bird as it is, seeking with its voice its companion;
+And shall a man
+Not seek to have his friends?
+Spiritual beings will then hearken to him;
+He shall have harmony and peace.",[]

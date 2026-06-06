@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-tangfeng-006__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-tangfeng-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·唐風·006.1,"有杕之杜，其葉湑湑。獨行踽踽，豈無他人？不如我同父，嗟行之人，胡不比焉？人無兄弟，胡不佽焉？
 有杕之杜，其葉菁菁。獨行睘睘，豈無他人？不如我同姓，嗟行之人，胡不比焉？人無兄弟，胡不佽焉？",杕杜.1,"There is a solitary russet pear tree,
 [But] its leaves are luxuriant.
@@ -8,7 +8,15 @@ But none are like the sons of one's father.
 O ye travellers,
 Why do ye not sympathize with me?
 Without brothers as I am,
-Why do ye not help me?"
+Why do ye not help me?","There is a solitary russet pear tree,
+[But] its leaves are luxuriant.
+Alone I walk unbefriended; -
+Is it because there are no other people?
+But none are like the sons of one's father.
+O ye travellers,
+Why do ye not sympathize with me?
+Without brothers as I am,
+Why do ye not help me?",[]
 shijing__guofeng-tangfeng-006__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-tangfeng-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·唐風·006.2,"有杕之杜，有睆其實。王事靡盬，繼嗣我日。日月陽止，女心傷止，征夫遑止。
 有杕之杜，其葉萋萋。王事靡盬，我心傷悲。卉木萋止，女心悲止，征夫歸止。
 陟彼北山，言采其杞。王事靡盬，憂我父母。檀車幝幝，四牡痯痯，征夫不遠。
@@ -20,4 +28,12 @@ But none are like those of one's own surname.
 O ye travellers,
 Why do ye not sympathize with me?
 Without brothers as I am,
-Why do ye not help me?"
+Why do ye not help me?","There is a solitary russet pear tree,
+[But] its leaves are abundant.
+Alone I walk uncared for; -
+Is it that there are not other people?
+But none are like those of one's own surname.
+O ye travellers,
+Why do ye not sympathize with me?
+Without brothers as I am,
+Why do ye not help me?",[]

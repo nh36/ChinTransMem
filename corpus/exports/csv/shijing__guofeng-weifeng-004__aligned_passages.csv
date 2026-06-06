@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-weifeng-004__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-weifeng-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·衛風·004.1,"氓之蚩蚩，抱布貿絲。匪來貿絲，來即我謀。送子涉淇，至于頓丘。匪我愆期，子無良媒。將子無怒，秋以為期。
 乘彼垝垣，以望復關。不見復關，泣涕漣漣。既見復關，載笑載言。爾卜爾筮，體無咎言。以爾車來，以我賄遷。
 桑之未落，其葉沃若。于嗟鳩兮，無食桑葚。于嗟女兮，無與士耽。士之耽兮，猶可說也。女之耽兮，不可說也。",氓.1,"A simple-looking lad you were,
@@ -12,7 +12,18 @@ As far as Tun-khiû,
 'It is not I,' (I said), 'who would protract the time;
 But you have had no good go-between.
 I pray you be not angry,
-And let autumn be the time.'"
+And let autumn be the time.'","A simple-looking lad you were,
+Carrying cloth
+​to exchange it for silk.
+(But) you came not so to purchase silk;—
+You
+came to make proposals to me.
+I convoyed you through the Khî,
+As far as Tun-khiû,
+'It is not I,' (I said), 'who would protract the time;
+But you have had no good go-between.
+I pray you be not angry,
+And let autumn be the time.'",[]
 shijing__guofeng-weifeng-004__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,guofeng-weifeng-004,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·衛風·004.2,"桑之落矣，其黃而隕。自我徂爾，三歲食貧。淇水湯湯，漸車帷裳。女也不爽，士貳其行。士也罔極，二三其德。
 三歲為婦，靡室勞矣。夙興夜寐，靡有朝矣。言既遂矣，至于暴矣。兄弟不知，咥其笑矣。靜言思之，躬自悼矣。
 及爾偕老，老使我怨。淇則有岸，隰則有泮。總角之宴，言笑晏晏。信誓旦旦，不思其反。反是不思，亦已焉哉。",氓.2,"I ascended that ruinous wall,
@@ -24,4 +35,13 @@ I laughed and I spoke.
 You had consulted, (you said), the tortoise-shell and the divining stalks,
 And there was nothing unfavourable in their response.
 'Then come,' (I said), 'with your carriage,
-And I will remove with my goods.'"
+And I will remove with my goods.'","I ascended that ruinous wall,
+To look towards Fû-kwan;
+And when I saw (you) not (coming from) it,
+My tears flowed in streams.
+When I did see (you coming from) Fû-kwan,
+I laughed and I spoke.
+You had consulted, (you said), the tortoise-shell and the divining stalks,
+And there was nothing unfavourable in their response.
+'Then come,' (I said), 'with your carriage,
+And I will remove with my goods.'",[]

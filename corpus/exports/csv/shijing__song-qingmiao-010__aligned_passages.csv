@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-qingmiao-010__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-qingmiao-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·清廟之什·010.1,"思文后稷，克配彼天。立我烝民，莫匪爾極。
 貽我來牟，帝命率育，無此疆爾界，陳常于時夏。",思文.1,"O accomplished Hâu-kî,
 Thou didst prove thyself the correlate of Heaven.
@@ -8,4 +8,12 @@ immense gift of thy goodness.
 Thou didst confer on us the wheat and the barley,
 Which God appointed for the nourishment of all.
 And without distinction of territory or boundary,
-The rules of social duty were diffused throughout these great regions."
+The rules of social duty were diffused throughout these great regions.","O accomplished Hâu-kî,
+Thou didst prove thyself the correlate of Heaven.
+Thou didst give grain-food to our multitudes:—
+The
+immense gift of thy goodness.
+Thou didst confer on us the wheat and the barley,
+Which God appointed for the nourishment of all.
+And without distinction of territory or boundary,
+The rules of social duty were diffused throughout these great regions.",[]

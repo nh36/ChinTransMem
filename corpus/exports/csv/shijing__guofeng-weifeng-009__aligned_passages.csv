@@ -1,13 +1,22 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-weifeng-009__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·衛風·009.1,有狐綏綏，在彼淇梁，心之憂矣，之子無裳。,有狐.1,"There is a fox, solitary and suspicious,
 At that deep ford of the K'e.
 My heart is sad; —
-That man has no lower garment."
+That man has no lower garment.","There is a fox, solitary and suspicious,
+At that deep ford of the K'e.
+My heart is sad; —
+That man has no lower garment.",[]
 shijing__guofeng-weifeng-009__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·衛風·009.2,有狐綏綏，在彼淇厲，心之憂矣，之子無帶。,有狐.2,"There is a fox, solitary and suspicious,
 At that deep ford of the K'e.
 My heart is sad; —
-That man has no girdle."
+That man has no girdle.","There is a fox, solitary and suspicious,
+At that deep ford of the K'e.
+My heart is sad; —
+That man has no girdle.",[]
 shijing__guofeng-weifeng-009__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·衛風·009.3,有狐綏綏，在彼淇側，心之憂矣，之子無服。,有狐.3,"There is a fox, solitary and suspicious,
 By the side there of the K'e.
 My heart is sad; —
-That man has no clothes."
+That man has no clothes.","There is a fox, solitary and suspicious,
+By the side there of the K'e.
+My heart is sad; —
+That man has no clothes.",[]

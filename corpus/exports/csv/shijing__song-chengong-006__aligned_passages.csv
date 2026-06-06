@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-chengong-006__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-chengong-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·臣工之什·006.1,"猗與漆沮，潛有多魚。
 有鱣有鮪，鰷鱨鰋鯉。
 以享以祀，以介景福。",潛.1,"Oh! in the Khî and the Khü,
@@ -8,4 +8,11 @@ large and snouted,
 Thryssas, yellow-jaws, mud-fish, and carp;—
 For
 offerings, for sacrifice,
-That our bright happiness may be increased."
+That our bright happiness may be increased.","Oh! in the Khî and the Khü,
+There are many fish in the warrens;—
+Sturgeons,
+large and snouted,
+Thryssas, yellow-jaws, mud-fish, and carp;—
+For
+offerings, for sacrifice,
+That our bright happiness may be increased.",[]

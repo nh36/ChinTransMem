@@ -1,13 +1,23 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-qinfeng-005__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qinfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·秦風·005.1,終南何有，有條有梅。君子至止，錦衣狐裘。顏如渥丹，其君也哉。,終南.1,"What are there on Chung-nan?
 There are white firs and plum trees.
 Our prince has arrived at it,
 Wearing an embroidered robe over his fox-fur,
 And with his countenance rouged as with vermilion.
-May he prove a ruler indeed!"
+May he prove a ruler indeed!","What are there on Chung-nan?
+There are white firs and plum trees.
+Our prince has arrived at it,
+Wearing an embroidered robe over his fox-fur,
+And with his countenance rouged as with vermilion.
+May he prove a ruler indeed!",[]
 shijing__guofeng-qinfeng-005__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qinfeng-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·秦風·005.2,終南何有，有紀有堂。君子至止，黻衣繡裳。佩玉將將，壽考不亡。,終南.2,"What are there on Chung-nan?
 There are nooks and open glades.
 Our prince has arrived at it,
 With the symbol of distinction embroidered on his lower skirt,
 And the gems at his girdle emitting their tinkling.
-May long life and an endless name be his?"
+May long life and an endless name be his?","What are there on Chung-nan?
+There are nooks and open glades.
+Our prince has arrived at it,
+With the symbol of distinction embroidered on his lower skirt,
+And the gems at his girdle emitting their tinkling.
+May long life and an endless name be his?",[]

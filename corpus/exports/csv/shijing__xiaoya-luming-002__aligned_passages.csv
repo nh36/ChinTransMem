@@ -1,26 +1,46 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-luming-002__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-luming-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·鹿鳴之什·002.1,四牡騑騑，周道倭遲。豈不懷歸？王事靡盬，我心傷悲。,四牡.1,"My four steeds advanced without stopping;
 The way from Zhou was winding and tedious.
 Did I not have the wish to return?
 But the king's business was not to be slackly performed;
-And my heart was wounded with sadness."
+And my heart was wounded with sadness.","My four steeds advanced without stopping;
+The way from Zhou was winding and tedious.
+Did I not have the wish to return?
+But the king's business was not to be slackly performed;
+And my heart was wounded with sadness.",[]
 shijing__xiaoya-luming-002__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-luming-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·鹿鳴之什·002.2,四牡騑騑，嘽嘽駱馬。豈不懷歸？王事靡盬，不遑啟處。,四牡.2,"My four steeds advanced without stopping;
 They panted and snorted, the white steeds black-maned.
 Did I not have the wish to return?
 But the king's business was not to be slackly performed;
-And I had not leisure to kneel or to sit."
+And I had not leisure to kneel or to sit.","My four steeds advanced without stopping;
+They panted and snorted, the white steeds black-maned.
+Did I not have the wish to return?
+But the king's business was not to be slackly performed;
+And I had not leisure to kneel or to sit.",[]
 shijing__xiaoya-luming-002__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-luming-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·鹿鳴之什·002.3,翩翩者鵻，載飛載下，集于苞栩。王事靡盬，不遑將父。,四牡.3,"The Filial doves keep flying about,
 Now soaring aloft, and now descending,
 Collecting on the bushy oaks;
 But the king's business was not to be slackly performed;
-And I had not leisure to nourish my father."
+And I had not leisure to nourish my father.","The Filial doves keep flying about,
+Now soaring aloft, and now descending,
+Collecting on the bushy oaks;
+But the king's business was not to be slackly performed;
+And I had not leisure to nourish my father.",[]
 shijing__xiaoya-luming-002__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-luming-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·小雅·鹿鳴之什·002.4,翩翩者鵻，載飛載止，集于苞杞。王事靡盬，不遑將母。,四牡.4,"The Filial doves keep flying about,
 Now flying, now stopping,
 Collecting on the bushy medlars;
 But the king's business was not to be slackly performed;
-And I had not leisure to nourish my mother."
+And I had not leisure to nourish my mother.","The Filial doves keep flying about,
+Now flying, now stopping,
+Collecting on the bushy medlars;
+But the king's business was not to be slackly performed;
+And I had not leisure to nourish my mother.",[]
 shijing__xiaoya-luming-002__005__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-luming-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,5,詩經·小雅·鹿鳴之什·002.5,駕彼四駱，載驟駸駸。豈不懷歸？是用作歌，將母來諗。,四牡.5,"I yoked my four white steeds, black-maned;
 They hurried away with speed.
 But did I not wish to return?
 Therefore I make this song,
-Announcing my wish to nourish my mother."
+Announcing my wish to nourish my mother.","I yoked my four white steeds, black-maned;
+They hurried away with speed.
+But did I not wish to return?
+Therefore I make this song,
+Announcing my wish to nourish my mother.",[]

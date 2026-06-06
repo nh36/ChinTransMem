@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-futian-008__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-futian-008,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·小雅·甫田之什·008.1,"閒關車之舝兮，思孌季女逝兮。匪飢匪渴，德音來括。雖無好友，式燕且喜。
 依彼平林，有集維鷮。辰彼碩女，令德來教。式燕且譽，好爾無射。
 雖無旨酒，式飲庶幾。雖無嘉殽，式食庶幾。雖無德與女，式歌且舞。
@@ -39,4 +39,40 @@ My four steeds advanced without stopping;
 The six reins made music in my hands like lute-strings.
 
 see you my bride,
-To the comfort of my heart."
+To the comfort of my heart.","Keen-hwan went the axle ends of my carriage,
+As I thought of the young beauty, and went to fetch her.
+It was not that I was hungry or thirsty,
+But I longed for one of such virtuous fame to come and be
+with me.
+Although no good friends be with us,
+We will feast and be glad.
+
+Dense is that forest in the plain,
+And there sit the long-tailed pheasants.
+In her proper season that well-grown lady,
+With her admirable virtue, is come to instruct me.
+We will feast, and I will praise her.
+
+I love you, and will never be weary of you
+
+Although I have no good spirits,
+We will drink what I have, and perhaps be satisfied.
+Although I have no good viands,
+We will eat what I have, and perhaps be satisfied.
+Although I have no virtue to impart to you,
+We will sing and dance.
+
+I ascend that lofty ridge,
+And split the branches of the oaks for firewood.
+I split the branches of the oaks for firewood,
+Amid the luxuriance of their leaves.
+I see you whose match is seldom to be seen,
+And my whole heart is satisfied.
+
+The high hill is looked up to;
+The great road is easy to be travelled on.
+My four steeds advanced without stopping;
+The six reins made music in my hands like lute-strings.
+
+see you my bride,
+To the comfort of my heart.",[]

@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-qifeng-007__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-qifeng-007,poem,poem,poem,True,Whole-poem fallback because the English witness merges 5 Chinese stanzas into 3 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·國風·齊風·007.1,"無田甫田，維莠驕驕。無思遠人，勞心忉忉。
 無田甫田，維莠桀桀。無思遠人，勞心怛怛。
 婉兮孌兮，緫角丱兮。未幾見兮，突而弁兮。
@@ -29,4 +29,17 @@ Your toiling heart will be distressed.
 How young and tender
 Is the child with his two tufts of hair!
 When you see him after not a long time,
-Lo! he is wearing the cap!"
+Lo! he is wearing the cap!","Do not try to cultivate fields too large; —
+The weeds will only grow luxuriantly.
+Do not think of winning people far away; —
+Your toiling heart will be grieved,
+
+Do not try to cultivate fields too large ; —
+The weeds will only grow proudly,
+Do not think of winning people far away; — .
+Your toiling heart will be distressed.
+
+How young and tender
+Is the child with his two tufts of hair!
+When you see him after not a long time,
+Lo! he is wearing the cap!",[]

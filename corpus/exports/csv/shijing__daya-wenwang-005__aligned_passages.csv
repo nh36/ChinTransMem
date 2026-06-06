@@ -1,28 +1,49 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__daya-wenwang-005__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·大雅·文王之什·005.1,瞻彼旱麓，榛楛濟濟。豈弟君子，干祿豈弟。,旱麓.1,"Look at the foot of the Han,
 How abundantly grow the hazel and arrow-thorn.
 Easy and self-possessed was our prince,
-In his pursuit of dignity (still) easy and self-possessed."
+In his pursuit of dignity (still) easy and self-possessed.","Look at the foot of the Han,
+How abundantly grow the hazel and arrow-thorn.
+Easy and self-possessed was our prince,
+In his pursuit of dignity (still) easy and self-possessed.",[]
 shijing__daya-wenwang-005__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·大雅·文王之什·005.2,瑟彼玉瓚，黃流在中。豈弟君子，福祿攸降。,旱麓.2,"Massive is that libation-cup of jade,
 With the
 ​yellow liquid sparkling in it.
 Easy and self-possessed was our prince,
-The fit recipient of blessing and dignity."
+The fit recipient of blessing and dignity.","Massive is that libation-cup of jade,
+With the
+​yellow liquid sparkling in it.
+Easy and self-possessed was our prince,
+The fit recipient of blessing and dignity.",[]
 shijing__daya-wenwang-005__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·大雅·文王之什·005.3,鳶飛戾天，魚躍于淵。豈弟君子，遐不作人。,旱麓.3,"The hawk flies up to heaven,
 The fishes leap in the deep.
 Easy and self-possessed was our prince:—
 Did
-he not exert an influence on men?"
+he not exert an influence on men?","The hawk flies up to heaven,
+The fishes leap in the deep.
+Easy and self-possessed was our prince:—
+Did
+he not exert an influence on men?",[]
 shijing__daya-wenwang-005__004__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·大雅·文王之什·005.4,清酒既載，騂牡既備。以享以祀，以介景福。,旱麓.4,"His clear spirits were in the vessels;
 His red bull was ready;—
 To
 offer, to sacrifice,
-To increase his bright happiness."
+To increase his bright happiness.","His clear spirits were in the vessels;
+His red bull was ready;—
+To
+offer, to sacrifice,
+To increase his bright happiness.",[]
 shijing__daya-wenwang-005__005__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,5,詩經·大雅·文王之什·005.5,瑟彼柞棫，民所燎矣。豈弟君子，神所勞矣。,旱麓.5,"Thick grow the oaks and the buckthorn,
 Which the people use for fuel.
 Easy and self-possessed was our prince,
-Cheered and encouraged by the spirits."
+Cheered and encouraged by the spirits.","Thick grow the oaks and the buckthorn,
+Which the people use for fuel.
+Easy and self-possessed was our prince,
+Cheered and encouraged by the spirits.",[]
 shijing__daya-wenwang-005__006__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,6,詩經·大雅·文王之什·005.6,莫莫葛藟，施于條枚。豈弟君子，求福不回。,旱麓.6,"Luxuriant are the dolichos and other creepers,
 Clinging to the branches and stems.
 Easy and self-possessed was our prince,
-Seeking for happiness by no crooked ways."
+Seeking for happiness by no crooked ways.","Luxuriant are the dolichos and other creepers,
+Clinging to the branches and stems.
+Easy and self-possessed was our prince,
+Seeking for happiness by no crooked ways.",[]

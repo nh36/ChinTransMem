@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-luming-010__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-luming-010,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·小雅·鹿鳴之什·010.1,"魚麗于罶，鱨鯊。君子有酒，旨且多。
 魚麗于罶，魴鱧。君子有酒，多且旨。
 魚麗于罶，鰋鯉。君子有酒，旨且有。
@@ -32,4 +32,32 @@ May there be to her bright fame from the spirits.
 The things in the basket are of dried grass;
 The things in the pot are of vegetables.
 The lovely and virtuous lady —
-May there be to her vigorous health from the spirits."
+May there be to her vigorous health from the spirits.","The fish lie in the basket,
+And the bream is in the pot.
+The lovely and virtuous lady —
+May there be to her spirits tranquillity and repose.
+
+The fish lie in the basket,
+And the tench and ide are in it.
+The lovely and virtuous lady —
+May there be to her plenty of repose.
+
+The fish lie in the basket,
+And the black skirts are in it.
+The lovely and virtuous lady —
+May there be to her rest in her apartment.
+
+The fish lie in the basket,
+And the salmon and hwang are in it.
+The lovely and virtuous lady —
+May there be to her congratulation from the spirits.
+
+The fish lie in the basket,
+And the bull-head and carp are in it.
+The lovely and virtuous lady —
+May there be to her bright fame from the spirits.
+
+The things in the basket are of dried grass;
+The things in the pot are of vegetables.
+The lovely and virtuous lady —
+May there be to her vigorous health from the spirits.",[]

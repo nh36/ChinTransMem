@@ -1,17 +1,8 @@
 {
   "status": "pass",
   "work_id": "shangshu",
-  "section_count": 58,
+  "section_count": 57,
   "sections": [
-    {
-      "status": "pass",
-      "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-001-yu-shu-canon-of-yao__aligned_passages.tmx",
-      "work_id": "shangshu",
-      "section_id": "shangshu-001-yu-shu-canon-of-yao",
-      "tu_count": 8,
-      "source_language": "zh-Hant",
-      "target_language": "en"
-    },
     {
       "status": "pass",
       "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__shangshu-003-yu-shu-canon-of-shun__aligned_passages.tmx",
@@ -531,7 +522,7 @@
     "tmx_path": "/Users/nathanhill/Code/ChinTransMem/corpus/exports/tmx/shangshu__all__aligned_passages.tmx",
     "work_id": "shangshu",
     "section_id": null,
-    "tu_count": 135,
+    "tu_count": 127,
     "source_language": "zh-Hant",
     "target_language": "en"
   }

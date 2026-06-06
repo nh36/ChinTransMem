@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-beifeng-010__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-beifeng-010,poem,poem,poem,True,Whole-poem fallback because the English witness merges 9 Chinese stanzas into 6 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·國風·邶風·010.1,"習習谷風，以陰以雨。黽勉同心，不宜有怒。
 采葑采菲，無以下體？德音莫違，及爾同死。
 
@@ -79,4 +79,56 @@ You think of me as a provision only against your poverty.
 Cavalierly and angrily you treat me;
 You give me only pain.
 You do not think of the former days,
-And are only angry with me."
+And are only angry with me.","Gently blows the east wind,
+With cloudy skies and with rain.
+Husband and wife should strive to be of the same mind,
+And not let angry feelings arise.
+When we gather the mustard plant and earth melons,
+We do not reject them because of their roots.
+While I do nothing contrary to my good name,
+I should live with you till our death.
+
+I go along the road slowly, slowly,
+In my inmost heart reluctant.
+Not far, only a little way,
+Did he accompany me to the threshold.
+Who says that the sowthistle is bitter?
+It is as sweet as the shepherd's purse.
+You feast with your new wife,
+Loving as brothers.
+
+The muddiness of the Jing appears from the Wei,
+But its bottom may be seen about the islets.
+You feast with your new wife,
+And think me not worth being with
+Do not approach my dam,
+Do not move my basket.
+My person is rejected; -
+What avails it to care for what may come after?
+
+Where the water was deep,
+I crossed it by a raft or a boat.
+Where it was shallow,
+I dived or swam across it.
+Whether we had plenty or not,
+I exerted myself to be getting.
+When among others there was a death,
+I crawled on my knees to help them.
+
+You cannot cherish me,
+And you even count me as an enemy.
+You disdain my virtues, -
+A pedlar's wares which do not sell.
+Formerly, I was afraid our means might be exhausted,
+And I might come with you to destitution.
+Now, when your means are abundant,
+You compare me to poison.
+
+My fine collection of vegetables,
+Is but a provision against the winter.
+Feasting with your new wife,
+You think of me as a provision only against your poverty.
+Cavalierly and angrily you treat me;
+You give me only pain.
+You do not think of the former days,
+And are only angry with me.",[]

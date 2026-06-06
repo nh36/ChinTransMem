@@ -1,17 +1,29 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-zhengfeng-014__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-014,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄭風·014.1,子之丰兮，俟我乎巷兮。悔予不送兮。,丰.1,"Full and good looking was the gentleman,
 Who waited for me in the lane !
-I repent that I did not go with him."
+I repent that I did not go with him.","Full and good looking was the gentleman,
+Who waited for me in the lane !
+I repent that I did not go with him.",[]
 shijing__guofeng-zhengfeng-014__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-014,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄭風·014.2,子之昌兮，俟我乎堂兮。悔予不將兮。,丰.2,"A splendid gentleman was he,
 Who waited for me in the hall !
-I regret that I did not accompany him."
+I regret that I did not accompany him.","A splendid gentleman was he,
+Who waited for me in the hall !
+I regret that I did not accompany him.",[]
 shijing__guofeng-zhengfeng-014__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-014,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·鄭風·014.3,衣錦褧衣，裳錦褧裳。叔兮伯兮，駕予與行。,丰.3,"Over my embroidered upper robe, I have put on a plain
 single garment ;
 Over my embroidered lower robe, I have done the same.
 O Sir, O Sir,
-Have your carriage ready for me to go with you."
+Have your carriage ready for me to go with you.","Over my embroidered upper robe, I have put on a plain
+single garment ;
+Over my embroidered lower robe, I have done the same.
+O Sir, O Sir,
+Have your carriage ready for me to go with you.",[]
 shijing__guofeng-zhengfeng-014__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-014,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·國風·鄭風·014.4,裳錦褧裳，衣錦褧衣。叔兮伯兮，駕予與歸。,丰.4,"Over my embroidered lower robe, I have put on a plain
 single garment ;
 Over my embroidered upper robe, I have done the same.
 O Sir, O Sir,
-Have your carriage ready to take me home with you."
+Have your carriage ready to take me home with you.","Over my embroidered lower robe, I have put on a plain
+single garment ;
+Over my embroidered upper robe, I have done the same.
+O Sir, O Sir,
+Have your carriage ready to take me home with you.",[]

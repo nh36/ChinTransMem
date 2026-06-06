@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__daya-dang-011__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-dang-011,poem,poem,poem,True,Whole-poem fallback because the English witness merges 7 Chinese stanzas into 2 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·大雅·蕩之什·011.1,"旻天疾威，天篤降喪。
 瘨我饑饉，民卒流亡。我居圉卒荒。
 
@@ -30,4 +30,16 @@ insects, who weary and confuse men's minds,
 Ignorant, oppressive, negligent,
 Breeders of confusion, utterly perverse:—
 These
-are the men employed."
+are the men employed.","Compassionate Heaven is arrayed in angry terrors.
+Heaven is indeed sending down ruin,
+Afflicting us with famine,
+So that the people are all wandering fugitives.
+In the settled regions, and on the borders, all is desolation.
+
+Heaven sends down its net of crime;—
+Devouring
+insects, who weary and confuse men's minds,
+Ignorant, oppressive, negligent,
+Breeders of confusion, utterly perverse:—
+These
+are the men employed.",[]

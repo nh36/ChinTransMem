@@ -1,9 +1,15 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-wangfeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-wangfeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·王風·002.1,君子于役，不知其期。曷至哉？雞棲于塒，日之夕矣，羊牛下來。君子于役，如之何勿思！,君子于役.1,"My husband is away on service,
 Not knowing the day of his return.
 When the sheep and oxen come down from the hill,
-How can I not think of him?"
+How can I not think of him?","My husband is away on service,
+Not knowing the day of his return.
+When the sheep and oxen come down from the hill,
+How can I not think of him?",[]
 shijing__guofeng-wangfeng-002__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-wangfeng-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·王風·002.2,君子于役，不日不月。曷其有佸？雞棲于桀，日之夕矣，羊牛下括。君子于役，苟無飢渴。,君子于役.2,"My husband is away on service,
 Not knowing the day of his return.
 When the fowls roost in the evening,
-How can I not think of him?"
+How can I not think of him?","My husband is away on service,
+Not knowing the day of his return.
+When the fowls roost in the evening,
+How can I not think of him?",[]

@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-yuzao-010__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·魚藻之什·010.1,"緜蠻黃鳥，止于丘阿。道之云遠，我勞如何！
 飲之食之，教之誨之。命彼後車，謂之載之。",緜蠻.1,"There is that little oriole,
 Resting on a bend of the mound.
@@ -7,7 +7,14 @@ And I am very much wearied.
 Give me drink, give me food;
 Inform me, teach me;
 Order one of the attending carriages,
-And tell them to carry me."
+And tell them to carry me.","There is that little oriole,
+Resting on a bend of the mound.
+The way is distant,
+And I am very much wearied.
+Give me drink, give me food;
+Inform me, teach me;
+Order one of the attending carriages,
+And tell them to carry me.",[]
 shijing__xiaoya-yuzao-010__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·魚藻之什·010.2,"緜蠻黃鳥，止于丘隅。豈敢憚行？畏不能趨。
 飲之食之，教之誨之。命彼後車，謂之載之。",緜蠻.2,"There is that little oriole,
 Resting on a corner of the mound.
@@ -16,7 +23,14 @@ But I am afraid of not being able to go on.
 Give me drink, give me food;
 Inform me, teach me;
 Order one of the attending carriages,
-And tell them to carry me."
+And tell them to carry me.","There is that little oriole,
+Resting on a corner of the mound.
+It is not that I dare to shrink from the journey,
+But I am afraid of not being able to go on.
+Give me drink, give me food;
+Inform me, teach me;
+Order one of the attending carriages,
+And tell them to carry me.",[]
 shijing__xiaoya-yuzao-010__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·小雅·魚藻之什·010.3,"緜蠻黃鳥，止于丘側。豈敢憚行，畏不能極。
 飲之食之，教之誨之。命彼後車，謂之載之。",緜蠻.3,"There is that little oriole,
 Resting on the side of the mound.
@@ -25,4 +39,11 @@ But I am afraid of not getting to the end of it.
 Give me drink, give me food;
 Inform me, teach me;
 Order one of the attending carriages,
-And tell them to carry me."
+And tell them to carry me.","There is that little oriole,
+Resting on the side of the mound.
+It is not that I dare to shrink from the journey,
+But I am afraid of not getting to the end of it.
+Give me drink, give me food;
+Inform me, teach me;
+Order one of the attending carriages,
+And tell them to carry me.",[]

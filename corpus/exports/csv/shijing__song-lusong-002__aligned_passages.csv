@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-lusong-002__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,song-lusong-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·魯頌·002.1,"有駜有駜，駜彼乘黃。夙夜在公，在公明明。
 振振鷺，鷺于下。鼓咽咽，醉言舞。于胥樂兮。",有駜.1,"Fat and strong, fat and strong,
 Fat and strong, are the chestnut teams.
@@ -8,7 +8,15 @@ They are as a flock of egrets on the wing,
 Of egrets anon lighting on the ground.
 The drums emit their deep sound;
 They drink to the full and then dance; --
-Thus rejoicing together."
+Thus rejoicing together.","Fat and strong, fat and strong,
+Fat and strong, are the chestnut teams.
+Early and late are the officers in the court,
+In the court, discriminating and intelligent.
+They are as a flock of egrets on the wing,
+Of egrets anon lighting on the ground.
+The drums emit their deep sound;
+They drink to the full and then dance; --
+Thus rejoicing together.",[]
 shijing__song-lusong-002__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,song-lusong-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·頌·魯頌·002.2,"有駜有駜，駜彼乘牡。夙夜在公，在公飲酒。
 振振鷺，鷺于飛。鼓咽咽，醉言歸。于胥樂兮。",有駜.2,"Fat and strong, fat and strong,
 Fat and strong are the teams of stallions.
@@ -18,7 +26,15 @@ They are as a flock of egrets on the wing,
 Of egrets flying about.
 The drums emit their deep sound;
 They drink to the full and then return home; --
-Thus rejoicing together."
+Thus rejoicing together.","Fat and strong, fat and strong,
+Fat and strong are the teams of stallions.
+Early and late are the officers with the prince,
+With the prince drinking.
+They are as a flock of egrets on the wing,
+Of egrets flying about.
+The drums emit their deep sound;
+They drink to the full and then return home; --
+Thus rejoicing together.",[]
 shijing__song-lusong-002__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,song-lusong-002,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·頌·魯頌·002.3,"有駜有駜，駜彼乘駽。夙夜在公，在公載燕。
 自今以始，歲其有。君子有穀，詒孫子。于胥樂兮。",有駜.3,"Fat and strong, fat and strong,
 Fat and strong are the teams of iron-greys.
@@ -28,4 +44,12 @@ From this time forth,
 May the years be abundant.
 May our prince maintain his goodness,
 And transmit it to his descendants! '--
-Thus they rejoice together."
+Thus they rejoice together.","Fat and strong, fat and strong,
+Fat and strong are the teams of iron-greys.
+Early and late are the officers with the prince,
+With the prince feasting.
+From this time forth,
+May the years be abundant.
+May our prince maintain his goodness,
+And transmit it to his descendants! '--
+Thus they rejoice together.",[]

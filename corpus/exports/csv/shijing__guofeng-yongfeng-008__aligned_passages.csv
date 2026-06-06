@@ -1,13 +1,22 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-yongfeng-008__001__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-yongfeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄘風·008.1,相鼠有皮，人而無儀，人而無儀，不死何為。,相鼠.1,"Look at a rat, - it has its skin;
 But a man should be without dignity of demeanour.
 If a man have no dignity of demeanour,
-What should he but die?"
+What should he but die?","Look at a rat, - it has its skin;
+But a man should be without dignity of demeanour.
+If a man have no dignity of demeanour,
+What should he but die?",[]
 shijing__guofeng-yongfeng-008__002__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-yongfeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄘風·008.2,相鼠有齒，人而無止，人而無止，不死何俟。,相鼠.2,"Look at a rat, - it has its teeth;
 But a man shall be without any right deportment.
 If a man have not right deportment,
-What should he wait for but death?"
+What should he wait for but death?","Look at a rat, - it has its teeth;
+But a man shall be without any right deportment.
+If a man have not right deportment,
+What should he wait for but death?",[]
 shijing__guofeng-yongfeng-008__003__zhwikisource-20260530__legge-sbe-v3-1879-fulltext,shijing,guofeng-yongfeng-008,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·鄘風·008.3,相鼠有體，人而無禮，人而無禮，胡不遄死。,相鼠.3,"Look at a rat, - it has its limbs;
 But a man shall be without any rules of propriety.
 If a man observe no rules of propriety,
-Why does he not quickly die?"
+Why does he not quickly die?","Look at a rat, - it has its limbs;
+But a man shall be without any rules of propriety.
+If a man observe no rules of propriety,
+Why does he not quickly die?",[]

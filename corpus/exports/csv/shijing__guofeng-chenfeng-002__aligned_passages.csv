@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-chenfeng-002__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-chenfeng-002,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·陳風·002.1,"東門之枌，宛丘之栩。子仲之子，婆娑其下。
 穀旦于差，南方之原。不績其麻，市也婆娑。
 穀旦于逝，越以鬷邁。視爾如荍，貽我握椒。",東門之枌.1,"There are the white elms at the east gate.
@@ -15,4 +15,18 @@ The morning being good for the excursion,
 They all proceed together.
 
 I look on you as the flower of the thorny mallows;
-You give me a stalk of the pepper plant."
+You give me a stalk of the pepper plant.","There are the white elms at the east gate.
+And the oaks on Yuen-k'ew;
+The daughter of Tsze-chung
+Dances about under them.
+
+A good morning having been chosen
+For the plain in the South,
+She leaves twisting her hemp,
+And dances to it through the market-place.
+
+The morning being good for the excursion,
+They all proceed together.
+
+I look on you as the flower of the thorny mallows;
+You give me a stalk of the pepper plant.",[]

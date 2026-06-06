@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-yuzao-013__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-013,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·013.1,"苕之華，芸其黃矣。心之憂矣，維其傷矣。
 苕之華，其葉青青。知我如此，不如無生。
 牂羊墳首，三星在罶。人可以食，鮮可以飽。",苕之華.1,"ch : ith
@@ -16,4 +16,19 @@ The Three stars are seen in the fish-trap.
 If some men can get enough to eat,
 Few can get their fill.
 rs del is wc
-flo of he"
+flo of he","ch : ith
+al rio ei
+Mhe hic ar
+
+ihe flowers of the bignonia are gone;
+There are only its leaves all-green.
+If I had known it would be thus with me,
+
+had better not have been born.
+
+The ewes have large heads;
+The Three stars are seen in the fish-trap.
+If some men can get enough to eat,
+Few can get their fill.
+rs del is wc
+flo of he",[]

@@ -1,13 +1,22 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-wangfeng-006__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-wangfeng-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·王風·006.1,有兔爰爰，雉離于羅。我生之初，尚無為。我生之後，逢此百罹，尚寐無吪？,兔爰.1,"There is the hare! that which leads it is the snare.
 When my king has no proper business,
 Why should he reduce us all to such extremity?
-He who called us to it, — from him shall come no good."
+He who called us to it, — from him shall come no good.","There is the hare! that which leads it is the snare.
+When my king has no proper business,
+Why should he reduce us all to such extremity?
+He who called us to it, — from him shall come no good.",[]
 shijing__guofeng-wangfeng-006__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-wangfeng-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·王風·006.2,有兔爰爰，雉離于罦。我生之初，尚無造。我生之後，逢此百憂，尚寐無覺？,兔爰.2,"There is the hare! in the midst of the snare.
 When my king has no proper business,
 Why should he reduce us all to such extremity?
-He who called us to it, — from him shall come no blessing."
+He who called us to it, — from him shall come no blessing.","There is the hare! in the midst of the snare.
+When my king has no proper business,
+Why should he reduce us all to such extremity?
+He who called us to it, — from him shall come no blessing.",[]
 shijing__guofeng-wangfeng-006__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-wangfeng-006,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·王風·006.3,有兔爰爰，雉離于罿。我生之初，尚無庸。我生之後，逢此百凶，尚寐無聦！,兔爰.3,"There is the hare! on the side of the snare.
 When my king has no proper business,
 Why should he reduce us all to such extremity?
-He who called us to it, — from him shall come no end."
+He who called us to it, — from him shall come no end.","There is the hare! on the side of the snare.
+When my king has no proper business,
+Why should he reduce us all to such extremity?
+He who called us to it, — from him shall come no end.",[]

@@ -465,16 +465,25 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertEqual(candidate_qc["text_integrity"]["translation_with_notice_sections"], [])
         self.assertEqual(candidate_qc["text_integrity"]["translation_with_commentary_sections"], [])
         self.assertEqual(candidate_qc["text_integrity"]["translation_with_heading_sections"], [])
+        self.assertEqual(candidate_qc["text_integrity"]["translation_with_shiji_witness_quality_rows"], [])
         self.assertEqual({review["classification"] for review in reviews}, {"pass"})
         self.assertTrue(comparison["matches"])
         self.assertEqual(comparison["candidate_fallback_count"], 0)
         self.assertEqual(comparison["active_fallback_count"], 0)
+        self.assertTrue(all("succeseful" not in str(row["translation_text"]) for row in active_rows))
+        self.assertTrue(all("Zao Yu" not in str(row["translation_text"]) for row in active_rows))
+        self.assertTrue(all("(documents)" not in str(row["translation_text"]) for row in active_rows))
+        self.assertTrue(all("(view land)" not in str(row["translation_text"]) for row in active_rows))
         self.assertIn("Monolithic promotion occurred: False", candidate_report)
         self.assertIn("Batch id: benji", candidate_report)
         self.assertIn("Current state: active_proof_of_concept", candidate_report)
         self.assertIn("Named-entity drift issues detected:", candidate_report)
         self.assertIn("Named-entity drift issues repaired:", candidate_report)
         self.assertIn("Named-entity drift issues remaining: 0", candidate_report)
+        self.assertIn("Shiji witness-quality issues detected:", candidate_report)
+        self.assertIn("Shiji witness-quality issues repaired:", candidate_report)
+        self.assertIn("Shiji witness-quality issues remaining: 0", candidate_report)
+        self.assertIn("Name-gloss handling: stripped_from_translation_text_raw_preserved", candidate_report)
         self.assertIn("Shiji 003 succession sequence passed entity-order validation: True", candidate_report)
         self.assertIn("Candidate and active promoted exports match on counts and file content.", candidate_report)
 
@@ -505,6 +514,7 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertEqual(active_qc["manifest_summary"]["remaining_corruption_issue_count"], 0)
         self.assertEqual(active_qc["manifest_summary"]["remaining_leakage_issue_count"], 0)
         self.assertEqual(active_qc["manifest_summary"]["remaining_drift_issue_count"], 0)
+        self.assertEqual(active_qc["manifest_summary"]["remaining_witness_quality_issue_count"], 0)
         self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 46)
         self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 0)
         self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"block": 46})
@@ -512,6 +522,13 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertGreater(alignment_qc["summary"]["drift_issue_count_before_repair"], 0)
         self.assertEqual(alignment_qc["summary"]["repaired_drift_issue_count"], alignment_qc["summary"]["drift_issue_count_before_repair"])
         self.assertEqual(alignment_qc["summary"]["remaining_drift_issue_count"], 0)
+        self.assertGreater(alignment_qc["summary"]["pre_repair_witness_quality_issue_count"], 0)
+        self.assertEqual(
+            alignment_qc["summary"]["pre_repair_witness_quality_issue_count"],
+            alignment_qc["summary"]["repaired_witness_quality_issue_count"],
+        )
+        self.assertEqual(alignment_qc["summary"]["remaining_witness_quality_issue_count"], 0)
+        self.assertEqual(alignment_qc["summary"]["witness_gloss_handling"], "stripped_from_translation_text_raw_preserved")
         self.assertEqual(alignment_qc["summary"]["anchor_mapped_section_count"], 1)
         self.assertEqual(alignment_qc["summary"]["anchor_mapped_sections"], ["shiji-003-annals-of-yin"])
         self.assertTrue(alignment_qc["summary"]["entity_sequence_validation_passed"])
@@ -602,15 +619,77 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertFalse(gate["can_promote"])
         self.assertTrue(any("deterministic candidate QC" in blocker for blocker in gate["blockers"]))
 
+    def test_shiji_witness_quality_issues_are_caught_by_qc_and_gates(self) -> None:
+        rows = [
+            {
+                "alignment_id": "shiji-003-annals-of-yin__aligned-001",
+                "work_id": "shiji",
+                "section_id": "shiji-003-annals-of-yin",
+                "order": 1,
+                "source_segment_count": 1,
+                "target_segment_count": 1,
+                "is_coarse_alignment": False,
+                "coarse_alignment_reason": None,
+                "chinese_text": "殷契，母曰簡狄。",
+                "translation_text": "Qi (documents) became succeseful and Zao Yu was later named.",
+            }
+        ]
+        text_qc = run_text_integrity_checks("shiji", rows=rows)
+        alignment_qc = run_alignment_quality_checks("shiji", rows=rows)
+        gate = evaluate_promotion_gates(
+            "fixture-work",
+            candidate_qc={
+                "hard_failure_count": text_qc["hard_failure_count"],
+                "counts": {"alignments": 1, "section_group_alignment_records": 1},
+                "source_traceability": {"hard_failure_count": 0},
+                "alignment_quality": {"line_order_issues": []},
+                "count_disagreement_errors": [],
+            },
+            ai_reviews=[],
+            alignment_snapshot={
+                "summary": {
+                    "remaining_corruption_issue_count": 0,
+                    "remaining_leakage_issue_count": 0,
+                    "remaining_drift_issue_count": alignment_qc["hard_failure_count"],
+                    "remaining_witness_quality_issue_count": text_qc["hard_failure_count"],
+                }
+            },
+            repair_log={"summary": {"automatic_correction_count": 0, "curated_correction_count": 0}},
+            manifest={
+                "summary": {
+                    "exact_alignment_count": 1,
+                    "alignment_record_count": 2,
+                    "section_group_alignment_record_count": 1,
+                    "active_section_count": 1,
+                },
+                "release_status": "not_cleared",
+            },
+            candidate_rows=rows,
+        )
+
+        self.assertGreater(text_qc["hard_failure_count"], 0)
+        self.assertTrue(text_qc["translation_with_shiji_witness_quality_rows"])
+        self.assertFalse(gate["can_promote"])
+        self.assertTrue(any("deterministic candidate QC" in blocker for blocker in gate["blockers"]))
+        self.assertTrue(any("witness-quality issues" in blocker for blocker in gate["blockers"]))
+
     def test_shiji_002_is_metadata_only_with_explicit_blocker_and_no_alignment_file(self) -> None:
         manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "shiji.yml")
+        inventory = load_json(REPO_ROOT / "metadata" / "shiji_inventory.yml")
+        verification = load_json(REPO_ROOT / "metadata" / "shiji_verification_ledger.yml")
         section = next(section for section in manifest["sections"] if section["section_id"] == "shiji-002-annals-of-xia")
+        inventory_unit = next(unit for unit in inventory["units"] if unit["section_id"] == "shiji-002-annals-of-xia")
+        verification_section = next(item for item in verification["sections"] if item["section_id"] == "shiji-002-annals-of-xia")
         alignment_path = REPO_ROOT / "corpus" / "processed" / "alignments" / "shiji__shiji-002-annals-of-xia__cn-zh-1f6b1d3__cn-en-1f6b1d3__alignments.jsonl"
 
         self.assertEqual(section["export_status"], "metadata_only")
         self.assertEqual(section["alignment_processed_path"], None)
         self.assertIn("group 36", section["fallback_reason"])
         self.assertIn("target segment length/structure imbalance suggests missing grouping", section["fallback_reason"])
+        self.assertEqual(inventory_unit["export_status"], "metadata_only")
+        self.assertIn("group 36", str(inventory_unit["blocker_note"]))
+        self.assertEqual(verification_section["export_status"], "metadata_only")
+        self.assertIn("group 36", str(verification_section["blocker_note"]))
         self.assertFalse(alignment_path.exists())
 
 

@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-futian-010__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-futian-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·小雅·甫田之什·010.1,"賓之初筵，左右秩秩，籩豆有楚，殽核維旅。
 酒既和旨，飲酒孔偕，鐘鼓既設，舉醻逸逸。
 大侯既抗，弓矢斯張，射夫既同，獻爾發功。
@@ -16,7 +16,21 @@ The bows and arrows are made ready for the shooting.
 The archers are arranged in classes;
 'Show your skill in shooting,' (it is said by one).
 'I shall hit that mark' (is the response),
-'And pray you to drink the cup.'"
+'And pray you to drink the cup.'","When the guests first approach the mats,
+They take their places on the left and the right in an orderly manner.
+The dishes of bamboo and wood are arranged in rows,
+With the sauces and kernels displayed in them.
+The spirits are mild and good,
+And they drink, all equally reverent.
+The bells and drums are properly arranged,
+And they raise their pledge-cups with order and ease.
+(Then) the great
+​target is set up;
+The bows and arrows are made ready for the shooting.
+The archers are arranged in classes;
+'Show your skill in shooting,' (it is said by one).
+'I shall hit that mark' (is the response),
+'And pray you to drink the cup.'",[]
 shijing__xiaoya-futian-010__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-futian-010,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·小雅·甫田之什·010.2,"籥舞笙鼓，樂既和奏，烝衎烈祖，以洽百禮。
 百禮既至，有壬有林，錫爾純嘏，子孫其湛。
 其湛曰樂，各奏爾能，賓載手仇，室人入又。
@@ -33,4 +47,17 @@ And each of them exerts his ability.
 A guest draws the spirits;
 An attendant enters again with a cup,
 And fills it,—the cup of rest.
-Thus are performed your seasonal ceremonies."
+Thus are performed your seasonal ceremonies.","The dancers move with their flutes to the notes of the organ and drum,
+While all the instruments perform in harmony.
+All this is done to please the meritorious ancestors,
+Along with the observance of all ceremonies.
+When all the ceremonies have been fully performed,
+Grandly and fully,
+(The personators of the dead say), 'We confer on you great blessings,
+And may your descendants also be happy!'
+These are happy and delighted,
+And each of them exerts his ability.
+A guest draws the spirits;
+An attendant enters again with a cup,
+And fills it,—the cup of rest.
+Thus are performed your seasonal ceremonies.",[]

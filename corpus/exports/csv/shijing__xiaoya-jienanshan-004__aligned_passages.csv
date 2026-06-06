@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-jienanshan-004__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-004,poem,poem,poem,True,Whole-poem fallback because the English witness merges 2 Chinese stanzas into 1 English blocks.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·節南山之什·004.1,"浩浩昊天，不駿其德。降喪饑饉，斬伐四國。
 旻天疾威，弗慮弗圖。舍彼有罪，既伏其辜。若此無罪，淪胥以鋪。
 
@@ -13,4 +13,14 @@ Let alone the criminals:—
 They
 have suffered for their guilt.
 But those who have no crime
-Are indiscriminately involved in ruin."
+Are indiscriminately involved in ruin.","Great and wide Heaven,
+How is it you have contracted your kindness,
+Sending down death and famine,
+Destroying all through the kingdom?
+Compassionate Heaven, arrayed in terrors,
+How is it you exercise no forethought, no care?
+Let alone the criminals:—
+They
+have suffered for their guilt.
+But those who have no crime
+Are indiscriminately involved in ruin.",[]

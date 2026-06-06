@@ -1,9 +1,15 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-weifeng-007__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·衛風·007.1,誰謂河廣，一葦杭之，誰謂宋遠，跂予望之。,河廣.1,"How wide is the Ho!
 Yet it may be passed in a raft.
 That Song is far off,
-Yet it may be reached by a day's journey."
+Yet it may be reached by a day's journey.","How wide is the Ho!
+Yet it may be passed in a raft.
+That Song is far off,
+Yet it may be reached by a day's journey.",[]
 shijing__guofeng-weifeng-007__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-weifeng-007,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·衛風·007.2,誰謂河廣，曾不容刀，誰謂宋遠，曾不崇朝。,河廣.2,"How wide is the Ho!
 Yet it may be passed in a boat.
 That Song is far off,
-Yet it may be reached by fording."
+Yet it may be reached by fording.","How wide is the Ho!
+Yet it may be passed in a boat.
+That Song is far off,
+Yet it may be reached by fording.",[]

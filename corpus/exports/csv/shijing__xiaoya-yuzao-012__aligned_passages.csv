@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-yuzao-012__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,xiaoya-yuzao-012,poem,poem,poem,False,,1,1,exact_or_near_exact,0.95,1,詩經·小雅·魚藻之什·012.1,"漸漸之石，維其高矣。山川悠遠，維其勞矣。武人東征，不皇朝矣。
 漸漸之石，維其卒矣。山川悠遠，曷其沒矣。武人東征，不皇出矣。
 有豕白蹢，烝涉波矣。月離于畢，俾滂沱矣。武人東征，不皇他矣。",漸漸之石.1,"Those frowning rocks, —
@@ -6,4 +6,9 @@ How high they rise!
 Over such a distance of hills and streams,
 How toilsome is the march!
 The warrior, in charge of the expedition to the east,
-Has not a morning's leisure."
+Has not a morning's leisure.","Those frowning rocks, —
+How high they rise!
+Over such a distance of hills and streams,
+How toilsome is the march!
+The warrior, in charge of the expedition to the east,
+Has not a morning's leisure.",[]

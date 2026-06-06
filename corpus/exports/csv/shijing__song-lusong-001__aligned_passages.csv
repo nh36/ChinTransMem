@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-lusong-001__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,song-lusong-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·魯頌·001.1,"駉駉牡馬，在坰之野。
 薄言駉者，有驈有皇，有驪有黃，以車彭彭。
 思無疆，思馬斯臧。",駉.1,"Fat and large are the stallions,
@@ -8,7 +8,14 @@ Some are black and white-breeched; some light yellow;
 Some, pure black; some, bay;
 All, splendid carriage horses.
 His thoughts are without limit; --
-He thinks of his horses, and they are thus good."
+He thinks of his horses, and they are thus good.","Fat and large are the stallions,
+On the plains of the far-distant borders.
+Of those stallions, fat and large,
+Some are black and white-breeched; some light yellow;
+Some, pure black; some, bay;
+All, splendid carriage horses.
+His thoughts are without limit; --
+He thinks of his horses, and they are thus good.",[]
 shijing__song-lusong-001__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,song-lusong-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·頌·魯頌·001.2,"駉駉牡馬，在坰之野。
 薄言駉者，有騅有駓，有騂有騏，以車伾伾。
 思無期，思馬斯才。",駉.2,"Fat and large are the stallions,
@@ -18,7 +25,14 @@ Some are piebald, green and white; others, yellow and white;
 Some, yellowish red; some, dapple grey;
 All, strong carriage horses.
 His thoughts are without end; --
-He thinks of his horses, and they are thus strong."
+He thinks of his horses, and they are thus strong.","Fat and large are the stallions,
+On the plains of the far-distant borders.
+Of those stallions, fat and large,
+Some are piebald, green and white; others, yellow and white;
+Some, yellowish red; some, dapple grey;
+All, strong carriage horses.
+His thoughts are without end; --
+He thinks of his horses, and they are thus strong.",[]
 shijing__song-lusong-001__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,song-lusong-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·頌·魯頌·001.3,"駉駉牡馬，在坰之野。
 薄言駉者，有驒有駱，有駵有雒，以車繹繹。
 思無斁，思馬斯作。",駉.3,"Fat and large are the stallions,
@@ -28,7 +42,14 @@ Some are flecked as with scales; some, white and black-maned;
 Some, red and black-maned; some, black and white-maned;
 All, docile in the carriage,
 His thoughts never weary; --
-He thinks of his horses, and such they become."
+He thinks of his horses, and such they become.","Fat and large are the stallions,
+On the plains of the far-distant borders.
+Of those stallions, fat and large,
+Some are flecked as with scales; some, white and black-maned;
+Some, red and black-maned; some, black and white-maned;
+All, docile in the carriage,
+His thoughts never weary; --
+He thinks of his horses, and such they become.",[]
 shijing__song-lusong-001__004__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,song-lusong-001,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·頌·魯頌·001.4,"駉駉牡馬，在坰之野。
 薄言駉者，有駰有騢，有驔有魚，以車祛祛。
 思無邪，思馬斯徂。",駉.4,"Fat and large are the stallions,
@@ -38,4 +59,11 @@ Some are cream-coloured; some, red and white;
 Some, with white hairy legs; some, with fishes'eyes;
 All, stout carriage horses.
 His thoughts are without depravity; --
-He thinks of his horses, and thus serviceable are they."
+He thinks of his horses, and thus serviceable are they.","Fat and large are the stallions,
+On the plains of the far-distant borders.
+Of those stallions, fat and large,
+Some are cream-coloured; some, red and white;
+Some, with white hairy legs; some, with fishes'eyes;
+All, stout carriage horses.
+His thoughts are without depravity; --
+He thinks of his horses, and thus serviceable are they.",[]

@@ -1,16 +1,28 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-zhaonan-011__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·召南·011.1,江有汜，之子歸，不我以，不我以，其後也悔。,江有汜.1,"The Keang has its branches, led from it and returning to it.
 Our lady, when she was married,
 Would not employ us.
 She would not employ us;
-But afterwards she repented."
+But afterwards she repented.","The Keang has its branches, led from it and returning to it.
+Our lady, when she was married,
+Would not employ us.
+She would not employ us;
+But afterwards she repented.",[]
 shijing__guofeng-zhaonan-011__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·召南·011.2,江有渚，之子歸，不我與，不我與，其後也處。,江有汜.2,"The Keang has its islets.
 Our lady, when she was married,
 Would not let us be with her.
 She would not let us be with her;
-But afterwards she repressed [such feelings]."
+But afterwards she repressed [such feelings].","The Keang has its islets.
+Our lady, when she was married,
+Would not let us be with her.
+She would not let us be with her;
+But afterwards she repressed [such feelings].",[]
 shijing__guofeng-zhaonan-011__003__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhaonan-011,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·國風·召南·011.3,江有沱，之子歸，不我過，不我過，其嘯也歌。,江有汜.3,"The Keang has the T'o.
 Our lady, when she was married,
 Would not come near us.
 She would not come near us;
-But she blew that feeling away, and sang."
+But she blew that feeling away, and sang.","The Keang has the T'o.
+Our lady, when she was married,
+Would not come near us.
+She would not come near us;
+But she blew that feeling away, and sang.",[]

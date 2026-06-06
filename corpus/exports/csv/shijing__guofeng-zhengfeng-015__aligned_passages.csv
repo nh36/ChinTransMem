@@ -1,9 +1,15 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-zhengfeng-015__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-015,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·國風·鄭風·015.1,東門之墠，茹藘在阪。其室則邇，其人甚遠。,東門之墠.1,"Near the level ground at the east gate,
 Is the madder plant on the bank.
 The house is near there,
-But the in an is very far away."
+But the in an is very far away.","Near the level ground at the east gate,
+Is the madder plant on the bank.
+The house is near there,
+But the in an is very far away.",[]
 shijing__guofeng-zhengfeng-015__002__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhengfeng-015,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·國風·鄭風·015.2,東門之栗，有踐家室。豈不爾思？子不我即。,東門之墠.2,"By the chestnut trees at the east gate,
 Is a row of houses.
 Do I not think of you?
-But you do not come to me."
+But you do not come to me.","By the chestnut trees at the east gate,
+Is a row of houses.
+Do I not think of you?
+But you do not come to me.",[]

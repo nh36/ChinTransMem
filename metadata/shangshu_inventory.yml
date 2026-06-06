@@ -11,12 +11,13 @@
       "text_status": "extant",
       "coverage_status": "complete",
       "zh_page_url": "https://github.com/alexamies/chinesenotes.com/blob/1f6b1d3e7a40b6886a4b943c898125639e993544/shangshu/shangshu001.txt",
-      "english_witness_status": "verified_rendered_transcription",
-      "verification_status": "verified_rendered_transcription",
+      "english_witness_status": "missing_translation",
+      "verification_status": "metadata_only",
       "source_volume": "虞書",
-      "translator": "James Legge",
-      "decision": "export",
-      "english_title": "Canon of Yao"
+      "translator": null,
+      "decision": "metadata_only",
+      "english_title": "Canon of Yao",
+      "reason": "anchor_drift: summer-appointment (crossed_anchor_alignment); autumn-appointment (crossed_anchor_alignment); winter-appointment (crossed_anchor_alignment)"
     },
     {
       "section_id": "shangshu-002-yu-shu-dan-zhu-forged",

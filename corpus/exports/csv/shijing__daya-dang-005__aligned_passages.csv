@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__daya-dang-005__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-dang-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·大雅·蕩之什·005.1,"崧高維嶽，駿極于天。維嶽降神，生甫及申。
 維申及甫，維周之翰。四國于蕃，四方于宣。",崧高.1,"Grandly lofty are the mountains,
 With their large masses reaching to the heavens.
@@ -8,7 +8,15 @@ Fû and
 ​Shăn
 Are the support of Kâu,
 Screens to all the states,
-Diffusing (their influence) over the four quarters of the kingdom."
+Diffusing (their influence) over the four quarters of the kingdom.","Grandly lofty are the mountains,
+With their large masses reaching to the heavens.
+From those mountains was sent down a spirit,
+Who produced the birth of (the princes of) Fû and Shăn.
+Fû and
+​Shăn
+Are the support of Kâu,
+Screens to all the states,
+Diffusing (their influence) over the four quarters of the kingdom.",[]
 shijing__daya-dang-005__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-dang-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·大雅·蕩之什·005.2,"亹亹申伯，王纘之事。于邑于謝，南國是式。
 王命召伯，定申伯之宅。登是南邦，世執其功。",崧高.2,"Full of activity is the chief of Shăn,
 And the king would employ him to continue the services (of his fathers),
@@ -17,7 +25,14 @@ Where he should be a pattern to the states of the south.
 The king gave charge to the earl of Shâo,
 To arrange all about the residence of the chief of Shăn,
 Where he should do what was necessary for the regions of the south,
-And where his posterity might maintain his merit."
+And where his posterity might maintain his merit.","Full of activity is the chief of Shăn,
+And the king would employ him to continue the services (of his fathers),
+With his capital in Hsieh,
+Where he should be a pattern to the states of the south.
+The king gave charge to the earl of Shâo,
+To arrange all about the residence of the chief of Shăn,
+Where he should do what was necessary for the regions of the south,
+And where his posterity might maintain his merit.",[]
 shijing__daya-dang-005__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-dang-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·大雅·蕩之什·005.3,"申伯之功，召伯是營。有俶其城，寢廟既成。
 既成藐藐，王錫申伯。四牡蹻蹻，鉤膺濯濯。",崧高.3,"Of the services of the chief of Shăn
 The foundation was laid by the earl of Shâo,
@@ -26,4 +41,11 @@ And then completed his ancestral temple.
 When the temple was completed, wide and grand,
 The king conferred on the chief of Shâo
 Four noble steeds,
-With the hooks for the trappings of the breast-bands, glittering bright."
+With the hooks for the trappings of the breast-bands, glittering bright.","Of the services of the chief of Shăn
+The foundation was laid by the earl of Shâo,
+Who first built the walls (of his city),
+And then completed his ancestral temple.
+When the temple was completed, wide and grand,
+The king conferred on the chief of Shâo
+Four noble steeds,
+With the hooks for the trappings of the breast-bands, glittering bright.",[]

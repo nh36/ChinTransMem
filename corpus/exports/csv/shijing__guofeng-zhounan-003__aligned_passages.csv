@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__guofeng-zhounan-003__001__zhwikisource-20260530__legge-sheking-1871-ocr,shijing,guofeng-zhounan-003,poem,poem,poem,True,"Poem-level fallback from reviewed Legge 1871 Internet Archive OCR extraction; stanza breaks are preserved in the cleaned translation text, but the alignment stays at poem scope until stanza-level OCR cleanup is safer.",1,1,exact_or_near_exact,0.95,1,詩經·國風·周南·003.1,"采采卷耳，不盈頃筐，嗟我懷人，寘彼周行。
 陟彼崔嵬，我馬虺隤，我姑酌彼金罍，維以不永懷。
 陟彼高岡，我馬玄黃，我姑酌彼兕觥，維以不永傷。
@@ -20,4 +20,22 @@ Hoping I may not have long to sorrow.
 I was ascending that flat-topped height,
 But my horses became quite disabled,
 And my servants were also disabled.
-Oh! how great is my sorrow!"
+Oh! how great is my sorrow!","I was gathering and gathering the mouse-ear,
+But could not fill my shallow basket.
+With a sigh for the man of my heart,
+I placed it on the high road.
+
+I was ascending that rock-covered height,
+But my horses were too tired to breast it.
+I will now pour a cup from that gilded vase,
+Hoping I may not have to think of him long.
+
+I was ascending that lofty ridge,
+But my horses turned of a dark yellow.
+I will now take a cup from that rhinoceros-horn cup,
+Hoping I may not have long to sorrow.
+
+I was ascending that flat-topped height,
+But my horses became quite disabled,
+And my servants were also disabled.
+Oh! how great is my sorrow!",[]

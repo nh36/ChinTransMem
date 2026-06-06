@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__song-qingmiao-005__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,song-qingmiao-005,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·頌·清廟之什·005.1,"天作高山，大王荒之。
 彼作矣，文王康之。
 彼徂矣，岐有夷之行。
@@ -8,4 +8,10 @@ He made the commencement with it,
 And king Wăn tranquilly (carried on the work),
 (Till) that rugged (mount) Khî
 Had level roads leading to it.
-May their descendants ever preserve it!"
+May their descendants ever preserve it!","Heaven made the lofty hill,
+And king Thâi brought (the country about) it under cultivation.
+He made the commencement with it,
+And king Wăn tranquilly (carried on the work),
+(Till) that rugged (mount) Khî
+Had level roads leading to it.
+May their descendants ever preserve it!",[]

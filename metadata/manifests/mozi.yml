@@ -79,16 +79,16 @@
     "exportable_section_count": 30,
     "metadata_only_section_count": 22,
     "blocked_section_count": 22,
-    "exact_alignment_count": 663,
-    "automatic_alignment_count": 663,
-    "alignment_record_count": 693,
+    "exact_alignment_count": 654,
+    "automatic_alignment_count": 654,
+    "alignment_record_count": 684,
     "section_group_alignment_record_count": 30,
     "alignment_granularity_counts": {
-      "chapter": 8,
-      "grouped": 655
+      "chapter": 9,
+      "grouped": 645
     },
     "curated_override_section_count": 1,
-    "fallback_section_count": 8,
+    "fallback_section_count": 9,
     "rights_review_required_section_count": 30,
     "release_ready_section_count": 0,
     "genuine_blocker_count": 22,
@@ -106,9 +106,9 @@
     "remaining_leakage_issue_count": 0,
     "drift_checks_run": 30,
     "anchor_mapped_section_count": 1,
-    "drift_issue_count_before_repair": 2,
-    "repaired_drift_issue_count": 2,
-    "remaining_drift_issue_count": 0
+    "drift_issue_count_before_repair": 3,
+    "repaired_drift_issue_count": 0,
+    "remaining_drift_issue_count": 4
   },
   "romanization_aliases": [
     {
@@ -2217,10 +2217,10 @@
       "alignment_processed_path": "corpus/processed/alignments/mozi__mozi-003-that-which-is-affectable__chinesenotes-1f6b1d3__mei-archiveocr-v1-1929__alignments.jsonl",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 10,
+      "expected_exact_alignment_count": 1,
       "blockers": [],
       "notes": "Proof-of-concept export built from ChineseNotes Chinese plus Archive.org OCR capture of Yi-Pao Mei 1929. Rights review remains pending before any release.",
-      "fallback_reason": null
+      "fallback_reason": "English OCR segmentation still requires chapter-level coarse alignment after repair because grouped alignment remained unreliable (Anchor drift remains after repair: four-good-kings (missing_or_ambiguous_target_anchor); four-bad-kings (missing_or_ambiguous_target_anchor); six-bad-princes (missing_or_ambiguous_target_anchor); good-friends (missing_or_ambiguous_target_anchor))."
     },
     {
       "section_id": "mozi-004-methods-and-standards",

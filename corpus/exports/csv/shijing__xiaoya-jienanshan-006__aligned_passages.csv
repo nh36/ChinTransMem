@@ -1,4 +1,4 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__xiaoya-jienanshan-006__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,xiaoya-jienanshan-006,poem,poem,poem,True,Whole-poem fallback because the English witness expands 2 Chinese stanzas into 3 English blocks that cannot be matched safely.,1,1,exact_or_near_exact,0.95,1,詩經·小雅·節南山之什·006.1,"宛彼鳴鳩，翰飛戾天。我心憂傷，念昔先人。明發不寐，有懷二人。
 
 人之齊聖，飲酒溫克。彼昏不知，壹醉日富。各敬爾儀，天命不又。",小宛.1,"Small is the cooing dove,
@@ -20,4 +20,23 @@ Picking up grain about the stackyard.
 Alas for the distressed and the solitary,
 Deemed fit inmates for the prisons!
 With a handful of grain I go out and divine,
-How I may be able to become good."
+How I may be able to become good.","Small is the cooing dove,
+But it flies aloft to heaven.
+My heart is wounded with sorrow,
+And I think of our forefathers.
+When the dawn is breaking, and I cannot sleep,
+The thoughts in my breast are of our parents.
+
+Men who are grave and wise,
+Though they drink, are mild and masters of themselves;
+But those who are benighted and ignorant
+Become devoted to drink, and more so daily.
+Be careful, each of you, of your deportment;
+What Heaven confers, (when once lost), is not regained.
+
+The greenbeaks come and go,
+Picking up grain about the stackyard.
+Alas for the distressed and the solitary,
+Deemed fit inmates for the prisons!
+With a handful of grain I go out and divine,
+How I may be able to become good.",[]

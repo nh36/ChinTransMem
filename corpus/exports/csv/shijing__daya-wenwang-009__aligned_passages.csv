@@ -1,26 +1,45 @@
-alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text
+alignment_id,work_id,section_id,section_unit,segment_type,alignment_granularity,is_coarse_alignment,coarse_alignment_reason,source_segment_count,target_segment_count,alignment_type,confidence,order,chinese_ref,chinese_text,translation_ref,translation_text,translation_text_raw,witness_repairs
 shijing__daya-wenwang-009__001__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,1,詩經·大雅·文王之什·009.1,下武維周，世有哲王。三后在天，王配于京。,下武.1,"Successors tread in the steps (of their predecessors) in our Kâu.
 For generations there had been wise kings;
 The three sovereigns were in heaven;
-And king (Wû) was their worthy successor in his capital."
+And king (Wû) was their worthy successor in his capital.","Successors tread in the steps (of their predecessors) in our Kâu.
+For generations there had been wise kings;
+The three sovereigns were in heaven;
+And king (Wû) was their worthy successor in his capital.",[]
 shijing__daya-wenwang-009__002__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,2,詩經·大雅·文王之什·009.2,王配于京，世德作求。永言配命，成王之孚。,下武.2,"King (Wû) was their worthy successor in his capital,
 Rousing himself to seek for the hereditary virtue,
 Always striving to be in accordance with the
 ​will (of Heaven);
-And thus he secured the confidence due to a king."
+And thus he secured the confidence due to a king.","King (Wû) was their worthy successor in his capital,
+Rousing himself to seek for the hereditary virtue,
+Always striving to be in accordance with the
+​will (of Heaven);
+And thus he secured the confidence due to a king.",[]
 shijing__daya-wenwang-009__003__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,3,詩經·大雅·文王之什·009.3,成王之孚，下土之式。永言孝思，孝思維則。,下武.3,"He secured the confidence due to a king,
 And became the pattern of all below him.
 Ever thinking how to be filial,
-His filial mind was the model (which he supplied)."
+His filial mind was the model (which he supplied).","He secured the confidence due to a king,
+And became the pattern of all below him.
+Ever thinking how to be filial,
+His filial mind was the model (which he supplied).",[]
 shijing__daya-wenwang-009__004__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,4,詩經·大雅·文王之什·009.4,媚茲一人，應侯順德。永言孝思，昭哉嗣服。,下武.4,"Men loved him, the One man,
 And responded (to his example) with a docile virtue.
 Ever thinking how to be filial,
-He brilliantly continued the doings (of his fathers)."
+He brilliantly continued the doings (of his fathers).","Men loved him, the One man,
+And responded (to his example) with a docile virtue.
+Ever thinking how to be filial,
+He brilliantly continued the doings (of his fathers).",[]
 shijing__daya-wenwang-009__005__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,5,詩經·大雅·文王之什·009.5,昭茲來許，繩其祖武。於萬斯年，受天之祜。,下武.5,"Brilliantly! and his posterity,
 Continuing to walk in the steps of their forefathers,
 For myriads of years,
-Will receive the blessing of Heaven."
+Will receive the blessing of Heaven.","Brilliantly! and his posterity,
+Continuing to walk in the steps of their forefathers,
+For myriads of years,
+Will receive the blessing of Heaven.",[]
 shijing__daya-wenwang-009__006__zhwikisource-20260530__legge-sbe-v3-1879,shijing,daya-wenwang-009,poem,stanza,stanza,False,,1,1,exact_or_near_exact,0.99,6,詩經·大雅·文王之什·009.6,受天之祜，四方來賀。於萬斯年，不遐有佐。,下武.6,"They will receive the blessing of Heaven,
 And from the four quarters (of the kingdom) will felicitations come to them.
 For myriads of years
-Will there not be their helpers?"
+Will there not be their helpers?","They will receive the blessing of Heaven,
+And from the four quarters (of the kingdom) will felicitations come to them.
+For myriads of years
+Will there not be their helpers?",[]
