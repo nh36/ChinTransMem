@@ -69,9 +69,9 @@
       "section_id": "shiji-001-annals-annals-of-the-five-emperors",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "status": "fail",
+      "status": "pass",
       "expected_exact_alignment_count": 29,
-      "exact_alignment_count": 0,
+      "exact_alignment_count": 29,
       "grouped_alignment_count": 1,
       "unmatched_chinese_segment_ids": [],
       "unmatched_translation_segment_ids": []
@@ -127,9 +127,9 @@
       "section_id": "shiji-003-annals-of-yin",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "status": "fail",
+      "status": "pass",
       "expected_exact_alignment_count": 17,
-      "exact_alignment_count": 0,
+      "exact_alignment_count": 17,
       "grouped_alignment_count": 1,
       "unmatched_chinese_segment_ids": [],
       "unmatched_translation_segment_ids": []
@@ -153,10 +153,24 @@
     "question_punctuation_mismatches": [],
     "suspicious_length_imbalance_rows": [],
     "non_grouped_segmentation_mismatch_rows": [],
-    "alignment_drift_issues": [],
+    "alignment_drift_issues": [
+      "shiji-003-annals-of-yin:qi-to-zhaoming:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:zhaoming-to-xiangtu:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:xiangtu-to-changruo:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:changruo-to-caoyu:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:caoyu-to-ming:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:ming-to-zhen:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:zhen-to-wei:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:wei-to-baoding:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:baoding-to-baoyi:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:baoyi-to-baobing:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:baobing-to-zhuren:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:zhugui-to-tang:resolved_ambiguous_anchor",
+      "shiji-003-annals-of-yin:tang-punishes-ge:resolved_ambiguous_anchor"
+    ],
     "entity_sequence_drift_issues": [],
     "line_order_issues": [],
-    "hard_failure_count": 0
+    "hard_failure_count": 1
   },
   "source_traceability": {
     "missing_source_url_sources": [],
@@ -165,11 +179,25 @@
     "missing_rights_note_sources": [],
     "hard_failure_count": 0
   },
-  "count_disagreement_errors": [
-    "manifest exact_alignment_count 46 != candidate export rows 0"
-  ],
+  "count_disagreement_errors": [],
   "review_required_fallback_alignment_ids": [],
-  "checksums": {},
+  "checksums": {
+    "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.jsonl": "2122ce550fe0e7ae683a60be7161f6b3348ea30c227b16b3f51372da4bbb4593",
+    "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.csv": "8260a264f7d9fbde51b5837222e79444f18134bdb0ad758db86a164359b0909b",
+    "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.tmx": "24e35a94ad59ccd0ebdf2f1b00b002f3d574cb4b158b89026c79036031447fca",
+    "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-001-annals-annals-of-the-five-emperors__aligned_passages.json": "500537f2c681ed7de828d1d09456255e5ba0caa90c6869852d238b33877e9e55",
+    "corpus/candidates/shiji/benji/exports/jsonl/shiji__shiji-003-annals-of-yin__aligned_passages.jsonl": "93498d04fb7e746400142a9dce2d9c0e0521b7e87cb88046b988438bde017fcb",
+    "corpus/candidates/shiji/benji/exports/csv/shiji__shiji-003-annals-of-yin__aligned_passages.csv": "916384261a0f3a45671cfaf48563153482bbfc93dccf63a55ab900753e862027",
+    "corpus/candidates/shiji/benji/exports/tmx/shiji__shiji-003-annals-of-yin__aligned_passages.tmx": "ed28845e6acc53ea68c549bcfc21ca1ccf2137161bb716e5173275d64cb3896d",
+    "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__shiji-003-annals-of-yin__aligned_passages.json": "84b40f57e14f99c2fe5504a3f71442fcaca31d53003168372a52b6527cc30712",
+    "corpus/candidates/shiji/benji/exports/jsonl/shiji__all__aligned_passages.jsonl": "f1b8fac1799ed69c5662240ec796871aad7eb364b23df8741b519cca34d4515b",
+    "corpus/candidates/shiji/benji/exports/csv/shiji__all__aligned_passages.csv": "c945e2d1e975ef63ea07228bce924d6d95fb28c4fe926d68eb98aaa3d72c13ca",
+    "corpus/candidates/shiji/benji/exports/tmx/shiji__all__aligned_passages.tmx": "17723a55068c535128dc417e7b757425526b43bc9cf6b50614b8e014afe74d06",
+    "corpus/candidates/shiji/benji/reports/tmx_validation/shiji__benji__corpus_tmx_validation.json": "3b22b0a0ac998139aeac37c55d759633bf9bc2daf980647c228fc89bb6d638f6",
+    "corpus/candidates/shiji/benji/metadata/shiji__benji.yml": "497e4cd309ffc35d9dda61f8af024751546314bc7a12750b790e8c067d7ff51c",
+    "corpus/candidates/shiji/benji/reports/shiji__benji__alignment_qc.json": "07239a6add45d67e04b2cdce80652a0fb4811eb7633e1eb27cf9c5670715794b",
+    "corpus/candidates/shiji/benji/repair_logs/shiji__benji__witness_repair_log.json": "41acbcde608e3b1a3d44e190658f0522947793b9f70ffc54e99ad27bb2d81785"
+  },
   "deterministic_issue_count": 1,
   "hard_failure_count": 1
 }

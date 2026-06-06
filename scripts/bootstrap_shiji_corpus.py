@@ -14,6 +14,7 @@ from chinesenotes_alignment import (
     find_anchor_drift_issues,
     join_unit_texts,
     load_alignment_anchor_maps,
+    load_alignment_overrides,
     partition_block_texts_by_anchors,
     refine_alignment,
     render_completion_quality_markdown,
@@ -45,6 +46,7 @@ LEDGER_PATH = METADATA_ROOT / f"{WORK_ID}_verification_ledger.yml"
 COMPLETION_DOC_PATH = DOC_ROOT / f"{WORK_ID}_completion_quality.md"
 BATCH_MAPPING_PATH = METADATA_ROOT / f"{WORK_ID}_batch_mapping.yml"
 ANCHOR_MAP_PATH = METADATA_ROOT / f"{WORK_ID}_alignment_anchors.yml"
+ALIGNMENT_OVERRIDES_PATH = METADATA_ROOT / f"{WORK_ID}_alignment_overrides.yml"
 WITNESS_REPAIR_LOG_PATH = REPORT_ROOT / f"{WORK_ID}__witness_repair_log.json"
 INDEX_RELATIVE_PATH = "data/corpus/shiji.csv"
 
@@ -499,6 +501,10 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
         section_id: _normalize_anchor_map(anchor_map)
         for section_id, anchor_map in load_alignment_anchor_maps(ANCHOR_MAP_PATH).items()
     }
+    # Load any curated alignment overrides for this work (section-scoped). These are applied deterministically
+    # during refine_alignment when present so high-risk triage entries can be pinned by curated overrides.
+    alignment_overrides = load_alignment_overrides(ALIGNMENT_OVERRIDES_PATH)
+    curated_override_sections: list[str] = []
 
     for section in selected_sections:
         raw_path = _ensure_raw_capture(section.source_file, skip_fetch=skip_fetch)
@@ -593,6 +599,9 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                 section_remaining_drift_issue_count = 0
                 alignment: dict[str, Any] | None = None
                 initial_alignment_error: ValueError | None = None
+                # If a curated override exists for the section, pass it into refine_alignment so
+                # deterministic curated mappings are applied instead of relying on heuristic grouping.
+                override_entry = alignment_overrides.get(section_id)
                 try:
                     alignment = refine_alignment(
                         section_id,
@@ -602,6 +611,7 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                         target_splitter=split_english_units,
                         max_source_group_size=6,
                         max_target_group_size=8,
+                        override=override_entry,
                     )
                 except ValueError as exc:
                     initial_alignment_error = exc
@@ -635,6 +645,7 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                             target_splitter=split_english_units,
                             max_source_group_size=6,
                             max_target_group_size=8,
+                            override=override_entry,
                         )
                     if initial_alignment_error is not None and alignment is not None:
                         section_drift_issue_count_before_repair = max(1, section_drift_issue_count_before_repair)
@@ -648,6 +659,9 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                     source_id=zh_source_id,
                     target_source_id=en_source_id,
                 )
+                # Record if a curated override was used for this section so reports reflect curated mappings.
+                if alignment.get("curated_override_used"):
+                    curated_override_sections.append(section_id)
                 if use_anchor_partition:
                     final_anchor_issues = find_anchor_drift_issues(final_preview_rows, list(anchor_map.get("anchors", [])))
                     # Filter out informational resolved_ambiguous_anchor entries before counting remaining issues
@@ -1130,6 +1144,8 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
         },
         "sections": verification_sections,
     }
+    # Count curated corrections recorded in the witness_repair_entries list.
+    curated_correction_count = sum(1 for e in witness_repair_entries if str(e.get("automatic_or_curated", "")).lower().startswith("curat"))
     witness_repair_log = {
         "work_id": WORK_ID,
         "title_zh": TITLE_ZH,
@@ -1138,8 +1154,8 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
             "pre_repair_issue_count": witness_issue_count_before_repair,
             "repaired_issue_count": repaired_witness_issue_count,
             "remaining_issue_count": remaining_witness_issue_count,
-            "automatic_correction_count": len(witness_repair_entries),
-            "curated_correction_count": 0,
+            "automatic_correction_count": len([e for e in witness_repair_entries if str(e.get("automatic_or_curated", "")).lower().startswith("auto")]),
+            "curated_correction_count": curated_correction_count,
             "witness_gloss_handling": "stripped_from_translation_text_raw_preserved",
         },
         "repairs": witness_repair_entries,
@@ -1164,7 +1180,8 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
             "exact_alignment_count": exact_alignment_count,
             "automatic_alignment_count": exact_alignment_count,
             "alignment_record_count": exact_alignment_count + section_group_alignment_count,
-            "curated_override_section_count": 0,
+            "curated_override_section_count": len(curated_override_sections),
+            "curated_correction_count": curated_correction_count,
             "fallback_section_count": 0,
             "blocked_section_count": blocked_section_count,
             "hard_failure_count": 0,
@@ -1185,7 +1202,6 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
             "pre_repair_corruption_issue_count": 0,
             "corrected_corruption_issue_count": 0,
             "automatic_correction_count": len(witness_repair_entries),
-            "curated_correction_count": 0,
             "remaining_corruption_issue_count": 0,
             "pre_repair_leakage_issue_count": 0,
             "repaired_leakage_issue_count": 0,
@@ -1193,7 +1209,7 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
             "alignment_granularity_counts": dict(sorted(alignment_granularity_counts.items())),
         },
         "fallback_sections": [],
-        "curated_override_sections": [],
+        "curated_override_sections": curated_override_sections,
         "anchor_mapped_sections": anchor_mapped_sections,
         "blocked_sections": blocked_sections,
         "sections": completion_sections,

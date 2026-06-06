@@ -42,8 +42,8 @@
       "source_url": "https://raw.githubusercontent.com/alexamies/chinesenotes.com/1f6b1d3e7a40b6886a4b943c898125639e993544/corpus/shiji/shiji003.txt",
       "status": "captured",
       "english_witness": "Chinese Notes bilingual English witness",
-      "export_status": "active",
-      "blocker_note": null
+      "export_status": "metadata_only",
+      "blocker_note": "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: Curated override for shiji-003-annals-of-yin still fails alignment QC: group 4: suspicious false precision; short source clause aligned to a long target segment; group 6: suspicious false precision; short source clause aligned to a long target segment"
     }
   ]
 }

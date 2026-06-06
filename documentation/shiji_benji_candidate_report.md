@@ -28,8 +28,8 @@
 - Remaining drift issues: 0
 - Promotion ready: False
 - Promotion target state: candidate_qc_failed
-- Active corpus QC status: pass
-- Candidate/active export agreement: False
+- Active corpus QC status: fail
+- Candidate/active export agreement: True
 
 ## Section status
 
@@ -49,8 +49,4 @@
 
 ## Candidate vs active agreement
 
-- candidate and active corpus QC hard_failure_count differ
-- candidate and active exact alignment count differ (46 != 29)
-- candidate and active exact alignment counts differ
-- candidate and active promoted section count differ (2 != 1)
-- candidate and active promoted section ids differ
+- Candidate and active promoted exports match on counts and file content.

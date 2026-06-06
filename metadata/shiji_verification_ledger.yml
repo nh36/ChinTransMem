@@ -4,11 +4,11 @@
   "title_en": "Records of the Grand Historian",
   "summary": {
     "section_count": 3,
-    "active_exportable_section_count": 2,
-    "metadata_only_blocked_section_count": 1,
-    "anchor_mapped_section_count": 1,
-    "drift_issue_count_before_repair": 1,
-    "repaired_drift_issue_count": 1,
+    "active_exportable_section_count": 1,
+    "metadata_only_blocked_section_count": 2,
+    "anchor_mapped_section_count": 0,
+    "drift_issue_count_before_repair": 0,
+    "repaired_drift_issue_count": 0,
     "remaining_drift_issue_count": 0,
     "witness_issue_count_before_repair": 88,
     "repaired_witness_issue_count": 88,
@@ -40,10 +40,9 @@
       "batch_id": "benji",
       "title_zh": "《殷本紀》",
       "title_en": "Annals of Yin",
-      "export_status": "active",
-      "verification_status": "deterministic_alignment",
-      "alignment_anchor_map_used": true,
-      "witness_quality_status": "normalized_gloss_enriched_witness"
+      "export_status": "metadata_only",
+      "blocker_note": "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: Curated override for shiji-003-annals-of-yin still fails alignment QC: group 4: suspicious false precision; short source clause aligned to a long target segment; group 6: suspicious false precision; short source clause aligned to a long target segment",
+      "witness_quality_status": "blocked"
     }
   ]
 }
