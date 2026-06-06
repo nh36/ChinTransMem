@@ -730,6 +730,7 @@ def promote_candidate(work_id: str, *, batch_id: str | None = None) -> dict[str,
 def write_candidate_report(work_id: str, *, batch_id: str | None = None) -> dict[str, Any]:
     _require_batch_scope(work_id, batch_id)
     state = _load_candidate_state(work_id, batch_id)
+    manifest = _scoped_manifest(work_id, batch_id)
     candidate_qc = _load_json(candidate_qc_report_path(work_id, batch_id))
     ai_reviews = _load_review_rows(candidate_ai_review_path(work_id, batch_id))
     ai_summary = summarize_reviews(ai_reviews)
@@ -761,6 +762,7 @@ def write_candidate_report(work_id: str, *, batch_id: str | None = None) -> dict
         f"- Batch id: {batch_id}" if batch_id else "- Batch id: none",
         f"- Current state: {state.get('current_state')}",
         f"- Candidate export root: `{repo_relative(candidate_work_dir(work_id, batch_id))}`",
+        f"- Monolithic promotion occurred: {work_id == 'shiji' and batch_id is None}",
         f"- Deterministic QC status: {candidate_qc.get('status', 'missing')}",
         f"- Deterministic QC hard failures: {candidate_qc.get('hard_failure_count', 0)}",
         f"- Deterministic QC issue count: {candidate_qc.get('deterministic_issue_count', 0)}",
@@ -768,6 +770,11 @@ def write_candidate_report(work_id: str, *, batch_id: str | None = None) -> dict
         f"- Alignment review count: {ai_summary['review_count']}",
         f"- Alignment review failed high-risk alignments: {ai_summary['failed_high_risk_alignment_count']}",
         f"- Reviewed fallback alignments: {ai_summary['reviewed_fallback_alignment_count']}",
+        f"- Named-entity drift reviews run: {ai_summary.get('review_count', 0)}",
+        f"- Named-entity drift issues detected: {alignment_snapshot.get('summary', {}).get('drift_issue_count_before_repair', 0)}",
+        f"- Named-entity drift issues repaired: {alignment_snapshot.get('summary', {}).get('repaired_drift_issue_count', 0)}",
+        f"- Named-entity drift issues remaining: {alignment_snapshot.get('summary', {}).get('remaining_drift_issue_count', 0)}",
+        f"- Shiji 003 succession sequence passed entity-order validation: {alignment_snapshot.get('summary', {}).get('entity_sequence_validation_passed', False)}",
         f"- Automatic repairs applied: {repair_log.get('summary', {}).get('automatic_correction_count', 0)}",
         f"- Curated repairs applied: {repair_log.get('summary', {}).get('curated_correction_count', 0)}",
         f"- Remaining OCR issues: {alignment_snapshot.get('summary', {}).get('remaining_corruption_issue_count', 0)}",
@@ -778,9 +785,19 @@ def write_candidate_report(work_id: str, *, batch_id: str | None = None) -> dict
         f"- Active corpus QC status: {active_qc.get('status', 'missing')}",
         f"- Candidate/active export agreement: {active_comparison['matches']}",
         "",
-        "## Alignment review classifications",
+        "## Section status",
         "",
     ]
+    for section in manifest["sections"]:
+        if section.get("export_status") == "active":
+            lines.append(f"- active `{section['section_id']}`")
+        else:
+            lines.append(f"- metadata-only `{section['section_id']}`: {section.get('blocker_note', section.get('fallback_reason', 'blocked'))}")
+    lines.extend([
+        "",
+        "## Alignment review classifications",
+        "",
+    ])
     for classification, count in sorted(ai_summary["classification_counts"].items()):
         lines.append(f"- `{classification}`: {count}")
     lines.extend(["", "## Promotion blockers", ""])

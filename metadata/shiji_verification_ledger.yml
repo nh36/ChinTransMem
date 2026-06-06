@@ -5,7 +5,11 @@
   "summary": {
     "section_count": 3,
     "active_exportable_section_count": 2,
-    "metadata_only_blocked_section_count": 1
+    "metadata_only_blocked_section_count": 1,
+    "anchor_mapped_section_count": 1,
+    "drift_issue_count_before_repair": 9,
+    "repaired_drift_issue_count": 9,
+    "remaining_drift_issue_count": 0
   },
   "sections": [
     {
@@ -14,7 +18,8 @@
       "title_zh": "《本紀‧五帝本紀》",
       "title_en": "Annals - Annals of the Five Emperors",
       "export_status": "active",
-      "verification_status": "deterministic_alignment"
+      "verification_status": "deterministic_alignment",
+      "alignment_anchor_map_used": false
     },
     {
       "section_id": "shiji-002-annals-of-xia",
@@ -30,7 +35,8 @@
       "title_zh": "《殷本紀》",
       "title_en": "Annals of Yin",
       "export_status": "active",
-      "verification_status": "deterministic_alignment"
+      "verification_status": "deterministic_alignment",
+      "alignment_anchor_map_used": true
     }
   ]
 }

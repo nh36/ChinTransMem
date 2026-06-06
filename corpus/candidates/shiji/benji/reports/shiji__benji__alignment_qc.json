@@ -5,13 +5,22 @@
     "active_section_count": 2,
     "exportable_section_count": 2,
     "english_witness": "ChineseNotes-hosted bilingual English witness (translator attribution unresolved)",
-    "exact_alignment_count": 113,
-    "automatic_alignment_count": 113,
-    "alignment_record_count": 115,
+    "exact_alignment_count": 46,
+    "automatic_alignment_count": 46,
+    "alignment_record_count": 48,
     "curated_override_section_count": 0,
     "fallback_section_count": 0,
     "blocked_section_count": 1,
     "hard_failure_count": 0,
+    "drift_checks_run": 17,
+    "drift_issue_count_before_repair": 9,
+    "repaired_drift_issue_count": 9,
+    "remaining_drift_issue_count": 0,
+    "entity_sequence_validation_passed": true,
+    "anchor_mapped_section_count": 1,
+    "anchor_mapped_sections": [
+      "shiji-003-annals-of-yin"
+    ],
     "pre_repair_corruption_issue_count": 0,
     "corrected_corruption_issue_count": 0,
     "automatic_correction_count": 0,
@@ -20,15 +29,15 @@
     "pre_repair_leakage_issue_count": 0,
     "repaired_leakage_issue_count": 0,
     "remaining_leakage_issue_count": 0,
-    "remaining_drift_issue_count": 0,
     "alignment_granularity_counts": {
-      "block": 29,
-      "grouped": 84
+      "block": 46
     }
   },
   "fallback_sections": [],
   "curated_override_sections": [],
-  "anchor_mapped_sections": [],
+  "anchor_mapped_sections": [
+    "shiji-003-annals-of-yin"
+  ],
   "blocked_sections": [
     {
       "section_id": "shiji-002-annals-of-xia",
@@ -52,8 +61,8 @@
       "title_en": "Annals of Yin",
       "export_status": "active",
       "alignment_mode": "deterministic",
-      "alignment_granularity": "grouped",
-      "exact_alignment_count": 84,
+      "alignment_granularity": "block",
+      "exact_alignment_count": 17,
       "fallback_reason": null
     }
   ]

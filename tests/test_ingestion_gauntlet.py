@@ -19,7 +19,9 @@ from common import (
     corpus_export_paths,
 )
 from ingestion_gauntlet import compare_candidate_and_active_exports, evaluate_promotion_gates
-from qc_corpus import run_text_integrity_checks
+from qc_corpus import run_alignment_quality_checks, run_text_integrity_checks
+from ai_review_alignments import review_alignment_rows
+from shiji_quality import compare_shiji_entity_sequences
 
 
 def load_json(path: Path) -> object:
@@ -467,8 +469,13 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertTrue(comparison["matches"])
         self.assertEqual(comparison["candidate_fallback_count"], 0)
         self.assertEqual(comparison["active_fallback_count"], 0)
+        self.assertIn("Monolithic promotion occurred: False", candidate_report)
         self.assertIn("Batch id: benji", candidate_report)
         self.assertIn("Current state: active_proof_of_concept", candidate_report)
+        self.assertIn("Named-entity drift issues detected:", candidate_report)
+        self.assertIn("Named-entity drift issues repaired:", candidate_report)
+        self.assertIn("Named-entity drift issues remaining: 0", candidate_report)
+        self.assertIn("Shiji 003 succession sequence passed entity-order validation: True", candidate_report)
         self.assertIn("Candidate and active promoted exports match on counts and file content.", candidate_report)
 
     def test_shiji_mapping_and_reports_agree(self) -> None:
@@ -488,20 +495,123 @@ class IngestionGauntletTest(unittest.TestCase):
         self.assertEqual(manifest["summary"]["section_count"], 3)
         self.assertEqual(manifest["summary"]["active_section_count"], 2)
         self.assertEqual(manifest["summary"]["metadata_only_blocked_section_count"], 1)
-        self.assertEqual(manifest["summary"]["exact_alignment_count"], 113)
+        self.assertEqual(manifest["summary"]["exact_alignment_count"], 46)
         self.assertEqual(manifest["summary"]["fallback_section_count"], 0)
-        self.assertEqual(manifest["summary"]["alignment_granularity_counts"], {"block": 29, "grouped": 84})
+        self.assertEqual(manifest["summary"]["alignment_granularity_counts"], {"block": 46})
         self.assertEqual(candidate_qc["status"], "pass")
-        self.assertEqual(candidate_qc["counts"]["exact_alignment_records"], 113)
-        self.assertEqual(active_qc["manifest_summary"]["exact_alignment_count"], 113)
+        self.assertEqual(candidate_qc["counts"]["exact_alignment_records"], 46)
+        self.assertEqual(active_qc["manifest_summary"]["exact_alignment_count"], 46)
         self.assertEqual(active_qc["manifest_summary"]["fallback_section_count"], 0)
         self.assertEqual(active_qc["manifest_summary"]["remaining_corruption_issue_count"], 0)
         self.assertEqual(active_qc["manifest_summary"]["remaining_leakage_issue_count"], 0)
         self.assertEqual(active_qc["manifest_summary"]["remaining_drift_issue_count"], 0)
-        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 113)
+        self.assertEqual(alignment_qc["summary"]["exact_alignment_count"], 46)
         self.assertEqual(alignment_qc["summary"]["fallback_section_count"], 0)
-        self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"block": 29, "grouped": 84})
+        self.assertEqual(alignment_qc["summary"]["alignment_granularity_counts"], {"block": 46})
         self.assertEqual(verification["summary"]["active_exportable_section_count"], 2)
+        self.assertGreater(alignment_qc["summary"]["drift_issue_count_before_repair"], 0)
+        self.assertEqual(alignment_qc["summary"]["repaired_drift_issue_count"], alignment_qc["summary"]["drift_issue_count_before_repair"])
+        self.assertEqual(alignment_qc["summary"]["remaining_drift_issue_count"], 0)
+        self.assertEqual(alignment_qc["summary"]["anchor_mapped_section_count"], 1)
+        self.assertEqual(alignment_qc["summary"]["anchor_mapped_sections"], ["shiji-003-annals-of-yin"])
+        self.assertTrue(alignment_qc["summary"]["entity_sequence_validation_passed"])
+
+    def test_shiji_003_succession_sequence_passes_entity_order_validation(self) -> None:
+        anchors = load_json(REPO_ROOT / "metadata" / "shiji_alignment_anchors.yml")["sections"][0]["anchors"]
+        rows = load_jsonl(corpus_export_paths("shiji")["jsonl"])
+        yin_rows = [row for row in rows if row["section_id"] == "shiji-003-annals-of-yin"]
+        expected_fragments = [
+            "契卒，子昭明立。",
+            "昭明卒，子相土立。",
+            "相土卒，子昌若立。",
+            "昌若卒，子曹圉立。",
+            "曹圉卒，子冥立。",
+            "冥卒，子振立。",
+            "主癸卒，子天乙立，是為成湯。",
+        ]
+
+        for fragment in expected_fragments:
+            row = next(row for row in yin_rows if fragment in row["chinese_text"])
+            comparison = compare_shiji_entity_sequences(
+                str(row["chinese_text"]),
+                str(row["translation_text"]),
+                anchors,
+            )
+            self.assertEqual(comparison["entity_sequence_verdict"], "pass", fragment)
+
+    def test_shiji_entity_sequence_drift_is_caught_by_qc_and_gates(self) -> None:
+        rows = [
+            {
+                "alignment_id": "shiji-003-annals-of-yin__aligned-003",
+                "work_id": "shiji",
+                "section_id": "shiji-003-annals-of-yin",
+                "order": 8,
+                "source_segment_count": 2,
+                "target_segment_count": 1,
+                "is_coarse_alignment": False,
+                "coarse_alignment_reason": None,
+                "chinese_text": "契卒，子昭明立。昭明卒，子相土立。",
+                "translation_text": "Qi (documents) died, and his son Zhaoming (luminous) succeeded him.",
+            }
+        ]
+        qc = run_text_integrity_checks("shiji", rows=rows)
+        alignment_qc = run_alignment_quality_checks("shiji", rows=rows)
+        reviews = review_alignment_rows(
+            "shiji",
+            rows,
+            qc_report={"alignment_quality": alignment_qc, "text_integrity": qc},
+            repair_log={},
+            sample_size=len(rows),
+            seed=1,
+        )
+        gate = evaluate_promotion_gates(
+            "fixture-work",
+            candidate_qc={
+                "hard_failure_count": alignment_qc["hard_failure_count"],
+                "counts": {"alignments": 1, "section_group_alignment_records": 1},
+                "source_traceability": {"hard_failure_count": 0},
+                "alignment_quality": {"line_order_issues": []},
+                "count_disagreement_errors": [],
+            },
+            ai_reviews=reviews,
+            alignment_snapshot={
+                "summary": {
+                    "remaining_corruption_issue_count": 0,
+                    "remaining_leakage_issue_count": 0,
+                    "remaining_drift_issue_count": alignment_qc["hard_failure_count"],
+                }
+            },
+            repair_log={"summary": {"automatic_correction_count": 0, "curated_correction_count": 0}},
+            manifest={
+                "summary": {
+                    "exact_alignment_count": 1,
+                    "alignment_record_count": 2,
+                    "section_group_alignment_record_count": 1,
+                    "active_section_count": 1,
+                },
+                "release_status": "not_cleared",
+            },
+            candidate_rows=rows,
+        )
+
+        self.assertGreater(alignment_qc["hard_failure_count"], 0)
+        self.assertTrue(alignment_qc["entity_sequence_drift_issues"])
+        self.assertEqual(reviews[0]["classification"], "semantic_drift")
+        self.assertEqual(reviews[0]["entity_sequence_verdict"], "target_lagging")
+        self.assertIn("lags behind the Chinese source sequence", reviews[0]["drift_explanation"])
+        self.assertFalse(gate["can_promote"])
+        self.assertTrue(any("deterministic candidate QC" in blocker for blocker in gate["blockers"]))
+
+    def test_shiji_002_is_metadata_only_with_explicit_blocker_and_no_alignment_file(self) -> None:
+        manifest = load_json(REPO_ROOT / "metadata" / "manifests" / "shiji.yml")
+        section = next(section for section in manifest["sections"] if section["section_id"] == "shiji-002-annals-of-xia")
+        alignment_path = REPO_ROOT / "corpus" / "processed" / "alignments" / "shiji__shiji-002-annals-of-xia__cn-zh-1f6b1d3__cn-en-1f6b1d3__alignments.jsonl"
+
+        self.assertEqual(section["export_status"], "metadata_only")
+        self.assertEqual(section["alignment_processed_path"], None)
+        self.assertIn("group 36", section["fallback_reason"])
+        self.assertIn("target segment length/structure imbalance suggests missing grouping", section["fallback_reason"])
+        self.assertFalse(alignment_path.exists())
 
 
 if __name__ == "__main__":

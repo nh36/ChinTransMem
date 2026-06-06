@@ -60,7 +60,7 @@
     "work_type": "classical_text",
     "language_code": "zh-Hant",
     "default_citation": "史記",
-    "notes": "Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with 2 active sections and 1 metadata-only blockers."
+    "notes": "Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with 2 active sections, 1 metadata-only blockers, and 1 anchor-mapped sections."
   },
   {
     "work_id": "shijing",

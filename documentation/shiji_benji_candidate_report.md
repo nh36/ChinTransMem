@@ -4,13 +4,19 @@
 - Batch id: benji
 - Current state: active_proof_of_concept
 - Candidate export root: `corpus/candidates/shiji/benji`
+- Monolithic promotion occurred: False
 - Deterministic QC status: pass
 - Deterministic QC hard failures: 0
 - Deterministic QC issue count: 0
 - Alignment review method: heuristic rule-based review (no remote LLM reviewer used)
-- Alignment review count: 113
+- Alignment review count: 46
 - Alignment review failed high-risk alignments: 0
 - Reviewed fallback alignments: 0
+- Named-entity drift reviews run: 46
+- Named-entity drift issues detected: 9
+- Named-entity drift issues repaired: 9
+- Named-entity drift issues remaining: 0
+- Shiji 003 succession sequence passed entity-order validation: True
 - Automatic repairs applied: 0
 - Curated repairs applied: 0
 - Remaining OCR issues: 0
@@ -21,9 +27,15 @@
 - Active corpus QC status: pass
 - Candidate/active export agreement: True
 
+## Section status
+
+- active `shiji-001-annals-annals-of-the-five-emperors`
+- metadata-only `shiji-002-annals-of-xia`: ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: Alignment QC failed for shiji-002-annals-of-xia: group 36: target segment length/structure imbalance suggests missing grouping; group 41: target segment length/structure imbalance suggests missing grouping; group 57: target segment length/structure imbalance suggests missing grouping
+- active `shiji-003-annals-of-yin`
+
 ## Alignment review classifications
 
-- `pass`: 113
+- `pass`: 46
 
 ## Promotion blockers
 

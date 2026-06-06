@@ -19,9 +19,11 @@ from common import (
 from liji_quality import detect_liji_leakage_issues, detect_liji_ocr_issues
 from mozi_ocr import detect_mozi_leakage_issues, detect_mozi_ocr_issues
 from qc_corpus import _severe_ocr_issues
+from shiji_quality import compare_shiji_entity_sequences
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MOZI_ALIGNMENT_ANCHORS_PATH = REPO_ROOT / "metadata" / "mozi_alignment_anchors.yml"
+SHIJI_ALIGNMENT_ANCHORS_PATH = REPO_ROOT / "metadata" / "shiji_alignment_anchors.yml"
 FAILING_CLASSIFICATIONS = {"fail", "needs_regrouping", "note_leakage", "ocr_issue", "wrong_section", "semantic_drift"}
 PASSING_CLASSIFICATIONS = {"pass", "too_coarse_but_usable", "fallback_justified"}
 
@@ -96,9 +98,10 @@ def _rows_by_section(rows: list[dict[str, Any]]) -> dict[str, list[dict[str, Any
 
 
 def _anchor_issue_map(work_id: str, rows: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
-    if work_id != "mozi":
+    if work_id not in {"mozi", "shiji"}:
         return {}
-    anchor_maps = load_alignment_anchor_maps(MOZI_ALIGNMENT_ANCHORS_PATH)
+    anchor_path = MOZI_ALIGNMENT_ANCHORS_PATH if work_id == "mozi" else SHIJI_ALIGNMENT_ANCHORS_PATH
+    anchor_maps = load_alignment_anchor_maps(anchor_path)
     issues_by_alignment_id: dict[str, list[dict[str, Any]]] = {}
     for section_id, section_rows in _rows_by_section(rows).items():
         anchor_map = anchor_maps.get(section_id)
@@ -214,6 +217,27 @@ def classify_alignment_review(
     for issue in anchor_issues:
         risk_reasons.append(f"anchor:{issue['anchor_id']}:{issue['issue']}")
 
+    entity_sequence_details = {
+        "entity_sequence_source": [],
+        "entity_sequence_target": [],
+        "entity_sequence_source_anchor_ids": [],
+        "entity_sequence_target_anchor_ids": [],
+        "entity_sequence_verdict": "not_applicable",
+        "drift_explanation": "No succession anchor sequence was detected in this alignment.",
+    }
+    if section_id.startswith("shiji-"):
+        anchor_maps = load_alignment_anchor_maps(SHIJI_ALIGNMENT_ANCHORS_PATH)
+        anchor_map = anchor_maps.get(section_id)
+        if anchor_map:
+            entity_sequence_details = compare_shiji_entity_sequences(
+                str(row.get("chinese_text", "")),
+                translation_text,
+                list(anchor_map.get("anchors", [])),
+            )
+            verdict = str(entity_sequence_details["entity_sequence_verdict"])
+            if verdict not in {"pass", "not_applicable"}:
+                risk_reasons.append(f"entity_sequence:{verdict}")
+
     anchor_orders = row_anchor_orders.get(alignment_id, {"source_orders": [], "target_orders": []})
     if anchor_orders["source_orders"] and anchor_orders["target_orders"]:
         source_min = min(anchor_orders["source_orders"])
@@ -233,9 +257,11 @@ def classify_alignment_review(
     elif ocr_issues or severe_issues:
         classification = "ocr_issue"
         repair_suggestion = "Apply deterministic OCR repairs to the flagged tokens and regenerate the candidate export."
-    elif anchor_issues or any(reason.startswith("anchor_range_mismatch:") for reason in risk_reasons):
+    elif anchor_issues or any(reason.startswith("anchor_range_mismatch:") for reason in risk_reasons) or any(
+        reason.startswith("entity_sequence:") for reason in risk_reasons
+    ):
         classification = "semantic_drift"
-        repair_suggestion = "Regroup the affected source and target units or apply a curated override that restores anchor order."
+        repair_suggestion = "Regroup the affected source and target units or apply a curated override that restores anchor and entity order."
     elif row.get("is_coarse_alignment"):
         coarse_reason = str(row.get("coarse_alignment_reason", "") or "")
         if coarse_reason:
@@ -260,8 +286,14 @@ def classify_alignment_review(
             f"{', '.join(sorted({issue['issue_type'] for issue in leakage_issues}))}."
         )
     elif classification == "semantic_drift":
-        anchor_summary = ", ".join(sorted(set(risk_reasons))) or "anchor ordering drift"
-        explanation = f"Flagged for semantic drift because the source/target anchor cues do not stay in the same order ({anchor_summary})."
+        if entity_sequence_details["entity_sequence_verdict"] not in {"pass", "not_applicable"}:
+            explanation = (
+                "Flagged for semantic drift because "
+                f"{entity_sequence_details['drift_explanation']}"
+            )
+        else:
+            anchor_summary = ", ".join(sorted(set(risk_reasons))) or "anchor ordering drift"
+            explanation = f"Flagged for semantic drift because the source/target anchor cues do not stay in the same order ({anchor_summary})."
     elif classification == "fallback_justified":
         explanation = (
             "Reviewed chapter-level fallback passed: no obvious OCR corruption, note leakage, or drift remains, "
@@ -291,6 +323,12 @@ def classify_alignment_review(
         "high_risk_reason_summary": ", ".join(sorted(set(risk_reasons))) if risk_reasons else "deterministic sample",
         "review_explanation": explanation,
         "repair_suggestion": repair_suggestion,
+        "entity_sequence_source": entity_sequence_details["entity_sequence_source"],
+        "entity_sequence_target": entity_sequence_details["entity_sequence_target"],
+        "entity_sequence_source_anchor_ids": entity_sequence_details["entity_sequence_source_anchor_ids"],
+        "entity_sequence_target_anchor_ids": entity_sequence_details["entity_sequence_target_anchor_ids"],
+        "entity_sequence_verdict": entity_sequence_details["entity_sequence_verdict"],
+        "drift_explanation": entity_sequence_details["drift_explanation"],
         "chinese_excerpt": _excerpt(str(row.get("chinese_text", ""))),
         "translation_excerpt": _excerpt(translation_text),
         "source_segment_count": int(row.get("source_segment_count", 0) or 0),
@@ -367,6 +405,7 @@ def summarize_reviews(reviews: list[dict[str, Any]]) -> dict[str, Any]:
     classification_counts: dict[str, int] = {}
     failed_high_risk = 0
     reviewed_fallbacks = 0
+    entity_sequence_drift_count = 0
     for review in reviews:
         classification = str(review["classification"])
         classification_counts[classification] = classification_counts.get(classification, 0) + 1
@@ -374,6 +413,8 @@ def summarize_reviews(reviews: list[dict[str, Any]]) -> dict[str, Any]:
             reviewed_fallbacks += 1
         if review["high_risk"] and classification in FAILING_CLASSIFICATIONS:
             failed_high_risk += 1
+        if str(review.get("entity_sequence_verdict") or "not_applicable") not in {"pass", "not_applicable"}:
+            entity_sequence_drift_count += 1
     return {
         "review_method": "heuristic_rule_based",
         "heuristic_only": True,
@@ -381,6 +422,7 @@ def summarize_reviews(reviews: list[dict[str, Any]]) -> dict[str, Any]:
         "classification_counts": classification_counts,
         "failed_high_risk_alignment_count": failed_high_risk,
         "reviewed_fallback_alignment_count": reviewed_fallbacks,
+        "entity_sequence_drift_count": entity_sequence_drift_count,
     }
 
 

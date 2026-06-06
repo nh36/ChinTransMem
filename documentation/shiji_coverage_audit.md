@@ -10,11 +10,11 @@
 | units_with_english_witness | 0 |
 | units_with_release_ready_english_source | 0 |
 | units_with_at_least_one_exact_alignment | 2 |
-| exact_alignment_count | 113 |
+| exact_alignment_count | 46 |
 
 ## Exceptions
 
 - Missing from manifest: 0
 - Present but metadata-only: 1
 - Present without release-ready translation: 3
-- Present with coarse or non-preferred exact alignment: 1
+- Present with coarse or non-preferred exact alignment: 0

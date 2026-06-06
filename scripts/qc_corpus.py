@@ -28,6 +28,7 @@ from liji_quality import (
     detect_liji_ocr_issues,
 )
 from mozi_ocr import detect_mozi_leakage_issues, detect_mozi_ocr_issues
+from shiji_quality import compare_shiji_entity_sequences
 from text_quality import (
     detect_probable_ocr_corruption,
     has_probable_leading_fragment,
@@ -64,6 +65,7 @@ KNOWN_SHANGSHU_BAD_FORMS = (
 )
 SHANGSHU_ALIGNMENT_ANCHORS_PATH = REPO_ROOT / "metadata" / "shangshu_alignment_anchors.yml"
 MOZI_ALIGNMENT_ANCHORS_PATH = REPO_ROOT / "metadata" / "mozi_alignment_anchors.yml"
+SHIJI_ALIGNMENT_ANCHORS_PATH = REPO_ROOT / "metadata" / "shiji_alignment_anchors.yml"
 YIJING_COMMENTARY_MARKERS = (
     "the superior man, in accordance with this",
     "what is the meaning of the words under",
@@ -156,9 +158,10 @@ def run_alignment_quality_checks(work_id: str, rows: list[dict[str, object]] | N
         "suspicious_length_imbalance_rows": [],
         "non_grouped_segmentation_mismatch_rows": [],
         "alignment_drift_issues": [],
+        "entity_sequence_drift_issues": [],
         "line_order_issues": [],
     }
-    if work_id not in {"laozi", "shangshu", "yijing", "mozi", "liji"}:
+    if work_id not in {"laozi", "shangshu", "yijing", "mozi", "liji", "shiji"}:
         return {**issues, "hard_failure_count": 0}
     for row in rows:
         source_text = str(row.get("chinese_text", "")).strip()
@@ -224,6 +227,31 @@ def run_alignment_quality_checks(work_id: str, rows: list[dict[str, object]] | N
                 issues["alignment_drift_issues"].append(
                     f"{section_id}:{issue['anchor_id']}:{issue['issue']}"
                 )
+    if work_id == "shiji":
+        anchor_maps = load_alignment_anchor_maps(SHIJI_ALIGNMENT_ANCHORS_PATH)
+        rows_by_section: dict[str, list[dict[str, object]]] = {}
+        for row in rows:
+            rows_by_section.setdefault(str(row["section_id"]), []).append(row)
+        for section_id, section_rows in rows_by_section.items():
+            anchor_map = anchor_maps.get(section_id)
+            if not anchor_map:
+                continue
+            section_issues = find_anchor_drift_issues(section_rows, list(anchor_map.get("anchors", [])))
+            for issue in section_issues:
+                issues["alignment_drift_issues"].append(
+                    f"{section_id}:{issue['anchor_id']}:{issue['issue']}"
+                )
+            for row in section_rows:
+                comparison = compare_shiji_entity_sequences(
+                    str(row.get("chinese_text", "")),
+                    str(row.get("translation_text", "")),
+                    list(anchor_map.get("anchors", [])),
+                )
+                verdict = str(comparison["entity_sequence_verdict"])
+                if verdict not in {"pass", "not_applicable"}:
+                    issues["entity_sequence_drift_issues"].append(
+                        f"{section_id}:{row['alignment_id']}:{verdict}:{comparison['drift_explanation']}"
+                    )
     if work_id == "yijing":
         rows_by_section: dict[str, list[dict[str, object]]] = {}
         for row in rows:
@@ -360,7 +388,7 @@ def run_source_traceability_checks(work_id: str, *, section_ids: list[str] | Non
         "missing_release_status_sources": [],
         "missing_rights_note_sources": [],
     }
-    if work_id not in {"mozi", "liji"}:
+    if work_id not in {"mozi", "liji", "shiji"}:
         return {**issues, "hard_failure_count": 0}
     source_map = {source["source_id"]: source for source in load_sources(work_id)}
     selected_section_ids = set(section_ids or [])

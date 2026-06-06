@@ -586,6 +586,8 @@ def render_completion_quality_markdown(
         lines.append(f"- Drift issues repaired: {summary['repaired_drift_issue_count']}")
     if "remaining_drift_issue_count" in summary:
         lines.append(f"- Drift issues remaining: {summary['remaining_drift_issue_count']}")
+    if "entity_sequence_validation_passed" in summary:
+        lines.append(f"- Named-entity succession validation passed: {summary['entity_sequence_validation_passed']}")
     if "line_order_checks_run" in summary:
         lines.append(f"- Canonical line-order checks run: {summary['line_order_checks_run']}")
     if "line_order_issue_count_before_repair" in summary:

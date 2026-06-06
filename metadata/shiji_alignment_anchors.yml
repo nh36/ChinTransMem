@@ -1,0 +1,198 @@
+{
+  "sections": [
+    {
+      "section_id": "shiji-003-annals-of-yin",
+      "segmentation_strategy": "anchor_partition",
+      "anchors": [
+        {
+          "source_anchor_id": "qi-birth-and-service",
+          "source_required_terms": ["殷契，母曰簡狄", "契長而佐禹治水有功"],
+          "target_required_terms": ["Qi of Yin's mother", "assisting Yu to control the flood"],
+          "source_entity_sequence": ["Qi"],
+          "target_entity_sequence": ["Qi"],
+          "expected_order": 1,
+          "note": "Keep the opening biography, flood service, and Shun's appointment together."
+        },
+        {
+          "source_anchor_id": "qi-to-zhaoming",
+          "source_required_terms": ["契卒，子昭明立"],
+          "target_required_terms": ["Qi (documents) died", "Zhaoming (luminous) succeeded him"],
+          "source_boundary_terms": ["契卒，子昭明立。"],
+          "target_boundary_terms": ["Qi (documents) died, and his son Zhaoming (luminous) succeeded him."],
+          "source_entity_sequence": ["Qi", "Zhaoming"],
+          "target_entity_sequence": ["Qi", "Zhaoming"],
+          "expected_order": 2,
+          "note": "Qi to Zhaoming begins the succession chain and must not lag."
+        },
+        {
+          "source_anchor_id": "zhaoming-to-xiangtu",
+          "source_required_terms": ["昭明卒，子相土立"],
+          "target_required_terms": ["Zhaoming died", "Xiangtu (view land) succeeded him"],
+          "source_boundary_terms": ["昭明卒，子相土立。"],
+          "target_boundary_terms": ["Zhaoming died, and his son Xiangtu (view land) succeeded him."],
+          "source_entity_sequence": ["Zhaoming", "Xiangtu"],
+          "target_entity_sequence": ["Zhaoming", "Xiangtu"],
+          "expected_order": 3,
+          "note": "Zhaoming to Xiangtu must stay aligned with the matching English succession clause."
+        },
+        {
+          "source_anchor_id": "xiangtu-to-changruo",
+          "source_required_terms": ["相土卒，子昌若立"],
+          "target_required_terms": ["Xiangtu died", "Chang Ruo (bright-like) succeeded him"],
+          "source_boundary_terms": ["相土卒，子昌若立。"],
+          "target_boundary_terms": ["Xiangtu died, and his son Chang Ruo (bright-like) succeeded him."],
+          "source_entity_sequence": ["Xiangtu", "Chang Ruo"],
+          "target_entity_sequence": ["Xiangtu", "Chang Ruo"],
+          "expected_order": 4,
+          "note": "Xiangtu to Chang Ruo must not slip back to the previous generation."
+        },
+        {
+          "source_anchor_id": "changruo-to-caoyu",
+          "source_required_terms": ["昌若卒，子曹圉立"],
+          "target_required_terms": ["Chang Ruo died", "Cao Yu (cattle-pens) succeeded him"],
+          "source_boundary_terms": ["昌若卒，子曹圉立。"],
+          "target_boundary_terms": ["Chang Ruo died, and his son Cao Yu (cattle-pens) succeeded him."],
+          "source_entity_sequence": ["Chang Ruo", "Cao Yu"],
+          "target_entity_sequence": ["Chang Ruo", "Cao Yu"],
+          "expected_order": 5,
+          "note": "Chang Ruo to Cao Yu must stay on the same succession step."
+        },
+        {
+          "source_anchor_id": "caoyu-to-ming",
+          "source_required_terms": ["曹圉卒，子冥立"],
+          "target_required_terms": ["Zao Yu died", "Ming (obscure) succeeded him"],
+          "source_boundary_terms": ["曹圉卒，子冥立。"],
+          "target_boundary_terms": [
+            "Zao Yu died, and his son Ming (obscure) succeeded him.",
+            "Cao Yu died, and his son Ming (obscure) succeeded him."
+          ],
+          "source_entity_sequence": ["Cao Yu", "Ming"],
+          "target_entity_sequence": ["Cao Yu", "Ming"],
+          "expected_order": 6,
+          "note": "Cao Yu to Ming must not be displaced by later successors; the English witness spells the boundary as Zao Yu in the running text."
+        },
+        {
+          "source_anchor_id": "ming-to-zhen",
+          "source_required_terms": ["冥卒，子振立"],
+          "target_required_terms": ["Ming died", "Zhen (shake) succeeded him"],
+          "source_boundary_terms": ["冥卒，子振立。"],
+          "target_boundary_terms": ["Ming died, and his son Zhen (shake) succeeded him."],
+          "source_entity_sequence": ["Ming", "Zhen"],
+          "target_entity_sequence": ["Ming", "Zhen"],
+          "expected_order": 7,
+          "note": "Ming to Zhen is a high-risk succession clause and must not lag."
+        },
+        {
+          "source_anchor_id": "zhen-to-wei",
+          "source_required_terms": ["振卒，子微立"],
+          "target_required_terms": ["Zhen died", "Wei (diminutive) succeeded him"],
+          "source_boundary_terms": ["振卒，子微立。"],
+          "target_boundary_terms": ["Zhen died, and his son Wei (diminutive) succeeded him."],
+          "source_entity_sequence": ["Zhen", "Wei"],
+          "target_entity_sequence": ["Zhen", "Wei"],
+          "expected_order": 8,
+          "note": "Zhen to Wei must remain in order."
+        },
+        {
+          "source_anchor_id": "wei-to-baoding",
+          "source_required_terms": ["微卒，子報丁立"],
+          "target_required_terms": ["Wei died", "Baoding (report D) succeeded him"],
+          "source_boundary_terms": ["微卒，子報丁立。"],
+          "target_boundary_terms": ["Wei died, and his son Baoding (report D) succeeded him."],
+          "source_entity_sequence": ["Wei", "Baoding"],
+          "target_entity_sequence": ["Wei", "Baoding"],
+          "expected_order": 9,
+          "note": "Wei to Baoding must remain aligned to the matching English clause."
+        },
+        {
+          "source_anchor_id": "baoding-to-baoyi",
+          "source_required_terms": ["報丁卒，子報乙立"],
+          "target_required_terms": ["Baoding died", "Baoyi (report B) succeeded him"],
+          "source_boundary_terms": ["報丁卒，子報乙立。"],
+          "target_boundary_terms": ["Baoding died, and his son Baoyi (report B) succeeded him."],
+          "source_entity_sequence": ["Baoding", "Baoyi"],
+          "target_entity_sequence": ["Baoding", "Baoyi"],
+          "expected_order": 10,
+          "note": "Baoding to Baoyi should be a direct pair."
+        },
+        {
+          "source_anchor_id": "baoyi-to-baobing",
+          "source_required_terms": ["報乙卒，子報丙立"],
+          "target_required_terms": ["Baoyi died", "Baobing (report C) succeeded him"],
+          "source_boundary_terms": ["報乙卒，子報丙立。"],
+          "target_boundary_terms": ["Baoyi died, and his son Baobing (report C) succeeded him."],
+          "source_entity_sequence": ["Baoyi", "Baobing"],
+          "target_entity_sequence": ["Baoyi", "Baobing"],
+          "expected_order": 11,
+          "note": "Baoyi to Baobing must not absorb the following Zhuren clause."
+        },
+        {
+          "source_anchor_id": "baobing-to-zhuren",
+          "source_required_terms": ["報丙卒，子主壬立"],
+          "target_required_terms": ["Baobing died", "Zhuren (lord I) succeeded him"],
+          "source_boundary_terms": ["報丙卒，子主壬立。"],
+          "target_boundary_terms": ["Baobing died, and his son Zhuren (lord I) succeeded him."],
+          "source_entity_sequence": ["Baobing", "Zhuren"],
+          "target_entity_sequence": ["Baobing", "Zhuren"],
+          "expected_order": 12,
+          "note": "Baobing to Zhuren is the next succession step."
+        },
+        {
+          "source_anchor_id": "zhuren-to-zhugui",
+          "source_required_terms": ["主壬卒，子主癸立"],
+          "target_required_terms": ["Zhuren died", "Zhu Gui (lord J) succeeded him"],
+          "source_boundary_terms": ["主壬卒，子主癸立。"],
+          "target_boundary_terms": ["Zhuren died, and his son Zhu Gui (lord J) succeeded him."],
+          "source_entity_sequence": ["Zhuren", "Zhu Gui"],
+          "target_entity_sequence": ["Zhuren", "Zhu Gui"],
+          "expected_order": 13,
+          "note": "Zhuren to Zhu Gui must remain aligned before the Tang transition."
+        },
+        {
+          "source_anchor_id": "zhugui-to-tang",
+          "source_required_terms": ["主癸卒，子天乙立", "是為成湯"],
+          "target_required_terms": ["Zhu Gui died", "Tian Yi (Heaven B) or Tang the Completer succeeded him"],
+          "source_boundary_terms": ["主癸卒，子天乙立，是為成湯。"],
+          "target_boundary_terms": ["Zhu Gui died, and his son Tian Yi (Heaven B) or Tang the Completer succeeded him."],
+          "source_entity_sequence": ["Zhu Gui", "Tian Yi", "Tang"],
+          "target_entity_sequence": ["Zhu Gui", "Tian Yi", "Tang"],
+          "expected_order": 14,
+          "note": "Tian Yi / Tang must not be displaced by the earlier kings."
+        },
+        {
+          "source_anchor_id": "tang-move-to-bo",
+          "source_required_terms": ["成湯，自契至湯八遷", "湯始居亳"],
+          "target_required_terms": ["From Qi to Tang the Completer there were eight changes of the capital", "Tang at first dwelt in Bo"],
+          "source_boundary_terms": ["成湯，自契至湯八遷。"],
+          "target_boundary_terms": ["From Qi to Tang the Completer there were eight changes of the capital."],
+          "source_entity_sequence": ["Tang"],
+          "target_entity_sequence": ["Tang"],
+          "expected_order": 15,
+          "note": "Tang's move to Bo begins the post-succession Tang material."
+        },
+        {
+          "source_anchor_id": "tang-punishes-ge",
+          "source_required_terms": ["湯征諸侯", "葛伯不祀"],
+          "target_required_terms": ["Tang made an expedition against the princes", "the chief of Ge"],
+          "source_boundary_terms": ["湯征諸侯。"],
+          "target_boundary_terms": ["When Tang made an expedition against the princes"],
+          "source_entity_sequence": ["Tang"],
+          "target_entity_sequence": ["Tang"],
+          "expected_order": 16,
+          "note": "The Ge punishment passage must remain after the move to Bo."
+        },
+        {
+          "source_anchor_id": "yiyin-dialogue",
+          "source_required_terms": ["伊尹曰", "言能聽，道乃進"],
+          "target_required_terms": ["Yiyin said", "If you say that you will listen to reason"],
+          "source_boundary_terms": ["伊尹曰：「明哉！"],
+          "target_boundary_terms": ["Yiyin said:"],
+          "source_entity_sequence": ["Yiyin"],
+          "target_entity_sequence": ["Yiyin"],
+          "expected_order": 17,
+          "note": "Yiyin's dialogue marks the end of the high-risk succession section."
+        }
+      ]
+    }
+  ]
+}

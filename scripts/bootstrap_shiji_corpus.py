@@ -11,6 +11,10 @@ from urllib.request import urlopen
 
 from common import REPO_ROOT, load_json_compatible_yaml, repo_relative, sha256_file, write_json, write_jsonl
 from chinesenotes_alignment import (
+    find_anchor_drift_issues,
+    join_unit_texts,
+    load_alignment_anchor_maps,
+    partition_block_texts_by_anchors,
     refine_alignment,
     render_completion_quality_markdown,
     split_chinese_units,
@@ -18,6 +22,7 @@ from chinesenotes_alignment import (
 )
 from ingest_chinesenotes_work import _slugify_ascii
 from liji_quality import parse_chinesenotes_bilingual_text
+from shiji_quality import compare_shiji_entity_sequences
 
 UPSTREAM_OWNER = "alexamies"
 UPSTREAM_REPO = "chinesenotes.com"
@@ -39,6 +44,7 @@ INVENTORY_PATH = METADATA_ROOT / f"{WORK_ID}_inventory.yml"
 LEDGER_PATH = METADATA_ROOT / f"{WORK_ID}_verification_ledger.yml"
 COMPLETION_DOC_PATH = DOC_ROOT / f"{WORK_ID}_completion_quality.md"
 BATCH_MAPPING_PATH = METADATA_ROOT / f"{WORK_ID}_batch_mapping.yml"
+ANCHOR_MAP_PATH = METADATA_ROOT / f"{WORK_ID}_alignment_anchors.yml"
 INDEX_RELATIVE_PATH = "data/corpus/shiji.csv"
 
 
@@ -300,6 +306,66 @@ def _section_group_record(
     }
 
 
+def _alignment_preview_rows(
+    *,
+    section_id: str,
+    alignment: dict[str, Any],
+    source_id: str,
+    target_source_id: str,
+) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for position, group in enumerate(alignment["groups"], start=1):
+        rows.append(
+            {
+                "alignment_id": f"{section_id}__aligned-{position:03d}",
+                "section_id": section_id,
+                "source_id": source_id,
+                "target_source_id": target_source_id,
+                "source_segment_count": len(group["source_unit_indices"]),
+                "target_segment_count": len(group["target_unit_indices"]),
+                "chinese_text": join_unit_texts(alignment["source_units"], group["source_unit_indices"], "zh"),
+                "translation_text": join_unit_texts(alignment["target_units"], group["target_unit_indices"], "en"),
+            }
+        )
+    return rows
+
+
+def _entity_drift_issues(
+    rows: list[dict[str, Any]],
+    anchors: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    issues: list[dict[str, Any]] = []
+    for row in rows:
+        comparison = compare_shiji_entity_sequences(str(row.get("chinese_text", "")), str(row.get("translation_text", "")), anchors)
+        verdict = str(comparison["entity_sequence_verdict"])
+        if verdict in {"pass", "not_applicable"}:
+            continue
+        issues.append(
+            {
+                "alignment_id": str(row["alignment_id"]),
+                "issue": f"entity_sequence_{verdict}",
+                "entity_sequence_source": comparison["entity_sequence_source"],
+                "entity_sequence_target": comparison["entity_sequence_target"],
+                "drift_explanation": comparison["drift_explanation"],
+            }
+        )
+    return issues
+
+
+def _issue_alignment_ids(issues: list[dict[str, Any]]) -> set[str]:
+    alignment_ids: set[str] = set()
+    for issue in issues:
+        if issue.get("alignment_id"):
+            alignment_ids.add(str(issue["alignment_id"]))
+        for key in ("source_alignment_id", "target_alignment_id"):
+            if issue.get(key):
+                alignment_ids.add(str(issue[key]))
+        for alignment_id in issue.get("matching_alignment_ids", []) or []:
+            if alignment_id:
+                alignment_ids.add(str(alignment_id))
+    return alignment_ids
+
+
 def _update_metadata(
     manifest: dict[str, Any],
     *,
@@ -344,7 +410,9 @@ def _update_metadata(
         "notes": (
             f"Shiji now uses a batch-aware candidate gauntlet. The initial benji pilot stages chapters "
             f"{batch_mapping['batches'][0]['selected_chapter_numbers']} and currently promotes "
-            f"{manifest['summary']['active_section_count']} active proof-of-concept sections."
+            f"{manifest['summary']['active_section_count']} active proof-of-concept sections. "
+            f"Chapter 3 is anchor-mapped for succession-order repair, while chapter 2 remains metadata-only "
+            f"because its English witness still fails deterministic grouping around the middle of the chapter."
         ),
     }
     replaced = False
@@ -387,6 +455,13 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
     blocked_section_count = 0
     active_section_count = 0
     blocked_sections: list[dict[str, Any]] = []
+    anchor_mapped_sections: list[str] = []
+    drift_checks_run = 0
+    drift_issue_count_before_repair = 0
+    repaired_drift_issue_count = 0
+    remaining_drift_issue_count = 0
+    entity_sequence_validation_passed = False
+    alignment_anchor_maps = load_alignment_anchor_maps(ANCHOR_MAP_PATH)
 
     for section in selected_sections:
         raw_path = _ensure_raw_capture(section.source_file, skip_fetch=skip_fetch)
@@ -430,6 +505,8 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
         blocked_reason: str | None = None
         exact_records: list[dict[str, Any]] = []
         section_group_records: list[dict[str, Any]] = []
+        anchor_map = alignment_anchor_maps.get(section_id)
+        use_anchor_partition = bool(anchor_map and str(anchor_map.get("segmentation_strategy") or "") == "anchor_partition")
         if not zh_blocks or not en_blocks:
             blocked_reason = "ChineseNotes pilot witness is missing clean Chinese or English content for this chapter."
         else:
@@ -443,6 +520,57 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                     max_source_group_size=6,
                     max_target_group_size=8,
                 )
+                if use_anchor_partition:
+                    preview_rows = _alignment_preview_rows(
+                        section_id=section_id,
+                        alignment=alignment,
+                        source_id=zh_source_id,
+                        target_source_id=en_source_id,
+                    )
+                    preview_issues = find_anchor_drift_issues(preview_rows, list(anchor_map.get("anchors", [])))
+                    entity_issues = _entity_drift_issues(preview_rows, list(anchor_map.get("anchors", [])))
+                    preview_issue_alignment_ids = _issue_alignment_ids([*preview_issues, *entity_issues])
+                    drift_issue_count_before_repair = len(preview_issue_alignment_ids)
+                    if drift_issue_count_before_repair:
+                        partitioned_chinese_blocks, partitioned_english_blocks = partition_block_texts_by_anchors(
+                            zh_blocks,
+                            en_blocks,
+                            anchor_map,
+                        )
+                        alignment = refine_alignment(
+                            section_id,
+                            partitioned_chinese_blocks,
+                            partitioned_english_blocks,
+                            source_splitter=split_chinese_units,
+                            target_splitter=split_english_units,
+                            max_source_group_size=6,
+                            max_target_group_size=8,
+                        )
+                    if section_id not in anchor_mapped_sections:
+                        anchor_mapped_sections.append(section_id)
+                final_preview_rows = _alignment_preview_rows(
+                    section_id=section_id,
+                    alignment=alignment,
+                    source_id=zh_source_id,
+                    target_source_id=en_source_id,
+                )
+                if use_anchor_partition:
+                    final_anchor_issues = find_anchor_drift_issues(final_preview_rows, list(anchor_map.get("anchors", [])))
+                    final_entity_issues = _entity_drift_issues(final_preview_rows, list(anchor_map.get("anchors", [])))
+                    final_issue_alignment_ids = _issue_alignment_ids([*final_anchor_issues, *final_entity_issues])
+                    remaining_drift_issue_count = len(final_issue_alignment_ids)
+                    repaired_drift_issue_count = max(
+                        0,
+                        drift_issue_count_before_repair - remaining_drift_issue_count,
+                    )
+                    drift_checks_run = len(final_preview_rows)
+                    entity_sequence_validation_passed = remaining_drift_issue_count == 0
+                    if remaining_drift_issue_count:
+                        blocked_reason = (
+                            "Named-entity succession drift remains after anchor-partitioned alignment: "
+                            f"{remaining_drift_issue_count} issue(s) across the Qi-to-Tang chain."
+                        )
+                        raise ValueError(blocked_reason)
                 zh_unit_records, zh_map = _write_unit_segments(
                     work_id=WORK_ID,
                     section_id=section_id,
@@ -494,10 +622,11 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                 active_section_count += 1
                 alignment_granularity_counts[alignment["alignment_granularity"]] += len(exact_records)
             except ValueError as exc:
-                blocked_reason = (
-                    "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: "
-                    + str(exc)
-                )
+                if not blocked_reason:
+                    blocked_reason = (
+                        "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: "
+                        + str(exc)
+                    )
 
         manifest_sources.extend(
             [
@@ -562,6 +691,8 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
         if blocked_reason:
             blocked_section_count += 1
             blocked_sections.append({"section_id": section_id, "reason": blocked_reason})
+            if alignment_path.exists():
+                alignment_path.unlink()
             verification_sections.append(
                 {
                     "section_id": section_id,
@@ -595,6 +726,7 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                     "fallback_reason": blocked_reason,
                     "expected_exact_alignment_count": 0,
                     "notes": "Retained as metadata-only until a more reliable Shiji English witness or safer segmentation path is available.",
+                    "alignment_anchor_map_used": False,
                 }
             )
         else:
@@ -606,6 +738,7 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                     "title_en": section.title_en,
                     "export_status": "active",
                     "verification_status": "deterministic_alignment",
+                    "alignment_anchor_map_used": use_anchor_partition,
                 }
             )
             manifest_sections.append(
@@ -630,6 +763,7 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                     "fallback_used": False,
                     "fallback_reason": None,
                     "expected_exact_alignment_count": len(exact_records),
+                    "alignment_anchor_map_used": use_anchor_partition,
                     "notes": "Batch-scoped Shiji proof-of-concept export from the benji pilot tranche.",
                 }
             )
@@ -717,6 +851,13 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
         "blocked_section_count": blocked_section_count,
         "hard_failure_count": 0,
         "alignment_granularity_counts": dict(sorted(alignment_granularity_counts.items())),
+        "drift_checks_run": drift_checks_run,
+        "drift_issue_count_before_repair": drift_issue_count_before_repair,
+        "repaired_drift_issue_count": repaired_drift_issue_count,
+        "remaining_drift_issue_count": remaining_drift_issue_count,
+        "entity_sequence_validation_passed": entity_sequence_validation_passed,
+        "anchor_mapped_section_count": len(anchor_mapped_sections),
+        "anchor_mapped_sections": anchor_mapped_sections,
         "pre_repair_corruption_issue_count": 0,
         "corrected_corruption_issue_count": 0,
         "remaining_corruption_issue_count": 0,
@@ -773,7 +914,11 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
             "completion_definition": "A Shiji batch section is complete when a provenance-tagged ChineseNotes chapter file yields clean Chinese and attributable provisional English text, deterministic alignment passes the candidate gauntlet, and any structurally unsafe section is left metadata-only.",
         },
         "summary": batch_summary,
-        "notes": f"Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with {active_section_count} active sections and {blocked_section_count} metadata-only blockers.",
+        "notes": (
+            f"Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche "
+            f"with {active_section_count} active sections, {blocked_section_count} metadata-only blockers, and "
+            f"{len(anchor_mapped_sections)} anchor-mapped sections."
+        ),
         "sources": manifest_sources,
         "sections": manifest_sections,
         "romanization_aliases": romanization_aliases,
@@ -805,6 +950,10 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
             "section_count": len(selected_sections),
             "active_exportable_section_count": active_section_count,
             "metadata_only_blocked_section_count": blocked_section_count,
+            "anchor_mapped_section_count": len(anchor_mapped_sections),
+            "drift_issue_count_before_repair": drift_issue_count_before_repair,
+            "repaired_drift_issue_count": repaired_drift_issue_count,
+            "remaining_drift_issue_count": remaining_drift_issue_count,
         },
         "sections": verification_sections,
     }
@@ -828,6 +977,13 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
             "fallback_section_count": 0,
             "blocked_section_count": blocked_section_count,
             "hard_failure_count": 0,
+            "drift_checks_run": drift_checks_run,
+            "drift_issue_count_before_repair": drift_issue_count_before_repair,
+            "repaired_drift_issue_count": repaired_drift_issue_count,
+            "remaining_drift_issue_count": remaining_drift_issue_count,
+            "entity_sequence_validation_passed": entity_sequence_validation_passed,
+            "anchor_mapped_section_count": len(anchor_mapped_sections),
+            "anchor_mapped_sections": anchor_mapped_sections,
             "pre_repair_corruption_issue_count": 0,
             "corrected_corruption_issue_count": 0,
             "automatic_correction_count": 0,
@@ -841,7 +997,7 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
         },
         "fallback_sections": [],
         "curated_override_sections": [],
-        "anchor_mapped_sections": [],
+        "anchor_mapped_sections": anchor_mapped_sections,
         "blocked_sections": blocked_sections,
         "sections": completion_sections,
     }

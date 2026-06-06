@@ -76,32 +76,39 @@
     "active_section_count": 2,
     "exportable_section_count": 2,
     "metadata_only_blocked_section_count": 1,
-    "exact_alignment_count": 113,
+    "exact_alignment_count": 46,
     "section_group_alignment_count": 2,
     "section_group_alignment_record_count": 2,
-    "alignment_record_count": 115,
+    "alignment_record_count": 48,
     "fallback_alignment_count": 0,
     "fallback_section_count": 0,
-    "automatic_alignment_count": 113,
+    "automatic_alignment_count": 46,
     "curated_override_section_count": 0,
     "blocked_section_count": 1,
     "hard_failure_count": 0,
     "alignment_granularity_counts": {
-      "block": 29,
-      "grouped": 84
+      "block": 46
     },
+    "drift_checks_run": 17,
+    "drift_issue_count_before_repair": 9,
+    "repaired_drift_issue_count": 9,
+    "remaining_drift_issue_count": 0,
+    "entity_sequence_validation_passed": true,
+    "anchor_mapped_section_count": 1,
+    "anchor_mapped_sections": [
+      "shiji-003-annals-of-yin"
+    ],
     "pre_repair_corruption_issue_count": 0,
     "corrected_corruption_issue_count": 0,
     "remaining_corruption_issue_count": 0,
     "pre_repair_leakage_issue_count": 0,
     "repaired_leakage_issue_count": 0,
     "remaining_leakage_issue_count": 0,
-    "remaining_drift_issue_count": 0,
     "automatic_correction_count": 0,
     "curated_correction_count": 0,
-    "active_exportable_alignment_count": 113
+    "active_exportable_alignment_count": 46
   },
-  "notes": "Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with 2 active sections and 1 metadata-only blockers.",
+  "notes": "Shiji remains batch-scoped. This committed proof-of-concept state covers the initial benji pilot tranche with 2 active sections, 1 metadata-only blockers, and 1 anchor-mapped sections.",
   "sources": [
     {
       "source_id": "shiji-001-annals-annals-of-the-five-emperors__cn-zh-1f6b1d3",
@@ -225,6 +232,7 @@
       "fallback_used": false,
       "fallback_reason": null,
       "expected_exact_alignment_count": 29,
+      "alignment_anchor_map_used": false,
       "notes": "Batch-scoped Shiji proof-of-concept export from the benji pilot tranche."
     },
     {
@@ -250,7 +258,8 @@
       "fallback_used": false,
       "fallback_reason": "ChineseNotes Shiji pilot witness remains too structurally uneven for safe export in this tranche: Alignment QC failed for shiji-002-annals-of-xia: group 36: target segment length/structure imbalance suggests missing grouping; group 41: target segment length/structure imbalance suggests missing grouping; group 57: target segment length/structure imbalance suggests missing grouping",
       "expected_exact_alignment_count": 0,
-      "notes": "Retained as metadata-only until a more reliable Shiji English witness or safer segmentation path is available."
+      "notes": "Retained as metadata-only until a more reliable Shiji English witness or safer segmentation path is available.",
+      "alignment_anchor_map_used": false
     },
     {
       "section_id": "shiji-003-annals-of-yin",
@@ -275,7 +284,8 @@
       "alignment_processed_path": "corpus/processed/alignments/shiji__shiji-003-annals-of-yin__cn-zh-1f6b1d3__cn-en-1f6b1d3__alignments.jsonl",
       "fallback_used": false,
       "fallback_reason": null,
-      "expected_exact_alignment_count": 84,
+      "expected_exact_alignment_count": 17,
+      "alignment_anchor_map_used": true,
       "notes": "Batch-scoped Shiji proof-of-concept export from the benji pilot tranche."
     }
   ],

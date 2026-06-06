@@ -8,7 +8,7 @@
   "units_with_english_witness": 0,
   "units_with_release_ready_english_source": 0,
   "units_with_at_least_one_exact_alignment": 2,
-  "exact_alignment_count": 113,
+  "exact_alignment_count": 46,
   "source_record_count": 6,
   "missing_from_manifest": [],
   "present_but_metadata_only": [
@@ -19,9 +19,7 @@
     "shiji-002-annals-of-xia",
     "shiji-003-annals-of-yin"
   ],
-  "sections_with_coarse_or_nonpreferred_alignment": [
-    "shiji-003-annals-of-yin"
-  ],
+  "sections_with_coarse_or_nonpreferred_alignment": [],
   "units_with_english_public_domain_witness": 0,
   "units_with_verified_public_domain_english_source": 0,
   "present_without_verified_public_domain_translation": [

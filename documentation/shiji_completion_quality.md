@@ -9,9 +9,9 @@ Generated from `logs/qc_reports/shiji__alignment_qc.json`.
 - Active sections: 2
 - Exportable sections: 2
 - English witness: ChineseNotes-hosted bilingual English witness (translator attribution unresolved)
-- Exact alignments: 113
-- Automatic fine-grained alignments: 113
-- Total processed alignment records: 115
+- Exact alignments: 46
+- Automatic fine-grained alignments: 46
+- Total processed alignment records: 48
 - Curated override sections: 0
 - Remaining coarse fallbacks: 0
 - Blocked sections: 1
@@ -24,12 +24,15 @@ Generated from `logs/qc_reports/shiji__alignment_qc.json`.
 - Note/commentary leakage issues before repair: 0
 - Note/commentary leakage issues repaired: 0
 - Note/commentary leakage issues remaining: 0
+- Alignment drift checks run: 17
+- Drift issues before repair: 9
+- Drift issues repaired: 9
 - Drift issues remaining: 0
+- Named-entity succession validation passed: True
 
 ## Alignment granularity
 
-- block: 29
-- grouped: 84
+- block: 46
 
 ## Remaining fallbacks
 
@@ -41,7 +44,7 @@ Generated from `logs/qc_reports/shiji__alignment_qc.json`.
 
 ## Anchor-mapped sections
 
-- None.
+- `shiji-003-annals-of-yin`
 
 ## Blocked sections
 
