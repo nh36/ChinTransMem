@@ -1,0 +1,726 @@
+{
+  "placeholders": [
+    {
+      "source_id": "guofeng-binfeng-005__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-binfeng-005",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-binfeng-005__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-binfeng-005__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-binfeng-005"
+        },
+        {
+          "alignment_id": "shijing__guofeng-binfeng-005__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-binfeng-005"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-kuaifeng-004__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-kuaifeng-004",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-kuaifeng-004__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-kuaifeng-004__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-kuaifeng-004"
+        },
+        {
+          "alignment_id": "shijing__guofeng-kuaifeng-004__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-kuaifeng-004"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-tangfeng-009__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-tangfeng-009",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-tangfeng-009__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-tangfeng-009__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-tangfeng-009"
+        },
+        {
+          "alignment_id": "shijing__guofeng-tangfeng-009__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-tangfeng-009"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-weifeng-007__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-weifeng-007",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-weifeng-007__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-weifeng-007__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-weifeng-007"
+        },
+        {
+          "alignment_id": "shijing__guofeng-weifeng-007__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-weifeng-007"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhaonan-001__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhaonan-001",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhaonan-001__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhaonan-001__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhaonan-001"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhaonan-001__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhaonan-001"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhaonan-014__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhaonan-014",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhaonan-014__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhaonan-014__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhaonan-014"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhaonan-014__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhaonan-014"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhengfeng-016__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhengfeng-016",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-016__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhengfeng-016__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhengfeng-016"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhengfeng-016__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhengfeng-016"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhengfeng-018__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhengfeng-018",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhengfeng-018__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhengfeng-018__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhengfeng-018"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhengfeng-018__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhengfeng-018"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhounan-002__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-002",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-002__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhounan-002__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-002"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhounan-002__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-002"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhounan-003__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-003",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-003__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhounan-003__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-003"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhounan-003__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-003"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhounan-004__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-004",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-004__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhounan-004__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-004"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhounan-004__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-004"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhounan-005__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-005",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-005__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhounan-005__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-005"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhounan-005__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-005"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhounan-006__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-006",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-006__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhounan-006__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-006"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhounan-006__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-006"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhounan-007__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-007",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-007__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhounan-007__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-007"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhounan-007__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-007"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhounan-008__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-008",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-008__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhounan-008__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-008"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhounan-008__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-008"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhounan-009__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-009",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-009__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhounan-009__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-009"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhounan-009__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-009"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhounan-010__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-010",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-010__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhounan-010__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-010"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhounan-010__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-010"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "guofeng-zhounan-011__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "guofeng-zhounan-011",
+      "inferred_processed_path": "corpus/processed/translations/shijing__guofeng-zhounan-011__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__guofeng-zhounan-011__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-011"
+        },
+        {
+          "alignment_id": "shijing__guofeng-zhounan-011__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "guofeng-zhounan-011"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "xiaoya-luming-010__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "xiaoya-luming-010",
+      "inferred_processed_path": "corpus/processed/translations/shijing__xiaoya-luming-010__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__xiaoya-luming-010__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "xiaoya-luming-010"
+        },
+        {
+          "alignment_id": "shijing__xiaoya-luming-010__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "xiaoya-luming-010"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    },
+    {
+      "source_id": "xiaoya-nanyoujiayu-001__legge-sheking-1871-hocr",
+      "work_id": "shijing",
+      "section_id": "xiaoya-nanyoujiayu-001",
+      "inferred_processed_path": "corpus/processed/translations/shijing__xiaoya-nanyoujiayu-001__legge-sheking-1871-hocr__segments.jsonl",
+      "processed_exists": true,
+      "notes": "Auto-created placeholder source for referenced source id; please verify. (AUTO-PERSISTED placeholder — please verify.)",
+      "alignments": [
+        {
+          "alignment_id": "shijing__xiaoya-nanyoujiayu-001__001__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "xiaoya-nanyoujiayu-001"
+        },
+        {
+          "alignment_id": "shijing__xiaoya-nanyoujiayu-001__section-group__zhwikisource-20260530__legge-sheking-1871-hocr",
+          "section_id": "xiaoya-nanyoujiayu-001"
+        }
+      ],
+      "appears_in_active_exportable_sections": true,
+      "appears_only_in_blocked_sections": false,
+      "recommended_action": "replace_with_authoritative_source_record_or_repair_alignment_references"
+    }
+  ],
+  "placeholder_segments": [
+    {
+      "segment_id": "mozi-003-that-which-is-affectable__mei-archiveocr-v1-1929__seg-0038",
+      "section_id": "mozi-003-that-which-is-affectable",
+      "source_id": "mozi-003-that-which-is-affectable__mei-archiveocr-v1-1929",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "mozi-008-exaltation-of-the-virtuous-i__mei-archiveocr-v1-1929__seg-0065",
+      "section_id": "mozi-008-exaltation-of-the-virtuous-i",
+      "source_id": "mozi-008-exaltation-of-the-virtuous-i__mei-archiveocr-v1-1929",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "mozi-026-condemnation-of-music-i__mei-archiveocr-v1-1929__seg-0144",
+      "section_id": "mozi-026-condemnation-of-music-i",
+      "source_id": "mozi-026-condemnation-of-music-i__mei-archiveocr-v1-1929",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "mozi-030-anti-confucianism-ii__mei-archiveocr-v1-1929__seg-0217",
+      "section_id": "mozi-030-anti-confucianism-ii",
+      "source_id": "mozi-030-anti-confucianism-ii__mei-archiveocr-v1-1929",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "mozi-035-major-illustrations__mei-archiveocr-v1-1929__seg-0065",
+      "section_id": "mozi-035-major-illustrations",
+      "source_id": "mozi-035-major-illustrations__mei-archiveocr-v1-1929",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "mozi-036-minor-illustrations__mei-archiveocr-v1-1929__seg-0106",
+      "section_id": "mozi-036-minor-illustrations",
+      "source_id": "mozi-036-minor-illustrations__mei-archiveocr-v1-1929",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "mozi-038-esteem-for-righteousness__mei-archiveocr-v1-1929__seg-0155",
+      "section_id": "mozi-038-esteem-for-righteousness",
+      "source_id": "mozi-038-esteem-for-righteousness__mei-archiveocr-v1-1929",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-001-yu-shu-canon-of-yao__chinesenotes-shangshu-zh-1f6b1d3__segment-014",
+      "section_id": "shangshu-001-yu-shu-canon-of-yao",
+      "source_id": "shangshu-001-yu-shu-canon-of-yao__chinesenotes-shangshu-zh-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-001-yu-shu-canon-of-yao__legge-chinesenotes-shangshu-1f6b1d3__segment-021",
+      "section_id": "shangshu-001-yu-shu-canon-of-yao",
+      "source_id": "shangshu-001-yu-shu-canon-of-yao__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-004-yu-shu-counsels-of-the-great-yu__legge-chinesenotes-shangshu-1f6b1d3__segment-007",
+      "section_id": "shangshu-004-yu-shu-counsels-of-the-great-yu",
+      "source_id": "shangshu-004-yu-shu-counsels-of-the-great-yu__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-010-xia-shu-songs-of-the-five-sons__legge-chinesenotes-shangshu-1f6b1d3__segment-042",
+      "section_id": "shangshu-010-xia-shu-songs-of-the-five-sons",
+      "source_id": "shangshu-010-xia-shu-songs-of-the-five-sons__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-017-shang-shu-tai-jia-ii__legge-chinesenotes-shangshu-1f6b1d3__segment-003",
+      "section_id": "shangshu-017-shang-shu-tai-jia-ii",
+      "source_id": "shangshu-017-shang-shu-tai-jia-ii__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue__legge-chinesenotes-shangshu-1f6b1d3__segment-003",
+      "section_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue",
+      "source_id": "shangshu-019-shang-shu-common-possession-of-pure-virtue__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-021-shang-shu-pan-geng-ii__legge-chinesenotes-shangshu-1f6b1d3__segment-006",
+      "section_id": "shangshu-021-shang-shu-pan-geng-ii",
+      "source_id": "shangshu-021-shang-shu-pan-geng-ii__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-022-shang-shu-pan-geng-iii__legge-chinesenotes-shangshu-1f6b1d3__segment-003",
+      "section_id": "shangshu-022-shang-shu-pan-geng-iii",
+      "source_id": "shangshu-022-shang-shu-pan-geng-iii__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-023-shang-shu-charge-to-yue-i-forged__legge-chinesenotes-shangshu-1f6b1d3__segment-004",
+      "section_id": "shangshu-023-shang-shu-charge-to-yue-i-forged",
+      "source_id": "shangshu-023-shang-shu-charge-to-yue-i-forged__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged__legge-chinesenotes-shangshu-1f6b1d3__segment-004",
+      "section_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged",
+      "source_id": "shangshu-025-shang-shu-charge-to-yue-iii-forged__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__legge-chinesenotes-shangshu-1f6b1d3__segment-003",
+      "section_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li",
+      "source_id": "shangshu-027-shang-shu-chief-of-the-west-s-conquest-of-li__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-028-shang-shu-count-of-wei__legge-chinesenotes-shangshu-1f6b1d3__segment-003",
+      "section_id": "shangshu-028-shang-shu-count-of-wei",
+      "source_id": "shangshu-028-shang-shu-count-of-wei__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-034-zhou-shu-great-plan__legge-chinesenotes-shangshu-1f6b1d3__segment-028",
+      "section_id": "shangshu-034-zhou-shu-great-plan",
+      "source_id": "shangshu-034-zhou-shu-great-plan__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-036-zhou-shu-metal-bound-coffer__legge-chinesenotes-shangshu-1f6b1d3__segment-005",
+      "section_id": "shangshu-036-zhou-shu-metal-bound-coffer",
+      "source_id": "shangshu-036-zhou-shu-metal-bound-coffer__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__legge-chinesenotes-shangshu-1f6b1d3__segment-019",
+      "section_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang",
+      "source_id": "shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-040-zhou-shu-announcement-about-drunkenness__legge-chinesenotes-shangshu-1f6b1d3__segment-002",
+      "section_id": "shangshu-040-zhou-shu-announcement-about-drunkenness",
+      "source_id": "shangshu-040-zhou-shu-announcement-about-drunkenness__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__legge-chinesenotes-shangshu-1f6b1d3__segment-010",
+      "section_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao",
+      "source_id": "shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-044-zhou-shu-numerous-officers__legge-chinesenotes-shangshu-1f6b1d3__segment-009",
+      "section_id": "shangshu-044-zhou-shu-numerous-officers",
+      "source_id": "shangshu-044-zhou-shu-numerous-officers__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai__legge-chinesenotes-shangshu-1f6b1d3__segment-002",
+      "section_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai",
+      "source_id": "shangshu-047-zhou-shu-charge-to-zhong-of-cai__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi__legge-chinesenotes-shangshu-1f6b1d3__segment-004",
+      "section_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi",
+      "source_id": "shangshu-054-zhou-shu-charge-to-the-duke-of-bi__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-055-zhou-shu-kun-ya__legge-chinesenotes-shangshu-1f6b1d3__segment-002",
+      "section_id": "shangshu-055-zhou-shu-kun-ya",
+      "source_id": "shangshu-055-zhou-shu-kun-ya__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shangshu-059-zhou-shu-speech-at-bi__legge-chinesenotes-shangshu-1f6b1d3__segment-002",
+      "section_id": "shangshu-059-zhou-shu-speech-at-bi",
+      "source_id": "shangshu-059-zhou-shu-speech-at-bi__legge-chinesenotes-shangshu-1f6b1d3",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhounan-002__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhounan-002",
+      "source_id": "guofeng-zhounan-002__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhounan-003__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhounan-003",
+      "source_id": "guofeng-zhounan-003__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhounan-004__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhounan-004",
+      "source_id": "guofeng-zhounan-004__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhounan-005__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhounan-005",
+      "source_id": "guofeng-zhounan-005__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhounan-006__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhounan-006",
+      "source_id": "guofeng-zhounan-006__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhounan-007__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhounan-007",
+      "source_id": "guofeng-zhounan-007__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhounan-008__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhounan-008",
+      "source_id": "guofeng-zhounan-008__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhounan-009__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhounan-009",
+      "source_id": "guofeng-zhounan-009__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhounan-010__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhounan-010",
+      "source_id": "guofeng-zhounan-010__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhounan-011__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhounan-011",
+      "source_id": "guofeng-zhounan-011__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhaonan-001__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhaonan-001",
+      "source_id": "guofeng-zhaonan-001__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhaonan-014__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhaonan-014",
+      "source_id": "guofeng-zhaonan-014__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-weifeng-007__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-weifeng-007",
+      "source_id": "guofeng-weifeng-007__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhengfeng-016__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhengfeng-016",
+      "source_id": "guofeng-zhengfeng-016__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-zhengfeng-018__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-zhengfeng-018",
+      "source_id": "guofeng-zhengfeng-018__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-tangfeng-009__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-tangfeng-009",
+      "source_id": "guofeng-tangfeng-009__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-kuaifeng-004__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-kuaifeng-004",
+      "source_id": "guofeng-kuaifeng-004__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__guofeng-binfeng-005__001__legge-sheking-1871-hocr",
+      "section_id": "guofeng-binfeng-005",
+      "source_id": "guofeng-binfeng-005__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__xiaoya-luming-010__001__legge-sheking-1871-hocr",
+      "section_id": "xiaoya-luming-010",
+      "source_id": "xiaoya-luming-010__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    },
+    {
+      "segment_id": "shijing__xiaoya-nanyoujiayu-001__001__legge-sheking-1871-hocr",
+      "section_id": "xiaoya-nanyoujiayu-001",
+      "source_id": "xiaoya-nanyoujiayu-001__001",
+      "notes": "Auto-created placeholder segment to satisfy alignment references during import."
+    }
+  ],
+  "summary": {
+    "total_placeholder_sources_found": 20,
+    "placeholders_used_by_active_exportable_material": 20,
+    "placeholders_used_by_blocked_only": 0,
+    "placeholder_segments_found": 49
+  }
+}

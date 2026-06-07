@@ -425,7 +425,12 @@ def run_source_traceability_checks(work_id: str, *, section_ids: list[str] | Non
         "missing_rights_status_sources": [],
         "missing_release_status_sources": [],
         "missing_rights_note_sources": [],
+        # Placeholder detection: any auto-created or auto-persisted placeholder sources
+        # used by an active/exportable section should be considered a hard failure.
+        "placeholder_sources_in_active_sections": [],
+        "placeholder_sources_in_blocked_sections": [],
     }
+    # Traceability checks currently apply to works with explicit source expectations
     if work_id not in {"mozi", "liji", "shiji"}:
         return {**issues, "hard_failure_count": 0}
     source_map = {source["source_id"]: source for source in load_sources(work_id)}
@@ -433,13 +438,23 @@ def run_source_traceability_checks(work_id: str, *, section_ids: list[str] | Non
     for section in manifest_sections(work_id):
         if selected_section_ids and section["section_id"] not in selected_section_ids:
             continue
-        if section.get("tmx_status") != "complete":
-            continue
+        # Check every section so we can detect placeholders both in active and blocked material.
         source_ids = section.get("source_ids", {})
         for source_id in (source_ids.get("source_id"), source_ids.get("target_source_id")):
             if not source_id:
                 continue
             source = source_map.get(source_id, {})
+            notes_text = str(source.get("notes", "") or "").lower()
+            is_placeholder = False
+            if "placeholder" in notes_text or "auto-created" in notes_text or "auto-persisted" in notes_text:
+                is_placeholder = True
+            if is_placeholder:
+                # If the section is marked exportable/complete, this is a failure.
+                if section.get("tmx_status") == "complete":
+                    issues["placeholder_sources_in_active_sections"].append(source_id)
+                else:
+                    issues["placeholder_sources_in_blocked_sections"].append(source_id)
+            # Existing checks for completeness of metadata on declared sources (only if source is present)
             if not source.get("source_url"):
                 issues["missing_source_url_sources"].append(source_id)
             if not source.get("rights_status"):

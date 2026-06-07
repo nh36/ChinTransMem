@@ -1,0 +1,189 @@
+{
+  "total_tests_run": 71,
+  "failures": [
+    {
+      "test_name": "test_corpus_workflow.CorpusWorkflowTest.test_lunyu_workflow_counts_and_qc",
+      "work_id": "lunyu",
+      "failure_type": "segmentation_mismatch",
+      "expected_count": 20464,
+      "actual_count": 20324,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_corpus_workflow.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_corpus_workflow.py\", line 136, in test_lunyu_workflow_counts_and_qc\n    self.assertEqual(import_summary[\"segments\"], expected_total_segments)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 20464 != 20324",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_corpus_workflow.py\", line 136, in test_lunyu_workflow_counts_and_qc\n    self.assertEqual(import_summary[\"segments\"], expected_total_segments)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 20464 != 20324\n"
+    },
+    {
+      "test_name": "test_corpus_workflow.CorpusWorkflowTest.test_manifest_policy_and_exports_are_consistent",
+      "work_id": null,
+      "failure_type": "manifest_vs_export_count_mismatch",
+      "expected_count": 20,
+      "actual_count": 0,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_corpus_workflow.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_corpus_workflow.py\", line 725, in test_manifest_policy_and_exports_are_consistent\n    self.assertEqual(validate_ingestion_policy(work_id)[\"error_count\"], 0)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 20 != 0",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_corpus_workflow.py\", line 725, in test_manifest_policy_and_exports_are_consistent\n    self.assertEqual(validate_ingestion_policy(work_id)[\"error_count\"], 0)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 20 != 0\n"
+    },
+    {
+      "test_name": "test_ingestion_gauntlet.IngestionGauntletTest.test_existing_work_guardrails_remain_stable",
+      "work_id": "shangshu",
+      "failure_type": "other",
+      "expected_count": 129,
+      "actual_count": 135,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_ingestion_gauntlet.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_ingestion_gauntlet.py\", line 330, in test_existing_work_guardrails_remain_stable\n    self.assertEqual(shangshu_alignment[\"summary\"][\"exact_alignment_count\"], 135)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 129 != 135",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_ingestion_gauntlet.py\", line 330, in test_existing_work_guardrails_remain_stable\n    self.assertEqual(shangshu_alignment[\"summary\"][\"exact_alignment_count\"], 135)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 129 != 135\n"
+    },
+    {
+      "test_name": "test_ingestion_gauntlet.IngestionGauntletTest.test_shiji_batch_exports_are_clean_and_agree_with_active",
+      "work_id": "shiji",
+      "failure_type": "other",
+      "expected_count": null,
+      "actual_count": null,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_ingestion_gauntlet.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_ingestion_gauntlet.py\", line 470, in test_shiji_batch_exports_are_clean_and_agree_with_active\n    self.assertTrue(comparison[\"matches\"])\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: False is not true",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_ingestion_gauntlet.py\", line 470, in test_shiji_batch_exports_are_clean_and_agree_with_active\n    self.assertTrue(comparison[\"matches\"])\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: False is not true\n"
+    },
+    {
+      "test_name": "test_mozi_staging.MoziPromotionTest.test_existing_work_guardrails_remain_stable",
+      "work_id": "mozi",
+      "failure_type": "other",
+      "expected_count": 129,
+      "actual_count": 135,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py\", line 372, in test_existing_work_guardrails_remain_stable\n    self.assertEqual(shangshu_alignment_qc[\"summary\"][\"exact_alignment_count\"], 135)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 129 != 135",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py\", line 372, in test_existing_work_guardrails_remain_stable\n    self.assertEqual(shangshu_alignment_qc[\"summary\"][\"exact_alignment_count\"], 135)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 129 != 135\n"
+    },
+    {
+      "test_name": "test_mozi_staging.MoziPromotionTest.test_mozi_alignment_qc_and_fallbacks_are_explicit",
+      "work_id": "mozi",
+      "failure_type": "other",
+      "expected_count": 654,
+      "actual_count": 663,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py\", line 272, in test_mozi_alignment_qc_and_fallbacks_are_explicit\n    self.assertEqual(alignment_qc[\"summary\"][\"exact_alignment_count\"], 663)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 654 != 663",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py\", line 272, in test_mozi_alignment_qc_and_fallbacks_are_explicit\n    self.assertEqual(alignment_qc[\"summary\"][\"exact_alignment_count\"], 663)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 654 != 663\n"
+    },
+    {
+      "test_name": "test_mozi_staging.MoziPromotionTest.test_mozi_chapter_three_alignment_and_leakage_regressions",
+      "work_id": "mozi",
+      "failure_type": "other",
+      "expected_count": 8,
+      "actual_count": 10,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py\", line 235, in test_mozi_chapter_three_alignment_and_leakage_regressions\n    self.assertEqual(len(rows), 10)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^\nAssertionError: 8 != 10",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py\", line 235, in test_mozi_chapter_three_alignment_and_leakage_regressions\n    self.assertEqual(len(rows), 10)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^\nAssertionError: 8 != 10\n"
+    },
+    {
+      "test_name": "test_mozi_staging.MoziPromotionTest.test_mozi_exports_have_clean_traceable_proof_of_concept_text",
+      "work_id": "mozi",
+      "failure_type": "other",
+      "expected_count": null,
+      "actual_count": null,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py\", line 199, in test_mozi_exports_have_clean_traceable_proof_of_concept_text\n    self.assertEqual(exported_section_ids, active_section_ids)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Items in the second set but not the first:\n'mozi-036-minor-illustrations'",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py\", line 199, in test_mozi_exports_have_clean_traceable_proof_of_concept_text\n    self.assertEqual(exported_section_ids, active_section_ids)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Items in the second set but not the first:\n'mozi-036-minor-illustrations'\n"
+    },
+    {
+      "test_name": "test_mozi_staging.MoziPromotionTest.test_mozi_manifest_inventory_ledger_and_exports_agree",
+      "work_id": "mozi",
+      "failure_type": "manifest_vs_export_count_mismatch",
+      "expected_count": 654,
+      "actual_count": 663,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py\", line 98, in test_mozi_manifest_inventory_ledger_and_exports_agree\n    self.assertEqual(manifest[\"summary\"][\"exact_alignment_count\"], 663)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 654 != 663",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_mozi_staging.py\", line 98, in test_mozi_manifest_inventory_ledger_and_exports_agree\n    self.assertEqual(manifest[\"summary\"][\"exact_alignment_count\"], 663)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 654 != 663\n"
+    },
+    {
+      "test_name": "test_shangshu_promotion.ShangshuPromotionTest.test_canon_of_yao_anchor_boundaries_remain_aligned",
+      "work_id": "shangshu",
+      "failure_type": "other",
+      "expected_count": null,
+      "actual_count": null,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py\", line 180, in test_canon_of_yao_anchor_boundaries_remain_aligned\n    self.assertTrue(any(term in summer_source for term in (\"羲叔\", \"南交\", \"仲夏\")))\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: False is not true",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py\", line 180, in test_canon_of_yao_anchor_boundaries_remain_aligned\n    self.assertTrue(any(term in summer_source for term in (\"羲叔\", \"南交\", \"仲夏\")))\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: False is not true\n"
+    },
+    {
+      "test_name": "test_shangshu_promotion.ShangshuPromotionTest.test_shangshu_exports_and_alignment_qc_are_clean",
+      "work_id": "shangshu",
+      "failure_type": "qc_vs_export_count_mismatch",
+      "expected_count": 129,
+      "actual_count": 135,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py\", line 142, in test_shangshu_exports_and_alignment_qc_are_clean\n    self.assertEqual(alignment_qc[\"summary\"][\"exact_alignment_count\"], 135)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 129 != 135",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py\", line 142, in test_shangshu_exports_and_alignment_qc_are_clean\n    self.assertEqual(alignment_qc[\"summary\"][\"exact_alignment_count\"], 135)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 129 != 135\n"
+    },
+    {
+      "test_name": "test_shangshu_promotion.ShangshuPromotionTest.test_shangshu_is_active_with_exportable_and_metadata_only_sections",
+      "work_id": "shangshu",
+      "failure_type": "manifest_vs_export_count_mismatch",
+      "expected_count": 129,
+      "actual_count": 135,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py\", line 65, in test_shangshu_is_active_with_exportable_and_metadata_only_sections\n    self.assertEqual(manifest[\"summary\"][\"exact_alignment_count\"], 135)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 129 != 135",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py\", line 65, in test_shangshu_is_active_with_exportable_and_metadata_only_sections\n    self.assertEqual(manifest[\"summary\"][\"exact_alignment_count\"], 135)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 129 != 135\n"
+    },
+    {
+      "test_name": "test_shangshu_promotion.ShangshuPromotionTest.test_shangshu_mapping_metadata_matches_generated_qc",
+      "work_id": "shangshu",
+      "failure_type": "other",
+      "expected_count": 135,
+      "actual_count": 129,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py\", line 215, in test_shangshu_mapping_metadata_matches_generated_qc\n    self.assertEqual(summary[\"exact_alignment_count\"], alignment_qc[\"summary\"][\"exact_alignment_count\"])\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 135 != 129",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_shangshu_promotion.py\", line 215, in test_shangshu_mapping_metadata_matches_generated_qc\n    self.assertEqual(summary[\"exact_alignment_count\"], alignment_qc[\"summary\"][\"exact_alignment_count\"])\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 135 != 129\n"
+    },
+    {
+      "test_name": "test_yijing_promotion.YijingPromotionTest.test_existing_work_guardrails_remain_stable",
+      "work_id": "shangshu",
+      "failure_type": "other",
+      "expected_count": 129,
+      "actual_count": 135,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_yijing_promotion.py"
+      ],
+      "traceback_snippet": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_yijing_promotion.py\", line 268, in test_existing_work_guardrails_remain_stable\n    self.assertEqual(shangshu_alignment_qc[\"summary\"][\"exact_alignment_count\"], 135)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 129 != 135",
+      "raw_traceback": "Traceback (most recent call last):\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_yijing_promotion.py\", line 268, in test_existing_work_guardrails_remain_stable\n    self.assertEqual(shangshu_alignment_qc[\"summary\"][\"exact_alignment_count\"], 135)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 129 != 135\n"
+    },
+    {
+      "test_name": "unittest.loader._FailedTest.test_placeholder_promotion",
+      "work_id": null,
+      "failure_type": "placeholder_dependency",
+      "expected_count": null,
+      "actual_count": null,
+      "affected_files": [
+        "Users/nathanhill/Code/ChinTransMem/tests/test_placeholder_promotion.py",
+        "opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/loader.py"
+      ],
+      "traceback_snippet": "    __import__(name)\n    ~~~~~~~~~~^^^^^^\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_placeholder_promotion.py\", line 2, in <module>\n    from scripts.qc_corpus import run_source_traceability_checks\nModuleNotFoundError: No module named 'scripts.qc_corpus'\n",
+      "raw_traceback": "ImportError: Failed to import test module: test_placeholder_promotion\nTraceback (most recent call last):\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/loader.py\", line 426, in _find_test_path\n    module = self._get_module_from_name(name)\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/loader.py\", line 367, in _get_module_from_name\n    __import__(name)\n    ~~~~~~~~~~^^^^^^\n  File \"/Users/nathanhill/Code/ChinTransMem/tests/test_placeholder_promotion.py\", line 2, in <module>\n    from scripts.qc_corpus import run_source_traceability_checks\nModuleNotFoundError: No module named 'scripts.qc_corpus'\n\n"
+    }
+  ],
+  "failure_count": 15,
+  "errors": 1,
+  "skipped": 0
+}
