@@ -304,12 +304,19 @@ def _candidate_rows_by_section(
     corpus_rows = _filter_rows_to_scope(corpus_rows, work_id, batch_id)
     rows_by_section: dict[str, list[dict[str, Any]]] = {}
     for row in corpus_rows:
+        # Ensure legacy or malformed candidate rows include work_id to avoid KeyError in downstream code.
+        if "work_id" not in row:
+            row["work_id"] = work_id
         rows_by_section.setdefault(str(row["section_id"]), []).append(row)
     return corpus_rows, rows_by_section
 
 
 def _active_rows(work_id: str, batch_id: str | None = None) -> list[dict[str, Any]]:
     rows = [dict(row) for row in _load_review_rows(corpus_export_paths(work_id)["jsonl"])]
+    # Defensive: ensure active export rows include work_id for consumers that expect it.
+    for row in rows:
+        if "work_id" not in row:
+            row["work_id"] = work_id
     return _filter_rows_to_scope(rows, work_id, batch_id)
 
 

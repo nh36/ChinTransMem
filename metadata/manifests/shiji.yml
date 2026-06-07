@@ -334,11 +334,11 @@
   ],
   "ingestion_log": [
     {
-      "run_id": "shiji-bootstrap-benji-1f6b1d3",
+      "run_id": "shiji-bootstrap-active-1f6b1d3",
       "work_id": "shiji",
       "stage": "bootstrap",
       "status": "completed",
-      "notes": "Generated the Shiji benji pilot manifest from ChineseNotes chapter files."
+      "notes": "Generated the Shiji active pilot manifest from ChineseNotes chapter files."
     }
   ]
 }
