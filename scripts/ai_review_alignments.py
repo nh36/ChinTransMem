@@ -482,6 +482,35 @@ def review_candidate_alignments(
         sample_size=sample_size,
         seed=seed,
     )
+    # Merge any external curated review results (autonomous curation pass)
+    try:
+        result_path = Path(str(output)).with_name(Path(str(output)).name.replace("__alignment_review.jsonl", "__alignment_review_results.jsonl"))
+        if result_path.exists():
+            overrides_raw = read_jsonl(result_path)
+            overrides = {r.get("alignment_id"): r for r in overrides_raw if r.get("alignment_id")}
+            for i, rev in enumerate(reviews):
+                aid = str(rev.get("alignment_id"))
+                ov = overrides.get(aid)
+                if not ov:
+                    continue
+                # Map externally-recorded decision formats to review fields
+                if "decision" in ov:
+                    if ov["decision"] in {"curated_override_applied", "reviewed_pass"}:
+                        rev["classification"] = "pass"
+                    elif ov["decision"] == "demoted_blocked":
+                        rev["classification"] = "needs_regrouping"
+                # Apply explanation/metadata if present
+                if "explanation" in ov:
+                    rev["review_explanation"] = ov["explanation"]
+                if "override_path" in ov:
+                    rev["override_path"] = ov["override_path"]
+                rev["review_method"] = (rev.get("review_method") or "") + ";autonomous_curation"
+                rev["curated_override_applied"] = True
+                reviews[i] = rev
+    except Exception:
+        # Don't fail the review step on merge errors; fall back to generated reviews
+        pass
+
     write_jsonl(output, reviews)
     summary = summarize_reviews(reviews)
     return {
