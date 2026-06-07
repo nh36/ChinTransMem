@@ -1,10 +1,12 @@
 {
   "work_id": "shiji",
   "section_count": 3,
-  "complete_sections": 2,
-  "exact_alignment_count": 46,
+  "complete_sections": 1,
+  "exact_alignment_count": 29,
   "warning_count": 0,
   "warnings": [],
-  "error_count": 0,
-  "errors": []
+  "error_count": 1,
+  "errors": [
+    "shiji: metadata-only section shiji-003-annals-of-yin leaked export artifacts."
+  ]
 }

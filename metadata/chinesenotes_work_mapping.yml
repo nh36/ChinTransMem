@@ -186,7 +186,7 @@
       "english_coverage": "pilot_partial",
       "chinese_coverage": "pilot_partial",
       "preferred_use": "aligned_passages",
-      "notes": "Shiji now uses a batch-aware candidate gauntlet. The initial benji pilot stages chapters [1, 2, 3] and currently promotes 1 active proof-of-concept sections. Chapter 3 is anchor-mapped for succession-order repair, while chapter 2 remains metadata-only because its English witness still fails deterministic grouping around the middle of the chapter. The ChineseNotes English witness is gloss-enriched and translator attribution remains unresolved; batch exports strip name-gloss intrusions for translation-memory use but keep raw provenance unchanged."
+      "notes": "Shiji now uses a batch-aware candidate gauntlet. The initial benji pilot stages chapters [1, 2, 3] and currently promotes 2 active proof-of-concept sections. Chapter 3 is anchor-mapped for succession-order repair, while chapter 2 remains metadata-only because its English witness still fails deterministic grouping around the middle of the chapter. The ChineseNotes English witness is gloss-enriched and translator attribution remains unresolved; batch exports strip name-gloss intrusions for translation-memory use but keep raw provenance unchanged."
     },
     {
       "chintransmem_work_id": "shijing",

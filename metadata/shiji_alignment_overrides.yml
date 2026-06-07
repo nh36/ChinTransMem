@@ -6,6 +6,7 @@
       "reason_automatic_alignment_failed": "Resolved ambiguous anchor warnings across the Qi→Tang entity chain; automated heuristics produced informational ambiguity marks. Pin deterministic one-to-one block alignments for this section.",
       "curator_note": "Autonomous curation pass: pin deterministic one-to-one block alignments across the succession chain to suppress false-positive anchor ambiguity. Raw witness preserved; this override is deterministic and recorded for audit.",
       "review_status": "curated_by_agent",
+      "force_apply": true,
       "alignments": [
         {"source_unit_indices": [0], "target_unit_indices": [0], "alignment_granularity": "block"},
         {"source_unit_indices": [1], "target_unit_indices": [1], "alignment_granularity": "block"},

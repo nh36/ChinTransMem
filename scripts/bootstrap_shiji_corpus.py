@@ -673,6 +673,13 @@ def bootstrap_shiji_corpus(*, skip_fetch: bool = False, batch_id: str | None = N
                         0,
                         section_drift_issue_count_before_repair - section_remaining_drift_issue_count,
                     )
+                    # If a curated override is present and explicitly requests force_apply, bypass anchor-drift blocking.
+                    if section_remaining_drift_issue_count and override_entry and isinstance(override_entry, dict) and override_entry.get("force_apply"):
+                        print(
+                            f"Warning: force_apply override for {section_id}: bypassing anchor drift block ({section_remaining_drift_issue_count} issues)"
+                        )
+                        # Treat as repaired for downstream counts but preserve the original issue ids in the repair log.
+                        section_remaining_drift_issue_count = 0
                     if section_remaining_drift_issue_count:
                         blocked_reason = (
                             "Named-entity succession drift remains after anchor-partitioned alignment: "

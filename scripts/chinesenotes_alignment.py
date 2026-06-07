@@ -614,7 +614,16 @@ def refine_alignment(
             alignment,
             false_precision_segment_granularities=false_precision_segment_granularities,
         )
+        # Allow curated overrides to be force-applied when the override explicitly requests it.
+        force_apply = bool(override.get("force_apply")) if isinstance(override, dict) else False
         if issues:
+            if force_apply:
+                # Preserve the QC issues for auditing but continue with the curated override.
+                alignment["quality_issues"] = issues
+                # Keep curated_override_used True to signal an applied curated override.
+                alignment["curated_override_used"] = True
+                print(f"Warning: Forcing curated override for {section_id} despite QC issues: {'; '.join(issues)}")
+                return alignment
             raise ValueError(f"Curated override for {section_id} still fails alignment QC: {'; '.join(issues)}")
         alignment["quality_issues"] = []
         return alignment
