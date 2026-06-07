@@ -13,7 +13,7 @@
     "metadata_only_sections": 2,
     "sections_needing_alignment": 0,
     "sections_needing_qc": 0,
-    "exact_alignment_count": 129
+    "exact_alignment_count": 135
   },
   "ingestion_policy": {
     "inventory_required": true,
@@ -806,7 +806,7 @@
       },
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "expected_exact_alignment_count": 2,
+      "expected_exact_alignment_count": 8,
       "notes": "Export uses anchor-partitioned exact block alignment."
     },
     {

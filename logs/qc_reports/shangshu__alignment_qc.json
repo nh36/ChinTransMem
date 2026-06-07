@@ -4,12 +4,12 @@
     "total_section_count": 60,
     "active_section_count": 58,
     "exportable_section_count": 58,
-    "exact_alignment_count": 129,
+    "exact_alignment_count": 135,
     "alignment_granularity_counts": {
-      "grouped": 88,
-      "block": 41
+      "block": 49,
+      "grouped": 86
     },
-    "automatic_alignment_count": 129,
+    "automatic_alignment_count": 135,
     "curated_override_section_count": 0,
     "fallback_section_count": 0,
     "blocked_section_count": 2,
@@ -20,8 +20,8 @@
     "remaining_corruption_issue_count": 0,
     "drift_checks_run": 58,
     "anchor_mapped_section_count": 1,
-    "drift_issue_count_before_repair": 0,
-    "repaired_drift_issue_count": 0,
+    "drift_issue_count_before_repair": 5,
+    "repaired_drift_issue_count": 5,
     "remaining_drift_issue_count": 0,
     "hard_failure_count": 0
   },
@@ -44,8 +44,8 @@
       "title": "虞書 堯典 Yu Shu - Canon of Yao",
       "chinese_block_count": 14,
       "english_block_count": 8,
-      "alignment_granularity": "grouped",
-      "exact_alignment_count": 2,
+      "alignment_granularity": "block",
+      "exact_alignment_count": 8,
       "alignment_anchor_map_used": true,
       "commentary_present_and_excluded": false,
       "english_heading_present_and_excluded": false,

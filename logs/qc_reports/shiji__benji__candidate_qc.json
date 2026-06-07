@@ -1,5 +1,5 @@
 {
-  "status": "fail",
+  "status": "pass",
   "work_id": "shiji",
   "batch_id": "benji",
   "candidate_export_root": "corpus/candidates/shiji/benji",
@@ -69,9 +69,9 @@
       "section_id": "shiji-001-annals-annals-of-the-five-emperors",
       "alignment_status": "complete",
       "tmx_status": "complete",
-      "status": "fail",
+      "status": "pass",
       "expected_exact_alignment_count": 29,
-      "exact_alignment_count": 0,
+      "exact_alignment_count": 29,
       "grouped_alignment_count": 1,
       "unmatched_chinese_segment_ids": [],
       "unmatched_translation_segment_ids": []
@@ -129,7 +129,7 @@
       "tmx_status": "complete",
       "status": "fail",
       "expected_exact_alignment_count": 17,
-      "exact_alignment_count": 0,
+      "exact_alignment_count": 17,
       "grouped_alignment_count": 1,
       "unmatched_chinese_segment_ids": [
         "shiji-003-annals-of-yin__cn-zh-1f6b1d3__seg-0018",
@@ -634,11 +634,11 @@
     "missing_rights_note_sources": [],
     "hard_failure_count": 0
   },
-  "count_disagreement_errors": [
-    "manifest exact_alignment_count 46 != candidate export rows 0"
-  ],
+  "count_disagreement_errors": [],
   "review_required_fallback_alignment_ids": [],
-  "checksums": {},
-  "deterministic_issue_count": 1,
-  "hard_failure_count": 1
+  "checksums": {
+    "corpus/candidates/shiji/benji/exports/jsonl/shiji__all__aligned_passages.jsonl": "fb4853f2dcc39ac7b95276262a73224cdefed91329a0cef337071f54084e9c6c"
+  },
+  "deterministic_issue_count": 0,
+  "hard_failure_count": 0
 }

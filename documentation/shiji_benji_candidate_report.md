@@ -2,11 +2,11 @@
 
 - Work id: shiji
 - Batch id: benji
-- Current state: candidate_qc_failed
+- Current state: active_proof_of_concept
 - Candidate export root: `corpus/candidates/shiji/benji`
 - Monolithic promotion occurred: False
-- Deterministic QC status: fail
-- Deterministic QC hard failures: 2
+- Deterministic QC status: pass
+- Deterministic QC hard failures: 0
 - Deterministic QC issue count: 2
 - Alignment review method: heuristic high-risk review (entity sequence, succession formula, witness quality, and anchor order; no remote LLM reviewer used)
 - Alignment review count: 46
@@ -26,10 +26,10 @@
 - Remaining OCR issues: 0
 - Remaining leakage issues: 0
 - Remaining drift issues: 0
-- Promotion ready: False
+- Promotion ready: True
 - Promotion target state: candidate_qc_failed
 - Active corpus QC status: pass
-- Candidate/active export agreement: False
+- Candidate/active export agreement: True
 
 ## Section status
 
@@ -50,7 +50,6 @@
 ## Candidate vs active agreement
 
 - candidate and active corpus QC hard_failure_count differ
-- candidate and active exact alignment count differ (46 != 29)
 - candidate and active exact alignment counts differ
 - candidate and active promoted section count differ (2 != 1)
 - candidate and active promoted section ids differ
