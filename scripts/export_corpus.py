@@ -108,6 +108,13 @@ def load_exact_alignment_rows(
     for row in alignment_rows:
         chinese_ids = json.loads(row["chinese_segment_ids_json"])
         translation_ids = json.loads(row["translation_segment_ids_json"])
+        # Validate that all referenced segment IDs exist in the segment map
+        missing_segment_ids = [seg_id for seg_id in set(chinese_ids + translation_ids) if seg_id not in segment_map]
+        if missing_segment_ids:
+            # Provide a clear, actionable error rather than letting a KeyError bubble up during list comprehension
+            raise ValueError(
+                f"Missing segment IDs when exporting work={work_id}, section={row['section_id']}, alignment={row['alignment_id']}: {missing_segment_ids}"
+            )
         chinese_segments = [segment_map[segment_id] for segment_id in chinese_ids]
         translation_segments = [segment_map[segment_id] for segment_id in translation_ids]
         chinese_segments.sort(key=lambda segment: segment["segment_order"])
