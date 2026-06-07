@@ -2,26 +2,6 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-mozi" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="mozi-026-condemnation-of-music-i__align-0001">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-026-condemnation-of-music-i</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">5</prop>
-      <prop type="x-chinese-ref">26.1 - 26.4</prop>
-      <prop type="x-translation-ref">26.1 - 26.5</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>子墨子言曰：仁之事者，必務求興天下之利，除天下之害。將以為法乎天下，利人乎即為，不利人乎即止。且夫仁者之為天下度也，非為其目之所美，耳之所樂，口之所甘，身體之所安，以此虧奪民衣食之財，仁者弗為也。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Motse said: Those gentlemen in the world who want to practise magnanimity and righteousness cannot but examine the origin of righteousness. Since we want to examine the origin of righteousness, then where does it originate? Motse said: Righteousness does not originate with the stupid and humble but with the honourable and wise. How do we know it does not originate with the dull and humble but with the honourable and wise? For, righteousness is the standard.</seg>
-      </tuv>
-    </tu>
     <tu tuid="mozi-026-condemnation-of-music-i__align-0002">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-026-condemnation-of-music-i</prop>

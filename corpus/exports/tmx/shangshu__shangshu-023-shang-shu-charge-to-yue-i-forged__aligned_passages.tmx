@@ -2,26 +2,6 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shangshu" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shangshu-023-shang-shu-charge-to-yue-i-forged__alignment-001">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-023-shang-shu-charge-to-yue-i-forged</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·商書 說命上（僞） [1]</prop>
-      <prop type="x-translation-ref">尚書·商書 說命上（僞） [1]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>王宅憂亮，陰三祀。既免喪，其惟弗言。群臣咸諫于王，曰：「嗚呼！知之曰明哲，明哲實作則。天子惟君萬邦，百官承式。」王言惟作命，不言，臣下罔攸稟令。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>1. The king passed the season of sorrow in the mourning shed for three years, and when the period of mourning was over, he (still) did not speak (to give any commands). All the ministers remonstrated with him, saying, 'Oh! him who is (the first) to apprehend we pronounce intelligent, and the intelligent man is the model for others. The Son of Heaven rules over the myriad regions, and all the officers look up to and reverence him. They are the king's words which form the commands (for them). If he do not speak, the ministers have no way to receive their orders.' On this the king made a writing, for their information, to the following effect:—'As it is mine to serve as the director for the four quarters (of the kingdom), I have been afraid that my virtue is not equal to (that of my predecessors), and therefore have not spoken. (But) while I was reverently and silently thinking of the (right) way, I dreamt that God gave me a good assistant who should speak for me.' He then minutely recalled the appearance (of the person whom he had seen), and caused search to be made for him everywhere by means of a picture. Yüeh, a builder in the wild country of Fû-yen, was found like to it.</seg>
-      </tuv>
-    </tu>
     <tu tuid="shangshu-023-shang-shu-charge-to-yue-i-forged__alignment-002">
       <prop type="x-work-id">shangshu</prop>
       <prop type="x-section-id">shangshu-023-shang-shu-charge-to-yue-i-forged</prop>

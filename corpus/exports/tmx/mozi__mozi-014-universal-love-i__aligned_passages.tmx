@@ -211,15 +211,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">14.35</prop>
-      <prop type="x-translation-ref">14.33</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">14.35 - 14.38</prop>
+      <prop type="x-translation-ref">14.33 - 14.36</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>視弟子與臣若其身，惡施不慈？</seg>
+        <seg>視弟子與臣若其身，惡施不慈？故不孝、不慈、亡有，猶有盜賊乎？故視人之室若其室，誰竊？視人身若其身，誰賊？</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Will there still be any unaffeetionate incliviclnal?</seg>
+        <seg>Will there still be any unaffeetionate incliviclnal? When, every one regards his younger brother son., and niiiiistor as himself, whereto can he direct any disaffection? Therefore there will not be any nnfilial feeling or disaffection. Will there then be any thieves and robbers?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-014-universal-love-i__align-0012">
@@ -251,35 +251,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">14.38 - 14.39</prop>
-      <prop type="x-translation-ref">14.35</prop>
+      <prop type="x-chinese-ref">14.41 - 14.43</prop>
+      <prop type="x-translation-ref">14.38</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>視人身若其身，誰賊？故盜賊亡有。</seg>
+        <seg>視人家若其家，誰亂？視人國若其國，誰攻？故大夫之相亂家、諸侯之相攻國者亡有。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Therefore there will not be any nnfilial feeling or disaffection.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-014-universal-love-i__align-0014">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-014-universal-love-i</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">14.40</prop>
-      <prop type="x-translation-ref">14.36</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>猶有大夫之相亂家、諸侯之相攻國者乎？</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Will there then be any thieves and robbers?</seg>
+        <seg>When every one regards other persons as his own person, who will rob 1 Therefore there will not he any thieves or robbers.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-014-universal-love-i__align-0015">
@@ -300,6 +280,26 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>When every one regards other families as his own family, who will steal? When every one regards other persons as his own person, who will rob 1 Therefore there will not he any thieves or robbers. Will there be mutual disturbance among the houses of the ministers and invasion among the states of the feudal lords? When every one regards the houses of others as one’s own, who will he disturbing 1 When every one regards the states of others as one’s own, who will invade? Therefore there will be neither disturbances among the houses of the ministers nor invasion among the states of the feudal lords. If every one in the world will love uiiivervsally; states not attacking one another; houses not disturbing one another; thieves and robbers becoming extinct; emperor and ministers, fathers and sons, all being affectionate and filial — if all this comes to pass the world will be orderly.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-014-universal-love-i__align-0014">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-014-universal-love-i</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">14.44 - 14.46</prop>
+      <prop type="x-translation-ref">14.39 - 14.44</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>若使人下兼相愛，國與國不相攻，家與家不相亂，盜賊無有，君臣父子皆能孝慈，若此則天下治。故聖人以治天下爲事者，惡得不禁惡而勸愛？故天下兼相愛則治，交相惡則亂。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Will there be mutual disturbance among the houses of the ministers and invasion among the states of the feudal lords? When every one regards the houses of others as one’s own, who will he disturbing 1 When every one regards the states of others as one’s own, who will invade? Therefore there will be neither disturbances among the houses of the ministers nor invasion among the states of the feudal lords. If every one in the world will love uiiivervsally; states not attacking one another; houses not disturbing one another; thieves and robbers becoming extinct; emperor and ministers, fathers and sons, all being affectionate and filial — if all this comes to pass the world will be orderly. Therefore, how can the wise man who has charge of governing the empire fail to restrain hate and encourage love? So, when there is universal love in the world it will be orderly, and when there is mutual hate in the world it will be dis-orderly.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-014-universal-love-i__align-0016">

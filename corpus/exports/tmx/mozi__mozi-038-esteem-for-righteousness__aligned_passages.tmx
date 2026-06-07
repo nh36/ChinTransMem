@@ -311,12 +311,12 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-source-segment-count">6</prop>
       <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">38.52 - 38.56</prop>
+      <prop type="x-chinese-ref">38.52 - 38.57</prop>
       <prop type="x-translation-ref">38.41 - 38.46</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>凡言凡動，合於三代聖王堯、舜、禹、湯、文、武者為之；凡言凡動，合於三代暴王桀、紂、幽、厲者捨之。」子墨子曰：「言足以遷行者常之，不足以遷行者勿常。</seg>
+        <seg>凡言凡動，合於三代聖王堯、舜、禹、湯、文、武者為之；凡言凡動，合於三代暴王桀、紂、幽、厲者捨之。」子墨子曰：「言足以遷行者常之，不足以遷行者勿常。不足以遷行而常之，是盪口也。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>He depends on others’ houses for Ms wealth and uses others’ fields to uphold his dignity. When a death takes place in a rich family he will rejoice greatly, for it is Ms opportunity for clothing and food. The Confiicianist says: The superior man must be ancient in mode of speech and in dress before he can be magnanimous." We answer him: The so-called ancient speech and dress were all modern once. W'hen the ancients first used that speech and wore that dress they would not be superior men (according to the Confucianists’ criteria). Do you therefore mean to say that one has to wear the dress of the non-superior man and speak the speech of the non-superior man before he can be magnanimous? Again, the Confucianist says: " The superior man con-forms to the old but does not make innovations." We answer him: In antiquity Yi invented the bow, Yii invented armour, Hsi Chung invented vehicles, and Ch'iao Ch’ui invented boats.</seg>
@@ -392,14 +392,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">6</prop>
-      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
       <prop type="x-chinese-ref">38.70 - 38.75</prop>
-      <prop type="x-translation-ref">38.55 - 38.59</prop>
+      <prop type="x-translation-ref">38.55 - 38.60</prop>
       <tuv xml:lang="zh-Hant">
         <seg>「世之君子，使之為一犬一彘之宰，不能則辭之；使為一國之相，不能而為之。豈不悖哉！」子墨子曰：「今瞽曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>He who has no knowledge follows him who has knowledge. Eunning short of argument he would acknowledge defeat, seeing good he would be converted. How can there be any strife? If the contestants are both wicked, though the victor does not pursue the fleeing enemy, though he does not shoot the enemy at bay, though he helps pushing the enemy’s carts in retreat — though he does all these, still he cannot be a superior man. On the other hand, suppose a sage starts out to destroy a curse on behalf of the empire.</seg>
+        <seg>He who has no knowledge follows him who has knowledge. Eunning short of argument he would acknowledge defeat, seeing good he would be converted. How can there be any strife? If the contestants are both wicked, though the victor does not pursue the fleeing enemy, though he does not shoot the enemy at bay, though he helps pushing the enemy’s carts in retreat — though he does all these, still he cannot be a superior man. On the other hand, suppose a sage starts out to destroy a curse on behalf of the empire. He raises an army to punish the wicked and cruel state.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0021">
@@ -451,15 +451,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">5</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">38.81 - 38.85</prop>
-      <prop type="x-translation-ref">38.67 - 38.68</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">38.81 - 38.84</prop>
+      <prop type="x-translation-ref">38.68 - 38.73</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>兼仁與不仁，而使天下之君子取焉，不能知也。故我曰天下之君子不知仁者，非以其名也，亦以其取也。」子墨子曰：「今士之用身，不若商人之用一布之慎也。</seg>
+        <seg>兼仁與不仁，而使天下之君子取焉，不能知也。故我曰天下之君子不知仁者，非以其名也，亦以其取也。」子墨子曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>It will sound when it is struck. It will remain silent when it is not struck.'’ We answer him: The magnanimous, in serving his superior, should be loyal, and in serving his parents, should be filial.</seg>
+        <seg>It will remain silent when it is not struck.'’ We answer him: The magnanimous, in serving his superior, should be loyal, and in serving his parents, should be filial. When there is excellence (in the superior) he should adore, when there is fault he should give counsel. This is the way of a minister. Now, if one sounds only when struck, and remains silent when not struck, then he will hide his Imowledge and spare his efforts, waiting to be questioned before he answers. Even if there is some great advantage at stake to the lord or parents, he will not speak up without being asked. And, if a great invasion or insurrection is approaching or a conspiracy is afoot, and none know it but he; yet even in the presence of his lord and parents he will not speak up without being questioned.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0024">
@@ -542,6 +542,26 @@
         <seg>Lord Ching of Ohl asked Yentse: What kind of a man is Confucius? Yentse answered not. The Lord reiterated the question and there was still no answer. Lord Ching said: Many have told me about K’ung Mo and all said he was a virtuous man. Now that I am asking you about him, why should you not answer? Yentse replied: " Ying is not wise and cannot know virtuous men.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-038-esteem-for-righteousness__align-0029">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">38.104 - 38.107</prop>
+      <prop type="x-translation-ref">38.93 - 38.98</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>「昔者周公旦朝讀書百篇，夕見漆十士，故周公旦佐相天子，其修至於今。翟上無君上之事，下無耕農之難，吾安敢廢此？翟聞之：同歸之物，信有誤者。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>His speech is plain and easy to understand and his conduct is plain and easy to follow. His righteous conduct enlightens the people and his thoughtful counsel convinces the lord and his ministers. Now, this man Confucius with elaborate plans conspired with the rebels and with devious plots committed depravity. To persuade the subordinates to plot against their superior and tell the ministers to assassinate their lord is not the conduct of a virtuous man. To enter a country and join with its traitors is not akin to the righteous. To urge those who are known to be disloyal to revolt does not fit the way of the magnanimous.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0028">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
@@ -562,26 +582,6 @@
         <seg>Yet Ying has heard that a virtuous man must be one who, upon entering a state, will endeavour to bring about friendly relations between the ruler and the ministers and dissolve the grudges between superior and subordinates. This man Confucius once visited the state of Ching. He heard of the plans of Duke Po and told them to Shih Ch’i. As a result, the lord almost perished and Duke Po was executed. Ying has also heard that the virtuous man does not obtain confidence of the superior by flattery or that of the subordinates by threat. If his counsels are listened to by the lord they will benefit the people, if his instructions are followed by the subordinates they will benefit the superior.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-038-esteem-for-righteousness__align-0029">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">38.110 - 38.113</prop>
-      <prop type="x-translation-ref">38.93</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>同歸之物，既已知其要矣，是以不教以書也。而子何怪焉？」子墨子謂公良桓子曰：</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>His speech is plain and easy to understand and his conduct is plain and easy to follow.</seg>
-      </tuv>
-    </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0030">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
@@ -591,15 +591,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">38.114 - 38.116</prop>
-      <prop type="x-translation-ref">38.94 - 38.99</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-chinese-ref">38.108 - 38.112</prop>
+      <prop type="x-translation-ref">38.99 - 38.103</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>「衛，小國也，處於齊、晉之間，猶貧家之處於富家之間也。貧家而學富家之衣食多用，則速亡必矣。今簡子之家，飾車數百乘，馬食菽粟者數百匹，婦人衣文繡者數百人。</seg>
+        <seg>然而民聽不鈞，是以書多也。今若過之心者，數逆於精微。同歸之物，既已知其要矣，是以不教以書也。而子何怪焉？」</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>His righteous conduct enlightens the people and his thoughtful counsel convinces the lord and his ministers. Now, this man Confucius with elaborate plans conspired with the rebels and with devious plots committed depravity. To persuade the subordinates to plot against their superior and tell the ministers to assassinate their lord is not the conduct of a virtuous man. To enter a country and join with its traitors is not akin to the righteous. To urge those who are known to be disloyal to revolt does not fit the way of the magnanimous. Plotting against one at a distance and condemning one behind his back, his conduct enlightening not the people and his counsel convincing not the lord — how Confucius is different from Duke Po, your servant Ying does not see.</seg>
+        <seg>Plotting against one at a distance and condemning one behind his back, his conduct enlightening not the people and his counsel convincing not the lord — how Confucius is different from Duke Po, your servant Ying does not see. This is why I did not answer you." Lord Ching said: Oh! I have been benefited. If it were not for you, I would never in my life understand K’ung Mo to be of the same kind as Duke Po." K’ung Mo visited the state of Ch’i and saw Lord Ching. Lord Ching was pleased and was going to assign Ni Hsi to him.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0031">
@@ -622,6 +622,26 @@
         <seg>This is why I did not answer you." Lord Ching said: Oh!</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-038-esteem-for-righteousness__align-0033">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">38.117 - 38.121</prop>
+      <prop type="x-translation-ref">38.111 - 38.116</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>吾取飾車食馬之費與繡衣之財以畜士，必千人有餘。若有患難，則使百人處於前，數百於後，與婦人數百人處前後，孰安？吾以為不若畜士之安也。」子墨子仕人於衛，所仕者至而反。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Kmng Mo dresses elaborately and puts on adornments to mislead the people, promotes music and dancing to attract the multitudes, performs elaborate ceremonies of going up and coming down the steps, and practises the etiquette of rushing and soaring to dazzle the multitudes. With all his extensive learning he cannot plan for the world; wit-hull his laborious thought he cannot help the people. A whole lifetime cannot exhaust his learning; the grown man cannot observe his ceremonies; and even the wealthy cannot enjoy his music. He elaborates and adorns his improper ways to keep the lords busy; he profusely furnishes sounds and music to corrupt the people. His principles cannot instruct the world; his learning cannot lead the multitudes. Now you, my lord, commission him to change the customs of Ch’i.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0032">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
@@ -640,26 +660,6 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>I have been benefited. If it were not for you, I would never in my life understand K’ung Mo to be of the same kind as Duke Po." K’ung Mo visited the state of Ch’i and saw Lord Ching. Lord Ching was pleased and was going to assign Ni Hsi to him. He told Yentse about it. Yentse said: Please do not. A scholar of his school would sit crouching and take things easy, therefore he cannot be made to teach the subordinates.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-038-esteem-for-righteousness__align-0033">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">38.123 - 38.126</prop>
-      <prop type="x-translation-ref">38.107</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>「何故反？」對曰：「與我言而不當。曰『待女以千盆』，授我五百盆，故去之也。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>He likes music and will corrupt the people, and therefore cannot be trusted to govern.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0034">
@@ -702,6 +702,26 @@
         <seg>He elaborates and adorns his improper ways to keep the lords busy; he profusely furnishes sounds and music to corrupt the people. His principles cannot instruct the world; his learning cannot lead the multitudes. Now you, my lord, commission him to change the customs of Ch’i. It really is not the way to lead a country and bring forward the multitudes." The Lord said: This is well." Thereupon the Lord gave him valuable gifts but retained the commission, received him with respect but did not inquire into his teaching. K’ung Mo became angry, angry with Lord Ching and Yentse. So, he placed Ch’ih Yi Tse P’i in the following of Then Ch’ang, and communicated his plans to Huitse of the South City.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-038-esteem-for-righteousness__align-0038">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">38.136 - 38.140</prop>
+      <prop type="x-translation-ref">38.126 - 38.131</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>今有人於此，負粟息於路側，欲起而不能，君子見之，無長少貴賤，必起之。何故也？曰：義也。今為義之君子，奉承先王之道以語之，縱不說而行，又從而非毀之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Then he went, "on and persuaded Yiieh to attack Wu. For three years, both Ch'i and Wu were threatened with ruin. The bodies of those killed amounted to hundreds of thousands. And this was the revenge of K'ung Mo, K'ung Mo was once 'the Chief Justice of Lu. But he abandoned the cause of the lord and entered the service of Chi Sun. Chi Sun was the Chancellor of Lu but deserted his trust and ran away.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0036">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
@@ -742,26 +762,6 @@
         <seg>now is the time to do the great deed/' Thereupon he sent Tse Kung to Ch'i and, through the introduction of Huitse of the South City,' saw,' Then Ch'ang. Tse Kmig persuaded him td attack Wu.(instead •of Lu). He also told Kao Kuo Pao Yen not to interfere with Then Ch'ang's insurrection. Then he went, "on and persuaded Yiieh to attack Wu. For three years, both Ch'i and Wu were threatened with ruin. The bodies of those killed amounted to hundreds of thousands.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-038-esteem-for-righteousness__align-0038">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">38.145</prop>
-      <prop type="x-translation-ref">38.129 - 38.134</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>今士坐而言義，無關梁之難，盜賊之危，此為信徙，不可勝計，然而不為。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>And this was the revenge of K'ung Mo, K'ung Mo was once 'the Chief Justice of Lu. But he abandoned the cause of the lord and entered the service of Chi Sun. Chi Sun was the Chancellor of Lu but deserted his trust and ran away. As he was trying to force the gate against the guards, K'ung Mo lifted the beam (for him). Once, K'ung Mo was in straits between Ts’ai and Ch'en having only vegetable soup without even rice to eat. After ten days of this, Tse Lu cooked a pig for him.</seg>
-      </tuv>
-    </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0039">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
@@ -780,6 +780,26 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>K'ung Mo did not inquire whence the meat came, and ate.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-038-esteem-for-righteousness__align-0041">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">38.146 - 38.150</prop>
+      <prop type="x-translation-ref">38.139 - 38.141</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>則士之計利，不若商人之察也。」子墨子北之齊，遇日者。日者曰：「帝以今日殺黑龍於北方，而先生之色黑，不可以北。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>K’ung Mo did not inquire whence the wine came, and drank. But when Lord Ai received Confucius, Confucius world not sit on a mat that was not placed straight and would not eat meat that was not cut properly. Tse Lu went to him and asked: Why the reverse to what you did on the borders of CMen and Ts’ai?" E’ung Mo answered: "Come, let me tell you.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0040">
@@ -802,7 +822,7 @@
         <seg>Tse Lu was exhausted, and his followers became so ill that they were unable to rise. He, like Peter in the Christian Apostolic circle, is noted for courage and straight-forwardness. p robbed some one of Ms garment and exclianged it for wine. K’ung Mo did not inquire whence the wine came, and drank. But when Lord Ai received Confucius, Confucius world not sit on a mat that was not placed straight and would not eat meat that was not cut properly. Tse Lu went to him and asked: Why the reverse to what you did on the borders of CMen and Ts’ai?" E’ung Mo answered: "Come, let me tell you.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-038-esteem-for-righteousness__align-0041">
+    <tu tuid="mozi-038-esteem-for-righteousness__align-0043">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -814,12 +834,12 @@
       <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">38.153 - 38.154</prop>
-      <prop type="x-translation-ref">38.142</prop>
+      <prop type="x-translation-ref">38.143</prop>
       <tuv xml:lang="zh-Hant">
         <seg>「我謂先生不可以北。」子墨子曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Then, our goal was to keep alive.</seg>
+        <seg>Now our goal is to behave righteously/’ Now when hunger-stricken he was not scrupulous about the means of keeping alive, and when satiated he acted hypocritically to appear refined.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0042">
@@ -840,26 +860,6 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>Now our goal is to behave righteously/’ Now when hunger-stricken he was not scrupulous about the means of keeping alive, and when satiated he acted hypocritically to appear refined. What foolery, perversion, villainy, and pretension can be greater than this! K’ung Mo was lounging with his disciples. He remarked: His followers and disciples all imitated him; Tse Kung and Chi Lu assisted K’ung Li and committed high treason against the state of Wei. Yang Huo rebelled against Ch’i.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-038-esteem-for-righteousness__align-0043">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-038-esteem-for-righteousness</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">38.157</prop>
-      <prop type="x-translation-ref">38.148</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>是圍心而虛天下也，子之言不可用也。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Fei Kan was entrusted with Chung Mou and became independent.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-038-esteem-for-righteousness__align-0044">

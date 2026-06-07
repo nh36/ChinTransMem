@@ -92,7 +92,7 @@
     },
     "drift_checks_run": 17,
     "drift_issue_count_before_repair": 10,
-    "repaired_drift_issue_count": 0,
+    "repaired_drift_issue_count": 10,
     "remaining_drift_issue_count": 0,
     "entity_sequence_validation_passed": true,
     "anchor_mapped_section_count": 1,

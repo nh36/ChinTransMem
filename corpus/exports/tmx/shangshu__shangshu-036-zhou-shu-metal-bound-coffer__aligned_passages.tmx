@@ -2,26 +2,6 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shangshu" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shangshu-036-zhou-shu-metal-bound-coffer__alignment-001">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-036-zhou-shu-metal-bound-coffer</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·周書 金縢 [1] - 尚書·周書 金縢 [2]</prop>
-      <prop type="x-translation-ref">尚書·周書 金縢 [1]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>既克商二年，王有疾，弗豫。二公曰：「我其為王穆卜。」周公曰：「未可以戚我先王。」公乃自以為功，為三壇同墠。為壇於南方，北面周公立焉；植璧秉珪，乃告太王、王季、文王。史乃冊祝曰：「惟爾元孫某，遘厲虐疾；若爾三王，是有丕子之責于天，以旦代某之身。予仁若考，能多材多藝，能事鬼神；乃元孫不若旦多材多藝，不能事鬼神。乃命于帝庭，敷佑四方，用能定爾子孫于下地；四方之民，罔不祗畏。嗚呼！無墜天之降寶命，我先王亦永有依歸。今我即命于元龜，爾之許我，我其以璧與珪，歸俟爾命，爾不許我，我乃屏璧與珪。」</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>King Wû is very ill, and his death seems imminent. His brother, the duke of Kâu, apprehensive of the disasters which such an event would occasion to their infant dynasty, conceives the idea of dying in his stead, and prays to 'the three kings,' their immediate progenitors, that he might be taken and king Wû left. Having done so, and divined that he was heard, he deposits the prayer in the metal-bound coffer. The king gets well, and the duke is also spared; but five years later, Wû does die, and is succeeded by his son, a boy only thirteen years old. Rumours are spread abroad that the duke has designs on the throne, and he withdraws for a time from the court. At length, in the third year of the young king, Heaven interposes. He has occasion to open the coffer, and the prayer of the duke is found. His devotion to his brother and to the interests of their family is brought to light. The boy-monarch weeps because of the unjust suspicions he had harboured, and welcomes the duke back to court, amid unmistakeable demonstrations of the approval of Heaven.</seg>
-      </tuv>
-    </tu>
     <tu tuid="shangshu-036-zhou-shu-metal-bound-coffer__alignment-002">
       <prop type="x-work-id">shangshu</prop>
       <prop type="x-section-id">shangshu-036-zhou-shu-metal-bound-coffer</prop>

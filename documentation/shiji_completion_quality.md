@@ -26,7 +26,7 @@ Generated from `logs/qc_reports/shiji__alignment_qc.json`.
 - Note/commentary leakage issues remaining: 0
 - Alignment drift checks run: 17
 - Drift issues before repair: 10
-- Drift issues repaired: 0
+- Drift issues repaired: 10
 - Drift issues remaining: 0
 - Named-entity succession validation passed: True
 

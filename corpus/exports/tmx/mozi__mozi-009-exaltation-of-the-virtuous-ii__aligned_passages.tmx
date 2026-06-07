@@ -171,12 +171,12 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-source-segment-count">4</prop>
       <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">9.22 - 9.24</prop>
+      <prop type="x-chinese-ref">9.22 - 9.25</prop>
       <prop type="x-translation-ref">9.25 - 9.30</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>外有以爲皮幣，與四鄰諸侯交接。內有以食飢息勞，將養其萬民，外有以懷天下之賢人。是故上者天鬼富之，外者諸侯與之，內者萬民親之，賢人歸之。</seg>
+        <seg>外有以爲皮幣，與四鄰諸侯交接。內有以食飢息勞，將養其萬民，外有以懷天下之賢人。是故上者天鬼富之，外者諸侯與之，內者萬民親之，賢人歸之。以此謀事則得，舉事則成，入守則固，出誅則彊。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>How the way that enabled the sage-kings of the Three Dynasties, namely Yao, Shun Yii, T ang, Wen and Wu, to rule the empire and head the feudal lords was no other than this (principle of exaltation of the virtuous). However, if there is only the principle while the technique of its application is not known, then it would seem to be still incomplete. Therefore there should be laid down three rules. What are the three rules? They are: (I) when their rank (that of the virtuous) is not high, people would not show them respect; (2) when their emoluments are not liberal people would not place confidence in them; (3) when their orders are not final, people would not stand in awe before them. So the ancient sage-kings placed them high in rank, gave them liberal emoluments, trusted them with important charges, and decreed their orders to be final.</seg>
@@ -191,12 +191,12 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-source-segment-count">4</prop>
       <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">9.25 - 9.26</prop>
+      <prop type="x-chinese-ref">9.26 - 9.29</prop>
       <prop type="x-translation-ref">9.31 - 9.36</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>以此謀事則得，舉事則成，入守則固，出誅則彊。故唯昔三代聖王堯、舜、禹、湯、文、武之所以王天下、正諸侯者，此亦其法已。</seg>
+        <seg>故唯昔三代聖王堯、舜、禹、湯、文、武之所以王天下、正諸侯者，此亦其法已。旣曰若法，未知所以行之術，則事猶若未成，是以必爲置三本。何謂三本？曰：</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>And all this was done not merely to reward their subordinates: it was to fulfil their trust. Thus runs an Ode: " I am instructing you to take worries and cares of the world as your own; I am teaching the order of ranks for the virtuous and talented. Who can handle virtue even at such an early time as that of Confucius The Feat without rinsing; His' hands (in cold water) This is to show Fow in the: past the rulers could not do without befriending subordinates and helpers. It was like the necessity of rinsing in handling hot objects to relieve the hands. The ancient sage-kings concentrated on acquiring and employing the virtuous— honouring them with high ranks, and assigning land to them — unwearied to the end of their lives. The virtuous men on the other hand only hoped to find an enlightened ruler to serve— exhausting all the powers of the four limbs to attend to the king's business— untired to the end of their lives.</seg>
@@ -251,35 +251,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.36</prop>
-      <prop type="x-translation-ref">9.45</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">9.38 - 9.40</prop>
+      <prop type="x-translation-ref">9.44 - 9.49</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>孰能執熱，鮮不用濯？</seg>
+        <seg>古者聖王唯毋得賢人而使之，般爵以貴之，裂地以封之，終身不厭。賢人唯毋得明君而事之，竭四肢之力，以任君之事，終身不倦。若有美善，則歸之上，是以美善在上，而所怨謗在下，寧樂在君，憂戚在臣。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Who can hold anything hot?</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0014">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-009-exaltation-of-the-virtuous-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">9.37</prop>
-      <prop type="x-translation-ref">9.46 - 9.47</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>」則此語古者國君諸侯之不可以不執善承嗣輔佐也，譬之猶執熱之有濯也，將休其手焉。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Must he not dip it (first) in water? You (and your advisers) will sink together in ruin.'" to be high in rank but receive small emoluments will not inspire people’s confidence.</seg>
+        <seg>I tell you the subjects of anxiety; I instruct you how to distinguish the orders of men. Who can hold anything hot? Must he not dip it (first) in water? You (and your advisers) will sink together in ruin.'" to be high in rank but receive small emoluments will not inspire people’s confidence. The virtuous would say to themselves: This is not real love for me, but only to make use of me as a means." Now, bow can people be affectionate to their superiors when they are only (treated as) means? Therefore an ancient king said; He who is too ambitious in government will not share his tasks with others.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0015">
@@ -300,6 +280,26 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>The virtuous would say to themselves: This is not real love for me, but only to make use of me as a means." Now, bow can people be affectionate to their superiors when they are only (treated as) means? Therefore an ancient king said; He who is too ambitious in government will not share his tasks with others. He who over-treasures wealth will not offer big emoluments to others." When tasks are not assigned and emoluments are not given, it may be asked wherefrom would the virtuous come to the side of the rulers? And when the virtuous are not at the side of the rulers, the vicious will be on their right and left. When the vicious are on the right and left, then commendations will not fall on the virtuous and punishments will not be upon the wicked. If the rulers follow these in governing the states, in the same way rewards will not go to the virtuous and punishment not to the wicked.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0014">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-009-exaltation-of-the-virtuous-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">9.41 - 9.43</prop>
+      <prop type="x-translation-ref">9.50</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故古者聖王之爲政若此。今王公大人亦欲效人以尚賢使能爲政，高予之爵，而祿不從也。夫高爵而無祿，民不信也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He who over-treasures wealth will not offer big emoluments to others." When tasks are not assigned and emoluments are not given, it may be asked wherefrom would the virtuous come to the side of the rulers?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0016">
@@ -352,34 +352,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.50 - 9.52</prop>
-      <prop type="x-translation-ref">9.58</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">9.54 - 9.56</prop>
+      <prop type="x-translation-ref">9.56 - 9.61</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>」事則不與，祿則不分，請問：天下之賢人將何自至乎王公大人之側哉？若苟賢者不至乎王公大人之側，則此不肖者在左右也。</seg>
+        <seg>王公大人尊此以爲政乎國家，則賞亦必不當賢，而罰亦必不當暴。若苟賞不當賢，而罰不當暴，則是爲賢者不勸，而爲暴者不沮矣。是以入則不慈孝父母，出則不長弟鄉里，居處無節，出入無度，男女無別。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>the lord meets with death, they would not follow him and commit suicide; when the lord has to flee the country, they would not accompany him in banishment.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0019">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-009-exaltation-of-the-virtuous-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.53</prop>
-      <prop type="x-translation-ref">9.59</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>不肖者在左右，則其所譽不當賢，而所罰不當暴。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>In judging lawsuits they are not just, and in dividing property they are partial.</seg>
+        <seg>They move about without restraint and disregard the rules of propriety about sexes. When trusted with the administration of the court, they would steal; when trusted to defend a city, they would raise an insurrection. the lord meets with death, they would not follow him and commit suicide; when the lord has to flee the country, they would not accompany him in banishment. In judging lawsuits they are not just, and in dividing property they are partial. In planning they are not helpful, in execution they are inefficient. Neither in defence are they strong, nor in attack are they victorious.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0020">
@@ -400,6 +380,26 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>In planning they are not helpful, in execution they are inefficient. Neither in defence are they strong, nor in attack are they victorious. Now, the reason that the wicked kings of the Three Dynasties, namely, Chieh, Chow, Yu, and Li, misruled the country and upset their states was no other than this (employment of the vicious). Why is this so? Because they understood petty but were ignorant about things of importance. When the rulers cannot get a coat mad© they will employ able tailors.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0019">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-009-exaltation-of-the-virtuous-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">9.57 - 9.58</prop>
+      <prop type="x-translation-ref">9.62 - 9.67</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>使治官府則盜竊，守城則倍畔，君有難則不死，出亡則不從，使斷獄則不中，分財則不均，與謀事不得，舉事不成，入守不固，出誅不彊。故雖昔者三代暴王桀、紂、幽、厲之所以失措其國家，傾覆其社稷者，已此故也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Now, the reason that the wicked kings of the Three Dynasties, namely, Chieh, Chow, Yu, and Li, misruled the country and upset their states was no other than this (employment of the vicious). Why is this so? Because they understood petty but were ignorant about things of importance. When the rulers cannot get a coat mad© they will employ able tailors. When they cannot have an ox or a sheep killed will employ able butchers. In these two instances they do know they should exalt the virtuous and employ the capa for business.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0021">
@@ -432,14 +432,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.59 - 9.60</prop>
-      <prop type="x-translation-ref">9.72</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">9.63 - 9.64</prop>
+      <prop type="x-translation-ref">9.70 - 9.75</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>何則？皆以明小物而不明大物也。</seg>
+        <seg>故當若之二物者，王公大人未知以尚賢使能爲政也。逮至其國家之亂，社稷之危，則不知使能以治之，親戚則使之，無故富貴、面目佼好則使之。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>And disorder can then be pre-dicted.</seg>
+        <seg>But as to the employment of the rich without merit and the good-looking — will these necessarily prove themselves wise and intelligent? To let these rule the country is to let the unwise and unin-telligent rule the country. And disorder can then be pre-dicted. Moreover, the rulers employ their minds by the attractiveness of their appearance, and show them favour without finding out their knowledge. As a result, are not capable to rule a hundred men are assigned to over a thousand, and those who are not capable to thousand are assigned to posts over ten thousand. What is Ciiieli is of Hsia, Chow of Shaixg, Yu and Li of Chou. the reason for this?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0023">
@@ -452,14 +452,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.61 - 9.62</prop>
-      <prop type="x-translation-ref">9.73</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">9.65 - 9.66</prop>
+      <prop type="x-translation-ref">9.76 - 9.77</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>今王公大人有一衣裳不能制也，必藉良工。有一牛羊不能殺也，必藉良宰。</seg>
+        <seg>夫無故富貴、面目佼好則使之，豈必智且有慧哉？若使之治國家，則此使不智慧者治國家也。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Moreover, the rulers employ their minds by the attractiveness of their appearance, and show them favour without finding out their knowledge.</seg>
+        <seg>Why, such positions are high in rank and rich in emoluments. Therefore the specially favoured are picked for them.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0024">
@@ -471,35 +471,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">9.63 - 9.64</prop>
-      <prop type="x-translation-ref">9.74 - 9.79</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">9.67 - 9.72</prop>
+      <prop type="x-translation-ref">9.78 - 9.81</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>故當若之二物者，王公大人未知以尚賢使能爲政也。逮至其國家之亂，社稷之危，則不知使能以治之，親戚則使之，無故富貴、面目佼好則使之。</seg>
+        <seg>國家之亂，旣可得而知己。且夫王公大人，有所愛其色而使之，其心不察其知，而與其愛。是故不能治百人者，使處乎千人之官。不能治千人者，使處乎萬人之官。此其故何也？曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>As a result, are not capable to rule a hundred men are assigned to over a thousand, and those who are not capable to thousand are assigned to posts over ten thousand. What is Ciiieli is of Hsia, Chow of Shaixg, Yu and Li of Chou. the reason for this? Why, such positions are high in rank and rich in emoluments. Therefore the specially favoured are picked for them. But to make those incapable of ruling a thousand men rule ten thousand is to increase their duty tenfold. The business of the government comes daily.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0025">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-009-exaltation-of-the-virtuous-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">9.65 - 9.66</prop>
-      <prop type="x-translation-ref">9.80 - 9.81</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>夫無故富貴、面目佼好則使之，豈必智且有慧哉？若使之治國家，則此使不智慧者治國家也。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>It is to be attended to every day, yet the day cannot be lengthened by tenfold. To govern, again, requires knowledge.</seg>
+        <seg>But to make those incapable of ruling a thousand men rule ten thousand is to increase their duty tenfold. The business of the government comes daily. It is to be attended to every day, yet the day cannot be lengthened by tenfold. To govern, again, requires knowledge.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0026">
@@ -520,6 +500,26 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>When knowledge is not increased by ten times, while a tenfold task is assigned, it will evidently result in attending to one and neglecting nine. Though the task be attended to day and night, still it cannot be well executed. And the reason for this is because the rulers do not understand that they should exalt the virtuous and employ the capable in government. Thus exaltation of the virtuous and employment of the capable with the consequent success in government is pre-sented above in the earlier paragraphs.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0025">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-009-exaltation-of-the-virtuous-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">9.73 - 9.77</prop>
+      <prop type="x-translation-ref">9.82 - 9.87</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>「若處官者，爵高而祿厚，故愛其色而使之焉。」夫不能治千人者，使處乎萬人之官，則此官什倍也。夫治之法將日至者也。日以治之，日不什修，知以治之，知不什益。而予官什倍，則此治一而棄其九矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When knowledge is not increased by ten times, while a tenfold task is assigned, it will evidently result in attending to one and neglecting nine. Though the task be attended to day and night, still it cannot be well executed. And the reason for this is because the rulers do not understand that they should exalt the virtuous and employ the capable in government. Thus exaltation of the virtuous and employment of the capable with the consequent success in government is pre-sented above in the earlier paragraphs. And the depreciation of the virtuous with the resulting confusion in government is presented here in these paragraphs. If the rulers now want to govern their states so that they will be permanent and unshakeable, why do they not learn that exaltation of the virtuous is the foundation of government?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0027">
@@ -551,35 +551,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.78</prop>
-      <prop type="x-translation-ref">9.92</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>雖日夜相接以治若官，官猶若不治。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>In times of old, Shun cultivated land at Mt.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0029">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-009-exaltation-of-the-virtuous-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.79 - 9.80</prop>
-      <prop type="x-translation-ref">9.93</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">9.81 - 9.82</prop>
+      <prop type="x-translation-ref">9.90 - 9.91</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>此其故何也？則王公大人不明乎以尚賢使能爲政也。</seg>
+        <seg>故以尚賢使能爲政而治者，夫若言之謂也。以下賢不使能爲政而亂者，若吾言之謂也。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Li, made pottery by the River, and was engaged in fishing in Lake Lei.</seg>
+        <seg>And, thus it is recorded: (He) sought out the wise men to protect and aid you/’ And thus But the Essay is not found in the present text of Shu Ohing, states the " Oath of T’ang ": "M then sought for the Great Sage, with whom I might unite my strength and mind to govern the empire." All these show how the sage-kings never failed to exalt the virtuous and employ the capable in government. The sage-kings of old comprehended only this — to exalt the virtuous and employ the capable in government and nobody else; so the whole world was benefited.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0030">
@@ -602,6 +582,26 @@
         <seg>Yao discovered him at Fu Tse. Exalting him, Yao made him Emperor and handed to him the government of the empire and the rule over the people. Yi CMh once served in the bridal party of the daughter of the Prince of Hsin, and later voluntarily served T’ang as his cook. Tang discovered him. Exalting him, T’ang made him his Prime Minister and handed to him the government of the empire and the rule over the people. Fu Yiieh once wore garments of coarse cloth tied with ropes, working as an artisan at Fu Yen.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0029">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-009-exaltation-of-the-virtuous-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">9.83 - 9.86</prop>
+      <prop type="x-translation-ref">9.92 - 9.95</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>今王公大人中實將欲治其國家，欲修保而勿失，胡不察尚賢爲政之本也？且以尚賢爲政之本者，亦豈獨子墨子之言哉？此聖王之道，先王之書，距年之言也。傳曰：</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>In times of old, Shun cultivated land at Mt. Li, made pottery by the River, and was engaged in fishing in Lake Lei. Yao discovered him at Fu Tse. Exalting him, Yao made him Emperor and handed to him the government of the empire and the rule over the people.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0031">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-009-exaltation-of-the-virtuous-ii</prop>
@@ -611,15 +611,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.87</prop>
-      <prop type="x-translation-ref">9.100</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">9.88 - 9.92</prop>
+      <prop type="x-translation-ref">9.97 - 9.102</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>「求聖君哲人，以裨輔而身。</seg>
+        <seg>」《湯誓》曰：「聿求元聖，與之戮力同心，以治天下。」則此言聖王之不失以尚賢使能爲政也。故古者聖王唯能審以尚賢使能爲政，無異物雜焉，天下皆得其利。古者舜，耕歷山，陶河瀕，漁雷澤。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Wu Ting dis-covered him.</seg>
+        <seg>Tang discovered him. Exalting him, T’ang made him his Prime Minister and handed to him the government of the empire and the rule over the people. Fu Yiieh once wore garments of coarse cloth tied with ropes, working as an artisan at Fu Yen. Wu Ting dis-covered him. Exalting him, Wu Ting made him High Duke u and handed to him ' the government of the empire and the rule over the people. Why is it that these people starting in humility arrived at honour, starting in poverty arrived at wealth?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0032">
@@ -651,15 +651,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.93</prop>
-      <prop type="x-translation-ref">9.107</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">9.94 - 9.97</prop>
+      <prop type="x-translation-ref">9.104 - 9.105</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>堯得之服澤之陽，舉以爲天子，與接天下之政，治天下之民。</seg>
+        <seg>伊摯，有莘氏女之私臣，親爲庖人。湯得之，舉以爲己相，與接天下之政，治天下之民。傅說，被褐帶索，庸築乎傅巖。武丁得之，舉以爲三公，與接天下之政，治天下之民。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The virtuous were promoted and exalted; the vicious were kept back and banished.</seg>
+        <seg>Therefore, none of the people were hungry yet without food, cold yet without clothing, tired yet without rest, disturbed yet without peace. And, the ancient sage-kings in exalting the virtuous and employing the capable in government were following the ways of Heaven.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0034">
@@ -731,15 +731,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.103 - 9.104</prop>
-      <prop type="x-translation-ref">9.113</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">9.105 - 9.109</prop>
+      <prop type="x-translation-ref">9.110 - 9.112</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>然則富貴爲賢以得其賞者，誰也？曰：</seg>
+        <seg>若昔者三代聖王堯、舜、禹、湯、文、武者是也。所以得其賞，何也？曰：其爲政乎天下也，兼而愛之，從而利之，又率天下之萬民，以尚尊天事鬼、愛利萬民。是故天鬼賞之，立爲天子，以爲民父母，萬民從而譽之曰「聖王」，至今不已。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>And, thereupon people praised them, calling them sage-kings even unto this day.</seg>
+        <seg>How were they rewarded? When they governed the empire, they loved all the people universally and benefited them, and led them in doing honour to Heaven and service to the spirits. As they loved and benefited the people, Heaven and the spirits rewarded them, appointing them to be Sons of Heaven, and parents of the people.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0038">
@@ -751,15 +751,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">5</prop>
-      <prop type="x-target-segment-count">3</prop>
-      <prop type="x-chinese-ref">9.105 - 9.109</prop>
-      <prop type="x-translation-ref">9.114 - 9.116</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">9.110 - 9.115</prop>
+      <prop type="x-translation-ref">9.113 - 9.116</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>若昔者三代聖王堯、舜、禹、湯、文、武者是也。所以得其賞，何也？曰：其爲政乎天下也，兼而愛之，從而利之，又率天下之萬民，以尚尊天事鬼、愛利萬民。是故天鬼賞之，立爲天子，以爲民父母，萬民從而譽之曰「聖王」，至今不已。</seg>
+        <seg>則此富貴爲賢以得其賞者也。然則富貴爲暴以得其罰者，誰也？曰：若昔者三代暴王桀、紂、幽、厲者是也。何以知其然也？曰其爲政乎天下也，兼而憎之，從而賊之，又率天下之民，以上詬天侮鬼、賊殺萬民。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>These then were those that, possessing wealth and position, still strove after virtues and were rewarded. Now, who were those that, possessing wealth and position, yet practised evil and were punished? They were the wicked kings of the Three Dynasties, namely Chieh, Chow, Yu, and Li.</seg>
+        <seg>And, thereupon people praised them, calling them sage-kings even unto this day. These then were those that, possessing wealth and position, still strove after virtues and were rewarded. Now, who were those that, possessing wealth and position, yet practised evil and were punished? They were the wicked kings of the Three Dynasties, namely Chieh, Chow, Yu, and Li.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0039">
@@ -791,15 +791,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.116</prop>
-      <prop type="x-translation-ref">9.121</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">9.117 - 9.122</prop>
+      <prop type="x-translation-ref">9.118 - 9.120</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>是故天鬼罰之，使身死而爲刑戮，子孫離散，室家喪滅，絕無後嗣。</seg>
+        <seg>萬民從而非之曰「暴王」，至今不已。則此富貴爲暴而以得其罰者也。然則親而不善以得其罰者，誰也？曰：若昔者伯鯀，帝之元子，廢帝之德庸，旣乃刑之于羽之郊，乃熱照無有及也。帝亦不愛。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>These, then, are those that, possessing wealth and position, yet practised evil and were punished.</seg>
+        <seg>When they governed the empire they disliked all the people inclusively and oppressed them and led them to curse Heaven and the spirits. Oppressing and destroying the people, they were punished by Heaven and the spirits; their corpses were mangled and lacerated, their children and grand-children were scattered and dispersed, their family hearths were extinguished and descendants exterminated. And, thereupon the people railed at them, calling them wicked kings even unto this day.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0041">
@@ -831,15 +831,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.123 - 9.125</prop>
-      <prop type="x-translation-ref">9.125</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">9.126 - 9.130</prop>
+      <prop type="x-translation-ref">9.122 - 9.123</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>則此親而不善以得其罰者也。然則天之所使能者，誰也？曰：</seg>
+        <seg>若昔者禹、稷、皋陶是也。何以知其然也？先王之書《呂刑》道之，曰：「皇帝清問下民，有辭有苗。曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Such was he who was related but not virtuous and was visited by punishment.</seg>
+        <seg>Now, who were those that were related (to the ruler) but not virtuous and were visited by punishment? Count Kun was of direct royal descent but had degenerated in the royal virtues.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0043">
@@ -851,15 +851,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">5</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">9.126 - 9.130</prop>
-      <prop type="x-translation-ref">9.126 - 9.127</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">9.131 - 9.136</prop>
+      <prop type="x-translation-ref">9.124 - 9.127</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>若昔者禹、稷、皋陶是也。何以知其然也？先王之書《呂刑》道之，曰：「皇帝清問下民，有辭有苗。曰：</seg>
+        <seg>『羣后之肆在下，明明不常，鰥寡不蓋。德威維威，德明維明。』乃名三后，恤功於民。伯夷降典，哲民維刑。禹平水土，主名山川。稷隆播種，農殖嘉穀。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Now, who were those that were employed by Heaven because of their capability? Yii, Chi, and Kao T’ao were they.</seg>
+        <seg>So he was banished to the wilderness of Yii Yii where (in the prison) light could not reach him, neither did the emperor show any favour. Such was he who was related but not virtuous and was visited by punishment. Now, who were those that were employed by Heaven because of their capability? Yii, Chi, and Kao T’ao were they.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0044">
@@ -891,15 +891,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-source-segment-count">6</prop>
       <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">9.137 - 9.140</prop>
-      <prop type="x-translation-ref">9.132 - 9.137</prop>
+      <prop type="x-chinese-ref">9.141 - 9.146</prop>
+      <prop type="x-translation-ref">9.134 - 9.139</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>三后成功，維假於民。」則此言三聖人者，謹其言，愼其行，精其思慮，索天下之隱事遺利，以上事天，則天鄉其德。下施之萬民，萬民被其利，終身無已。故先王之言曰：</seg>
+        <seg>「此道也，大用之，天下則不窕；小用之，則不困；修用之，則萬民被其利，終身無已。」《周頌》道之曰：「聖人之德昭於天下，若天之高，若地之普，若山之承，不坼不崩。若日之光，若月之明，與天地同常。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Thereupon three chiefs were commissioned to care for and console the people: (1) Po Yi delivered the laws and statutes and taught therewith the people; (2) Yu reduced the Flood and recovered the land, and gave names to hills and rivers; (3) Chi descended (from his rank) and sowed seeds to encourage good farming. The benefits of the achievements of these three chiefs all fell upon the people." This is to say that the three sages were careful in speech, vigilant in conduct, penetrating in thought, studying and planning for every detail and benefit of the world — with this to do service to Heaven on high, Heaven will bless their virtue; to bestow it to the people below, the people will be visited by its benefits lasting beyond their lifetime. " From the princes down to the inferior officers, all helped with clear intelligence the spread of the regular principles of duty, and the solitary and the widows were no more disregarded. The great emperor with an unprejudiced mind carried his inquiries low down among the people, and the solitary and widows laid before him their complaints against the Meaos. He sought to awe (the people) by his virtue, and all were filled with dread, he proceeded (also) to enlightenthem by his virtue, and all were enlightened. And he charged the three chiefs to labour with compassionate anxiety in the people's behalf.</seg>
+        <seg>" From the princes down to the inferior officers, all helped with clear intelligence the spread of the regular principles of duty, and the solitary and the widows were no more disregarded. The great emperor with an unprejudiced mind carried his inquiries low down among the people, and the solitary and widows laid before him their complaints against the Meaos. He sought to awe (the people) by his virtue, and all were filled with dread, he proceeded (also) to enlightenthem by his virtue, and all were enlightened. And he charged the three chiefs to labour with compassionate anxiety in the people's behalf. The Baron E delivered the statutes (of ceremony) to prevent the people from rendering themselves obnoxious to punishment. Yu reduced to order the water and the land, distinguishing by name the hills and rivers.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0046">
@@ -952,14 +952,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">9.151 - 9.153</prop>
-      <prop type="x-translation-ref">9.148</prop>
+      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-chinese-ref">9.154 - 9.156</prop>
+      <prop type="x-translation-ref">9.145 - 9.149</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>今王公大人，將焉取挾震威彊哉？傾者民之死也？民，生爲甚欲，死爲甚憎。</seg>
+        <seg>所欲不得，而所憎屢至，自古及今，未嘗能有以此王天下、正諸侯者也。今大人欲王天下、正諸侯，將欲使意得乎天下，名成乎後世，故不察尚賢爲政之本也？此聖人之厚行也！</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>But hfe is what the I people eagerly desire, and death what they greatly dread.</seg>
+        <seg>Their way must be by over-; powering and overawing. But what makes them adopt this? ' It simply pursues the people to death. But hfe is what the I people eagerly desire, and death what they greatly dread. What is desired is not obtained, but what is dreaded befalls them ever so often.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-009-exaltation-of-the-virtuous-ii__align-0049">

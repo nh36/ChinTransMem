@@ -151,12 +151,12 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">5</prop>
-      <prop type="x-chinese-ref">30.26 - 30.27</prop>
+      <prop type="x-chinese-ref">30.26 - 30.28</prop>
       <prop type="x-translation-ref">30.35 - 30.39</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>「壽夭貧富，安危治亂，固有天命，不可損益。窮達賞罰，幸否有極，人之知力，不能為焉！</seg>
+        <seg>「壽夭貧富，安危治亂，固有天命，不可損益。窮達賞罰，幸否有極，人之知力，不能為焉！」群吏信之，則怠於分職。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>At the time all the people of Chou who were there saw it and those far away heard of it, and it was recorded in the Spring and Autumn of Chou. Rulers instructed their ministers with it and fathers warned their sons with it, saying: Not only does the record in this book prove it to be so. Formerly, Lord Mu of Ch'in (about 640 e.o.) was once in the temple at noon. A spirit entered and alighted. He had the face of a man but the body of a bird.</seg>
@@ -192,14 +192,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">30.29</prop>
-      <prop type="x-translation-ref">30.41</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">30.30</prop>
+      <prop type="x-translation-ref">30.41 - 30.44</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>庶人信之，則怠於從事。</seg>
+        <seg>吏不治則亂，農事緩則貧，貧且亂政之本而儒者以為道教，是賊天下之人者也。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>His appearance was dignified.</seg>
+        <seg>His appearance was dignified. Seeing him Lord Mu became afraid and was rushing away. The spirit said: to be many and not to lose CH’in/’ Lord Mu saluted him repeatedly and bowed, saying: May I ask the name of my god? " He answered: ‘‘ I am Kou Mang.’ If we are to accept what Lord Mu of Ch’in had seen personally as reliable, then how can we doubt that spirits and ghosts exist?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0011">
@@ -231,15 +231,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">4</prop>
       <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">30.31</prop>
-      <prop type="x-translation-ref">30.48 - 30.53</prop>
+      <prop type="x-chinese-ref">30.32 - 30.35</prop>
+      <prop type="x-translation-ref">30.51 - 30.56</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>且夫繁飾禮樂以淫人，久喪偽哀以謾親，立命緩貧而高浩居，倍本棄事而安怠傲，貪於飲食，惰於作務，陷於饑寒，危於凍餒，無以違之。</seg>
+        <seg>是若人氣，鼸鼠藏，而羝羊視，賁彘起。君子笑之，怒曰：「散人，焉知良儒！」夫夏乞麥禾，五穀既收，大喪是隨，子姓皆從，得厭飲食。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>If man loses his consciousness after death then all is done. If I shall still retain my consciousness after death, I shall let the Lord know of this within three years." In a year, Yen was going to repair to Tsu. Such ceremonies were the occasions of large assemblages of men and women. At noon Lord Chien was riding on the road to Tsu. Chuang Tse Yi carried a red staff and struck and prostrated him. At the time all the people of Yen who were there saw it and all those who were far away heard of it.</seg>
+        <seg>At noon Lord Chien was riding on the road to Tsu. Chuang Tse Yi carried a red staff and struck and prostrated him. At the time all the people of Yen who were there saw it and all those who were far away heard of it. And it was recorded in the Spring and Autumn of Yen. The feudal lords circulated the news around, and remarked: " So speedy and severe are the misfortunes and punishment from the spirits and ghosts upon him that kills the innocent." Judging from the record in this Not only does the record in this book prove it to be so. Anciently, in the reign of Lord Wen of Sung, whose name was Pao (610-589 b.o.), there was a master of ceremonies by the name of Kuan Ku.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0013">
@@ -251,15 +251,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">30.32 - 30.35</prop>
-      <prop type="x-translation-ref">30.54 - 30.59</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-chinese-ref">30.36 - 30.41</prop>
+      <prop type="x-translation-ref">30.57 - 30.61</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>是若人氣，鼸鼠藏，而羝羊視，賁彘起。君子笑之，怒曰：「散人，焉知良儒！」夫夏乞麥禾，五穀既收，大喪是隨，子姓皆從，得厭飲食。</seg>
+        <seg>畢治數喪，足以至矣。因人之家翠以為富人有喪，乃大說喜，曰：「此衣食之端也！」儒者曰：「君子必服古言然後仁。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>And it was recorded in the Spring and Autumn of Yen. The feudal lords circulated the news around, and remarked: " So speedy and severe are the misfortunes and punishment from the spirits and ghosts upon him that kills the innocent." Judging from the record in this Not only does the record in this book prove it to be so. Anciently, in the reign of Lord Wen of Sung, whose name was Pao (610-589 b.o.), there was a master of ceremonies by the name of Kuan Ku. While he was working in the temple, a wizard carrying a cane appeared and said to Eiiii: Ktian Kn, why don’t the jades and stones measure up to the standard, and why are the cakes and wine unclean, and the victims imperfect and not fat, and the sacrifices not in season? Did yon do this or did Pao do this? " Knan Kn answered: Pao is still small and in his swaddle-clothes.</seg>
+        <seg>While he was working in the temple, a wizard carrying a cane appeared and said to Eiiii: Ktian Kn, why don’t the jades and stones measure up to the standard, and why are the cakes and wine unclean, and the victims imperfect and not fat, and the sacrifices not in season? Did yon do this or did Pao do this? " Knan Kn answered: Pao is still small and in his swaddle-clothes. that does he have to do with this? It is all done by the official in charge, Knan Kn." Thereupon the wizard lifted his cane and struck him, prostrating him on the altar.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0014">
@@ -271,35 +271,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">30.36 - 30.39</prop>
-      <prop type="x-translation-ref">30.60 - 30.61</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">30.42 - 30.44</prop>
+      <prop type="x-translation-ref">30.62 - 30.67</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>畢治數喪，足以至矣。因人之家翠以為富人有喪，乃大說喜，曰：「此衣食之端也！」</seg>
+        <seg>」應之曰：所謂古之言服者，皆嘗新矣，而古人服之、言之，則非君子也。然則必服非君子之服，言非君子之言，而後仁乎？</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>that does he have to do with this? It is all done by the official in charge, Knan Kn." Thereupon the wizard lifted his cane and struck him, prostrating him on the altar.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-030-anti-confucianism-ii__align-0015">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-030-anti-confucianism-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">5</prop>
-      <prop type="x-chinese-ref">30.40 - 30.43</prop>
-      <prop type="x-translation-ref">30.62 - 30.66</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>儒者曰：「君子必服古言然後仁。」應之曰：所謂古之言服者，皆嘗新矣，而古人服之、言之，則非君子也。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>At the time those people who were present all saw it and those far away heard of it. And it was recorded in the Spring and Autninn of Sung. The feudal lords circulated the news and remarked: So speedy and severe is the punishment from spirits and ghosts to him who is not reverent in performing sacrifices! " Judging from the record of this book, how can we doubt that spirits and ghosts exist? Not only does the record in this book prove it to be so.</seg>
+        <seg>At the time those people who were present all saw it and those far away heard of it. And it was recorded in the Spring and Autninn of Sung. The feudal lords circulated the news and remarked: So speedy and severe is the punishment from spirits and ghosts to him who is not reverent in performing sacrifices! " Judging from the record of this book, how can we doubt that spirits and ghosts exist? Not only does the record in this book prove it to be so. Formerly the Lord Chuang of Ch’i (794~‘731 b.c.) had two ministers, Wang Li Kuo and Chung Li Chiao, who were engaged in a lawsuit.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0016">
@@ -320,6 +300,26 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>Formerly the Lord Chuang of Ch’i (794~‘731 b.c.) had two ministers, Wang Li Kuo and Chung Li Chiao, who were engaged in a lawsuit. For three years no judgment could be reached. The Lord of Gh’i thought of putting both of them to death, but was afraid to slay the innocent, he thought of acquitting both of them but was afraid to let loose the guilty. So he let them provide a lamb and take oath on the altar of Oh’i. The two men agreed to take the oath of blood. The throat of the Iamb was cut and its blood sprinkled on the altar.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-030-anti-confucianism-ii__align-0015">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-030-anti-confucianism-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">30.45 - 30.48</prop>
+      <prop type="x-translation-ref">30.68 - 30.73</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>又曰：「君子循而不作。」應之曰：古者羿作弓，伃作甲，奚仲作車，巧垂作舟。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>For three years no judgment could be reached. The Lord of Gh’i thought of putting both of them to death, but was afraid to slay the innocent, he thought of acquitting both of them but was afraid to let loose the guilty. So he let them provide a lamb and take oath on the altar of Oh’i. The two men agreed to take the oath of blood. The throat of the Iamb was cut and its blood sprinkled on the altar. The case of Wang Li Kuo was read all through.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0017">
@@ -432,14 +432,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
       <prop type="x-chinese-ref">30.64 - 30.65</prop>
-      <prop type="x-translation-ref">30.98 - 30.102</prop>
+      <prop type="x-translation-ref">30.101 - 30.106</prop>
       <tuv xml:lang="zh-Hant">
         <seg>今擊之則鳴，弗擊不鳴，隱知豫力，恬漠待問而後對，雖有君、親之大利，弗問不言。若將有大寇亂，盜賊將作，若機辟將發也，他人不知，己獨知之，雖其君、親皆在，不問不言，是夫大亂之賊也。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>They would pick out the luxuriant and elegant among the trees to plant in the temple of agriculture. They would select the affectionate and filial, virtuous and kind among the elders of the country to be masters of ceremonies. They would pick out the victims among the six animals by their fatness, perfection, and the colour of their wool. The jades and stones were to be appropriate in material and satisfactory in measurement. And the cakes and wine were to be prepared with the most fragrant and yellow grain, and so the quality of cakes and wine would vary with the abundance of the year.</seg>
+        <seg>The jades and stones were to be appropriate in material and satisfactory in measurement. And the cakes and wine were to be prepared with the most fragrant and yellow grain, and so the quality of cakes and wine would vary with the abundance of the year. This is to say, in the government of the ancient sage-kings, spirits and ghosts had priority over the people. Before the offices and courts were completely established, the sacrificial vessels and sacrificial robes must have been all stored in the storeliouse, the masters and attendants of ceremonies must have all been installed in court, and the victims must be kept apart from the original flock. Since the government of the ancient sage-kings was like this, the ancient sage-kings must have believed in the existence of spirits and ghosts. Deep was their own interest in the welfare of ghosts and spirits.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0023">
@@ -471,15 +471,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">30.69 - 30.70</prop>
-      <prop type="x-translation-ref">30.109 - 30.114</prop>
+      <prop type="x-chinese-ref">30.70 - 30.72</prop>
+      <prop type="x-translation-ref">30.112 - 30.117</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>」用誰急，遺行遠矣。夫一道術學業仁義也，皆大以治人，小以任官，遠施周偏，近以修身，不義不處，非理不行，務興天下之利，曲直周旋，利則止，此君子之道也。</seg>
+        <seg>夫一道術學業仁義也，皆大以治人，小以任官，遠施周偏，近以修身，不義不處，非理不行，務興天下之利，曲直周旋，利則止，此君子之道也。以所聞孔某之行，則本與此相反謬也！齊景公問晏子曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Fearing that these might rot and disappear so that the descendants might not learn it, they engraved it on plates and cups and cut it in metals and stones. They feared also that the descendants might not be reverent and obtain blessing, and so among the books of the ancient kings and the records of sages testimonies to the existence of ghosts and spirits occur time and again even on a single foot of silk or a single sheet in the books. Why was this? Because the sage-kings were interested in it. Those who deny the existence of spirits are opposing the interest of the sage-kings, and such is not the way of the superior man. Those who deny the existence of spirits might say: Among the books of the ancient kings not a foot of silk or a sheet is found which testifies to the existence of ghosts and spirits once and again.</seg>
+        <seg>Because the sage-kings were interested in it. Those who deny the existence of spirits are opposing the interest of the sage-kings, and such is not the way of the superior man. Those who deny the existence of spirits might say: Among the books of the ancient kings not a foot of silk or a sheet is found which testifies to the existence of ghosts and spirits once and again. Then where are these testimonies? Motse replied; They are found (for instance) in the Ta Ya of the books of Chou. Ta Ya " tells: The rule of King Wen over the people pleased Heaven.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0025">
@@ -511,15 +511,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-source-segment-count">6</prop>
       <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">30.76 - 30.80</prop>
-      <prop type="x-translation-ref">30.121 - 30.126</prop>
+      <prop type="x-chinese-ref">30.74 - 30.79</prop>
+      <prop type="x-translation-ref">30.119 - 30.124</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>景公曰：「以孔某語寡人者眾矣，俱以賢人也。今寡人問之，而子不對，何也？」晏子對曰：「嬰不肖，不足以知賢人。</seg>
+        <seg>」晏子不對。公又復問，不對。景公曰：「以孔某語寡人者眾矣，俱以賢人也。今寡人問之，而子不對，何也？」晏子對曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>King Wen reached high and low, he was on the left and the right of God. How active was King Wen! He dispensed his intelligent virtue without ceasing." If ghosts and spirits do not exist, then how could Bang 'Wen be " on the left and right of God " since he was already dead? Here we have a testimony of ghosts in the hook of Chou. If there are testimonies only in the books of Chou and none in those of Shang still it could not be reliable. But we find among the books of Shang the following: "Oh!</seg>
+        <seg>Chou does not appear showy. The commission from God does not appear to be seasonable. King Wen reached high and low, he was on the left and the right of God. How active was King Wen! He dispensed his intelligent virtue without ceasing." If ghosts and spirits do not exist, then how could Bang 'Wen be " on the left and right of God " since he was already dead? Here we have a testimony of ghosts in the hook of Chou.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0027">
@@ -611,15 +611,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">30.90 - 30.93</prop>
-      <prop type="x-translation-ref">30.151 - 30.152</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">30.87 - 30.88</prop>
+      <prop type="x-translation-ref">30.143 - 30.148</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>「嗚乎！貺寡人者眾矣，非夫子，則吾終身不知孔某之與白公同也。」孔某之齊見景公，景公說，欲封之以尼谿，以告晏子。</seg>
+        <seg>知人不忠，趣之為亂，非仁義之也。逃人而後謀，避人而後言，行義不可明於民，謀慮不可通於君臣，嬰不知孔某之有異於白公也，是以不對。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Anciently, on the propitions day of ting mao, Chon offered thanlrsgiving to Earth and the Four Quarters, and their ancestors. They did this to prolong their age.</seg>
+        <seg>To submit their fairness. Why were punishments meted out before the altar 1 To submit their justice. Because the ancient sage-kings must reward virtue and punish vice with ghosts and spirits, they distributed rewards before the ancestors and meted out punishments before the altar. And here we have a testimony of ghosts in the books of Hsia. Now, first in the books of Hsia and next in the books of Shang and Chou, testimonies to the existence of ghosts and spirits occur again and again. What is the reason for this?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0032">
@@ -651,15 +651,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">30.100</prop>
-      <prop type="x-translation-ref">30.159</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">30.94 - 30.99</prop>
+      <prop type="x-translation-ref">30.155 - 30.160</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>機服勉容，不可使導眾。</seg>
+        <seg>晏子曰：「不可！夫儒，浩居而自順者也，不可以教下。好樂而淫人，不可使親治。立命而怠事，不可使守職。宗喪遂哀，不可使慈民。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>And the world will have order.</seg>
+        <seg>The corruption of the officials in their public charges and the immorality among men and women will all be seen by ghosts and spirits. The vice of those who, with weapons, poisons, and water and fire, waylay innocent travellers and rob them of their carts and horses, coats and fur coats to enrich themselves will be seen by ghosts and spirits. Thereupon the officials will not dare be corrupt in office, withholding reward when they find the virtuous or withholding punishment when they find the wiched. And those among the people who commit vice and cruelties and with weapons, poisons, and water and fire waylay the innocent travellers, robbing them of their carts and horses, coats and fur coats to enrich themselves — all these will be no more. And the world will have order. Really the intelligence of the ghosts and spirits cannot be combated.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0034">
@@ -711,15 +711,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-source-segment-count">4</prop>
       <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">30.106 - 30.107</prop>
-      <prop type="x-translation-ref">30.172 - 30.177</prop>
+      <prop type="x-chinese-ref">30.102 - 30.105</prop>
+      <prop type="x-translation-ref">30.168 - 30.173</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>孔某乃恚怒於景公與晏子，乃樹鴟夷子皮於田常之門，告南郭惠子以所欲為，歸於魯。有頃，閒齊將伐魯，告子貢曰：</seg>
+        <seg>今君封之，以利齊俗，非所以導國先眾。」公曰：「善。」於是厚其禮，留其封，敬見而不問其道。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>In his service was the man of great daring and strength, T'uei Yi Ta Hsi, who had torn apart a buffalo alive. He could kill a man at the move of a finger, and the number of those killed amounted to a million, and they were thrown into lakes and mountains. Yet, for all this, Chieh could not evade the punishment from ghosts and spirits. This is why I say even wealth and numbers, daring and strength, strong armour and sharp weapons cannot combat the punishment from ghosts and spirits. Not only is this so. Anciently, King Chow of Yin was also an emperor in honour and possessed the whole empire in wealth.</seg>
+        <seg>With nine chariots T’ang arranged the Bird Formation and the Wild Goose March. He climbed the Ta Tsan and scattered the forces of Hsia and entered its land. And he captured T’uei Yi Ta Hsi. Now, King Chieh of Hsia was an emperor in honour and possessed the whole empire in wealth. In his service was the man of great daring and strength, T'uei Yi Ta Hsi, who had torn apart a buffalo alive. He could kill a man at the move of a finger, and the number of those killed amounted to a million, and they were thrown into lakes and mountains.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0037">
@@ -751,15 +751,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">30.111</prop>
-      <prop type="x-translation-ref">30.184</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">30.108 - 30.110</prop>
+      <prop type="x-translation-ref">30.180 - 30.185</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>三年之內，齊、吳破國之難，伏屍以言術數，孔某之誅也。</seg>
+        <seg>「賜乎！舉大事於今之時矣！」乃遣子貢之齊，因南郭惠子以見田常，勸之伐吳，以教高、國、鮑、晏，使毋得害田常之亂，勸越伐吳。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>He captured Fei Chung and E Lai, and the multitude deserted and ran away.</seg>
+        <seg>The common people and the widows and the widowers cried aloud, but were not heard. Thereupon Heaven commissioned King Wu to carry out the judicious punishment. With a hundred selected chariots and four hundred warriors King Wu appointed his officials and reviewed his forces. He battled the armies of Yin in the Wilderness of Mu. He captured Fei Chung and E Lai, and the multitude deserted and ran away. King Wu rushed into the palace.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-030-anti-confucianism-ii__align-0039">
@@ -851,35 +851,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-source-segment-count">6</prop>
       <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">30.129 - 30.130</prop>
-      <prop type="x-translation-ref">30.209 - 30.214</prop>
+      <prop type="x-chinese-ref">30.123 - 30.128</prop>
+      <prop type="x-translation-ref">30.205 - 30.210</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>其徒屬弟子皆效孔某，子貢、季路輔孔悝亂乎衛，陽貨亂乎齊，佛肸以中牟叛，漆雕刑殘，罪莫大焉。夫為弟子後生，其師，必修其言，法其行，力不足、知弗及而後已。</seg>
+        <seg>污邪詐偽，孰大於此？孔某與其門弟子閒坐，曰：「夫舜見瞽叟就然，此時天下圾乎？周公旦非其人也邪？何為捨亓家室而托寓也？」孔某所行，心術所至也。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>This is no way to be superior men. But Motse said: For me to offer sacrifice is not to throw it into the ditch or the gully. It is to bless the ghosts above and gather a party and enjoy ourselves and befriend the neighbours below. And if spirits exist, I would be serving my father and mother and brother with food. Is this not a great blessing in the world? Therefore Motse said: If the rulers and the gentlemen of the world really desire to procure benefits for the world and eliminate its calamities they must believe in and teach the existence of ghosts and spirits.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-030-anti-confucianism-ii__align-0044">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-030-anti-confucianism-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">30.131</prop>
-      <prop type="x-translation-ref">30.215</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>今孔某之行如此，儒士則可以疑矣。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>This is the way of the sage-kings.</seg>
+        <seg>Those who hold there are no ghosts say: "Of course there are no ghosts and spirits and Therefore I should not expend my wealth on the cakes and wine and victims. This is not because I am miserly about my wealth on the cakes and wine and victims. But (because I do not see) what I can accomplish with it." This is opposed to the records of the sage-kings above and opposed to the practice among the filial sons among the people. Yet they claim to be superior men in the empire. This is no way to be superior men. But Motse said: For me to offer sacrifice is not to throw it into the ditch or the gully.</seg>
       </tuv>
     </tu>
   </body>

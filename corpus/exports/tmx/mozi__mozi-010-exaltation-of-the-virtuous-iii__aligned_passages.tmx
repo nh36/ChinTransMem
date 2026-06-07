@@ -131,15 +131,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">10.25 - 10.27</prop>
-      <prop type="x-translation-ref">10.17</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">10.21 - 10.24</prop>
+      <prop type="x-translation-ref">10.13 - 10.16</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>當王公大人之於此也，雖有骨肉之親、無故富貴、面目美好者，實知其不能也，不使之也。是何故？恐其敗財也。</seg>
+        <seg>我以此知天下之士君子，明於小，而不明於大也。何以知其然乎？今王公大人有一牛羊之財，不能殺，必索良宰。有一衣裳之財，不能制，必索良工。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>For these, the ruler would not employ his relatives, the rich without merit, and the good-looking, because he knew clearly they were incapable.</seg>
+        <seg>Then I know the gentlemen understand only trifles and not things of significance. How do I know it is so? Suppose the ruler had a cow or a sheep which he could not have killed, he would surely look for a skilful butcher. Or if he wanted a garment which he could not have made, he would surely look for a skilful tailor.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-010-exaltation-of-the-virtuous-iii__align-0008">
@@ -151,15 +151,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">10.28</prop>
-      <prop type="x-translation-ref">10.18</prop>
+      <prop type="x-chinese-ref">10.25 - 10.27</prop>
+      <prop type="x-translation-ref">10.17</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>當王公大人之於此也，則不失尚賢而使能。</seg>
+        <seg>當王公大人之於此也，雖有骨肉之親、無故富貴、面目美好者，實知其不能也，不使之也。是何故？恐其敗財也。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>He was afraid they would spoil the things to be attended to.</seg>
+        <seg>For these, the ruler would not employ his relatives, the rich without merit, and the good-looking, because he knew clearly they were incapable.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-010-exaltation-of-the-virtuous-iii__align-0009">
@@ -211,15 +211,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">10.37</prop>
-      <prop type="x-translation-ref">10.26</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">10.31 - 10.36</prop>
+      <prop type="x-translation-ref">10.20 - 10.25</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>我以此知天下之士君子，皆明於小，而不明於大也。</seg>
+        <seg>當王公大人之於此也，雖有骨肉之親、無故富貴、面目美好者，實知其不能也，必不使。是何故？恐其敗財也。當王公大人之於此也，則不失尚賢而使能。逮至其國家則不然，王公大人骨肉之親、無故富貴、面目美好者，則舉之。則王公大人之親其國家也，不若親其一危弓、罷馬、衣裳、牛羊之財與！</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The relations of the rulers, the rich without merit, and the good-iookino' are all promoted.</seg>
+        <seg>Again, if the ruler had a sick horse that he could not have cured, he would surely look for an experienced veterinary doctor. Or if he had a tight bow which he could not draw, he would surely look for a skilful workman. For these, the ruler would not employ his relatives, the rich without merit, and the good-looking, because he knew clearly they were incapable. He was afraid they would spoil the things? to be attended to. So, in these matters the rulers do not fail to exalt the virtuous and employ the capable. But when it comes to the affairs of the state all is different.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-010-exaltation-of-the-virtuous-iii__align-0012">
@@ -251,15 +251,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">4</prop>
-      <prop type="x-chinese-ref">10.41</prop>
-      <prop type="x-translation-ref">10.32 - 10.35</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-chinese-ref">10.38 - 10.40</prop>
+      <prop type="x-translation-ref">10.27 - 10.31</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>昔伊尹爲莘氏女師僕，使爲庖人，湯得而舉之，立爲三公，使接天下之政，治天下之民。</seg>
+        <seg>此譬猶瘖者而使爲行人，聾者而使爲樂師。是故古之聖王之治天下也，其所富，其所貴，未必王公大人骨肉之親、無故富貴、面目美好者也。是故昔者，舜耕於歷山，陶於河瀕，漁於雷澤，灰於常陽，堯得之服澤之陽，立爲天子，使接天下之政，而治天下之民。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Li,i made pottery by; Ancient names of places the location of which ■ra, p. For story see p. IS now quite uncertain. govemmerit of the empire and the rule over the people.</seg>
+        <seg>Then does it not seem that the rulers love their states not even as much as they love a tight bow, a sick horse, a garment, or a cow or a sheep? Therefore I know the gentlemen of the world understand only trifles and not things of significance. This is like trjdng to make messengers of the dumb and 2n.usical directors of the deaf. To the contrary, in governing the empire the sage-kings of old enriched and honoured those who were not necessarily then relatives, the rich without merit, or the good-looking. At one time Shun cultivated land at Mt.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-010-exaltation-of-the-virtuous-iii__align-0014">
@@ -271,15 +271,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">5</prop>
-      <prop type="x-chinese-ref">10.42 - 10.45</prop>
-      <prop type="x-translation-ref">10.36 - 10.40</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">10.41 - 10.45</prop>
+      <prop type="x-translation-ref">10.32 - 10.37</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>昔者傅說居北海之洲，圜土之上，衣褐帶索，庸築於傅巖之城，武丁得而舉之，立爲三公，使之接天下之政，而治天下之民。是故昔者堯之舉舜也，湯之舉伊尹也，武丁之舉傅說也，豈以爲骨肉之親、無故富貴、面目美好者哉？惟法其言，用其謀，行其道，上可而利天，中可而利鬼，下可而利人，是故推而上之。古者聖王旣審尚賢，欲以爲政，故書之竹帛，琢之槃盂，傳以遺後世子孫。</seg>
+        <seg>昔伊尹爲莘氏女師僕，使爲庖人，湯得而舉之，立爲三公，使接天下之政，治天下之民。昔者傅說居北海之洲，圜土之上，衣褐帶索，庸築於傅巖之城，武丁得而舉之，立爲三公，使之接天下之政，而治天下之民。是故昔者堯之舉舜也，湯之舉伊尹也，武丁之舉傅說也，豈以爲骨肉之親、無故富貴、面目美好者哉？惟法其言，用其謀，行其道，上可而利天，中可而利鬼，下可而利人，是故推而上之。古者聖王旣審尚賢，欲以爲政，故書之竹帛，琢之槃盂，傳以遺後世子孫。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Now, when Yao exalted Shun, T'ang exalted Yi Yin, and Wu Ting exalted Fu Yiieh was it because they were their relatives, the rich without merit, or the good-looking? It was only because that by adopting their views, carrying out their plans, and following their ways, Heaven on high would be blessed, the spirits in the middle would be blessed, and the people below would be blessed. Therefore they were promoted and exalted. Having understood the principle of exalting the virtuous in government, the ancient sage-kings inscribed it on bamboos and silk and engraved it on the dishes and vases, to hand it down to their descendants. Thus we find in the Penal Code of Lli a book of an ancient king,- the following: The King said: ‘ Ho!</seg>
+        <seg>Li,i made pottery by; Ancient names of places the location of which ■ra, p. For story see p. IS now quite uncertain. govemmerit of the empire and the rule over the people. Now, when Yao exalted Shun, T'ang exalted Yi Yin, and Wu Ting exalted Fu Yiieh was it because they were their relatives, the rich without merit, or the good-looking? It was only because that by adopting their views, carrying out their plans, and following their ways, Heaven on high would be blessed, the spirits in the middle would be blessed, and the people below would be blessed.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-010-exaltation-of-the-virtuous-iii__align-0015">
@@ -452,14 +452,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">6</prop>
-      <prop type="x-target-segment-count">4</prop>
-      <prop type="x-chinese-ref">10.78 - 10.83</prop>
-      <prop type="x-translation-ref">10.63 - 10.66</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">10.76 - 10.81</prop>
+      <prop type="x-translation-ref">10.60 - 10.65</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>王公人人骨肉之親、無故富貴、面目美好者，此非可學能者也。使不知辯，德行之厚，若禹、湯、文、武，不加得也。王公大人骨肉之親，躄、瘖、聾，暴爲桀紂，不加失也。是故以賞不當賢，罰不當暴。其所賞者，已無故矣。其所罰者，亦無罪。</seg>
+        <seg>曰：莫若爲王公大人骨肉之親、無故富貴、面目美好者。王公人人骨肉之親、無故富貴、面目美好者，此非可學能者也。使不知辯，德行之厚，若禹、湯、文、武，不加得也。王公大人骨肉之親，躄、瘖、聾，暴爲桀紂，不加失也。是故以賞不當賢，罰不當暴。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Evidently one cannot become these by learning. So, when the art of judging is not understood, although some virtuous people may even compare with Yii, T’ang, Wen, and Wu, there will be no commendation. And, although a relative of the ruler may be lame and dumb, deaf and blind, and evil like Chieh and Chow, there will be no condemnation. Therefore reward does not fall on the virtuous or punishment on the evil.</seg>
+        <seg>When the unwise are charged with the government of the country, disorder in the country can be predicted. Now the gentlemen of the world like riches and honour, and dislike poverty and humihty. But how can you obtain other way than, to be the rulers’ relatives, the rich without merit, and the good-looking. Evidently one cannot become these by learning. So, when the art of judging is not understood, although some virtuous people may even compare with Yii, T’ang, Wen, and Wu, there will be no commendation. And, although a relative of the ruler may be lame and dumb, deaf and blind, and evil like Chieh and Chow, there will be no condemnation.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-010-exaltation-of-the-virtuous-iii__align-0024">
@@ -471,15 +471,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">10.84</prop>
-      <prop type="x-translation-ref">10.67</prop>
+      <prop type="x-chinese-ref">10.82 - 10.84</prop>
+      <prop type="x-translation-ref">10.66</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>是以使百姓皆攸心解體，沮以爲善。</seg>
+        <seg>其所賞者，已無故矣。其所罰者，亦無罪。是以使百姓皆攸心解體，沮以爲善。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>As those rewarded are without merit, those punished are naturally without guilt.</seg>
+        <seg>Therefore reward does not fall on the virtuous or punishment on the evil.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-010-exaltation-of-the-virtuous-iii__align-0025">
@@ -491,15 +491,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">10.85</prop>
-      <prop type="x-translation-ref">10.68</prop>
+      <prop type="x-chinese-ref">10.85 - 10.87</prop>
+      <prop type="x-translation-ref">10.67</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>垂其股肱之力而不相勞來也，腐臭餘財而不相分資也，隱慝良道而不相教誨也。</seg>
+        <seg>垂其股肱之力而不相勞來也，腐臭餘財而不相分資也，隱慝良道而不相教誨也。若此，則飢者不得食，寒者不得衣，亂者不得治。推而上之以。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>And so, people all became disintegrated in heart and dissipated in body, and despairing in doing good.</seg>
+        <seg>As those rewarded are without merit, those punished are naturally without guilt.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-010-exaltation-of-the-virtuous-iii__align-0026">

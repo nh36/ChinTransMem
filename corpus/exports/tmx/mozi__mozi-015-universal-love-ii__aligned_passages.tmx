@@ -251,12 +251,12 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-source-segment-count">5</prop>
       <prop type="x-target-segment-count">4</prop>
-      <prop type="x-chinese-ref">15.44 - 15.47</prop>
+      <prop type="x-chinese-ref">15.43 - 15.47</prop>
       <prop type="x-translation-ref">15.35 - 15.38</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>天下之士君子，特不識其利、辯其故也。今若夫攻城野戰，殺身爲名，此天下百姓之所皆難也。苟君說之，則士衆能爲之。況於兼相愛、交相利，則與此異！</seg>
+        <seg>子墨子言曰：天下之士君子，特不識其利、辯其故也。今若夫攻城野戰，殺身爲名，此天下百姓之所皆難也。苟君說之，則士衆能爲之。況於兼相愛、交相利，則與此異！</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>Whoever loves others is loved by others; who-ever benefits others is benefited by others; whoever hates others is hated by others; whoever injures others is injured by others. Then, what difficulty is there with it (universal love)? Only, the ruler fails to embody it in his government and the ordinary man in his conduct. Formerly, Lord Wen of the state of Chin (about 630 b.c.) liked the uncouth uniform of the soldier.</seg>
@@ -411,12 +411,12 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">15.71</prop>
+      <prop type="x-chinese-ref">15.71 - 15.72</prop>
       <prop type="x-translation-ref">15.64</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>利人者，人亦從而利之。</seg>
+        <seg>利人者，人亦從而利之。惡人者，人亦從而惡之。</seg>
       </tuv>
       <tuv xml:lang="en">
         <seg>Of course to be able to carry Mt.</seg>
@@ -451,15 +451,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">15.78 - 15.79</prop>
-      <prop type="x-translation-ref">15.68</prop>
+      <prop type="x-chinese-ref">15.76 - 15.78</prop>
+      <prop type="x-translation-ref">15.66</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>乃若兼則善矣。雖然，不可行之物也。</seg>
+        <seg>然而今天下之士君子曰：然！乃若兼則善矣。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>And the ancient sage-kings did practise it.</seg>
+        <seg>Such has never been performed from antiquity to the present time.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-015-universal-love-ii__align-0024">
@@ -491,15 +491,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">15.86 - 15.87</prop>
-      <prop type="x-translation-ref">15.72</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">15.81 - 15.85</prop>
+      <prop type="x-translation-ref">15.68 - 15.70</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>何以知其然？古者禹治天下，西爲西河漁竇，以洩渠孫皇之水。</seg>
+        <seg>子墨子言：是非其譬也。夫挈太山而越河濟，可謂畢劫有力矣。自古及今，未有能行之者也。況乎兼相愛、交相利，則與此異，古者聖王行之。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Ti Chu was made use of as a water divide, and a tunnel was dug through Mt, Lung Men.</seg>
+        <seg>And the ancient sage-kings did practise it. How do we know they did? When Yii was working to bring the Deluge under control, he dug the West River and the Yu Ton River in the west in order to let off the water from the Ch'ii, Sun, and Huang Rivers.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-015-universal-love-ii__align-0026">
@@ -511,15 +511,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-source-segment-count">4</prop>
       <prop type="x-target-segment-count">5</prop>
-      <prop type="x-chinese-ref">15.88 - 15.90</prop>
-      <prop type="x-translation-ref">15.73 - 15.77</prop>
+      <prop type="x-chinese-ref">15.86 - 15.89</prop>
+      <prop type="x-translation-ref">15.71 - 15.75</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>北爲防原泒，注后之邸、嘑池之竇，洒爲底柱，鑿爲龍門，以利燕代胡貉與西河之民。東方漏之陸，防孟諸之澤，灑爲九澮，以楗東土之水，以利冀州之民。南爲江漢淮汝，東流之，注五湖之處，以利荊楚干越與南夷之民。</seg>
+        <seg>何以知其然？古者禹治天下，西爲西河漁竇，以洩渠孫皇之水。北爲防原泒，注后之邸、嘑池之竇，洒爲底柱，鑿爲龍門，以利燕代胡貉與西河之民。東方漏之陸，防孟諸之澤，灑爲九澮，以楗東土之水，以利冀州之民。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>All these were done to benefit the peoples west of the (Yellow) River and various barbarian tribes, Yen, Tai, Hu, Ho, of the north. In the east he drained the great Plain and built dykes along the Meng Ghu River. The water-course was divided into nine canals in order to regulate the water in the east and in order to benefit the people of the District of Chi. In the south he completed the Yangtze, Han, Huai, and Ju Rivers. These ran eastward and emptied themselves into the Eive Lakes.</seg>
+        <seg>In the north he built a dam across the Yuan and Ku Rivers in order to fill the Hou Chih Ti (a basin) and the Hu Ch'ih River. Ti Chu was made use of as a water divide, and a tunnel was dug through Mt, Lung Men. All these were done to benefit the peoples west of the (Yellow) River and various barbarian tribes, Yen, Tai, Hu, Ho, of the north. In the east he drained the great Plain and built dykes along the Meng Ghu River. The water-course was divided into nine canals in order to regulate the water in the east and in order to benefit the people of the District of Chi.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-015-universal-love-ii__align-0027">
@@ -591,15 +591,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">15.98</prop>
-      <prop type="x-translation-ref">15.83</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">15.94 - 15.97</prop>
+      <prop type="x-translation-ref">15.81 - 15.82</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>昔者武王將事泰山隧。</seg>
+        <seg>天屑臨文王慈，是以老而無子者，有所得終其壽。連獨無兄弟者，有所雜於生人之間。少失其父母者，有所放依而長。此文王之事，則吾今行兼矣。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Heaven visited iiim with blessing.</seg>
+        <seg>When King Wen was ruling the Western land, he shone forth like the sun and the moon all over the four quarters as well as in the Western land. He did not allow the big state to oppress the small state, he did not allow the multitude to oppress the single-handed, he did not allow the influential and strong to take away the grain and liye stock from the farmers.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-015-universal-love-ii__align-0031">
@@ -623,6 +623,26 @@
       </tuv>
     </tu>
     <tu tuid="mozi-015-universal-love-ii__align-0032">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-015-universal-love-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">15.99 - 15.103</prop>
+      <prop type="x-translation-ref">15.84 - 15.89</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>傳曰：「泰山，有道曾孫周王有事。大事旣獲，仁人尚作，以祗商夏、蠻夷醜貉。雖有周親，不若仁人萬方有罪，維予一人。」此言武王之事，吾今行兼矣。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>And, therefore, the old and childless had the wherewithal to spend their old age, the solitary and brotherless had the opportunity to join in the social life of men, and the orphans had the support for their growth. This was what King Wen had accomplished. We can, then, universalize love in conduct. When King Wu was about to do service to Mt. T’ai it was recorded thus: Blessed is Mt. Duke of Chou by a long descent is about to perform his duty.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-015-universal-love-ii__align-0033">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-015-universal-love-ii</prop>
       <prop type="x-section-unit">chapter</prop>

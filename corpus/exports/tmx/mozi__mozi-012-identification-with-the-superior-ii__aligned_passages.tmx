@@ -92,14 +92,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">6</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">12.20 - 12.25</prop>
-      <prop type="x-translation-ref">12.19 - 12.20</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">12.17 - 12.22</prop>
+      <prop type="x-translation-ref">12.19 - 12.21</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>意若聞見善，不以告其上。聞見不善，亦不以告其上。上之所是不能是，上之所非不能非。己有善，不能傍薦之。上有過，不能規諫之。下比而非其上者，上得則誅罰之。</seg>
+        <seg>上有過，規諫之。尚同義其上，而毋有下比之心。上得則賞之，萬民聞則譽之。意若聞見善，不以告其上。聞見不善，亦不以告其上。上之所是不能是，上之所非不能非。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Thereupon, in accord with the policy of the emperor, the village head proceeded to unify the purposes in the village. Having accomplished this, he led the people of the village to identify themselves with the head of the district, saying: ‘'All you people of the village are to identify yourselves with the head of the district, and are not to imite with the subordinates.</seg>
+        <seg>Thereupon, in accord with the policy of the emperor, the village head proceeded to unify the purposes in the village. Having accomplished this, he led the people of the village to identify themselves with the head of the district, saying: ‘'All you people of the village are to identify yourselves with the head of the district, and are not to imite with the subordinates. What the head of the district thinks to be right all shall think to be right; what he thinks to be wrong all shall think to be wrong.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0006">
@@ -122,6 +122,26 @@
         <seg>What the head of the district thinks to be right all shall think to be right; what he thinks to be wrong all shall think to be wrong. Put away your evil speech and learn his good speech; put away your evil conduct and learn his good conduct. For the head of the district is naturally the (most) virtuous of the district. If all the people in the district follow the example of their head, how then can the district be disorderly? " Now, how is it that the head of the district was so successful in governing the district 1 It was just because he could unify the purposes of the whole district that the district was so orderly.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0008">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">12.28 - 12.33</prop>
+      <prop type="x-translation-ref">12.24 - 12.29</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以舉天下之人，皆欲得上之賞譽，而畏上之毀罰。是故里長順天子政，而一同其里之義。里長旣同其里之義，率其里之萬民，以尚同乎鄉長，曰：「凡里之萬民，皆尚同乎鄉長，而不敢下比。鄉長之所是，必亦是之。鄉長之所非，必亦非之。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>If all the people in the district follow the example of their head, how then can the district be disorderly? " Now, how is it that the head of the district was so successful in governing the district 1 It was just because he could unify the purposes of the whole district that the district was so orderly. Having accomplished this he in turn led the people of his district to identify themselves with the feudal lord, saying: "All you people of the district shall identify yourselves with the lord of the state, and shall not unite with the suboidinates. What the lord thinks to be right all shall think to be right; what he thinks to be wrong all shall think to be wrong. Put away yom evil speech and learn his good speech; put away your evil conduct and learn his good conduct. For the lord of the state is natuxally the (most) virtuous of the state.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0007">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
@@ -142,26 +162,6 @@
         <seg>Having accomplished this he in turn led the people of his district to identify themselves with the feudal lord, saying: "All you people of the district shall identify yourselves with the lord of the state, and shall not unite with the suboidinates. What the lord thinks to be right all shall think to be right; what he thinks to be wrong all shall think to be wrong. Put away yom evil speech and learn his good speech; put away your evil conduct and learn his good conduct. For the lord of the state is natuxally the (most) virtuous of the state. If all the people in the state follow the example of their lord, how then can the state be in disorder?</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0008">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">5</prop>
-      <prop type="x-target-segment-count">6</prop>
-      <prop type="x-chinese-ref">12.37 - 12.41</prop>
-      <prop type="x-translation-ref">12.31 - 12.36</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>」察鄉長之所以治鄉者，何故之以也？曰：唯以其能一同其鄉之義，是以鄉治。鄉長治其鄉，而鄉旣已治矣，有率其鄉萬民，以尚同乎國君，曰：「凡鄉之萬民，皆上同乎國君，而不敢下比。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Now, why was the feudal lord so successful in governing the state? It Tvas just because he could unify the purposes in the state that the state is orderly. Having accomplished this he in turn led the people of his state to identify them-selves with the emperor, saying: All you people of the state shall identify yourselves with the emperor and shall not unite with the subordinates. What the emperor thinks to be right all shall think to be right; what he thinks to be wrong all shall think to be wrong. Put away your evil speech and learn his good speech; put avray your evil conduct and learn his good conduct. For the emperor is naturally the (most) high-minded and tender-hearted man of the empire.</seg>
-      </tuv>
-    </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0009">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
@@ -172,14 +172,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">5</prop>
-      <prop type="x-target-segment-count">4</prop>
-      <prop type="x-chinese-ref">12.42 - 12.46</prop>
-      <prop type="x-translation-ref">12.37 - 12.40</prop>
+      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-chinese-ref">12.34 - 12.38</prop>
+      <prop type="x-translation-ref">12.30 - 12.34</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>國君之所是，必亦是之。國君之所非，必亦非之。去而不善言，學國君之善言。去而不善行，學國君之善行。國君，固國之賢者也。</seg>
+        <seg>去而不善言，學鄉長之善言。去而不善行，學鄉長之善行。鄉長，固鄉之賢者也，舉鄉人以法鄉長，夫鄉何說而不治哉？」察鄉長之所以治鄉者，何故之以也？曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>If all the people of the empire follow his example, how then can the state be disorderly? Now, why was the emperor so successful in governing the empire? It was just because he could unify the purposes in the empire that the empire is orderly. But to carry the process of identification with the superior up to the Son of Heaven and not further up to Heaven itself — then the jungle from Heaven is yet unremoved.</seg>
+        <seg>If all the people in the state follow the example of their lord, how then can the state be in disorder? Now, why was the feudal lord so successful in governing the state? It Tvas just because he could unify the purposes in the state that the state is orderly. Having accomplished this he in turn led the people of his state to identify them-selves with the emperor, saying: All you people of the state shall identify yourselves with the emperor and shall not unite with the subordinates. What the emperor thinks to be right all shall think to be right; what he thinks to be wrong all shall think to be wrong.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0010">
@@ -191,15 +191,35 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">12.47 - 12.49</prop>
-      <prop type="x-translation-ref">12.41</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">12.39 - 12.42</prop>
+      <prop type="x-translation-ref">12.35 - 12.40</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>舉國人以法國君，夫國何說而不治哉？」察國君之所以治國而國治者，何故之以也？曰：</seg>
+        <seg>唯以其能一同其鄉之義，是以鄉治。鄉長治其鄉，而鄉旣已治矣，有率其鄉萬民，以尚同乎國君，曰：「凡鄉之萬民，皆上同乎國君，而不敢下比。國君之所是，必亦是之。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Thereupon Heaven would send down cold and heat without moderation, and snow, frost, rain, and dew nntimelj.</seg>
+        <seg>Put away your evil speech and learn his good speech; put avray your evil conduct and learn his good conduct. For the emperor is naturally the (most) high-minded and tender-hearted man of the empire. If all the people of the empire follow his example, how then can the state be disorderly? Now, why was the emperor so successful in governing the empire? It was just because he could unify the purposes in the empire that the empire is orderly. But to carry the process of identification with the superior up to the Son of Heaven and not further up to Heaven itself — then the jungle from Heaven is yet unremoved.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0012">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">12.46 - 12.51</prop>
+      <prop type="x-translation-ref">12.42 - 12.44</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>國君，固國之賢者也。舉國人以法國君，夫國何說而不治哉？」察國君之所以治國而國治者，何故之以也？曰：唯以其能一同其國之義，是以國治。國君治其國，而國旣已治矣，有率其國之萬民，以尚同乎天子，曰：</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>As a result, the five grains could not ripen and the six animals could not mature; and there would be disease, epidemics, and pestilence. Now the repeated visitations of hurricanes and torrents are just punishments from Heaven — punishments to the people below for not identifying themselves with it. Therefore the sage-kings of old appreciated what Heaven and the spirits desire and avoided what they abominate, in order to increase benefits and to avoid calamities in the world.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0011">
@@ -220,26 +240,6 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>As a result, the five grains could not ripen and the six animals could not mature; and there would be disease, epidemics, and pestilence. Now the repeated visitations of hurricanes and torrents are just punishments from Heaven — punishments to the people below for not identifying themselves with it.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0012">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">12.53 - 12.56</prop>
-      <prop type="x-translation-ref">12.44</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>天子之所是，必亦是之。天子之所非，必亦非之。去而不善言，學天子之善言。去而不善行，學天子之善行。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Therefore the sage-kings of old appreciated what Heaven and the spirits desire and avoided what they abominate, in order to increase benefits and to avoid calamities in the world.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0013">
@@ -302,6 +302,26 @@
         <seg>Even when at leisure they dared not be dis-respectful. When the sage-kings made such (good) rulers, Heaven and the spirits commended their leadership from above, and the people cherished it from below. To work under the hearty approval of the Heaven and the spirits is to obtain their blessings. To work nnder the appreciation of the people is to obtain their confidence. Administering the government like this, consequently they would succeed in planning, accomplish their ends in executing, be strong in defence and victorious in attack.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0018">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">12.64 - 12.65</prop>
+      <prop type="x-translation-ref">12.56 - 12.61</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>故古者聖王，明天鬼之所欲，而避天鬼之所憎，以求興天下之利，除天下之害：是以率天下之萬民，齋戒沐浴，潔爲酒醴粢盛，以祭祀天鬼。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>And this is how the sage-kings of old administered their government. People might then ask: At the present time rulers are not absent from the empire, why then is there disorder in the empire? Motse said: The political leaders of the present day are quite different from those of old. The case is parallel to that of the Five Punishments with the Prince of Miao. In ancient times, the sage-kings made the code of the Five Punishments and put the empire in order. But wfien the Prince of Miao established the Five Punishments they unsettled his empire.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0016">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
@@ -320,6 +340,26 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>And the reason for all this lies in their employing the principle of Identification with the Superior in government. And this is how the sage-kings of old administered their government. People might then ask: At the present time rulers are not absent from the empire, why then is there disorder in the empire? Motse said: The political leaders of the present day are quite different from those of old. The case is parallel to that of the Five Punishments with the Prince of Miao. In ancient times, the sage-kings made the code of the Five Punishments and put the empire in order.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0019">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">12.66 - 12.68</prop>
+      <prop type="x-translation-ref">12.62 - 12.65</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>其事鬼神也，酒醴粢盛不敢不蠲潔，犧牲不敢不腯肥，圭璧幣帛不敢不中度量，春秋祭祀不敢失時幾，聽獄不敢不中，分財不敢不均，居處不敢怠慢。曰：其爲正長若此。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Can it be that the Punishments are at fault? Really the fault lies in their application. The Penal Code of Lii " among the books of the ancient kings, says: Among the people of Miao punishments were applied without employing instruction and admonition. They made a code of five tortures and called it law," This is to say, those who know how to apply punishments can govern the people with them.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0017">
@@ -342,7 +382,7 @@
         <seg>But wfien the Prince of Miao established the Five Punishments they unsettled his empire. Can it be that the Punishments are at fault? Really the fault lies in their application. The Penal Code of Lii " among the books of the ancient kings, says: Among the people of Miao punishments were applied without employing instruction and admonition.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0018">
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0023">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -351,35 +391,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">5</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">12.72 - 12.76</prop>
-      <prop type="x-translation-ref">12.65</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>其爲政若此。是以謀事得、舉事成、入守固、出誅勝者，何故之以也？曰：唯以尚同爲政者也。故古者聖王之爲政若此。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>They made a code of five tortures and called it law," This is to say, those who know how to apply punishments can govern the people with them.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0019">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-source-segment-count">6</prop>
       <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">12.77 - 12.78</prop>
-      <prop type="x-translation-ref">12.66 - 12.67</prop>
+      <prop type="x-chinese-ref">12.73 - 12.78</prop>
+      <prop type="x-translation-ref">12.70 - 12.71</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>今天下之人曰：方今之時，天下之正長猶未廢乎天下也，而天下之所以亂者，何故之以也？</seg>
+        <seg>是以謀事得、舉事成、入守固、出誅勝者，何故之以也？曰：唯以尚同爲政者也。故古者聖王之爲政若此。今天下之人曰：方今之時，天下之正長猶未廢乎天下也，而天下之所以亂者，何故之以也？</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>And those who do not know, make five tortures out of them. Can it be that the punishments are at fault?</seg>
+        <seg>Ling/’ among the books of the ancient kings, says: The same mouth can produce friendship or produce war." This is to say that he who can use the mouth well will produce friendship, and he who cannot will stir up the enemies and the besieging barbarians. Can it be that the mouth is at fault?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0020">
@@ -422,6 +442,26 @@
         <seg>Ling/’ among the books of the ancient kings, says: The same mouth can produce friendship or produce war." This is to say that he who can use the mouth well will produce friendship, and he who cannot will stir up the enemies and the besieging barbarians.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0025">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">12.81 - 12.86</prop>
+      <prop type="x-translation-ref">12.73 - 12.76</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>昔者聖王制爲五刑，以治天下。逮至有苗之制五刑，以亂天下。則此豈刑不善哉？用刑則不善也。是以先王之書《呂刑》之道曰：「苗民否用練，折則刑，唯作五殺之刑，曰法。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Hence the installing of the ruler in the ancient days was intended to govern the people. Just as there is one thread to hold together the others in a skein and a main rope to a fishing net, so the ruler is to hold together all the evil and wicked in the empire and bring their purposes into harmony (with their superiors). Thus ' ‘ Hsiang Nien among the books of the ancient kings, says: " Now the empire is established and the capital is located; (Heaven) installed the emperor, kings, and lords not in order to make them proud, and (Heaven) appointed the ministers and the officials not in order to make them idle — it was to apportion duties among them and charge them with the maintenance of the Heavenly justice." This is to say that when God and the spirits in the past established the capital and installed the rulers, it was not to make their ranks high, and their emoluments substantial, and to give them wealth and honour, and let them live in comfort and free of care. It was really to procure benefits and eliminate adversities for the people, and to enricli the poor and increase the few, and to bring safety where there is danger and to restore order where there is confusion— it was for this that the political leaders were appointed.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0022">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
@@ -442,7 +482,7 @@
         <seg>Can it be that the mouth is at fault? The fault really lies in its use which stirs up the enemies and the besieging barbarians.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0023">
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0027">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -453,13 +493,33 @@
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">12.91 - 12.92</prop>
-      <prop type="x-translation-ref">12.73</prop>
+      <prop type="x-chinese-ref">12.88 - 12.89</prop>
+      <prop type="x-translation-ref">12.78</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>「惟口出好興戎。」則此言善用口者出好，不善用口者以爲讒賊寇戎。</seg>
+        <seg>則此豈刑不善哉？用刑則不善，故遂以爲五殺。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Hence the installing of the ruler in the ancient days was intended to govern the people.</seg>
+        <seg>The lords at the present, however, do Just the reverse.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0029">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">12.91 - 12.95</prop>
+      <prop type="x-translation-ref">12.80 - 12.82</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>「惟口出好興戎。」則此言善用口者出好，不善用口者以爲讒賊寇戎。則此豈口不善哉？用口則不善也，故遂以爲讒賊寇戎。故古者之置正長也，將以治民也，譬之若絲縷之有紀，而罔罟之有綱也，將以運役天下淫暴，而一同其義也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Fathers and brothers and other relatives and friends are placed at the right and left and appointed rulers of the people. Knowing that the superior appointed the rulers not for the welfare of the people, the people all kept aloof and would not identify themselves with the superior. Therefore purposes of the superior and the subordinates are not unified.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0024">
@@ -482,26 +542,6 @@
         <seg>Just as there is one thread to hold together the others in a skein and a main rope to a fishing net, so the ruler is to hold together all the evil and wicked in the empire and bring their purposes into harmony (with their superiors). Thus ' ‘ Hsiang Nien among the books of the ancient kings, says: " Now the empire is established and the capital is located; (Heaven) installed the emperor, kings, and lords not in order to make them proud, and (Heaven) appointed the ministers and the officials not in order to make them idle — it was to apportion duties among them and charge them with the maintenance of the Heavenly justice." This is to say that when God and the spirits in the past established the capital and installed the rulers, it was not to make their ranks high, and their emoluments substantial, and to give them wealth and honour, and let them live in comfort and free of care.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0025">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">12.99 - 12.100</prop>
-      <prop type="x-translation-ref">12.76</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>維辯使治天均。」則此語古者上帝、鬼神之建設國都、立正長也，非高其爵、厚其祿、富貴佚而錯之也，將以爲萬民興利除害、富貴貧寡、安危治亂也。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>It was really to procure benefits and eliminate adversities for the people, and to enricli the poor and increase the few, and to bring safety where there is danger and to restore order where there is confusion— it was for this that the political leaders were appointed.</seg>
-      </tuv>
-    </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0026">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
@@ -520,26 +560,6 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>And so the ancient sage-kings administered their government accordingly.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0027">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">12.102</prop>
-      <prop type="x-translation-ref">12.78</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>政以爲便譬宗於父兄故舊，以爲左右，置以爲正長。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>The lords at the present, however, do Just the reverse.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0028">
@@ -562,7 +582,7 @@
         <seg>Administration is carried on to court flattery. Fathers and brothers and other relatives and friends are placed at the right and left and appointed rulers of the people. Knowing that the superior appointed the rulers not for the welfare of the people, the people all kept aloof and would not identify themselves with the superior. Therefore purposes of the superior and the subordinates are not unified.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0029">
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0032">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -571,15 +591,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">12.108 - 12.111</prop>
-      <prop type="x-translation-ref">12.83</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">12.103 - 12.108</prop>
+      <prop type="x-translation-ref">12.89 - 12.94</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>「人可賞，吾將賞之。」若苟上下不同義，上之所賞，則衆之所非。曰：人衆與處，於衆得非。</seg>
+        <seg>民知上置正長之非正以治民也，是以皆比周隱匿，而莫肯尚同其上，是故上下不同義。若苟上下不同義，賞譽不足以勸善，而刑罰不足以沮暴。何以知其然也？曰：上唯毋立而爲政乎國家，爲民正長，曰：「人可賞，吾將賞之。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>This being so, rewards and commendations would not encourage the people to do good, and punishments and fines would not restrain them from doing evil.</seg>
+        <seg>And in community life the approval of the public is supreme. Though there is punishment from the superior, it will not The an obstruction. Now, in governing the country and ruling the people, if rewards cannot encourage the people to do good and punishments cannot restrain them from doing evil, is this not just the same as in the beginning of human life when there were no rulers? If it is the same with rulers or without them, it is not the way to govern the people and unify the multitude. As the ancient sage-kings could observe the principle of Identification with the Superior, when they became rulers the purposes of the superior and the subordinates became interchangeable. If the superior reserved for himself special facilities the subordinates could share them.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0030">
@@ -602,6 +622,26 @@
         <seg>How do we know this would be so? In governing the country, the ruler proclaims; Whoever deserves reward I will reward." Suppose the purposes of the superior and the subordinates are different, whoever is rewarded by the superior would be condemned by the public. And in community life the condemnation of the public is supreme. Though there is reward from the superior, it will not be an encouragement. In governing the country, again, the ruler proclaims: Whoever deserves punishment I will punish." Suppose the purposes of the superior and the subordinates are different, whoever is punished by the superior would be applauded by the public.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0034">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">12.115 - 12.120</prop>
+      <prop type="x-translation-ref">12.98</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>」若苟上下不同義，上之所罰，則衆之所譽，曰：人衆與處，於衆得譽。則是雖使得上之罰，未足以沮乎！若立而爲政乎國家，爲民正長，賞譽不足以勸善，而刑罰不足以沮暴，則是不與鄉吾本言「民始生，未有正長之時」同乎？若有正長與無正長之時同，則此非所以治民一衆之道。故古者聖王，唯而審以尚同，以爲正長，是故上下情請爲通。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Thereupon all the people in the world were astonished, and carefully avoided doing evil, saying: " The emperor is like a spirit in his hearing and sight." But the ancient kings said: It was no spirit but only the ability to make use of others’ ears and eyes to help one’s own hearing and sight, to make use of others’ lips to help one’s own speech, to make use of others’ minds to help one’s own thought, to make use of others’ limbs to help one’s own actions." When there are many to help one’s hearing and sight then of course one can hear and see far; when there are many to help one’s speech then one’s good counsel can comfort many; when there are many to help one’s thought then one’s plans can' he shaped speedily; when there are many to help one’s actions then one can accomplish one’s undertaking quickly.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0031">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
@@ -622,7 +662,7 @@
         <seg>And in community life the approval of the public is supreme. Though there is punishment from the superior, it will not The an obstruction. Now, in governing the country and ruling the people, if rewards cannot encourage the people to do good and punishments cannot restrain them from doing evil, is this not just the same as in the beginning of human life when there were no rulers? If it is the same with rulers or without them, it is not the way to govern the people and unify the multitude. As the ancient sage-kings could observe the principle of Identification with the Superior, when they became rulers the purposes of the superior and the subordinates became interchangeable. If the superior reserved for himself special facilities the subordinates could share them.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0032">
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0035">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -631,15 +671,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">12.121 - 12.122</prop>
-      <prop type="x-translation-ref">12.95</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">12.121 - 12.124</prop>
+      <prop type="x-translation-ref">12.99 - 12.101</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>上有隱事遺利，下得而利之。下有蓄怨積害，上得而除之。</seg>
+        <seg>上有隱事遺利，下得而利之。下有蓄怨積害，上得而除之。是以數千萬里之外，有爲善者，其室人未徧知，鄉里未徧聞，天子得而賞之。數千萬里之外，有爲不善者，其室人未徧知，鄉里未徧聞，天子得而罰之。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>If the people had any unrighted wrongs or accumulated injuries, the superior would remove them.</seg>
+        <seg>■ So there was no other reason for the success and great fame of the ancient sages than that they could carry out the principle of Identification with the Superior in their administration. One of the Eulogies of Chou " among the works of the ancient kings says: " They came to see His Majesty. Daily they sought the code of propriety." This describes how in times of old, the feudal lords came to the emperor’s court both spring and autumn to receive strict instructions from the emperor and ruled their states accordingly when they returned; and there was none among those who came under such an administration that dared not submit completely.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0033">
@@ -662,46 +702,6 @@
         <seg>Therefore, if there was a virtuous man thousands of li away, though his clansmen did not all know it (the fact) and people in the same district did not all know it, the emperor could reward him. And if there was an evil man thousands of li away, though his clans-men did not all know it (the fact) and people in the same village did not all know it, the emperor could punish him. Thereupon all the people in the world were astonished, and carefully avoided doing evil, saying: " The emperor is like a spirit in his hearing and sight." But the ancient kings said: It was no spirit but only the ability to make use of others’ ears and eyes to help one’s own hearing and sight, to make use of others’ lips to help one’s own speech, to make use of others’ minds to help one’s own thought, to make use of others’ limbs to help one’s own actions." When there are many to help one’s hearing and sight then of course one can hear and see far; when there are many to help one’s speech then one’s good counsel can comfort many; when there are many to help one’s thought then one’s plans can' he shaped speedily; when there are many to help one’s actions then one can accomplish one’s undertaking quickly. ■ So there was no other reason for the success and great fame of the ancient sages than that they could carry out the principle of Identification with the Superior in their administration. One of the Eulogies of Chou " among the works of the ancient kings says: " They came to see His Majesty. Daily they sought the code of propriety." This describes how in times of old, the feudal lords came to the emperor’s court both spring and autumn to receive strict instructions from the emperor and ruled their states accordingly when they returned; and there was none among those who came under such an administration that dared not submit completely.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0034">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">12.128 - 12.129</prop>
-      <prop type="x-translation-ref">12.102</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>使人之吻，助己言談。使人之心，助己思慮。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>And, at that time, none dared to confuse the instructions from the emperor.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0035">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">12.130 - 12.131</prop>
-      <prop type="x-translation-ref">12.103</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>使人之股肱，助己動作。」助之視聽者衆，則其所聞見者遠矣。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>And thus runs an Ode: ‘‘ My team is of white horses with black manes.</seg>
-      </tuv>
-    </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0036">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
@@ -711,15 +711,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">12.132</prop>
-      <prop type="x-translation-ref">12.104 - 12.105</prop>
+      <prop type="x-chinese-ref">12.125 - 12.127</prop>
+      <prop type="x-translation-ref">12.102 - 12.103</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>助之言談者衆，則其德音之所撫循者博矣。</seg>
+        <seg>是以舉天下之人，皆恐懼振動惕慄，不敢爲淫暴，曰天子之視聽也神。先王之言曰：「非神也，夫唯能使人之耳目，助己視聽。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The six reins look luxuriant. They trot and gallop.</seg>
+        <seg>And, at that time, none dared to confuse the instructions from the emperor. And thus runs an Ode: ‘‘ My team is of white horses with black manes.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0037">
@@ -782,6 +782,26 @@
         <seg>virtuous and punishment upon the wicked. The innocent was not prosecuted and the.guilty was not set free. And, all this is the result' of practising the principle of Identification with the Superior.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0043">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">1</prop>
+      <prop type="x-chinese-ref">12.138 - 12.143</prop>
+      <prop type="x-translation-ref">12.114</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>」則此語古者國君諸侯之以春秋來朝聘天子之廷，受天子之嚴教，退而治國，政之所加，莫敢不賓。當此之時，本無有敢紛天子之教者。《詩》曰：「我馬維駱，六轡沃若。載馳載驅，周爰咨度、」又曰：「我馬維騏，六轡若絲。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Therefore, Motse said: Now, if the rulers and the gentle-men of the world sincerely desire to enrich their country and multiply their people, and to put the government and jurisdiction in order and stabilize the state — if so, then they cannot afford to fail to understand the principle of Identification with the Superior, which is the foundation of government, instructs an envoy set out on a mission.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0040">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
@@ -800,6 +820,26 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>Therefore, Motse said: Now, if the rulers and the gentle-men of the world sincerely desire to enrich their country and multiply their people, and to put the government and jurisdiction in order and stabilize the state — if so, then they cannot afford to fail to understand the principle of Identification with the Superior, which is the foundation of government, instructs an envoy set out on a mission.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0044">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">12.144 - 12.148</prop>
+      <prop type="x-translation-ref">12.115 - 12.117</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>載馳載驅，周爰咨謀。」卽此語也。古者國君諸侯之聞見善與不善也，皆馳驅以告天子。是以賞當賢，罰當暴，不殺不辜，不失有罪，則此尚同之功也。是故子墨子曰：</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The two stanzas according to iegge, Toi. iv, p. " My horses are piebald; The six reins are like silk. I gallop them and urge them on, Everywhere seeking information and counsel.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0041">
@@ -823,6 +863,26 @@
       </tuv>
     </tu>
     <tu tuid="mozi-012-identification-with-the-superior-ii__align-0042">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-target-segment-count">2</prop>
+      <prop type="x-chinese-ref">12.149</prop>
+      <prop type="x-translation-ref">12.118 - 12.119</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>今天下之王公大人士君子，請將欲富其國家，衆其人民，治其刑政，定其社稷，當若尚同之不可不察，此之本也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>My horses are white and black-maned; The six reins look glossy. I gallop them and urge them on, Everywhere seeking information and advice.’ '</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-012-identification-with-the-superior-ii__align-0045">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-012-identification-with-the-superior-ii</prop>
       <prop type="x-section-unit">chapter</prop>

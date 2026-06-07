@@ -111,15 +111,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">5</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">7.21 - 7.25</prop>
-      <prop type="x-translation-ref">7.19 - 7.20</prop>
+      <prop type="x-source-segment-count">6</prop>
+      <prop type="x-target-segment-count">3</prop>
+      <prop type="x-chinese-ref">7.20 - 7.25</prop>
+      <prop type="x-translation-ref">7.18 - 7.20</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>子墨子曰：「聖王之命也，多寡之。食之利也，以知饑而食之者智也，因爲無智矣。今聖有樂而少，此亦無也。」</seg>
+        <seg>」子墨子曰：「聖王之命也，多寡之。食之利也，以知饑而食之者智也，因爲無智矣。今聖有樂而少，此亦無也。」</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Eating is of course profitable, but it takes so little intelligence to eat when one is hungry that it may be said to be nil. Now the sage-kings had music, but it was so little that it may also be said to be nil.</seg>
+        <seg>" Motse said; The desire of the sage-kings was to cut down excesses. Eating is of course profitable, but it takes so little intelligence to eat when one is hungry that it may be said to be nil. Now the sage-kings had music, but it was so little that it may also be said to be nil.</seg>
       </tuv>
     </tu>
   </body>

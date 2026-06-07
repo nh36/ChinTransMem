@@ -3,6 +3,8 @@ from __future__ import annotations
 import html
 import hashlib
 import json
+import os
+import tempfile
 import re
 import sqlite3
 import urllib.parse
@@ -468,9 +470,27 @@ def write_json(path: Path | str, payload: Any) -> None:
     Write JSON payload to path. For metadata/sources.yml perform a safe merge instead
     of a blind overwrite to avoid accidental truncation when individual bootstraps
     write a subset of sources.
+
+    Writes are atomic: data is written to a temp file in the same directory and
+    then replaced with os.replace to avoid truncation on failure.
     """
     output_path = Path(path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    def _atomic_write(dest: Path, data: str) -> None:
+        fd, tmp_path = tempfile.mkstemp(dir=str(dest.parent), prefix=dest.name, suffix=".tmp")
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8") as f:
+                f.write(data)
+            # Atomic replace
+            os.replace(tmp_path, str(dest))
+        finally:
+            # In the unlikely event os.replace failed and tmp still exists, try to remove it
+            try:
+                if os.path.exists(tmp_path):
+                    os.remove(tmp_path)
+            except Exception:
+                pass
 
     # If writing the central sources registry, merge by source_id instead of
     # overwriting the file. This ensures incremental bootstraps cannot truncate
@@ -495,13 +515,15 @@ def write_json(path: Path | str, payload: Any) -> None:
                     final.append(s)
             for sid, s in new_by_id.items():
                 final.append(s)
-            output_path.write_text(json.dumps(final, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+            data = json.dumps(final, indent=2, ensure_ascii=False) + "\n"
+            _atomic_write(output_path, data)
             return
     except Exception:
-        # Fall back to simple write on any unexpected error to avoid failing callers.
+        # Fall back to simple atomic write on unexpected error to avoid failing callers.
         pass
 
-    output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    data = json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
+    _atomic_write(output_path, data)
 
 
 def sha256_file(path: Path | str) -> str:

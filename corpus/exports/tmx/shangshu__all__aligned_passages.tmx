@@ -2,164 +2,24 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shangshu" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shangshu-001-yu-shu-canon-of-yao__alignment-001">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-001-yu-shu-canon-of-yao</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·虞書 堯典 [1]</prop>
-      <prop type="x-translation-ref">尚書·虞書 堯典 [1]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>昔在帝堯，聰明文思，光宅天下，將遜于位，讓于虞舜，作《堯典》。曰若稽古帝堯，曰放勳，欽、明、文、思、安安，允恭克讓，光被四表，格于上下。克明俊德，以親九族。九族既睦，平章百姓。百姓昭明，協和萬邦。黎民於變時雍。乃命羲和，欽若昊天，曆象日月星辰，敬授人時。分命羲仲，宅嵎夷，曰暘谷。寅賓出日，平秩東作。日中，星鳥，以殷仲春。厥民析，鳥獸孳尾。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>1. Examining into antiquity, (we find that) the Tî Yâo was styled Fang-hsün. He was reverential, intelligent, accomplished, and thoughtful,—naturally and without effort. He was sincerely courteous, and capable of (all) complaisance. The bright (influence of these qualities) was felt through the four quarters (of the land), and reached to (heaven) above and (earth) beneath. He made the able and virtuous distinguished, and thence proceeded to the love of (all in) the nine classes of his kindred, who (thus) became harmonious. He (also) regulated and polished the people (of his domain), who all became brightly intelligent. (Finally), he united and harmonized the myriad states; and so the black-haired people were transformed. The result was (universal) concord. 2. He commanded the Hsîs and Hos, in reverent accordance with (their observation of) the wide heavens, to calculate and delineate (the movements and appearances of) the sun, the moon, the stars, and the zodiacal spaces, and so to deliver respectfully the seasons to be observed by the people. He separately commanded the second brother Hsî to reside at Yü-î, in what was called the Bright Valley, and (there) respectfully to receive as a guest the rising sun, and to adjust and arrange the labours of the spring. 'The day,' (said he), 'is of the medium length, and the star is in Niâo;—you may thus exactly determine mid-spring. The people are dispersed (in the fields), and birds and beasts breed and copulate.'</seg>
-      </tuv>
-    </tu>
     <tu tuid="shangshu-001-yu-shu-canon-of-yao__alignment-002">
       <prop type="x-work-id">shangshu</prop>
       <prop type="x-section-id">shangshu-001-yu-shu-canon-of-yao</prop>
       <prop type="x-section-unit">section</prop>
       <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·虞書 堯典 [2]</prop>
-      <prop type="x-translation-ref">尚書·虞書 堯典 [2]</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">7</prop>
+      <prop type="x-chinese-ref">尚書·虞書 堯典 [5] - 尚書·虞書 堯典 [8]</prop>
+      <prop type="x-translation-ref">尚書·虞書 堯典 [2] - 尚書·虞書 堯典 [8]</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>申命羲叔，宅南交。平秩南訛，敬致。日永，星火，以正仲夏。厥民因，鳥獸希革。</seg>
+        <seg>帝曰：「咨！汝羲暨和。朞三百有六旬有六日，以閏月定四時，成歲。允釐百工，庶績咸熙。」帝曰：「疇咨若時登庸？」放齊曰：「胤子朱啟明。」帝曰：「吁！嚚訟可乎？」帝曰：「疇咨若予采？」驩兜曰：「都！共工方鳩僝功。」帝曰：「吁！靜言庸違，象恭滔天。」帝曰：「咨！四岳，湯湯洪水方割，蕩蕩懷山襄陵，浩浩滔天。下民其咨，有能俾乂？」僉曰：「於！鯀哉。」帝曰：「吁！咈哉，方命圮族。」岳曰：「异哉！試可乃已。」帝曰，「往，欽哉！」九載，績用弗成。帝曰：「咨！四岳。朕在位七十載，汝能庸命，巽朕位？」岳曰：「否德忝帝位。」曰：「明明揚側陋。」師錫帝曰：「有鰥在下，曰虞舜。」帝曰：「俞？予聞，如何？」岳曰：「瞽子，父頑，母嚚，象傲；克諧以孝，烝烝乂，不格姦。」帝曰：「我其試哉！女于時，觀厥刑于二女。」釐降二女于媯汭，嬪于虞。帝曰：「欽哉！」</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>He further commanded the third brother Hsî to reside at Nan-kiâo, (in what was called the Brilliant Capital), to adjust and arrange the transformations of the summer, and respectfully to observe the exact limit (of the shadow). 'The day,' (said he), 'is at its longest, and the star is in Hwo;—you may thus exactly determine mid-summer. The people are more dispersed; and birds and beasts have their feathers and hair thin, and change their coats.'</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-001-yu-shu-canon-of-yao__alignment-003">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-001-yu-shu-canon-of-yao</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·虞書 堯典 [3]</prop>
-      <prop type="x-translation-ref">尚書·虞書 堯典 [3]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>分命和仲，宅西，曰昧谷。寅餞納日，平秩西成。宵中，星虛，以殷仲秋。厥民夷，鳥獸毛毨。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>He separately commanded the second brother Ho to reside at the west, in what was called the Dark Valley, and (there) respectfully to convoy the setting sun, and to adjust and arrange the completing labours of the autumn. 'The night,' (said he), 'is of the medium length, and the star is in Hsü;—you may thus exactly determine mid-autumn. The people feel at ease, and birds and beasts have their coats in good condition.'</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-001-yu-shu-canon-of-yao__alignment-004">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-001-yu-shu-canon-of-yao</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·虞書 堯典 [4]</prop>
-      <prop type="x-translation-ref">尚書·虞書 堯典 [4]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>申命和叔，宅朔方，曰幽都。平在朔易。日短，星昴，以正仲冬。厥民隩，鳥獸氄毛。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>He further commanded the third brother Ho to reside in the northern region, in what was called the Sombre Capital, and (there) to adjust and examine the changes of the winter.' The day,' (said he), 'is at its shortest, and the star is in Mâo;—you may thus exactly determine mid-winter. The people keep in their houses, and the coats of birds and beasts are downy and thick.'</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-001-yu-shu-canon-of-yao__alignment-005">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-001-yu-shu-canon-of-yao</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·虞書 堯典 [5]</prop>
-      <prop type="x-translation-ref">尚書·虞書 堯典 [5]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>帝曰：「咨！汝羲暨和。朞三百有六旬有六日，以閏月定四時，成歲。允釐百工，庶績咸熙。」</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>The Tî said, 'Ah! you, Hsîs and Hos, a round year consists of three hundred, sixty, and six days. Do you, by means of the intercalary month, fix the four seasons, and complete (the period of) the year. (Thereafter), the various officers being regulated in accordance with this, all the works (of the year) will be fully performed.'</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-001-yu-shu-canon-of-yao__alignment-006">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-001-yu-shu-canon-of-yao</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·虞書 堯典 [6]</prop>
-      <prop type="x-translation-ref">尚書·虞書 堯典 [6]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>帝曰：「疇咨若時登庸？」放齊曰：「胤子朱啟明。」帝曰：「吁！嚚訟可乎？」帝曰：「疇咨若予采？」驩兜曰：「都！共工方鳩僝功。」帝曰：「吁！靜言庸違，象恭滔天。」</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>3. The Tî said, 'Who will search out (for me) a man according to the times, whom I can raise and employ?' Fang-khî said, '(Your) heir-son Kû is highly intelligent.' The Tî said, 'Alas! he is insincere and quarrelsome:—can he do?' The Tî said, 'Who will search out (for me) a man equal to the exigency of my affairs?' Hwan-tâu said, 'Oh! the merits of the Minister of Works have just been displayed on a wide scale.' The Tî said, 'Alas! when all is quiet, he talks; but when employed, his actions turn out differently. He is respectful (only) in appearance. See! the floods assail the heavens!'</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-001-yu-shu-canon-of-yao__alignment-007">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-001-yu-shu-canon-of-yao</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·虞書 堯典 [7]</prop>
-      <prop type="x-translation-ref">尚書·虞書 堯典 [7]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>帝曰：「咨！四岳，湯湯洪水方割，蕩蕩懷山襄陵，浩浩滔天。下民其咨，有能俾乂？」僉曰：「於！鯀哉。」帝曰：「吁！咈哉，方命圮族。」岳曰：「异哉！試可乃已。」帝曰，「往，欽哉！」九載，績用弗成。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>The Tî said, 'Ho! (President of) the Four Mountains, destructive in their overflow are the waters of the inundation. In their vast extent they embrace the hills and overtop the great heights, threatening the heavens with their floods, so that the lower people groan and murmur! Is there a capable man to whom I can assign the correction (of this calamity)?' All (in the court) said, 'Ah! is there not Khwǎn?' The Tî said, 'Alas! how perverse is he! He is disobedient to orders, and tries to injure his peers.' (The President of) the Mountains said, 'Well but—. Try if he can (accomplish the work).' (Khwǎn) was employed accordingly. The Tî said (to him), 'Go; and be reverent!' For nine years he laboured, but the work was unaccomplished.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-001-yu-shu-canon-of-yao__alignment-008">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-001-yu-shu-canon-of-yao</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·虞書 堯典 [8]</prop>
-      <prop type="x-translation-ref">尚書·虞書 堯典 [8]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>帝曰：「咨！四岳。朕在位七十載，汝能庸命，巽朕位？」岳曰：「否德忝帝位。」曰：「明明揚側陋。」師錫帝曰：「有鰥在下，曰虞舜。」帝曰：「俞？予聞，如何？」岳曰：「瞽子，父頑，母嚚，象傲；克諧以孝，烝烝乂，不格姦。」帝曰：「我其試哉！女于時，觀厥刑于二女。」釐降二女于媯汭，嬪于虞。帝曰：「欽哉！」</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>The Tî said, 'Ho! (President of) the Four Mountains, I have been on the throne seventy years. You can carry out my commands; I will resign my place to you.' The Chief said, 'I have not the virtue;—I should disgrace your place.' (The Tî) said, 'Show me some one among the illustrious, or set forth one from among the poor and mean.' All (then) said to the Tî, 'There is an unmarried man among the lower people, called Shun of Yü.' The Tî said, 'Yes, I have heard of him. What have you to say about him?' The Chief said, 'He is the son of a blind man. His father was obstinately unprincipled; his (step-)mother was insincere; his (half-)brother Hsiang was arrogant. He has been able, (however), by his filial piety to live in harmony with them, and to lead them gradually to self-government, so that they (no longer) proceed to great wickedness.' The Tî said, 'I will try him; I will wive him, and thereby see his behaviour with my two daughters.' (Accordingly) he arranged and sent down his two daughters to the north of the Kwei, to be wives in (the family of) Yü. The Tî said to them, 'Be reverent!'</seg>
+        <seg>He further commanded the third brother Hsî to reside at Nan-kiâo, (in what was called the Brilliant Capital), to adjust and arrange the transformations of the summer, and respectfully to observe the exact limit (of the shadow). 'The day,' (said he), 'is at its longest, and the star is in Hwo;—you may thus exactly determine mid-summer. The people are more dispersed; and birds and beasts have their feathers and hair thin, and change their coats.' He separately commanded the second brother Ho to reside at the west, in what was called the Dark Valley, and (there) respectfully to convoy the setting sun, and to adjust and arrange the completing labours of the autumn. 'The night,' (said he), 'is of the medium length, and the star is in Hsü;—you may thus exactly determine mid-autumn. The people feel at ease, and birds and beasts have their coats in good condition.' He further commanded the third brother Ho to reside in the northern region, in what was called the Sombre Capital, and (there) to adjust and examine the changes of the winter.' The day,' (said he), 'is at its shortest, and the star is in Mâo;—you may thus exactly determine mid-winter. The people keep in their houses, and the coats of birds and beasts are downy and thick.' T he Tî said, 'Ah! you, Hsîs and Hos, a round year consists of three hundred, sixty, and six days. Do you, by means of the intercalary month, fix the four seasons, and complete (the period of) the year. (Thereafter), the various officers being regulated in accordance with this, all the works (of the year) will be fully performed.' 3. The Tî said, 'Who will search out (for me) a man according to the times, whom I can raise and employ?' Fang-khî said, '(Your) heir-son Kû is highly intelligent.' The Tî said, 'Alas! he is insincere and quarrelsome:—can he do?' The Tî said, 'Who will search out (for me) a man equal to the exigency of my affairs?' Hwan-tâu said, 'Oh! the merits of the Minister of Works have just been displayed on a wide scale.' The Tî said, 'Alas! when all is quiet, he talks; but when employed, his actions turn out differently. He is respectful (only) in appearance. See! the floods assail the heavens!' The Tî said, 'Ho! (President of) the Four Mountains, destructive in their overflow are the waters of the inundation. In their vast extent they embrace the hills and overtop the great heights, threatening the heavens with their floods, so that the lower people groan and murmur! Is there a capable man to whom I can assign the correction (of this calamity)?' All (in the court) said, 'Ah! is there not Khwǎn?' The Tî said, 'Alas! how perverse is he! He is disobedient to orders, and tries to injure his peers.' (The President of) the Mountains said, 'Well but—. Try if he can (accomplish the work).' (Khwǎn) was employed accordingly. The Tî said (to him), 'Go; and be reverent!' For nine years he laboured, but the work was unaccomplished. The Tî said, 'Ho! (President of) the Four Mountains, I have been on the throne seventy years. You can carry out my commands; I will resign my place to you.' The Chief said, 'I have not the virtue;—I should disgrace your place.' (The Tî) said, 'Show me some one among the illustrious, or set forth one from among the poor and mean.' All (then) said to the Tî, 'There is an unmarried man among the lower people, called Shun of Yü.' The Tî said, 'Yes, I have heard of him. What have you to say about him?' The Chief said, 'He is the son of a blind man. His father was obstinately unprincipled; his (step-)mother was insincere; his (half-)brother Hsiang was arrogant. He has been able, (however), by his filial piety to live in harmony with them, and to lead them gradually to self-government, so that they (no longer) proceed to great wickedness.' The Tî said, 'I will try him; I will wive him, and thereby see his behaviour with my two daughters.' (Accordingly) he arranged and sent down his two daughters to the north of the Kwei, to be wives in (the family of) Yü. The Tî said to them, 'Be reverent!'</seg>
       </tuv>
     </tu>
     <tu tuid="shangshu-003-yu-shu-canon-of-shun__alignment-001">
@@ -260,26 +120,6 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>1. Examining into antiquity, (we find that) the Great Yü was styled Wăn-ming. Having arranged and divided (the land), all to the four seas, in reverent response to the Tî, he said, 'If the sovereign can realize the difficulty of his sovereignship, and the minister the difficulty of his ministry, the government will be well ordered, and the black-haired people will sedulously seek to be virtuous.' The Tî said, 'Yes; let this really be the case, and good words will nowhere lie hidden; no men of virtue and talents will be left neglected, away from court, and the myriad states will all enjoy repose. (But) to obtain the views of all; to give up one's opinion and follow that of others; to keep from oppressing the helpless, and not to neglect the straitened and poor;—it was only the (former) Tî who could attain to this.'</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-004-yu-shu-counsels-of-the-great-yu__alignment-002">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-004-yu-shu-counsels-of-the-great-yu</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·虞書 大禹謨 [5] - 尚書·虞書 大禹謨 [6]</prop>
-      <prop type="x-translation-ref">尚書·虞書 大禹謨 [3]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>禹曰：「惠迪吉，從逆凶，惟影響。」益曰：「吁！戒哉！儆戒無虞，罔失法度。罔遊于逸，罔淫于樂。任賢勿貳，去邪勿疑。疑謀勿成，百志惟熙。罔違道以干百姓之譽，罔咈百姓以從己之欲。無怠無荒，四夷來王。」</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Yî said, 'Oh! your virtue, O Tî, is vast and incessant. It is sagely, spirit-like, awe-inspiring, and adorned with all accomplishments. Great Heaven regarded you with its favour, and bestowed on you its appointment. Suddenly you possessed all within the four seas, and became ruler of all under heaven.'</seg>
       </tuv>
     </tu>
     <tu tuid="shangshu-004-yu-shu-counsels-of-the-great-yu__alignment-003">
@@ -862,26 +702,6 @@
         <seg>1. Î Yin again made an announcement to the king, saying, 'Oh! Heaven has no (partial) affection;—only to those who are reverent does it show affection. The people are not constant to those whom they cherish;—they cherish (only) him who is benevolent. The spirits do not always accept the sacrifices that are offered to them;—they accept only the sacrifices of the sincere. A place of difficulty is the Heaven-(conferred) seat. When there are (those) virtues, good government is realized; when they are not, disorder comes. To maintain the same principles as those who secured good government will surely lead to prosperity; to pursue the courses of disorder will surely lead to ruin. He who at last, as at first, is careful as to whom and what he follows is a truly intelligent sovereign. The former king was always zealous in the reverent cultivation of his virtue, so that he was the fellow of God. Now, O king, you have entered on the inheritance of his excellent line;—fix your inspection on him.' 2. '(Your course must be) as when in ascending high you begin from where it is low, and when in travelling far you begin from where it is near. Do not slight the occupations of the people;—think of their difficulties. Do not yield to a feeling of repose on your throne;—think of its perils. Be careful for the end at the beginning. When you hear words that are distasteful to your mind, you must enquire whether they be not right; when you hear words that accord with your own views, you must enquire whether they be not contrary to what is right. Oh! what attainment can be made without anxious thought? what achievement can be made without earnest effort? Let the One man be greatly good, and the myriad regions will be rectified by him.' 3. 'When the sovereign does not with disputatious words throw the old rules of government into confusion, and the minister does not, for favour and gain, continue in an office whose work is done, then the country will lastingly and surely enjoy happiness.'</seg>
       </tuv>
     </tu>
-    <tu tuid="shangshu-019-shang-shu-common-possession-of-pure-virtue__alignment-001">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-019-shang-shu-common-possession-of-pure-virtue</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">3</prop>
-      <prop type="x-chinese-ref">尚書·商書 咸有一德 [1] - 尚書·商書 咸有一德 [2]</prop>
-      <prop type="x-translation-ref">尚書·商書 咸有一德 [1] - 尚書·商書 咸有一德 [3]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>伊尹作《咸有一德》。伊尹既復政厥辟，將告歸，乃陳戒于德。曰：「嗚呼！天難諶，命靡常。常厥德，保厥位。厥德匪常，九有以亡。夏王弗克庸德，慢神虐民。皇天弗保，監于萬方，啟迪有命，眷求一德，俾作神主。惟尹躬暨湯，咸有一德，克享天心，受天明命，以有九有之師，爰革夏正。非天私我有商，惟天祐于一德；非商求于下民，惟民歸于一德。德惟一，動罔不吉；德二三，動罔不凶。惟吉凶不僭在人，惟天降災祥在德。今嗣王新服厥命，惟新厥德。終始惟一，時乃日新。任官惟賢材，左右惟其人。臣為上為德，為下為民。其難其慎，惟和惟一。德無常師，主善為師。善無常主，協于克一。俾萬姓咸曰：『大哉王言。』又曰：『一哉王心』。克綏先王之祿，永厎烝民之生。嗚呼！七世之廟，可以觀德。萬夫之長，可以觀政。后非民罔使；民非后罔事。無自廣以狹人，匹夫匹婦，不獲自盡，民主罔與成厥功。」</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>1. Î Yin, having returned the government into the hands of his sovereign, and being about to announce his retirement, set forth admonitions on the subject of virtue. 2. He said, 'Oh! it is difficult to rely on Heaven;—its appointments are not constant. (But if the sovereign see to it that) his virtue be constant, he will preserve his throne; if his virtue be not constant, the nine provinces will be lost by him. The king of Hsiâ could not maintain the virtue (of his ancestors) unchanged, but contemned the spirits and oppressed the people. Great Heaven no (longer) extended its protection to him. It looked out among the myriad regions to give its guidance to one who should receive its favouring appointment, fondly seeking (a possessor of) pure virtue, whom it might make lord of all the spirits. Then there were I, Yin, and Thang, both possessed of pure virtue, and able to satisfy the mind of Heaven. He received (in consequence) the bright favour of Heaven, so as to become possessor of the multitudes of the nine provinces, and proceeded to change Hsiâ's commencement of the year. It was not that Heaven had any private partiality for the lord of Shang;—it simply gave its favour to pure virtue. It was not that Shang sought (the allegiance of) the lower people;—the people simply turned to pure virtue. Where (the sovereign's) virtue is pure, his enterprizes are all fortunate; where his virtue is wavering and uncertain, his enterprizes are all unfortunate. Good and evil do not wrongly befal men, but Heaven sends down misery or happiness according to their conduct.' 3. 'Now, O young king, you are newly entering on your (great) appointment,—you should be seeking to make new your virtue. At last, as at first, have this as your one object, so shall you make a daily renovation. Let the officers whom you employ be men of virtue and ability, and let the ministers about you be the right men. The minister, in relation to (his sovereign) above him, has to promote his virtue, and, in relation to the (people) beneath him, has to seek their good. How hard must it be (to find the proper man)! what careful attention must be required! (Thereafter) there must be harmony (cultivated with him), and a oneness (of confidence placed in him).</seg>
-      </tuv>
-    </tu>
     <tu tuid="shangshu-019-shang-shu-common-possession-of-pure-virtue__alignment-002">
       <prop type="x-work-id">shangshu</prop>
       <prop type="x-section-id">shangshu-019-shang-shu-common-possession-of-pure-virtue</prop>
@@ -980,26 +800,6 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>1. Pan-kăng having completed the removal, and settled the places of residence, proceeded to adjust the several positions (of all classes at an assembly); and then he soothed and comforted the multitudes, saying to them, 'Do not play nor be idle, but exert yourselves to build (here) a great destiny (for us). 'Now I have disclosed my heart and belly, my reins and bowels, and fully declared to you, my people, all my mind. I will not treat any of you as offenders; and do not you (any more) help one another to be angry, and form parties to defame me, the One man. 'Of old, my royal predecessor, (Thang), that his merit might exceed that of those who were before him, proceeded to the hill-site. Thereby he removed our evils, and accomplished admirable good for our country. Now you, my people, were by (your position) dissipated and separated, so that you had no abiding place. (And yet) you asked why I was troubling your myriads and requiring you to remove. But God, being about to renew the virtuous service of my high ancestor, and secure the good order of our kingdom, I, with the sincere and respectful (of my ministers), felt a reverent care for the lives of the people, and have made a lasting settlement in (this) new city. 'I, a youth, did not neglect your counsels;—I (only) used the best of them. Nor did any of you presumptuously oppose the decision of the tortoise-shell;—so we are here to enlarge our great inheritance.' 2. 'Oh! ye chiefs of regions, ye heads of departments, all ye, the hundreds of officers, would that ye had a sympathy (with my people)! I will exert myself in the choice and guiding of you;—do ye think reverently of my multitudes. I will not employ those who are fond of enriching themselves; but will use and revere those who are vigorously, yet reverently, labouring for the lives and increase of the people, nourishing them and planning for their enduring settlement. 'I have now brought forward and announced to you my mind, whom I approve and whom I disallow;—let none of you but reverence (my will). Do not seek to accumulate wealth and precious things, but in fostering the life of the people, seek to find your merit. Reverently display your virtue in behalf of the people. For ever maintain this one purpose in your hearts.'</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-023-shang-shu-charge-to-yue-i-forged__alignment-001">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-023-shang-shu-charge-to-yue-i-forged</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">block</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·商書 說命上（僞） [1]</prop>
-      <prop type="x-translation-ref">尚書·商書 說命上（僞） [1]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>王宅憂亮，陰三祀。既免喪，其惟弗言。群臣咸諫于王，曰：「嗚呼！知之曰明哲，明哲實作則。天子惟君萬邦，百官承式。」王言惟作命，不言，臣下罔攸稟令。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>1. The king passed the season of sorrow in the mourning shed for three years, and when the period of mourning was over, he (still) did not speak (to give any commands). All the ministers remonstrated with him, saying, 'Oh! him who is (the first) to apprehend we pronounce intelligent, and the intelligent man is the model for others. The Son of Heaven rules over the myriad regions, and all the officers look up to and reverence him. They are the king's words which form the commands (for them). If he do not speak, the ministers have no way to receive their orders.' On this the king made a writing, for their information, to the following effect:—'As it is mine to serve as the director for the four quarters (of the kingdom), I have been afraid that my virtue is not equal to (that of my predecessors), and therefore have not spoken. (But) while I was reverently and silently thinking of the (right) way, I dreamt that God gave me a good assistant who should speak for me.' He then minutely recalled the appearance (of the person whom he had seen), and caused search to be made for him everywhere by means of a picture. Yüeh, a builder in the wild country of Fû-yen, was found like to it.</seg>
       </tuv>
     </tu>
     <tu tuid="shangshu-023-shang-shu-charge-to-yue-i-forged__alignment-002">
@@ -1462,26 +1262,6 @@
         <seg>1. In the thirteenth year, the king went to enquire of the count of Khî, and said to him, 'Oh! count of Khî, Heaven, (working) unseen, secures the tranquillity of the lower people, aiding them to be in harmony with their condition. I do not know how the unvarying principles (of its method in doing so) should be set forth in due order.' The count of Khî thereupon replied, 'I have heard that in old time Khwăn dammed up the inundating waters, and thereby threw into disorder the arrangement of the five elements. God was consequently roused to anger, and did not give him the Great Plan with its nine divisions, and thus the unvarying principles (of Heaven's method) were allowed to go to ruin. Khwăn was therefore kept a prisoner till his death, and his son Yü rose up (and entered on the same undertaking). To him Heaven gave the Great Plan with its nine divisions, and the unvarying principles (of its method) were set forth in their due order.' 2. '(Of those divisions) the first is called "the five elements;" the second, "reverent attention to the five (personal) matters;" the third, "earnest devotion to the eight (objects of) government;" the fourth, "the harmonious use of the five dividers of time; " the fifth, "the establishment and use of royal perfection;" the sixth, "the discriminating use of the three virtues;" the seventh, "the intelligent use of (the means for) the examination of doubts;" the eighth, "the thoughtful use of the various verifications;" the ninth, "the hortatory use of the five (sources of) happiness, and the awing use of the six (occasions of) suffering."' 3. i. 'First, of the five elements.—The first is water; the second is fire; the third, wood; the fourth, metal; and the fifth, earth. (The nature of) water is to soak and descend; of fire, to blaze and ascend; of wood, to be crooked and straight; of metal, to yield and change; while (that of) earth is seen in seed-sowing and in-gathering. That which soaks and descends becomes salt; that which blazes and ascends becomes bitter; that which is crooked and straight becomes sour; that which yields and changes becomes acrid; and from seed-sowing and in-gathering comes sweetness.'</seg>
       </tuv>
     </tu>
-    <tu tuid="shangshu-034-zhou-shu-great-plan__alignment-002">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-034-zhou-shu-great-plan</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">3</prop>
-      <prop type="x-chinese-ref">尚書·周書 洪範 [7] - 尚書·周書 洪範 [8]</prop>
-      <prop type="x-translation-ref">尚書·周書 洪範 [5] - 尚書·周書 洪範 [7]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>「四、五紀：一曰歲，二曰月，三曰日，四曰星辰，五曰曆數。」「五、皇極：皇建其有極，斂時五福，用敷錫厥庶民。惟時厥庶民于汝極，錫汝保極。凡厥庶民，無有淫朋；人無有比德，惟皇作極。凡厥庶民，有猷有為有守，汝則念之。不協于極，不罹于咎；皇則受之。而康而色，曰『予攸好德。』汝則錫之福。時人斯其惟皇之極。無虐煢獨；而畏高明。人之有能有為，使羞其行，面邦其昌。凡厥正人，既富方穀；汝弗能使有好于而家，時人斯其辜。于其無好德，汝雖錫之福，其作汝用咎。無偏無陂，遵王之義；無有作好，遵王之道；無有作惡，遵王之路。無偏無黨，王道蕩蕩；無黨無偏，王道平平；無反無側，王道正直。會其有極，歸其有極。曰皇極之敷言，是彝是訓，于帝其訓。凡厥庶民，極之敷言，是訓是行，以近天子之光。曰天子作民父母，以為天下王。」</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>ii. 'Second, of the five (personal) matters. The first is the bodily demeanour; the second, speech; the third, seeing; the fourth, hearing; the fifth, thinking. (The virtue of) the bodily appearance is respectfulness; of speech, accordance (with reason); of seeing, clearness; of hearing, distinctness; of thinking, perspicaciousness. The respectfulness becomes manifest in gravity; accordance (with reason), in orderliness; the clearness, in wisdom; the distinctness, in deliberation; and the perspicaciousness, in sageness.' iii. 'Third, of the eight (objects of) government.— The first is food; the second, wealth and articles of convenience; the third, sacrifices; the fourth, (the business of) the Minister of Works; the fifth, (that of) the Minister of Instruction; the sixth, (that of) the Minister of Crime; the seventh, the observances, to be paid to guests; the eighth, the army.' iv. 'Fourth, of the five dividers of time.—The first is the year (or the planet Jupiter); the second, the moon; the third, the sun; the fourth, the stars and planets, and the zodiacal spaces; and the fifth, the calendaric calculations.'</seg>
-      </tuv>
-    </tu>
     <tu tuid="shangshu-034-zhou-shu-great-plan__alignment-003">
       <prop type="x-work-id">shangshu</prop>
       <prop type="x-section-id">shangshu-034-zhou-shu-great-plan</prop>
@@ -1520,26 +1300,6 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>1. After the conquest of Shang, the way being open to the nine tribes of the Î and the eight of the Man, the western tribe of Lü sent as tribute some of its hounds, on which the Grand-Guardian made 'the Hounds of Lü,' by way of instruction to the king. 2. He said, 'Oh! the intelligent kings paid careful attention to their virtue, and the wild tribes on every side acknowledged subjection to them. The nearer and the more remote all presented the productions of their countries,—in robes, food, and vessels for use. The kings then displayed the things thus drawn forth by their virtue, (distributing them) to the (princes of the) states of different surnames from their own, (to encourage them) not to neglect their duties. The (more) precious things and pieces of jade they distributed among their uncles in charge of states, thereby increasing their attachment (to the throne). The recipients did not despise the things, but saw in them the power of virtue. 'Complete virtue allows no contemptuous familiarity. When (a ruler) treats superior men with such familiarity, he cannot get them to give him all their hearts; when he so treats inferior men, he cannot get them to put forth for him all their strength. Let him keep from being in bondage to his ears and eyes, and strive to be correct in all his measures. By trifling intercourse with men, he ruins his virtue; by finding his amusement in things (of mere pleasure), he ruins his aims. His aims should repose in what is right; he should listen to words (also) in their relation to what is right. 'When he does not do what is unprofitable to the injury of what is profitable, his merit can be completed. When he does not value strange things to the contemning things that are useful, his people will be able to supply (all that he needs). (Even) dogs and horses that are not native to his country he will not keep. Fine birds and strange animals he will not nourish in his state. When he does not look on foreign things as precious, foreigners will come to him; when it is real worth that is precious to him, (his own) people near at hand will be in a state of repose. 'Oh! early and late never be but earnest. If you do not attend jealously to your small actions, the result will be to affect your virtue in great matters;—in raising a mound of nine fathoms, the work may be unfinished for want of one basket (of earth). If you really pursue this course (which I indicate), the people will preserve their possessions, and the throne will descend from generation to generation.'</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-036-zhou-shu-metal-bound-coffer__alignment-001">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-036-zhou-shu-metal-bound-coffer</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·周書 金縢 [1] - 尚書·周書 金縢 [2]</prop>
-      <prop type="x-translation-ref">尚書·周書 金縢 [1]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>既克商二年，王有疾，弗豫。二公曰：「我其為王穆卜。」周公曰：「未可以戚我先王。」公乃自以為功，為三壇同墠。為壇於南方，北面周公立焉；植璧秉珪，乃告太王、王季、文王。史乃冊祝曰：「惟爾元孫某，遘厲虐疾；若爾三王，是有丕子之責于天，以旦代某之身。予仁若考，能多材多藝，能事鬼神；乃元孫不若旦多材多藝，不能事鬼神。乃命于帝庭，敷佑四方，用能定爾子孫于下地；四方之民，罔不祗畏。嗚呼！無墜天之降寶命，我先王亦永有依歸。今我即命于元龜，爾之許我，我其以璧與珪，歸俟爾命，爾不許我，我乃屏璧與珪。」</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>King Wû is very ill, and his death seems imminent. His brother, the duke of Kâu, apprehensive of the disasters which such an event would occasion to their infant dynasty, conceives the idea of dying in his stead, and prays to 'the three kings,' their immediate progenitors, that he might be taken and king Wû left. Having done so, and divined that he was heard, he deposits the prayer in the metal-bound coffer. The king gets well, and the duke is also spared; but five years later, Wû does die, and is succeeded by his son, a boy only thirteen years old. Rumours are spread abroad that the duke has designs on the throne, and he withdraws for a time from the court. At length, in the third year of the young king, Heaven interposes. He has occasion to open the coffer, and the prayer of the duke is found. His devotion to his brother and to the interests of their family is brought to light. The boy-monarch weeps because of the unjust suspicions he had harboured, and welcomes the duke back to court, amid unmistakeable demonstrations of the approval of Heaven.</seg>
       </tuv>
     </tu>
     <tu tuid="shangshu-036-zhou-shu-metal-bound-coffer__alignment-002">
@@ -1662,26 +1422,6 @@
         <seg>3. The king says, 'Oh! Făng, deal reverently and intelligently in your infliction of punishments. When men commit small crimes, which are not mischances, but purposed, they of themselves doing what is contrary to the laws intentionally, though their crimes be but small, you may not but put them to death. But in the case of great crimes, which were not purposed, but from mischance and misfortune, accidental, if the transgressors confess their guilt without reserve, you must not put them to death.'</seg>
       </tuv>
     </tu>
-    <tu tuid="shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__alignment-003">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-039-zhou-shu-announcement-to-the-prince-of-kang</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·周書 康誥 [11] - 尚書·周書 康誥 [14]</prop>
-      <prop type="x-translation-ref">尚書·周書 康誥 [5]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>已，汝惟小子，未其有若汝封之心；朕心朕德惟乃知。凡民自得罪，寇攘奸宄，殺越人于貨，昏不畏死：罔弗憝。」王曰：「封。元惡大憝，矧惟不孝不友。子弗祗服厥父事，大傷厥考心；于父不能字厥子，乃疾厥子。于弟弗念天顯，乃弗克恭厥兄；兄亦不念鞠子哀，大不友于弟。惟吊茲，不于我政人得罪；天惟與我民彝大泯亂；曰乃其速由文王作罰，刑茲無赦。不率大戛，矧惟外庶子訓人、惟厥正人、越小臣、諸節，乃別播敷，造民大譽，弗念弗庸，瘝厥君；時乃引惡，惟朕憝。已，汝乃其速由茲義率殺。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>The king says, 'Oh! Făng, there must be the orderly regulation (of this matter). When you show a great discrimination, subduing (men's hearts), the people will admonish one another, and strive to be obedient. (Deal firmly yet tenderly with evil), as if it were a disease in your own person, and the people will entirely put away their faults. (Deal with them) as if you were protecting your own infants, and the people will be tranquil and orderly. It is not you, O Făng, who (can presume to) inflict a (severe) punishment or death upon a man;—do not, to please yourself, so punish a man or put him to death.' Moreover, he says, 'It is not you, O Făng, who (can presume to inflict a lighter punishment), cutting off a man's nose or ears;—do not, to please yourself, cause a man's nose or ears to be cut off.'</seg>
-      </tuv>
-    </tu>
     <tu tuid="shangshu-039-zhou-shu-announcement-to-the-prince-of-kang__alignment-004">
       <prop type="x-work-id">shangshu</prop>
       <prop type="x-section-id">shangshu-039-zhou-shu-announcement-to-the-prince-of-kang</prop>
@@ -1700,26 +1440,6 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>The king says, 'In things beyond (your immediate supervision), have laws set forth which the officers may observe, and these should be the penal laws of Yin which were rightly ordered.' He also says, 'In examining the evidence in (criminal) cases, reflect upon it for five or six days, yea, for ten days or three months. You may then boldly come to a decision in such cases.' The king says, 'In setting forth the business of the laws, the punishments will be determined by (what were) the regular laws of Yin. But you must see that those punishments, and (especially) the penalty of death, be righteous. And you must not let them be warped to agree with your own inclinations, O Făng. Then shall they be entirely accordant with right, and you may say, "They are properly ordered;" yet you must say (at the same time), "Perhaps they are not yet entirely accordant with right." Yes, though you are the little one, who has a heart like you, O Făng? My heart and my virtue are also known to you. 'All who of themselves commit crimes, robbing, stealing, practising villainy and treachery, and who kill men or violently assault them to take their property, being reckless and fearless of death;—these are abhorred by all.' The king says, 'O Făng, such great criminals are greatly abhorred, and how much more (detestable) are the unfilial and unbrotherly!—as the son who does not reverently discharge his duty to his father, but greatly wounds his father's heart, and the father who can (no longer) love his son, but hates him; as the younger brother who does not think of the manifest will of Heaven, and refuses to respect his elder brother, and the elder brother who does not think of the toil of their parents in bringing up their children, and is very unfriendly to his junior. If we who are charged with government do not treat parties who proceed to such wickedness as offenders, the laws (of our nature) given by Heaven to our people will be thrown into great disorder and destroyed. You must resolve to deal speedily with such according to the penal laws of king Wăn, punishing them severely and not pardoning. 'Those who are disobedient (to natural principles) are to be thus subjected to the laws;—how much more the officers employed in your state as the instructors of the youth, the heads of the official departments, and the smaller officers charged with their several commissions, when they propagate other lessons, seeking the praise of the people, not thinking (of their duty), nor using (the rules for their offices), but distressing their ruler! These lead on (the people) to wickedness, and are an abomination to me. Shall they be let alone? Do you speedily, according to what is right, put them to death. 'And you will be yourself ruler and president;—if you cannot manage your own household, with your smaller officers, and the heads of departments in the state, but use only terror and violence, you will greatly set aside the royal charge, and be trying to regulate your state contrary to virtue. You must in everything reverence the statutes, and proceed by them to the happy rule of the people. There were the reverence of king Wăn and his caution;—in proceeding by them to the happy rule of the people, say, "If I could only attain to them—." So will you make me, the One man, to rejoice.' 4. The king says, 'O Făng, when I think clearly of the people, I see that they should be led (by example) to happiness and tranquillity. I think of the virtue of the former wise kings of Yin, whereby they tranquillized and regulated the people, and rouse myself to make it my own. Moreover, the people now are sure to follow a leader. If one do not lead them, he cannot be said to exercise a government in their state.' The king says, 'O Făng, I can not dispense with the inspection (of the ancients), and I make this declaration to you about virtue in the use of punishments. Now the people are not quiet; they have not yet stilled their minds; notwithstanding my leading of them, they have not come to accord (with my government). I clearly consider that severe as are the inflictions of Heaven on me, I dare not murmur. The crimes (of the people), though they were not great or many, (would all be chargeable on me), and how much more shall this be said when the report of them goes up so manifestly to heaven!' The king says, 'Oh! Făng, be reverent! Do not what will cause murmurings; and do not use bad counsels and uncommon ways. With the determination of sincerity, give yourself to imitate the active virtue (of the ancients). Hereby give repose to your mind, examine your virtue, send far forward your plans; and thus by your generous forbearance you will make the people repose in what is good, and I shall not have to blame you or cast you off' 5. The king says, 'Oh! you, Făng, the little one, (Heaven's) appointments are not unchanging. Think of this, and do not make me deprive you of your dignity. Make illustrious the charge which you have received; exalt (the instructions) which you have heard, and tranquillize and regulate the people accordingly.' The king speaks to this effect: 'Go, Făng. Do not disregard the statutes you should reverence; hearken to what I have told you;—so shall you among the people of Yin enjoy (your dignity), and hand it down to your posterity.'</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-040-zhou-shu-announcement-about-drunkenness__alignment-001">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-040-zhou-shu-announcement-about-drunkenness</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">尚書·周書 酒誥 [1] - 尚書·周書 酒誥 [3]</prop>
-      <prop type="x-translation-ref">尚書·周書 酒誥 [1] - 尚書·周書 酒誥 [2]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>王若曰：「明大命于妹邦。乃穆考文王肇國在西土。厥誥毖庶邦庶士越少正御事，朝夕曰：『祀茲酒。惟天降命，肇我民，惟元祀。天降威，我民用大亂喪德，亦罔非酒惟行；越小大邦用喪，亦罔非酒惟辜。』文王誥教小子有正有事：無彝酒。越庶國：飲惟祀，德將無醉。惟曰我民迪小子惟土物愛，厥心臧。聰聽祖考之遺訓，越小大德，小子惟一。妹土，嗣爾股肱，純其藝黍稷，奔走事厥考厥長。肇牽車牛，遠服賈用。孝養厥父母，厥父母慶，自洗腆，致用酒。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>1. The king speaks to the following effect:—'Do you clearly make known my great commands in the country of Mei. 'When your reverent father, the king Wăn, laid the foundations of our kingdom in the western region, he delivered announcements and cautions to (the princes of) the various regions, and to all his (high) officers, with their assistants, and the managers of affairs, saying, morning and evening, "At sacrifices spirits should be employed." When Heaven was sending down its favouring decree, and laying the foundations of (the eminence of) our people, (spirits) were used only at the great sacrifices. When Heaven sends down its terrors, and our people are thereby greatly disorganized and lose their virtue, this may be traced invariably to their indulgence in spirits; yea, the ruin of states, small and great, (by these terrors), has been caused invariably by their guilt in the use of spirits.</seg>
       </tuv>
     </tu>
     <tu tuid="shangshu-040-zhou-shu-announcement-about-drunkenness__alignment-002">
@@ -1800,26 +1520,6 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>2. 'Oh! God (dwelling in) the great heavens has changed his decree respecting his great son and the great dynasty of Yin. Our king has received that decree. Unbounded is the happiness connected with it, and unbounded is the anxiety:—Oh! how can he be other than reverent? 'When Heaven rejected and made an end of the decree in favour of the great dynasty of Yin, there were many of its former wise kings in heaven. The king, however, who had succeeded to them, the last of his race, from the time of his entering into their appointment, proceeded in such a way as at last to keep the wise in obscurity and the vicious in office. The poor people in such a case, carrying their children and leading their wives, made their moan to Heaven. They even fled away, but were apprehended again. Oh! Heaven had compassion on the people of the four quarters; its favouring decree lighted on our earnest (founders). Let the king sedulously cultivate the virtue of reverence. 'Examining the men of antiquity, there was the (founder of the) Hsiâ dynasty. Heaven guided (his mind), allowed his descendants (to succeed him), and protected them. He acquainted himself with Heaven, and was obedient to it. But in process of time the decree in his favour fell to the ground. So also is it now when we examine the case of Yin. There was the same guiding (of its founder), who corrected (the errors of Hsiâ), and (whose descendants) enjoyed the protection (of Heaven). He (also) acquainted himself with Heaven, and was obedient to it. But now the decree in favour of him has fallen to the ground. Our king has now come to the throne in his youth;—let him not slight the aged and experienced, for it may be said of them that they have studied the virtuous conduct of the ancients, and have matured their counsels in the sight of Heaven.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__alignment-002">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-042-zhou-shu-announcement-of-the-duke-of-shao</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">尚書·周書 召誥 [7] - 尚書·周書 召誥 [8]</prop>
-      <prop type="x-translation-ref">尚書·周書 召誥 [4]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>天既遐終大邦殷之命。茲殷多先哲王在天，越厥後王后民，茲服厥命；厥終智藏瘝在。夫知保抱攜持厥婦子，以哀吁天；徂厥亡出執。」「嗚呼！天亦哀于四方民，其眷命用懋，王其疾敬德。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>'Oh! although the king is young, yet he is the great son (of God). Let him effect a great harmony with the lower people, and that will be the blessing of the present time. Let not the king presume to be remiss in this, but continually regard and stand in awe of the perilous (uncertainty) of the people's (attachment).</seg>
       </tuv>
     </tu>
     <tu tuid="shangshu-042-zhou-shu-announcement-of-the-duke-of-shao__alignment-003">

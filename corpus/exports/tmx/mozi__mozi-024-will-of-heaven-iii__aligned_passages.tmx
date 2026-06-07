@@ -542,7 +542,47 @@
         <seg>When the state is poor the cakes and wine will be unclean. When the people are few the worshippers of God and the spirits will be reduced in number. And when jurisdiction is in disorder the sacrifice will not be made according to season. Moreover, the worship of God and the spirits is now even prohibited. When the government is run like this, God and the spirits would deliberate from on high, saying: Which is better, to have these people exist or not to have them exist?</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0030">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">5</prop>
+      <prop type="x-chinese-ref">24.97 - 24.100</prop>
+      <prop type="x-translation-ref">24.91 - 24.95</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是以天下之庶國，莫以水火、毒藥、兵刃以相害也。若事上利天，中利鬼，下利人，三利而無所不利，是謂天德。故凡從事此者，聖知也，仁義也，忠惠也，慈孝也，是故聚斂天下之善名而加之。是其故何也？</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>When the state is poor the cakes and wine will be unclean. When the people are few the worshippers of God and the spirits will be reduced in number. And when jurisdiction is in disorder the sacrifice will not be made according to season. Moreover, the worship of God and the spirits is now even prohibited. When the government is run like this, God and the spirits would deliberate from on high, saying: Which is better, to have these people exist or not to have them exist?</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0028">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">5</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">24.101 - 24.105</prop>
+      <prop type="x-translation-ref">24.96 - 24.101</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>則順天之意也。曰：力正者何若？曰：大則攻小也，強則侮弱也，眾則賊寡也，詐則欺愚也，貴則傲賤也，富則驕貧也，壯則奪老也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>It really makes no difference whether they exist or not." Therefore God and spirits will send judgment upon them and visit them with calamities and punish and desert them. Is not this quite in place? Therefore the ancient sage-kings authorized the code of laws regarding the burial of the dead thus: The coffin shall be three inches thick, sufficient to hold the body. As to shrouds there shall be three pieces adequate to cover the corpse. It shall not be buried so deep as to reach water and neither so shallow as to allow the odour to ascend. Three feet in size shall be big enough for the mound.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0031">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -582,7 +622,7 @@
         <seg>There shall be no extended mourning after burial, but speedy return to work and pursuit in what one can do to procure mutual benefit. Such are the laws of the sage-kings. Those who uphold elaborate funerals and extended mourning say: Although elaborate fimerals and extended mourning cannot enrich the poor, increase the few, remove danger and regulate disorder, yet they were a principle of the sage-kings." Motse replied; Not at all. Anciently, Yao went north to instruct the eight tribes of Ti. He died on the way and was buried in the shade of Mt.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-024-will-of-heaven-iii__align-0030">
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0034">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -592,34 +632,14 @@
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
       <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">24.109 - 24.110</prop>
-      <prop type="x-translation-ref">24.107</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>是其故何也？則反天之意也。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>Of shrouds there were three pieces.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-024-will-of-heaven-iii__align-0031">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-target-segment-count">5</prop>
       <prop type="x-chinese-ref">24.111 - 24.112</prop>
-      <prop type="x-translation-ref">24.108 - 24.113</prop>
+      <prop type="x-translation-ref">24.108 - 24.112</prop>
       <tuv xml:lang="zh-Hant">
         <seg>故子墨子置立天之，以為儀法，若輪人之有規，匠人之有矩也。今輪人以規，匠人以矩，以此知方圜之別矣。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>The coffin was of soft wood, and sealed with flax linen. Weeping started only after burial. There was no mound, only the pit was filled up. After burial, oxen and horses plodded over it. Shun went west to instruct the seven tribes of Jung. He died on the way and was buried in the market place of Nan Chi.</seg>
+        <seg>The coffin was of soft wood, and sealed with flax linen. Weeping started only after burial. There was no mound, only the pit was filled up. After burial, oxen and horses plodded over it. Shun went west to instruct the seven tribes of Jung.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0032">
@@ -642,6 +662,26 @@
         <seg>Of shrouds there were three pieces. The coffin was of soft wood and sealed with flax linen. After burial the people in the market place walked over it. Yu went east to instruct the nine tribes of Yi. He died on the way and was buried at Mt. Of clothing there were three pieces. The coffin was of t"nng wood and sealed with flax linen.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0035">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">24.113 - 24.115</prop>
+      <prop type="x-translation-ref">24.113 - 24.118</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>是故子墨子置立天之，以為儀法，吾以此知天下之士君子之去義遠也！何以知天下之士君子之去義遠也？今知氏大國之君寬者然曰：</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>He died on the way and was buried in the market place of Nan Chi. Of shrouds there were three pieces. The coffin was of soft wood and sealed with flax linen. After burial the people in the market place walked over it. Yu went east to instruct the nine tribes of Yi. He died on the way and was buried at Mt. Of clothing there were three pieces.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0033">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
@@ -662,46 +702,6 @@
         <seg>It did not crush when bound, and it did not sink in when pressed. The pit was not deep enough to strike water and not so shallow as to allow the odour to ascend. When the coffin had been buried, the remaining earth was gathered on it, and the mound was three feet high and no more. So, to judge according to these three sage-kings, elaborate funerals and extended mourning were really not the way of the sage-kings. These three sage-kings held the rank of Sons of Heaven and possessed the whole empire, yet they authorized their burial in this way; was it because of any fear of lack of means? The way in which the present rulers are buried is quite different from this.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-024-will-of-heaven-iii__align-0034">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">24.119 - 24.120</prop>
-      <prop type="x-translation-ref">24.126</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>丈夫以為僕圉，婦人以為舂酋。則夫好攻伐之君，不知此為不仁義，以告四鄰諸侯曰：</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>There are the outer and the inner coffins, and then the three layers of hide and embroidered covers.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-024-will-of-heaven-iii__align-0035">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">24.121 - 24.123</prop>
-      <prop type="x-translation-ref">24.127</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>「吾攻國覆軍，殺將若干人矣。」其鄰國之君，亦不知此為不仁義也，有具其皮幣，發其總遽，使人饗賀焉。則夫好攻伐之君，有重不知此為不仁不義也，有書之竹帛，藏之府庫。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>When the stones and jade are all collected, there are yet to be completed the spears, swords, tings, pots and ice receptacles, and ten thousand of decorated reins and yokes, and the carriages, horses, and the chorus girls.</seg>
-      </tuv>
-    </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0036">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
@@ -711,15 +711,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">4</prop>
-      <prop type="x-target-segment-count">4</prop>
-      <prop type="x-chinese-ref">24.124 - 24.127</prop>
-      <prop type="x-translation-ref">24.128 - 24.131</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">24.116 - 24.118</prop>
+      <prop type="x-translation-ref">24.119 - 24.124</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>為人後子者，必且欲順其先君之行，曰：「何不當發吾府庫，視吾先君之法美？」必不曰文、武之為正者若此矣，曰「吾攻國覆軍，殺將若干人矣」。則夫好攻伐之君不知此為不仁不義也，其鄰國之君不知此為不仁不義也，是以攻伐世世而不已者。</seg>
+        <seg>「吾處大國而不攻小國，吾何以為大哉？」是以差論蚤牙之士，比列其舟車之卒，以攻伐無罪之國，入其溝境，刈其禾稼，斬其樹木，殘其城郭以御其溝池，焚燒其祖廟，攘殺其犧牷。民之格者則剄拔之，不格者則系操而歸。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Then, there must be built the tunnel to reach under the tomb which is as high as a hill. This interferes with people's work and wastes people's wealth to such a great extent. How indeed is this to be avoided? So Motse said: I have already said that if, in adopting the doctrine and practising the principle, elaborate funeral and extended mourning really could enrich the poor, increase the few, remove danger and regulate disorder, they would be magnanimous, righteous, and the duty of the filial son.</seg>
+        <seg>The coffin was of t"nng wood and sealed with flax linen. It did not crush when bound, and it did not sink in when pressed. The pit was not deep enough to strike water and not so shallow as to allow the odour to ascend. When the coffin had been buried, the remaining earth was gathered on it, and the mound was three feet high and no more. So, to judge according to these three sage-kings, elaborate funerals and extended mourning were really not the way of the sage-kings. These three sage-kings held the rank of Sons of Heaven and possessed the whole empire, yet they authorized their burial in this way; was it because of any fear of lack of means?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0037">
@@ -731,15 +731,35 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
+      <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">24.128</prop>
-      <prop type="x-translation-ref">24.132</prop>
+      <prop type="x-chinese-ref">24.119 - 24.120</prop>
+      <prop type="x-translation-ref">24.125</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>此吾所謂大物則不知也。</seg>
+        <seg>丈夫以為僕圉，婦人以為舂酋。則夫好攻伐之君，不知此為不仁義，以告四鄰諸侯曰：</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Those who give counsel could not but encourage them.</seg>
+        <seg>The way in which the present rulers are buried is quite different from this.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0039">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">24.125 - 24.128</prop>
+      <prop type="x-translation-ref">24.129 - 24.134</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>「何不當發吾府庫，視吾先君之法美？」必不曰文、武之為正者若此矣，曰「吾攻國覆軍，殺將若干人矣」。則夫好攻伐之君不知此為不仁不義也，其鄰國之君不知此為不仁不義也，是以攻伐世世而不已者。此吾所謂大物則不知也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>This interferes with people's work and wastes people's wealth to such a great extent. How indeed is this to be avoided? So Motse said: I have already said that if, in adopting the doctrine and practising the principle, elaborate funeral and extended mourning really could enrich the poor, increase the few, remove danger and regulate disorder, they would be magnanimous, righteous, and the duty of the filial son. Those who give counsel could not but encourage them. (On the other hand,) if, in adopting the doctrine and practising the principle, elaborate funeral and extended m really cannot enrich the poor, increase the few, remove danger and regulate disorder, they are not magnanimous, righteous, and the duty of the filial son. Those who are to give counsel cannot but discourage it.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0038">
@@ -762,7 +782,7 @@
         <seg>(On the other hand,) if, in adopting the doctrine and practising the principle, elaborate funeral and extended m really cannot enrich the poor, increase the few, remove danger and regulate disorder, they are not magnanimous, righteous, and the duty of the filial son. Those who are to give counsel cannot but discourage it. Now, (we have seen) that to seek to enrich a country thereby brings about poverty; to seek to increase the people thereby results in a decrease; and to seek to regulate government thereby begets disorder. To seek to prevent the large states from attacking the small ones by this way is impossible on the one hand, and, on the other, to seek to procure blessing from God and the spirits through it only brings calamity. When we look up and examine the ways of Yao, Shun, Yii, T’ang, Wen, and Wu, we find it is diametrically opposed to (these). But when we look down and examine the regimes of Chieh, Chow, Yu, and Li, we find it agrees with these like two parts of a tally.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-024-will-of-heaven-iii__align-0039">
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0041">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -771,15 +791,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-source-segment-count">3</prop>
       <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">24.135 - 24.136</prop>
-      <prop type="x-translation-ref">24.139</prop>
+      <prop type="x-chinese-ref">24.133 - 24.135</prop>
+      <prop type="x-translation-ref">24.136</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>與角人之府庫，竊人之金玉蚤絫者乎！與逾人之欄牢，竊人之牛馬者乎！</seg>
+        <seg>不與其勞，獲其實，已非其有所取之故。而況有逾於人之牆垣，抯格人之子女者乎！與角人之府庫，竊人之金玉蚤絫者乎！</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>So, judging from these, elaborate funeral and extended mourning are not the way of the sagekings.</seg>
+        <seg>To seek to prevent the large states from attacking the small ones by this way is impossible on the one hand, and, on the other, to seek to procure blessing from God and the spirits through it only brings calamity.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0040">
@@ -802,7 +822,7 @@
         <seg>Those who uphold elaborate funeral and extended mourning are saying: ‘ ‘ If the elaborate funerals and extended mourning were not the way of the sage-kings, why then do the gentlemen of the Middle Kingdom practise them continually and follow them without discrimination I " Motse said: This is because habit affords convenience and custom carries approval. Anciently, east of the state to the Chinese Empire in contrast to the surrounding barbarian tribes, and semi-barbarian states like Chu and Yiieh. of Yiieli there was the tribe of Kai Shn. Among them the first-born son was dismembered and devoured after birth and this was said to be propitious for his younger brothers. When the father died the mother was carried away and abandoned, and the reason was that one should not live with the wife of a ghost. By the officials this was regarded as a government regulation and by the people it was accepted as a commonplace. They practised it continually and followed it without discrimination.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-024-will-of-heaven-iii__align-0041">
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0044">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -811,15 +831,15 @@
       <prop type="x-is-coarse-alignment">false</prop>
       <prop type="x-alignment-type">exact_or_near_exact</prop>
       <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">1</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">24.140</prop>
-      <prop type="x-translation-ref">24.146 - 24.147</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">24.139 - 24.140</prop>
+      <prop type="x-translation-ref">24.143 - 24.146</prop>
       <tuv xml:lang="zh-Hant">
-        <seg>此為逾人之牆垣，格人之子女者，與角人府庫，竊人金玉蚤絫者數千萬矣！</seg>
+        <seg>今天下之諸侯，將猶皆侵凌攻伐兼併，此為殺一不辜人者數千萬矣！此為逾人之牆垣，格人之子女者，與角人府庫，竊人金玉蚤絫者數千萬矣！</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Was it then the good and the right way? No, this is really because habit affords convenience and custom carries approval.</seg>
+        <seg>When the father died the mother was carried away and abandoned, and the reason was that one should not live with the wife of a ghost. By the officials this was regarded as a government regulation and by the people it was accepted as a commonplace. They practised it continually and followed it without discrimination. Was it then the good and the right way?</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0042">
@@ -842,6 +862,26 @@
         <seg>South of Ch’u there was a cannibal tribe. Upon the death of the parents the flesh was scraped off and thrown away, while the bones were buried. And by following this custom one became a filial son. West of the state of Ch’in there was the tribe of Yi Ch’ii. Upon their death the parents were burned on a bonfire and amidst the smoke, and this was said to be ascension to the golden clouds. In this way one became a filial son.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0045">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">4</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">24.141 - 24.144</prop>
+      <prop type="x-translation-ref">24.147 - 24.152</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>逾人之欄牢，竊人之牛馬者，與入人之場園，竊人之桃李瓜薑者數千萬矣！而自曰義也。故子墨子言曰：是蕡我者，則豈有以異是蕡黑白甘苦之辯者哉！</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>No, this is really because habit affords convenience and custom carries approval. South of Ch’u there was a cannibal tribe. Upon the death of the parents the flesh was scraped off and thrown away, while the bones were buried. And by following this custom one became a filial son. West of the state of Ch’in there was the tribe of Yi Ch’ii. Upon their death the parents were burned on a bonfire and amidst the smoke, and this was said to be ascension to the golden clouds.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0043">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
@@ -862,27 +902,7 @@
         <seg>The officials embodied it in the government regulations and the people regarded it as a commonplace. They practised it continually and followed it without discrimination. Is it then the good and the right way? No, this is really because habit affords convenience and custom carries approval. Now, the practice of these three tribes is too heartless and that of the gentlemen of the Middle Kingdom is too elaborate.</seg>
       </tuv>
     </tu>
-    <tu tuid="mozi-024-will-of-heaven-iii__align-0044">
-      <prop type="x-work-id">mozi</prop>
-      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
-      <prop type="x-section-unit">chapter</prop>
-      <prop type="x-segment-type">sentence</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">0.93</prop>
-      <prop type="x-source-segment-count">2</prop>
-      <prop type="x-target-segment-count">1</prop>
-      <prop type="x-chinese-ref">24.147 - 24.148</prop>
-      <prop type="x-translation-ref">24.159</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>今王公大人之政也，或殺人，其國家禁之。此蚤越有能多殺其鄰國之人，因以為文義。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>This being too elaborate and that being to heartless, then there should be rules for funerals and burials.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="mozi-024-will-of-heaven-iii__align-0045">
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0048">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
       <prop type="x-section-unit">chapter</prop>
@@ -894,12 +914,12 @@
       <prop type="x-source-segment-count">2</prop>
       <prop type="x-target-segment-count">1</prop>
       <prop type="x-chinese-ref">24.149 - 24.150</prop>
-      <prop type="x-translation-ref">24.160</prop>
+      <prop type="x-translation-ref">24.159</prop>
       <tuv xml:lang="zh-Hant">
         <seg>此豈有異蕡白黑、甘苦之別者哉！故子墨子置天之，以為儀法。</seg>
       </tuv>
       <tuv xml:lang="en">
-        <seg>Even regarding clothing and food, which are the necessities of life, there are rules.</seg>
+        <seg>This being too elaborate and that being to heartless, then there should be rules for funerals and burials.</seg>
       </tuv>
     </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0046">
@@ -922,6 +942,26 @@
         <seg>How then can there be none regarding funerals and burials, which are the necessities of death? Outlining the rules for funerals and burials, Motse said; The coffin shall be three inches thick, just sufficient to hold the rotting bones. Of shrouds there shall be three pieces just to be enough to hold the rotting flesh. The pit shall be dug not so deep as to strike water, and not so shallow as to allow the odour to ascend.</seg>
       </tuv>
     </tu>
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0049">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">3</prop>
+      <prop type="x-target-segment-count">4</prop>
+      <prop type="x-chinese-ref">24.151 - 24.153</prop>
+      <prop type="x-translation-ref">24.160 - 24.163</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>非獨子墨子以天之志為法也，於先王之書《大夏》之道之然：「帝謂文王，予懷明德，毋大聲以色，毋長夏以革，不識不知，順帝之則。」此誥文王之以天志為法也，而順帝之則也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Even regarding clothing and food, which are the necessities of life, there are rules. How then can there be none regarding funerals and burials, which are the necessities of death? Outlining the rules for funerals and burials, Motse said; The coffin shall be three inches thick, just sufficient to hold the rotting bones. Of shrouds there shall be three pieces just to be enough to hold the rotting flesh.</seg>
+      </tuv>
+    </tu>
     <tu tuid="mozi-024-will-of-heaven-iii__align-0047">
       <prop type="x-work-id">mozi</prop>
       <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
@@ -940,6 +980,26 @@
       </tuv>
       <tuv xml:lang="en">
         <seg>The mound shall be just high enough to be identified (by the mourners). There may be weeping on the way to and from the burial. But upon returning they shall engage in earning the means of livelihood. Sacrifices shall not be neglected in order to express one’s filial piety to parents. Thus the rules of Motse neglect the necessities of neither the dead nor the living. Hence, Motse said: If the gentlemen of the world really want to practise righteousness and magnanimity, and to seek to be superior men, desiring to attain the way of the sage-kings on the one hand and to procure blessings for the people on the other, they cannot afford to neglect the principle of Simplicity in Funeral in government.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="mozi-024-will-of-heaven-iii__align-0050">
+      <prop type="x-work-id">mozi</prop>
+      <prop type="x-section-id">mozi-024-will-of-heaven-iii</prop>
+      <prop type="x-section-unit">chapter</prop>
+      <prop type="x-segment-type">sentence</prop>
+      <prop type="x-alignment-granularity">grouped</prop>
+      <prop type="x-is-coarse-alignment">false</prop>
+      <prop type="x-alignment-type">exact_or_near_exact</prop>
+      <prop type="x-confidence">0.93</prop>
+      <prop type="x-source-segment-count">2</prop>
+      <prop type="x-target-segment-count">6</prop>
+      <prop type="x-chinese-ref">24.154 - 24.155</prop>
+      <prop type="x-translation-ref">24.164 - 24.169</prop>
+      <tuv xml:lang="zh-Hant">
+        <seg>且今天下之士君子，中實將欲為仁義，求為上士，上欲中聖王之道，下欲中國家百姓之利者，當天之志而不可不察也。天之志者，義之經也。</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>The pit shall be dug not so deep as to strike water, and not so shallow as to allow the odour to ascend. The mound shall be just high enough to be identified (by the mourners). There may be weeping on the way to and from the burial. But upon returning they shall engage in earning the means of livelihood. Sacrifices shall not be neglected in order to express one’s filial piety to parents. Thus the rules of Motse neglect the necessities of neither the dead nor the living.</seg>
       </tuv>
     </tu>
   </body>

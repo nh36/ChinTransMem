@@ -7,10 +7,10 @@
 - Monolithic promotion occurred: False
 - Deterministic QC status: pass
 - Deterministic QC hard failures: 0
-- Deterministic QC issue count: 2
+- Deterministic QC issue count: 0
 - Alignment review method: heuristic high-risk review (entity sequence, succession formula, witness quality, and anchor order; no remote LLM reviewer used)
 - Alignment review count: 46
-- Alignment review failed high-risk alignments: 1
+- Alignment review failed high-risk alignments: 0
 - Reviewed fallback alignments: 0
 - Named-entity drift reviews run: 46
 - Named-entity drift issues detected: 10
@@ -21,13 +21,13 @@
 - Shiji witness-quality issues repaired: 88
 - Shiji witness-quality issues remaining: 0
 - Name-gloss handling: stripped_from_translation_text_raw_preserved
-- Automatic repairs applied: 89
+- Automatic repairs applied: 0
 - Curated repairs applied: 0
 - Remaining OCR issues: 0
 - Remaining leakage issues: 0
 - Remaining drift issues: 0
 - Promotion ready: True
-- Promotion target state: candidate_qc_failed
+- Promotion target state: candidate_ready_for_promotion
 - Active corpus QC status: pass
 - Candidate/active export agreement: True
 
@@ -39,20 +39,12 @@
 
 ## Alignment review classifications
 
-- `pass`: 45
-- `semantic_drift`: 1
+- `pass`: 46
 
 ## Promotion blockers
 
-- deterministic candidate QC has 2 hard failures
-- alignment review found 1 failed high-risk alignments
+- None
 
 ## Candidate vs active agreement
 
-- candidate and active corpus QC hard_failure_count differ
-- candidate and active exact alignment counts differ
-- candidate and active promoted section count differ (2 != 1)
-- candidate and active promoted section ids differ
-- candidate and active section export differ for shiji-003-annals-of-yin (csv)
-- candidate and active section export differ for shiji-003-annals-of-yin (jsonl)
-- candidate and active section export differ for shiji-003-annals-of-yin (tmx)
+- Candidate and active promoted exports match on counts and file content.

@@ -2,26 +2,6 @@
 <tmx version="1.4">
   <header creationtool="ChinTransMem" creationtoolversion="0.2.0" segtype="sentence" o-tmf="ChinTransMem-shangshu" adminlang="en" srclang="zh-Hant" datatype="PlainText" />
   <body>
-    <tu tuid="shangshu-040-zhou-shu-announcement-about-drunkenness__alignment-001">
-      <prop type="x-work-id">shangshu</prop>
-      <prop type="x-section-id">shangshu-040-zhou-shu-announcement-about-drunkenness</prop>
-      <prop type="x-section-unit">section</prop>
-      <prop type="x-segment-type">block</prop>
-      <prop type="x-alignment-granularity">grouped</prop>
-      <prop type="x-is-coarse-alignment">false</prop>
-      <prop type="x-alignment-type">exact_or_near_exact</prop>
-      <prop type="x-confidence">1.00</prop>
-      <prop type="x-source-segment-count">3</prop>
-      <prop type="x-target-segment-count">2</prop>
-      <prop type="x-chinese-ref">尚書·周書 酒誥 [1] - 尚書·周書 酒誥 [3]</prop>
-      <prop type="x-translation-ref">尚書·周書 酒誥 [1] - 尚書·周書 酒誥 [2]</prop>
-      <tuv xml:lang="zh-Hant">
-        <seg>王若曰：「明大命于妹邦。乃穆考文王肇國在西土。厥誥毖庶邦庶士越少正御事，朝夕曰：『祀茲酒。惟天降命，肇我民，惟元祀。天降威，我民用大亂喪德，亦罔非酒惟行；越小大邦用喪，亦罔非酒惟辜。』文王誥教小子有正有事：無彝酒。越庶國：飲惟祀，德將無醉。惟曰我民迪小子惟土物愛，厥心臧。聰聽祖考之遺訓，越小大德，小子惟一。妹土，嗣爾股肱，純其藝黍稷，奔走事厥考厥長。肇牽車牛，遠服賈用。孝養厥父母，厥父母慶，自洗腆，致用酒。</seg>
-      </tuv>
-      <tuv xml:lang="en">
-        <seg>1. The king speaks to the following effect:—'Do you clearly make known my great commands in the country of Mei. 'When your reverent father, the king Wăn, laid the foundations of our kingdom in the western region, he delivered announcements and cautions to (the princes of) the various regions, and to all his (high) officers, with their assistants, and the managers of affairs, saying, morning and evening, "At sacrifices spirits should be employed." When Heaven was sending down its favouring decree, and laying the foundations of (the eminence of) our people, (spirits) were used only at the great sacrifices. When Heaven sends down its terrors, and our people are thereby greatly disorganized and lose their virtue, this may be traced invariably to their indulgence in spirits; yea, the ruin of states, small and great, (by these terrors), has been caused invariably by their guilt in the use of spirits.</seg>
-      </tuv>
-    </tu>
     <tu tuid="shangshu-040-zhou-shu-announcement-about-drunkenness__alignment-002">
       <prop type="x-work-id">shangshu</prop>
       <prop type="x-section-id">shangshu-040-zhou-shu-announcement-about-drunkenness</prop>
